@@ -1,0 +1,149 @@
+* {
+  background-color: white;
+}
+
+/* Navigation Start*/
+
+.navEntry {
+  font-size: 24px;
+  color: grey;
+  position: relative;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 5px;
+  margin-top: 2px;
+  background-color: none;
+}
+
+.mainbox {
+  background-color: none;
+}
+
+.logo {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.navEntries {
+  margin-left: 35%;
+
+  background-color: none;
+}
+
+.filterDiv {
+  background: url("./homepage.jpg") no-repeat fixed;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+  /* filter: alpha(opacity=20); */
+}
+
+/* Navigation END*/
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:active {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+/* footer start */
+
+.footer {
+  bottom: 0px;
+  position: absolute;
+  background-color: lightgrey;
+  width: 100%;
+  text-align: center;
+}
+
+/* footer end */
+
+/* MONITOR ANIMATION START */
+
+h2:before {
+  font-size: 80px;
+  color: grey;
+  content: "";
+
+  animation-name: head;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: fixed;
+  font-family: monospace;
+  top: 400px;
+  left: 550px;
+  z-index: 1;
+}
+
+@keyframes head {
+  0% {
+    font-size: 150%;
+    opacity: 0;
+    content: "";
+  }
+  10% {
+    font-size: 150%;
+    opacity: 1;
+    content: "SEARCH ENGINE OPTIMIZATION";
+  }
+  30% {
+    font-size: 175%;
+    opacity: 1;
+    content: "COMPETITOR ANALYSIS";
+  }
+
+  40% {
+    font-size: 200%;
+    opacity: 1;
+    content: "KEYWORD RESEARCH";
+  }
+
+  50% {
+    font-size: 200%;
+    opacity: 1;
+    content: "BACKLINK AUDIT";
+  }
+
+  60% {
+    font-size: 200%;
+    opacity: 1;
+    content: "TECHNICAL SEO";
+  }
+  70% {
+    font-size: 200%;
+    opacity: 1;
+    content: "ON-PAGE SEO";
+  }
+  80% {
+    font-size: 200%;
+    opacity: 1;
+    content: "ANALYTICS";
+  }
+  90% {
+    font-size: 200%;
+    content: "";
+
+    opacity: 1;
+  }
+}
+
+/* MONITOR ANIMATION END */
