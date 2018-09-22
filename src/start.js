@@ -6,7 +6,7 @@ import { createStore, applyMiddleware } from "redux";
 import reduxPromise from "redux-promise";
 // import reducer from "./reducers";
 import { composeWithDevTools } from "redux-devtools-extension";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import { IntlProvider, FormattedMessage } from "react-intl";
 
 // const store = createStore(
@@ -16,9 +16,9 @@ import { IntlProvider, FormattedMessage } from "react-intl";
 
 let elem = (
   // <Provider store={store}>
-  <IntlProvider>
-    <App />
-  </IntlProvider> // </Provider>
+  // <IntlProvider>
+  <App />
+  // </IntlProvider> // </Provider>
 );
 
 ReactDOM.render(elem, document.querySelector("main"));

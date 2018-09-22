@@ -1,0 +1,42 @@
+@media (max-width: 750px) {
+  .txt {
+    font-size: 17px;
+    color: white;
+    background-color: orange;
+    margin: 2px;
+    margin-left: 10%;
+  }
+
+  .intro {
+    position: fixed;
+    bottom: 200px;
+    background-color: orange;
+    width: 95%;
+    height: 17%;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 20px;
+  }
+
+  .navEntry {
+    font-size: 12px;
+    margin-left: 5%;
+  }
+
+  .filterDiv {
+    background: url("./apple.jpg") repeat fixed;
+    position: fixed;
+    width: 100%;
+    display: ;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    opacity: 1;
+    z-index: -1;
+    /* filter: alpha(opacity=20); */
+  }
+}

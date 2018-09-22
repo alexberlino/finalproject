@@ -23,12 +23,11 @@ class App extends Component {
     this.state = {};
   }
 
-
   render() {
-      const { t, i18n } = this.props;
-      const changeLanguage = (lng) => {
-      i18n.changeLanguage(lng);
-
+    // const { t, i18n } = this.props;
+    // const changeLanguage = lng => {
+    //   i18n.changeLanguage(lng);
+    // };
 
     return (
       <div>

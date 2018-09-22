@@ -14,6 +14,8 @@ class Contact extends Component {
           <meta charSet="utf-8" />
           <title>Contact</title>
         </Helmet>
+
+        <div className="mainBox">Get in touch</div>
       </div>
     );
   }

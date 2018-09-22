@@ -1,50 +1,7 @@
 * {
   background-color: white;
+  font-family: bariolregular;
 }
-
-/* Navigation Start*/
-
-.navEntry {
-  font-size: 24px;
-  color: grey;
-  position: relative;
-  display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-decoration: none;
-  padding: 5px;
-  margin-top: 2px;
-  background-color: none;
-}
-
-.mainbox {
-  background-color: none;
-}
-
-.logo {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-}
-.navEntries {
-  margin-left: 35%;
-
-  background-color: none;
-}
-
-.filterDiv {
-  background: url("./homepage.jpg") no-repeat fixed;
-  position: absolute;
-  width: 100%;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  opacity: 0.7;
-  z-index: -1;
-  /* filter: alpha(opacity=20); */
-}
-
-/* Navigation END*/
 
 a {
   color: grey;
@@ -62,9 +19,176 @@ a:active {
 }
 
 a:hover {
-  color: orange;
+  color: #ff851b;
   text-decoration: none;
 }
+
+/* Navigation Start*/
+
+.navEntry {
+  font-size: 14px;
+  color: grey;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  padding-top: 0px;
+  top: 0px;
+  z-index: 20;
+  background-color: white;
+}
+
+.mainBox {
+  background-color: none;
+  margin-top: 10%;
+  margin-left: 5%;
+  z-index: 20;
+}
+
+.logo {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.navEntries {
+  margin-left: 25%;
+  top: 0px;
+  padding: 10px 10px;
+  position: relative;
+  overflow: hidden;
+
+  height: 160px;
+  background-color: none;
+  z-index: 20;
+}
+
+.navEntries a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+
+  border-radius: 120px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+
+  color: black;
+  padding: 0px 10px;
+  background-color: none;
+  z-index: 20;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navEntries a:hover,
+.dropdown:hover .dropbtn {
+  background-color: black;
+  color: white;
+  z-index: 10;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  border-radius: 120px;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  background-color: none;
+  padding: 12px 12px;
+  text-decoration: none;
+  overflow: visible;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: black;
+  color: white;
+  overflow: visible;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  overflow: visible;
+}
+
+/* Navigation END*/
+
+/* HOMEPAGE start */
+.filterDiv {
+  background: url("./apple.jpg") no-repeat fixed;
+  position: fixed;
+  width: 100%;
+  display: ;
+  top: 0px;
+  left: 0px;
+  height: 90%;
+  opacity: 1;
+  z-index: -1;
+  /* filter: alpha(opacity=20); */
+}
+.intro {
+  background-color: #ff851b;
+  opacity: 0.6;
+  position: fixed;
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  bottom: 30px;
+}
+
+.container {
+  position: relative;
+}
+.txt {
+  font-size: 19px;
+  color: black;
+  background-color: #ff851b;
+  margin: 1px;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+.buttonHP {
+  background-color: none;
+  color: #ff8c00;
+  left: 900px;
+  bottom: 10%;
+  z-index: 10;
+  position: fixed;
+  height: 30px;
+  width: 180px;
+  font-size: 17px;
+
+  border-radius: 120px;
+  border: white 2px solid;
+}
+
 /* footer start */
 
 .footer {
@@ -73,6 +197,7 @@ a:hover {
   background-color: lightgrey;
   width: 100%;
   text-align: center;
+  color: grey;
 }
 
 /* footer end */
@@ -80,66 +205,67 @@ a:hover {
 /* MONITOR ANIMATION START */
 
 h2:before {
-  font-size: 80px;
-  color: grey;
+  color: #ff851b;
   content: "";
 
-  animation-name: head;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
+  -webkit-animation-name: head;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
   position: fixed;
   font-family: monospace;
-  top: 400px;
-  left: 550px;
+  top: 330px;
+  left: 450px;
   z-index: 1;
 }
 
-@keyframes head {
+@-webkit-keyframes head {
   0% {
-    font-size: 150%;
+    font-size: 100%;
     opacity: 0;
     content: "";
   }
   10% {
-    font-size: 150%;
+    font-size: 100%;
     opacity: 1;
     content: "SEARCH ENGINE OPTIMIZATION";
   }
   30% {
-    font-size: 175%;
+    font-size: 100%;
     opacity: 1;
     content: "COMPETITOR ANALYSIS";
   }
 
   40% {
-    font-size: 200%;
+    font-size: 100%;
     opacity: 1;
     content: "KEYWORD RESEARCH";
   }
 
   50% {
-    font-size: 200%;
+    font-size: 100%;
     opacity: 1;
     content: "BACKLINK AUDIT";
   }
 
   60% {
-    font-size: 200%;
+    font-size: 100%;
     opacity: 1;
     content: "TECHNICAL SEO";
   }
   70% {
-    font-size: 200%;
+    font-size: 100%;
     opacity: 1;
     content: "ON-PAGE SEO";
   }
   80% {
-    font-size: 200%;
+    font-size: 100%;
     opacity: 1;
     content: "ANALYTICS";
   }
   90% {
-    font-size: 200%;
+    font-size: 100%;
     content: "";
 
     opacity: 1;
