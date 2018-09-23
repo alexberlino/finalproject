@@ -23,11 +23,19 @@ a:hover {
   text-decoration: none;
 }
 
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+
 /* Navigation Start*/
 
 .navEntry {
-  font-size: 14px;
+  font-size: 13px;
   color: grey;
+  vertical-align: middle;
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
@@ -57,7 +65,7 @@ a:hover {
   position: relative;
   overflow: hidden;
 
-  height: 160px;
+  height: 165px;
   background-color: none;
   z-index: 20;
 }
@@ -84,6 +92,7 @@ a:hover {
   font-size: 16px;
   border: none;
   outline: none;
+  height: 12px;
 
   color: black;
   padding: 0px 10px;
@@ -231,10 +240,16 @@ h2:before {
     opacity: 1;
     content: "SEARCH ENGINE OPTIMIZATION";
   }
+  20% {
+    font-size: 100%;
+    opacity: 1;
+    content: "FREELANCER IN BERLIN";
+  }
+
   30% {
     font-size: 100%;
     opacity: 1;
-    content: "COMPETITOR ANALYSIS";
+    content: "ON-PAGE SEO";
   }
 
   40% {
@@ -248,7 +263,6 @@ h2:before {
     opacity: 1;
     content: "BACKLINK AUDIT";
   }
-
   60% {
     font-size: 100%;
     opacity: 1;
@@ -257,12 +271,13 @@ h2:before {
   70% {
     font-size: 100%;
     opacity: 1;
-    content: "ON-PAGE SEO";
+    content: "COMPETITOR ANALYSIS";
   }
   80% {
     font-size: 100%;
-    opacity: 1;
     content: "ANALYTICS";
+
+    opacity: 1;
   }
   90% {
     font-size: 100%;

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import Blog from "./blog";
+import Pres from "./pres";
 
 class Homepage extends Component {
   constructor() {
@@ -14,8 +15,13 @@ class Homepage extends Component {
     this.ToggleFrame = this.ToggleFrame.bind(this);
   }
 
+  getInitialState() {
+    return { showHideSidenav: "hidden" };
+  }
+
   ToggleFrame() {
-    return <Blog />;
+    var css = this.props.showHidePres === "hidden" ? "show" : "hidden";
+    this.setState({ showHideSidenav: css });
   }
 
   render() {
@@ -32,14 +38,19 @@ class Homepage extends Component {
           <div className="intro">
             <p className="txt">Experienced Freelance SEO expert in Berlin. </p>
             <p className="txt">
-              Close to 10 years experience in SEO,SEA and Analytics.
+              Close to 10 years experience in SEO, SEA and Analytics.
             </p>
             <p className="txt">
               Full Stack Web Developer (Javascript, Node, React, SQL).
             </p>
-            <a href="./about">
+            <a
+              href="#"
+              onClick={this.toggleSidenav}
+              className="btn-menu show-on-small"
+            >
               <button className="buttonHP">More</button>{" "}
             </a>
+            <Pres className={this.props.showHidePres} />
           </div>
         </div>
       </div> //Main

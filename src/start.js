@@ -16,9 +16,9 @@ import { IntlProvider, FormattedMessage } from "react-intl";
 
 let elem = (
   // <Provider store={store}>
-  // <IntlProvider>
-  <App />
-  // </IntlProvider> // </Provider>
+  <IntlProvider>
+    <App />
+  </IntlProvider> // </Provider>
 );
 
 ReactDOM.render(elem, document.querySelector("main"));
