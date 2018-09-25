@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet";
 import Blog from "./blog";
 import Pres from "./pres";
 
-class Homepage extends Component {
+class Offpage extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -46,7 +46,7 @@ class Homepage extends Component {
   }
 }
 
-export default translate("translations")(Homepage);
+export default translate("translations")(Offpage);
 
 // const getStateFromRedux = state => {
 //   return {

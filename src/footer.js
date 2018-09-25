@@ -11,6 +11,12 @@ class Footer extends Component {
     return (
       <div className="footer">
         Build using react - All right reserved - 2018
+        <Link className="navEntry" to={"/en/postarticle"}>
+          {" "}
+          <button onClick={() => this.changePageState("/postarticle")}>
+            ARTICLES
+          </button>
+        </Link>
       </div>
     );
   }

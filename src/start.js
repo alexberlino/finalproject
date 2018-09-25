@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./app";
-import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import reduxPromise from "redux-promise";
-// import reducer from "./reducers";
 import { composeWithDevTools } from "redux-devtools-extension";
-// import "bootstrap/dist/css/bootstrap.min.css";
-import { IntlProvider, FormattedMessage } from "react-intl";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 // const store = createStore(
 //   reducer,
@@ -16,9 +14,9 @@ import { IntlProvider, FormattedMessage } from "react-intl";
 
 let elem = (
   // <Provider store={store}>
-  <IntlProvider>
+  <I18nextProvider i18n={i18n}>
     <App />
-  </IntlProvider> // </Provider>
+  </I18nextProvider>
 );
 
 ReactDOM.render(elem, document.querySelector("main"));
