@@ -60,6 +60,7 @@
     "socket.io": "^2.0.3",
     "spiced-pg": "^1.0.0",
     "styled-components": "^3.4.9",
+    "three": "^0.97.0",
     "uid-safe": "^2.1.4",
     "webpack": "^1.15.0",
     "webpack-dev-middleware": "^1.12.2"

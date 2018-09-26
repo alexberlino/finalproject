@@ -58,6 +58,7 @@ class Blog extends Component {
             ))}
           </div>
         </div>
+
         <div className="article">
           {this.state.activeArticle && <Article article={this.state.article} />}
         </div>

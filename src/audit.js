@@ -30,17 +30,6 @@ class Audit extends Component {
           <meta charSet="utf-8" />
           <title>SEO Berlino</title>
         </Helmet>
-        <div className="container">
-          <div className="filterDiv">
-            <h2 />
-          </div>
-
-          <div className="intro">
-            <p className="txt"> {t("intro1")}</p>
-            <p className="txt"> {t("intro2")}</p>
-            <p className="txt"> {t("intro3")}</p>
-          </div>
-        </div>
       </div> //Main
     );
   }

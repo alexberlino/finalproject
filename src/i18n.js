@@ -19,7 +19,7 @@ i18n.use(LanguageDetector).init({
         fullname: "Full Name: ",
         subject: "Subject:",
         message: "Message:",
-        sendMessage: "send message"
+        sendMessage: "SEND"
       }
     }, //en
 
@@ -36,7 +36,7 @@ i18n.use(LanguageDetector).init({
         fullname: "Vollständiger Name: ",
         subject: "Betreff:  ",
         message: "Nachricht:  ",
-        sendMessage: "senden"
+        sendMessage: "SENDEN"
       }
     }, //de
 

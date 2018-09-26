@@ -65,6 +65,10 @@ class Contact extends Component {
     console.log(this.props.i18n.language);
     return (
       <div className="mainContact">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Get in touch - John Smith</title>
+        </Helmet>
         <div className="leftContact">
           <form onSubmit={this.handleSubmit}>
             <fieldset>
@@ -111,33 +115,31 @@ class Contact extends Component {
 
             <fieldset>
               <ReactFormLabel htmlFor="formMessage" title={t("message")} />
-
               <textarea
                 id="formMessage"
                 className="form-textarea"
                 name="message"
                 required
                 onChange={this.handleChange}
-              />
+              />{" "}
+              <div>
+                <button
+                  id="formButton"
+                  className="btn"
+                  placeholder="Send message"
+                  value=""
+                >
+                  {t("sendMessage")}
+                </button>
+              </div>
             </fieldset>
-
-            <div>
-              <button
-                id="formButton"
-                className="btn"
-                placeholder="Send message"
-                value=""
-              >
-                {t("sendMessage")}
-              </button>
-            </div>
           </form>
         </div>
 
         <iframe
           className="googleMap"
           width="600"
-          height="450"
+          height="580"
           frameBorder="0"
           style={{ border: 0 }}
           src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOVVoB6hPqEcRlJFtDbSsAbo&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"

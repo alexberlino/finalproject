@@ -24,7 +24,7 @@ class Impressum extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEO Berlino Impressum</title>
+          <title />
         </Helmet>
         <div className="container">
           <span>
