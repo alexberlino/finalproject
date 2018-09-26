@@ -34,21 +34,16 @@ img {
   z-index: 100;
 }
 
-fieldset {
-  display: block;
-  width: 65%;
-  margin-left: 10%;
-}
 input {
   display: block;
   font-size: 19px;
   margin: 4px;
-  width: 75%;
+  width: 85%;
   height: 24px;
 }
 
 textarea.blogArticleInput {
-  height: 700px;
+  height: 900px;
   display: block;
   width: 75%;
   font-size: 19px;
@@ -64,14 +59,70 @@ label {
   color: grey;
 }
 
-h3 {
-  font-style: bariolregular;
-  margin-left: 10%;
-  text-decoration: underline;
-  font-weight: bold;
+form {
+  display: inline-block;
+  position: relative;
+  margin-top: 15%;
+  left: 5%;
+  width: 30%;
+}
+
+fieldset {
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+}
+
+iframe {
+  position: relative;
+  display: inline-block;
+  margin-top: 20%;
+  margin-left: 70%;
+}
+
+.mainContact {
+  position: relative;
+  display: inline;
+  margin-top: 25%;
+}
+
+.leftContact {
+  position: relative;
+  display: inline;
+  margin-top: 30%;
+}
+
+#formButton {
+  background-color: orange;
+  width: 100px;
+  height: 20px;
+  color: white;
+  margin-left: 70%;
 }
 
 /* Navigation Start*/
+
+.containerNav {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 110px;
+  z-index: 20;
+  opacity: 0.9;
+
+  position: fixed;
+
+  background-color: white;
+}
+.navEntries {
+  margin-left: 25%;
+  top: 0px;
+  padding: 10px 10px;
+  position: fixed;
+  z-index: 20;
+
+  background-color: white;
+}
 
 .navEntry {
   font-size: 13px;
@@ -95,25 +146,13 @@ h3 {
 }
 
 .main {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .logo {
   position: fixed;
   top: 0px;
   left: 0px;
-}
-.navEntries {
-  margin-left: 25%;
-  top: 0px;
-  padding: 10px 10px;
-  position: fixed;
-
-  width: 100%;
-
-  height: 165px;
-  background-color: white;
-  z-index: 20;
 }
 
 .navEntries a {
@@ -123,22 +162,13 @@ h3 {
   text-align: center;
   padding: 10px 10px;
 
-  border-radius: 120px;
   text-decoration: none;
 }
 
 .languageBtn {
   position: fixed;
-  top: 15px;
-  left: 65%;
-}
-
-.languageBtnDE {
-  border: none;
-}
-
-.languageBtnEN {
-  border: none;
+  top: 7px;
+  left: 72%;
 }
 
 /* The dropdown container */
@@ -152,19 +182,14 @@ h3 {
   font-size: 16px;
   border: none;
   outline: none;
-  height: 12px;
+  height: 2px;
 
   color: black;
-  padding: 0px 10px;
+  padding: 15px 5px;
   background-color: none;
   z-index: 20;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navEntries a:hover,
-.dropdown:hover .dropbtn {
 }
 
 /* Dropdown content (hidden by default) */
@@ -180,15 +205,11 @@ h3 {
 .dropdown-content a {
   float: none;
 
-  padding: 12px 12px;
+  padding: 1px 5px;
   text-decoration: none;
   overflow: visible;
   display: block;
   text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
 }
 
 /* Show the dropdown menu on hover */
@@ -234,20 +255,8 @@ h3 {
   margin-left: 300px;
 }
 
-button {
-  border: none;
-  font-size: 16px;
-  font-family: bariolregular;
-  border-radius: 14px;
-}
-
-button:hover {
-  border: none;
-  font-size: 14px;
-  font-family: bariolregular;
-  background-color: black;
-  color: white;
-  height: 22px;
+p:hover {
+  color: orange;
 }
 
 .buttonHP {
@@ -270,15 +279,48 @@ button:hover {
 .listArticlesBlog {
   width: 100%;
   display: absolute;
-  border: yellow 1px solid;
   z-index: 10;
 }
 
+h4 {
+  font-style: bariolregular;
+  margin-left: 10%;
+  text-decoration: underline;
+  font-weight: bold;
+  top: 120px;
+  display: block;
+  width: 20%;
+
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+}
 .blogWindow {
+  width: 20%;
+
   display: inline;
   margin-left: 5%;
   position: absolute;
-  border: orange 1px solid;
+  height: 30px;
+  top: 150px;
+  display: block;
+  border-radius: 20px;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+}
+.blogArtcileWindow {
+  display: block;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 30%;
+
+  z-index: 0;
+  font-size: 24px;
 }
 
 .articleTitle {
@@ -286,18 +328,35 @@ button:hover {
   position: relative;
   width: 60%;
   margin-left: 30%;
-  border: red 1px solid;
   padding: 5px;
-  z-index: 0;
   font-size: 24px;
+  top: 60px;
+  opacity: 0.9;
+  z-index: 30;
+  display: block;
+  border-radius: 20px;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
 }
 
+.articleDate {
+  display: block;
+  position: relative;
+  width: 60%;
+  margin-left: 30%;
+  padding: 5px;
+  z-index: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
 .articleAuthor {
   display: block;
   position: relative;
   width: 60%;
   margin-left: 30%;
-  border: red 1px solid;
   padding: 5px;
   z-index: 0;
   font-style: italic;
@@ -310,7 +369,6 @@ button:hover {
   word-wrap: break-word;
   width: 60%;
   margin-left: 30%;
-  border: red 1px solid;
   padding: 5px;
   z-index: 0;
   font-size: 22px;
@@ -325,15 +383,35 @@ button:hover {
 }
 /* footer start */
 
+/* contact*/
+.rightContact {
+  background-color: none;
+  z-index: 300;
+  width: 50%;
+  display: inline;
+  position: absolute;
+}
+
+.googleMap {
+  margin-left: 10%;
+  display: inline;
+}
+
 .footer {
   background-color: lightgrey;
   width: 100%;
+  height: 60px;
   text-align: center;
   color: grey;
   z-index: -1;
   position: fixed;
 
   bottom: 0px;
+}
+
+.form-textarea {
+  width: 300px;
+  height: 300px;
 }
 
 /* footer end */

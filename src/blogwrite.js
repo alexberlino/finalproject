@@ -18,6 +18,12 @@ class WriteArticles extends React.Component {
     this[e.target.name] = e.target.value;
   }
 
+  // resetPage() {
+  //   if (status == true) {
+  //     window.location.reload();
+  //   }
+  // }
+
   submit() {
     axios
       .post("/en/postarticle", {
@@ -44,6 +50,8 @@ class WriteArticles extends React.Component {
     return (
       <div className="main">
         <fieldset>
+          {this.state.error && <div className="error">"Error in input"</div>}
+          {this.state.success && window.location.reload()}
           <label>title</label>
           <input onChange={this.handleChange} name="title" />
           <label>author</label>

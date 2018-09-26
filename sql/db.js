@@ -24,7 +24,10 @@ module.exports.postArticle = function(
 
 module.exports.getArticles = function() {
   return db
-    .query(`SELECT * FROM articles WHERE status =$1`, ["ready to publish"])
+    .query(
+      `SELECT id, title, author, article, imageurl, dat FROM articles WHERE status =$1`,
+      ["ready to publish"]
+    )
     .catch(function(err) {
       console.log("ERROR DB ADD ARTICLE", err);
     });

@@ -44,74 +44,68 @@ class Navigation extends Component {
     console.log("STATE", this.state);
 
     return (
-      <div className="mainWindow">
+      <div className="containerNav">
         <div className="navEntries">
           <img className="logo" src="/13.png" width="75px" heigth="75px" />
           <Link className="navEntry" to={"/" + this.state.lang}>
-            <button onClick={() => this.changePageState("/")}>HOME</button>
+            <p onClick={() => this.changePageState("/")}>HOME</p>
+          </Link>
+
+          <Link className="navEntry" to={"/" + this.state.lang + "/about"}>
+            <p onClick={() => this.changePageState("/about")}>{t("about")}</p>
+          </Link>
+
+          <Link className="navEntry" to={"/" + this.state.lang + "/blog"}>
+            <p onClick={() => this.changePageState("/blog")}>BLOG</p>
+          </Link>
+          <Link className="navEntry" to={"/" + this.state.lang + "/contact"}>
+            <p onClick={() => this.changePageState("/contact")}>
+              {t("contact")}
+            </p>
           </Link>
           <div className="dropdown">
             <a href="#">
-              <button className="dropbtn">{t("services")}</button>
+              <p className="dropbtn">SEO</p>
             </a>
             <div className="dropdown-content">
               <Link to={"/" + this.state.lang + "/onpage"}>
                 {" "}
-                <button onClick={() => this.changePageState("/onpage")}>
-                  ON-PAGE
-                </button>
+                <p onClick={() => this.changePageState("/onpage")}>ON-PAGE</p>
               </Link>
 
               <Link to={"/" + this.state.lang + "/offpage"}>
                 {" "}
-                <button onClick={() => this.changePageState("/offpage")}>
-                  OFFPAGE
-                </button>
+                <p onClick={() => this.changePageState("/offpage")}>OFFPAGE</p>
               </Link>
               <Link to={"/" + this.state.lang + "/technical"}>
-                <button onClick={() => this.changePageState("/technical")}>
+                <p onClick={() => this.changePageState("/technical")}>
                   {t("technical")}
-                </button>
+                </p>
               </Link>
               <Link to={"/" + this.state.lang + "/audit"}>
                 {" "}
-                <button onClick={() => this.changePageState("/audit")}>
-                  AUDIT
-                </button>
+                <p onClick={() => this.changePageState("/audit")}>AUDIT</p>
               </Link>
             </div>
           </div>
-
-          <Link className="navEntry" to={"/" + this.state.lang + "/about"}>
-            <button onClick={() => this.changePageState("/about")}>
-              {t("about")}
-            </button>
-          </Link>
-
-          <Link className="navEntry" to={"/" + this.state.lang + "/blog"}>
-            <button onClick={() => this.changePageState("/blog")}>BLOG</button>
-          </Link>
-          <Link className="navEntry" to={"/" + this.state.lang + "/contact"}>
-            <button onClick={() => this.changePageState("/contact")}>
-              {t("contact")}
-            </button>
-          </Link>
           <div className="languageBtn">
             <Link to={"/de" + this.state.page}>
-              <button
+              <img
                 className="languageBtnDE"
                 onClick={() => this.changeLanguage("de")}
-              >
-                <img height="27px" width="33px" src="/GERMANFLAG.png" />
-              </button>
+                height="27px"
+                width="33px"
+                src="/GERMANFLAG.png"
+              />
             </Link>
             <Link to={"/en" + this.state.page}>
-              <button
+              <img
                 className="languageBtnEN"
                 onClick={() => this.changeLanguage("en")}
-              >
-                <img height="27px" width="33px" src="/UKUSFLAG.jpeg" />
-              </button>
+                height="27px"
+                width="33px"
+                src="/UKUSFLAG.jpeg"
+              />
             </Link>
           </div>
         </div>

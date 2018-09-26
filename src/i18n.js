@@ -15,7 +15,11 @@ i18n.use(LanguageDetector).init({
         technical: "TECHNICAL",
 
         about: "ABOUT",
-        contact: "CONTACT"
+        contact: "CONTACT",
+        fullname: "Full Name: ",
+        subject: "Subject:",
+        message: "Message:",
+        sendMessage: "send message"
       }
     }, //en
 
@@ -26,11 +30,13 @@ i18n.use(LanguageDetector).init({
         intro2: "10 Jahre Erfahrung in SEO, SEA und Analytics.",
         intro3: "Full Stack  Web-Entwickler(Javascript, Node, React, SQL).",
         services: "SEO",
-
         technical: "TECHNISCH",
-
         about: "ÜBER UNS",
-        contact: "KONTAKT"
+        contact: "KONTAKT",
+        fullname: "Vollständiger Name: ",
+        subject: "Betreff:  ",
+        message: "Nachricht:  ",
+        sendMessage: "senden"
       }
     }, //de
 

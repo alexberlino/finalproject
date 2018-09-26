@@ -44,7 +44,7 @@ class Blog extends Component {
           <meta charSet="utf-8" />
           <title>Blog</title>
         </Helmet>
-        <h3> Latest articles</h3>
+        <h4> Latest articles</h4>
 
         <div className="blogWindow">
           <div className="whatever">

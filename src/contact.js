@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import { translate, Trans } from "react-i18next";
-import i18n from "./i18n";
 import ReactFormLabel from "./reactform";
+import i18n from "./i18n";
 
 class Contact extends Component {
   constructor(props) {
@@ -61,72 +61,88 @@ class Contact extends Component {
   }
 
   render() {
+    const { t, i18n } = this.props;
+    console.log(this.props.i18n.language);
     return (
-      <div className="main">
-        <form onSubmit={this.handleSubmit}>
-          <fieldset>
-            <ReactFormLabel htmlFor="formName" title="Full Name:" />
+      <div className="mainContact">
+        <div className="leftContact">
+          <form onSubmit={this.handleSubmit}>
+            <fieldset>
+              <ReactFormLabel htmlFor="formName" title={t("fullname")} />
 
-            <input
-              id="formName"
-              className="form-input"
-              name="name"
-              type="text"
-              required
-              onChange={this.handleChange}
-              value={this.state.name}
-            />
-          </fieldset>
+              <input
+                id="formName"
+                className="form-input"
+                name="name"
+                type="text"
+                required
+                onChange={this.handleChange}
+                value={this.state.name}
+              />
+            </fieldset>
 
-          <fieldset>
-            <ReactFormLabel htmlFor="formEmail" title="Email:" />
+            <fieldset>
+              <ReactFormLabel htmlFor="formEmail" title="Email:" />
 
-            <input
-              id="formEmail"
-              className="form-input"
-              name="email"
-              type="email"
-              required
-              onChange={this.handleChange}
-              value={this.state.email}
-            />
-          </fieldset>
+              <input
+                id="formEmail"
+                className="form-input"
+                name="email"
+                type="email"
+                required
+                onChange={this.handleChange}
+                value={this.state.email}
+              />
+            </fieldset>
 
-          <fieldset>
-            <ReactFormLabel htmlFor="formSubject" title="Subject:" />
+            <fieldset>
+              <ReactFormLabel htmlFor="formSubject" title={t("subject")} />
 
-            <input
-              id="formSubject"
-              className="form-input"
-              name="subject"
-              type="text"
-              required
-              onChange={this.handleChange}
-              value={this.state.subject}
-            />
-          </fieldset>
+              <input
+                id="formSubject"
+                className="form-input"
+                name="subject"
+                type="text"
+                required
+                onChange={this.handleChange}
+                value={this.state.subject}
+              />
+            </fieldset>
 
-          <fieldset>
-            <ReactFormLabel htmlFor="formMessage" title="Message:" />
+            <fieldset>
+              <ReactFormLabel htmlFor="formMessage" title={t("message")} />
 
-            <textarea
-              id="formMessage"
-              className="form-textarea"
-              name="message"
-              required
-              onChange={this.handleChange}
-            />
-          </fieldset>
+              <textarea
+                id="formMessage"
+                className="form-textarea"
+                name="message"
+                required
+                onChange={this.handleChange}
+              />
+            </fieldset>
 
-          <div>
-            <input
-              id="formButton"
-              className="btn"
-              type="submit"
-              placeholder="Send message"
-            />
-          </div>
-        </form>
+            <div>
+              <button
+                id="formButton"
+                className="btn"
+                placeholder="Send message"
+                value=""
+              >
+                {t("sendMessage")}
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <iframe
+          className="googleMap"
+          width="600"
+          height="450"
+          frameBorder="0"
+          style={{ border: 0 }}
+          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOVVoB6hPqEcRlJFtDbSsAbo&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
+          allowFullScreen
+        />
       </div>
     );
   }

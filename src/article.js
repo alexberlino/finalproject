@@ -29,10 +29,13 @@ class Article extends Component {
     console.log("THISSTATE", this.state);
     console.log("thispropsartciletitle", this.props.article.title);
     return (
-      <div>
+      <div className="blogArticleWindow">
         <div className="articleTitle">{this.props.article.title}</div>
         <div className="articleAuthor">
           {"Author:  " + this.props.article.author}
+        </div>
+        <div className="articleDate">
+          {"Date published:  " + this.props.article.dat.slice(0, 10)}
         </div>
         <img src={this.props.article.imageurl} className="articlePic" />
 

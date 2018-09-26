@@ -36,9 +36,9 @@ class Homepage extends Component {
           </div>
 
           <div className="intro">
-            <p className="txt"> {t("intro1")}</p>
-            <p className="txt"> {t("intro2")}</p>
-            <p className="txt"> {t("intro3")}</p>
+            <footer className="txt"> {t("intro1")}</footer>
+            <footer className="txt"> {t("intro2")}</footer>
+            <footer className="txt"> {t("intro3")}</footer>
           </div>
         </div>
       </div> //Main
