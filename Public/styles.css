@@ -304,26 +304,36 @@ p:hover {
 
 /* BLOG START  */
 
-.listArticlesBlog {
-  width: 100%;
-  display: absolute;
+.leftBlog {
+  font-style: bariolregular;
+  margin-left: 5%;
+  padding: 40px;
+  font-size: 20px;
+  top: 150px;
+  display: block;
+  position: fixed;
   z-index: 10;
+  width: 300px;
+  height: 35%;
 }
 
+.listArticlesBlog {
+  width: 300px;
+}
+
+#three-js-item {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
 h4 {
   font-style: bariolregular;
-  margin-left: 10%;
-  text-decoration: underline;
   font-weight: bold;
-  top: 120px;
+  top: 100px;
   display: block;
-  width: 20%;
+  font-size: 22px;
 
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
+  z-index: 10;
 }
 .blogWindow {
   width: 20%;
@@ -617,8 +627,6 @@ h6:before {
   text-align: center;
   width: 40%;
   padding: 20px;
-  -webkit-animation: bounce-in-top 1.4s both;
-  animation: bounce-in-top 1.4s both;
 }
 
 .infoIntro {
@@ -649,6 +657,20 @@ h6:before {
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.infoMain2 {
+  margin-left: 30%;
+  font-size: 20px;
+  background-color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: black;
+  width: 60%;
+  padding: 5px;
+  -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
 /* ABOUT start*/
 
 .hide {
@@ -661,9 +683,9 @@ h6:before {
 }
 
 .roll-in-left {
-  -webkit-animation: roll-in-left 2s cubic-bezier(0.47, 0, 0.745, 0.715)
+  -webkit-animation: roll-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715)
     alternate backwards;
-  animation: roll-in-left 2s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+  animation: roll-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
     backwards;
   width: 30%;
   border-radius: 145px;
@@ -680,9 +702,9 @@ h6:before {
 
 .roll-in-left2 {
   border-radius: 145px;
-  -webkit-animation: roll-in-left 1.6s cubic-bezier(0.47, 0, 0.745, 0.715)
+  -webkit-animation: roll-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715)
     alternate backwards;
-  animation: roll-in-left 1.6s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+  animation: roll-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
     backwards;
   width: 30%;
   left: 55%;
@@ -700,8 +722,8 @@ h6:before {
   margin-top: 2%;
   position: fixed;
   top: 100px;
-  -webkit-animation: swirl-in-fwd 1.6s ease-out both;
-  animation: swirl-in-fwd 1.6s ease-out both;
+  -webkit-animation: swirl-in-fwd 0.5s ease-out both;
+  animation: swirl-in-fwd 0.5s ease-out both;
   width: 30%;
   position: relative;
   border-radius: 35px;
@@ -716,8 +738,8 @@ h6:before {
   margin-top: 2%;
   position: fixed;
   top: 100px;
-  -webkit-animation: swirl-in-fwd 1.6s ease-out both;
-  animation: swirl-in-fwd 1.6s ease-out both;
+  -webkit-animation: swirl-in-fwd 0.5s ease-out both;
+  animation: swirl-in-fwd 0.5s ease-out both;
   width: 30%;
   position: relative;
   border-radius: 35px;
@@ -729,8 +751,8 @@ h6:before {
 }
 
 .bounce-in-top {
-  -webkit-animation: bounce-in-top 2.4s both;
-  animation: bounce-in-top 2.4s both;
+  -webkit-animation: bounce-in-top 1s both;
+  animation: bounce-in-top 1s both;
   margin-left: 65%;
   top: 200px;
   width: 20%;
@@ -746,8 +768,8 @@ h6:before {
 }
 
 .bounce-in-top2 {
-  -webkit-animation: bounce-in-top 1.8s both;
-  animation: bounce-in-top 1.8s both;
+  -webkit-animation: bounce-in-top 1s both;
+  animation: bounce-in-top 1s both;
   margin-left: 25%;
   width: 20%;
   top: 450px;

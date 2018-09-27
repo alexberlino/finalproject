@@ -2,6 +2,24 @@ const express = require("express");
 const app = express();
 const compression = require("compression");
 const db = require("./sql/db.js");
+const { checkPassword, hashPassword, capital } = require("./Public/hash.js");
+const cookieParser = require("cookie-parser");
+app.use(cookieParser());
+app.use(express.static("./public"));
+const cookieSession = require("cookie-session");
+const cookieSessionMiddleware = cookieSession({
+  secret: `I'm always angry.`,
+  maxAge: 1000 * 60 * 60 * 24 * 90
+});
+app.use(cookieSessionMiddleware);
+
+var csurf = require("csurf");
+app.use(csurf());
+
+app.use(function(req, res, next) {
+  res.cookie("mytoken", req.csrfToken());
+  next();
+});
 
 app.use(compression());
 

@@ -25,12 +25,14 @@ class Blog extends Component {
         articles: res.data.rows
       });
     });
+    happyfun();
   }
   changeActiveArticle(article) {
     this.setState({
       activeArticle: true,
       article: article
     });
+    s;
   }
 
   //dangerously
@@ -44,18 +46,22 @@ class Blog extends Component {
           <meta charSet="utf-8" />
           <title>Blog</title>
         </Helmet>
-        <h4> Latest articles</h4>
+        {this.state.activeArticle || <div id="three-js-item" />}
 
-        <div className="blogWindow">
-          <div className="whatever">
-            {this.state.articles.map(article => (
-              <p
-                className="listArticlesBlog"
-                onClick={() => this.changeActiveArticle(article)}
-              >
-                {article.title}
-              </p>
-            ))}
+        <div className="leftBlog">
+          <h4> Latest articles</h4>
+
+          <div className="blogWindow">
+            <div className="whatever">
+              {this.state.articles.map(article => (
+                <p
+                  className="listArticlesBlog"
+                  onClick={() => this.changeActiveArticle(article)}
+                >
+                  {article.title}
+                </p>
+              ))}
+            </div>
           </div>
         </div>
 

@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 
 import { Helmet } from "react-helmet";
-import Blog from "./blog";
-import Pres from "./pres";
 
 class Admin extends Component {
   constructor(props) {

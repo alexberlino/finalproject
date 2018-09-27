@@ -34,6 +34,7 @@ class Article extends Component {
         <div className="articleAuthor">
           {"Author:  " + this.props.article.author}
         </div>
+
         <div className="articleDate">
           {"Date published:  " + this.props.article.dat.slice(0, 10)}
         </div>

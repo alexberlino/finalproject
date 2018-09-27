@@ -26,13 +26,19 @@ class Impressum extends Component {
           <meta charSet="utf-8" />
           <title />
         </Helmet>
+
+        <div className="infoTitle">Impressum </div>
         <div className="container">
-          <span>
-            `John Smith Kiehlufer 11 12059 Berlin Steuernummer.: 16/229/03193
-            Fon: +49 (0) 15787011932 E-Mail: john.smith@gmail.com Internet:
-            https://www.seoberlino.com Inhaltlich Verantwortlicher nach § 10
-            Absatz 3 Verantwortlich für den redaktionellen Bereich: John Smith`
-          </span>
+          <div className="infoMain2">John Smith Kiehlufer 98 12059 Berlin</div>
+          <div className="infoMain2">
+            `Fon: +49 (0) 0094342932 E-Mail: john.smith@gmail.com{" "}
+          </div>
+          <div className="infoMain2">Internet: https://www.johnsmith.com</div>
+          <div className="infoMain2">
+            Inhaltlich Verantwortlicher nach § 10 Absatz 3 Verantwortlich für
+            den redaktionellen Bereich: John Smith
+          </div>
+          `
         </div>
       </div> //Main
     );
