@@ -8,7 +8,6 @@ import { connect } from "react-redux";
 // import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import Blog from "./blog";
-import Pres from "./pres";
 
 class Article extends Component {
   constructor(props) {

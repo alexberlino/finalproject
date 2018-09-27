@@ -35,7 +35,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Favicon url="https://www.google.de/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj978PB19ndAhXRsqQKHQ3lDy0QjRx6BAgBEAU&url=https%3A%2F%2Fdepositphotos.com%2F65241603%2Fstock-illustration-freelancer-logo-bird-origami-orange.html&psig=AOvVaw2sdkaQwvA01Lr15DqWdGB2&ust=1538086135003192" />
+        <Favicon url="/Public/logo.png" />
         <BrowserRouter>
           <div>
             <Navigation />
@@ -64,6 +64,8 @@ class App extends Component {
                   path="/:lang/onpage"
                   render={() => <Onpage i18n={this.props.i18n} />}
                 />
+
+                <Route exact path="/:logout" render={() => <Onpage />} />
 
                 <Route
                   exact

@@ -271,6 +271,26 @@ iframe {
   bottom: 7%;
 }
 
+.blogArticlesHP {
+  margin-left: 70%;
+  top: 0px;
+  z-index: 10;
+  width: 500px;
+  position: absolute;
+  height: 220px;
+  width: 300px;
+  opacity: 0.5;
+  background-color: white;
+  -webkit-animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.blogHPtext {
+  text-align: center;
+}
+.blogItemHP {
+  display: inline-flex;
+  padding: 2px;
+}
 .container {
   position: relative;
 }
@@ -313,12 +333,13 @@ p:hover {
   display: block;
   position: fixed;
   z-index: 10;
-  width: 300px;
+  width: 200px;
   height: 35%;
 }
 
 .listArticlesBlog {
-  width: 300px;
+  width: 200px;
+  margin-left: 3px;
 }
 
 #three-js-item {
@@ -824,9 +845,9 @@ h6:before {
 }
 
 .text-blur-out {
-  -webkit-animation: text-blur-out 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+  -webkit-animation: text-blur-out 2.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
     both;
-  animation: text-blur-out 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-blur-out 2.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
 @-webkit-keyframes bg-pan-left {

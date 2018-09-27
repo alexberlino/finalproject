@@ -4,6 +4,7 @@ import App from "./App";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
+import axios from "./axios";
 
 import { Helmet } from "react-helmet";
 
@@ -19,13 +20,15 @@ class LoginAdmin extends Component {
   }
   submit() {
     axios
-      .post("/login", {
+      .post("/en/login", {
         email: this.email,
         pass: this.pass
       })
       .then(({ data }) => {
+        console.log("loggedin");
+
         if (data.success) {
-          location.replace("/");
+          location.replace("/en/admin");
         } else {
           this.setState({
             error: true

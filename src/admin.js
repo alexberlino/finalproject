@@ -23,15 +23,19 @@ class Admin extends Component {
 
         <div className="mainBox">
           <p>
-            <Link classname="txt" to={"/en/postarticle"}>
+            <Link className="infoMain" to={"/en/postarticle"}>
               Create new Blog Post
             </Link>{" "}
           </p>
           <p>
-            <Link classname="txt" to={"/en/editarticle"}>
+            <Link className="infoMain" to={"/en/editarticle"}>
               Edit a Blog Post
             </Link>
           </p>
+
+          <a className="infoMain" href="/log-out">
+            Log out
+          </a>
         </div>
       </div> //Main
     );

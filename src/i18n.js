@@ -30,14 +30,17 @@ i18n.use(LanguageDetector).init({
         about7: `Creation & organization of SEO Roadmaps, KPIs & Technical
         Dashboards. Creation and management on SEO Analytics reports (Adobe
         SiteCatalyst Omniture)`,
-        about8: `John Smith really helped me with my SEO, much recommended (Hendrich Larson, 
+        about8: `John Smith really helped me with my SEO, much recommended (Hendrich Larson,
             Zalando`,
-        about9: `John Smith really helped me with my SEO, much recommended (Hendrich Larson, 
+        about9: `John Smith really helped me with my SEO, much recommended (Hendrich Larson,
             Zalando`,
-        about10: `John Smith really helped me with my SEO, much recommended (Hendrich Larson, 
+        about10: `John Smith really helped me with my SEO, much recommended (Hendrich Larson,
             Zalando`,
-        about11: `John Smith really helped me with my SEO, much recommended (Hendrich Larson, 
-            Zalando`
+        about11: `John Smith really helped me with my SEO, much recommended (Hendrich Larson,
+            Zalando`,
+        getintouch: "Get in touch - John Smith",
+        aboutJM: "About John Smith",
+        HPTitle: "John Smith SEO Freelance"
       }
     }, //en
 
@@ -76,7 +79,10 @@ Dashboards. Erstellen und verwalten Sie SEO Analytics-Berichte (Adobe
         SiteCatalyst Omniture)`,
         about11: `Erstellung und Organisation von SEO-Roadmaps, KPIs und technischen
 Dashboards. Erstellen und verwalten Sie SEO Analytics-Berichte (Adobe
-        SiteCatalyst Omniture)`
+        SiteCatalyst Omniture)`,
+        getintouch: "Kontakt -  John Smith",
+        aboutJM: "Über mich, John Smith",
+        HPTitle: "John Smith SEO Selständig"
       }
     }, //de
 

@@ -63,6 +63,7 @@
     "styled-components": "^3.4.9",
     "three": "^0.97.0",
     "uid-safe": "^2.1.4",
+    "util": "^0.11.0",
     "webpack": "^1.15.0",
     "webpack-dev-middleware": "^1.12.2"
   },

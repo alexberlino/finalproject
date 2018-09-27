@@ -49,6 +49,10 @@ class WriteArticles extends React.Component {
   render() {
     return (
       <div className="main">
+        CREATE BLOG ARTICLE
+        <Link className="infoMain" to={"/en/editarticle"}>
+          or go to Edit a Blog Post
+        </Link>
         <fieldset>
           {this.state.error && <div className="error">"Error in input"</div>}
           {this.state.success && window.location.reload()}

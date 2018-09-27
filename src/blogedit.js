@@ -35,7 +35,7 @@ class EditArticle extends React.Component {
 
   submit() {
     axios
-      .post("/en/updatearticle", {
+      .post("/en/editarticle", {
         title: this.title,
         author: this.author,
         article: this.article,
@@ -59,6 +59,12 @@ class EditArticle extends React.Component {
   render() {
     return (
       <div className="main">
+        EDIT BLOG ARTICLE
+        <p>
+          <Link className="infoMain" to={"/en/postarticle"}>
+            or go to Create new Blog Post
+          </Link>{" "}
+        </p>
         <fieldset>
           {this.state.error && <div className="error">"Error in input"</div>}
           {this.state.success && window.location.reload()}

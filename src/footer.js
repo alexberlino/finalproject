@@ -21,7 +21,7 @@ class Footer extends Component {
     return (
       <div className="footer">
         Build using react - All right reserved - 2018
-        <Link className="navEntry" to={"/en/admin"}>
+        <Link className="navEntry" to={"/en/login"}>
           admin
         </Link>
         <Link to={"/en/impressum"} className="navEntry">

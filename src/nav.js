@@ -46,7 +46,7 @@ class Navigation extends Component {
     return (
       <div className="containerNav">
         <div className="navEntries">
-          <img className="logo" src="/logo.png" width="75px" heigth="75px" />
+          <img className="logo" src="/logo.png" width="95px" heigth="95px" />
           <Link className="navEntry" to={"/" + this.state.lang}>
             <p onClick={() => this.changePageState("/")}>HOME</p>
           </Link>

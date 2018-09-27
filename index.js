@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const compression = require("compression");
 const db = require("./sql/db.js");
-const { checkPassword, hashPassword, capital } = require("./Public/hash.js");
+const { checkPassword, hashPassword } = require("./Public/hash.js");
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
 app.use(express.static("./public"));
@@ -36,7 +36,17 @@ if (process.env.NODE_ENV != "production") {
 app.use(express.static("./Public"));
 app.use(require("body-parser").json());
 
-app.post("/en/postarticle", (req, res) => {
+function checkSession(req, res, next) {
+  if (!req.session.checked) {
+    res.redirect("/en");
+  } else {
+    next();
+  }
+}
+app.get("/en/editarticle", checkSession, (req, res) => {});
+app.get("/en/postarticle", checkSession, (req, res) => {});
+
+app.post("/en/postarticle", checkSession, (req, res) => {
   db.postArticle(
     req.body.title,
     req.body.author,
@@ -57,7 +67,7 @@ app.post("/en/postarticle", (req, res) => {
     });
 });
 
-app.post("/en/updatearticle", (req, res) => {
+app.post("/en/editarticle", checkSession, (req, res) => {
   db.updateArticle(
     req.body.title,
     req.body.author,
@@ -90,8 +100,9 @@ app.get("/getarticle", (req, res) => {
     res.json(results);
   });
 });
-app.post("/login", (req, res) => {
+app.post("/en/login", (req, res) => {
   let { email, pass } = req.body;
+  console.log(email, pass);
   db.login(email)
     .then(function(result) {
       if (!result) {
@@ -101,10 +112,9 @@ app.post("/login", (req, res) => {
           doesMatch
         ) {
           if (doesMatch) {
+            req.session.checked;
             req.session.userId = result.rows[0].id;
-            req.session.first = result.rows[0].firstname;
-            req.session.last = result.rows[0].surname;
-            req.session.imageurl = result.rows[0].imageurl || null;
+            console.log(req.session.userId);
             res.json({
               success: true
             });
@@ -115,10 +125,16 @@ app.post("/login", (req, res) => {
       }
     })
     .catch(function(e) {
+      console.log("error while login");
       res.json({
         success: false
       });
     });
+});
+
+app.get("/log-out", (req, res) => {
+  req.session = null;
+  return res.redirect("/en");
 });
 
 app.get("*", function(req, res) {

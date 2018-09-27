@@ -67,7 +67,7 @@ class Contact extends Component {
       <div className="mainContact">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Get in touch - John Smith</title>
+          <title>{t("getintouch")}</title>
         </Helmet>
         <div className="leftContact">
           <form onSubmit={this.handleSubmit}>

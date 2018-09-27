@@ -38,7 +38,7 @@ class About extends Component {
           categorie: null
         });
       }.bind(this),
-      1000
+      500
     );
   }
   tooltipStyle() {
@@ -66,12 +66,10 @@ class About extends Component {
           onMouseOut={this.handleMouseOut.bind(this)}
         />
 
-        <div>click to see references!!</div>
-
         <div>
           <Helmet>
             <meta charSet="utf-8" />
-            <title>About John Smith</title>
+            <title>{t("aboutJM")}</title>
           </Helmet>
         </div>
         <div onClick={this.handleClick} className="bounce-in-top2">
