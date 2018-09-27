@@ -3,7 +3,7 @@ import ReactDOM from "react";
 import axios from "./axios";
 import { Link } from "react-router-dom";
 
-class WriteArticles extends React.Component {
+class EditArticle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,6 +12,15 @@ class WriteArticles extends React.Component {
     };
     this.submit = this.submit.bind(this);
     this.handleChange = this.handleChange.bind(this);
+    this.upload = this.upload.bind(this);
+  }
+
+  upload(id) {
+    axios.get(`/getarticle/`).then(res => {
+      this.setState({
+        articles: res.data.rows
+      });
+    });
   }
 
   handleChange(e) {
@@ -26,12 +35,13 @@ class WriteArticles extends React.Component {
 
   submit() {
     axios
-      .post("/en/postarticle", {
+      .post("/en/updatearticle", {
         title: this.title,
         author: this.author,
         article: this.article,
         status: this.status,
-        imageurl: this.imageurl
+        imageurl: this.imageurl,
+        id: this.id
       })
       .then(({ data }) => {
         if (data.success) {
@@ -53,6 +63,19 @@ class WriteArticles extends React.Component {
           {this.state.error && <div className="error">"Error in input"</div>}
           {this.state.success && window.location.reload()}
           <div className="inlineWriteBlog">
+            <div className="inlineWriteBlog">
+              <div className="blockWriteBlog">
+                <label>id</label>
+                <input onChange={this.handleChange} name="id" />
+                <button
+                  onClick={this.upload}
+                  onChange={this.handleChange}
+                  className="button"
+                >
+                  upload
+                </button>
+              </div>
+            </div>
             <div className="inlineWriteBlog">
               <div className="blockWriteBlog">
                 <label>title</label>
@@ -97,4 +120,4 @@ class WriteArticles extends React.Component {
   }
 }
 
-export default WriteArticles;
+export default EditArticle;

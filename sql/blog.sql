@@ -13,3 +13,12 @@ dat TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
 
 );
+
+CREATE TABLE users (
+
+    id SERIAL PRIMARY KEY,
+    emailaddress VARCHAR(30) NOT NULL UNIQUE,
+    password VARCHAR(100) NOT NULL,
+
+
+);

@@ -137,12 +137,10 @@ class Contact extends Component {
         </div>
 
         <iframe
-          className="googleMap"
           width="600"
           height="580"
           frameBorder="0"
-          style={{ border: 0 }}
-          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOVVoB6hPqEcRlJFtDbSsAbo&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
+          src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
           allowFullScreen
         />
       </div>

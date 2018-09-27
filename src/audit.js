@@ -30,7 +30,24 @@ class Audit extends Component {
           <meta charSet="utf-8" />
           <title>SEO Berlino</title>
         </Helmet>
-      </div> //Main
+        <div>
+          <div className="infoTitle"> SEO Audit </div>
+          <div className="infoIntro">
+            Using the most important SEO factors, we will do an in-depth
+            analysis of your competitors to find quick wins!
+          </div>
+          <div className="infoMain">
+            ​ ​ ​ ​ ​ What are my competitors ranking ahead of me doing that I
+            am not, and that I could test? Who is linking to my competitors and
+            why not to me? But don't copy, do better! ​ Know what your
+            competitors are up to Contact Us Content of Competitor Analysis: ​
+            Main SEO Competitors Identification Backlink profile Keyword
+            Analysis, main landing pages organisation and site structure
+            Indexation Page load time comparition and other technical checks
+            Internationalisation and more
+          </div>
+        </div>
+      </div>
     );
   }
 }

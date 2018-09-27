@@ -37,6 +37,7 @@ class Article extends Component {
         <div className="articleDate">
           {"Date published:  " + this.props.article.dat.slice(0, 10)}
         </div>
+        <div className="articleID">{"#" + this.props.article.id}</div>
         <img src={this.props.article.imageurl} className="articlePic" />
 
         <div
