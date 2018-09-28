@@ -20,7 +20,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        Build using react - All right reserved - 2018
+        Built with react - 2018
         <Link className="navEntry" to={"/en/login"}>
           admin
         </Link>

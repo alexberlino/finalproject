@@ -50,22 +50,9 @@ class Navigation extends Component {
           <Link className="navEntry" to={"/" + this.state.lang}>
             <p onClick={() => this.changePageState("/")}>HOME</p>
           </Link>
-
-          <Link className="navEntry" to={"/" + this.state.lang + "/about"}>
-            <p onClick={() => this.changePageState("/about")}>{t("about")}</p>
-          </Link>
-
-          <Link className="navEntry" to={"/" + this.state.lang + "/blog"}>
-            <p onClick={() => this.changePageState("/blog")}>BLOG</p>
-          </Link>
-          <Link className="navEntry" to={"/" + this.state.lang + "/contact"}>
-            <p onClick={() => this.changePageState("/contact")}>
-              {t("contact")}
-            </p>
-          </Link>
           <div className="dropdown">
             <a href="#">
-              <p className="dropbtn">SEO</p>
+              <p className="dropbtn">{t("services")}</p>
             </a>
             <div className="dropdown-content">
               <Link to={"/" + this.state.lang + "/onpage"}>
@@ -88,6 +75,19 @@ class Navigation extends Component {
               </Link>
             </div>
           </div>
+          <Link className="navEntry" to={"/" + this.state.lang + "/about"}>
+            <p onClick={() => this.changePageState("/about")}>{t("about")}</p>
+          </Link>
+
+          <Link className="navEntry" to={"/" + this.state.lang + "/blog"}>
+            <p onClick={() => this.changePageState("/blog")}>BLOG</p>
+          </Link>
+          <Link className="navEntry" to={"/" + this.state.lang + "/contact"}>
+            <p onClick={() => this.changePageState("/contact")}>
+              {t("contact")}
+            </p>
+          </Link>
+
           <div className="languageBtn">
             <Link to={"/de" + this.state.page}>
               <img

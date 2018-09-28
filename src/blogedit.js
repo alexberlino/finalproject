@@ -8,23 +8,36 @@ class EditArticle extends React.Component {
     super(props);
     this.state = {
       error: false,
-      success: false
+      success: false,
+      imageurl: "",
+      title: "",
+      status: null,
+      article: null,
+      author: null,
+      id: null
     };
     this.submit = this.submit.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.upload = this.upload.bind(this);
   }
 
-  upload(id) {
-    axios.get(`/getarticle/`).then(res => {
+  upload() {
+    console.log("id", this.state.id);
+    axios.get(`/getarticle/${this.state.id}`).then(res => {
+      console.log("RES", res);
       this.setState({
-        articles: res.data.rows
+        article: res.data.rows[0].article,
+        imageurl: res.data.rows[0].imageurl,
+        title: res.data.rows[0].title,
+        status: res.data.rows[0].status,
+        author: res.data.rows[0].author,
+        id: res.data.rows[0].id
       });
     });
   }
 
   handleChange(e) {
-    this[e.target.name] = e.target.value;
+    this.setState({ [e.target.name]: e.target.value });
   }
 
   // resetPage() {
@@ -59,7 +72,8 @@ class EditArticle extends React.Component {
   render() {
     return (
       <div className="main">
-        EDIT BLOG ARTICLE
+        <p className="contactmeHead">EDIT BLOG ARTICLE</p>
+
         <p>
           <Link className="infoMain" to={"/en/postarticle"}>
             or go to Create new Blog Post
@@ -71,12 +85,16 @@ class EditArticle extends React.Component {
           <div className="inlineWriteBlog">
             <div className="inlineWriteBlog">
               <div className="blockWriteBlog">
-                <label>id</label>
-                <input onChange={this.handleChange} name="id" />
+                <textarea
+                  onChange={this.handleChange}
+                  name="id"
+                  placeholder="id"
+                  className="blogedit"
+                />
                 <button
                   onClick={this.upload}
                   onChange={this.handleChange}
-                  className="button"
+                  className="buttonEdit2"
                 >
                   upload
                 </button>
@@ -84,20 +102,23 @@ class EditArticle extends React.Component {
             </div>
             <div className="inlineWriteBlog">
               <div className="blockWriteBlog">
-                <label>title</label>
-                <input onChange={this.handleChange} name="title" />
+                <textarea
+                  onChange={this.handleChange}
+                  name="title"
+                  placeholder="title"
+                  className="blogedit"
+                  value={this.state.title}
+                />
               </div>
             </div>
 
             <div className="inlineWriteBlog">
-              <label>author</label>
               <select onChange={this.handleChange} name="author">
                 <option name="None"> none </option>
                 <option name="jsmith"> John Smith </option>
               </select>
             </div>
             <div className="inlineWriteBlog">
-              <label>status</label>
               <select onChange={this.handleChange} name="status">
                 <option name="None"> none </option>
                 <option name="inprogress"> in-progress </option>
@@ -106,18 +127,23 @@ class EditArticle extends React.Component {
               </select>{" "}
             </div>
             <div className="inlineWriteBlog">
-              <label>imageurl</label>
-              <input onChange={this.handleChange} name="imageurl" />
+              <textarea
+                onChange={this.handleChange}
+                name="imageurl"
+                placeholder="imageurl"
+                className="blogedit"
+                value={this.state.imageurl}
+              />
             </div>
           </div>
 
-          <label>article</label>
           <textarea
             onChange={this.handleChange}
             name="article"
             className="blogArticleInput"
+            value={this.state.article}
           />
-          <button onClick={this.submit} className="button">
+          <button onClick={this.submit} className="buttonEdit">
             Submit
           </button>
         </fieldset>

@@ -71,14 +71,16 @@ class Contact extends Component {
         </Helmet>
         <div className="leftContact">
           <form onSubmit={this.handleSubmit}>
+            <div className="contactmeHead"> {t("getintouch")}</div>
+
             <fieldset>
               <ReactFormLabel htmlFor="formName" title={t("fullname")} />
-
               <input
                 id="formName"
                 className="form-input"
                 name="name"
                 type="text"
+                placeholder="Full Name"
                 required
                 onChange={this.handleChange}
                 value={this.state.name}
@@ -93,6 +95,7 @@ class Contact extends Component {
                 className="form-input"
                 name="email"
                 type="email"
+                placeholder="Email"
                 required
                 onChange={this.handleChange}
                 value={this.state.email}
@@ -107,6 +110,7 @@ class Contact extends Component {
                 className="form-input"
                 name="subject"
                 type="text"
+                placeholder="Subject"
                 required
                 onChange={this.handleChange}
                 value={this.state.subject}
@@ -118,10 +122,11 @@ class Contact extends Component {
               <textarea
                 id="formMessage"
                 className="form-textarea"
+                placeholder="Message"
                 name="message"
                 required
                 onChange={this.handleChange}
-              />{" "}
+              />
               <div>
                 <button
                   id="formButton"

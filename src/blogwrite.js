@@ -49,7 +49,7 @@ class WriteArticles extends React.Component {
   render() {
     return (
       <div className="main">
-        CREATE BLOG ARTICLE
+        <p className="contactmeHead">CREATE BLOG ARTICLE</p>
         <Link className="infoMain" to={"/en/editarticle"}>
           or go to Edit a Blog Post
         </Link>
@@ -59,20 +59,22 @@ class WriteArticles extends React.Component {
           <div className="inlineWriteBlog">
             <div className="inlineWriteBlog">
               <div className="blockWriteBlog">
-                <label>title</label>
-                <input onChange={this.handleChange} name="title" />
+                <input
+                  onChange={this.handleChange}
+                  name="title"
+                  placeholder="title"
+                  className="blogedit"
+                />
               </div>
             </div>
 
             <div className="inlineWriteBlog">
-              <label>author</label>
               <select onChange={this.handleChange} name="author">
                 <option name="None"> none </option>
                 <option name="jsmith"> John Smith </option>
               </select>
             </div>
             <div className="inlineWriteBlog">
-              <label>status</label>
               <select onChange={this.handleChange} name="status">
                 <option name="None"> none </option>
                 <option name="inprogress"> in-progress </option>
@@ -81,18 +83,21 @@ class WriteArticles extends React.Component {
               </select>{" "}
             </div>
             <div className="inlineWriteBlog">
-              <label>imageurl</label>
-              <input onChange={this.handleChange} name="imageurl" />
+              <input
+                onChange={this.handleChange}
+                name="imageurl"
+                placeholder="imageurl"
+                className="blogedit"
+              />
             </div>
           </div>
 
-          <label>article</label>
           <textarea
             onChange={this.handleChange}
             name="article"
             className="blogArticleInput"
           />
-          <button onClick={this.submit} className="button">
+          <button onClick={this.submit} className="buttonEdit">
             Submit
           </button>
         </fieldset>

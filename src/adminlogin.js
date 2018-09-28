@@ -25,8 +25,6 @@ class LoginAdmin extends Component {
         pass: this.pass
       })
       .then(({ data }) => {
-        console.log("loggedin");
-
         if (data.success) {
           location.replace("/en/admin");
         } else {

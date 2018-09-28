@@ -37,14 +37,21 @@ app.use(express.static("./Public"));
 app.use(require("body-parser").json());
 
 function checkSession(req, res, next) {
-  if (!req.session.checked) {
+  if (!req.session.userId) {
     res.redirect("/en");
   } else {
     next();
   }
 }
-app.get("/en/editarticle", checkSession, (req, res) => {});
-app.get("/en/postarticle", checkSession, (req, res) => {});
+app.get("/en/editarticle", checkSession, (req, res, next) => {
+  next();
+});
+app.get("/en/postarticle", checkSession, (req, res, next) => {
+  next();
+});
+app.get("/en/admin", checkSession, (req, res, next) => {
+  next();
+});
 
 app.post("/en/postarticle", checkSession, (req, res) => {
   db.postArticle(
@@ -95,14 +102,14 @@ app.get("/getarticles", (req, res) => {
   });
 });
 
-app.get("/getarticle", (req, res) => {
-  db.getArticle(req.body.id).then(function(results) {
-    res.json(results);
+app.get("/getarticle/:id", (req, res) => {
+  console.log("REQPARAMS", req.params.id);
+  db.getArticle(req.params.id).then(function({ rows }) {
+    res.json({ rows });
   });
 });
 app.post("/en/login", (req, res) => {
   let { email, pass } = req.body;
-  console.log(email, pass);
   db.login(email)
     .then(function(result) {
       if (!result) {
@@ -112,9 +119,7 @@ app.post("/en/login", (req, res) => {
           doesMatch
         ) {
           if (doesMatch) {
-            req.session.checked;
             req.session.userId = result.rows[0].id;
-            console.log(req.session.userId);
             res.json({
               success: true
             });

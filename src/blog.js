@@ -7,6 +7,8 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
+import i18n from "./i18n";
+import { translate, Trans } from "react-i18next";
 
 class Blog extends Component {
   constructor() {
@@ -38,8 +40,8 @@ class Blog extends Component {
   //dangerously
 
   render() {
-    console.log("THISSTATE", this.state);
-    console.log("THISSTATEARTILCES", this.state.articles);
+    const { t, i18n } = this.props;
+
     return (
       <div className="main">
         <Helmet>
@@ -49,7 +51,7 @@ class Blog extends Component {
         {this.state.activeArticle || <div id="three-js-item" />}
 
         <div className="leftBlog">
-          <h4> Latest articles</h4>
+          <h4> {t("bloglatest")}</h4>
 
           <div className="blogWindow">
             <div className="whatever">
@@ -73,7 +75,7 @@ class Blog extends Component {
   }
 }
 
-export default Blog;
+export default translate("translations")(Blog);
 
 // const getStateFromRedux = state => {
 //   return {

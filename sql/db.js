@@ -35,10 +35,7 @@ module.exports.getArticles = function() {
 
 module.exports.getArticle = function(id) {
   return db
-    .query(
-      `SELECT title, author, article, imageurl, dat FROM articles WHERE id =$1`,
-      [id]
-    )
+    .query(`SELECT * FROM articles WHERE id =$1`, [id])
     .catch(function(err) {
       console.log("ERROR DB ADD ARTICLE", err);
     });

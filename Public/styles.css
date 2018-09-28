@@ -37,9 +37,9 @@ img {
 input {
   font-size: 19px;
   margin: 4px;
-  width: 200px;
+  width: 350px;
   height: 24px;
-  border: #ff851b 1px solid;
+  border: black 1px dotted;
 }
 .inlineWriteBlog {
   display: inline-block;
@@ -49,12 +49,32 @@ input {
   display: block;
   position: relative;
 }
+textarea {
+  font-size: 16px;
+}
 textarea.blogArticleInput {
   height: 600px;
   display: block;
+  margin-bottom: 2%;
   width: 75%;
   font-size: 16px;
-  border: orange 1px solid;
+  border: black 1px dotted;
+}
+
+input.blogedit {
+  font-size: 19px;
+  margin: 4px;
+  width: 230px;
+  height: 24px;
+  border: black 1px dotted;
+}
+
+textarea.blogedit {
+  font-size: 19px;
+  margin: 4px;
+  width: 230px;
+  height: 24px;
+  border: black 1px dotted;
 }
 
 select {
@@ -67,16 +87,13 @@ label {
   font-size: 18px;
   max-width: 90px;
   border-radius: 40px;
-  color: black;
-  background-color: white;
-  margin-left: 30px;
   padding-left: 10px;
+  color: orange;
 }
 
 form {
   display: inline-block;
   position: relative;
-  margin-top: 15%;
   margin-bottom: 5%;
   left: 5%;
   width: 30%;
@@ -84,13 +101,13 @@ form {
 
 fieldset {
   display: flex;
+  background-color: white;
+
   width: 80%;
   margin-left: 5%;
-  margin-bottom: 5%;
-  background-color: none;
   opacity: 0.8;
-  borderf-radius: 10px;
-  border: #ff851b 1px solid;
+  border-radius: 10px;
+  border: #ff851b 0px solid;
 }
 
 iframe {
@@ -104,22 +121,34 @@ iframe {
 .mainContact {
   position: relative;
   display: inline;
-  margin-top: 6%;
 }
 
 .leftContact {
-  position: relative;
+  position: flex;
   display: inline;
-  margin-top: 10%;
+}
+.contactmeHead {
+  margin-left: 9%;
+  font-family: bariolregular;
+  color: white;
+  background-color: #383b4b;
+  width: 80%;
+  font-size: 28px;
+  position: relative;
+  text-align: center;
+  width: 350px;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  vertical-align: middle;
 }
 
 #formButton {
   background-color: orange;
-  width: 100px;
+  width: 350px;
   height: 40px;
   color: white;
   font-size: 15px;
-  margin-left: 20%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -145,19 +174,16 @@ iframe {
   position: fixed;
   z-index: 20;
   height: 50px;
-
   background-color: white;
 }
 
 .navEntry {
   font-size: 13px;
   color: grey;
-  vertical-align: middle;
+  width: 85px;
   display: inline;
-  margin-left: 10px;
   margin-right: 10px;
   text-decoration: none;
-  padding-top: 0px;
   height: 50px;
   top: 0px;
   z-index: 20;
@@ -185,8 +211,7 @@ iframe {
   float: left;
   font-size: 16px;
   color: black;
-  text-align: center;
-  padding: 10px 10px;
+  padding: 0px 10px;
 
   text-decoration: none;
 }
@@ -201,17 +226,18 @@ iframe {
 .dropdown {
   float: left;
   overflow: hidden;
+  width: 120px;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
+  width: 65px;
   border: none;
   outline: none;
   height: 2px;
-
   color: black;
-  padding: 15px 5px;
+  padding: 15px 2px;
   background-color: none;
   z-index: 20;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -223,7 +249,6 @@ iframe {
   display: none;
   position: absolute;
 
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 20;
 }
 
@@ -231,7 +256,6 @@ iframe {
 .dropdown-content a {
   float: none;
 
-  padding: 1px 5px;
   text-decoration: none;
   overflow: visible;
   display: block;
@@ -242,6 +266,7 @@ iframe {
 .dropdown:hover .dropdown-content {
   display: block;
   position: relative;
+  padding: 0px;
   overflow: visible;
   z-index: 300;
 }
@@ -317,6 +342,38 @@ p:hover {
   height: 30px;
   width: 180px;
   font-size: 17px;
+
+  border-radius: 120px;
+  border: white 2px solid;
+}
+
+.buttonEdit {
+  background-color: black;
+  color: white;
+  left: 900px;
+  bottom: 10%;
+  z-index: 10;
+  position: relative;
+  height: 30px;
+  width: 180px;
+  font-size: 17px;
+  margin-bottom: 10%;
+
+  border-radius: 120px;
+  border: white 2px solid;
+}
+
+.buttonEdit2 {
+  background-color: black;
+  color: white;
+
+  bottom: 10%;
+  z-index: 10;
+  position: relative;
+  height: 30px;
+  width: 180px;
+  font-size: 17px;
+  margin-bottom: 10%;
 
   border-radius: 120px;
   border: white 2px solid;
@@ -481,7 +538,7 @@ h4 {
 .form-textarea {
   width: 350px;
   height: 220px;
-  border: 1px orange solid;
+  border: 1px black dotted;
 }
 
 /* footer end */
@@ -804,8 +861,8 @@ h6:before {
 }
 
 .fade-in {
-  -webkit-animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  -webkit-animation: fade-in 3.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 3.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   margin-left: 2%;
   top: 360px;
   width: 200px;

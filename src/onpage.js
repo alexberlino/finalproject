@@ -26,28 +26,13 @@ class Onpage extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEO Berlino</title>
+          <title>On-page SEO - John Smith</title>
         </Helmet>
 
         <div>
           <div className="infoTitle"> On-page SEO </div>
-          <div className="infoIntro">
-            Keyword research ​ Important first step, keyword research is the
-            process of understanding how your target users search for your
-            product(s) or service(s).{" "}
-          </div>
-          <div className="infoMain">
-            It has to be done before starting the on-page work. Competitor
-            Analysis help to expand the research and make sure no important
-            keyword is omitted. ​ Although since Hummingbird, Google is more
-            semantically driven to assess the website's content, and focussed on
-            Voice search and entities, knowing your important keywords is still
-            important when structuring content and metadata. ​ ​ On-page
-            SEOBerlino will then do an audit of your website checking content
-            for each important landing page, site structure, metadata, images. ​
-            Additional important checks will cover structured data
-            implementation and other technical aspects.{" "}
-          </div>
+          <div className="infoIntro">{t("onpageSEO1")}</div>
+          <div className="infoMain">{t("onpageSEO2")}</div>
         </div>
       </div> //Main
     );

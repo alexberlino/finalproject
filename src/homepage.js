@@ -42,7 +42,7 @@ class Homepage extends Component {
           </div>
 
           <div className="blogArticlesHP">
-            <p className="blogHPtext">Blog's latest articles</p>
+            <p className="blogHPtext">{t("bloglatest")}</p>
             <div className="blogWindow">
               {this.state.articles.map(article => (
                 <div className="blogItemHP">
@@ -60,7 +60,7 @@ class Homepage extends Component {
             <footer className="txt"> {t("intro1")}</footer>
             <footer className="txt"> {t("intro2")}</footer>
             <footer className="txt"> {t("intro3")}</footer>
-            <button className="buttonHP"> Get in touch </button>
+            <button className="buttonHP"> {t("getintouch")} </button>
           </div>
         </div>
       </div> //Main
