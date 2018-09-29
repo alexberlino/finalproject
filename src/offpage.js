@@ -27,7 +27,7 @@ class Offpage extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEO Berlino</title>
+          <title>Off-page SEO Berlino</title>
         </Helmet>
         <div>
           <div className="infoTitle"> Off-page SEO </div>

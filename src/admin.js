@@ -18,7 +18,7 @@ class Admin extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Admin SEO Berlino</title>
+          <title>Admin </title>
         </Helmet>
 
         <div className="mainBox">

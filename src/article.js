@@ -29,6 +29,11 @@ class Article extends Component {
     console.log("thispropsartciletitle", this.props.article.title);
     return (
       <div className="blogArticleWindow">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{this.props.article.title + " | SEO Berlino Blog"}</title>
+        </Helmet>
+
         <div className="articleTitle">{this.props.article.title}</div>
         <div className="articleAuthor">
           {"Author:  " + this.props.article.author}

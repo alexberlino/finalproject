@@ -107,6 +107,12 @@ class App extends Component {
 
                 <Route
                   exact
+                  path="/:lang/blog/:title"
+                  render={() => <Article />}
+                />
+
+                <Route
+                  exact
                   path="/:lang/resources"
                   render={() => <Resources i18n={this.props.i18n} />}
                 />

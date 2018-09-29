@@ -48,13 +48,13 @@ class EditArticle extends React.Component {
 
   submit() {
     axios
-      .post("/en/editarticle", {
-        title: this.title,
-        author: this.author,
-        article: this.article,
-        status: this.status,
-        imageurl: this.imageurl,
-        id: this.id
+      .post(`/en/editarticle/${this.state.id}`, {
+        title: this.state.title,
+        author: this.state.author,
+        article: this.state.article,
+        status: this.state.status,
+        imageurl: this.state.imageurl,
+        id: this.state.id
       })
       .then(({ data }) => {
         if (data.success) {

@@ -34,7 +34,6 @@ class Blog extends Component {
       activeArticle: true,
       article: article
     });
-    s;
   }
 
   //dangerously
@@ -48,7 +47,8 @@ class Blog extends Component {
           <meta charSet="utf-8" />
           <title>Blog</title>
         </Helmet>
-        {this.state.activeArticle || <div id="three-js-item" />}
+        <div id="three-js-item" />
+        {this.state.activeArticle}
 
         <div className="leftBlog">
           <h4> {t("bloglatest")}</h4>

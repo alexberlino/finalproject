@@ -52,7 +52,7 @@ module.exports.updateArticle = function(
   return db
     .query(
       `Update articles
-      SET title= $1, author=$2, article=$3, status=$4, imageurl=$5)
+      SET title= $1, author=$2, article=$3, status=$4, imageurl=$5
       WHERE id=$6`,
       [title, author, article, status, imageurl, id]
     )

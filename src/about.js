@@ -20,13 +20,13 @@ class About extends Component {
 
     this.handleClick = this.handleClick.bind(this);
   }
-  handleMouseIn() {
-    this.setState({ hover: true });
-  }
-
-  handleMouseOut() {
-    this.setState({ hover: false });
-  }
+  // handleMouseIn() {
+  //   this.setState({ hover: true });
+  // }
+  //
+  // handleMouseOut() {
+  //   this.setState({ hover: false });
+  // }
 
   handleClick() {
     this.setState({ categorie: "text-blur-out" });
@@ -60,11 +60,7 @@ class About extends Component {
 
     return (
       <div>
-        <div
-          className={this.state.categorie}
-          onMouseOver={this.handleMouseIn.bind(this)}
-          onMouseOut={this.handleMouseOut.bind(this)}
-        />
+        <div className={this.state.categorie} />
 
         <div>
           <Helmet>

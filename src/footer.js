@@ -22,8 +22,11 @@ class Footer extends Component {
       <div className="footer">
         Built with react - 2018
         <Link className="navEntry" to={"/en/login"}>
-          admin
+          login
         </Link>
+        <a className="navEntry" href={"/en/admin"}>
+          admin
+        </a>
         <Link to={"/en/impressum"} className="navEntry">
           impressum
         </Link>

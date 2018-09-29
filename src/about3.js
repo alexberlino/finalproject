@@ -7,9 +7,8 @@ import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
-import About3 from "./about3";
 
-class About2 extends Component {
+class About3 extends Component {
   constructor() {
     super();
     this.state = {
@@ -22,10 +21,7 @@ class About2 extends Component {
   }
 
   handleClick() {
-    this.setState({
-      clicked: true,
-      categorie: null
-    });
+    window.location.reload();
   }
 
   render() {
@@ -36,24 +32,24 @@ class About2 extends Component {
         <div>
           <Helmet>
             <meta charSet="utf-8" />
-            <title>About Me</title>
+            <title>About John Smith</title>
           </Helmet>
         </div>
         <div className="hide">
           <div onClick={this.handleClick} className="swirl-in-fwd">
-            {t("about8")}
+            {t("about10")}
           </div>
 
           <div onClick={this.handleClick} className="roll-in-left2">
-            {t("about9")}
+            {t("about11")}
           </div>
         </div>
-        {this.state.clicked ? <About3 /> : null}
+        {this.state.clicked ? <About /> : null}
       </div>
     );
   }
 }
-export default translate("translations")(About2);
+export default translate("translations")(About3);
 
 // const getStateFromRedux = state => {
 //   return {

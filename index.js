@@ -74,14 +74,14 @@ app.post("/en/postarticle", checkSession, (req, res) => {
     });
 });
 
-app.post("/en/editarticle", checkSession, (req, res) => {
+app.post("/en/editarticle/:id", checkSession, (req, res) => {
   db.updateArticle(
     req.body.title,
     req.body.author,
     req.body.article,
     req.body.status,
     req.body.imageurl,
-    req.body.id
+    req.params.id
   )
     .then(({ rows }) => {
       res.json({

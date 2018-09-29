@@ -71,7 +71,7 @@ class WriteArticles extends React.Component {
             <div className="inlineWriteBlog">
               <select onChange={this.handleChange} name="author">
                 <option name="None"> none </option>
-                <option name="jsmith"> John Smith </option>
+                <option name="me"> Alex Bieth</option>
               </select>
             </div>
             <div className="inlineWriteBlog">
@@ -79,7 +79,7 @@ class WriteArticles extends React.Component {
                 <option name="None"> none </option>
                 <option name="inprogress"> in-progress </option>
                 <option name="readypublish"> ready to publish </option>
-                <option name="discovery"> discovery </option>
+                <option name="discovery"> to do </option>
               </select>{" "}
             </div>
             <div className="inlineWriteBlog">
