@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import { translate, Trans } from "react-i18next";
-import ReactFormLabel from "./reactform";
+import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import i18n from "./i18n";
+import axios from "./axios";
 
 class Contact extends Component {
   constructor(props) {
@@ -16,47 +17,27 @@ class Contact extends Component {
     this.state = {
       name: "",
       email: "",
-      subject: "",
       message: ""
     };
-
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(e) {
-    let newState = {};
-
-    newState[e.target.name] = e.target.value;
-
-    this.setState(newState);
+    this.setState({ [e.target.name]: e.target.value });
   }
 
-  handleSubmit(e, message) {
-    e.preventDefault();
+  async handleSubmit(e) {
+    const { name, email, message } = this.state;
 
-    let formData = {
-      formSender: this.state.name,
-      formEmail: this.state.email,
-      formSubject: this.state.subject,
-      formMessage: this.state.message
-    };
-
-    if (
-      formData.formSender.length < 1 ||
-      formData.formEmail.length < 1 ||
-      formData.formSubject.length < 1 ||
-      formData.formMessage.length < 1
-    ) {
+    if (name.length < 1 || email.length < 1 || message.length < 1) {
       return false;
     }
 
-    this.setState({
-      firstName: "",
-      lastName: "",
-      email: "",
-      subject: "",
-      message: ""
+    const form = await axios.post(`/en/form`, {
+      name,
+      email,
+      message
     });
   }
 
@@ -70,84 +51,50 @@ class Contact extends Component {
           <title>{t("getintouch")}</title>
         </Helmet>
         <div className="leftContact">
-          <form onSubmit={this.handleSubmit}>
-            <div className="contactmeHead"> {t("getintouch")}</div>
-
-            <fieldset>
-              <ReactFormLabel htmlFor="formName" title={t("fullname")} />
-              <input
-                id="formName"
-                className="form-input"
+          <div className="contactmeHead"> {t("getintouch")}</div>
+          <Form onSubmit={this.handleSubmit}>
+            <FormGroup>
+              <Label for="name">{t("fullname")} </Label>
+              <Input
+                type="text"
                 name="name"
-                type="text"
-                placeholder="Full Name"
-                required
+                className="field"
                 onChange={this.handleChange}
-                value={this.state.name}
               />
-            </fieldset>
+            </FormGroup>
 
-            <fieldset>
-              <ReactFormLabel htmlFor="formEmail" title="Email:" />
-
-              <input
-                id="formEmail"
-                className="form-input"
-                name="email"
+            <FormGroup>
+              <Label for="name">Email* </Label>
+              <Input
                 type="email"
-                placeholder="Email"
-                required
+                name="email"
+                className="field"
                 onChange={this.handleChange}
-                value={this.state.email}
               />
-            </fieldset>
+            </FormGroup>
 
-            <fieldset>
-              <ReactFormLabel htmlFor="formSubject" title={t("subject")} />
-
-              <input
-                id="formSubject"
-                className="form-input"
-                name="subject"
-                type="text"
-                placeholder="Subject"
-                required
-                onChange={this.handleChange}
-                value={this.state.subject}
-              />
-            </fieldset>
-
-            <fieldset>
-              <ReactFormLabel htmlFor="formMessage" title={t("message")} />
+            <FormGroup>
+              <Label for="name">{t("message")} </Label>
               <textarea
-                id="formMessage"
-                className="form-textarea"
-                placeholder="Message"
+                type="text"
                 name="message"
-                required
+                className="fieldMessage"
                 onChange={this.handleChange}
               />
-              <div>
-                <button
-                  id="formButton"
-                  className="btn"
-                  placeholder="Send message"
-                  value=""
-                >
-                  {t("sendMessage")}
-                </button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
+            </FormGroup>
 
-        <iframe
-          width="600"
-          height="580"
-          frameBorder="0"
-          src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
-          allowFullScreen
-        />
+            <Button className="formButton">Submit </Button>
+          </Form>
+        </div>
+        <div className="map">
+          <iframe
+            width="600"
+            height="580"
+            frameBorder="0"
+            src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
+            allowFullScreen
+          />
+        </div>
       </div>
     );
   }

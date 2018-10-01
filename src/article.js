@@ -24,9 +24,7 @@ class Article extends Component {
 
   render() {
     // const { t, i18n } = this.props;
-    console.log("THISPROPS", this.props);
-    console.log("THISSTATE", this.state);
-    console.log("thispropsartciletitle", this.props.article.title);
+
     return (
       <div className="blogArticleWindow">
         <Helmet>

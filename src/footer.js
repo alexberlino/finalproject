@@ -20,14 +20,15 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        Built with react - 2018
-        <Link className="navEntry" to={"/en/login"}>
+        Built with <img src="/react.png" height="20px" width="20px" /> - All
+        Right Reserved 2018
+        <Link className="footerlink" to={"/en/login"}>
           login
         </Link>
-        <a className="navEntry" href={"/en/admin"}>
+        <a className="footerlink" href={"/en/admin"}>
           admin
         </a>
-        <Link to={"/en/impressum"} className="navEntry">
+        <Link className="footerlink" to={"/en/impressum"}>
           impressum
         </Link>
       </div>
