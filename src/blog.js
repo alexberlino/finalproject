@@ -34,6 +34,7 @@ class Blog extends Component {
       activeArticle: true,
       article: article
     });
+    // browserhistory.push("/en/blog/article");
   }
 
   //dangerously

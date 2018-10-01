@@ -22,6 +22,7 @@ import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import WriteArticles from "./blogwrite";
 import LoginAdmin from "./adminlogin";
+import Article from "./article.js";
 
 // import SearchBox from "./searchbox";
 
@@ -79,6 +80,7 @@ class App extends Component {
                   path="/en/editarticle"
                   render={() => <EditArticle />}
                 />
+                <Route exact path="/en/form" render={() => <Contact />} />
 
                 <Route
                   exact
@@ -99,16 +101,12 @@ class App extends Component {
                   render={() => <Technical i18n={this.props.i18n} />}
                 />
 
-                <Route
-                  exact
-                  path="/:lang/blog"
-                  render={() => <Blog i18n={this.props.i18n} />}
-                />
+                <Route exact path="/:lang/blog" render={() => <Blog />} />
 
                 <Route
                   exact
-                  path="/:lang/blog/:title"
-                  render={() => <Article />}
+                  path="/:lang/blog/:articleid"
+                  render={() => <Blog articleid={this.props.article.id} />}
                 />
 
                 <Route

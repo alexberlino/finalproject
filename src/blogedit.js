@@ -115,7 +115,7 @@ class EditArticle extends React.Component {
             <div className="inlineWriteBlog">
               <select onChange={this.handleChange} name="author">
                 <option name="None"> none </option>
-                <option name="jsmith"> John Smith </option>
+                <option name="me"> Alex Bieth </option>
               </select>
             </div>
             <div className="inlineWriteBlog">
