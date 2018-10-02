@@ -39,16 +39,24 @@ class About2 extends Component {
             <title>About Me</title>
           </Helmet>
         </div>
-        <div className="hide">
-          <div onClick={this.handleClick} className="swirl-in-fwd">
-            {t("about8")}
-          </div>
+        <div className="aboutgeneric">
+          <div className="hide">
+            <div
+              onClick={this.handleClick}
+              className="swirl-in-fwd  aboutgeneric"
+            >
+              {t("about8")}
+            </div>
 
-          <div onClick={this.handleClick} className="roll-in-left2">
-            {t("about9")}
+            <div
+              onClick={this.handleClick}
+              className="roll-in-left2 aboutgeneric"
+            >
+              {t("about9")}
+            </div>
           </div>
-        </div>
-        {this.state.clicked ? <About3 /> : null}
+          {this.state.clicked ? <About3 /> : null}
+        </div>{" "}
       </div>
     );
   }

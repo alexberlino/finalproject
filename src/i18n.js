@@ -25,8 +25,7 @@ i18n.use(LanguageDetector).init({
         about4: `Helped dozens of clients boost their SEO with personalised SEO audits and plans`,
         about5: `Experience working on Technical SEO: indexation,
         crawling, site architecture`,
-        about6: `Extensive work experience managing multi-million dollar
-        Adwords accounts`,
+        about6: `Extensive work experience managing Adwords accounts with annual budgets of €1m`,
         about7: `Creation & organization of SEO Roadmaps, KPIs & Technical
         Dashboards. Management on SEO Analytics reports (Adobe
         SiteCatalyst Omniture)`,
@@ -36,7 +35,7 @@ i18n.use(LanguageDetector).init({
          while still keeping my finger on the pulse of the times with my website.
          Thank you for the transparent and professional cooperation!`,
         about9: `Hendrik Feige, owner of marketing, and strategy consulting must-be`,
-        about10: `Mr Bieth always had a superior command of his field of activity and very good knowledge of all processes and aspects of the company. He was always very successful in expanding his professional knowledge on his own initiative. Alex has led several major projects of cleaning up our SEO profiles so as to reflect the best practices preached by Google as well as pioners. He has been strict in following the cleanest and best practices to avoid penalties, but continue growth in Spreadshirt's SEO visibility.`,
+        about10: `Alex always had a superior command of his field of activity and very good knowledge of all processes and aspects of the company. He was always very successful in expanding his professional knowledge on his own initiative. Alex has led several major projects of cleaning up our SEO profiles so as to reflect the best practices preached by Google as well as pioners. He has been strict in following the cleanest and best practices to avoid penalties, but continue growth in Spreadshirt's SEO visibility.`,
         about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
         getintouch: "Get in touch - Alex Bieth",
         aboutJM: "About Alex Bieth",
@@ -68,10 +67,12 @@ i18n.use(LanguageDetector).init({
         about2: `Über 5 Jahre als Head of SEO, mit einem
         10 Leute team.`,
         about3: `Full Stack  Web-Entwickler`,
-        about4: `Vielem Kunden als Sebständig`,
+        about4: `
+Ich habe viele Kunden geholfen, ihre SEO mit personalisierten SEO Audits und Plänen zu steigern`,
         about5: `Erfahrung mit Technikem SEO: indexation,
         crawling`,
-        about6: `2 Jahre Erfahrung mit SEA`,
+        about6: `
+Umfangreiche Arbeitserfahrung bei der Verwaltung von AdWords-Konten mit jährlichen Budgets von 1 Mio. €`,
         about7: `Erstellung und Organisation von SEO-Roadmaps, KPIs und technischen
 Dashboards. Erstellen und verwalten Sie SEO Analytics-Berichte (Adobe
         SiteCatalyst Omniture)`,

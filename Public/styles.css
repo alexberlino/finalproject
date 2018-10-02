@@ -1,5 +1,13 @@
+html {
+  height: 90%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 * {
-  background-color: white;
   font-family: bariolregular;
 }
 
@@ -171,50 +179,13 @@ iframe {
 
 /* Navigation Start*/
 
-.containerNav {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 80px;
-  z-index: 20;
-  opacity: 0.9;
-
-  position: fixed;
-
-  background-color: white;
-}
-.navEntries {
-  margin-left: 25%;
-  top: 0px;
-  padding: 10px 10px;
-  position: fixed;
-  z-index: 20;
-  height: 50px;
-  background-color: white;
-}
-
-.navEntry {
-  font-size: 13px;
-  color: grey;
-  width: 85px;
-  display: inline;
-  margin-right: 10px;
-  text-decoration: none;
-  height: 50px;
-  top: 0px;
-  z-index: 20;
-  background-color: white;
-}
-
-.mainBox {
-  background-color: none;
-  margin-top: 10%;
-  margin-left: 5%;
-  z-index: 20;
+.Navbar {
 }
 
 .main {
   margin-top: 10%;
+}
+.mainHP {
 }
 
 .logo {
@@ -223,37 +194,22 @@ iframe {
   left: 5px;
 }
 
-.navEntries a {
-  float: left;
-  font-size: 16px;
-  color: black;
-  padding: 0px 10px;
-
-  text-decoration: none;
-}
-
 .languageBtn {
   position: fixed;
-  top: 7px;
+  display: table;
+  top: -10px;
   left: 72%;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-  width: 120px;
+  z-index: 3;
 }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
-  width: 65px;
+  display: flex;
+
   border: none;
   outline: none;
-  height: 2px;
+
   color: black;
-  padding: 15px 2px;
   background-color: none;
   z-index: 20;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -272,9 +228,7 @@ iframe {
 .dropdown-content a {
   float: none;
 
-  text-decoration: none;
-  overflow: visible;
-  display: block;
+  display: flex;
   text-align: left;
 }
 
@@ -282,58 +236,82 @@ iframe {
 .dropdown:hover .dropdown-content {
   display: block;
   position: relative;
-  padding: 0px;
   overflow: visible;
+  padding: 5px 5px;
   z-index: 300;
+  width: 90px;
 }
 
 /* Navigation END*/
 
 /* HOMEPAGE start */
-.filterDiv {
-  background: url("./apple.jpg") no-repeat fixed;
+.imageHP {
   position: fixed;
-  width: 100%;
-  display: ;
+  z-index: 0;
   top: 0px;
   left: 0px;
-  height: 90%;
-  opacity: 1;
-  z-index: -1;
-  /* filter: alpha(opacity=20); */
+  display: table;
+  height: 750px;
+  width: 1100px;
 }
 .intro {
   background-color: #ff851b;
   opacity: 0.7;
   position: fixed;
   width: 100%;
-  height: 120px;
+  height: 20%;
+  overflow-y: scroll;
+  display: block;
+  bottom: 0px;
+  left: 0px;
+
   padding: 10px;
-  bottom: 7%;
+}
+
+.intro#scrollable {
+  overflow-y: scroll;
+  height: 100%;
 }
 
 .blogArticlesHP {
-  margin-left: 70%;
-  top: 0px;
+  margin-left: 800px;
+
+  width: 20%;
   z-index: 10;
-  width: 500px;
-  position: absolute;
-  height: 220px;
-  width: 300px;
+  margin-top: 10%;
+  position: fixed;
+
   opacity: 0.5;
   background-color: white;
   -webkit-animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .blogHPtext {
-  text-align: center;
+  display: block;
+  margin-left: 10px;
 }
+
 .blogItemHP {
-  display: inline-flex;
-  padding: 2px;
+  display: block;
+  margin: 7px;
+}
+
+.listArticlesBlogHP {
+  display: inline;
+  position: absolute;
+  margin-left: 10px;
+  height: 70px;
+  vertical-align: middle;
+}
+
+.imageBlogHP {
+  display: inline;
+  margin-bottom: 1px;
+  vertical-align: middle;
 }
 .container {
   position: relative;
+  display: block;
 }
 .txt {
   font-size: 20px;
@@ -349,16 +327,17 @@ p:hover {
 }
 
 .buttonHP {
-  background-color: none;
+  background-color: white;
   color: #ff8c00;
+
   left: 900px;
-  bottom: 10%;
+  text-align: center;
   z-index: 10;
   position: fixed;
+  bottom: 60px;
   height: 30px;
   width: 180px;
   font-size: 17px;
-
   border-radius: 120px;
   border: white 2px solid;
 }
@@ -367,7 +346,7 @@ p:hover {
   background-color: black;
   color: white;
   left: 900px;
-  bottom: 10%;
+  top: 700px;
   z-index: 10;
   position: relative;
   height: 30px;
@@ -430,14 +409,12 @@ h4 {
   z-index: 10;
 }
 .blogWindow {
-  width: 20%;
-
   display: inline;
   margin-left: 5%;
   position: absolute;
   height: 30px;
   top: 150px;
-  display: block;
+
   border-radius: 20px;
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -458,20 +435,12 @@ h4 {
 .articleTitle {
   display: block;
   position: relative;
+  margin-top: 10%;
   width: 60%;
   margin-left: 30%;
   padding: 5px;
-  font-size: 24px;
-  top: 69px;
-  opacity: 0.9;
-  z-index: 3;
-  display: block;
-  border-radius: 20px;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
+  z-index: 0;
+  font-size: 22px;
 }
 
 .articleDate {
@@ -591,21 +560,78 @@ h4 {
 
 h2:before {
   color: #ff851b;
-  content: "";
+  content: "SEO  FREELANCER IN BERLIN";
 
   -webkit-animation-name: head;
   -webkit-animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
-
+  z-index: 20;
   position: fixed;
   font-family: monospace;
-  top: 330px;
-  left: 450px;
-  z-index: 1;
+  top: 270px;
+  left: 350px;
 }
 
 @-webkit-keyframes head {
+  0% {
+    font-size: 100%;
+    opacity: 0;
+    content: "";
+  }
+  10% {
+    font-size: 100%;
+    opacity: 1;
+    content: "SEARCH ENGINE OPTIMIZATION";
+  }
+  20% {
+    font-size: 100%;
+    opacity: 1;
+    content: "FREELANCER IN BERLIN";
+  }
+
+  30% {
+    font-size: 100%;
+    opacity: 1;
+    content: "ON-PAGE SEO";
+  }
+
+  40% {
+    font-size: 100%;
+    opacity: 1;
+    content: "KEYWORD RESEARCH";
+  }
+
+  50% {
+    font-size: 100%;
+    opacity: 1;
+    content: "BACKLINK AUDIT";
+  }
+  60% {
+    font-size: 100%;
+    opacity: 1;
+    content: "TECHNICAL SEO";
+  }
+  70% {
+    font-size: 100%;
+    opacity: 1;
+    content: "COMPETITOR ANALYSIS";
+  }
+  80% {
+    font-size: 100%;
+    content: "ANALYTICS";
+
+    opacity: 1;
+  }
+  90% {
+    font-size: 100%;
+    content: "";
+
+    opacity: 1;
+  }
+}
+
+@keyframes head {
   0% {
     font-size: 100%;
     opacity: 0;
@@ -681,6 +707,64 @@ h6:before {
 }
 
 @-webkit-keyframes head2 {
+  0% {
+    font-size: 140%;
+    opacity: 0;
+    content: "";
+  }
+  10% {
+    font-size: 140%;
+    opacity: 1;
+    content: "click on an item to read references";
+  }
+  20% {
+    font-size: 140%;
+    opacity: 1;
+    content: "click on an item to read references";
+  }
+
+  30% {
+    font-size: 140%;
+    opacity: 1;
+    content: "click on an item to read references";
+  }
+
+  40% {
+    font-size: 140%;
+    opacity: 1;
+    content: "click on an item to read references";
+  }
+
+  50% {
+    font-size: 140%;
+    opacity: 1;
+    content: "click on an item to read references";
+  }
+  60% {
+    font-size: 140%;
+    opacity: 1;
+    content: "click on an item to read references";
+  }
+  70% {
+    font-size: 140%;
+    opacity: 1;
+    content: "";
+  }
+  80% {
+    font-size: 140%;
+    content: "";
+
+    opacity: 1;
+  }
+  90% {
+    font-size: 100%;
+    content: "";
+
+    opacity: 1;
+  }
+}
+
+@keyframes head2 {
   0% {
     font-size: 140%;
     opacity: 0;
@@ -1220,4 +1304,129 @@ h6:before {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height: 55px;
+  z-index: 300;
+}
+
+.toolbar_navigation {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.toolbar_logo {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.toolbar_logo a {
+}
+
+.toolbar_navigation_items {
+}
+
+.toolbar_navigation_items ul {
+  list-style: none;
+  position: fixed;
+  top: 0px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 50px;
+  background-color: white;
+  height: 30px;
+}
+
+.toolbar_navigation_items a:hover {
+  color: orange;
+}
+
+.toolbar_navigation_items li {
+  padding: 0.5rem;
+  background-color: white;
+  height: 20px;
+  top: 5px;
+}
+
+.toolbar_navigation_items a {
+  color: black;
+  width: 70px;
+  text-decoration: none;
+  background-color: white;
+  padding: 1px 15px;
+}
+.toggle-button {
+  display: flex;
+
+  flex-direction: column;
+  height: 18px;
+  width: 24px;
+  margin-left: 1rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.toggle-button:focus {
+  outline: none;
+}
+.toggle-button_line {
+  width: 30px;
+  height: 2px;
+  background: black;
+}
+
+.side-drawer {
+  height: 100%;
+  background: white;
+  position: fixed;
+  top: 0;
+  color: white;
+  left: 0;
+  width: 60%;
+  max-width: 400px;
+  z-index: 200;
+  list-style: none;
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+.side-drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  color: darkgrey;
+  justify-content: center;
+  height: 100%;
+}
+.side-drawer li {
+  margin: 0.5rem 0.5rem;
+}
+
+.side-drawer a:hover,
+.side_drawer a:active {
+  color: orange;
+}
+
+.side_drawer#dropbtn {
+  margin-top: 20px;
+  color: red;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  top: 0;
+  left: 0;
 }

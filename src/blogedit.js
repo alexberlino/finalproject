@@ -10,6 +10,7 @@ class EditArticle extends React.Component {
       error: false,
       success: false,
       imageurl: "",
+      url: "",
       title: "",
       status: null,
       article: null,
@@ -28,6 +29,7 @@ class EditArticle extends React.Component {
       this.setState({
         article: res.data.rows[0].article,
         imageurl: res.data.rows[0].imageurl,
+        url: res.data.rows[0].url,
         title: res.data.rows[0].title,
         status: res.data.rows[0].status,
         author: res.data.rows[0].author,
@@ -54,7 +56,8 @@ class EditArticle extends React.Component {
         article: this.state.article,
         status: this.state.status,
         imageurl: this.state.imageurl,
-        id: this.state.id
+        id: this.state.id,
+        url: this.state.url
       })
       .then(({ data }) => {
         if (data.success) {
@@ -108,6 +111,17 @@ class EditArticle extends React.Component {
                   placeholder="title"
                   className="blogedit"
                   value={this.state.title}
+                />
+              </div>
+            </div>
+            <div className="inlineWriteBlog">
+              <div className="blockWriteBlog">
+                <textarea
+                  onChange={this.handleChange}
+                  name="url"
+                  placeholder="url"
+                  className="blogedit"
+                  value={this.state.url}
                 />
               </div>
             </div>

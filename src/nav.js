@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import ReactDOM from "react";
 import App from "./App";
-import { BrowserRouter, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 import { connect } from "react-redux";
 import i18n from "./i18n";
 import { translate, Trans } from "react-i18next";
+import DrawerToggleButton from "./DrawerToggleButton";
+import Backdrop from "./Backdrop";
+
+// require("react-bootstrap/lib/NavbarHeader";
 
 class Navigation extends Component {
   constructor(props) {
@@ -16,6 +19,7 @@ class Navigation extends Component {
     };
     this.changeLanguage = this.changeLanguage.bind(this);
     this.changePageState = this.changePageState.bind(this);
+    console.log("PROPS", props);
   }
 
   //location.pathname.slice(4)
@@ -44,72 +48,103 @@ class Navigation extends Component {
     console.log("STATE", this.state);
 
     return (
-      <div className="containerNav">
-        <div className="navEntries">
-          <img className="logo" src="/logo.png" width="155px" heigth="155px" />
-          <Link className="navEntry" to={"/" + this.state.lang}>
-            <p onClick={() => this.changePageState("/")}>HOME</p>
-          </Link>
-          <div className="dropdown">
-            <a href="#">
-              <p className="dropbtn">{t("services")}</p>
-            </a>
-            <div className="dropdown-content">
-              <Link to={"/" + this.state.lang + "/onpage"}>
-                {" "}
-                <p onClick={() => this.changePageState("/onpage")}>ON-PAGE</p>
-              </Link>
-
-              <Link to={"/" + this.state.lang + "/offpage"}>
-                {" "}
-                <p onClick={() => this.changePageState("/offpage")}>OFFPAGE</p>
-              </Link>
-              <Link to={"/" + this.state.lang + "/technical"}>
-                <p onClick={() => this.changePageState("/technical")}>
-                  {t("technical")}
-                </p>
-              </Link>
-              <Link to={"/" + this.state.lang + "/audit"}>
-                {" "}
-                <p onClick={() => this.changePageState("/audit")}>AUDIT</p>
-              </Link>
-            </div>
+      <header className="toolbar">
+        <nav className="toolbar_navigation">
+          <div>
+            <DrawerToggleButton click={props.drawerClickHandler} />
           </div>
-          <Link className="navEntry" to={"/" + this.state.lang + "/about"}>
-            <p onClick={() => this.changePageState("/about")}>{t("about")}</p>
-          </Link>
-
-          <Link className="navEntry" to={"/" + this.state.lang + "/blog"}>
-            <p onClick={() => this.changePageState("/blog")}>BLOG</p>
-          </Link>
-          <Link className="navEntry" to={"/" + this.state.lang + "/contact"}>
-            <p onClick={() => this.changePageState("/contact")}>
-              {t("contact")}
-            </p>
-          </Link>
-
-          <div className="languageBtn">
-            <Link to={"/de" + this.state.page}>
+          <div>
+            <Link to={"/" + this.state.lang}>
               <img
-                className="languageBtnDE"
-                onClick={() => this.changeLanguage("de")}
-                height="27px"
-                width="33px"
-                src="/GERMANFLAG.png"
-              />
-            </Link>
-            <Link to={"/en" + this.state.page}>
-              <img
-                className="languageBtnEN"
-                onClick={() => this.changeLanguage("en")}
-                height="27px"
-                width="33px"
-                src="/UKUSFLAG.jpeg"
+                className="toolbar_logo"
+                src="/logo.png"
+                width="155px"
+                heigth="125px"
+                onClick={() => this.changePageState("/")}
               />
             </Link>
           </div>
-        </div>
-      </div>
+
+          <div className="toolbar_navigation_items navEntries">
+            <ul>
+              <li>
+                <Link to={"/" + this.state.lang + "/about"}>
+                  <span onClick={() => this.changePageState("/about")}>
+                    {t("about")}
+                  </span>
+                </Link>
+              </li>
+
+              <li>
+                <Link to={"/" + this.state.lang + "/contact"}>
+                  <span onClick={() => this.changePageState("/contact")}>
+                    {t("contact")}
+                  </span>
+                </Link>
+              </li>
+
+              <li>
+                <Link to={"/" + this.state.lang + "/blog"}>
+                  <span onClick={() => this.changePageState("/blog")}>
+                    BLOG
+                  </span>
+                </Link>
+              </li>
+
+              <li>
+                <div className="dropdown">
+                  <span className="dropbtn">{t("services")}</span>
+
+                  <div className="dropdown-content">
+                    <Link to={"/" + this.state.lang + "/onpage"}>
+                      <span onClick={() => this.changePageState("/onpage")}>
+                        ON-PAGE
+                      </span>
+                    </Link>
+
+                    <Link to={"/" + this.state.lang + "/offpage"}>
+                      <span onClick={() => this.changePageState("/offpage")}>
+                        OFFPAGE
+                      </span>
+                    </Link>
+                    <Link to={"/" + this.state.lang + "/technical"}>
+                      <span onClick={() => this.changePageState("/technical")}>
+                        {t("technical")}
+                      </span>
+                    </Link>
+                    <Link to={"/" + this.state.lang + "/audit"}>
+                      <span onClick={() => this.changePageState("/audit")}>
+                        AUDIT
+                      </span>
+                    </Link>
+                  </div>
+                </div>
+              </li>
+
+              <li className="languageBtn">
+                <Link to={"/de" + this.state.page}>
+                  <img
+                    className="languageBtnDE"
+                    onClick={() => this.changeLanguage("de")}
+                    height="20px"
+                    width="25px"
+                    src="/GERMANFLAG.png"
+                  />
+                </Link>
+                <Link to={"/en" + this.state.page}>
+                  <img
+                    className="languageBtnEN"
+                    onClick={() => this.changeLanguage("en")}
+                    height="20px"
+                    width="25px"
+                    src="/UKUSFLAG.jpeg"
+                  />
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
     );
   }
 }

@@ -103,6 +103,12 @@ app.get("/getarticles", (req, res) => {
   });
 });
 
+app.get("/get3articles", (req, res) => {
+  db.get3Articles().then(function(results) {
+    res.json(results);
+  });
+});
+
 app.get("/getarticle/:id", (req, res) => {
   console.log("REQPARAMS", req.params.id);
   db.getArticle(req.params.id).then(function({ rows }) {
@@ -138,6 +144,26 @@ app.post("/en/login", (req, res) => {
     });
 });
 
+app.get("/log-out", (req, res) => {
+  req.session = null;
+  return res.redirect("/en");
+});
+
+// app.get("/:lang/blog/:url", (req, res) => {});
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+////////////////DO NOT TOUCH/////////////////////////
+
 app.post("/en/form", (req, res) => {
   console.log(req.body);
 
@@ -158,7 +184,7 @@ app.post("/en/form", (req, res) => {
       secure: false,
       auth: {
         user: "seoberlino@gmail.com",
-        pass: ""
+        pass: "SeoBerlinoGeraldine88"
       }
     });
 
@@ -180,11 +206,6 @@ app.post("/en/form", (req, res) => {
     }); //transporter
   });
 }); //main
-
-app.get("/log-out", (req, res) => {
-  req.session = null;
-  return res.redirect("/en");
-});
 
 app.get("*", function(req, res) {
   res.sendFile(__dirname + "/index.html");

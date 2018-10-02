@@ -11,6 +11,7 @@ import Impressum from "./impressum";
 import Resources from "./resources";
 import About from "./about";
 import Admin from "./admin";
+import SideDrawer from "./Sidedraw";
 import Technical from "./technical";
 import Onpage from "./onpage";
 import Offpage from "./offpage";
@@ -23,23 +24,39 @@ import i18n from "./i18n";
 import WriteArticles from "./blogwrite";
 import LoginAdmin from "./adminlogin";
 import Article from "./article.js";
+import Backdrop from "./Backdrop";
 
 // import SearchBox from "./searchbox";
 
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      sideDrawerOpen: false
+    };
+  }
 
-    this.state = {};
+  drawerToggleClickHandler() {
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
   }
 
   render() {
+    let sideDrawer;
+    let backdrop;
+    if (this.state.sideDrawerOpen) {
+      sideDrawer = <SideDrawer />;
+      backdrop = <Backdrop />;
+    }
     return (
       <div>
         <Favicon url="/Public/logo.png" />
         <BrowserRouter>
-          <div>
-            <Navigation />
+          <div style={{ height: "100%" }}>
+            {SideDrawer}
+            <Navigation drawerClickHandler={this.drawerToggleClickHandler} />
+            {Backdrop}
 
             <div>
               <Switch>
@@ -105,8 +122,8 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/:lang/blog/:articleid"
-                  render={() => <Blog articleid={this.props.article.id} />}
+                  path="/:lang/blog/:url"
+                  render={() => <Blog url={this.props.url} />}
                 />
 
                 <Route

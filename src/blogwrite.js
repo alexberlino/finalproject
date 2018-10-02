@@ -31,7 +31,8 @@ class WriteArticles extends React.Component {
         author: this.author,
         article: this.article,
         status: this.status,
-        imageurl: this.imageurl
+        imageurl: this.imageurl,
+        url: this.url
       })
       .then(({ data }) => {
         if (data.success) {
@@ -87,6 +88,14 @@ class WriteArticles extends React.Component {
                 onChange={this.handleChange}
                 name="imageurl"
                 placeholder="imageurl"
+                className="blogedit"
+              />
+            </div>
+            <div className="inlineWriteBlog">
+              <input
+                onChange={this.handleChange}
+                name="url"
+                placeholder="url"
                 className="blogedit"
               />
             </div>

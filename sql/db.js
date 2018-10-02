@@ -9,13 +9,14 @@ module.exports.postArticle = function(
   author,
   article,
   status,
-  imageurl
+  imageurl,
+  url
 ) {
   return db
     .query(
-      `INSERT INTO articles (title, author, article, status, imageurl)
-        VALUES ($1, $2, $3, $4, $5)`,
-      [title, author, article, status, imageurl]
+      `INSERT INTO articles (title, author, article, status, imageurl, url)
+        VALUES ($1, $2, $3, $4, $5, $6)`,
+      [title, author, article, status, imageurl, url]
     )
     .catch(function(err) {
       console.log("ERROR DB ADD ARTICLE", err);
@@ -24,10 +25,17 @@ module.exports.postArticle = function(
 
 module.exports.getArticles = function() {
   return db
-    .query(
-      `SELECT id, title, author, article, imageurl, dat FROM articles WHERE status =$1`,
-      ["ready to publish"]
-    )
+    .query(`SELECT * FROM articles WHERE status =$1`, ["ready to publish"])
+    .catch(function(err) {
+      console.log("ERROR DB ADD ARTICLE", err);
+    });
+};
+
+module.exports.get3Articles = function() {
+  return db
+    .query(`SELECT * FROM articles WHERE status =$1 LIMIT 3`, [
+      "ready to publish"
+    ])
     .catch(function(err) {
       console.log("ERROR DB ADD ARTICLE", err);
     });
@@ -47,14 +55,15 @@ module.exports.updateArticle = function(
   article,
   status,
   imageurl,
-  id
+  id,
+  url
 ) {
   return db
     .query(
       `Update articles
-      SET title= $1, author=$2, article=$3, status=$4, imageurl=$5
+      SET title= $1, author=$2, article=$3, status=$4, imageurl=$5, url=$7
       WHERE id=$6`,
-      [title, author, article, status, imageurl, id]
+      [title, author, article, status, imageurl, id, url]
     )
     .catch(function(err) {
       console.log("ERROR DB ADD ARTICLE", err);

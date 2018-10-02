@@ -68,29 +68,43 @@ class About extends Component {
             <title>{t("aboutJM")}</title>
           </Helmet>
         </div>
-        <div onClick={this.handleClick} className="bounce-in-top2">
-          {t("about1")}
+        <div className="aboutgeneric">
+          <div
+            onClick={this.handleClick}
+            className="bounce-in-top2 aboutgeneric"
+          >
+            {t("about1")}
+          </div>
+          <div onClick={this.handleClick} className="roll-in-left aboutgeneric">
+            {t("about2")}
+          </div>
+          <div
+            onClick={this.handleClick}
+            className="swirl-in-fwd2 aboutgeneric"
+          >
+            {t("about3")}
+          </div>
+          <div
+            onClick={this.handleClick}
+            className="bounce-in-top aboutgeneric"
+          >
+            {t("about4")}
+          </div>
+          <div onClick={this.handleClick} className="fade-in aboutgeneric">
+            {t("about5")}
+          </div>
+          <div onClick={this.handleClick} className="swirl-in-fwd aboutgeneric">
+            {t("about6")}
+          </div>
+          <div
+            onClick={this.handleClick}
+            className="roll-in-left2 aboutgeneric"
+          >
+            {t("about7")}
+          </div>
+          <h6 />
+          {this.state.clicked ? <About2 /> : null}
         </div>
-        <div onClick={this.handleClick} className="roll-in-left">
-          {t("about2")}
-        </div>
-        <div onClick={this.handleClick} className="swirl-in-fwd2">
-          {t("about3")}
-        </div>
-        <div onClick={this.handleClick} className="bounce-in-top">
-          {t("about4")}
-        </div>
-        <div onClick={this.handleClick} className="fade-in">
-          {t("about5")}
-        </div>
-        <div onClick={this.handleClick} className="swirl-in-fwd">
-          {t("about6")}
-        </div>
-        <div onClick={this.handleClick} className="roll-in-left2">
-          {t("about7")}
-        </div>
-        <h6 />
-        {this.state.clicked ? <About2 /> : null}
       </div>
     );
   }

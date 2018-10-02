@@ -43,7 +43,7 @@ class Blog extends Component {
     const { t, i18n } = this.props;
 
     return (
-      <div className="main">
+      <div className="mainBlog">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Blog</title>
@@ -57,12 +57,14 @@ class Blog extends Component {
           <div className="blogWindow">
             <div className="whatever">
               {this.state.articles.map(article => (
-                <p
-                  className="listArticlesBlog"
-                  onClick={() => this.changeActiveArticle(article)}
-                >
-                  {article.title}
-                </p>
+                <Link to={"/en/blog/" + article.url}>
+                  <p
+                    className="listArticlesBlog"
+                    onClick={() => this.changeActiveArticle(article)}
+                  >
+                    {article.title}
+                  </p>
+                </Link>
               ))}
             </div>
           </div>

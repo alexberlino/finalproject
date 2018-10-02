@@ -16,8 +16,6 @@ class Article extends Component {
     this.createMarkup = this.createMarkup.bind(this);
   }
 
-  componentDidMount() {}
-
   createMarkup() {
     return { __html: this.props.article.article };
   }
