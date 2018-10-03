@@ -36,7 +36,7 @@ class LoginAdmin extends Component {
   }
   render() {
     return (
-      <div className="mainBox">
+      <div className="mainlogin">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Log-in</title>

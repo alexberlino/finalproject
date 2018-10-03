@@ -20,6 +20,7 @@ class Navigation extends Component {
     this.changeLanguage = this.changeLanguage.bind(this);
     this.changePageState = this.changePageState.bind(this);
     console.log("PROPS", props);
+    console.log("THISPROPS", this.props);
   }
 
   //location.pathname.slice(4)
@@ -34,7 +35,6 @@ class Navigation extends Component {
     });
     console.log(this.state.lang);
     // this.props.history.push("/" + lng);
-    console.log("THISPROPS", this.props);
   }
 
   changePageState(url) {
@@ -50,8 +50,8 @@ class Navigation extends Component {
     return (
       <header className="toolbar">
         <nav className="toolbar_navigation">
-          <div>
-            <DrawerToggleButton click={props.drawerClickHandler} />
+          <div className="toolbar_toggle_button">
+            <DrawerToggleButton click={this.props.drawerClickHandler} />
           </div>
           <div>
             <Link to={"/" + this.state.lang}>
@@ -120,29 +120,28 @@ class Navigation extends Component {
                   </div>
                 </div>
               </li>
-
-              <li className="languageBtn">
-                <Link to={"/de" + this.state.page}>
-                  <img
-                    className="languageBtnDE"
-                    onClick={() => this.changeLanguage("de")}
-                    height="20px"
-                    width="25px"
-                    src="/GERMANFLAG.png"
-                  />
-                </Link>
-                <Link to={"/en" + this.state.page}>
-                  <img
-                    className="languageBtnEN"
-                    onClick={() => this.changeLanguage("en")}
-                    height="20px"
-                    width="25px"
-                    src="/UKUSFLAG.jpeg"
-                  />
-                </Link>
-              </li>
             </ul>
           </div>
+          <li className="languageBtn">
+            <Link to={"/de" + this.state.page}>
+              <img
+                className="languageBtnDE"
+                onClick={() => this.changeLanguage("de")}
+                height="20px"
+                width="25px"
+                src="/GERMANFLAG.png"
+              />
+            </Link>
+            <Link to={"/en" + this.state.page}>
+              <img
+                className="languageBtnEN"
+                onClick={() => this.changeLanguage("en")}
+                height="20px"
+                width="25px"
+                src="/UKUSFLAG.jpeg"
+              />
+            </Link>
+          </li>
         </nav>
       </header>
     );

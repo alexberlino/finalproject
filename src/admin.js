@@ -15,23 +15,23 @@ class Admin extends Component {
 
   render() {
     return (
-      <div className="main">
+      <div className="mainlogin">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Admin </title>
         </Helmet>
 
         <div className="mainBox">
-          <p>
+          <span>
             <Link className="infoMain" to={"/en/postarticle"}>
               Create new Blog Post
             </Link>{" "}
-          </p>
-          <p>
+          </span>
+          <span>
             <Link className="infoMain" to={"/en/editarticle"}>
               Edit a Blog Post
             </Link>
-          </p>
+          </span>
 
           <a className="infoMain" href="/log-out">
             Log out

@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { translate, Trans } from "react-i18next";
+import ReactDOM from "react";
+
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import i18n from "./i18n";
 
 class SideDrawer extends Component {
   constructor(props) {
@@ -34,9 +37,13 @@ class SideDrawer extends Component {
 
   render() {
     const { t, i18n } = this.props;
+    let drawerClasses = "side-drawer";
+    if (this.props.show) {
+      drawerClasses = "side-drawer open";
+    }
 
     return (
-      <nav className="side-drawer">
+      <nav className={drawerClasses}>
         <ul>
           <ul>
             <li>

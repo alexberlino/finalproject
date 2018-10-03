@@ -34,11 +34,21 @@ class App extends Component {
     this.state = {
       sideDrawerOpen: false
     };
+
+    this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
+
+    this.backdropClickHandler = this.backdropClickHandler.bind(this);
   }
 
   drawerToggleClickHandler() {
-    this.setState(prevState => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    this.setState({
+      sideDrawerOpen: !this.state.sideDrawerOpen
+    });
+  }
+
+  backdropClickHandler() {
+    this.setState({
+      sideDrawerOpen: false
     });
   }
 
@@ -47,16 +57,16 @@ class App extends Component {
     let backdrop;
     if (this.state.sideDrawerOpen) {
       sideDrawer = <SideDrawer />;
-      backdrop = <Backdrop />;
+      backdrop = <Backdrop click2={this.backdropClickHandler} />;
     }
     return (
-      <div>
+      <div style={{ height: "100%" }}>
         <Favicon url="/Public/logo.png" />
         <BrowserRouter>
-          <div style={{ height: "100%" }}>
-            {SideDrawer}
+          <div>
+            {sideDrawer}
             <Navigation drawerClickHandler={this.drawerToggleClickHandler} />
-            {Backdrop}
+            {backdrop}
 
             <div>
               <Switch>

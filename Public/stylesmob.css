@@ -1,4 +1,4 @@
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .txt {
     font-size: 17px;
     color: white;
@@ -11,13 +11,14 @@
     position: fixed;
     bottom: 0px;
     background-color: orange;
-    width: 350px;
+    width: 100%;
     height: 20%;
     margin-bottom: 1%;
     padding: 10px;
   }
 
   .footer {
+    width: 100%;
     text-align: left;
     position: fixed;
     bottom: 0px;
@@ -107,31 +108,21 @@
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
-  .languageBtnDE {
-    height: 14px;
-    width: 17px;
-  }
-
-  .languageBtnEN {
-    height: 14px;
-    width: 17px;
-    margin-left: 5px;
-  }
-
-  .languageBtn {
+  .languageBtnENMob {
     position: fixed;
-    top: 50px;
-    left: 300px;
-    z-index: 100;
+    top: 80px;
+    left: 50px;
   }
 
-  .logo {
+  .languageBtnDEMob {
     position: fixed;
-    top: 5px;
-    left: 5px;
-    height: 50px;
-    width: 70px;
+    top: 80px;
+    left: 120px;
   }
+
+  .flagsmobile {
+  }
+
   .map {
     visibility: hidden;
   }
@@ -237,7 +228,16 @@
     height: 200px;
   }
 
-  .toolbar_navigation {
-    visibility: hidden;
+  .toolbar_navigation_items {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .side-drawer {
+    display: none;
+  }
+  .toolbar_toggle_button {
+    display: none;
   }
 }

@@ -26,7 +26,7 @@ class Onpage extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>On-page SEO - John Smith</title>
+          <title>On-page SEO - SEO Berlino</title>
         </Helmet>
 
         <div>

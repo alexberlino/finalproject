@@ -185,6 +185,10 @@ iframe {
 .main {
   margin-top: 10%;
 }
+
+.mainlogin {
+  margin-top: 20%;
+}
 .mainHP {
 }
 
@@ -192,14 +196,18 @@ iframe {
   position: fixed;
   top: 5px;
   left: 5px;
+  z-index: 300;
 }
 
 .languageBtn {
   position: fixed;
   display: table;
-  top: -10px;
+  top: 10px;
   left: 72%;
-  z-index: 3;
+  z-index: 100;
+}
+.languageBtnDE {
+  margin-right: 15px;
 }
 
 /* Dropdown button */
@@ -1365,7 +1373,7 @@ h6:before {
 }
 .toggle-button {
   display: flex;
-
+  z-index: 300;
   flex-direction: column;
   height: 18px;
   width: 24px;
@@ -1397,6 +1405,11 @@ h6:before {
   z-index: 200;
   list-style: none;
   background-color: rgba(20, 20, 20, 0.8);
+  transform: translateX(-100);
+}
+
+.side-drawer.open {
+  transform: translateX(0);
 }
 
 .side-drawer ul {
@@ -1429,4 +1442,18 @@ h6:before {
   z-index: 100;
   top: 0;
   left: 0;
+}
+
+.side-drawer {
+  height: 100%;
+  background: white;
+  position: fixed;
+  top: 0;
+  color: white;
+  left: 0;
+  width: 60%;
+  max-width: 400px;
+  z-index: 200;
+  list-style: none;
+  background-color: rgba(20, 20, 20, 0.8);
 }

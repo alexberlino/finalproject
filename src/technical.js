@@ -26,7 +26,7 @@ class Technical extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEO Berlino</title>
+          <title>Technical SEO Berlino</title>
         </Helmet>
         <div>
           <div className="infoTitle"> Technical SEO </div>
