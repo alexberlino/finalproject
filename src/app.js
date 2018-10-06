@@ -19,7 +19,6 @@ import Audit from "./audit";
 import EditArticle from "./blogedit";
 import Navigation from "./nav";
 import Footer from "./footer";
-import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import WriteArticles from "./blogwrite";
 import LoginAdmin from "./adminlogin";
@@ -32,17 +31,36 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      sideDrawerOpen: false
+      sideDrawerOpen: false,
+      lang: i18n.language || "en",
+
+      page: location.pathname.slice(3)
     };
 
     this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
-
+    this.changeLanguage = this.changeLanguage.bind(this);
+    this.changePage = this.changePage.bind(this);
     this.backdropClickHandler = this.backdropClickHandler.bind(this);
   }
 
   drawerToggleClickHandler() {
     this.setState({
       sideDrawerOpen: !this.state.sideDrawerOpen
+    });
+  }
+  changeLanguage(lng) {
+    i18n.changeLanguage(lng);
+
+    this.setState({
+      lang: lng
+    });
+    console.log("THISSTATEAPP", this.state);
+    // this.props.history.push("/" + lng);
+  }
+
+  changePage(url) {
+    this.setState({
+      page: url
     });
   }
 
@@ -52,20 +70,46 @@ class App extends Component {
     });
   }
 
+  componentWillMount() {
+    this.setState(
+      {
+        lang: location.pathname.slice(1, 3)
+      },
+      () => i18n.changeLanguage(this.state.lang)
+    );
+  }
+
   render() {
+    const { lang, page } = this.state;
+    console.log("THISSTATE", this.state.lang);
+
     let sideDrawer;
     let backdrop;
     if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />;
+      sideDrawer = (
+        <SideDrawer
+          languageChange={this.changeLanguage}
+          pageChange={this.changePage}
+          lang={lang}
+          page={page}
+        />
+      );
       backdrop = <Backdrop click2={this.backdropClickHandler} />;
     }
+
     return (
       <div style={{ height: "100%" }}>
         <Favicon url="/Public/logo.png" />
         <BrowserRouter>
           <div>
             {sideDrawer}
-            <Navigation drawerClickHandler={this.drawerToggleClickHandler} />
+            <Navigation
+              drawerClickHandler={this.drawerToggleClickHandler}
+              languageChange={this.changeLanguage}
+              pageChange={this.changePage}
+              lang={lang}
+              page={page}
+            />
             {backdrop}
 
             <div>
@@ -73,34 +117,39 @@ class App extends Component {
                 <Route
                   exact
                   path="/:lang"
-                  render={() => <Homepage i18n={this.props.i18n} />}
+                  render={() => (
+                    <Homepage
+                      pageChange={this.changePage}
+                      lang={lang}
+                      page={page}
+                    />
+                  )}
                 />
-
+                <Route
+                  exact
+                  path="/:lang/blog/:article"
+                  render={() => (
+                    <Blog
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+                <Route exact path="/:lang/about" render={() => <About />} />
                 <Route
                   exact
                   path="/:lang/contact"
                   render={() => <Contact i18n={this.props.i18n} />}
                 />
-                <Route
-                  exact
-                  path="/:lang/offpage"
-                  render={() => <Offpage i18n={this.props.i18n} />}
-                />
-
-                <Route
-                  exact
-                  path="/:lang/onpage"
-                  render={() => <Onpage i18n={this.props.i18n} />}
-                />
-
-                <Route exact path="/:logout" render={() => <Onpage />} />
-
+                <Route exact path="/:lang/offpage" render={() => <Offpage />} />
+                <Route exact path="/:lang/onpage" render={() => <Onpage />} />
+                <Route exact path="/logout" render={() => <Onpage />} />
                 <Route
                   exact
                   path="/en/postarticle"
                   render={() => <WriteArticles />}
                 />
-
                 <Route exact path="/en/login" render={() => <LoginAdmin />} />
                 <Route
                   exact
@@ -108,46 +157,34 @@ class App extends Component {
                   render={() => <EditArticle />}
                 />
                 <Route exact path="/en/form" render={() => <Contact />} />
-
                 <Route
                   exact
-                  path="/en/impressum"
+                  path="/:lang/impressum"
                   render={() => <Impressum />}
                 />
-
-                <Route
-                  exact
-                  path="/:lang/audit"
-                  render={() => <Audit i18n={this.props.i18n} />}
-                />
+                <Route exact path="/:lang/audit" render={() => <Audit />} />
                 <Route exact path="/en/admin" render={() => <Admin />} />
-
                 <Route
                   exact
                   path="/:lang/technical"
-                  render={() => <Technical i18n={this.props.i18n} />}
+                  render={() => <Technical />}
                 />
-
-                <Route exact path="/:lang/blog" render={() => <Blog />} />
-
                 <Route
                   exact
-                  path="/:lang/blog/:url"
-                  render={() => <Blog url={this.props.url} />}
+                  path="/:lang/blog"
+                  render={() => (
+                    <Blog
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
                 />
-
                 <Route
                   exact
                   path="/:lang/resources"
-                  render={() => <Resources i18n={this.props.i18n} />}
+                  render={() => <Resources />}
                 />
-
-                <Route
-                  exact
-                  path="/:lang/about"
-                  render={() => <About i18n={this.props.i18n} />}
-                />
-
                 <Redirect to="/en/" />
               </Switch>
             </div>

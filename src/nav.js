@@ -13,39 +13,12 @@ import Backdrop from "./Backdrop";
 class Navigation extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      lang: this.props.i18n.language,
-      page: location.pathname
-    };
-    this.changeLanguage = this.changeLanguage.bind(this);
-    this.changePageState = this.changePageState.bind(this);
-    console.log("PROPS", props);
-    console.log("THISPROPS", this.props);
   }
 
   //location.pathname.slice(4)
 
-  changeLanguage(lng) {
-    console.log(lng);
-    i18n.changeLanguage(lng);
-    console.log(this.state.lang);
-
-    this.setState({
-      lang: lng
-    });
-    console.log(this.state.lang);
-    // this.props.history.push("/" + lng);
-  }
-
-  changePageState(url) {
-    this.setState({
-      page: url
-    });
-  }
-
   render() {
     const { t, i18n } = this.props;
-    console.log("STATE", this.state);
 
     return (
       <header className="toolbar">
@@ -54,41 +27,41 @@ class Navigation extends Component {
             <DrawerToggleButton click={this.props.drawerClickHandler} />
           </div>
           <div>
-            <Link to={"/" + this.state.lang}>
+            <a href={"/" + this.props.lang}>
               <img
                 className="toolbar_logo"
                 src="/logo.png"
                 width="155px"
                 heigth="125px"
-                onClick={() => this.changePageState("/")}
+                onClick={() => this.props.pageChange("/")}
               />
-            </Link>
+            </a>
           </div>
 
           <div className="toolbar_navigation_items navEntries">
             <ul>
               <li>
-                <Link to={"/" + this.state.lang + "/about"}>
-                  <span onClick={() => this.changePageState("/about")}>
+                <a href={"/" + this.props.lang + "/about"}>
+                  <span onClick={() => this.props.pageChange("/about")}>
                     {t("about")}
                   </span>
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link to={"/" + this.state.lang + "/contact"}>
-                  <span onClick={() => this.changePageState("/contact")}>
+                <a href={"/" + this.props.lang + "/contact"}>
+                  <span onClick={() => this.props.pageChange("/contact")}>
                     {t("contact")}
                   </span>
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link to={"/" + this.state.lang + "/blog"}>
-                  <span onClick={() => this.changePageState("/blog")}>
+                <a href={"/" + this.props.lang + "/blog"}>
+                  <span onClick={() => this.props.pageChange("/blog")}>
                     BLOG
                   </span>
-                </Link>
+                </a>
               </li>
 
               <li>
@@ -96,51 +69,51 @@ class Navigation extends Component {
                   <span className="dropbtn">{t("services")}</span>
 
                   <div className="dropdown-content">
-                    <Link to={"/" + this.state.lang + "/onpage"}>
-                      <span onClick={() => this.changePageState("/onpage")}>
+                    <a href={"/" + this.props.lang + "/onpage"}>
+                      <span onClick={() => this.props.pageChange("/onpage")}>
                         ON-PAGE
                       </span>
-                    </Link>
+                    </a>
 
-                    <Link to={"/" + this.state.lang + "/offpage"}>
-                      <span onClick={() => this.changePageState("/offpage")}>
+                    <a href={"/" + this.props.lang + "/offpage"}>
+                      <span onClick={() => this.props.pageChange("/offpage")}>
                         OFFPAGE
                       </span>
-                    </Link>
-                    <Link to={"/" + this.state.lang + "/technical"}>
-                      <span onClick={() => this.changePageState("/technical")}>
+                    </a>
+                    <a href={"/" + this.props.lang + "/technical"}>
+                      <span onClick={() => this.props.pageChange("/technical")}>
                         {t("technical")}
                       </span>
-                    </Link>
-                    <Link to={"/" + this.state.lang + "/audit"}>
-                      <span onClick={() => this.changePageState("/audit")}>
+                    </a>
+                    <a href={"/" + this.props.lang + "/audit"}>
+                      <span onClick={() => this.props.pageChange("/audit")}>
                         AUDIT
                       </span>
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </li>
             </ul>
           </div>
           <li className="languageBtn">
-            <Link to={"/de" + this.state.page}>
+            <a href={"/de" + this.props.page}>
               <img
                 className="languageBtnDE"
-                onClick={() => this.changeLanguage("de")}
+                onClick={() => this.props.languageChange("de")}
                 height="20px"
                 width="25px"
                 src="/GERMANFLAG.png"
               />
-            </Link>
-            <Link to={"/en" + this.state.page}>
+            </a>
+            <a href={"/en" + this.props.page}>
               <img
                 className="languageBtnEN"
-                onClick={() => this.changeLanguage("en")}
+                onClick={() => this.props.languageChange("en")}
                 height="20px"
                 width="25px"
                 src="/UKUSFLAG.jpeg"
               />
-            </Link>
+            </a>
           </li>
         </nav>
       </header>

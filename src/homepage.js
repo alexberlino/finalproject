@@ -15,41 +15,42 @@ class Homepage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      lang: this.props.i18n.language,
-      page: location.pathname,
       articles: []
     };
-    this.changeLanguage = this.changeLanguage.bind(this);
-    this.changePageState = this.changePageState.bind(this);
+  }
+
+  static getDerivedStateFromProps(props, state) {
+    console.log("DERIVEDPROPS", props);
+    console.log("DERIVEDSTATE", state);
+    return null;
   }
   componentDidMount() {
+    // i18n.changeLanguage(this.props.lang);
+    // console.log("LOCPATHNAME", location.pathname.slice(1, 3));
+    // console.log("THISPROPSi18N", this.props.i18n.language);
+    // if (this.props.i18n.language != location.pathname.slice(1, 3)) {
+    //   console.log("THIS.PROPS", this.props);
+    //   console.log("location.replace", location.replace);
+    //   if (this.props.lang == "en") {
+    //     return location.replace(`/en/${this.props.page}`);
+    //   } else {
+    //     return location.replace(`/de/${this.props.page}`);
+    //   }
+    // }
+
     axios.get(`/get3articles/`).then(res => {
       this.setState({
         articles: res.data.rows
       });
     });
   }
-  changeLanguage(lng) {
-    console.log(lng);
-    i18n.changeLanguage(lng);
-    console.log(this.state.lang);
-
-    this.setState({
-      lang: lng
-    });
-    console.log(this.state.lang);
-    // this.props.history.push("/" + lng);
-    console.log("THISPROPS", this.props);
-  }
-  changePageState(url) {
-    this.setState({
-      page: url
-    });
-  }
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props.i18n.language);
+    console.log("i18nprops", this.props.i18n.language);
+    console.log("location", location.pathname.slice(1, 3));
+    console.log("thisstatelang", this.props.lang);
+    console.log("thisproppage", this.props.page);
 
     return (
       <div className="mainHP">
@@ -74,11 +75,11 @@ class Homepage extends Component {
                 />
               </div>
               <div className="listArticlesBlogHP">
-                <Link to={"/" + this.state.lang + "/blog"}>
-                  <span onClick={() => this.changePageState("/blog")}>
+                <a href={"/" + this.props.lang + "/blog"}>
+                  <span onClick={() => this.props.pageChange("/blog")}>
                     {article.title}
                   </span>
-                </Link>
+                </a>
               </div>
             </div>
           ))}
@@ -88,14 +89,14 @@ class Homepage extends Component {
           <footer className="txt"> {t("intro1")}</footer>
           <footer className="txt"> {t("intro2")}</footer>
           <footer className="txt"> {t("intro3")}</footer>
-          <Link to={"/" + this.state.lang + "/contact"}>
-            <p
+          <a href={"/" + this.props.lang + "/contact"}>
+            <span
               className="buttonHP"
-              onClick={() => this.changePageState("/contact")}
+              onClick={() => this.props.changePage("/contact")}
             >
               {t("getintouch")}
-            </p>
-          </Link>
+            </span>
+          </a>
         </div>
       </div> //Main
     );

@@ -1,5 +1,9 @@
 const express = require("express");
 const nodemailer = require("nodemailer");
+var i18n = require("i18next");
+const i18nFsBackend = require("i18next-node-fs-backend");
+const i18nMiddleware = require("i18next-express-middleware");
+const fs = require("fs");
 const app = express();
 const compression = require("compression");
 const db = require("./sql/db.js");
@@ -44,17 +48,43 @@ function checkSession(req, res, next) {
     next();
   }
 }
-app.get("/en/editarticle", checkSession, (req, res, next) => {
+
+////////////LANGUAGES////////////
+//
+// i18n
+//   .use(i18nFsBackend)
+//   .use(i18nMiddleware.LanguageDetector)
+//   .init({
+//     backend: {
+//       loadPath: __dirname + "/src/i18n.js"
+//     },
+//     fallbackLng: "de",
+//     lowerCaseLng: true,
+//     preload: ["en", "de"],
+//     saveMissing: true
+//   });
+//
+// app.use(
+//   i18nMiddleware.handle(i18n, {
+//     removeLngFromUrl: false
+//   })
+// );
+
+////////////END LANGUAGES////////////
+
+app.get("/:lang/editarticle", checkSession, (req, res, next) => {
   next();
 });
-app.get("/en/postarticle", checkSession, (req, res, next) => {
+app.get("/:lang/postarticle", checkSession, (req, res, next) => {
   next();
 });
-app.get("/en/admin", checkSession, (req, res, next) => {
+app.get("/:lang/admin", checkSession, (req, res, next) => {
+  console.log("REQPARAMS", req.params);
+  console.log("REQSESSION", req.session);
   next();
 });
 
-app.post("/en/postarticle", checkSession, (req, res) => {
+app.post("/:lang/postarticle", checkSession, (req, res) => {
   db.postArticle(
     req.body.title,
     req.body.author,
@@ -75,7 +105,7 @@ app.post("/en/postarticle", checkSession, (req, res) => {
     });
 });
 
-app.post("/en/editarticle/:id", checkSession, (req, res) => {
+app.post("/:lang/editarticle/:id", checkSession, (req, res) => {
   db.updateArticle(
     req.body.title,
     req.body.author,
@@ -115,7 +145,7 @@ app.get("/getarticle/:id", (req, res) => {
     res.json({ rows });
   });
 });
-app.post("/en/login", (req, res) => {
+app.post("/:lang/login", (req, res) => {
   let { email, pass } = req.body;
   db.login(email)
     .then(function(result) {
@@ -164,7 +194,7 @@ app.get("/log-out", (req, res) => {
 //
 ////////////////DO NOT TOUCH/////////////////////////
 
-app.post("/en/form", (req, res) => {
+app.post("/:lang/form", (req, res) => {
   console.log(req.body);
 
   nodemailer.createTestAccount((err, account) => {

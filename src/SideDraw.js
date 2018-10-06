@@ -8,34 +8,10 @@ import i18n from "./i18n";
 class SideDrawer extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      lang: this.props.i18n.language,
-      page: location.pathname
-    };
-    this.changeLanguage = this.changeLanguage.bind(this);
-    this.changePageState = this.changePageState.bind(this);
-  }
-
-  changeLanguage(lng) {
-    console.log(lng);
-    i18n.changeLanguage(lng);
-    console.log(this.state.lang);
-
-    this.setState({
-      lang: lng
-    });
-    console.log(this.state.lang);
-    // this.props.history.push("/" + lng);
-    console.log("THISPROPS", this.props);
-  }
-
-  changePageState(url) {
-    this.setState({
-      page: url
-    });
   }
 
   render() {
+    console.log("THISSTATESIDRAW", this.state);
     const { t, i18n } = this.props;
     let drawerClasses = "side-drawer";
     if (this.props.show) {
@@ -47,56 +23,56 @@ class SideDrawer extends Component {
         <ul>
           <ul>
             <li>
-              <Link to={"/" + this.state.lang + "/about"}>
-                <span onClick={() => this.changePageState("/about")}>
+              <a href={"/" + this.props.lang + "/about"}>
+                <span onClick={() => this.props.pageChange("/about")}>
                   {t("about")}
                 </span>
-              </Link>
+              </a>
             </li>
 
             <li>
-              <Link to={"/" + this.state.lang + "/onpage"}>
-                <span onClick={() => this.changePageState("/onpage")}>
+              <a href={"/" + this.props.lang + "/onpage"}>
+                <span onClick={() => this.props.pageChange("/onpage")}>
                   ON-PAGE
                 </span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={"/" + this.state.lang + "/offpage"}>
-                <span onClick={() => this.changePageState("/offpage")}>
-                  OFF-PAGE
+              <a href={"/" + this.props.lang + "/offpage"}>
+                <span onClick={() => this.props.pageChange("/offpage")}>
+                  OFFPAGE
                 </span>
-              </Link>
+              </a>
             </li>
 
             <li>
-              <Link to={"/" + this.state.lang + "/technical"}>
-                <span onClick={() => this.changePageState("/technical")}>
+              <a href={"/" + this.props.lang + "/technical"}>
+                <span onClick={() => this.props.pageChange("/technical")}>
                   {t("technical")}
                 </span>
-              </Link>
+              </a>
             </li>
 
             <li>
-              <Link to={"/" + this.state.lang + "/audit"}>
-                <span onClick={() => this.changePageState("/audit")}>
+              <a href={"/" + this.props.lang + "/audit"}>
+                <span onClick={() => this.props.pageChange("/audit")}>
                   AUDIT
                 </span>
-              </Link>
+              </a>
             </li>
 
             <li>
-              <Link to={"/" + this.state.lang + "/blog"}>
-                <span onClick={() => this.changePageState("/blog")}>BLOG</span>
-              </Link>
+              <a href={"/" + this.props.lang + "/blog"}>
+                <span onClick={() => this.props.pageChange("/blog")}>BLOG</span>
+              </a>
             </li>
 
             <li>
-              <Link to={"/" + this.state.lang + "/contact"}>
-                <span onClick={() => this.changePageState("/contact")}>
+              <a href={"/" + this.props.lang + "/contact"}>
+                <span onClick={() => this.props.pageChange("/contact")}>
                   {t("contact")}
                 </span>
-              </Link>
+              </a>
             </li>
           </ul>
         </ul>

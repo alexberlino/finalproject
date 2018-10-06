@@ -14,9 +14,7 @@ class Onpage extends Component {
     this.state = {};
   }
 
-  componentDidMount() {
-    console.log("LOCATION", location);
-  }
+  componentDidMount() {}
 
   render() {
     const { t, i18n } = this.props;
