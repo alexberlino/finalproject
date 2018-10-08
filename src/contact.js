@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 import { translate, Trans } from "react-i18next";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import i18n from "./i18n";
+
 import axios from "./axios";
 
 class Contact extends Component {

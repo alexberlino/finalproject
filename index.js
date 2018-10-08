@@ -10,11 +10,13 @@ const compression = require("compression");
 const db = require("./sql/db.js");
 const { checkPassword, hashPassword } = require("./Public/hash.js");
 const cookieParser = require("cookie-parser");
+secrets = require("./secrets"); // secrets.json is in .gitignore
+
 app.use(cookieParser());
 app.use(express.static("./public"));
 const cookieSession = require("cookie-session");
 const cookieSessionMiddleware = cookieSession({
-  secret: `I'm always angry.`,
+  secret: secrets.cookiepass,
   maxAge: 1000 * 60 * 60 * 24 * 90
 });
 app.use(cookieSessionMiddleware);
@@ -224,14 +226,14 @@ app.post("/:lang/form", (req, res) => {
       port: 587,
       secure: false,
       auth: {
-        user: "seoberlino@gmail.com",
-        pass: "SeoBerlinoGeraldine88"
+        user: secrets.emailuser,
+        pass: secrets.mailpass
       }
     });
 
     let mailOptions = {
       from: "test@testaccount.com",
-      to: "alex.bieth@gmail.com",
+      to: secrets.mailto,
       replyTo: " test@testaccount.com",
       subject: "new Message from website",
       text: req.body.message,
