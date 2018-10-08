@@ -11,7 +11,6 @@ class SideDrawer extends Component {
   }
 
   render() {
-    console.log("THISSTATESIDRAW", this.state);
     const { t, i18n } = this.props;
     let drawerClasses = "side-drawer";
     if (this.props.show) {

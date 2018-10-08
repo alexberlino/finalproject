@@ -5,6 +5,7 @@ const i18nFsBackend = require("i18next-node-fs-backend");
 const i18nMiddleware = require("i18next-express-middleware");
 const fs = require("fs");
 const app = express();
+// import { renderToString } from "react-dom/server";
 const compression = require("compression");
 const db = require("./sql/db.js");
 const { checkPassword, hashPassword } = require("./Public/hash.js");
@@ -39,6 +40,8 @@ if (process.env.NODE_ENV != "production") {
   app.use("/bundle.js", (req, res) => res.sendFile(`${__dirname}/bundle.js`));
 }
 app.use(express.static("./Public"));
+// app.use(express.static(path.resolve(__dirname, "../dist")));
+
 app.use(require("body-parser").json());
 
 function checkSession(req, res, next) {
@@ -145,6 +148,14 @@ app.get("/getarticle/:id", (req, res) => {
     res.json({ rows });
   });
 });
+
+app.get("/getarticleurl/:BE", (req, res) => {
+  console.log("REQPARAMS", req.params);
+  db.getArticleUrl(req.params.BE).then(function({ rows }) {
+    res.json({ rows });
+  });
+});
+
 app.post("/:lang/login", (req, res) => {
   let { email, pass } = req.body;
   db.login(email)
@@ -236,11 +247,35 @@ app.post("/:lang/form", (req, res) => {
     }); //transporter
   });
 }); //main
-
 app.get("*", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
+// app.get("/*", (req, res) => {
+//   const jsx = <Layout />;
+//   const reactDom = renderToString(jsx);
+//
+//   res.writeHead(200, { "Content-Type": "text/html" });
+//   res.end(htmlTemplate(reactDom));
+// });
+
 app.listen(8080, function() {
   console.log("I'm listening.");
 });
+//
+// function htmlTemplate(reactDom) {
+//   return `
+//         <!DOCTYPE html>
+//         <html>
+//         <head>
+//             <meta charset="utf-8">
+//             <title>React SSR</title>
+//         </head>
+//
+//         <body>
+//             <div id="app">${reactDom}</div>
+//             <script src="./app.bundle.js"></script>
+//         </body>
+//         </html>
+//     `;
+// }

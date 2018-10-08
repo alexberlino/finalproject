@@ -49,6 +49,14 @@ module.exports.getArticle = function(id) {
     });
 };
 
+module.exports.getArticleUrl = function(url) {
+  return db
+    .query(`SELECT * FROM articles WHERE url =$1`, [url])
+    .catch(function(err) {
+      console.log("ERROR DB ADD ARTICLE", err);
+    });
+};
+
 module.exports.updateArticle = function(
   title,
   author,

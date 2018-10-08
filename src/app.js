@@ -33,7 +33,6 @@ class App extends Component {
     this.state = {
       sideDrawerOpen: false,
       lang: i18n.language || "en",
-
       page: location.pathname.slice(3)
     };
 
@@ -122,19 +121,14 @@ class App extends Component {
                       pageChange={this.changePage}
                       lang={lang}
                       page={page}
+                      i18n={this.props.i18n}
                     />
                   )}
                 />
                 <Route
                   exact
-                  path="/:lang/blog/:article"
-                  render={() => (
-                    <Blog
-                      lang={lang}
-                      page={page}
-                      pageChange={this.changePage}
-                    />
-                  )}
+                  path="/:lang/article/:url"
+                  render={() => <Article lang={lang} page={page} />}
                 />
                 <Route exact path="/:lang/about" render={() => <About />} />
                 <Route
@@ -169,6 +163,7 @@ class App extends Component {
                   path="/:lang/technical"
                   render={() => <Technical />}
                 />
+
                 <Route
                   exact
                   path="/:lang/blog"
