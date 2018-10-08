@@ -36,7 +36,7 @@ class About2 extends Component {
         <div>
           <Helmet>
             <meta charSet="utf-8" />
-            <title>About Me</title>
+            <title>{t("aboutme")}</title>
           </Helmet>
         </div>
         <div className="aboutgeneric">

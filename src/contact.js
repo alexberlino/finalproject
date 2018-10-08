@@ -49,7 +49,7 @@ class Contact extends Component {
       <div className="mainContact">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>{t("getintouch")}</title>
+          <title>{t("getintouch_title")}</title>
         </Helmet>
         <div className="leftContact">
           <div className="contactmeHead"> {t("getintouch")}</div>

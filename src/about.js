@@ -65,7 +65,7 @@ class About extends Component {
         <div>
           <Helmet>
             <meta charSet="utf-8" />
-            <title>{t("aboutJM")}</title>
+            <title>{t("aboutme")}</title>
           </Helmet>
         </div>
         <div className="aboutgeneric">

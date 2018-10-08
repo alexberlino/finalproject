@@ -497,10 +497,10 @@ h4 {
 }
 
 .blogArticleWindow {
-  background-color: white;
+  background-color: rgba(250, 250, 250, 0.75);
   position: absolute;
   width: 68%;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-right: 2%;
 }
 
@@ -883,6 +883,21 @@ h6:before {
   -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.message4042 {
+  color: purple;
+  font-size: 250px;
+  background-color: #586069;
+}
+
+.box404 {
+  width: 100%;
+  top: 120px;
+  left: 0;
+  height: 100%;
+  z-index: 300;
+  position: fixed;
 }
 
 /* ABOUT start*/

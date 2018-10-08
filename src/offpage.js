@@ -29,27 +29,8 @@ class Offpage extends Component {
         </Helmet>
         <div>
           <div className="infoTitle"> Off-page SEO </div>
-          <div className="infoIntro">
-            Backlinks are for Google a sign of trust from a website to another.
-            The more (quality) backlinks you get pointing your site, the more
-            popular will your website be rated.
-          </div>
-          <div className="infoMain">
-            1. Auditing your backlink profile (number and quality of current
-            backlinks) 2. Checking on how competitors get (quality) backlinks
-            and find any opportnities. 3. Taking into account the specificity of
-            the industry and the local aspect, will suggest creative
-            opportunities to get backlinks 3. Suggesting an action plan to boost
-            your backlink profile What we can do for you About Backlinks
-            Backlinks still play an important role in SEO and can help your
-            website get more visibility. Backlinks are for Google a sign of
-            trust from a website to another. The more (quality) backlinks you
-            get pointing your site, the more popular will your website be rated.
-            Of course many factors come into play: -timing of new backlinks
-            -quality of the website pointing the link to yours. These aspects
-            are critical in how to positively improve your backlink profile and
-            boost your Domain Authority.
-          </div>
+          <div className="infoIntro">{t("offpage_intro")}</div>
+          <div className="infoMain">{t("offpage_main")}</div>
         </div>
       </div>
     );

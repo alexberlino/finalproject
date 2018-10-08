@@ -10,11 +10,14 @@ import { connect } from "react-redux";
 // import { translate, Trans } from "react-i18next";
 // import i18n from "./i18n";
 import { Helmet } from "react-helmet";
+import NoMatch from "./NoMatch";
 
 class Article extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      error: false
+    };
     this.createMarkup = this.createMarkup.bind(this);
   }
 
@@ -26,9 +29,9 @@ class Article extends Component {
     console.log("BE", BE);
     axios.get(`/getarticleurl/${BE}`).then(res => {
       if (res.data.rows.length == 0) {
-        // return this.setState({
-        //   error: true
-        // });
+        this.setState({
+          error: true
+        });
       } else {
         let {
           id,
@@ -55,6 +58,9 @@ class Article extends Component {
   }
 
   render() {
+    if (this.state.error) {
+      return <NoMatch />;
+    }
     console.log(this.state);
     return (
       <div>
@@ -63,7 +69,10 @@ class Article extends Component {
           <title>{this.state.title + " | SEO Berlino Blog"}</title>
         </Helmet>
         <div id="three-js-item" />
-        <BlogList lang={this.props.lang} pageChange={this.changePage} />{" "}
+
+        <div className="listArticlesBlog">
+          <BlogList lang={this.props.lang} pageChange={this.changePage} />
+        </div>
         <div className="blogArticleWindow">
           <div className="articleTitle">{this.state.title}</div>
 

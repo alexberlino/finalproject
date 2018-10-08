@@ -166,14 +166,18 @@
     margin-top: 60%;
 
     display: block;
-    position: relative;
+    blogarticlewindowposition: relative;
   }
 
   .blogArticleWindow {
-    background-color: white;
     position: absolute;
     min-height: 1000px;
-    width: 100%;
+    margin-top: 100px;
+    width: 90%;
+    left: 0;
+
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .articleArticle {

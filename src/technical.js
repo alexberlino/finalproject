@@ -28,19 +28,8 @@ class Technical extends Component {
         </Helmet>
         <div>
           <div className="infoTitle"> Technical SEO </div>
-          <div className="infoIntro">
-            Technical SEO Optimization regroups all on-page SEO which is not
-            content related.
-          </div>
-          <div className="infoMain">
-            Technical SEO Optimization regroups all on-page SEO which is not
-            content related. For a Technical Audit, we will review, report and
-            present an action plan for these topics: ​ Pagespeed, consequences
-            of Google algorithms changes, crawl (robots, noindex/follow,
-            sitemaps, etc), redirects, duplicate content & canonicals,
-            indexation, URL Canonicalization, image optimization, site
-            structure, internal linking etc...
-          </div>
+          <div className="infoIntro"> {t("technical_intro")} </div>
+          <div className="infoMain">{t("technical_main")}</div>
         </div>
       </div> //Main
     );

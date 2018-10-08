@@ -29,7 +29,7 @@ class Blog extends Component {
       <div className="mainBlog">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Blog</title>
+          <title>Blog SEO Berlino - SEO Freelancer</title>
         </Helmet>
         <div id="three-js-item" />
 

@@ -32,7 +32,7 @@ class About3 extends Component {
         <div>
           <Helmet>
             <meta charSet="utf-8" />
-            <title>About John Smith</title>
+            <title>{t("aboutme")}</title>
           </Helmet>
         </div>
         <div className="hide">
