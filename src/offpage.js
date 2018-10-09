@@ -31,6 +31,18 @@ class Offpage extends Component {
           <div className="infoTitle"> Off-page SEO </div>
           <div className="infoIntro">{t("offpage_intro")}</div>
           <div className="infoMain">{t("offpage_main")}</div>
+          <div className="infoMain">
+            Links to your website will always have an importance for your
+            website and "Domain Authority". ​ However since Google's Penguin
+            updates in particular, it is not about how many but which ones.
+            Paying random websites and blogs to get you backlinks will only have
+            minimum positive impact (of not make it worse). There are many
+            options starting with creating a high quality product and content
+            which comes with it, a unique selling proposition and communique it
+            to the sites which will want to mention you. Build your brand
+            through engaging content marketing. ​
+          </div>
+          ​
         </div>
       </div>
     );

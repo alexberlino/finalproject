@@ -68,6 +68,7 @@ class About extends Component {
             <title>{t("aboutme")}</title>
           </Helmet>
         </div>
+
         <div className="aboutgeneric">
           <div
             onClick={this.handleClick}
@@ -75,6 +76,7 @@ class About extends Component {
           >
             {t("about1")}
           </div>
+
           <div onClick={this.handleClick} className="roll-in-left aboutgeneric">
             {t("about2")}
           </div>

@@ -2,7 +2,6 @@
   .txt {
     font-size: 17px;
     color: white;
-    background-color: orange;
     margin: 2px;
     margin-left: 10%;
   }
@@ -10,7 +9,6 @@
   .intro {
     position: fixed;
     bottom: 0px;
-    background-color: orange;
     width: 100%;
     height: 20%;
     margin-bottom: 1%;
@@ -38,12 +36,18 @@
     top: 0px;
     left: 0px;
     display: table;
-    height: 750px;
-    width: 580px;
+    height: 780px;
+    width: 720px;
 
     /* opacity: 1;
     z-index: -1; */
     /* filter: alpha(opacity=20); */
+  }
+
+  .message404 {
+    color: purple;
+    font-size: 70px;
+    background-color: #586069;
   }
 
   .blogArticlesHP {
@@ -54,10 +58,12 @@
   }
 
   h2:before {
-    top: 310px;
-    left: 180px;
+    top: 280px;
+    left: 240px;
     width: 30%;
     z-index: 1;
+    color: #ff851b;
+    background-color: none;
   }
 
   .navEntries {
@@ -136,11 +142,13 @@
     z-index: 3000;
   }
   .infoIntro {
-    margin-left: 20%;
-    font-size: 16px;
+    margin-left: 10%;
+    font-size: 18px;
+    width: 80%;
   }
   .infoMain {
-    margin-left: 20%;
+    margin-left: 10%;
+    width: 80%;
     font-size: 15px;
     margin-bottom: 100px;
   }
@@ -151,14 +159,18 @@
   .leftBlog {
     font-style: bariolregular;
     position: relative;
-    left: 0px;
-    height: 300px;
+
+    height: auto;
     padding: 40px;
     font-size: 16px;
     top: 50px;
     display: block;
     z-index: 10;
     width: 200px;
+    margin-left: 20%;
+  }
+  .leftBlog a:hover {
+    color: white;
   }
 
   .article {
@@ -166,7 +178,6 @@
     margin-top: 60%;
 
     display: block;
-    blogarticlewindowposition: relative;
   }
 
   .blogArticleWindow {
@@ -183,15 +194,29 @@
   .articleArticle {
     width: 80%;
     margin-left: 10%;
+    margin-bottom: 25%;
     padding: 5px;
     z-index: 0;
     font-size: 16px;
   }
+  .blognote {
+    margin-left: 35px;
+    font-size: 12px;
+  }
+  .articleAuthor {
+    margin-left: 10%;
+  }
+  .articleDate {
+    margin-left: 10%;
+  }
   .articleTitle {
     width: 60%;
-    margin-left: 30%;
-
+    margin-left: 10%;
     font-size: 22px;
+  }
+
+  .animationHP {
+    visibility: hidden;
   }
 
   .articlePic {

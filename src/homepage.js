@@ -60,6 +60,9 @@ class Homepage extends Component {
         </Helmet>
         <img className="imageHP" src="/apple.jpg" />
         <h2 />
+        <img className="animationHP2" src="/circlecolor.gif" />
+
+        <div className="animationHP" />
 
         <div className="blogArticlesHP">
           <p className="blogHPtext">{t("bloglatest")}</p>

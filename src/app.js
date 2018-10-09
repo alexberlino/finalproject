@@ -7,6 +7,7 @@ import Homepage from "./homepage";
 import Contact from "./contact";
 import Services from "./services";
 import Blog from "./blog";
+import SEONews from "./seonews";
 import Impressum from "./impressum";
 import Resources from "./resources";
 import About from "./about";
@@ -98,7 +99,6 @@ class App extends Component {
 
     return (
       <div style={{ height: "100%" }}>
-        <Favicon url="/Public/logo.png" />
         <BrowserRouter>
           <div>
             {sideDrawer}
@@ -110,6 +110,7 @@ class App extends Component {
               page={page}
             />
             {backdrop}
+            <Favicon url="/Public/favicon.png" />
 
             <div>
               <Switch>
@@ -169,6 +170,28 @@ class App extends Component {
                   path="/:lang/blog"
                   render={() => (
                     <Blog
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/:lang/seonews"
+                  render={() => (
+                    <SEONews
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/:lang/resources"
+                  render={() => (
+                    <Resources
                       lang={lang}
                       page={page}
                       pageChange={this.changePage}

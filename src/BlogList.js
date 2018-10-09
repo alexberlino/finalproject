@@ -31,12 +31,12 @@ class BlogList extends Component {
 
     return (
       <div className="leftBlog">
-        <h4> {t("bloglatest")}</h4>
+        <h4> My Blog, {t("bloglatest")}</h4>
 
         <div className="blogWindow">
           {this.state.articles.map(article => (
             <a href={"/" + this.props.lang + "/article/" + article.url}>
-              <div
+              <header
                 className="listArticlesBlog"
                 onClick={() => {
                   {
@@ -45,7 +45,7 @@ class BlogList extends Component {
                 }}
               >
                 {article.title}
-              </div>
+              </header>
             </a>
           ))}
         </div>

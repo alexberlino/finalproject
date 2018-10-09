@@ -17,12 +17,12 @@ a {
 }
 
 a:visited {
-  color: grey;
+  color: inherit;
   text-decoration: none;
 }
 
 a:active {
-  color: grey;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -202,8 +202,8 @@ iframe {
 .languageBtn {
   position: fixed;
   display: table;
-  top: 10px;
-  left: 72%;
+  top: 5px;
+  left: 880px;
   z-index: 100;
 }
 .languageBtnDE {
@@ -265,12 +265,12 @@ iframe {
 .intro {
   background-color: #ff851b;
   opacity: 0.7;
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 20%;
   overflow-y: scroll;
   display: block;
-  bottom: 0px;
+  bottom: 10px;
   left: 0px;
 
   padding: 10px;
@@ -282,11 +282,11 @@ iframe {
 }
 
 .blogArticlesHP {
-  margin-left: 800px;
+  margin-left: 70%;
 
   width: 20%;
   z-index: 10;
-  margin-top: 10%;
+  top: 20%;
   position: fixed;
 
   opacity: 0.5;
@@ -307,7 +307,7 @@ iframe {
 .listArticlesBlogHP {
   display: inline;
   position: absolute;
-  margin-left: 10px;
+  margin-left: 20px;
   height: 70px;
   vertical-align: middle;
 }
@@ -385,27 +385,78 @@ p:hover {
 /* BLOG START  */
 
 .leftBlog {
+  background-color: rgba(80, 0, 0, 0.75);
+  color: lightgrey;
   font-style: bariolregular;
-  margin-left: 5%;
+  margin-top: 2%;
   padding: 40px;
+  margin-left: 10%;
   font-size: 20px;
-  top: 150px;
+  top: 90px;
   display: block;
   position: fixed;
-  z-index: 10;
-  width: 200px;
-  height: 45%;
+  z-index: 2;
+  width: 240px;
+  height: auto;
+  overflow: visible;
+}
+.leftBlog a:hover {
+  color: white;
 }
 
 .listArticlesBlog {
   width: 200px;
   margin-left: 3px;
+  margin-bottom: 6px;
+}
+.animationHP {
+  position: fixed;
+  z-index: 10;
+  top: 170px;
+  left: 338px;
+  height: 239px;
+  width: 400px;
+  background-color: black;
+  opacity: 0.884;
+}
+
+.importancenews {
+  display: inline;
+  height: 11px;
+  width: 11px;
+}
+
+.important {
+  font-family: monospace;
+  font-weight: bold;
+
+  font-size: 14px;
+  display: inline;
+}
+.newsItem {
+  display: block;
+  padding: 10px;
+}
+.medium {
+  font-family: monospace;
+  font-size: 14px;
+  display: inline;
+}
+.low {
+  font-family: monospace;
+  font-size: 14px;
+  display: inline;
 }
 
 #three-js-item {
   position: fixed;
   top: 0px;
   left: 0px;
+}
+
+.infoDate {
+  font-size: 10px;
+  margin-left: 60%;
 }
 h4 {
   font-style: bariolregular;
@@ -495,6 +546,14 @@ h4 {
   z-index: 0;
   font-size: 22px;
 }
+.blognote {
+  position: absolute;
+  bottom: 50px;
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 30%;
+  display: block;
+}
 
 .blogArticleWindow {
   background-color: rgba(250, 250, 250, 0.75);
@@ -567,8 +626,10 @@ h4 {
 /* MONITOR ANIMATION START */
 
 h2:before {
-  color: #ff851b;
+  color: white;
   content: "SEO  FREELANCER IN BERLIN";
+  text-align: center;
+  padding: 5px;
 
   -webkit-animation-name: head;
   -webkit-animation-duration: 10s;
@@ -885,9 +946,9 @@ h6:before {
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-.message4042 {
+.message404 {
   color: purple;
-  font-size: 250px;
+  font-size: 150px;
   background-color: #586069;
 }
 
@@ -1363,7 +1424,7 @@ h6:before {
   margin: 0;
   padding: 0;
   display: flex;
-  margin-left: 50px;
+  margin-left: 15px;
   background-color: white;
   height: 30px;
 }
@@ -1373,9 +1434,10 @@ h6:before {
 }
 
 .toolbar_navigation_items li {
-  padding: 0.5rem;
+  padding: 0.3rem;
   background-color: white;
   height: 20px;
+  width: 110px;
   top: 5px;
 }
 
@@ -1390,9 +1452,9 @@ h6:before {
   display: flex;
   z-index: 300;
   flex-direction: column;
-  height: 18px;
+  height: 22px;
   width: 24px;
-  margin-left: 1rem;
+  margin-left: 10px;
   background: transparent;
   border: none;
   padding: 0;
@@ -1404,7 +1466,8 @@ h6:before {
 }
 .toggle-button_line {
   width: 30px;
-  height: 2px;
+  height: 1px;
+  padding: 1px;
   background: black;
 }
 

@@ -43,6 +43,8 @@ class Article extends Component {
           dat
         } = res.data.rows[0];
 
+        dat = dat.slice(0, 10);
+
         this.setState({
           id,
           title,
@@ -61,6 +63,7 @@ class Article extends Component {
     if (this.state.error) {
       return <NoMatch />;
     }
+
     console.log(this.state);
     return (
       <div>
@@ -75,17 +78,19 @@ class Article extends Component {
         </div>
         <div className="blogArticleWindow">
           <div className="articleTitle">{this.state.title}</div>
-
           <div className="articleAuthor">{"Author:  " + this.state.author}</div>
-
-          <div className="articleDate" />
+          <div className="articleDate">
+            {"Date published:  " + this.state.dat}
+          </div>
           <div className="articleID">{"#" + this.state.id}</div>
           <img src={this.state.imageurl} className="articlePic" />
-
           <div
             className="articleArticle"
             dangerouslySetInnerHTML={this.createMarkup()}
           />
+          <footer className="blognote">
+            Blog built using Postgres SQL, background with 3js.{" "}
+          </footer>
         </div>
       </div>
     );

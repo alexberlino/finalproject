@@ -31,6 +31,16 @@ class Audit extends Component {
           <div className="infoTitle"> SEO Audit </div>
           <div className="infoIntro"> {t("audit_intro")} </div>
           <div className="infoMain">{t("audit_main")}</div>
+          <div className="infoMain">
+            To understand where you stand, you cannot ignore competitors. What
+            are they doing that you are not? Which keywords are they targeting,
+            how do they perform technically and you don't? What do the offer
+            that I don't? What are their prices, services etc? How do they get
+            their links and domain authority? But most importantly where do I
+            stand to get better than them? ​ Either way, competition and your
+            company are the options that I offered to your target customers and
+            you need to know where you stand when setting up an SEO Strategy.
+          </div>
         </div>
       </div>
     );

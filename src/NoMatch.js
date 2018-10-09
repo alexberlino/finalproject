@@ -14,7 +14,7 @@ export default class NoMatch extends React.Component {
         </Helmet>
 
         <div className="box404">
-          <p className="message4042">404. not found</p>
+          <p className="message404">404. not found</p>
         </div>
       </div>
     );

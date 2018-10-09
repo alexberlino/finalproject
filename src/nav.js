@@ -31,8 +31,8 @@ class Navigation extends Component {
               <img
                 className="toolbar_logo"
                 src="/logo.png"
-                width="155px"
-                heigth="125px"
+                width="95px"
+                heigth="95px"
                 onClick={() => this.props.pageChange("/")}
               />
             </a>
@@ -52,14 +52,6 @@ class Navigation extends Component {
                 <a href={"/" + this.props.lang + "/contact"}>
                   <span onClick={() => this.props.pageChange("/contact")}>
                     {t("contact")}
-                  </span>
-                </a>
-              </li>
-
-              <li>
-                <a href={"/" + this.props.lang + "/blog"}>
-                  <span onClick={() => this.props.pageChange("/blog")}>
-                    BLOG
                   </span>
                 </a>
               </li>
@@ -92,6 +84,29 @@ class Navigation extends Component {
                     </a>
                   </div>
                 </div>
+              </li>
+              <li>
+                <a href={"/" + this.props.lang + "/blog"}>
+                  <span onClick={() => this.props.pageChange("/blog")}>
+                    MY BLOG
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href={"/" + this.props.lang + "/seonews"}>
+                  <span onClick={() => this.props.pageChange("/seonews")}>
+                    SEO NEWS
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href={"/" + this.props.lang + "/resources"}>
+                  <span onClick={() => this.props.pageChange("/resources")}>
+                    RESOURCES
+                  </span>
+                </a>
               </li>
             </ul>
           </div>

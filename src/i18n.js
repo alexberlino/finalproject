@@ -46,7 +46,7 @@ i18n.use(LanguageDetector).init({
         onpageSEO1:
           "Important first step, keyword research is the process of understanding how your target users search for your product or service.",
         onpageSEO2:
-          "It has to be done before starting the on-page work. Competitor Analysis help to expand the research and make sure no important keyword is omitted. ​ Although since Hummingbird, Google is more semantically driven to assess the website's content, and focussed on Voice search and entities, knowing your important keywords is still important when structuring content and metadata. Alex Bieth will then do an audit of your website checking content for each important landing page, site structure, metadata, images. ​ Additional important checks will cover structured data implementation and other technical aspects.",
+          "It has to be done before starting the on-page work. Competitor Analysis help to expand the research and make sure no important keyword is omitted. ​ Although since Hummingbird, Google is more semantically driven to assess the website's content, and focussed on Voice search and entities, knowing your important keywords is still important when structuring content and metadata. We will then do an audit of your website checking content for each important landing page, site structure, metadata, images. ​ Additional important checks will cover structured data implementation and other technical aspects.",
 
         offpage_main: `1. Auditing your backlink profile (number and quality of current
                         backlinks) 2. Checking on how competitors get (quality) backlinks
