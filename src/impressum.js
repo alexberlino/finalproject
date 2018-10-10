@@ -28,12 +28,11 @@ class Impressum extends Component {
         </Helmet>
 
         <div className="infoTitle">Impressum </div>
+
         <div className="container">
-          <div className="infoMain2">Alex Bieth Kiehlufer 11 12059 Berlin</div>
-          <div className="infoMain2">
-            Fon: +49 (0) 015787011032 E-Mail: alex.bieth@gmail.com
-          </div>
+          <div className="infoMain2">E-Mail: alex.bieth@gmail.com</div>
           <div className="infoMain2">Internet: https://www.seoberlino.com</div>
+          <div className="infoMain2">Kiehlufer, 12059 Berlin</div>
           <div className="infoMain2">
             Inhaltlich Verantwortlicher nach § 10 Absatz 3 Verantwortlich für
             den redaktionellen Bereich: Alex Bieth

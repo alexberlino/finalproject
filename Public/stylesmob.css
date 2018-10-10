@@ -1,25 +1,24 @@
 @media (max-width: 768px) {
+  .imageHP {
+    display: none;
+  }
   .txt {
     font-size: 17px;
     color: white;
     margin: 2px;
     margin-left: 10%;
+    width: 80%;
   }
 
   .intro {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: 20%;
-    margin-bottom: 1%;
+    margin-top: 20px;
+    position: relative;
     padding: 10px;
+    height: 140px;
   }
 
   .footer {
-    width: 100%;
     text-align: left;
-    position: fixed;
-    bottom: 0px;
     height: 40px;
     z-index: 30;
     font-size: 10px;
@@ -30,20 +29,6 @@
     margin-left: 5%;
   }
 
-  .imageHP {
-    position: fixed;
-    z-index: 0;
-    top: 0px;
-    left: 0px;
-    display: table;
-    height: 780px;
-    width: 720px;
-
-    /* opacity: 1;
-    z-index: -1; */
-    /* filter: alpha(opacity=20); */
-  }
-
   .message404 {
     color: purple;
     font-size: 70px;
@@ -51,18 +36,24 @@
   }
 
   .blogArticlesHP {
-    visibility: hidden;
+    position: relative;
+    display: block;
+    top: 10px;
+    margin-left: 5px;
+    width: 80%;
   }
   .filterDiv {
     background: url("./applemob.jpg") repeat fixed;
   }
 
   h2:before {
-    top: 280px;
-    left: 240px;
-    width: 30%;
-    z-index: 1;
-    color: #ff851b;
+    z-index: 10;
+    color: #383b4b;
+    position: absolute;
+    display: flex;
+
+    top: 220px;
+    left: -295px;
     background-color: none;
   }
 
@@ -104,9 +95,7 @@
   }
   .dropdown .dropbtn {
     display: inline;
-
     font-size: 12px;
-    display: block;
     padding: 12px 2px;
     background-color: none;
     z-index: 20;
@@ -114,26 +103,33 @@
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
-  .languageBtnENMob {
+  .languageBtnEN {
     position: fixed;
-    top: 80px;
-    left: 50px;
+    display: inline;
+    top: 10px;
+    left: 200px;
+    z-index: 400;
   }
 
-  .languageBtnDEMob {
+  .languageBtnDE {
     position: fixed;
-    top: 80px;
-    left: 120px;
-  }
+    display: inline;
 
-  .flagsmobile {
+    z-index: 400;
+    top: 10px;
+    left: 240px;
   }
 
   .map {
-    visibility: hidden;
+    display: none;
   }
   .main {
     margin-top: 20%;
+  }
+
+  .mainHP {
+    display: block;
+    margin: 0;
   }
 
   .infoTitle {
@@ -145,6 +141,7 @@
     margin-left: 10%;
     font-size: 18px;
     width: 80%;
+    top: -100px;
   }
   .infoMain {
     margin-left: 10%;
@@ -216,7 +213,7 @@
   }
 
   .animationHP {
-    visibility: hidden;
+    display: none;
   }
 
   .articlePic {
@@ -260,6 +257,16 @@
   .toolbar_navigation_items {
     display: none;
   }
+
+  .imageHPMob {
+    position: relative;
+    z-index: 0;
+    margin-top: 70px;
+    left: 10px;
+    display: block;
+    height: 390px;
+    width: 360px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -267,6 +274,9 @@
     display: none;
   }
   .toolbar_toggle_button {
+    display: none;
+  }
+  .imageHPMob {
     display: none;
   }
 }

@@ -1,11 +1,10 @@
 html {
-  height: 90%;
+  height: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 * {
   font-family: bariolregular;
@@ -96,7 +95,7 @@ label {
   max-width: 90px;
   border-radius: 40px;
   padding-left: 10px;
-  color: orange;
+  color: #383b4b;
 }
 
 form {
@@ -131,6 +130,7 @@ iframe {
   display: inline-flex;
   margin-top: 10%;
   margin-left: 5%;
+  min-height: calc(100vh - 160px);
 }
 
 .map {
@@ -167,7 +167,7 @@ iframe {
 }
 
 .formButton {
-  background-color: orange;
+  background-color: #383b4b;
   text-align: center;
   width: 250px;
   height: 40px;
@@ -183,6 +183,8 @@ iframe {
 }
 
 .main {
+  min-height: calc(100vh - 120px);
+
   margin-top: 10%;
 }
 
@@ -190,6 +192,13 @@ iframe {
   margin-top: 20%;
 }
 .mainHP {
+  min-height: calc(100vh - 120px);
+}
+
+.homepageNews {
+  background-color: #383b4b;
+  text-align: center;
+  color: white;
 }
 
 .logo {
@@ -254,40 +263,29 @@ iframe {
 
 /* HOMEPAGE start */
 .imageHP {
-  position: fixed;
+  position: relative;
   z-index: 0;
   top: 0px;
   left: 0px;
-  display: table;
-  height: 750px;
+  display: block;
+  height: 550px;
   width: 1100px;
 }
 .intro {
-  background-color: #ff851b;
-  opacity: 0.7;
-  position: absolute;
+  background-color: #383b4b;
+  position: relative;
   width: 100%;
-  height: 20%;
-  overflow-y: scroll;
+  height: 150px;
   display: block;
-  bottom: 10px;
   left: 0px;
-
   padding: 10px;
 }
 
-.intro#scrollable {
-  overflow-y: scroll;
-  height: 100%;
-}
-
 .blogArticlesHP {
-  margin-left: 70%;
-
-  width: 20%;
+  text-align: center;
+  width: 60%;
   z-index: 10;
-  top: 20%;
-  position: fixed;
+  position: relative;
 
   opacity: 0.5;
   background-color: white;
@@ -324,24 +322,23 @@ iframe {
 .txt {
   font-size: 20px;
   color: white;
-  background-color: #ff851b;
   margin: 1px;
   margin-top: 10px;
   margin-left: 300px;
 }
 
 p:hover {
-  color: orange;
+  color: white;
 }
 
 .buttonHP {
   background-color: white;
-  color: #ff8c00;
+  color: #383b4b;
+  padding: 10px;
 
-  left: 900px;
+  margin-left: 65%;
   text-align: center;
   z-index: 10;
-  position: fixed;
   bottom: 60px;
   height: 30px;
   width: 180px;
@@ -410,12 +407,12 @@ p:hover {
   margin-bottom: 6px;
 }
 .animationHP {
-  position: fixed;
+  position: absolute;
   z-index: 10;
-  top: 170px;
-  left: 338px;
-  height: 239px;
-  width: 400px;
+  top: 80px;
+  margin-left: 338px;
+  height: 247px;
+  width: 407px;
   background-color: black;
   opacity: 0.884;
 }
@@ -557,10 +554,11 @@ h4 {
 
 .blogArticleWindow {
   background-color: rgba(250, 250, 250, 0.75);
-  position: absolute;
+  position: relative;
   width: 68%;
   margin-left: 20%;
   margin-right: 2%;
+  min-height: calc(100vh - 120px);
 }
 
 .articlePic {
@@ -594,8 +592,8 @@ h4 {
   height: 30px;
   text-align: center;
   color: grey;
-  position: fixed;
-  display: inline;
+  display: block;
+  position: relative;
   bottom: 0px;
 }
 
@@ -625,6 +623,9 @@ h4 {
 
 /* MONITOR ANIMATION START */
 
+.imageHPMob {
+  display: none;
+}
 h2:before {
   color: white;
   content: "SEO  FREELANCER IN BERLIN";
@@ -636,10 +637,10 @@ h2:before {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
   z-index: 20;
-  position: fixed;
+  position: absolute;
   font-family: monospace;
   top: 270px;
-  left: 350px;
+  margin-left: 350px;
 }
 
 @-webkit-keyframes head {
@@ -897,7 +898,7 @@ h6:before {
 .infoTitle {
   margin-left: 30%;
   font-size: 28px;
-  background-color: orange;
+  background-color: #383b4b;
   color: white;
   text-align: center;
   width: 40%;
@@ -908,7 +909,7 @@ h6:before {
   margin-left: 20%;
   font-size: 36px;
   background-color: none;
-  color: darkorange;
+  color: #383b4b;
 
   width: 55%;
   margin-top: 3%;
@@ -973,9 +974,9 @@ h6:before {
 }
 
 .roll-in-left {
-  -webkit-animation: roll-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715)
-    alternate backwards;
-  animation: roll-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+    backwards;
+  animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
     backwards;
   width: 30%;
   border-radius: 145px;
@@ -992,9 +993,9 @@ h6:before {
 
 .roll-in-left2 {
   border-radius: 145px;
-  -webkit-animation: roll-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715)
-    alternate backwards;
-  animation: roll-in-left 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+  -webkit-animation: fade.in 2.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+    backwards;
+  animation: fade.in 2.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
     backwards;
   width: 30%;
   left: 55%;
@@ -1012,8 +1013,8 @@ h6:before {
   margin-top: 2%;
   position: fixed;
   top: 100px;
-  -webkit-animation: swirl-in-fwd 0.5s ease-out both;
-  animation: swirl-in-fwd 0.5s ease-out both;
+  -webkit-animation: fade-in 3.5s ease-out both;
+  animation: fade-in 3.5s ease-out both;
   width: 30%;
   position: relative;
   border-radius: 35px;
@@ -1028,8 +1029,8 @@ h6:before {
   margin-top: 2%;
   position: fixed;
   top: 100px;
-  -webkit-animation: swirl-in-fwd 0.5s ease-out both;
-  animation: swirl-in-fwd 0.5s ease-out both;
+  -webkit-animation: fade-in 0.5s ease-out both;
+  animation: fade-in 0.5s ease-out both;
   width: 30%;
   position: relative;
   border-radius: 35px;
@@ -1430,7 +1431,7 @@ h6:before {
 }
 
 .toolbar_navigation_items a:hover {
-  color: orange;
+  color: #383b4b;
 }
 
 .toolbar_navigation_items li {
@@ -1504,7 +1505,7 @@ h6:before {
 
 .side-drawer a:hover,
 .side_drawer a:active {
-  color: orange;
+  color: #383b4b;
 }
 
 .side_drawer#dropbtn {

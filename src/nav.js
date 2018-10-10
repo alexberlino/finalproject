@@ -49,14 +49,6 @@ class Navigation extends Component {
               </li>
 
               <li>
-                <a href={"/" + this.props.lang + "/contact"}>
-                  <span onClick={() => this.props.pageChange("/contact")}>
-                    {t("contact")}
-                  </span>
-                </a>
-              </li>
-
-              <li>
                 <div className="dropdown">
                   <span className="dropbtn">{t("services")}</span>
 
@@ -92,7 +84,13 @@ class Navigation extends Component {
                   </span>
                 </a>
               </li>
-
+              <li>
+                <a href={"/" + this.props.lang + "/contact"}>
+                  <span onClick={() => this.props.pageChange("/contact")}>
+                    {t("contact")}
+                  </span>
+                </a>
+              </li>
               <li>
                 <a href={"/" + this.props.lang + "/seonews"}>
                   <span onClick={() => this.props.pageChange("/seonews")}>

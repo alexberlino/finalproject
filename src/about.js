@@ -59,7 +59,7 @@ class About extends Component {
     const { t, i18n } = this.props;
 
     return (
-      <div>
+      <div className="main">
         <div className={this.state.categorie} />
 
         <div>

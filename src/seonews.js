@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
+import NewsItems from "./NewsItems";
 
 class SEONews extends Component {
   render() {
@@ -20,23 +21,14 @@ class SEONews extends Component {
           <div className="infoIntro">
             Most important SEO news these last 3 months
           </div>
-          <div className="infoDate">Last update: October 9th, 2018</div>
+
           <div className="infoMain">
+            {" "}
+            <NewsItems />
+            <p>Medium Hot and Cool </p>
             <div className="newsItem">
               <img className="importancenews" src="/greenlight.png" />
               <p className="low">Google+ to close down.</p>
-            </div>
-            <div className="newsItem">
-              <img className="importancenews" src="/redlight.png" />
-              <p className="important">
-                Indexation for Javascript apps: use Dynamic Rendering
-              </p>
-            </div>
-            <div className="newsItem">
-              <img className="importancenews" src="/redlight.png" />
-              <p className="important">
-                Mobile First Enabled for most websites
-              </p>
             </div>
             <div className="newsItem">
               <img className="importancenews" src="/orangelight.jpg" />
@@ -52,16 +44,6 @@ class SEONews extends Component {
               <img className="importancenews" src="/orangelight.jpg" />
               <p className="medium">
                 Google advises to uses 301 when migrating to HTTPS
-              </p>
-            </div>
-            <div className="newsItem">
-              <img className="importancenews" src="/redlight.png" />
-              <p className="important">Google's algorithm latest updates</p>
-            </div>
-            <div className="newsItem">
-              <img className="importancenews" src="/redlight.png" />
-              <p className="important">
-                Chrome now marks all unencrypted websites as ‘not secure’
               </p>
             </div>
           </div>

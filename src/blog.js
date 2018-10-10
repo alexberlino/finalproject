@@ -26,7 +26,7 @@ class Blog extends Component {
     const { t, i18n } = this.props;
 
     return (
-      <div className="mainBlog">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Blog SEO Berlino - SEO Freelancer</title>
