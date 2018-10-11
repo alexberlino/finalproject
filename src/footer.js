@@ -20,17 +20,29 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        Built with <img src="/react.png" height="20px" width="20px" /> - All
-        Right Reserved 2018
-        <Link className="footerlink" to={"/en/login"}>
-          login
-        </Link>
-        <a className="footerlink" href={"/en/admin"}>
-          admin
-        </a>
-        <Link className="footerlink" to={"/en/impressum"}>
-          impressum
-        </Link>
+        <div className="footerQuarter">
+          Built with <img src="/react.png" height="20px" width="20px" />
+        </div>
+        <div className="footerlink footerQuarter">
+          {" "}
+          All Right Reserved 2018 Alex Bieth{" "}
+        </div>
+        <div className="footerLinks footerQuarter">
+          <Link className="footerlink " to={"/en/login"}>
+            login
+          </Link>
+          <a className="footerlink" href={"/en/admin"}>
+            admin
+          </a>
+          <Link className="footerlink" to={"/en/impressum"}>
+            impressum
+          </Link>
+        </div>
+        <div className="footerQuarter">
+          <a href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE">
+            <img src="/Linkedin-logo.png" height="30px" width="30px" />
+          </a>
+        </div>
       </div>
     );
   }

@@ -195,12 +195,6 @@ iframe {
   min-height: calc(100vh - 120px);
 }
 
-.homepageNews {
-  background-color: #383b4b;
-  text-align: center;
-  color: white;
-}
-
 .logo {
   position: fixed;
   top: 5px;
@@ -272,13 +266,30 @@ iframe {
   width: 1100px;
 }
 .intro {
-  background-color: #383b4b;
-  position: relative;
+  background-color: #2b7a78;
   width: 100%;
-  height: 150px;
+  height: 240px;
   display: block;
   left: 0px;
   padding: 10px;
+}
+
+.intro2 {
+  background-color: grey;
+  color: black;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 230px;
+  display: block;
+  left: 0px;
+  padding: 10px;
+}
+
+.homepageNews {
+  background-color: #2b7a78;
+  text-align: center;
+  color: white;
 }
 
 .blogArticlesHP {
@@ -320,8 +331,17 @@ iframe {
   display: block;
 }
 .txt {
-  font-size: 20px;
+  font-size: 22px;
   color: white;
+  margin: 1px;
+  margin-top: 10px;
+  margin-left: 300px;
+  width: 40%;
+}
+
+.txt2 {
+  font-size: 18px;
+  color: lightgrey;
   margin: 1px;
   margin-top: 10px;
   margin-left: 300px;
@@ -589,17 +609,27 @@ h4 {
 .footer {
   background-color: lightgrey;
   width: 100%;
-  height: 30px;
+  height: 100px;
   text-align: center;
   color: grey;
-  display: block;
+  display: inline-flex;
   position: relative;
   bottom: 0px;
+}
+.footerQuarter {
+  margin-top: 2%;
+  width: 25%;
+}
+.footerLinks {
+  display: inline-block;
+  position: relative;
 }
 
 .footerlink {
   margin-left: 80px;
   background-color: lightgrey;
+  position: relative;
+  display: block;
 }
 
 .footer.a:visited {
@@ -639,7 +669,7 @@ h2:before {
   z-index: 20;
   position: absolute;
   font-family: monospace;
-  top: 270px;
+  top: 200px;
   margin-left: 350px;
 }
 
@@ -993,10 +1023,8 @@ h6:before {
 
 .roll-in-left2 {
   border-radius: 145px;
-  -webkit-animation: fade.in 2.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
-    backwards;
-  animation: fade.in 2.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
-    backwards;
+  -webkit-animation: fade-in 3.5s ease-out both;
+  animation: fade-in 3.5s ease-out both;
   width: 30%;
   left: 55%;
   top: 500px;
@@ -1008,15 +1036,29 @@ h6:before {
   box-shadow: 4px 8px grey;
 }
 
+.roll-in-left3 {
+  border-radius: 145px;
+  -webkit-animation: fade-in 3.5s ease-out both;
+  animation: fade-in 3.5s ease-out both;
+  width: 30%;
+  left: 15%;
+  top: 650px;
+  position: fixed;
+  padding: 20px;
+  font-size: 21px;
+  background-color: black;
+  color: white;
+  box-shadow: 4px 8px grey;
+}
+
 .swirl-in-fwd {
   margin-left: 25%;
   margin-top: 2%;
   position: fixed;
   top: 100px;
-  -webkit-animation: fade-in 3.5s ease-out both;
-  animation: fade-in 3.5s ease-out both;
+  -webkit-animation: fade-in 1.5s ease-out both;
+  animation: fade-in 1.5s ease-out both;
   width: 30%;
-  position: relative;
   border-radius: 35px;
   padding: 20px;
   font-size: 21px;
@@ -1028,11 +1070,10 @@ h6:before {
   margin-left: 5%;
   margin-top: 2%;
   position: fixed;
-  top: 100px;
+  top: 230px;
   -webkit-animation: fade-in 0.5s ease-out both;
   animation: fade-in 0.5s ease-out both;
   width: 30%;
-  position: relative;
   border-radius: 35px;
   padding: 20px;
   font-size: 21px;

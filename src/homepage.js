@@ -52,6 +52,44 @@ class Homepage extends Component {
           <footer className="txt"> {t("intro1")}</footer>
           <footer className="txt"> {t("intro2")}</footer>
           <footer className="txt"> {t("intro3")}</footer>
+
+          <footer className="txt">
+            {" "}
+            <Link
+              to={"/" + this.props.lang + "/onpage"}
+              onClick={() => this.props.pageChange("/onpage")}
+            >
+              On-page SEO
+            </Link>,{" "}
+            <Link
+              to={"/" + this.props.lang + "/keyword_research"}
+              onClick={() => this.props.pageChange("/keyword_research")}
+            >
+              Keyword Research
+            </Link>,{" "}
+            <Link
+              to={"/" + this.props.lang + "/competitor_analysis"}
+              onClick={() => this.props.pageChange("/competitor_analysis")}
+            >
+              Competitor Analysis
+            </Link>,{" "}
+            <Link
+              to={"/" + this.props.lang + "/analytics"}
+              onClick={() => this.props.pageChange("/analytics")}
+            >
+              Analytics
+            </Link>
+            ,{" "}
+            <Link
+              to={"/" + this.props.lang + "/offpage"}
+              onClick={() => this.props.pageChange("/offpage")}
+            >
+              Linkbuiling
+            </Link>
+          </footer>
+
+          <footer className="txt"> Get in touch to discuss your needs!</footer>
+
           <a href={"/" + this.props.lang + "/contact"}>
             <span
               className="buttonHP"
@@ -89,11 +127,23 @@ class Homepage extends Component {
             </div>
           ))}
         </div>
+
         <div className="homepageNews">
           <a href={"/" + this.props.lang + "/seonews"}>
             <p onClick={() => this.props.pageChange("/seonews")}> SEO NEWS</p>
           </a>
           <NewsItems />
+        </div>
+        <div className="intro2">
+          <footer className="txt2"> {t("intro3")}</footer>
+          <ul>
+            <li className="txt2"> React, Vue, Handlebars</li>
+            <li className="txt2">Javascript, JQuery </li>
+            <li className="txt2">Node, Express</li>
+
+            <li className="txt2"> HTML, CSS</li>
+            <li className="txt2"> SQL, Postgres</li>
+          </ul>
         </div>
       </div> //Main
     );

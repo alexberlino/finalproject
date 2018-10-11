@@ -104,6 +104,16 @@ class About extends Component {
           >
             {t("about7")}
           </div>
+
+          <div
+            onClick={this.handleClick}
+            className="roll-in-left3 aboutgeneric"
+          >
+            <a href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE">
+              {" "}
+              LinkedIn Profile
+            </a>
+          </div>
           <h6 />
           {this.state.clicked ? <About2 /> : null}
         </div>

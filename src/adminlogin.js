@@ -36,32 +36,34 @@ class LoginAdmin extends Component {
   }
   render() {
     return (
-      <div className="mainlogin">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Log-in</title>
-        </Helmet>
-        <div className="pagetitle">Admin Log in</div>
-        {this.state.error && (
-          <div className="error">Error, please check and try again</div>
-        )}
-        <input
-          onChange={this.handleChange}
-          name="email"
-          className="input"
-          placeholder="Email"
-        />
-        <input
-          onChange={this.handleChange}
-          name="pass"
-          type="password"
-          className="input"
-          placeholder="Password"
-        />
-        <button onClick={this.submit} className="button">
-          Log in
-        </button>
-      </div> //Main
+      <div className="main">
+        <div className="mainlogin">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>Log-in</title>
+          </Helmet>
+          <div className="pagetitle">Admin Log in</div>
+          {this.state.error && (
+            <div className="error">Error, please check and try again</div>
+          )}
+          <input
+            onChange={this.handleChange}
+            name="email"
+            className="input"
+            placeholder="Email"
+          />
+          <input
+            onChange={this.handleChange}
+            name="pass"
+            type="password"
+            className="input"
+            placeholder="Password"
+          />
+          <button onClick={this.submit} className="button">
+            Log in
+          </button>
+        </div>{" "}
+      </div>
     );
   }
 }

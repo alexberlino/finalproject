@@ -8,8 +8,7 @@ i18n.use(LanguageDetector).init({
       translations: {
         intro1: "Experienced SEO Freelancer in Berlin.",
         intro2: "10 years experience in SEO, SEA and Analytics.",
-        intro3:
-          "Trained Full Stack Web Developer (Javascript, Node, React, SQL).",
+        intro3: "Trained Full Stack Web Developer",
         services: "SEO",
         technical: "TECHNICAL",
         about: "ABOUT",

@@ -23,11 +23,34 @@ class Resources extends Component {
           </div>
           <div className="infoMain">
             <ul>
-              <li> Backlink tools </li>
-              <li> Speed Checking tools </li>
-              <li> Keyword Tools </li>
               <li> SEO Jargon </li>
-              <li> Beginners guide to SEO </li>
+
+              <a href="https://moz.com/beginners-guide-to-seo">
+                Moz's Beginners guide to SEO{" "}
+              </a>
+              <li> Backlink Checks </li>
+              <footer>
+                <a href="https://moz.com/link-explorer">Moz Link Explorer</a>{" "}
+              </footer>
+              <footer>
+                <a href="https://de.majestic.com/">Majestic SEO</a>
+              </footer>
+              <footer>
+                <a href="https://ahrefs.com/de/">ahrefs</a>
+              </footer>
+
+              <li> Keyword Tools </li>
+              <a href="https://kwfinder.com/"> https://kwfinder.com/ </a>
+
+              <li>Technical </li>
+              <a href="https://search.google.com/test/mobile-friendly">
+                Google Mobile Friendly Test
+              </a>
+              <footer>
+                <a href="https://developers.google.com/speed/pagespeed/insights/?hl=de">
+                  Google PageSpeed (Insights) Test
+                </a>{" "}
+              </footer>
             </ul>
           </div>
         </div>

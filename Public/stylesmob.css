@@ -2,7 +2,8 @@
   .imageHP {
     display: none;
   }
-  .txt {
+  .txt,
+  .txt2 {
     font-size: 17px;
     color: white;
     margin: 2px;
@@ -15,13 +16,36 @@
     position: relative;
     padding: 10px;
     height: 140px;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
+  .buttonHP {
+    font-size: 10px;
+    margin-left: 80%;
+    bottom: 85px;
+  }
+  .intro2 {
+    margin-top: 2px;
+    position: relative;
+    padding: 10px;
+    height: 180px;
+    width: 100%;
+  }
+
+  .homepageNews {
+    margin-top: 2px;
+    position: relative;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+  }
   .footer {
     text-align: left;
-    height: 40px;
+    height: 60px;
     z-index: 30;
     font-size: 10px;
+    width: 100%;
   }
 
   .navEntry {
@@ -41,6 +65,8 @@
     top: 10px;
     margin-left: 5px;
     width: 80%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
   }
   .filterDiv {
     background: url("./applemob.jpg") repeat fixed;
@@ -235,6 +261,22 @@
     width: 30%;
     left: 55%;
     top: 450px;
+    font-size: 13px;
+  }
+
+  .swirl-in-fwd {
+    font-size: 13px;
+    width: 45%;
+    left: -50px;
+  }
+
+  .roll-in-left3 {
+    width: 15%;
+    left: 15%;
+    top: 550px;
+    position: fixed;
+    padding: 20px;
+    font-size: 15px;
   }
   .leftContact {
     position: fixed;
