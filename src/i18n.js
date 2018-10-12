@@ -77,7 +77,7 @@ i18n.use(LanguageDetector).init({
       translations: {
         intro1: "Erfahrener Freelance SEO Experte in Berlin.",
         intro2: "10 Jahre Erfahrung in SEO, SEA und Analytics.",
-        intro3: "Full Stack Web-Entwickler (Javascript, Node, React, SQL).",
+        intro3: "Full Stack Web-Entwickler",
         services: "SEO",
         technical: "TECHNISCH",
         about: "ÜBER MICH",

@@ -91,22 +91,55 @@ class Homepage extends Component {
           <footer className="txt"> Get in touch to discuss your needs!</footer>
 
           <a href={"/" + this.props.lang + "/contact"}>
-            <span
+            <p
               className="buttonHP"
               onClick={() => this.props.changePage("/contact")}
             >
               {t("getintouch")}
-            </span>
-          </a>
-        </div>
-
-        <div className="blogArticlesHP">
-          <a href={"/" + this.props.lang + "/blog"}>
-            <p onClick={() => this.props.pageChange("/blog")}>
-              MY BLOG: LATEST POSTS
             </p>
           </a>
 
+          <a href={"/" + this.props.lang + "/about"}>
+            <p
+              className="buttonHP buttonHP2"
+              onClick={() => this.props.changePage("/about")}
+            >
+              More about me
+            </p>
+          </a>
+        </div>
+        <p className="HPTitle">MY SKILLS</p>
+
+        <div className="intro2">
+          <div className="introQuarter">
+            <footer className="txt2"> Online Marketing</footer>
+            <ul>
+              <li className="txt2"> SEO</li>
+              <li className="txt2">Analytics </li>
+              <li className="txt2">Business Expertise (MBA)</li>
+              <li className="txt2"> Market research</li>
+
+              <li className="txt2">Competitor Analysis</li>
+
+              <li className="txt2"> SEA</li>
+            </ul>
+          </div>
+          <div className="introQuarter">
+            <footer className="txt2"> {t("intro3")}</footer>
+            <ul>
+              <li className="txt2"> React, Vue, Handlebars</li>
+              <li className="txt2">Javascript, JQuery </li>
+              <li className="txt2">Node, Express</li>
+
+              <li className="txt2"> HTML, CSS</li>
+              <li className="txt2"> SQL, Postgres</li>
+            </ul>
+          </div>
+        </div>
+
+        <p className="HPTitle HPTitle2">MY BLOG: LATEST POSTS</p>
+
+        <div className="blogArticlesHP">
           {this.state.articles.map(article => (
             <div className="blogItemHP">
               <div className="imageBlogHP">
@@ -130,20 +163,14 @@ class Homepage extends Component {
 
         <div className="homepageNews">
           <a href={"/" + this.props.lang + "/seonews"}>
-            <p onClick={() => this.props.pageChange("/seonews")}> SEO NEWS</p>
+            <p
+              className="HPTitle HPTitle3"
+              onClick={() => this.props.pageChange("/seonews")}
+            >
+              LATEST SEO NEWS
+            </p>
           </a>
           <NewsItems />
-        </div>
-        <div className="intro2">
-          <footer className="txt2"> {t("intro3")}</footer>
-          <ul>
-            <li className="txt2"> React, Vue, Handlebars</li>
-            <li className="txt2">Javascript, JQuery </li>
-            <li className="txt2">Node, Express</li>
-
-            <li className="txt2"> HTML, CSS</li>
-            <li className="txt2"> SQL, Postgres</li>
-          </ul>
         </div>
       </div> //Main
     );

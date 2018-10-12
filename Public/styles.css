@@ -277,13 +277,42 @@ iframe {
 .intro2 {
   background-color: grey;
   color: black;
-  margin-top: 10px;
+  margin-top: 1px;
   position: relative;
   width: 100%;
   height: 230px;
-  display: block;
+  display: flex;
   left: 0px;
   padding: 10px;
+  padding-bottom: 20px;
+}
+
+.HPTitle {
+  color: #17252a;
+  text-align: center;
+  background: white;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  height: 30px;
+  padding-top: 10px;
+  opacity: 0.6;
+  -webkit-animation: slide-in-left 5.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-left 5.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.HPTitle2 {
+  -webkit-animation: slide-in-left 7.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-left 7.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.HPTitle3 {
+  -webkit-animation: slide-in-left 9.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-left 9.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .homepageNews {
@@ -293,24 +322,21 @@ iframe {
 }
 
 .blogArticlesHP {
-  text-align: center;
-  width: 60%;
+  border: 1px #17252a solid;
+  width: 100%;
   z-index: 10;
   position: relative;
 
-  opacity: 0.5;
   background-color: white;
-  -webkit-animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 7.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .blogHPtext {
   display: block;
-  margin-left: 10px;
 }
 
 .blogItemHP {
   display: block;
   margin: 7px;
+  margin-left: 30%;
 }
 
 .listArticlesBlogHP {
@@ -331,12 +357,17 @@ iframe {
   display: block;
 }
 .txt {
-  font-size: 22px;
+  font-size: 1.2rem;
   color: white;
   margin: 1px;
-  margin-top: 10px;
+  margin-top: 1rem;
   margin-left: 300px;
   width: 40%;
+}
+
+.txt a,
+.txt a {
+  color: white;
 }
 
 .txt2 {
@@ -348,23 +379,25 @@ iframe {
 }
 
 p:hover {
-  color: white;
 }
 
 .buttonHP {
   background-color: white;
   color: #383b4b;
   padding: 10px;
-
   margin-left: 65%;
+  top: -160px;
   text-align: center;
+  position: relative;
   z-index: 10;
-  bottom: 60px;
-  height: 30px;
-  width: 180px;
+  height: 10px;
+  width: 25%;
   font-size: 17px;
   border-radius: 120px;
   border: white 2px solid;
+}
+
+.buttonHP2 {
 }
 
 .buttonEdit {
@@ -405,7 +438,7 @@ p:hover {
   background-color: rgba(80, 0, 0, 0.75);
   color: lightgrey;
   font-style: bariolregular;
-  margin-top: 2%;
+  margin-top: 1%;
   padding: 40px;
   margin-left: 10%;
   font-size: 20px;
@@ -413,7 +446,7 @@ p:hover {
   display: block;
   position: fixed;
   z-index: 2;
-  width: 240px;
+  width: 40%;
   height: auto;
   overflow: visible;
 }
@@ -422,9 +455,10 @@ p:hover {
 }
 
 .listArticlesBlog {
-  width: 200px;
+  width: 80%;
   margin-left: 3px;
-  margin-bottom: 6px;
+  margin-bottom: 1px;
+  color: white;
 }
 .animationHP {
   position: absolute;
@@ -618,6 +652,7 @@ h4 {
 }
 .footerQuarter {
   margin-top: 2%;
+  display: inline;
   width: 25%;
 }
 .footerLinks {
@@ -1027,7 +1062,7 @@ h6:before {
   animation: fade-in 3.5s ease-out both;
   width: 30%;
   left: 55%;
-  top: 500px;
+  top: 460px;
   position: fixed;
   padding: 20px;
   font-size: 21px;
@@ -1042,7 +1077,7 @@ h6:before {
   animation: fade-in 3.5s ease-out both;
   width: 30%;
   left: 15%;
-  top: 650px;
+  top: 50px;
   position: fixed;
   padding: 20px;
   font-size: 21px;
