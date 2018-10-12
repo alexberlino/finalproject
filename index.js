@@ -164,6 +164,7 @@ app.get("/getarticleurl/:BE", (req, res) => {
 });
 
 app.post("/:lang/login", (req, res) => {
+  console.log("inlogin");
   let { email, pass } = req.body;
   db.login(email)
     .then(function(result) {
