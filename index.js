@@ -14,7 +14,7 @@ let secrets;
 if (process.env.NODE_ENV == "production") {
   secrets = process.env;
 } else {
-  secrets = require(".secrets.json");
+  secrets = require("./secrets.json");
 }
 
 app.use(cookieParser());
