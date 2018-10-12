@@ -19,16 +19,20 @@ if (process.env.NODE_ENV == "production") {
 
 app.use(cookieParser());
 app.use(express.static("./public"));
+
+var csurf = require("csurf");
+app.use(csurf());
 const cookieSession = require("cookie-session");
+app.use(require("cookie-parser")());
+
+app.use(require("body-parser").json());
 const cookieSessionMiddleware = cookieSession({
   secret: secrets.cookiepass,
   maxAge: 1000 * 60 * 60 * 24 * 90
 });
 app.use(cookieSessionMiddleware);
 
-var csurf = require("csurf");
 app.use(csurf());
-
 app.use(function(req, res, next) {
   res.cookie("mytoken", req.csrfToken());
   next();
@@ -48,8 +52,6 @@ if (process.env.NODE_ENV != "production") {
 }
 app.use(express.static("./Public"));
 // app.use(express.static(path.resolve(__dirname, "../dist")));
-
-app.use(require("body-parser").json());
 
 function checkSession(req, res, next) {
   if (!req.session.userId) {
