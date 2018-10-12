@@ -1,9 +1,7 @@
 const express = require("express");
 const nodemailer = require("nodemailer");
-var i18n = require("i18next");
-const i18nFsBackend = require("i18next-node-fs-backend");
-const i18nMiddleware = require("i18next-express-middleware");
-const fs = require("fs");
+// var i18n = require("i18next");
+// const i18nMiddleware = require("i18next-express-middleware");
 const app = express();
 // import { renderToString } from "react-dom/server";
 const compression = require("compression");
