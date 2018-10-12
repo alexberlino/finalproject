@@ -20,8 +20,8 @@ if (process.env.NODE_ENV == "production") {
 app.use(cookieParser());
 app.use(express.static("./public"));
 
-var csurf = require("csurf");
-app.use(csurf());
+const csurf = require("csurf");
+
 const cookieSession = require("cookie-session");
 app.use(require("cookie-parser")());
 
