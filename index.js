@@ -10,13 +10,18 @@ const compression = require("compression");
 const db = require("./sql/db.js");
 const { checkPassword, hashPassword } = require("./Public/hash.js");
 const cookieParser = require("cookie-parser");
-secrets = require("./secrets"); // secrets.json is in .gitignore
+let secrets;
+if (process.env.NODE_ENV == "production") {
+  secrets = process.env;
+} else {
+  secrets = require(".secrets.json");
+}
 
 app.use(cookieParser());
 app.use(express.static("./public"));
 const cookieSession = require("cookie-session");
 const cookieSessionMiddleware = cookieSession({
-  secret: process.env.cookiepass || secrets.cookiepass,
+  secret: secrets.cookiepass,
   maxAge: 1000 * 60 * 60 * 24 * 90
 });
 app.use(cookieSessionMiddleware);
@@ -226,14 +231,14 @@ app.post("/:lang/form", (req, res) => {
       port: 587,
       secure: false,
       auth: {
-        user: process.env.emailuser || secrets.emailuser,
-        pass: process.env.mailpass || secrets.mailpass
+        user: secrets.emailuser,
+        pass: secrets.mailpass
       }
     });
 
     let mailOptions = {
       from: "test@testaccount.com",
-      to: process.env.mailto || secrets.mailto,
+      to: secrets.mailto,
       replyTo: " test@testaccount.com",
       subject: "new Message from website",
       text: req.body.message,
