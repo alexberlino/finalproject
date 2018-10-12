@@ -2,7 +2,6 @@ import React, { Component } from "react";
 // import axios from "./axios";
 import { Switch } from "react-router";
 import { BrowserRouter, Route, Link, Redirect } from "react-router-dom";
-import Favicon from "react-favicon";
 import Homepage from "./homepage";
 import Contact from "./contact";
 import Services from "./services";
