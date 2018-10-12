@@ -110,7 +110,6 @@ class App extends Component {
               page={page}
             />
             {backdrop}
-            <Favicon url="/Public/favicon.png" />
 
             <div>
               <Switch>
