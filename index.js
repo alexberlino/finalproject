@@ -16,7 +16,7 @@ app.use(cookieParser());
 app.use(express.static("./public"));
 const cookieSession = require("cookie-session");
 const cookieSessionMiddleware = cookieSession({
-  secret: secrets.cookiepass,
+  secret: process.env.cookiepass || secrets.cookiepass,
   maxAge: 1000 * 60 * 60 * 24 * 90
 });
 app.use(cookieSessionMiddleware);
@@ -226,14 +226,14 @@ app.post("/:lang/form", (req, res) => {
       port: 587,
       secure: false,
       auth: {
-        user: secrets.emailuser,
-        pass: secrets.mailpass
+        user: process.env.emailuser || secrets.emailuser,
+        pass: process.env.mailpass || secrets.mailpass
       }
     });
 
     let mailOptions = {
       from: "test@testaccount.com",
-      to: secrets.mailto,
+      to: process.env.mailto || secrets.mailto,
       replyTo: " test@testaccount.com",
       subject: "new Message from website",
       text: req.body.message,
