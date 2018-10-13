@@ -8,12 +8,12 @@ const compression = require("compression");
 const db = require("./sql/db.js");
 const { checkPassword, hashPassword } = require("./Public/hash.js");
 const cookieParser = require("cookie-parser");
-let secrets;
-if (process.env.NODE_ENV == "production") {
-  secrets = process.env;
-} else {
-  secrets = require("./secrets.json");
-}
+// let secrets;
+// if (process.env.NODE_ENV == "production") {
+//   secrets = process.env;
+// } else {
+//   secrets = require("./secrets.json");
+// }
 
 app.use(express.static("./public"));
 
@@ -24,7 +24,7 @@ app.use(cookieParser());
 
 app.use(require("body-parser").json());
 const cookieSessionMiddleware = cookieSession({
-  secret: secrets.COOKIE_PASS,
+  secret: process.env.COOKIE_PASS,
   maxAge: 1000 * 60 * 60 * 24 * 90
 });
 app.use(cookieSessionMiddleware);
@@ -233,14 +233,14 @@ app.post("/:lang/form", (req, res) => {
       port: 587,
       secure: false,
       auth: {
-        user: secrets.EMAIL_USER,
-        pass: secrets.EMAIL_PASS
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
       }
     });
 
     let mailOptions = {
       from: "test@testaccount.com",
-      to: secrets.MAIL_TO,
+      to: process.env.MAIL_TO,
       replyTo: " test@testaccount.com",
       subject: "new Message from website",
       text: req.body.message,
