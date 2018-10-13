@@ -28,6 +28,7 @@ const cookieSessionMiddleware = cookieSession({
   maxAge: 1000 * 60 * 60 * 24 * 90
 });
 app.use(cookieSessionMiddleware);
+app.use(csurf());
 
 app.use(function(req, res, next) {
   res.cookie("mytoken", req.csrfToken());
