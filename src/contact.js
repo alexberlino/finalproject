@@ -29,6 +29,7 @@ class Contact extends Component {
   }
 
   async handleSubmit(e) {
+    event.preventDefault();
     const { name, email, message } = this.state;
 
     if (name.length < 1 || email.length < 1 || message.length < 1) {
