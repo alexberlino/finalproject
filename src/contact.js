@@ -60,7 +60,7 @@ class Contact extends Component {
     const { t, i18n } = this.props;
     console.log(this.props.i18n.language);
     return (
-      <div className="mainContact">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{t("getintouch_title")}</title>
