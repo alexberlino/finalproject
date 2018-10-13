@@ -8,20 +8,19 @@ const compression = require("compression");
 const db = require("./sql/db.js");
 const { checkPassword, hashPassword } = require("./Public/hash.js");
 const cookieParser = require("cookie-parser");
-let secrets;
+var secrets;
 if (process.env.NODE_ENV == "production") {
   secrets = process.env;
 } else {
   secrets = require("./secrets.json");
 }
 
-app.use(cookieParser());
 app.use(express.static("./public"));
 
 const csurf = require("csurf");
 
 const cookieSession = require("cookie-session");
-app.use(require("cookie-parser")());
+app.use(cookieParser());
 
 app.use(require("body-parser").json());
 const cookieSessionMiddleware = cookieSession({
@@ -30,10 +29,9 @@ const cookieSessionMiddleware = cookieSession({
 });
 app.use(cookieSessionMiddleware);
 
-app.use(csurf());
 app.use(function(req, res, next) {
   res.cookie("mytoken", req.csrfToken());
-  next();
+  return next();
 });
 
 app.use(compression());
