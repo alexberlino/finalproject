@@ -8,7 +8,7 @@ const compression = require("compression");
 const db = require("./sql/db.js");
 const { checkPassword, hashPassword } = require("./Public/hash.js");
 const cookieParser = require("cookie-parser");
-var secrets;
+let secrets;
 if (process.env.NODE_ENV == "production") {
   secrets = process.env;
 } else {
