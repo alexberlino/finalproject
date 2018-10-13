@@ -60,60 +60,58 @@ class Contact extends Component {
     const { t, i18n } = this.props;
     console.log(this.props.i18n.language);
     return (
-      <div className="main">
-        <div className="mainContact">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>{t("getintouch_title")}</title>
-          </Helmet>
-          {this.state.error && <div className="error">Try again!</div>}
-          {this.state.success && <div className="success">Thank you!</div>}
-          <div className="leftContact">
-            <div className="contactmeHead"> {t("getintouch")}</div>
+      <div className="mainContact">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{t("getintouch_title")}</title>
+        </Helmet>
+        {this.state.error && <div className="error">Try again!</div>}
+        {this.state.success && <div className="success">Thank you!</div>}
+        <div className="leftContact">
+          <div className="contactmeHead"> {t("getintouch")}</div>
 
-            <Form onSubmit={this.handleSubmit}>
-              <FormGroup>
-                <Label for="name">{t("fullname")} </Label>
-                <Input
-                  type="text"
-                  name="name"
-                  className="field"
-                  onChange={this.handleChange}
-                />
-              </FormGroup>
+          <Form onSubmit={this.handleSubmit}>
+            <FormGroup>
+              <Label for="name">{t("fullname")} </Label>
+              <Input
+                type="text"
+                name="name"
+                className="field"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
 
-              <FormGroup>
-                <Label for="name">Email* </Label>
-                <Input
-                  type="email"
-                  name="email"
-                  className="field"
-                  onChange={this.handleChange}
-                />
-              </FormGroup>
+            <FormGroup>
+              <Label for="name">Email* </Label>
+              <Input
+                type="email"
+                name="email"
+                className="field"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
 
-              <FormGroup>
-                <Label for="name">{t("message")} </Label>
-                <textarea
-                  type="text"
-                  name="message"
-                  className="fieldMessage"
-                  onChange={this.handleChange}
-                />
-              </FormGroup>
+            <FormGroup>
+              <Label for="name">{t("message")} </Label>
+              <textarea
+                type="text"
+                name="message"
+                className="fieldMessage"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
 
-              <Button className="formButton">Submit </Button>
-            </Form>
-          </div>
-          <div className="map">
-            <iframe
-              width="600"
-              height="580"
-              frameBorder="0"
-              src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
-              allowFullScreen
-            />
-          </div>
+            <Button className="formButton">Submit </Button>
+          </Form>
+        </div>
+        <div className="map">
+          <iframe
+            width="600"
+            height="580"
+            frameBorder="0"
+            src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
+            allowFullScreen
+          />
         </div>
       </div>
     );
