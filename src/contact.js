@@ -36,11 +36,23 @@ class Contact extends Component {
       return false;
     }
 
-    const form = await axios.post(`/en/form`, {
-      name,
-      email,
-      message
-    });
+    const form = await axios
+      .post(`/en/form`, {
+        name,
+        email,
+        message
+      })
+      .then(({ data }) => {
+        if (data.success) {
+          this.setState({
+            success: true
+          });
+        } else {
+          this.setState({
+            error: true
+          });
+        }
+      });
   }
 
   render() {
@@ -54,6 +66,9 @@ class Contact extends Component {
         </Helmet>
         <div className="leftContact">
           <div className="contactmeHead"> {t("getintouch")}</div>
+          {this.state.error && <div className="error">Try again!</div>}
+          {this.state.success && <div className="success">Thank you!</div>}
+
           <Form onSubmit={this.handleSubmit}>
             <FormGroup>
               <Label for="name">{t("fullname")} </Label>

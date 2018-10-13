@@ -7,13 +7,12 @@ const app = express();
 const compression = require("compression");
 const db = require("./sql/db.js");
 const { checkPassword, hashPassword } = require("./Public/hash.js");
-const cookieParser = require("cookie-parser");
-// let secrets;
-// if (process.env.NODE_ENV == "production") {
-//   secrets = process.env;
-// } else {
-//   secrets = require("./secrets.json");
-// }
+let secrets;
+if (process.env.NODE_ENV == "production") {
+  secrets = process.env;
+} else {
+  secrets = require("./secrets.json");
+}
 
 app.use(express.static("./public"));
 
@@ -24,7 +23,7 @@ app.use(require("cookie-parser")());
 
 app.use(require("body-parser").json());
 const cookieSessionMiddleware = cookieSession({
-  secret: process.env.COOKIE_PASS,
+  secret: secrets.COOKIE_PASS,
   maxAge: 1000 * 60 * 60 * 24 * 90
 });
 app.use(cookieSessionMiddleware);
@@ -233,14 +232,14 @@ app.post("/:lang/form", (req, res) => {
       port: 587,
       secure: false,
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
+        user: secrets.EMAIL_USER,
+        pass: secrets.EMAIL_PASS
       }
     });
 
     let mailOptions = {
       from: "test@testaccount.com",
-      to: process.env.MAIL_TO,
+      to: secrets.MAIL_TO,
       replyTo: " test@testaccount.com",
       subject: "new Message from website",
       text: req.body.message,
@@ -250,6 +249,10 @@ app.post("/:lang/form", (req, res) => {
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         return console.log("error sending mail", error);
+      } else {
+        res.json({
+          success: true
+        });
       }
       console.log("Message sent: %s", info.messageId);
       // Preview only available when sending through an Ethereal account
