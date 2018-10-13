@@ -14,26 +14,42 @@
   .txt2 a {
     color: white;
   }
+  .portrait {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+  }
 
   .intro {
     margin-top: 20px;
     position: relative;
     padding: 10px;
-    height: 170px;
+    height: 470px;
     width: 100%;
     margin-bottom: 20px;
   }
 
+  .txt2 {
+    font-size: 16px;
+    color: white;
+    margin: 1px;
+    margin-top: 10px;
+  }
+
   .buttonHP {
     font-size: 10px;
-    margin-left: 80%;
-    bottom: 85px;
+    top: 40px;
+  }
+  .buttonHP2 {
+    font-size: 10px;
+    position: relative;
+    width: 80px;
   }
   .intro2 {
     margin-top: 2px;
     position: relative;
     padding: 10px;
-    height: 180px;
+    height: 340px;
     width: 100%;
   }
 

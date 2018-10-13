@@ -11,6 +11,7 @@ import { connect } from "react-redux";
 // import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import NoMatch from "./NoMatch";
+import LinksToPages from "./LinksToPages";
 
 class Article extends Component {
   constructor(props) {
@@ -66,14 +67,14 @@ class Article extends Component {
 
     console.log(this.state);
     return (
-      <div>
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{this.state.title + " | SEO Berlino Blog"}</title>
         </Helmet>
         <div id="three-js-item" />
 
-        <div className="blogArticleWindow">
+        <div className="mainBlog">
           <div className="articleTitle">{this.state.title}</div>
           <div className="articleAuthor">{"Author:  " + this.state.author}</div>
           <div className="articleDate">
@@ -85,6 +86,9 @@ class Article extends Component {
             className="articleArticle"
             dangerouslySetInnerHTML={this.createMarkup()}
           />
+          <div>
+            <LinksToPages className="linkToPages" />
+          </div>
         </div>
       </div>
     );

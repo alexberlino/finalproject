@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import NewsItems from "./NewsItems";
+import LinksToPages from "./LinksToPages";
 
 class SEONews extends Component {
   render() {
@@ -47,6 +48,9 @@ class SEONews extends Component {
               </p>
             </div>
           </div>
+        </div>
+        <div>
+          <LinksToPages />
         </div>
       </div>
     );

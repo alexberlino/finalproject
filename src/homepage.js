@@ -9,6 +9,7 @@ import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import axios from "./axios";
 import NewsItems from "./NewsItems";
+import LinksToPages from "./LinksToPages";
 
 import Blog from "./blog";
 
@@ -49,46 +50,17 @@ class Homepage extends Component {
         <h2 />
 
         <div className="intro">
+          <img className="portrait" src="/portrait.png" />
+          <footer className="txt">Alex Bieth, MBA</footer>
+
           <footer className="txt"> {t("intro1")}</footer>
           <footer className="txt"> {t("intro2")}</footer>
-          <footer className="txt"> {t("intro3")}</footer>
-
           <footer className="txt">
             {" "}
-            <Link
-              to={"/" + this.props.lang + "/onpage"}
-              onClick={() => this.props.pageChange("/onpage")}
-            >
-              On-page SEO
-            </Link>,{" "}
-            <Link
-              to={"/" + this.props.lang + "/keyword_research"}
-              onClick={() => this.props.pageChange("/keyword_research")}
-            >
-              Keyword Research
-            </Link>,{" "}
-            <Link
-              to={"/" + this.props.lang + "/competitor_analysis"}
-              onClick={() => this.props.pageChange("/competitor_analysis")}
-            >
-              Competitor Analysis
-            </Link>,{" "}
-            <Link
-              to={"/" + this.props.lang + "/analytics"}
-              onClick={() => this.props.pageChange("/analytics")}
-            >
-              Analytics
-            </Link>
-            ,{" "}
-            <Link
-              to={"/" + this.props.lang + "/offpage"}
-              onClick={() => this.props.pageChange("/offpage")}
-            >
-              Linkbuiling
-            </Link>
+            Experience setting roadmaps, strategic plan and monitoring, agile
+            trained
           </footer>
-
-          <footer className="txt"> Get in touch to discuss your needs!</footer>
+          <footer className="txt"> {t("intro3")}</footer>
 
           <a href={"/" + this.props.lang + "/contact"}>
             <p
@@ -171,6 +143,9 @@ class Homepage extends Component {
             </p>
           </a>
           <NewsItems />
+        </div>
+        <div>
+          <LinksToPages />
         </div>
       </div> //Main
     );

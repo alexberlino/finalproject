@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "./LinksToPages";
 
 class Technical extends Component {
   constructor(props) {
@@ -30,6 +31,9 @@ class Technical extends Component {
           <div className="infoTitle"> Technical SEO </div>
           <div className="infoIntro"> {t("technical_intro")} </div>
           <div className="infoMain">{t("technical_main")}</div>
+        </div>
+        <div>
+          <LinksToPages />
         </div>
       </div> //Main
     );

@@ -5,7 +5,7 @@ import ReactDOM from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import i18n from "./i18n";
 
-class SideDrawer extends Component {
+class LinksToPages extends Component {
   constructor(props) {
     super(props);
   }
@@ -18,7 +18,7 @@ class SideDrawer extends Component {
     }
 
     return (
-      <nav className={drawerClasses}>
+      <div>
         <ul>
           <li>
             <a href={"/" + this.props.lang + "/about"}>
@@ -86,9 +86,9 @@ class SideDrawer extends Component {
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
     );
   }
 }
 
-export default translate("translations")(SideDrawer);
+export default translate("translations")(LinksToPages);

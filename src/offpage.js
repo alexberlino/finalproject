@@ -8,6 +8,7 @@ import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import Blog from "./blog";
+import LinksToPages from "./LinksToPages";
 
 class Offpage extends Component {
   constructor(props) {
@@ -43,6 +44,9 @@ class Offpage extends Component {
             through engaging content marketing. ​
           </div>
           ​
+        </div>
+        <div>
+          <LinksToPages />
         </div>
       </div>
     );

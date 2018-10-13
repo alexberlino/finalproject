@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "./LinksToPages";
 
 class Onpage extends Component {
   constructor(props) {
@@ -43,6 +44,9 @@ class Onpage extends Component {
             for good rankings including indexation, canonicalization and
             crawlability.
           </div>
+        </div>
+        <div>
+          <LinksToPages />
         </div>
       </div> //Main
     );

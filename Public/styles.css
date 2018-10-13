@@ -179,9 +179,6 @@ iframe {
 
 /* Navigation Start*/
 
-.Navbar {
-}
-
 .success {
   position: absolute;
   color: green;
@@ -204,6 +201,14 @@ iframe {
 
   margin-top: 10%;
   margin-bottom: 10%;
+}
+
+.mainBlog {
+  background-color: rgba(250, 250, 250, 0.75);
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  min-height: calc(100vh - 120px);
 }
 
 .mainlogin {
@@ -286,7 +291,7 @@ iframe {
 .intro {
   background-color: #2b7a78;
   width: 100%;
-  height: 240px;
+  height: 440px;
   display: block;
   left: 0px;
   padding: 10px;
@@ -316,21 +321,21 @@ iframe {
   height: 30px;
   padding-top: 10px;
   opacity: 0.6;
-  -webkit-animation: slide-in-left 5.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
-  animation: slide-in-left 5.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .HPTitle2 {
-  -webkit-animation: slide-in-left 7.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-in-left 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
-  animation: slide-in-left 7.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .HPTitle3 {
-  -webkit-animation: slide-in-left 9.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-in-left 3.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
-  animation: slide-in-left 9.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 3.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .homepageNews {
@@ -375,10 +380,10 @@ iframe {
   display: block;
 }
 .txt {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: white;
   margin: 1px;
-  margin-top: 1rem;
+  margin-top: 1.7rem;
   margin-left: 300px;
   width: 40%;
 }
@@ -396,7 +401,11 @@ iframe {
   margin-left: 300px;
 }
 
-p:hover {
+.linkToPages {
+  position: relative;
+  display: block;
+  background-color: white;
+  z-index: 100;
 }
 
 .buttonHP {
@@ -404,7 +413,7 @@ p:hover {
   color: #383b4b;
   padding: 10px;
   margin-left: 65%;
-  top: -160px;
+  top: -20px;
   text-align: center;
   position: relative;
   z-index: 10;
@@ -415,7 +424,18 @@ p:hover {
   border: white 2px solid;
 }
 
+.portrait {
+  margin-top: 40px;
+  position: absolute;
+  margin-left: 40px;
+}
+
 .buttonHP2 {
+  margin-left: 25%;
+  width: 10%;
+  background: none;
+  color: white;
+  border: white 1px solid;
 }
 
 .buttonEdit {
