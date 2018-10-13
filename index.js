@@ -213,7 +213,7 @@ app.get("/log-out", (req, res) => {
 ////////////////DO NOT TOUCH/////////////////////////
 
 app.post("/:lang/form", (req, res) => {
-  console.log(req.body);
+  console.log("POSTREQBODY", req.body);
 
   nodemailer.createTestAccount((err, account) => {
     const htmlEmail = `
@@ -225,6 +225,8 @@ app.post("/:lang/form", (req, res) => {
         <h3>Message</h3>
         <p>${req.body.message}</p>
         `;
+
+    console.log("HTMLEMAIL", htmlEmail);
 
     let transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
@@ -244,6 +246,7 @@ app.post("/:lang/form", (req, res) => {
       text: req.body.message,
       html: htmlEmail
     }; //closemailoptions
+    console.log(mailOptions);
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         return console.log("error sending mail", error);
