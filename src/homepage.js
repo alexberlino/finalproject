@@ -57,8 +57,7 @@ class Homepage extends Component {
           <footer className="txt"> {t("intro2")}</footer>
           <footer className="txt">
             {" "}
-            Experience setting roadmaps, strategic plan and monitoring, agile
-            trained
+            Roadmaps, strategic planning and monitoring, scrum
           </footer>
           <footer className="txt"> {t("intro3")}</footer>
 
