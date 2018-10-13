@@ -129,6 +129,7 @@ iframe {
   position: relative;
   display: inline-flex;
   margin-top: 10%;
+  margin-bottom: 10%;
   margin-left: 5%;
   min-height: calc(100vh - 160px);
 }
@@ -182,6 +183,23 @@ iframe {
 .Navbar {
 }
 
+.success {
+  position: absolute;
+  color: green;
+  top: 60px;
+  margin-left: 15%;
+  z-index: 20;
+  font-size: 300px;
+}
+
+.error {
+  position: absolute;
+  color: red;
+  top: 60px;
+  margin-left: 15%;
+  z-index: 20;
+  font-size: 300px;
+}
 .main {
   min-height: calc(100vh - 120px);
 
