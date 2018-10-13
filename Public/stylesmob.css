@@ -257,14 +257,18 @@
 
   .fade-in {
     margin-left: 1%;
-    top: 340px;
-    width: 170px;
+    top: 300px;
+    width: 150px;
+  }
+
+  .roll-in-left {
+    top: 230px;
   }
 
   .roll-in-left2 {
     width: 30%;
     left: 55%;
-    top: 450px;
+    top: 340px;
     font-size: 13px;
   }
 
@@ -274,13 +278,26 @@
     left: -50px;
   }
 
+  .swirl-in-fwd2 {
+    top: 220px;
+  }
+  .bounce-in-top {
+    top: 70px;
+  }
+
+  .bounce-in-top2 {
+    top: 375px;
+    left: -10px;
+  }
+
   .roll-in-left3 {
-    width: 15%;
+    width: 80px;
     left: 15%;
-    top: 550px;
+    top: 57px;
+    height: 7px;
     position: fixed;
     padding: 20px;
-    font-size: 15px;
+    font-size: 12px;
   }
   .leftContact {
     position: fixed;

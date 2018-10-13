@@ -128,7 +128,6 @@ iframe {
 .mainContact {
   position: relative;
   display: inline-flex;
-  overflow-y: scroll;
   margin-top: 10%;
   margin-bottom: 10%;
   margin-left: 5%;
@@ -147,24 +146,23 @@ iframe {
 }
 
 .fieldMessage {
-  height: 250px;
+  height: 200px;
   border: 1px dotted black;
-  width: 300px;
+  width: 270px;
 }
 .contactmeHead {
-  margin-left: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: bariolregular;
   color: white;
   background-color: #383b4b;
   width: 80%;
-  font-size: 28px;
+  font-size: 26px;
   position: relative;
   text-align: center;
-  width: 350px;
-  height: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   vertical-align: middle;
 }
 

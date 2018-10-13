@@ -16,7 +16,7 @@ if (process.env.NODE_ENV == "production") {
 
 app.use(express.static("./public"));
 
-const csurf = require("csurf");
+const csrf = require("csurf");
 
 const cookieSession = require("cookie-session");
 app.use(require("cookie-parser")());
@@ -27,7 +27,7 @@ const cookieSessionMiddleware = cookieSession({
   maxAge: 1000 * 60 * 60 * 24 * 90
 });
 app.use(cookieSessionMiddleware);
-app.use(csurf());
+app.use(csrf({ cookie: true }));
 
 app.use(function(req, res, next) {
   res.cookie("mytoken", req.csrfToken());
