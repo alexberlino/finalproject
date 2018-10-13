@@ -20,7 +20,7 @@ app.use(express.static("./public"));
 const csurf = require("csurf");
 
 const cookieSession = require("cookie-session");
-app.use(cookieParser());
+app.use(require("cookie-parser")());
 
 app.use(require("body-parser").json());
 const cookieSessionMiddleware = cookieSession({
