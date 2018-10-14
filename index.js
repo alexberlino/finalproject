@@ -24,7 +24,7 @@ app.use(require("cookie-parser")());
 app.use(require("body-parser").json());
 const cookieSessionMiddleware = cookieSession({
   secret: secrets.COOKIE_PASS,
-  maxAge: 1000 * 60 * 60 * 24 * 90
+  maxAge: 100 * 60 * 60 * 24 * 30
 });
 app.use(cookieSessionMiddleware);
 app.use(csrf({ cookie: true }));

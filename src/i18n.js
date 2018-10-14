@@ -17,17 +17,14 @@ i18n.use(LanguageDetector).init({
         subject: "Subject:",
         message: "Message*",
         sendMessage: "SEND",
-        about1:
-          "Experience with creating hundreds of highly effective Landing Pages",
-        about2: `Over 5 years work experience as head a team of 10 members using scrum.`,
+        about1: "Experience with Landing Pages Creation & Optimization",
+        about2: `TeamLead experience using scrum`,
         about3: `Trained Full Stack Web Developer`,
-        about4: `Helped dozens of clients boost their SEO with personalised SEO audits and plans`,
-        about5: `Experience working on Technical SEO: indexation,
+        about4: `Personalised SEO audits and action plans`,
+        about5: `Technical SEO experience: indexation,
                 crawling, site architecture`,
-        about6: `Extensive work experience managing Adwords accounts with annual budgets of €1m`,
-        about7: `Creation & organization of SEO Roadmaps, KPIs & Technical
-                Dashboards. Management on SEO Analytics reports (Adobe
-                    SiteCatalyst Omniture)`,
+        about6: `Work experience managing €1m Adwords accounts`,
+        about7: `Roadmaps, Technical Dashboards, Analytics reports`,
         about8: `Alex is an SEO expert who proposes concrete action measures based
                     on a well-founded analysis and independently implements them.
                     This gives me the opportunity to focus on my day-to-day business
