@@ -19,7 +19,7 @@ class Onpage extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props.i18n.language);
+    console.log(this.props);
 
     return (
       <div className="main">
@@ -46,7 +46,10 @@ class Onpage extends Component {
           </div>
         </div>
         <div>
-          <LinksToPages />
+          <LinksToPages
+            pageChange={this.props.pageChange}
+            lang={this.props.lng}
+          />
         </div>
       </div> //Main
     );

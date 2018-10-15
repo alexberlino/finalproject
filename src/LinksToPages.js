@@ -18,10 +18,10 @@ class LinksToPages extends Component {
     }
 
     return (
-      <div>
+      <div className="linkstoPageMainDiv">
         <ul>
           <li>
-            <a href={"/" + this.props.lang + "/about"}>
+            <a href={"/" + this.props.lng + "/about"}>
               <span onClick={() => this.props.pageChange("/about")}>
                 {t("about")}
               </span>
@@ -29,14 +29,14 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/onpage"}>
+            <a href={"/" + this.props.lng + "/onpage"}>
               <span onClick={() => this.props.pageChange("/onpage")}>
                 ON-PAGE
               </span>
             </a>
           </li>
           <li>
-            <a href={"/" + this.props.lang + "/offpage"}>
+            <a href={"/" + this.props.lng + "/offpage"}>
               <span onClick={() => this.props.pageChange("/offpage")}>
                 OFFPAGE
               </span>
@@ -44,7 +44,7 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/technical"}>
+            <a href={"/" + this.props.lng + "/technical"}>
               <span onClick={() => this.props.pageChange("/technical")}>
                 {t("technical")}
               </span>
@@ -52,26 +52,26 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/audit"}>
+            <a href={"/" + this.props.lng + "/audit"}>
               <span onClick={() => this.props.pageChange("/audit")}>AUDIT</span>
             </a>
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/blog"}>
+            <a href={"/" + this.props.lng + "/blog"}>
               <span onClick={() => this.props.pageChange("/blog")}>BLOG</span>
             </a>
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/contact"}>
+            <a href={"/" + this.props.lng + "/contact"}>
               <span onClick={() => this.props.pageChange("/contact")}>
                 {t("contact")}
               </span>
             </a>
           </li>
           <li>
-            <a href={"/" + this.props.lang + "/seonews"}>
+            <a href={"/" + this.props.lng + "/seonews"}>
               <span onClick={() => this.props.pageChange("/seonews")}>
                 SEO NEWS
               </span>
@@ -79,7 +79,7 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/resources"}>
+            <a href={"/" + this.props.lng + "/resources"}>
               <span onClick={() => this.props.pageChange("/resources")}>
                 RESOURCES
               </span>

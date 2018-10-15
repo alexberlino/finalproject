@@ -137,7 +137,14 @@ class App extends Component {
                   render={() => <Contact i18n={this.props.i18n} />}
                 />
                 <Route exact path="/:lang/offpage" render={() => <Offpage />} />
-                <Route exact path="/:lang/onpage" render={() => <Onpage />} />
+                <Route
+                  exact
+                  path="/:lang/onpage"
+                  lang={lang}
+                  page={page}
+                  pageChange={this.changePage}
+                  render={() => <Onpage />}
+                />
                 <Route exact path="/logout" render={() => <Onpage />} />
                 <Route
                   exact

@@ -346,6 +346,11 @@
   .side-drawer {
     display: none;
   }
+
+  .linkstoPageMainDiv {
+    display: none;
+  }
+
   .toolbar_toggle_button {
     display: none;
   }
