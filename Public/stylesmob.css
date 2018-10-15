@@ -92,15 +92,38 @@
     background: url("./applemob.jpg") repeat fixed;
   }
 
-  h2:before {
-    z-index: 10;
-    color: #383b4b;
-    position: absolute;
-    display: flex;
+  .hey span {
+    top: 200px;
+    font-size: 20px;
+    margin-left: 90px;
+  }
 
+  .hey span:nth-child(1) {
+  }
+  .hey span:nth-child(2) {
+    top: 200px;
+    margin-left: 190px;
+  }
+  .hey span:nth-child(3) {
     top: 220px;
-    left: -295px;
-    background-color: none;
+    margin-left: 140px;
+  }
+  .hey span:nth-child(4) {
+    top: 170px;
+    margin-left: 140px;
+  }
+  .hey span:nth-child(5) {
+    top: 190px;
+    margin-left: 120px;
+  }
+  .hey span:nth-child(6) {
+    top: 210px;
+
+    margin-left: 120px;
+  }
+  .hey span:nth-child(7) {
+    top: 230px;
+    margin-left: 130px;
   }
 
   .navEntries {
@@ -356,5 +379,8 @@
   }
   .imageHPMob {
     display: none;
+  }
+  .span .hey {
+    color: white;
   }
 }

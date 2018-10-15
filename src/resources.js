@@ -22,35 +22,62 @@ class Resources extends Component {
             monitoring
           </div>
           <div className="infoMain">
-            <ul>
+            <ul className="block">
               <li> SEO Jargon </li>
-
               <a href="https://moz.com/beginners-guide-to-seo">
                 Moz's Beginners guide to SEO{" "}
               </a>
               <li> Backlink Checks </li>
-              <footer>
-                <a href="https://moz.com/link-explorer">Moz Link Explorer</a>{" "}
-              </footer>
-              <footer>
-                <a href="https://de.majestic.com/">Majestic SEO</a>
-              </footer>
-              <footer>
-                <a href="https://ahrefs.com/de/">ahrefs</a>
-              </footer>
-
+              <a className="block" href="https://moz.com/link-explorer">
+                Moz Link Explorer
+              </a>{" "}
+              <a className="block" href="https://de.majestic.com/">
+                Majestic SEO
+              </a>
+              <a className="block" href="https://ahrefs.com/de/">
+                ahrefs
+              </a>
               <li> Keyword Tools </li>
-              <a href="https://kwfinder.com/"> https://kwfinder.com/ </a>
-
+              <footer>Adwords Keyword Planner </footer>
+              <footer> Google's Search Console </footer>
+              <footer> SEMRush</footer>
+              <footer> Google Trends</footer>
+              <footer> ahrefs Keywords Explorer</footer>
+              <a className="block" href=" https://soovle.com/">
+                Soovle
+              </a>
+              <a className="block" href="https://keywordtool.io/">
+                keywordtool.io
+              </a>
+              <a className="block" href="https://kwfinder.com/">
+                {" "}
+                KW Finder{" "}
+              </a>
+              <a className="block" href=" https://moz.com/explorer">
+                {" "}
+                Moz Keyword Explorer{" "}
+              </a>
+              <a className="block" href="https://www.secockpit.com">
+                SECockpit
+              </a>
+              <a className="block" href=" https://kwfinder.com/">
+                KWFinder
+              </a>
               <li>Technical </li>
-              <a href="https://search.google.com/test/mobile-friendly">
+              <a
+                className="block"
+                href="https://search.google.com/test/mobile-friendly"
+              >
                 Google Mobile Friendly Test
               </a>
-              <footer>
-                <a href="https://developers.google.com/speed/pagespeed/insights/?hl=de">
-                  Google PageSpeed (Insights) Test
-                </a>{" "}
-              </footer>
+              <a
+                className="block"
+                href="https://developers.google.com/speed/pagespeed/insights/?hl=de"
+              >
+                Google PageSpeed (Insights) Test
+              </a>
+              <li> Content marketing </li>
+              <a href=" https://kwfinder.com/">buzzsumo.com</a>
             </ul>
           </div>
         </div>

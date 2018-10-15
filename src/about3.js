@@ -28,7 +28,7 @@ class About3 extends Component {
     const { t, i18n } = this.props;
 
     return (
-      <div className={this.state.categorie}>
+      <div className={this.state.categorie + "main"}>
         <div>
           <Helmet>
             <meta charSet="utf-8" />

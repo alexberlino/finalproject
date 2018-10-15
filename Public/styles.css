@@ -14,7 +14,10 @@ a {
   color: grey;
   text-decoration: none;
 }
-
+.block {
+  display: block;
+  position: relative;
+}
 a:visited {
   color: inherit;
   text-decoration: none;
@@ -498,16 +501,6 @@ iframe {
   margin-bottom: 1px;
   color: white;
 }
-.animationHP {
-  position: absolute;
-  z-index: 10;
-  top: 80px;
-  margin-left: 338px;
-  height: 247px;
-  width: 407px;
-  background-color: black;
-  opacity: 0.884;
-}
 
 .importancenews {
   display: inline;
@@ -729,136 +722,98 @@ h4 {
 .imageHPMob {
   display: none;
 }
-h2:before {
-  color: white;
-  content: "SEO FREELANCER @BERLIN";
+
+.hey span {
+  z-index: 10;
+  position: absolute;
+  top: 170px;
+  font-size: 24px;
+  margin-left: 430px;
+
   text-align: center;
   padding: 5px;
-
-  -webkit-animation-name: head;
-  -webkit-animation-duration: 10s;
+  color: transparent;
+  animation: heyThere 23s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  z-index: 20;
-  position: absolute;
-  font-family: monospace;
+  -webkit-animation-direction: alternate;
+}
+
+.hey span:nth-child(1) {
+  animation-delay: 0.1s;
+  color: #544f4f;
+  z-index: 14;
+}
+.hey span:nth-child(2) {
+  animation-delay: 6s;
+  top: 190px;
+  margin-left: 430px;
+  color: #544f4f;
+  z-index: 13;
+}
+.hey span:nth-child(3) {
+  animation-delay: 6s;
+  top: 215px;
+  margin-left: 440px;
+  color: #544f4f;
+  z-index: 13;
+}
+.hey span:nth-child(4) {
+  animation-delay: 11s;
+
+  top: 150px;
+  margin-left: 430px;
+  color: #544f4f;
+  z-index: 12;
+}
+.hey span:nth-child(5) {
+  animation-delay: 11s;
+  top: 180px;
+  margin-left: 440px;
+  color: #544f4f;
+  z-index: 12;
+}
+.hey span:nth-child(6) {
+  animation-delay: 16s;
   top: 200px;
-  margin-left: 350px;
+  color: #544f4f;
+  z-index: 11;
+  margin-left: 430px;
+}
+.hey span:nth-child(7) {
+  animation-delay: 16s;
+  top: 230px;
+  margin-left: 430px;
+  color: #544f4f;
+  z-index: 11;
 }
 
-@-webkit-keyframes head {
-  0% {
-    font-size: 100%;
-    opacity: 0;
-    content: "";
-  }
-  10% {
-    font-size: 100%;
-    opacity: 1;
-    content: "SEARCH ENGINE OPTIMIZATION";
-  }
-  20% {
-    font-size: 100%;
-    opacity: 1;
-    content: "FREELANCER IN BERLIN";
-  }
-
-  30% {
-    font-size: 100%;
-    opacity: 1;
-    content: "ON-PAGE SEO";
-  }
-
-  40% {
-    font-size: 100%;
-    opacity: 1;
-    content: "KEYWORD RESEARCH";
-  }
-
-  50% {
-    font-size: 100%;
-    opacity: 1;
-    content: "BACKLINK AUDIT";
-  }
-  60% {
-    font-size: 100%;
-    opacity: 1;
-    content: "TECHNICAL SEO";
-  }
+@keyframes heyThere {
+  20%,
   70% {
-    font-size: 100%;
-    opacity: 1;
-    content: "COMPETITOR ANALYSIS";
+    color: transparent;
   }
-  80% {
-    font-size: 100%;
-    content: "ANALYTICS";
-
-    opacity: 1;
+  30% {
+    color: white;
   }
-  90% {
-    font-size: 100%;
-    content: "";
 
-    opacity: 1;
+  100% {
+    transform: translate(50px, 10px);
+    color: transparent;
   }
 }
 
-@keyframes head {
-  0% {
-    font-size: 100%;
-    opacity: 0;
-    content: "";
-  }
-  10% {
-    font-size: 100%;
-    opacity: 1;
-    content: "SEARCH ENGINE OPTIMIZATION";
-  }
-  20% {
-    font-size: 100%;
-    opacity: 1;
-    content: "FREELANCER IN BERLIN";
-  }
-
-  30% {
-    font-size: 100%;
-    opacity: 1;
-    content: "ON-PAGE SEO";
-  }
-
-  40% {
-    font-size: 100%;
-    opacity: 1;
-    content: "KEYWORD RESEARCH";
-  }
-
-  50% {
-    font-size: 100%;
-    opacity: 1;
-    content: "BACKLINK AUDIT";
-  }
-  60% {
-    font-size: 100%;
-    opacity: 1;
-    content: "TECHNICAL SEO";
-  }
+@-webkit-keyframes heyThere {
+  20%,
   70% {
-    font-size: 100%;
-    opacity: 1;
-    content: "COMPETITOR ANALYSIS";
+    color: transparent;
   }
-  80% {
-    font-size: 100%;
-    content: "ANALYTICS";
-
-    opacity: 1;
+  30% {
+    color: white;
   }
-  90% {
-    font-size: 100%;
-    content: "";
 
-    opacity: 1;
+  100% {
+    color: transparent;
+    transform: translate(20px, 10px);
   }
 }
 
@@ -1068,7 +1023,7 @@ h6:before {
 /* ABOUT start*/
 
 .hide {
-  position: absolute;
+  position: fixed;
   background-color: white;
   top: 0px;
   left: 0px;

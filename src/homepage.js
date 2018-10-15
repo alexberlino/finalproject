@@ -47,7 +47,15 @@ class Homepage extends Component {
         <img className="imageHPMob" src="/applemob.png" />
 
         <div className="animationHP" />
-        <h2 />
+        <div className="hey">
+          <span>SEO Freelancer in Berlin</span>
+          <span>On-page and</span>
+          <span>Keyword Research</span>
+          <span>Technical SEO and </span>
+          <span>Analytics</span>
+          <span>Competitor Analysis</span>
+          <span>Off-Page Audit</span>
+        </div>
 
         <div className="intro">
           <img className="portrait" src="/portrait.png" />
@@ -57,7 +65,7 @@ class Homepage extends Component {
           <footer className="txt"> {t("intro2")}</footer>
           <footer className="txt">
             {" "}
-            Roadmaps, strategic planning and monitoring, scrum
+            Roadmaps, strategic planning and monitoring
           </footer>
           <footer className="txt"> {t("intro3")}</footer>
 
@@ -79,7 +87,6 @@ class Homepage extends Component {
             </p>
           </a>
         </div>
-        <p className="HPTitle">MY SKILLS</p>
 
         <div className="intro2">
           <div className="introQuarter">
