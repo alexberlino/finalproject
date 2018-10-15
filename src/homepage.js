@@ -46,7 +46,6 @@ class Homepage extends Component {
         <img className="imageHP" src="/apple.png" />
         <img className="imageHPMob" src="/applemob.png" />
 
-        <div className="animationHP" />
         <div className="hey">
           <span>SEO Freelancer in Berlin</span>
           <span>On-page and</span>
