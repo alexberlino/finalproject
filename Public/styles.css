@@ -444,8 +444,8 @@ iframe {
 .buttonEdit {
   background-color: black;
   color: white;
-  left: 900px;
-  top: 700px;
+  left: 9px;
+  top: 10px;
   z-index: 10;
   position: relative;
   height: 30px;
@@ -739,7 +739,7 @@ h4 {
   text-align: center;
   padding: 5px;
   color: transparent;
-  animation: heyThere 28s;
+  animation: heyThere 25s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
 }
@@ -748,63 +748,64 @@ h4 {
   z-index: 14;
 }
 .hey span:nth-child(2) {
-  animation-delay: 5s;
+  animation-delay: 7s;
   top: 190px;
   margin-left: 430px;
   z-index: 13;
 }
 .hey span:nth-child(3) {
-  animation-delay: 5s;
+  animation-delay: 7s;
   top: 215px;
   margin-left: 440px;
   z-index: 13;
 }
 .hey span:nth-child(4) {
-  animation-delay: 10s;
+  animation-delay: 14s;
 
   top: 150px;
   margin-left: 430px;
   z-index: 12;
 }
 .hey span:nth-child(5) {
-  animation-delay: 10s;
+  animation-delay: 14s;
   top: 180px;
   margin-left: 440px;
   z-index: 12;
 }
 .hey span:nth-child(6) {
-  animation-delay: 15s;
+  animation-delay: 21s;
   top: 190px;
   z-index: 11;
   margin-left: 430px;
 }
 .hey span:nth-child(7) {
-  animation-delay: 15s;
+  animation-delay: 21s;
   top: 210px;
   margin-left: 430px;
   z-index: 11;
 }
 
 .hey span:nth-child(8) {
-  animation-delay: 20s;
+  animation-delay: 27s;
   top: 210px;
   margin-left: 380px;
   z-index: 10;
 }
 .hey span:nth-child(9) {
-  animation-delay: 20s;
+  animation-delay: 27s;
   top: 230px;
   margin-left: 380px;
   z-index: 10;
 }
 
 @keyframes heyThere {
-  40%,
+  0%,
+  50% {
+    color: white;
+  }
+  50%,
   100% {
     color: transparent;
-  }
-  10% {
-    color: white;
   }
 
   100% {
@@ -814,17 +815,18 @@ h4 {
 }
 
 @-webkit-keyframes heyThere {
-  20%,
-  70% {
-    color: transparent;
-  }
-  30% {
+  0%,
+  50% {
     color: white;
+  }
+  50%,
+  100% {
+    color: transparent;
   }
 
   100% {
+    transform: translate(50px, 10px);
     color: transparent;
-    transform: translate(20px, 10px);
   }
 }
 

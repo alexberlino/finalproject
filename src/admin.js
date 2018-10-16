@@ -15,7 +15,7 @@ class Admin extends Component {
 
   render() {
     return (
-      <div className="mainlogin">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Admin </title>
@@ -23,17 +23,17 @@ class Admin extends Component {
 
         <div className="mainBox">
           <span>
-            <Link className="infoMain" to={"/en/postarticle"}>
+            <Link className="infoMain block" to={"/en/postarticle"}>
               Create new Blog Post
             </Link>{" "}
           </span>
           <span>
-            <Link className="infoMain" to={"/en/editarticle"}>
+            <Link className="infoMain block" to={"/en/editarticle"}>
               Edit a Blog Post
             </Link>
           </span>
 
-          <a className="infoMain" href="/log-out">
+          <a className="infoMain block" href="/log-out">
             Log out
           </a>
         </div>
