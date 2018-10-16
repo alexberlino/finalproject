@@ -351,7 +351,6 @@ iframe {
 }
 
 .blogArticlesHP {
-  border: 1px #17252a solid;
   width: 100%;
   z-index: 10;
   position: relative;
@@ -669,6 +668,10 @@ h4 {
   position: relative;
   font-weight: bold;
   font-family: arial;
+}
+
+.introQuarter {
+  width: 40%;
 }
 
 .txtbutton {

@@ -66,7 +66,6 @@ class Homepage extends Component {
 
         <div className="intro2">
           <div className="introQuarter">
-            <footer className="txt2 txthead"> Online Marketing</footer>
             <ul>
               <li className="txt2"> SEO</li>
               <li className="txt2">Analytics </li>
@@ -77,7 +76,6 @@ class Homepage extends Component {
             </ul>
           </div>
           <div className="introQuarter">
-            <footer className="txt2 txthead"> {t("intro3")}</footer>
             <ul>
               <li className="txt2"> React, Vue, Handlebars</li>
               <li className="txt2">Javascript, JQuery </li>
@@ -85,53 +83,48 @@ class Homepage extends Component {
 
               <li className="txt2"> HTML, CSS</li>
               <li className="txt2"> SQL, Postgres</li>
-              <button className="txtbutton">
-                <a
-                  href={"/" + this.props.lang + "/about"}
-                  onClick={() => this.props.changePage("/about")}
-                >
-                  More about me
-                </a>
-              </button>
             </ul>
           </div>
         </div>
 
-        <p className="HPTitle HPTitle2">MY BLOG: LATEST POSTS</p>
-
-        <div className="blogArticlesHP">
-          {this.state.articles.map(article => (
-            <div className="blogItemHP">
-              <div className="imageBlogHP">
-                <img
-                  src={article.imageurl}
-                  height="70px"
-                  width="70px"
-                  className="imageBlogHP"
-                />
+        <div className="intro2">
+          <div className="introQuarter">
+            <footer className="txt2 txthead"> blog</footer>
+            <ul>
+              <div className="blogArticlesHP">
+                {this.state.articles.map(article => (
+                  <div className="blogItemHP">
+                    <div className="imageBlogHP">
+                      <img
+                        src={article.imageurl}
+                        height="70px"
+                        width="70px"
+                        className="imageBlogHP"
+                      />
+                    </div>
+                    <div className="listArticlesBlogHP">
+                      <a href={"/" + this.props.lang + "/blog"}>
+                        <span onClick={() => this.props.pageChange("/blog")}>
+                          {article.title}
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                ))}
               </div>
-              <div className="listArticlesBlogHP">
-                <a href={"/" + this.props.lang + "/blog"}>
-                  <span onClick={() => this.props.pageChange("/blog")}>
-                    {article.title}
-                  </span>
-                </a>
+            </ul>
+          </div>
+          <div className="introQuarter">
+            <footer className="txt2 txthead"> seonews</footer>
+            <ul>
+              <div className="homepageNews">
+                <a href={"/" + this.props.lang + "/seonews"} />
+                <NewsItems />
               </div>
-            </div>
-          ))}
+            </ul>
+          </div>
         </div>
 
-        <div className="homepageNews">
-          <a href={"/" + this.props.lang + "/seonews"}>
-            <p
-              className="HPTitle HPTitle3"
-              onClick={() => this.props.pageChange("/seonews")}
-            >
-              LATEST SEO NEWS
-            </p>
-          </a>
-          <NewsItems />
-        </div>
         <div>
           <LinksToPages />
         </div>
