@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
+import LinksToPages from "./LinksToPages";
 
 class Resources extends Component {
   render() {
@@ -79,6 +80,9 @@ class Resources extends Component {
               <li> Content marketing </li>
               <a href=" https://kwfinder.com/">buzzsumo.com</a>
             </ul>
+          </div>
+          <div>
+            <LinksToPages />
           </div>
         </div>
       </div>

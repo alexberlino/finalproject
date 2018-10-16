@@ -225,7 +225,6 @@
   .leftBlog {
     font-style: bariolregular;
     position: relative;
-
     height: auto;
     padding: 40px;
     font-size: 16px;
@@ -363,6 +362,14 @@
     height: 390px;
     width: 360px;
   }
+  .linkstoPageMainDiv {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+  }
+  .linkstoPageMainDiv li {
+    padding: 7px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -379,8 +386,5 @@
   }
   .imageHPMob {
     display: none;
-  }
-  .span .hey {
-    color: white;
   }
 }

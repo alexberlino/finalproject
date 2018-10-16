@@ -1592,6 +1592,10 @@ h6:before {
   left: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 .side-drawer {
   height: 100%;
   background: white;
