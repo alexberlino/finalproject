@@ -98,7 +98,8 @@ app.post("/en/postarticle", checkSession, (req, res) => {
     req.body.author,
     req.body.article,
     req.body.status,
-    req.body.imageurl
+    req.body.imageurl,
+    req.body.url
   ).catch(error => {
     console.log("error in upload server", error);
     res.status(500).json({
@@ -107,14 +108,15 @@ app.post("/en/postarticle", checkSession, (req, res) => {
   });
 });
 
-app.post("/:lang/editarticle/:id", checkSession, (req, res) => {
+app.post("/en/editarticle/:id", checkSession, (req, res) => {
   db.updateArticle(
     req.body.title,
     req.body.author,
     req.body.article,
     req.body.status,
     req.body.imageurl,
-    req.params.id
+    req.params.id,
+    req.body.url
   )
     .then(({ rows }) => {
       res.json({
