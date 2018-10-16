@@ -87,8 +87,8 @@ class Homepage extends Component {
           </div>
         </div>
 
-        <div className="intro2">
-          <div className="introQuarter">
+        <div>
+          <div>
             <footer className="txt2 txthead"> blog</footer>
             <ul>
               <div className="blogArticlesHP">
@@ -114,7 +114,10 @@ class Homepage extends Component {
               </div>
             </ul>
           </div>
-          <div className="introQuarter">
+        </div>
+
+        <div>
+          <div>
             <footer className="txt2 txthead"> seonews</footer>
             <ul>
               <div className="homepageNews">
