@@ -10,6 +10,7 @@ import { Helmet } from "react-helmet";
 import axios from "./axios";
 import NewsItems from "./NewsItems";
 import LinksToPages from "./LinksToPages";
+import Contact from "./contact";
 
 import Blog from "./blog";
 
@@ -58,6 +59,8 @@ class Homepage extends Component {
         </div>
 
         <div className="intro">
+          <footer className="txt2 txthead"> >aboutme</footer>
+
           <div className="txt">{t("intro1")}</div>
           <div className="txt">{t("intro2")}</div>
           <div className="txt">Roadmaps, strategic planning and monitoring</div>
@@ -89,7 +92,7 @@ class Homepage extends Component {
 
         <div>
           <div>
-            <footer className="txt2 txthead"> blog</footer>
+            <footer className="txt2 txthead"> >blog</footer>
             <ul>
               <div className="blogArticlesHP">
                 {this.state.articles.map(article => (
@@ -118,7 +121,7 @@ class Homepage extends Component {
 
         <div>
           <div>
-            <footer className="txt2 txthead"> seonews</footer>
+            <footer className="txt2 txthead"> >seonews</footer>
             <ul>
               <div className="homepageNews">
                 <a href={"/" + this.props.lang + "/seonews"} />
@@ -127,10 +130,9 @@ class Homepage extends Component {
             </ul>
           </div>
         </div>
+        <Contact />
 
-        <div>
-          <LinksToPages />
-        </div>
+        <LinksToPages />
       </div> //Main
     );
   }

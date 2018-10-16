@@ -114,9 +114,6 @@ class Contact extends Component {
             allowFullScreen
           />
         </div>
-        <div>
-          <LinksToPages />
-        </div>
       </div>
     );
   }
