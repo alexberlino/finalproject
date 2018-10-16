@@ -48,6 +48,8 @@ class Homepage extends Component {
 
         <div className="hey">
           <span>SEO Freelancer in Berlin</span>
+          <span>Agile trained</span>
+          <span>MBA educated</span>
           <span>On-page and</span>
           <span>Keyword Research</span>
           <span>Technical SEO and </span>
@@ -63,7 +65,16 @@ class Homepage extends Component {
             {" "}
             Roadmaps, strategic planning and monitoring
           </footer>
-          <footer className="txt"> {t("intro3")}</footer>
+          <footer className="txt">
+            {" "}
+            {t("intro3")}{" "}
+            <a href={"/" + this.props.lang + "/about"}>
+              <p onClick={() => this.props.changePage("/about")}>
+                More about me
+              </p>
+            </a>{" "}
+          </footer>
+          <footer />
 
           <a href={"/" + this.props.lang + "/contact"}>
             <p
@@ -73,20 +84,11 @@ class Homepage extends Component {
               {t("getintouch")}
             </p>
           </a>
-
-          <a href={"/" + this.props.lang + "/about"}>
-            <p
-              className="buttonHP buttonHP2"
-              onClick={() => this.props.changePage("/about")}
-            >
-              More about me
-            </p>
-          </a>
         </div>
 
         <div className="intro2">
           <div className="introQuarter">
-            <footer className="txt2"> Online Marketing</footer>
+            <footer className="txt2 txthead"> Online Marketing</footer>
             <ul>
               <li className="txt2"> SEO</li>
               <li className="txt2">Analytics </li>
@@ -99,7 +101,7 @@ class Homepage extends Component {
             </ul>
           </div>
           <div className="introQuarter">
-            <footer className="txt2"> {t("intro3")}</footer>
+            <footer className="txt2 txthead"> {t("intro3")}</footer>
             <ul>
               <li className="txt2"> React, Vue, Handlebars</li>
               <li className="txt2">Javascript, JQuery </li>

@@ -24,7 +24,7 @@
     margin-top: 20px;
     position: relative;
     padding: 10px;
-    height: 470px;
+    height: 280px;
     width: 100%;
     margin-bottom: 20px;
   }
@@ -101,11 +101,11 @@
   .hey span:nth-child(1) {
   }
   .hey span:nth-child(2) {
-    top: 200px;
-    margin-left: 190px;
+    top: 220px;
+    margin-left: 150px;
   }
   .hey span:nth-child(3) {
-    top: 220px;
+    top: 240px;
     margin-left: 140px;
   }
   .hey span:nth-child(4) {
@@ -124,6 +124,16 @@
   .hey span:nth-child(7) {
     top: 230px;
     margin-left: 130px;
+  }
+
+  .hey span:nth-child(8) {
+    top: 170px;
+    margin-left: 110px;
+  }
+
+  .hey span:nth-child(9) {
+    top: 190px;
+    margin-left: 110px;
   }
 
   .navEntries {

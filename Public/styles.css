@@ -294,7 +294,7 @@ iframe {
 .intro {
   background-color: #2b7a78;
   width: 100%;
-  height: 440px;
+  height: 320px;
   display: block;
   left: 0px;
   padding: 10px;
@@ -306,7 +306,7 @@ iframe {
   margin-top: 1px;
   position: relative;
   width: 100%;
-  height: 230px;
+  height: 270px;
   display: flex;
   left: 0px;
   padding: 10px;
@@ -383,7 +383,7 @@ iframe {
   display: block;
 }
 .txt {
-  font-size: 1.5rem;
+  font-size: 21px;
   color: white;
   margin: 1px;
   margin-top: 1.7rem;
@@ -397,7 +397,7 @@ iframe {
 }
 
 .txt2 {
-  font-size: 18px;
+  font-size: 19px;
   color: lightgrey;
   margin: 1px;
   margin-top: 10px;
@@ -416,7 +416,7 @@ iframe {
   color: #383b4b;
   padding: 10px;
   margin-left: 65%;
-  top: -20px;
+  top: -50px;
   text-align: center;
   position: relative;
   z-index: 10;
@@ -666,6 +666,12 @@ h4 {
   position: absolute;
 }
 
+.txthead {
+  left: 28px;
+  position: relative;
+  text-decoration: underline;
+}
+
 .googleMap {
   margin-left: 10%;
   display: inline;
@@ -724,67 +730,72 @@ h4 {
 }
 
 .hey span {
-  z-index: 10;
+  z-index: 9;
   position: absolute;
   top: 170px;
-  font-size: 24px;
+  font-size: 25px;
   margin-left: 430px;
 
   text-align: center;
   padding: 5px;
   color: transparent;
-  animation: heyThere 23s;
+  animation: heyThere 28s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
 }
 
 .hey span:nth-child(1) {
-  animation-delay: 0.1s;
-  color: #544f4f;
   z-index: 14;
 }
 .hey span:nth-child(2) {
-  animation-delay: 6s;
+  animation-delay: 5s;
   top: 190px;
   margin-left: 430px;
-  color: #544f4f;
   z-index: 13;
 }
 .hey span:nth-child(3) {
-  animation-delay: 6s;
+  animation-delay: 5s;
   top: 215px;
   margin-left: 440px;
-  color: #544f4f;
   z-index: 13;
 }
 .hey span:nth-child(4) {
-  animation-delay: 11s;
+  animation-delay: 10s;
 
   top: 150px;
   margin-left: 430px;
-  color: #544f4f;
   z-index: 12;
 }
 .hey span:nth-child(5) {
-  animation-delay: 11s;
+  animation-delay: 10s;
   top: 180px;
   margin-left: 440px;
-  color: #544f4f;
   z-index: 12;
 }
 .hey span:nth-child(6) {
-  animation-delay: 16s;
-  top: 200px;
-  color: #544f4f;
+  animation-delay: 15s;
+  top: 190px;
   z-index: 11;
   margin-left: 430px;
 }
 .hey span:nth-child(7) {
-  animation-delay: 16s;
-  top: 230px;
+  animation-delay: 15s;
+  top: 210px;
   margin-left: 430px;
-  color: #544f4f;
   z-index: 11;
+}
+
+.hey span:nth-child(8) {
+  animation-delay: 20s;
+  top: 210px;
+  margin-left: 380px;
+  z-index: 10;
+}
+.hey span:nth-child(9) {
+  animation-delay: 20s;
+  top: 230px;
+  margin-left: 380px;
+  z-index: 10;
 }
 
 @keyframes heyThere {
