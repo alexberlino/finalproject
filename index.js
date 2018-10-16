@@ -83,7 +83,7 @@ function checkSession(req, res, next) {
 app.get("/:lang/editarticle", checkSession, (req, res, next) => {
   next();
 });
-app.get("/:lang/postarticle", checkSession, (req, res, next) => {
+app.get("/en/postarticle", checkSession, (req, res, next) => {
   next();
 });
 app.get("/:lang/admin", checkSession, (req, res, next) => {
@@ -92,25 +92,19 @@ app.get("/:lang/admin", checkSession, (req, res, next) => {
   next();
 });
 
-app.post("/:lang/postarticle", checkSession, (req, res) => {
+app.post("/en/postarticle", checkSession, (req, res) => {
   db.postArticle(
     req.body.title,
     req.body.author,
     req.body.article,
     req.body.status,
     req.body.imageurl
-  )
-    .then(({ rows }) => {
-      res.json({
-        success: true
-      });
-    })
-    .catch(error => {
-      console.log("error in upload server", error);
-      res.status(500).json({
-        success: false
-      });
+  ).catch(error => {
+    console.log("error in upload server", error);
+    res.status(500).json({
+      success: false
     });
+  });
 });
 
 app.post("/:lang/editarticle/:id", checkSession, (req, res) => {

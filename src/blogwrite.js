@@ -25,26 +25,15 @@ class WriteArticles extends React.Component {
   // }
 
   submit() {
-    axios
-      .post("/en/postarticle", {
-        title: this.title,
-        author: this.author,
-        article: this.article,
-        status: this.status,
-        imageurl: this.imageurl,
-        url: this.url
-      })
-      .then(({ data }) => {
-        if (data.success) {
-          this.setState({
-            success: true
-          });
-        } else {
-          this.setState({
-            error: true
-          });
-        }
-      });
+    console.log(this.title);
+    axios.post("/en/postarticle", {
+      title: this.title,
+      author: this.author,
+      article: this.article,
+      status: this.status,
+      imageurl: this.imageurl,
+      url: this.url
+    });
   }
 
   render() {
