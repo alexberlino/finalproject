@@ -5,7 +5,7 @@
   .txt,
   .txt2 {
     font-size: 17px;
-    color: white;
+    color: black;
     margin: 2px;
     margin-left: 10%;
     width: 70%;
@@ -24,14 +24,14 @@
     margin-top: 20px;
     position: relative;
     padding: 10px;
-    height: 280px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    height: 150px;
   }
 
   .txt2 {
     font-size: 16px;
-    color: white;
+    color: black;
     margin: 1px;
     margin-top: 10px;
   }
@@ -49,8 +49,8 @@
     margin-top: 2px;
     position: relative;
     padding: 10px;
-    height: 340px;
     width: 100%;
+    margin-bottom: 40px;
   }
 
   .homepageNews {
@@ -94,46 +94,43 @@
 
   .hey span {
     top: 200px;
-    font-size: 20px;
-    margin-left: 90px;
+    font-size: 30px;
+    margin-left: 70px;
   }
 
   .hey span:nth-child(1) {
   }
+
   .hey span:nth-child(2) {
-    top: 220px;
-    margin-left: 150px;
+    top: 225px;
   }
+
   .hey span:nth-child(3) {
-    top: 240px;
-    margin-left: 140px;
+    top: 140px;
+    margin-left: 90px;
   }
   .hey span:nth-child(4) {
-    top: 170px;
-    margin-left: 140px;
+    top: 165px;
+    margin-left: 80px;
   }
   .hey span:nth-child(5) {
-    top: 190px;
-    margin-left: 120px;
+    top: 220px;
+
+    margin-left: 80px;
   }
   .hey span:nth-child(6) {
-    top: 210px;
-
-    margin-left: 120px;
+    top: 245px;
+    margin-left: 70px;
   }
+
   .hey span:nth-child(7) {
-    top: 230px;
-    margin-left: 130px;
+    top: 150px;
+    margin-left: 70px;
   }
 
   .hey span:nth-child(8) {
-    top: 170px;
-    margin-left: 110px;
-  }
-
-  .hey span:nth-child(9) {
-    top: 190px;
-    margin-left: 110px;
+    top: 175px;
+    margin-left: 80px;
   }
 
   .navEntries {

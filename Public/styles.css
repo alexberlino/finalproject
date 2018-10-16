@@ -292,18 +292,20 @@ iframe {
   width: 1100px;
 }
 .intro {
-  background-color: #2b7a78;
+  background-color: white;
+  color: black;
   width: 100%;
-  height: 320px;
+  height: 250px;
   display: block;
   left: 0px;
   padding: 10px;
+  margin-bottom: 0px;
 }
 
 .intro2 {
-  background-color: grey;
+  background-color: white;
   color: black;
-  margin-top: 1px;
+  margin-top: 0px;
   position: relative;
   width: 100%;
   height: 270px;
@@ -311,6 +313,7 @@ iframe {
   left: 0px;
   padding: 10px;
   padding-bottom: 20px;
+  padding-top: 0px;
 }
 
 .HPTitle {
@@ -342,9 +345,9 @@ iframe {
 }
 
 .homepageNews {
-  background-color: #2b7a78;
+  background-color: white;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .blogArticlesHP {
@@ -384,7 +387,8 @@ iframe {
 }
 .txt {
   font-size: 21px;
-  color: white;
+  color: black;
+  text-align: center;
   margin: 1px;
   margin-top: 1.7rem;
   margin-left: 300px;
@@ -398,10 +402,10 @@ iframe {
 
 .txt2 {
   font-size: 19px;
-  color: lightgrey;
+  color: black;
   margin: 1px;
   margin-top: 10px;
-  margin-left: 300px;
+  margin-left: 180px;
 }
 
 .linkToPages {
@@ -509,7 +513,6 @@ iframe {
 }
 
 .important {
-  font-family: monospace;
   font-weight: bold;
 
   font-size: 14px;
@@ -519,13 +522,8 @@ iframe {
   display: block;
   padding: 10px;
 }
-.medium {
-  font-family: monospace;
-  font-size: 14px;
-  display: inline;
-}
+.medium,
 .low {
-  font-family: monospace;
   font-size: 14px;
   display: inline;
 }
@@ -538,7 +536,7 @@ iframe {
 
 .infoDate {
   font-size: 10px;
-  margin-left: 60%;
+  margin-left: 40%;
 }
 h4 {
   font-style: bariolregular;
@@ -669,7 +667,21 @@ h4 {
 .txthead {
   left: 28px;
   position: relative;
-  text-decoration: underline;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.txtbutton {
+  background-color: lightgrey;
+  width: 200px;
+  color: white;
+  font-size: 17px;
+  height: 30px;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+.txtbutton a:hover {
+  color: grey;
 }
 
 .googleMap {
@@ -732,14 +744,14 @@ h4 {
 .hey span {
   z-index: 9;
   position: absolute;
-  top: 170px;
-  font-size: 25px;
-  margin-left: 430px;
+  top: 90px;
+  font-size: 47px;
+  margin-left: 340px;
 
   text-align: center;
   padding: 5px;
   color: transparent;
-  animation: heyThere 25s;
+  animation: heyThere 9s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
 }
@@ -748,68 +760,60 @@ h4 {
   z-index: 14;
 }
 .hey span:nth-child(2) {
-  animation-delay: 7s;
-  top: 190px;
-  margin-left: 430px;
-  z-index: 13;
+  top: 125px;
+  z-index: 14;
 }
 .hey span:nth-child(3) {
-  animation-delay: 7s;
-  top: 215px;
-  margin-left: 440px;
+  animation-delay: 1.9s;
+  top: 210px;
+  margin-left: 400px;
   z-index: 13;
 }
 .hey span:nth-child(4) {
-  animation-delay: 14s;
-
-  top: 150px;
-  margin-left: 430px;
-  z-index: 12;
+  animation-delay: 1.9s;
+  top: 240px;
+  margin-left: 400px;
+  z-index: 13;
 }
 .hey span:nth-child(5) {
-  animation-delay: 14s;
-  top: 180px;
-  margin-left: 440px;
+  animation-delay: 4s;
+
+  top: 130px;
+  margin-left: 400px;
   z-index: 12;
 }
 .hey span:nth-child(6) {
-  animation-delay: 21s;
-  top: 190px;
-  z-index: 11;
-  margin-left: 430px;
+  animation-delay: 4s;
+  top: 160px;
+  margin-left: 440px;
+  z-index: 12;
 }
 .hey span:nth-child(7) {
-  animation-delay: 21s;
+  animation-delay: 6.2s;
   top: 210px;
+  z-index: 11;
+  margin-left: 360px;
+}
+.hey span:nth-child(8) {
+  animation-delay: 6.2s;
+  top: 245px;
   margin-left: 430px;
   z-index: 11;
-}
-
-.hey span:nth-child(8) {
-  animation-delay: 27s;
-  top: 210px;
-  margin-left: 380px;
-  z-index: 10;
-}
-.hey span:nth-child(9) {
-  animation-delay: 27s;
-  top: 230px;
-  margin-left: 380px;
-  z-index: 10;
 }
 
 @keyframes heyThere {
   0%,
-  50% {
+  60% {
     color: white;
   }
-  50%,
+  60%,
   100% {
-    color: transparent;
+    color: white;
+    opacity: 0.12;
   }
 
   100% {
-    transform: translate(50px, 10px);
+    transform: translate(30px, 5px);
     color: transparent;
   }
 }
@@ -825,7 +829,7 @@ h4 {
   }
 
   100% {
-    transform: translate(50px, 10px);
+    transform: translate(30px, 5px);
     color: transparent;
   }
 }

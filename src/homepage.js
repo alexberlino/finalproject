@@ -47,43 +47,21 @@ class Homepage extends Component {
         <img className="imageHPMob" src="/applemob.png" />
 
         <div className="hey">
-          <span>SEO Freelancer in Berlin</span>
-          <span>Agile trained</span>
-          <span>MBA educated</span>
-          <span>On-page and</span>
+          <span>SEO Freelancer </span>
+          <span>in Berlin </span>
+          <span>On-page Audit </span>
           <span>Keyword Research</span>
-          <span>Technical SEO and </span>
+          <span>Technical SEO </span>
           <span>Analytics</span>
           <span>Competitor Analysis</span>
           <span>Off-Page Audit</span>
         </div>
 
         <div className="intro">
-          <footer className="txt"> {t("intro1")}</footer>
-          <footer className="txt"> {t("intro2")}</footer>
-          <footer className="txt">
-            {" "}
-            Roadmaps, strategic planning and monitoring
-          </footer>
-          <footer className="txt">
-            {" "}
-            {t("intro3")}{" "}
-            <a href={"/" + this.props.lang + "/about"}>
-              <p onClick={() => this.props.changePage("/about")}>
-                More about me
-              </p>
-            </a>{" "}
-          </footer>
-          <footer />
-
-          <a href={"/" + this.props.lang + "/contact"}>
-            <p
-              className="buttonHP"
-              onClick={() => this.props.changePage("/contact")}
-            >
-              {t("getintouch")}
-            </p>
-          </a>
+          <div className="txt">{t("intro1")}</div>
+          <div className="txt">{t("intro2")}</div>
+          <div className="txt">Roadmaps, strategic planning and monitoring</div>
+          <div className="txt">{t("intro3")} </div>
         </div>
 
         <div className="intro2">
@@ -93,9 +71,7 @@ class Homepage extends Component {
               <li className="txt2"> SEO</li>
               <li className="txt2">Analytics </li>
               <li className="txt2">Business Expertise (MBA)</li>
-              <li className="txt2"> Market research</li>
-
-              <li className="txt2">Competitor Analysis</li>
+              <li className="txt2"> Market research & Competitor Analysis</li>
 
               <li className="txt2"> SEA</li>
             </ul>
@@ -109,6 +85,14 @@ class Homepage extends Component {
 
               <li className="txt2"> HTML, CSS</li>
               <li className="txt2"> SQL, Postgres</li>
+              <button className="txtbutton">
+                <a
+                  href={"/" + this.props.lang + "/about"}
+                  onClick={() => this.props.changePage("/about")}
+                >
+                  More about me
+                </a>
+              </button>
             </ul>
           </div>
         </div>
