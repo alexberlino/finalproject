@@ -34,6 +34,8 @@
 
   .intro3 {
     margin-bottom: 20px;
+    width: 100%;
+    padding-right: 30px;
   }
   .portrait {
     position: relative;
@@ -408,6 +410,7 @@
   .contactpage {
     margin-left: 20px;
   }
+
   .fieldMessage {
     height: 200px;
   }

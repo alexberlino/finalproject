@@ -225,7 +225,9 @@ class Homepage extends Component {
             </ul>
           </div>
         </div>
-        <ContactMain />
+        <div className="contactmob">
+          <ContactMain />
+        </div>
         <LinksToPages />
       </div> //Main
     );
