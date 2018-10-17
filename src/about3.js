@@ -37,17 +37,11 @@ class About3 extends Component {
         </div>
         <div className="hide">
           <div className="aboutgeneric">
-            <div
-              onClick={this.handleClick}
-              className="swirl-in-fwd  aboutgeneric"
-            >
+            <div onClick={this.handleClick} className="about21">
               {t("about10")}
             </div>
 
-            <div
-              onClick={this.handleClick}
-              className="roll-in-left2 aboutgeneric"
-            >
+            <div onClick={this.handleClick} className="about22">
               {t("about11")}
             </div>
           </div>

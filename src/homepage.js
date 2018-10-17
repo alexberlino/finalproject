@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet";
 import axios from "./axios";
 import NewsItems from "./NewsItems";
 import LinksToPages from "./LinksToPages";
-import Contact from "./contact";
+import ContactMain from "./ContactMain";
 
 import Blog from "./blog";
 
@@ -130,9 +130,7 @@ class Homepage extends Component {
             </ul>
           </div>
         </div>
-
-        <Contact />
-
+        <ContactMain />
         <LinksToPages />
       </div> //Main
     );

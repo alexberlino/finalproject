@@ -47,7 +47,7 @@ img {
 input {
   font-size: 19px;
   margin: 4px;
-  width: 350px;
+  width: 20px;
   height: 24px;
   border: black 1px dotted;
 }
@@ -98,7 +98,7 @@ label {
   max-width: 90px;
   border-radius: 40px;
   padding-left: 10px;
-  color: #383b4b;
+  color: white;
 }
 
 form {
@@ -113,7 +113,7 @@ form {
   display: flex;
   background-color: white;
 
-  width: 300px;
+  width: 250px;
   margin-left: 5%;
   opacity: 0.8;
   border-radius: 10px;
@@ -140,12 +140,42 @@ iframe {
 .map {
   position: relative;
   display: inline-flex;
+  left: 50%;
+  width: 700px;
+  height: 400px;
 }
 
+.contactpage {
+  position: relative;
+  display: inline-block;
+  background-color: #383b4b;
+  margin-left: 70px;
+  width: 90%;
+  height: 200px;
+  margin-bottom: 30px;
+  min-height: 550px;
+  min-width: 400px;
+}
 .leftContact {
-  position: flex;
+  position: absolute;
   display: inline;
-  margin-top: 10%;
+  color: white;
+  width: 400px;
+
+  background-color: #383b4b;
+}
+
+.rightContact {
+  background-color: none;
+  display: inline-flex;
+  position: relative;
+  top: -50px;
+  left: -50px;
+}
+
+.map {
+  width: 700px;
+  height: 400px;
 }
 
 .fieldMessage {
@@ -154,15 +184,13 @@ iframe {
   width: 270px;
 }
 .contactmeHead {
-  margin-bottom: 10px;
   font-family: bariolregular;
   color: white;
-  background-color: #383b4b;
-  width: 80%;
   font-size: 26px;
+  border-top: #383b4b 2px solid;
+  width: 100%;
+  padding-left: 20px;
   position: relative;
-  text-align: center;
-  width: 300px;
   height: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -170,13 +198,13 @@ iframe {
 }
 
 .formButton {
-  background-color: #383b4b;
+  background-color: white;
   text-align: center;
   width: 250px;
   height: 40px;
-  color: white;
+  color: #383b4b;
   font-size: 15px;
-  margin-top: 2%;
+  margin-top: 10px;
   margin-bottom: 15%;
 }
 
@@ -204,6 +232,12 @@ iframe {
 
   margin-top: 10%;
   margin-bottom: 10%;
+}
+.maincontact {
+  min-height: calc(100vh - 120px);
+
+  margin-top: 10%;
+  margin-bottom: 1%;
 }
 
 .mainBlog {
@@ -356,7 +390,8 @@ iframe {
   width: 100%;
   z-index: 10;
   position: relative;
-
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: white;
 }
 .blogHPtext {
@@ -657,15 +692,9 @@ h4 {
 /* footer start */
 
 /* contact*/
-.rightContact {
-  background-color: none;
-  z-index: 300;
-  width: 50%;
-  display: inline;
-  position: absolute;
-}
 
 .txthead {
+  border-bottom: 1px solid black;
   left: 28px;
   position: relative;
   font-weight: bold;
@@ -687,11 +716,6 @@ h4 {
 }
 .txtbutton a:hover {
   color: grey;
-}
-
-.googleMap {
-  margin-left: 10%;
-  display: inline;
 }
 
 .footer {
@@ -818,7 +842,6 @@ h4 {
   }
 
   100% {
-    transform: translate(30px, 5px);
     color: transparent;
   }
 }
@@ -1058,13 +1081,46 @@ h6:before {
     backwards;
   animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
     backwards;
-  width: 30%;
+  width: auto;
   border-radius: 145px;
   background-color: #ff851b;
   color: white;
+  left: 75%;
+  top: 80px;
+  position: fixed;
+  padding: 20px;
+  font-size: 21px;
+  box-shadow: 4px 8px grey;
+}
 
-  left: 60%;
-  top: 350px;
+.about21 {
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+    backwards;
+  animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+    backwards;
+  width: auto;
+  border-radius: 145px;
+  background-color: #ff851b;
+  color: white;
+  left: 75%;
+  top: 80px;
+  position: fixed;
+  padding: 20px;
+  font-size: 21px;
+  box-shadow: 4px 8px grey;
+}
+
+.about22 {
+  -webkit-animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+    backwards;
+  animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
+    backwards;
+  width: auto;
+  border-radius: 145px;
+  background-color: #ff851b;
+  color: white;
+  left: 75%;
+  top: 80px;
   position: fixed;
   padding: 20px;
   font-size: 21px;
@@ -1075,9 +1131,9 @@ h6:before {
   border-radius: 145px;
   -webkit-animation: fade-in 3.5s ease-out both;
   animation: fade-in 3.5s ease-out both;
-  width: 30%;
-  left: 55%;
-  top: 460px;
+  width: auto;
+  left: 65%;
+  top: 230px;
   position: fixed;
   padding: 20px;
   font-size: 21px;
@@ -1088,11 +1144,12 @@ h6:before {
 
 .roll-in-left3 {
   border-radius: 145px;
+  top: 480px;
+
   -webkit-animation: fade-in 3.5s ease-out both;
   animation: fade-in 3.5s ease-out both;
-  width: 30%;
+  width: 100%;
   left: 15%;
-  top: 50px;
   position: fixed;
   padding: 20px;
   font-size: 21px;
@@ -1103,12 +1160,12 @@ h6:before {
 
 .swirl-in-fwd {
   margin-left: 25%;
-  margin-top: 2%;
+  margin-top: 270px;
   position: fixed;
   top: 100px;
   -webkit-animation: fade-in 1.5s ease-out both;
   animation: fade-in 1.5s ease-out both;
-  width: 30%;
+  width: 100%;
   border-radius: 35px;
   padding: 20px;
   font-size: 21px;
@@ -1120,10 +1177,10 @@ h6:before {
   margin-left: 5%;
   margin-top: 2%;
   position: fixed;
-  top: 230px;
+  top: 210px;
   -webkit-animation: fade-in 0.5s ease-out both;
   animation: fade-in 0.5s ease-out both;
-  width: 30%;
+  width: auto;
   border-radius: 35px;
   padding: 20px;
   font-size: 21px;
@@ -1135,12 +1192,10 @@ h6:before {
 .bounce-in-top {
   -webkit-animation: bounce-in-top 1s both;
   animation: bounce-in-top 1s both;
-  margin-left: 65%;
-  top: 200px;
-  width: 20%;
-  top: 20%;
-  border-radius: 75px;
-
+  margin-left: 15%;
+  top: 80px;
+  width: auto;
+  border-radius: 30px;
   position: fixed;
   padding: 20px;
   font-size: 21px;
@@ -1152,9 +1207,9 @@ h6:before {
 .bounce-in-top2 {
   -webkit-animation: bounce-in-top 1s both;
   animation: bounce-in-top 1s both;
-  margin-left: 25%;
-  width: 20%;
-  top: 450px;
+  margin-left: 5%;
+  width: auto;
+  top: 320px;
   border-radius: 75px;
   position: fixed;
   padding: 20px;
@@ -1168,8 +1223,8 @@ h6:before {
   -webkit-animation: fade-in 3.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 3.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   margin-left: 2%;
-  top: 360px;
-  width: 200px;
+  top: 150px;
+  width: auto;
   position: fixed;
   border-radius: 115px;
   padding: 20px;

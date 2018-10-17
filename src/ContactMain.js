@@ -9,11 +9,10 @@ import { translate, Trans } from "react-i18next";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import i18n from "./i18n";
 import LinksToPages from "./LinksToPages";
-import ContactMain from "./ContactMain";
 
 import axios from "./axios";
 
-class Contact extends Component {
+class ContactMain extends Component {
   constructor(props) {
     super(props);
 
@@ -62,18 +61,60 @@ class Contact extends Component {
     const { t, i18n } = this.props;
     console.log(this.props.i18n.language);
     return (
-      <div className="maincontact">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>{t("getintouch_title")}</title>
-        </Helmet>
-        <ContactMain />
+      <div className="contactpage">
+        <div>
+          <div className="leftContact">
+            <div className="contactmeHead"> {t("getintouch")}</div>
+
+            <Form onSubmit={this.handleSubmit}>
+              <FormGroup>
+                <Label for="name">{t("fullname")} </Label>
+                <Input
+                  type="text"
+                  name="name"
+                  className="field"
+                  onChange={this.handleChange}
+                />
+              </FormGroup>
+
+              <FormGroup>
+                <Label for="name">Email* </Label>
+                <Input
+                  type="email"
+                  name="email"
+                  className="field"
+                  onChange={this.handleChange}
+                />
+              </FormGroup>
+
+              <FormGroup>
+                <Label for="name">{t("message")} </Label>
+                <textarea
+                  type="text"
+                  name="message"
+                  className="fieldMessage"
+                  onChange={this.handleChange}
+                />
+              </FormGroup>
+
+              <Button className="formButton">Submit </Button>
+            </Form>
+          </div>
+          <div className="rightContact">
+            <iframe
+              frameBorder="0"
+              className="map"
+              src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
+              allowFullScreen
+            />
+          </div>
+        </div>
       </div>
     );
   }
 }
 
-export default translate("translations")(Contact);
+export default translate("translations")(ContactMain);
 
 // const getStateFromRedux = state => {
 //   return {

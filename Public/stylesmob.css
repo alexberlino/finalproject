@@ -209,8 +209,14 @@
   .map {
     display: none;
   }
+
+  .rightContact {
+    display: none;
+  }
   .main {
     margin-top: 20%;
+  }
+  .maincontact {
   }
 
   .mainHP {
@@ -307,61 +313,92 @@
     width: 300px;
     margin-left: 10%;
   }
-  .aboutgeneric {
-    font-size: 13px;
-  }
 
   .fade-in {
-    margin-left: 1%;
-    top: 300px;
-    width: 150px;
+    margin-left: 0%;
+    top: 190px;
+    width: 80%;
+    position: relative;
+    border-radius: 0px;
   }
 
   .roll-in-left {
-    top: 230px;
+    top: 255px;
+    left: 0px;
+    width: 85%;
+    border-radius: 0px;
+
+    position: relative;
+  }
+
+  .aboutpage {
+    overflow: scroll;
+    position: relative;
   }
 
   .roll-in-left2 {
-    width: 30%;
-    left: 55%;
-    top: 340px;
-    font-size: 13px;
+    border-radius: 0px;
+    left: 0px;
+    top: -270px;
+    width: 85%;
+    position: relative;
   }
 
   .swirl-in-fwd {
+    border-radius: 0px;
+
     font-size: 13px;
-    width: 45%;
-    left: -50px;
+    position: relative;
+    display: none;
   }
 
   .swirl-in-fwd2 {
-    top: 220px;
+    display: none;
   }
   .bounce-in-top {
-    top: 70px;
+    top: 40px;
+    border-radius: 0px;
+
+    width: 80%;
+    left: 0px;
+    margin-left: 0px;
+    position: relative;
   }
 
   .bounce-in-top2 {
-    top: 375px;
+    top: 15px;
     left: -10px;
+    border-radius: 0px;
+
+    position: relative;
   }
 
   .roll-in-left3 {
-    width: 80px;
-    left: 15%;
-    top: 57px;
+    top: 150px;
     height: 7px;
-    position: fixed;
+    width: 100%;
+    border-radius: 0px;
+
+    left: 0px;
+    position: relative;
+
     padding: 20px;
     font-size: 12px;
   }
 
   .contactmeHead {
     font-size: 22px;
-    margin-top: 10%;
-    margin-left: 20%;
-    height: 30px;
-    width: 80%;
+  }
+
+  .leftContact {
+    top: 30px;
+    bottom: 50px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  .contactpage {
+    width: 100%;
   }
   .fieldMessage {
     height: 200px;

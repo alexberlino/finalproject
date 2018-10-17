@@ -41,11 +41,11 @@ class About2 extends Component {
         </div>
         <div className="aboutgeneric">
           <div className="hide">
-            <div onClick={this.handleClick} className="swirl-in-fwd  ">
+            <div onClick={this.handleClick} className="about21">
               {t("about8")}
             </div>
 
-            <div onClick={this.handleClick} className="roll-in-left2 ">
+            <div onClick={this.handleClick} className="about22">
               {t("about9")}
             </div>
           </div>
