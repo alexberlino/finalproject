@@ -42,11 +42,20 @@
     margin-bottom: 20px;
   }
 
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .introQuarter {
+    margin: 10px;
+  }
   .intro {
     margin-top: 20px;
     position: relative;
-
-    width: 100%;
+    margin-right: 0px;
+    left: 5px;
+    width: 70%;
     margin-bottom: 5px;
     height: 300px;
   }
@@ -67,7 +76,7 @@
   .intro2 {
     margin-top: 2px;
     position: relative;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
     margin-bottom: 40px;
   }
@@ -77,7 +86,7 @@
     position: relative;
     padding: 10px;
     height: auto;
-    width: 100%;
+    width: 90%;
   }
   .footer {
     text-align: left;
@@ -232,6 +241,7 @@
   .mainHP {
     display: block;
     margin: 0;
+    width: 100%;
   }
 
   .infoTitle {
@@ -397,6 +407,7 @@
 
   .contactmeHead {
     font-size: 22px;
+    width: 80%;
   }
 
   .leftContact {
@@ -407,7 +418,7 @@
   }
 
   .contactpage {
-    margin-left: 20px;
+    width: 93%;
   }
 
   .fieldMessage {
