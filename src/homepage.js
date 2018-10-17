@@ -45,6 +45,7 @@ class Homepage extends Component {
           <title>{t("HPTitle")}</title>
         </Helmet>
         <img className="imageHP" src="/apple.png" />
+        <img className="imageHPMob" src="/applemob.png" />
 
         <div className="hey">
           <span>SEO Freelancer </span>
