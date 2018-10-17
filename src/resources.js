@@ -19,16 +19,16 @@ class Resources extends Component {
         <div>
           <div className="infoTitle"> SEO Resources </div>
           <div className="infoIntro">
-            Here are some of the most useful tools to improve your SEO
-            monitoring
+            Here are some of the most useful tools and resources to improve your
+            SEO monitoring
           </div>
           <div className="infoMain">
             <ul className="block">
-              <li> SEO Jargon </li>
+              <li className="txthead"> > SEO Jargon </li>
               <a href="https://moz.com/beginners-guide-to-seo">
                 Moz's Beginners guide to SEO{" "}
               </a>
-              <li> Backlink Checks </li>
+              <li className="txthead"> >Backlink Checks </li>
               <a className="block" href="https://moz.com/link-explorer">
                 Moz Link Explorer
               </a>{" "}
@@ -38,7 +38,7 @@ class Resources extends Component {
               <a className="block" href="https://ahrefs.com/de/">
                 ahrefs
               </a>
-              <li> Keyword Tools </li>
+              <li className="txthead"> >Keyword Tools </li>
               <footer>Adwords Keyword Planner </footer>
               <footer> Google's Search Console </footer>
               <footer> SEMRush</footer>
@@ -64,7 +64,7 @@ class Resources extends Component {
               <a className="block" href=" https://kwfinder.com/">
                 KWFinder
               </a>
-              <li>Technical </li>
+              <li className="txthead"> >Technical </li>
               <a
                 className="block"
                 href="https://search.google.com/test/mobile-friendly"
@@ -77,7 +77,7 @@ class Resources extends Component {
               >
                 Google PageSpeed (Insights) Test
               </a>
-              <li> Content marketing </li>
+              <li className="txthead"> > Content marketing </li>
               <a href=" https://kwfinder.com/">buzzsumo.com</a>
             </ul>
           </div>
