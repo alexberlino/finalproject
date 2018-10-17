@@ -338,13 +338,10 @@ iframe {
   color: black;
   margin-top: 0px;
   position: relative;
-  width: 100%;
+  width: 94%;
   height: 270px;
   display: flex;
   left: 0px;
-  padding: 10px;
-
-  padding-top: 0px;
 }
 
 .intro3 {
