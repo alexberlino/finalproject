@@ -59,8 +59,10 @@ class Homepage extends Component {
         </div>
 
         <div className="intro">
-          <footer className="txt2 txthead"> >aboutme</footer>
-          <img src="/me.svg" className="icons" />
+          <footer className="txt2 txthead">
+            {" "}
+            <img src="/me.svg" className="icons" />>aboutme
+          </footer>
 
           <h1 className="txt">{t("intro1")}</h1>
           <div className="txt">{t("intro2")}</div>
@@ -74,7 +76,7 @@ class Homepage extends Component {
         <div className="intro2">
           <div className="introQuarter">
             <ul>
-              <img src="/seo-monitoring.jpg" className="icons" />
+              <img src="/seo-monitoring.jpg" className="icon" />
 
               <li className="txt2"> SEO</li>
               <li className="txt2">Analytics </li>
@@ -86,7 +88,7 @@ class Homepage extends Component {
           </div>
           <div className="introQuarter">
             <ul>
-              <img src="/programming.svg" className="icons" />
+              <img src="/programming.svg" className="icon" />
 
               <li className="txt2"> React, Vue, Handlebars</li>
               <li className="txt2">Javascript, JQuery </li>
@@ -98,9 +100,11 @@ class Homepage extends Component {
           </div>
         </div>
 
-        <section className="intro3">
-          <h2 className="txt2 txthead"> >onpage_audit</h2>
-          <img src="/onpage.svg" className="icons" />
+        <section className="intro3 grey">
+          <h2 className="txt2 txthead">
+            {" "}
+            <img src="/onpage.svg" className="icons" /> >onpage_audit
+          </h2>
           <div className="txt3">
             <p className="introContent">
               Starting with an in-depth Keyword Research, using the most data
@@ -118,10 +122,12 @@ class Homepage extends Component {
           </div>{" "}
         </section>
 
-        <section className="intro3">
+        <section className="intro3 lightgrey">
           {" "}
-          <h2 className="txt2 txthead"> >offpage_audit</h2>
-          <img src="/offpage.svg" className="icons" />
+          <h2 className="txt2 txthead">
+            {" "}
+            <img src="/offpage.svg" className="icons" />>offpage_audit
+          </h2>
           <div className="txt3">
             {" "}
             <p className="introContent">
@@ -138,10 +144,12 @@ class Homepage extends Component {
           </div>
         </section>
 
-        <section>
+        <section className="intro3 grey">
           {" "}
-          <h2 className="txt2 txthead"> >technical_seo</h2>
-          <img src="/technical.svg" className="icons" />
+          <h2 className="txt2 txthead ">
+            {" "}
+            <img src="/technical.svg" className="icons" /> >technical_seo
+          </h2>
           <div className="txt3">
             {" "}
             <p className="introContent">
@@ -157,9 +165,10 @@ class Homepage extends Component {
           </div>
         </section>
 
-        <section>
-          <h2 className="txt2 txthead"> >analytics & research</h2>
-          <img src="/analytics.svg" className="icons" />
+        <section className="intro3 lightgrey">
+          <h2 className="txt2 txthead">
+            <img src="/analytics.svg" className="icons" /> >analytics & research
+          </h2>
 
           <div className="txt3">
             <p className="introContent">

@@ -13,13 +13,23 @@
   .txt2 {
     font-size: 17px;
     color: black;
-    margin: 2px;
+
     margin-left: 10%;
-    width: 70%;
+    font-size: 16px;
+    color: black;
+
+    margin-top: 10px;
   }
   .txt a,
   .txt2 a {
     color: white;
+  }
+
+  .txthead {
+    left: 0px;
+  }
+
+  .icons {
   }
 
   .intro3 {
@@ -37,15 +47,9 @@
     padding: 10px;
     width: 100%;
     margin-bottom: 5px;
-    height: 200px;
+    height: 300px;
   }
 
-  .txt2 {
-    font-size: 16px;
-    color: black;
-    margin: 1px;
-    margin-top: 10px;
-  }
   .introContent {
     width: 95%;
   }

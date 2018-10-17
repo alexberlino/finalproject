@@ -248,7 +248,6 @@ iframe {
 }
 .mainHP {
   min-height: calc(100vh - 120px);
-  width: 95%;
 }
 
 .logo {
@@ -351,7 +350,14 @@ iframe {
 }
 
 .icons {
-  margin-left: 50%;
+  height: 30px;
+  width: 30px;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+.icon {
+  margin-left: 55%;
   height: 40px;
   width: 40px;
   filter: gray; /* IE6-9 */
@@ -370,6 +376,17 @@ iframe {
 }
 .introContent {
   width: 75%;
+}
+
+.grey {
+  background-color: #c0c0c0;
+}
+.lightgrey {
+  background-color: #dcdcdc;
+}
+
+section {
+  width: 100%;
 }
 .HPTitle {
   color: #17252a;
@@ -719,8 +736,8 @@ h4 {
 
 .txthead {
   font-size: 27px;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 30px;
   border-bottom: 1px solid black;
   left: 28px;
   position: relative;
