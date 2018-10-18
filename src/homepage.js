@@ -104,8 +104,8 @@ class Homepage extends Component {
           </div>
         </div>
 
-        <section className="intro3 grey">
-          <h2 className="txt2 txthead">
+        <section className="intro3 green">
+          <h2 className="txt2 txthead  ">
             {" "}
             <img src="/onpage.svg" className="icons" /> onpage_audit>
           </h2>
@@ -126,9 +126,9 @@ class Homepage extends Component {
           </div>{" "}
         </section>
 
-        <section className="intro3 lightgrey">
+        <section className="intro3 orange">
           {" "}
-          <h2 className="txt2 txthead">
+          <h2 className="txt2 txthead ">
             {" "}
             <img src="/offpage.svg" className="icons" />offpage_audit>
           </h2>
@@ -148,9 +148,9 @@ class Homepage extends Component {
           </div>
         </section>
 
-        <section className="intro3 grey">
+        <section className="intro3 green">
           {" "}
-          <h2 className="txt2 txthead ">
+          <h2 className="txt2 txthead  ">
             {" "}
             <img src="/technical.svg" className="icons" /> technical_seo>
           </h2>
@@ -169,8 +169,8 @@ class Homepage extends Component {
           </div>
         </section>
 
-        <section className="intro3 lightgrey">
-          <h2 className="txt2 txthead">
+        <section className="intro3 orange ">
+          <h2 className="txt2 txthead  ">
             <img src="/analytics.svg" className="icons" /> analytics & research>
           </h2>
 

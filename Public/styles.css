@@ -155,7 +155,7 @@ iframe {
 .contactpage {
   position: relative;
   display: inline-block;
-  background-color: #383b4b;
+  background-color: #1e1528;
   width: 75%;
   padding: 5px;
   padding-right: -5px;
@@ -170,7 +170,7 @@ iframe {
   width: auto;
   z-index: 1;
 
-  background-color: #383b4b;
+  background-color: #1e1528;
 }
 
 .fieldMessage {
@@ -391,13 +391,6 @@ iframe {
 }
 .introContent {
   width: 75%;
-}
-
-.grey {
-  background-color: #c0c0c0;
-}
-.lightgrey {
-  background-color: #dcdcdc;
 }
 
 section {
@@ -750,6 +743,7 @@ h4 {
 /* contact*/
 
 .txthead {
+  color: black;
   font-size: 27px;
   width: 60%;
   padding-top: 60px;
@@ -893,7 +887,7 @@ h4 {
 @keyframes heyThere {
   00%,
   70% {
-    color: black;
+    color: #190b28;
   }
   70%,
   100% {
@@ -939,6 +933,10 @@ h6:before {
   top: 130px;
   left: 50px;
   z-index: 0;
+}
+
+.white {
+  color: white;
 }
 
 @-webkit-keyframes head2 {
@@ -1715,6 +1713,13 @@ h6:before {
 
 ul {
   list-style: none;
+}
+
+.orange {
+  background-color: #68a896;
+}
+.green {
+  background-color: #f2be76;
 }
 
 .side-drawer {
