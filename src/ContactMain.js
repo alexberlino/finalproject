@@ -64,7 +64,7 @@ class ContactMain extends Component {
       <div className="contactpage">
         <div>
           <div className="leftContact">
-            <div className="contactmeHead"> {t("getintouch")}</div>
+            <h2 className="contactmeHead"> {t("getintouch")}</h2>
 
             <Form onSubmit={this.handleSubmit}>
               <FormGroup>

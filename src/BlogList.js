@@ -31,7 +31,7 @@ class BlogList extends Component {
 
     return (
       <div className="leftBlog">
-        <h4> My Blog, {t("bloglatest")}</h4>
+        <h2> My Blog, {t("bloglatest")}</h2>
 
         <div className="blogWindow">
           {this.state.articles.map(article => (

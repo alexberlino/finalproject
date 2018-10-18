@@ -61,7 +61,7 @@ class Homepage extends Component {
         <div className="intro">
           <footer className="txt2 txthead">
             {" "}
-            <img src="/me.svg" className="icons" />>aboutme
+            <img src="/me.svg" className="icons" />aboutme>
           </footer>
 
           <h1 className="txt">{t("intro1")}</h1>
@@ -81,7 +81,6 @@ class Homepage extends Component {
               <li className="txt2"> SEO</li>
               <li className="txt2">Analytics </li>
               <li className="txt2">Business Expertise (MBA)</li>
-              <li className="txt2"> Market research & Competitor Analysis</li>
 
               <li className="txt2"> SEA</li>
             </ul>
@@ -103,7 +102,7 @@ class Homepage extends Component {
         <section className="intro3 grey">
           <h2 className="txt2 txthead">
             {" "}
-            <img src="/onpage.svg" className="icons" /> >onpage_audit
+            <img src="/onpage.svg" className="icons" /> onpage_audit>
           </h2>
           <div className="txt3">
             <p className="introContent">
@@ -126,7 +125,7 @@ class Homepage extends Component {
           {" "}
           <h2 className="txt2 txthead">
             {" "}
-            <img src="/offpage.svg" className="icons" />>offpage_audit
+            <img src="/offpage.svg" className="icons" />offpage_audit>
           </h2>
           <div className="txt3">
             {" "}
@@ -148,7 +147,7 @@ class Homepage extends Component {
           {" "}
           <h2 className="txt2 txthead ">
             {" "}
-            <img src="/technical.svg" className="icons" /> >technical_seo
+            <img src="/technical.svg" className="icons" /> technical_seo>
           </h2>
           <div className="txt3">
             {" "}
@@ -167,7 +166,7 @@ class Homepage extends Component {
 
         <section className="intro3 lightgrey">
           <h2 className="txt2 txthead">
-            <img src="/analytics.svg" className="icons" /> >analytics & research
+            <img src="/analytics.svg" className="icons" /> analytics & research>
           </h2>
 
           <div className="txt3">
@@ -187,7 +186,7 @@ class Homepage extends Component {
 
         <div>
           <div>
-            <h2 className="txt2 txthead"> >blog</h2>
+            <h2 className="txt2 txthead"> blog></h2>
             <ul>
               <div className="blogArticlesHP">
                 {this.state.articles.map(article => (
@@ -216,7 +215,7 @@ class Homepage extends Component {
 
         <div>
           <div>
-            <h2 className="txt2 txthead"> >latest seonews</h2>
+            <h2 className="txt2 txthead"> latest seonews></h2>
             <ul>
               <div className="homepageNews">
                 <a href={"/" + this.props.lang + "/seonews"} />

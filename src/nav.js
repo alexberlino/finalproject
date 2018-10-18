@@ -23,16 +23,13 @@ class Navigation extends Component {
     return (
       <header className="toolbar">
         <nav className="toolbar_navigation">
-          <div className="toolbar_toggle_button">
-            <DrawerToggleButton click={this.props.drawerClickHandler} />
-          </div>
           <div>
             <a href={"/" + this.props.lang}>
               <img
                 className="toolbar_logo"
                 src="/logo.png"
-                width="95px"
-                heigth="95px"
+                width="130px"
+                heigth="70px"
                 onClick={() => this.props.pageChange("/")}
               />
             </a>
@@ -128,6 +125,9 @@ class Navigation extends Component {
               />
             </a>
           </li>
+          <div className="toolbar_toggle_button">
+            <DrawerToggleButton click={this.props.drawerClickHandler} />
+          </div>
         </nav>
       </header>
     );

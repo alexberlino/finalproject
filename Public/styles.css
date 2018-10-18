@@ -128,12 +128,18 @@ iframe {
   margin-top: 10%;
 }
 
+.maincontact2 {
+  margin-top: 80px;
+  width: 95%;
+  min-height: calc(100vh - 160px);
+}
+
 .mainContact {
   position: relative;
   display: inline-flex;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  margin-left: 5%;
+  margin-top: 5%;
+  width: 60%;
+  margin-left: 10%;
   min-height: calc(100vh - 160px);
 }
 
@@ -149,12 +155,13 @@ iframe {
   position: relative;
   display: inline-block;
   background-color: #383b4b;
-  width: 99%;
+  width: 75%;
   padding: 5px;
   padding-right: -5px;
   height: 200px;
-  margin-bottom: 30px;
+
   min-height: 550px;
+  margin-left: 10%;
 }
 .leftContact {
   position: absolute;
@@ -181,13 +188,12 @@ iframe {
 .contactmeHead {
   font-family: bariolregular;
   color: white;
-  font-size: 26px;
+  font-size: 36px;
   width: 100%;
-  padding-left: 20px;
+  left: 80px;
   position: relative;
   height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  top: 10px;
   vertical-align: middle;
 }
 
@@ -226,12 +232,6 @@ iframe {
 
   margin-top: 10%;
   margin-bottom: 10%;
-}
-.maincontact {
-  min-height: calc(100vh - 120px);
-
-  margin-top: 10%;
-  margin-bottom: 1%;
 }
 
 .mainBlog {
@@ -345,6 +345,8 @@ iframe {
 }
 
 .intro3 {
+  width: 70%;
+  margin-left: 12%;
 }
 
 .icons {
@@ -816,9 +818,9 @@ h4 {
 .hey span {
   z-index: 9;
   position: absolute;
-  top: 155px;
-  font-size: 47px;
-  margin-left: 430px;
+  top: 3.35%;
+  font-size: 44px;
+  margin-left: 32%;
 
   text-align: center;
   padding: 5px;
@@ -837,39 +839,39 @@ h4 {
 }
 .hey span:nth-child(3) {
   animation-delay: 1.9s;
-  top: 210px;
-  margin-left: 400px;
+  top: 5.1%;
+  margin-left: 34%;
   z-index: 13;
 }
 .hey span:nth-child(4) {
   animation-delay: 1.9s;
-  top: 240px;
-  margin-left: 400px;
+  top: 6%;
+  margin-left: 34%;
   z-index: 13;
 }
 .hey span:nth-child(5) {
   animation-delay: 4s;
 
-  top: 130px;
-  margin-left: 400px;
+  top: 3%;
+  margin-left: 35%;
   z-index: 12;
 }
 .hey span:nth-child(6) {
   animation-delay: 4s;
-  top: 160px;
-  margin-left: 440px;
+  top: 4%;
+  margin-left: 35%;
   z-index: 12;
 }
 .hey span:nth-child(7) {
   animation-delay: 6.2s;
-  top: 210px;
+  top: 5%;
   z-index: 11;
-  margin-left: 360px;
+  margin-left: 34%;
 }
 .hey span:nth-child(8) {
   animation-delay: 6.2s;
-  top: 245px;
-  margin-left: 430px;
+  top: 6%;
+  margin-left: 34%;
   z-index: 11;
 }
 
@@ -1042,13 +1044,14 @@ h6:before {
 
 /* SEOinfoPage start*/
 .infoTitle {
-  margin-left: 30%;
+  margin-left: 4%;
   font-size: 28px;
   background-color: #383b4b;
   color: white;
-  text-align: center;
-  width: 40%;
+
+  width: 80%;
   padding: 20px;
+  text-align: right;
 }
 
 .infoIntro {
@@ -1642,14 +1645,18 @@ h6:before {
   display: flex;
   z-index: 300;
   flex-direction: column;
-  height: 22px;
-  width: 24px;
-  margin-left: 10px;
+  height: 40px;
+  width: 44px;
   background: transparent;
   border: none;
   padding: 0;
   box-sizing: border-box;
   justify-content: space-around;
+}
+.toolbar_toggle_button {
+  position: fixed;
+  left: 85%;
+  top: 3px;
 }
 .toggle-button:focus {
   outline: none;
