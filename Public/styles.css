@@ -840,7 +840,7 @@ h4 {
   text-align: center;
   padding: 5px;
   color: transparent;
-  animation: heyThere 12s;
+  animation: heyThere 5s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
 }
@@ -853,72 +853,74 @@ h4 {
   z-index: 14;
 }
 .hey span:nth-child(3) {
-  animation-delay: 2.2s;
+  animation-delay: 2s;
   top: 320px;
   margin-left: 290px;
   z-index: 13;
 }
 .hey span:nth-child(4) {
-  animation-delay: 2.2s;
+  animation-delay: 2s;
   top: 350px;
   margin-left: 295px;
   z-index: 13;
 }
 .hey span:nth-child(5) {
-  animation-delay: 4.4s;
+  animation-delay: 4.2s;
 
   top: 250px;
   margin-left: 280px;
   z-index: 12;
 }
 .hey span:nth-child(6) {
-  animation-delay: 4.4s;
+  animation-delay: 4.2s;
   top: 280px;
   margin-left: 285px;
   z-index: 12;
 }
 .hey span:nth-child(7) {
-  animation-delay: 6.6s;
+  animation-delay: 6.4s;
   top: 315px;
   z-index: 11;
   margin-left: 275px;
 }
 .hey span:nth-child(8) {
-  animation-delay: 6.6s;
+  animation-delay: 6.4s;
   top: 345px;
   margin-left: 279px;
   z-index: 11;
 }
 
 @keyframes heyThere {
-  0%,
-  60% {
+  00%,
+  70% {
     color: black;
   }
-  60%,
+  70%,
   100% {
-    color: transparent;
-    opacity: 0.12;
+    color: #e9e7e7;
+    opacity: 0.01;
   }
 
   100% {
-    color: transparent;
+    color: #e9e7e7;
+    opacity: 0.01;
   }
 }
 
 @-webkit-keyframes heyThere {
-  0%,
-  60% {
+  00%,
+  70% {
     color: black;
   }
-  60%,
+  70%,
   100% {
-    color: lightgrey;
-    opacity: 0.12;
+    color: #e9e7e7;
+    opacity: 0.1;
   }
 
   100% {
-    color: transparent;
+    color: #e9e7e7;
+    opacity: 0.1;
   }
 }
 
