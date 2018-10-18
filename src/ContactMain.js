@@ -101,6 +101,9 @@ class ContactMain extends Component {
             </Form>
           </div>
           <div className="rightContact">
+            <h2 className="contactmeHead3">
+              <img src="/telephone.svg" className="iconphone" />015 787 011 932
+            </h2>
             <iframe
               frameBorder="0"
               className="map"

@@ -44,8 +44,7 @@ class Homepage extends Component {
           <meta charSet="utf-8" />
           <title>{t("HPTitle")}</title>
         </Helmet>
-        <img className="imageHP" src="/apple.png" />
-        <img className="imageHPMob" src="/applemob.png" />
+        <img className="imageHP" src="/apple2.jpg" />
 
         <div className="hey">
           <span>SEO Freelancer </span>
@@ -215,6 +214,7 @@ class Homepage extends Component {
                   </div>
                 ))}
               </div>
+              <img src="/more.svg" className="iconsmore" title="read more" />
             </ul>
           </div>
         </div>
@@ -227,6 +227,7 @@ class Homepage extends Component {
                 <a href={"/" + this.props.lang + "/seonews"} />
                 <NewsItems />
               </div>
+              <img src="/more.svg" className="iconsmore" title="read more" />
             </ul>
           </div>
         </div>

@@ -95,7 +95,7 @@ select {
 label {
   display: block;
   font-size: 18px;
-  max-width: 90px;
+  width: 120px;
   border-radius: 40px;
   padding-left: 10px;
   color: white;
@@ -146,8 +146,9 @@ iframe {
 .map {
   position: relative;
   display: inline-flex;
-  left: 50%;
-  width: 650px;
+  left: 30%;
+  top: -100px;
+  width: 55%;
   height: 400px;
 }
 
@@ -158,8 +159,7 @@ iframe {
   width: 75%;
   padding: 5px;
   padding-right: -5px;
-  height: 200px;
-
+  height: auto;
   min-height: 550px;
   margin-left: 10%;
 }
@@ -171,13 +171,6 @@ iframe {
   z-index: 1;
 
   background-color: #383b4b;
-}
-
-.map {
-  width: 700px;
-  position: absolute;
-  height: 400px;
-  left: 220px;
 }
 
 .fieldMessage {
@@ -195,6 +188,20 @@ iframe {
   height: 40px;
   top: 10px;
   vertical-align: middle;
+}
+
+.contactmeHead3 {
+  font-family: bariolregular;
+  color: black;
+  font-size: 27px;
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 44%;
+  left: 29%;
+  position: relative;
+  height: 60px;
+  top: 1px;
 }
 
 .formButton {
@@ -314,32 +321,33 @@ iframe {
 /* HOMEPAGE start */
 .imageHP {
   position: relative;
-  margin-right: 0px;
   padding-right: 0px;
-  height: ;
-  width: 100%;
+  top: 110px;
+  width: 600px;
   z-index: 0;
-  left: 0px;
+  left: 150px;
   display: block;
 }
 .intro {
   background-color: white;
   color: black;
-  width: 100%;
+  width: 60%;
   height: 400px;
   display: block;
-  left: 50px;
+  margin-left: 15%;
   padding: 2px;
   margin-bottom: 0px;
 }
 
 .intro2 {
+  margin-left: 18%;
+
   background-color: white;
   color: black;
   margin-top: 0px;
   position: relative;
-  width: 94%;
-  height: 270px;
+  width: 60%;
+  height: auto;
   display: flex;
   left: 0px;
 }
@@ -357,7 +365,7 @@ iframe {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 .icon {
-  margin-left: 35%;
+  margin-left: 55%;
   height: 40px;
   width: 40px;
   filter: gray; /* IE6-9 */
@@ -366,13 +374,21 @@ iframe {
 }
 
 .iconsmore {
-  display: flex;
+  display: block;
+  margin-left: 80%;
 
   height: 40px;
   width: 50px;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+.iconphone {
+  background-color: white;
+  display: inline;
+  height: 40px;
+  width: 50px;
 }
 .introContent {
   width: 75%;
@@ -460,10 +476,10 @@ section {
 .txt {
   font-size: 21px;
   color: black;
-
+  text-align: center;
   margin: 1px;
   margin-top: 1.7rem;
-  margin-left: 300px;
+  margin-left: 50%;
   width: 40%;
 }
 
@@ -818,9 +834,9 @@ h4 {
 .hey span {
   z-index: 9;
   position: absolute;
-  top: 3.35%;
+  top: 250px;
   font-size: 44px;
-  margin-left: 32%;
+  margin-left: 270px;
 
   text-align: center;
   padding: 5px;
@@ -834,55 +850,55 @@ h4 {
   z-index: 14;
 }
 .hey span:nth-child(2) {
-  top: 180px;
+  top: 284px;
   z-index: 14;
 }
 .hey span:nth-child(3) {
   animation-delay: 1.9s;
-  top: 5.1%;
-  margin-left: 34%;
+  top: 320px;
+  margin-left: 290px;
   z-index: 13;
 }
 .hey span:nth-child(4) {
   animation-delay: 1.9s;
-  top: 6%;
-  margin-left: 34%;
+  top: 350px;
+  margin-left: 295px;
   z-index: 13;
 }
 .hey span:nth-child(5) {
   animation-delay: 4s;
 
-  top: 3%;
-  margin-left: 35%;
+  top: 250px;
+  margin-left: 280px;
   z-index: 12;
 }
 .hey span:nth-child(6) {
   animation-delay: 4s;
-  top: 4%;
-  margin-left: 35%;
+  top: 280px;
+  margin-left: 285px;
   z-index: 12;
 }
 .hey span:nth-child(7) {
   animation-delay: 6.2s;
-  top: 5%;
+  top: 315px;
   z-index: 11;
-  margin-left: 34%;
+  margin-left: 275px;
 }
 .hey span:nth-child(8) {
   animation-delay: 6.2s;
-  top: 6%;
-  margin-left: 34%;
+  top: 345px;
+  margin-left: 279px;
   z-index: 11;
 }
 
 @keyframes heyThere {
   0%,
   60% {
-    color: white;
+    color: black;
   }
   60%,
   100% {
-    color: white;
+    color: lightgrey;
     opacity: 0.12;
   }
 
