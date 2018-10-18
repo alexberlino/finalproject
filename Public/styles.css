@@ -357,7 +357,7 @@ iframe {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 .icon {
-  margin-left: 55%;
+  margin-left: 35%;
   height: 40px;
   width: 40px;
   filter: gray; /* IE6-9 */
@@ -366,10 +366,10 @@ iframe {
 }
 
 .iconsmore {
-  display: inline;
+  display: flex;
 
-  height: 26px;
-  width: 70px;
+  height: 40px;
+  width: 50px;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
@@ -460,7 +460,7 @@ section {
 .txt {
   font-size: 21px;
   color: black;
-  text-align: center;
+
   margin: 1px;
   margin-top: 1.7rem;
   margin-left: 300px;
@@ -917,9 +917,9 @@ h6:before {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 
-  position: fixed;
+  position: absolute;
   font-family: monospace;
-  top: 630px;
+  top: 130px;
   left: 50px;
   z-index: 0;
 }
@@ -1122,35 +1122,14 @@ h6:before {
   height: 100%;
 }
 
-.roll-in-left {
-  -webkit-animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
-    backwards;
-  animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
-    backwards;
-  width: auto;
-  border-radius: 145px;
-  background-color: #ff851b;
-  color: white;
-  left: 75%;
-  top: 80px;
-  position: fixed;
-  padding: 20px;
-  font-size: 21px;
-  box-shadow: 4px 8px grey;
-}
-
 .about21 {
-  -webkit-animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
-    backwards;
-  animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
-    backwards;
-  width: auto;
-  border-radius: 145px;
-  background-color: #ff851b;
+  border-radius: 45px;
+  background-color: grey;
   color: white;
-  left: 75%;
+  left: 15%;
   top: 80px;
-  position: fixed;
+  width: 40%;
+  position: relative;
   padding: 20px;
   font-size: 21px;
   box-shadow: 4px 8px grey;
@@ -1161,47 +1140,21 @@ h6:before {
     backwards;
   animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
     backwards;
-  width: auto;
+  width: 20%;
   border-radius: 145px;
-  background-color: #ff851b;
-  color: white;
-  left: 75%;
-  top: 80px;
-  position: fixed;
-  padding: 20px;
-  font-size: 21px;
-  box-shadow: 4px 8px grey;
-}
-
-.roll-in-left2 {
-  border-radius: 145px;
-  -webkit-animation: fade-in 3.5s ease-out both;
-  animation: fade-in 3.5s ease-out both;
-  width: auto;
-  left: 65%;
-  top: 230px;
-  position: fixed;
-  padding: 20px;
-  font-size: 21px;
   background-color: lightgrey;
   color: black;
+  left: 45%;
+  margin-top: 10%;
+  position: relative;
+  padding: 20px;
+  font-size: 21px;
   box-shadow: 4px 8px grey;
 }
 
-.roll-in-left3 {
-  border-radius: 145px;
-  top: 480px;
-
+.roll-in-left {
   -webkit-animation: fade-in 3.5s ease-out both;
   animation: fade-in 3.5s ease-out both;
-  width: 100%;
-  left: 15%;
-  position: fixed;
-  padding: 20px;
-  font-size: 21px;
-  background-color: black;
-  color: white;
-  box-shadow: 4px 8px grey;
 }
 
 .swirl-in-fwd {
@@ -1238,16 +1191,7 @@ h6:before {
 .bounce-in-top {
   -webkit-animation: bounce-in-top 1s both;
   animation: bounce-in-top 1s both;
-  margin-left: 15%;
-  top: 80px;
-  width: auto;
-  border-radius: 30px;
-  position: fixed;
-  padding: 20px;
-  font-size: 21px;
-  background-color: lightgrey;
-  color: black;
-  box-shadow: 4px 8px grey;
+  background-color: darkblue;
 }
 
 .bounce-in-top2 {
@@ -1645,8 +1589,8 @@ h6:before {
   display: flex;
   z-index: 300;
   flex-direction: column;
-  height: 40px;
-  width: 44px;
+  height: 26px;
+  width: 26px;
   background: transparent;
   border: none;
   padding: 0;
@@ -1691,7 +1635,7 @@ h6:before {
   list-style: none;
   display: flex;
   flex-direction: column;
-  color: darkgrey;
+  color: white;
   justify-content: center;
   height: 100%;
 }
@@ -1701,7 +1645,38 @@ h6:before {
 
 .side-drawer a:hover,
 .side_drawer a:active {
-  color: #383b4b;
+  color: black;
+  background-color: white;
+}
+.blockAbout {
+  height: auto;
+  width: 70%;
+  text-align: center;
+  background-color: darkgrey;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  margin-left: 10%;
+  padding: 9px;
+  z-index: 10;
+  color: white;
+  font-size: 28px;
+  border: 1px lightgrey solid;
+}
+.blockAbout2 {
+  height: 50px;
+  width: 30%;
+  max-height: 99%;
+  z-index: 10;
+  position: relative;
+
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: 40px;
+  border-radius: 20px;
+  margin-left: 10%;
+  padding: 9px;
+  color: black;
+  font-size: 24px;
 }
 
 .side_drawer#dropbtn {

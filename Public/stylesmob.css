@@ -59,7 +59,7 @@
     left: 70px;
     width: 70%;
     margin-bottom: 50px;
-    height: 360px;
+    height: 450px;
   }
 
   .fieldMessage {
@@ -351,68 +351,33 @@
     border-radius: 0px;
   }
 
-  .roll-in-left {
-    top: 255px;
-    left: 0px;
-    width: 85%;
-    border-radius: 0px;
-
-    position: relative;
-  }
-
   .aboutpage {
     overflow: scroll;
     position: relative;
   }
 
-  .roll-in-left2 {
-    border-radius: 0px;
-    left: 0px;
-    top: -270px;
-    width: 85%;
-    position: relative;
+  .blockAbout {
+    font-size: 18px;
+  }
+  .blockAbout2 {
+    font-size: 18px;
   }
 
-  .swirl-in-fwd {
-    border-radius: 0px;
-
-    font-size: 13px;
-    position: relative;
-    display: none;
-  }
-
-  .swirl-in-fwd2 {
-    display: none;
-  }
-  .bounce-in-top {
-    top: 40px;
-    border-radius: 0px;
-
-    width: 80%;
-    left: 0px;
-    margin-left: 0px;
-    position: relative;
-  }
-
-  .bounce-in-top2 {
-    top: 15px;
-    left: -10px;
-    border-radius: 0px;
-
-    position: relative;
-  }
-
-  .roll-in-left3 {
-    top: 150px;
-    height: 7px;
-    width: 100%;
-    border-radius: 0px;
-
-    left: 0px;
+  .about21 {
+    font-size: 17px;
+    width: 83%;
     position: relative;
 
-    padding: 20px;
-    font-size: 12px;
+    top: 80px;
+    left: 3px;
+  }
+
+  .about22 {
+    font-size: 17px;
+    position: relative;
+    width: 60%;
+    margin-top: 22%;
+    left: 50px;
   }
 
   .contactmeHead {
@@ -473,7 +438,10 @@
     display: none;
   }
 
-  .toolbar_toggle_button {
+  .toggle_button {
+    height: 36px;
+    width: 36px;
+
     /* display: none; */
   }
   .imageHPMob {

@@ -69,7 +69,13 @@ class Homepage extends Component {
           <div className="txt">Roadmaps, strategic planning and monitoring</div>
           <div className="txt">
             {t("intro3")}{" "}
-            <img src="/more.svg" className="iconsmore" title="read more" />
+            <Link
+              to={this.props.lang + "/about"}
+              onClick={() => this.props.pageChange("/blog")}
+            >
+              more
+              <img src="/more.svg" className="iconsmore" title="read more" />
+            </Link>
           </div>
         </div>
 
