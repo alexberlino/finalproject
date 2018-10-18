@@ -198,7 +198,7 @@ iframe {
   padding-top: 8px;
   padding-bottom: 8px;
   width: 44%;
-  left: 29%;
+  left: 42%;
   position: relative;
   height: 60px;
   top: 1px;
@@ -332,9 +332,9 @@ iframe {
   background-color: white;
   color: black;
   width: 60%;
-  height: 400px;
+  height: auto;
   display: block;
-  margin-left: 15%;
+  margin-left: 10%;
   padding: 2px;
   margin-bottom: 0px;
 }
@@ -365,7 +365,6 @@ iframe {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 .icon {
-  margin-left: 55%;
   height: 40px;
   width: 40px;
   filter: gray; /* IE6-9 */
@@ -493,7 +492,7 @@ section {
   color: black;
   margin: 1px;
   margin-top: 10px;
-  margin-left: 180px;
+  width: 100%;
 }
 
 .txt3 {
@@ -841,7 +840,7 @@ h4 {
   text-align: center;
   padding: 5px;
   color: transparent;
-  animation: heyThere 9s;
+  animation: heyThere 12s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
 }
@@ -854,38 +853,38 @@ h4 {
   z-index: 14;
 }
 .hey span:nth-child(3) {
-  animation-delay: 1.9s;
+  animation-delay: 2.2s;
   top: 320px;
   margin-left: 290px;
   z-index: 13;
 }
 .hey span:nth-child(4) {
-  animation-delay: 1.9s;
+  animation-delay: 2.2s;
   top: 350px;
   margin-left: 295px;
   z-index: 13;
 }
 .hey span:nth-child(5) {
-  animation-delay: 4s;
+  animation-delay: 4.4s;
 
   top: 250px;
   margin-left: 280px;
   z-index: 12;
 }
 .hey span:nth-child(6) {
-  animation-delay: 4s;
+  animation-delay: 4.4s;
   top: 280px;
   margin-left: 285px;
   z-index: 12;
 }
 .hey span:nth-child(7) {
-  animation-delay: 6.2s;
+  animation-delay: 6.6s;
   top: 315px;
   z-index: 11;
   margin-left: 275px;
 }
 .hey span:nth-child(8) {
-  animation-delay: 6.2s;
+  animation-delay: 6.6s;
   top: 345px;
   margin-left: 279px;
   z-index: 11;
@@ -898,7 +897,7 @@ h4 {
   }
   60%,
   100% {
-    color: lightgrey;
+    color: transparent;
     opacity: 0.12;
   }
 
@@ -909,16 +908,16 @@ h4 {
 
 @-webkit-keyframes heyThere {
   0%,
-  50% {
-    color: white;
+  60% {
+    color: black;
   }
-  50%,
+  60%,
   100% {
-    color: transparent;
+    color: lightgrey;
+    opacity: 0.12;
   }
 
   100% {
-    transform: translate(30px, 5px);
     color: transparent;
   }
 }

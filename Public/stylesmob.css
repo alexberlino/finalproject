@@ -125,13 +125,10 @@
     padding-bottom: 20px;
     margin-bottom: 10px;
   }
-  .filterDiv {
-    background: url("./applemob.jpg") repeat fixed;
-  }
 
   .hey span {
     top: 140px;
-    font-size: 22px;
+    font-size: 19px;
     margin-left: 170px;
   }
 
@@ -145,7 +142,7 @@
 
   .hey span:nth-child(3) {
     top: 160px;
-    margin-left: 170px;
+    margin-left: 155px;
   }
   .hey span:nth-child(4) {
     top: 178px;
@@ -161,8 +158,8 @@
   }
 
   .hey span:nth-child(7) {
-    top: 160px;
-    margin-left: 165px;
+    top: 162px;
+    margin-left: 155px;
   }
 
   .hey span:nth-child(8) {
@@ -438,46 +435,3 @@
     display: none;
   }
 }
-
-/* @media (min-width: 1420px) {
-  .hey span {
-    top: 9.6%;
-    font-size: 32px;
-    margin-left: 25%;
-  }
-
-  .hey span:nth-child(1) {
-  }
-
-  .hey span:nth-child(2) {
-    top: 6.6%;
-  }
-
-  .hey span:nth-child(3) {
-    top: 4.3%;
-    margin-left: 21%;
-  }
-  .hey span:nth-child(4) {
-    top: 4.8%;
-    margin-left: 17%;
-  }
-  .hey span:nth-child(5) {
-    top: 3.8%;
-    margin-left: 24%;
-  }
-  .hey span:nth-child(6) {
-    top: 4.3%;
-    margin-left: 27%;
-  }
-
-  .hey span:nth-child(7) {
-    top: 4.2%;
-
-    margin-left: 13%;
-  }
-
-  .hey span:nth-child(8) {
-    top: 4.7%;
-    margin-left: 17%;
-  }
-} */
