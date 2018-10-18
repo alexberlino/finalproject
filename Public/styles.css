@@ -1548,7 +1548,7 @@ h6:before {
   left: 0;
   width: 100%;
   background-color: white;
-  height: 55px;
+  height: 85px;
   z-index: 300;
 }
 
@@ -1562,6 +1562,8 @@ h6:before {
 .toolbar_logo {
   margin-left: 2rem;
   margin-top: 1rem;
+  height: 60px;
+  width: 190px;
 }
 .toolbar_logo a {
 }

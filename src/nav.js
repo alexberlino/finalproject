@@ -5,7 +5,6 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import { connect } from "react-redux";
 import i18n from "./i18n";
 import { translate, Trans } from "react-i18next";
-import DrawerToggleButton from "./DrawerToggleButton";
 import Backdrop from "./Backdrop";
 
 // require("react-bootstrap/lib/NavbarHeader";
@@ -28,8 +27,8 @@ class Navigation extends Component {
               <img
                 className="toolbar_logo"
                 src="/logo.png"
-                width="130px"
-                heigth="70px"
+                width="150px"
+                heigth="60px"
                 onClick={() => this.props.pageChange("/")}
               />
             </a>
@@ -110,8 +109,8 @@ class Navigation extends Component {
               <img
                 className="languageBtnDE"
                 onClick={() => this.props.languageChange("de")}
-                height="20px"
-                width="25px"
+                height="30px"
+                width="45px"
                 src="/GERMANFLAG.png"
               />
             </a>
@@ -119,14 +118,20 @@ class Navigation extends Component {
               <img
                 className="languageBtnEN"
                 onClick={() => this.props.languageChange("en")}
-                height="20px"
-                width="25px"
+                height="30px"
+                width="45px"
                 src="/UKUSFLAG.jpeg"
               />
             </a>
           </li>
           <div className="toolbar_toggle_button">
-            <DrawerToggleButton click={this.props.drawerClickHandler} />
+            <img
+              src="/hamburger.svg"
+              className="toggleMan"
+              height="80px"
+              width="80px"
+              onClick={this.props.drawerClickHandler}
+            />
           </div>
         </nav>
       </header>
