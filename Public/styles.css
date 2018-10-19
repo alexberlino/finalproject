@@ -155,13 +155,15 @@ iframe {
 .contactpage {
   position: relative;
   display: inline-block;
-  background-color: #1e1528;
+  background-color: #08281f;
   width: 75%;
+  border-radius: 20px;
   padding: 5px;
   padding-right: -5px;
   height: auto;
   min-height: 550px;
   margin-left: 10%;
+  opacity: 0.93;
 }
 .leftContact {
   position: absolute;
@@ -169,8 +171,8 @@ iframe {
   color: white;
   width: auto;
   z-index: 1;
-
-  background-color: #1e1528;
+  opacity: 0.93;
+  background-color: #08281f;
 }
 
 .fieldMessage {
@@ -193,14 +195,15 @@ iframe {
 .contactmeHead3 {
   font-family: bariolregular;
   color: black;
-  font-size: 27px;
+  font-size: 23px;
+  border-radius: 10px;
   background-color: white;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 44%;
   left: 42%;
   position: relative;
-  height: 60px;
+  height: 40px;
   top: 1px;
 }
 
@@ -269,7 +272,7 @@ iframe {
   position: fixed;
   display: table;
   top: 5px;
-  left: 880px;
+  left: 280px;
   z-index: 100;
 }
 .languageBtnDE {
@@ -336,12 +339,11 @@ iframe {
   display: block;
   margin-left: 10%;
   padding: 2px;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 .intro2 {
   margin-left: 18%;
-
   background-color: white;
   color: black;
   margin-top: 0px;
@@ -355,18 +357,19 @@ iframe {
 .intro3 {
   width: 70%;
   margin-left: 12%;
+  margin-top: 100px;
 }
 
 .icons {
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 .icon {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
@@ -386,8 +389,8 @@ iframe {
 .iconphone {
   background-color: white;
   display: inline;
-  height: 40px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 .introContent {
   width: 75%;
@@ -395,6 +398,7 @@ iframe {
 
 section {
   width: 100%;
+  border-radius: 10px;
 }
 .HPTitle {
   color: #17252a;
@@ -450,6 +454,7 @@ section {
 
 .listArticlesBlogHP {
   display: inline;
+  font-size: 20px;
   position: absolute;
   margin-left: 20px;
   height: 70px;
@@ -489,8 +494,9 @@ section {
 }
 
 .txt3 {
-  font-size: 19px;
+  font-size: 22px;
   margin-left: 15%;
+  margin-top: 21px;
 }
 
 .linkToPages {
@@ -600,7 +606,7 @@ section {
 .important {
   font-weight: bold;
 
-  font-size: 14px;
+  font-size: 18px;
   display: inline;
 }
 .newsItem {
@@ -742,6 +748,9 @@ h4 {
 
 /* contact*/
 
+.footerflags {
+  padding: 6px;
+}
 .txthead {
   color: black;
   font-size: 27px;
@@ -750,6 +759,19 @@ h4 {
   padding-bottom: 30px;
   border-bottom: 1px solid black;
   left: 28px;
+  position: relative;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.txthead2 {
+  color: black;
+  font-size: 27px;
+  width: 60%;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+  left: 100px;
   position: relative;
   font-weight: bold;
   font-family: arial;

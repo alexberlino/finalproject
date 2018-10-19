@@ -6,9 +6,12 @@ i18n.use(LanguageDetector).init({
   resources: {
     en: {
       translations: {
-        intro1: "SEO Expert Freelancer in Berlin.",
-        intro2: "10 years experience in SEO, SEA and Analytics.",
+        intro1: "SEO Expert Freelancer in Berlin with MBA and scrum training.",
+        intro2: "9 years experience in SEO, SEA and Analytics.",
         intro3: "Trained Full Stack Web Developer",
+        intro4: "Analysis, Action Plan with Prioritization, and Controlling",
+        intro5: "Business Expertise (MBA)",
+
         services: "SEO",
         technical: "TECHNICAL",
         about: "ABOUT",
@@ -35,6 +38,7 @@ i18n.use(LanguageDetector).init({
         about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
         getintouch: "Get in touch",
         aboutme: "SEO Freelancer in Berlin || Alex Bieth",
+        aboutmetitle: "aboutme",
         HPTitle: "SEO Consulting in Berlin || Alex Bieth SEO Freelancer",
         getintouch_title: "Get in touch SEO Berlino || SEO Freelancer",
         bloglatest: "Latest posts",
@@ -72,9 +76,13 @@ i18n.use(LanguageDetector).init({
 
     de: {
       translations: {
-        intro1: "Erfahrener Freelance SEO Experte in Berlin.",
-        intro2: "10 Jahre Erfahrung in SEO, SEA und Analytics.",
+        intro1:
+          "Erfahrener Freelance SEO Experte in Berlin mit MBA und scrum ausgebildet.",
+        intro2: "9 Jahre Erfahrung in SEO, SEA und Analytics.",
         intro3: "Full Stack Web-Entwickler",
+        intro4: "Analyse, Aktionsplan mit Priorisierung, und Controlling",
+        intro5: "Geschäftskompetenz (MBA)",
+
         services: "SEO",
         technical: "TECHNISCH",
         about: "ÜBER MICH",
@@ -83,6 +91,7 @@ i18n.use(LanguageDetector).init({
         subject: "Betreff  ",
         message: "Nachricht*  ",
         sendMessage: "SENDEN",
+        aboutmetitle: "übermich",
         about1: "Erfahrung mit Landing Pages",
         about2: `Über 5 Jahre als Head of SEO, mit einem
                         10 Leute team.`,

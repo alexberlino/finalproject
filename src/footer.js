@@ -21,11 +21,34 @@ class Footer extends Component {
     return (
       <div className="footer">
         <div className="footerQuarter">
-          Built with <img src="/react.png" height="20px" width="20px" />
+          <div>
+            <a href={"/de" + this.props.page}>
+              <img
+                onClick={() => this.props.languageChange("de")}
+                height="20px"
+                className="footerflags"
+                width="25px"
+                title="auf Deutsch"
+                src="/GERMANFLAG.png"
+              />
+            </a>
+            <a href={"/en" + this.props.page}>
+              <img
+                onClick={() => this.props.languageChange("en")}
+                height="20px"
+                title="change language to English"
+                className="footerflags"
+                width="25px"
+                src="/UKUSFLAG.jpeg"
+              />
+            </a>
+          </div>
         </div>
         <div className="footerlink footerQuarter">
-          {" "}
           All Right Reserved 2018 Alex Bieth{" "}
+          <p>
+            Built with <img src="/react.png" height="20px" width="20px" />
+          </p>
         </div>
         <div className="footerLinks footerQuarter">
           <Link className="footerlink " to={"/en/login"}>

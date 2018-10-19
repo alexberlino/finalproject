@@ -20,6 +20,10 @@ class About extends Component {
 
     this.handleClick = this.handleClick.bind(this);
   }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   // handleMouseIn() {
   //   this.setState({ hover: true });
   // }

@@ -24,6 +24,10 @@ class About3 extends Component {
     window.location.reload();
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const { t, i18n } = this.props;
 

@@ -72,7 +72,7 @@ class App extends Component {
   componentWillMount() {
     this.setState(
       {
-        lang: location.pathname.slice(1, 3)
+        lang: location.pathname.slice(1, 3) || "en"
       },
       () => i18n.changeLanguage(this.state.lang)
     );
@@ -213,7 +213,12 @@ class App extends Component {
               </Switch>
             </div>
 
-            <Footer />
+            <Footer
+              languageChange={this.changeLanguage}
+              pageChange={this.changePage}
+              lang={lang}
+              page={page}
+            />
           </div>
         </BrowserRouter>
       </div>

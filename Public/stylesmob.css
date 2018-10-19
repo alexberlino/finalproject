@@ -11,6 +11,10 @@
     width: 70%;
   }
 
+  .txthead2 {
+    left: 25px;
+  }
+
   .txt2 {
     font-size: 17px;
     color: black;
@@ -35,9 +39,11 @@
   }
 
   .intro3 {
+    margin-top: 150px;
     margin-bottom: 20px;
-    width: 85%;
+    width: 95%;
     margin-left: 5%;
+    font-size: 18px;
   }
   .portrait {
     position: relative;
@@ -57,9 +63,9 @@
     margin-top: 100px;
     position: relative;
     margin-right: 0px;
-
+    font-size: 18px;
     width: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     height: 400px;
   }
 
@@ -81,6 +87,7 @@
     width: 80px;
   }
   .intro2 {
+    font-size: 18px;
     margin-top: 2px;
     position: relative;
     text-align: center;
@@ -265,7 +272,7 @@
   }
 
   .infoTitle {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 30px;
     z-index: 3000;
   }
@@ -278,7 +285,7 @@
   .infoMain {
     margin-left: 10%;
     width: 80%;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 100px;
   }
   .mainBlog {
@@ -325,11 +332,11 @@
     margin-bottom: 25%;
     padding: 5px;
     z-index: 0;
-    font-size: 16px;
+    font-size: 18px;
   }
   .blognote {
     margin-left: 35px;
-    font-size: 12px;
+    font-size: 15px;
   }
   .articleAuthor {
     margin-left: 10%;
@@ -387,7 +394,7 @@
   }
 
   .contactmeHead {
-    font-size: 22px;
+    font-size: 20px;
     width: 80%;
   }
 
@@ -399,7 +406,7 @@
   }
 
   .contactpage {
-    width: 85%;
+    width: 95%;
     margin-left: 10px;
   }
 
@@ -431,7 +438,7 @@
 
 @media (min-width: 769px) {
   .side-drawer {
-    font-size: 28px;
+    font-size: 25px;
     /* display: none; */
   }
 

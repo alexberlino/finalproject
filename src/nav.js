@@ -105,7 +105,7 @@ class Navigation extends Component {
             </ul>
           </div>
           <li className="languageBtn">
-            <a href={"/de" + this.props.page}>
+            <Link to={"/de" + this.props.page}>
               <img
                 className="languageBtnDE"
                 onClick={() => this.props.languageChange("de")}
@@ -113,8 +113,8 @@ class Navigation extends Component {
                 width="45px"
                 src="/GERMANFLAG.png"
               />
-            </a>
-            <a href={"/en" + this.props.page}>
+            </Link>
+            <Link to={"/en" + this.props.page}>
               <img
                 className="languageBtnEN"
                 onClick={() => this.props.languageChange("en")}
@@ -122,7 +122,7 @@ class Navigation extends Component {
                 width="45px"
                 src="/UKUSFLAG.jpeg"
               />
-            </a>
+            </Link>
           </li>
           <div className="toolbar_toggle_button">
             <img

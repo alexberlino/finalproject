@@ -16,7 +16,9 @@ class Audit extends Component {
     this.state = {};
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
     const { t, i18n } = this.props;
