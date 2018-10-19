@@ -45,7 +45,7 @@ class About3 extends Component {
               {t("about10")}
             </div>
 
-            <div onClick={this.handleClick} className="about22">
+            <div onClick={this.handleClick} className="about22 orange">
               {t("about11")}
             </div>
           </div>

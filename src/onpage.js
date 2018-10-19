@@ -8,14 +8,30 @@ import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import LinksToPages from "./LinksToPages";
-import OnpageElement from "./onpageElement";
+import KeywordResearch from "./Onpage/KeywordResearch";
+import LandingPageOptimization from "./Onpage/LandingPageOptimization";
+import InternalLinking from "./Onpage/InternalLinking";
+import Content from "./Onpage/Content";
+import Images from "./Onpage/Images";
+import StructuredData from "./Onpage/StructuredData";
+import DuplicateContent from "./Onpage/DuplicateContent";
+import VoiceSearch from "./Onpage/VoiceSearch";
+import Metas from "./Onpage/Metas";
 
 class Onpage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+  constructor() {
+    super();
+    this.state = {
+      show: null
+    };
 
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick(n) {
+    this.setState({
+      show: n
+    });
+  }
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -30,23 +46,79 @@ class Onpage extends Component {
           <meta charSet="utf-8" />
           <title>On-page SEO || SEO Berlino</title>
         </Helmet>
-
+        <img src="/onpage.svg" className="logoAnimationServices" />
         <div className="infoTitle"> On-page SEO Audit </div>
 
-        <div className="infoMain">
-          <li>{t("onpageHP1")}</li>
-          <li>{t("onpageHP2")}</li>
-          <li>{t("onpageHP3")}</li>
-          <li>{t("onpageHP4")}</li>
-          <li>{t("onpageHP5")}</li>
-          <li>{t("onpageHP6")}</li>
-          <li>{t("onpageHP7")}</li>
-          <li>{t("onpageHP8")}</li>
-          <li>{t("onpageHP9")}</li>
-          <li>{t("onpageHP10")}</li>
-        </div>
+        <div className="services">
+          <div className="leftServices">
+            <p
+              className="listServices green2"
+              onClick={() => this.handleClick(1)}
+            >
+              {t("onpageHP1")}
+            </p>
+            <p
+              className="listServices green2"
+              onClick={() => this.handleClick(2)}
+            >
+              {t("onpageHP2")}
+            </p>
+            <p
+              className="listServices orange2"
+              onClick={() => this.handleClick(3)}
+            >
+              {t("onpageHP3")} {t("onpageHP5")}
+            </p>
+            <p
+              className="listServices green2"
+              onClick={() => this.handleClick(4)}
+            >
+              {t("onpageHP4")}
+            </p>
+            <p
+              className="listServices orange2"
+              onClick={() => this.handleClick(5)}
+            >
+              {t("onpageHP6")}
+            </p>
+            <p
+              className="listServices orange2"
+              onClick={() => this.handleClick(6)}
+            >
+              {t("onpageHP7")}
+            </p>
+            <p
+              className="listServices green2"
+              onClick={() => this.handleClick(7)}
+            >
+              {t("onpageHP8")}
+            </p>
+            <p
+              className="listServices orange2"
+              onClick={() => this.handleClick(8)}
+            >
+              {t("onpageHP9")}
+            </p>
+            <p
+              className="listServices green2"
+              onClick={() => this.handleClick(9)}
+            >
+              {t("onpageHP10")}
+            </p>
+          </div>
 
-        <OnpageElement />
+          <div className="rightServices">
+            {this.state.show == 1 ? <KeywordResearch /> : null}
+            {this.state.show == 2 ? <LandingPageOptimization /> : null}
+            {this.state.show == 3 ? <InternalLinking /> : null}
+            {this.state.show == 4 ? <Metas /> : null}
+            {this.state.show == 5 ? <Content /> : null}
+            {this.state.show == 6 ? <Images /> : null}
+            {this.state.show == 7 ? <StructuredData /> : null}
+            {this.state.show == 8 ? <DuplicateContent /> : null}
+            {this.state.show == 9 ? <VoiceSearch /> : null}
+          </div>
+        </div>
 
         <LinksToPages
           pageChange={this.props.pageChange}

@@ -7,49 +7,76 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
-import Blog from "./blog";
 import LinksToPages from "./LinksToPages";
+import BacklinkAnalysis from "./Offpage/BacklinkAnalysis";
+import BrandBuilding from "./Offpage/BrandBuilding";
+import Toxic from "./Offpage/Toxic";
 
 class Offpage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+  constructor() {
+    super();
+    this.state = {
+      show: null
+    };
 
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick(n) {
+    this.setState({
+      show: n
+    });
+  }
   componentDidMount() {
     window.scrollTo(0, 0);
   }
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props.i18n.language);
+    console.log(this.props);
 
     return (
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Off-page SEO Berlino</title>
+          <title>Off-page SEO || SEO Berlino</title>
         </Helmet>
-        <div>
-          <div className="infoTitle"> Off-page SEO Audit </div>
-          <div className="infoIntro">{t("offpage_intro")}</div>
-          <div className="infoMain">{t("offpage_main")}</div>
-          <div className="infoMain">
-            Links to your website will always have an importance for your
-            website and "Domain Authority". ​ However since Google's Penguin
-            updates in particular, it is not about how many but which ones.
-            Paying random websites and blogs to get you backlinks will only have
-            minimum positive impact (of not make it worse). There are many
-            options starting with creating a high quality product and content
-            which comes with it, a unique selling proposition and communique it
-            to the sites which will want to mention you. Build your brand
-            through engaging content marketing. ​
+        <img src="/offpage.svg" className="logoAnimationServices" />
+
+        <div className="infoTitle"> Off-page SEO Audit </div>
+
+        <div className="services">
+          <div className="leftServices">
+            <p
+              className="listServices orange2"
+              onClick={() => this.handleClick(2)}
+            >
+              {t("offpageHP1")} {t("offpageHP2")}
+            </p>
+            <p
+              className="listServices green2"
+              onClick={() => this.handleClick(1)}
+            >
+              {t("offpageHP3")} {t("offpageHP4")}
+            </p>
+            <p
+              className="listServices green2"
+              onClick={() => this.handleClick(3)}
+            >
+              {t("offpageHP5")}
+            </p>
           </div>
-          ​
+
+          <div className="rightServices">
+            {this.state.show == 1 ? <BrandBuilding /> : null}
+            {this.state.show == 2 ? <BacklinkAnalysis /> : null}
+            {this.state.show == 3 ? <Toxic /> : null}
+          </div>
         </div>
-        <div>
-          <LinksToPages />
-        </div>
+
+        <LinksToPages
+          pageChange={this.props.pageChange}
+          lang={this.props.lng}
+        />
       </div>
     );
   }
