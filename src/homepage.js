@@ -71,7 +71,7 @@ class Homepage extends Component {
 
           <div className="txt">
             <Link
-              to={this.props.i18n.language + "/about"}
+              to={"/" + this.props.i18n.language + "/about"}
               onClick={() => this.props.pageChange("/about")}
             >
               <img src="/more.svg" className="iconsmore" title="read more" />
@@ -124,7 +124,7 @@ class Homepage extends Component {
               <li>{t("onpageHP10")}</li>
 
               <Link
-                to={this.props.i18n.language + "/onpage"}
+                to={"/" + this.props.i18n.language + "/onpage"}
                 onClick={() => this.props.pageChange("/onpage")}
               >
                 <img src="/more.svg" className="iconsmore" title="read more" />{" "}
@@ -146,7 +146,7 @@ class Homepage extends Component {
               <li>{t("offpageHP5")}</li>
 
               <Link
-                to={this.props.i18n.language + "/offpage"}
+                to={"/" + this.props.i18n.language + "/offpage"}
                 onClick={() => this.props.pageChange("/offpage")}
               >
                 <img src="/more.svg" className="iconsmore" title="read more" />{" "}
@@ -169,7 +169,7 @@ class Homepage extends Component {
               <li>{t("technicalHP6")}</li>
               <li>{t("technicalHP7")}</li>
               <Link
-                to={this.props.i18n.language + "/technical"}
+                to={"/" + this.props.i18n.language + "/technical"}
                 onClick={() => this.props.pageChange("/technical")}
               >
                 <img src="/more.svg" className="iconsmore" title="read more" />{" "}
@@ -191,7 +191,7 @@ class Homepage extends Component {
               <li>{t("analyticsHP5")}</li>
               <li>{t("analyticsHP6")}</li>
               <Link
-                to={this.props.i18n.language + "/research"}
+                to={"/" + this.props.i18n.language + "/research"}
                 onClick={() => this.props.pageChange("/research")}
               >
                 <img src="/more.svg" className="iconsmore" title="read more" />
@@ -226,7 +226,7 @@ class Homepage extends Component {
                 ))}
               </div>
               <Link
-                to={this.props.i18n.language + "/blog"}
+                to={"/" + this.props.i18n.language + "/blog"}
                 onClick={() => this.props.pageChange("/blog")}
               >
                 <img src="/more.svg" className="iconsmore" title="read more" />{" "}
@@ -244,11 +244,11 @@ class Homepage extends Component {
                 <NewsItems />
               </div>
               <Link
-                to={this.props.i18n.language + "/seonews"}
+                to={"/" + this.props.i18n.language + "/seonews"}
                 onClick={() => this.props.pageChange("/seonews")}
               >
                 <img src="/more.svg" className="iconsmore" title="read more" />{" "}
-              </Link>{" "}
+              </Link>
             </ul>
           </div>
         </div>
