@@ -10,12 +10,6 @@ class SideDrawer extends Component {
     super(props);
   }
 
-  componentDidMount() {
-    if (!this.props.lang) {
-      this.props.lang = "en";
-    }
-  }
-
   render() {
     const { t, i18n } = this.props;
     let drawerClasses = "side-drawer";

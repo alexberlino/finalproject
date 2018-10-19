@@ -8,6 +8,7 @@ import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import LinksToPages from "./LinksToPages";
+import OnpageElement from "./onpageElement";
 
 class Onpage extends Component {
   constructor(props) {
@@ -30,51 +31,28 @@ class Onpage extends Component {
           <title>On-page SEO || SEO Berlino</title>
         </Helmet>
 
-        <div>
-          <div className="infoTitle"> On-page SEO Audit </div>
-          <div className="infoIntro">{t("onpageSEO1")}</div>
-          <div className="infoMain">{t("onpageSEO2")}</div>
-          <div className="infoMain">
-            <Link to={this.props.lang + "/onpage/#Keywordresearch"}>
-              <li>{t("onpageHP1")}</li>
-            </Link>
-            <li>{t("onpageHP2")}</li>
-            <li>{t("onpageHP3")}</li>
-            <li>{t("onpageHP4")}</li>
-            <li>{t("onpageHP5")}</li>
-            <li>{t("onpageHP6")}</li>
-            <li>{t("onpageHP7")}</li>
-            <li>{t("onpageHP8")}</li>
-            <li>{t("onpageHP9")}</li>
-            <li>{t("onpageHP10")}</li>
+        <div className="infoTitle"> On-page SEO Audit </div>
 
-            <div id="Keywordresearch">
-              keyword research landing page optimization internal linking and
-              site architecture, metas and tags, related tags and breadcrumb
-              content and semantics image analylis, structured data, duplicate
-              content and canonicalization ready for voice search Increase the
-              number of visitors through top Google rankings with the keywords
-              that matter. ​ Get helps to find the most valuable keywords which
-              best define your business through the eyes of your customers and
-              enable you to generate more revenues. We will analyse your site
-              and pages
-              <div id="keyworresearch">
-                structure to find errors, through a complete report with step by
-                step explanation and ordered by prioritisation. ​ Then we will
-                look at more technical aspects of SEO which are now paramount
-                for good rankings including indexation, canonicalization and
-                crawlability.
-              </div>{" "}
-            </div>
-          </div>
+        <div className="infoMain">
+          <li>{t("onpageHP1")}</li>
+          <li>{t("onpageHP2")}</li>
+          <li>{t("onpageHP3")}</li>
+          <li>{t("onpageHP4")}</li>
+          <li>{t("onpageHP5")}</li>
+          <li>{t("onpageHP6")}</li>
+          <li>{t("onpageHP7")}</li>
+          <li>{t("onpageHP8")}</li>
+          <li>{t("onpageHP9")}</li>
+          <li>{t("onpageHP10")}</li>
         </div>
-        <div>
-          <LinksToPages
-            pageChange={this.props.pageChange}
-            lang={this.props.lng}
-          />
-        </div>
-      </div> //Main
+
+        <OnpageElement />
+
+        <LinksToPages
+          pageChange={this.props.pageChange}
+          lang={this.props.lng}
+        />
+      </div>
     );
   }
 }

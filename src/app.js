@@ -32,7 +32,7 @@ class App extends Component {
     super(props);
     this.state = {
       sideDrawerOpen: false,
-      lang: i18n.language || "en",
+      lang: i18n.language,
       page: location.pathname.slice(3)
     };
 
@@ -69,10 +69,10 @@ class App extends Component {
     });
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.setState(
       {
-        lang: location.pathname.slice(1, 3) || "en"
+        lang: location.pathname.slice(1, 3)
       },
       () => i18n.changeLanguage(this.state.lang)
     );
@@ -145,6 +145,7 @@ class App extends Component {
                   pageChange={this.changePage}
                   render={() => <Onpage />}
                 />
+
                 <Route exact path="/logout" render={() => <Onpage />} />
                 <Route
                   exact
