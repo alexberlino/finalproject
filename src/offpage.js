@@ -16,7 +16,9 @@ class Offpage extends Component {
     this.state = {};
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
 
   render() {
     const { t, i18n } = this.props;
@@ -29,7 +31,7 @@ class Offpage extends Component {
           <title>Off-page SEO Berlino</title>
         </Helmet>
         <div>
-          <div className="infoTitle"> Off-page SEO </div>
+          <div className="infoTitle"> Off-page SEO Audit </div>
           <div className="infoIntro">{t("offpage_intro")}</div>
           <div className="infoMain">{t("offpage_main")}</div>
           <div className="infoMain">

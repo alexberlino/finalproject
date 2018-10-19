@@ -37,14 +37,14 @@ class SideDrawer extends Component {
           <li>
             <a href={"/" + this.props.lang + "/onpage"}>
               <span onClick={() => this.props.pageChange("/onpage")}>
-                ON-PAGE
+                ON-PAGE AUDIT
               </span>
             </a>
           </li>
           <li>
             <a href={"/" + this.props.lang + "/offpage"}>
               <span onClick={() => this.props.pageChange("/offpage")}>
-                OFFPAGE
+                OFF-PAGE AUDIT
               </span>
             </a>
           </li>
@@ -58,24 +58,13 @@ class SideDrawer extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/audit"}>
-              <span onClick={() => this.props.pageChange("/audit")}>AUDIT</span>
-            </a>
-          </li>
-
-          <li>
-            <a href={"/" + this.props.lang + "/blog"}>
-              <span onClick={() => this.props.pageChange("/blog")}>BLOG</span>
-            </a>
-          </li>
-
-          <li>
-            <a href={"/" + this.props.lang + "/contact"}>
-              <span onClick={() => this.props.pageChange("/contact")}>
-                {t("contact")}
+            <a href={"/" + this.props.lang + "/research"}>
+              <span onClick={() => this.props.pageChange("/research")}>
+                ANALYTICS & RESEARCH
               </span>
             </a>
           </li>
+
           <li>
             <a href={"/" + this.props.lang + "/seonews"}>
               <span onClick={() => this.props.pageChange("/seonews")}>
@@ -88,6 +77,18 @@ class SideDrawer extends Component {
             <a href={"/" + this.props.lang + "/resources"}>
               <span onClick={() => this.props.pageChange("/resources")}>
                 RESOURCES
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href={"/" + this.props.lang + "/blog"}>
+              <span onClick={() => this.props.pageChange("/blog")}>BLOG</span>
+            </a>
+          </li>
+          <li>
+            <a href={"/" + this.props.lang + "/contact"}>
+              <span onClick={() => this.props.pageChange("/contact")}>
+                {t("contact")}
               </span>
             </a>
           </li>

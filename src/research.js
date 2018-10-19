@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet";
 import Blog from "./blog";
 import LinksToPages from "./LinksToPages";
 
-class Audit extends Component {
+class Research extends Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -28,12 +28,12 @@ class Audit extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEO Audit || SEO Berlino</title>
+          <title>SEO Analytics and Research || SEO Berlino</title>
         </Helmet>
         <div>
-          <div className="infoTitle"> SEO Audit </div>
-          <div className="infoIntro"> {t("audit_intro")} </div>
-          <div className="infoMain">{t("audit_main")}</div>
+          <div className="infoTitle"> Analytics & Research </div>
+          <div className="infoIntro"> {t("research_intro")} </div>
+          <div className="infoMain">{t("research_main")}</div>
           <div className="infoMain">
             To understand where you stand, you cannot ignore competitors. What
             are they doing that you are not? Which keywords are they targeting,
@@ -53,7 +53,7 @@ class Audit extends Component {
   }
 }
 
-export default translate("translations")(Audit);
+export default translate("translations")(Research);
 
 // const getStateFromRedux = state => {
 //   return {

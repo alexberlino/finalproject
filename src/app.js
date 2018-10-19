@@ -15,7 +15,7 @@ import SideDrawer from "./Sidedraw";
 import Technical from "./technical";
 import Onpage from "./onpage";
 import Offpage from "./offpage";
-import Audit from "./audit";
+import Research from "./research";
 import EditArticle from "./blogedit";
 import Navigation from "./nav";
 import Footer from "./footer";
@@ -163,7 +163,11 @@ class App extends Component {
                   path="/:lang/impressum"
                   render={() => <Impressum />}
                 />
-                <Route exact path="/:lang/audit" render={() => <Audit />} />
+                <Route
+                  exact
+                  path="/:lang/research"
+                  render={() => <Research />}
+                />
                 <Route exact path="/en/admin" render={() => <Admin />} />
                 <Route
                   exact

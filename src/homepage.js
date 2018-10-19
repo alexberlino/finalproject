@@ -112,17 +112,17 @@ class Homepage extends Component {
               <img src="/onpage.svg" className="icons" /> onpage_audit>
             </h2>
             <div className="txt3">
-              <li> keyword research</li>
-              <li> landing page optimization</li>
-              <li>internal linking and site architecture,</li>
-              <li>metas and tags,</li>
-              <li>related tags and breadcrumb</li>
-              <li>content and semantics</li>
-              <li>image analylis,</li>
-              <li>structured data,</li>
-              <li>duplicate content and canonicalization,</li>
+              <li>{t("onpageHP1")}</li>
+              <li>{t("onpageHP2")}</li>
+              <li>{t("onpageHP3")}</li>
+              <li>{t("onpageHP4")}</li>
+              <li>{t("onpageHP5")}</li>
+              <li>{t("onpageHP6")}</li>
+              <li>{t("onpageHP7")}</li>
+              <li>{t("onpageHP8")}</li>
+              <li>{t("onpageHP9")}</li>
+              <li>{t("onpageHP10")}</li>
 
-              <li>voice search</li>
               <Link
                 to={this.props.lang + "/onpage"}
                 onClick={() => this.props.pageChange("/onpage")}
@@ -139,11 +139,12 @@ class Homepage extends Component {
               <img src="/offpage.svg" className="icons" />offpage_audit>
             </h2>
             <div className="txt3">
-              <li>backlink competitor analysis,</li>
-              <li>backlink profile,</li>
-              <li>brandbuilding opportunities,</li>
-              <li>relevant influencers research,</li>
-              <li>toxic links cleaning</li>
+              <li>{t("offpageHP1")}</li>
+              <li>{t("offpageHP2")}</li>
+              <li>{t("offpageHP3")}</li>
+              <li>{t("offpageHP4")}</li>
+              <li>{t("offpageHP5")}</li>
+
               <Link
                 to={this.props.lang + "/offpage"}
                 onClick={() => this.props.pageChange("/offpage")}
@@ -160,14 +161,13 @@ class Homepage extends Component {
               <img src="/technical.svg" className="icons" /> technical_seo>
             </h2>
             <div className="txt3">
-              {" "}
-              <li>indexation, redirects and urls</li>
-              <li>crawlibility, robots.txt, sitemaps</li>
-              <li>internationalisation,</li>
-              <li>pagespeed,</li>
-              <li>mobile-friendliness,</li>
-              <li>React and SEO: dynamic rendering</li>
-              <li>security issues and site migration</li>
+              <li>{t("technicalHP1")}</li>
+              <li>{t("technicalHP2")}</li>
+              <li>{t("technicalHP3")}</li>
+              <li>{t("technicalHP4")}</li>
+              <li>{t("technicalHP5")}</li>
+              <li>{t("technicalHP6")}</li>
+              <li>{t("technicalHP7")}</li>
               <Link
                 to={this.props.lang + "/technical"}
                 onClick={() => this.props.pageChange("/technical")}
@@ -184,15 +184,15 @@ class Homepage extends Component {
             </h2>
 
             <div className="txt3">
-              <li>local SEO</li>
-              <li>analytics and reporting set-up or/and control,</li>
-              <li>competitor analysis,</li>
-              <li>new website, SEO best practices</li>
-              <li>ad-hoc research</li>
-              <li>SEA (Adwords) optimization</li>
+              <li>{t("analyticsHP1")}</li>
+              <li>{t("analyticsHP2")}</li>
+              <li>{t("analyticsHP3")}</li>
+              <li>{t("analyticsHP4")}</li>
+              <li>{t("analyticsHP5")}</li>
+              <li>{t("analyticsHP6")}</li>
               <Link
-                to={this.props.lang + "/audit"}
-                onClick={() => this.props.pageChange("/audit")}
+                to={this.props.lang + "/research"}
+                onClick={() => this.props.pageChange("/research")}
               >
                 <img src="/more.svg" className="iconsmore" title="read more" />{" "}
               </Link>{" "}

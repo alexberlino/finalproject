@@ -20,6 +20,7 @@ class Blog extends Component {
 
   componentDidMount() {
     happyfun();
+    window.scrollTo(0, 0);
   }
 
   render() {
