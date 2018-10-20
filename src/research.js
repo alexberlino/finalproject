@@ -18,14 +18,23 @@ class Technical extends Component {
   constructor() {
     super();
     this.state = {
-      show: null
+      show: null,
+      toggle: "hideRightServices"
     };
 
     this.handleClick = this.handleClick.bind(this);
+    this.handleClickClose = this.handleClickClose.bind(this);
   }
   handleClick(n) {
     this.setState({
-      show: n
+      show: n,
+      toggle: ""
+    });
+  }
+
+  handleClickClose() {
+    this.setState({
+      toggle: "hideRightServices"
     });
   }
   componentDidMount() {
@@ -80,7 +89,11 @@ class Technical extends Component {
             </p>
           </div>
 
-          <div className="rightServices">
+          <div className={this.state.toggle + " rightServices"}>
+            <div className="closeX" onClick={() => this.handleClickClose()}>
+              {" "}
+              X{" "}
+            </div>
             {this.state.show == 1 ? <LocalSEO /> : null}
             {this.state.show == 2 ? <Analytics /> : null}
             {this.state.show == 3 ? <BestPractices /> : null}

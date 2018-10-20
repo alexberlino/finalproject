@@ -46,9 +46,6 @@ class Footer extends Component {
         </div>
         <div className="footerlink footerQuarter">
           All Right Reserved 2018 Alex Bieth{" "}
-          <p>
-            Built with <img src="/react.png" height="20px" width="20px" />
-          </p>
         </div>
         <div className="footerLinks footerQuarter">
           <Link className="footerlink " to={"/en/login"}>
