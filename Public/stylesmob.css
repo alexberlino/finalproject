@@ -218,8 +218,9 @@
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
-    font: 15px;
+    font-size: 18px;
   }
+
   .logoAnimationServices {
     height: 40px;
     width: 40px;
