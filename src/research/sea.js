@@ -10,7 +10,9 @@ class SEA extends Component {
   render() {
     const { t, i18n } = this.props;
     console.log(this.props.i18n.language);
-
+    if (window.innerWidth < 1500) {
+      window.scrollTo(0, 0);
+    }
     return (
       <div className="main">
         <Helmet>

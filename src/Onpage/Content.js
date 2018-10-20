@@ -7,9 +7,14 @@ import i18n from "../i18n";
 import { Helmet } from "react-helmet";
 
 class Content extends Component {
+  componentDidMount() {}
+
   render() {
     const { t, i18n } = this.props;
     console.log(this.props.i18n.language);
+    if (window.innerWidth < 1500) {
+      window.scrollTo(0, 0);
+    }
 
     return (
       <div className="main">

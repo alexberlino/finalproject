@@ -8,6 +8,9 @@ import { Helmet } from "react-helmet";
 
 class DynamicRendering extends Component {
   render() {
+    if (window.innerWidth < 1500) {
+      window.scrollTo(0, 0);
+    }
     const { t, i18n } = this.props;
     console.log(this.props.i18n.language);
 
