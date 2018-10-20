@@ -22,14 +22,23 @@ class Onpage extends Component {
   constructor() {
     super();
     this.state = {
-      show: null
+      show: null,
+      toggle: "hideRightServices"
     };
 
     this.handleClick = this.handleClick.bind(this);
+    this.handleClickClose = this.handleClickClose.bind(this);
   }
   handleClick(n) {
     this.setState({
-      show: n
+      show: n,
+      toggle: ""
+    });
+  }
+
+  handleClickClose() {
+    this.setState({
+      toggle: "hideRightServices"
     });
   }
   componentDidMount() {
@@ -38,7 +47,7 @@ class Onpage extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props);
+    console.log(this.state);
 
     return (
       <div className="main">
@@ -107,7 +116,11 @@ class Onpage extends Component {
             </p>
           </div>
 
-          <div className="rightServices">
+          <div className={this.state.toggle + " rightServices"}>
+            <div className="closeX" onClick={() => this.handleClickClose()}>
+              {" "}
+              X{" "}
+            </div>
             {this.state.show == 1 ? <KeywordResearch /> : null}
             {this.state.show == 2 ? <LandingPageOptimization /> : null}
             {this.state.show == 3 ? <InternalLinking /> : null}

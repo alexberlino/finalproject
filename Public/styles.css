@@ -12,7 +12,7 @@ body {
 
 a {
   text-decoration: none;
-  color: grey;
+  color: white;
 }
 .block {
   display: block;
@@ -27,7 +27,7 @@ a:active {
 }
 
 a:hover {
-  color: #ff851b;
+  color: white;
   text-decoration: none;
 }
 
@@ -458,11 +458,20 @@ section {
   vertical-align: middle;
 }
 
+.listArticlesBlogHP a {
+  color: black;
+}
+
+.serviceText a {
+  color: black;
+}
+
 .imageBlogHP {
   display: inline;
   margin-bottom: 1px;
   vertical-align: middle;
 }
+
 .container {
   position: relative;
   display: block;
@@ -494,6 +503,12 @@ section {
   font-size: 22px;
   margin-left: 15%;
   margin-top: 21px;
+  list-style: none;
+}
+
+.txt3 a {
+  color: black;
+  cursor: help;
 }
 
 .linkToPages {
@@ -1656,22 +1671,23 @@ ul {
   background-color: rgba(20, 20, 20, 0.8);
 }
 
-.services {
-  display: inline-block;
-  position: relative;
-}
 .textblurout {
   -webkit-animation: text-blur-out 2.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
     both;
   animation: text-blur-out 2.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
+.services {
+  display: inline-block;
+  position: relative;
+}
+
 .logoAnimationServices {
   height: 60px;
   width: 60px;
   position: absolute;
-  top: 130px;
-  left: 70px;
+  top: 100px;
+  left: 30px;
   -webkit-animation: bounce-in-top 1s both;
   animation: bounce-in-top 1s both;
 }
@@ -1693,6 +1709,7 @@ ul {
   top: -640px;
   justify-content: flex-start;
 }
+
 .serviceText {
   font-size: 25px;
   margin-bottom: 18px;
@@ -1703,8 +1720,6 @@ ul {
   border-radius: 50px;
   width: 100%;
   padding: 10px;
-  padding-right: 40px;
-  text-align: right;
 }
 
 .serviceTitle {

@@ -12,7 +12,7 @@ class KeywordResearch extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main">
+      <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Keyword Research || SEO Berlino</title>

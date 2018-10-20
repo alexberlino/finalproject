@@ -142,6 +142,77 @@
   .hey span:nth-child(1) {
   }
 
+  .rightServices {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-color: white;
+    z-index: 2;
+    opacity: 0.9;
+  }
+  .serviceText {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .serviceTitle {
+    margin-left: 15%;
+    width: 80%;
+  }
+
+  .closeX {
+    font-size: 50px;
+    float: right;
+    top: 0px;
+  }
+
+  .hideRightServices {
+    display: none;
+  }
+  .services {
+    display: block;
+    position: relative;
+  }
+
+  .serviceText {
+    font-size: 17px;
+    margin-bottom: 18px;
+  }
+
+  .h1services {
+    color: black;
+
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+
+    font-size: 23px;
+  }
+
+  .leftServices {
+    left: 30px;
+    display: block;
+    position: relative;
+    height: auto;
+  }
+
+  .logoAnimationServices {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    z-index: 3;
+    -webkit-animation: bounce-in-top 1s both;
+    animation: bounce-in-top 1s both;
+  }
+
+  .serviceTitle {
+    font-size: 19px;
+  }
+
   .hey span:nth-child(2) {
     top: 158px;
     margin-left: 170px;
@@ -440,6 +511,10 @@
   .side-drawer {
     font-size: 25px;
     /* display: none; */
+  }
+
+  .closeX {
+    display: none;
   }
 
   .linkstoPageMainDiv {
