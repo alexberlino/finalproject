@@ -147,8 +147,8 @@
     width: 100%;
     left: 0px;
     top: 0px;
-    height: 100%;
-    background-color: rgba(240, 240, 240, 0.9);
+    height: 190%;
+    background-color: rgba(240, 240, 240, 0.94);
     z-index: 2;
     opacity: 1;
   }
@@ -174,11 +174,14 @@
   }
 
   .closeX {
-    font-size: 19px;
-    left: 300px;
+    font-size: 26px;
+    left: 80%;
     padding: 5px;
-    position: absolute;
-    top: -20px;
+    width: 3%;
+    height: 3%;
+    z-index: 10;
+    position: sticky;
+    top: 49px;
     color: white;
     background-color: black;
     border: 1px black solid;
@@ -190,6 +193,7 @@
   .services {
     display: block;
     position: relative;
+    margin-bottom: 10%;
   }
 
   .serviceText {
@@ -517,15 +521,14 @@
   }
 
   .linkstoPageMainDiv {
-    font-size: 17px;
+    font-size: 13px;
     margin-left: 10px;
     margin-bottom: 60px;
     margin-top: 50px;
-    z-index: 301;
   }
 
   .linkstoPageMainDiv a {
-    color: black;
+    color: grey;
   }
   .linkstoPageMainDiv li {
     padding: 7px;

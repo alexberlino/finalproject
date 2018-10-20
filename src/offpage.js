@@ -17,7 +17,8 @@ class Offpage extends Component {
     super();
     this.state = {
       show: null,
-      toggle: "hideRightServices"
+      toggle: "hideRightServices",
+      hide: null
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -26,13 +27,15 @@ class Offpage extends Component {
   handleClick(n) {
     this.setState({
       show: n,
-      toggle: ""
+      toggle: "",
+      hide: "hide"
     });
   }
 
   handleClickClose() {
     this.setState({
-      toggle: "hideRightServices"
+      toggle: "hideRightServices",
+      hide: "show"
     });
   }
   componentDidMount() {
@@ -54,7 +57,7 @@ class Offpage extends Component {
         <div className="infoTitle"> Off-page SEO Audit </div>
 
         <div className="services">
-          <div className="leftServices">
+          <div className={this.state.hide + " leftServices"}>
             <p
               className="listServices orange2"
               onClick={() => this.handleClick(2)}

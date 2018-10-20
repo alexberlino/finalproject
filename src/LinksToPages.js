@@ -31,14 +31,14 @@ class LinksToPages extends Component {
           <li>
             <a href={"/" + this.props.lng + "/onpage"}>
               <span onClick={() => this.props.pageChange("/onpage")}>
-                ON-PAGE
+                ON-PAGE AUDIT
               </span>
             </a>
           </li>
           <li>
             <a href={"/" + this.props.lng + "/offpage"}>
               <span onClick={() => this.props.pageChange("/offpage")}>
-                OFFPAGE
+                OFF-PAGE AUDIT
               </span>
             </a>
           </li>
@@ -53,7 +53,9 @@ class LinksToPages extends Component {
 
           <li>
             <a href={"/" + this.props.lng + "/audit"}>
-              <span onClick={() => this.props.pageChange("/audit")}>AUDIT</span>
+              <span onClick={() => this.props.pageChange("/research")}>
+                RESEARCH AND ANALYICS
+              </span>
             </a>
           </li>
 

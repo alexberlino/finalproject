@@ -21,7 +21,8 @@ class Technical extends Component {
     super();
     this.state = {
       show: null,
-      toggle: "hideRightServices"
+      toggle: "hideRightServices",
+      hide: null
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -30,13 +31,15 @@ class Technical extends Component {
   handleClick(n) {
     this.setState({
       show: n,
-      toggle: ""
+      toggle: "",
+      hide: "hide"
     });
   }
 
   handleClickClose() {
     this.setState({
-      toggle: "hideRightServices"
+      toggle: "hideRightServices",
+      hide: "show"
     });
   }
   componentDidMount() {
@@ -58,7 +61,7 @@ class Technical extends Component {
         <img src="/technical.svg" className="logoAnimationServices" />
 
         <div className="services">
-          <div className="leftServices">
+          <div className={this.state.hide + " leftServices"}>
             <p
               className="listServices orange2"
               onClick={() => this.handleClick(1)}
