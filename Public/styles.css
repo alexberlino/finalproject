@@ -189,21 +189,6 @@ iframe {
   vertical-align: middle;
 }
 
-.contactmeHead3 {
-  font-family: bariolregular;
-  color: black;
-  font-size: 23px;
-  border-radius: 10px;
-  background-color: white;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  width: 44%;
-  left: 42%;
-  position: relative;
-  height: 40px;
-  top: 1px;
-}
-
 .formButton {
   background-color: white;
   text-align: center;
@@ -451,7 +436,7 @@ section {
 
 .listArticlesBlogHP {
   display: inline;
-  font-size: 20px;
+  font-size: 19px;
   position: absolute;
   margin-left: 20px;
   height: 70px;
@@ -500,7 +485,7 @@ section {
 }
 
 .txt3 {
-  font-size: 22px;
+  font-size: 19px;
   margin-left: 15%;
   margin-top: 21px;
   list-style: none;
@@ -603,9 +588,9 @@ section {
 }
 
 .listArticlesBlog {
-  width: 80%;
+  width: 90%;
   margin-left: 3px;
-  margin-bottom: 1px;
+  margin-bottom: 70px;
   color: white;
 }
 
@@ -618,7 +603,7 @@ section {
 .important {
   font-weight: bold;
 
-  font-size: 18px;
+  font-size: 19px;
   display: inline;
 }
 .newsItem {
@@ -627,7 +612,7 @@ section {
 }
 .medium,
 .low {
-  font-size: 14px;
+  font-size: 19px;
   display: inline;
 }
 
@@ -789,6 +774,31 @@ h4 {
   font-family: arial;
 }
 
+.txthead3 {
+  color: black;
+  font-size: 24px;
+  width: 60%;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+  left: 100px;
+  position: relative;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.txthead4 {
+  color: black;
+  font-size: 24px;
+  width: 60%;
+  padding-top: 60px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  left: 50px;
+  position: relative;
+  font-weight: bold;
+}
 .introQuarter {
   width: 40%;
 }
@@ -1137,6 +1147,10 @@ h6:before {
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.infoMain a {
+  color: black;
+}
+
 .infoMain2 {
   margin-left: 30%;
   font-size: 20px;
@@ -1162,7 +1176,6 @@ h6:before {
   top: 120px;
   left: 0;
   height: 100%;
-  z-index: 300;
   position: fixed;
 }
 
@@ -1571,13 +1584,10 @@ h6:before {
 .side span {
   color: white;
 }
-
 .side-drawer {
   height: 100%;
-  background: white;
   position: fixed;
   top: 0;
-  color: white;
   left: 0;
   width: 60%;
   max-width: 400px;
@@ -1595,34 +1605,36 @@ h6:before {
   list-style: none;
   display: flex;
   flex-direction: column;
-  color: white;
   justify-content: center;
   height: 100%;
 }
 .side-drawer li {
   margin: 0.5rem 0.5rem;
-  color: white;
+}
+
+.side-drawer a {
+  color: grey;
 }
 
 .side-drawer a:hover {
-  color: black;
-  background-color: white;
+  color: white;
+  width: 100%;
 }
 
 .side_drawer a:visited {
-  color: white;
+  color: lightgrey;
 }
 .blockAbout {
-  height: 80px;
+  height: 60px;
   width: 70%;
   text-align: center;
   margin-bottom: 3px;
   border-radius: 20px;
   margin-left: 10%;
-  padding: 9px;
+  padding: 5px;
   z-index: 10;
   color: black;
-  font-size: 28px;
+  font-size: 23px;
   border: 1px lightgrey solid;
 }
 .blockAbout2 {
@@ -1659,20 +1671,6 @@ h6:before {
 
 ul {
   list-style: none;
-}
-
-.side-drawer {
-  height: 100%;
-  background: white;
-  position: fixed;
-  top: 0;
-  color: white;
-  left: 0;
-  width: 60%;
-  max-width: 400px;
-  z-index: 200;
-  list-style: none;
-  background-color: rgba(20, 20, 20, 0.8);
 }
 
 .textblurout {
@@ -1715,7 +1713,7 @@ ul {
 }
 
 .serviceText {
-  font-size: 25px;
+  font-size: 21px;
   margin-bottom: 18px;
 }
 
@@ -1730,14 +1728,14 @@ ul {
   font-weight: bold;
   margin-top: 30px;
   font-family: arial;
-  font-size: 28px;
+  font-size: 23px;
 }
 .listServices {
   color: black;
   padding: 25px;
   margin: 3px;
   border-radius: 5px;
-  font-size: 27px;
+  font-size: 21px;
 }
 .listServices:hover {
   cursor: help;

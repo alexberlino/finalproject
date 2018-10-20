@@ -146,6 +146,15 @@ class App extends Component {
                   render={() => <Onpage />}
                 />
 
+                <Route
+                  exact
+                  path="/:lang/onpage/:theme"
+                  lang={lang}
+                  page={page}
+                  pageChange={this.changePage}
+                  render={() => <Onpage />}
+                />
+
                 <Route exact path="/logout" render={() => <Onpage />} />
                 <Route
                   exact

@@ -163,9 +163,9 @@
     overflow: hidden;
   }
   .hide2 {
-    -webkit-animation: text-blur-out 7.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    -webkit-animation: text-blur-out 4.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
       both;
-    animation: text-blur-out 7.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-blur-out 4.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   }
   .show {
     transform: translateX(0px);
@@ -179,15 +179,18 @@
   }
 
   .closeX {
-    font-size: 26px;
+    font-size: 15px;
     left: 80%;
     padding: 5px;
-    width: 10px;
-    height: 24px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    width: 8px;
+    height: 8px;
     z-index: 10;
+    border-radius: 160px;
     position: sticky;
     position: -webkit-sticky;
-    top: 46px;
+    top: 50px;
     color: white;
     background-color: black;
     border: 1px black solid;

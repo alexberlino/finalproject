@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default class NoMatch extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>404 Not Found</title>
