@@ -15,7 +15,7 @@ class DuplicateContent extends Component {
     }
 
     return (
-      <div className="main">
+      <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Off-page SEO Berlino</title>

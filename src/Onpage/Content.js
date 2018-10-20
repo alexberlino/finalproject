@@ -17,7 +17,7 @@ class Content extends Component {
     }
 
     return (
-      <div className="main">
+      <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
           <title>On-page:Content || SEO Berlino</title>

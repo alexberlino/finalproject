@@ -14,7 +14,7 @@ class SEA extends Component {
       window.scrollTo(0, 0);
     }
     return (
-      <div className="main">
+      <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
           <title>SEA</title>

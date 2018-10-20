@@ -24,7 +24,8 @@ class Onpage extends Component {
     this.state = {
       show: null,
       toggle: "hideRightServices",
-      hide: null
+      hide: null,
+      hide2: null
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -34,14 +35,16 @@ class Onpage extends Component {
     this.setState({
       show: n,
       toggle: "",
-      hide: "hide"
+      hide: "hide",
+      hide2: "hide2"
     });
   }
 
   handleClickClose() {
     this.setState({
       toggle: "hideRightServices",
-      hide: "show"
+      hide: "show",
+      hide2: null
     });
   }
   componentDidMount() {
@@ -135,11 +138,12 @@ class Onpage extends Component {
             {this.state.show == 9 ? <VoiceSearch /> : null}
           </div>
         </div>
-
-        <LinksToPages
-          pageChange={this.props.pageChange}
-          lang={this.props.lng}
-        />
+        <div className={this.state.hide2}>
+          <LinksToPages
+            pageChange={this.props.pageChange}
+            lang={this.props.lng}
+          />
+        </div>
       </div>
     );
   }

@@ -147,8 +147,8 @@
     width: 100%;
     left: 0px;
     top: 0px;
-    height: 190%;
-    background-color: rgba(240, 240, 240, 0.94);
+    height: 100%;
+    background-color: rgba(360, 360, 360, 0.94);
     z-index: 2;
     opacity: 1;
   }
@@ -161,6 +161,11 @@
     transform: translateX(-400px);
     transition-duration: 3s;
     overflow: hidden;
+  }
+  .hide2 {
+    -webkit-animation: text-blur-out 7.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+      both;
+    animation: text-blur-out 7.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   }
   .show {
     transform: translateX(0px);
@@ -177,12 +182,12 @@
     font-size: 26px;
     left: 80%;
     padding: 5px;
-    width: 3%;
-    height: 3%;
+    width: 10px;
+    height: 24px;
     z-index: 10;
     position: sticky;
     position: -webkit-sticky;
-    top: 49px;
+    top: 46px;
     color: white;
     background-color: black;
     border: 1px black solid;
@@ -203,12 +208,13 @@
   }
 
   .h1services {
-    color: black;
+    color: white;
+    background-color: rgba(104, 168, 150, 0.8);
 
-    width: 100%;
+    width: 70%;
     padding: 5px;
     text-align: center;
-
+    margin-left: 10%;
     font-size: 23px;
   }
 
@@ -239,6 +245,7 @@
 
   .serviceTitle {
     font-size: 19px;
+    margin-bottom: 12px;
   }
 
   .hey span:nth-child(2) {
