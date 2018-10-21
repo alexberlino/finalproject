@@ -60,8 +60,11 @@ class Technical extends Component {
           <title>Technical SEO || SEO Berlino</title>
         </Helmet>
 
-        <div className="infoTitle"> Technical SEO </div>
-        <img src="/technical.svg" className="logoAnimationServices" />
+        <div className="infoTitle">
+          {" "}
+          <img src="/technical.svg" className="logoAnimationServices" />
+          Technical SEO{" "}
+        </div>
 
         <div className="services">
           <div className={this.state.hide + " leftServices"}>

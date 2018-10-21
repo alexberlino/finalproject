@@ -17,18 +17,21 @@ class BacklinkAnalysis extends Component {
           <meta charSet="utf-8" />
           <title>Off-page: Backlink Analysis || SEO Berlino</title>
         </Helmet>
-        <h1 className="h1services"> Keyword Research </h1>
+
+        <h1 className="h1services"> Backlink Analysis</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          {" "}
-          Keyword Research is critical to understand how your potential clients
-          are searching for the product or services you are offering.
+          Often, companies create Landing pages and then expect it to perform as
+          it is.
         </div>
         <div className="serviceTitle"> What I can deliver to you</div>
         <div className="serviceText">
-          {" "}
-          Provide to you a list of the best keywords for both visibility and
-          target niche.
+          Check how the Landing page fits within the website, is it optimized
+          for its content.
+        </div>
+        <div className="serviceTitle"> Tools and Resources</div>
+        <div className="serviceText">
+          <footer>CrazyEgg </footer>
         </div>
       </div>
     );

@@ -57,9 +57,12 @@ class Technical extends Component {
           <meta charSet="utf-8" />
           <title>Research and Analytics || SEO Berlino</title>
         </Helmet>
-        <img src="/analytics.svg" className="logoAnimationServices" />
 
-        <div className="infoTitle"> Research and Analytics </div>
+        <div className="infoTitle">
+          {" "}
+          <img src="/analytics.svg" className="logoAnimationServices" />
+          Research and Analytics{" "}
+        </div>
 
         <div className="services">
           <div className={this.state.hide + " leftServices"}>

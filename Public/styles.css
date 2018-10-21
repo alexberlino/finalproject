@@ -568,7 +568,7 @@ section {
 /* BLOG START  */
 
 .leftBlog {
-  background-color: rgba(80, 0, 0, 0.75);
+  background-color: rgba(300, 300, 300, 0.75);
   color: lightgrey;
   font-style: bariolregular;
   margin-top: 1%;
@@ -590,8 +590,8 @@ section {
 .listArticlesBlog {
   width: 90%;
   margin-left: 3px;
-  margin-bottom: 70px;
-  color: white;
+  margin-bottom: 20px;
+  color: black;
 }
 
 .importancenews {
@@ -1718,10 +1718,15 @@ ul {
 }
 
 .h1services {
-  color: black;
+  color: white;
   border-radius: 50px;
   width: 100%;
   padding: 10px;
+  text-align: center;
+  font-size: 23px;
+  margin: 10%;
+
+  background-color: rgba(104, 168, 150, 0.8);
 }
 
 .serviceTitle {

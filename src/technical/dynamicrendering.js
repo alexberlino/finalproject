@@ -18,10 +18,23 @@ class DynamicRendering extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO: DynamicRendering || SEO Berlino</title>
-        </Helmet>DynamicRendering
+          <title>Technical SEO: Dynamic Rendering || SEO Berlino</title>
+        </Helmet>
+        <h1 className="h1services"> Dynamic Rendering</h1>
         <div className="serviceTitle"> Why it's Important</div>
+        <div className="serviceText">
+          Often, companies create Landing pages and then expect it to perform as
+          it is.
+        </div>
         <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceText">
+          Check how the Landing page fits within the website, is it optimized
+          for its content.
+        </div>
+        <div className="serviceTitle"> Tools and Resources</div>
+        <div className="serviceText">
+          <footer>CrazyEgg </footer>
+        </div>
       </div>
     );
   }

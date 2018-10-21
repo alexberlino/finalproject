@@ -23,10 +23,7 @@ class Resources extends Component {
         <div id="three-js-item" />
         <div>
           <div className="infoTitle"> SEO Resources </div>
-          <div className="infoIntro">
-            Here are some of the most useful tools and resources to improve your
-            SEO monitoring
-          </div>
+
           <div className="infoMain">
             <ul className="block">
               <li className="txthead4"> > SEO Jargon </li>

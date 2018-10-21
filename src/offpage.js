@@ -55,9 +55,12 @@ class Offpage extends Component {
           <meta charSet="utf-8" />
           <title>Off-page SEO || SEO Berlino</title>
         </Helmet>
-        <img src="/offpage.svg" className="logoAnimationServices" />
 
-        <div className="infoTitle"> Off-page SEO Audit </div>
+        <div className="infoTitle">
+          {" "}
+          <img src="/offpage.svg" className="logoAnimationServices" />
+          Off-page SEO Audit{" "}
+        </div>
 
         <div className="services">
           <div className={this.state.hide + " leftServices"}>

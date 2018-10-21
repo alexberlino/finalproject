@@ -170,9 +170,9 @@
     overflow: hidden;
   }
   .hide2 {
-    -webkit-animation: text-blur-out 4.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    -webkit-animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
       both;
-    animation: text-blur-out 4.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   }
   .show {
     transform: translateX(0px);
@@ -243,11 +243,11 @@
   }
 
   .logoAnimationServices {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: 50px;
-    left: 30px;
+    height: 30px;
+    width: 30px;
+    position: sticky;
+    position: -webkit-sticky;
+    float: left;
     z-index: 3;
     -webkit-animation: bounce-in-top 1s both;
     animation: bounce-in-top 1s both;
@@ -389,8 +389,14 @@
   }
 
   .infoTitle {
+    top: 30px;
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 27px;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 1;
+
+    background-color: rgba(300, 300, 300, 0.7);
   }
   .infoIntro {
     margin-left: 10%;
