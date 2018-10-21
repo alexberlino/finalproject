@@ -20,8 +20,8 @@ class BrandBuilding extends Component {
         <h1 className="h1services"> Brandbuilding </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Your links represent your reputation and relevancy in your domain.
+          Linkbuilding now goes hand in hand with brandbuilding.
         </div>
         <div className="serviceTitle"> What I can deliver to you</div>
         <div className="serviceText">

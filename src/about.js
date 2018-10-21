@@ -24,13 +24,6 @@ class About extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
-  // handleMouseIn() {
-  //   this.setState({ hover: true });
-  // }
-  //
-  // handleMouseOut() {
-  //   this.setState({ hover: false });
-  // }
 
   handleClick() {
     this.setState({ categorie: "text-blur-out" });
@@ -45,19 +38,6 @@ class About extends Component {
       500
     );
   }
-  tooltipStyle() {
-    display: this.state.hover ? "block" : "none";
-  }
-
-  // this.setState({ categorie: "text-blur-out" });
-
-  // setTimeout(
-  //   this.setState({
-  //     clicked: true,
-  //     categorie: null
-  //   }),
-  //   1000
-  // );
 
   render() {
     const { t, i18n } = this.props;

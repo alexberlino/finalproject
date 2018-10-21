@@ -21,17 +21,33 @@ class BacklinkAnalysis extends Component {
         <h1 className="h1services"> Backlink Analysis</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Links are still very important in SEO. It is therefore crucial to
+          understand where you stand, plan, execute and control your backlinks
+          activities.
         </div>
         <div className="serviceTitle"> What I can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
+          <li>Analyse your backlink profile and of your competitors.</li>
+          <li>
+            Create a report with your profile's pros and cons, including *toxic
+            links*
+          </li>
+          <li>
+            Based on your industry and your competition, make some
+            recommendations with an action plan, focusing on *brand building*
+          </li>
         </div>
         <div className="serviceTitle"> Tools and Resources</div>
         <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          <a className="block" href="https://moz.com/link-explorer">
+            Moz Link Explorer
+          </a>{" "}
+          <a className="block" href="https://de.majestic.com/">
+            Majestic SEO
+          </a>
+          <a className="block" href="https://ahrefs.com/de/">
+            ahrefs
+          </a>{" "}
         </div>
       </div>
     );

@@ -16,6 +16,11 @@
     margin-left: 10%;
     width: 70%;
   }
+  .txt4 {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+  }
 
   .txthead2 {
     left: 10px;
@@ -497,6 +502,8 @@
 
   .blockAbout {
     font-size: 18px;
+    width: 70%;
+    height: auto;
   }
   .blockAbout2 {
     font-size: 18px;

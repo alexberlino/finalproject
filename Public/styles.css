@@ -18,6 +18,17 @@ a {
   display: block;
   position: relative;
 }
+.blockbold {
+  display: block;
+  position: relative;
+  font-weight: bolder;
+  font-family: arial;
+  color: black;
+}
+a:hover.blockbold {
+  color: black;
+}
+
 a:visited {
   text-decoration: grey;
 }
@@ -488,7 +499,16 @@ section {
   font-size: 19px;
   margin-left: 15%;
   margin-top: 21px;
+}
+
+.txt4 {
+  font-size: 25px;
+  margin-left: 15%;
+  margin-top: 21px;
   list-style: none;
+  text-align: left;
+  width: 60%;
+  color: rgba(70, 70, 70);
 }
 
 .txt3 a {
@@ -603,16 +623,17 @@ section {
 .important {
   font-weight: bold;
 
-  font-size: 19px;
+  font-size: 23px;
   display: inline;
 }
 .newsItem {
   display: block;
   padding: 10px;
 }
+
 .medium,
 .low {
-  font-size: 19px;
+  font-size: 23px;
   display: inline;
 }
 
@@ -1133,15 +1154,17 @@ h6:before {
 }
 
 .infoMain {
+  padding-left: 40px;
+  padding-bottom: 40px;
+  margin-left: 10%;
   margin-left: 20%;
   font-size: 20px;
-  background-color: white;
+  background-color: rgba(300, 300, 300, 0.6);
   position: relative;
-  top: -50px;
-
+  height: auto;
   color: black;
   width: 60%;
-  padding: 5px;
+
   -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -1626,12 +1649,12 @@ h6:before {
 }
 .blockAbout {
   height: 60px;
-  width: 70%;
+  width: 50%;
   text-align: center;
   margin-bottom: 3px;
   border-radius: 20px;
   margin-left: 10%;
-  padding: 5px;
+  padding: 15px;
   z-index: 10;
   color: black;
   font-size: 23px;
@@ -1641,7 +1664,7 @@ h6:before {
   height: 50px;
   width: 30%;
   max-height: 99%;
-  z-index: 10;
+
   position: relative;
 
   text-align: center;
