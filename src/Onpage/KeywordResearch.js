@@ -19,17 +19,20 @@ class KeywordResearch extends Component {
         </Helmet>
 
         <h1 className="h1services"> Keyword Research </h1>
-        <div className="serviceTitle"> >Why it's Important</div>
+        <div className="serviceTitle"> >Why it's (extremely) Important</div>
         <div className="serviceText">
           {" "}
           Keyword Research is critical to understand how your potential clients
-          are searching for the product or services you are offering.
+          are searching for the products or services you are offering. There is
+          often a gap between the language of the users and the one the website
+          is using.
         </div>
         <div className="serviceTitle"> >What we can deliver to you</div>
         <div className="serviceText">
           {" "}
-          Provide to you a list of the best keywords for both visibility and
-          target niche.
+          Research using a wide range of sources and provide you a list of the
+          best keywords for both broad/related reach and target niche, with
+          search volume and conversion potential.
         </div>
         <div className="serviceTitle"> >Tools and Resources</div>
         <div className="serviceText">

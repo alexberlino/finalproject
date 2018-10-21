@@ -25,7 +25,7 @@ class BacklinkAnalysis extends Component {
           understand where you stand, plan, execute and control your backlinks
           activities.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
           <li>Analyse your backlink profile and of your competitors.</li>
           <li>
@@ -37,7 +37,7 @@ class BacklinkAnalysis extends Component {
             recommendations with an action plan, focusing on *brand building*
           </li>
         </div>
-        <div className="serviceTitle"> Tools and Resources</div>
+        <div className="serviceTitle"> Related Tools and Resources</div>
         <div className="serviceText">
           <a className="block" href="https://moz.com/link-explorer">
             Moz Link Explorer

@@ -19,19 +19,16 @@ class InternalLinking extends Component {
         </Helmet>
 
         <h1 className="h1services"> Internal Linking </h1>
-        <div className="serviceTitle"> Why it's Important</div>
+        <div className="serviceTitle"> Why it's (extermely) Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Internal Linking is core for on-page SEO, especially for big websites.
+          Link juice redistribution, prioritization of key pages or site
+          sections to name a few reasons.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
           Check how the Landing page fits within the website, is it optimized
           for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
         </div>
       </div>
     );

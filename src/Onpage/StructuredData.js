@@ -24,17 +24,18 @@ class StructuredData extends Component {
         <h1 className="h1services"> Structured Data </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Google, Bing, Yandex and Yahoo agreed on a standardised format:
+          schema.org for providing information about a page and to classify its
+          content. using Structured Data will enable you to improve the way your
+          pages are displayed.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          You can use Structured Data to provide additional information about
+          creative work, events, organisation, a person, a place or a product.
+          Here is a list of the most common used of Structured Data: *
+          Organization information * Local business Markup * Product and Offer *
+          Breadcrumb * Ratings * Site navigation
         </div>
       </div>
     );

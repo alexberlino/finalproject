@@ -17,20 +17,22 @@ class Indexation extends Component {
           <meta charSet="utf-8" />
           <title>Technical SEO: Indexation|| SEO Berlino</title>
         </Helmet>
-        <h1 className="h1services"> Indexation</h1>
+        <h1 className="h1services"> Indexation, redirects and urls.</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Efficient Indexation is key in order to get on well with Google's
+          spiders. Many belive the more pages indexed the better; that is only
+          true to a certain level. If you have many non-valuable, not-visite or
+          duplicate pages indexed for example, the bot will likely limit your
+          "crawling credit" and discard those pages which you value most.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Make sure all the important pages are indexed and that those you do
+          not want indexed are not. Check on duplicate or irrelevant indexed
+          pages and work on a plan to have those pages de-indexed. Check on your
+          redirects, make sure you are using the correct status codes and the
+          url structure.
         </div>
       </div>
     );

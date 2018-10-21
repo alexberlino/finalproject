@@ -20,17 +20,19 @@ class Toxic extends Component {
         <h1 className="h1services"> Cleaning Toxic Links </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Many think the more the better but it doesn't actually work that way.
+          Too many low quality and/or spammy links and your website will lose
+          "Google credibility" and therefore visibility.
         </div>
         <div className="serviceTitle"> What I can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
+          Since a few years already, you as website owner are responsible for
+          the backlinks pointing to your site, so you need to constantly
+          monitor, identify bad links and clean up your backlink profile.
         </div>
-        <div className="serviceTitle"> Tools and Resources</div>
+        <div className="serviceTitle"> Related Tools and Resources</div>
         <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          <footer>Disavow Links - Google Search Console </footer>
         </div>
       </div>
     );

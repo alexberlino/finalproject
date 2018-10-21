@@ -22,17 +22,16 @@ class BestPractices extends Component {
         <h1 className="h1services"> Best Practices for new Websites</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Planning ahead the SEO strategy before building the website helps to
+          avoid re-doing parts of the website which could be SEO-unfriendly,
+          thus saving you time and euros.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          {" "}
+          Assitance in your technical planning, understanding priorities,
+          retrictions and objectives and make sure it fits SEO-friendliness,
+          help you plan ahead a brandbuilding (link acquisition) strategy.
         </div>
       </div>
     );

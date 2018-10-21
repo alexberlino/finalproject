@@ -24,17 +24,16 @@ class Images extends Component {
         <h1 className="h1services"> Images Optimization </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Image Search still represents for most industry an important SEO
+          subchannel. Given how Image search now works, many Image "visits" are
+          only virtual and therefore invisible in analytics reports. Image
+          Search is still a fantastic opportunity to improve brand awareness.
         </div>
         <div className="serviceTitle"> What I can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Make sure images are well optimized from image hosting to image alt
+          tags. In case, your website actively uses images, help you with a
+          strategy to improve brand awareness.
         </div>
       </div>
     );

@@ -24,17 +24,15 @@ class VoiceSearch extends Component {
         <h1 className="h1services"> Optimization for Voice Search</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Voice search is already disrupting online marketing. It already
+          represents an important share of the number of searches. In order to
+          be ready for it, every website needs to understand how it changes
+          classical SEO.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          A personalised report on voice searches for your industry and how this
+          affect your on-page SEO strategy and your "VIP" Keywords.
         </div>
       </div>
     );

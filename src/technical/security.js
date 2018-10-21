@@ -23,17 +23,15 @@ class Security extends Component {
         <h1 className="h1services"> Security, HTTPS transition</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Https for "early-adopters" may have given them an advantage on their
+          competitors, but now it has become the norm. If you haven't made the
+          transition yet, it needs to be very high on your priority list.
         </div>
         <div className="serviceTitle"> What I can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Help you with plan on how to make the migrations, incluing identify
+          pages to redirect (which should be most), and those you should not,
+          technical challenges to plan and timing.
         </div>
       </div>
     );

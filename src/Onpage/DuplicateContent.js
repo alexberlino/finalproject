@@ -21,20 +21,17 @@ class DuplicateContent extends Component {
           <title>Duplicate Content SEO Berlino</title>
         </Helmet>
 
-        <h1 className="h1services"> Duplicate Content</h1>
+        <h1 className="h1services"> Duplicate Content and Canonicals</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Search Engines do not like duplicate content indexed. If you have many
+          similar pages and you are not flagging them, these pages will not rank
+          well.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Identify duplicate content, assess status and design "master page",
+          deindex unnecessary pages using canonicals.
         </div>
       </div>
     );

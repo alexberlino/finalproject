@@ -20,17 +20,19 @@ class PageSpeed extends Component {
         <h1 className="h1services"> PageSpeed</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          If your pages are slow to load, Google will figure it out and will
+          categorize your website as poor user experience, therefore suffering
+          in terms of organic visibility. If you haven't done it yet, I strongly
+          advise you to use the PageSpeed Insights tool (link below){" "}
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
-        <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
+
         <div className="serviceTitle"> Tools and Resources</div>
         <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          <footer>
+            <a href="https://developers.google.com/speed/pagespeed/insights/?hl=de">
+              Google PageSpeed Insights
+            </a>{" "}
+          </footer>
         </div>
       </div>
     );

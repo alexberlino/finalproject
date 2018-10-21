@@ -20,17 +20,16 @@ class Internationalisation extends Component {
         <h1 className="h1services"> Internationalisation</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          There are various options when operating internationally: same root
+          domain, different top level domains, how to link between them, how to
+          simplify the process without affecting your SEO.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Audit or help you set-up an effective SEO strategy depending on your
+          requirements and resources. Make sure the language meta tags and
+          settings the Search console are set-up, evaluate any possible SEO
+          damage if using client-side rendering with a mixed url structure.
         </div>
       </div>
     );

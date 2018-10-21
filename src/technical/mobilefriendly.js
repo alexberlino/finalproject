@@ -21,19 +21,20 @@ class MobileFriendly extends Component {
           <title>Technical SEO: MobileFriendly SEO Berlino</title>
         </Helmet>
         <h1 className="h1services"> Mobile Friendly Websites</h1>
-        <div className="serviceTitle"> Why it's Important</div>
+        <div className="serviceTitle"> Why it's (extremely) Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          If your website it not mobile friendly, in most cases, you are
+          trouble. Google now uses the mobile version for indexation ("mobile
+          first"). If you are not sure, you can use Google's tool below.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
-        <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
+
         <div className="serviceTitle"> Tools and Resources</div>
         <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          <footer>
+            <a href="https://search.google.com/test/mobile-friendly">
+              Google's Mobile Friendly Test
+            </a>{" "}
+          </footer>
         </div>
       </div>
     );

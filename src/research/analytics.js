@@ -18,19 +18,23 @@ class Analytics extends Component {
           <title>Analytics || SEO Berlino</title>
         </Helmet>
         <h1 className="h1services"> Analytics</h1>
-        <div className="serviceTitle"> Why it's Important</div>
+        <div className="serviceTitle"> Why it's (extremely) Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          In order to efficiently work in SEO, especially for on-page work, it
+          is crucial to use reliable data, and analytics is key here in
+          compiling reports which will enable for instance to identify the
+          number of visits/unique visitors and conversions for specific pages
+          and site sections, or compare data by device type or browser.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
+          Set-up or fix your Analytics if not implemented or if the data is not
+          reliable. Create reports for SEO monitoring and controlling.
         </div>
-        <div className="serviceTitle"> Tools and Resources</div>
+        <div className="serviceTitle"> Relevant Tools and Resources</div>
         <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          <footer>Google Analytics </footer>
+          <footer>Site Catalyst / Omniture</footer>
         </div>
       </div>
     );

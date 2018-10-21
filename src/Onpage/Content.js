@@ -26,17 +26,16 @@ class Content extends Component {
         <h1 className="h1services"> Content & Semantics </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Content is King, and far away are the times when Google got tricked
+          with keyword stuffing. As Google bots constantly improve to assess
+          your website's content, and while mobile first means the content on
+          the mobile version counts the most, space is more limited.
         </div>
         <div className="serviceTitle"> What I can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Check content quality, good usage of semantics, still using the most
+          important keywords and variations while keeping focus on relevancy for
+          the user and not focus on Google only.
         </div>
       </div>
     );

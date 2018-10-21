@@ -18,14 +18,11 @@ class Adhoc extends Component {
           <title>Research & Analytics: Ad-hoc || SEO Berlino</title>
         </Helmet>
         <h1 className="h1services"> Research & Analytics: Ad-hoc</h1>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Some SEO requests can be quite specific and not fit in one of the
+          categorisations listed yet. Still not hesitate to reach out and
+          explain your needs.
         </div>
       </div>
     );

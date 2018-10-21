@@ -40,6 +40,7 @@ class Offpage extends Component {
       hide: "show",
       hide2: null
     });
+    window.scrollTo(0, 0);
   }
   componentDidMount() {
     window.scrollTo(0, 0);

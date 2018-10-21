@@ -20,17 +20,18 @@ class LocalSEO extends Component {
         <h1 className="h1services"> Local SEO</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Especially for local business, it is paramount to align your SEO
+          overall strategy to local SEO. It is important to keep in mind that
+          the most important factor in personalised search results is location.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
+          In the audit which is affected by both on-page an off-page, local SEO
+          factors such as city/ region mention will be taken in account.
         </div>
-        <div className="serviceTitle"> Tools and Resources</div>
+        <div className="serviceTitle"> Relevant Tools and Resources</div>
         <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          <footer>Google's MyBusiness</footer>
         </div>
       </div>
     );

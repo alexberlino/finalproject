@@ -21,17 +21,13 @@ class Crawlibility extends Component {
         <h1 className="h1services"> Crawlibility</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Crawlibility goes hand in hand with indexation. In order to adjust and
+          optimize indexation, you can improve and guide Google on how it crawls
+          your site.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Set-up or Audit of your sitemaps, robots file and robots metas.
         </div>
       </div>
     );

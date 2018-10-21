@@ -22,16 +22,15 @@ class LandingPageOptimization extends Component {
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Often, companies create Landing pages and then expect it to perform as
-          it is.
+          it is. There are actually many factors that will make a landing page
+          work, from design & UX to SEO.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          Check how the Landing page(s) fit(s) within your website, its
+          connection to other pages and the landing page, internal and external
+          links poiting to it, content and semantics, technical aspects, image
+          optimization, and other relevancy factors.
         </div>
       </div>
     );

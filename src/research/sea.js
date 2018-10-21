@@ -22,17 +22,19 @@ class SEA extends Component {
         <h1 className="h1services"> SEA, Search Engine Advertising</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Paid Search uses the same base as SEO in keywords, and of course share
+          the same space in SERPs (Search Engine Result Pages). With poor SEO
+          visibility, SEA helps you to get those first visits to get going
+          and/or get visibility and bran awareness using the Display Network.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
+          Adwords Set-up and/or optimization, landing pages testing. Keywords
+          bid ajustments depending on the strategy.
         </div>
-        <div className="serviceTitle"> Tools and Resources</div>
+        <div className="serviceTitle"> Releted Tools and Resources</div>
         <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          <footer>Adwords </footer>
         </div>
       </div>
     );

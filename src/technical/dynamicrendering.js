@@ -23,13 +23,15 @@ class DynamicRendering extends Component {
         <h1 className="h1services"> Dynamic Rendering</h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          For JavaScript apps (such as this one), search engines such as Google
+          still struggle to properly crawl and index all pages. Although they
+          say they can achieve this overtime, after many "visits", they do
+          recommend for most sites to use dynamic rendering.
         </div>
         <div className="serviceTitle"> What I can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
+          Help you efficiently implement dynamic rendering, if your site
+          actually needs it.
         </div>
         <div className="serviceTitle"> Tools and Resources</div>
         <div className="serviceText">

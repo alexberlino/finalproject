@@ -15,23 +15,26 @@ class Metas extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Metas & Tags Optimization SEO Berlino</title>
+          <title>Metas Tags Optimization SEO Berlino</title>
         </Helmet>
 
-        <h1 className="h1services"> Metas & Tags Optimization </h1>
+        <h1 className="h1services"> Metas Tags Optimization </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is.
+          Basic aspect of SEO, they are somehow often neglected. The two main
+          ones: meta title and description can also have a negative impact on
+          CTR (Click-through-rate) when incorrectly implemented.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
+          crawling through your website to analyse and identify opportunities
+          such duplicate metas, length, problematic use variables, phrasing,
+          consistency, etc. Metas to be checked: title, description, viewport
+          and when needed: robots and language.
         </div>
         <div className="serviceTitle"> Tools and Resources</div>
         <div className="serviceText">
-          <footer>CrazyEgg </footer>
+          <footer>Screaming Frog </footer>
         </div>
       </div>
     );
