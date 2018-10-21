@@ -213,7 +213,7 @@ class Homepage extends Component {
 
         <div>
           <div>
-            <h2 className="txt2 txthead2"> blog></h2>
+            <h2 className="txt2 txthead"> blog></h2>
             <ul>
               <div className="blogArticlesHP">
                 {this.state.articles.map(article => (
@@ -248,7 +248,7 @@ class Homepage extends Component {
 
         <div>
           <div>
-            <h2 className="txt2 txthead2"> latest seonews></h2>
+            <h2 className="txt2 txthead"> latest seonews></h2>
             <ul>
               <div className="homepageNews">
                 <a href={"/" + this.props.i18n.language + "/seonews"} />
@@ -264,6 +264,11 @@ class Homepage extends Component {
           </div>
         </div>
         <div className="contactmob">
+          <h2 className="txt2 txthead"> {t("getintouch")}></h2>
+          <h2 className="txt">
+            <img src="/telephone.svg" className="iconphone" />015 787 011 932
+          </h2>
+
           <ContactMain />
         </div>
         <LinksToPages />

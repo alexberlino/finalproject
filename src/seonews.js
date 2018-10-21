@@ -9,6 +9,11 @@ import NewsItems from "./NewsItems";
 import LinksToPages from "./LinksToPages";
 
 class SEONews extends Component {
+  componentDidMount() {
+    happyfun();
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="main">
@@ -17,6 +22,7 @@ class SEONews extends Component {
           <meta charSet="utf-8" />
           <title>SEO News || SEOBerlino</title>
         </Helmet>
+        <div id="three-js-item" />
         <div>
           <div className="infoTitle"> Latest SEO News - tl;dr </div>
           <div className="infoIntro">

@@ -128,48 +128,48 @@ iframe {
 
 .maincontact2 {
   margin-top: 80px;
-  width: 95%;
+  width: 100%;
   min-height: calc(100vh - 160px);
-}
-
-.mainContact {
-  position: relative;
-  display: inline-flex;
-  margin-top: 5%;
-  width: 60%;
-  margin-left: 10%;
-  min-height: calc(100vh - 160px);
+  background-color: rgba(200, 200, 200, 0.2);
 }
 
 .map {
   position: relative;
   display: inline-flex;
-  left: 30%;
-  top: -100px;
-  width: 55%;
+
+  width: 35%;
   height: 400px;
 }
 
 .contactpage {
   position: relative;
-  display: inline-block;
-  background-color: rgba(100, 100, 100, 0.1);
+  display: inline;
   width: 75%;
   border-radius: 20px;
   padding: 5px;
-  padding-right: -5px;
-  height: auto;
-  min-height: 550px;
   margin-left: 10%;
-  margin-bottom: 60px;
 }
 .leftContact {
-  position: absolute;
+  position: relative;
+  display: inline;
+  margin-bottom: 100px;
+  color: white;
+  width: auto;
+  opacity: 0.93;
+  height: 400px;
+}
+
+.contactmob {
+  background-color: rgba(200, 200, 200, 0.1);
+}
+.rightContact {
+  position: relative;
   display: inline;
   color: white;
   width: auto;
-  z-index: 1;
+  height: auto;
   opacity: 0.93;
+  height: 400px;
 }
 
 .fieldMessage {
@@ -180,13 +180,12 @@ iframe {
 .contactmeHead {
   font-family: bariolregular;
   color: grey;
-  font-size: 36px;
-  width: 100%;
-  left: 80px;
+  font-size: 30px;
+  margin-left: 30%;
   position: relative;
   height: 40px;
+  width: 300px;
   top: 10px;
-  vertical-align: middle;
 }
 
 .formButton {
@@ -309,6 +308,7 @@ iframe {
   padding-right: 0px;
   top: 110px;
   width: 600px;
+  margin: 0px;
   z-index: 0;
   left: 150px;
   display: block;
@@ -467,7 +467,7 @@ section {
   text-align: center;
   margin: 1px;
   margin-top: 1.7rem;
-  margin-left: 50%;
+  margin-left: 18%;
   width: 40%;
 }
 
@@ -1514,9 +1514,9 @@ h6:before {
 
 .toolbar_logo {
   margin-left: 2rem;
-  margin-top: 1rem;
-  height: 60px;
-  width: 190px;
+  margin-top: 2.1rem;
+  height: 70px;
+  width: 120px;
 }
 .toolbar_logo a {
 }

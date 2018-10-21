@@ -8,6 +8,10 @@ import { Helmet } from "react-helmet";
 import LinksToPages from "./LinksToPages";
 
 class Resources extends Component {
+  componentDidMount() {
+    happyfun();
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="main">
@@ -16,6 +20,7 @@ class Resources extends Component {
           <meta charSet="utf-8" />
           <title>SEO Resources || SEOBerlino</title>
         </Helmet>
+        <div id="three-js-item" />
         <div>
           <div className="infoTitle"> SEO Resources </div>
           <div className="infoIntro">

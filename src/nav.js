@@ -26,9 +26,7 @@ class Navigation extends Component {
             <a href={"/" + this.props.lang}>
               <img
                 className="toolbar_logo"
-                src="/logo.png"
-                width="150px"
-                heigth="60px"
+                src="/logonew.png"
                 onClick={() => this.props.pageChange("/")}
               />
             </a>

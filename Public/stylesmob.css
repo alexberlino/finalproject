@@ -1,7 +1,13 @@
 @media (max-width: 768px) {
+  .h2 {
+    margin: 0;
+    padding: 0;
+  }
   .imageHP {
     width: 60%;
     height: 80%;
+    left: 110px;
+    margin: 0px;
   }
   .txt {
     font-size: 17px;
@@ -12,13 +18,14 @@
   }
 
   .txthead2 {
-    left: 25px;
+    left: 10px;
+    width: 805;
   }
 
   .txt2 {
     font-size: 17px;
     color: black;
-
+    width: 80%;
     margin-left: 10%;
     font-size: 16px;
     color: black;
@@ -136,7 +143,7 @@
   .hey span {
     top: 140px;
     font-size: 19px;
-    margin-left: 170px;
+    margin-left: 150px;
   }
 
   .hey span:nth-child(1) {
@@ -253,34 +260,34 @@
 
   .hey span:nth-child(2) {
     top: 158px;
-    margin-left: 170px;
+    margin-left: 150px;
   }
 
   .hey span:nth-child(3) {
     top: 160px;
-    margin-left: 155px;
+    margin-left: 130px;
   }
   .hey span:nth-child(4) {
     top: 178px;
-    margin-left: 170px;
+    margin-left: 120px;
   }
   .hey span:nth-child(5) {
     top: 140px;
-    margin-left: 170px;
+    margin-left: 150px;
   }
   .hey span:nth-child(6) {
     top: 158px;
-    margin-left: 170px;
+    margin-left: 150px;
   }
 
   .hey span:nth-child(7) {
     top: 162px;
-    margin-left: 155px;
+    margin-left: 120px;
   }
 
   .hey span:nth-child(8) {
     top: 178px;
-    margin-left: 170px;
+    margin-left: 140px;
   }
 
   .navEntries {
@@ -371,7 +378,7 @@
 
   .maincontact2 {
     margin-top: 80px;
-    width: 96%;
+    width: 100%;
     margin-left: 0px;
   }
 
@@ -504,19 +511,14 @@
 
   .contactmeHead {
     font-size: 20px;
-    width: 80%;
+    width: 25%;
   }
 
   .leftContact {
-    top: 30px;
+    top: 10px;
     bottom: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     position: relative;
-  }
-
-  .contactpage {
-    width: 90%;
-    margin-left: 10px;
   }
 
   .fieldMessage {
@@ -527,8 +529,9 @@
     display: none;
   }
   .toolbar_logo {
-    width: 120px;
+    width: 80px;
     height: 40px;
+    margin-top: 1rem;
   }
 
   .linkstoPageMainDiv {

@@ -62,55 +62,48 @@ class ContactMain extends Component {
     console.log(this.props.i18n.language);
     return (
       <div className="contactpage">
-        <div>
-          <div className="leftContact">
-            <h2 className="contactmeHead"> {t("getintouch")}</h2>
+        <div className="leftContact">
+          <Form onSubmit={this.handleSubmit}>
+            <FormGroup>
+              <Label for="name">{t("fullname")} </Label>
+              <Input
+                type="text"
+                name="name"
+                className="field"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
 
-            <Form onSubmit={this.handleSubmit}>
-              <FormGroup>
-                <Label for="name">{t("fullname")} </Label>
-                <Input
-                  type="text"
-                  name="name"
-                  className="field"
-                  onChange={this.handleChange}
-                />
-              </FormGroup>
+            <FormGroup>
+              <Label for="name">Email* </Label>
+              <Input
+                type="email"
+                name="email"
+                className="field"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
 
-              <FormGroup>
-                <Label for="name">Email* </Label>
-                <Input
-                  type="email"
-                  name="email"
-                  className="field"
-                  onChange={this.handleChange}
-                />
-              </FormGroup>
+            <FormGroup>
+              <Label for="name">{t("message")} </Label>
+              <textarea
+                type="text"
+                name="message"
+                className="fieldMessage"
+                onChange={this.handleChange}
+              />
+            </FormGroup>
 
-              <FormGroup>
-                <Label for="name">{t("message")} </Label>
-                <textarea
-                  type="text"
-                  name="message"
-                  className="fieldMessage"
-                  onChange={this.handleChange}
-                />
-              </FormGroup>
-
-              <Button className="formButton">Submit </Button>
-            </Form>
-          </div>
-          <div className="rightContact">
-            <h2 className="contactmeHead3">
-              <img src="/telephone.svg" className="iconphone" />015 787 011 932
-            </h2>
-            <iframe
-              frameBorder="0"
-              className="map"
-              src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
-              allowFullScreen
-            />
-          </div>
+            <Button className="formButton">Submit </Button>
+          </Form>
+        </div>
+        <div className="rightContact">
+          <iframe
+            frameBorder="0"
+            className="map"
+            src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
+            allowFullScreen
+          />
         </div>
       </div>
     );
