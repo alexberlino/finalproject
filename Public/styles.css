@@ -18,6 +18,7 @@ a {
 h1 {
   font-size: 25px;
 }
+
 .block {
   display: block;
   position: relative;
@@ -226,13 +227,26 @@ iframe {
 }
 
 .error {
-  position: absolute;
-  color: red;
-  top: 60px;
-  margin-left: 15%;
-  z-index: 20;
-  font-size: 300px;
+  position: fixed;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  z-index: 2000;
+  background-color: white;
 }
+
+.error2 {
+  position: fixed;
+  top: 50%;
+  left: 20%;
+  color: black;
+
+  z-index: 2000;
+
+  font-size: 30px;
+}
+
 .main {
   min-height: calc(100vh - 120px);
 

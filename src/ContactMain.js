@@ -19,7 +19,9 @@ class ContactMain extends Component {
     this.state = {
       name: "",
       email: "",
-      message: ""
+      message: "",
+      success: false,
+      error: false
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -30,6 +32,7 @@ class ContactMain extends Component {
   }
 
   async handleSubmit(e) {
+    e.preventDefault();
     const { name, email, message } = this.state;
 
     if (name.length < 1 || email.length < 1 || message.length < 1) {
@@ -48,6 +51,9 @@ class ContactMain extends Component {
           this.setState({
             success: true
           });
+          setTimeout(function() {
+            window.location.reload();
+          }, 7000);
         } else {
           console.log("error");
           this.setState({
@@ -59,9 +65,23 @@ class ContactMain extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props.i18n.language);
+    console.log(this.state);
     return (
       <div className="contactpage">
+        {this.state.error ? (
+          <div className="error">
+            There was an error, please send an email to alex.bieth@gmail.com or
+            call me.{" "}
+          </div>
+        ) : null}
+        {this.state.success ? (
+          <div className="error">
+            <div className="error2">
+              Success! thank you for your email, I will be in touch with you
+              very soon!{" "}
+            </div>
+          </div>
+        ) : null}
         <div className="leftContact">
           <Form onSubmit={this.handleSubmit}>
             <FormGroup>

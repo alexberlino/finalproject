@@ -58,10 +58,10 @@ class About extends Component {
             onClick={this.handleClick}
             className="blockAbout orange roll-in-left "
           >
-            {t("about2")}
+            {t("about1")}
           </div>
           <div onClick={this.handleClick} className="blockAbout green">
-            {t("about7")}
+            {t("about2")}
           </div>
           <div
             onClick={this.handleClick}
@@ -82,10 +82,10 @@ class About extends Component {
             onClick={this.handleClick}
             className="blockAbout orange roll-in-left"
           >
-            {t("about1")}
+            {t("about6")}
           </div>
           <div onClick={this.handleClick} className="blockAbout green">
-            {t("about6")}
+            {t("about7")}
           </div>
           <div className="blockAbout2 bounce-in-top">
             <a href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE">
@@ -94,7 +94,6 @@ class About extends Component {
 
             <h6 />
           </div>
-          {this.state.clicked ? <About2 /> : null}
         </div>
       </div>
     );

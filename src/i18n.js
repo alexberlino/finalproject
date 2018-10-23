@@ -20,22 +20,23 @@ i18n.use(LanguageDetector).init({
         subject: "Subject:",
         message: "Message*",
         sendMessage: "SEND",
-        about1: "Experience with Landing Pages Creation & Optimization",
-        about2: `TeamLead experience using scrum`,
+        about1:
+          "Proven results with 400% increase in SEO sales for multiple websites",
+        about2: `Over 9 years experience in SEO, SEA and using various Analytics tools`,
         about3: `Trained Full Stack Web Developer`,
-        about4: `Personalised SEO audits and action plans`,
-        about5: `Technical SEO experience: indexation,
-                crawling, site architecture`,
-        about6: `Work experience managing €1m Adwords accounts`,
-        about7: `Roadmaps, Technical Dashboards, Analytics reports`,
-        about8: `Alex is an SEO expert who proposes concrete action measures based
-                    on a well-founded analysis and independently implements them.
-                    This gives me the opportunity to focus on my day-to-day business
-                    while still keeping my finger on the pulse of the times with my website.
-                    Thank you for the transparent and professional cooperation!`,
-        about9: `Hendrik Feige, owner of marketing, and strategy consulting must-be`,
-        about10: `Alex always had a superior command of his field of activity and very good knowledge of all processes and aspects of the company. He was always very successful in expanding his professional knowledge on his own initiative. Alex has led several major projects of cleaning up our SEO profiles so as to reflect the best practices preached by Google as well as pioners. He has been strict in following the cleanest and best practices to avoid penalties, but continue growth in Spreadshirt's SEO visibility.`,
-        about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
+        about4: `Trained in Scrum and experience implementing it with team of 10.`,
+        about5: `Extensive experience in Technical SEO: indexation,
+                crawlability, site architecture and internal linking optimization`,
+        about6: `Crazy about data and reports to help decision making and prioritization `,
+        about7: `Experience with setting up Roadmaps, Actions plans, Technical Dashboards, Analytics reports`,
+        // about8: `Alex is an SEO expert who proposes concrete action measures based
+        //             on a well-founded analysis and independently implements them.
+        //             This gives me the opportunity to focus on my day-to-day business
+        //             while still keeping my finger on the pulse of the times with my website.
+        //             Thank you for the transparent and professional cooperation!`,
+        // about9: `Hendrik Feige, owner of marketing, and strategy consulting must-be`,
+        // about10: `Alex always had a superior command of his field of activity and very good knowledge of all processes and aspects of the company. He was always very successful in expanding his professional knowledge on his own initiative. Alex has led several major projects of cleaning up our SEO profiles so as to reflect the best practices preached by Google as well as pioners. He has been strict in following the cleanest and best practices to avoid penalties, but continue growth in Spreadshirt's SEO visibility.`,
+        // about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
         getintouch: "Get in touch",
         aboutme: "SEO Freelancer in Berlin || Alex Bieth",
         aboutmetitle: "aboutme",
@@ -150,28 +151,24 @@ i18n.use(LanguageDetector).init({
         message: "Nachricht*  ",
         sendMessage: "SENDEN",
         aboutmetitle: "übermich",
-        about1: "Erfahrung mit Landing Pages",
-        about2: `Über 5 Jahre als Head of SEO, mit einem
-                        10 Leute team.`,
-        about3: `Full Stack  Web-Entwickler`,
-        about4: `
-                        Ich habe viele Kunden geholfen, ihre SEO mit personalisierten SEO Audits und Plänen zu steigern`,
-        about5: `Erfahrung mit Technikem SEO: indexation,
-                        crawling`,
-        about6: `
-                        Umfangreiche Arbeitserfahrung bei der Verwaltung von AdWords-Konten mit jährlichen Budgets von 1 Mio. €`,
-        about7: `Erstellung und Organisation von SEO-Roadmaps, KPIs und technischen
-                        Dashboards. Erstellen und verwalten Sie SEO Analytics-Berichte (Adobe
-                            SiteCatalyst Omniture)`,
-        about8: `
-                            Alex ist ein SEO-Experte, der konkrete Maßnahmen vorschlägt
-                            auf eine fundierte Analyse und setzt diese selbstständig um.
-                            Dies gibt mir die Möglichkeit, mich auf mein Tagesgeschäft zu konzentrieren
-                            während ich mit meiner Website immer noch am Puls der Zeit bin.
-                            Danke für die transparente und professionelle Zusammenarbeit!`,
-        about9: `Hendrik Feige, Inhaber Marketing und Strategieberatung muss sein`,
-        about10: `Herr Bieth hatte immer eine überlegene Beherrschung seines Tätigkeitsfeldes und sehr gute Kenntnisse aller Prozesse und Aspekte des Unternehmens. Er war immer sehr erfolgreich in der Erweiterung seiner beruflichen Kenntnisse auf eigene Initiative. Alex hat mehrere große Projekte zur Bereinigung unserer SEO-Profile geleitet, um die von Google gepredigten Best Practices sowie Pioniere zu reflektieren. Er hat strikt die saubersten und besten Praktiken verfolgt, um Strafen zu vermeiden, aber weiterhin die Spreadshirt SEO Sichtbarkeit erhöhen.`,
-        about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
+        about1:
+          "Proven results with 400% increase in SEO sales for multiple websites",
+        about2: `Over 9 years experience in SEO, SEA and using various Analytics tools`,
+        about3: `Trained Full Stack Web Developer`,
+        about4: `Trained in Scrum and experience implementing it with team of 10.`,
+        about5: `Extensive experience in Technical SEO: indexation,
+                crawlability, site architecture and internal linking optimization`,
+        about6: `Crazy about data and reports to help decision making and prioritization `,
+        about7: `Experience with setting up Roadmaps, Actions plans, Technical Dashboards, Analytics reports`,
+        // about8: `
+        //                     Alex ist ein SEO-Experte, der konkrete Maßnahmen vorschlägt
+        //                     auf eine fundierte Analyse und setzt diese selbstständig um.
+        //                     Dies gibt mir die Möglichkeit, mich auf mein Tagesgeschäft zu konzentrieren
+        //                     während ich mit meiner Website immer noch am Puls der Zeit bin.
+        //                     Danke für die transparente und professionelle Zusammenarbeit!`,
+        // about9: `Hendrik Feige, Inhaber Marketing und Strategieberatung muss sein`,
+        // about10: `Herr Bieth hatte immer eine überlegene Beherrschung seines Tätigkeitsfeldes und sehr gute Kenntnisse aller Prozesse und Aspekte des Unternehmens. Er war immer sehr erfolgreich in der Erweiterung seiner beruflichen Kenntnisse auf eigene Initiative. Alex hat mehrere große Projekte zur Bereinigung unserer SEO-Profile geleitet, um die von Google gepredigten Best Practices sowie Pioniere zu reflektieren. Er hat strikt die saubersten und besten Praktiken verfolgt, um Strafen zu vermeiden, aber weiterhin die Spreadshirt SEO Sichtbarkeit erhöhen.`,
+        // about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
         getintouch: "Kontakt",
         aboutme: "SEO Beratung || SEO Freelancer SEO Berlino",
         HPTitle: "SEO Beratung in Berlin || SEO Selständig SEO Berlino",

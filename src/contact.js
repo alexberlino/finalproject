@@ -14,50 +14,6 @@ import ContactMain from "./ContactMain";
 import axios from "./axios";
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      name: "",
-      email: "",
-      message: ""
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(e) {
-    this.setState({ [e.target.name]: e.target.value });
-  }
-
-  async handleSubmit(e) {
-    const { name, email, message } = this.state;
-
-    if (name.length < 1 || email.length < 1 || message.length < 1) {
-      return false;
-    }
-
-    const form = await axios
-      .post(`/en/form`, {
-        name,
-        email,
-        message
-      })
-      .then(({ data }) => {
-        if (data.success) {
-          console.log("success");
-          this.setState({
-            success: true
-          });
-        } else {
-          console.log("error");
-          this.setState({
-            error: true
-          });
-        }
-      });
-  }
-
   render() {
     const { t, i18n } = this.props;
     console.log(this.props.i18n.language);
@@ -67,6 +23,7 @@ class Contact extends Component {
           <meta charSet="utf-8" />
           <title>{t("getintouch_title")}</title>
         </Helmet>
+
         <h1 className="txt2 txthead"> {t("getintouch")}></h1>
         <h2 className="txt">
           <img src="/telephone.svg" className="iconphone" />015 787 011 932
