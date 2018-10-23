@@ -57,6 +57,9 @@ class Footer extends Component {
           <Link className="footerlink" to={"/en/impressum"}>
             impressum
           </Link>
+          <Link className="footerlink" to={"/sitemap"}>
+            sitemap
+          </Link>
         </div>
         <div className="footerQuarter">
           <a href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE">
