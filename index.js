@@ -10,6 +10,15 @@ const { checkPassword, hashPassword } = require("./Public/hash.js");
 let secrets;
 if (process.env.NODE_ENV == "production") {
   secrets = process.env;
+  app.use(function(req, res, next) {
+    if (req.secure) {
+      // request was via https, so do no special handling
+      next();
+    } else {
+      // request was via http, so redirect to https
+      res.redirect("https://" + req.headers.host + req.url);
+    }
+  });
 } else {
   secrets = require("./secrets.json");
 }
@@ -256,6 +265,22 @@ app.post("/:lang/form", (req, res) => {
     }); //transporter
   });
 }); //main
+app.enable("trust proxy");
+
+// Add a handler to inspect the req.secure flag (see
+// http://expressjs.com/api#req.secure). This allows us
+// to know whether the request was via http or https.
+
+// set up plain http server
+
+// set up a route to redirect http to https
+// http.get("*", function(req, res) {
+//   res.redirect("https://" + req.headers.host + req.url);
+//
+//   // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
+//   // res.redirect('https://example.com' + req.url);
+// });
+
 app.get("*", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
