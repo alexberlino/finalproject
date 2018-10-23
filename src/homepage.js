@@ -243,64 +243,60 @@ class Homepage extends Component {
         <div>
           <div>
             <h2 className="txt2 txthead"> blog></h2>
-            <ul>
-              <div className="blogArticlesHP">
-                {this.state.articles.map(article => (
-                  <div className="blogItemHP">
-                    <div className="imageBlogHP">
-                      <img
-                        src={article.imageurl}
-                        height="70px"
-                        width="70px"
-                        className="imageBlogHP"
-                        alt="blog article"
-                      />
-                    </div>
-                    <div className="listArticlesBlogHP">
-                      <a href={"/" + this.props.i18n.language + "/blog"}>
-                        <span onClick={() => this.props.pageChange("/blog")}>
-                          {article.title}
-                        </span>
-                      </a>
-                    </div>
+            <div className="blogArticlesHP">
+              {this.state.articles.map(article => (
+                <div className="blogItemHP">
+                  <div className="imageBlogHP">
+                    <img
+                      src={article.imageurl}
+                      height="70px"
+                      width="70px"
+                      className="imageBlogHP"
+                      alt="blog article"
+                    />
                   </div>
-                ))}
-              </div>
-              <Link
-                to={"/" + this.props.i18n.language + "/blog"}
-                onClick={() => this.props.pageChange("/blog")}
-              >
-                <img
-                  alt="more"
-                  src="/more.svg"
-                  className="iconsmore"
-                  title="read more"
-                />{" "}
-              </Link>{" "}
-            </ul>
+                  <div className="listArticlesBlogHP">
+                    <a href={"/" + this.props.i18n.language + "/blog"}>
+                      <span onClick={() => this.props.pageChange("/blog")}>
+                        {article.title}
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <Link
+              to={"/" + this.props.i18n.language + "/blog"}
+              onClick={() => this.props.pageChange("/blog")}
+            >
+              <img
+                alt="more"
+                src="/more.svg"
+                className="iconsmore"
+                title="read more"
+              />{" "}
+            </Link>{" "}
           </div>
         </div>
 
         <div>
           <div>
             <h2 className="txt2 txthead"> latest seonews></h2>
-            <ul>
-              <div className="homepageNews">
-                <a href={"/" + this.props.i18n.language + "/seonews"} />
-                <NewsItems />
-              </div>
-              <Link
-                to={"/" + this.props.i18n.language + "/seonews"}
-                onClick={() => this.props.pageChange("/seonews")}
-              >
-                <img
-                  alt="more"
-                  src="/more.svg"
-                  className="iconsmore"
-                  title="read more"
-                />{" "}
-              </Link>
-            </ul>
+            <div className="homepageNews">
+              <a href={"/" + this.props.i18n.language + "/seonews"} />
+              <NewsItems />
+            </div>
+            <Link
+              to={"/" + this.props.i18n.language + "/seonews"}
+              onClick={() => this.props.pageChange("/seonews")}
+            >
+              <img
+                alt="more"
+                src="/more.svg"
+                className="iconsmore"
+                title="read more"
+              />{" "}
+            </Link>
           </div>
         </div>
         <div className="contactmob">

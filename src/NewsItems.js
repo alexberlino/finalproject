@@ -31,7 +31,11 @@ class NewsItems extends Component {
         <p className="txthead">Red Hot >click on news item to read></p>
 
         <div className="newsItem" title="clicksfsf">
-          <img className="importancenews" src="/redlight.png" />
+          <img
+            alt="importance"
+            className="importancenews"
+            src="/redlight.png"
+          />
           <p onClick={() => this.handleClick(10)} className="important">
             Indexation for Javascript apps: use Dynamic Rendering
           </p>
@@ -53,7 +57,11 @@ class NewsItems extends Component {
           </div>
         </div>
         <div className="newsItem">
-          <img className="importancenews" src="/redlight.png" />
+          <img
+            alt="importance"
+            className="importancenews"
+            src="/redlight.png"
+          />
           <p onClick={() => this.handleClick(11)} className="important">
             Mobile First Enabled for most websites
           </p>
@@ -72,7 +80,11 @@ class NewsItems extends Component {
         </div>
 
         <div className="newsItem">
-          <img className="importancenews" src="/redlight.png" />
+          <img
+            alt="importance"
+            className="importancenews"
+            src="/redlight.png"
+          />
           <p onClick={() => this.handleClick(12)} className="important">
             Google's algorithm latest update: August,1 2018
           </p>
@@ -93,7 +105,11 @@ class NewsItems extends Component {
           </div>
         </div>
         <div className="newsItem">
-          <img className="importancenews" src="/redlight.png" />
+          <img
+            alt="importance"
+            className="importancenews"
+            src="/redlight.png"
+          />
           <p onClick={() => this.handleClick(13)} className="important">
             Chrome now marks all unencrypted websites as ‘not secure’
           </p>

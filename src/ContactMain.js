@@ -89,7 +89,8 @@ class ContactMain extends Component {
           <Form onSubmit={this.handleSubmit}>
             <FormGroup>
               <Label for="name">{t("fullname")} </Label>
-              <Input
+              <input
+                label="name"
                 type="text"
                 name="name"
                 className="field"
@@ -99,7 +100,8 @@ class ContactMain extends Component {
 
             <FormGroup>
               <label for="name">Email* </label>
-              <Input
+              <input
+                label="email"
                 type="email"
                 name="email"
                 className="field"
@@ -122,6 +124,7 @@ class ContactMain extends Component {
         </div>
         <div className="rightContact">
           <iframe
+            title="map"
             frameBorder="0"
             className="map"
             src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
