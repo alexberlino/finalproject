@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import { translate, Trans } from "react-i18next";
-import { Form, FormGroup, Input, Label, Button } from "reactstrap";
+import { Form, FormGroup, Button } from "reactstrap";
 import i18n from "./i18n";
 import LinksToPages from "./LinksToPages";
 
@@ -88,9 +88,8 @@ class ContactMain extends Component {
         <div className="leftContact">
           <Form onSubmit={this.handleSubmit}>
             <FormGroup>
-              <Label for="name">{t("fullname")} </Label>
+              <label for="name">{t("fullname")} </label>
               <input
-                label="name"
                 type="text"
                 name="name"
                 className="field"
@@ -101,7 +100,6 @@ class ContactMain extends Component {
             <FormGroup>
               <label for="name">Email* </label>
               <input
-                label="email"
                 type="email"
                 name="email"
                 className="field"
