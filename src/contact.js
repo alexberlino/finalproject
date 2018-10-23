@@ -67,7 +67,7 @@ class Contact extends Component {
           <meta charSet="utf-8" />
           <title>{t("getintouch_title")}</title>
         </Helmet>
-        <h2 className="txt2 txthead"> {t("getintouch")}></h2>
+        <h1 className="txt2 txthead"> {t("getintouch")}></h1>
         <h2 className="txt">
           <img src="/telephone.svg" className="iconphone" />015 787 011 932
         </h2>

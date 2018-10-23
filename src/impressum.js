@@ -27,7 +27,9 @@ class Impressum extends Component {
           <title> {t("impressum_title")} </title>
         </Helmet>
 
-        <div className="infoTitle">Impressum </div>
+        <div className="infoTitle">
+          <h1>Impressum</h1>{" "}
+        </div>
 
         <div className="container">
           <div className="infoMain2">E-Mail: alex.bieth@gmail.com</div>

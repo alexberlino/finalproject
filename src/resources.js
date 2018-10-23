@@ -22,7 +22,10 @@ class Resources extends Component {
         </Helmet>
         <div id="three-js-item" />
         <div>
-          <div className="infoTitle"> SEO Resources </div>
+          <div className="infoTitle">
+            {" "}
+            <h1>SEO Resources</h1>{" "}
+          </div>
 
           <div className="infoMain">
             <ul className="block">

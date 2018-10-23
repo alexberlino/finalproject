@@ -76,7 +76,9 @@ class Article extends Component {
         <div id="three-js-item" />
 
         <div className="mainBlog">
-          <div className="articleTitle">{this.state.title}</div>
+          <div className="articleTitle">
+            <h1>{this.state.title}</h1>
+          </div>
           <div className="articleAuthor">{"Author:  " + this.state.author}</div>
           <div className="articleDate">
             {"Date published:  " + this.state.dat}

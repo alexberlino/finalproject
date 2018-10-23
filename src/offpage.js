@@ -60,7 +60,7 @@ class Offpage extends Component {
         <div className="infoTitle">
           {" "}
           <img src="/offpage.svg" className="logoAnimationServices" />
-          Off-page SEO Audit{" "}
+          <h1> Off-page SEO Audit</h1>
         </div>
 
         <div className="services">

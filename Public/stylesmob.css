@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
   }
+  h1 {
+    font-size: 20px;
+  }
   .imageHP {
     width: 60%;
     height: 80%;
@@ -160,6 +163,38 @@
   .hey span:nth-child(1) {
   }
 
+  .hey span:nth-child(2) {
+    top: 158px;
+    margin-left: 150px;
+  }
+
+  .hey span:nth-child(3) {
+    top: 160px;
+    margin-left: 130px;
+  }
+  .hey span:nth-child(4) {
+    top: 178px;
+    margin-left: 120px;
+  }
+  .hey span:nth-child(5) {
+    top: 140px;
+    margin-left: 150px;
+  }
+  .hey span:nth-child(6) {
+    top: 158px;
+    margin-left: 150px;
+  }
+
+  .hey span:nth-child(7) {
+    top: 162px;
+    margin-left: 120px;
+  }
+
+  .hey span:nth-child(8) {
+    top: 178px;
+    margin-left: 140px;
+  }
+
   .rightServices {
     position: absolute;
     width: 100%;
@@ -264,38 +299,6 @@
   .serviceTitle {
     font-size: 19px;
     margin-bottom: 12px;
-  }
-
-  .hey span:nth-child(2) {
-    top: 158px;
-    margin-left: 150px;
-  }
-
-  .hey span:nth-child(3) {
-    top: 160px;
-    margin-left: 130px;
-  }
-  .hey span:nth-child(4) {
-    top: 178px;
-    margin-left: 120px;
-  }
-  .hey span:nth-child(5) {
-    top: 140px;
-    margin-left: 150px;
-  }
-  .hey span:nth-child(6) {
-    top: 158px;
-    margin-left: 150px;
-  }
-
-  .hey span:nth-child(7) {
-    top: 162px;
-    margin-left: 120px;
-  }
-
-  .hey span:nth-child(8) {
-    top: 178px;
-    margin-left: 140px;
   }
 
   .navEntries {
@@ -575,6 +578,49 @@
   }
   .introQuarter {
     width: 50%;
+  }
+}
+@media (max-width: 768px) and (orientation: landscape),
+  only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .hey span {
+    top: 190px;
+    font-size: 26px;
+    margin-left: 150px;
+  }
+
+  .hey span:nth-child(1) {
+  }
+
+  .hey span:nth-child(2) {
+    top: 210px;
+    margin-left: 150px;
+  }
+
+  .hey span:nth-child(3) {
+    top: 200px;
+    margin-left: 150px;
+  }
+  .hey span:nth-child(4) {
+    top: 220px;
+    margin-left: 160px;
+  }
+  .hey span:nth-child(5) {
+    top: 210px;
+    margin-left: 150px;
+  }
+  .hey span:nth-child(6) {
+    top: 230px;
+    margin-left: 150px;
+  }
+
+  .hey span:nth-child(7) {
+    top: 210px;
+    margin-left: 140px;
+  }
+
+  .hey span:nth-child(8) {
+    top: 230px;
+    margin-left: 150px;
   }
 }
 

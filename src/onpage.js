@@ -64,7 +64,7 @@ class Onpage extends Component {
         </Helmet>
         <div className="infoTitle">
           <img src="/onpage.svg" className="logoAnimationServices" />
-          On-page SEO Audit
+          <h1> On-page SEO Audit</h1>
         </div>
         <div className="services">
           <div className={this.state.hide + " leftServices"}>

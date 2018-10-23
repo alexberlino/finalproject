@@ -62,7 +62,7 @@ class Technical extends Component {
         <div className="infoTitle">
           {" "}
           <img src="/analytics.svg" className="logoAnimationServices" />
-          Research and Analytics{" "}
+          <h1> Research and Analytics</h1>
         </div>
 
         <div className="services">
