@@ -54,7 +54,11 @@ class SEONews extends Component {
           <NewsItems />
           <p className="txthead">Medium Hot and Cool </p>
           <div className="newsItem">
-            <img className="importancenews" src="/greenlight.png" />
+            <img
+              alt="important"
+              className="importancenews"
+              src="/greenlight.png"
+            />
 
             <p onClick={() => this.handleClick(1)} className="low">
               Google+ to close down.
@@ -71,7 +75,11 @@ class SEONews extends Component {
             ) : null}
           </div>
           <div className="newsItem">
-            <img className="importancenews" src="/orangelight.jpg" />
+            <img
+              alt="importance"
+              className="importancenews"
+              src="/orangelight.jpg"
+            />
             <p onClick={() => this.handleClick(2)} className="medium">
               Google admits personalised search results limited
             </p>
@@ -92,7 +100,11 @@ class SEONews extends Component {
             ) : null}
           </div>
           <div className="newsItem">
-            <img className="importancenews" src="/orangelight.jpg" />
+            <img
+              alt="importance"
+              className="importancenews"
+              src="/orangelight.jpg"
+            />
             <p onClick={() => this.handleClick(3)} className="medium">
               Search Console and query data that may make the overall numbers
               look worse

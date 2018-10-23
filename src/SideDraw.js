@@ -60,7 +60,7 @@ class SideDrawer extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/seonews"}>
+            <a name="to SEO News" href={"/" + this.props.lang + "/seonews"}>
               <span onClick={() => this.props.pageChange("/seonews")}>
                 SEO NEWS
               </span>
