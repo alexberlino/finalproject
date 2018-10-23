@@ -63,7 +63,11 @@ class Onpage extends Component {
           <title>On-page SEO || SEO Berlino</title>
         </Helmet>
         <div className="infoTitle">
-          <img src="/onpage.svg" className="logoAnimationServices" />
+          <img
+            alt="onpage"
+            src="/onpage.svg"
+            className="logoAnimationServices"
+          />
           <h1> On-page SEO Audit</h1>
         </div>
         <div className="services">
