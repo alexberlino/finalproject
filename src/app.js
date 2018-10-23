@@ -127,7 +127,7 @@ class App extends Component {
                 />
                 <Route
                   exact
-                  path="/:lang/blog/:url"
+                  path="/:lang/article/:url"
                   render={() => <Article lang={lang} page={page} />}
                 />
                 <Route exact path="/:lang/about" render={() => <About />} />

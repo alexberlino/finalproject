@@ -89,13 +89,13 @@ function checkSession(req, res, next) {
 
 ////////////END LANGUAGES////////////
 
-app.get("/:lang/editarticle", checkSession, (req, res, next) => {
+app.get("/en/editarticle", checkSession, (req, res, next) => {
   next();
 });
 app.get("/en/postarticle", checkSession, (req, res, next) => {
   next();
 });
-app.get("/:lang/admin", checkSession, (req, res, next) => {
+app.get("/en/admin", checkSession, (req, res, next) => {
   console.log("REQPARAMS", req.params);
   console.log("REQSESSION", req.session);
   next();
@@ -166,7 +166,7 @@ app.get("/getarticleurl/:BE", (req, res) => {
   });
 });
 
-app.post("/:lang/login", (req, res) => {
+app.post("/en/login", (req, res) => {
   console.log("inlogin");
   let { email, pass } = req.body;
   db.login(email)
@@ -216,7 +216,7 @@ app.get("/log-out", (req, res) => {
 //
 ////////////////DO NOT TOUCH/////////////////////////
 
-app.post("/:lang/form", (req, res) => {
+app.post("/en/form", (req, res) => {
   console.log("POSTREQBODY", req.body);
 
   nodemailer.createTestAccount((err, account) => {
