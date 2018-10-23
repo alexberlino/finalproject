@@ -4,7 +4,6 @@ import { Switch } from "react-router";
 import { BrowserRouter, Route, Link, Redirect } from "react-router-dom";
 import Homepage from "./homepage";
 import Contact from "./contact";
-import Services from "./services";
 import Blog from "./blog";
 import SEONews from "./seonews";
 import Impressum from "./impressum";
