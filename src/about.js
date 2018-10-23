@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import { translate, Trans } from "react-i18next";
-import About2 from "./about2";
 import i18n from "./i18n";
 
 class About extends Component {
