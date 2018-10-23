@@ -115,7 +115,7 @@ class App extends Component {
               <Switch>
                 <Route
                   exact
-                  path="/:lang"
+                  path="/en"
                   render={() => (
                     <Homepage
                       pageChange={this.changePage}
@@ -127,26 +127,57 @@ class App extends Component {
                 />
                 <Route
                   exact
-                  path="/:lang/article/:url"
-                  render={() => <Article lang={lang} page={page} />}
+                  path="/de"
+                  render={() => (
+                    <Homepage
+                      pageChange={this.changePage}
+                      lang={lang}
+                      page={page}
+                      i18n={this.props.i18n}
+                    />
+                  )}
                 />
-                <Route exact path="/:lang/about" render={() => <About />} />
                 <Route
                   exact
-                  path="/:lang/contact"
+                  path="/en/article/:url"
+                  render={() => <Article lang={lang} page={page} />}
+                />
+                <Route
+                  exact
+                  path="/de/article/:url"
+                  render={() => <Article lang={lang} page={page} />}
+                />
+                <Route exact path="/en/about" render={() => <About />} />
+                <Route exact path="/de/about" render={() => <About />} />
+                <Route
+                  exact
+                  path="/en/contact"
                   render={() => <Contact i18n={this.props.i18n} />}
                 />
-                <Route exact path="/:lang/offpage" render={() => <Offpage />} />
+                <Route
+                  exact
+                  path="/de/contact"
+                  render={() => <Contact i18n={this.props.i18n} />}
+                />
+                <Route exact path="/en/offpage" render={() => <Offpage />} />
+                <Route exact path="/de/offpage" render={() => <Offpage />} />
+
                 <Route
                   exact
                   f
-                  path="/:lang/offpage/:item"
+                  path="/en/offpage/:item"
+                  render={() => <Offpage />}
+                />
+                <Route
+                  exact
+                  f
+                  path="/de/offpage/:item"
                   render={() => <Offpage />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/onpage"
+                  path="/en/onpage"
                   lang={lang}
                   page={page}
                   pageChange={this.changePage}
@@ -155,12 +186,15 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/:lang/onpage/:theme"
+                  path="/de/onpage"
                   lang={lang}
                   page={page}
                   pageChange={this.changePage}
                   render={() => <Onpage />}
                 />
+
+                <Route exact path="/en/research" render={() => <Research />} />
+                <Route exact path="/de/research" render={() => <Research />} />
 
                 <Route exact path="/logout" render={() => <Onpage />} />
                 <Route
@@ -180,31 +214,17 @@ class App extends Component {
                   path="/:lang/impressum"
                   render={() => <Impressum />}
                 />
-                <Route
-                  exact
-                  path="/:lang/research"
-                  render={() => <Research />}
-                />
-                <Route
-                  exact
-                  path="/:lang/research/:item"
-                  render={() => <Research />}
-                />
+
                 <Route exact path="/en/admin" render={() => <Admin />} />
                 <Route
                   exact
                   path="/:lang/technical"
                   render={() => <Technical />}
                 />
-                <Route
-                  exact
-                  path="/:lang/technical/:item"
-                  render={() => <Technical />}
-                />
 
                 <Route
                   exact
-                  path="/:lang/blog"
+                  path="/de/blog"
                   render={() => (
                     <Blog
                       lang={lang}
@@ -215,7 +235,18 @@ class App extends Component {
                 />
                 <Route
                   exact
-                  path="/:lang/seonews"
+                  path="/en/blog"
+                  render={() => (
+                    <Blog
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/en/seonews"
                   render={() => (
                     <SEONews
                       lang={lang}
@@ -226,7 +257,30 @@ class App extends Component {
                 />
                 <Route
                   exact
-                  path="/:lang/resources"
+                  path="/de/seonews"
+                  render={() => (
+                    <SEONews
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/de/resources"
+                  render={() => (
+                    <Resources
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+
+                <Route
+                  exact
+                  path="/en/resources"
                   render={() => (
                     <Resources
                       lang={lang}
