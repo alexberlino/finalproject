@@ -112,7 +112,7 @@ class ContactMain extends Component {
             <FormGroup>
               <label for="name">{t("message")} </label>
               <textarea
-                id="name"
+                id="message"
                 type="text"
                 name="message"
                 className="fieldMessage"
