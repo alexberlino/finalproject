@@ -22,17 +22,18 @@ class Footer extends Component {
       <div className="footer">
         <div className="footerQuarter">
           <div>
-            <a href={"/de" + this.props.page}>
+            <a name="change language to German" href={"/de" + this.props.page}>
               <img
                 onClick={() => this.props.languageChange("de")}
                 height="20px"
                 className="footerflags"
                 width="25px"
+                alt="german"
                 title="auf Deutsch"
                 src="/GERMANFLAG.png"
               />
             </a>
-            <a href={"/en" + this.props.page}>
+            <a name="change language to English" href={"/en" + this.props.page}>
               <img
                 onClick={() => this.props.languageChange("en")}
                 height="20px"
@@ -40,6 +41,7 @@ class Footer extends Component {
                 className="footerflags"
                 width="25px"
                 src="/UKUSFLAG.jpeg"
+                alt="english"
               />
             </a>
           </div>
@@ -62,8 +64,16 @@ class Footer extends Component {
           </Link>
         </div>
         <div className="footerQuarter">
-          <a href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE">
-            <img src="/Linkedin-logo.png" height="30px" width="30px" />
+          <a
+            name="my LinkedIn profile"
+            href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE"
+          >
+            <img
+              alt="linkedin logo"
+              src="/Linkedin-logo.png"
+              height="30px"
+              width="30px"
+            />
           </a>
         </div>
       </div>

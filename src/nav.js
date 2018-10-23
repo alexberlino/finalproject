@@ -23,8 +23,9 @@ class Navigation extends Component {
       <header className="toolbar">
         <nav className="toolbar_navigation">
           <div>
-            <a href={"/" + this.props.lang}>
+            <a name="back to Homepage" href={"/" + this.props.lang}>
               <img
+                alt="logo"
                 className="toolbar_logo"
                 src="/logonew.png"
                 onClick={() => this.props.pageChange("/")}
@@ -110,10 +111,12 @@ class Navigation extends Component {
                 height="30px"
                 width="45px"
                 src="/GERMANFLAG.png"
+                alt="german"
               />
             </Link>
             <Link to={"/en" + this.props.page}>
               <img
+                alt="english"
                 className="languageBtnEN"
                 onClick={() => this.props.languageChange("en")}
                 height="30px"
@@ -126,6 +129,7 @@ class Navigation extends Component {
             <img
               src="/hamburger.svg"
               className="toggleMan"
+              alt="hamburger menu"
               height="80px"
               width="80px"
               onClick={this.props.drawerClickHandler}

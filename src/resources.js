@@ -9,7 +9,7 @@ import LinksToPages from "./LinksToPages";
 
 class Resources extends Component {
   componentDidMount() {
-    happyfun();
+    // happyfun();
     window.scrollTo(0, 0);
   }
   render() {

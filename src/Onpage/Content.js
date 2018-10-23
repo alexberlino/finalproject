@@ -21,6 +21,11 @@ class Content extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>On-page:Content & Semantics || SEO Berlino</title>
+          <description>
+            Content and semantics are critital in SEO. Included in the SEO
+            Audit, SEO Berlino will review your website's content to assess its
+            quality in SEO terms
+          </description>
         </Helmet>
 
         <h1 className="h1services"> Content & Semantics </h1>

@@ -58,7 +58,7 @@ class Article extends Component {
         });
       }
     });
-    happyfun();
+    // happyfun();
   }
 
   render() {
@@ -84,7 +84,11 @@ class Article extends Component {
             {"Date published:  " + this.state.dat}
           </div>
           <div className="articleID">{"#" + this.state.id}</div>
-          <img src={this.state.imageurl} className="articlePic" />
+          <img
+            src={this.state.imageurl}
+            className="articlePic"
+            alt="blog article"
+          />
           <div
             className="articleArticle"
             dangerouslySetInnerHTML={this.createMarkup()}

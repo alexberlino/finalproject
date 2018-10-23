@@ -32,7 +32,7 @@ class SEONews extends Component {
   }
 
   componentDidMount() {
-    happyfun();
+    // happyfun();
     window.scrollTo(0, 0);
   }
 
