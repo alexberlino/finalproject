@@ -92,6 +92,11 @@ function checkSession(req, res, next) {
 app.get("/en/editarticle", checkSession, (req, res, next) => {
   next();
 });
+
+app.get("en/sitemap", (req, res) => {
+  res.render("sitemap.xml");
+});
+
 app.get("/en/postarticle", checkSession, (req, res, next) => {
   next();
 });

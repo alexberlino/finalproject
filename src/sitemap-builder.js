@@ -1,6 +1,14 @@
 require("babel-register");
 
-const router = require("./router").default;
-const Sitemap = require("../").default;
+const router = require("./browserrouter").default;
+const Sitemap = require("../lib").default;
 
-new Sitemap(router).build("http://www.seoberlino.com").save("./sitemap.xml");
+const filterConfig = {
+  isValid: false,
+  rules: [/\/auth/, /\*/]
+};
+
+new Sitemap(router)
+  .filterPaths(filterConfig)
+  .build("https://www.seoberlino.com", { limitCountPaths: 5000 })
+  .save("./sitemap.xml", "/static/");

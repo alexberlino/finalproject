@@ -91,8 +91,6 @@ class About extends Component {
             <a href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE">
               LinkedIn Profile
             </a>
-
-            <h6 />
           </div>
         </div>
       </div>

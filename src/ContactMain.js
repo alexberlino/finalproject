@@ -53,12 +53,15 @@ class ContactMain extends Component {
           });
           setTimeout(function() {
             window.location.reload();
-          }, 7000);
+          }, 6000);
         } else {
           console.log("error");
           this.setState({
             error: true
           });
+          setTimeout(function() {
+            window.location.reload();
+          }, 15000);
         }
       });
   }
