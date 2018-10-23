@@ -283,7 +283,6 @@ class Homepage extends Component {
           <div>
             <h2 className="txt2 txthead"> latest seonews></h2>
             <div className="homepageNews">
-              <a href={"/" + this.props.i18n.language + "/seonews"} />
               <NewsItems />
             </div>
             <Link

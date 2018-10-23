@@ -90,6 +90,7 @@ class ContactMain extends Component {
             <FormGroup>
               <label for="name">{t("fullname")} </label>
               <input
+                id="name"
                 type="text"
                 name="name"
                 className="field"
@@ -98,8 +99,9 @@ class ContactMain extends Component {
             </FormGroup>
 
             <FormGroup>
-              <label for="name">Email* </label>
+              <label for="email">Email* </label>
               <input
+                id="email"
                 type="email"
                 name="email"
                 className="field"
@@ -110,6 +112,7 @@ class ContactMain extends Component {
             <FormGroup>
               <label for="name">{t("message")} </label>
               <textarea
+                id="name"
                 type="text"
                 name="message"
                 className="fieldMessage"
