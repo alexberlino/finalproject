@@ -127,7 +127,7 @@ class App extends Component {
                 />
                 <Route
                   exact
-                  path="/:lang/article/:url"
+                  path="/:lang/blog/:url"
                   render={() => <Article lang={lang} page={page} />}
                 />
                 <Route exact path="/:lang/about" render={() => <About />} />
@@ -137,6 +137,13 @@ class App extends Component {
                   render={() => <Contact i18n={this.props.i18n} />}
                 />
                 <Route exact path="/:lang/offpage" render={() => <Offpage />} />
+                <Route
+                  exact
+                  f
+                  path="/:lang/offpage/:item"
+                  render={() => <Offpage />}
+                />
+
                 <Route
                   exact
                   path="/:lang/onpage"
@@ -178,10 +185,20 @@ class App extends Component {
                   path="/:lang/research"
                   render={() => <Research />}
                 />
+                <Route
+                  exact
+                  path="/:lang/research/:item"
+                  render={() => <Research />}
+                />
                 <Route exact path="/en/admin" render={() => <Admin />} />
                 <Route
                   exact
                   path="/:lang/technical"
+                  render={() => <Technical />}
+                />
+                <Route
+                  exact
+                  path="/:lang/technical/:item"
                   render={() => <Technical />}
                 />
 
@@ -218,11 +235,7 @@ class App extends Component {
                     />
                   )}
                 />
-                <Route
-                  exact
-                  path="/:lang/resources"
-                  render={() => <Resources />}
-                />
+
                 <Redirect to="/en/" />
               </Switch>
             </div>

@@ -588,7 +588,7 @@ section {
 /* BLOG START  */
 
 .leftBlog {
-  background-color: rgba(300, 300, 300, 0.75);
+  background-color: rgba(300, 300, 300, 0.85);
   color: lightgrey;
   font-style: bariolregular;
   margin-top: 1%;
@@ -1159,7 +1159,7 @@ h6:before {
   margin-left: 10%;
   margin-left: 20%;
   font-size: 20px;
-  background-color: rgba(300, 300, 300, 0.6);
+  background-color: rgba(300, 300, 300, 0.85);
   position: relative;
   height: auto;
   color: black;

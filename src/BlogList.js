@@ -35,7 +35,7 @@ class BlogList extends Component {
 
         <div className="blogWindow">
           {this.state.articles.map(article => (
-            <a href={"/" + this.props.lang + "/article/" + article.url}>
+            <a href={"/" + this.props.lang + "/blog/" + article.url}>
               <header
                 className="listArticlesBlog"
                 onClick={() => {
