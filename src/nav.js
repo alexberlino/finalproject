@@ -32,6 +32,26 @@ class Navigation extends Component {
               />
             </a>
           </div>
+          <li className="languageBtn">
+            <a href={"/de" + this.props.page}>
+              <img
+                className="languageBtnDE"
+                onClick={() => this.props.languageChange("de")}
+                height="26px"
+                width="32px"
+                src="/GERMANFLAG.png"
+              />
+            </a>
+            <a href={"/en" + this.props.page}>
+              <img
+                className="languageBtnEN"
+                onClick={() => this.props.languageChange("en")}
+                height="26px"
+                width="32px"
+                src="/UKUSFLAG.jpeg"
+              />
+            </a>
+          </li>
 
           <div className="toolbar_navigation_items navEntries" />
           <div className="toolbar_toggle_button">
