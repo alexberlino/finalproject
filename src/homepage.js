@@ -44,7 +44,7 @@ class Homepage extends Component {
           <meta charSet="utf-8" />
           <title>{t("HPTitle")}</title>
         </Helmet>
-        <img alt="freelancer" className="imageHP" src="/apple2.webp" />
+        <img alt="freelancer" className="imageHP" src="/apple4.jpg" />
 
         <div className="hey">
           <span>SEO Freelancer </span>

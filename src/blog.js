@@ -32,7 +32,6 @@ class Blog extends Component {
           <meta charSet="utf-8" />
           <title>Blog SEO Berlino - SEO Freelancer</title>
         </Helmet>
-        <div id="three-js-item" />
 
         <BlogList lang={this.props.lang} pageChange={this.changePage} />
       </div>

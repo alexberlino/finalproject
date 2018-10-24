@@ -18,6 +18,9 @@ a {
 h1 {
   font-size: 25px;
 }
+h2 {
+  margin-left: 2%;
+}
 
 .block {
   display: block;
@@ -415,6 +418,11 @@ section {
   margin-bottom: 30px;
   background-color: white;
 }
+
+.blogArticles {
+  margin-left: 100px;
+}
+
 .blogHPtext {
   display: block;
 }
@@ -577,7 +585,7 @@ section {
   font-size: 20px;
   top: 90px;
   display: block;
-  position: fixed;
+  position: relative;
   z-index: 2;
   width: 40%;
   height: auto;
@@ -592,6 +600,8 @@ section {
   margin-left: 3px;
   margin-bottom: 20px;
   color: black;
+  display: block;
+  position: relative;
 }
 
 .importancenews {
@@ -637,18 +647,13 @@ h4 {
   z-index: 10;
 }
 .blogWindow {
-  display: inline;
+  display: block;
   margin-left: 5%;
-  position: absolute;
+  position: relative;
   height: 30px;
   top: 150px;
 
   border-radius: 20px;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
 }
 
 .articleTitle {

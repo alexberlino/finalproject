@@ -19,6 +19,7 @@ class BlogList extends Component {
       articles: []
     };
   }
+
   componentDidMount() {
     axios.get(`/getarticles/`).then(res => {
       this.setState({
@@ -26,30 +27,41 @@ class BlogList extends Component {
       });
     });
   }
+
   render() {
     const { t, i18n } = this.props;
 
     return (
-      <div className="leftBlog">
-        <h2 className="listArticlesBlog"> My Blog, {t("bloglatest")}</h2>
+      <div>
+        <h2> My Blog, {t("bloglatest")}</h2>
 
-        <div className="blogWindow">
-          {this.state.articles.map(article => (
-            <a href={"/" + this.props.lang + "/article/" + article.url}>
-              <header
-                className="listArticlesBlog"
-                onClick={() => {
-                  {
-                    this.props.pageChange("/article/" + article.url);
-                  }
-                }}
-              >
-                {article.title}
-              </header>
-            </a>
-          ))}
+        <div>
+          <div className="blogArticles">
+            {this.state.articles.map(article => (
+              <a href={"/" + this.props.lang + "/article/" + article.url}>
+                <img
+                  src={article.imageurl}
+                  height="120px"
+                  width="160px"
+                  className="imageBlogHP"
+                  alt="blog article"
+                />
+
+                <header
+                  className="listArticlesBlog"
+                  onClick={() => {
+                    {
+                      this.props.pageChange("/article/" + article.url);
+                    }
+                  }}
+                >
+                  {article.title}( {article.dat.slice(0, 10)})
+                </header>
+              </a>
+            ))}
+          </div>
         </div>
-      </div> //main
+      </div>
     );
   }
 }
