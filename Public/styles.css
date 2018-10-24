@@ -25,6 +25,10 @@ h2 {
   margin-left: 2%;
 }
 
+.black {
+  color: lightgrey;
+}
+
 .block {
   display: block;
   position: relative;
@@ -98,6 +102,19 @@ textarea.blogArticleInput {
   border: black 1px dotted;
 }
 
+.cookienotice {
+  padding-top: 20px;
+  position: fixed;
+  text-align: center;
+  color: white;
+  top: 0px;
+  left: 0px;
+  z-index: 3000;
+  font-size: 20px;
+  width: 100%;
+  height: 190px;
+  background-color: rgba(100, 100, 100, 0.8);
+}
 input.blogedit {
   font-size: 19px;
   margin: 4px;
@@ -521,22 +538,6 @@ section {
   z-index: 100;
 }
 
-.buttonHP {
-  background-color: white;
-  color: #383b4b;
-  padding: 10px;
-  margin-left: 65%;
-  top: -50px;
-  text-align: center;
-  position: relative;
-  z-index: 10;
-  height: 10px;
-  width: 25%;
-  font-size: 17px;
-  border-radius: 120px;
-  border: white 2px solid;
-}
-
 .portrait {
   margin-top: 40px;
   position: absolute;
@@ -544,8 +545,10 @@ section {
 }
 
 .buttonHP2 {
-  margin-left: 25%;
+  margin-left: 5%;
+  margin-top: 30px;
   width: 10%;
+  font-size: 20px;
   background: none;
   color: white;
   border: white 1px solid;

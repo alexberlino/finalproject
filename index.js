@@ -88,6 +88,28 @@ function checkSession(req, res, next) {
 // );
 
 ////////////END LANGUAGES////////////
+
+app.get("/setcookiesession", (req, res) => {
+  req.session.checked = "true";
+
+  res.json({
+    success: true
+  });
+});
+
+app.get("/checknotice", (req, res) => {
+  if (req.session.checked == "true") {
+    console.log(req.session);
+    res.json({
+      success: true
+    });
+  } else {
+    console.log(req.session);
+    res.json({
+      success: false
+    });
+  }
+});
 app.get("/sitemap.xml", (req, res) => {
   res.render("sitemap");
 });

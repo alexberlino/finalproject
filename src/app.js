@@ -24,6 +24,7 @@ import LoginAdmin from "./adminlogin";
 import Article from "./article.js";
 import Backdrop from "./Backdrop";
 import About2 from "./about2";
+import Cookies from "./cookiepolicy";
 
 // import SearchBox from "./searchbox";
 
@@ -141,6 +142,16 @@ class App extends Component {
                   exact
                   path="/en/article/:url"
                   render={() => <Article lang={lang} page={page} />}
+                />
+                <Route
+                  exact
+                  path="/en/cookies"
+                  render={() => <Cookies lang={lang} page={page} />}
+                />
+                <Route
+                  exact
+                  path="/de/cookies"
+                  render={() => <Cookies lang={lang} page={page} />}
                 />
                 <Route
                   exact

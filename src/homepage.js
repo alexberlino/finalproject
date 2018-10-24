@@ -18,14 +18,38 @@ class Homepage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      articles: []
+      articles: [],
+      show: ""
     };
+    this.clickHandlerClose = this.clickHandlerClose.bind(this);
   }
 
   static getDerivedStateFromProps(props, state) {
     return null;
   }
+
+  clickHandlerClose() {
+    this.setState({
+      show: false
+    });
+    axios.get("/setcookiesession").then(res => {
+      if (res.data.success) {
+        console.log("RESDATA", res);
+      }
+    });
+  }
   componentDidMount() {
+    axios.get("/checknotice").then(({ data }) => {
+      if (data.success) {
+        this.setState({
+          show: false
+        });
+      } else {
+        this.setState({
+          show: true
+        });
+      }
+    });
     axios.get(`/get3articles/`).then(res => {
       this.setState({
         articles: res.data.rows
@@ -35,8 +59,7 @@ class Homepage extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log("THISPROPSLANG", this.props.lang);
-    console.log("THISI18nlanguage", this.props.i18n.language);
+    console.log(this.state);
 
     return (
       <div className="mainHP">
@@ -83,6 +106,28 @@ class Homepage extends Component {
             </Link>
           </div>
         </div>
+        {this.state.show ? (
+          <div className="cookienotice">
+            <div className="block">
+              This website uses very basic and generic cookies.{" "}
+            </div>
+            <div className="block">
+              You can read about which cookies are used
+            </div>
+            <div className="block"> or accept to continue. </div>
+            <div className="block">
+              <button
+                onClick={() => this.clickHandlerClose()}
+                className="buttonHP2"
+              >
+                Accept
+              </button>
+              <Link to={"/" + this.props.lang + "/cookies"} className="black">
+                <button className="buttonHP2">Read</button>{" "}
+              </Link>
+            </div>
+          </div>
+        ) : null}
 
         <div className="intro2">
           <div className="introQuarter">
