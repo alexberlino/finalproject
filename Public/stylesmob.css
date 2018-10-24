@@ -154,47 +154,6 @@
     margin-bottom: 10px;
   }
 
-  .hey span {
-    top: 140px;
-    font-size: 19px;
-    margin-left: 150px;
-  }
-
-  .hey span:nth-child(1) {
-  }
-
-  .hey span:nth-child(2) {
-    top: 158px;
-    margin-left: 150px;
-  }
-
-  .hey span:nth-child(3) {
-    top: 160px;
-    margin-left: 130px;
-  }
-  .hey span:nth-child(4) {
-    top: 178px;
-    margin-left: 120px;
-  }
-  .hey span:nth-child(5) {
-    top: 140px;
-    margin-left: 150px;
-  }
-  .hey span:nth-child(6) {
-    top: 158px;
-    margin-left: 150px;
-  }
-
-  .hey span:nth-child(7) {
-    top: 162px;
-    margin-left: 120px;
-  }
-
-  .hey span:nth-child(8) {
-    top: 178px;
-    margin-left: 140px;
-  }
-
   .rightServices {
     position: absolute;
     width: 100%;
@@ -580,6 +539,74 @@
     width: 50%;
   }
 }
+@media (max-width: 768px) and (orientation: portrait) {
+  .hey span {
+    top: 140px;
+    font-size: 19px;
+    margin-left: 150px;
+  }
+
+  .hey span:nth-child(1) {
+  }
+
+  .hey span:nth-child(2) {
+    top: 158px;
+    margin-left: 150px;
+  }
+
+  .hey span:nth-child(3) {
+    top: 160px;
+    margin-left: 130px;
+  }
+  .hey span:nth-child(4) {
+    top: 178px;
+    margin-left: 120px;
+  }
+  .hey span:nth-child(5) {
+    top: 140px;
+    margin-left: 150px;
+  }
+  .hey span:nth-child(6) {
+    top: 158px;
+    margin-left: 150px;
+  }
+
+  .hey span:nth-child(7) {
+    top: 162px;
+    margin-left: 120px;
+  }
+
+  .hey span:nth-child(8) {
+    top: 178px;
+    margin-left: 140px;
+  }
+}
+
+@media (min-width: 769px) {
+  .side-drawer {
+    font-size: 25px;
+    /* display: none; */
+  }
+
+  .closeX {
+    display: none;
+  }
+
+  .linkstoPageMainDiv {
+    display: none;
+  }
+
+  .toggle_button {
+    height: 36px;
+    width: 36px;
+
+    /* display: none; */
+  }
+
+  .toolbar_navigation_items {
+    display: none;
+  }
+}
 @media (max-width: 768px) and (orientation: landscape),
   only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .hey span {
@@ -621,31 +648,5 @@
   .hey span:nth-child(8) {
     top: 230px;
     margin-left: 150px;
-  }
-}
-
-@media (min-width: 769px) {
-  .side-drawer {
-    font-size: 25px;
-    /* display: none; */
-  }
-
-  .closeX {
-    display: none;
-  }
-
-  .linkstoPageMainDiv {
-    display: none;
-  }
-
-  .toggle_button {
-    height: 36px;
-    width: 36px;
-
-    /* display: none; */
-  }
-
-  .toolbar_navigation_items {
-    display: none;
   }
 }
