@@ -6,6 +6,9 @@
   h1 {
     font-size: 20px;
   }
+  .cookienotice {
+    display: none;
+  }
   .imageHP {
     width: 60%;
     height: 80%;
