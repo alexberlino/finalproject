@@ -47,7 +47,6 @@ class ContactMain extends Component {
       })
       .then(({ data }) => {
         if (data.success) {
-          console.log("success");
           this.setState({
             success: true
           });
@@ -55,7 +54,6 @@ class ContactMain extends Component {
             window.location.reload();
           }, 6000);
         } else {
-          console.log("error");
           this.setState({
             error: true
           });
@@ -68,7 +66,6 @@ class ContactMain extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.state);
     return (
       <div className="contactpage">
         {this.state.error ? (

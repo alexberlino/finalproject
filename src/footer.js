@@ -65,9 +65,9 @@ class Footer extends Component {
           <Link className="footerlink" to={"/en/impressum"}>
             impressum
           </Link>
-          <Link className="footerlink" to={"/sitemap"}>
+          <a className="footerlink" href={"/sitemap.xml"}>
             sitemap
-          </Link>
+          </a>
         </div>
         <div className="footerQuarter">
           <a

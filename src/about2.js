@@ -33,15 +33,10 @@ class About2 extends Component {
         </div>
 
         <div className="infoMain">
+          <p className="block2">Website live since: October 20th 2018 </p>
           <p className="txthead">Why</p>
           <div className="newsItem">
             <ul>
-              <li>
-                {" "}
-                <p className="block2">
-                  Website new version live since: October 20th 2018{" "}
-                </p>
-              </li>
               <li>
                 {" "}
                 <p className="block2">
@@ -113,14 +108,14 @@ class About2 extends Component {
               <li>
                 {" "}
                 <p className="block2">
-                  *csurf*, *salt* and *hash* for admin log-in
+                  *csurf*, *salt* and *hash* for sessions and admin log-in
                 </p>
               </li>
               <li>
                 {" "}
                 <p className="block2">
-                  there was a *3js* animation but I had to disable it because of
-                  loading issues.
+                  *3js* animation but currently disabled due to performance
+                  issues
                 </p>
               </li>
               <li>
@@ -136,13 +131,6 @@ class About2 extends Component {
           <p className="txthead">Next steps</p>
           <div className="newsItem">
             <ul>
-              <li>
-                {" "}
-                <p className="block2">
-                  Get the redirect from seoberlino.com to www.seoberlino.com to
-                  work
-                </p>{" "}
-              </li>
               <li>
                 {" "}
                 <p className="block2">

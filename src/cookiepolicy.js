@@ -22,19 +22,18 @@ class Cookies extends Component {
           <title>Cookies || SEO Berlino</title>
         </Helmet>
 
-        <h1 className="h1services"> Cookies </h1>
-        <div className="serviceText">
+        <h1 className="infoTitle"> Cookies </h1>
+        <div className="infoMain">
           This website, like many others, stores and retrieves information on
           your browser using cookies. This information is used for analytic. It
           is not personally identifiable to you. Because we respect your right
           to privacy, you can choose to change your privacy preferences to
           prevent non-essential cookies being set.
         </div>
-        <div className="serviceTitle"> Cookies used on this site</div>
-        <div className="serviceText">
+        <div className="infoMain">
           Google Analytics Web Property ID UA-103006854-1
         </div>
-        <div className="serviceText">cookie sessions with csurf</div>
+        <div className="infoMain">cookie sessions with csurf</div>
       </div>
     );
   }

@@ -34,7 +34,6 @@ class Homepage extends Component {
     });
     axios.get("/setcookiesession").then(res => {
       if (res.data.success) {
-        console.log("RESDATA", res);
       }
     });
   }
@@ -59,7 +58,6 @@ class Homepage extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.state);
 
     return (
       <div className="mainHP">
