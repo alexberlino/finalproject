@@ -53,7 +53,7 @@ class About2 extends Component {
                 {" "}
                 <p className="block2">
                   Practice with React and all I learnt at Spiced during my Full
-                  Stack Webdevelopent Bootcamp.
+                  Stack Web Development Bootcamp.
                 </p>
               </li>
 

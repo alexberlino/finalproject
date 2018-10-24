@@ -46,8 +46,14 @@ class Footer extends Component {
             </a>
           </div>
         </div>
-        <div className="footerlink footerQuarter">
-          All Right Reserved 2018 Alex Bieth{" "}
+        <div className="footerLinks footerQuarter">
+          <div className="footerlink">All Right Reserved 2018 Alex Bieth </div>
+          <Link
+            to={"/" + this.props.lang + "/aboutthiswebsite"}
+            className="footerlink"
+          >
+            about this website
+          </Link>
         </div>
         <div className="footerLinks footerQuarter">
           <Link className="footerlink " to={"/en/login"}>

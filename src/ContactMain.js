@@ -88,9 +88,8 @@ class ContactMain extends Component {
         <div className="leftContact">
           <Form onSubmit={this.handleSubmit}>
             <FormGroup>
-              <label for="name">{t("fullname")} </label>
+              <label>{t("fullname")} </label>
               <input
-                id="name"
                 type="text"
                 name="name"
                 className="field"
@@ -99,9 +98,8 @@ class ContactMain extends Component {
             </FormGroup>
 
             <FormGroup>
-              <label for="email">Email* </label>
+              <label>Email* </label>
               <input
-                id="email"
                 type="email"
                 name="email"
                 className="field"
@@ -110,9 +108,8 @@ class ContactMain extends Component {
             </FormGroup>
 
             <FormGroup>
-              <label for="name">{t("message")} </label>
+              <label>{t("message")} </label>
               <textarea
-                id="message"
                 type="text"
                 name="message"
                 className="fieldMessage"
