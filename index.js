@@ -97,18 +97,14 @@ app.get("/setcookiesession", (req, res) => {
   });
 });
 
-app.get("/checknotice", (req, res) => {
+app.get("/checknotice", (req, res, next) => {
   if (req.session.checked == "true") {
     console.log(req.session);
     res.json({
       success: true
     });
-  } else {
-    console.log(req.session);
-    res.json({
-      success: false
-    });
   }
+  next();
 });
 app.get("/sitemap.xml", (req, res) => {
   res.render("sitemap");

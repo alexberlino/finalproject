@@ -43,21 +43,17 @@ class Homepage extends Component {
         articles: res.data.rows
       });
     });
-  }
-
-  render() {
-    const { t, i18n } = this.props;
     axios.get("/checknotice").then(({ data }) => {
-      if (data.success) {
-        this.setState({
-          show: false
-        });
-      } else {
+      if (!data.success) {
         this.setState({
           show: true
         });
       }
     });
+  }
+
+  render() {
+    const { t, i18n } = this.props;
 
     return (
       <div className="mainHP">
