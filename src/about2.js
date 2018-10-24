@@ -40,8 +40,8 @@ class About2 extends Component {
               <li>
                 {" "}
                 <p className="block2">
-                  To experience live all the problems encountered for SEO in web
-                  design and improve my technical skills
+                  To experience all the challenges encountered for SEO in web
+                  development and web design, and to improve my technical skills
                 </p>
               </li>
               <li>
