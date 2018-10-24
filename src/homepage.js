@@ -38,6 +38,15 @@ class Homepage extends Component {
     });
   }
   componentDidMount() {
+    axios.get(`/get3articles/`).then(res => {
+      this.setState({
+        articles: res.data.rows
+      });
+    });
+  }
+
+  render() {
+    const { t, i18n } = this.props;
     axios.get("/checknotice").then(({ data }) => {
       if (data.success) {
         this.setState({
@@ -49,15 +58,6 @@ class Homepage extends Component {
         });
       }
     });
-    axios.get(`/get3articles/`).then(res => {
-      this.setState({
-        articles: res.data.rows
-      });
-    });
-  }
-
-  render() {
-    const { t, i18n } = this.props;
 
     return (
       <div className="mainHP">
