@@ -23,6 +23,7 @@ import WriteArticles from "./blogwrite";
 import LoginAdmin from "./adminlogin";
 import Article from "./article.js";
 import Backdrop from "./Backdrop";
+import About2 from "./about2";
 
 // import SearchBox from "./searchbox";
 
@@ -144,10 +145,42 @@ class App extends Component {
                 <Route
                   exact
                   path="/de/article/:url"
+                  render={() => <About2 lang={lang} page={page} />}
+                />
+
+                <Route
+                  exact
+                  path="/en/aboutthiswebsite"
+                  render={() => <About2 lang={lang} page={page} />}
+                />
+                <Route
+                  exact
+                  path="/de/aboutthiswebsite"
                   render={() => <Article lang={lang} page={page} />}
                 />
-                <Route exact path="/en/about" render={() => <About />} />
-                <Route exact path="/de/about" render={() => <About />} />
+
+                <Route
+                  exact
+                  path="/en/about"
+                  render={() => (
+                    <About
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+                <Route
+                  exact
+                  path="/de/about"
+                  render={() => (
+                    <About
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
                 <Route
                   exact
                   path="/en/contact"

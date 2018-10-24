@@ -11,31 +11,11 @@ import i18n from "./i18n";
 class About extends Component {
   constructor() {
     super();
-    this.state = {
-      clicked: false,
-      categorie: null,
-      hover: false
-    };
-
-    this.handleClick = this.handleClick.bind(this);
+    this.state = {};
   }
 
   componentDidMount() {
     window.scrollTo(0, 0);
-  }
-
-  handleClick() {
-    this.setState({ categorie: "text-blur-out" });
-
-    setTimeout(
-      function() {
-        this.setState({
-          clicked: true,
-          categorie: null
-        });
-      }.bind(this),
-      500
-    );
   }
 
   render() {
@@ -53,38 +33,20 @@ class About extends Component {
         </div>
         <div className="aboutpage">
           <div className="aboutgeneric" />
+          <div className="blockAbout orange roll-in-left ">{t("about1")}</div>
+          <div className="blockAbout green">{t("about2")}</div>
+          <div className="blockAbout orange roll-in-left">{t("about3")}</div>
+          <div className="blockAbout orange roll-in-left">{t("about4")}</div>
+          <div className="blockAbout green">{t("about5")}</div>
+          <div className="blockAbout orange roll-in-left">{t("about6")}</div>
+          <div className="blockAbout green">{t("about7")}</div>
           <div
-            onClick={this.handleClick}
-            className="blockAbout orange roll-in-left "
+            className="blockAbout green"
+            onClick={() => this.props.pageChange("/aboutthiswebsite")}
           >
-            {t("about1")}
-          </div>
-          <div onClick={this.handleClick} className="blockAbout green">
-            {t("about2")}
-          </div>
-          <div
-            onClick={this.handleClick}
-            className="blockAbout orange roll-in-left"
-          >
-            {t("about3")}
-          </div>
-          <div
-            onClick={this.handleClick}
-            className="blockAbout orange roll-in-left"
-          >
-            {t("about4")}
-          </div>
-          <div onClick={this.handleClick} className="blockAbout green">
-            {t("about5")}
-          </div>
-          <div
-            onClick={this.handleClick}
-            className="blockAbout orange roll-in-left"
-          >
-            {t("about6")}
-          </div>
-          <div onClick={this.handleClick} className="blockAbout green">
-            {t("about7")}
+            <Link to={"/" + this.props.lang + "/aboutthiswebsite"}>
+              about this website
+            </Link>
           </div>
           <div className="blockAbout2 bounce-in-top">
             <a href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE">

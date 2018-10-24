@@ -1,6 +1,9 @@
 html {
   height: 100%;
 }
+/* ul {
+  list-style: none;
+} */
 
 body {
   margin: 0;
@@ -26,10 +29,17 @@ h2 {
   display: block;
   position: relative;
 }
+.block2 {
+  display: block;
+  position: relative;
+  font-size: 22px;
+  list-style: circle;
+  font-family: arial;
+}
 .blockbold {
   display: block;
   position: relative;
-  font-weight: bolder;
+  font-weight: bold;
   font-family: arial;
   color: black;
 }
@@ -1173,10 +1183,6 @@ h4 {
   left: 0;
 }
 
-ul {
-  list-style: none;
-}
-
 .textblurout {
   -webkit-animation: text-blur-out 2.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)
     both;
@@ -1260,47 +1266,4 @@ ul {
 }
 .green2 {
   background-color: rgba(242, 190, 118, 0.9);
-}
-@media (max-width: 768px) and (orientation: landscape),
-  only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  .hey span {
-    top: 190px;
-    font-size: 26px;
-    margin-left: 150px;
-  }
-
-  .hey span:nth-child(1) {
-  }
-
-  .hey span:nth-child(2) {
-    top: 210px;
-    margin-left: 150px;
-  }
-
-  .hey span:nth-child(3) {
-    top: 200px;
-    margin-left: 150px;
-  }
-  .hey span:nth-child(4) {
-    top: 220px;
-    margin-left: 160px;
-  }
-  .hey span:nth-child(5) {
-    top: 210px;
-    margin-left: 150px;
-  }
-  .hey span:nth-child(6) {
-    top: 230px;
-    margin-left: 150px;
-  }
-
-  .hey span:nth-child(7) {
-    top: 210px;
-    margin-left: 140px;
-  }
-
-  .hey span:nth-child(8) {
-    top: 230px;
-    margin-left: 150px;
-  }
 }
