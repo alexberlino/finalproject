@@ -90,7 +90,7 @@ function checkSession(req, res, next) {
 ////////////END LANGUAGES////////////
 
 app.get("/setcookiesession", (req, res) => {
-  req.session.checked = "true";
+  req.session.checked = true;
 
   res.json({
     success: true
@@ -98,13 +98,14 @@ app.get("/setcookiesession", (req, res) => {
 });
 
 app.get("/checknotice", (req, res, next) => {
-  if (req.session.checked == "true") {
+  if (req.session.checked) {
     console.log(req.session);
     res.json({
       success: true
     });
+  } else {
+    next();
   }
-  next();
 });
 app.get("/sitemap.xml", (req, res) => {
   res.render("sitemap");
