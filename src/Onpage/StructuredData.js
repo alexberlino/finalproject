@@ -19,6 +19,8 @@ class StructuredData extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Structured Data SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Structured Data </h1>

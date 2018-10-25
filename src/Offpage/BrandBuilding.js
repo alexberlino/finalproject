@@ -16,6 +16,8 @@ class BrandBuilding extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Off-page: brandbuilding SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Brandbuilding </h1>
         <div className="serviceTitle"> Why it's Important</div>
@@ -28,7 +30,7 @@ class BrandBuilding extends Component {
           After doing an audit of your link profile and of your main SEO
           competitors, research influencers sources and websites where your
           potential users visit when making their investigation or deciding on
-          which company to use.
+          which sources to use.
         </div>
       </div>
     );

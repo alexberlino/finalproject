@@ -19,6 +19,8 @@ class VoiceSearch extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Voice Search SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Optimization for Voice Search</h1>

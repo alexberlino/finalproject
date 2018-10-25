@@ -19,6 +19,8 @@ class Images extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Images Optimization SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Images Optimization </h1>

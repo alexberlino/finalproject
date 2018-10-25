@@ -18,6 +18,8 @@ class SEA extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>SEA, Search Engine Advertising || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> SEA, Search Engine Advertising</h1>
         <div className="serviceTitle"> Why it's Important</div>

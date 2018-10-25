@@ -16,6 +16,8 @@ class LocalSEO extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Local SEO|| SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Local SEO</h1>
         <div className="serviceTitle"> Why it's Important</div>

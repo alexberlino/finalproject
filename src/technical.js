@@ -8,7 +8,7 @@ import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import LinksToPages from "./LinksToPages";
-import Crawlibility from "./technical/crawlibility";
+import Crawlability from "./technical/crawlability";
 import DynamicRendering from "./technical/dynamicrendering";
 import Indexation from "./technical/indexation";
 import Internationalisation from "./technical/internationalisation";
@@ -59,6 +59,8 @@ class Technical extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Technical SEO || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <div className="infoTitle">

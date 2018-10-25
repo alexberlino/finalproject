@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
-import { Helmet } from "react-helmet";
+import Helmet from "react-helmet";
 import LinksToPages from "./LinksToPages";
 import KeywordResearch from "./Onpage/KeywordResearch";
 import LandingPageOptimization from "./Onpage/LandingPageOptimization";
@@ -61,6 +61,11 @@ class Onpage extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>On-page SEO || SEO Berlino</title>
+          <meta
+            type="description"
+            content="SEO Freelancer in Berlin. On-page Audit looking at a critical part of SEO efficiency. "
+          />
+          <link rel="canonical" />
         </Helmet>
         <div className="infoTitle">
           <img

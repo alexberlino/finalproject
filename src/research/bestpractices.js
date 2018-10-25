@@ -18,6 +18,8 @@ class BestPractices extends Component {
           <title>
             Best Practices when launching a new website || SEO Berlino
           </title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Best Practices for new Websites</h1>
         <div className="serviceTitle"> Why it's Important</div>

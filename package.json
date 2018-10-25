@@ -49,6 +49,7 @@
     "nodemailer": "^4.6.8",
     "nodemon": "^1.18.4",
     "npm": "^6.4.1",
+    "prerender-node": "^3.2.1",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.2.0",

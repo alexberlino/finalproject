@@ -25,6 +25,8 @@ class Impressum extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title> {t("impressum_title")} </title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <div className="infoTitle">

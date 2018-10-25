@@ -16,6 +16,8 @@ class PageSpeed extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Technical SEO: PageSpeed || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> PageSpeed</h1>
         <div className="serviceTitle"> Why it's Important</div>
@@ -32,6 +34,7 @@ class PageSpeed extends Component {
             <a href="https://developers.google.com/speed/pagespeed/insights/?hl=de">
               Google PageSpeed Insights
             </a>{" "}
+            <div className="block"> Lighthouse</div>
           </footer>
         </div>
       </div>

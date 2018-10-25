@@ -59,7 +59,9 @@ class Homepage extends Component {
       <div className="mainHP">
         <Helmet>
           <meta charSet="utf-8" />
+          <link rel="canonical" href="https://www.seoberlino.com/en" />
           <title>{t("HPTitle")}</title>
+          <meta name="description" content="SEO Consulting in Berlin" />
         </Helmet>
         <img alt="freelancer" className="imageHP" src="/apple4.jpg" />
 

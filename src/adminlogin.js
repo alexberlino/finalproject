@@ -41,6 +41,8 @@ class LoginAdmin extends Component {
           <Helmet>
             <meta charSet="utf-8" />
             <title>Log-in</title>
+            <meta type="description" content="" />
+            <link rel="canonical" />
           </Helmet>
           <div className="pagetitle">Admin Log in</div>
           {this.state.error && (

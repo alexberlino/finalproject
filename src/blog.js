@@ -31,6 +31,8 @@ class Blog extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Blog SEO Berlino - SEO Freelancer</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <BlogList lang={this.props.lang} pageChange={this.changePage} />

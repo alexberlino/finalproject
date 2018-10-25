@@ -16,6 +16,8 @@ class Toxic extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Off-page: Toxic Links || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Cleaning Toxic Links </h1>
         <div className="serviceTitle"> Why it's Important</div>

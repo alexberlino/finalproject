@@ -42,6 +42,8 @@ class SEONews extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>SEO News || SEOBerlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <div id="three-js-item" />
 

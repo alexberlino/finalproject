@@ -16,6 +16,8 @@ class LandingPageOptimization extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Landing Page Optimization || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Landing Page Optimization </h1>
@@ -29,7 +31,7 @@ class LandingPageOptimization extends Component {
         <div className="serviceText">
           Check how the Landing page(s) fit(s) within your website, its
           connection to other pages and the landing page, internal and external
-          links poiting to it, content and semantics, technical aspects, image
+          links pointing to it, content and semantics, technical aspects, image
           optimization, and other relevancy factors.
         </div>
       </div>

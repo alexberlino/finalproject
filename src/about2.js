@@ -26,6 +26,8 @@ class About2 extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>About this website || SEOBerlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <div className="infoTitle">

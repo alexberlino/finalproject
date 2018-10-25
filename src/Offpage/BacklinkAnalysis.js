@@ -16,6 +16,8 @@ class BacklinkAnalysis extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Off-page: Backlink Analysis || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Backlink Analysis</h1>
@@ -30,11 +32,11 @@ class BacklinkAnalysis extends Component {
           <li>Analyse your backlink profile and of your competitors.</li>
           <li>
             Create a report with your profile's pros and cons, including *toxic
-            links*
+            links*. Follow and no-follow, quality of links, anchor text.
           </li>
           <li>
             Based on your industry and your competition, make some
-            recommendations with an action plan, focusing on *brand building*
+            recommendations with an action plan, focusing on *brand building*.
           </li>
         </div>
         <div className="serviceTitle"> Related Tools and Resources</div>

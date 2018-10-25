@@ -33,7 +33,7 @@ app.use(require("cookie-parser")());
 app.use(require("body-parser").json());
 const cookieSessionMiddleware = cookieSession({
   secret: secrets.COOKIE_PASS,
-  maxAge: 100 * 60 * 60 * 24 * 30
+  maxAge: 100 * 60 * 60 * 24 * 4
 });
 app.use(cookieSessionMiddleware);
 app.use(csrf({ cookie: true }));
@@ -290,6 +290,8 @@ app.post("/en/form", (req, res) => {
   });
 }); //main
 app.enable("trust proxy");
+
+// app.use(require("prerender-node"));
 
 // Add a handler to inspect the req.secure flag (see
 // http://expressjs.com/api#req.secure). This allows us

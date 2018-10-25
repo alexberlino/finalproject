@@ -16,6 +16,8 @@ class Analytics extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Analytics || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Analytics</h1>
         <div className="serviceTitle"> Why it's (extremely) Important</div>

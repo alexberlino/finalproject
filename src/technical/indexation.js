@@ -16,6 +16,8 @@ class Indexation extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Technical SEO: Indexation|| SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Indexation, redirects and urls.</h1>
         <div className="serviceTitle"> Why it's Important</div>

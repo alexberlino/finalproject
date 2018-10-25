@@ -19,6 +19,8 @@ class Admin extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Admin </title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <div className="mainBox">

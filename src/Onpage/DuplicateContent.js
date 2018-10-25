@@ -19,6 +19,8 @@ class DuplicateContent extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Duplicate Content SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Duplicate Content and Canonicals</h1>
@@ -31,7 +33,8 @@ class DuplicateContent extends Component {
         <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
           Identify duplicate content, assess status and design "master page",
-          deindex unnecessary pages using canonicals.
+          deindex unnecessary pages using canonicals, 410s or redirects
+          accordingly.
         </div>
       </div>
     );

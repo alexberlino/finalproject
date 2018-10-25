@@ -16,6 +16,8 @@ class InternalLinking extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Internal Linking SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Internal Linking </h1>
@@ -27,9 +29,14 @@ class InternalLinking extends Component {
         </div>
         <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          Check how the Landing page fits within the website, is it optimized
-          for its content.
+          Review and audit your current internal linking settings, including
+          navigation, sub-navigations, breadcrumb and tags, taking into account
+          business prioritization. Report action plan with main priority points
+          and explanations for each points.
         </div>
+
+        <div className="serviceTitle"> Some relevant tools</div>
+        <div className="serviceText">Screaming Frog</div>
       </div>
     );
   }

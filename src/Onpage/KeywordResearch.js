@@ -16,6 +16,8 @@ class KeywordResearch extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Keyword Research || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Keyword Research </h1>
@@ -32,7 +34,9 @@ class KeywordResearch extends Component {
           {" "}
           Research using a wide range of sources and provide you a list of the
           best keywords for both broad/related reach and target niche, with
-          search volume and conversion potential.
+          search volume and conversion potential. This activity is more and more
+          complex given that the huge majority of searches now represent a
+          maximum of 50 searches per month. Include *voice search*.
         </div>
         <div className="serviceTitle"> >Tools and Resources</div>
         <div className="serviceText">

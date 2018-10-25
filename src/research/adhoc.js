@@ -16,6 +16,8 @@ class Adhoc extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Research & Analytics: Ad-hoc || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Research & Analytics: Ad-hoc</h1>
         <div className="serviceTitle"> What we can deliver to you</div>

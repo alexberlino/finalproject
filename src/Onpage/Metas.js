@@ -16,6 +16,8 @@ class Metas extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Metas Tags Optimization SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="h1services"> Metas Tags Optimization </h1>
@@ -27,7 +29,7 @@ class Metas extends Component {
         </div>
         <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
-          crawling through your website to analyse and identify opportunities
+          Crawling through your website to analyse and identify opportunities
           such duplicate metas, length, problematic use variables, phrasing,
           consistency, etc. Metas to be checked: title, description, viewport
           and when needed: robots and language.

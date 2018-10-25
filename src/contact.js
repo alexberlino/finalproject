@@ -22,6 +22,8 @@ class Contact extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>{t("getintouch_title")}</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="txt2 txthead"> {t("getintouch")}></h1>

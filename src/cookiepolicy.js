@@ -20,6 +20,8 @@ class Cookies extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Cookies || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <h1 className="infoTitle"> Cookies </h1>

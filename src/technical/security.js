@@ -19,6 +19,8 @@ class Security extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Technical SEO: Security SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Security, HTTPS transition</h1>
         <div className="serviceTitle"> Why it's Important</div>

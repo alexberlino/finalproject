@@ -21,11 +21,14 @@ class Content extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>On-page:Content & Semantics || SEO Berlino</title>
-          <description>
-            Content and semantics are critital in SEO. Included in the SEO
-            Audit, SEO Berlino will review your website's content to assess its
-            quality in SEO terms
-          </description>
+          <link rel="canonical" />
+
+          <meta
+            name="description"
+            content="Content and semantics are critital in SEO. Included in the SEO
+            Audit, we will review your website's content to assess its quality
+            in SEO terms"
+          />
         </Helmet>
 
         <h1 className="h1services"> Content & Semantics </h1>
@@ -36,7 +39,7 @@ class Content extends Component {
           your website's content, and while mobile first means the content on
           the mobile version counts the most, space is more limited.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
           Check content quality, good usage of semantics, still using the most
           important keywords and variations while keeping focus on relevancy for

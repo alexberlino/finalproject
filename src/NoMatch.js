@@ -11,6 +11,8 @@ export default class NoMatch extends React.Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>404 Not Found</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <div className="box404">

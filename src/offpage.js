@@ -55,6 +55,8 @@ class Offpage extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Off-page SEO || SEO Berlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
 
         <div className="infoTitle">

@@ -72,6 +72,8 @@ class Article extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>{this.state.title + " | SEO Berlino Blog"}</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <div id="three-js-item" />
 

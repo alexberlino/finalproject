@@ -19,6 +19,8 @@ class Resources extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>SEO Resources || SEOBerlino</title>
+          <meta type="description" content="" />
+          <link rel="canonical" />
         </Helmet>
         <div id="three-js-item" />
         <div>
