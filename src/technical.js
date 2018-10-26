@@ -125,7 +125,7 @@ class Technical extends Component {
               X{" "}
             </div>
             {this.state.show == 1 ? <Indexation /> : null}
-            {this.state.show == 2 ? <Crawlibility /> : null}
+            {this.state.show == 2 ? <Crawlability /> : null}
             {this.state.show == 3 ? <Internationalisation /> : null}
             {this.state.show == 4 ? <PageSpeed /> : null}
             {this.state.show == 5 ? <MobileFriendly /> : null}
