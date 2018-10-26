@@ -23,6 +23,86 @@ if (process.env.NODE_ENV == "production") {
   secrets = require("./secrets.json");
 }
 
+app.get("/", function(request, response, next) {
+  if (request.headers.host == "heroku.com") {
+    response.writeHead(301, {
+      Location: "https://www.seoberlino.com" + request.url,
+      Expires: new Date().toGMTString()
+    });
+    response.end();
+  } else {
+    next();
+  }
+});
+
+app.get("/blog", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/blog",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
+app.get("/about", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/about",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
+app.get("/contact", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/contact",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+app.get("/seo-tips", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/resources",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+app.get("/backlinking-check", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/offpage",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+app.get("/technical-seo", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/technical",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+app.get("/competitor-analysis", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/research",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
+app.get("/on-page-audit", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/onpage",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
+app.get("/seo-sea-jargon", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/resources",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
 app.use(express.static("./public"));
 
 const csrf = require("csurf");
