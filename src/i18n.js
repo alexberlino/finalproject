@@ -66,7 +66,7 @@ i18n.use(LanguageDetector).init({
         offpageHP4: "relevant influencers research,",
         offpageHP5: "toxic links cleaning",
         technicalHP1: "indexation, redirects and urls",
-        technicalHP2: "crawlibility, robots.txt, sitemaps",
+        technicalHP2: "crawlability, robots.txt, sitemaps",
         technicalHP3: "internationalisation,",
         technicalHP4: "pagespeed,",
         technicalHP5: "mobile-friendliness,",
