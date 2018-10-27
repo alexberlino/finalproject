@@ -26,7 +26,7 @@ if (process.env.NODE_ENV == "production") {
 app.get("/", function(request, response, next) {
   if (request.hostname == "seoberlino.herokuapp.com") {
     response.writeHead(301, {
-      Location: "https://www.seoberlino.com" + request.url,
+      Location: "https://www.seoberlino.com/en",
       Expires: new Date().toGMTString()
     });
     response.end();
