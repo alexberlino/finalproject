@@ -35,10 +35,6 @@ class DynamicRendering extends Component {
           Help you efficiently implement dynamic rendering, if your site
           actually needs it.
         </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>CrazyEgg </footer>
-        </div>
       </div>
     );
   }
