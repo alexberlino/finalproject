@@ -22,27 +22,29 @@ class Footer extends Component {
       <div className="footer">
         <div className="footerQuarter">
           <div>
-            <a name="change language to German" href={"/de" + this.props.page}>
-              <img
-                onClick={() => this.props.languageChange("de")}
-                height="20px"
-                className="footerflags"
-                width="25px"
-                alt="german"
-                title="auf Deutsch"
-                src="/GERMANFLAG.png"
-              />
+            <a
+              onClick={() => this.props.languageChange("de")}
+              height="20px"
+              className="footerflags"
+              width="25px"
+              alt="german"
+              title="auf Deutsch"
+              name="change language to German"
+              href={"/de" + this.props.page}
+            >
+              DE{" "}
             </a>
-            <a name="change language to English" href={"/en" + this.props.page}>
-              <img
-                onClick={() => this.props.languageChange("en")}
-                height="20px"
-                title="change language to English"
-                className="footerflags"
-                width="25px"
-                src="/UKUSFLAG.jpeg"
-                alt="english"
-              />
+            <a
+              name="change language to English"
+              onClick={() => this.props.languageChange("en")}
+              height="20px"
+              title="change language to English"
+              className="footerflags"
+              width="25px"
+              alt="english"
+              href={"/en" + this.props.page}
+            >
+              EN
             </a>
           </div>
         </div>

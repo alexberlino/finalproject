@@ -12,6 +12,8 @@ body {
 * {
   font-family: bariolregular;
 }
+body {
+}
 
 a {
   text-decoration: none;
@@ -280,8 +282,8 @@ iframe {
 .main {
   min-height: calc(100vh - 120px);
 
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 100px;
+  margin-bottom: 0px;
 }
 
 .mainBlog {
@@ -311,12 +313,23 @@ iframe {
 .languageBtn {
   position: fixed;
   display: table;
-  top: 5px;
+  top: 15px;
   left: 280px;
   z-index: 100;
 }
 .languageBtnDE {
   margin-right: 15px;
+  color: black;
+  font-size: 32px;
+  border: 1px black solid;
+  padding: 3px;
+}
+.languageBtnEN {
+  color: black;
+  font-size: 32px;
+  margin-left: 15px;
+  border: 1px black solid;
+  padding: 3px;
 }
 
 /* Dropdown button */
@@ -756,7 +769,8 @@ h4 {
 /* contact*/
 
 .footerflags {
-  padding: 6px;
+  padding: 5px;
+  color: black;
 }
 .txthead {
   color: black;
@@ -895,7 +909,7 @@ h4 {
   font-size: 28px;
   background-color: rgba(100, 100, 100, 0.1);
   color: black;
-  top: -30px;
+
   width: 80%;
   padding: 20px;
   text-align: right;
@@ -1017,7 +1031,7 @@ h4 {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: white;
+  background-color: rgba(238, 238, 1);
   height: 85px;
   z-index: 300;
 }
@@ -1031,7 +1045,7 @@ h4 {
 
 .toolbar_logo {
   margin-left: 2rem;
-  margin-top: 2.1rem;
+  margin-top: 3rem;
   height: 70px;
   width: 120px;
 }

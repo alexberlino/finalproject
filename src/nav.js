@@ -27,32 +27,26 @@ class Navigation extends Component {
               <img
                 alt="logo"
                 className="toolbar_logo"
-                src="/logonew.png"
+                src="/logonew2.png"
                 onClick={() => this.props.pageChange("/")}
               />
             </a>
           </div>
 
           <div className="languageBtn">
-            <a href={"/de" + this.props.page}>
-              <img
-                className="languageBtnDE"
-                alt="German"
-                onClick={() => this.props.languageChange("de")}
-                height="26px"
-                width="32px"
-                src="/GERMANFLAG.png"
-              />
+            <a
+              className="languageBtnDE"
+              onClick={() => this.props.languageChange("de")}
+              href={"/de" + this.props.page}
+            >
+              DE
             </a>
-            <a href={"/en" + this.props.page}>
-              <img
-                className="languageBtnEN"
-                alt="English"
-                onClick={() => this.props.languageChange("en")}
-                height="26px"
-                width="32px"
-                src="/UKUSFLAG.jpeg"
-              />
+            <a
+              className="languageBtnEN"
+              href={"/en" + this.props.page}
+              onClick={() => this.props.languageChange("en")}
+            >
+              EN
             </a>
           </div>
 
