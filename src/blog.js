@@ -30,7 +30,7 @@ class Blog extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Blog SEO Berlino - SEO Freelancer</title>
+          <title>Blog SEO Berlino - SEO Expert in Berlin</title>
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>

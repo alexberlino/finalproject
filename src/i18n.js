@@ -40,7 +40,7 @@ i18n.use(LanguageDetector).init({
         getintouch: "Get in touch",
         aboutme: "SEO Expert in Berlin || Alex Bieth",
         aboutmetitle: "aboutme",
-        HPTitle: "SEO Consulting in Berlin || SEO Berlino",
+        HPTitle: "SEO Expert in Berlin || SEO Berlino",
         getintouch_title: "Get in touch SEO Berlino || SEO Expert",
         bloglatest: "Latest posts",
         services: "SERVICES",
