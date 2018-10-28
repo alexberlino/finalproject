@@ -25,7 +25,7 @@ class BrandBuilding extends Component {
           Your links represent your reputation and relevancy in your domain.
           Linkbuilding now goes hand in hand with brandbuilding.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           After doing an audit of your link profile and of your main SEO
           competitors, research influencers sources and websites where your

@@ -31,7 +31,7 @@ class Images extends Component {
           only virtual and therefore invisible in analytics reports. Image
           Search is still a fantastic opportunity to improve brand awareness.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Make sure images are well optimized from image hosting to image alt
           tags. In case, your website actively uses images, help you with a

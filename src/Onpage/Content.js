@@ -39,7 +39,7 @@ class Content extends Component {
           your website's content, and while mobile first means the content on
           the mobile version counts the most, space is more limited.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Check content quality, good usage of semantics, still using the most
           important keywords and variations while keeping focus on relevancy for

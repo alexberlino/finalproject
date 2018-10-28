@@ -27,7 +27,7 @@ class BacklinkAnalysis extends Component {
           understand where you stand, plan, execute and control your backlinks
           activities.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           <li>Analyse your backlink profile and of your competitors.</li>
           <li>

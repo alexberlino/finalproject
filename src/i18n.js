@@ -6,7 +6,7 @@ i18n.use(LanguageDetector).init({
   resources: {
     en: {
       translations: {
-        intro1: "SEO Expert Freelancer in Berlin with MBA and scrum training.",
+        intro1: "SEO Expert in Berlin with MBA and scrum training.",
         intro2: "9 years experience in SEO, SEA and Analytics.",
         intro3: "Trained Full Stack Web Developer",
         intro4: "Analysis, Action Plan with Prioritization, and Controlling",
@@ -38,10 +38,10 @@ i18n.use(LanguageDetector).init({
         // about10: `Alex always had a superior command of his field of activity and very good knowledge of all processes and aspects of the company. He was always very successful in expanding his professional knowledge on his own initiative. Alex has led several major projects of cleaning up our SEO profiles so as to reflect the best practices preached by Google as well as pioners. He has been strict in following the cleanest and best practices to avoid penalties, but continue growth in Spreadshirt's SEO visibility.`,
         // about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
         getintouch: "Get in touch",
-        aboutme: "SEO Freelancer in Berlin || Alex Bieth",
+        aboutme: "SEO Expert in Berlin || Alex Bieth",
         aboutmetitle: "aboutme",
-        HPTitle: "SEO Consulting in Berlin || Alex Bieth SEO Freelancer",
-        getintouch_title: "Get in touch SEO Berlino || SEO Freelancer",
+        HPTitle: "SEO Consulting in Berlin || SEO Berlino",
+        getintouch_title: "Get in touch SEO Berlino || SEO Expert",
         bloglatest: "Latest posts",
         services: "SERVICES",
         analyticsHP1: "local SEO",
@@ -100,7 +100,7 @@ i18n.use(LanguageDetector).init({
         technical_main: `Technical SEO Optimization regroups all on-page SEO which is not content related. For a Technical Audit, we will review, report and present an action plan for these topics: ​ Pagespeed, consequences of Google algorithms changes, crawl (robots, noindex/follow, sitemaps, etc), redirects, duplicate content & canonicals, indexation, URL Canonicalization, image optimization, site structure, internal linking etc...`,
         research_intro: `Using the most important SEO factors, we will do an in-depth analysis of your competitors to find quick wins!`,
         research_main: `​ ​ ​ ​ ​ What are my competitors ranking ahead of me doing that I am not, and that I could test? Who is linking to my competitors and why not to me? But don't copy, do better! ​ Know what your competitors are up to Contact Us Content of Competitor Analysis: ​ Main SEO Competitors Identification Backlink profile Keyword Analysis, main landing pages organisation and site structure Indexation Page load time comparition and other technical checks Internationalisation and more`,
-        impressum_title: `Impressum SEO Berlino || SEO Freelancer in Berlin`
+        impressum_title: `Impressum SEO Berlino || SEO Expert in Berlin`
       }
     }, //en
 
@@ -170,7 +170,7 @@ i18n.use(LanguageDetector).init({
         // about10: `Herr Bieth hatte immer eine überlegene Beherrschung seines Tätigkeitsfeldes und sehr gute Kenntnisse aller Prozesse und Aspekte des Unternehmens. Er war immer sehr erfolgreich in der Erweiterung seiner beruflichen Kenntnisse auf eigene Initiative. Alex hat mehrere große Projekte zur Bereinigung unserer SEO-Profile geleitet, um die von Google gepredigten Best Practices sowie Pioniere zu reflektieren. Er hat strikt die saubersten und besten Praktiken verfolgt, um Strafen zu vermeiden, aber weiterhin die Spreadshirt SEO Sichtbarkeit erhöhen.`,
         // about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
         getintouch: "Kontakt",
-        aboutme: "SEO Beratung || SEO Freelancer SEO Berlino",
+        aboutme: "SEO Beratung || SEO Expert SEO Berlino",
         HPTitle: "SEO Beratung in Berlin || SEO Selständig SEO Berlino",
         getintouch_title: "Kontakt SEO Berlino || SEO Beratung SEO Berlino",
         bloglatest: "Neueste Beiträge",

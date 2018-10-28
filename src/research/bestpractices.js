@@ -28,7 +28,7 @@ class BestPractices extends Component {
           avoid re-doing parts of the website which could be SEO-unfriendly,
           thus saving you time and euros.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           {" "}
           Assitance in your technical planning, understanding priorities,

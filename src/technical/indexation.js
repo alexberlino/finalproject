@@ -28,7 +28,7 @@ class Indexation extends Component {
           duplicate pages indexed for example, the bot will likely limit your
           "crawling credit" and discard those pages which you value most.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Make sure all the important pages are indexed and that those you do
           not want indexed are not. Check on duplicate or irrelevant indexed

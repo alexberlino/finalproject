@@ -27,7 +27,7 @@ class InternalLinking extends Component {
           Link juice redistribution, prioritization of key pages or site
           sections to name a few reasons.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Review and audit your current internal linking settings, including
           navigation, sub-navigations, breadcrumb and tags, taking into account

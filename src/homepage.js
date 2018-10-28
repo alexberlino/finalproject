@@ -267,7 +267,6 @@ class Homepage extends Component {
                   <li>{t("analyticsHP2")}</li>
                   <li>{t("analyticsHP3")}</li>
                   <li>{t("analyticsHP4")}</li>
-                  <li>{t("analyticsHP5")}</li>
                   <li>{t("analyticsHP6")}</li>
                 </ul>
                 <img

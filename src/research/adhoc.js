@@ -20,11 +20,9 @@ class Adhoc extends Component {
           <link rel="canonical" />
         </Helmet>
         <h1 className="h1services"> Research & Analytics: Ad-hoc</h1>
-        <div className="serviceTitle"> What we can deliver to you</div>
         <div className="serviceText">
           Some SEO requests can be quite specific and not fit in one of the
-          categorisations listed yet. Still not hesitate to reach out and
-          explain your needs.
+          categorisations listed yet.
         </div>
       </div>
     );

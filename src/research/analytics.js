@@ -28,7 +28,7 @@ class Analytics extends Component {
           number of visits/unique visitors and conversions for specific pages
           and site sections, or compare data by device type or browser.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Set-up or fix your Analytics if not implemented or if the data is not
           reliable. Create reports for SEO monitoring and controlling.

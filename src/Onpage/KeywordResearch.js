@@ -29,7 +29,7 @@ class KeywordResearch extends Component {
           often a gap between the language of the users and the one the website
           is using.
         </div>
-        <div className="serviceTitle"> >What we can deliver to you</div>
+        <div className="serviceTitle"> >To do</div>
         <div className="serviceText">
           {" "}
           Research using a wide range of sources and provide you a list of the

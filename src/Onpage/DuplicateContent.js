@@ -30,7 +30,7 @@ class DuplicateContent extends Component {
           similar pages and you are not flagging them, these pages will not rank
           well.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Identify duplicate content, assess status and design "master page",
           deindex unnecessary pages using canonicals, 410s or redirects

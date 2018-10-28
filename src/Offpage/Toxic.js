@@ -26,11 +26,12 @@ class Toxic extends Component {
           Too many low quality and/or spammy links and your website will lose
           "Google credibility" and therefore visibility.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Since a few years already, you as website owner are responsible for
           the backlinks pointing to your site, so you need to constantly
-          monitor, identify bad links and clean up your backlink profile.
+          monitor, identify bad links and clean up your backlink profile. First
+          step using the disavow tool then to try pro-actively to remove them.
         </div>
         <div className="serviceTitle"> Related Tools and Resources</div>
         <div className="serviceText">

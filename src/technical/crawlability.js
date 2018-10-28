@@ -27,7 +27,7 @@ class Crawlability extends Component {
           optimize indexation, you can improve and guide Google on how it crawls
           your site.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Set-up or Audit of your sitemaps, robots file and robots metas.
         </div>

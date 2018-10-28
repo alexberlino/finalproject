@@ -27,7 +27,7 @@ class LandingPageOptimization extends Component {
           it is. There are actually many factors that will make a landing page
           work, from design & UX to SEO.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Check how the Landing page(s) fit(s) within your website, its
           connection to other pages and the landing page, internal and external

@@ -27,7 +27,7 @@ class Metas extends Component {
           ones: meta title and description can also have a negative impact on
           CTR (Click-through-rate) when incorrectly implemented.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Crawling through your website to analyse and identify opportunities
           such duplicate metas, length, problematic use variables, phrasing,

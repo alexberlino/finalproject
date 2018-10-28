@@ -26,7 +26,7 @@ class Internationalisation extends Component {
           domain, different top level domains, how to link between them, how to
           simplify the process without affecting your SEO.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Audit or help you set-up an effective SEO strategy depending on your
           requirements and resources. Make sure the language meta tags and

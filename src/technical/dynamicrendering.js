@@ -30,7 +30,7 @@ class DynamicRendering extends Component {
           say they can achieve this overtime, after many "visits", they do
           recommend for most sites to use dynamic rendering.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle">To do</div>
         <div className="serviceText">
           Help you efficiently implement dynamic rendering, if your site
           actually needs it.

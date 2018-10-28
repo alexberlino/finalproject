@@ -91,12 +91,7 @@ class Technical extends Component {
             >
               {t("analyticsHP4")}
             </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(4)}
-            >
-              {t("analyticsHP5")}
-            </p>
+
             <p
               className="listServices orange2"
               onClick={() => this.handleClick(5)}

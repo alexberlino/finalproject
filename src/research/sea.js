@@ -29,7 +29,7 @@ class SEA extends Component {
           visibility, SEA helps you to get those first visits to get going
           and/or get visibility and bran awareness using the Display Network.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Adwords Set-up and/or optimization, landing pages testing. Keywords
           bid ajustments depending on the strategy.

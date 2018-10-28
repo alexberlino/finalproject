@@ -31,7 +31,7 @@ class VoiceSearch extends Component {
           be ready for it, every website needs to understand how it changes
           classical SEO.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           A personalised report on voice searches for your industry and how this
           affect your on-page SEO strategy and your "VIP" Keywords.

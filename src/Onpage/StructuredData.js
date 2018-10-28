@@ -31,7 +31,7 @@ class StructuredData extends Component {
           content. using Structured Data will enable you to improve the way your
           pages are displayed.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           You can use Structured Data to provide additional information about
           creative work, events, organisation, a person, a place or a product.

@@ -26,7 +26,7 @@ class LocalSEO extends Component {
           overall strategy to local SEO. It is important to keep in mind that
           the most important factor in personalised search results is location.
         </div>
-        <div className="serviceTitle"> What we can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           In the audit which is affected by both on-page an off-page, local SEO
           factors such as city/ region mention will be taken in account.

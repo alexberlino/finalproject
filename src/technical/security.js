@@ -29,7 +29,7 @@ class Security extends Component {
           competitors, but now it has become the norm. If you haven't made the
           transition yet, it needs to be very high on your priority list.
         </div>
-        <div className="serviceTitle"> What I can deliver to you</div>
+        <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Help you with plan on how to make the migrations, incluing identify
           pages to redirect (which should be most), and those you should not,
