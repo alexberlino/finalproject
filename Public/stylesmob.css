@@ -305,14 +305,21 @@
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
+  .languageBtn {
+    top: 15px;
+    left: 60px;
+  }
+
   .languageBtnEN {
-    position: fixed;
-    display: inline;
-    top: 10px;
-    left: 200px;
-    z-index: 400;
-    font-size: 17px;
-    width: 20px;
+    margin-right: 15px;
+    font-size: 16px;
+    padding: 3px;
+  }
+
+  .languageBtnDE {
+    margin-right: 15px;
+    font-size: 16px;
+    padding: 3px;
   }
   .toggleMan {
     width: 40px;
@@ -320,16 +327,6 @@
   }
   .toolbar {
     height: 50px;
-  }
-
-  .languageBtnDE {
-    position: fixed;
-    display: inline;
-    font-size: 17px;
-
-    z-index: 400;
-    top: 10px;
-    left: 260px;
   }
 
   .important {
