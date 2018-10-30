@@ -29,6 +29,7 @@
   .serviceText {
     font-size: 17px;
     margin-bottom: 18px;
+    width: 80%;
   }
 
   .txthead2 {
@@ -161,7 +162,7 @@
     left: 0px;
     top: 0px;
     height: auto;
-    background-color: rgba(360, 360, 360, 0.94);
+    background-color: rgba(360, 360, 360, 0.98);
     z-index: 11;
     opacity: 1;
   }
@@ -189,23 +190,23 @@
 
   .serviceTitle {
     margin-left: 15%;
-    width: 80%;
+    width: 70%;
   }
 
   .closeX {
     font-size: 15px;
-    left: 80%;
+    left: 86%;
     padding: 5px;
     padding-bottom: 10px;
     padding-top: 2px;
     width: 8px;
     height: 8px;
-    z-index: 12;
+    z-index: 312;
     border-radius: 160px;
     position: sticky;
     position: -webkit-sticky;
     position: fixed;
-    top: 50px;
+    top: 90px;
     color: white;
     background-color: black;
     border: 1px black solid;
@@ -221,11 +222,12 @@
   }
 
   .h1services {
-    width: 70%;
     padding: 5px;
-    text-align: center;
+    top: 10px;
+    width: 70%;
+    text-align: left;
     margin-left: 10%;
-    font-size: 23px;
+    font-size: 21px;
   }
 
   .leftServices {
@@ -245,6 +247,8 @@
   .logoAnimationServices {
     height: 30px;
     width: 30px;
+    top: 1px;
+    left: -55px;
     position: sticky;
     position: -webkit-sticky;
     float: left;
@@ -306,7 +310,7 @@
     margin: 0; /* Important for vertical align on mobile phones */
   }
   .languageBtn {
-    top: 15px;
+    top: 11px;
     left: 60px;
   }
 
@@ -363,12 +367,12 @@
   }
 
   .infoTitle {
-    top: 30px;
+    top: 2px;
     font-size: 18px;
-    margin-top: 27px;
+    margin-top: 2px;
     position: sticky;
     position: -webkit-sticky;
-    z-index: 1;
+    z-index: 9;
 
     background-color: rgba(300, 300, 300, 0.7);
   }

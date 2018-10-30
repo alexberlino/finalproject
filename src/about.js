@@ -43,7 +43,7 @@ class About extends Component {
           <div className="blockAbout orange roll-in-left">{t("about6")}</div>
           <div className="blockAbout green">{t("about7")}</div>
           <div
-            className="blockAbout green"
+            className="blockAbout orange"
             onClick={() => this.props.pageChange("/aboutthiswebsite")}
           >
             <Link to={"/" + this.props.lang + "/aboutthiswebsite"}>
