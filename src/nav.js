@@ -27,7 +27,7 @@ class Navigation extends Component {
               <img
                 alt="logo"
                 className="toolbar_logo"
-                src="/logonew2.png"
+                src="/logonew.png"
                 onClick={() => this.props.pageChange("/")}
               />
             </a>

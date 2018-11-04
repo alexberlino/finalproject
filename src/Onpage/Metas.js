@@ -20,7 +20,7 @@ class Metas extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Metas Tags Optimization </h1>
+        <h1 className="h1services"> Metas Tags and headers </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Basic aspect of SEO, they are somehow often neglected. The two main

@@ -22,13 +22,6 @@ class Content extends Component {
           <meta charSet="utf-8" />
           <title>On-page:Content & Semantics || SEO Berlino</title>
           <link rel="canonical" />
-
-          <meta
-            name="description"
-            content="Content and semantics are critital in SEO. Included in the SEO
-            Audit, we will review your website's content to assess its quality
-            in SEO terms"
-          />
         </Helmet>
 
         <h1 className="h1services"> Content & Semantics </h1>
@@ -39,11 +32,13 @@ class Content extends Component {
           your website's content, and while mobile first means the content on
           the mobile version counts the most, space is more limited.
         </div>
+
+        <img src="/content.svg" className="serviceImage" />
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Check content quality, good usage of semantics, still using the most
-          important keywords and variations while keeping focus on relevancy for
-          the user and not focus on Google only.
+          important keywordsand variations in the right places, while keeping
+          focus on relevancy for the user and not focus on Google only.
         </div>
       </div>
     );

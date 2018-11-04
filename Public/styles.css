@@ -1034,7 +1034,6 @@ h4 {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ff5a09;
   height: 85px;
   z-index: 300;
 }
@@ -1249,14 +1248,21 @@ h4 {
 }
 
 .h1services {
-  color: black;
-  border: #ff5a09 3px solid;
+  color: darkgrey;
   border-radius: 50px;
   width: 100%;
   padding: 10px;
   top: -30px;
   font-size: 23px;
   z-index: 300;
+}
+
+.serviceImage {
+  margin-left: 30%;
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .serviceTitle {

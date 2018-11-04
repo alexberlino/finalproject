@@ -30,6 +30,8 @@ class DuplicateContent extends Component {
           similar pages and you are not flagging them, these pages will not rank
           well.
         </div>
+        <img src="/content.svg" className="serviceImage" />
+
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Identify duplicate content, assess status and design "master page",

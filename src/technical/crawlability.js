@@ -29,7 +29,8 @@ class Crawlability extends Component {
         </div>
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">
-          Set-up or Audit of your sitemaps, robots file and robots metas.
+          Set-up or Audit of your sitemaps, robots file and robots metas. Check
+          server logs.
         </div>
       </div>
     );
