@@ -23,13 +23,15 @@ class Images extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Images Optimization </h1>
+        <h1 className="h1services"> Images & Media Optimization </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Image Search still represents for most industry an important SEO
-          subchannel. Given how Image search now works, many Image "visits" are
-          only virtual and therefore invisible in analytics reports. Image
-          Search is still a fantastic opportunity to improve brand awareness.
+          Engaging Images and media (such as videos and diagrams) helps increase
+          time on page and reduce bounce rate. Image Search still represents for
+          most industry an important SEO subchannel. Given how Image search now
+          works, many Image "visits" are only virtual and therefore invisible in
+          analytics reports. Image Search is still a fantastic opportunity to
+          improve brand awareness.
         </div>
         <img src="/picture.svg" height="200px" className="serviceImage" />
 

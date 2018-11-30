@@ -25,7 +25,8 @@ class Metas extends Component {
         <div className="serviceText">
           Basic aspect of SEO, they are somehow often neglected. The two main
           ones: meta title and description can also have a negative impact on
-          CTR (Click-through-rate) when incorrectly implemented.
+          CTR (Click-through-rate) when incorrectly implemented. Headings such
+          as h1, h2, etc also help crawlers identify content structure.
         </div>
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">
