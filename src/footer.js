@@ -110,7 +110,7 @@ class Footer extends Component {
                         </span>
                     </a>
 
-                    <a href={"/" + this.props.lang + "/audit"}>
+                    <a href={"/" + this.props.lang + "/research"}>
                         <span
                             className="block"
                             onClick={() => this.props.pageChange("/research")}

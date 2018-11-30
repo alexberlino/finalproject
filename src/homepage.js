@@ -208,12 +208,25 @@ class Homepage extends Component {
                     </span>
                     <span className="block">low hanging fruit</span>
                     <span className="block">projects</span>
-                    <p className="block italic introQuarter ">
+                    <p className=" italic introQuarter ">
                         documents and access needed before audit: Search Console
                         & Google Analytics, Business Overview, Industry Market
                         research including competition, geographical & personas
                         targets, Google Ads data
                     </p>
+                    <span className="block bold">
+                        pdf report layout example
+                    </span>
+                    <div>
+                        {" "}
+                        <a href="/reporttemplate.pdf">
+                            <img
+                                src="/auditexample.png"
+                                height="200px"
+                                width="130px"
+                            />{" "}
+                        </a>
+                    </div>
                 </div>
                 <div>
                     <div>
