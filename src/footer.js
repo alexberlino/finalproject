@@ -58,17 +58,6 @@ class Footer extends Component {
                     >
                         about this website
                     </Link>
-                    <a
-                        name="my LinkedIn profile"
-                        href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE"
-                    >
-                        <img
-                            alt="linkedin logo"
-                            src="/Linkedin-logo.png"
-                            height="30px"
-                            width="30px"
-                        />
-                    </a>
                 </div>
                 <div className="footerLinks footerQuarter">
                     <Link className="footerlink " to={"/en/login"}>
@@ -84,116 +73,87 @@ class Footer extends Component {
                         sitemap
                     </a>
                 </div>
-                <div className="footerQuarter">
-                    <div className="linkstoPageMainDiv">
-                        <ul>
-                            <li>
-                                <a href={"/" + this.props.lng + "/about"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/about")
-                                        }
-                                    >
-                                        {t("about")}
-                                    </span>
-                                </a>
-                            </li>
+                <div className="hideRightServices footerLinks footerQuarter block">
+                    <a href={"/" + this.props.lang + "/about"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/about")}
+                        >
+                            ABOUT
+                        </span>
+                    </a>
 
-                            <li>
-                                <a href={"/" + this.props.lng + "/onpage"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/onpage")
-                                        }
-                                    >
-                                        ON-PAGE AUDIT
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href={"/" + this.props.lng + "/offpage"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/offpage")
-                                        }
-                                    >
-                                        OFF-PAGE AUDIT
-                                    </span>
-                                </a>
-                            </li>
+                    <a href={"/" + this.props.lang + "/onpage"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/onpage")}
+                        >
+                            ON-PAGE AUDIT
+                        </span>
+                    </a>
 
-                            <li>
-                                <a href={"/" + this.props.lng + "/technical"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/technical")
-                                        }
-                                    >
-                                        {t("technical")}
-                                    </span>
-                                </a>
-                            </li>
+                    <a href={"/" + this.props.lang + "/offpage"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/offpage")}
+                        >
+                            OFF-PAGE AUDIT
+                        </span>
+                    </a>
 
-                            <li>
-                                <a href={"/" + this.props.lng + "/audit"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/research")
-                                        }
-                                    >
-                                        RESEARCH AND ANALYICS
-                                    </span>
-                                </a>
-                            </li>
+                    <a href={"/" + this.props.lang + "/technical"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/technical")}
+                        >
+                            TECHNICAL
+                        </span>
+                    </a>
 
-                            <li>
-                                <a href={"/" + this.props.lng + "/blog"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/blog")
-                                        }
-                                    >
-                                        BLOG
-                                    </span>
-                                </a>
-                            </li>
+                    <a href={"/" + this.props.lang + "/audit"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/research")}
+                        >
+                            RESEARCH AND ANALYICS
+                        </span>
+                    </a>
 
-                            <li>
-                                <a href={"/" + this.props.lng + "/contact"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/contact")
-                                        }
-                                    >
-                                        {t("contact")}
-                                    </span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href={"/" + this.props.lng + "/seonews"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/seonews")
-                                        }
-                                    >
-                                        SEO NEWS
-                                    </span>
-                                </a>
-                            </li>
+                    <a href={"/" + this.props.lang + "/blog"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/blog")}
+                        >
+                            BLOG
+                        </span>
+                    </a>
 
-                            <li>
-                                <a href={"/" + this.props.lng + "/resources"}>
-                                    <span
-                                        onClick={() =>
-                                            this.props.pageChange("/resources")
-                                        }
-                                    >
-                                        RESOURCES
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <a href={"/" + this.props.lang + "/contact"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/contact")}
+                        >
+                            CONTACT
+                        </span>
+                    </a>
+
+                    <a href={"/" + this.props.lang + "/seonews"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/seonews")}
+                        >
+                            SEO NEWS
+                        </span>
+                    </a>
+
+                    <a href={"/" + this.props.lang + "/resources"}>
+                        <span
+                            className="block"
+                            onClick={() => this.props.pageChange("/resources")}
+                        >
+                            RESOURCES
+                        </span>
+                    </a>
                 </div>
             </div>
         );
