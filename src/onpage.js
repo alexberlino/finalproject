@@ -19,145 +19,149 @@ import VoiceSearch from "./Onpage/VoiceSearch";
 import Metas from "./Onpage/Metas";
 
 class Onpage extends Component {
-  constructor() {
-    super();
-    this.state = {
-      show: null,
-      toggle: "hideRightServices",
-      hide: null,
-      hide2: null
-    };
+    constructor() {
+        super();
+        this.state = {
+            show: null,
+            toggle: "hideRightServices",
+            hide: null,
+            hide2: null
+        };
 
-    this.handleClick = this.handleClick.bind(this);
-    this.handleClickClose = this.handleClickClose.bind(this);
-  }
-  handleClick(n) {
-    this.setState({
-      show: n,
-      toggle: "",
-      hide: "hide",
-      hide2: "hide2"
-    });
-  }
+        this.handleClick = this.handleClick.bind(this);
+        this.handleClickClose = this.handleClickClose.bind(this);
+    }
+    handleClick(n) {
+        this.setState({
+            show: n,
+            toggle: "",
+            hide: "hide",
+            hide2: "hide2"
+        });
+    }
 
-  handleClickClose() {
-    this.setState({
-      toggle: "hideRightServices",
-      hide: "show",
-      hide2: null
-    });
-    window.scrollTo(0, 0);
-  }
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
+    handleClickClose() {
+        this.setState({
+            toggle: "hideRightServices",
+            hide: "show",
+            hide2: null
+        });
+        window.scrollTo(0, 0);
+    }
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
 
-  render() {
-    const { t, i18n } = this.props;
-    console.log(this.state);
+    render() {
+        const { t, i18n } = this.props;
 
-    return (
-      <div className="main">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>On-page SEO || SEO Berlino</title>
-          <meta
-            type="description"
-            content="SEO Freelancer in Berlin. On-page Audit looking at a critical part of SEO efficiency. "
-          />
-          <link rel="canonical" />
-        </Helmet>
-        <div className="infoTitle">
-          <img
-            alt="onpage"
-            src="/onpage.svg"
-            className="logoAnimationServices"
-          />
-          <h1> On-page SEO Audit</h1>
-        </div>
-        <div className="services">
-          <div className={this.state.hide + " leftServices"}>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(1)}
-            >
-              {t("onpageHP1")}
-            </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(2)}
-            >
-              {t("onpageHP2")}
-            </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(3)}
-            >
-              {t("onpageHP3")} {t("onpageHP5")}
-            </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(4)}
-            >
-              {t("onpageHP4")}
-            </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(5)}
-            >
-              {t("onpageHP6")}
-            </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(6)}
-            >
-              {t("onpageHP7")}
-            </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(7)}
-            >
-              {t("onpageHP8")}
-            </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(8)}
-            >
-              {t("onpageHP9")}
-            </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(9)}
-            >
-              {t("onpageHP10")}
-            </p>
-          </div>
+        return (
+            <div className="main">
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>On-page SEO || SEO Berlino</title>
+                    <meta
+                        type="description"
+                        content="SEO Freelancer in Berlin. On-page Audit looking at a critical part of SEO efficiency. "
+                    />
+                    <link rel="canonical" />
+                </Helmet>
+                <div className="infoTitle">
+                    <img
+                        alt="onpage"
+                        src="/onpage.svg"
+                        className="logoAnimationServices"
+                    />
+                    <h1> On-page SEO Audit</h1>
+                </div>
+                <div className="services">
+                    <div className={this.state.hide + " leftServices"}>
+                        <p
+                            className="listServices green2"
+                            onClick={() => this.handleClick(1)}
+                        >
+                            {t("onpageHP1")}
+                        </p>
+                        <p
+                            className="listServices green2"
+                            onClick={() => this.handleClick(2)}
+                        >
+                            {t("onpageHP2")}
+                        </p>
+                        <p
+                            className="listServices orange2"
+                            onClick={() => this.handleClick(3)}
+                        >
+                            {t("onpageHP3")} {t("onpageHP5")}
+                        </p>
+                        <p
+                            className="listServices green2"
+                            onClick={() => this.handleClick(4)}
+                        >
+                            {t("onpageHP4")}
+                        </p>
+                        <p
+                            className="listServices orange2"
+                            onClick={() => this.handleClick(5)}
+                        >
+                            {t("onpageHP6")}
+                        </p>
+                        <p
+                            className="listServices orange2"
+                            onClick={() => this.handleClick(6)}
+                        >
+                            {t("onpageHP7")}
+                        </p>
+                        <p
+                            className="listServices green2"
+                            onClick={() => this.handleClick(7)}
+                        >
+                            {t("onpageHP8")}
+                        </p>
+                        <p
+                            className="listServices orange2"
+                            onClick={() => this.handleClick(8)}
+                        >
+                            {t("onpageHP9")}
+                        </p>
+                        <p
+                            className="listServices green2"
+                            onClick={() => this.handleClick(9)}
+                        >
+                            {t("onpageHP10")}
+                        </p>
+                    </div>
 
-          <div className={this.state.toggle + " rightServices"}>
-            <div className="closeX" onClick={() => this.handleClickClose()}>
-              {" "}
-              X{" "}
+                    <div className={this.state.toggle + " rightServices"}>
+                        <div
+                            className="closeX"
+                            onClick={() => this.handleClickClose()}
+                        >
+                            {" "}
+                            X{" "}
+                        </div>
+                        {this.state.show == 1 ? <KeywordResearch /> : null}
+                        {this.state.show == 2 ? (
+                            <LandingPageOptimization />
+                        ) : null}
+                        {this.state.show == 3 ? <InternalLinking /> : null}
+                        {this.state.show == 4 ? <Metas /> : null}
+                        {this.state.show == 5 ? <Content /> : null}
+                        {this.state.show == 6 ? <Images /> : null}
+                        {this.state.show == 7 ? <StructuredData /> : null}
+                        {this.state.show == 8 ? <DuplicateContent /> : null}
+                        {this.state.show == 9 ? <VoiceSearch /> : null}
+                    </div>
+                </div>
+                <div className={this.state.hide2}>
+                    <LinksToPages
+                        pageChange={this.props.pageChange}
+                        lang={this.props.lng}
+                    />
+                </div>
             </div>
-            {this.state.show == 1 ? <KeywordResearch /> : null}
-            {this.state.show == 2 ? <LandingPageOptimization /> : null}
-            {this.state.show == 3 ? <InternalLinking /> : null}
-            {this.state.show == 4 ? <Metas /> : null}
-            {this.state.show == 5 ? <Content /> : null}
-            {this.state.show == 6 ? <Images /> : null}
-            {this.state.show == 7 ? <StructuredData /> : null}
-            {this.state.show == 8 ? <DuplicateContent /> : null}
-            {this.state.show == 9 ? <VoiceSearch /> : null}
-          </div>
-        </div>
-        <div className={this.state.hide2}>
-          <LinksToPages
-            pageChange={this.props.pageChange}
-            lang={this.props.lng}
-          />
-        </div>
-      </div>
-    );
-  }
+        );
+    }
 }
 
 export default translate("translations")(Onpage);

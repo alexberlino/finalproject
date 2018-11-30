@@ -814,7 +814,14 @@ h4 {
     font-weight: bold;
     font-family: arial;
 }
-
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 22px;
+}
 .txthead4 {
     color: black;
     font-size: 24px;
@@ -829,6 +836,13 @@ h4 {
 }
 .introQuarter {
     width: 40%;
+}
+
+.introQuarter2 {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 50px;
 }
 
 .txtbutton {

@@ -103,13 +103,15 @@ app.get("/seo-sea-jargon", function(request, response) {
     response.end();
 });
 
-// app.get("/", function(request, response) {
-//     response.writeHead(301, {
-//         Location: "https://www.seoberlino.com/en/",
-//         Expires: new Date().toGMTString()
-//     });
-//     response.end();
-// });
+app.get("/", function(request, response) {
+    if (process.env.NODE_ENV == "production") {
+        response.writeHead(301, {
+            Location: "https://www.seoberlino.com/en/",
+            Expires: new Date().toGMTString()
+        });
+        response.end();
+    }
+});
 
 app.use(express.static("./public"));
 
@@ -301,7 +303,7 @@ app.post("/en/login", (req, res) => {
                 );
             }
         })
-        .catch(function(e) {
+        .catch(function() {
             console.log("error while login");
             res.json({
                 success: false

@@ -161,157 +161,60 @@ class Homepage extends Component {
                     </div>
                 </div>
 
-                <div className="intro3">
-                    <section className="green">
-                        <h2 className="txt2 txthead  ">
-                            {" "}
-                            <img
-                                alt="on-page SEO"
-                                src="/onpage.svg"
-                                className="icons"
-                            />{" "}
-                            onpage_audit>
-                        </h2>
-                        <div className="txt3">
-                            <Link
-                                to={"/" + this.props.i18n.language + "/onpage"}
-                                onClick={() => this.props.pageChange("/onpage")}
-                            >
-                                <ul>
-                                    <li>{t("onpageHP1")}</li>
-                                    <li>{t("onpageHP2")}</li>
-                                    <li>{t("onpageHP3")}</li>
-                                    <li>{t("onpageHP4")}</li>
-                                    <li>{t("onpageHP5")}</li>
-                                    <li>{t("onpageHP6")}</li>
-                                    <li>{t("onpageHP7")}</li>
-                                    <li>{t("onpageHP8")}</li>
-                                    <li>{t("onpageHP9")}</li>
-                                    <li>{t("onpageHP10")}</li>
-                                </ul>
-                                <img
-                                    alt="more"
-                                    src="/more.svg"
-                                    className="iconsmore"
-                                    title="read more"
-                                />{" "}
-                            </Link>
-                        </div>{" "}
-                    </section>
-
-                    <section className="orange">
-                        {" "}
-                        <h2 className="txt2 txthead ">
-                            {" "}
-                            <img
-                                alt="off-page"
-                                src="/offpage.svg"
-                                className="icons"
-                            />offpage_audit>
-                        </h2>
-                        <div className="txt3">
-                            <Link
-                                to={"/" + this.props.i18n.language + "/offpage"}
-                                onClick={() =>
-                                    this.props.pageChange("/offpage")
-                                }
-                            >
-                                {" "}
-                                <ul>
-                                    <li>{t("offpageHP1")}</li>
-                                    <li>{t("offpageHP2")}</li>
-                                    <li>{t("offpageHP3")}</li>
-                                    <li>{t("offpageHP4")}</li>
-                                    <li>{t("offpageHP5")}</li>
-                                </ul>
-                                <img
-                                    src="/more.svg"
-                                    className="iconsmore"
-                                    title="read more"
-                                    alt="more"
-                                />{" "}
-                            </Link>
-                        </div>
-                    </section>
-
-                    <section className="green">
-                        {" "}
-                        <h2 className="txt2 txthead  ">
-                            {" "}
-                            <img
-                                alt="technical"
-                                src="/technical.svg"
-                                className="icons"
-                            />{" "}
-                            technical_seo>
-                        </h2>
-                        <div className="txt3">
-                            <Link
-                                to={
-                                    "/" +
-                                    this.props.i18n.language +
-                                    "/technical"
-                                }
-                                onClick={() =>
-                                    this.props.pageChange("/technical")
-                                }
-                            >
-                                <ul>
-                                    <li>{t("technicalHP1")}</li>
-                                    <li>{t("technicalHP2")}</li>
-                                    <li>{t("technicalHP3")}</li>
-                                    <li>{t("technicalHP4")}</li>
-                                    <li>{t("technicalHP5")}</li>
-                                    <li>{t("technicalHP6")}</li>
-                                    <li>{t("technicalHP7")}</li>
-                                </ul>
-                                <img
-                                    src="/more.svg"
-                                    className="iconsmore"
-                                    title="read more"
-                                    alt="more"
-                                />{" "}
-                            </Link>{" "}
-                        </div>
-                    </section>
-
-                    <section className="orange ">
-                        <h2 className="txt2 txthead  ">
-                            <img
-                                alt="anayltics"
-                                src="/analytics.svg"
-                                className="icons"
-                            />{" "}
-                            analytics & research>
-                        </h2>
-
-                        <div className="txt3">
-                            <Link
-                                to={
-                                    "/" + this.props.i18n.language + "/research"
-                                }
-                                onClick={() =>
-                                    this.props.pageChange("/research")
-                                }
-                            >
-                                <ul>
-                                    <li>{t("analyticsHP1")}</li>
-                                    <li>{t("analyticsHP2")}</li>
-                                    <li>{t("analyticsHP3")}</li>
-                                    <li>{t("analyticsHP4")}</li>
-                                    <li>{t("analyticsHP6")}</li>
-                                </ul>
-                                <img
-                                    alt="more"
-                                    src="/more.svg"
-                                    className="iconsmore"
-                                    title="read more"
-                                />
-                            </Link>{" "}
-                        </div>
-                    </section>
+                <div className="introQuarter2">
+                    <footer className="txt2 txthead">audit content></footer>
+                    <span className="block bold">Executive Summary </span>
+                    <span className="block bold">Audit Explanation</span>
+                    <span className="block bold">1. Keyword Research</span>
+                    <span className="block">
+                        keyword brainstorm using current traffic/ Paid search /
+                        Tools
+                    </span>
+                    <span className="block">
+                        Current Analysis including competitors rankings
+                    </span>
+                    <span className="block">Suggestions</span>{" "}
+                    <span className="block bold">2. On-page Audit</span>
+                    <span className="block">
+                        content for traffic, looking optimzation of site vs
+                        Keyword Strategy
+                    </span>
+                    <span className="block">
+                        internal linking & site structure
+                    </span>
+                    <span className="block">meta tags and headers</span>
+                    <span className="block">images</span>
+                    <span className="block">structured data</span>
+                    <span className="block">
+                        duplicate content and canonicals
+                    </span>
+                    <span className="block bold">3. Technical SEO</span>
+                    <span className="block">indexation</span>
+                    <span className="block">crawlability</span>
+                    <span className="block">
+                        page speed & mobile-friendliness
+                    </span>
+                    <span className="block bold">
+                        4. Off-page: Backlink Profile
+                    </span>
+                    <span className="block">overview</span>
+                    <span className="block">trend</span>
+                    <span className="block">best types of links</span>
+                    <span className="block">brandbuilding suggestions</span>
+                    <span className="block bold">5. Competitor Analysis:</span>
+                    <span className="block">backlink & content</span>
+                    <span className="block bold">
+                        6. Summary Priority To-Do List
+                    </span>
+                    <span className="block">low hanging fruit</span>
+                    <span className="block">projects</span>
+                    <p className="block italic introQuarter ">
+                        documents and access needed before audit: Search Console
+                        & Google Analytics, Business Overview, Industry Market
+                        research including competition, geographical & personas
+                        targets, Google Ads data
+                    </p>
                 </div>
-
                 <div>
                     <div>
                         <h2 className="txt2 txthead"> blog></h2>
