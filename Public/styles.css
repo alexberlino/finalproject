@@ -354,23 +354,23 @@ iframe {
 .intro {
     background-color: white;
     color: black;
-    width: 60%;
+    width: 90%;
     height: auto;
-    display: block;
-    margin-left: 10%;
+    display: flex;
+    margin-left: 5%;
     padding: 2px;
     margin-bottom: 40px;
+    margin-top: 100px;
 }
 
 .intro2 {
     margin-left: 18%;
     background-color: white;
     color: black;
-    margin-top: 0px;
+    margin-top: 90px;
     position: relative;
-    width: 60%;
+    width: 50%;
     height: auto;
-    display: flex;
     left: 0px;
 }
 
@@ -524,7 +524,7 @@ section {
     color: black;
     margin: 1px;
     margin-top: 10px;
-    width: 100%;
+    width: 70%;
 }
 
 .txt3 {
@@ -820,7 +820,7 @@ h4 {
 .bold {
     font-weight: bold;
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .txthead4 {
@@ -835,15 +835,14 @@ h4 {
     position: relative;
     font-weight: bold;
 }
-.introQuarter {
-    width: 40%;
-}
 
 .introQuarter2 {
     width: 80%;
     margin-left: 10%;
     font-size: 20px;
     margin-top: 50px;
+    display: flex;
+    position: relative;
 }
 
 .txtbutton {

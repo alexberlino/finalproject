@@ -11,7 +11,7 @@
         width: 60%;
         height: 80%;
         left: 110px;
-        margin: 0px;
+        margin-bottom: 30px;
     }
     .txt {
         font-size: 17px;
@@ -40,11 +40,11 @@
     .txt2 {
         font-size: 17px;
         color: black;
-        width: 80%;
+        width: 75%;
         margin-left: 10%;
         font-size: 16px;
         color: black;
-
+        padding-right: 50px;
         margin-top: 10px;
     }
     .txt a,
@@ -87,7 +87,7 @@
         position: relative;
         margin-right: 0px;
         font-size: 18px;
-        width: 70%;
+        width: 80%;
         margin-bottom: 150px;
         height: 400px;
     }
