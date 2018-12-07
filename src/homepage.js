@@ -125,8 +125,8 @@ class Homepage extends Component {
                   alt="LinkedIn Profile"
                   src="/Linkedin.png"
                   className="linkedin"
-                  height="60%"
-                  width="60%"
+                  height="100px"
+                  width="120px"
                 />{" "}
               </a>
             </div>
