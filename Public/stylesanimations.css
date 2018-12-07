@@ -1,9 +1,9 @@
 .hey span {
   z-index: 9;
   position: absolute;
-  top: 250px;
+  top: 150px;
   font-size: 44px;
-  margin-left: 270px;
+  left: 35%;
 
   text-align: center;
   padding: 5px;
@@ -17,44 +17,38 @@
   z-index: 14;
 }
 .hey span:nth-child(2) {
-  top: 284px;
+  top: 184px;
   z-index: 14;
 }
 .hey span:nth-child(3) {
   animation-delay: 2s;
-  top: 320px;
-  margin-left: 290px;
+  top: 220px;
   z-index: 13;
 }
 .hey span:nth-child(4) {
   animation-delay: 2s;
-  top: 350px;
-  margin-left: 295px;
+  top: 250px;
   z-index: 13;
 }
 .hey span:nth-child(5) {
   animation-delay: 4.2s;
 
-  top: 250px;
-  margin-left: 280px;
+  top: 150px;
   z-index: 12;
 }
 .hey span:nth-child(6) {
   animation-delay: 4.2s;
-  top: 280px;
-  margin-left: 285px;
+  top: 180px;
   z-index: 12;
 }
 .hey span:nth-child(7) {
   animation-delay: 6.4s;
-  top: 315px;
+  top: 215px;
   z-index: 11;
-  margin-left: 275px;
 }
 .hey span:nth-child(8) {
   animation-delay: 6.4s;
-  top: 345px;
-  margin-left: 279px;
+  top: 245px;
   z-index: 11;
 }
 

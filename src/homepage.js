@@ -59,7 +59,10 @@ class Homepage extends Component {
       <div className="mainHP">
         <Helmet>
           <meta charSet="utf-8" />
-          <link rel="canonical" href="https://www.seoberlino.com/en" />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng}
+          />
           <title>{t("HPTitle")}</title>
           <meta name="description" content="SEO Expert in Berlin" />
         </Helmet>
@@ -77,29 +80,56 @@ class Homepage extends Component {
         </div>
 
         <div className="intro">
-          <footer className="txt2 txthead">
-            {" "}
-            <img alt="about me" src="/me.svg" className="icons" />
-            {t("aboutmetitle") + ">"}
-          </footer>
-
-          <h1 className="txt">{t("intro1")}</h1>
-          <div className="txt">{t("intro2")}</div>
-          <div className="txt">{t("intro4")}</div>
-          <div className="txt">{t("intro3")}</div>
-
-          <div className="txt">
-            <Link
-              to={"/" + this.props.i18n.language + "/about"}
-              onClick={() => this.props.pageChange("/about")}
-            >
+          <p className="txt2 txthead">
+            {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
+          </p>
+          <div className="intro2">
+            <div className="footerQuarter">
               <img
-                alt="more"
-                src="/more.svg"
-                className="iconsmore"
-                title="read more"
+                alt="monitoring"
+                src="/seo-monitoring.jpg"
+                className="icon"
               />
-            </Link>
+
+              <p className="txt2"> SEO</p>
+              <p className="txt2">Analytics </p>
+              <p className="txt2">{t("intro5")}</p>
+
+              <p className="txt2"> SEA</p>
+            </div>
+            <div className="introQuarter">
+              <img alt="programming" src="/programming.svg" className="icon" />
+
+              <p className="txt2"> React, Vue, Handlebars</p>
+              <p className="txt2">Javascript, JQuery </p>
+              <p className="txt2">Node, Express</p>
+
+              <p className="txt2"> HTML, CSS</p>
+              <p className="txt2"> SQL, Postgres</p>
+            </div>
+
+            <div className="introQuarter">
+              <img alt="programming" src="/me.svg" className="icon" />
+
+              <p className="txt2">5 years as Head of SEO (Spreadshirt)</p>
+              <p className="txt2">
+                +400% increase in SEO orders (DACH, US, FR)
+              </p>
+              <p className="txt2">
+                Over 1 year experience working as a freelancer
+              </p>
+            </div>
+            <div className="introQuarter">
+              <a href="https://www.linkedin.com/in/alex-bieth-berlin/">
+                <img
+                  alt="LinkedIn Profile"
+                  src="/Linkedin.png"
+                  className="linkedin"
+                  height="60%"
+                  width="60%"
+                />{" "}
+              </a>
+            </div>
           </div>
         </div>
         {this.state.show ? (
@@ -125,159 +155,28 @@ class Homepage extends Component {
           </div>
         ) : null}
 
-        <div className="intro2">
-          <div className="introQuarter">
-            <img alt="monitoring" src="/seo-monitoring.jpg" className="icon" />
-            <ul>
-              <li className="txt2"> SEO</li>
-              <li className="txt2">Analytics </li>
-              <li className="txt2">{t("intro5")}</li>
-
-              <li className="txt2"> SEA</li>
-            </ul>
-          </div>
-          <div className="introQuarter">
-            <img alt="programming" src="/programming.svg" className="icon" />
-            <ul>
-              <li className="txt2"> React, Vue, Handlebars</li>
-              <li className="txt2">Javascript, JQuery </li>
-              <li className="txt2">Node, Express</li>
-
-              <li className="txt2"> HTML, CSS</li>
-              <li className="txt2"> SQL, Postgres</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="intro3">
-          <section className="green">
-            <h2 className="txt2 txthead  ">
-              {" "}
-              <img alt="on-page SEO" src="/onpage.svg" className="icons" />{" "}
-              onpage_audit>
-            </h2>
-            <div className="txt3">
-              <Link
-                to={"/" + this.props.i18n.language + "/onpage"}
-                onClick={() => this.props.pageChange("/onpage")}
-              >
-                <ul>
-                  <li>{t("onpageHP1")}</li>
-                  <li>{t("onpageHP2")}</li>
-                  <li>{t("onpageHP3")}</li>
-                  <li>{t("onpageHP4")}</li>
-                  <li>{t("onpageHP5")}</li>
-                  <li>{t("onpageHP6")}</li>
-                  <li>{t("onpageHP7")}</li>
-                  <li>{t("onpageHP8")}</li>
-                  <li>{t("onpageHP9")}</li>
-                  <li>{t("onpageHP10")}</li>
-                </ul>
-                <img
-                  alt="more"
-                  src="/more.svg"
-                  className="iconsmore"
-                  title="read more"
-                />{" "}
-              </Link>
-            </div>{" "}
-          </section>
-
-          <section className="orange">
+        <div>
+          <h2 className="txthead"> services></h2>
+          <div className="intro2 ">
             {" "}
-            <h2 className="txt2 txthead ">
-              {" "}
-              <img
-                alt="off-page"
-                src="/offpage.svg"
-                className="icons"
-              />offpage_audit>
-            </h2>
-            <div className="txt3">
-              <Link
-                to={"/" + this.props.i18n.language + "/offpage"}
-                onClick={() => this.props.pageChange("/offpage")}
-              >
-                {" "}
-                <ul>
-                  <li>{t("offpageHP1")}</li>
-                  <li>{t("offpageHP2")}</li>
-                  <li>{t("offpageHP3")}</li>
-                  <li>{t("offpageHP4")}</li>
-                  <li>{t("offpageHP5")}</li>
-                </ul>
-                <img
-                  src="/more.svg"
-                  className="iconsmore"
-                  title="read more"
-                  alt="more"
-                />{" "}
-              </Link>
-            </div>
-          </section>
-
-          <section className="green">
-            {" "}
-            <h2 className="txt2 txthead  ">
-              {" "}
-              <img
-                alt="technical"
-                src="/technical.svg"
-                className="icons"
-              />{" "}
-              technical_seo>
-            </h2>
-            <div className="txt3">
-              <Link
-                to={"/" + this.props.i18n.language + "/technical"}
-                onClick={() => this.props.pageChange("/technical")}
-              >
-                <ul>
-                  <li>{t("technicalHP1")}</li>
-                  <li>{t("technicalHP2")}</li>
-                  <li>{t("technicalHP3")}</li>
-                  <li>{t("technicalHP4")}</li>
-                  <li>{t("technicalHP5")}</li>
-                  <li>{t("technicalHP6")}</li>
-                  <li>{t("technicalHP7")}</li>
-                </ul>
-                <img
-                  src="/more.svg"
-                  className="iconsmore"
-                  title="read more"
-                  alt="more"
-                />{" "}
-              </Link>{" "}
-            </div>
-          </section>
-
-          <section className="orange ">
-            <h2 className="txt2 txthead  ">
-              <img alt="anayltics" src="/analytics.svg" className="icons" />{" "}
-              analytics & research>
-            </h2>
-
-            <div className="txt3">
-              <Link
-                to={"/" + this.props.i18n.language + "/research"}
-                onClick={() => this.props.pageChange("/research")}
-              >
-                <ul>
-                  <li>{t("analyticsHP1")}</li>
-                  <li>{t("analyticsHP2")}</li>
-                  <li>{t("analyticsHP3")}</li>
-                  <li>{t("analyticsHP4")}</li>
-                  <li>{t("analyticsHP6")}</li>
-                </ul>
-                <img
-                  alt="more"
-                  src="/more.svg"
-                  className="iconsmore"
-                  title="read more"
-                />
-              </Link>{" "}
-            </div>
-          </section>
+            <p className="txt2 serviceQuarter">
+              <h2>AUDIT</h2>
+              Full/Partial Audit with Excecutive Summary: keywords research,
+              onpage, offpage, technical, competitor analysis
+            </p>
+            <p className="txt2 serviceQuarter">
+              <h2>BRAND-BUILDING</h2>
+              Brand-building: provide you with best recommendation for content
+              creation based on user & influencers interests to boost quality
+              link creation quality and brand awareness.
+            </p>
+            <p className="txt2 serviceQuarter">
+              <h2>ANALYTICS</h2>
+              Google Analytics Check and Optimization, Report Creation
+            </p>
+            <p />
+            <p />
+          </div>
         </div>
 
         <div>
@@ -319,25 +218,6 @@ class Homepage extends Component {
           </div>
         </div>
 
-        <div>
-          <div>
-            <h2 className="txt2 txthead"> latest seonews></h2>
-            <div className="homepageNews">
-              <NewsItems />
-            </div>
-            <Link
-              to={"/" + this.props.i18n.language + "/seonews"}
-              onClick={() => this.props.pageChange("/seonews")}
-            >
-              <img
-                alt="more"
-                src="/more.svg"
-                className="iconsmore"
-                title="read more"
-              />{" "}
-            </Link>
-          </div>
-        </div>
         <div className="contactmob">
           <h2 className="txt2 txthead"> {t("getintouch")}></h2>
           <h2 className="txt">

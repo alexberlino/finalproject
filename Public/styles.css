@@ -83,8 +83,8 @@ img {
 
 input {
   font-size: 19px;
-  margin: 4px;
-  width: 20px;
+
+  width: 70%;
   height: 24px;
   border: black 1px dotted;
 }
@@ -163,8 +163,8 @@ form {
   display: flex;
   background-color: white;
 
-  width: 250px;
-  margin-left: 5%;
+  width: 100%;
+
   opacity: 0.8;
   border-radius: 10px;
   border: black 1px dotted;
@@ -227,7 +227,7 @@ iframe {
 .fieldMessage {
   height: 200px;
   border: 1px dotted black;
-  width: 270px;
+  width: 100%;
 }
 .contactmeHead {
   font-family: bariolregular;
@@ -323,10 +323,10 @@ iframe {
 }
 .languageBtnDE {
   margin-right: 15px;
-  color: black;
   font-size: 32px;
   border: 1px black solid;
   padding: 3px;
+  color: black;
 }
 .languageBtnEN {
   color: black;
@@ -344,17 +344,17 @@ iframe {
 .imageHP {
   position: relative;
   padding-right: 0px;
-  top: 110px;
+  top: 5%;
   width: 600px;
   margin: 0px;
   z-index: 0;
-  left: 150px;
+  left: 30%;
   display: block;
 }
 .intro {
   background-color: white;
   color: black;
-  width: 60%;
+  width: 90%;
   height: auto;
   display: block;
   margin-left: 10%;
@@ -363,15 +363,14 @@ iframe {
 }
 
 .intro2 {
-  margin-left: 18%;
+  margin-left: 5%;
   background-color: white;
   color: black;
-  margin-top: 0px;
+  margin-top: 10px;
   position: relative;
-  width: 60%;
+  width: 90%;
   height: auto;
   display: flex;
-  left: 0px;
 }
 
 .intro3 {
@@ -511,7 +510,7 @@ section {
   margin: 1px;
   margin-top: 1.7rem;
   margin-left: 18%;
-  width: 40%;
+  width: 70%;
 }
 
 .txt a,
@@ -524,7 +523,7 @@ section {
   color: black;
   margin: 1px;
   margin-top: 10px;
-  width: 100%;
+  width: 80%;
 }
 
 .txt3 {
@@ -779,7 +778,7 @@ h4 {
 .txthead {
   color: black;
   font-size: 27px;
-  width: 60%;
+  width: 80%;
   padding-top: 60px;
   padding-bottom: 30px;
   border-bottom: 1px solid black;
@@ -827,9 +826,6 @@ h4 {
   position: relative;
   font-weight: bold;
 }
-.introQuarter {
-  width: 40%;
-}
 
 .txtbutton {
   background-color: lightgrey;
@@ -861,6 +857,22 @@ h4 {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.introQuarter {
+  display: inline;
+  width: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.serviceQuarter {
+  display: inline;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
 .footerLinks {
   display: inline-block;
   position: relative;
@@ -1069,7 +1081,7 @@ h4 {
   height: 30px;
 }
 
-.toolbar a:hover {
+.languageBtn a:hover {
   color: white;
   background-color: black;
 }

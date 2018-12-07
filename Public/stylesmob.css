@@ -13,6 +13,12 @@
     left: 110px;
     margin: 0px;
   }
+
+  .linkedin {
+    height: 40%;
+    width: 40%;
+    margin-top: 15%;
+  }
   .txt {
     font-size: 17px;
     color: black;
@@ -40,12 +46,10 @@
   .txt2 {
     font-size: 17px;
     color: black;
-    width: 80%;
     margin-left: 10%;
     font-size: 16px;
     color: black;
-
-    margin-top: 10px;
+    width: 80%;
   }
   .txt a,
   .txt2 a {
@@ -55,10 +59,12 @@
   .txthead {
     left: 0px;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .icon {
-    margin-left: 15%;
+    margin-top: 15%;
   }
 
   .intro3 {
@@ -79,17 +85,12 @@
     padding: 0px;
   }
 
-  .introQuarter {
-    margin: 10px;
-  }
   .intro {
-    margin-top: 100px;
+    margin-top: 10px;
     position: relative;
     margin-right: 0px;
     font-size: 18px;
-    width: 70%;
-    margin-bottom: 150px;
-    height: 400px;
+    width: 90%;
   }
 
   .fieldMessage {
@@ -110,13 +111,11 @@
     width: 80px;
   }
   .intro2 {
-    font-size: 18px;
-    margin-top: 2px;
+    font-size: 16px;
+    margin-top: 20px;
     position: relative;
     text-align: center;
-    padding: 0px;
-    width: 100%;
-    margin-bottom: 40px;
+    display: block;
     margin-left: 0px;
   }
 
@@ -534,49 +533,49 @@
     padding: 7px;
   }
   .introQuarter {
-    width: 50%;
+    margin-top: 100px;
   }
 }
 @media (max-width: 768px) and (orientation: portrait) {
   .hey span {
-    top: 140px;
+    top: 40px;
     font-size: 19px;
-    margin-left: 150px;
+    left: 150px;
   }
 
   .hey span:nth-child(1) {
   }
 
   .hey span:nth-child(2) {
-    top: 158px;
-    margin-left: 150px;
+    top: 58px;
+    left: 150px;
   }
 
   .hey span:nth-child(3) {
-    top: 160px;
-    margin-left: 130px;
+    top: 60px;
+    left: 130px;
   }
   .hey span:nth-child(4) {
-    top: 178px;
-    margin-left: 120px;
+    top: 78px;
+    left: 120px;
   }
   .hey span:nth-child(5) {
-    top: 140px;
-    margin-left: 150px;
+    top: 40px;
+    left: 150px;
   }
   .hey span:nth-child(6) {
-    top: 158px;
-    margin-left: 150px;
+    top: 58px;
+    left: 150px;
   }
 
   .hey span:nth-child(7) {
-    top: 162px;
-    margin-left: 120px;
+    top: 62px;
+    left: 120px;
   }
 
   .hey span:nth-child(8) {
-    top: 178px;
-    margin-left: 140px;
+    top: 78px;
+    left: 140px;
   }
 }
 
