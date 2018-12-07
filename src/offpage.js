@@ -77,22 +77,13 @@ class Offpage extends Component {
 
         <div className="services">
           <div className={this.state.hide + " leftServices"}>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(2)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(2)}>
               {t("offpageHP1")} {t("offpageHP2")}
             </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(1)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(1)}>
               {t("offpageHP3")} {t("offpageHP4")}
             </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(3)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(3)}>
               {t("offpageHP5")}
             </p>
           </div>

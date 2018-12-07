@@ -79,29 +79,17 @@ class Technical extends Component {
 
         <div className="services">
           <div className={this.state.hide + " leftServices"}>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(1)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(1)}>
               {t("analyticsHP1")}
             </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(2)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(2)}>
               {t("analyticsHP2")}
             </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(3)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(3)}>
               {t("analyticsHP4")}
             </p>
 
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(5)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(5)}>
               {t("analyticsHP6")}
             </p>
           </div>

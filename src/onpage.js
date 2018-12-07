@@ -81,58 +81,31 @@ class Onpage extends Component {
         </div>
         <div className="services">
           <div className={this.state.hide + " leftServices"}>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(1)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(1)}>
               {t("onpageHP1")}
             </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(2)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(2)}>
               {t("onpageHP2")}
             </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(3)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(3)}>
               {t("onpageHP3")} {t("onpageHP5")}
             </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(4)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(4)}>
               {t("onpageHP4")}
             </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(5)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(5)}>
               {t("onpageHP6")}
             </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(6)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(6)}>
               {t("onpageHP7")}
             </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(7)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(7)}>
               {t("onpageHP8")}
             </p>
-            <p
-              className="listServices orange2"
-              onClick={() => this.handleClick(8)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(8)}>
               {t("onpageHP9")}
             </p>
-            <p
-              className="listServices green2"
-              onClick={() => this.handleClick(9)}
-            >
+            <p className="listServices" onClick={() => this.handleClick(9)}>
               {t("onpageHP10")}
             </p>
           </div>
