@@ -36,6 +36,22 @@
     width: 80%;
   }
 
+  .imageBlogHP {
+    display: block;
+    margin-bottom: 1px;
+    vertical-align: middle;
+  }
+
+  .listArticlesBlog {
+    width: 90%;
+    font-size: 17px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    color: black;
+    display: block;
+    position: relative;
+  }
+
   .txthead2 {
     left: 10px;
     width: 805;

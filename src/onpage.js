@@ -62,11 +62,15 @@ class Onpage extends Component {
           <meta charSet="utf-8" />
           <title>On-page SEO || SEO Berlino</title>
           <meta
-            type="description"
-            content="SEO Freelancer in Berlin. On-page Audit looking at a critical part of SEO efficiency. "
+            name="description"
+            content="Onpage SEO Jobs: Keyword research, landing pages, internal linking, metas, images and SD"
           />
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/onpage"}
+          />
         </Helmet>
+
         <div className="infoTitle">
           <img
             alt="onpage"

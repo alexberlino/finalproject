@@ -31,8 +31,14 @@ class Blog extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Blog SEO Berlino - SEO Expert in Berlin</title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <meta
+            name="description"
+            content="SEO Berlino Blog, about SEO topics: on-page, off-page, technical SEO, competitor analysis and Brandbuilding."
+          />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/blog"}
+          />{" "}
         </Helmet>
 
         <BlogList lang={this.props.lang} pageChange={this.changePage} />

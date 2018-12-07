@@ -22,8 +22,14 @@ class Contact extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>{t("getintouch_title")}</title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <meta
+            name="description"
+            content="Get in touch with SEO Berlino: SEO expert since 2010"
+          />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/contact"}
+          />{" "}
         </Helmet>
 
         <h1 className="txt2 txthead"> {t("getintouch")}></h1>

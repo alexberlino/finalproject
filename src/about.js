@@ -29,8 +29,14 @@ class About extends Component {
           <Helmet>
             <meta charSet="utf-8" />
             <title>{t("aboutme")}</title>
-            <meta type="description" content="" />
-            <link rel="canonical" />
+            <meta
+              name="description"
+              content="About me, SEO Berlino: SEO expert since 2010"
+            />
+            <link
+              rel="canonical"
+              href={"https://www.seoberlino.com/" + this.props.lng + "/about"}
+            />{" "}
           </Helmet>
         </div>
         <div className="aboutpage">

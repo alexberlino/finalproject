@@ -64,7 +64,10 @@ class Homepage extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng}
           />
           <title>{t("HPTitle")}</title>
-          <meta name="description" content="SEO Expert in Berlin" />
+          <meta
+            name="description"
+            content="SEO Expert in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building"
+          />
         </Helmet>
         <img alt="freelancer" className="imageHP" src="/apple4.jpg" />
 

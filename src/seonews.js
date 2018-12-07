@@ -42,9 +42,16 @@ class SEONews extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>SEO News || SEOBerlino</title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <meta
+            name="description"
+            content="SEO News: everything to know about the latest news in SEO"
+          />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lang + "/seonews"}
+          />
         </Helmet>
+
         <div id="three-js-item" />
 
         <div className="infoTitle">

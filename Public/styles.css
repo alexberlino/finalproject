@@ -465,8 +465,13 @@ section {
 
 .blogArticles {
   margin-left: 100px;
+  display: block;
+  position: relative;
 }
 
+.blogItem {
+  display: block;
+}
 .blogHPtext {
   display: block;
 }
@@ -627,10 +632,11 @@ section {
 
 .listArticlesBlog {
   width: 90%;
-  margin-left: 3px;
+  font-size: 22px;
+  margin-left: 50px;
   margin-bottom: 20px;
   color: black;
-  display: block;
+  display: inline;
   position: relative;
 }
 

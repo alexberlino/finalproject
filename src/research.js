@@ -57,8 +57,14 @@ class Technical extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Research and Analytics || SEO Berlino</title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <meta
+            name="description"
+            content="Research SEO Jobs: local SEO, Analytics, best practice, SEA"
+          />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/research"}
+          />
         </Helmet>
 
         <div className="infoTitle">

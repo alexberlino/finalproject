@@ -26,8 +26,15 @@ class About2 extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>About this website || SEOBerlino</title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <meta name="description" content="about this website: SEO Berlino" />
+          <link
+            rel="canonical"
+            href={
+              "https://www.seoberlino.com/" +
+              this.props.lang +
+              "/aboutthiswebsite"
+            }
+          />{" "}
         </Helmet>
 
         <div className="infoTitle">

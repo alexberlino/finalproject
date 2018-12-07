@@ -24,9 +24,15 @@ class Impressum extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> {t("impressum_title")} </title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <title>{t("impressum_title")}</title>
+          <meta
+            name="description"
+            content="Impressum: SEO Berlino, SEO Expert in Berlin"
+          />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/impressum"}
+          />{" "}
         </Helmet>
 
         <div className="infoTitle">

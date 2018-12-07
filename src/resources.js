@@ -15,13 +15,21 @@ class Resources extends Component {
   render() {
     return (
       <div className="main">
-        {" "}
         <Helmet>
           <meta charSet="utf-8" />
           <title>SEO Resources || SEOBerlino</title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <meta
+            name="description"
+            content="SEO Resources, about SEO resources: useful links"
+          />
+          <link
+            rel="canonical"
+            href={
+              "https://www.seoberlino.com/" + this.props.lang + "/resources"
+            }
+          />{" "}
         </Helmet>
+
         <div id="three-js-item" />
         <div>
           <div className="infoTitle">
