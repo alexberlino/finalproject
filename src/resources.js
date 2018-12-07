@@ -27,7 +27,7 @@ class Resources extends Component {
             href={
               "https://www.seoberlino.com/" + this.props.lang + "/resources"
             }
-          />{" "}
+          />
         </Helmet>
 
         <div id="three-js-item" />
