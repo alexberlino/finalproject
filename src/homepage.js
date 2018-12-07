@@ -123,7 +123,7 @@ class Homepage extends Component {
               <a href="https://www.linkedin.com/in/alex-bieth-berlin/">
                 <img
                   alt="LinkedIn Profile"
-                  src="/Linkedin.png"
+                  src="/linkedin.png"
                   className="linkedin"
                   height="100px"
                   width="120px"
@@ -161,18 +161,24 @@ class Homepage extends Component {
             {" "}
             <p className="txt2 serviceQuarter">
               <h2>AUDIT</h2>
-              Full/Partial Audit with Excecutive Summary: keywords research,
-              onpage, offpage, technical, competitor analysis
+              Full/Partial Audit with Excecutive Summary:
+              <p>keywords research & onpage</p>
+              <p> technical & offpage, </p>
+              <p> competitor analysis</p>
             </p>
             <p className="txt2 serviceQuarter">
               <h2>BRAND-BUILDING</h2>
               Brand-building: provide you with best recommendation for content
-              creation based on user & influencers interests to boost quality
-              link creation quality and brand awareness.
+              creation
+              <p>
+                Based on user & influencers interests to boost quality link
+                creation quality and brand awareness.
+              </p>
             </p>
             <p className="txt2 serviceQuarter">
               <h2>ANALYTICS</h2>
-              Google Analytics Check and Optimization, Report Creation
+              Google Analytics Check & Optimization
+              <p>Report Creation</p>
             </p>
             <p />
             <p />
@@ -181,7 +187,7 @@ class Homepage extends Component {
 
         <div>
           <div>
-            <h2 className="txt2 txthead"> blog></h2>
+            <h2 className="txthead"> blog></h2>
             <div className="blogArticlesHP">
               {this.state.articles.map(article => (
                 <div className="blogItemHP">
@@ -219,7 +225,7 @@ class Homepage extends Component {
         </div>
 
         <div className="contactmob">
-          <h2 className="txt2 txthead"> {t("getintouch")}></h2>
+          <h2 className="txthead"> {t("getintouch")}></h2>
           <h2 className="txt">
             <img alt="telephone" src="/telephone.svg" className="iconphone" />015
             787 011 932
