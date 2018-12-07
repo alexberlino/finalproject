@@ -123,7 +123,7 @@ class Homepage extends Component {
               <a href="https://www.linkedin.com/in/alex-bieth-berlin/">
                 <img
                   alt="LinkedIn Profile"
-                  src="/linkedin.png"
+                  src="/linkedinprof.png"
                   className="linkedin"
                   height="100px"
                   width="120px"
