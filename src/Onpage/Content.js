@@ -24,7 +24,7 @@ class Content extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Content & Semantics </h1>
+        <h2 className="h1services"> Content & Semantics </h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Content is King, and far away are the times when Google got tricked

@@ -19,7 +19,7 @@ class PageSpeed extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> PageSpeed</h1>
+        <h2 className="h1services"> PageSpeed</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           If your pages are slow to load, Google will figure it out and will

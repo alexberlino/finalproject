@@ -20,7 +20,7 @@ class Crawlability extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Crawlability</h1>
+        <h2 className="h1services"> Crawlability</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Crawlibility goes hand in hand with indexation. In order to adjust and

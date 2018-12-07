@@ -22,7 +22,7 @@ class MobileFriendly extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Mobile Friendly Websites</h1>
+        <h2 className="h1services"> Mobile Friendly Websites</h2>
         <div className="serviceTitle"> Why it's (extremely) Important</div>
         <div className="serviceText">
           If your website it not mobile friendly, in most cases, you are

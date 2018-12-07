@@ -21,7 +21,7 @@ class BestPractices extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Best Practices for new Websites</h1>
+        <h2 className="h1services"> Best Practices for new Websites</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Planning ahead the SEO strategy before building the website helps to

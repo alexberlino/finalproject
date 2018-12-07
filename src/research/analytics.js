@@ -19,7 +19,7 @@ class Analytics extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Analytics</h1>
+        <h2 className="h1services"> Analytics</h2>
         <div className="serviceTitle"> Why it's (extremely) Important</div>
         <div className="serviceText">
           In order to efficiently work in SEO, especially for on-page work, it

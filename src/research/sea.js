@@ -21,7 +21,7 @@ class SEA extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> SEA, Search Engine Advertising</h1>
+        <h2 className="h1services"> SEA, Search Engine Advertising</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Paid Search uses the same base as SEO in keywords, and of course share

@@ -20,7 +20,7 @@ class LandingPageOptimization extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Landing Page Optimization </h1>
+        <h2 className="h1services"> Landing Page Optimization </h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Often, companies create Landing pages and then expect it to perform as

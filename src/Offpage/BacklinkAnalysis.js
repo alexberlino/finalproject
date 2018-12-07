@@ -20,7 +20,7 @@ class BacklinkAnalysis extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Backlink Analysis</h1>
+        <h2 className="h1services"> Backlink Analysis</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Links are still very important in SEO. It is therefore crucial to

@@ -55,7 +55,7 @@ class SEONews extends Component {
         <div id="three-js-item" />
 
         <div className="infoTitle">
-          <h1> Latest SEO News - tl;dr </h1>
+          <h1 className="infoTitle"> SEO NEWS</h1>
         </div>
 
         <div className="infoMain">

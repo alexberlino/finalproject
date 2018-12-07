@@ -20,7 +20,7 @@ class KeywordResearch extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Keyword Research </h1>
+        <h2 className="h1services"> Keyword Research </h2>
         <div className="serviceTitle"> >Why it's (extremely) Important</div>
         <div className="serviceText">
           {" "}

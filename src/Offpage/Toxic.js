@@ -19,7 +19,7 @@ class Toxic extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Cleaning Toxic Links </h1>
+        <h2 className="h1services"> Cleaning Toxic Links </h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Many think the more the better but it doesn't actually work that way.

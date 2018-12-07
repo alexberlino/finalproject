@@ -22,7 +22,7 @@ class DynamicRendering extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Dynamic Rendering</h1>
+        <h2 className="h1services"> Dynamic Rendering</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           For JavaScript apps (such as this one), search engines such as Google

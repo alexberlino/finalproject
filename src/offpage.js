@@ -16,7 +16,7 @@ class Offpage extends Component {
   constructor() {
     super();
     this.state = {
-      show: null,
+      show: 1,
       toggle: "hideRightServices",
       hide: null,
       hide2: null
@@ -72,7 +72,7 @@ class Offpage extends Component {
             src="/offpage.svg"
             className="logoAnimationServices"
           />
-          <h1> Off-page SEO Audit</h1>
+          <h1 className="infoTitle"> OFF PAGE SEO</h1>
         </div>
 
         <div className="services">

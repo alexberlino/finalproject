@@ -56,11 +56,6 @@ class About extends Component {
               about this website
             </Link>
           </div>
-          <div className="blockAbout2 bounce-in-top">
-            <a href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE">
-              LinkedIn Profile
-            </a>
-          </div>
         </div>
       </div>
     );

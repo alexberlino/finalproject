@@ -22,7 +22,7 @@ class Onpage extends Component {
   constructor() {
     super();
     this.state = {
-      show: null,
+      show: 1,
       toggle: "hideRightServices",
       hide: null,
       hide2: null
@@ -77,7 +77,7 @@ class Onpage extends Component {
             src="/onpage.svg"
             className="logoAnimationServices"
           />
-          <h1> On-page SEO Audit</h1>
+          <h1 className="infoTitle"> ON-PAGE SEO</h1>
         </div>
         <div className="services">
           <div className={this.state.hide + " leftServices"}>

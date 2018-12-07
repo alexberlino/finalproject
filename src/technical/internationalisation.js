@@ -19,7 +19,7 @@ class Internationalisation extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Internationalisation</h1>
+        <h2 className="h1services"> Internationalisation</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           There are various options when operating internationally: same root

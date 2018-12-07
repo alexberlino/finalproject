@@ -33,8 +33,7 @@ class Resources extends Component {
         <div id="three-js-item" />
         <div>
           <div className="infoTitle">
-            {" "}
-            <h1>SEO Resources</h1>{" "}
+            <h1 className="infoTitle"> SEO RESOURCES</h1>
           </div>
 
           <div className="infoMain">

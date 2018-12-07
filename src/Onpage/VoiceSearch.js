@@ -23,7 +23,7 @@ class VoiceSearch extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Optimization for Voice Search</h1>
+        <h2 className="h1services"> Optimization for Voice Search</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Voice search is already disrupting online marketing. It already

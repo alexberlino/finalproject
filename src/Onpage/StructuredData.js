@@ -23,7 +23,7 @@ class StructuredData extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Structured Data </h1>
+        <h2 className="h1services"> Structured Data </h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Google, Bing, Yandex and Yahoo agreed on a standardised format:

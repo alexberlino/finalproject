@@ -19,7 +19,7 @@ class Indexation extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Indexation, redirects and urls.</h1>
+        <h2 className="h1services"> Indexation, redirects and urls.</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Efficient Indexation is key in order to get on well with Google's

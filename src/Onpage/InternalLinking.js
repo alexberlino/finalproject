@@ -20,7 +20,7 @@ class InternalLinking extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Internal Linking </h1>
+        <h2 className="h1services"> Internal Linking </h2>
         <div className="serviceTitle"> Why it's (extermely) Important</div>
         <div className="serviceText">
           Internal Linking is core for on-page SEO, especially for big websites.

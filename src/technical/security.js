@@ -22,7 +22,7 @@ class Security extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Security, HTTPS transition</h1>
+        <h2 className="h1services"> Security, HTTPS transition</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Https for "early-adopters" may have given them an advantage on their

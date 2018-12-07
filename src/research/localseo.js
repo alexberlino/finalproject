@@ -19,7 +19,7 @@ class LocalSEO extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
-        <h1 className="h1services"> Local SEO</h1>
+        <h2 className="h1services"> Local SEO</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Especially for local business, it is paramount to align your SEO

@@ -929,9 +929,8 @@ h4 {
 
 /* SEOinfoPage start*/
 .infoTitle {
-  margin-left: 6%;
-  font-size: 28px;
-  background-color: rgba(100, 100, 100, 0.1);
+  margin-left: 2%;
+  font-size: 34px;
   color: black;
   width: 90%;
   padding: 10px;
@@ -1268,12 +1267,11 @@ h4 {
 }
 
 .h1services {
-  color: darkgrey;
-  border-radius: 50px;
+  color: black;
+
   width: 100%;
-  padding: 10px;
   top: -30px;
-  font-size: 23px;
+  font-size: 28px;
   z-index: 300;
 }
 

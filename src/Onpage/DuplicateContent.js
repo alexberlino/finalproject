@@ -23,7 +23,7 @@ class DuplicateContent extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="h1services"> Duplicate Content and Canonicals</h1>
+        <h2 className="h1services"> Duplicate Content and Canonicals</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Search Engines do not like duplicate content indexed. If you have many

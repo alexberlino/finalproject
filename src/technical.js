@@ -20,7 +20,7 @@ class Technical extends Component {
   constructor() {
     super();
     this.state = {
-      show: null,
+      show: 1,
       toggle: "hideRightServices",
       hide: null,
       hide2: null
@@ -76,7 +76,7 @@ class Technical extends Component {
             src="/technical.svg"
             className="logoAnimationServices"
           />
-          <h1> Technical SEO </h1>
+          <h1 className="infoTitle"> TECHNICAL SEO </h1>
         </div>
 
         <div className="services">

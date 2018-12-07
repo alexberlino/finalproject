@@ -33,7 +33,9 @@ class BlogList extends Component {
 
     return (
       <div>
-        <h2> My Blog, {t("bloglatest")}</h2>
+        <div className="infoTitle">
+          <h1 className="infoTitle"> My Blog, {t("bloglatest")}</h1>
+        </div>
 
         <div>
           <div className="blogArticles">
