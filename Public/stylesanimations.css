@@ -51,26 +51,21 @@
   top: 245px;
   z-index: 11;
 }
-
 @keyframes heyThere {
   00%,
   70% {
-    color: black;
+    color: #190b28;
   }
   70%,
   100% {
-    color: black;
-
+    color: #e9e7e7;
     opacity: 0.01;
   }
-
   100% {
-    color: black;
-
+    color: #e9e7e7;
     opacity: 0.01;
   }
 }
-
 @-webkit-keyframes heyThere {
   00%,
   70% {
@@ -78,14 +73,11 @@
   }
   70%,
   100% {
-    color: black;
-
+    color: #e9e7e7;
     opacity: 0.1;
   }
-
   100% {
-    color: black;
-
+    color: #e9e7e7;
     opacity: 0.1;
   }
 }

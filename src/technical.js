@@ -49,6 +49,7 @@ class Technical extends Component {
   }
   componentDidMount() {
     window.scrollTo(0, 0);
+    happyfun();
   }
 
   render() {
@@ -69,6 +70,7 @@ class Technical extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/technical"}
           />
         </Helmet>
+        <div id="three-js-item" />
 
         <div className="infoTitle">
           {" "}
@@ -121,15 +123,6 @@ class Technical extends Component {
         </div>
 
         <div className={this.state.hide2}>
-          <div className="contactmob">
-            <h2 className="txthead"> {t("getintouch")}></h2>
-            <h2 className="txt">
-              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
-              787 011 932
-            </h2>
-
-            <ContactMain />
-          </div>
           <LinksToPages
             pageChange={this.props.pageChange}
             lang={this.props.lng}

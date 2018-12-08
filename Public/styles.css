@@ -175,6 +175,7 @@ iframe {
 
 .maincontact2 {
   margin-top: 80px;
+  padding-top: 20px;
   width: 100%;
   min-height: calc(100vh - 160px);
   background-color: rgba(200, 200, 200, 0.2);
@@ -191,7 +192,8 @@ iframe {
 .contactpage {
   position: relative;
   display: inline;
-  width: 75%;
+  width: 200px;
+  height: 400px;
   border-radius: 20px;
   padding: 5px;
   margin-left: 10%;
@@ -448,7 +450,7 @@ section {
 }
 
 .blogArticles {
-  margin-left: 100px;
+  margin-left: 50px;
   display: block;
   position: relative;
 }
@@ -456,6 +458,8 @@ section {
 .blogItem {
   display: block;
   padding-bottom: 45px;
+  background-color: white;
+  width: 80%;
 }
 .blogHPtext {
   display: block;
@@ -518,7 +522,7 @@ section {
 }
 
 .intro2 {
-  margin-left: 5%;
+  margin-left: 10%;
   background-color: #001f3f;
   color: white;
   margin-top: 10px;
@@ -527,6 +531,7 @@ section {
   height: auto;
   display: flex;
   padding: 30px;
+  opacity: 0.6;
 }
 
 .txt3 {
@@ -628,9 +633,9 @@ section {
 }
 
 .listArticlesBlog {
-  width: 90%;
+  width: 70%;
   font-size: 22px;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-bottom: 20px;
   color: black;
   display: inline;
@@ -954,6 +959,7 @@ h4 {
   padding: 10px;
   padding-bottom: 40px;
   position: relative;
+  background-color: white;
 }
 
 .infoIntro {
@@ -977,7 +983,7 @@ h4 {
   margin-left: 30%;
   margin-bottom: 6%;
   font-size: 20px;
-  border: 1px solid #ffdc00;
+  border: 1px solid darkred;
   background-color: white;
   position: relative;
   height: auto;
@@ -1210,7 +1216,9 @@ h4 {
   margin-bottom: 3px;
   margin-left: 10%;
   padding: 15px;
-  z-index: 10;
+  position: relative;
+  display: block;
+
   color: black;
   font-size: 23px;
   border: 1px lightgrey solid;
@@ -1238,17 +1246,20 @@ h4 {
 }
 
 .yellow {
-  background-color: #fbf7ea;
+  background-color: darkgrey;
+  color: white;
 }
 
 .blue {
-  background-color: #cadde3;
-  color: black;
+  background-color: darkgrey;
+  color: white;
 }
 .yellow2 {
+  background-color: white;
 }
 
 .blue2 {
+  background-color: white;
 }
 
 .backdrop {
@@ -1270,6 +1281,8 @@ h4 {
 .services {
   display: inline-block;
   position: relative;
+  background-color: white;
+  width: 90%;
 }
 
 .logoAnimationServices {
@@ -1298,6 +1311,7 @@ h4 {
   width: 600px;
   top: -640px;
   justify-content: flex-start;
+  background-color: white;
 }
 
 .serviceText {
@@ -1350,6 +1364,7 @@ h4 {
   margin-left: 5%;
   background-color: #ff851b;
   margin-top: 10px;
+  opacity: 0.6;
   position: relative;
   width: 85%;
   height: auto;

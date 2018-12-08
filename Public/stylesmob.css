@@ -311,7 +311,7 @@
     padding-top: 3px;
     text-align: left;
     position: absolute;
-    background-color: #ff851b;
+    background-color: darkred;
 
     opacity: 40%;
     padding: 5px;
@@ -627,6 +627,9 @@
     margin-left: 10px;
     margin-bottom: 130px;
     margin-top: 50px;
+    position: relative;
+background-color: white;
+width: 60%;
   }
 
   .linkstoPageMainDiv a {

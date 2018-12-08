@@ -6,7 +6,8 @@ i18n.use(LanguageDetector).init({
   resources: {
     en: {
       translations: {
-        intro1: "SEO Expert in Berlin with MBA and scrum training.",
+        intro1:
+          "Hi! My name is Alex, I am an SEO Expert in Berlin with MBA and scrum training.",
         intro2: "9 years experience in SEO, SEA and Analytics.",
         intro3: "Trained Full Stack Web Developer",
         intro4: "Analysis, Action Plan with Prioritization, and Controlling",
@@ -21,7 +22,7 @@ i18n.use(LanguageDetector).init({
         message: "Message*",
         sendMessage: "SEND",
         about1:
-          "Proven results with 400% increase in SEO sales for multiple websites",
+          "Proven results with 400% increase in SEO sales for multiple websites as head of SEO",
         about2: `Over 9 years experience in SEO, SEA and using various Analytics tools`,
         about3: `Trained Full Stack Web Developer`,
         about4: `Trained in Scrum and experience implementing it with team of 10.`,
@@ -107,7 +108,7 @@ i18n.use(LanguageDetector).init({
     de: {
       translations: {
         intro1:
-          "Erfahrener Freelance SEO Experte in Berlin mit MBA und in scrum ausgebildet.",
+          "Hi! Ich bin Alex, ein erfahrener Freelance SEO Experte in Berlin mit MBA und in scrum ausgebildet.",
         intro2: "9 Jahre Erfahrung in SEO, SEA und Analytics.",
         intro3: "Full Stack Web-Entwickler",
         intro4: "Analyse, Aktionsplan mit Priorisierung, und Controlling",

@@ -11,13 +11,15 @@ import LinksToPages from "./LinksToPages";
 import ContactMain from "./ContactMain";
 
 class Resources extends Component {
+  constructor() {
+    super();
+  }
   componentDidMount() {
-    // happyfun();
     window.scrollTo(0, 0);
+    happyfun();
   }
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props);
 
     return (
       <div className="main">
@@ -35,6 +37,7 @@ class Resources extends Component {
             }
           />
         </Helmet>
+        <div id="three-js-item" />
 
         <div>
           <div className="infoTitle">
@@ -62,18 +65,6 @@ class Resources extends Component {
           </div>
 
           <div>
-            <div className="contactmob">
-              <h2 className="txthead"> Get in touch></h2>
-              <h2 className="txt">
-                <img
-                  alt="telephone"
-                  src="/telephone.svg"
-                  className="iconphone"
-                />015 787 011 932
-              </h2>
-
-              <ContactMain />
-            </div>
             <LinksToPages />
           </div>
         </div>

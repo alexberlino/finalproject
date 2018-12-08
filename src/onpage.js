@@ -51,11 +51,11 @@ class Onpage extends Component {
   }
   componentDidMount() {
     window.scrollTo(0, 0);
+    happyfun();
   }
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.state);
 
     return (
       <div className="main">
@@ -71,6 +71,7 @@ class Onpage extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/onpage"}
           />
         </Helmet>
+        <div id="three-js-item" />
 
         <div className="infoTitle">
           <img
@@ -128,15 +129,6 @@ class Onpage extends Component {
           </div>
         </div>
         <div className={this.state.hide2}>
-          <div className="contactmob">
-            <h2 className="txthead"> {t("getintouch")}></h2>
-            <h2 className="txt">
-              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
-              787 011 932
-            </h2>
-
-            <ContactMain />
-          </div>
           <LinksToPages
             pageChange={this.props.pageChange}
             lang={this.props.lng}

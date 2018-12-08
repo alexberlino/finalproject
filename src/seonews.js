@@ -33,7 +33,7 @@ class SEONews extends Component {
   }
 
   componentDidMount() {
-    // happyfun();
+    happyfun();
     window.scrollTo(0, 0);
   }
 
@@ -134,18 +134,7 @@ class SEONews extends Component {
             </div>
           </div>
         </div>
-        <div>
-          <div className="contactmob">
-            <h2 className="txthead"> Get in touch></h2>
-            <h2 className="txt">
-              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
-              787 011 932
-            </h2>
-
-            <ContactMain />
-          </div>
-          <LinksToPages />
-        </div>
+        <div />
       </div>
     );
   }

@@ -16,6 +16,7 @@ class About extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
+    happyfun();
   }
 
   render() {
@@ -23,32 +24,27 @@ class About extends Component {
 
     return (
       <div className="main">
-        <div className={this.state.categorie} />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{t("aboutme")}</title>
+          <meta
+            name="description"
+            content="About me, SEO Berlino: SEO expert since 2010"
+          />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/about"}
+          />{" "}
+        </Helmet>
+        <div id="three-js-item" />
 
-        <div>
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>{t("aboutme")}</title>
-            <meta
-              name="description"
-              content="About me, SEO Berlino: SEO expert since 2010"
-            />
-            <link
-              rel="canonical"
-              href={"https://www.seoberlino.com/" + this.props.lng + "/about"}
-            />{" "}
-          </Helmet>
-        </div>
-        <div className="aboutpage">
-          <div className="aboutgeneric" />
-          <div className="blockAbout  yellow slide-in-left ">{t("about1")}</div>
-          <div className="blockAbout yellow2 bounce-in-top">{t("about2")}</div>
-          <div className="blockAbout  blue slide-in-left">{t("about3")}</div>
-          <div className="blockAbout  blue2 slide-in-left">{t("about4")}</div>
-          <div className="blockAbout yellow fade-in">{t("about5")}</div>
-          <div className="blockAbout  blue slide-in-left">{t("about6")}</div>
-          <div className="blockAbout yellow2">{t("about7")}</div>
-        </div>
+        <div className="blockAbout  yellow slide-in-left ">{t("about1")}</div>
+        <div className="blockAbout yellow2 bounce-in-top">{t("about2")}</div>
+        <div className="blockAbout  blue slide-in-left">{t("about3")}</div>
+        <div className="blockAbout  blue2 slide-in-left">{t("about4")}</div>
+        <div className="blockAbout yellow fade-in">{t("about5")}</div>
+        <div className="blockAbout  blue slide-in-left">{t("about6")}</div>
+        <div className="blockAbout yellow2">{t("about7")}</div>
       </div>
     );
   }

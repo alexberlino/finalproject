@@ -19,7 +19,7 @@ class Blog extends Component {
   }
 
   componentDidMount() {
-    // happyfun();
+    happyfun();
     window.scrollTo(0, 0);
   }
 
@@ -40,6 +40,7 @@ class Blog extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/blog"}
           />{" "}
         </Helmet>
+        <div id="three-js-item" />
 
         <BlogList lang={this.props.lang} pageChange={this.changePage} />
       </div>

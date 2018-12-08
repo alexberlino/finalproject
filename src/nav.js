@@ -34,20 +34,20 @@ class Navigation extends Component {
           </div>
 
           <div className="languageBtn">
-            <a
+            <Link
               className="languageBtnDE"
               onClick={() => this.props.languageChange("de")}
-              href={"/de" + this.props.page}
+              to={"/de" + this.props.page}
             >
               DE
-            </a>
-            <a
+            </Link>
+            <Link
               className="languageBtnEN"
-              href={"/en" + this.props.page}
+              to={"/en" + this.props.page}
               onClick={() => this.props.languageChange("en")}
             >
               EN
-            </a>
+            </Link>
           </div>
 
           <div className="toolbar_navigation_items navEntries" />
