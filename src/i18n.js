@@ -152,7 +152,7 @@ i18n.use(LanguageDetector).init({
         sendMessage: "SENDEN",
         aboutmetitle: "übermich",
         about1:
-          "Proven results with 400% increase in SEO sales for multiple websites",
+          "Proven results with 400% increase in SEO sales for multiple websites as head of SEO",
         about2: `Over 9 years experience in SEO, SEA and using various Analytics tools`,
         about3: `Trained Full Stack Web Developer`,
         about4: `Trained in Scrum and experience implementing it with team of 10.`,

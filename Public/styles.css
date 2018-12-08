@@ -978,7 +978,7 @@ h4 {
   margin-bottom: 6%;
   font-size: 20px;
   border: 1px solid #ffdc00;
-  background-color: #f9f8f2;
+  background-color: white;
   position: relative;
   height: auto;
   color: black;
@@ -1116,7 +1116,7 @@ h4 {
 }
 
 .mainRightServices {
-  background-color: white;
+  background-color: lightgrey;
   padding: 100px;
 }
 .toolbar_navigation_items li {

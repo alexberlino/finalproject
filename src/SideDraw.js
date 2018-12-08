@@ -21,6 +21,11 @@ class SideDrawer extends Component {
       <nav className={drawerClasses}>
         <ul>
           <li>
+            <a href={"/" + this.props.lang + "/"}>
+              <span onClick={() => this.props.pageChange("/")}>HOME</span>
+            </a>
+          </li>
+          <li>
             <a href={"/" + this.props.lang + "/about"}>
               <span onClick={() => this.props.pageChange("/about")}>
                 {t("about")}
