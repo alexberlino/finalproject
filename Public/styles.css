@@ -955,7 +955,7 @@ h4 {
   margin-left: 2%;
   font-size: 34px;
   color: black;
-  width: 90%;
+  width: 35%;
   padding: 10px;
   padding-bottom: 40px;
   position: relative;
@@ -990,7 +990,7 @@ h4 {
   color: black;
   width: 30%;
   text-align: center;
-  padding: 40px;
+  padding: 70px;
 
   -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
@@ -1124,6 +1124,8 @@ h4 {
 .mainRightServices {
   background-color: lightgrey;
   padding: 100px;
+  position: relative;
+  min-height: calc(100vh - 120px);
 }
 .toolbar_navigation_items li {
   padding: 0.3rem;
@@ -1210,18 +1212,16 @@ h4 {
   color: rgba(196, 196, 196);
 }
 .blockAbout {
-  height: 60px;
-  width: 50%;
+  width: 65%;
   text-align: center;
   margin-bottom: 3px;
-  margin-left: 10%;
-  padding: 15px;
+  margin-left: 15%;
+  padding: 35px;
   position: relative;
   display: block;
-
   color: black;
-  font-size: 23px;
-  border: 1px lightgrey solid;
+  font-size: 25px;
+  border: 1px darkred solid;
 }
 .blockAbout2 {
   height: 50px;
@@ -1312,6 +1312,7 @@ h4 {
   top: -640px;
   justify-content: flex-start;
   background-color: white;
+  min-height: calc(100vh - 120px);
 }
 
 .serviceText {

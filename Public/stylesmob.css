@@ -38,6 +38,7 @@
   .mainRightServices {
     padding: 0px;
     margin: 0px;
+    top: -400px;
     width: 85%;
     background-color: white;
   }
@@ -239,12 +240,10 @@
   }
 
   .rightServices {
-    position: absolute;
+    position: relative;
     width: 100%;
     left: 0px;
     top: 0px;
-    height: auto;
-    border: solid 4px rgba(360, 360, 360, 0.98);
     z-index: 11;
     opacity: 1;
   }
@@ -468,13 +467,12 @@
 
   .infoTitle {
     top: 2px;
-    color: white;
+    color: black;
     width: 76%;
     font-size: 18px;
     margin-top: 2px;
     margin-bottom: 10px;
     z-index: 10;
-    background-color: #001f3f;
 
     height: 30px;
   }
@@ -493,8 +491,9 @@
     top: -100px;
   }
   .infoMain {
-    margin-left: 10%;
+    margin-left: 5%;
     width: 60%;
+    padding: 30px;
     font-size: 16px;
     margin-bottom: 100px;
   }
@@ -579,10 +578,9 @@
     font-size: 18px;
     width: 70%;
     height: auto;
+    margin-left: 5%;
   }
-  .blockAbout2 {
-    font-size: 18px;
-  }
+
 
   .about21 {
     font-size: 17px;

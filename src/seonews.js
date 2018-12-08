@@ -100,6 +100,7 @@ class SEONews extends Component {
                 other than that and searches done just before, there is hardly
                 any other personalisation.
                 <a
+                  target="_blank"
                   className="blockbold"
                   href="https://www.cnbc.com/2018/09/17/google-tests-changes-to-its-search-algorithm-how-search-works.html"
                 >
@@ -124,6 +125,7 @@ class SEONews extends Component {
                   since this summer, Google has made changes to how it filters
                   reports, removing some query data.
                   <a
+                    target="_blank"
                     className="blockbold"
                     href="https://twitter.com/googlewmc/status/1034703153470599168"
                   >

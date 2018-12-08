@@ -123,7 +123,10 @@ class Homepage extends Component {
               </p>
             </div>
             <div className="introQuarter">
-              <a href="https://www.linkedin.com/in/alex-bieth-berlin/">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/alex-bieth-berlin/"
+              >
                 <img
                   alt="LinkedIn Profile"
                   src="/linkedinprof.png"
