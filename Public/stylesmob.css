@@ -221,9 +221,9 @@
     overflow: hidden;
   }
   .hide2 {
-    -webkit-animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    -webkit-animation: text-blur-out 1s cubic-bezier(0.95, 0.085, 0.68, 0.53)
       both;
-    animation: text-blur-out 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-blur-out 1s cubic-bezier(0.95, 0.085, 0.68, 0.53) both;
   }
   .show {
     transform: translateX(0px);
@@ -237,22 +237,23 @@
   }
 
   .closeX {
-    font-size: 15px;
-    left: 86%;
-    padding: 5px;
-    padding-bottom: 10px;
-    padding-top: 2px;
+    font-size: 25px;
+    left: 84%;
+    padding: 14px;
+    padding-top: 7px;
+    padding-bottom: 25px;
+
     width: 8px;
     height: 8px;
-    z-index: 312;
+    z-index: 902;
     border-radius: 160px;
     position: sticky;
     position: -webkit-sticky;
     position: fixed;
     top: 90px;
-    color: white;
-    background-color: black;
-    border: 1px black solid;
+    color: beige;
+    background-color: grey;
+    border: 3px white solid;
   }
 
   .hideRightServices {
@@ -267,10 +268,20 @@
   .h1services {
     padding: 5px;
     top: 10px;
-    width: 70%;
+    width: 80%;
+    padding-top: 3px;
     text-align: left;
+    position: absolute;
+    background-color: beige;
+    opacity: 40%;
+
     margin-left: 10%;
+    z-index: 105;
+    top: 7px;
     font-size: 21px;
+    color: black;
+    position: sticky;
+    position: -webkit-sticky;
   }
 
   .leftServices {
@@ -370,6 +381,7 @@
   .toggleMan {
     width: 40px;
     height: 40px;
+    z-index: 900;
   }
   .toolbar {
     height: 50px;
@@ -410,13 +422,15 @@
 
   .infoTitle {
     top: 2px;
+    color: white;
+    width: 76%;
     font-size: 18px;
     margin-top: 2px;
+    margin-bottom: 12px;
     position: sticky;
     position: -webkit-sticky;
-    z-index: 9;
-
-    background-color: rgba(300, 300, 300, 0.7);
+    z-index: 10;
+    background-color: grey;
   }
   .infoIntro {
     margin-left: 10%;
@@ -631,6 +645,7 @@
   .toggle_button {
     height: 36px;
     width: 36px;
+    z-index: 1000;
 
     /* display: none; */
   }

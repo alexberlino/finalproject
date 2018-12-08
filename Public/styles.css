@@ -24,7 +24,6 @@ h1 {
   font-size: 25px;
   display: inline;
   position: relative;
-  z-index: 100;
   margin-left: 3%;
 }
 h2 {
