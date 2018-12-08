@@ -41,25 +41,25 @@ class Resources extends Component {
 
         <div>
           <div className="infoTitle">
-            <h1 className="infoTitle"> SEO RESOURCES</h1>
+            <h1 className="infoTitle"> > SEO RESOURCES</h1>
           </div>
 
           <div className="infoMain">
             <div className="resourcesLinks">
               <a className="block" href={"/" + this.props.lang + "/onpage"}>
-                ON PAGE{" "}
+                > ON PAGE{" "}
               </a>
               <a className="block" href={"/" + this.props.lang + "/offpage"}>
-                OFF PAGE
+                > OFF PAGE
               </a>
               <a className="block" href={"/" + this.props.lang + "/technical"}>
-                TECHNICAL
+                > TECHNICAL
               </a>
               <a className="block" href={"/" + this.props.lang + "/research"}>
-                RESEARCH ANALYTICS
+                > RESEARCH ANALYTICS
               </a>
               <a className="block" href={"/" + this.props.lang + "/seonews"}>
-                SEO NEWS
+                > SEO NEWS
               </a>
             </div>
           </div>

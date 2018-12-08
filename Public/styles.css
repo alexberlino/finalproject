@@ -309,6 +309,7 @@ iframe {
   top: 5px;
   left: 5px;
   z-index: 1;
+  opacity: 0.7;
 }
 
 .languageBtn {
@@ -959,6 +960,7 @@ h4 {
   padding: 10px;
   padding-bottom: 40px;
   position: relative;
+  opacity: 0.7;
   background-color: white;
 }
 
@@ -979,7 +981,7 @@ h4 {
 .infoMain {
   padding-left: 40px;
   margin-top: 50px;
-
+  font-size: 22px;
   margin-left: 30%;
   margin-bottom: 6%;
   font-size: 20px;
@@ -1220,8 +1222,10 @@ h4 {
   position: relative;
   display: block;
   color: black;
-  font-size: 25px;
-  border: 1px darkred solid;
+  background-color: white;
+  font-weight: bold;
+  font-size: 22px;
+  border: 1px darkred dotted;
 }
 .blockAbout2 {
   height: 50px;
@@ -1243,23 +1247,6 @@ h4 {
 .side_drawer#dropbtn {
   margin-top: 20px;
   color: red;
-}
-
-.yellow {
-  background-color: darkgrey;
-  color: white;
-}
-
-.blue {
-  background-color: darkgrey;
-  color: white;
-}
-.yellow2 {
-  background-color: white;
-}
-
-.blue2 {
-  background-color: white;
 }
 
 .backdrop {

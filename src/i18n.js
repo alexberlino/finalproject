@@ -22,14 +22,14 @@ i18n.use(LanguageDetector).init({
         message: "Message*",
         sendMessage: "SEND",
         about1:
-          "Proven results with 400% increase in SEO sales for multiple websites as head of SEO",
-        about2: `Over 9 years experience in SEO, SEA and using various Analytics tools`,
-        about3: `Trained Full Stack Web Developer`,
-        about4: `Trained in Scrum and experience implementing it with team of 10.`,
-        about5: `Extensive experience in Technical SEO: indexation,
+          "> Proven results with 400% increase in SEO sales for multiple websites as head of SEO",
+        about2: `> Over 9 years experience in SEO, SEA and using various Analytics tools`,
+        about3: `> Trained Full Stack Web Developer`,
+        about4: `> Trained in Scrum and experience implementing it with team of 10.`,
+        about5: `> Extensive experience in Technical SEO: indexation,
                 crawlability, site architecture and internal linking optimization`,
-        about6: `Crazy about data and reports to help decision making and prioritization `,
-        about7: `Experience with setting up Roadmaps, Actions plans, Technical Dashboards, Analytics reports`,
+        about6: `> Crazy about data and reports to help decision making and prioritization `,
+        about7: `> Experience with setting up Roadmaps, Actions plans, Technical Dashboards, Analytics reports`,
         // about8: `Alex is an SEO expert who proposes concrete action measures based
         //             on a well-founded analysis and independently implements them.
         //             This gives me the opportunity to focus on my day-to-day business
@@ -153,14 +153,14 @@ i18n.use(LanguageDetector).init({
         sendMessage: "SENDEN",
         aboutmetitle: "übermich",
         about1:
-          "Proven results with 400% increase in SEO sales for multiple websites as head of SEO",
-        about2: `Over 9 years experience in SEO, SEA and using various Analytics tools`,
-        about3: `Trained Full Stack Web Developer`,
-        about4: `Trained in Scrum and experience implementing it with team of 10.`,
-        about5: `Extensive experience in Technical SEO: indexation,
+          "> Proven results with 400% increase in SEO sales for multiple websites as head of SEO",
+        about2: `> Over 9 years experience in SEO, SEA and using various Analytics tools`,
+        about3: `> Trained Full Stack Web Developer`,
+        about4: `> Trained in Scrum and experience implementing it with team of 10.`,
+        about5: `> Extensive experience in Technical SEO: indexation,
                 crawlability, site architecture and internal linking optimization`,
-        about6: `Crazy about data and reports to help decision making and prioritization `,
-        about7: `Experience with setting up Roadmaps, Actions plans, Technical Dashboards, Analytics reports`,
+        about6: `> Crazy about data and reports to help decision making and prioritization `,
+        about7: `> Experience with setting up Roadmaps, Actions plans, Technical Dashboards, Analytics reports`,
         // about8: `
         //                     Alex ist ein SEO-Experte, der konkrete Maßnahmen vorschlägt
         //                     auf eine fundierte Analyse und setzt diese selbstständig um.

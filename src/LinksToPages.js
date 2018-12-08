@@ -52,7 +52,7 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lng + "/audit"}>
+            <a href={"/" + this.props.lng + "/research"}>
               <span onClick={() => this.props.pageChange("/research")}>
                 RESEARCH AND ANALYICS
               </span>
