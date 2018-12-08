@@ -29,56 +29,19 @@ class SideDrawer extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/onpage"}>
-              <span onClick={() => this.props.pageChange("/onpage")}>
-                ON-PAGE AUDIT
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href={"/" + this.props.lang + "/offpage"}>
-              <span onClick={() => this.props.pageChange("/offpage")}>
-                OFF-PAGE AUDIT
-              </span>
-            </a>
-          </li>
-
-          <li>
-            <a href={"/" + this.props.lang + "/technical"}>
-              <span onClick={() => this.props.pageChange("/technical")}>
-                {t("technical")}
-              </span>
-            </a>
-          </li>
-
-          <li>
-            <a href={"/" + this.props.lang + "/research"}>
-              <span onClick={() => this.props.pageChange("/research")}>
-                ANALYTICS & RESEARCH
-              </span>
-            </a>
-          </li>
-
-          <li>
-            <a name="to SEO News" href={"/" + this.props.lang + "/seonews"}>
-              <span onClick={() => this.props.pageChange("/seonews")}>
-                SEO NEWS
-              </span>
+            <a href={"/" + this.props.lang + "/blog"}>
+              <span onClick={() => this.props.pageChange("/blog")}>BLOG</span>
             </a>
           </li>
 
           <li>
             <a href={"/" + this.props.lang + "/resources"}>
               <span onClick={() => this.props.pageChange("/resources")}>
-                RESOURCES
+                SEO RESOURCES
               </span>
             </a>
           </li>
-          <li>
-            <a href={"/" + this.props.lang + "/blog"}>
-              <span onClick={() => this.props.pageChange("/blog")}>BLOG</span>
-            </a>
-          </li>
+
           <li>
             <a href={"/" + this.props.lang + "/contact"}>
               <span onClick={() => this.props.pageChange("/contact")}>

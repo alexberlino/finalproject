@@ -62,7 +62,6 @@ class SEONews extends Component {
         <div className="infoMain">
           {" "}
           <NewsItems />
-          <p className="txthead">Medium Hot and Cool </p>
           <div className="newsItem">
             <img
               alt="important"

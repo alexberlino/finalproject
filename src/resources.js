@@ -36,71 +36,31 @@ class Resources extends Component {
           />
         </Helmet>
 
-        <div id="three-js-item" />
         <div>
           <div className="infoTitle">
             <h1 className="infoTitle"> SEO RESOURCES</h1>
           </div>
 
           <div className="infoMain">
-            <ul className="block">
-              <li className="txthead4"> > SEO Jargon </li>
-              <a href="https://moz.com/beginners-guide-to-seo">
-                Moz's Beginners guide to SEO{" "}
+            <div className="resourcesLinks">
+              <a className="block" href={"/" + this.props.lang + "/onpage"}>
+                ON PAGE{" "}
               </a>
-              <li className="txthead4"> >Backlink Checks </li>
-              <a className="block" href="https://moz.com/link-explorer">
-                Moz Link Explorer
-              </a>{" "}
-              <a className="block" href="https://de.majestic.com/">
-                Majestic SEO
+              <a className="block" href={"/" + this.props.lang + "/offpage"}>
+                OFF PAGE
               </a>
-              <a className="block" href="https://ahrefs.com/de/">
-                ahrefs
+              <a className="block" href={"/" + this.props.lang + "/technical"}>
+                TECHNICAL
               </a>
-              <li className="txthead4"> >Keyword Tools </li>
-              <footer>Adwords Keyword Planner </footer>
-              <footer> Google's Search Console </footer>
-              <footer> SEMRush</footer>
-              <footer> Google Trends</footer>
-              <footer> ahrefs Keywords Explorer</footer>
-              <a className="block" href=" https://soovle.com/">
-                Soovle
+              <a className="block" href={"/" + this.props.lang + "/research"}>
+                RESEARCH ANALYTICS
               </a>
-              <a className="block" href="https://keywordtool.io/">
-                keywordtool.io
+              <a className="block" href={"/" + this.props.lang + "/seonews"}>
+                SEO NEWS
               </a>
-              <a className="block" href="https://kwfinder.com/">
-                {" "}
-                KW Finder{" "}
-              </a>
-              <a className="block" href=" https://moz.com/explorer">
-                {" "}
-                Moz Keyword Explorer{" "}
-              </a>
-              <a className="block" href="https://www.secockpit.com">
-                SECockpit
-              </a>
-              <a className="block" href=" https://kwfinder.com/">
-                KWFinder
-              </a>
-              <li className="txthead4"> >Technical </li>
-              <a
-                className="block"
-                href="https://search.google.com/test/mobile-friendly"
-              >
-                Google Mobile Friendly Test
-              </a>
-              <a
-                className="block"
-                href="https://developers.google.com/speed/pagespeed/insights/?hl=de"
-              >
-                Google PageSpeed (Insights) Test
-              </a>
-              <li className="txthead4"> > Content marketing </li>
-              <a href=" https://kwfinder.com/">buzzsumo.com</a>
-            </ul>
+            </div>
           </div>
+
           <div>
             <div className="contactmob">
               <h2 className="txthead"> Get in touch></h2>

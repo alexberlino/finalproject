@@ -87,7 +87,7 @@ class Homepage extends Component {
             {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
           </p>
           <div className="intro2">
-            <div className="footerQuarter">
+            <div className="introQuarter">
               <img
                 alt="monitoring"
                 src="/seo-monitoring.jpg"
@@ -170,6 +170,11 @@ class Homepage extends Component {
               <p> competitor analysis</p>
             </p>
             <p className="txt2 serviceQuarter">
+              <h2>ANALYTICS</h2>
+              Google Analytics Check & Optimization
+              <p>Report Creation</p>
+            </p>
+            <p className="txt2 serviceQuarter">
               <h2>BRAND-BUILDING</h2>
               Brand-building: provide you with best recommendation for content
               creation
@@ -178,10 +183,54 @@ class Homepage extends Component {
                 creation quality and brand awareness.
               </p>
             </p>
-            <p className="txt2 serviceQuarter">
-              <h2>ANALYTICS</h2>
-              Google Analytics Check & Optimization
-              <p>Report Creation</p>
+            <p />
+            <p />
+          </div>
+        </div>
+
+        <div>
+          <h2 className="txthead"> current & former clients></h2>
+          <div className="intro3 ">
+            {" "}
+            <p className="serviceQuarter">
+              <img
+                className="logo"
+                height="150px"
+                width="200px"
+                src="/mustbe.png"
+              />
+            </p>
+            <p className=" serviceQuarter">
+              <img
+                className="logo"
+                height="150px"
+                width="100px"
+                src="/spreadshirt.png"
+              />
+            </p>
+            <p className=" serviceQuarter">
+              <img
+                className="logo"
+                height="150px"
+                width="190px"
+                src="/madeforrain.png"
+              />
+            </p>
+            <p className=" serviceQuarter">
+              <img
+                className="logo"
+                height="150px"
+                width="220px"
+                src="/holberton.png"
+              />
+            </p>
+            <p className=" serviceQuarter">
+              <img
+                className="logo"
+                height="150px"
+                width="150px"
+                src="/teezily.png"
+              />
             </p>
             <p />
             <p />

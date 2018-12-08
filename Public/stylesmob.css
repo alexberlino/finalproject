@@ -43,6 +43,10 @@
     margin: 0px;
   }
 
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
   .imageBlogHP {
     display: block;
     margin-bottom: 1px;
@@ -76,10 +80,9 @@
 
   .txt2 {
     font-size: 17px;
-    color: black;
+    background-color: none;
     margin-left: 10%;
-    font-size: 16px;
-    color: black;
+
     width: 80%;
   }
   .txt a,
@@ -150,8 +153,29 @@
     margin-left: 0px;
     padding: 0px;
     left: 0;
+    background-color: beige;
   }
 
+  .introQuarter {
+    display: inline;
+    width: 20%;
+    opacity: 1;
+    text-align: center;
+    margin-left: 20px;
+    background-color: none;
+    padding: 0px;
+  }
+  .serviceQuarter {
+    display: inline;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: 20px;
+    opacity: 1;
+    min-height: none;
+    background-color: none;
+    padding: 5px;
+  }
   .intro21 {
     font-size: 16px;
     margin-top: 20px;
@@ -161,8 +185,13 @@
     margin-left: 0px;
     padding: 0px;
     left: 30px;
+    color: black;
+    background-color: beige;
   }
 
+  .intro21 .txt2 {
+    color: black;
+  }
   .homepageNews {
     margin-top: 2px;
     position: relative;
@@ -580,9 +609,6 @@
   }
   .linkstoPageMainDiv li {
     padding: 7px;
-  }
-  .introQuarter {
-    margin-top: 100px;
   }
 }
 @media (max-width: 768px) and (orientation: portrait) {

@@ -28,7 +28,7 @@ class NewsItems extends Component {
       <div>
         <div className="infoDate">Last update: October 9th, 2018</div>
 
-        <p className="txthead">Red Hot >click on news item to read></p>
+        <p>>click on news item to read></p>
 
         <div className="newsItem" title="clicksfsf">
           <img
