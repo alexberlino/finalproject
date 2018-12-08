@@ -83,7 +83,7 @@ class Homepage extends Component {
         </div>
 
         <div className="intro">
-          <p className="txt2 txthead">
+          <p className="txt2 txthead introHP">
             {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
           </p>
           <div className="intro2">
@@ -192,7 +192,7 @@ class Homepage extends Component {
           <h2 className="txthead"> current & former clients></h2>
           <div className="intro3 ">
             {" "}
-            <p className="serviceQuarter">
+            <p className="logoQuarter">
               <img
                 className="logo"
                 height="150px"
@@ -200,7 +200,7 @@ class Homepage extends Component {
                 src="/mustbe.png"
               />
             </p>
-            <p className=" serviceQuarter">
+            <p className=" logoQuarter">
               <img
                 className="logo"
                 height="150px"
@@ -208,7 +208,7 @@ class Homepage extends Component {
                 src="/spreadshirt.png"
               />
             </p>
-            <p className=" serviceQuarter">
+            <p className=" logoQuarter">
               <img
                 className="logo"
                 height="150px"
@@ -216,7 +216,7 @@ class Homepage extends Component {
                 src="/madeforrain.png"
               />
             </p>
-            <p className=" serviceQuarter">
+            <p className=" logoQuarter">
               <img
                 className="logo"
                 height="150px"
@@ -224,7 +224,7 @@ class Homepage extends Component {
                 src="/holberton.png"
               />
             </p>
-            <p className=" serviceQuarter">
+            <p className=" logoQuarter">
               <img
                 className="logo"
                 height="150px"

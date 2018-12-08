@@ -884,6 +884,22 @@ h4 {
   padding: 5px;
 }
 
+.introHP {
+  color: #001f3f;
+}
+
+.logoQuarter {
+  display: inline;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: 20px;
+  opacity: 0.7;
+  min-height: 300px;
+  background-color: none;
+  padding: 5px;
+}
+
 .footerLinks {
   display: inline-block;
   position: relative;
@@ -958,7 +974,7 @@ h4 {
   margin-left: 10%;
   margin-bottom: 6%;
   font-size: 20px;
-  background-color: beige;
+  background-color: #ffdc00;
   position: relative;
   height: auto;
   color: black;
@@ -1095,7 +1111,7 @@ h4 {
 }
 
 .mainRightServices {
-  background-color: beige;
+  background-color: #ffdc00;
   padding: 100px;
 }
 .toolbar_navigation_items li {
@@ -1217,21 +1233,21 @@ h4 {
 }
 
 .yellow {
-  background-color: beige;
-  border: grey 4px solid;
+  background-color: #ffdc00;
+  border: #ffdc00 4px solid;
 }
 
 .blue {
-  background-color: grey;
+  background-color: #001f3f;
   color: white;
-  border: beige 4px solid;
+  border: #ffdc00 4px solid;
 }
 .yellow2 {
-  border: beige 4px solid;
+  border: #ffdc00 4px solid;
 }
 
 .blue2 {
-  border: grey 4px solid;
+  border: #001f3f 4px solid;
 }
 
 .backdrop {

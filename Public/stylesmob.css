@@ -14,9 +14,6 @@
     margin: 0px;
   }
 
-  .linkedin {
-    margin-top: 15%;
-  }
   .txt {
     font-size: 17px;
     color: black;
@@ -44,8 +41,8 @@
   }
 
   .logo {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 70px;
   }
   .imageBlogHP {
     display: block;
@@ -102,7 +99,7 @@
   }
 
   .intro3 {
-    margin-top: 150px;
+    margin-top: 40px;
     margin-bottom: 20px;
     width: 90%;
     margin-left: 5%;
@@ -152,8 +149,9 @@
     display: block;
     margin-left: 0px;
     padding: 0px;
+    padding-bottom: 50px;
     left: 0;
-    background-color: beige;
+    background-color: #ffdc00;
   }
 
   .introQuarter {
@@ -172,10 +170,15 @@
     margin-bottom: auto;
     margin-left: 20px;
     opacity: 1;
-    min-height: none;
-    background-color: none;
+    min-height: auto;
+    background-color: #39cccc;
     padding: 5px;
   }
+
+  .logoQuarter {
+    background-color: white;
+  }
+
   .intro21 {
     font-size: 16px;
     margin-top: 20px;
@@ -186,7 +189,7 @@
     padding: 0px;
     left: 30px;
     color: black;
-    background-color: beige;
+    background-color: #39cccc;
   }
 
   .intro21 .txt2 {
@@ -301,14 +304,15 @@
     padding-top: 3px;
     text-align: left;
     position: absolute;
-    background-color: beige;
-    opacity: 40%;
+    background-color: #ff851b;
 
+    opacity: 40%;
+    padding: 5px;
     margin-left: 10%;
     z-index: 105;
     top: 7px;
     font-size: 21px;
-    color: black;
+    color: white;
     position: sticky;
     position: -webkit-sticky;
   }
@@ -459,7 +463,7 @@
     position: sticky;
     position: -webkit-sticky;
     z-index: 10;
-    background-color: grey;
+    background-color: #001f3f;
   }
   .infoIntro {
     margin-left: 10%;
@@ -683,43 +687,46 @@
 @media (max-width: 768px) and (orientation: landscape),
   only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .hey span {
-    top: 190px;
+    top: 90px;
     font-size: 26px;
-    margin-left: 150px;
+    margin-left: 30px;
   }
 
   .hey span:nth-child(1) {
   }
 
   .hey span:nth-child(2) {
-    top: 210px;
-    margin-left: 150px;
+    top: 110px;
+    margin-left: 30px;
   }
 
   .hey span:nth-child(3) {
-    top: 200px;
-    margin-left: 150px;
+    top: 100px;
+    margin-left: 30px;
   }
   .hey span:nth-child(4) {
-    top: 220px;
-    margin-left: 160px;
+    top: 120px;
+    margin-left: 30px;
   }
   .hey span:nth-child(5) {
-    top: 210px;
-    margin-left: 150px;
+    top: 110px;
+    margin-left: 30px;
   }
   .hey span:nth-child(6) {
-    top: 230px;
-    margin-left: 150px;
+    top: 130px;
+    margin-left: 30px;
   }
 
   .hey span:nth-child(7) {
-    top: 210px;
-    margin-left: 140px;
+    top: 110px;
+    margin-left: 20px;
   }
 
   .hey span:nth-child(8) {
-    top: 230px;
-    margin-left: 150px;
+    top: 130px;
+    margin-left: 30px;
+  }
+  .txt2 {
+    font-size: 20px;
   }
 }

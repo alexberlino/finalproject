@@ -55,7 +55,7 @@
 @keyframes heyThere {
   00%,
   70% {
-    color: #720000;
+    color: black;
   }
   70%,
   100% {
@@ -65,7 +65,7 @@
   }
 
   100% {
-    color: #720000;
+    color: black;
 
     opacity: 0.01;
   }
@@ -74,7 +74,7 @@
 @-webkit-keyframes heyThere {
   00%,
   70% {
-    color: #720000;
+    color: black;
   }
   70%,
   100% {
@@ -84,7 +84,7 @@
   }
 
   100% {
-    color: #720000;
+    color: black;
 
     opacity: 0.1;
   }
