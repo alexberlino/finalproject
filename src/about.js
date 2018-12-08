@@ -41,21 +41,13 @@ class About extends Component {
         </div>
         <div className="aboutpage">
           <div className="aboutgeneric" />
-          <div className="blockAbout orange roll-in-left ">{t("about1")}</div>
-          <div className="blockAbout green">{t("about2")}</div>
-          <div className="blockAbout orange roll-in-left">{t("about3")}</div>
-          <div className="blockAbout orange roll-in-left">{t("about4")}</div>
-          <div className="blockAbout green">{t("about5")}</div>
-          <div className="blockAbout orange roll-in-left">{t("about6")}</div>
-          <div className="blockAbout green">{t("about7")}</div>
-          <div
-            className="blockAbout orange"
-            onClick={() => this.props.pageChange("/aboutthiswebsite")}
-          >
-            <Link to={"/" + this.props.lang + "/aboutthiswebsite"}>
-              about this website
-            </Link>
-          </div>
+          <div className="blockAbout  yellow slide-in-left ">{t("about1")}</div>
+          <div className="blockAbout yellow2 bounce-in-top">{t("about2")}</div>
+          <div className="blockAbout  blue slide-in-left">{t("about3")}</div>
+          <div className="blockAbout  blue2 slide-in-left">{t("about4")}</div>
+          <div className="blockAbout yellow fade-in">{t("about5")}</div>
+          <div className="blockAbout  blue slide-in-left">{t("about6")}</div>
+          <div className="blockAbout yellow2">{t("about7")}</div>
         </div>
       </div>
     );

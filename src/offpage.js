@@ -11,6 +11,7 @@ import LinksToPages from "./LinksToPages";
 import BacklinkAnalysis from "./Offpage/BacklinkAnalysis";
 import BrandBuilding from "./Offpage/BrandBuilding";
 import Toxic from "./Offpage/Toxic";
+import ContactMain from "./ContactMain";
 
 class Offpage extends Component {
   constructor() {
@@ -100,6 +101,15 @@ class Offpage extends Component {
         </div>
 
         <div className={this.state.hide2}>
+          <div className="contactmob">
+            <h2 className="txthead"> {t("getintouch")}></h2>
+            <h2 className="txt">
+              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
+              787 011 932
+            </h2>
+
+            <ContactMain />
+          </div>
           <LinksToPages
             pageChange={this.props.pageChange}
             lang={this.props.lng}
@@ -111,11 +121,3 @@ class Offpage extends Component {
 }
 
 export default translate("translations")(Offpage);
-
-// const getStateFromRedux = state => {
-//   return {
-//     messages: state.messages
-//   };
-// };
-//
-// export default connect(getStateFromRedux)(Homepage);

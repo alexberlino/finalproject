@@ -13,6 +13,7 @@ import Analytics from "./research/analytics";
 import BestPractices from "./research/bestpractices";
 import LocalSEO from "./research/localseo";
 import SEA from "./research/sea";
+import ContactMain from "./ContactMain";
 
 class Technical extends Component {
   constructor() {
@@ -108,6 +109,15 @@ class Technical extends Component {
         </div>
 
         <div className={this.state.hide2}>
+          <div className="contactmob">
+            <h2 className="txthead"> {t("getintouch")}></h2>
+            <h2 className="txt">
+              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
+              787 011 932
+            </h2>
+
+            <ContactMain />
+          </div>
           <LinksToPages
             pageChange={this.props.pageChange}
             lang={this.props.lng}

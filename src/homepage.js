@@ -129,7 +129,7 @@ class Homepage extends Component {
                   src="/linkedinprof.png"
                   className="linkedin"
                   height="100px"
-                  width="120px"
+                  width="140px"
                 />{" "}
               </a>
             </div>
@@ -160,7 +160,7 @@ class Homepage extends Component {
 
         <div>
           <h2 className="txthead"> services></h2>
-          <div className="intro2 ">
+          <div className="intro21 ">
             {" "}
             <p className="txt2 serviceQuarter">
               <h2>AUDIT</h2>

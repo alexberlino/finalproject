@@ -55,16 +55,18 @@
 @keyframes heyThere {
   00%,
   70% {
-    color: #190b28;
+    color: #720000;
   }
   70%,
   100% {
-    color: #e9e7e7;
+    color: black;
+
     opacity: 0.01;
   }
 
   100% {
-    color: #e9e7e7;
+    color: #720000;
+
     opacity: 0.01;
   }
 }
@@ -72,19 +74,34 @@
 @-webkit-keyframes heyThere {
   00%,
   70% {
-    color: black;
+    color: #720000;
   }
   70%,
   100% {
-    color: #e9e7e7;
+    color: black;
+
     opacity: 0.1;
   }
 
   100% {
-    color: #e9e7e7;
+    color: #720000;
+
     opacity: 0.1;
   }
 }
+
+.bounce-in-top {
+  animation: bounce-in-top 3s;
+}
+
+.fade-in {
+  animation: fade-in 2s;
+}
+
+.slide-in-left {
+  animation: slide-in-left 2s;
+}
+
 @-webkit-keyframes bounce-in-top {
   0% {
     -webkit-transform: translateY(-500px);

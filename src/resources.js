@@ -5,7 +5,10 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
+import { translate, Trans } from "react-i18next";
+import i18n from "./i18n";
 import LinksToPages from "./LinksToPages";
+import ContactMain from "./ContactMain";
 
 class Resources extends Component {
   componentDidMount() {
@@ -13,6 +16,9 @@ class Resources extends Component {
     window.scrollTo(0, 0);
   }
   render() {
+    const { t, i18n } = this.props;
+    console.log(this.props);
+
     return (
       <div className="main">
         <Helmet>
@@ -96,6 +102,18 @@ class Resources extends Component {
             </ul>
           </div>
           <div>
+            <div className="contactmob">
+              <h2 className="txthead"> Get in touch></h2>
+              <h2 className="txt">
+                <img
+                  alt="telephone"
+                  src="/telephone.svg"
+                  className="iconphone"
+                />015 787 011 932
+              </h2>
+
+              <ContactMain />
+            </div>
             <LinksToPages />
           </div>
         </div>

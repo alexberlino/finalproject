@@ -7,6 +7,8 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "./LinksToPages";
+import ContactMain from "./ContactMain";
 
 class Impressum extends Component {
   constructor() {
@@ -32,24 +34,38 @@ class Impressum extends Component {
           <link
             rel="canonical"
             href={"https://www.seoberlino.com/" + this.props.lng + "/impressum"}
-          />{" "}
+          />
         </Helmet>
 
         <div className="infoTitle">
-          <h1>Impressum</h1>{" "}
+          <h1>Impressum</h1>
         </div>
 
         <div className="container">
           <div className="infoMain2">E-Mail: alex.bieth@gmail.com</div>
-          <div className="infoMain2">Internet: https://www.seoberlino.com</div>
+          <div className="infoMain2">Internet: www.seoberlino.com </div>
           <div className="infoMain2">Kiehlufer, 12059 Berlin</div>
           <div className="infoMain2">
             Inhaltlich Verantwortlicher nach § 10 Absatz 3 Verantwortlich für
-            den redaktionellen Bereich: Alex Bieth
+            den redaktionellen Bereich: Alex Bieth{" "}
           </div>
-          `
+
+          <div className="contactmob">
+            <h2 className="txthead"> {t("getintouch")}></h2>
+            <h2 className="txt">
+              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
+              787 011 932
+            </h2>
+
+            <ContactMain />
+          </div>
+
+          <LinksToPages
+            pageChange={this.props.pageChange}
+            lang={this.props.lng}
+          />
         </div>
-      </div> //Main
+      </div>
     );
   }
 }

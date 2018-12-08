@@ -17,6 +17,7 @@ import StructuredData from "./Onpage/StructuredData";
 import DuplicateContent from "./Onpage/DuplicateContent";
 import VoiceSearch from "./Onpage/VoiceSearch";
 import Metas from "./Onpage/Metas";
+import ContactMain from "./ContactMain";
 
 class Onpage extends Component {
   constructor() {
@@ -127,6 +128,15 @@ class Onpage extends Component {
           </div>
         </div>
         <div className={this.state.hide2}>
+          <div className="contactmob">
+            <h2 className="txthead"> {t("getintouch")}></h2>
+            <h2 className="txt">
+              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
+              787 011 932
+            </h2>
+
+            <ContactMain />
+          </div>
           <LinksToPages
             pageChange={this.props.pageChange}
             lang={this.props.lng}

@@ -34,6 +34,13 @@
     font-size: 17px;
     margin-bottom: 18px;
     width: 80%;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+
+  .mainRightServices {
+    padding: 0px;
+    margin: 0px;
   }
 
   .imageBlogHP {
@@ -53,7 +60,7 @@
   }
 
   .listArticlesBlogHP {
-    width: 50%;
+    width: 80%;
     font-size: 17px;
     margin-left: 0px;
     margin-bottom: 10px;
@@ -141,6 +148,19 @@
     text-align: center;
     display: block;
     margin-left: 0px;
+    padding: 0px;
+    left: 0;
+  }
+
+  .intro21 {
+    font-size: 16px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-left: 0px;
+    padding: 0px;
+    left: 30px;
   }
 
   .homepageNews {
@@ -299,8 +319,7 @@
 
   .footerlink {
     margin-left: 20px;
-    background-color: lightgrey;
-    color: black;
+    color: white;
   }
 
   .navEntries a {
@@ -481,14 +500,6 @@
     height: 200px;
     width: 300px;
     margin-left: 10%;
-  }
-
-  .fade-in {
-    margin-left: 0%;
-    top: 190px;
-    width: 80%;
-    position: relative;
-    border-radius: 0px;
   }
 
   .aboutpage {
