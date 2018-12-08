@@ -83,9 +83,9 @@ class Homepage extends Component {
         </div>
 
         <div className="intro">
-          <p className="txt2 txthead introHP">
+          <div className="txt2 txthead introHP">
             {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
-          </p>
+          </div>
           <div className="intro2">
             <div className="introQuarter">
               <img
@@ -162,19 +162,19 @@ class Homepage extends Component {
           <h2 className="txthead"> services></h2>
           <div className="intro21 ">
             {" "}
-            <p className="txt2 serviceQuarter">
+            <div className="txt2 serviceQuarter">
               <h2>AUDIT</h2>
               Full/Partial Audit with Excecutive Summary:
               <p>keywords research & onpage</p>
               <p> technical & offpage, </p>
               <p> competitor analysis</p>
-            </p>
-            <p className="txt2 serviceQuarter">
+            </div>
+            <div className="txt2 serviceQuarter">
               <h2>ANALYTICS</h2>
               Google Analytics Check & Optimization
               <p>Report Creation</p>
-            </p>
-            <p className="txt2 serviceQuarter">
+            </div>
+            <div className="txt2 serviceQuarter">
               <h2>BRAND-BUILDING</h2>
               Brand-building: provide you with best recommendation for content
               creation
@@ -182,7 +182,7 @@ class Homepage extends Component {
                 Based on user & influencers interests to boost quality link
                 creation quality and brand awareness.
               </p>
-            </p>
+            </div>
             <p />
             <p />
           </div>
@@ -192,48 +192,46 @@ class Homepage extends Component {
           <h2 className="txthead"> current & former clients></h2>
           <div className="intro3 ">
             {" "}
-            <p className="logoQuarter">
+            <div className="logoQuarter">
               <img
                 className="logo"
                 height="150px"
                 width="200px"
                 src="/mustbe.png"
               />
-            </p>
-            <p className=" logoQuarter">
+            </div>
+            <div className=" logoQuarter">
               <img
                 className="logo"
                 height="150px"
                 width="100px"
                 src="/spreadshirt.png"
               />
-            </p>
-            <p className=" logoQuarter">
+            </div>
+            <div className=" logoQuarter">
               <img
                 className="logo"
                 height="150px"
                 width="190px"
                 src="/madeforrain.png"
               />
-            </p>
-            <p className=" logoQuarter">
+            </div>
+            <div className=" logoQuarter">
               <img
                 className="logo"
                 height="150px"
                 width="220px"
                 src="/holberton.png"
               />
-            </p>
-            <p className=" logoQuarter">
+            </div>
+            <div className=" logoQuarter">
               <img
                 className="logo"
                 height="150px"
                 width="150px"
                 src="/teezily.png"
               />
-            </p>
-            <p />
-            <p />
+            </div>
           </div>
         </div>
 

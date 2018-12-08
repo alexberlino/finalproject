@@ -107,7 +107,7 @@ i18n.use(LanguageDetector).init({
     de: {
       translations: {
         intro1:
-          "Erfahrener Freelance SEO Experte in Berlin mit MBA und scrum ausgebildet.",
+          "Erfahrener Freelance SEO Experte in Berlin mit MBA und in scrum ausgebildet.",
         intro2: "9 Jahre Erfahrung in SEO, SEA und Analytics.",
         intro3: "Full Stack Web-Entwickler",
         intro4: "Analyse, Aktionsplan mit Priorisierung, und Controlling",

@@ -28,6 +28,7 @@ h1 {
 }
 h2 {
   margin-left: 2%;
+  text-align: center;
 }
 
 .black {
@@ -523,7 +524,7 @@ section {
   color: white;
   margin-top: 10px;
   position: relative;
-  width: 90%;
+  width: 80%;
   height: auto;
   display: flex;
   padding: 30px;
@@ -865,11 +866,12 @@ h4 {
 .introQuarter {
   display: inline;
   width: 20%;
-  opacity: 0.75;
+  opacity: 0.95;
   text-align: center;
   margin-left: 20px;
-  background-color: white;
+  background-color: #eaf0fb;
   padding: 10px;
+  border: white solid 5px;
 }
 
 .serviceQuarter {
@@ -878,9 +880,10 @@ h4 {
   margin-top: 10px;
   margin-bottom: auto;
   margin-left: 20px;
-  opacity: 0.7;
+  opacity: 0.95;
   min-height: 300px;
-  background-color: lightgrey;
+  background-color: #fbf7ea;
+  border: white solid 5px;
   padding: 5px;
 }
 
@@ -970,16 +973,19 @@ h4 {
 
 .infoMain {
   padding-left: 40px;
+  margin-top: 50px;
 
-  margin-left: 10%;
+  margin-left: 30%;
   margin-bottom: 6%;
   font-size: 20px;
-  background-color: #ffdc00;
+  border: 1px solid #ffdc00;
+  background-color: #f9f8f2;
   position: relative;
   height: auto;
   color: black;
-  width: 60%;
-  padding: 20px;
+  width: 30%;
+  text-align: center;
+  padding: 40px;
 
   -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
@@ -1111,7 +1117,7 @@ h4 {
 }
 
 .mainRightServices {
-  background-color: #ffdc00;
+  background-color: white;
   padding: 100px;
 }
 .toolbar_navigation_items li {
@@ -1233,21 +1239,17 @@ h4 {
 }
 
 .yellow {
-  background-color: #ffdc00;
-  border: #ffdc00 4px solid;
+  background-color: #fbf7ea;
 }
 
 .blue {
-  background-color: #001f3f;
-  color: white;
-  border: #ffdc00 4px solid;
+  background-color: #cadde3;
+  color: black;
 }
 .yellow2 {
-  border: #ffdc00 4px solid;
 }
 
 .blue2 {
-  border: #001f3f 4px solid;
 }
 
 .backdrop {
