@@ -953,15 +953,17 @@ h4 {
 
 /* SEOinfoPage start*/
 .infoTitle {
-  margin-left: 2%;
+  margin-left: 0.5%;
   font-size: 34px;
-  color: black;
-  width: 35%;
+  color: white;
+  width: 90%;
   padding: 10px;
+  z-index: 1;
   padding-bottom: 40px;
+  margin-bottom: 10px;
   position: relative;
-  opacity: 0.7;
-  background-color: white;
+  opacity: 0.9;
+  background-color: darkred;
 }
 
 .infoIntro {
@@ -985,7 +987,7 @@ h4 {
   margin-left: 30%;
   margin-bottom: 6%;
   font-size: 20px;
-  border: 1px solid darkred;
+  border: 1px solid white;
   background-color: white;
   position: relative;
   height: auto;
@@ -999,6 +1001,9 @@ h4 {
   animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.toggleMan {
+  z-index: 100;
+}
 .infoMain a {
   color: black;
 }
@@ -1084,7 +1089,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 85px;
-  z-index: 1;
+  z-index: 100;
 }
 
 .toolbar_navigation {
@@ -1092,13 +1097,14 @@ h4 {
   align-items: center;
   height: 30px;
   vertical-align: middle;
+  z-index: 100;
 }
 
 .toolbar_logo {
   margin-left: 2rem;
   margin-top: 3.3rem;
   height: 70px;
-  width: 120px;
+  width: 100px;
 }
 .toolbar_logo a {
 }
@@ -1160,6 +1166,7 @@ h4 {
   position: fixed;
   left: 85%;
   top: 3px;
+  z-index: 100;
 }
 .toggle-button:focus {
   outline: none;
@@ -1214,34 +1221,38 @@ h4 {
   color: rgba(196, 196, 196);
 }
 .blockAbout {
-  width: 65%;
   text-align: center;
   margin-bottom: 3px;
-  margin-left: 15%;
-  padding: 35px;
+  margin-left: 20%;
+  width: 30%;
+  padding: 15px;
   position: relative;
   display: block;
   color: black;
   background-color: white;
-  font-weight: bold;
+
   font-size: 22px;
   border: 1px darkred dotted;
 }
-.blockAbout2 {
-  height: 50px;
-  width: 30%;
-  max-height: 99%;
 
-  position: relative;
+.resourcesLink:hover {
+  color: white;
+  background-color: black;
+}
 
-  text-align: center;
-  background-color: lightgrey;
-  margin-top: 40px;
-  border-radius: 20px;
-  margin-left: 10%;
-  padding: 9px;
-  color: black;
-  font-size: 24px;
+.blockAbout:hover {
+  color: white;
+  background-color: black;
+}
+
+.resourcesLink:hover a {
+  color: white;
+  background-color: black;
+}
+
+.blockAbout:hover a {
+  color: white;
+  background-color: black;
 }
 
 .side_drawer#dropbtn {
@@ -1309,9 +1320,8 @@ h4 {
 
 .h1services {
   color: black;
-
+  position: relative;
   width: 100%;
-  top: -30px;
   font-size: 28px;
   z-index: 300;
 }
@@ -1338,6 +1348,12 @@ h4 {
   font-size: 21px;
 }
 .listServices:hover {
+  cursor: help;
+  color: white;
+  background-color: black;
+}
+
+.listServices:hover a {
   cursor: help;
   color: white;
   background-color: black;

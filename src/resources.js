@@ -44,22 +44,32 @@ class Resources extends Component {
             <h1 className="infoTitle"> > SEO RESOURCES</h1>
           </div>
 
-          <div className="infoMain">
-            <div className="resourcesLinks">
+          <div className="resourcesLinks">
+            <div className="blockAbout slide-in-left ">
+              {" "}
               <a className="block" href={"/" + this.props.lang + "/onpage"}>
-                > ON PAGE{" "}
+                ON PAGE{" "}
               </a>
+            </div>
+            <div className="blockAbout bounce-in-top">
               <a className="block" href={"/" + this.props.lang + "/offpage"}>
-                > OFF PAGE
+                OFF PAGE
               </a>
+            </div>
+            <div className="blockAbout slide-in-left">
               <a className="block" href={"/" + this.props.lang + "/technical"}>
-                > TECHNICAL
+                TECHNICAL
               </a>
+            </div>
+            <div className="blockAbout  slide-in-left">
               <a className="block" href={"/" + this.props.lang + "/research"}>
-                > RESEARCH ANALYTICS
+                RESEARCH ANALYTICS
               </a>
+            </div>
+            <div className="blockAbout fade-in">
+              {" "}
               <a className="block" href={"/" + this.props.lang + "/seonews"}>
-                > SEO NEWS
+                SEO NEWS
               </a>
             </div>
           </div>
