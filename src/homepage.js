@@ -198,40 +198,40 @@ class Homepage extends Component {
             <div className="logoQuarter">
               <img
                 className="logo"
-                height="150px"
-                width="200px"
+                height="110px"
+                width="160px"
                 src="/mustbe.png"
               />
             </div>
             <div className=" logoQuarter">
               <img
                 className="logo"
-                height="150px"
-                width="100px"
+                height="120px"
+                width="70px"
                 src="/spreadshirt.png"
               />
             </div>
             <div className=" logoQuarter">
               <img
                 className="logo"
-                height="150px"
-                width="190px"
+                height="120px"
+                width="160px"
                 src="/madeforrain.png"
               />
             </div>
             <div className=" logoQuarter">
               <img
                 className="logo"
-                height="150px"
-                width="220px"
+                height="100px"
+                width="170px"
                 src="/holberton.png"
               />
             </div>
             <div className=" logoQuarter">
               <img
                 className="logo"
-                height="150px"
-                width="150px"
+                height="120px"
+                width="120px"
                 src="/teezily.png"
               />
             </div>

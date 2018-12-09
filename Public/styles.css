@@ -524,15 +524,15 @@ section {
 
 .intro2 {
   margin-left: 10%;
-  background-color: #010138;
+  background-color: #020742;
   color: white;
   margin-top: 10px;
   position: relative;
   width: 80%;
   height: auto;
   display: flex;
-  padding: 30px;
-  opacity: 0.6;
+  padding: 20px;
+  opacity: 0.5;
 }
 
 .txt3 {
@@ -870,26 +870,27 @@ h4 {
 
 .introQuarter {
   display: inline;
-  width: 20%;
-  opacity: 0.95;
+
+  opacity: 2;
   text-align: center;
-  margin-left: 20px;
-  background-color: #eaf0fb;
+
+  background-color: white;
   padding: 10px;
-  border: white solid 5px;
+  position: relative;
+  z-index: 1;
+  min-width: 21%;
+  border: lightgrey solid 5px;
 }
 
 .serviceQuarter {
   display: inline;
-  width: 30%;
-  margin-top: 10px;
-  margin-bottom: auto;
-  margin-left: 20px;
+
   opacity: 0.95;
   min-height: 300px;
   background-color: #fbf7ea;
   border: white solid 5px;
-  padding: 5px;
+  padding: 10px;
+  min-width: 30%;
 }
 
 .introHP {
@@ -1374,11 +1375,11 @@ h4 {
 }
 .intro21 {
   margin-left: 5%;
-  background-color: #310101;
+  background-color: #fff056;
   margin-top: 10px;
-  opacity: 0.6;
+  opacity: 0.65;
   position: relative;
-  width: 85%;
+  width: 80%;
   height: auto;
   display: flex;
   padding: 20px;
