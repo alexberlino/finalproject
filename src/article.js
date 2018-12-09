@@ -42,7 +42,8 @@ class Article extends Component {
           article,
           imageurl,
           status,
-          dat
+          dat,
+          url
         } = res.data.rows[0];
 
         dat = dat.slice(0, 10);
@@ -54,7 +55,8 @@ class Article extends Component {
           article,
           imageurl,
           status,
-          dat
+          dat,
+          url
         });
       }
     });
@@ -72,9 +74,24 @@ class Article extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>{this.state.title + " | SEO Berlino Blog"}</title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <meta
+            name="description"
+            content={
+              this.state.title +
+              ", an article about SEO on SEO Berlino's Blog - Keyword research, onpage and offpage SEO, technical and competitor analysis"
+            }
+          />
+          <link
+            rel="canonical"
+            href={
+              "https://www.seoberlino.com/" +
+              this.props.lang +
+              "/article/" +
+              this.state.url
+            }
+          />
         </Helmet>
+
         <div id="three-js-item" />
 
         <div className="mainBlog">
