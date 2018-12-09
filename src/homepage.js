@@ -166,19 +166,19 @@ class Homepage extends Component {
           <div className="intro21 ">
             {" "}
             <div className="txt2 serviceQuarter">
-              <h2>AUDIT</h2>
+              <h2 className="center">AUDIT</h2>
               Full/Partial Audit with Excecutive Summary:
               <p>keywords research & onpage</p>
               <p> technical & offpage, </p>
               <p> competitor analysis</p>
             </div>
             <div className="txt2 serviceQuarter">
-              <h2>ANALYTICS</h2>
+              <h2 className="center">ANALYTICS</h2>
               Google Analytics Check & Optimization
               <p>Report Creation</p>
             </div>
             <div className="txt2 serviceQuarter">
-              <h2>BRAND-BUILDING</h2>
+              <h2 className="center">BRAND-BUILDING</h2>
               Brand-building: provide you with best recommendation for content
               creation
               <p>

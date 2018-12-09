@@ -524,7 +524,7 @@ section {
 
 .intro2 {
   margin-left: 10%;
-  background-color: #001f3f;
+  background-color: #010138;
   color: white;
   margin-top: 10px;
   position: relative;
@@ -1364,9 +1364,17 @@ h4 {
   font-size: 21px;
   margin-left: 5%;
 }
+
+.center {
+  text-align: center;
+}
+
+.linkedin {
+  margin-top: 30%;
+}
 .intro21 {
   margin-left: 5%;
-  background-color: #ff851b;
+  background-color: #310101;
   margin-top: 10px;
   opacity: 0.6;
   position: relative;

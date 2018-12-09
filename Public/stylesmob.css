@@ -10,8 +10,12 @@
   .imageHP {
     width: 60%;
     height: 80%;
-    left: 110px;
+    left: 80px;
     margin: 0px;
+  }
+
+  .linkedin {
+      margin-top: 10%;
   }
 
   .txt {
