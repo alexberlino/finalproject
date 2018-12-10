@@ -156,7 +156,7 @@ class App extends Component {
                 <Route
                   exact
                   path="/de/article/:url"
-                  render={() => <About2 lang={lang} page={page} />}
+                  render={() => <Article lang={lang} page={page} />}
                 />
 
                 <Route
@@ -167,7 +167,7 @@ class App extends Component {
                 <Route
                   exact
                   path="/de/aboutthiswebsite"
-                  render={() => <Article lang={lang} page={page} />}
+                  render={() => <About2 lang={lang} page={page} />}
                 />
 
                 <Route
