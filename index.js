@@ -3,6 +3,8 @@ const nodemailer = require("nodemailer");
 // var i18n = require("i18next");
 // const i18nMiddleware = require("i18next-express-middleware");
 const app = express();
+app.use(require("prerender-node"));
+
 // import { renderToString } from "react-dom/server";
 const compression = require("compression");
 const db = require("./sql/db.js");
