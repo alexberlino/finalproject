@@ -144,6 +144,8 @@ label {
   border-radius: 40px;
   padding-left: 10px;
   color: black;
+  padding: 12px;
+  padding-top: 24px;
 }
 
 form {
@@ -225,6 +227,7 @@ iframe {
   height: 200px;
   border: 1px dotted black;
   width: 100%;
+  border-radius: 15px;
 }
 .contactmeHead {
   font-family: bariolregular;
@@ -299,7 +302,7 @@ iframe {
   margin-top: 20%;
 }
 .mainHP {
-  min-height: calc(100vh + 2520px);
+  min-height: calc(100vh + 2420px);
   width: 100%;
   position: relative;
 }
@@ -309,7 +312,7 @@ iframe {
   top: 5px;
   left: 5px;
   z-index: 1;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .languageBtn {
@@ -323,7 +326,7 @@ iframe {
   margin-right: 15px;
   font-size: 32px;
   border: 1px black solid;
-  padding: 3px;
+  padding: 5px;
   color: black;
 }
 .languageBtnEN {
@@ -331,7 +334,7 @@ iframe {
   font-size: 32px;
   margin-left: 15px;
   border: 1px black solid;
-  padding: 3px;
+  padding: 5px;
 }
 
 /* Dropdown button */
@@ -352,7 +355,6 @@ iframe {
 .intro {
   background-color: white;
   color: black;
-  width: 90%;
   height: auto;
   display: block;
   margin-left: 30px;
@@ -362,7 +364,7 @@ iframe {
 }
 
 .intro3 {
-  width: 70%;
+  width: 90%;
   margin-left: 12%;
   margin-top: 30px;
 }
@@ -517,13 +519,13 @@ section {
 .txt2 {
   font-size: 19px;
   color: black;
-
+  margin-left: 4px;
   margin-top: 5px;
-  width: 80%;
+  width: 90%;
 }
 
 .intro2 {
-  margin-left: 10%;
+  margin-left: 3%;
   background-color: none;
   color: white;
   margin-top: 10px;
@@ -532,7 +534,7 @@ section {
   height: auto;
   display: flex;
   padding: 20px;
-  opacity: 0.5;
+  opacity: 0.95;
 }
 
 .txt3 {
@@ -1176,8 +1178,8 @@ h4 {
 }
 .toolbar_toggle_button {
   position: fixed;
-  left: 85%;
-  top: 3px;
+  left: 90%;
+  top: 20px;
   z-index: 100;
 }
 .toggle-button:focus {
@@ -1388,7 +1390,7 @@ h4 {
   margin-left: 5%;
   background-color: none;
   margin-top: 10px;
-  opacity: 0.65;
+  opacity: 0.95;
   position: relative;
   width: 80%;
   height: auto;

@@ -8,7 +8,7 @@
   text-align: center;
   padding: 5px;
   color: transparent;
-  animation: heyThere 5s;
+  animation: heyThere 4s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
 }
@@ -21,12 +21,12 @@
   z-index: 14;
 }
 .hey span:nth-child(3) {
-  animation-delay: 2s;
+  animation-delay: 2.1s;
   top: 210px;
   z-index: 13;
 }
 .hey span:nth-child(4) {
-  animation-delay: 2s;
+  animation-delay: 2.1s;
   top: 280px;
   z-index: 13;
 }
@@ -53,10 +53,10 @@
 }
 @keyframes heyThere {
   00%,
-  70% {
+  50% {
     color: #0e013a;
   }
-  70%,
+  50%,
   100% {
     color: #e9e7e7;
     opacity: 0.01;
@@ -68,10 +68,10 @@
 }
 @-webkit-keyframes heyThere {
   00%,
-  70% {
+  60% {
     color: #0e013a;
   }
-  70%,
+  60%,
   100% {
     color: #e9e7e7;
     opacity: 0.1;

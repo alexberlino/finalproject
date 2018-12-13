@@ -56,8 +56,8 @@ class Navigation extends Component {
               src="/hamburger.svg"
               className="toggleMan"
               alt="hamburger menu"
-              height="60px"
-              width="60px"
+              height="40px"
+              width="40px"
               onClick={this.props.drawerClickHandler}
             />
           </div>

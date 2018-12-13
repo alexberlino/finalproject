@@ -86,7 +86,7 @@ class Homepage extends Component {
 
         <div className="othercontentHP">
           <div className="intro">
-            <div className="txt2 txthead introHP">
+            <div className="txthead introHP">
               {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
             </div>
             <div className="intro2">
@@ -173,28 +173,49 @@ class Homepage extends Component {
             <div className="intro21 ">
               {" "}
               <div className="txt2 serviceQuarter">
-                <h2 className="center">AUDIT</h2>
-                Full/Partial Audit with Excecutive Summary:
-                <p>keywords research & onpage</p>
-                <p> technical & offpage, </p>
-                <p> competitor analysis</p>
+                <h2 className="center">SEO AUDIT</h2>
+                <p className="txt2">
+                  {" "}
+                  Full/Partial Audit with Excecutive Summary{" "}
+                </p>
+                <p className="txt2">Keywords Research</p>
+                <p className="txt2">Onpage SEO</p>
+                <p className="txt2">Technical SEO </p>
+                <p className="txt2">Offpage: Backlink Audit </p>
+
+                <p className="txt2"> Competitor Analysis</p>
               </div>
               <div className="txt2 serviceQuarter">
                 <h2 className="center">ANALYTICS</h2>
-                Google Analytics Check & Optimization
-                <p>Report Creation</p>
+                <p className="txt2">Google Analytics Set-up</p>
+
+                <p className="txt2">Google Analytics Check</p>
+                <p className="txt2">
+                  Google Analytics Optimization such as Url filtering and
+                  Channel regrouping and UTM best practices
+                </p>
+                <p className="txt2">Reports & Dashboard Creation</p>
+
+                <p className="txt2">
+                  Proficiency in other Analytics tools such Adobe SiteCatalyst /
+                  Marketing Cloud / Omniture
+                </p>
               </div>
               <div className="txt2 serviceQuarter">
                 <h2 className="center">BRAND-BUILDING</h2>
-                Brand-building: provide you with best recommendation for content
-                creation
-                <p>
+                <p className="txt2">
+                  Brand-building: provide you with best recommendation for
+                  content creation
+                </p>
+                <p className="txt2">
+                  Content targeting: more traffic for brand awareness, traffic
+                  and backlinks
+                </p>
+                <p className="txt2">
                   Based on user & influencers interests to boost quality link
                   creation quality and brand awareness.
                 </p>
               </div>
-              <p />
-              <p />
             </div>
           </div>
 
@@ -214,7 +235,7 @@ class Homepage extends Component {
                 <img
                   className="logo"
                   height="120px"
-                  width="70px"
+                  width="90px"
                   src="/spreadshirt.png"
                 />
               </div>
@@ -230,7 +251,7 @@ class Homepage extends Component {
                 <img
                   className="logo"
                   height="100px"
-                  width="170px"
+                  width="190px"
                   src="/holberton.png"
                 />
               </div>

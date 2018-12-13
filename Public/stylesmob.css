@@ -15,7 +15,7 @@
   }
 
   .linkedin {
-      margin-top: 10%;
+    margin-top: 10%;
   }
 
   .txt {
@@ -47,14 +47,15 @@
     background-color: white;
   }
 
-  .logo {
-    height: 90px;
-    width: 70px;
-  }
   .imageBlogHP {
     display: block;
     margin-bottom: 1px;
     vertical-align: middle;
+  }
+
+  .logo {
+    height: 25%;
+    width: 25%;
   }
 
   .listArticlesBlog {
@@ -79,12 +80,10 @@
 
   .txthead2 {
     left: 10px;
-    width: 805;
   }
 
   .txt2 {
     font-size: 17px;
-    background-color: white  border: 5px solid #001f3f;
     margin-left: 10%;
 
     width: 80%;
@@ -96,9 +95,10 @@
 
   .txthead {
     left: 0px;
-    font-size: 20px;
+    font-size: 17px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: normal;
   }
 
   .icon {
@@ -131,10 +131,6 @@
     width: 90%;
   }
 
-  .fieldMessage {
-    width: 220px;
-  }
-
   .introContent {
     width: 95%;
   }
@@ -159,7 +155,7 @@
     padding: 0px;
     padding-bottom: 50px;
     left: 0;
-    border: 2px solid darkred;
+    border: 1px solid darkgrey;
     background-color: #f4f5f9;
   }
 
@@ -171,7 +167,7 @@
     margin-left: 20px;
     background-color: #eaf8fd;
     padding: 0px;
-    border:none;
+    border: none;
   }
   .serviceQuarter {
     display: inline;
@@ -200,7 +196,7 @@
     padding: 0px;
     left: 30px;
     color: black;
-    border: 2px solid darkred;
+    border: 1px solid darkgrey;
     background-color: #f4f5f9;
   }
 
@@ -315,7 +311,7 @@
     text-align: left;
     position: absolute;
     background-color: darkred;
-top:5px;
+    top: 5px;
     opacity: 40%;
     padding: 15px;
     margin-left: 10%;
@@ -331,8 +327,6 @@ top:5px;
     height: auto;
   }
 
-
-
   .listServices {
     color: black;
     padding: 10px;
@@ -342,11 +336,9 @@ top:5px;
   }
 
   .listServices:hover {
-
     background-color: black;
     color: white;
   }
-
 
   .logoAnimationServices {
     height: 30px;
@@ -468,14 +460,11 @@ top:5px;
     display: block;
     margin: 0;
     width: 100%;
-    min-height: calc(730vh - 120px);
-
+    min-height: calc(740vh);
   }
 
   .othercontentHP {
-
     top: 600px;
-
   }
 
   .infoTitle {
@@ -489,15 +478,12 @@ top:5px;
     z-index: 10;
     height: 30px;
     background-color: grey;
-
   }
 
   h1 {
-
-      padding: 0px;
-      margin: 0px;
-
-
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
   }
   .infoIntro {
     margin-left: 10%;
@@ -597,11 +583,9 @@ top:5px;
     padding: 15px;
   }
 
-
   .resourcesLinks a {
-      font-size: 18px;
+    font-size: 18px;
   }
-
 
   .about21 {
     font-size: 17px;
@@ -630,8 +614,12 @@ top:5px;
 
   .fieldMessage {
     height: 200px;
+    width: 240px;
   }
 
+  .field {
+    width: 270px;
+  }
   .toolbar_navigation_items {
     display: none;
   }
@@ -647,8 +635,8 @@ top:5px;
     margin-bottom: 130px;
     margin-top: 50px;
     position: relative;
-background-color: white;
-width: 60%;
+    background-color: white;
+    width: 60%;
   }
 
   .linkstoPageMainDiv a {
@@ -660,13 +648,12 @@ width: 60%;
 }
 @media (max-width: 768px) and (orientation: portrait) {
   .hey span {
-left:5px;
+    left: 5px;
     font-size: 38px;
-
   }
 
   .hey span:nth-child(1) {
-      top: 250px;
+    top: 250px;
   }
 
   .hey span:nth-child(2) {
@@ -677,29 +664,21 @@ left:5px;
     top: 220px;
   }
   .hey span:nth-child(4) {
-
     top: 260px;
   }
   .hey span:nth-child(5) {
-      top: 220px;
-
-
+    top: 220px;
   }
   .hey span:nth-child(6) {
-      top: 260px;
-
-
+    top: 260px;
   }
 
   .hey span:nth-child(7) {
     top: 220px;
-
   }
 
   .hey span:nth-child(8) {
-      top: 260px;
-
-
+    top: 260px;
   }
 }
 
