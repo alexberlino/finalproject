@@ -49,7 +49,6 @@ class Technical extends Component {
   }
   componentDidMount() {
     window.scrollTo(0, 0);
-    happyfun();
   }
 
   render() {
@@ -70,7 +69,6 @@ class Technical extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/technical"}
           />
         </Helmet>
-        <div id="three-js-item" />
 
         <div className="infoTitle">
           {" "}

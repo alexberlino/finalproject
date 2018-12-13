@@ -33,7 +33,6 @@ class SEONews extends Component {
   }
 
   componentDidMount() {
-    happyfun();
     window.scrollTo(0, 0);
   }
 
@@ -52,8 +51,6 @@ class SEONews extends Component {
             href={"https://www.seoberlino.com/" + this.props.lang + "/seonews"}
           />
         </Helmet>
-
-        <div id="three-js-item" />
 
         <div className="infoTitle">
           <h1 className="infoTitle"> SEO NEWS</h1>

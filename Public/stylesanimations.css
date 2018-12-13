@@ -1,9 +1,9 @@
 .hey span {
   z-index: 9;
   position: absolute;
-  top: 150px;
-  font-size: 44px;
-  left: 35%;
+  top: 220px;
+  font-size: 94px;
+  left: 15%;
 
   text-align: center;
   padding: 5px;
@@ -17,28 +17,28 @@
   z-index: 14;
 }
 .hey span:nth-child(2) {
-  top: 184px;
+  top: 290px;
   z-index: 14;
 }
 .hey span:nth-child(3) {
   animation-delay: 2s;
-  top: 220px;
+  top: 210px;
   z-index: 13;
 }
 .hey span:nth-child(4) {
   animation-delay: 2s;
-  top: 250px;
+  top: 280px;
   z-index: 13;
 }
 .hey span:nth-child(5) {
   animation-delay: 4.2s;
 
-  top: 150px;
+  top: 250px;
   z-index: 12;
 }
 .hey span:nth-child(6) {
   animation-delay: 4.2s;
-  top: 180px;
+  top: 320px;
   z-index: 12;
 }
 .hey span:nth-child(7) {
@@ -48,7 +48,7 @@
 }
 .hey span:nth-child(8) {
   animation-delay: 6.4s;
-  top: 245px;
+  top: 285px;
   z-index: 11;
 }
 @keyframes heyThere {

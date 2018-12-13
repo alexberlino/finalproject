@@ -299,7 +299,7 @@ iframe {
   margin-top: 20%;
 }
 .mainHP {
-  min-height: calc(100vh - 120px);
+  min-height: calc(440vh - 120px);
   width: 100%;
   position: relative;
 }
@@ -671,6 +671,9 @@ section {
   top: 0px;
   left: 0px;
 }
+#three-js-item2 {
+  position: relative;
+}
 
 .infoDate {
   font-size: 10px;
@@ -868,11 +871,21 @@ h4 {
   margin-bottom: auto;
 }
 
+.hey {
+  position: fixed;
+}
+.othercontentHP {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 800px;
+  background-color: white;
+}
 .introQuarter {
   display: inline;
   opacity: 0.95;
   text-align: center;
-  background-color: #f0f6f9;
+  background-color: #f4f5f9;
   padding: 10px;
   position: relative;
   z-index: 1;
@@ -885,7 +898,7 @@ h4 {
 
   opacity: 0.95;
   min-height: 300px;
-  background-color: #f0f6f9;
+  background-color: #f4f5f9;
   border: white solid 5px;
   padding: 10px;
   min-width: 30%;

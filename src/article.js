@@ -78,17 +78,12 @@ class Article extends Component {
             name="description"
             content={
               this.state.title +
-              ", an article about SEO on SEO Berlino's Blog - Keyword research, onpage and offpage SEO, technical and competitor analysis"
+              ", an article about SEO - Keyword research, onpage and offpage SEO, technical and competitor analysis"
             }
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" +
-              this.props.lang +
-              "/article/" +
-              this.state.url
-            }
+            href={"https://www.seoberlino.com/en/article" + this.state.url}
           />
         </Helmet>
 

@@ -159,8 +159,8 @@
     padding: 0px;
     padding-bottom: 50px;
     left: 0;
-    border: 2px solid grey;
-    background-color: #fdfdfa;
+    border: 2px solid darkred;
+    background-color: #f4f5f9;
   }
 
   .introQuarter {
@@ -200,7 +200,7 @@
     padding: 0px;
     left: 30px;
     color: black;
-    border: 2px solid #170358;
+    border: 2px solid darkred;
     background-color: #f4f5f9;
   }
 
@@ -468,6 +468,14 @@ top:5px;
     display: block;
     margin: 0;
     width: 100%;
+    min-height: calc(680vh - 120px);
+
+  }
+
+  .othercontentHP {
+
+    top: 600px;
+
   }
 
   .infoTitle {
@@ -652,44 +660,46 @@ width: 60%;
 }
 @media (max-width: 768px) and (orientation: portrait) {
   .hey span {
-    top: 40px;
-    font-size: 19px;
-    left: 150px;
+left:5px;
+    font-size: 38px;
+
   }
 
   .hey span:nth-child(1) {
+      top: 250px;
   }
 
   .hey span:nth-child(2) {
-    top: 58px;
-    left: 150px;
+    top: 290px;
   }
 
   .hey span:nth-child(3) {
-    top: 60px;
-    left: 130px;
+    top: 220px;
   }
   .hey span:nth-child(4) {
-    top: 78px;
-    left: 120px;
+
+    top: 260px;
   }
   .hey span:nth-child(5) {
-    top: 40px;
-    left: 150px;
+      top: 220px;
+
+
   }
   .hey span:nth-child(6) {
-    top: 58px;
-    left: 150px;
+      top: 260px;
+
+
   }
 
   .hey span:nth-child(7) {
-    top: 62px;
-    left: 120px;
+    top: 220px;
+
   }
 
   .hey span:nth-child(8) {
-    top: 78px;
-    left: 140px;
+      top: 260px;
+
+
   }
 }
 
@@ -723,8 +733,7 @@ width: 60%;
   only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .hey span {
     top: 90px;
-    font-size: 26px;
-    margin-left: 30px;
+    font-size: 34px;
   }
 
   .hey span:nth-child(1) {
@@ -732,34 +741,27 @@ width: 60%;
 
   .hey span:nth-child(2) {
     top: 110px;
-    margin-left: 30px;
   }
 
   .hey span:nth-child(3) {
     top: 100px;
-    margin-left: 30px;
   }
   .hey span:nth-child(4) {
     top: 120px;
-    margin-left: 30px;
   }
   .hey span:nth-child(5) {
     top: 110px;
-    margin-left: 30px;
   }
   .hey span:nth-child(6) {
     top: 130px;
-    margin-left: 30px;
   }
 
   .hey span:nth-child(7) {
     top: 110px;
-    margin-left: 20px;
   }
 
   .hey span:nth-child(8) {
     top: 130px;
-    margin-left: 30px;
   }
   .txt2 {
     font-size: 20px;

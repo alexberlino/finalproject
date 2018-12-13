@@ -9,7 +9,10 @@ function happyfun() {
 
   var renderer = new THREE.WebGLRenderer();
   renderer.setSize(window.innerWidth, window.innerHeight);
-  var threeElem = document.querySelector("#three-js-item");
+  var threeElem =
+    document.querySelector("#three-js-item") ||
+    document.querySelector("#three-js-item2");
+
   threeElem.appendChild(renderer.domElement);
 
   var mouse = new THREE.Vector2();
