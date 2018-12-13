@@ -1,14 +1,9 @@
 function happyfun() {
   var scene = new THREE.Scene();
-  var camera = new THREE.PerspectiveCamera(
-    75,
-    window.innerWidth / window.innerHeight,
-    0.1,
-    1000
-  );
+  var camera = new THREE.PerspectiveCamera(55, 0.5, 1, 1000);
 
   var renderer = new THREE.WebGLRenderer();
-  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setSize(window.innerWidth / 1.04, window.innerHeight / 2.1);
   var threeElem =
     document.querySelector("#three-js-item") ||
     document.querySelector("#three-js-item2");
@@ -27,7 +22,7 @@ function happyfun() {
 
   window.addEventListener("mousemove", onMouseMove, false);
 
-  var geometry = new THREE.TetrahedronGeometry(2, 3);
+  var geometry = new THREE.TetrahedronGeometry(2, 1);
   var material = new THREE.MeshBasicMaterial({
     color: "rgb(253, 36, 2)",
     wireframe: true
@@ -39,7 +34,7 @@ function happyfun() {
   cube.position.y = 0;
   cube.position.x = 0;
 
-  camera.position.z = 2.15;
+  camera.position.z = 6.6;
 
   var animate = function() {
     requestAnimationFrame(animate);
@@ -62,7 +57,7 @@ function happyfun() {
 
   animate();
 
-  // // fit your screen--------------------------------------------------------------//
+  // fit your screen--------------------------------------------------------------//
   window.addEventListener("resize", onWindowResize, false);
   function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;

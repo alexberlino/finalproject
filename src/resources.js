@@ -16,7 +16,6 @@ class Resources extends Component {
   }
   componentDidMount() {
     window.scrollTo(0, 0);
-    happyfun();
   }
   render() {
     const { t, i18n } = this.props;
@@ -37,7 +36,6 @@ class Resources extends Component {
             }
           />
         </Helmet>
-        <div id="three-js-item" />
 
         <div>
           <div className="infoTitle">

@@ -15,6 +15,10 @@ body {
 body {
 }
 
+canvas {
+  width: 90%;
+  height: 40%;
+}
 a {
   text-decoration: none;
   color: white;
@@ -211,7 +215,7 @@ iframe {
 }
 
 .contactmob {
-  background-color: rgba(200, 200, 200, 0.1);
+  background-color: white;
 }
 .rightContact {
   position: relative;
@@ -304,6 +308,7 @@ iframe {
 .mainHP {
   min-height: calc(100vh + 2420px);
   width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -668,13 +673,10 @@ section {
   display: inline;
 }
 
-#three-js-item {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-}
 #three-js-item2 {
-  position: relative;
+  position: fixed;
+  top: 80px;
+  left: 0px;
 }
 
 .infoDate {
@@ -875,12 +877,21 @@ h4 {
 
 .hey {
   position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 .othercontentHP {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
-  top: 600px;
+  margin-top: 40%;
+  background-color: white;
+}
+.coverHP {
+  height: 700px;
+  width: 100%;
+  position: relative;
   background-color: white;
 }
 .introQuarter {

@@ -16,7 +16,6 @@ class About extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0);
-    happyfun();
   }
 
   render() {
@@ -36,7 +35,6 @@ class About extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/about"}
           />{" "}
         </Helmet>
-        <div id="three-js-item" />
 
         <div className="blockAbout  yellow slide-in-left ">{t("about1")}</div>
         <div className="blockAbout yellow2 bounce-in-top">{t("about2")}</div>

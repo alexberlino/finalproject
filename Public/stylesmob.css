@@ -425,6 +425,14 @@
     height: 40px;
     z-index: 900;
   }
+
+  .toolbar_toggle_button {
+    position: fixed;
+    left: 80%;
+    top: 20px;
+    z-index: 100;
+  }
+
   .toolbar {
     height: 50px;
   }
@@ -464,7 +472,7 @@
   }
 
   .othercontentHP {
-    top: 600px;
+    top: 200px;
   }
 
   .infoTitle {
@@ -648,37 +656,37 @@
 }
 @media (max-width: 768px) and (orientation: portrait) {
   .hey span {
-    left: 5px;
+    left: 20px;
     font-size: 38px;
   }
 
   .hey span:nth-child(1) {
-    top: 250px;
+    top: 110px;
   }
 
   .hey span:nth-child(2) {
-    top: 290px;
+    top: 150px;
   }
 
   .hey span:nth-child(3) {
-    top: 220px;
+    top: 110px;
   }
   .hey span:nth-child(4) {
-    top: 260px;
+    top: 150px;
   }
   .hey span:nth-child(5) {
-    top: 220px;
+    top: 110px;
   }
   .hey span:nth-child(6) {
-    top: 260px;
+    top: 150px;
   }
 
   .hey span:nth-child(7) {
-    top: 220px;
+    top: 110px;
   }
 
   .hey span:nth-child(8) {
-    top: 260px;
+    top: 150px;
   }
 }
 

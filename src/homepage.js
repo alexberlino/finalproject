@@ -314,6 +314,8 @@ class Homepage extends Component {
 
             <ContactMain />
           </div>
+
+          <div className="coverHP" />
           <LinksToPages />
         </div>
       </div>
