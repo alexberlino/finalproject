@@ -468,11 +468,11 @@
     display: block;
     margin: 0;
     width: 100%;
-    min-height: calc(740vh);
+    min-height: calc(100vh - 120px);
   }
 
   .othercontentHP {
-    top: 200px;
+    margin-top: 110%;
   }
 
   .infoTitle {
