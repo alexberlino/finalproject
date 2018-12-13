@@ -471,8 +471,9 @@
     min-height: calc(100vh - 120px);
   }
 
-  .othercontentHP {
+  .introHP {
     margin-top: 110%;
+    margin-left: 2%;
   }
 
   .infoTitle {
@@ -660,32 +661,32 @@
     font-size: 38px;
   }
 
-  .hey span:nth-child(1) {
-    top: 110px;
-  }
-
   .hey span:nth-child(2) {
-    top: 150px;
+    top: 110px;
   }
 
   .hey span:nth-child(3) {
-    top: 110px;
-  }
-  .hey span:nth-child(4) {
-    top: 150px;
-  }
-  .hey span:nth-child(5) {
-    top: 110px;
-  }
-  .hey span:nth-child(6) {
     top: 150px;
   }
 
-  .hey span:nth-child(7) {
+  .hey span:nth-child(4) {
     top: 110px;
+  }
+  .hey span:nth-child(5) {
+    top: 150px;
+  }
+  .hey span:nth-child(6) {
+    top: 110px;
+  }
+  .hey span:nth-child(7) {
+    top: 150px;
   }
 
   .hey span:nth-child(8) {
+    top: 110px;
+  }
+
+  .hey span:nth-child(9) {
     top: 150px;
   }
 }

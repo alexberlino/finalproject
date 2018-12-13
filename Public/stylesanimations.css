@@ -13,40 +13,40 @@
   -webkit-animation-direction: alternate;
 }
 
-.hey span:nth-child(1) {
-  z-index: 14;
-}
 .hey span:nth-child(2) {
-  top: 290px;
   z-index: 14;
 }
 .hey span:nth-child(3) {
+  top: 290px;
+  z-index: 14;
+}
+.hey span:nth-child(4) {
   animation-delay: 2.1s;
   top: 210px;
   z-index: 13;
 }
-.hey span:nth-child(4) {
+.hey span:nth-child(5) {
   animation-delay: 2.1s;
   top: 280px;
   z-index: 13;
 }
-.hey span:nth-child(5) {
+.hey span:nth-child(6) {
   animation-delay: 4.2s;
 
   top: 250px;
   z-index: 12;
 }
-.hey span:nth-child(6) {
+.hey span:nth-child(7) {
   animation-delay: 4.2s;
   top: 320px;
   z-index: 12;
 }
-.hey span:nth-child(7) {
+.hey span:nth-child(8) {
   animation-delay: 6.4s;
   top: 215px;
   z-index: 11;
 }
-.hey span:nth-child(8) {
+.hey span:nth-child(9) {
   animation-delay: 6.4s;
   top: 285px;
   z-index: 11;

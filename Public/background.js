@@ -3,7 +3,7 @@ function happyfun() {
   var camera = new THREE.PerspectiveCamera(55, 0.5, 1, 1000);
 
   var renderer = new THREE.WebGLRenderer();
-  renderer.setSize(window.innerWidth / 1.2, window.innerHeight / 2.1);
+  renderer.setSize(window.innerWidth / 1.2, window.innerHeight / 1.2);
   var threeElem =
     document.querySelector("#three-js-item") ||
     document.querySelector("#three-js-item2");
@@ -49,8 +49,8 @@ function happyfun() {
       });
     }
 
-    cube.rotation.x += 0.001;
-    cube.rotation.y += 0.001;
+    cube.rotation.x += 0.0015;
+    cube.rotation.y += 0.0015;
 
     renderer.render(scene, camera);
   };

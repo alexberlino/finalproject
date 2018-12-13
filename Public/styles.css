@@ -671,7 +671,6 @@ section {
 
 #three-js-item2 {
   position: fixed;
-  top: 60px;
   left: 0px;
 }
 
@@ -881,7 +880,6 @@ h4 {
   width: 100%;
   height: auto;
   position: relative;
-  margin-top: 35%;
   background-color: white;
 }
 
@@ -910,6 +908,10 @@ h4 {
 
 .introHP {
   color: #001f3f;
+  opacity: 0.7;
+  position: relative;
+  background-color: white;
+  margin-top: 35%;
 }
 
 .logoQuarter {
@@ -1373,6 +1375,11 @@ h4 {
   cursor: help;
   color: white;
   background-color: black;
+}
+
+.resourcesLinks {
+  margin-top: 10%;
+  margin-left: 15%;
 }
 
 .resourcesLinks a {

@@ -73,6 +73,8 @@ class Homepage extends Component {
         </Helmet>
 
         <div className="hey">
+          <div id="three-js-item2" />
+
           <span>SEO Expert </span>
           <span>in Berlin </span>
           <span>On-page Audit </span>
@@ -81,14 +83,12 @@ class Homepage extends Component {
           <span>Analytics</span>
           <span>Competitor Analysis</span>
           <span>Off-Page Audit</span>
-          <div id="three-js-item2" />
         </div>
-
+        <div className="txthead introHP">
+          {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
+        </div>
         <div className="othercontentHP">
           <div className="intro">
-            <div className="txthead introHP">
-              {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
-            </div>
             <div className="intro2">
               <div className="introQuarter">
                 <img
