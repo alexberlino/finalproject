@@ -299,7 +299,7 @@ iframe {
   margin-top: 20%;
 }
 .mainHP {
-  min-height: calc(440vh - 120px);
+  min-height: calc(420vh - 120px);
   width: 100%;
   position: relative;
 }
