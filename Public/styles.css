@@ -524,7 +524,7 @@ section {
 
 .intro2 {
   margin-left: 10%;
-  background-color: #020742;
+  background-color: none;
   color: white;
   margin-top: 10px;
   position: relative;
@@ -870,16 +870,14 @@ h4 {
 
 .introQuarter {
   display: inline;
-
-  opacity: 2;
+  opacity: 0.95;
   text-align: center;
-
-  background-color: white;
+  background-color: #f0f6f9;
   padding: 10px;
   position: relative;
   z-index: 1;
   min-width: 21%;
-  border: lightgrey solid 5px;
+  border: white solid 5px;
 }
 
 .serviceQuarter {
@@ -887,7 +885,7 @@ h4 {
 
   opacity: 0.95;
   min-height: 300px;
-  background-color: #fbf7ea;
+  background-color: #f0f6f9;
   border: white solid 5px;
   padding: 10px;
   min-width: 30%;
@@ -1375,7 +1373,7 @@ h4 {
 }
 .intro21 {
   margin-left: 5%;
-  background-color: #fff056;
+  background-color: none;
   margin-top: 10px;
   opacity: 0.65;
   position: relative;
