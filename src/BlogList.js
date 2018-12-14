@@ -33,10 +33,6 @@ class BlogList extends Component {
 
     return (
       <div>
-        <div className="infoTitle">
-          <h1 className="infoTitle"> My Blog, {t("bloglatest")}</h1>
-        </div>
-
         <div>
           <div className="blogArticles">
             {this.state.articles.map(article => (

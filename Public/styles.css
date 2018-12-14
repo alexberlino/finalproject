@@ -457,6 +457,7 @@ section {
   margin-left: 50px;
   display: block;
   position: relative;
+  margin-top: 30px;
 }
 
 .blogItem {
@@ -931,7 +932,7 @@ h4 {
   position: relative;
 }
 
-.linkstoPageMainDiv2 li a {
+.linkstoPageMainDiv2 a {
   font-size: 20px;
   display: block;
   margin-left: 10px;
@@ -940,6 +941,9 @@ h4 {
   background-color: white;
   width: 30%;
   color: black;
+}
+
+.linkstoPageMainDiv2 li {
   list-style: none;
 }
 
@@ -984,16 +988,12 @@ h4 {
 /* SEOinfoPage start*/
 .infoTitle {
   margin-left: 0.5%;
-  font-size: 34px;
-  color: white;
+
   width: 90%;
-  padding: 10px;
+
   z-index: 1;
-  padding-bottom: 40px;
-  margin-bottom: 10px;
+
   position: relative;
-  opacity: 0.9;
-  background-color: darkred;
 }
 
 .infoIntro {
@@ -1160,6 +1160,7 @@ h4 {
   color: darkred;
   position: relative;
   z-index: 100;
+  margin-left: 20px;
 }
 .toolbar_navigation_items li {
   padding: 0.3rem;

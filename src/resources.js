@@ -46,10 +46,6 @@ class Resources extends Component {
         </div>
 
         <div>
-          <div className="infoTitle">
-            <h1 className="infoTitle"> > SEO RESOURCES</h1>
-          </div>
-
           <div className="resourcesLinks">
             <div className="blockAbout slide-in-left ">
               {" "}

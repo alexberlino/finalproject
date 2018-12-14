@@ -37,7 +37,6 @@ class Contact extends Component {
           <a href={"/" + this.props.lng + "/contact"}> CONTACT ></a>
         </div>
 
-        <h1 className="txt2 txthead"> {t("getintouch")}></h1>
         <h2 className="txt">
           <img src="/telephone.svg" className="iconphone" />
           015 787 011 932

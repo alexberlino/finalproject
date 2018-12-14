@@ -312,15 +312,15 @@
   .h1services {
     padding: 5px;
 
-    width: 80%;
+    width: 70%;
     padding-top: 3px;
     text-align: left;
     position: absolute;
     background-color: darkred;
-    top: 45px;
+    top: 3px;
     opacity: 40%;
-    padding: 15px;
-    margin-left: 10%;
+    padding: 12px;
+    margin-left: 5%;
     font-size: 21px;
     color: white;
     position: sticky;

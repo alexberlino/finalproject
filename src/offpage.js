@@ -80,7 +80,6 @@ class Offpage extends Component {
             src="/offpage.svg"
             className="logoAnimationServices"
           />
-          <h1 className="infoTitle"> OFF PAGE SEO</h1>
         </div>
 
         <div className="services">

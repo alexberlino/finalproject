@@ -84,7 +84,6 @@ class Onpage extends Component {
             src="/onpage.svg"
             className="logoAnimationServices"
           />
-          <h1 className="infoTitle"> ON-PAGE SEO</h1>
         </div>
         <div className="services">
           <div className={this.state.hide + " leftServices"}>
