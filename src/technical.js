@@ -21,7 +21,7 @@ class Technical extends Component {
   constructor() {
     super();
     this.state = {
-      show: 1,
+      show: "",
       toggle: "hideRightServices",
       hide: null,
       hide2: null
