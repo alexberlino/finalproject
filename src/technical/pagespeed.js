@@ -25,11 +25,7 @@ class PageSpeed extends Component {
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" +
-              this.props.lng +
-              "/technical/pagespeed"
-            }
+            href="https://www.seoberlino.com/en/technical/pagespeed"
           />
         </Helmet>
 

@@ -28,11 +28,7 @@ class MobileFriendly extends Component {
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" +
-              this.props.lng +
-              "/technical/mobilefriendly"
-            }
+            href="https://www.seoberlino.com/en/technical/mobilefriendly"
           />
         </Helmet>
 

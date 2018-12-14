@@ -28,11 +28,7 @@ class Security extends Component {
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" +
-              this.props.lng +
-              "/technical/security"
-            }
+            href="https://www.seoberlino.com/en/technical/security"
           />
         </Helmet>
 

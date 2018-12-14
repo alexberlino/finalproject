@@ -17,7 +17,10 @@ class LocalSEO extends Component {
           <meta charSet="utf-8" />
           <title>Local SEO|| SEO Berlino</title>
           <meta type="description" content="" />
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href="https://www.seoberlino.com/en/research/localseo"
+          />{" "}
         </Helmet>
 
         <div className="breadcrumb">

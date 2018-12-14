@@ -17,7 +17,10 @@ class InternalLinking extends Component {
           <meta charSet="utf-8" />
           <title>Internal Linking SEO Berlino</title>
           <meta type="description" content="" />
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href="https://www.seoberlino.com/en/onpage/internallinking"
+          />{" "}
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> HOME ></a>

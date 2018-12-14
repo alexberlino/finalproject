@@ -46,10 +46,7 @@ class SEONews extends Component {
             name="description"
             content="SEO News: everything to know about the latest news in SEO"
           />
-          <link
-            rel="canonical"
-            href={"https://www.seoberlino.com/" + this.props.lang + "/seonews"}
-          />
+          <link rel="canonical" href="https://www.seoberlino.com/en/seonews" />
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lang}>> HOME ></a>

@@ -28,11 +28,7 @@ class DynamicRendering extends Component {
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" +
-              this.props.lng +
-              "/technical/dynamicrendering"
-            }
+            href="https://www.seoberlino.com/en/technical/dynamicrendering"
           />
         </Helmet>
         <div className="breadcrumb">

@@ -21,7 +21,10 @@ class Content extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>On-page:Content & Semantics || SEO Berlino</title>
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href="https://www.seoberlino.com/en/onpage/content"
+          />{" "}
         </Helmet>
 
         <div className="breadcrumb">

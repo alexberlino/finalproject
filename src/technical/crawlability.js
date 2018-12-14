@@ -25,11 +25,7 @@ class Crawlability extends Component {
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" +
-              this.props.lng +
-              "/technical/crawlability"
-            }
+            href="https://www.seoberlino.com/en/technical/crawlability"
           />
         </Helmet>
         <div className="breadcrumb">

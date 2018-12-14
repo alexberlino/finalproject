@@ -19,7 +19,10 @@ class SEA extends Component {
           <meta charSet="utf-8" />
           <title>SEA, Search Engine Advertising || SEO Berlino</title>
           <meta type="description" content="" />
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href="https://www.seoberlino.com/en/research/sea"
+          />{" "}
         </Helmet>
 
         <div className="breadcrumb">

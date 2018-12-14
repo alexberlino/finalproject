@@ -62,10 +62,7 @@ class Technical extends Component {
             name="description"
             content="Research SEO Jobs: local SEO, Analytics, best practice, SEA"
           />
-          <link
-            rel="canonical"
-            href={"https://www.seoberlino.com/" + this.props.lng + "/research"}
-          />
+          <link rel="canonical" href="https://www.seoberlino.com/en/research" />
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> HOME ></a>

@@ -66,10 +66,7 @@ class Onpage extends Component {
             name="description"
             content="Onpage SEO Jobs: Keyword research, landing pages, internal linking, metas, images and SD"
           />
-          <link
-            rel="canonical"
-            href={"https://www.seoberlino.com/" + this.props.lng + "/onpage"}
-          />
+          <link rel="canonical" href="https://www.seoberlino.com/en/onpage" />
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> HOME ></a>

@@ -19,7 +19,10 @@ class BestPractices extends Component {
             Best Practices when launching a new website || SEO Berlino
           </title>
           <meta type="description" content="" />
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href="https://www.seoberlino.com/en/research/bestpractices"
+          />{" "}
         </Helmet>
 
         <div className="breadcrumb">

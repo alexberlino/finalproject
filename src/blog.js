@@ -34,10 +34,7 @@ class Blog extends Component {
             name="description"
             content="SEO Berlino Blog, about SEO topics: on-page, off-page, technical SEO, competitor analysis and Brandbuilding."
           />
-          <link
-            rel="canonical"
-            href={"https://www.seoberlino.com/" + this.props.lng + "/blog"}
-          />{" "}
+          <link rel="canonical" href="https://www.seoberlino.com/en/blog" />{" "}
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> HOME ></a>

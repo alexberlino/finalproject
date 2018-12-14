@@ -17,7 +17,10 @@ class BrandBuilding extends Component {
           <meta charSet="utf-8" />
           <title>Off-page: brandbuilding SEO Berlino</title>
           <meta type="description" content="" />
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href="https://www.seoberlino.com/en/offpage/brandbuilding"
+          />{" "}
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> HOME ></a>

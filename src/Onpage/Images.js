@@ -20,7 +20,10 @@ class Images extends Component {
           <meta charSet="utf-8" />
           <title>Images Optimization SEO Berlino</title>
           <meta type="description" content="" />
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href="https://www.seoberlino.com/en/onpage/images"
+          />{" "}
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> HOME ></a>

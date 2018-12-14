@@ -25,11 +25,7 @@ class Internationalisation extends Component {
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" +
-              this.props.lng +
-              "/technical/internationalisation"
-            }
+            href="https://www.seoberlino.com/en/technical/internationalisation"
           />
         </Helmet>
 

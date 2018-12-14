@@ -67,7 +67,7 @@ class Technical extends Component {
           />
           <link
             rel="canonical"
-            href={"https://www.seoberlino.com/" + this.props.lng + "/technical"}
+            href="https://www.seoberlino.com/en/technical"
           />
         </Helmet>
         <div className="breadcrumb">

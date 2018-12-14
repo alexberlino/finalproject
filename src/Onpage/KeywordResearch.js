@@ -17,7 +17,10 @@ class KeywordResearch extends Component {
           <meta charSet="utf-8" />
           <title>Keyword Research || SEO Berlino</title>
           <meta type="description" content="" />
-          <link rel="canonical" />
+          <link
+            rel="canonical"
+            href="https://www.seoberlino.com/en/onpage/keywordresearch"
+          />{" "}
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> HOME ></a>

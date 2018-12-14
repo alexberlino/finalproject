@@ -61,10 +61,7 @@ class Offpage extends Component {
             name="description"
             content="Offpage SEO Jobs: backlink competitor analysis, backlink profile, bradnbuilding opportunities, toxic link cleaning, best practice"
           />
-          <link
-            rel="canonical"
-            href={"https://www.seoberlino.com/" + this.props.lng + "/offpage"}
-          />{" "}
+          <link rel="canonical" href="https://www.seoberlino.com/en/offpage" />{" "}
         </Helmet>
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> HOME ></a>

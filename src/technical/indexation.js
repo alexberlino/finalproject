@@ -25,11 +25,7 @@ class Indexation extends Component {
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" +
-              this.props.lng +
-              "/technical/indexation"
-            }
+            href="https://www.seoberlino.com/en/technical/indexation"
           />
         </Helmet>
 

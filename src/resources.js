@@ -32,9 +32,7 @@ class Resources extends Component {
           />
           <link
             rel="canonical"
-            href={
-              "https://www.seoberlino.com/" + this.props.lang + "/resources"
-            }
+            href="https://www.seoberlino.com/en/resources"
           />
         </Helmet>
         <div className="breadcrumb">
