@@ -68,21 +68,21 @@ class Homepage extends Component {
           <title>{t("HPTitle")}</title>
           <meta
             name="description"
-            content="SEO Expert in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building"
+            content="SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building"
           />
         </Helmet>
 
         <div className="hey">
           <div id="three-js-item2" />
 
-          <span>SEO Expert </span>
-          <span>in Berlin </span>
-          <span>On-page Audit </span>
-          <span>Keyword Research</span>
-          <span>Technical SEO </span>
-          <span>Analytics</span>
-          <span>Competitor Analysis</span>
-          <span>Off-Page Audit</span>
+          <span>{t("hey1")}</span>
+          <span>{t("hey2")}</span>
+          <span>{t("hey3")} </span>
+          <span>{t("hey4")}</span>
+          <span>{t("hey5")}</span>
+          <span>{t("hey6")}</span>
+          <span>{t("hey7")}</span>
+          <span>{t("hey8")}</span>
         </div>
         <div className="txthead introHP">
           {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
@@ -101,7 +101,7 @@ class Homepage extends Component {
                 <p className="txt2">Analytics </p>
                 <p className="txt2">{t("intro5")}</p>
 
-                <p className="txt2"> SEA</p>
+                <p className="txt2"> Search Engine Advertising (Google Ads)</p>
               </div>
               <div className="introQuarter">
                 <img
@@ -169,7 +169,7 @@ class Homepage extends Component {
           ) : null}
 
           <div>
-            <h2 className="txthead"> services></h2>
+            <h2 className="txthead"> {t("servicesL")}></h2>
             <div className="intro21 ">
               {" "}
               <div className="txt2 serviceQuarter">
@@ -178,12 +178,12 @@ class Homepage extends Component {
                   {" "}
                   Full/Partial Audit with Excecutive Summary{" "}
                 </p>
-                <p className="txt2">Keywords Research</p>
-                <p className="txt2">Onpage SEO</p>
-                <p className="txt2">Technical SEO </p>
-                <p className="txt2">Offpage: Backlink Audit </p>
+                <p className="txt2">{t("hey4")}</p>
+                <p className="txt2">{t("hey3")}</p>
+                <p className="txt2">{t("hey5")} </p>
+                <p className="txt2">{t("hey8")} </p>
 
-                <p className="txt2"> Competitor Analysis</p>
+                <p className="txt2"> {t("hey7")}</p>
               </div>
               <div className="txt2 serviceQuarter">
                 <h2 className="center">ANALYTICS</h2>
@@ -220,7 +220,7 @@ class Homepage extends Component {
           </div>
 
           <div>
-            <h2 className="txthead"> current & former clients></h2>
+            <h2 className="txthead"> {t("clients")}></h2>
             <div className="intro3 ">
               {" "}
               <div className="logoQuarter">
@@ -308,8 +308,8 @@ class Homepage extends Component {
           <div className="contactmob">
             <h2 className="txthead"> {t("getintouch")}></h2>
             <h2 className="txt">
-              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
-              787 011 932
+              <img alt="telephone" src="/telephone.svg" className="iconphone" />
+              015 787 011 932
             </h2>
 
             <ContactMain />

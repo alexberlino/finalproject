@@ -6,6 +6,15 @@ i18n.use(LanguageDetector).init({
   resources: {
     en: {
       translations: {
+        hey1: "SEO Expert",
+        hey2: "in Berlin ",
+        hey3: "On-page Audit",
+        hey4: "Keyword Research",
+        hey5: "Technical SEO",
+        hey6: "Analytics",
+        hey7: "Competitor Analysis",
+        hey8: "Off-Page Audit",
+        clients: "current and former clients",
         intro1:
           "Hi! My name is Alex, I am an SEO Expert in Berlin with MBA and scrum training.",
         intro2: "9 years experience in SEO, SEA and Analytics.",
@@ -14,6 +23,7 @@ i18n.use(LanguageDetector).init({
         intro5: "Business Expertise (MBA)",
 
         services: "SEO",
+        servicesL: "services",
         technical: "TECHNICAL SEO",
         about: "ABOUT ME",
         contact: "CONTACT",
@@ -41,7 +51,7 @@ i18n.use(LanguageDetector).init({
         getintouch: "Get in touch",
         aboutme: "SEO Expert in Berlin || Alex Bieth",
         aboutmetitle: "aboutme",
-        HPTitle: "SEO Expert in Berlin || SEO Berlino",
+        HPTitle: "SEO Freelancer in Berlin || SEO Berlino",
         getintouch_title: "Get in touch SEO Berlino || SEO Expert",
         bloglatest: "Latest posts",
         services: "SERVICES",
@@ -107,6 +117,15 @@ i18n.use(LanguageDetector).init({
 
     de: {
       translations: {
+        hey1: "SEO Experte",
+        hey2: "in Berlin ",
+        hey3: "On-page Prüfung",
+        hey4: "Keyword-Recherche",
+        hey5: "Technische SEO Prüfung",
+        hey6: "Analytics",
+        hey7: "Mitbewerberanalyse",
+        hey8: "Off-Page Prüfung",
+        clients: "kunden",
         intro1:
           "Hi! Ich bin Alex, ein erfahrener Freelance SEO Experte in Berlin mit MBA und in scrum ausgebildet.",
         intro2: "9 Jahre Erfahrung in SEO, SEA und Analytics.",
@@ -144,6 +163,7 @@ i18n.use(LanguageDetector).init({
         technicalHP7: "Sicherheit und Website-Migration",
 
         services: "SEO",
+        servicesL: "beratung",
         technical: "TECHNISCHE SEO",
         about: "ÜBER MICH",
         contact: "KONTAKT",
@@ -153,26 +173,19 @@ i18n.use(LanguageDetector).init({
         sendMessage: "SENDEN",
         aboutmetitle: "übermich",
         about1:
-          "> Proven results with 400% increase in SEO sales for multiple websites as head of SEO",
-        about2: `> Over 9 years experience in SEO, SEA and using various Analytics tools`,
-        about3: `> Trained Full Stack Web Developer`,
-        about4: `> Trained in Scrum and experience implementing it with team of 10.`,
-        about5: `> Extensive experience in Technical SEO: indexation,
-                crawlability, site architecture and internal linking optimization`,
-        about6: `> Crazy about data and reports to help decision making and prioritization `,
-        about7: `> Experience with setting up Roadmaps, Actions plans, Technical Dashboards, Analytics reports`,
-        // about8: `
-        //                     Alex ist ein SEO-Experte, der konkrete Maßnahmen vorschlägt
-        //                     auf eine fundierte Analyse und setzt diese selbstständig um.
-        //                     Dies gibt mir die Möglichkeit, mich auf mein Tagesgeschäft zu konzentrieren
-        //                     während ich mit meiner Website immer noch am Puls der Zeit bin.
-        //                     Danke für die transparente und professionelle Zusammenarbeit!`,
-        // about9: `Hendrik Feige, Inhaber Marketing und Strategieberatung muss sein`,
-        // about10: `Herr Bieth hatte immer eine überlegene Beherrschung seines Tätigkeitsfeldes und sehr gute Kenntnisse aller Prozesse und Aspekte des Unternehmens. Er war immer sehr erfolgreich in der Erweiterung seiner beruflichen Kenntnisse auf eigene Initiative. Alex hat mehrere große Projekte zur Bereinigung unserer SEO-Profile geleitet, um die von Google gepredigten Best Practices sowie Pioniere zu reflektieren. Er hat strikt die saubersten und besten Praktiken verfolgt, um Strafen zu vermeiden, aber weiterhin die Spreadshirt SEO Sichtbarkeit erhöhen.`,
-        // about11: `Hugo Smoter, Chief Commercial Officer, Spreadshirt`,
+          "> Nachgewiesene Ergebnisse mit 400% mehr SEO-Umsatz für mehrere Websites als SEO-Leiter",
+        about2: "> 9 Jahre Erfahrung in SEO, SEA und Analytics.",
+        about3: "> Full Stack Web-Entwickler",
+        about4: `> In scrum ausgebildet, in einem Team von 10 verwendet.`,
+        about5: `> Langjährige Erfahrung im technischen SEO: Indexierung,
+                Crawlablity, Site-Architektur und interne Verknüpfungsoptimierung`,
+        about6: `> Verrückt nach Daten und Berichten, um Entscheidungen zu treffen und Prioritäten zu setzen `,
+        about7: `>
+Erfahrung mit der Erstellung von Roadmaps, Aktionsplänen, technischen Dashboards und Analyseberichten`,
+
         getintouch: "Kontakt",
         aboutme: "SEO Beratung || SEO Expert SEO Berlino",
-        HPTitle: "SEO Beratung in Berlin || SEO Selständig SEO Berlino",
+        HPTitle: "SEO Beratung in Berlin || SEO Freelancer SEO Berlino",
         getintouch_title: "Kontakt SEO Berlino || SEO Beratung SEO Berlino",
         bloglatest: "Neueste Beiträge",
         services: "BERATUNG",
