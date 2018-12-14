@@ -35,6 +35,11 @@ class About extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/about"}
           />{" "}
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/about"}> ABOUT ></a>
+        </div>
 
         <div className="blockAbout  yellow slide-in-left ">{t("about1")}</div>
         <div className="blockAbout yellow2 bounce-in-top">{t("about2")}</div>

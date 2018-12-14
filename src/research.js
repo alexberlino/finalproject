@@ -8,7 +8,6 @@ import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import LinksToPages from "./LinksToPages";
-import Adhoc from "./research/adhoc";
 import Analytics from "./research/analytics";
 import BestPractices from "./research/bestpractices";
 import LocalSEO from "./research/localseo";
@@ -67,6 +66,13 @@ class Technical extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/research"}
           />
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+
+          <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
+        </div>
 
         <div className="infoTitle">
           {" "}
@@ -106,6 +112,34 @@ class Technical extends Component {
             {this.state.show == 4 ? <Adhoc /> : null}
             {this.state.show == 5 ? <SEA /> : null}
           </div>
+        </div>
+        <div className="linkstoPageMainDiv2">
+          <ul>
+            <li>
+              {" "}
+              <a href={"/" + this.props.lng + "/research/analytics"}>
+                ANALYTICS{" "}
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a href={"/" + this.props.lng + "/research/bestpractices"}>
+                BEST PRACTICE{" "}
+              </a>
+            </li>
+
+            <li>
+              {" "}
+              <a href={"/" + this.props.lng + "/research/localseo"}>
+                LOCAL SEO{" "}
+              </a>
+            </li>
+
+            <li>
+              {" "}
+              <a href={"/" + this.props.lng + "/research/sea"}>SEA </a>
+            </li>
+          </ul>
         </div>
 
         <div className={this.state.hide2}>

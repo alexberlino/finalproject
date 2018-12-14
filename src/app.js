@@ -40,7 +40,7 @@ import VoiceSearch from "./Onpage/VoiceSearch";
 import Adhoc from "./research/adhoc";
 import Analytics from "./research/analytics";
 import BestPractices from "./research/bestpractices";
-import LocalSeo from "./research/localseo";
+import LocalSEO from "./research/localseo";
 import SEA from "./research/sea";
 import Crawlability from "./technical/crawlability";
 import DynamicRendering from "./technical/dynamicrendering";
@@ -170,16 +170,6 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/en/brandbuilding"
-                  render={() => <Branbuilding lang={lang} page={page} />}
-                />
-                <Route
-                  exact
-                  path="/de/brandbuilding"
-                  render={() => <Branbuilding lang={lang} page={page} />}
-                />
-                <Route
-                  exact
                   path="/en/cookies"
                   render={() => <Cookies lang={lang} page={page} />}
                 />
@@ -237,25 +227,11 @@ class App extends Component {
                   path="/de/contact"
                   render={() => <Contact i18n={this.props.i18n} />}
                 />
-                <Route exact path="/en/offpage" render={() => <Offpage />} />
-                <Route exact path="/de/offpage" render={() => <Offpage />} />
+                <Route exact path="/:lang/offpage" render={() => <Offpage />} />
 
                 <Route
                   exact
-                  f
-                  path="/en/offpage/:item"
-                  render={() => <Offpage />}
-                />
-                <Route
-                  exact
-                  f
-                  path="/de/offpage/:item"
-                  render={() => <Offpage />}
-                />
-
-                <Route
-                  exact
-                  path="/en/onpage"
+                  path="/:lang/onpage"
                   lang={lang}
                   page={page}
                   pageChange={this.changePage}
@@ -264,15 +240,97 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/de/onpage"
+                  path="/:lang/onpage/content"
+                  render={() => <Content />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/onpage/duplicatecontent"
+                  render={() => <DuplicateContent />}
+                />
+
+                <Route exact path="/:lang/images" render={() => <Images />} />
+
+                <Route
+                  exact
+                  path="/:lang/onpage/internallinking"
+                  render={() => <InternalLinking />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/onpage/keywordresearch"
+                  render={() => <KeywordResearch />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/onpage/landingpages"
+                  render={() => <LandingPageOptimization />}
+                />
+
+                <Route exact path="/:lang/metas" render={() => <Metas />} />
+
+                <Route
+                  exact
+                  path="/:lang/onpage/structureddata"
+                  render={() => <StructuredData />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/onpage/voicesearch"
                   lang={lang}
                   page={page}
                   pageChange={this.changePage}
-                  render={() => <Onpage />}
+                  render={() => <VoiceSearch />}
                 />
 
-                <Route exact path="/en/research" render={() => <Research />} />
-                <Route exact path="/de/research" render={() => <Research />} />
+                <Route
+                  exact
+                  path="/:lang/research"
+                  render={() => <Research />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/research/analytics"
+                  render={() => <Analytics />}
+                />
+                <Route
+                  exact
+                  path="/:lang/research/bestpractices"
+                  render={() => <BestPractices />}
+                />
+                <Route
+                  exact
+                  path="/:lang/research/localseo"
+                  render={() => <LocalSEO />}
+                />
+                <Route
+                  exact
+                  path="/:lang/research/sea"
+                  render={() => <SEA />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/offpage/brandbuilding"
+                  render={() => <BrandBuilding />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/offpage/toxic"
+                  render={() => <Toxic />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/offpage/backlinkanalysis"
+                  render={() => <BacklinkAnalysis />}
+                />
 
                 <Route exact path="/logout" render={() => <Onpage />} />
                 <Route

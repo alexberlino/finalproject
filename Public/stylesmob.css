@@ -312,9 +312,10 @@
     display: none;
   }
   .services {
-    display: block;
+    display: none;
+    /* display: block;
     margin-top: 0px;
-    margin-bottom: 10%;
+    margin-bottom: 10%; */
   }
 
   .h1services {
@@ -325,7 +326,7 @@
     text-align: left;
     position: absolute;
     background-color: darkred;
-    top: 5px;
+    top: 45px;
     opacity: 40%;
     padding: 15px;
     margin-left: 10%;
@@ -658,9 +659,11 @@
     padding: 7px;
   }
   .linkstoPageMainDiv2 li a {
-    font-size: 13px;
+    font-size: 19px;
     margin-left: 12px;
     padding-top: 4px;
+    color: black;
+
     width: 60%;
   }
 }

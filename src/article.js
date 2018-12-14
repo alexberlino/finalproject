@@ -85,6 +85,11 @@ class Article extends Component {
             href={"https://www.seoberlino.com/en/article" + this.state.url}
           />
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lang}>> HOME ></a>
+
+          <a href={"/" + this.props.lang + "/blog"}> BLOG ></a>
+        </div>
 
         <div className="mainBlog">
           <div className="articleTitle">

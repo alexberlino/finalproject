@@ -51,6 +51,12 @@ class SEONews extends Component {
             href={"https://www.seoberlino.com/" + this.props.lang + "/seonews"}
           />
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lang}>> HOME ></a>
+          <a href={"/" + this.props.lang + "/resources"}> RESOURCES ></a>
+
+          <a href={"/" + this.props.lang + "/seonews"}> SEONEWS ></a>
+        </div>
 
         <div className="infoTitle">
           <h1 className="infoTitle"> SEO NEWS</h1>

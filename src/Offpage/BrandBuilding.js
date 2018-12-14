@@ -19,6 +19,13 @@ class BrandBuilding extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+
+          <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
+        </div>
         <h2 className="h1services"> Brandbuilding </h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">

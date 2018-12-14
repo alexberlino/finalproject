@@ -65,6 +65,13 @@ class Offpage extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/offpage"}
           />{" "}
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+
+          <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
+        </div>
 
         <div className="infoTitle">
           {" "}
@@ -101,6 +108,28 @@ class Offpage extends Component {
         </div>
 
         <div className={this.state.hide2}>
+          <div className="linkstoPageMainDiv2">
+            <ul>
+              <li>
+                <a href={"/" + this.props.lng + "/offpage/backlinkanalysis"}>
+                  BACKLINK ANALYSIS
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/offpage/brandbuilding"}>
+                  BRAND BUILDING
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/offpage/toxic"}>
+                  TOXIC LINKS
+                </a>
+              </li>
+            </ul>
+          </div>
+
           <LinksToPages
             pageChange={this.props.pageChange}
             lang={this.props.lng}

@@ -19,6 +19,13 @@ class LandingPageOptimization extends Component {
           <meta type="description" content="" />
           <link rel="canonical" />
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+
+          <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+        </div>
 
         <h2 className="h1services"> Landing Page Optimization </h2>
         <div className="serviceTitle"> Why it's Important</div>

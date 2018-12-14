@@ -36,6 +36,11 @@ class Resources extends Component {
             }
           />
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+        </div>
 
         <div>
           <div className="infoTitle">

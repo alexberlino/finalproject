@@ -31,10 +31,16 @@ class Contact extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/contact"}
           />{" "}
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/contact"}> CONTACT ></a>
+        </div>
 
         <h1 className="txt2 txthead"> {t("getintouch")}></h1>
         <h2 className="txt">
-          <img src="/telephone.svg" className="iconphone" />015 787 011 932
+          <img src="/telephone.svg" className="iconphone" />
+          015 787 011 932
         </h2>
         <ContactMain />
       </div>

@@ -113,10 +113,6 @@ class Technical extends Component {
           </div>
 
           <div className={this.state.toggle + " rightServices"}>
-            <div className="closeX" onClick={() => this.handleClickClose()}>
-              {" "}
-              X{" "}
-            </div>
             {this.state.show == 1 ? <Indexation /> : null}
             {this.state.show == 2 ? <Crawlability /> : null}
             {this.state.show == 3 ? <Internationalisation /> : null}
@@ -128,10 +124,6 @@ class Technical extends Component {
         </div>
 
         <div className={this.state.hide2}>
-          <LinksToPages
-            pageChange={this.props.pageChange}
-            lang={this.props.lng}
-          />
           <div className="linkstoPageMainDiv2">
             <ul>
               <li>
@@ -185,6 +177,10 @@ class Technical extends Component {
               </li>
             </ul>
           </div>
+          <LinksToPages
+            pageChange={this.props.pageChange}
+            lang={this.props.lng}
+          />
         </div>
       </div>
     );

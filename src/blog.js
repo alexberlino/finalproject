@@ -39,6 +39,11 @@ class Blog extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/blog"}
           />{" "}
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/blog"}> BLOG ></a>
+        </div>
 
         <BlogList lang={this.props.lang} pageChange={this.changePage} />
       </div>

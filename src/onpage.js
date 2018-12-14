@@ -70,6 +70,13 @@ class Onpage extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/onpage"}
           />
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+
+          <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+        </div>
 
         <div className="infoTitle">
           <img
@@ -127,6 +134,68 @@ class Onpage extends Component {
           </div>
         </div>
         <div className={this.state.hide2}>
+          <div className="linkstoPageMainDiv2">
+            <ul>
+              <li>
+                <a href={"/" + this.props.lng + "/onpage/content"}>
+                  CONTENT OPTIMIZATION
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/onpage/duplicatecontent"}>
+                  DUPLICATE CONTENT
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/onpage/images"}>
+                  IMAGE OPTIMIZATION{" "}
+                </a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/onpage/internallinking"}>
+                  INTERNAL LINKING{" "}
+                </a>{" "}
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/onpage/keywordresearch"}>
+                  KEYWORD RESEARCH
+                </a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/onpage/landingpages"}>
+                  LANDING PAGE OPTIMIZATION
+                </a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/onpage/metas"}>METAS</a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/onpage/structureddata"}>
+                  STRUCTURED DATA
+                </a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/onpage/voicesearch"}>
+                  VOICE SEARCH
+                </a>
+              </li>
+            </ul>
+          </div>
+
           <LinksToPages
             pageChange={this.props.pageChange}
             lang={this.props.lng}
