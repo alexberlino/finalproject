@@ -25,7 +25,7 @@ import Article from "./article.js";
 import Backdrop from "./Backdrop";
 import About2 from "./about2";
 import Cookies from "./cookiepolicy";
-import BranBuilding from "./Offpage/BrandBuilding";
+import BrandBuilding from "./Offpage/BrandBuilding";
 import BacklinkAnalysis from "./Offpage/BacklinkAnalysis";
 import Toxic from "./Offpage/Toxic";
 import Content from "./Onpage/Content";
