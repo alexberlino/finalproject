@@ -45,6 +45,7 @@ class Offpage extends Component {
   }
   componentDidMount() {
     window.scrollTo(0, 0);
+    happyfun();
   }
 
   render() {
@@ -72,6 +73,7 @@ class Offpage extends Component {
 
           <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
         </div>
+        <div id="three-js-item2" />
 
         <div className="infoTitle">
           {" "}

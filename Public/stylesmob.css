@@ -650,12 +650,28 @@
     padding: 7px;
   }
   .linkstoPageMainDiv2 li a {
-    font-size: 19px;
-    margin-left: 12px;
+    font-size: 18px;
     padding-top: 4px;
     color: black;
 
+    text-align: center;
+    margin-bottom: 3px;
+    margin-left: 10%;
+    padding: 15px;
+    position: relative;
+    display: block;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+
+    border: 1px darkred dotted;
+
     width: 60%;
+  }
+
+  .linkstoPageMainDiv2 a:hover {
+    color: white;
+    background-color: darkred;
   }
 }
 @media (max-width: 768px) and (orientation: portrait) {
