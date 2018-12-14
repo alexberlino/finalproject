@@ -60,7 +60,6 @@ class Article extends Component {
         });
       }
     });
-    // happyfun();
   }
 
   render() {
@@ -86,8 +85,6 @@ class Article extends Component {
             href={"https://www.seoberlino.com/en/article" + this.state.url}
           />
         </Helmet>
-
-        <div id="three-js-item" />
 
         <div className="mainBlog">
           <div className="articleTitle">

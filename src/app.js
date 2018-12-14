@@ -25,6 +25,30 @@ import Article from "./article.js";
 import Backdrop from "./Backdrop";
 import About2 from "./about2";
 import Cookies from "./cookiepolicy";
+import Branbuilding from "./Offpage/Brandbuilding";
+import BacklinkAnalysis from "./Offpage/BacklinkAnalysis";
+import Toxic from "./Offpage/Toxic";
+import Content from "./Onpage/Content";
+import DuplicateContent from "./Onpage/DuplicateContent";
+import Images from "./Onpage/Images";
+import InternalLinking from "./Onpage/InternalLinking";
+import KeywordResearch from "./Onpage/KeywordResearch";
+import LandingPageOptimization from "./Onpage/LandingPageOptimization";
+import Metas from "./Onpage/Metas";
+import StructuredData from "./Onpage/StructuredData";
+import VoiceSearch from "./Onpage/VoiceSearch";
+import Adhoc from "./research/adhoc";
+import Analytics from "./research/analytics";
+import BestPractices from "./research/bestpractices";
+import LocalSeo from "./research/localseo";
+import SEA from "./research/sea";
+import Crawlability from "./technical/crawlability";
+import DynamicRendering from "./technical/dynamicrendering";
+import Indexation from "./technical/indexation";
+import Internationalisation from "./technical/internationalisation";
+import MobileFriendly from "./technical/mobilefriendly";
+import PageSpeed from "./technical/pagespeed";
+import Security from "./technical/security";
 
 // import SearchBox from "./searchbox";
 
@@ -143,6 +167,17 @@ class App extends Component {
                   path="/en/article/:url"
                   render={() => <Article lang={lang} page={page} />}
                 />
+
+                <Route
+                  exact
+                  path="/en/brandbuilding"
+                  render={() => <Branbuilding lang={lang} page={page} />}
+                />
+                <Route
+                  exact
+                  path="/de/brandbuilding"
+                  render={() => <Branbuilding lang={lang} page={page} />}
+                />
                 <Route
                   exact
                   path="/en/cookies"
@@ -259,10 +294,49 @@ class App extends Component {
                 />
 
                 <Route exact path="/en/admin" render={() => <Admin />} />
+
                 <Route
                   exact
                   path="/:lang/technical"
                   render={() => <Technical />}
+                />
+                <Route
+                  exact
+                  path="/:lang/technical/crawlability"
+                  render={() => <Crawlability />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/technical/dynamicrendering"
+                  render={() => <DynamicRendering />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/technical/indexation"
+                  render={() => <Indexation />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/technical/internationalisation"
+                  render={() => <Internationalisation />}
+                />
+                <Route
+                  exact
+                  path="/:lang/technical/mobilefriendly"
+                  render={() => <MobileFriendly />}
+                />
+                <Route
+                  exact
+                  path="/:lang/technical/pagespeed"
+                  render={() => <PageSpeed />}
+                />
+                <Route
+                  exact
+                  path="/:lang/technical/security"
+                  render={() => <Security />}
                 />
 
                 <Route

@@ -42,9 +42,11 @@
   .mainRightServices {
     padding: 0px;
     margin: 0px;
-    top: -200px;
     width: 85%;
     background-color: white;
+  }
+  .showRight {
+    transform: translateY(-450px);
   }
 
   .imageBlogHP {
@@ -252,6 +254,18 @@
     width: 80%;
     z-index: 11;
   }
+  .infoTitle {
+    top: 2px;
+    color: black;
+    width: 76%;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    z-index: 10;
+    height: 30px;
+    background-color: grey;
+  }
 
   .hide {
     transform: translateX(-400px);
@@ -299,7 +313,7 @@
   }
   .services {
     display: block;
-    position: relative;
+    margin-top: 0px;
     margin-bottom: 10%;
   }
 
@@ -325,6 +339,7 @@
     left: 10px;
     width: 90%;
     height: auto;
+    height: 450px;
   }
 
   .listServices {
@@ -333,6 +348,7 @@
     margin: 5px;
     border-radius: 5px;
     font-size: 18px;
+    width: 70%;
   }
 
   .listServices:hover {
@@ -474,19 +490,6 @@
   .introHP {
     margin-top: 110%;
     margin-left: 2%;
-  }
-
-  .infoTitle {
-    top: 2px;
-    color: black;
-    width: 76%;
-    padding: 5px;
-    font-size: 18px;
-    margin-top: 2px;
-    margin-bottom: 10px;
-    z-index: 10;
-    height: 30px;
-    background-color: grey;
   }
 
   h1 {
@@ -653,6 +656,12 @@
   }
   .linkstoPageMainDiv li {
     padding: 7px;
+  }
+  .linkstoPageMainDiv2 li a {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 4px;
+    width: 60%;
   }
 }
 @media (max-width: 768px) and (orientation: portrait) {

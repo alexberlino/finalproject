@@ -7,6 +7,9 @@ import i18n from "../i18n";
 import { Helmet } from "react-helmet";
 
 class MobileFriendly extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     if (window.innerWidth < 1500) {
       window.scrollTo(0, 0);
@@ -19,9 +22,27 @@ class MobileFriendly extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>Technical SEO: MobileFriendly SEO Berlino</title>
-          <meta type="description" content="" />
-          <link rel="canonical" />
+          <meta
+            name="description"
+            content="Technical SEO: mobile friendly and why its important in SEO "
+          />
+          <link
+            rel="canonical"
+            href={
+              "https://www.seoberlino.com/" +
+              this.props.lng +
+              "/technical/mobilefriendly"
+            }
+          />
         </Helmet>
+
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
+
+          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+
+          <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
+        </div>
         <h2 className="h1services"> Mobile Friendly Websites</h2>
         <div className="serviceTitle"> Why it's (extremely) Important</div>
         <div className="serviceText">

@@ -33,7 +33,7 @@ class Technical extends Component {
   handleClick(n) {
     this.setState({
       show: n,
-      toggle: "",
+      toggle: "showRight",
       hide: "hide",
       hide2: "hide2"
     });
@@ -69,8 +69,15 @@ class Technical extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/technical"}
           />
         </Helmet>
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}>> HOME ></a>
 
-        <div className="infoTitle">
+          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+
+          <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
+        </div>
+
+        <div className={this.state.hide + " infoTitle"}>
           {" "}
           <img
             alt="technical"
@@ -81,7 +88,7 @@ class Technical extends Component {
         </div>
 
         <div className="services">
-          <div className={this.state.hide + " leftServices"}>
+          <div className={this.state.hide + "leftServices"}>
             <p className="listServices" onClick={() => this.handleClick(1)}>
               {t("technicalHP1")}
             </p>
@@ -125,6 +132,59 @@ class Technical extends Component {
             pageChange={this.props.pageChange}
             lang={this.props.lng}
           />
+          <div className="linkstoPageMainDiv2">
+            <ul>
+              <li>
+                <a href={"/" + this.props.lng + "/technical/crawlability"}>
+                  CRAWLABILITY
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/technical/dynamicrendering"}>
+                  DYNAMIC RENDERING
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a
+                  href={
+                    "/" + this.props.lng + "/technical/internationalisation"
+                  }
+                >
+                  INTERNATIONALISATION
+                </a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/technical/mobilefriendly"}>
+                  MOBILE FRIENDLY
+                </a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/technical/pagespeed"}>
+                  PAGESPEED
+                </a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/technical/security"}>
+                  SECURITY
+                </a>
+              </li>
+
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/technical/indexation"}>
+                  INDEXATION
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     );

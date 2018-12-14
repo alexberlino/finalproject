@@ -931,6 +931,18 @@ h4 {
   position: relative;
 }
 
+.linkstoPageMainDiv2 li a {
+  font-size: 20px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 5px;
+  position: relative;
+  background-color: white;
+  width: 30%;
+  color: black;
+  list-style: none;
+}
+
 .footerlink {
   margin-left: 80px;
   position: relative;
@@ -1056,15 +1068,6 @@ h4 {
 
 /* ABOUT start*/
 
-.hide {
-  position: fixed;
-  background-color: white;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-}
-
 .about21 {
   border-radius: 45px;
   background-color: lightgrey;
@@ -1148,10 +1151,13 @@ h4 {
 }
 
 .mainRightServices {
-  background-color: lightgrey;
+  background-color: white;
   padding: 100px;
   position: relative;
   min-height: calc(100vh - 120px);
+}
+.breadcrumb a {
+  color: darkred;
 }
 .toolbar_navigation_items li {
   padding: 0.3rem;
@@ -1364,6 +1370,7 @@ h4 {
   margin: 3px;
   border-radius: 5px;
   font-size: 21px;
+  width: 80%;
 }
 .listServices:hover {
   cursor: help;
@@ -1386,6 +1393,12 @@ h4 {
   color: black;
   font-size: 21px;
   margin-left: 5%;
+}
+
+.linksToSections {
+  background-color: grey;
+  margin-left: 10%;
+  width: auto;
 }
 
 .center {
