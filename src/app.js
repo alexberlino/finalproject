@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import axios from "./axios";
 import { Switch } from "react-router";
 import { BrowserRouter, Route, Link, Redirect } from "react-router-dom";
 import Homepage from "./homepage";
@@ -146,7 +145,6 @@ class App extends Component {
                       pageChange={this.changePage}
                       lang={lang}
                       page={page}
-                      i18n={this.props.i18n}
                     />
                   )}
                 />

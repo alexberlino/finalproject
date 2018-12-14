@@ -3,7 +3,6 @@ import ReactDOM from "react";
 import App from "./app";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import Impressum from "./impressum";
 import i18n from "./i18n";
@@ -12,10 +11,7 @@ import { translate, Trans } from "react-i18next";
 class Footer extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      // lang: this.props.i18n.language,
-      // page: location.pathname
-    };
+    this.state = {};
   }
   render() {
     return (
@@ -24,10 +20,7 @@ class Footer extends Component {
           <div>
             <a
               onClick={() => this.props.languageChange("de")}
-              height="20px"
               className="footerflags"
-              width="25px"
-              alt="german"
               title="auf Deutsch"
               name="change language to German"
               href={"/de" + this.props.page}
@@ -37,11 +30,9 @@ class Footer extends Component {
             <a
               name="change language to English"
               onClick={() => this.props.languageChange("en")}
-              height="20px"
               title="change language to English"
               className="footerflags"
               width="25px"
-              alt="english"
               href={"/en" + this.props.page}
             >
               EN
@@ -49,7 +40,7 @@ class Footer extends Component {
           </div>
         </div>
         <div className="footerLinks footerQuarter">
-          <div className="footerlink">All Right Reserved 2018 Alex Bieth </div>
+          <div className="footerlink">&copy; Alex Bieth 2018 </div>
           <Link
             to={"/" + this.props.lang + "/aboutthiswebsite"}
             className="footerlink"

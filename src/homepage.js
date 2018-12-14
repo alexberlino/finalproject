@@ -3,12 +3,10 @@ import ReactDOM from "react";
 import App from "./App";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import axios from "./axios";
-import NewsItems from "./NewsItems";
 import LinksToPages from "./LinksToPages";
 import ContactMain from "./ContactMain";
 
@@ -121,13 +119,9 @@ class Homepage extends Component {
               <div className="introQuarter">
                 <img alt="programming" src="/me.svg" className="icon" />
 
-                <p className="txt2">5 years as Head of SEO (Spreadshirt)</p>
-                <p className="txt2">
-                  +400% increase in SEO orders (DACH, US, FR)
-                </p>
-                <p className="txt2">
-                  Over 1 year experience working as a freelancer
-                </p>
+                <p className="txt2">{t("intro6")}</p>
+                <p className="txt2">{t("intro7")} </p>
+                <p className="txt2">{t("intro8")} </p>
               </div>
               <div className="introQuarter">
                 <a
@@ -147,22 +141,18 @@ class Homepage extends Component {
           </div>
           {this.state.show ? (
             <div className="cookienotice">
-              <div className="block">
-                This website uses very basic and generic cookies.{" "}
-              </div>
-              <div className="block">
-                You can read about which cookies are used
-              </div>
-              <div className="block"> or accept to continue. </div>
+              <div className="block">{t("cookie1")} </div>
+              <div className="block">{t("cookie2")} </div>
+              <div className="block"> {t("cookie3")} </div>
               <div className="block">
                 <button
                   onClick={() => this.clickHandlerClose()}
                   className="buttonHP2"
                 >
-                  Accept
+                  {t("cookie4")}
                 </button>
                 <Link to={"/" + this.props.lang + "/cookies"} className="black">
-                  <button className="buttonHP2">Read</button>{" "}
+                  <button className="buttonHP2">{t("cookie5")} </button>{" "}
                 </Link>
               </div>
             </div>
@@ -174,10 +164,7 @@ class Homepage extends Component {
               {" "}
               <div className="txt2 serviceQuarter">
                 <h2 className="center">SEO AUDIT</h2>
-                <p className="txt2">
-                  {" "}
-                  Full/Partial Audit with Excecutive Summary{" "}
-                </p>
+                <p className="txt2">{t("intro9")}</p>
                 <p className="txt2">{t("hey4")}</p>
                 <p className="txt2">{t("hey3")}</p>
                 <p className="txt2">{t("hey5")} </p>
@@ -187,34 +174,19 @@ class Homepage extends Component {
               </div>
               <div className="txt2 serviceQuarter">
                 <h2 className="center">ANALYTICS</h2>
-                <p className="txt2">Google Analytics Set-up</p>
+                <p className="txt2">{t("analytics1")}</p>
 
-                <p className="txt2">Google Analytics Check</p>
-                <p className="txt2">
-                  Google Analytics Optimization such as Url filtering and
-                  Channel regrouping and UTM best practices
-                </p>
-                <p className="txt2">Reports & Dashboard Creation</p>
+                <p className="txt2">{t("analytics2")}</p>
+                <p className="txt2">{t("analytics3")}</p>
+                <p className="txt2">{t("analytics4")}</p>
 
-                <p className="txt2">
-                  Proficiency in other Analytics tools such Adobe SiteCatalyst /
-                  Marketing Cloud / Omniture
-                </p>
+                <p className="txt2">{t("analytics5")}</p>
               </div>
               <div className="txt2 serviceQuarter">
                 <h2 className="center">BRAND-BUILDING</h2>
-                <p className="txt2">
-                  Brand-building: provide you with best recommendation for
-                  content creation
-                </p>
-                <p className="txt2">
-                  Content targeting: more traffic for brand awareness, traffic
-                  and backlinks
-                </p>
-                <p className="txt2">
-                  Based on user & influencers interests to boost quality link
-                  creation quality and brand awareness.
-                </p>
+                <p className="txt2">{t("brandbuilding1")}</p>
+                <p className="txt2">{t("brandbuilding2")}</p>
+                <p className="txt2">{t("brandbuilding3")}</p>
               </div>
             </div>
           </div>
@@ -228,6 +200,7 @@ class Homepage extends Component {
                   className="logo"
                   height="110px"
                   width="160px"
+                  alt="must-be logo"
                   src="/mustbe.png"
                 />
               </div>
@@ -236,6 +209,7 @@ class Homepage extends Component {
                   className="logo"
                   height="120px"
                   width="90px"
+                  alt="spreadshirt logo"
                   src="/spreadshirt.png"
                 />
               </div>
@@ -245,6 +219,7 @@ class Homepage extends Component {
                   height="120px"
                   width="160px"
                   src="/madeforrain.png"
+                  alt="made for rain logo"
                 />
               </div>
               <div className=" logoQuarter">
@@ -253,6 +228,7 @@ class Homepage extends Component {
                   height="100px"
                   width="190px"
                   src="/holberton.png"
+                  alt="holberton school logo"
                 />
               </div>
               <div className=" logoQuarter">
@@ -261,6 +237,7 @@ class Homepage extends Component {
                   height="120px"
                   width="120px"
                   src="/teezily.png"
+                  alt="teezily logo"
                 />
               </div>
             </div>
@@ -268,7 +245,7 @@ class Homepage extends Component {
 
           <div>
             <div>
-              <h2 className="txthead"> blog></h2>
+              <h2 className="txthead"> {t("blog")}></h2>
               <div className="blogArticlesHP">
                 {this.state.articles.map(article => (
                   <div className="blogItemHP">
@@ -324,11 +301,3 @@ class Homepage extends Component {
 }
 
 export default translate("translations")(Homepage);
-
-// const getStateFromRedux = state => {
-//   return {
-//     messages: state.messages
-//   };
-// };
-//
-// export default connect(getStateFromRedux)(Homepage);

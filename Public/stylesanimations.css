@@ -22,33 +22,33 @@
 }
 .hey span:nth-child(4) {
   animation-delay: 2.1s;
-  top: 210px;
+  top: 220px;
   z-index: 13;
 }
 .hey span:nth-child(5) {
   animation-delay: 2.1s;
-  top: 280px;
+  top: 290px;
   z-index: 13;
 }
 .hey span:nth-child(6) {
   animation-delay: 4.2s;
 
-  top: 250px;
+  top: 220px;
   z-index: 12;
 }
 .hey span:nth-child(7) {
   animation-delay: 4.2s;
-  top: 320px;
+  top: 290px;
   z-index: 12;
 }
 .hey span:nth-child(8) {
   animation-delay: 6.4s;
-  top: 215px;
+  top: 220px;
   z-index: 11;
 }
 .hey span:nth-child(9) {
   animation-delay: 6.4s;
-  top: 285px;
+  top: 290px;
   z-index: 11;
 }
 @keyframes heyThere {
