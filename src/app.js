@@ -25,7 +25,7 @@ import Article from "./article.js";
 import Backdrop from "./Backdrop";
 import About2 from "./about2";
 import Cookies from "./cookiepolicy";
-import Branbuilding from "./Offpage/Brandbuilding";
+import BranBuilding from "./Offpage/Brandbuilding";
 import BacklinkAnalysis from "./Offpage/BacklinkAnalysis";
 import Toxic from "./Offpage/Toxic";
 import Content from "./Onpage/Content";
@@ -250,7 +250,11 @@ class App extends Component {
                   render={() => <DuplicateContent />}
                 />
 
-                <Route exact path="/:lang/images" render={() => <Images />} />
+                <Route
+                  exact
+                  path="/:lang/onpage/images"
+                  render={() => <Images />}
+                />
 
                 <Route
                   exact
@@ -270,7 +274,11 @@ class App extends Component {
                   render={() => <LandingPageOptimization />}
                 />
 
-                <Route exact path="/:lang/metas" render={() => <Metas />} />
+                <Route
+                  exact
+                  path="/:lang/onpage/metas"
+                  render={() => <Metas />}
+                />
 
                 <Route
                   exact
