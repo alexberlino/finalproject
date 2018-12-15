@@ -933,14 +933,18 @@ h4 {
   position: relative;
 }
 
+.linkstoPageMainDiv2 {
+  width: 90%;
+  background-color: white;
+  margin-left: 10px;
+}
+
 .linkstoPageMainDiv2 a {
   font-size: 20px;
   display: block;
-  margin-left: 10px;
-  margin-top: 5px;
+
   position: relative;
-  background-color: white;
-  width: 30%;
+
   color: black;
 }
 
@@ -1151,12 +1155,6 @@ h4 {
   background-color: #400000;
 }
 
-.mainRightServices {
-  background-color: white;
-  padding: 100px;
-  position: relative;
-  min-height: calc(100vh - 120px);
-}
 .breadcrumb a {
   color: darkred;
   font-size: 20px;
@@ -1165,6 +1163,11 @@ h4 {
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
+.breadcrumb2 a {
+  display: none;
+}
+
 .toolbar_navigation_items li {
   padding: 0.3rem;
   background-color: white;
@@ -1308,13 +1311,6 @@ h4 {
   animation: text-blur-out 2.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
-.services {
-  display: inline-block;
-  position: relative;
-  background-color: white;
-  width: 90%;
-}
-
 .logoAnimationServices {
   height: 60px;
   width: 60px;
@@ -1332,14 +1328,19 @@ h4 {
   height: 600px;
 }
 
+.mainRightServices {
+  min-height: calc(100vh - 120px);
+}
+
 .rightServices {
   vertical-align: top;
   left: 600px;
   display: block;
+  padding: 40px;
   position: relative;
-  height: 600px;
+  height: auto;
   width: 600px;
-  top: -640px;
+  transform: translateY(-600px);
   justify-content: flex-start;
   background-color: white;
   min-height: calc(100vh - 120px);
@@ -1348,6 +1349,8 @@ h4 {
 .serviceText {
   font-size: 21px;
   margin-bottom: 18px;
+  width: 70%;
+  margin-left: 5%;
 }
 
 .h1services {
@@ -1371,6 +1374,7 @@ h4 {
   margin-top: 30px;
   font-family: arial;
   font-size: 23px;
+  margin-left: 5%;
 }
 .listServices {
   color: black;
@@ -1378,6 +1382,8 @@ h4 {
   margin: 3px;
   border-radius: 5px;
   font-size: 21px;
+  width: 100%;
+  background-color: white;
 }
 .listServices:hover {
   cursor: help;

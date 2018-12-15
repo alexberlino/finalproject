@@ -64,7 +64,7 @@ class Technical extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/research" />
         </Helmet>
-        <div className="breadcrumb">
+        <div className="breadcrumb2">
           <a href={"/" + this.props.lng}>> HOME ></a>
 
           <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
@@ -74,7 +74,6 @@ class Technical extends Component {
         <div id="three-js-item2" />
 
         <div className="infoTitle">
-          {" "}
           <img
             alt="research and analytics"
             src="/analytics.svg"

@@ -63,7 +63,7 @@ class Offpage extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/offpage" />{" "}
         </Helmet>
-        <div className="breadcrumb">
+        <div className="breadcrumb2">
           <a href={"/" + this.props.lng}>> HOME ></a>
 
           <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>

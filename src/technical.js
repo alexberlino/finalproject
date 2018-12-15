@@ -33,7 +33,7 @@ class Technical extends Component {
   handleClick(n) {
     this.setState({
       show: n,
-      toggle: "showRight",
+      toggle: "",
       hide: "hide",
       hide2: "hide2"
     });
@@ -70,7 +70,7 @@ class Technical extends Component {
             href="https://www.seoberlino.com/en/technical"
           />
         </Helmet>
-        <div className="breadcrumb">
+        <div className="breadcrumb2">
           <a href={"/" + this.props.lng}>> HOME ></a>
 
           <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
@@ -79,8 +79,7 @@ class Technical extends Component {
         </div>
         <div id="three-js-item2" />
 
-        <div className={this.state.hide + " infoTitle"}>
-          {" "}
+        <div className="infoTitle">
           <img
             alt="technical"
             src="/technical.svg"
@@ -89,7 +88,7 @@ class Technical extends Component {
         </div>
 
         <div className="services">
-          <div className={this.state.hide + "leftServices"}>
+          <div className={this.state.hide + " leftServices"}>
             <p className="listServices" onClick={() => this.handleClick(1)}>
               {t("technicalHP1")}
             </p>
