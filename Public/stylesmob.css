@@ -656,21 +656,14 @@
   .linkstoPageMainDiv2 li a {
     font-size: 18px;
     padding-top: 4px;
-    color: black;
-
     text-align: center;
     margin-bottom: 3px;
     margin-left: 10%;
     padding: 15px;
-    position: relative;
-    display: block;
-    color: black;
-    background-color: white;
-    opacity: 0.8;
 
+    opacity: 0.8;
     border: 1px darkred solid;
     border-radius: 20px;
-
     width: 60%;
   }
 

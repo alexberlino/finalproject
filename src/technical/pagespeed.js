@@ -52,6 +52,12 @@ class PageSpeed extends Component {
               Google PageSpeed Insights
             </a>{" "}
             <div className="block"> Lighthouse</div>
+            <p>
+              Please note that Lighthouse belongs to Google and their advice is
+              (a bit too) specific to Google Chrome, so for instance it will
+              advise you to use new image formats which may not be usable and
+              rendered on other browser such as Firefox or Safari.
+            </p>
           </footer>
         </div>
       </div>

@@ -48,9 +48,10 @@ class Security extends Component {
         </div>
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">
-          Help you with plan on how to make the migrations, incluing identify
-          pages to redirect (which should be most), and those you should not,
-          technical challenges to plan and timing.
+          Plan your site migration carefully, incluing identify pages to
+          redirect (which should be the most valuable ones), and those you
+          should not. Timing is key to avoid risks, so avoid doing it before
+          your high season.
         </div>
       </div>
     );
