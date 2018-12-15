@@ -154,8 +154,8 @@ class SeoLexicon extends Component {
             </tr>
             <tr>
               {" "}
-              <th>headings</th>
-              <th>german</th>
+              <th>heading tag</th>
+              <th>head-tag</th>
             </tr>
             <tr>
               <th>impression</th>

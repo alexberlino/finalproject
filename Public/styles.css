@@ -311,9 +311,9 @@ iframe {
 .logo {
   position: relative;
   top: 5px;
-  left: 5px;
+  left: 140px;
   z-index: 1;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .languageBtn {
@@ -365,9 +365,10 @@ iframe {
 }
 
 .intro3 {
-  width: 80%;
-  margin-left: 12%;
-  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+  opacity: 0.65;
+  background-color: black;
 }
 
 .icons {
@@ -910,10 +911,12 @@ h4 {
 
 .introHP {
   color: #001f3f;
-  opacity: 0.7;
+  opacity: 0.92;
   position: relative;
   background-color: white;
   margin-top: 35%;
+  border: white 0px solid;
+  border-radius: 90px;
 }
 
 .logoQuarter {
@@ -1158,7 +1161,6 @@ h4 {
   color: white;
   background-color: #400000;
 }
-
 .breadcrumb a {
   color: darkred;
   font-size: 20px;
@@ -1168,7 +1170,7 @@ h4 {
   margin-bottom: 20px;
 }
 
-.breadcrumb2 a {
+.breadcrumb2 {
   display: none;
 }
 

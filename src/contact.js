@@ -24,7 +24,8 @@ class Contact extends Component {
           <title>{t("getintouch_title")}</title>
           <meta
             name="description"
-            content="Get in touch with SEO Berlino: SEO expert since 2010"
+            content="Get in touch with SEO Berlino: SEO expert since 2010. Onpage, Offpage SEO,
+            Technical SEO, Analytics, Competitor Analysis"
           />
           <link
             rel="canonical"

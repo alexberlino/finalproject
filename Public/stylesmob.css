@@ -18,6 +18,21 @@
     font-size: 16px;
   }
 
+  .breadcrumb2 {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    top: 80px;
+  }
+
+  .breadcrumb2 a {
+    color: darkred;
+    font-size: 16px;
+    position: relative;
+    display: inline;
+    margin-left: 5px;
+  }
+
   .linkedin {
     margin-top: 10%;
   }
@@ -59,9 +74,25 @@
     vertical-align: middle;
   }
 
-  .logo {
-    height: 25%;
-    width: 25%;
+  .logomustbe {
+    height: 30%;
+    width: 20%;
+  }
+  .logospreadshirt {
+    height: 40%;
+    width: 13%;
+  }
+  .logoteezily {
+    height: 30%;
+    width: 16%;
+  }
+  .logoholberton {
+    height: 20%;
+    width: 20%;
+  }
+  .logomadeforrain {
+    height: 30%;
+    width: 20%;
   }
 
   .listArticlesBlog {
@@ -112,10 +143,7 @@
   }
 
   .intro3 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
     font-size: 18px;
   }
   .portrait {
@@ -189,7 +217,12 @@
   }
 
   .logoQuarter {
-    background-color: white;
+    background-color: black;
+    width: 100%;
+  }
+
+  .logo {
+    left: 10px;
   }
 
   .intro21 {
@@ -283,26 +316,6 @@
     width: 70%;
   }
 
-  .closeX {
-    font-size: 25px;
-    left: 84%;
-    padding: 14px;
-    padding-top: 7px;
-    padding-bottom: 25px;
-
-    width: 8px;
-    height: 8px;
-    z-index: 902;
-    border-radius: 160px;
-    position: sticky;
-    position: -webkit-sticky;
-    position: fixed;
-    top: 90px;
-    color: beige;
-    background-color: grey;
-    border: 3px white solid;
-  }
-
   .hideRightServices {
     display: none;
   }
@@ -333,8 +346,6 @@
   .leftServices {
     left: 10px;
     width: 90%;
-    height: auto;
-    height: 450px;
   }
 
   .listServices {
@@ -588,6 +599,7 @@
     height: auto;
     margin-left: 5%;
     padding: 15px;
+    z-index: 100px;
   }
 
   .resourcesLinks a {
@@ -644,6 +656,7 @@
     position: relative;
     background-color: white;
     width: 90%;
+    opacity: 0.85;
   }
 
   .linkstoPageMainDiv a {
@@ -751,24 +764,27 @@
   }
 
   .hey span:nth-child(3) {
-    top: 100px;
+    top: 160px;
   }
   .hey span:nth-child(4) {
-    top: 120px;
-  }
-  .hey span:nth-child(5) {
     top: 110px;
   }
+  .hey span:nth-child(5) {
+    top: 160px;
+  }
   .hey span:nth-child(6) {
-    top: 130px;
+    top: 110px;
   }
 
   .hey span:nth-child(7) {
-    top: 110px;
+    top: 160px;
   }
 
   .hey span:nth-child(8) {
-    top: 130px;
+    top: 110px;
+  }
+  .hey span:nth-child(9) {
+    top: 160px;
   }
   .txt2 {
     font-size: 20px;

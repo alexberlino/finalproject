@@ -192,58 +192,6 @@ class Homepage extends Component {
           </div>
 
           <div>
-            <h2 className="txthead"> {t("clients")}></h2>
-            <div className="intro3 ">
-              {" "}
-              <div className="logoQuarter">
-                <img
-                  className="logo"
-                  height="110px"
-                  width="160px"
-                  alt="must-be logo"
-                  src="/mustbe.png"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo"
-                  height="120px"
-                  width="90px"
-                  alt="spreadshirt logo"
-                  src="/spreadshirt.png"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo"
-                  height="120px"
-                  width="160px"
-                  src="/madeforrain.png"
-                  alt="made for rain logo"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo"
-                  height="100px"
-                  width="190px"
-                  src="/holberton.png"
-                  alt="holberton school logo"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo"
-                  height="120px"
-                  width="120px"
-                  src="/teezily.png"
-                  alt="teezily logo"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div>
             <div>
               <h2 className="txthead"> {t("blog")}></h2>
               <div className="blogArticlesHP">
@@ -279,6 +227,57 @@ class Homepage extends Component {
                   title="read more"
                 />{" "}
               </Link>{" "}
+            </div>
+          </div>
+          <div>
+            <h2 className="txthead"> {t("clients")}></h2>
+          </div>
+          <div className="intro3 ">
+            {" "}
+            <div className="logoQuarter">
+              <img
+                className="logo logomustbe"
+                height="110px"
+                width="160px"
+                alt="must-be logo"
+                src="/mustbe.png"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo logospreadshirt"
+                height="120px"
+                width="90px"
+                alt="spreadshirt logo"
+                src="/spreadshirt.png"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo logomadeforrain"
+                height="120px"
+                width="160px"
+                src="/madeforrain.png"
+                alt="made for rain logo"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo logoholberton"
+                height="100px"
+                width="190px"
+                src="/holberton.png"
+                alt="holberton school logo"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo logoteezily"
+                height="120px"
+                width="120px"
+                src="/teezily.png"
+                alt="teezily logo"
+              />
             </div>
           </div>
 
