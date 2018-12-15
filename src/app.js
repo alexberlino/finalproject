@@ -8,6 +8,7 @@ import SEONews from "./seonews";
 import Impressum from "./impressum";
 import Resources from "./resources";
 import About from "./about";
+import SeoLexicon from "./SEOlexicon";
 import Admin from "./admin";
 import SideDrawer from "./Sidedraw";
 import Technical from "./technical";
@@ -175,6 +176,11 @@ class App extends Component {
                   exact
                   path="/de/cookies"
                   render={() => <Cookies lang={lang} page={page} />}
+                />
+                <Route
+                  exact
+                  path="/en/english-german-seo-lexicon"
+                  render={() => <SeoLexicon lang={lang} page={page} />}
                 />
                 <Route
                   exact

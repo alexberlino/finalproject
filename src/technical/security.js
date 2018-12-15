@@ -42,9 +42,39 @@ class Security extends Component {
         <h2 className="h1services"> Security, HTTPS transition</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          Https for "early-adopters" may have given them an advantage on their
-          competitors, but now it has become the norm. If you haven't made the
-          transition yet, it needs to be very high on your priority list.
+          <p>
+            Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of
+            HTTP, the protocol over which data is sent between browser and the
+            connected website. The 'S' of HTTPS stands for 'Secure'. It means
+            all communications between browser and website are encrypted.
+          </p>
+          <img
+            className="imageservices"
+            src="/icons/lock.jpg"
+            width="80px"
+            height="80px"
+          />
+
+          <p>
+            HTTPS is often used to protect highly confidential online
+            transactions like online banking and online shopping order forms.
+            But has now become to norm.
+          </p>
+          <img
+            className="imageservices"
+            src="/icons/notsecure.png"
+            width="100px"
+            height="32px"
+          />
+
+          <p>
+            Https for "early-adopters" may have given them an advantage on their
+            competitors, these times are over. If you haven't made the
+            transition yet, it needs to be very high on your priority list.
+            Since summer 2018, Chrome now shows a "not secure" warning so beware
+            of a sharp increase in bounce rate should you now have implemented
+            it yet, on top of lower rankings.
+          </p>
         </div>
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">

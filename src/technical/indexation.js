@@ -47,6 +47,14 @@ class Indexation extends Component {
             likely limit your "crawling credit" and discard those pages which
             you value most.
           </p>
+          <img
+            src="/icons/indexation.png"
+            alt="indexation"
+            title="indexation"
+            className="imageservices"
+            width="100px"
+            height="100px"
+          />
         </div>
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">

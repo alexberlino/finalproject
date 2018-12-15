@@ -45,6 +45,14 @@ class PageSpeed extends Component {
           advise you to use the PageSpeed Insights tool (link below){" "}
         </div>
 
+        <img
+          src="/icons/speed.png"
+          className="imageservices"
+          alt="speed icon"
+          width="100px"
+          height="100px"
+        />
+
         <div className="serviceTitle"> Tools and Resources</div>
         <div className="serviceText">
           <footer>

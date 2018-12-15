@@ -43,6 +43,13 @@ class Crawlability extends Component {
           optimize indexation, you can improve and guide Google on how it crawls
           your site.
         </div>
+        <img
+          src="/icons/crawler.png"
+          className="imageservices"
+          alt="web crawler"
+          width="100px"
+          height="100px"
+        />
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">
           Set-up or Audit of your sitemaps, robots file and robots metas. Check

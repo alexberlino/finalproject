@@ -41,15 +41,22 @@ class DynamicRendering extends Component {
         <h2 className="h1services"> Dynamic Rendering</h2>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
-          For JavaScript apps (such as this one), search engines such as Google
-          still struggle to properly crawl and index all pages. Although they
-          say they can achieve this overtime, after many "visits", they do
-          recommend for most sites to use dynamic rendering.
+          For JavaScript apps such as React, Angular or View, search engines
+          such as Google still struggle to properly crawl and index all pages.
+          Although they say they can achieve this over time after many visits,
+          they do recommend for most sites to use dynamic rendering.
         </div>
+        <img
+          src="/icons/javascript.png"
+          className="imageservices"
+          alt="javascript icon"
+          width="100px"
+          height="100px"
+        />
         <div className="serviceTitle">To do</div>
         <div className="serviceText">
-          Help you efficiently implement dynamic rendering, if your site
-          actually needs it.
+          Find what solution is best for you: pre-rendering, server side
+          rendering or dynamic rendering.
         </div>
       </div>
     );

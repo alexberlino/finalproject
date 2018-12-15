@@ -47,6 +47,14 @@ class MobileFriendly extends Component {
             trouble. Google now uses the mobile version for indexation so called
             mobile first. If you are not sure, you can use Google's tool below.
           </p>
+          <img
+            src="/icons/mobilefirst.png"
+            className="imageservices"
+            title="mobile-first"
+            alt="mobile-first"
+            width="100px"
+            height="100px"
+          />
           <p>
             With mobile-first indexing, Googlebot primarily crawls and indexes
             pages with the smartphone agent. However Google will continue to

@@ -939,6 +939,10 @@ h4 {
   margin-left: 10px;
 }
 
+.imageservices {
+  margin-left: 30%;
+}
+
 .linkstoPageMainDiv2 a {
   font-size: 20px;
   display: block;
@@ -1312,10 +1316,12 @@ h4 {
 }
 
 .logoAnimationServices {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
   position: relative;
-  display: inline;
+  top: -35xpx;
+
+  margin-left: 65%;
 
   -webkit-animation: bounce-in-top 1s both;
   animation: bounce-in-top 1s both;
@@ -1326,6 +1332,7 @@ h4 {
   position: relative;
   width: 300px;
   height: 600px;
+  opacity: 0.9;
 }
 
 .mainRightServices {
@@ -1339,18 +1346,20 @@ h4 {
   padding: 40px;
   position: relative;
   height: auto;
-  width: 600px;
+  width: 60%;
   transform: translateY(-600px);
   justify-content: flex-start;
   background-color: white;
   min-height: calc(100vh - 120px);
+  opacity: 0.9;
 }
 
 .serviceText {
   font-size: 21px;
   margin-bottom: 18px;
-  width: 70%;
+  width: 55%;
   margin-left: 5%;
+  margin-bottom: 8%;
 }
 
 .h1services {
@@ -1359,6 +1368,8 @@ h4 {
   width: 100%;
   font-size: 28px;
   z-index: 100;
+  opacity: 0.8;
+  border-radius: 20px;
 }
 
 .serviceImage {
@@ -1380,10 +1391,20 @@ h4 {
   color: black;
   padding: 25px;
   margin: 3px;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 21px;
   width: 100%;
   background-color: white;
+}
+
+table th {
+  width: 190px;
+  border: black 1px solid;
+  padding: 10px;
+}
+
+.mainrow {
+  background-color: lightgrey;
 }
 .listServices:hover {
   cursor: help;

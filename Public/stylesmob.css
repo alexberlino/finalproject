@@ -322,7 +322,6 @@
     position: absolute;
     background-color: darkred;
     top: 3px;
-    opacity: 40%;
     padding: 12px;
     margin-left: 5%;
     font-size: 21px;
@@ -661,10 +660,13 @@
     margin-left: 10%;
     padding: 15px;
 
-    opacity: 0.8;
     border: 1px darkred solid;
     border-radius: 20px;
     width: 60%;
+  }
+
+  .linkstoPageMainDiv2 {
+    opacity: 0.8;
   }
 
   .linkstoPageMainDiv2 a:hover {
