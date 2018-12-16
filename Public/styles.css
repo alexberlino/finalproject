@@ -311,7 +311,7 @@ iframe {
 .logo {
   position: relative;
   top: 5px;
-  left: 140px;
+  left: 10%;
   z-index: 1;
   opacity: 1;
 }
@@ -365,10 +365,11 @@ iframe {
 }
 
 .intro3 {
-  width: 100%;
+  width: 70%;
   height: 150px;
-  opacity: 0.65;
+  opacity: 0.8;
   background-color: black;
+  margin-left: 5%;
 }
 
 .icons {

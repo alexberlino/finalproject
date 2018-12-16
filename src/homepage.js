@@ -246,8 +246,8 @@ class Homepage extends Component {
             <div className=" logoQuarter">
               <img
                 className="logo logospreadshirt"
-                height="120px"
-                width="90px"
+                height="100px"
+                width="65px"
                 alt="spreadshirt logo"
                 src="/spreadshirt.png"
               />
@@ -273,8 +273,8 @@ class Homepage extends Component {
             <div className=" logoQuarter">
               <img
                 className="logo logoteezily"
-                height="120px"
-                width="120px"
+                height="110px"
+                width="100px"
                 src="/teezily.png"
                 alt="teezily logo"
               />
