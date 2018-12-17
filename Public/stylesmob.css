@@ -22,7 +22,7 @@
     position: absolute;
     display: inline;
     margin-left: 20px;
-    top: 80px;
+    top: 50px;
   }
 
   .breadcrumb2 a {
@@ -61,8 +61,8 @@
   .mainRightServices {
     padding: 0px;
     margin: 0px;
-    width: 85%;
-    background-color: white;
+    width: 100%;
+    background-color: #f6f6f6;
   }
   .showRight {
     transform: translateY(-450px);
@@ -257,6 +257,7 @@
     z-index: 30;
     font-size: 10px;
     width: 100%;
+    background-color: darkgrey;
   }
 
   .navEntry {
@@ -282,7 +283,7 @@
 
   .rightServices {
     position: relative;
-    width: 100%;
+    width: 40%;
     left: 0px;
     top: 0px;
     z-index: 11;
@@ -347,7 +348,7 @@
 
   .leftServices {
     left: 10px;
-    width: 90%;
+    width: 50%;
   }
 
   .listServices {
@@ -479,7 +480,6 @@
     display: none;
   }
   .main {
-    margin-top: 20%;
   }
 
   .maincontact2 {
@@ -608,6 +608,10 @@
     font-size: 18px;
   }
 
+  .resourcesLinks {
+    padding-bottom: 26px;
+  }
+
   .about21 {
     font-size: 17px;
     width: 70%;
@@ -651,21 +655,22 @@
   }
 
   .linkstoPageMainDiv {
-    font-size: 13px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 50px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
     position: relative;
-    background-color: white;
-    width: 90%;
-    opacity: 0.85;
+    background-color: darkgrey;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 30px;
   }
 
   .linkstoPageMainDiv a {
-    color: black;
+    color: white;
+    padding: 3px;
   }
   .linkstoPageMainDiv li {
-    padding: 7px;
+    padding: 1px;
   }
 
   .background {
@@ -682,14 +687,16 @@
     margin-bottom: 3px;
     margin-left: 10%;
     padding: 15px;
-
-    border: 1px darkred solid;
+    color: black;
     border-radius: 20px;
     width: 60%;
+    border: black 1px solid;
   }
 
   .linkstoPageMainDiv2 {
-    opacity: 0.8;
+    margin-top: 40px;
+    background-color: #f8f8f8;
+    padding-bottom: 90px;
   }
 
   .linkstoPageMainDiv2 a:hover {

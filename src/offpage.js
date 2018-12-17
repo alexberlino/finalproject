@@ -49,7 +49,6 @@ class Offpage extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props);
 
     return (
       <div className="main">
@@ -71,7 +70,6 @@ class Offpage extends Component {
         </div>
 
         <div className="infoTitle">
-          {" "}
           <img
             alt="offpage"
             src="/offpage.svg"
@@ -93,10 +91,6 @@ class Offpage extends Component {
           </div>
 
           <div className={this.state.toggle + " rightServices"}>
-            <div className="closeX" onClick={() => this.handleClickClose()}>
-              {" "}
-              X{" "}
-            </div>
             {this.state.show == 1 ? <BrandBuilding /> : null}
             {this.state.show == 2 ? <BacklinkAnalysis /> : null}
             {this.state.show == 3 ? <Toxic /> : null}
