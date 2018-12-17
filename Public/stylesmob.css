@@ -26,7 +26,7 @@
   }
 
   .breadcrumb2 a {
-    color: darkred;
+    color: black;
     font-size: 16px;
     position: relative;
     display: inline;
@@ -336,7 +336,7 @@
     padding-top: 3px;
     text-align: left;
     position: absolute;
-    background-color: darkred;
+    background-color: black;
     top: 3px;
     padding: 12px;
     margin-left: 5%;
@@ -701,7 +701,7 @@
 
   .linkstoPageMainDiv2 a:hover {
     color: white;
-    background-color: darkred;
+    background-color: black;
   }
 }
 @media (max-width: 768px) and (orientation: portrait) {

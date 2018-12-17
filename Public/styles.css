@@ -293,8 +293,8 @@ iframe {
   background-color: rgba(250, 250, 250, 0.94);
   position: relative;
   margin-top: 10%;
-  margin-bottom: 10%;
   min-height: calc(100vh - 120px);
+  padding-bottom: 50px;
 }
 
 .mainlogin {
@@ -459,7 +459,7 @@ section {
   margin-left: 50px;
   display: block;
   position: relative;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .blogItem {
@@ -744,7 +744,6 @@ h4 {
   word-wrap: break-word;
   width: 60%;
   margin-left: 30%;
-  margin-bottom: 10%;
 
   padding: 5px;
   z-index: 0;
@@ -1167,7 +1166,7 @@ h4 {
   background-color: #400000;
 }
 .breadcrumb a {
-  color: darkred;
+  color: black;
   font-size: 20px;
   position: relative;
   z-index: 100;
@@ -1177,6 +1176,9 @@ h4 {
 
 .breadcrumb2 {
   display: none;
+}
+.breadcrumb {
+  padding-top: 50px;
 }
 
 .toolbar_navigation_items li {
@@ -1342,7 +1344,7 @@ h4 {
 .mainRightServices {
   min-height: calc(100vh - 120px);
   background-color: #f6f6f6;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .rightServices {

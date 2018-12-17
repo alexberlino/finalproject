@@ -42,8 +42,8 @@ class Resources extends Component {
         </div>
         <img
           className="background"
-          width="25%"
-          height="25%"
+          width="14%"
+          height="14%"
           src="/magnifier.svg"
         />
         <div>
