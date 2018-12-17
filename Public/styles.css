@@ -366,7 +366,8 @@ iframe {
 
 .intro3 {
   width: 70%;
-  height: 150px;
+  height: auto;
+
   opacity: 0.8;
   background-color: black;
   margin-left: 5%;
@@ -891,7 +892,6 @@ h4 {
   top: 0px;
   left: 16%;
   height: 100%;
-  opacity: 1;
 }
 .introQuarter {
   display: inline;

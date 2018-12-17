@@ -143,8 +143,10 @@
   }
 
   .intro3 {
-    width: 100%;
+    width: 80%;
     font-size: 18px;
+    padding: 5px;
+    padding-right: 10px;
   }
   .portrait {
     position: relative;

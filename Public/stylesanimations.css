@@ -58,11 +58,11 @@
   }
   50%,
   100% {
-    color: #e9e7e7;
+    color: transparent;
     opacity: 0.01;
   }
   100% {
-    color: #e9e7e7;
+    color: transparent;
     opacity: 0.01;
   }
 }
