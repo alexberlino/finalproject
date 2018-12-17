@@ -516,6 +516,7 @@
   }
   .mainBlog {
     display: block;
+    padding-bottom: 0px;
   }
 
   .leftBlog {
