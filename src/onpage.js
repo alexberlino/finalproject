@@ -51,7 +51,6 @@ class Onpage extends Component {
   }
   componentDidMount() {
     window.scrollTo(0, 0);
-    happyfun();
   }
 
   render() {
@@ -75,7 +74,6 @@ class Onpage extends Component {
 
           <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
         </div>
-        <div id="three-js-item2" />
 
         <div className="infoTitle">
           <img

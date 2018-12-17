@@ -451,7 +451,7 @@
   .toolbar_toggle_button {
     position: fixed;
     left: 80%;
-    top: 20px;
+    top: 10px;
     z-index: 100;
   }
 
@@ -494,7 +494,6 @@
   }
 
   .introHP {
-    margin-top: 110%;
     margin-left: 2%;
   }
 
@@ -600,6 +599,7 @@
     margin-left: 5%;
     padding: 15px;
     z-index: 100px;
+    opacity: 0.6;
   }
 
   .resourcesLinks a {
@@ -665,6 +665,14 @@
   .linkstoPageMainDiv li {
     padding: 7px;
   }
+
+  .background {
+    left: 3%;
+  }
+
+  .berlin {
+    height: 250px;
+  }
   .linkstoPageMainDiv2 li a {
     font-size: 18px;
     padding-top: 4px;
@@ -690,36 +698,36 @@
 @media (max-width: 768px) and (orientation: portrait) {
   .hey span {
     left: 20px;
-    font-size: 38px;
+    font-size: 26px;
   }
 
   .hey span:nth-child(2) {
-    top: 110px;
+    top: 10px;
   }
 
   .hey span:nth-child(3) {
-    top: 150px;
+    top: 40px;
   }
 
   .hey span:nth-child(4) {
-    top: 110px;
+    top: 10px;
   }
   .hey span:nth-child(5) {
-    top: 150px;
+    top: 40px;
   }
   .hey span:nth-child(6) {
-    top: 110px;
+    top: 10px;
   }
   .hey span:nth-child(7) {
-    top: 150px;
+    top: 40px;
   }
 
   .hey span:nth-child(8) {
-    top: 110px;
+    top: 10px;
   }
 
   .hey span:nth-child(9) {
-    top: 150px;
+    top: 40px;
   }
 }
 

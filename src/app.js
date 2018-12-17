@@ -7,7 +7,6 @@ import Blog from "./blog";
 import SEONews from "./seonews";
 import Impressum from "./impressum";
 import Resources from "./resources";
-import About from "./about";
 import SeoLexicon from "./SEOlexicon";
 import Admin from "./admin";
 import SideDrawer from "./Sidedraw";
@@ -199,28 +198,6 @@ class App extends Component {
                   render={() => <About2 lang={lang} page={page} />}
                 />
 
-                <Route
-                  exact
-                  path="/en/about"
-                  render={() => (
-                    <About
-                      lang={lang}
-                      page={page}
-                      pageChange={this.changePage}
-                    />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/de/about"
-                  render={() => (
-                    <About
-                      lang={lang}
-                      page={page}
-                      pageChange={this.changePage}
-                    />
-                  )}
-                />
                 <Route
                   exact
                   path="/en/contact"

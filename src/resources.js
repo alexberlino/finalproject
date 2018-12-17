@@ -16,7 +16,6 @@ class Resources extends Component {
   }
   componentDidMount() {
     window.scrollTo(0, 0);
-    happyfun();
   }
   render() {
     const { t, i18n } = this.props;
@@ -35,14 +34,18 @@ class Resources extends Component {
             href="https://www.seoberlino.com/en/resources"
           />
         </Helmet>
+
         <div className="breadcrumb">
-          <div id="three-js-item2" />
+          <a href={"/" + this.props.lang}>> HOME ></a>
 
-          <a href={"/" + this.props.lng}>> HOME ></a>
-
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+          <a href={"/" + this.props.lang + "/resources"}> RESOURCES ></a>
         </div>
-
+        <img
+          className="background"
+          width="25%"
+          height="25%"
+          src="/magnifier.svg"
+        />
         <div>
           <div className="resourcesLinks">
             <div className="blockAbout slide-in-left ">

@@ -21,14 +21,6 @@ class LinksToPages extends Component {
       <div className="linkstoPageMainDiv">
         <ul>
           <li>
-            <a href={"/" + this.props.lng + "/about"}>
-              <span onClick={() => this.props.pageChange("/about")}>
-                {t("about")}
-              </span>
-            </a>
-          </li>
-
-          <li>
             <a href={"/" + this.props.lng + "/onpage"}>
               <span onClick={() => this.props.pageChange("/onpage")}>
                 ON-PAGE AUDIT

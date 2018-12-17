@@ -49,7 +49,6 @@ class Technical extends Component {
   }
   componentDidMount() {
     window.scrollTo(0, 0);
-    happyfun();
   }
 
   render() {
@@ -77,7 +76,6 @@ class Technical extends Component {
 
           <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
         </div>
-        <div id="three-js-item2" />
 
         <div className="infoTitle">
           <img

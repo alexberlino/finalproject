@@ -36,8 +36,6 @@ class Homepage extends Component {
     });
   }
   componentDidMount() {
-    happyfun();
-
     axios.get(`/get3articles/`).then(res => {
       this.setState({
         articles: res.data.rows
@@ -70,9 +68,17 @@ class Homepage extends Component {
           />
         </Helmet>
 
-        <div className="hey">
-          <div id="three-js-item2" />
+        <img
+          src="/berlin.jpg"
+          width="100%"
+          height="40%"
+          className="berlin"
+          alt="Photo of Berlin"
+          title="Berlin landscape, a photo by Stefan Widua"
+        />
 
+        <div className="hey">
+          <span> </span>
           <span>{t("hey1")}</span>
           <span>{t("hey2")}</span>
           <span>{t("hey3")} </span>
