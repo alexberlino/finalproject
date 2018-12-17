@@ -52,10 +52,11 @@
   }
   .serviceText {
     font-size: 17px;
-    margin-bottom: 18px;
     width: 80%;
     padding: 10px;
+    margin-left: 10%;
     padding-bottom: 30px;
+    z-index: 11;
   }
 
   .mainRightServices {
@@ -289,11 +290,7 @@
     z-index: 11;
     opacity: 1;
   }
-  .serviceText {
-    margin-left: 10%;
-    width: 80%;
-    z-index: 11;
-  }
+
   .infoTitle {
     display: none;
   }
@@ -663,6 +660,7 @@
     width: 100%;
     margin-top: 100px;
     padding-bottom: 30px;
+    padding-top: 30px;
   }
 
   .linkstoPageMainDiv a {
