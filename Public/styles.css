@@ -673,11 +673,6 @@ section {
   display: inline;
 }
 
-#three-js-item2 {
-  position: fixed;
-  left: 0px;
-}
-
 .infoDate {
   font-size: 10px;
   margin-left: 40%;
@@ -880,6 +875,7 @@ h4 {
   top: 0px;
   left: 0px;
   width: 100%;
+  color: white;
 }
 .othercontentHP {
   width: 100%;

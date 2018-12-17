@@ -700,6 +700,7 @@
 @media (max-width: 768px) and (orientation: portrait) {
   .hey span {
     left: 20px;
+
     font-size: 26px;
   }
 
