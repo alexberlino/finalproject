@@ -58,26 +58,26 @@
   }
   50%,
   100% {
-    color: ;
-    opacity: 0;
+    color: transparent;
+    opacity: 0.1;
   }
   100% {
     color: transparent;
-    opacity: 0;
+    opacity: 0.1;
   }
 }
 @-webkit-keyframes heyThere {
   00%,
-  60% {
-    color: #0e013a;
+  50% {
+    color: white;
   }
   60%,
   100% {
-    color: #e9e7e7;
+    color: transparent;
     opacity: 0.1;
   }
   100% {
-    color: #e9e7e7;
+    color: transparent;
     opacity: 0.1;
   }
 }
