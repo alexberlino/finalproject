@@ -332,15 +332,17 @@
     width: 70%;
     padding-top: 3px;
     text-align: left;
-    position: absolute;
+    position: relative;
     background-color: black;
     top: 3px;
     padding: 12px;
     margin-left: 5%;
     font-size: 21px;
     color: white;
-    position: sticky;
-    position: -webkit-sticky;
+  }
+  .serviceImage {
+    width: 100px;
+    height: 100px;
   }
 
   .leftServices {
