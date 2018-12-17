@@ -55,9 +55,7 @@ class SEONews extends Component {
           <a href={"/" + this.props.lang + "/seonews"}> SEONEWS ></a>
         </div>
 
-        <div className="infoTitle">
-          <h1 className="infoTitle"> SEO NEWS</h1>
-        </div>
+        <div className="infoTitle" />
 
         <div className="infoMain">
           {" "}
