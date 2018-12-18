@@ -235,11 +235,22 @@ class Homepage extends Component {
               </Link>{" "}
             </div>
           </div>
-          <div>
-            <h2 className="txthead"> {t("clients")}></h2>
+          <div />
+
+          <div className="contactmob">
+            <h2 className="txthead"> {t("getintouch")}></h2>
+            <h2 className="txt">
+              <img alt="telephone" src="/telephone.svg" className="iconphone" />
+              015 787 011 932
+            </h2>
+
+            <ContactMain />
           </div>
           <div className="intro3 ">
-            {" "}
+            <div className="logoQuarter">
+              <h2 className="footerlink inline"> {t("clients")}></h2>
+            </div>
+
             <div className="logoQuarter">
               <img
                 className="logo logomustbe"
@@ -285,16 +296,6 @@ class Homepage extends Component {
                 alt="teezily logo"
               />
             </div>
-          </div>
-
-          <div className="contactmob">
-            <h2 className="txthead"> {t("getintouch")}></h2>
-            <h2 className="txt">
-              <img alt="telephone" src="/telephone.svg" className="iconphone" />
-              015 787 011 932
-            </h2>
-
-            <ContactMain />
           </div>
 
           <div className="coverHP" />

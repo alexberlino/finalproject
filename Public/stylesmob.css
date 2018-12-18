@@ -144,10 +144,9 @@
   }
 
   .intro3 {
-    width: 80%;
+    width: 100%;
     font-size: 18px;
-    padding: 5px;
-    padding-right: 10px;
+    padding-bottom: 20px;
   }
   .portrait {
     position: relative;
@@ -397,6 +396,7 @@
   .footerlink {
     margin-left: 20px;
     color: white;
+    font-size: 14px;
   }
 
   .navEntries a {
@@ -660,7 +660,7 @@
     position: relative;
     background-color: darkgrey;
     width: 100%;
-    margin-top: 100px;
+
     padding-bottom: 30px;
     padding-top: 30px;
   }
