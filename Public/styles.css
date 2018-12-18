@@ -293,6 +293,11 @@ iframe {
   background-color: #f6f6f6;
 }
 
+.services {
+  min-height: calc(100vh - 120px);
+  margin-bottom: 40px;
+}
+
 .mainBlog {
   background-color: rgba(250, 250, 250, 0.94);
   position: relative;
@@ -1347,6 +1352,7 @@ h4 {
 .mainRightServices {
   background-color: #f6f6f6;
   padding-bottom: 90px;
+  min-height: calc(100vh - 120px);
 }
 
 .rightServices {

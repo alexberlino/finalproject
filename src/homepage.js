@@ -196,6 +196,11 @@ class Homepage extends Component {
               </div>
             </div>
           </div>
+          <p className="articleTitle">BOOST YOUR TRAFFIC</p>
+
+          <div>
+            <img className="logo" src="/traffic.jpg" height="60%" width="60%" />
+          </div>
 
           <div>
             <div>
