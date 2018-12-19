@@ -37,6 +37,18 @@ app.get("/", function(request, response, next) {
   }
 });
 
+app.get("/", function(request, response, next) {
+  if (request.hostname == "seoberlino.com") {
+    response.writeHead(301, {
+      Location: "https://www.seoberlino.com/en",
+      Expires: new Date().toGMTString()
+    });
+    response.end();
+  } else {
+    next();
+  }
+});
+
 app.get("/blog", function(request, response) {
   response.writeHead(301, {
     Location: "https://www.seoberlino.com/en/blog",
