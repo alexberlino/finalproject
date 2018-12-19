@@ -77,8 +77,6 @@ class App extends Component {
     this.setState({
       lang: lng
     });
-    console.log("THISSTATEAPP", this.state);
-    // this.props.history.push("/" + lng);
   }
 
   changePage(url) {
@@ -447,6 +445,18 @@ class App extends Component {
                   path="/en/resources"
                   render={() => (
                     <Resources
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+
+                <Route
+                  exact
+                  path="/"
+                  render={() => (
+                    <Homepage
                       lang={lang}
                       page={page}
                       pageChange={this.changePage}
