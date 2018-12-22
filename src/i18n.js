@@ -23,7 +23,7 @@ i18n.use(LanguageDetector).init({
         intro6: `5 years as Head of SEO (Spreadshirt)`,
         intro7: `+400% increase in SEO orders (DACH, US, FR)`,
         intro8: `Over 1 year experience working as a freelancer`,
-        intro9: ` Full/Specific Audit with Excecutive Summary`,
+        intro9: ` Full/Specific Audit with Executive Summary`,
         cookie1: `This website uses very basic and generic cookies.`,
         cookie2: `You can read about which cookies are used`,
         cookie3: `or accept to continue.`,
