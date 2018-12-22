@@ -25,38 +25,40 @@ class VoiceSearch extends Component {
             href="https://www.seoberlino.com/en/onpage/voicesearch"
           />{" "}
         </Helmet>
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-        </div>
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
 
-        <h1 className="h1services"> Optimization for Voice Search</h1>
+          <h1 className="h1services"> Optimization for Voice Search</h1>
 
-        <h2 className="serviceTitle"> What is Voice Search</h2>
+          <h2 className="serviceTitle"> What is Voice Search</h2>
 
-        <h2 className="serviceTitle">
-          {" "}
-          Why it's Important to be ready for Voice Search
-        </h2>
-        <div className="serviceText">
-          Voice search is already disrupting online marketing. It already
-          represents an important share of the number of searches. In order to
-          be ready for it, every website needs to understand how it changes
-          classical SEO.
-        </div>
+          <h2 className="serviceTitle">
+            {" "}
+            Why it's Important to be ready for Voice Search
+          </h2>
+          <div className="serviceText">
+            Voice search is already disrupting online marketing. It already
+            represents an important share of the number of searches. In order to
+            be ready for it, every website needs to understand how it changes
+            classical SEO.
+          </div>
 
-        <h2 className="serviceTitle"> Questions</h2>
+          <h2 className="serviceTitle"> Questions</h2>
 
-        <h2 className="serviceTitle"> Longer Search terms</h2>
+          <h2 className="serviceTitle"> Longer Search terms</h2>
 
-        <h2 className="serviceTitle"> Increasing Search Volume</h2>
+          <h2 className="serviceTitle"> Increasing Search Volume</h2>
 
-        <h2 className="serviceTitle"> Featured Snippet</h2>
+          <h2 className="serviceTitle"> Featured Snippet</h2>
 
-        <h2 className="serviceTitle"> Quora</h2>
+          <h2 className="serviceTitle"> Quora</h2>
+        </div>{" "}
       </div>
     );
   }

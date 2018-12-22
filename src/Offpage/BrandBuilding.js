@@ -22,25 +22,27 @@ class BrandBuilding extends Component {
             href="https://www.seoberlino.com/en/offpage/brandbuilding"
           />{" "}
         </Helmet>
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
-        </div>
-        <h1 className="h1services"> Brandbuilding </h1>
-        <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText">
-          Your links represent your reputation and relevancy in your domain.
-          Linkbuilding now goes hand in hand with brandbuilding.
-        </div>
-        <h2 className="serviceTitle"> To do</h2>
-        <div className="serviceText">
-          After doing an audit of your link profile and of your main SEO
-          competitors, research influencers sources and websites where your
-          potential users visit when making their investigation or deciding on
-          which sources to use.
+            <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
+          </div>
+          <h1 className="h1services"> Brandbuilding </h1>
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            Your links represent your reputation and relevancy in your domain.
+            Linkbuilding now goes hand in hand with brandbuilding.
+          </div>
+          <h2 className="serviceTitle"> To do</h2>
+          <div className="serviceText">
+            After doing an audit of your link profile and of your main SEO
+            competitors, research influencers sources and websites where your
+            potential users visit when making their investigation or deciding on
+            which sources to use.
+          </div>
         </div>
       </div>
     );

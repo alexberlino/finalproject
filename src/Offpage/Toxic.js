@@ -22,30 +22,33 @@ class Toxic extends Component {
             href="https://www.seoberlino.com/en/offpage/toxic"
           />
         </Helmet>
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
-        </div>
-        <h2 className="h1services"> Cleaning Toxic Links </h2>
-        <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText">
-          Many think the more the better but it doesn't actually work that way.
-          Too many low quality and/or spammy links and your website will lose
-          "Google credibility" and therefore visibility.
-        </div>
-        <div className="serviceTitle"> To do</div>
-        <div className="serviceText">
-          Since a few years already, you as website owner are responsible for
-          the backlinks pointing to your site, so you need to constantly
-          monitor, identify bad links and clean up your backlink profile. First
-          step using the disavow tool then to try pro-actively to remove them.
-        </div>
-        <div className="serviceTitle"> Related Tools and Resources</div>
-        <div className="serviceText">
-          <footer>Disavow Links - Google Search Console </footer>
+            <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
+          </div>
+          <h2 className="h1services"> Cleaning Toxic Links </h2>
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            Many think the more the better but it doesn't actually work that
+            way. Too many low quality and/or spammy links and your website will
+            lose "Google credibility" and therefore visibility.
+          </div>
+          <div className="serviceTitle"> To do</div>
+          <div className="serviceText">
+            Since a few years already, you as website owner are responsible for
+            the backlinks pointing to your site, so you need to constantly
+            monitor, identify bad links and clean up your backlink profile.
+            First step using the disavow tool then to try pro-actively to remove
+            them.
+          </div>
+          <div className="serviceTitle"> Related Tools and Resources</div>
+          <div className="serviceText">
+            <footer>Disavow Links - Google Search Console </footer>
+          </div>
         </div>
       </div>
     );

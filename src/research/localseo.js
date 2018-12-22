@@ -25,30 +25,32 @@ class LocalSEO extends Component {
             href="https://www.seoberlino.com/en/research/localseo"
           />{" "}
         </Helmet>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
-
-          <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
-        </div>
-        <h2 className="h1services"> Local SEO</h2>
-        <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText">
-          Especially for local business, it is paramount to align your SEO
-          overall strategy to local SEO. It is important to keep in mind that
-          the most important factor in personalised search results is location.
-        </div>
-        <div className="serviceTitle"> To do</div>
-        <div className="serviceText">
-          In the audit which is affected by both on-page an off-page, local SEO
-          factors such as city/ region mention will be taken in account.
-        </div>
-        <div className="serviceTitle"> Relevant Tools and Resources</div>
-        <div className="serviceText">
-          <footer>Google's MyBusiness</footer>
-        </div>
+            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
+          </div>
+          <h2 className="h1services"> Local SEO</h2>
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            Especially for local business, it is paramount to align your SEO
+            overall strategy to local SEO. It is important to keep in mind that
+            the most important factor in personalised search results is
+            location.
+          </div>
+          <div className="serviceTitle"> To do</div>
+          <div className="serviceText">
+            In the audit which is affected by both on-page an off-page, local
+            SEO factors such as city/ region mention will be taken in account.
+          </div>
+          <div className="serviceTitle"> Relevant Tools and Resources</div>
+          <div className="serviceText">
+            <footer>Google's MyBusiness</footer>
+          </div>
+        </div>{" "}
       </div>
     );
   }

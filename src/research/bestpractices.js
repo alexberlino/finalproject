@@ -22,19 +22,20 @@ class BestPractices extends Component {
             href="https://www.seoberlino.com/en/research/bestpractices"
           />{" "}
         </Helmet>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
-
-          <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
-        </div>
-        <h2 className="h1services"> Competitor Analysis</h2>
-        <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText" />
-        <div className="serviceTitle"> To do</div>
-        <div className="serviceText" />
+            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
+          </div>
+          <h2 className="h1services"> Competitor Analysis</h2>
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText" />
+          <div className="serviceTitle"> To do</div>
+          <div className="serviceText" />
+        </div>{" "}
       </div>
     );
   }

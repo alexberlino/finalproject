@@ -26,36 +26,38 @@ class LandingPageOptimization extends Component {
             href="https://www.seoberlino.com/en/onpage/landingpages"
           />{" "}
         </Helmet>
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-        </div>
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
 
-        <h1 className="h1services"> Landing Page Optimization </h1>
-        <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText">
-          Often, companies create Landing pages and then expect it to perform as
-          it is. There are actually many factors that will make a landing page
-          work, from design & UX to SEO.
-        </div>
-        <div className="serviceTitle"> To do</div>
-        <div className="serviceText">
-          <ul>
-            <li>
-              check how the page fits within the website, does it make sense in
-              the user journey?
-            </li>
-            <li>keyword targeting</li>
-            <li> outcoming links </li>
+          <h1 className="h1services"> Landing Page Optimization </h1>
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            Often, companies create Landing pages and then expect it to perform
+            as it is. There are actually many factors that will make a landing
+            page work, from design & UX to SEO.
+          </div>
+          <div className="serviceTitle"> To do</div>
+          <div className="serviceText">
+            <ul>
+              <li>
+                check how the page fits within the website, does it make sense
+                in the user journey?
+              </li>
+              <li>keyword targeting</li>
+              <li> outcoming links </li>
 
-            <li>how is the page linked internally and externally</li>
-            <li>content and semantics, out</li>
-            <li>technical aspects including pagespeed</li>
-            <li>image optimization</li>
-          </ul>
+              <li>how is the page linked internally and externally</li>
+              <li>content and semantics, out</li>
+              <li>technical aspects including pagespeed</li>
+              <li>image optimization</li>
+            </ul>
+          </div>
         </div>
       </div>
     );

@@ -1403,7 +1403,7 @@ a.linkServices {
   position: relative;
   width: 100%;
   font-size: 66px;
-  z-index: 100;
+  z-index: 1;
   opacity: 0.8;
   border-radius: 20px;
 }

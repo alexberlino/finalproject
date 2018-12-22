@@ -30,63 +30,65 @@ class MobileFriendly extends Component {
             rel="canonical"
             href="https://www.seoberlino.com/en/technical/mobilefriendly"
           />
-        </Helmet>
+        </Helmet>{" "}
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
+          </div>
+          <h2 className="h1services"> Mobile Friendly Websites</h2>
+          <div className="serviceTitle"> Why it's (extremely) Important</div>
+          <div className="serviceText">
+            <p>
+              If your website it not mobile friendly, in most cases, you are in
+              trouble. Google now uses the mobile version for indexation so
+              called mobile first. If you are not sure, you can use Google's
+              tool below.
+            </p>
+            <img
+              src="/icons/mobilefirst.png"
+              className="imageservices"
+              title="mobile-first"
+              alt="mobile-first"
+              width="100px"
+              height="100px"
+            />
+            <p>
+              With mobile-first indexing, Googlebot primarily crawls and indexes
+              pages with the smartphone agent. However Google will continue to
+              show the device URL that is the most appropriate to users in
+              Search results.
+            </p>
 
-          <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
-        </div>
-        <h2 className="h1services"> Mobile Friendly Websites</h2>
-        <div className="serviceTitle"> Why it's (extremely) Important</div>
-        <div className="serviceText">
-          <p>
-            If your website it not mobile friendly, in most cases, you are in
-            trouble. Google now uses the mobile version for indexation so called
-            mobile first. If you are not sure, you can use Google's tool below.
-          </p>
-          <img
-            src="/icons/mobilefirst.png"
-            className="imageservices"
-            title="mobile-first"
-            alt="mobile-first"
-            width="100px"
-            height="100px"
-          />
-          <p>
-            With mobile-first indexing, Googlebot primarily crawls and indexes
-            pages with the smartphone agent. However Google will continue to
-            show the device URL that is the most appropriate to users in Search
-            results.
-          </p>
+            <p>
+              This means that you for instance text showing on the desktop
+              version but not on the mobile one may very likely be ignored for
+              indexation and page relavancy. If there is too much text for the
+              mobile version use 'show more'.
+            </p>
 
-          <p>
-            This means that you for instance text showing on the desktop version
-            but not on the mobile one may very likely be ignored for indexation
-            and page relavancy. If there is too much text for the mobile version
-            use 'show more'.
-          </p>
+            <p>
+              In terms of performance, you need to make sure that your mobile
+              version loads fast and in the right format. You can use Google's
+              PageSpeed Developer Tool
+            </p>
+          </div>
 
-          <p>
-            In terms of performance, you need to make sure that your mobile
-            version loads fast and in the right format. You can use Google's
-            PageSpeed Developer Tool
-          </p>
-        </div>
-
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>
-            <a
-              target="_blank"
-              href="https://search.google.com/test/mobile-friendly"
-            >
-              Google's Mobile Friendly Test
-            </a>{" "}
-          </footer>
-        </div>
+          <div className="serviceTitle"> Tools and Resources</div>
+          <div className="serviceText">
+            <footer>
+              <a
+                target="_blank"
+                href="https://search.google.com/test/mobile-friendly"
+              >
+                Google's Mobile Friendly Test
+              </a>{" "}
+            </footer>
+          </div>
+        </div>{" "}
       </div>
     );
   }

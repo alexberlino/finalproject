@@ -28,28 +28,30 @@ class DuplicateContent extends Component {
             href="https://www.seoberlino.com/en/onpage/duplicatecontent"
           />{" "}
         </Helmet>
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-        </div>
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
 
-        <h2 className="h1services"> Duplicate Content and Canonicals</h2>
-        <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText">
-          Search Engines do not like duplicate content indexed. If you have many
-          similar pages and you are not flagging them, these pages will not rank
-          well.
-        </div>
-        <img src="/content.svg" className="serviceImage" />
+          <h2 className="h1services"> Duplicate Content and Canonicals</h2>
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            Search Engines do not like duplicate content indexed. If you have
+            many similar pages and you are not flagging them, these pages will
+            not rank well.
+          </div>
+          <img src="/content.svg" className="serviceImage" />
 
-        <div className="serviceTitle"> To do</div>
-        <div className="serviceText">
-          Identify duplicate content, assess status and design "master page",
-          deindex unnecessary pages using canonicals, 410s or redirects
-          accordingly.
+          <div className="serviceTitle"> To do</div>
+          <div className="serviceText">
+            Identify duplicate content, assess status and design "master page",
+            deindex unnecessary pages using canonicals, 410s or redirects
+            accordingly.
+          </div>
         </div>
       </div>
     );

@@ -27,46 +27,48 @@ class SEA extends Component {
             href="https://www.seoberlino.com/en/research/sea"
           />{" "}
         </Helmet>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
+          </div>
+          <h1 className="h1services"> SEA, Search Engine Advertising</h1>
+          <h2 className="serviceTitle">
+            {" "}
+            What is SEA? And what SEO and SEA have in common ?{" "}
+          </h2>
+          <div className="serviceText">
+            Paid Search uses the same base as SEO in keywords, and of course
+            share the same space in SERPs (Search Engine Result Pages). With
+            poor SEO visibility, SEA helps you to get those first visits to get
+            going and/or get visibility and brand awareness using the Display
+            Network.
+          </div>
+          <h2 className="serviceTitle"> Adwords Set-up</h2>
+          <div className="serviceText">
+            Adwords Set-up and/or optimization, landing pages testing. Keywords
+            bid ajustments depending on the strategy.
+          </div>
 
-          <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
-        </div>
-        <h1 className="h1services"> SEA, Search Engine Advertising</h1>
-        <h2 className="serviceTitle">
-          {" "}
-          What is SEA? And what SEO and SEA have in common ?{" "}
-        </h2>
-        <div className="serviceText">
-          Paid Search uses the same base as SEO in keywords, and of course share
-          the same space in SERPs (Search Engine Result Pages). With poor SEO
-          visibility, SEA helps you to get those first visits to get going
-          and/or get visibility and brand awareness using the Display Network.
-        </div>
-        <h2 className="serviceTitle"> Adwords Set-up</h2>
-        <div className="serviceText">
-          Adwords Set-up and/or optimization, landing pages testing. Keywords
-          bid ajustments depending on the strategy.
-        </div>
+          <h2 className="serviceTitle"> Adwords Account Optimization</h2>
+          <div className="serviceText" />
 
-        <h2 className="serviceTitle"> Adwords Account Optimization</h2>
-        <div className="serviceText" />
+          <h2 className="serviceTitle"> Landing Page Optimization</h2>
+          <div className="serviceText" />
 
-        <h2 className="serviceTitle"> Landing Page Optimization</h2>
-        <div className="serviceText" />
+          <h2 className="serviceTitle"> SEO / SEA Consistency </h2>
+          <div className="serviceText" />
 
-        <h2 className="serviceTitle"> SEO / SEA Consistency </h2>
-        <div className="serviceText" />
-
-        <h2 className="serviceTitle"> Google Ads Data for SEO </h2>
-        <div className="serviceText" />
-        <h2 className="serviceTitle"> Releted Tools and Resources</h2>
-        <div className="serviceText">
-          <footer>Adwords </footer>
-        </div>
+          <h2 className="serviceTitle"> Google Ads Data for SEO </h2>
+          <div className="serviceText" />
+          <h2 className="serviceTitle"> Releted Tools and Resources</h2>
+          <div className="serviceText">
+            <footer>Adwords </footer>
+          </div>
+        </div>{" "}
       </div>
     );
   }

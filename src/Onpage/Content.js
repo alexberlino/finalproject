@@ -33,30 +33,31 @@ class Content extends Component {
             href="https://www.seoberlino.com/en/onpage/content"
           />{" "}
         </Helmet>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
 
-          <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-        </div>
+          <h1 className="h1services"> Content & Semantics </h1>
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            Content is King, and far away are the times when Google got tricked
+            with keyword stuffing. As Google bots constantly improve to assess
+            your website's content, and while mobile first means the content on
+            the mobile version counts the most, space is more limited.
+          </div>
 
-        <h1 className="h1services"> Content & Semantics </h1>
-        <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText">
-          Content is King, and far away are the times when Google got tricked
-          with keyword stuffing. As Google bots constantly improve to assess
-          your website's content, and while mobile first means the content on
-          the mobile version counts the most, space is more limited.
-        </div>
-
-        <img src="/content.svg" className="serviceImage" />
-        <div className="serviceTitle"> To do</div>
-        <div className="serviceText">
-          Check content quality, good usage of semantics, still using the most
-          important keywordsand variations in the right places, while keeping
-          focus on relevancy for the user and not focus on Google only.
+          <img src="/content.svg" className="serviceImage" />
+          <div className="serviceTitle"> To do</div>
+          <div className="serviceText">
+            Check content quality, good usage of semantics, still using the most
+            important keywordsand variations in the right places, while keeping
+            focus on relevancy for the user and not focus on Google only.
+          </div>
         </div>
       </div>
     );

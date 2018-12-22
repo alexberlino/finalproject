@@ -22,32 +22,34 @@ class Metas extends Component {
             href="https://www.seoberlino.com/en/onpage/metas"
           />{" "}
         </Helmet>
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-        </div>
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
 
-        <h2 className="h1services"> Metas Tags and headers </h2>
-        <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText">
-          Basic aspect of SEO, they are somehow often neglected. The two main
-          ones: meta title and description can also have a negative impact on
-          CTR (Click-through-rate) when incorrectly implemented.
-        </div>
-        <div className="serviceTitle"> To do</div>
-        <div className="serviceText">
-          Crawling through your website to analyse and identify opportunities
-          such duplicate metas, length, problematic use variables, phrasing,
-          consistency, etc. Metas to be checked: title, description, viewport
-          and when needed: robots and language.
-        </div>
-        <div className="serviceTitle"> Tools and Resources</div>
-        <div className="serviceText">
-          <footer>Screaming Frog </footer>
-        </div>
+          <h2 className="h1services"> Metas Tags and headers </h2>
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            Basic aspect of SEO, they are somehow often neglected. The two main
+            ones: meta title and description can also have a negative impact on
+            CTR (Click-through-rate) when incorrectly implemented.
+          </div>
+          <div className="serviceTitle"> To do</div>
+          <div className="serviceText">
+            Crawling through your website to analyse and identify opportunities
+            such duplicate metas, length, problematic use variables, phrasing,
+            consistency, etc. Metas to be checked: title, description, viewport
+            and when needed: robots and language.
+          </div>
+          <div className="serviceTitle"> Tools and Resources</div>
+          <div className="serviceText">
+            <footer>Screaming Frog </footer>
+          </div>
+        </div>{" "}
       </div>
     );
   }
