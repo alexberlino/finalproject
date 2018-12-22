@@ -18,8 +18,8 @@ class VoiceSearch extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Voice Search SEO Berlino</title>
-          <meta type="description" content="" />
+          <title>Onpage SEO -Voice Search | SEO Berlino</title>
+          <meta name="description" content="" />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/onpage/voicesearch"
@@ -33,19 +33,30 @@ class VoiceSearch extends Component {
           <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
         </div>
 
-        <h2 className="h1services"> Optimization for Voice Search</h2>
-        <div className="serviceTitle"> Why it's Important</div>
+        <h1 className="h1services"> Optimization for Voice Search</h1>
+
+        <h2 className="serviceTitle"> What is Voice Search</h2>
+
+        <h2 className="serviceTitle">
+          {" "}
+          Why it's Important to be ready for Voice Search
+        </h2>
         <div className="serviceText">
           Voice search is already disrupting online marketing. It already
           represents an important share of the number of searches. In order to
           be ready for it, every website needs to understand how it changes
           classical SEO.
         </div>
-        <div className="serviceTitle"> To do</div>
-        <div className="serviceText">
-          A personalised report on voice searches for your industry and how this
-          affect your on-page SEO strategy and your "VIP" Keywords.
-        </div>
+
+        <h2 className="serviceTitle"> Questions</h2>
+
+        <h2 className="serviceTitle"> Longer Search terms</h2>
+
+        <h2 className="serviceTitle"> Increasing Search Volume</h2>
+
+        <h2 className="serviceTitle"> Featured Snippet</h2>
+
+        <h2 className="serviceTitle"> Quora</h2>
       </div>
     );
   }

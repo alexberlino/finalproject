@@ -18,7 +18,7 @@ class Internationalisation extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO: Internationalisation || SEO Berlino</title>
+          <title>Technical SEO - Internationalisation | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: internationalisation and why its important in SEO "

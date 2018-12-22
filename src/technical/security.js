@@ -21,7 +21,7 @@ class Security extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO: Security SEO Berlino</title>
+          <title>Technical SEO - HTTPS and SEO | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: HTTPS and security and why its important in SEO "

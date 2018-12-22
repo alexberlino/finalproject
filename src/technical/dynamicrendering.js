@@ -21,7 +21,7 @@ class DynamicRendering extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO: Dynamic Rendering || SEO Berlino</title>
+          <title>Technical SEO - Dynamic Rendering | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: dynamic rendering and why its important in SEO "

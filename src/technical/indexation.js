@@ -18,7 +18,7 @@ class Indexation extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO: Indexation|| SEO Berlino</title>
+          <title>Technical SEO - Indexation | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: indexation and why its important in SEO "

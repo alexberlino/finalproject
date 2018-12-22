@@ -15,8 +15,12 @@ class Analytics extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Analytics || SEO Berlino</title>
-          <meta type="description" content="" />
+          <title>Reseach & Analytics - Analysis for SEO | SEO Berlino</title>
+          <meta
+            type="description"
+            content="Analytics for SEO. Without Data, it is difficult
+              to make the right decisions."
+          />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/research/analytics"
@@ -30,8 +34,8 @@ class Analytics extends Component {
 
           <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
         </div>
-        <h2 className="h1services"> Analytics</h2>
-        <div className="serviceTitle"> Why it's (extremely) Important</div>
+        <h1 className="h1services"> Analytics SEO</h1>
+        <h2 className="serviceTitle"> Why it's (extremely) Important</h2>
         <div className="serviceText">
           In order to efficiently work in SEO, especially for on-page work, it
           is crucial to use reliable data, and analytics is key here in
@@ -39,7 +43,7 @@ class Analytics extends Component {
           number of visits/unique visitors and conversions for specific pages
           and site sections, or compare data by device type or browser.
         </div>
-        <div className="serviceTitle"> To do</div>
+        <h2 className="serviceTitle"> To do</h2>
         <div className="serviceText">
           Set-up or fix your Analytics if not implemented or if the data is not
           reliable. Create reports for SEO monitoring and controlling.

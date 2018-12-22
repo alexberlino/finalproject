@@ -15,8 +15,12 @@ class LandingPageOptimization extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Landing Page Optimization || SEO Berlino</title>
-          <meta type="description" content="" />
+          <title>Onpage SEO - Landing Page Optimization | SEO Berlino</title>
+          <meta
+            name="description"
+            content="Landing Page Optimization is not just about UX and graphics.
+                There are many SEO factors to look into: keywords targeting, content, linking, images and technical issues."
+          />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/onpage/landingpages"
@@ -30,7 +34,7 @@ class LandingPageOptimization extends Component {
           <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
         </div>
 
-        <h2 className="h1services"> Landing Page Optimization </h2>
+        <h1 className="h1services"> Landing Page Optimization </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Often, companies create Landing pages and then expect it to perform as
@@ -39,10 +43,19 @@ class LandingPageOptimization extends Component {
         </div>
         <div className="serviceTitle"> To do</div>
         <div className="serviceText">
-          Check how the Landing page(s) fit(s) within your website, its
-          connection to other pages and the landing page, internal and external
-          links pointing to it, content and semantics, technical aspects, image
-          optimization, and other relevancy factors.
+          <ul>
+            <li>
+              check how the page fits within the website, does it make sense in
+              the user journey?
+            </li>
+            <li>keyword targeting</li>
+            <li> outcoming links </li>
+
+            <li>how is the page linked internally and externally</li>
+            <li>content and semantics, out</li>
+            <li>technical aspects including pagespeed</li>
+            <li>image optimization</li>
+          </ul>
         </div>
       </div>
     );

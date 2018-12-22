@@ -18,8 +18,11 @@ class DuplicateContent extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Duplicate Content SEO Berlino</title>
-          <meta type="description" content="" />
+          <title>Onpage SEO - Duplicate Content | SEO Berlino</title>
+          <meta
+            name="description"
+            content="Duplicate Content and Semantics for SEO."
+          />{" "}
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/onpage/duplicatecontent"

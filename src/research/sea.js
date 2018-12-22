@@ -17,8 +17,11 @@ class SEA extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEA, Search Engine Advertising || SEO Berlino</title>
-          <meta type="description" content="" />
+          <title>Reseach & Analytics - ppc Google Ads | SEO Berlino</title>
+          <meta
+            name="description"
+            content="Paid Search Services with SEO Berlino."
+          />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/research/sea"
@@ -32,20 +35,35 @@ class SEA extends Component {
 
           <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
         </div>
-        <h2 className="h1services"> SEA, Search Engine Advertising</h2>
-        <div className="serviceTitle"> Why it's Important</div>
+        <h1 className="h1services"> SEA, Search Engine Advertising</h1>
+        <h2 className="serviceTitle">
+          {" "}
+          What is SEA? And what SEO and SEA have in common ?{" "}
+        </h2>
         <div className="serviceText">
           Paid Search uses the same base as SEO in keywords, and of course share
           the same space in SERPs (Search Engine Result Pages). With poor SEO
           visibility, SEA helps you to get those first visits to get going
-          and/or get visibility and bran awareness using the Display Network.
+          and/or get visibility and brand awareness using the Display Network.
         </div>
-        <div className="serviceTitle"> To do</div>
+        <h2 className="serviceTitle"> Adwords Set-up</h2>
         <div className="serviceText">
           Adwords Set-up and/or optimization, landing pages testing. Keywords
           bid ajustments depending on the strategy.
         </div>
-        <div className="serviceTitle"> Releted Tools and Resources</div>
+
+        <h2 className="serviceTitle"> Adwords Account Optimization</h2>
+        <div className="serviceText" />
+
+        <h2 className="serviceTitle"> Landing Page Optimization</h2>
+        <div className="serviceText" />
+
+        <h2 className="serviceTitle"> SEO / SEA Consistency </h2>
+        <div className="serviceText" />
+
+        <h2 className="serviceTitle"> Google Ads Data for SEO </h2>
+        <div className="serviceText" />
+        <h2 className="serviceTitle"> Releted Tools and Resources</h2>
         <div className="serviceText">
           <footer>Adwords </footer>
         </div>

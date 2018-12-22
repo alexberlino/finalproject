@@ -18,7 +18,7 @@ class PageSpeed extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO: PageSpeed || SEO Berlino</title>
+          <title>Technical SEO - Page Speed SEO | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: page speed and why its important in SEO "

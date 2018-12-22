@@ -36,7 +36,6 @@ import LandingPageOptimization from "./Onpage/LandingPageOptimization";
 import Metas from "./Onpage/Metas";
 import StructuredData from "./Onpage/StructuredData";
 import VoiceSearch from "./Onpage/VoiceSearch";
-import Adhoc from "./research/adhoc";
 import Analytics from "./research/analytics";
 import BestPractices from "./research/bestpractices";
 import LocalSEO from "./research/localseo";

@@ -18,7 +18,7 @@ class Crawlability extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO: Crawlability SEO Berlino</title>
+          <title>Technical SEO - Crawlability | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: crawlability and why its important in SEO "

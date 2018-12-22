@@ -15,7 +15,7 @@ class Metas extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Metas Tags Optimization SEO Berlino</title>
+          <title>Onpage SEO - Meta optimization | SEO Berlino</title>
           <meta type="description" content="" />
           <link
             rel="canonical"

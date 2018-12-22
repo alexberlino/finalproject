@@ -740,6 +740,15 @@ h4 {
   font-style: italic;
   font-size: 18px;
 }
+
+a.linkServices {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
 .articleID {
   display: block;
   position: relative;
@@ -1383,7 +1392,7 @@ h4 {
   color: black;
   position: relative;
   width: 100%;
-  font-size: 28px;
+  font-size: 66px;
   z-index: 100;
   opacity: 0.8;
   border-radius: 20px;
@@ -1393,8 +1402,8 @@ h4 {
   margin-left: 30%;
   width: 150px;
   height: 150px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .serviceTitle {

@@ -15,8 +15,8 @@ class BrandBuilding extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Off-page: brandbuilding SEO Berlino</title>
-          <meta type="description" content="" />
+          <title>Offpage SEO - Brand Building | SEO Berlino</title>
+          <meta name="description" content="" />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/offpage/brandbuilding"
@@ -29,13 +29,13 @@ class BrandBuilding extends Component {
 
           <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
         </div>
-        <h2 className="h1services"> Brandbuilding </h2>
+        <h1 className="h1services"> Brandbuilding </h1>
         <div className="serviceTitle"> Why it's Important</div>
         <div className="serviceText">
           Your links represent your reputation and relevancy in your domain.
           Linkbuilding now goes hand in hand with brandbuilding.
         </div>
-        <div className="serviceTitle"> To do</div>
+        <h2 className="serviceTitle"> To do</h2>
         <div className="serviceText">
           After doing an audit of your link profile and of your main SEO
           competitors, research influencers sources and websites where your

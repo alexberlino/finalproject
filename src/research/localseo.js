@@ -15,8 +15,11 @@ class LocalSEO extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Local SEO|| SEO Berlino</title>
-          <meta type="description" content="" />
+          <title>Reseach & Analytics - Local SEO | SEO Berlino</title>
+          <meta
+            name="description"
+            content="Local SEO : make sure that SEO is well optimized for your area"
+          />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/research/localseo"

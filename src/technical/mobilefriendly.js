@@ -21,7 +21,7 @@ class MobileFriendly extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO: MobileFriendly SEO Berlino</title>
+          <title>Technical SEO - Mobile First | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: mobile friendly and why its important in SEO "

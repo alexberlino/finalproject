@@ -15,10 +15,8 @@ class BestPractices extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            Best Practices when launching a new website || SEO Berlino
-          </title>
-          <meta type="description" content="" />
+          <title>Reseach & Analytics - Competitor Analysis | SEO Berlino</title>
+          <meta name="description" content="" />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/research/bestpractices"
@@ -32,20 +30,11 @@ class BestPractices extends Component {
 
           <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
         </div>
-        <h2 className="h1services"> Best Practices for new Websites</h2>
+        <h2 className="h1services"> Competitor Analysis</h2>
         <div className="serviceTitle"> Why it's Important</div>
-        <div className="serviceText">
-          Planning ahead the SEO strategy before building the website helps to
-          avoid re-doing parts of the website which could be SEO-unfriendly,
-          thus saving you time and euros.
-        </div>
+        <div className="serviceText" />
         <div className="serviceTitle"> To do</div>
-        <div className="serviceText">
-          {" "}
-          Assitance in your technical planning, understanding priorities,
-          retrictions and objectives and make sure it fits SEO-friendliness,
-          help you plan ahead a brandbuilding (link acquisition) strategy.
-        </div>
+        <div className="serviceText" />
       </div>
     );
   }

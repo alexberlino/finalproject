@@ -88,7 +88,7 @@ class Technical extends Component {
               {t("analyticsHP2")}
             </p>
             <p className="listServices" onClick={() => this.handleClick(3)}>
-              {t("analyticsHP4")}
+              {t("analyticsHP3")}
             </p>
 
             <p className="listServices" onClick={() => this.handleClick(5)}>
@@ -119,7 +119,7 @@ class Technical extends Component {
             <li>
               {" "}
               <a href={"/" + this.props.lng + "/research/bestpractices"}>
-                BEST PRACTICE{" "}
+                COMPETITOR ANALYSIS{" "}
               </a>
             </li>
 

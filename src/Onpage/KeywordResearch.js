@@ -15,8 +15,12 @@ class KeywordResearch extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Keyword Research || SEO Berlino</title>
-          <meta type="description" content="" />
+          <title>Onpage SEO - Keyword Research | SEO Berlino</title>
+          <meta
+            name="description"
+            content="Keyword research is one the most important first steps in SEO.
+              If you are not targeting the right ones, your whole strategy is at risk"
+          />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/onpage/keywordresearch"
@@ -30,49 +34,100 @@ class KeywordResearch extends Component {
           <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
         </div>
 
-        <h2 className="h1services"> Keyword Research </h2>
-        <div className="serviceTitle"> >Why it's (extremely) Important</div>
+        <h1 className="h1services"> Keyword Research </h1>
+        <h2 className="serviceTitle"> Why it's (extremely) Important</h2>
         <div className="serviceText">
-          {" "}
           Keyword Research is critical to understand how your potential clients
-          are searching for the products or services you are offering. There is
-          often a gap between the language of the users and the one the website
-          is using.
+          are searching for the products or services you are offering.
+          <p className="italic">
+            The keywords you are using for your site are possibly not the ones
+            your potential clients are using to look for your services.
+          </p>
         </div>
-        <div className="serviceTitle"> >To do</div>
+        <h2 className="serviceTitle"> To do</h2>
         <div className="serviceText">
-          {" "}
-          Research using a wide range of sources and provide you a list of the
-          best keywords for both broad/related reach and target niche, with
-          search volume and conversion potential. This activity is more and more
-          complex given that the huge majority of searches now represent a
-          maximum of 50 searches per month. Include *voice search*.
+          Good keyword research starts with gathering data:
+          <ul>
+            <li>keywords currently bringing traffic</li>
+            <li>keywords with impressions but no clicks</li>
+
+            <li>ppc data if any</li>
+
+            <li>keywords used by competitors</li>
+
+            <li>Keyword tools</li>
+          </ul>
+          <div className="italic">
+            which keywords have the most value for you?{" "}
+          </div>
+          <p>
+            Search Volume is not the most important factor, but if there is no
+            seach volume for the terms you want to optimize your site for, you
+            are already making your life difficult.
+          </p>
+          <p>
+            Equally, targeting high competitive keywords with very high Search
+            Volumes, or Keywords not related to products or services which you
+            offer will cause problems.
+          </p>
+          <p>
+            Set up a list of keywords: main keywords, broad terms, related
+            terms, long tail, each type of keywords having different objectives
+            the huge majority of searches now represent a maximum of 50 searches
+            per month.
+          </p>
+          <p>
+            <a
+              className="linkServices"
+              href={"/" + this.props.lng + "/onpage/voicesearch"}
+            >
+              Voice search
+            </a>{" "}
+            is creating a lof of disruption in terms of keywords research since
+            people use different phrases depending on whether they type of
+            speak. In general voice search keywords are longer and they are in
+            the form of a question.
+          </p>
         </div>
-        <div className="serviceTitle"> >Tools and Resources</div>
+        <h2 className="serviceTitle"> Tools and Resources</h2>
         <div className="serviceText">
-          <footer>Adwords Keyword Planner </footer>
-          <footer> Google's Search Console </footer>
-          <footer> SEMRush</footer>
-          <footer> Google Trends</footer>
-          <footer> ahrefs Keywords Explorer</footer>
-          <a className="block" href=" https://soovle.com/">
+          <a target="blank" className="block" href=" https://adwords.com/">
+            Adwords Keyword Planner{" "}
+          </a>
+          <a
+            target="blank"
+            className="block"
+            href=" https://searchconsole.com/"
+          >
+            Google's Search Console{" "}
+          </a>
+          <a target="blank" className="block" href=" https://semrush.com/">
+            SEMRush
+          </a>
+          <a target="blank" className="block" href=" https://googletrends.com/">
+            Google Trends
+          </a>
+          <a target="blank" className="block" href=" https://soovle.com/">
+            ahrefs Keywords Explorer
+          </a>
+          <a target="blank" className="block" href=" https://soovle.com/">
             Soovle
           </a>
-          <a className="block" href="https://keywordtool.io/">
+          <a target="blank" className="block" href="https://keywordtool.io/">
             keywordtool.io
           </a>
-          <a className="block" href="https://kwfinder.com/">
+          <a target="blank" className="block" href="https://kwfinder.com/">
             {" "}
             KW Finder{" "}
           </a>
-          <a className="block" href=" https://moz.com/explorer">
+          <a target="blank" className="block" href=" https://moz.com/explorer">
             {" "}
             Moz Keyword Explorer{" "}
           </a>
-          <a className="block" href="https://www.secockpit.com">
+          <a target="blank" className="block" href="https://www.secockpit.com">
             SECockpit
           </a>
-          <a className="block" href=" https://kwfinder.com/">
+          <a target="blank" className="block" href=" https://kwfinder.com/">
             KWFinder
           </a>
         </div>
