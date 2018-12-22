@@ -65,6 +65,44 @@ creation quality and brand awareness.`,
         aboutmetitle: `aboutme`,
         HPTitle: `SEO Freelancer in Berlin, SEO Consultant | SEO Berlino`,
         descriptionHP: `SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building`,
+        beratung: `SEO Advice`,
+        beratungText: `At the beginning of every SEO consultation, there is a personal conversation
+              to work together and discuss your
+              SEO needs and analyze the potential of your online presence.
+              After defining realistic SEO KPIs and goals,
+              we discuss to what extent my SEO consulting can bring you the most efficiency, and which
+              internal resources can be integrated in parallel. There are many options: consultancy, in which
+               my SEO recommendations are being implemented right through to
+              complete conception and implementation of the SEO measures. For
+              transparency each case is detailed how
+               measures are implemented and goals achieved.`,
+
+        audit: `Audit`,
+        auditText: `The SEO Audit First, I analyze where you are with your website
+                      stand. And that is to be understood literally: in which position
+                      Is your website for which keywords? How visible is yours
+                      Business on the Internet? How is your competition positioned? I
+                      evaluate the backlink profile of the site and see if it is
+                      may have technical issues with the site. Subsequently
+                      You will receive a detailed report on the results of the
+                      SEO audits.`,
+        KWResearch: `Keyword Research`,
+        KWResearchText: `
+A very important cornerstone for all future SEO measures is the keyword analysis. Here we generate a list of relevant keywords for your product or service. This list is evaluated and prioritized using the KEI (Keyword Efficiency Index). Another result of keyword analysis is the definition of threshold keywords.`,
+        OnPageOptimization: `Onpage Optimization`,
+        OnPageOptimizationText: `The Onpage
+  Optimization refers to any SEO action taken on the website
+  can be done by yourself. That concerns first and foremost
+  the optimization of the content and the code of the page. This is part of it
+  as well as the elaboration of the content strategy as well as the remedy
+  technical issues of the site.`,
+        OffpagePageOptimization: `Offpage Optimization`,
+        OffpagePageOptimizationText: `Offpage Optimization The Offpage
+        Optimization is certainly the most in the entire SEO process
+        most complex as well as the most important factor. It happens
+        all about the subject of link building. I identify relevant and
+        high quality link sources for new backlinks to yours
+        Website.`,
 
         getintouch_title: `Get in touch Alex Bieth | SEO Expert in Berlin`,
         blog: `blog`,
@@ -126,7 +164,9 @@ creation quality and brand awareness.`,
         research_main: `​ ​ ​ ​ ​ What are my competitors ranking ahead of me doing that I am not, and that I could test? Who is linking to my competitors and why not to me? But don't copy, do better! ​ Know what your competitors are up to Contact Us Content of Competitor Analysis: ​ Main SEO Competitors Identification Backlink profile Keyword Analysis, main landing pages organisation and site structure Indexation Page load time comparition and other technical checks Internationalisation and more`,
         impressum_title: `Impressum SEO Berlino | SEO Expert in Berlin`,
         footer1: `All Right Reserved 2018 Alex Bieth`,
-        footer2: `about this website`
+        footer2: `about this website`,
+        boost1: `BOOST YOUR TRAFFIC WITH`,
+        boost2: `OPTIMIZED KEYWORD TARGETING!`
       }
     }, //en
 
@@ -197,9 +237,49 @@ creation quality and brand awareness.`,
         technicalHP5: `Mobile-friendliness,`,
         technicalHP6: `Javascrips apps und SEO: dynamisches Rendering`,
         technicalHP7: `Sicherheit und Website-Migration`,
-
+        audit: `Audit`,
+        auditText: ` Das SEO Audit Zunächst analysiere ich, wo Sie mit Ihrer Website
+                      stehen. Und das ist wörtlich zu verstehen: Auf welcher Position
+                      steht Ihre Website für welche Keywords? Wie sichtbar ist Ihr
+                      Unternehmen im Internet? Wie ist Ihr Wettbewerb positioniert? Ich
+                      werte das Backlink-Profil der Website aus und prüfe, ob es
+                      eventuell technische Probleme mit der Website gibt. Anschließend
+                      erhalten Sie einen ausführlichen Bericht über die Ergebnisse des
+                      SEO-Audits.`,
+        KWResearch: `Keywordanalyse`,
+        KWResearchText: `Ein ganz wichtiger Grundstein für alle zukünftigen SEO Maßnahmen
+        ist die Keywordanalyse. Hier generieren wir eine Liste der für Ihr Produkt oder Ihre
+        Dienstleistungen relevanten Keywords. Diese Liste wird mit Hilfe des KEI (Keyword Efficiency-Index)
+        ausgewertet und priorisiert. Ein weiteres Ergebnis der Keywordanalyse ist die Definition von Schwellenkeywords.`,
+        OnPageOptimization: `Onpage Optimierung`,
+        OnPageOptimizationText: `Onpage Optimierung Die Onpage
+  Optimierung bezeichnet alle SEO-Maßnahmen, die auf der Website
+  selbst durchgeführt werden können. Das betrifft in erster Linie
+  die Optimierung des Inhalts und des Codes der Seite. Dazu gehört
+  ebenso die Ausarbeitung der Content-Strategie wie die Behebung
+  technischer Probleme der Website.`,
+        OffpagePageOptimization: `Offpage Optimierung`,
+        OffpagePageOptimizationText: `Offpage Optimierung Die Offpage
+        Optimierung ist im gesamten SEO-Prozess wohl sicher der
+        komplexeste wie auch der wichtigste Faktor. Dabei geht es vor
+        allem um das Thema Linkbuilding. Ich identifiziere relevante und
+        qualitativ hochwertige Linkquellen für neue Backlinks auf Ihre
+        Website.`,
         services: `SEO`,
         servicesL: `beratung`,
+        beratung: `SEO Beratung`,
+        beratungText: `      Am Anfang jeder SEO Beratung steht das persönliche Gespräch Bei
+              unserem ersten Kundentermin erarbeiten wir gemeinsam Ihren
+              SEO-Bedarf und analysieren das Potential Ihrer Online-Präsenz.
+              Nachdem wir realistische SEO-KPIs und -Ziele definiert haben,
+              besprechen wir, in welchem Umfang meine SEO-Beratung Ihr
+              Unternehmen am effizientesten nach vorne bringt und welche
+              internen Ressourcen parallel eingebunden werden können. Dabei sind
+              alle Szenarien denkbar: eine begleitende Beratung, bei der im
+              Unternehmen meine SEO-Empfehlungen umgesetzt werden bis hin zur
+              kompletten Konzeption und Umsetzung der SEO-Maßnahmen. Für
+              Transparenz sorgt in jedem Fall ein detailliertes Reporting über
+              die umgesetzten Maßnahmen und erreichten Ziele.`,
         technical: `TECHNISCHES SEO`,
         about: `ÜBER MICH`,
         contact: `KONTAKT`,
@@ -252,7 +332,9 @@ creation quality and brand awareness.`,
         research_main: `​ Was rangieren meine Konkurrenten vor mir, die ich nicht bin und die ich testen könnte? Wer verlinkt zu meiner Konkurrenz und warum nicht zu mir? Aber nicht kopieren, besser machen! Wissen Sie, was Ihre Mitbewerber vorhaben Kontaktieren Sie uns Inhalt der Konkurrenzanalyse: Haupt-SEO Wettbewerber Identifikation Backlink-Profil Keyword-Analyse, Hauptlandungsseiten Organisation und Seitenstruktur Indexierung Seite Ladezeit Vergleich und andere technische Prüfungen Internationalisierung und mehr`,
         impressum_title: `Impressum SEO Berlino || SEO Beratung in Berlin`,
         footer1: `Alle Rechte vorbehalten. 2018 Alex Bieth`,
-        footer2: `über diese Webseite`
+        footer2: `über diese Webseite`,
+        boost1: `NUR MIT DEN BESTEN KEYWORDS`,
+        boost2: `KOMMT DER BESTE TRAFFIC!`
       }
     }, //de
 
@@ -267,7 +349,7 @@ creation quality and brand awareness.`,
         hey7: `Analyse compétiteurs`,
         hey8: `Audit Off-Page`,
         clients: `clients`,
-        intro1: `Hallo ! Je suis Alex, expert SEO franco-anglais basé à Berlin depuis 2010.`,
+        intro1: `Hallo ! Je suis Alex, 10 ans d'expérience, expert SEO franco-anglais basé à Berlin depuis 2010.`,
         intro2: `9 années d'experience en SEO, SEA et Analyse Web.`,
         intro3: `Dévelopeur Full Stack`,
         intro4: `Analyse, action plan avec prios, controlling`,
@@ -292,6 +374,32 @@ creation quality and brand awareness.`,
  and backlinks`,
         brandbuilding3: `Based on user & influencers interests to boost quality link
 creation quality and brand awareness.`,
+        audit: `Audit SEO`,
+        auditText: `L'audit SEO Tout d'abord, j'analyse où vous en êtes avec votre site web
+                      debout. Et cela doit être compris littéralement: dans quelle position
+                      Votre site Web contient-il des mots clés? Quelle est votre visibilité?
+                      Des affaires sur Internet? Comment se positionne votre concurrence? Je
+                      évaluer le profil de lien retour du site et voir s'il est
+                      peut avoir des problèmes techniques avec le site. par la suite
+                      Vous recevrez un rapport détaillé sur les résultats de la
+                      audits SEO.`,
+        KWResearch: `Analyse Mots Clés`,
+        KWResearchText: `
+L'analyse des mots clés est une pierre angulaire très importante pour toutes les mesures de référencement futures. Ici, nous générons une liste de mots-clés pertinents pour votre produit ou service. Cette liste est évaluée et hiérarchisée à l'aide du KEI (Keyword Efficiency Index). Un autre résultat de l'analyse par mots clés est la définition des mots clés de seuil.`,
+        OnPageOptimization: `Optimisation Onpage`,
+        OnPageOptimizationText: `Optimisation Onpage The Onpage
+              L'optimisation fait référence à toute action de référencement entreprise sur le site
+              peut être fait par vous-même. Cela concerne avant tout
+              l'optimisation du contenu et du code de la page. Cela en fait partie
+              ainsi que l'élaboration de la stratégie de contenu ainsi que le remède
+              problèmes techniques du site.`,
+        OffpagePageOptimization: `Optimisation Offpage`,
+        OffpagePageOptimizationText: `Optimisation Offpage The Offpage
+        L'optimisation est certainement le plus dans tout le processus de référencement
+        le plus complexe ainsi que le facteur le plus important. Ça arrive
+        tout sur le sujet de la construction de liens. J'identifie pertinent et
+        liens de haute qualité pour de nouveaux liens vers les vôtres
+        Site Web.`,
 
         blog: `blog (en anglais)`,
         analyticsHP1: `SEO Local`,
@@ -306,6 +414,18 @@ creation quality and brand awareness.`,
         onpageHP3: `liens internees et architecture du site,`,
         onpageHP4: `meta tags & headers,`,
         onpageHP5: `related tags & breadcrumb`,
+        beratung: `Conseils SEO`,
+        beratungText: `Au début de chaque consultation de référencement il y une conversation personnelle
+              Nous travaillons ensemble durant premier rendez-vous client
+              sur le référencement et l'analyse du potentiel de votre présence en ligne
+              Nous définissons les indicateurs de performance et des objectifs de référencement réalistes,
+              Nous devons aussi établir comme votre entreprise peut efficacement utiliser ses
+               ressources internes pour être intégrées en parallèle. Il y a
+              de nombreux scénarios possibles: une consultation d'accompagnement, dans laquelle
+               mes recommandations de référencement sont mises en œuvre jusqu'à
+              conception complète et mise en œuvre des mesures de référencement.
+              La transparence est garantie dans chaque cas avec un rapport détaillé avec
+              les mesures mises en œuvre et les objectifs atteints.`,
 
         onpageHP8: `structured data,`,
         onpageHP9: `contenu dupliqué & canonicalization`,
@@ -333,7 +453,7 @@ creation quality and brand awareness.`,
         subject: `Sujet  `,
         message: `Message*  `,
         sendMessage: `ENVOYER`,
-        aboutmetitle: `qui suis-je`,
+        aboutmetitle: `moi`,
 
         getintouch: `Contact`,
         aboutme: `SEO Experte und Freelancer in Berlin | SEO Berlino`,
@@ -343,7 +463,9 @@ creation quality and brand awareness.`,
         services: `SERVICES`,
 
         impressum_title: `Impressum SEO Berlino | SEO Beratung in Berlin`,
-        footer1: `tous droits réservés. 2018 Alex Bieth`
+        footer1: `tous droits réservés. 2018 Alex Bieth`,
+        boost1: `BIEN IDENTIFIER SES MOTS CLÉS`,
+        boost2: `POUR PLUS DE TRAFIC DE QUALITÉ`
       }
     }, //fr
 

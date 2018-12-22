@@ -166,6 +166,16 @@ form {
   width: 30%;
 }
 
+.boost {
+  position: relative;
+
+  top: 300px;
+  left: 10%;
+  font-size: 40px;
+  z-index: 10;
+  color: white;
+}
+
 .field {
   display: flex;
   background-color: white;
@@ -549,6 +559,7 @@ section {
   font-size: 19px;
   margin-left: 15%;
   margin-top: 21px;
+  width: 40%;
 }
 
 .txt4 {
@@ -1473,7 +1484,7 @@ table th {
 }
 
 .center {
-  margin-left: 15%;
+  margin-left: 18%;
   text-align: center;
 }
 
@@ -1508,7 +1519,6 @@ table th {
   opacity: 0.95;
   position: relative;
   width: 80%;
-  height: auto;
   display: flex;
   padding: 20px;
 }

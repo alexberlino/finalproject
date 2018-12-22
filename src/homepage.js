@@ -195,16 +195,42 @@ class Homepage extends Component {
                 <p className="txt2">{t("brandbuilding3")}</p>
               </div>
             </div>
-          </div>
-          <h3>BOOST YOUR TRAFFIC WITH OPTIMIZED KEYWORD TARGETING!</h3>
 
-          <div>
+            <h3 className="boost">{t("boost1")}</h3>
+            <h3 className="boost">{t("boost2")}</h3>
+
             <img
               className="center"
               src="/traffic.jpg"
               height="60%"
               width="60%"
             />
+          </div>
+
+          <div className="intro1">
+            <p className="txt3">
+              <h2> {t("beratung")}</h2>
+              {t("beratungText")}
+            </p>
+
+            <p className="txt3">
+              <h2> {t("audit")}</h2>
+              {t("auditText")}
+            </p>
+
+            <p className="txt3">
+              <h2>{t("KWResearch")}</h2>
+              {t("KWResearchText")}
+            </p>
+
+            <p className="txt3">
+              <h2>{t("OnPageOptimization")}</h2>
+              {t("OnPageOptimizationText")}
+            </p>
+            <p className="txt3">
+              <h2>{t("OffpagePageOptimization")}</h2>
+              {t("OffpagePageOptimizationText")}
+            </p>
           </div>
 
           <div>
