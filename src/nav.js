@@ -35,7 +35,7 @@ class Navigation extends Component {
 
           <div className="languageBtn">
             <Link
-              className="languageBtnDE"
+              className="languageBtnEN"
               onClick={() => this.props.languageChange("de")}
               to={"/de" + this.props.page}
             >
@@ -47,6 +47,14 @@ class Navigation extends Component {
               onClick={() => this.props.languageChange("en")}
             >
               EN
+            </Link>
+
+            <Link
+              className="languageBtnEN"
+              onClick={() => this.props.languageChange("fr")}
+              to={"/fr" + this.props.page}
+            >
+              FR
             </Link>
           </div>
 

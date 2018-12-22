@@ -147,6 +147,18 @@ class App extends Component {
                 />
                 <Route
                   exact
+                  path="/fr"
+                  render={() => (
+                    <Homepage
+                      pageChange={this.changePage}
+                      lang={lang}
+                      page={page}
+                    />
+                  )}
+                />
+
+                <Route
+                  exact
                   path="/de"
                   render={() => (
                     <Homepage
@@ -157,54 +169,35 @@ class App extends Component {
                     />
                   )}
                 />
-                <Route
-                  exact
-                  path="/en/article/:url"
-                  render={() => <Article lang={lang} page={page} />}
-                />
 
                 <Route
                   exact
-                  path="/en/cookies"
+                  path="/:lang/cookies"
                   render={() => <Cookies lang={lang} page={page} />}
                 />
                 <Route
                   exact
-                  path="/de/cookies"
-                  render={() => <Cookies lang={lang} page={page} />}
-                />
-                <Route
-                  exact
-                  path="/en/english-german-seo-lexicon"
+                  path="/:lang/english-german-seo-lexicon"
                   render={() => <SeoLexicon lang={lang} page={page} />}
                 />
                 <Route
                   exact
-                  path="/de/article/:url"
+                  path="/:lang/article/:url"
                   render={() => <Article lang={lang} page={page} />}
                 />
 
                 <Route
                   exact
-                  path="/en/aboutthiswebsite"
-                  render={() => <About2 lang={lang} page={page} />}
-                />
-                <Route
-                  exact
-                  path="/de/aboutthiswebsite"
+                  path="/:lang/aboutthiswebsite"
                   render={() => <About2 lang={lang} page={page} />}
                 />
 
                 <Route
                   exact
-                  path="/en/contact"
+                  path="/:lang/contact"
                   render={() => <Contact i18n={this.props.i18n} />}
                 />
-                <Route
-                  exact
-                  path="/de/contact"
-                  render={() => <Contact i18n={this.props.i18n} />}
-                />
+
                 <Route exact path="/:lang/offpage" render={() => <Offpage />} />
 
                 <Route
@@ -385,53 +378,9 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/de/blog"
+                  path="/:lang/blog"
                   render={() => (
                     <Blog
-                      lang={lang}
-                      page={page}
-                      pageChange={this.changePage}
-                    />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/en/blog"
-                  render={() => (
-                    <Blog
-                      lang={lang}
-                      page={page}
-                      pageChange={this.changePage}
-                    />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/en/seonews"
-                  render={() => (
-                    <SEONews
-                      lang={lang}
-                      page={page}
-                      pageChange={this.changePage}
-                    />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/de/seonews"
-                  render={() => (
-                    <SEONews
-                      lang={lang}
-                      page={page}
-                      pageChange={this.changePage}
-                    />
-                  )}
-                />
-                <Route
-                  exact
-                  path="/de/resources"
-                  render={() => (
-                    <Resources
                       lang={lang}
                       page={page}
                       pageChange={this.changePage}
@@ -441,7 +390,19 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/en/resources"
+                  path="/:lang/seonews"
+                  render={() => (
+                    <SEONews
+                      lang={lang}
+                      page={page}
+                      pageChange={this.changePage}
+                    />
+                  )}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/resources"
                   render={() => (
                     <Resources
                       lang={lang}

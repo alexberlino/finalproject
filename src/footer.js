@@ -37,6 +37,16 @@ class Footer extends Component {
             >
               EN
             </a>
+
+            <a
+              onClick={() => this.props.languageChange("fr")}
+              className="footerflags"
+              title="en français"
+              name="en français"
+              href={"/fr" + this.props.page}
+            >
+              FR
+            </a>
           </div>
         </div>
         <div className="footerLinks footerQuarter">
