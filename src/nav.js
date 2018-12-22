@@ -12,6 +12,20 @@ import Backdrop from "./Backdrop";
 class Navigation extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      selectedEN: "",
+      selectedFR: "",
+      selectedDE: ""
+    };
+  }
+  componentDidMount() {
+    if (this.props.lang == "en") {
+      this.state.selectedEN = "langselected";
+    } else if (this.props.lang == "fr") {
+      this.state.selectedFR = "langselected";
+    } else if (this.props.lang == "de") {
+      this.state.selectedDE = "langselected";
+    }
   }
 
   //location.pathname.slice(4)
@@ -35,23 +49,44 @@ class Navigation extends Component {
 
           <div className="languageBtn">
             <Link
-              className="languageBtnEN"
-              onClick={() => this.props.languageChange("de")}
+              className={"languageBtnEN " + this.state.selectedDE}
+              onClick={() =>
+                this.props.languageChange("de") ||
+                this.setState({
+                  selectedDE: "langselected",
+                  selectedEN: "",
+                  selectedFR: ""
+                })
+              }
               to={"/de" + this.props.page}
             >
               DE
             </Link>
             <Link
-              className="languageBtnEN"
+              className={"languageBtnEN " + this.state.selectedEN}
               to={"/en" + this.props.page}
-              onClick={() => this.props.languageChange("en")}
+              onClick={() =>
+                this.props.languageChange("en") ||
+                this.setState({
+                  selectedDE: "",
+                  selectedEN: "langselected",
+                  selectedFR: ""
+                })
+              }
             >
               EN
             </Link>
 
             <Link
-              className="languageBtnEN"
-              onClick={() => this.props.languageChange("fr")}
+              className={"languageBtnEN " + this.state.selectedFR}
+              onClick={() =>
+                this.props.languageChange("fr") ||
+                this.setState({
+                  selectedDE: "",
+                  selectedEN: "",
+                  selectedFR: "langselected"
+                })
+              }
               to={"/fr" + this.props.page}
             >
               FR

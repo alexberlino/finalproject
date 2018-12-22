@@ -114,7 +114,7 @@ class ContactMain extends Component {
               />
             </FormGroup>
 
-            <Button className="formButton">Submit </Button>
+            <Button className="formButton">{t("sendMessage")} </Button>
           </Form>
         </div>
         <div className="rightContact">

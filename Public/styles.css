@@ -1185,7 +1185,12 @@ a.linkServices {
 
 .languageBtn a:hover {
   color: white;
-  background-color: #400000;
+  background-color: black;
+}
+
+.langselected {
+  color: white;
+  background-color: black;
 }
 .breadcrumb a {
   color: black;
@@ -1445,8 +1450,9 @@ table th {
 }
 
 .resourcesLinks {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 15%;
+  margin-bottom: 5%;
 }
 
 .resourcesLinks a {

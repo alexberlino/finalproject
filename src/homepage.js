@@ -52,6 +52,8 @@ class Homepage extends Component {
 
   render() {
     const { t, i18n } = this.props;
+    console.log(this.state.lang);
+    console.log(this.state.lng);
 
     return (
       <div className="mainHP">
@@ -62,10 +64,7 @@ class Homepage extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng}
           />
           <title>{t("HPTitle")}</title>
-          <meta
-            name="description"
-            content="SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building"
-          />
+          <meta name="description" content={t("descriptionHP")} />
         </Helmet>
 
         <img
@@ -73,7 +72,7 @@ class Homepage extends Component {
           width="100%"
           height="40%"
           className="berlin"
-          alt="Photo of Berlin"
+          alt="Photo of Berlin, SEO Berlino, SEO consultant in Berlin"
           title="Berlin landscape, a photo by Stefan Widua"
         />
 
