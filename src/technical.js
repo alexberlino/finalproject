@@ -69,116 +69,120 @@ class Technical extends Component {
             href="https://www.seoberlino.com/en/technical"
           />
         </Helmet>
-        <div className="breadcrumb2">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb2">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
-        </div>
-
-        <div className="infoTitle">
-          <img
-            alt="technical"
-            src="/technical.svg"
-            className="logoAnimationServices"
-          />
-        </div>
-
-        <div className="services">
-          <div className={this.state.hide + " leftServices"}>
-            <p className="listServices" onClick={() => this.handleClick(1)}>
-              {t("technicalHP1")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(2)}>
-              {t("technicalHP2")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(3)}>
-              {t("technicalHP3")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(4)}>
-              {t("technicalHP4")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(5)}>
-              {t("technicalHP5")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(6)}>
-              {t("technicalHP6")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(7)}>
-              {t("technicalHP7")}
-            </p>
+            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
 
-          <div className={this.state.toggle + " rightServices"}>
-            {this.state.show == 1 ? <Indexation /> : null}
-            {this.state.show == 2 ? <Crawlability /> : null}
-            {this.state.show == 3 ? <Internationalisation /> : null}
-            {this.state.show == 4 ? <PageSpeed /> : null}
-            {this.state.show == 5 ? <MobileFriendly /> : null}
-            {this.state.show == 6 ? <DynamicRendering /> : null}
-            {this.state.show == 7 ? <Security /> : null}
+          <div className="infoTitle">
+            <img
+              alt="technical"
+              src="/technical.svg"
+              className="logoAnimationServices"
+            />
           </div>
-        </div>
 
-        <div className={this.state.hide2}>
-          <div className="linkstoPageMainDiv2">
-            <ul>
-              <li>
-                <a href={"/" + this.props.lng + "/technical/crawlability"}>
-                  CRAWLABILITY
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/technical/dynamicrendering"}>
-                  DYNAMIC RENDERING
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a
-                  href={
-                    "/" + this.props.lng + "/technical/internationalisation"
-                  }
-                >
-                  INTERNATIONALISATION
-                </a>
-              </li>
+          <div className="services">
+            <div className={this.state.hide + " leftServices"}>
+              <p className="listServices" onClick={() => this.handleClick(1)}>
+                {t("technicalHP1")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(2)}>
+                {t("technicalHP2")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(3)}>
+                {t("technicalHP3")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(4)}>
+                {t("technicalHP4")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(5)}>
+                {t("technicalHP5")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(6)}>
+                {t("technicalHP6")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(7)}>
+                {t("technicalHP7")}
+              </p>
+            </div>
 
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/technical/mobilefriendly"}>
-                  MOBILE FRIENDLY
-                </a>
-              </li>
-
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/technical/pagespeed"}>
-                  PAGESPEED
-                </a>
-              </li>
-
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/technical/security"}>
-                  SECURITY
-                </a>
-              </li>
-
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/technical/indexation"}>
-                  INDEXATION
-                </a>
-              </li>
-            </ul>
+            <div className={this.state.toggle + " rightServices"}>
+              {this.state.show == 1 ? <Indexation /> : null}
+              {this.state.show == 2 ? <Crawlability /> : null}
+              {this.state.show == 3 ? <Internationalisation /> : null}
+              {this.state.show == 4 ? <PageSpeed /> : null}
+              {this.state.show == 5 ? <MobileFriendly /> : null}
+              {this.state.show == 6 ? <DynamicRendering /> : null}
+              {this.state.show == 7 ? <Security /> : null}
+            </div>
           </div>
-          <LinksToPages
-            pageChange={this.props.pageChange}
-            lang={this.props.lng}
-          />
+
+          <div className={this.state.hide2}>
+            <div className="linkstoPageMainDiv2">
+              <ul>
+                <li>
+                  <a href={"/" + this.props.lng + "/technical/crawlability"}>
+                    CRAWLABILITY
+                  </a>
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href={"/" + this.props.lng + "/technical/dynamicrendering"}
+                  >
+                    DYNAMIC RENDERING
+                  </a>
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    href={
+                      "/" + this.props.lng + "/technical/internationalisation"
+                    }
+                  >
+                    INTERNATIONALISATION
+                  </a>
+                </li>
+
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/technical/mobilefriendly"}>
+                    MOBILE FRIENDLY
+                  </a>
+                </li>
+
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/technical/pagespeed"}>
+                    PAGESPEED
+                  </a>
+                </li>
+
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/technical/security"}>
+                    SECURITY
+                  </a>
+                </li>
+
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/technical/indexation"}>
+                    INDEXATION
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <LinksToPages
+              pageChange={this.props.pageChange}
+              lang={this.props.lng}
+            />
+          </div>
         </div>
       </div>
     );

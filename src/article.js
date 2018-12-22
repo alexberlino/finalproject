@@ -85,32 +85,36 @@ class Article extends Component {
             href={"https://www.seoberlino.com/en/article" + this.state.url}
           />
         </Helmet>
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lang}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lang}>> HOME ></a>
 
-          <a href={"/" + this.props.lang + "/blog"}> BLOG ></a>
-        </div>
+            <a href={"/" + this.props.lang + "/blog"}> BLOG ></a>
+          </div>
 
-        <div className="mainBlog">
-          <div className="articleTitle">
-            <h1>{this.state.title}</h1>
-          </div>
-          <div className="articleAuthor">{"Author:  " + this.state.author}</div>
-          <div className="articleDate">
-            {"Date published:  " + this.state.dat}
-          </div>
-          <div className="articleID">{"#" + this.state.id}</div>
-          <img
-            src={this.state.imageurl}
-            className="articlePic"
-            alt="blog article"
-          />
-          <div
-            className="articleArticle"
-            dangerouslySetInnerHTML={this.createMarkup()}
-          />
-          <div>
-            <LinksToPages className="linkToPages" />
+          <div className="mainBlog">
+            <div className="articleTitle">
+              <h1>{this.state.title}</h1>
+            </div>
+            <div className="articleAuthor">
+              {"Author:  " + this.state.author}
+            </div>
+            <div className="articleDate">
+              {"Date published:  " + this.state.dat}
+            </div>
+            <div className="articleID">{"#" + this.state.id}</div>
+            <img
+              src={this.state.imageurl}
+              className="articlePic"
+              alt="blog article"
+            />
+            <div
+              className="articleArticle"
+              dangerouslySetInnerHTML={this.createMarkup()}
+            />
+            <div>
+              <LinksToPages className="linkToPages" />
+            </div>
           </div>
         </div>
       </div>

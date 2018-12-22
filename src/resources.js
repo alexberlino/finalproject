@@ -35,6 +35,8 @@ class Resources extends Component {
           />
         </Helmet>
 
+        <div className="main2" />
+
         <div className="breadcrumb">
           <a href={"/" + this.props.lang}>> HOME ></a>
 

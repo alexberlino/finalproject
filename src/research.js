@@ -63,85 +63,87 @@ class Technical extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/research" />
         </Helmet>
-        <div className="breadcrumb2">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+        <div className="main2">
+          <div className="breadcrumb2">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-          <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
-        </div>
-
-        <div className="infoTitle">
-          <img
-            alt="research and analytics"
-            src="/analytics.svg"
-            className="logoAnimationServices"
-          />
-        </div>
-
-        <div className="services">
-          <div className={this.state.hide + " leftServices"}>
-            <p className="listServices" onClick={() => this.handleClick(1)}>
-              {t("analyticsHP1")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(2)}>
-              {t("analyticsHP2")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(3)}>
-              {t("analyticsHP3")}
-            </p>
-
-            <p className="listServices" onClick={() => this.handleClick(5)}>
-              {t("analyticsHP6")}
-            </p>
+            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
 
-          <div className={this.state.toggle + " rightServices"}>
-            <div className="closeX" onClick={() => this.handleClickClose()}>
-              {" "}
-              X{" "}
+          <div className="infoTitle">
+            <img
+              alt="research and analytics"
+              src="/analytics.svg"
+              className="logoAnimationServices"
+            />
+          </div>
+
+          <div className="services">
+            <div className={this.state.hide + " leftServices"}>
+              <p className="listServices" onClick={() => this.handleClick(1)}>
+                {t("analyticsHP1")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(2)}>
+                {t("analyticsHP2")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(3)}>
+                {t("analyticsHP3")}
+              </p>
+
+              <p className="listServices" onClick={() => this.handleClick(5)}>
+                {t("analyticsHP6")}
+              </p>
             </div>
-            {this.state.show == 1 ? <LocalSEO /> : null}
-            {this.state.show == 2 ? <Analytics /> : null}
-            {this.state.show == 3 ? <BestPractices /> : null}
-            {this.state.show == 4 ? <Adhoc /> : null}
-            {this.state.show == 5 ? <SEA /> : null}
+
+            <div className={this.state.toggle + " rightServices"}>
+              <div className="closeX" onClick={() => this.handleClickClose()}>
+                {" "}
+                X{" "}
+              </div>
+              {this.state.show == 1 ? <LocalSEO /> : null}
+              {this.state.show == 2 ? <Analytics /> : null}
+              {this.state.show == 3 ? <BestPractices /> : null}
+              {this.state.show == 4 ? <Adhoc /> : null}
+              {this.state.show == 5 ? <SEA /> : null}
+            </div>
           </div>
-        </div>
-        <div className="linkstoPageMainDiv2">
-          <ul>
-            <li>
-              {" "}
-              <a href={"/" + this.props.lng + "/research/analytics"}>
-                ANALYTICS{" "}
-              </a>
-            </li>
-            <li>
-              {" "}
-              <a href={"/" + this.props.lng + "/research/bestpractices"}>
-                COMPETITOR ANALYSIS{" "}
-              </a>
-            </li>
+          <div className="linkstoPageMainDiv2">
+            <ul>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/research/analytics"}>
+                  ANALYTICS{" "}
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/research/bestpractices"}>
+                  COMPETITOR ANALYSIS{" "}
+                </a>
+              </li>
 
-            <li>
-              {" "}
-              <a href={"/" + this.props.lng + "/research/localseo"}>
-                LOCAL SEO{" "}
-              </a>
-            </li>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/research/localseo"}>
+                  LOCAL SEO{" "}
+                </a>
+              </li>
 
-            <li>
-              {" "}
-              <a href={"/" + this.props.lng + "/research/sea"}>SEA </a>
-            </li>
-          </ul>
-        </div>
+              <li>
+                {" "}
+                <a href={"/" + this.props.lng + "/research/sea"}>SEA </a>
+              </li>
+            </ul>
+          </div>
 
-        <div className={this.state.hide2}>
-          <LinksToPages
-            pageChange={this.props.pageChange}
-            lang={this.props.lng}
-          />
+          <div className={this.state.hide2}>
+            <LinksToPages
+              pageChange={this.props.pageChange}
+              lang={this.props.lng}
+            />
+          </div>
         </div>
       </div>
     );

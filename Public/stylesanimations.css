@@ -83,15 +83,15 @@
 }
 
 .bounce-in-top {
-  animation: bounce-in-top 3s;
+  animation: bounce-in-top 1s;
 }
 
 .fade-in {
-  animation: fade-in 2s;
+  animation: fade-in 1s;
 }
 
 .slide-in-left {
-  animation: slide-in-left 2s;
+  animation: slide-in-left 1s;
 }
 
 @-webkit-keyframes bounce-in-top {

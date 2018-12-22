@@ -67,135 +67,138 @@ class Onpage extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/onpage" />
         </Helmet>
-        <div className="breadcrumb2">
-          <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+        <div className="main2">
+          <div className="breadcrumb2">
+            <a href={"/" + this.props.lng}>> HOME ></a>
 
-          <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-        </div>
+            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
 
-        <div className="infoTitle">
-          <img
-            alt="onpage"
-            src="/onpage.svg"
-            className="logoAnimationServices"
-          />
-        </div>
-        <div className="services">
-          <div className={this.state.hide + " leftServices"}>
-            <p className="listServices" onClick={() => this.handleClick(1)}>
-              {t("onpageHP1")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(2)}>
-              {t("onpageHP2")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(3)}>
-              {t("onpageHP3")} {t("onpageHP5")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(4)}>
-              {t("onpageHP4")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(5)}>
-              {t("onpageHP6")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(6)}>
-              {t("onpageHP7")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(7)}>
-              {t("onpageHP8")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(8)}>
-              {t("onpageHP9")}
-            </p>
-            <p className="listServices" onClick={() => this.handleClick(9)}>
-              {t("onpageHP10")}
-            </p>
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <div className={this.state.toggle + " rightServices"}>
-            <div className="closeX" onClick={() => this.handleClickClose()}>
-              {" "}
-              X{" "}
+          <div className="infoTitle">
+            <img
+              alt="onpage"
+              src="/onpage.svg"
+              className="logoAnimationServices"
+            />
+          </div>
+          <div className="services">
+            <div className={this.state.hide + " leftServices"}>
+              <p className="listServices" onClick={() => this.handleClick(1)}>
+                {t("onpageHP1")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(2)}>
+                {t("onpageHP2")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(3)}>
+                {t("onpageHP3")} {t("onpageHP5")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(4)}>
+                {t("onpageHP4")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(5)}>
+                {t("onpageHP6")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(6)}>
+                {t("onpageHP7")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(7)}>
+                {t("onpageHP8")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(8)}>
+                {t("onpageHP9")}
+              </p>
+              <p className="listServices" onClick={() => this.handleClick(9)}>
+                {t("onpageHP10")}
+              </p>
             </div>
-            {this.state.show == 1 ? <KeywordResearch /> : null}
-            {this.state.show == 2 ? <LandingPageOptimization /> : null}
-            {this.state.show == 3 ? <InternalLinking /> : null}
-            {this.state.show == 4 ? <Metas /> : null}
-            {this.state.show == 5 ? <Content /> : null}
-            {this.state.show == 6 ? <Images /> : null}
-            {this.state.show == 7 ? <StructuredData /> : null}
-            {this.state.show == 8 ? <DuplicateContent /> : null}
-            {this.state.show == 9 ? <VoiceSearch /> : null}
+
+            <div className={this.state.toggle + " rightServices"}>
+              <div className="closeX" onClick={() => this.handleClickClose()}>
+                {" "}
+                X{" "}
+              </div>
+              {this.state.show == 1 ? <KeywordResearch /> : null}
+              {this.state.show == 2 ? <LandingPageOptimization /> : null}
+              {this.state.show == 3 ? <InternalLinking /> : null}
+              {this.state.show == 4 ? <Metas /> : null}
+              {this.state.show == 5 ? <Content /> : null}
+              {this.state.show == 6 ? <Images /> : null}
+              {this.state.show == 7 ? <StructuredData /> : null}
+              {this.state.show == 8 ? <DuplicateContent /> : null}
+              {this.state.show == 9 ? <VoiceSearch /> : null}
+            </div>
           </div>
-        </div>
-        <div className={this.state.hide2}>
-          <div className="linkstoPageMainDiv2">
-            <ul>
-              <li>
-                <a href={"/" + this.props.lng + "/onpage/content"}>
-                  CONTENT OPTIMIZATION
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/onpage/duplicatecontent"}>
-                  DUPLICATE CONTENT
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/onpage/images"}>
-                  IMAGE OPTIMIZATION{" "}
-                </a>
-              </li>
+          <div className={this.state.hide2}>
+            <div className="linkstoPageMainDiv2">
+              <ul>
+                <li>
+                  <a href={"/" + this.props.lng + "/onpage/content"}>
+                    CONTENT OPTIMIZATION
+                  </a>
+                </li>
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/onpage/duplicatecontent"}>
+                    DUPLICATE CONTENT
+                  </a>
+                </li>
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/onpage/images"}>
+                    IMAGE OPTIMIZATION{" "}
+                  </a>
+                </li>
 
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/onpage/internallinking"}>
-                  INTERNAL LINKING{" "}
-                </a>{" "}
-              </li>
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/onpage/internallinking"}>
+                    INTERNAL LINKING{" "}
+                  </a>{" "}
+                </li>
 
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/onpage/keywordresearch"}>
-                  KEYWORD RESEARCH
-                </a>
-              </li>
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/onpage/keywordresearch"}>
+                    KEYWORD RESEARCH
+                  </a>
+                </li>
 
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/onpage/landingpages"}>
-                  LANDING PAGE OPTIMIZATION
-                </a>
-              </li>
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/onpage/landingpages"}>
+                    LANDING PAGE OPTIMIZATION
+                  </a>
+                </li>
 
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/onpage/metas"}>METAS</a>
-              </li>
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/onpage/metas"}>METAS</a>
+                </li>
 
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/onpage/structureddata"}>
-                  STRUCTURED DATA
-                </a>
-              </li>
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/onpage/structureddata"}>
+                    STRUCTURED DATA
+                  </a>
+                </li>
 
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/onpage/voicesearch"}>
-                  VOICE SEARCH
-                </a>
-              </li>
-            </ul>
+                <li>
+                  {" "}
+                  <a href={"/" + this.props.lng + "/onpage/voicesearch"}>
+                    VOICE SEARCH
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <LinksToPages
+              pageChange={this.props.pageChange}
+              lang={this.props.lng}
+            />
           </div>
-
-          <LinksToPages
-            pageChange={this.props.pageChange}
-            lang={this.props.lng}
-          />
         </div>
       </div>
     );

@@ -308,7 +308,6 @@ iframe {
   position: relative;
   margin-top: 10%;
   min-height: calc(100vh - 120px);
-  padding-bottom: 50px;
 }
 
 .mainlogin {
@@ -1197,7 +1196,7 @@ a.linkServices {
   color: black;
   font-size: 20px;
   position: relative;
-  z-index: 100;
+  z-index: 1;
   margin-left: 20px;
   margin-bottom: 20px;
 }
@@ -1206,7 +1205,7 @@ a.linkServices {
   display: none;
 }
 .breadcrumb {
-  padding-top: 50px;
+  z-index: 1;
 }
 
 .toolbar_navigation_items li {
@@ -1367,6 +1366,11 @@ a.linkServices {
   width: 300px;
   height: 600px;
   opacity: 0.9;
+  margin-top: 10%;
+}
+
+.main2 {
+  margin-top: 10%;
 }
 
 .mainRightServices {

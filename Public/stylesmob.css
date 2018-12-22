@@ -14,6 +14,12 @@
     margin: 0px;
   }
 
+  .breadcrumb {
+    position: relative;
+    margin-top: 45px;
+    padding-top: 15px;
+    margin-bottom: 10%;
+  }
   .breadcrumb a {
     font-size: 16px;
   }
@@ -22,6 +28,7 @@
     position: absolute;
     display: inline;
     margin-left: 20px;
+
     top: 50px;
   }
 
@@ -55,6 +62,7 @@
     width: 80%;
     padding: 10px;
     margin-left: 10%;
+    margin-top: 10%;
     padding-bottom: 30px;
     z-index: 11;
   }
@@ -327,16 +335,16 @@
   }
 
   .h1services {
-    padding: 5px;
-
     width: 70%;
-    padding-top: 3px;
     text-align: left;
     position: relative;
     background-color: black;
-    top: 13px;
     padding: 12px;
     margin-left: 5%;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
     font-size: 17px;
     color: white;
   }
@@ -678,7 +686,7 @@
   }
 
   .linkstoPageMainDiv2 {
-    margin-top: 40px;
+    margin-top: 70px;
     background-color: #f8f8f8;
     padding-bottom: 90px;
   }
