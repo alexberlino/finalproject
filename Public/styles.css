@@ -1469,6 +1469,27 @@ table th {
 .linkedin {
   margin-top: 30%;
 }
+
+.linkstoPageMainDiv {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  position: relative;
+  background-color: darkgrey;
+  width: 100%;
+
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.linkstoPageMainDiv a {
+  color: white;
+  padding: 3px;
+}
+.linkstoPageMainDiv li {
+  list-style: none;
+  padding: 1px;
+}
 .intro21 {
   margin-left: 5%;
   background-color: none;
