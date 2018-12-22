@@ -357,16 +357,7 @@ iframe {
 /* Navigation END*/
 
 /* HOMEPAGE start */
-.imageHP {
-  position: relative;
-  padding-right: 0px;
-  top: 5%;
-  width: 600px;
-  margin: 0px;
-  z-index: 0;
-  left: 30%;
-  display: block;
-}
+
 .intro {
   background-color: white;
   color: black;
@@ -480,7 +471,7 @@ section {
   display: block;
   padding-bottom: 45px;
   background-color: #f6f6f6;
-  width: 80%;
+  width: 70%;
 }
 .blogHPtext {
   display: block;
@@ -894,11 +885,20 @@ a.linkServices {
 }
 
 .hey {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
   color: white;
+}
+
+.berlin {
+  position: fixed;
+  display: inline;
+  top: 0px;
+  left: 0px;
+  height: 80%;
+  width: 90%;
 }
 .othercontentHP {
   width: 100%;
@@ -940,8 +940,9 @@ a.linkServices {
   opacity: 0.92;
   position: relative;
   background-color: white;
-  margin-top: 5%;
-  width: 80%;
+  margin-top: 65%;
+  width: 100%;
+  margin-left: 0px;
   border: white 0px solid;
 }
 
@@ -1142,7 +1143,7 @@ a.linkServices {
 }
 
 .toolbar {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

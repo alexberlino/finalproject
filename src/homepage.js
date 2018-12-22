@@ -87,10 +87,11 @@ class Homepage extends Component {
           <span>{t("hey7")}</span>
           <span>{t("hey8")}</span>
         </div>
-        <div className="txthead introHP">
-          {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
-        </div>
+
         <div className="othercontentHP">
+          <div className="txthead introHP">
+            {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
+          </div>
           <div className="intro">
             <div className="intro2">
               <div className="introQuarter">
