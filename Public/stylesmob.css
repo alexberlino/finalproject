@@ -31,6 +31,12 @@
     width: 50%;
   }
 
+  .trafficImg {
+    margin-left: 3%;
+    width: 90%;
+    height: 90%;
+  }
+
   .txt3 {
     font-size: 18px;
     margin-left: 10%;

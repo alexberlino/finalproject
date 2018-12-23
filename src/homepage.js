@@ -200,7 +200,7 @@ class Homepage extends Component {
             <h3 className="boost">{t("boost2")}</h3>
 
             <img
-              className="center"
+              className="trafficImg"
               src="/traffic.jpg"
               height="60%"
               width="60%"
@@ -209,10 +209,8 @@ class Homepage extends Component {
 
           <div className="seotxt">
             <div className="intro1">
-              <p className="txt3">
-                <h2> {t("beratung")}</h2>
-                {t("beratungText")}
-              </p>
+              <h2 className="traffic"> {t("beratung")}</h2>
+              <p className="txt3">{t("beratungText")}</p>
 
               <img
                 className="PDCD"
@@ -220,25 +218,14 @@ class Homepage extends Component {
                 width="300px"
                 src="/PDCA.png"
               />
-
-              <p className="txt3">
-                <h2> {t("audit")}</h2>
-                {t("auditText")}
-              </p>
-
-              <p className="txt3">
-                <h2>{t("KWResearch")}</h2>
-                {t("KWResearchText")}
-              </p>
-
-              <p className="txt3">
-                <h2>{t("OnPageOptimization")}</h2>
-                {t("OnPageOptimizationText")}
-              </p>
-              <p className="txt3">
-                <h2>{t("OffpagePageOptimization")}</h2>
-                {t("OffpagePageOptimizationText")}
-              </p>
+              <h2 className="traffic"> {t("audit")}</h2>
+              <p className="txt3">{t("auditText")}</p>
+              <h2 className="traffic">{t("KWResearch")}</h2>
+              <p className="txt3">{t("KWResearchText")}</p>
+              <h2 className="traffic">{t("OnPageOptimization")}</h2>
+              <p className="txt3">{t("OnPageOptimizationText")}</p>
+              <h2 className="traffic">{t("OffpagePageOptimization")}</h2>
+              <p className="txt3">{t("OffpagePageOptimizationText")}</p>
             </div>
           </div>
 

@@ -557,8 +557,8 @@ section {
 
 .txt3 {
   font-size: 19px;
-  margin-left: 15%;
-  margin-top: 21px;
+  margin-left: 12%;
+  margin-top: 3px;
   width: 40%;
 }
 
@@ -1003,9 +1003,9 @@ a.linkServices {
 
 .seotxt p {
   background-color: #lightgrey;
-  border: 1px black dotted;
   width: 60%;
   padding: 30px;
+  padding-top: 0px;
 }
 
 .PDCD {
@@ -1013,7 +1013,7 @@ a.linkServices {
   filter: grayscale(100%);
   position: relative;
   display: inline-grid;
-  margin-left: 20%;
+  margin-left: 30%;
 }
 .intro1 {
   position: relative;
@@ -1523,8 +1523,15 @@ table th {
 }
 
 .center {
-  margin-left: 18%;
   text-align: center;
+}
+
+.traffic {
+  margin-left: 15%;
+}
+
+.trafficImg {
+  margin-left: 15%;
 }
 
 .linkedin {
