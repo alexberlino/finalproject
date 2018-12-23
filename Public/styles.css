@@ -168,9 +168,9 @@ form {
 
 .boost {
   position: relative;
-
+  width: 60%;
   top: 300px;
-  left: 10%;
+  margin-left: 20%;
   font-size: 40px;
   z-index: 10;
   color: white;
@@ -811,7 +811,7 @@ a.linkServices {
 .txthead {
   color: black;
   font-size: 27px;
-  width: 80%;
+  width: 70%;
   padding-top: 60px;
   padding-bottom: 30px;
   border-bottom: 1px solid black;
@@ -951,7 +951,7 @@ a.linkServices {
   position: relative;
   background-color: white;
   margin-top: 65%;
-  width: 100%;
+  width: 90%;
   margin-left: 0px;
   border: white 0px solid;
 }
