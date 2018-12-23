@@ -255,7 +255,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         services: `SEO`,
         servicesL: `beratung`,
         beratung: `SEO Beratung`,
-        beratungText: `Am Anfang jeder SEO Beratung steht das persönliche Gespräch Bei
+        beratungText: `Am Anfang jeder SEO Beratung steht das persönliche Gespräch. Bei
               unserem ersten Kundentermin erarbeiten wir gemeinsam Ihren
               SEO-Bedarf und analysieren das Potential Ihrer Online-Präsenz.
               Nachdem wir realistische SEO-KPIs und -Ziele definiert haben,
@@ -362,19 +362,17 @@ A very important cornerstone for all future SEO measures is the keyword analysis
 creation quality and brand awareness.`,
         audit: `Audit SEO`,
         auditText: `
-L’audit permet de définir la position de votre site par rapport à vos principaux concurrents et de fixer des objectifs réalistes.
-                     basé sur la visibilité acquise. Dans l’audit, les aspects de référencement onpage, offpage et techniques sont couverts. Par la suite
+L’ audit permet de définir la position de votre site par rapport à vos principaux concurrents et de fixer des objectifs réalistes.
+                     basé sur la visibilité acquise. Dans l’ audit, les aspects de référencement onpage, offpage et techniques sont couverts. Par la suite
                       vous recevrez un rapport détaillé sur les résultats de l'audit.`,
         KWResearch: `Analyse Mots Clés`,
         KWResearchText: `
 L'analyse des mots clés est une partie très importante du référencement. Une liste de mots-clés pertinents pour votre produit ou service sera élaborée.`,
         OnPageOptimization: `Optimisation Onpage`,
-        OnPageOptimizationText: `Optimisation Onpage
-              L'optimisation fait référence au site lui même et au contenu: code et texte.
+        OnPageOptimizationText: `L'optimisation "onpage" fait référence au contenu: code et texte.
               De plus, il est important d'y intégrer la production future de contenu avec des priorités en fonction du potentiel des mots clés ciblés.`,
         OffpagePageOptimization: `Optimisation Offpage`,
-        OffpagePageOptimizationText: `Optimisation Offpage
-        L'optimisation offpage est certainement la plus complexe du processus mais aussi l'une des plus
+        OffpagePageOptimizationText: `L'optimisation offpage est certainement la plus complexe du processus mais aussi l'une des plus
         importante.`,
 
         blog: `blog (en anglais)`,
@@ -391,16 +389,16 @@ L'analyse des mots clés est une partie très importante du référencement. Une
         onpageHP4: `meta tags & headers,`,
         onpageHP5: `related tags & breadcrumb`,
         beratung: `Conseils SEO`,
-        beratungText: `Au début de chaque consultation de référencement, une conversation
-        est nécessaire pour comprendre votre situation présente, vos prioriétés ainsi que vos ressources.
+        beratungText: `Pour chaque consultation, une conversation avec vous
+        est nécessaire pour comprendre votre situation présente, vos prioriétés, ainsi que vos ressources.
               Nous définissons ensuite des indicateurs de performance et des objectifs de référencement réalistes,
               Nous devons aussi établir comment votre entreprise peut efficacement utiliser ses
-               ressources internes pour être intégrées en parallèle. Après l'audit vous pouvez
-               utliser mes services comme une consultation d'accompagnement, dans laquelle
+               ressources internes et être intégrées au projet. Après l'audit vous pouvez
+               utliser mes services comme une consultation d'accompagnement, durant laquelle
                mes recommandations de référencement sont mises en œuvre jusqu'à
-              conception complète et et mises en œuvre des mesures.
+              la conception complète.
               La transparence est garantie pour chaque client  avec un rapport détaillé avec
-              les mesures mises en œuvre et les objectifs atteints.`,
+              les mesures mises en œuvre et objectifs atteints.`,
 
         onpageHP8: `structured data,`,
         onpageHP9: `contenu dupliqué & canonicalization`,

@@ -992,6 +992,39 @@ a.linkServices {
   }
 }
 
+.seotxt {
+  background-color: #fbfbfb;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  margin-top: 80px;
+  position: relative;
+  display: inline;
+}
+
+.seotxt p {
+  background-color: #lightgrey;
+  border: 1px black dotted;
+  width: 60%;
+  padding: 30px;
+}
+
+.PDCD {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  position: relative;
+  display: inline-grid;
+  margin-left: 20%;
+}
+.intro1 {
+  position: relative;
+  display: inline;
+}
+
+.seotxt {
+  position: relative;
+  display: inline-block;
+}
+
 .logoQuarter {
   display: inline;
   width: 30%;
@@ -1151,36 +1184,6 @@ a.linkServices {
 }
 
 /* ABOUT start*/
-
-.about21 {
-  border-radius: 45px;
-  background-color: lightgrey;
-  color: black;
-  left: 15%;
-  top: 150px;
-  width: 25%;
-  position: relative;
-  padding: 20px;
-  font-size: 25px;
-  box-shadow: 4px 8px grey;
-}
-
-.about22 {
-  -webkit-animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
-    backwards;
-  animation: fade-in 1.5s cubic-bezier(0.47, 0, 0.745, 0.715) alternate
-    backwards;
-  width: 20%;
-  border-radius: 145px;
-  background-color: lightgrey;
-  color: black;
-  left: 45%;
-  margin-top: 10%;
-  position: relative;
-  padding: 20px;
-  font-size: 21px;
-  box-shadow: 4px 8px grey;
-}
 
 .text-blur-out {
   -webkit-animation: text-blur-out 2.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)

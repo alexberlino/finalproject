@@ -182,13 +182,13 @@ class App extends Component {
                 />
                 <Route
                   exact
-                  path="/:lang/article/:url"
+                  path="/en/article/:url"
                   render={() => <Article lang={lang} page={page} />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/aboutthiswebsite"
+                  path="/en/aboutthiswebsite"
                   render={() => <About2 lang={lang} page={page} />}
                 />
 
@@ -198,11 +198,11 @@ class App extends Component {
                   render={() => <Contact i18n={this.props.i18n} />}
                 />
 
-                <Route exact path="/:lang/offpage" render={() => <Offpage />} />
+                <Route exact path="/en/offpage" render={() => <Offpage />} />
 
                 <Route
                   exact
-                  path="/:lang/onpage"
+                  path="/en/onpage"
                   lang={lang}
                   page={page}
                   pageChange={this.changePage}
@@ -211,103 +211,91 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/:lang/onpage/content"
+                  path="/en/onpage/content"
                   render={() => <Content />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/onpage/duplicatecontent"
+                  path="/en/onpage/duplicatecontent"
                   render={() => <DuplicateContent />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/onpage/images"
+                  path="/en/onpage/images"
                   render={() => <Images />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/onpage/internallinking"
+                  path="/en/onpage/internallinking"
                   render={() => <InternalLinking />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/onpage/keywordresearch"
+                  path="/en/onpage/keywordresearch"
                   render={() => <KeywordResearch />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/onpage/landingpages"
+                  path="/en/onpage/landingpages"
                   render={() => <LandingPageOptimization />}
                 />
 
-                <Route
-                  exact
-                  path="/:lang/onpage/metas"
-                  render={() => <Metas />}
-                />
+                <Route exact path="/en/onpage/metas" render={() => <Metas />} />
 
                 <Route
                   exact
-                  path="/:lang/onpage/structureddata"
+                  path="/en/onpage/structureddata"
                   render={() => <StructuredData />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/onpage/voicesearch"
+                  path="/en/onpage/voicesearch"
                   lang={lang}
                   page={page}
                   pageChange={this.changePage}
                   render={() => <VoiceSearch />}
                 />
 
-                <Route
-                  exact
-                  path="/:lang/research"
-                  render={() => <Research />}
-                />
+                <Route exact path="/en/research" render={() => <Research />} />
 
                 <Route
                   exact
-                  path="/:lang/research/analytics"
+                  path="/en/research/analytics"
                   render={() => <Analytics />}
                 />
                 <Route
                   exact
-                  path="/:lang/research/bestpractices"
+                  path="/en/research/bestpractices"
                   render={() => <BestPractices />}
                 />
                 <Route
                   exact
-                  path="/:lang/research/localseo"
+                  path="/en/research/localseo"
                   render={() => <LocalSEO />}
                 />
-                <Route
-                  exact
-                  path="/:lang/research/sea"
-                  render={() => <SEA />}
-                />
+                <Route exact path="/en/research/sea" render={() => <SEA />} />
 
                 <Route
                   exact
-                  path="/:lang/offpage/brandbuilding"
+                  path="/en/offpage/brandbuilding"
                   render={() => <BrandBuilding />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/offpage/toxic"
+                  path="/en/offpage/toxic"
                   render={() => <Toxic />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/offpage/backlinkanalysis"
+                  path="/en/offpage/backlinkanalysis"
                   render={() => <BacklinkAnalysis />}
                 />
 
@@ -334,51 +322,51 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/:lang/technical"
+                  path="/en/technical"
                   render={() => <Technical />}
                 />
                 <Route
                   exact
-                  path="/:lang/technical/crawlability"
+                  path="/en/technical/crawlability"
                   render={() => <Crawlability />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/technical/dynamicrendering"
+                  path="/en/technical/dynamicrendering"
                   render={() => <DynamicRendering />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/technical/indexation"
+                  path="/en/technical/indexation"
                   render={() => <Indexation />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/technical/internationalisation"
+                  path="/en/technical/internationalisation"
                   render={() => <Internationalisation />}
                 />
                 <Route
                   exact
-                  path="/:lang/technical/mobilefriendly"
+                  path="/en/technical/mobilefriendly"
                   render={() => <MobileFriendly />}
                 />
                 <Route
                   exact
-                  path="/:lang/technical/pagespeed"
+                  path="/en/technical/pagespeed"
                   render={() => <PageSpeed />}
                 />
                 <Route
                   exact
-                  path="/:lang/technical/security"
+                  path="/en/technical/security"
                   render={() => <Security />}
                 />
 
                 <Route
                   exact
-                  path="/:lang/blog"
+                  path="/en/blog"
                   render={() => (
                     <Blog
                       lang={lang}
@@ -390,7 +378,7 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/:lang/seonews"
+                  path="/en/seonews"
                   render={() => (
                     <SEONews
                       lang={lang}
@@ -402,7 +390,7 @@ class App extends Component {
 
                 <Route
                   exact
-                  path="/:lang/resources"
+                  path="/en/resources"
                   render={() => (
                     <Resources
                       lang={lang}
