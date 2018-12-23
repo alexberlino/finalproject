@@ -69,8 +69,8 @@ creation quality and brand awareness.`,
         beratungText: `For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs
               and how to best work together to define realistic KPIs and goals.
               With my experience I can efficiently give you some estimates of new traffic you can get with a plan
-              of how to reach it and the resources needed to achieve it. From conception to integration and control, I keep you inform on what has been doneand implemented
-                and which goals have beeen achieved.`,
+              of how to reach it and the resources needed to achieve it. From conception to integration and control, I will keep you informed on what has been done and implemented
+                and which goals have been achieved.`,
 
         audit: `Audit`,
         auditText: `The SEO Audit helps to define where your website stands compared to your main competitors, and enables to set realistic objectives
@@ -82,16 +82,17 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         OnPageOptimization: `Onpage Optimization`,
         OnPageOptimizationText: `The Onpage
   Optimization refers to any SEO action taken on the website that
-  can be done by yourself. That concerns first and foremost
-  the optimization of the content and the code of the page. This is part of it
-  as well as the elaboration of the content strategy as well as the remedy
-  technical issues of the site.`,
+  can be done directly. That concerns first and foremost
+  the optimization of the content and the code of the page. It includes
+  as well the elaboration of the content strategy and potential
+  technical issues.`,
         OffpagePageOptimization: `Offpage Optimization`,
         OffpagePageOptimizationText: `Offpage
         Optimization is certainly the most complex process in SEO
      as well as the one of the most important factors. It is about
         link building through brand awareness. To do so it is necessary to identify
-        topic related to your topic which bring traffic, your influencers, blogs and other websites which discuss your industry.`,
+        topic related to your topic which bring traffic, your influencers, blogs and other websites
+        with whom you share common grounds.`,
 
         getintouch_title: `Get in touch Alex Bieth | SEO Expert in Berlin`,
         blog: `blog`,
@@ -284,7 +285,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
 
         getintouch: `Kontakt`,
         aboutme: `SEO Experte || SEO Freelancer in Berlin | SEO Berlino`,
-        HPTitle: `SEO Beratung in Berlin | SEO Berlino`,
+        HPTitle: `SEO Berater in Berlin | Suchmaschinenoptimierung Beratung seoBerlino`,
         descriptionHP: `SEO Beratung in Berlin: Audit, Onpage, Offpage, Technisches SEO, Mitbewerberanalyse, Webanalyse, Brand Building`,
 
         getintouch_title: `Kontakt Alex Bieth | SEO Expert in Berlin seoberlino`,
@@ -366,21 +367,15 @@ L’audit permet de définir la position de votre site par rapport à vos princi
                       vous recevrez un rapport détaillé sur les résultats de l'audit.`,
         KWResearch: `Analyse Mots Clés`,
         KWResearchText: `
-L'analyse des mots clés est une pierre angulaire très importante pour toutes les mesures de référencement futures. Ici, nous générons une liste de mots-clés pertinents pour votre produit ou service. Cette liste est évaluée et hiérarchisée à l'aide du KEI (Keyword Efficiency Index). Un autre résultat de l'analyse par mots clés est la définition des mots clés de seuil.`,
+L'analyse des mots clés est une partie très importante du référencement. Une liste de mots-clés pertinents pour votre produit ou service sera élaborée.`,
         OnPageOptimization: `Optimisation Onpage`,
-        OnPageOptimizationText: `Optimisation Onpage The Onpage
-              L'optimisation fait référence à toute action de référencement entreprise sur le site
-              peut être fait par vous-même. Cela concerne avant tout
-              l'optimisation du contenu et du code de la page. Cela en fait partie
-              ainsi que l'élaboration de la stratégie de contenu ainsi que le remède
-              problèmes techniques du site.`,
+        OnPageOptimizationText: `Optimisation Onpage
+              L'optimisation fait référence au site lui même et au contenu: code et texte.
+              De plus, il est important d'y intégrer la production future de contenu avec des priorités en fonction du potentiel des mots clés ciblés.`,
         OffpagePageOptimization: `Optimisation Offpage`,
-        OffpagePageOptimizationText: `Optimisation Offpage The Offpage
-        L'optimisation est certainement le plus dans tout le processus de référencement
-        le plus complexe ainsi que le facteur le plus important. Ça arrive
-        tout sur le sujet de la construction de liens. J'identifie pertinent et
-        liens de haute qualité pour de nouveaux liens vers les vôtres
-        Site Web.`,
+        OffpagePageOptimizationText: `Optimisation Offpage
+        L'optimisation offpage est certainement la plus complexe du processus mais aussi l'une des plus
+        importante.`,
 
         blog: `blog (en anglais)`,
         analyticsHP1: `SEO Local`,
@@ -396,16 +391,15 @@ L'analyse des mots clés est une pierre angulaire très importante pour toutes l
         onpageHP4: `meta tags & headers,`,
         onpageHP5: `related tags & breadcrumb`,
         beratung: `Conseils SEO`,
-        beratungText: `Au début de chaque consultation de référencement il y une conversation personnelle
-              Nous travaillons ensemble durant premier rendez-vous client
-              sur le référencement et l'analyse du potentiel de votre présence en ligne
-              Nous définissons les indicateurs de performance et des objectifs de référencement réalistes,
-              Nous devons aussi établir comme votre entreprise peut efficacement utiliser ses
-               ressources internes pour être intégrées en parallèle. Il y a
-              de nombreux scénarios possibles: une consultation d'accompagnement, dans laquelle
+        beratungText: `Au début de chaque consultation de référencement, une conversation
+        est nécessaire pour comprendre votre situation présente, vos prioriétés ainsi que vos ressources.
+              Nous définissons ensuite des indicateurs de performance et des objectifs de référencement réalistes,
+              Nous devons aussi établir comment votre entreprise peut efficacement utiliser ses
+               ressources internes pour être intégrées en parallèle. Après l'audit vous pouvez
+               utliser mes services comme une consultation d'accompagnement, dans laquelle
                mes recommandations de référencement sont mises en œuvre jusqu'à
-              conception complète et mise en œuvre des mesures de référencement.
-              La transparence est garantie dans chaque cas avec un rapport détaillé avec
+              conception complète et et mises en œuvre des mesures.
+              La transparence est garantie pour chaque client  avec un rapport détaillé avec
               les mesures mises en œuvre et les objectifs atteints.`,
 
         onpageHP8: `structured data,`,
