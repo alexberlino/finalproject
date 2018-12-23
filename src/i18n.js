@@ -66,43 +66,32 @@ creation quality and brand awareness.`,
         HPTitle: `SEO Freelancer in Berlin, SEO Consultant | SEO Berlino`,
         descriptionHP: `SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building`,
         beratung: `SEO Advice`,
-        beratungText: `At the beginning of every SEO consultation, there is a personal conversation
-              to work together and discuss your
-              SEO needs and analyze the potential of your online presence.
-              After defining realistic SEO KPIs and goals,
-              we discuss to what extent my SEO consulting can bring you the most efficiency, and which
-              internal resources can be integrated in parallel. There are many options: consultancy, in which
-               my SEO recommendations are being implemented right through to
-              complete conception and implementation of the SEO measures. For
-              transparency each case is detailed how
-               measures are implemented and goals achieved.`,
+        beratungText: `For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs
+              and how to best work together to define realistic KPIs and goals.
+              With my experience I can efficiently give you some estimates of new traffic you can get with a plan
+              of how to reach it and the resources needed to achieve it. From conception to integration and control, I keep you inform on what has been doneand implemented
+                and which goals have beeen achieved.`,
 
         audit: `Audit`,
-        auditText: `The SEO Audit First, I analyze where you are with your website
-                      stand. And that is to be understood literally: in which position
-                      Is your website for which keywords? How visible is yours
-                      Business on the Internet? How is your competition positioned? I
-                      evaluate the backlink profile of the site and see if it is
-                      may have technical issues with the site. Subsequently
-                      You will receive a detailed report on the results of the
-                      SEO audits.`,
+        auditText: `The SEO Audit helps to define where your website stands compared to your main competitors, and enables to set realistic objectives
+                     based on gained visibily. In the audit, onpage, offpage and technical SEO aspects are covered. Subsequently
+                      you will receive a detailed report on the results of the SEO audit.`,
         KWResearch: `Keyword Research`,
         KWResearchText: `
-A very important cornerstone for all future SEO measures is the keyword analysis. Here we generate a list of relevant keywords for your product or service. This list is evaluated and prioritized using the KEI (Keyword Efficiency Index). Another result of keyword analysis is the definition of threshold keywords.`,
+A very important cornerstone for all future SEO measures is the keyword analysis. Here we generate a list of relevant keywords for your product or service. Another result of keyword analysis is the definition of threshold keywords.`,
         OnPageOptimization: `Onpage Optimization`,
         OnPageOptimizationText: `The Onpage
-  Optimization refers to any SEO action taken on the website
+  Optimization refers to any SEO action taken on the website that
   can be done by yourself. That concerns first and foremost
   the optimization of the content and the code of the page. This is part of it
   as well as the elaboration of the content strategy as well as the remedy
   technical issues of the site.`,
         OffpagePageOptimization: `Offpage Optimization`,
-        OffpagePageOptimizationText: `Offpage Optimization The Offpage
-        Optimization is certainly the most in the entire SEO process
-        most complex as well as the most important factor. It happens
-        all about the subject of link building. I identify relevant and
-        high quality link sources for new backlinks to yours
-        Website.`,
+        OffpagePageOptimizationText: `Offpage
+        Optimization is certainly the most complex process in SEO
+     as well as the one of the most important factors. It is about
+        link building through brand awareness. To do so it is necessary to identify
+        topic related to your topic which bring traffic, your influencers, blogs and other websites which discuss your industry.`,
 
         getintouch_title: `Get in touch Alex Bieth | SEO Expert in Berlin`,
         blog: `blog`,
@@ -238,19 +227,18 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         technicalHP6: `Javascrips apps und SEO: dynamisches Rendering`,
         technicalHP7: `Sicherheit und Website-Migration`,
         audit: `Audit`,
-        auditText: ` Das SEO Audit Zunächst analysiere ich, wo Sie mit Ihrer Website
+        auditText: ` Das SEO Audit analysiere ich, wo Sie mit Ihrer Website
                       stehen. Und das ist wörtlich zu verstehen: Auf welcher Position
-                      steht Ihre Website für welche Keywords? Wie sichtbar ist Ihr
-                      Unternehmen im Internet? Wie ist Ihr Wettbewerb positioniert? Ich
+                      steht Ihre Website für welche Keywords? Wie sichtbar sind Sie im Internet? Wie ist
+                      Ihr Wettbewerb positioniert? Ich
                       werte das Backlink-Profil der Website aus und prüfe, ob es
                       eventuell technische Probleme mit der Website gibt. Anschließend
                       erhalten Sie einen ausführlichen Bericht über die Ergebnisse des
                       SEO-Audits.`,
         KWResearch: `Keywordanalyse`,
         KWResearchText: `Ein ganz wichtiger Grundstein für alle zukünftigen SEO Maßnahmen
-        ist die Keywordanalyse. Hier generieren wir eine Liste der für Ihr Produkt oder Ihre
-        Dienstleistungen relevanten Keywords. Diese Liste wird mit Hilfe des KEI (Keyword Efficiency-Index)
-        ausgewertet und priorisiert. Ein weiteres Ergebnis der Keywordanalyse ist die Definition von Schwellenkeywords.`,
+        ist die Keywordanalyse. Hier generiere ich eine Liste der für Ihr Produkt oder Ihre
+        Dienstleistungen relevanten Keywords. Ein weiteres Ergebnis der Keywordanalyse ist die Definition von Schwellenkeywords.`,
         OnPageOptimization: `Onpage Optimierung`,
         OnPageOptimizationText: `Onpage Optimierung Die Onpage
   Optimierung bezeichnet alle SEO-Maßnahmen, die auf der Website
@@ -259,23 +247,20 @@ A very important cornerstone for all future SEO measures is the keyword analysis
   ebenso die Ausarbeitung der Content-Strategie wie die Behebung
   technischer Probleme der Website.`,
         OffpagePageOptimization: `Offpage Optimierung`,
-        OffpagePageOptimizationText: `Offpage Optimierung Die Offpage
+        OffpagePageOptimizationText: `Die Offpage
         Optimierung ist im gesamten SEO-Prozess wohl sicher der
-        komplexeste wie auch der wichtigste Faktor. Dabei geht es vor
-        allem um das Thema Linkbuilding. Ich identifiziere relevante und
-        qualitativ hochwertige Linkquellen für neue Backlinks auf Ihre
-        Website.`,
+        komplexeste wie auch ein der wichtigste Faktor. Dabei geht es vor
+        allem um das Thema Linkbuilding. `,
         services: `SEO`,
         servicesL: `beratung`,
         beratung: `SEO Beratung`,
-        beratungText: `      Am Anfang jeder SEO Beratung steht das persönliche Gespräch Bei
+        beratungText: `Am Anfang jeder SEO Beratung steht das persönliche Gespräch Bei
               unserem ersten Kundentermin erarbeiten wir gemeinsam Ihren
               SEO-Bedarf und analysieren das Potential Ihrer Online-Präsenz.
               Nachdem wir realistische SEO-KPIs und -Ziele definiert haben,
               besprechen wir, in welchem Umfang meine SEO-Beratung Ihr
               Unternehmen am effizientesten nach vorne bringt und welche
-              internen Ressourcen parallel eingebunden werden können. Dabei sind
-              alle Szenarien denkbar: eine begleitende Beratung, bei der im
+              internen Ressourcen parallel eingebunden werden können; begleitende Beratung, bei der im
               Unternehmen meine SEO-Empfehlungen umgesetzt werden bis hin zur
               kompletten Konzeption und Umsetzung der SEO-Maßnahmen. Für
               Transparenz sorgt in jedem Fall ein detailliertes Reporting über
@@ -375,14 +360,10 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         brandbuilding3: `Based on user & influencers interests to boost quality link
 creation quality and brand awareness.`,
         audit: `Audit SEO`,
-        auditText: `L'audit SEO Tout d'abord, j'analyse où vous en êtes avec votre site web
-                      debout. Et cela doit être compris littéralement: dans quelle position
-                      Votre site Web contient-il des mots clés? Quelle est votre visibilité?
-                      Des affaires sur Internet? Comment se positionne votre concurrence? Je
-                      évaluer le profil de lien retour du site et voir s'il est
-                      peut avoir des problèmes techniques avec le site. par la suite
-                      Vous recevrez un rapport détaillé sur les résultats de la
-                      audits SEO.`,
+        auditText: `
+L’audit permet de définir la position de votre site par rapport à vos principaux concurrents et de fixer des objectifs réalistes.
+                     basé sur la visibilité acquise. Dans l’audit, les aspects de référencement onpage, offpage et techniques sont couverts. Par la suite
+                      vous recevrez un rapport détaillé sur les résultats de l'audit.`,
         KWResearch: `Analyse Mots Clés`,
         KWResearchText: `
 L'analyse des mots clés est une pierre angulaire très importante pour toutes les mesures de référencement futures. Ici, nous générons une liste de mots-clés pertinents pour votre produit ou service. Cette liste est évaluée et hiérarchisée à l'aide du KEI (Keyword Efficiency Index). Un autre résultat de l'analyse par mots clés est la définition des mots clés de seuil.`,
@@ -453,7 +434,7 @@ L'analyse des mots clés est une pierre angulaire très importante pour toutes l
         subject: `Sujet  `,
         message: `Message*  `,
         sendMessage: `ENVOYER`,
-        aboutmetitle: `moi`,
+        aboutmetitle: `qui je suis`,
 
         getintouch: `Contact`,
         aboutme: `SEO Experte und Freelancer in Berlin | SEO Berlino`,

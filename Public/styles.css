@@ -956,6 +956,42 @@ a.linkServices {
   border: white 0px solid;
 }
 
+.float {
+  position: relative;
+  -webkit-animation: floatBubble 1s infinite;
+  -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes floatBubble {
+  from {
+    top: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+
+  to {
+    left: -150px;
+    -webkit-animation-timing-function: ease-out;
+  }
+}
+
+.float2 {
+  position: relative;
+  -webkit-animation: floatBubble2 2s infinite;
+  -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes floatBubble2 {
+  from {
+    top: 250px;
+    -webkit-animation-timing-function: ease-in;
+  }
+
+  to {
+    top: 365px;
+    -webkit-animation-timing-function: ease-out;
+  }
+}
+
 .logoQuarter {
   display: inline;
   width: 30%;

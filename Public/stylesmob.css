@@ -689,6 +689,25 @@
     height: 290px;
     width: 96%;
   }
+
+  .float2 {
+    position: relative;
+    -webkit-animation: floatBubble2 2s infinite;
+    -webkit-animation-direction: alternate;
+  }
+
+  @-webkit-keyframes floatBubble2 {
+    from {
+      top: 50px;
+      -webkit-animation-timing-function: ease-in;
+    }
+
+    to {
+      top: 110px;
+      -webkit-animation-timing-function: ease-out;
+    }
+  }
+
   .linkstoPageMainDiv2 li a {
     font-size: 18px;
     padding-top: 4px;

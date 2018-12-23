@@ -196,7 +196,7 @@ class Homepage extends Component {
               </div>
             </div>
 
-            <h3 className="boost">{t("boost1")}</h3>
+            <h3 className="boost float2">{t("boost1")}</h3>
             <h3 className="boost">{t("boost2")}</h3>
 
             <img
