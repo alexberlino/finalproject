@@ -222,6 +222,13 @@ class Homepage extends Component {
               <p className="txt3">{t("auditText")}</p>
               <h2 className="traffic">{t("KWResearch")}</h2>
               <p className="txt3">{t("KWResearchText")}</p>
+
+              <img
+                className="PDCD"
+                heigth="500px"
+                width="500px"
+                src="/seoprocess.png"
+              />
               <h2 className="traffic">{t("OnPageOptimization")}</h2>
               <p className="txt3">{t("OnPageOptimizationText")}</p>
               <h2 className="traffic">{t("OffpagePageOptimization")}</h2>

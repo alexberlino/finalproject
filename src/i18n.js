@@ -65,7 +65,7 @@ creation quality and brand awareness.`,
         aboutmetitle: `aboutme`,
         HPTitle: `SEO Freelancer in Berlin, SEO Consultant | SEO Berlino`,
         descriptionHP: `SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building`,
-        beratung: `SEO Advice`,
+        beratung: `SEO Consultancy`,
         beratungText: `For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs
               and how to best work together to define realistic KPIs and goals.
               With my experience I can efficiently give you some estimates of new traffic you can get with a plan
@@ -228,44 +228,21 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         technicalHP6: `Javascrips apps und SEO: dynamisches Rendering`,
         technicalHP7: `Sicherheit und Website-Migration`,
         audit: `Audit`,
-        auditText: ` Das SEO Audit analysiere ich, wo Sie mit Ihrer Website
-                      stehen. Und das ist wörtlich zu verstehen: Auf welcher Position
-                      steht Ihre Website für welche Keywords? Wie sichtbar sind Sie im Internet? Wie ist
-                      Ihr Wettbewerb positioniert? Ich
-                      werte das Backlink-Profil der Website aus und prüfe, ob es
-                      eventuell technische Probleme mit der Website gibt. Anschließend
-                      erhalten Sie einen ausführlichen Bericht über die Ergebnisse des
-                      SEO-Audits.`,
+        auditText: ` Das SEO Audit hilft zu definieren, wo Ihre Website im Vergleich zu Ihren Hauptkonkurrenten steht, und ermöglicht es Ihnen, realistische Ziele zu setzen basierend auf visibily gewonnen. In der Prüfung werden Onpage-, Offpage- und technische SEO-Aspekte behandelt. Anschließend Sie erhalten einen detaillierten Bericht über die Ergebnisse des SEO-Audits.`,
         KWResearch: `Keywordanalyse`,
         KWResearchText: `Ein ganz wichtiger Grundstein für alle zukünftigen SEO Maßnahmen
         ist die Keywordanalyse. Hier generiere ich eine Liste der für Ihr Produkt oder Ihre
         Dienstleistungen relevanten Keywords. Ein weiteres Ergebnis der Keywordanalyse ist die Definition von Schwellenkeywords.`,
         OnPageOptimization: `Onpage Optimierung`,
-        OnPageOptimizationText: `Onpage Optimierung Die Onpage
-  Optimierung bezeichnet alle SEO-Maßnahmen, die auf der Website
-  selbst durchgeführt werden können. Das betrifft in erster Linie
-  die Optimierung des Inhalts und des Codes der Seite. Dazu gehört
-  ebenso die Ausarbeitung der Content-Strategie wie die Behebung
-  technischer Probleme der Website.`,
+        OnPageOptimizationText: `Die Onpage Optimierung bezieht sich auf jede SEO-Aktion, die auf der Website ausgeführt wird
+   kann direkt gemacht werden. Das betrifft in erster Linie die Optimierung des Inhalts und des Codes der Seite. Es enthält
+   auch die Ausarbeitung der inhaltlichen Strategie und des Potenzials Technische Probleme.`,
         OffpagePageOptimization: `Offpage Optimierung`,
-        OffpagePageOptimizationText: `Die Offpage
-        Optimierung ist im gesamten SEO-Prozess wohl sicher der
-        komplexeste wie auch ein der wichtigste Faktor. Dabei geht es vor
-        allem um das Thema Linkbuilding. `,
+        OffpagePageOptimizationText: `Offpage Optimierung ist sicherlich der komplexeste Prozess in SEO sowie einer der wichtigsten Faktoren. Es geht um Linkbuilding durch Markenbekanntheit. Dazu muss man sich identifizieren themenbezogenes thema, das den verkehr bringt, ihre Influencer, blogs und andere websites mit wem Sie Gemeinsamkeiten haben. `,
         services: `SEO`,
         servicesL: `beratung`,
         beratung: `SEO Beratung`,
-        beratungText: `Am Anfang jeder SEO Beratung steht das persönliche Gespräch. Bei
-              unserem ersten Kundentermin erarbeiten wir gemeinsam Ihren
-              SEO-Bedarf und analysieren das Potential Ihrer Online-Präsenz.
-              Nachdem wir realistische SEO-KPIs und -Ziele definiert haben,
-              besprechen wir, in welchem Umfang meine SEO-Beratung Ihr
-              Unternehmen am effizientesten nach vorne bringt und welche
-              internen Ressourcen parallel eingebunden werden können; begleitende Beratung, bei der im
-              Unternehmen meine SEO-Empfehlungen umgesetzt werden bis hin zur
-              kompletten Konzeption und Umsetzung der SEO-Maßnahmen. Für
-              Transparenz sorgt in jedem Fall ein detailliertes Reporting über
-              die umgesetzten Maßnahmen und erreichten Ziele.`,
+        beratungText: `Für jede SEO-Beratung ist zu Beginn ein persönliches Gespräch erforderlich, um Ihre Bedürfnisse zu besprechen und wie man am besten zusammenarbeitet, um realistische KPIs und Ziele zu definieren. Mit meiner Erfahrung kann ich Ihnen einige Schätzungen des neuen Verkehrs geben, die Sie mit einem Plan erhalten können wie man es erreicht und welche Ressourcen dafür benötigt werden. Von der Konzeption bis zur Integration und Kontrolle werde ich Sie auf dem Laufenden halten, was getan und umgesetzt wurde und welche Ziele wurden erreicht.`,
         technical: `TECHNISCHES SEO`,
         about: `ÜBER MICH`,
         contact: `KONTAKT`,
