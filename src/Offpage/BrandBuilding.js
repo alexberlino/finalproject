@@ -37,7 +37,7 @@ class BrandBuilding extends Component {
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Your links represent your reputation and relevancy in your domain.
-            Linkbuilding now goes hand in hand with brandbuilding.
+            Linkbuilding now goes hand in hand with brand building.
           </div>
           <h2 className="serviceTitle"> To do</h2>
           <div className="serviceText">
