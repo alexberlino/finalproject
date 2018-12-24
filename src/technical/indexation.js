@@ -18,7 +18,7 @@ class Indexation extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO - Indexation | SEO Berlino</title>
+          <title>Technical SEO Freelancer - Indexation | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: indexation and why its important in SEO "
@@ -36,7 +36,7 @@ class Indexation extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h2 className="h1services"> Indexation, redirects and urls.</h2>
+          <h1 className="h1services"> Technical SEO Freelancer - Indexation</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             <p>

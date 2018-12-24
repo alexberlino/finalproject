@@ -60,10 +60,10 @@ class Onpage extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>On-page SEO || SEO Berlino</title>
+          <title>On-page SEO Freelancer || SEO Berlino</title>
           <meta
             name="description"
-            content="Onpage SEO Jobs: Keyword research, landing pages, internal linking, metas, images and SD"
+            content="Onpage SEO Freelancer: Keyword research, landing pages, internal linking, metas, images and SD"
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/onpage" />
         </Helmet>

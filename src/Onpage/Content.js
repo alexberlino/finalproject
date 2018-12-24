@@ -20,7 +20,9 @@ class Content extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO - Content Optimization | SEO Berlino</title>
+          <title>
+            Onpage SEO Freelancer - Content Optimization | SEO Berlino
+          </title>
           <meta
             name="description"
             content="Content and Semantics for SEO. Content is king and of course that applies also for SEO.
@@ -42,7 +44,7 @@ class Content extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> Content & Semantics </h1>
+          <h1 className="h1services"> On-page SEO: Content & Semantics </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Content is King, and far away are the times when Google got tricked

@@ -18,7 +18,7 @@ class VoiceSearch extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO -Voice Search | SEO Berlino</title>
+          <title>Onpage SEO Freelancer - Voice Search | SEO Berlino</title>
           <meta name="description" content="" />
           <link
             rel="canonical"
@@ -34,7 +34,9 @@ class VoiceSearch extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> Optimization for Voice Search</h1>
+          <h1 className="h1services">
+            On-page SEO: Optimization for Voice Search
+          </h1>
 
           <h2 className="serviceTitle"> What is Voice Search</h2>
 

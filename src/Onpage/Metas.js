@@ -15,7 +15,7 @@ class Metas extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO - Meta optimization | SEO Berlino</title>
+          <title>Onpage SEO Freelancer - Meta optimization | SEO Berlino</title>
           <meta type="description" content="" />
           <link
             rel="canonical"
@@ -31,7 +31,7 @@ class Metas extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h2 className="h1services"> Metas Tags and headers </h2>
+          <h1 className="h1services"> On-page SEO: Metas Tags and headers </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Basic aspect of SEO, they are somehow often neglected. The two main

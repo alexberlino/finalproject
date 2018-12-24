@@ -21,7 +21,7 @@ class Security extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO - HTTPS and SEO | SEO Berlino</title>
+          <title>Technical SEO Freelancer - HTTPS and SEO | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: HTTPS and security and why its important in SEO "
@@ -39,7 +39,7 @@ class Security extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h2 className="h1services"> Security, HTTPS transition</h2>
+          <h1 className="h1services"> Technical SEO - migration to https</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             <p>

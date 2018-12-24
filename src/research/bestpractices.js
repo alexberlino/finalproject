@@ -15,7 +15,9 @@ class BestPractices extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Reseach & Analytics - Competitor Analysis | SEO Berlino</title>
+          <title>
+            Reseach & Analytics - SEO Competitor Analysis | SEO Berlino
+          </title>
           <meta name="description" content="" />
           <link
             rel="canonical"
@@ -30,7 +32,7 @@ class BestPractices extends Component {
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
-          <h2 className="h1services"> Competitor Analysis</h2>
+          <h1 className="h1services"> SEO Competitor Analysis</h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText" />
           <div className="serviceTitle"> To do</div>

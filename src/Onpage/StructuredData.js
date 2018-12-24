@@ -18,7 +18,7 @@ class StructuredData extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO - Structured Data | SEO Berlino</title>
+          <title>Onpage SEO Freelancer - Structured Data | SEO Berlino</title>
           <meta type="description" content="" />
           <link
             rel="canonical"
@@ -34,7 +34,7 @@ class StructuredData extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h2 className="h1services"> Structured Data </h2>
+          <h1 className="h1services"> On-page SEO: Structured Data </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Google, Bing, Yandex and Yahoo agreed on a standardised format:

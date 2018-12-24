@@ -15,7 +15,7 @@ class KeywordResearch extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO - Keyword Research | SEO Berlino</title>
+          <title>Onpage SEO Freelancer - Keyword Research | SEO Berlino</title>
           <meta
             name="description"
             content="Keyword research is one the most important first steps in SEO.
@@ -35,7 +35,7 @@ class KeywordResearch extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> Keyword Research </h1>
+          <h1 className="h1services">On-page SEO: Keyword Research </h1>
           <h2 className="serviceTitle"> Why it's (extremely) Important</h2>
           <div className="serviceText">
             Keyword Research is critical to understand how your potential

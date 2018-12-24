@@ -17,7 +17,9 @@ class SEA extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Reseach & Analytics - ppc Google Ads | SEO Berlino</title>
+          <title>
+            Reseach & Analytics : pay-per-click Google Ads | SEO Berlino
+          </title>
           <meta
             name="description"
             content="Paid Search Services with SEO Berlino."

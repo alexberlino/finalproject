@@ -18,7 +18,7 @@ class Crawlability extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO - Crawlability | SEO Berlino</title>
+          <title>Technical SEO Freelancer - Crawlability | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: crawlability and why its important in SEO "
@@ -37,7 +37,10 @@ class Crawlability extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
 
-          <h2 className="h1services"> Crawlability</h2>
+          <h1 className="h1services">
+            {" "}
+            Technical SEO Freelancer - Crawlability
+          </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Crawlibility goes hand in hand with indexation. In order to adjust

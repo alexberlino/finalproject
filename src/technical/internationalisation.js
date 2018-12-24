@@ -18,7 +18,9 @@ class Internationalisation extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO - Internationalisation | SEO Berlino</title>
+          <title>
+            Technical SEO Freelancer - Internationalisation | SEO Berlino
+          </title>
           <meta
             name="description"
             content="Technical SEO: internationalisation and why its important in SEO "
@@ -36,7 +38,10 @@ class Internationalisation extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h2 className="h1services"> Internationalisation</h2>
+          <h1 className="h1services">
+            {" "}
+            Technical SEO Freelancer - Internationalisation
+          </h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             There are various options when operating internationally: same root
@@ -51,7 +56,6 @@ class Internationalisation extends Component {
             width="100px"
             height="100px"
           />
-
           <div className="serviceTitle"> To do</div>
           <div className="serviceText">
             <p>

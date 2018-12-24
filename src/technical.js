@@ -59,10 +59,10 @@ class Technical extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO || SEO Berlino</title>
+          <title>Technical SEO Freelancer || SEO Berlino</title>
           <meta
             name="description"
-            content="Technical SEO Jobs: indexation, crawlability, internationalisation, pagespeed, etc "
+            content="Technical SEO Freelancer in Berlin: indexation, crawlability, internationalisation, pagespeed, etc "
           />
           <link
             rel="canonical"
@@ -79,6 +79,7 @@ class Technical extends Component {
           </div>
 
           <div className="infoTitle">
+            <h1>Technical SEO Freelancer</h1>
             <img
               alt="technical"
               src="/technical.svg"

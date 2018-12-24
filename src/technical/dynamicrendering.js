@@ -21,10 +21,12 @@ class DynamicRendering extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO - Dynamic Rendering | SEO Berlino</title>
+          <title>
+            Technical SEO Freelancer - Dynamic Rendering | SEO Berlino
+          </title>
           <meta
             name="description"
-            content="Technical SEO: dynamic rendering and why its important in SEO "
+            content="Technical SEO Freelancer: dynamic rendering and why its important in SEO "
           />
           <link
             rel="canonical"
@@ -39,7 +41,10 @@ class DynamicRendering extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h2 className="h1services"> Dynamic Rendering</h2>
+          <h1 className="h1services">
+            {" "}
+            Technical SEO Freelancer - Dynamic Rendering
+          </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             For JavaScript apps such as React, Angular or View, search engines

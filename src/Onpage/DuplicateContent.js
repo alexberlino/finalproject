@@ -18,7 +18,7 @@ class DuplicateContent extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO - Duplicate Content | SEO Berlino</title>
+          <title>Onpage SEO Freelancer - Duplicate Content | SEO Berlino</title>
           <meta
             name="description"
             content="Duplicate Content and Semantics for SEO."
@@ -37,7 +37,10 @@ class DuplicateContent extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h2 className="h1services"> Duplicate Content and Canonicals</h2>
+          <h1 className="h1services">
+            {" "}
+            On-page SEO: Duplicate Content and Canonicals
+          </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Search Engines do not like duplicate content indexed. If you have

@@ -18,7 +18,9 @@ class Images extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO - Image Optimization | SEO Berlino</title>
+          <title>
+            Onpage SEO Freelancer - Image Optimization | SEO Berlino
+          </title>
           <meta
             name="description"
             content="Get your images indexed and ranked with efficient optimization,
@@ -38,7 +40,7 @@ class Images extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> Images Optimization </h1>
+          <h1 className="h1services"> On-page SEO: Images Optimization </h1>
           <h2 className="serviceTitle"> Why it's Important</h2>
           <div className="serviceText">
             Image Search still represents for most industry an important SEO

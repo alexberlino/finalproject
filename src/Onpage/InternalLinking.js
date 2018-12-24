@@ -15,7 +15,7 @@ class InternalLinking extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO - Internal Linking | SEO Berlino</title>
+          <title>Onpage SEO Freelancer- Internal Linking | SEO Berlino</title>
           <meta type="description" content="" />
           <link
             rel="canonical"
@@ -31,7 +31,7 @@ class InternalLinking extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h2 className="h1services"> Internal Linking </h2>
+          <h1 className="h1services"> On-page SEO: Internal Linking </h1>
           <div className="serviceTitle"> Why it's (extermely) Important</div>
           <div className="serviceText">
             Internal Linking is core for on-page SEO, especially for big

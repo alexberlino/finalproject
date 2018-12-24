@@ -1463,7 +1463,7 @@ a.linkServices {
   color: black;
   position: relative;
   width: 100%;
-  font-size: 66px;
+  font-size: 50px;
   z-index: 1;
   opacity: 0.8;
   border-radius: 20px;
@@ -1557,7 +1557,7 @@ table th {
   background-color: darkgrey;
   width: 100%;
 
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   padding-top: 30px;
 }
 

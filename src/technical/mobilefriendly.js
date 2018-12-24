@@ -21,7 +21,7 @@ class MobileFriendly extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO - Mobile First | SEO Berlino</title>
+          <title>Technical SEO Freelancer - Mobile First | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: mobile friendly and why its important in SEO "
@@ -39,7 +39,10 @@ class MobileFriendly extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h2 className="h1services"> Mobile Friendly Websites</h2>
+          <h1 className="h1services">
+            {" "}
+            Technical SEO Freelancer - Mobile First
+          </h1>{" "}
           <div className="serviceTitle"> Why it's (extremely) Important</div>
           <div className="serviceText">
             <p>
@@ -76,7 +79,6 @@ class MobileFriendly extends Component {
               PageSpeed Developer Tool
             </p>
           </div>
-
           <div className="serviceTitle"> Tools and Resources</div>
           <div className="serviceText">
             <footer>

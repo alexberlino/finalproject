@@ -15,7 +15,7 @@ class BrandBuilding extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Offpage SEO - Brand Building | SEO Berlino</title>
+          <title>Offpage SEO Freelancer - Brand Building | SEO Berlino</title>
           <meta name="description" content="" />
           <link
             rel="canonical"
@@ -30,7 +30,10 @@ class BrandBuilding extends Component {
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
-          <h1 className="h1services"> Brandbuilding </h1>
+          <h1 className="h1services">
+            {" "}
+            Brandbuilding: backlinks through increased brand visibility{" "}
+          </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Your links represent your reputation and relevancy in your domain.

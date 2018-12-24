@@ -15,7 +15,9 @@ class LandingPageOptimization extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO - Landing Page Optimization | SEO Berlino</title>
+          <title>
+            Onpage SEO Freelancer - Landing Page Optimization | SEO Berlino
+          </title>
           <meta
             name="description"
             content="Landing Page Optimization is not just about UX and graphics.
@@ -35,7 +37,9 @@ class LandingPageOptimization extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> Landing Page Optimization </h1>
+          <h1 className="h1services">
+            On-page SEO: Landing Page Optimization{" "}
+          </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Often, companies create Landing pages and then expect it to perform

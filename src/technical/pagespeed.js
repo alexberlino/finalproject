@@ -18,7 +18,7 @@ class PageSpeed extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO - Page Speed SEO | SEO Berlino</title>
+          <title>Technical SEO Freelancer- Page Speed SEO | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: page speed and why its important in SEO "
@@ -36,7 +36,7 @@ class PageSpeed extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h2 className="h1services"> PageSpeed</h2>
+          <h1 className="h1services"> Technical SEO Freelancer - Page Speed</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             If your pages are slow to load, Google will figure it out and will
@@ -44,7 +44,6 @@ class PageSpeed extends Component {
             in terms of organic visibility. If you haven't done it yet, I
             strongly advise you to use the PageSpeed Insights tool (link below){" "}
           </div>
-
           <img
             src="/icons/speed.png"
             className="imageservices"
@@ -52,7 +51,6 @@ class PageSpeed extends Component {
             width="100px"
             height="100px"
           />
-
           <div className="serviceTitle"> Tools and Resources</div>
           <div className="serviceText">
             <footer>

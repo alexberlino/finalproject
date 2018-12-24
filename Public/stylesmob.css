@@ -518,6 +518,7 @@
     display: none;
   }
   .main {
+    min-height: calc(80vh - 120px);
   }
 
   .maincontact2 {

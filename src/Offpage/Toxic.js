@@ -15,7 +15,9 @@ class Toxic extends Component {
       <div className="mainRightServices">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Offpage SEO - Toxic Links Cleaning | SEO Berlino</title>
+          <title>
+            Offpage SEO Freelancer - Toxic Links Cleaning | SEO Berlino
+          </title>
           <meta type="description" content="" />
           <link
             rel="canonical"
@@ -30,7 +32,10 @@ class Toxic extends Component {
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
-          <h2 className="h1services"> Cleaning Toxic Links </h2>
+          <h1 className="h1services">
+            {" "}
+            Cleaning Toxic Links - Backlinks Audit{" "}
+          </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Many think the more the better but it doesn't actually work that
