@@ -34,10 +34,22 @@ class BestPractices extends Component {
           </div>
           <h1 className="h1services"> SEO Competitor Analysis</h1>
           <div className="serviceTitle"> Why it's Important</div>
-          <div className="serviceText" />
+          <div className="serviceText">
+            To improve the way you do business online, it is very difficult to
+            be successful if you ignore the competition. The same applies with
+            SEO. Knowing how your competitors operate, what they offer helps to
+            find out: keywords you are possibly missing one, backlink
+            oppportunities, and benchmarks. Copying however is not really a long
+            time efficient strategy; the best is to get inspired to offer better
+            value to your customers.
+          </div>
           <div className="serviceTitle"> To do</div>
-          <div className="serviceText" />
-        </div>{" "}
+          <div className="serviceText">
+            A Competitor analysis comprises of backlink audit, on-page audit and
+            keyword research. Analysing how competitors get most of their
+            traffic also helps to establish content creation strategy.
+          </div>{" "}
+        </div>
       </div>
     );
   }
