@@ -389,18 +389,26 @@ iframe {
 .icons {
   height: 50px;
   width: 50px;
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 .icon {
   height: 50px;
   width: 50px;
   filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
+.bigicon {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  margin-left: 28%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 0.8;
+}
 .iconsmore {
   display: block;
   margin-left: 80%;
@@ -524,7 +532,7 @@ section {
   color: black;
   text-align: center;
   margin: 1px;
-  margin-top: 1.7rem;
+  margin-top: 2.4rem;
   margin-left: 18%;
   width: 70%;
 }
@@ -1402,9 +1410,12 @@ a.linkServices {
   height: 80px;
   width: 80px;
   position: relative;
-  top: -35xpx;
+  top: -35px;
 
   margin-left: 65%;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 
   -webkit-animation: bounce-in-top 1s both;
   animation: bounce-in-top 1s both;
