@@ -5,6 +5,12 @@ href="https://www.seoberlino.com/en" />
 href="https://www.seoberlino.com/de" /><xhtml:link rel="alternate" hreflang="fr"
 href="https://www.seoberlino.com/fr" /><priority>1</priority></url>
 
+<url><loc>https://www.seoberlino.com/fr</loc><xhtml:link rel="alternate" hreflang="fr"
+href="https://www.seoberlino.com/fr" />
+<xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de" /><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en" /><priority>1</priority></url>
+
 
 
 
@@ -158,6 +164,11 @@ href="https://www.seoberlino.com/de/contact" /><xhtml:link rel="alternate" hrefl
 href="https://www.seoberlino.com/fr/contact" /><priority>0.5</priority></url>
 
 
+<url><loc>https://www.seoberlino.com/fr/contact</loc><xhtml:link rel="alternate" hreflang="fr"
+href="https://www.seoberlino.com/fr/contact" />
+<xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/contact" /><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en/contact" /><priority>0.5</priority></url>
 
 
 <url><loc>https://www.seoberlino.com/en/seonews</loc><xhtml:link rel="alternate" hreflang="en"
@@ -233,8 +244,6 @@ href="https://www.seoberlino.com/en/impressum" /><priority>0.5</priority></url>
 
 
 
-<url><loc>https://www.seoberlino.com/en/login</loc><priority>0.5</priority></url>
-<url><loc>https://www.seoberlino.com/en/admin</loc><priority>0.5</priority></url>
 
 
 </urlset>
