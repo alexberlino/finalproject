@@ -73,6 +73,8 @@ class Technical extends Component {
           </div>
 
           <div className="infoTitle">
+            <h1>SEO Analytics and Research - SEO Freelancer</h1>
+
             <img
               alt="research and analytics"
               src="/analytics.svg"

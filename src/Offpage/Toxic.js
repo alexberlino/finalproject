@@ -36,13 +36,16 @@ class Toxic extends Component {
             {" "}
             Cleaning Toxic Links - Backlinks Audit{" "}
           </h1>
-          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceTitle"> Quality of quantity</div>
           <div className="serviceText">
-            Many think the more the better but it doesn't actually work that
-            way. Too many low quality and/or spammy links and your website will
-            lose "Google credibility" and therefore visibility.
+            Many think the more links, the better but it doesn't actually work
+            that way. Too many low quality and/or spammy links and your website
+            will lose "Google credibility" and therefore visibility.
           </div>
-          <div className="serviceTitle"> To do</div>
+          <div className="serviceTitle">
+            {" "}
+            You are responsible for the links that point to you
+          </div>
           <div className="serviceText">
             Since a few years already, you as website owner are responsible for
             the backlinks pointing to your site, so you need to constantly
@@ -50,9 +53,52 @@ class Toxic extends Component {
             First step using the disavow tool then to try pro-actively to remove
             them.
           </div>
-          <div className="serviceTitle"> Related Tools and Resources</div>
+
+          <div className="serviceTitle"> Too many links from one domain</div>
           <div className="serviceText">
-            <footer>Disavow Links - Google Search Console </footer>
+            Getting a backlink that appears on every page of a site is rarely a
+            good idea especially if it not set as nofollow. First the position
+            of the link on the page is a key factor so if your link is in the
+            footer its positioning is all but optimal. Second, your numerous
+            backlinks will in fact count as only one and its value will be
+            minimal if negative.
+          </div>
+
+          <div className="serviceTitle"> Other type of links to avoid</div>
+          <div className="serviceText">
+            <ul>
+              <li>links from unrelated websites</li>
+              <li>
+                links from sites of different languages and/or countries links
+              </li>
+              <li> from websites flagged as spammy</li>
+            </ul>
+          </div>
+          <img
+            src="/disavow.png"
+            className="traffic"
+            width="300px"
+            height="150px"
+          />
+
+          <div className="serviceTitle">
+            {" "}
+            Disavow and contact them to remove them
+          </div>
+          <div className="serviceText">
+            Once you have identified those toxic links, the best is first to use
+            the{" "}
+            <a
+              href="https://www.google.com/webmasters/tools/disavow-links-main"
+              target="blank"
+            >
+              Google disavow tool
+            </a>{" "}
+            to inform Google you are aware of them and want to bring them to
+            Google's attention. Please note that you need to be connected to the
+            website's search console acccount in order to log into the tool.
+            Google then advises you to actively get in touch with the respective
+            webmasters and ask them to remove them.
           </div>
         </div>
       </div>

@@ -78,6 +78,8 @@ class Onpage extends Component {
           </div>
 
           <div className="infoTitle">
+            <h1>Onpage SEO Audit - SEO Freelancer</h1>
+
             <img
               alt="onpage"
               src="/onpage.svg"

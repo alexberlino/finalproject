@@ -37,13 +37,12 @@ class Navigation extends Component {
       <header className="toolbar">
         <nav className="toolbar_navigation">
           <div>
-            <a name="back to Homepage" href={"/" + this.props.lang}>
-              <img
-                alt="logo"
-                className="toolbar_logo"
-                src="/logonew.png"
-                onClick={() => this.props.pageChange("/")}
-              />
+            <a
+              name="back to Homepage"
+              href={"/" + this.props.lang}
+              onClick={() => this.props.pageChange("/")}
+            >
+              <img alt="logo" className="toolbar_logo" src="/logonew.png" />
             </a>
           </div>
 
