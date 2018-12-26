@@ -25,7 +25,9 @@ module.exports.postArticle = function(
 
 module.exports.getArticles = function() {
   return db
-    .query(`SELECT * FROM articles WHERE status =$1`, ["ready to publish"])
+    .query(`SELECT * FROM articles WHERE status =$1 ORDER BY id DESC`, [
+      "ready to publish"
+    ])
     .catch(function(err) {
       console.log("ERROR DB ADD ARTICLE", err);
     });
@@ -33,9 +35,10 @@ module.exports.getArticles = function() {
 
 module.exports.get3Articles = function() {
   return db
-    .query(`SELECT * FROM articles WHERE status =$1 LIMIT 3`, [
-      "ready to publish"
-    ])
+    .query(
+      `SELECT * FROM articles WHERE status =$1 ORDER BY id DESC LIMIT 3 `,
+      ["ready to publish"]
+    )
     .catch(function(err) {
       console.log("ERROR DB ADD ARTICLE", err);
     });
