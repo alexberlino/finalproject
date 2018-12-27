@@ -23,20 +23,7 @@ class SideDrawer extends Component {
           <li>
             <a href={"/" + this.props.lang + "/"}>
               <span onClick={() => this.props.pageChange("/")}>
-                SEO FREELANCER
-              </span>
-            </a>
-          </li>
-
-          <li>
-            <a href={"/en/blog"}>
-              <span
-                onClick={() =>
-                  this.props.pageChange("/blog") ||
-                  this.props.languageChange("en")
-                }
-              >
-                BLOG
+                SEO FREELANCER HOME
               </span>
             </a>
           </li>
@@ -50,6 +37,19 @@ class SideDrawer extends Component {
                 }
               >
                 SEO EXPERTISE
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href={"/en/blog"}>
+              <span
+                onClick={() =>
+                  this.props.pageChange("/blog") ||
+                  this.props.languageChange("en")
+                }
+              >
+                BLOG
               </span>
             </a>
           </li>
