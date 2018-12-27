@@ -346,8 +346,7 @@ app.post("/en/form", (req, res) => {
     }
   });
 
-  nodemailer.createTestAccount((err, account) => {
-    const htmlEmail = `
+  const htmlEmail = `
       <h3> Contact Details </h3>
       <ul>
           <li>Name: ${req.body.name}</li>
@@ -356,7 +355,6 @@ app.post("/en/form", (req, res) => {
       <h3>Message</h3>
       <p>${req.body.message}</p>
       `;
-  });
 
   var mailOpts = {
     from: "office@seoberlino.com",
