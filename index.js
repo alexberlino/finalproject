@@ -362,9 +362,8 @@ app.post("/en/form", (req, res) => {
     });
 
     let mailOptions = {
-      from: "test@testaccount.com",
+      from: secrets.EMAIL_USER,
       to: secrets.MAIL_TO,
-      replyTo: " test@testaccount.com",
       subject: "new Message from website",
       text: req.body.message,
       html: htmlEmail

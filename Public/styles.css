@@ -206,8 +206,9 @@ iframe {
   position: relative;
   display: inline-flex;
 
-  width: 35%;
+  width: 65%;
   height: 400px;
+  margin-bottom: 100px;
 }
 
 .contactpage {

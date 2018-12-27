@@ -82,41 +82,7 @@ class ContactMain extends Component {
             </div>
           </div>
         ) : null}
-        <div className="leftContact">
-          <Form onSubmit={this.handleSubmit}>
-            <FormGroup>
-              <label>{t("fullname")} </label>
-              <input
-                type="text"
-                name="name"
-                className="field"
-                onChange={this.handleChange}
-              />
-            </FormGroup>
-
-            <FormGroup>
-              <label>Email* </label>
-              <input
-                type="email"
-                name="email"
-                className="field"
-                onChange={this.handleChange}
-              />
-            </FormGroup>
-
-            <FormGroup>
-              <label>{t("message")} </label>
-              <textarea
-                type="text"
-                name="message"
-                className="fieldMessage"
-                onChange={this.handleChange}
-              />
-            </FormGroup>
-
-            <Button className="formButton">{t("sendMessage")} </Button>
-          </Form>
-        </div>
+        <div className="leftContact" />
         <div className="rightContact">
           <iframe
             title="map"

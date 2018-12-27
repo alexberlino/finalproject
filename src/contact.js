@@ -42,6 +42,7 @@ class Contact extends Component {
           <img src="/telephone.svg" className="iconphone" />
           015 787 011 932
         </h2>
+        <h2 className="txt">seoberlino@gmail.com</h2>
         <ContactMain />
       </div>
     );
