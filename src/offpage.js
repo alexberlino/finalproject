@@ -54,7 +54,9 @@ class Offpage extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Off-page SEO || SEO Berlino</title>
+          <title>
+            Off-page SEO Audit | SEO Expert Freelancer || SEO Berlino
+          </title>
           <meta
             name="description"
             content="Offpage SEO Jobs: backlink competitor analysis, backlink profile, bradnbuilding opportunities, toxic link cleaning, best practice"

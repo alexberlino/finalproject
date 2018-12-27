@@ -59,7 +59,9 @@ class Technical extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO Freelancer || SEO Berlino</title>
+          <title>
+            Technical SEO Audit | SEO Expert Freelancer || SEO Berlino
+          </title>
           <meta
             name="description"
             content="Technical SEO Freelancer in Berlin: indexation, crawlability, internationalisation, pagespeed, etc "
