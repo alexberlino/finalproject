@@ -341,8 +341,8 @@ app.post("/en/form", (req, res) => {
   var transporter = nodemailer.createTransport({
     service: "Mailgun",
     auth: {
-      user: secrets.EMAIL_USER,
-      pass: secrets.EMAIL_PASS
+      api_key: secrets.EMAIL_USER,
+      domain: secrets.EMAIL_PASS
     }
   });
 
