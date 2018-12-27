@@ -338,68 +338,45 @@ app.get("/log-out", (req, res) => {
 app.post("/en/form", (req, res) => {
   console.log("POSTREQBODY", req.body);
 
+  var transporter = nodemailer.createTransport({
+    service: "Mailgun",
+    auth: {
+      user: secrets.EMAIL_USER,
+      pass: secrets.EMAIL_PASS
+    }
+  });
+
   nodemailer.createTestAccount((err, account) => {
     const htmlEmail = `
-        <h3> Contact Details </h3>
-        <ul>
-            <li>Name: ${req.body.name}</li>
-            <li>Email: ${req.body.email}</li>
-        </ul>
-        <h3>Message</h3>
-        <p>${req.body.message}</p>
-        `;
+      <h3> Contact Details </h3>
+      <ul>
+          <li>Name: ${req.body.name}</li>
+          <li>Email: ${req.body.email}</li>
+      </ul>
+      <h3>Message</h3>
+      <p>${req.body.message}</p>
+      `;
+  });
 
-    console.log("HTMLEMAIL", htmlEmail);
+  var mailOpts = {
+    from: "office@seoberlino.com",
+    to: secrets.MAIL_TO,
+    subject: "new Message from website",
+    text: req.body.message,
 
-    let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true,
-      auth: {
-        user: secrets.EMAIL_USER,
-        pass: secrets.EMAIL_PASS
-      }
-    });
-
-    let mailOptions = {
-      from: "seoberlino@gmail.com",
-      to: secrets.MAIL_TO,
-      subject: "new Message from website",
-      text: req.body.message,
-      html: htmlEmail
-    }; //closemailoptions
-    console.log(mailOptions);
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        return console.log("error sending mail", error);
-      } else {
-        res.json({
-          success: true
-        });
-      }
-      console.log("Message sent: %s", info.messageId);
-      // Preview only available when sending through an Ethereal account
-      console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-    }); //transporter
+    html: htmlEmail
+  };
+  transporter.sendMail(mailOpts, function(err, response) {
+    if (err) {
+      //ret.message = "Mail error.";
+    } else {
+      res.json({
+        success: true
+      });
+    }
   });
 }); //main
 app.enable("trust proxy");
-
-// app.use(require("prerender-node"));
-
-// Add a handler to inspect the req.secure flag (see
-// http://expressjs.com/api#req.secure). This allows us
-// to know whether the request was via http or https.
-
-// set up plain http server
-
-// set up a route to redirect http to https
-// http.get("*", function(req, res) {
-//   res.redirect("https://" + req.headers.host + req.url);
-//
-//   // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
-//   // res.redirect('https://example.com' + req.url);
-// });
 
 app.get("*", function(req, res) {
   res.sendFile(__dirname + "/index.html");
