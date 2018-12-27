@@ -353,8 +353,8 @@ app.post("/en/form", (req, res) => {
 
     let transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
+      port: 465,
+      secure: true,
       auth: {
         user: secrets.EMAIL_USER,
         pass: secrets.EMAIL_PASS
@@ -362,9 +362,8 @@ app.post("/en/form", (req, res) => {
     });
 
     let mailOptions = {
-      from: "test@testaccount.com",
+      from: "seoberlino@gmail.com",
       to: secrets.MAIL_TO,
-      replyTo: " test@testaccount.com",
       subject: "new Message from website",
       text: req.body.message,
       html: htmlEmail
