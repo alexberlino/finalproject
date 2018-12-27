@@ -87,7 +87,7 @@ class Article extends Component {
         </Helmet>
         <div className="main2">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lang}>> HOME ></a>
+            <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
 
             <a href={"/" + this.props.lang + "/blog"}> BLOG ></a>
           </div>

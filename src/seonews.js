@@ -50,8 +50,8 @@ class SEONews extends Component {
         </Helmet>
         <div className="main2">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lang}>> HOME ></a>
-            <a href={"/" + this.props.lang + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
+            <a href={"/" + this.props.lang + "/resources"}> EXPERTISE ></a>
 
             <a href={"/" + this.props.lang + "/seonews"}> SEONEWS ></a>
           </div>

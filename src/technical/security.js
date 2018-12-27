@@ -33,9 +33,9 @@ class Security extends Component {
         </Helmet>{" "}
         <div className="main2">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}>> HOME ></a>
+            <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> RESOURCES ></a>
+            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>

@@ -22,7 +22,9 @@ class SideDrawer extends Component {
         <ul>
           <li>
             <a href={"/" + this.props.lang + "/"}>
-              <span onClick={() => this.props.pageChange("/")}>HOME</span>
+              <span onClick={() => this.props.pageChange("/")}>
+                SEO FREELANCER
+              </span>
             </a>
           </li>
 
@@ -47,7 +49,7 @@ class SideDrawer extends Component {
                   this.props.pageChange("/resources")
                 }
               >
-                SEO RESOURCES
+                SEO EXPERTISE
               </span>
             </a>
           </li>

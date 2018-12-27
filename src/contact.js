@@ -33,7 +33,7 @@ class Contact extends Component {
           />{" "}
         </Helmet>
         <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> HOME ></a>
+          <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
           <a href={"/" + this.props.lng + "/contact"}> CONTACT ></a>
         </div>
