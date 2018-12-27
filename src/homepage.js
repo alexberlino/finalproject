@@ -233,6 +233,13 @@ class Homepage extends Component {
               <p className="txt3">{t("OnPageOptimizationText")}</p>
               <h2 className="traffic">{t("OffpagePageOptimization")}</h2>
               <p className="txt3">{t("OffpagePageOptimizationText")}</p>
+
+              <h3 className="breadcrumb">
+                <a href="/en/offpage/backlinkanalysis">
+                  Backlink profile audit
+                </a>{" "}
+              </h3>
+              <p className="txt3">{t("offpage_main")}</p>
             </div>
           </div>
 

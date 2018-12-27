@@ -415,7 +415,21 @@ L'analyse des mots clés est une partie très importante du référencement. Une
         impressum_title: `Impressum SEO Berlino | SEO Beratung in Berlin`,
         footer1: `tous droits réservés. 2018 Alex Bieth`,
         boost1: `BIEN IDENTIFIER SES MOTS CLÉS`,
-        boost2: `POUR PLUS DE TRAFIC DE QUALITÉ`
+        boost2: `POUR PLUS DE TRAFIC DE QUALITÉ`,
+        offpage_main: `1. Auditing your backlink profile (number and quality of current
+                        backlinks) 2. Checking on how competitors get (quality) backlinks
+                        and find any opportnities. 3. Taking into account the specificity of
+                        the industry and the local aspect, will suggest creative
+                        opportunities to get backlinks 3. Suggesting an action plan to boost
+                        your backlink profile What we can do for you About Backlinks
+                        Backlinks still play an imporstant role in SEO and can help your
+                        website get more visibility. Backlinks are for Google a sign of
+                        trust from a website to another. The more (quality) backlinks you
+                        get pointing your site, the more popular will your website be rated.
+                        Of course many factors come into play: -timing of new backlinks
+                        -quality of the website pointing the link to yours. These aspects
+                        are critical in how to positively improve your backlink profile and
+                        boost your Domain Authority.`
       }
     }, //fr
 
