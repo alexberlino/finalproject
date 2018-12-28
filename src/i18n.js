@@ -130,20 +130,22 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         onpageSEO1: `Important first step, keyword research is the process of understanding how your target users search for your product or service.`,
         onpageSEO2: `It has to be done before starting the on-page work. Competitor Analysis help to expand the research and make sure no important keyword is omitted. ​ Although since Hummingbird, Google is more semantically driven to assess the website's content, and focussed on Voice search and entities, knowing your important keywords is still important when structuring content and metadata. We will then do an audit of your website checking content for each important landing page, site structure, metadata, images. ​ Additional important checks will cover structured data implementation and other technical aspects.`,
 
-        offpage_main: `1. Auditing your backlink profile (number and quality of current
-                        backlinks) 2. Checking on how competitors get (quality) backlinks
-                        and find any opportnities. 3. Taking into account the specificity of
-                        the industry and the local aspect, will suggest creative
-                        opportunities to get backlinks 4. Suggesting an action plan to boost
-                        your backlink profile What we can do for you About Backlinks
-                        Backlinks still play an imporstant role in SEO and can help your
-                        website get more visibility. Backlinks are for Google a sign of
-                        trust from a website to another. The more (quality) backlinks you
-                        get pointing your site, the more popular will your website be rated.
-                        Of course many factors come into play: -timing of new backlinks
-                        -quality of the website pointing the link to yours. These aspects
-                        are critical in how to positively improve your backlink profile and
-                        boost your Domain Authority.`,
+        offpage_main: `Backlinks still play an imporstant role in SEO and can help your
+        website get more visibility. They are for Google a sign of
+        trust from a website to another. The more (quality) backlinks you
+        get pointing your site, the more popular will your website be rated.
+        Of course many factors come into play: -timing of new backlinks
+        -quality of the website pointing the link to yours. These aspects
+        are critical in how to positively improve your backlink profile and
+        boost your Domain Authority. 
+
+
+
+        1. Auditing your backlink profile (number and quality of current backlinks)
+        2. Checking on how competitors get (quality) backlinks and find any opportunities.
+        3. Taking into account the specificity of the industry and the local aspect, will suggest creative opportunities to get backlinks
+        4. Suggesting an action plan to boost your backlink profile.
+                        `,
         offpage_intro: `Backlinks are for Google a sign of trust from a website to another.
                         The more (quality) backlinks you get pointing your site, the more
                         popular will your website be rated.`,
@@ -416,12 +418,11 @@ L'analyse des mots clés est une partie très importante du référencement. Une
         footer1: `tous droits réservés. 2018 Alex Bieth`,
         boost1: `BIEN IDENTIFIER SES MOTS CLÉS`,
         boost2: `POUR PLUS DE TRAFIC DE QUALITÉ`,
-        offpage_main: `1. Auditing your backlink profile (number and quality of current
-                        backlinks) 2. Checking on how competitors get (quality) backlinks
-                        and find any opportnities. 3. Taking into account the specificity of
-                        the industry and the local aspect, will suggest creative
-                        opportunities to get backlinks 4. Suggesting an action plan to boost
-                        your backlink profile What we can do for you About Backlinks
+        offpage_main: `1. Audit de vos liens (nombre et qualité) 2. Comment vos compétiteurs obtiennent des liens, comment s'en inspirer et faire mieux 3. Prennant en compte la spécificité de votre industrie, comment créativement créer du contenu qui apportera liens et trafic.
+                         4. Suggesting an action plan to boost
+                        your backlink profile What we can do for you
+
+                        About Backlinks
                         Backlinks still play an imporstant role in SEO and can help your
                         website get more visibility. Backlinks are for Google a sign of
                         trust from a website to another. The more (quality) backlinks you

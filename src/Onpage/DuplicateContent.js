@@ -41,7 +41,10 @@ class DuplicateContent extends Component {
             {" "}
             On-page SEO: Duplicate Content and Canonicals
           </h1>
-          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceTitle">
+            {" "}
+            Duplicate Content, the biggest threat to making content king
+          </div>
           <div className="serviceText">
             Search Engines do not like duplicate content indexed. If you have
             many similar pages and you are not flagging them, these pages will
@@ -49,11 +52,33 @@ class DuplicateContent extends Component {
           </div>
           <img src="/content.svg" className="serviceImage" />
 
-          <div className="serviceTitle"> To do</div>
+          <div className="serviceTitle"> Indexation audit</div>
           <div className="serviceText">
-            Identify duplicate content, assess status and design "master page",
-            deindex unnecessary pages using canonicals, 410s or redirects
+            Identify duplicate content, assess status and design for the master
+            page, deindex unnecessary pages using canonicals, 410s or redirects
             accordingly.
+          </div>
+
+          <div className="serviceTitle"> Using Canonicals</div>
+          <div className="serviceText">
+            Canonicals are best used when you have very similar pages fro
+            imstance same t-shirt in different colours. You don't want to index
+            the same t-shirt for each colour, although you want to keep the urls
+            for the user to browse through the options. Beware though that
+            sometimes canonicals are sometimes ignored by Google so it is
+            important to monitor the results of canonicals implementation and
+            follow up with a new strategy if necessary.
+          </div>
+
+          <div className="serviceTitle">
+            {" "}
+            Same language country, different territory target
+          </div>
+          <div className="serviceText">
+            A possible cause for duplicate content is when targeting different
+            territoris (UK and US for instance) with different domains or urls
+            but with a very similar content. Make sure then that you have well
+            implemented href lang!
           </div>
         </div>
       </div>

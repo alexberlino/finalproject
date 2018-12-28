@@ -27,7 +27,7 @@ class LocalSEO extends Component {
         </Helmet>
         <div className="main2">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
+            <a href={"/" + this.props.lng}> SEO FREELANCER ></a>
 
             <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
 

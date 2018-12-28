@@ -35,8 +35,11 @@ h3 {
   font-size: 16px;
 }
 
-.black {
-  color: lightgrey;
+.black a {
+  color: black;
+}
+.black a:hover {
+  color: darkblue;
 }
 
 .block {

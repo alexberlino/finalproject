@@ -37,16 +37,12 @@ class BacklinkAnalysis extends Component {
             <h1 className="h1services"> Backlink Profile Audit</h1>
             <div className="serviceText">
               <p>
-                Create a report with your profile's pros and cons - vs target
-                and taking into account competitors - including{" "}
-                <a
-                  onClick={() => this.props.pageChange("/offpage/toxic")}
-                  href="/en/offpage/toxic"
-                >
-                  *toxic links*
-                </a>
-                quantity and quality links and set some objectives for the next
-                quarters focusing on *brand building*
+                Create a report with your profile's pros and cons. Audit
+                competitors to understand where you stand. Brainstorm link
+                targets and content production, and then prioritise depending on
+                potential and coplexity. Set targets: quantity and quality links
+                for the next quarters focusing on{" "}
+                <a href="/en/offpage/brandbuilding">brand building</a>.
               </p>
             </div>
             <img
@@ -113,33 +109,27 @@ class BacklinkAnalysis extends Component {
                 </li>
               </ul>
             </div>
-            <h2 className="serviceTitle">
-              Anchor text, nofollow/follow, gov&edu, etc
-            </h2>
+            <h2 className="serviceTitle">Anchor text</h2>
             <div className="serviceText">
-              Some other of the important factors to look into are:
-              <ul>
-                <li>
-                  anchor text: make sure they look natural, avoid "click here"
-                  or some misleading text. Very often the brand name is the most
-                  used anchor text.
-                </li>
-                <li>
-                  make sure the ratio of nofollow links is not too high.
-                  nofollow means that the website linking does not want to
-                  "commit" the link as sign a trust and therefore pass link
-                  juice (authority). It is totally acceptable to have a certain
-                  percentage of nofollow links but if this ration gets to high,
-                  this is sign that your website is not trusted.{" "}
-                </li>
-                <li>
-                  ".gov" and ".edu" sites have by essence a lot more trust and
-                  power as ".com" for instance. If you have the opportunity to
-                  get alink from such sites and it makes sense to your business
-                  - bringing in at the same time quality & relevant traffic -
-                  this link will very likely be beneficial.
-                </li>
-              </ul>
+              make sure they look natural, avoid "click here" or some misleading
+              text. Very often the brand name is the most used anchor text.
+            </div>
+            <h2 className="serviceTitle">nofollow/follow links</h2>
+            <div className="serviceText">
+              Make sure the ratio of nofollow links is not too high. nofollow
+              means that the website linking does not want to "commit" the link
+              as sign a trust and therefore pass link juice (authority). It is
+              totally acceptable to have a certain percentage of nofollow links
+              but if this ration gets to high, this is sign that your website is
+              not trusted.{" "}
+            </div>
+            <h2 className="serviceTitle">gov & edu links</h2>
+            <div className="serviceText">
+              ".gov" and ".edu" sites have by essence a lot more trust and power
+              as ".com" for instance. If you have the opportunity to get alink
+              from such sites and it makes sense to your business - bringing in
+              at the same time quality & relevant traffic - this link will very
+              likely be beneficial.
             </div>
             <h2 className="serviceTitle"> Related Tools and Resources</h2>
             <div className="serviceText">

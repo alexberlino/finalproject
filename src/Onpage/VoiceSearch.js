@@ -38,28 +38,49 @@ class VoiceSearch extends Component {
             On-page SEO: Optimization for Voice Search
           </h1>
 
-          <h2 className="serviceTitle"> What is Voice Search</h2>
-
           <h2 className="serviceTitle">
             {" "}
-            Why it's Important to be ready for Voice Search
+            What is Voice Search and why it's Important to be ready for it
           </h2>
           <div className="serviceText">
-            Voice search is already disrupting online marketing. It already
-            represents an important share of the number of searches. In order to
-            be ready for it, every website needs to understand how it changes
-            classical SEO.
+            Google Assistant, Alexa are just of those devices which are
+            transforming search. Instead of typing searches, users now more and
+            more ask for their need vocally. Voice search is already disrupting
+            online marketing. It already represents an important share of the
+            number of searches. In order to be ready for it, every website needs
+            to understand how it changes classical SEO.
           </div>
 
           <h2 className="serviceTitle"> Questions</h2>
 
+          <div className="serviceText">
+            The main difference with traditional search is that many voice
+            search requests are questions, so they begin with where, how, what,
+            etc.
+          </div>
+
           <h2 className="serviceTitle"> Longer Search terms</h2>
 
+          <div className="serviceText">
+            The second main difference is that the "keywords" are longer, mostly
+            because the requests are questions and because users are more
+            descriptive when voally expressing their needs, compared to typing.{" "}
+          </div>
+
           <h2 className="serviceTitle"> Increasing Search Volume</h2>
+          <div className="serviceText">
+            Search volumes for such searches are still lower than the classical
+            searches equivalent, but the volumes are continuously increasing and
+            the keywords are more segmented, meaning there are more questions
+            for the equivalent classical search term
+          </div>
 
           <h2 className="serviceTitle"> Featured Snippet</h2>
-
-          <h2 className="serviceTitle"> Quora</h2>
+          <div className="serviceText">
+            One of the main advantage to be ready and optimized for search term
+            is that you can be featured at "position 0" with the featured
+            snippet, answering directly to the question of the search.
+          </div>
         </div>{" "}
       </div>
     );

@@ -179,7 +179,9 @@ class Homepage extends Component {
                 <p className="txt2"> {t("hey7")}</p>
               </div>
               <div className="txt2 serviceQuarter">
-                <h2 className="center">ANALYTICS</h2>
+                <h2 className="center black">
+                  <a href="/en/research/analytics">ANALYTICS </a>
+                </h2>
                 <p className="txt2">{t("analytics1")}</p>
 
                 <p className="txt2">{t("analytics2")}</p>
@@ -189,7 +191,10 @@ class Homepage extends Component {
                 <p className="txt2">{t("analytics5")}</p>
               </div>
               <div className="txt2 serviceQuarter">
-                <h2 className="center">BRAND-BUILDING</h2>
+                <h2 className="center black">
+                  {" "}
+                  <a href="/en/offpage/brandbuilding">BRAND BUILDING </a>
+                </h2>
                 <p className="txt2">{t("brandbuilding1")}</p>
                 <p className="txt2">{t("brandbuilding2")}</p>
                 <p className="txt2">{t("brandbuilding3")}</p>
@@ -202,8 +207,8 @@ class Homepage extends Component {
             <img
               className="trafficImg"
               src="/traffic.jpg"
-              height="60%"
-              width="60%"
+              height="80%"
+              width="75%"
             />
           </div>
 
@@ -214,28 +219,40 @@ class Homepage extends Component {
 
               <img
                 className="PDCD"
-                heigth="300px"
-                width="300px"
+                heigth="350px"
+                width="350px"
                 src="/PDCA.png"
               />
               <h2 className="traffic"> {t("audit")}</h2>
               <p className="txt3">{t("auditText")}</p>
-              <h2 className="traffic">{t("KWResearch")}</h2>
+              <h2 className="traffic black">
+                <a className="black" href="/en/onpage/keywordresearch">
+                  {t("KWResearch")}
+                </a>
+              </h2>
               <p className="txt3">{t("KWResearchText")}</p>
 
               <img
                 className="PDCD"
-                heigth="500px"
-                width="500px"
+                heigth="350px"
+                width="350px"
                 src="/seoprocess.png"
               />
-              <h2 className="traffic">{t("OnPageOptimization")}</h2>
+              <h2 className="traffic black">
+                <a className="black" href="/en/onpage">
+                  {t("OnPageOptimization")}
+                </a>
+              </h2>
               <p className="txt3">{t("OnPageOptimizationText")}</p>
-              <h2 className="traffic">{t("OffpagePageOptimization")}</h2>
+              <h2 className="traffic black">
+                <a className="black" href="/en/offpage">
+                  {t("OffpagePageOptimization")}
+                </a>
+              </h2>
               <p className="txt3">{t("OffpagePageOptimizationText")}</p>
 
-              <h3 className="breadcrumb">
-                <a href="/en/offpage/backlinkanalysis">
+              <h3 className="black">
+                <a className="black" href="/en/offpage/backlinkanalysis">
                   Backlink profile audit
                 </a>{" "}
               </h3>
@@ -259,7 +276,7 @@ class Homepage extends Component {
                       />
                     </div>
                     <div className="listArticlesBlogHP">
-                      <a href={"/" + this.props.i18n.language + "/blog"}>
+                      <a href={"/en/blog"}>
                         <span onClick={() => this.props.pageChange("/blog")}>
                           {article.title}
                         </span>
@@ -269,7 +286,7 @@ class Homepage extends Component {
                 ))}
               </div>
               <Link
-                to={"/" + this.props.i18n.language + "/blog"}
+                to={"en/blog"}
                 onClick={() => this.props.pageChange("/blog")}
               >
                 <img

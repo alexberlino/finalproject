@@ -37,28 +37,48 @@ class Content extends Component {
         </Helmet>
         <div className="main2">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
+            <a href={"/en"}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/en/resources"}> EXPERTISE ></a>
 
-            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+            <a href={"/en/onpage"}> ONPAGE </a>
           </div>
-
           <h1 className="h1services"> On-page SEO: Content & Semantics </h1>
-          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceTitle">
+            {" "}
+            What does "content is king" really mean
+          </div>
           <div className="serviceText">
-            Content is King, and far away are the times when Google got tricked
-            with keyword stuffing. As Google bots constantly improve to assess
-            your website's content, and while mobile first means the content on
-            the mobile version counts the most, space is more limited.
+            The content is the value you want to create. If you content has no
+            value to the user, or if it is duplicate content, your content will
+            not be brought forward. Check content quality, good usage of
+            semantics, still using the most important keywords and variations in
+            the right places, while keeping focus on relevancy for the user and
+            not focus on SEO only.
           </div>
 
-          <img src="/content.svg" className="serviceImage" />
-          <div className="serviceTitle"> To do</div>
+          <div className="serviceTitle">
+            {" "}
+            Content optimization is not keyword stuffing
+          </div>
           <div className="serviceText">
-            Check content quality, good usage of semantics, still using the most
-            important keywordsand variations in the right places, while keeping
-            focus on relevancy for the user and not focus on Google only.
+            Content is King, but far away are the times when Google got tricked
+            with keyword stuffing. As Google bots constantly improve to assess
+            your website's content, your site will be penealised in rankings if
+            your content doesn't make much sense linguisitcally or for the user.
+          </div>
+          <img src="/content.svg" className="serviceImage" />
+          <div className="serviceTitle">
+            {" "}
+            The effects of mobile first on content
+          </div>
+          <div className="serviceText">
+            Since mobile first indexation, the content on your mobile version is
+            the master one for both mobile and desktop indexation. This means
+            the content on the mobile version is the one which counts. Space on
+            mobile is more limited than on desktop so choose your content
+            carefully: engage your users, don't bore them with too much content,
+            but enough to guide google bots.
           </div>
         </div>
       </div>

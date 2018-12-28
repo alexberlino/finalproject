@@ -32,18 +32,41 @@ class Metas extends Component {
           </div>
 
           <h1 className="h1services"> On-page SEO: Metas Tags and headers </h1>
-          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceTitle"> titles</div>
           <div className="serviceText">
-            Basic aspect of SEO, they are somehow often neglected. The two main
-            ones: meta title and description can also have a negative impact on
-            CTR (Click-through-rate) when incorrectly implemented.
+            Page titles are often neglected, but are really important and very
+            simple to implement. That means you need to have them spot on. Each
+            page should have unique titles, clearly stating the page main focus,
+            using terms that users are searching, so according to your keywords
+            list.
           </div>
-          <div className="serviceTitle"> To do</div>
+          <div className="serviceTitle"> description</div>
           <div className="serviceText">
-            Crawling through your website to analyse and identify opportunities
-            such duplicate metas, length, problematic use variables, phrasing,
-            consistency, etc. Metas to be checked: title, description, viewport
-            and when needed: robots and language.
+            Meta descriptions are not required t have your page rank well. Even
+            if your meta description is empty or missing, Google will take some
+            text from the page and fill in the gap. If you have one but Google
+            is not using it, that means Google did not find it relevant enough
+            for the searched term. Either way, meta descriptions are important
+            for CTR, searched terms if included in your description will appear
+            in bold and you can also confirm to the user your entry is the most
+            relevant for the search and add that difference that will make the
+            click happen.
+          </div>
+
+          <div className="serviceTitle"> headers</div>
+          <div className="serviceText">
+            you should have one h1 per page with h1 being your main keyword for
+            the page. then
+          </div>
+
+          <div className="serviceTitle"> what to check</div>
+          <div className="serviceText">
+            Crawling through the website to analyse and identify:
+            <ul>
+              <li>missing or empty metas</li>
+              <li>duplicate or unclear metas</li>
+              <li>too long or too short metas</li>
+            </ul>
           </div>
           <div className="serviceTitle"> Tools and Resources</div>
           <div className="serviceText">

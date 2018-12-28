@@ -22,7 +22,7 @@ class SEA extends Component {
           </title>
           <meta
             name="description"
-            content="Paid Search Services with SEO Berlino."
+            content="Paid Search Services - Synchronize your SEA activities with your SEO Strategy. SEO Berlino."
           />
           <link
             rel="canonical"
@@ -31,11 +31,11 @@ class SEA extends Component {
         </Helmet>
         <div className="main2">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
+            <a href={"/" + this.props.lng}> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/en/resources"}> EXPERTISE ></a>
 
-            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
+            <a href={"/en/research"}> RESEARCH </a>
           </div>
           <h1 className="h1services"> SEA, Search Engine Advertising</h1>
           <h2 className="serviceTitle">
@@ -51,24 +51,57 @@ class SEA extends Component {
           </div>
           <h2 className="serviceTitle"> Adwords Set-up</h2>
           <div className="serviceText">
-            Adwords Set-up and/or optimization, landing pages testing. Keywords
-            bid ajustments depending on the strategy.
+            Google Ads is not extremely competitive which means CPC (cost per
+            click) are very high for pretty much any industry. Doing a thorough
+            Keyword Research is key before starting a campaign. It is also
+            important to think budget and choose your strategy: visibility, ROI,
+            etc. Adwords Set-up
           </div>
 
           <h2 className="serviceTitle"> Adwords Account Optimization</h2>
-          <div className="serviceText" />
-
-          <h2 className="serviceTitle"> Landing Page Optimization</h2>
-          <div className="serviceText" />
+          <div className="serviceText">
+            Once you have chosen your budget strategy, created your campaigns,
+            adgroups and ads, optimization begins:
+            <ul>
+              <li>Keywords bid ajustments</li>
+              <li>landing pages testing, CVR here is good indicator</li>
+              <li>ads testing</li>{" "}
+              <li>work on that Quality Score to optimize your bids</li>
+              <li>
+                ad & remove keywords, vary match accordingly (main matches are
+                exact, phrase, broad)
+              </li>
+              <li>negative list adding</li>
+              <li>display network adjustments</li>
+            </ul>
+          </div>
 
           <h2 className="serviceTitle"> SEO / SEA Consistency </h2>
-          <div className="serviceText" />
+          <div className="serviceText">
+            A great way to transmit a stronger message on SERPs is to be
+            consistent in your language and word choice in SEO and SEA.
+            <ul>
+              <li>
+                consitent form of address for non-english languages such as
+                German, French, Italian, etc
+              </li>
+              <li>
+                same wording and style in Ads and meta descriptions so that the
+                user has more chances to recognise your brand.
+              </li>
+            </ul>
+          </div>
 
           <h2 className="serviceTitle"> Google Ads Data for SEO </h2>
-          <div className="serviceText" />
+          <div className="serviceText">
+            Google Ads are expensive but on top of getting you that visibility
+            and orders, it is a precious goldmine for keywords, especially if
+            the account is well managed (with impressions, meaning high enough
+            bids)
+          </div>
           <h2 className="serviceTitle"> Releted Tools and Resources</h2>
           <div className="serviceText">
-            <footer>Adwords </footer>
+            <footer>Google Ads </footer>
           </div>
         </div>{" "}
       </div>
