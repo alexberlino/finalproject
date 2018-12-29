@@ -79,17 +79,16 @@ class Footer extends Component {
             />
           </a>
         </div>
-        <div itemscope itemtype="https://schema.org/WebPage">
-          <p class="dot-after">SEO Freelancer</p> Author:{" "}
+        <div itemScope itemType="https://schema.org/WebPage">
+          <p>SEO Freelancer</p> Author:{" "}
           <span
-            class=""
-            itemprop="author"
-            itemscope
-            itemtype="https://schema.org/Person"
+            itemProp="author"
+            itemScope
+            itemType="https://schema.org/Person"
           >
-            <span itemprop="name">Alex Bieth </span>
+            <span itemProp="name">Alex Bieth </span>
           </span>
-          <p class="" itemprop="lastReviewed" content="28.10.2018">
+          <p itemProp="lastReviewed" content="28.10.2018">
             Last Reviewed: 28/12/2018
           </p>
         </div>
