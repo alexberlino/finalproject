@@ -74,7 +74,7 @@ creation quality and brand awareness.`,
 
         audit: `Audit`,
         auditText: `The SEO Audit helps to define where your website stands compared to your main competitors, and enables to set realistic objectives
-                     based on gained visibily. In the audit, onpage, offpage and technical SEO aspects are covered. Subsequently
+                     based on gained visibility. In the audit, onpage, offpage and technical SEO aspects are covered. Subsequently
                       you will receive a detailed report on the results of the SEO audit.`,
         KWResearch: `Keyword Research`,
         KWResearchText: `
@@ -130,7 +130,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         onpageSEO1: `Important first step, keyword research is the process of understanding how your target users search for your product or service.`,
         onpageSEO2: `It has to be done before starting the on-page work. Competitor Analysis help to expand the research and make sure no important keyword is omitted. ​ Although since Hummingbird, Google is more semantically driven to assess the website's content, and focussed on Voice search and entities, knowing your important keywords is still important when structuring content and metadata. We will then do an audit of your website checking content for each important landing page, site structure, metadata, images. ​ Additional important checks will cover structured data implementation and other technical aspects.`,
 
-        offpage_main: `Backlinks still play an imporstant role in SEO and can help your
+        offpage_main: `Backlinks still play an important role in SEO and can help your
         website get more visibility. They are for Google a sign of
         trust from a website to another. The more (quality) backlinks you
         get pointing your site, the more popular will your website be rated.
@@ -153,7 +153,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
                         content related.`,
         technical_main: `Technical SEO Optimization regroups all on-page SEO which is not content related. For a Technical Audit, we will review, report and present an action plan for these topics: ​ Pagespeed, consequences of Google algorithms changes, crawl (robots, noindex/follow, sitemaps, etc), redirects, duplicate content & canonicals, indexation, URL Canonicalization, image optimization, site structure, internal linking etc...`,
         research_intro: `Using the most important SEO factors, we will do an in-depth analysis of your competitors to find quick wins!`,
-        research_main: `​ ​ ​ ​ ​ What are my competitors ranking ahead of me doing that I am not, and that I could test? Who is linking to my competitors and why not to me? But don't copy, do better! ​ Know what your competitors are up to Contact Us Content of Competitor Analysis: ​ Main SEO Competitors Identification Backlink profile Keyword Analysis, main landing pages organisation and site structure Indexation Page load time comparition and other technical checks Internationalisation and more`,
+        research_main: `​ ​ ​ ​ ​ What are my competitors ranking ahead of me doing that I am not, and that I could test? Who is linking to my competitors and why not to me? But don't copy, do better! ​ Know what your competitors are up to Contact Us Content of Competitor Analysis: ​ Main SEO Competitors Identification Backlink profile Keyword Analysis, main landing pages organisation and site structure Indexation Page load time comparision and other technical checks Internationalisation and more`,
         impressum_title: `Impressum SEO Berlino | SEO Expert in Berlin`,
         footer1: `All Right Reserved 2018 Alex Bieth`,
         footer2: `about this website`,
@@ -181,7 +181,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         intro6: `5 Jahre als  Head of SEO (bei Spreadshirt)`,
         intro7: `+400% SEO Auftragseingang (DACH, US, FR)`,
         intro8: `Mehr als 1 Jahre Erfahrung als Freelancer`,
-        intro9: ` Voll/Speczifisch Audit mit Zusammenfassung`,
+        intro9: ` Voll/Spezifisch Audit mit Zusammenfassung`,
         cookie1: `Diese Website verwendet sehr einfache und generische Cookies.`,
         cookie2: `Sie können lesen, welche Cookies verwendet werden`,
         cookie3: `oder akzeptieren, um fortzufahren.`,
@@ -227,10 +227,10 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         technicalHP3: `Internationalisierung,`,
         technicalHP4: `Seitengeschwindigkeit,`,
         technicalHP5: `Mobile-friendliness,`,
-        technicalHP6: `Javascrips apps und SEO: dynamisches Rendering`,
+        technicalHP6: `Javascript apps und SEO: dynamisches Rendering`,
         technicalHP7: `Sicherheit und Website-Migration`,
         audit: `Audit`,
-        auditText: ` Das SEO Audit hilft zu definieren, wo Ihre Website im Vergleich zu Ihren Hauptkonkurrenten steht, und ermöglicht es Ihnen, realistische Ziele zu setzen basierend auf visibily gewonnen. In der Prüfung werden Onpage-, Offpage- und technische SEO-Aspekte behandelt. Anschließend Sie erhalten einen detaillierten Bericht über die Ergebnisse des SEO-Audits.`,
+        auditText: ` Das SEO Audit hilft zu definieren, wo Ihre Website im Vergleich zu Ihren Hauptkonkurrenten steht, und ermöglicht es Ihnen, realistische Ziele zu setzen basierend auf visibility gewonnen. In der Prüfung werden Onpage-, Offpage- und technische SEO-Aspekte behandelt. Anschließend Sie erhalten einen detaillierten Bericht über die Ergebnisse des SEO-Audits.`,
         KWResearch: `Keywordanalyse`,
         KWResearchText: `Ein ganz wichtiger Grundstein für alle zukünftigen SEO Maßnahmen
         ist die Keywordanalyse. Hier generiere ich eine Liste der für Ihr Produkt oder Ihre
@@ -265,7 +265,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         getintouch: `Kontakt`,
         aboutme: `SEO Experte || SEO Freelancer in Berlin | SEO Berlino`,
         HPTitle: `SEO Experte Freelancer Berlin | SEO Beratung | SEO Berlino`,
-        descriptionHP: `SEO Beratung in Berlin: Audit, Onpage, Offpage, Technisches SEO, Mitbewerberanalyse, Webanalyse, Brand Building`,
+        descriptionHP: `SEO Beratung in Berlin: Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Webanalyse, Brand Building`,
 
         getintouch_title: `SEO Experte Freelancer in Berlin | Kontakt | seoberlino`,
         bloglatest: `Neueste Beiträge`,
@@ -275,11 +275,11 @@ A very important cornerstone for all future SEO measures is the keyword analysis
 
         offpage_main: `1. Auditing your backlink profile (number and quality of current
                         backlinks) 2. Checking on how competitors get (quality) backlinks
-                        and find any opportnities. 3. Taking into account the specificity of
+                        and find any opportunities. 3. Taking into account the specificity of
                         the industry and the local aspect, will suggest creative
                         opportunities to get backlinks 4. Suggesting an action plan to boost
                         your backlink profile What we can do for you About Backlinks
-                        Backlinks still play an imporstant role in SEO and can help your
+                        Backlinks still play an important role in SEO and can help your
                         website get more visibility. Backlinks are for Google a sign of
                         trust from a website to another. The more (quality) backlinks you
                         get pointing your site, the more popular will your website be rated.
