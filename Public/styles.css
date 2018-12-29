@@ -313,8 +313,7 @@ iframe {
 }
 
 .services {
-  min-height: calc(100vh - 120px);
-  margin-bottom: 200px;
+  margin-bottom: 120px;
 }
 
 .mainBlog {
@@ -1054,29 +1053,8 @@ a.linkServices {
   position: relative;
 }
 
-.linkstoPageMainDiv2 {
-  width: 100%;
-  background-color: darkgrey;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .imageservices {
   margin-left: 30%;
-}
-
-.linkstoPageMainDiv2 a {
-  font-size: 15px;
-  display: block;
-  text-align: center;
-
-  position: relative;
-
-  color: white;
-}
-
-.linkstoPageMainDiv2 li {
-  list-style: none;
 }
 
 .footerlink {
@@ -1422,8 +1400,8 @@ a.linkServices {
   height: 80px;
   width: 80px;
   position: relative;
-
-  margin-left: 65%;
+  top: -60px;
+  margin-left: 75%;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -1435,33 +1413,14 @@ a.linkServices {
   left: 160px;
   display: block;
   position: relative;
-  width: 300px;
-  height: 600px;
+  width: 60%;
+
   opacity: 0.9;
   margin-top: 10%;
 }
 
 .main2 {
   margin-top: 10%;
-}
-
-.mainRightServices {
-  background-color: #f6f6f6;
-  padding-bottom: 90px;
-  min-height: calc(100vh - 120px);
-}
-
-.rightServices {
-  vertical-align: top;
-  left: 700px;
-  display: block;
-  position: relative;
-  height: auto;
-  width: 40%;
-  transform: translateY(-680px);
-  justify-content: flex-start;
-  background-color: #f5f5f5;
-  opacity: 0.9;
 }
 
 .serviceText {
@@ -1474,7 +1433,7 @@ a.linkServices {
   color: black;
   position: relative;
   width: 100%;
-  font-size: 50px;
+  font-size: 40px;
   z-index: 1;
   opacity: 0.8;
   border-radius: 20px;
@@ -1501,8 +1460,9 @@ a.linkServices {
   margin: 3px;
   border-radius: 20px;
   font-size: 21px;
-  width: 100%;
+  width: 70%;
   background-color: white;
+  text-align: center;
 }
 
 table th {
@@ -1515,13 +1475,11 @@ table th {
   background-color: lightgrey;
 }
 .listServices:hover {
-  cursor: help;
   color: white;
   background-color: black;
 }
 
 .listServices:hover a {
-  cursor: help;
   color: white;
   background-color: black;
 }

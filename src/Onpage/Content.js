@@ -18,7 +18,7 @@ class Content extends Component {
     }
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
@@ -36,11 +36,11 @@ class Content extends Component {
             href="https://www.seoberlino.com/en/onpage/content"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/en"}>> SEO FREELANCER ></a>
 
-            <a href={"/en/resources"}> EXPERTISE ></a>
+            <a href={"/en/resources"}> AUDIT ></a>
 
             <a href={"/en/onpage"}> ONPAGE </a>
           </div>
@@ -81,8 +81,8 @@ class Content extends Component {
             carefully: engage your users, don't bore them with too much content,
             but enough to guide google bots.
           </div>
-          <LinksToPages />
-        </div>
+        </div>{" "}
+        <LinksToPages />
       </div>
     );
   }

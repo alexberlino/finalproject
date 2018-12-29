@@ -13,7 +13,7 @@ class BrandBuilding extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Offpage SEO Freelancer - Brand Building | SEO Berlino</title>
@@ -23,16 +23,15 @@ class BrandBuilding extends Component {
             href="https://www.seoberlino.com/en/offpage/brandbuilding"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
           <h1 className="h1services">
-            {" "}
             Brandbuilding: backlinks and brand visibility
           </h1>
           <div className="serviceTitle"> Why it's Important</div>
@@ -80,10 +79,9 @@ class BrandBuilding extends Component {
               article on my blog about link building
             </a>
           </div>{" "}
-          <div>
-            <LinksToPages />
-          </div>
+          <div />
         </div>
+        <LinksToPages />
       </div>
     );
   }

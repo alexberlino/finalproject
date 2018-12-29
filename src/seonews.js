@@ -51,10 +51,11 @@ class SEONews extends Component {
         <div className="main2">
           <div className="breadcrumb">
             <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
-            <a href={"/" + this.props.lang + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lang + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lang + "/seonews"}> SEONEWS ></a>
           </div>
+          <h1 className="h1services">SEONews</h1>
 
           <div className="infoTitle" />
 

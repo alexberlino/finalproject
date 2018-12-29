@@ -45,13 +45,13 @@ class Technical extends Component {
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
 
           <div className="infoTitle">
-            <h1>SEO Analytics and Research - SEO Freelancer</h1>
+            <h1 className="h1services">Analytics and Research</h1>
 
             <img
               alt="research and analytics"
@@ -76,35 +76,6 @@ class Technical extends Component {
                 <a href="/en/research/sea">{t("analyticsHP2")}</a>
               </p>
             </div>
-          </div>
-
-          <div className="linkstoPageMainDiv2">
-            <ul>
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/research/analytics"}>
-                  ANALYTICS{" "}
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/research/bestpractices"}>
-                  COMPETITOR ANALYSIS{" "}
-                </a>
-              </li>
-
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/research/localseo"}>
-                  LOCAL SEO{" "}
-                </a>
-              </li>
-
-              <li>
-                {" "}
-                <a href={"/" + this.props.lng + "/research/sea"}>SEA </a>
-              </li>
-            </ul>
           </div>
 
           <div className={this.state.hide2}>

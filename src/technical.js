@@ -51,13 +51,13 @@ class Technical extends Component {
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
 
           <div className="infoTitle">
-            <h1>Technical SEO Freelancer</h1>
+            <h1 className="h1services">Technical SEO </h1>
             <img
               alt="technical"
               src="/technical.svg"
@@ -93,67 +93,10 @@ class Technical extends Component {
             </div>
           </div>
 
-          <div className={this.state.hide2}>
-            <div className="linkstoPageMainDiv2">
-              <ul>
-                <li>
-                  <a href={"/" + this.props.lng + "/technical/crawlability"}>
-                    CRAWLABILITY
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a
-                    href={"/" + this.props.lng + "/technical/dynamicrendering"}
-                  >
-                    DYNAMIC RENDERING
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a
-                    href={
-                      "/" + this.props.lng + "/technical/internationalisation"
-                    }
-                  >
-                    INTERNATIONALISATION
-                  </a>
-                </li>
-
-                <li>
-                  {" "}
-                  <a href={"/" + this.props.lng + "/technical/mobilefriendly"}>
-                    MOBILE FRIENDLY
-                  </a>
-                </li>
-
-                <li>
-                  {" "}
-                  <a href={"/" + this.props.lng + "/technical/pagespeed"}>
-                    PAGESPEED
-                  </a>
-                </li>
-
-                <li>
-                  {" "}
-                  <a href={"/" + this.props.lng + "/technical/security"}>
-                    SECURITY
-                  </a>
-                </li>
-
-                <li>
-                  {" "}
-                  <a href={"/" + this.props.lng + "/technical/indexation"}>
-                    INDEXATION
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <LinksToPages
-              pageChange={this.props.pageChange}
-              lang={this.props.lng}
-            />
-          </div>
+          <LinksToPages
+            pageChange={this.props.pageChange}
+            lang={this.props.lng}
+          />
         </div>
       </div>
     );

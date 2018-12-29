@@ -168,8 +168,10 @@ class Homepage extends Component {
             <h2 className="txthead"> {t("servicesL")}></h2>
             <div className="intro21 ">
               {" "}
-              <div className="serviceQuarter">
-                <h2 className="center">SEO AUDIT</h2>
+              <div className="serviceQuarter black">
+                <h2 className="center">
+                  <a href="/en/resources">SEO AUDIT</a>
+                </h2>
                 <p className="txt2">{t("intro9")}</p>
                 <p className="txt2">{t("hey4")}</p>
                 <p className="txt2">{t("hey3")}</p>
@@ -225,7 +227,10 @@ class Homepage extends Component {
                 width="350px"
                 src="/PDCA.png"
               />
-              <h2 className="traffic"> {t("audit")}</h2>
+              <h2 className="traffic black">
+                {" "}
+                <a href="/en/resources">{t("audit")}</a>
+              </h2>
               <p className="txt3">{t("auditText")}</p>
               <h2 className="traffic black">
                 <a className="black" href="/en/onpage/keywordresearch">
@@ -313,7 +318,7 @@ class Homepage extends Component {
             <ContactMain />
           </div>
           <div className="intro3 ">
-            <div className="logoQuarter">
+            <div>
               <h2 className="footerlink inline"> {t("clients")}></h2>
             </div>
 

@@ -79,8 +79,8 @@ class OnpageList extends Component {
           >
             {t("onpageHP10")}
           </p>
-          <LinksToPages />
-        </div>
+        </div>{" "}
+        <LinksToPages />
       </div>
     );
   }

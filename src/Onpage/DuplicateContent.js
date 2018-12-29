@@ -16,7 +16,7 @@ class DuplicateContent extends Component {
     }
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Onpage SEO Freelancer - Duplicate Content | SEO Berlino</title>
@@ -29,11 +29,11 @@ class DuplicateContent extends Component {
             href="https://www.seoberlino.com/en/onpage/duplicatecontent"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
@@ -81,8 +81,8 @@ class DuplicateContent extends Component {
             but with a very similar content. Make sure then that you have well
             implemented href lang!
           </div>
-          <LinksToPages />
-        </div>
+        </div>{" "}
+        <LinksToPages />
       </div>
     );
   }

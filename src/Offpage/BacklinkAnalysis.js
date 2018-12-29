@@ -13,7 +13,7 @@ class BacklinkAnalysis extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Backlink Profile Audit - Offpage SEO | SEO Berlino</title>
@@ -26,16 +26,17 @@ class BacklinkAnalysis extends Component {
             href="https://www.seoberlino.com/en/offpage/backlinkanalysis"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
-          <div className="mainRightServices">
-            <h1 className="h1services"> Backlink Profile Audit</h1>
+          <h1 className="h1services"> Backlink Profile Audit</h1>
+
+          <div>
             <div className="serviceText">
               <p>
                 Create a report with your profile's pros and cons. Audit
@@ -150,13 +151,11 @@ class BacklinkAnalysis extends Component {
               </a>
               <a target="blank" className="block" href="https://ahrefs.com/de/">
                 ahrefs
-              </a>{" "}
-            </div>{" "}
-            <div>
-              <LinksToPages />
+              </a>
             </div>
           </div>
         </div>
+        <LinksToPages />
       </div>
     );
   }

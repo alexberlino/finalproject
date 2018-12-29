@@ -13,7 +13,7 @@ class Metas extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Onpage SEO Freelancer - Meta optimization | SEO Berlino</title>
@@ -23,11 +23,11 @@ class Metas extends Component {
             href="https://www.seoberlino.com/en/onpage/metas"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
@@ -73,8 +73,8 @@ class Metas extends Component {
           <div className="serviceText">
             <footer>Screaming Frog </footer>
           </div>
-          <LinksToPages />
         </div>{" "}
+        <LinksToPages />
       </div>
     );
   }

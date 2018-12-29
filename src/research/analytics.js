@@ -13,7 +13,7 @@ class Analytics extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Reseach & Analytics - Analysis for SEO | SEO Berlino</title>
@@ -27,11 +27,11 @@ class Analytics extends Component {
             href="https://www.seoberlino.com/en/research/analytics"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER ></a>
 
-            <a href={"/en/resources"}> EXPERTISE ></a>
+            <a href={"/en/resources"}> AUDIT ></a>
 
             <a href={"/en/research"}> RESEARCH </a>
           </div>

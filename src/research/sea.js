@@ -15,7 +15,7 @@ class SEA extends Component {
       window.scrollTo(0, 0);
     }
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
@@ -30,11 +30,11 @@ class SEA extends Component {
             href="https://www.seoberlino.com/en/research/sea"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER ></a>
 
-            <a href={"/en/resources"}> EXPERTISE ></a>
+            <a href={"/en/resources"}> AUDIT ></a>
 
             <a href={"/en/research"}> RESEARCH </a>
           </div>

@@ -16,7 +16,7 @@ class Images extends Component {
     }
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
@@ -32,11 +32,11 @@ class Images extends Component {
             href="https://www.seoberlino.com/en/onpage/images"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
@@ -70,8 +70,8 @@ class Images extends Component {
             If your image is too big, this will affect pagespeed, especially for
             mobile traffic.
           </div>
-          <LinksToPages />
         </div>
+        <LinksToPages />
       </div>
     );
   }

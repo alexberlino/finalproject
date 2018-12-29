@@ -19,7 +19,7 @@ class MobileFriendly extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>Technical SEO Freelancer - Mobile First | SEO Berlino</title>
@@ -32,11 +32,11 @@ class MobileFriendly extends Component {
             href="https://www.seoberlino.com/en/technical/mobilefriendly"
           />
         </Helmet>{" "}
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>

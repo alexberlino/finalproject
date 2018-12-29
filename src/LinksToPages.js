@@ -112,7 +112,7 @@ class LinksToPages extends Component {
                   this.props.pageChange("/resources")
                 }
               >
-                EXPERTISE
+                AUDIT
               </span>
             </a>
           </li>

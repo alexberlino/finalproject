@@ -13,7 +13,7 @@ class LandingPageOptimization extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="mainRightServices">
+      <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
@@ -29,11 +29,11 @@ class LandingPageOptimization extends Component {
             href="https://www.seoberlino.com/en/onpage/landingpages"
           />{" "}
         </Helmet>
-        <div className="main2">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
@@ -63,9 +63,8 @@ class LandingPageOptimization extends Component {
               <li>image optimization</li>
             </ul>
           </div>
-
-          <LinksToPages />
-        </div>
+        </div>{" "}
+        <LinksToPages />
       </div>
     );
   }

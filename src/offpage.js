@@ -43,13 +43,13 @@ class Offpage extends Component {
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
-            <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
 
           <div className="infoTitle">
-            <h1>Offpage SEO Audit - SEO Freelancer</h1>
+            <h1 className="h1services">Offpage SEO Audit</h1>
 
             <img
               alt="offpage"
@@ -76,34 +76,10 @@ class Offpage extends Component {
             </div>
           </div>
 
-          <div className={this.state.hide2}>
-            <div className="linkstoPageMainDiv2">
-              <ul>
-                <li>
-                  <a href={"/" + this.props.lng + "/offpage/backlinkanalysis"}>
-                    BACKLINK ANALYSIS
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href={"/" + this.props.lng + "/offpage/brandbuilding"}>
-                    BRAND BUILDING
-                  </a>
-                </li>
-                <li>
-                  {" "}
-                  <a href={"/" + this.props.lng + "/offpage/toxic"}>
-                    TOXIC LINKS
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <LinksToPages
-              pageChange={this.props.pageChange}
-              lang={this.props.lng}
-            />
-          </div>
+          <LinksToPages
+            pageChange={this.props.pageChange}
+            lang={this.props.lng}
+          />
         </div>
       </div>
     );
