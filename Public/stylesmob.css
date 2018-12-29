@@ -494,6 +494,10 @@
     display: none;
   }
 
+  .intro3 {
+    display: none;
+  }
+
   .rightContact {
     display: none;
   }
@@ -743,6 +747,10 @@
   .side-drawer {
     font-size: 25px;
     /* display: none; */
+  }
+
+  .intro3 {
+    display: none;
   }
 
   .linkstoPageMainDiv2 {
