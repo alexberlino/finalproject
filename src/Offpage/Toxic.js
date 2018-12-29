@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "../LinksToPages";
 
 class Toxic extends Component {
   render() {
@@ -99,6 +100,9 @@ class Toxic extends Component {
             website's search console acccount in order to log into the tool.
             Google then advises you to actively get in touch with the respective
             webmasters and ask them to remove them.
+          </div>
+          <div>
+            <LinksToPages />
           </div>
         </div>
       </div>

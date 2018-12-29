@@ -17,33 +17,9 @@ import ContactMain from "./ContactMain";
 class Technical extends Component {
   constructor() {
     super();
-    this.state = {
-      show: "",
-      toggle: "hideRightServices",
-      hide: null,
-      hide2: null
-    };
-
-    this.handleClick = this.handleClick.bind(this);
-    this.handleClickClose = this.handleClickClose.bind(this);
-  }
-  handleClick(n) {
-    this.setState({
-      show: n,
-      toggle: "",
-      hide: "hide",
-      hide2: "hide2"
-    });
+    this.state = {};
   }
 
-  handleClickClose() {
-    this.setState({
-      toggle: "hideRightServices",
-      hide: "show",
-      hide2: null
-    });
-    window.scrollTo(0, 0);
-  }
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -66,7 +42,7 @@ class Technical extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/research" />
         </Helmet>
         <div className="main2">
-          <div className="breadcrumb2">
+          <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
             <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
@@ -85,34 +61,23 @@ class Technical extends Component {
           </div>
 
           <div className="services">
-            <div className={this.state.hide + " leftServices"}>
+            <div className="black leftServices">
               <p className="listServices" onClick={() => this.handleClick(1)}>
-                {t("analyticsHP1")}
+                <a href="/en/research/localseo">{t("analyticsHP1")}</a>
               </p>
               <p className="listServices" onClick={() => this.handleClick(2)}>
-                {t("analyticsHP2")}
+                <a href="/en/research/analytics">{t("analyticsHP2")}</a>
               </p>
               <p className="listServices" onClick={() => this.handleClick(3)}>
-                {t("analyticsHP3")}
+                <a href="/en/research/bestpractices">{t("analyticsHP3")}</a>
               </p>
 
               <p className="listServices" onClick={() => this.handleClick(5)}>
-                {t("analyticsHP6")}
+                <a href="/en/research/sea">{t("analyticsHP2")}</a>
               </p>
             </div>
-
-            <div className={this.state.toggle + " rightServices"}>
-              <div className="closeX" onClick={() => this.handleClickClose()}>
-                {" "}
-                X{" "}
-              </div>
-              {this.state.show == 1 ? <LocalSEO /> : null}
-              {this.state.show == 2 ? <Analytics /> : null}
-              {this.state.show == 3 ? <BestPractices /> : null}
-              {this.state.show == 4 ? <Adhoc /> : null}
-              {this.state.show == 5 ? <SEA /> : null}
-            </div>
           </div>
+
           <div className="linkstoPageMainDiv2">
             <ul>
               <li>

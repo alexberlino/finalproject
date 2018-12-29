@@ -1267,14 +1267,13 @@ a.linkServices {
 }
 
 .marginright {
-  margin-right: 30%;
+  margin-right: 10%;
+  margin-left: 7%;
   margin-bottom: 10%;
   background-color: white;
   padding: 30px;
 }
-.breadcrumb2 {
-  display: none;
-}
+
 .breadcrumb {
   z-index: 1;
 }

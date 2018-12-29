@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "../LinksToPages";
 
 class Metas extends Component {
   render() {
@@ -72,6 +73,7 @@ class Metas extends Component {
           <div className="serviceText">
             <footer>Screaming Frog </footer>
           </div>
+          <LinksToPages />
         </div>{" "}
       </div>
     );

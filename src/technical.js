@@ -20,33 +20,9 @@ import ContactMain from "./ContactMain";
 class Technical extends Component {
   constructor() {
     super();
-    this.state = {
-      show: "",
-      toggle: "hideRightServices",
-      hide: null,
-      hide2: null
-    };
-
-    this.handleClick = this.handleClick.bind(this);
-    this.handleClickClose = this.handleClickClose.bind(this);
-  }
-  handleClick(n) {
-    this.setState({
-      show: n,
-      toggle: "",
-      hide: "hide",
-      hide2: "hide2"
-    });
+    this.state = {};
   }
 
-  handleClickClose() {
-    this.setState({
-      toggle: "hideRightServices",
-      hide: "show",
-      hide2: null
-    });
-    window.scrollTo(0, 0);
-  }
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -72,7 +48,7 @@ class Technical extends Component {
           />
         </Helmet>
         <div className="main2">
-          <div className="breadcrumb2">
+          <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
             <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
@@ -90,38 +66,30 @@ class Technical extends Component {
           </div>
 
           <div className="services">
-            <div className={this.state.hide + " leftServices"}>
-              <p className="listServices" onClick={() => this.handleClick(1)}>
-                {t("technicalHP1")}
+            <div className="black leftServices">
+              <p className="listServices">
+                <a href="/en/technical/indexation">{t("technicalHP1")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(2)}>
-                {t("technicalHP2")}
+              <p className="listServices">
+                <a href="/en/technical/crawlability">{t("technicalHP2")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(3)}>
-                {t("technicalHP3")}
+              <p className="listServices">
+                <a href="/en/technical/internationalisation">
+                  {t("technicalHP3")}
+                </a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(4)}>
-                {t("technicalHP4")}
+              <p className="listServices">
+                <a href="/en/technical/pagespeed">{t("technicalHP4")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(5)}>
-                {t("technicalHP5")}
+              <p className="listServices">
+                <a href="/en/technical/mobilefriendly">{t("technicalHP5")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(6)}>
-                {t("technicalHP6")}
+              <p className="listServices">
+                <a href="/en/technical/dynamicrendering">{t("technicalHP6")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(7)}>
-                {t("technicalHP7")}
+              <p className="listServices">
+                <a href="/en/technical/security">{t("technicalHP7")}</a>
               </p>
-            </div>
-
-            <div className={this.state.toggle + " rightServices"}>
-              {this.state.show == 1 ? <Indexation /> : null}
-              {this.state.show == 2 ? <Crawlability /> : null}
-              {this.state.show == 3 ? <Internationalisation /> : null}
-              {this.state.show == 4 ? <PageSpeed /> : null}
-              {this.state.show == 5 ? <MobileFriendly /> : null}
-              {this.state.show == 6 ? <DynamicRendering /> : null}
-              {this.state.show == 7 ? <Security /> : null}
             </div>
           </div>
 

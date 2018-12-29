@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "../LinksToPages";
 
 class Content extends Component {
   componentDidMount() {}
@@ -80,6 +81,7 @@ class Content extends Component {
             carefully: engage your users, don't bore them with too much content,
             but enough to guide google bots.
           </div>
+          <LinksToPages />
         </div>
       </div>
     );

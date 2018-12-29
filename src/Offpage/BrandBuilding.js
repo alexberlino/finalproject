@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "../LinksToPages";
 
 class BrandBuilding extends Component {
   render() {
@@ -79,6 +80,9 @@ class BrandBuilding extends Component {
               article on my blog about link building
             </a>
           </div>{" "}
+          <div>
+            <LinksToPages />
+          </div>
         </div>
       </div>
     );

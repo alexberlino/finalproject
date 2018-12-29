@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "../LinksToPages";
 
 class LocalSEO extends Component {
   render() {
@@ -51,6 +52,7 @@ class LocalSEO extends Component {
             <footer>Google's MyBusiness</footer>
           </div>
         </div>{" "}
+        <LinksToPages />
       </div>
     );
   }

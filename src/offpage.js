@@ -16,33 +16,9 @@ import ContactMain from "./ContactMain";
 class Offpage extends Component {
   constructor() {
     super();
-    this.state = {
-      show: "",
-      toggle: "hideRightServices",
-      hide: null,
-      hide2: null
-    };
-
-    this.handleClick = this.handleClick.bind(this);
-    this.handleClickClose = this.handleClickClose.bind(this);
-  }
-  handleClick(n) {
-    this.setState({
-      show: n,
-      toggle: "",
-      hide: "hide",
-      hide2: "hide2"
-    });
+    this.state = {};
   }
 
-  handleClickClose() {
-    this.setState({
-      toggle: "hideRightServices",
-      hide: "show",
-      hide2: null
-    });
-    window.scrollTo(0, 0);
-  }
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -64,7 +40,7 @@ class Offpage extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/offpage" />{" "}
         </Helmet>
         <div className="main2">
-          <div className="breadcrumb2">
+          <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
             <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
@@ -83,22 +59,20 @@ class Offpage extends Component {
           </div>
 
           <div className="services">
-            <div className={this.state.hide + " leftServices"}>
-              <p className="listServices" onClick={() => this.handleClick(2)}>
-                {t("offpageHP1")} {t("offpageHP2")}
+            <div className="leftServices black">
+              <p className="listServices">
+                <a href="/en/offpage/backlinkanalysis">
+                  {t("offpageHP1")} {t("offpageHP2")}
+                </a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(1)}>
-                {t("offpageHP3")} {t("offpageHP4")}
+              <p className="listServices">
+                <a href="/en/offpage/brandbuilding">
+                  {t("offpageHP3")} {t("offpageHP4")}
+                </a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(3)}>
-                {t("offpageHP5")}
+              <p className="listServices">
+                <a href="/en/offpage/toxic">{t("offpageHP5")}</a>
               </p>
-            </div>
-
-            <div className={this.state.toggle + " rightServices"}>
-              {this.state.show == 1 ? <BrandBuilding /> : null}
-              {this.state.show == 2 ? <BacklinkAnalysis /> : null}
-              {this.state.show == 3 ? <Toxic /> : null}
             </div>
           </div>
 

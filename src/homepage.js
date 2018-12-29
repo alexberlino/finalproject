@@ -168,7 +168,7 @@ class Homepage extends Component {
             <h2 className="txthead"> {t("servicesL")}></h2>
             <div className="intro21 ">
               {" "}
-              <div className="txt2 serviceQuarter">
+              <div className="serviceQuarter">
                 <h2 className="center">SEO AUDIT</h2>
                 <p className="txt2">{t("intro9")}</p>
                 <p className="txt2">{t("hey4")}</p>

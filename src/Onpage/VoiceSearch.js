@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "../LinksToPages";
 
 class VoiceSearch extends Component {
   render() {
@@ -82,6 +83,7 @@ class VoiceSearch extends Component {
             snippet, answering directly to the question of the search.
           </div>
         </div>{" "}
+        <LinksToPages />
       </div>
     );
   }

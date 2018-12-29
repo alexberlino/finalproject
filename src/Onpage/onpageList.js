@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react";
-
+import LinksToPages from "../LinksToPages";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
@@ -79,6 +79,7 @@ class OnpageList extends Component {
           >
             {t("onpageHP10")}
           </p>
+          <LinksToPages />
         </div>
       </div>
     );

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "../LinksToPages";
 
 class KeywordResearch extends Component {
   render() {
@@ -144,6 +145,7 @@ class KeywordResearch extends Component {
               KWFinder
             </a>
           </div>
+          <LinksToPages />
         </div>{" "}
       </div>
     );

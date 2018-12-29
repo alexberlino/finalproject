@@ -70,7 +70,7 @@ class Resources extends Component {
         </div>
 
         <div>
-          <div className="blogArticles breadcrumb marginright">
+          <div className="marginright">
             <p>
               <a className="resourcesLinks" href={"/en/onpage"}>
                 ON PAGE

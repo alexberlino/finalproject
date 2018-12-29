@@ -22,33 +22,9 @@ import ContactMain from "./ContactMain";
 class Onpage extends Component {
   constructor() {
     super();
-    this.state = {
-      show: "",
-      toggle: "hideRightServices",
-      hide: null,
-      hide2: null
-    };
-
-    this.handleClick = this.handleClick.bind(this);
-    this.handleClickClose = this.handleClickClose.bind(this);
-  }
-  handleClick(n) {
-    this.setState({
-      show: n,
-      toggle: "",
-      hide: "hide",
-      hide2: "hide2"
-    });
+    this.state = {};
   }
 
-  handleClickClose() {
-    this.setState({
-      toggle: "hideRightServices",
-      hide: "show",
-      hide2: null
-    });
-    window.scrollTo(0, 0);
-  }
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -70,8 +46,8 @@ class Onpage extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/onpage" />
         </Helmet>
 
-        <div className="main2">
-          <div className="breadcrumb2">
+        <div className="main2 black">
+          <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
             <a href={"/" + this.props.lng + "/resources"}> EXPERTISE ></a>
@@ -90,32 +66,34 @@ class Onpage extends Component {
           </div>
           <div className="services">
             <div className={this.state.hide + " leftServices"}>
-              <p className="listServices" onClick={() => this.handleClick(1)}>
-                {t("onpageHP1")}
+              <p className="listServices">
+                <a href="/en/onpage/keywordresearch">{t("onpageHP1")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(2)}>
-                {t("onpageHP2")}
+              <p className="listServices">
+                <a href="/en/onpage/landingpages">{t("onpageHP2")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(3)}>
-                {t("onpageHP3")} {t("onpageHP5")}
+              <p className="listServices">
+                <a href="/en/onpage/internallinking">
+                  {t("onpageHP3")} {t("onpageHP5")}
+                </a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(4)}>
-                {t("onpageHP4")}
+              <p className="listServices">
+                <a href="/en/onpage/metas">{t("onpageHP4")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(5)}>
-                {t("onpageHP6")}
+              <p className="listServices">
+                <a href="/en/onpage/content">{t("onpageHP6")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(6)}>
-                {t("onpageHP7")}
+              <p className="listServices">
+                <a href="/en/onpage/images">{t("onpageHP7")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(7)}>
-                {t("onpageHP8")}
+              <p className="listServices">
+                <a href="/en/onpage/structureddata">{t("onpageHP8")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(8)}>
-                {t("onpageHP9")}
+              <p className="listServices">
+                <a href="/en/onpage/duplicatecontent">{t("onpageHP9")}</a>
               </p>
-              <p className="listServices" onClick={() => this.handleClick(9)}>
-                {t("onpageHP10")}
+              <p className="listServices">
+                <a href="/en/onpage/voicesearch">{t("onpageHP10")}</a>
               </p>
             </div>
 
@@ -124,15 +102,6 @@ class Onpage extends Component {
                 {" "}
                 X{" "}
               </div>
-              {this.state.show == 1 ? <KeywordResearch /> : null}
-              {this.state.show == 2 ? <LandingPageOptimization /> : null}
-              {this.state.show == 3 ? <InternalLinking /> : null}
-              {this.state.show == 4 ? <Metas /> : null}
-              {this.state.show == 5 ? <Content /> : null}
-              {this.state.show == 6 ? <Images /> : null}
-              {this.state.show == 7 ? <StructuredData /> : null}
-              {this.state.show == 8 ? <DuplicateContent /> : null}
-              {this.state.show == 9 ? <VoiceSearch /> : null}
             </div>
           </div>
           <div className={this.state.hide2}>

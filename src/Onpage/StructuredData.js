@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
+import LinksToPages from "../LinksToPages";
 
 class StructuredData extends Component {
   render() {
@@ -50,7 +51,8 @@ class StructuredData extends Component {
             Organization information * Local business Markup * Product and Offer
             * Breadcrumb * Ratings * Site navigation
           </div>
-        </div>{" "}
+        </div>
+        <LinksToPages />
       </div>
     );
   }
