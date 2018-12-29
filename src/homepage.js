@@ -178,7 +178,7 @@ class Homepage extends Component {
 
                 <p className="txt2"> {t("hey7")}</p>
               </div>
-              <div className="txt2 serviceQuarter">
+              <div className="serviceQuarter">
                 <h2 className="center black">
                   <a href="/en/research/analytics">ANALYTICS </a>
                 </h2>
@@ -190,10 +190,12 @@ class Homepage extends Component {
 
                 <p className="txt2">{t("analytics5")}</p>
               </div>
-              <div className="txt2 serviceQuarter">
+              <div className="serviceQuarter">
                 <h2 className="center black">
                   {" "}
-                  <a href="/en/offpage/brandbuilding">BRAND BUILDING </a>
+                  <a className="black" href="/en/offpage/brandbuilding">
+                    BRAND BUILDING
+                  </a>
                 </h2>
                 <p className="txt2">{t("brandbuilding1")}</p>
                 <p className="txt2">{t("brandbuilding2")}</p>
