@@ -63,7 +63,7 @@ creation quality and brand awareness.`,
         getintouch: `Get in touch`,
         aboutme: `SEO Expert in Berlin | 10 years experience | Alex Bieth`,
         aboutmetitle: `aboutme`,
-        HPTitle: `SEO Expert Freelancer in Berlin, SEO Consultant | SEO Berlino`,
+        HPTitle: `SEO Expert Freelancer, SEO Consultant | SEO Berlino`,
         descriptionHP: `SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building`,
         beratung: `SEO Consultancy`,
         beratungText: `For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs
@@ -264,7 +264,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
 
         getintouch: `Kontakt`,
         aboutme: `SEO Experte || SEO Freelancer in Berlin | SEO Berlino`,
-        HPTitle: `SEO Experte Freelancer Berlin | SEO Beratung | SEO Berlino`,
+        HPTitle: `SEO Experte Freelancer | SEO Beratung | SEO Berlino`,
         descriptionHP: `SEO Beratung in Berlin: Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Webanalyse, Brand Building`,
 
         getintouch_title: `SEO Experte Freelancer in Berlin | Kontakt | seoberlino`,
@@ -409,7 +409,7 @@ L'analyse des mots clés est une partie très importante du référencement. Une
 
         getintouch: `Contact`,
         aboutme: `SEO Experte und Freelancer in Berlin | SEO Berlino`,
-        HPTitle: `Expert Référencement Freelance SEO Berlin | SEO Berlino`,
+        HPTitle: `Expert Référencement Freelance SEO | SEO Berlino`,
         descriptionHP: `Expert SEO/Référencement français à Berlin: Audit, Onpage, Offpage, SEO technique, Analyse concurrence, Analyse Web, Brand Building`,
         getintouch_title: `Expert SEO / Référencement Freelance français à Berlin | seoberlino`,
         services: `SERVICES`,
