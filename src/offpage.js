@@ -58,22 +58,32 @@ class Offpage extends Component {
             />
           </div>
 
-          <div className="services">
-            <div className="leftServices black">
-              <p className="listServices">
-                <a href="/en/offpage/backlinkanalysis">
-                  {t("offpageHP1")} {t("offpageHP2")}
-                </a>
-              </p>
-              <p className="listServices">
-                <a href="/en/offpage/brandbuilding">
-                  {t("offpageHP3")} {t("offpageHP4")}
-                </a>
-              </p>
-              <p className="listServices">
-                <a href="/en/offpage/toxic">{t("offpageHP5")}</a>
-              </p>
-            </div>
+          <div className="services black">
+            <div className="black leftServices">
+              <table>
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    <a href="/en/offpage/backlinkanalysis">
+                      {t("offpageHP1")} {t("offpageHP2")}
+                    </a>
+                  </th>{" "}
+                  <th bgColor="beige">
+                    {" "}
+                    <a href="/en/offpage/brandbuilding">
+                      {t("offpageHP3")} {t("offpageHP4")}
+                    </a>{" "}
+                  </th>{" "}
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="beige">
+                    <a href="/en/offpage/toxic">{t("offpageHP5")}</a>
+                  </th>{" "}
+                </tr>
+              </table>
+            </div>{" "}
           </div>
 
           <LinksToPages

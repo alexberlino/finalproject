@@ -63,7 +63,7 @@ creation quality and brand awareness.`,
         getintouch: `Get in touch`,
         aboutme: `SEO Expert in Berlin | 10 years experience | Alex Bieth`,
         aboutmetitle: `aboutme`,
-        HPTitle: `SEO Expert Freelancer, SEO Consultant | SEO Berlino`,
+        HPTitle: `SEO Freelancer and Consultant | SEOBerlino`,
         descriptionHP: `SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building`,
         beratung: `SEO Consultancy`,
         beratungText: `For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs
@@ -130,21 +130,21 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         onpageSEO1: `Important first step, keyword research is the process of understanding how your target users search for your product or service.`,
         onpageSEO2: `It has to be done before starting the on-page work. Competitor Analysis help to expand the research and make sure no important keyword is omitted. ​ Although since Hummingbird, Google is more semantically driven to assess the website's content, and focussed on Voice search and entities, knowing your important keywords is still important when structuring content and metadata. We will then do an audit of your website checking content for each important landing page, site structure, metadata, images. ​ Additional important checks will cover structured data implementation and other technical aspects.`,
 
-        offpage_main: `Backlinks still play an important role in SEO and can help your
-        website get more visibility. They are for Google a sign of
-        trust from a website to another. The more (quality) backlinks you
-        get pointing your site, the more popular will your website be rated.
-        Of course many factors come into play: -timing of new backlinks
-        -quality of the website pointing the link to yours. These aspects
-        are critical in how to positively improve your backlink profile and
-        boost your Domain Authority.
+        offpage_main: `Backlinks still play an important role in SEO and can help your website get more visibility. They are for Google a sign of trust from a website to another. The more (quality) backlinks you get pointing to your site, the more popular will your website be rated. Of course many factors come into play:
+-timing of the new backlinks
+-quality of the website pointing the link to yours.
+-quality of the page with the link, within the website
 
 
+These aspects are critical to positively improve your backlink profile and boost your Domain Authority.
 
-        1. Auditing your backlink profile (number and quality of current backlinks)
-        2. Checking on how competitors get (quality) backlinks and find any opportunities.
-        3. Taking into account the specificity of the industry and the local aspect, will suggest creative opportunities to get backlinks
-        4. Suggesting an action plan to boost your backlink profile.
+How it is done:
+Prioritised Action plan with:
+
+1. Backlink profile audit (number and quality of current backlinks)
+2. Investigation on how competitors get (quality) backlinks and find opportunities.
+3. Taking into account the specificity of the industry and the local aspect, suggestion on creative opportunities to get backlinks
+4. Suggestion of content creation themes based on Search Volume and competitive difficulty
                         `,
         offpage_intro: `Backlinks are for Google a sign of trust from a website to another.
                         The more (quality) backlinks you get pointing your site, the more
@@ -264,7 +264,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
 
         getintouch: `Kontakt`,
         aboutme: `SEO Experte || SEO Freelancer in Berlin | SEO Berlino`,
-        HPTitle: `SEO Experte Freelancer | SEO Beratung | SEO Berlino`,
+        HPTitle: `SEO Freelancer | SEO Beratung | SEO Berlino`,
         descriptionHP: `SEO Beratung in Berlin: Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Webanalyse, Brand Building`,
 
         getintouch_title: `SEO Experte Freelancer in Berlin | Kontakt | seoberlino`,

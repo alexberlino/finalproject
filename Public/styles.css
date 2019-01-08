@@ -314,6 +314,7 @@ iframe {
 
 .services {
   margin-bottom: 120px;
+  margin-left: 17%;
 }
 
 .mainBlog {
@@ -1429,7 +1430,7 @@ a.linkServices {
   margin-left: 5%;
 }
 
-.h1services {
+.h1services h1 {
   color: black;
   position: relative;
   width: 100%;

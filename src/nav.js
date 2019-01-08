@@ -75,21 +75,6 @@ class Navigation extends Component {
             >
               EN
             </Link>
-
-            <Link
-              className={"languageBtnEN " + this.state.selectedFR}
-              onClick={() =>
-                this.props.languageChange("fr") ||
-                this.setState({
-                  selectedDE: "",
-                  selectedEN: "",
-                  selectedFR: "langselected"
-                })
-              }
-              to={"/fr" + this.props.page}
-            >
-              FR
-            </Link>
           </div>
 
           <div className="toolbar_navigation_items navEntries" />

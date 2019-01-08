@@ -62,19 +62,33 @@ class Technical extends Component {
 
           <div className="services">
             <div className="black leftServices">
-              <p className="listServices" onClick={() => this.handleClick(1)}>
-                <a href="/en/research/localseo">{t("analyticsHP1")}</a>
-              </p>
-              <p className="listServices" onClick={() => this.handleClick(2)}>
-                <a href="/en/research/analytics">{t("analyticsHP2")}</a>
-              </p>
-              <p className="listServices" onClick={() => this.handleClick(3)}>
-                <a href="/en/research/bestpractices">{t("analyticsHP3")}</a>
-              </p>
+              <table>
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    <a href="/en/research/localseo">{t("analyticsHP1")}</a>
+                  </th>{" "}
+                  <th bgColor="beige">
+                    {" "}
+                    <a href="/en/research/analytics">{t("analyticsHP2")}</a>
+                  </th>{" "}
+                </tr>
 
-              <p className="listServices" onClick={() => this.handleClick(5)}>
-                <a href="/en/research/sea">{t("analyticsHP2")}</a>
-              </p>
+                <tr>
+                  {" "}
+                  <th bgColor="beige">
+                    <a href="/en/technical/internationalisation">
+                      <a href="/en/research/bestpractices">
+                        {t("analyticsHP3")}
+                      </a>
+                    </a>{" "}
+                  </th>{" "}
+                  <th>
+                    {" "}
+                    <a href="/en/research/sea">{t("analyticsHP6")}</a>
+                  </th>{" "}
+                </tr>
+              </table>
             </div>
           </div>
 

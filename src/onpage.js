@@ -66,35 +66,64 @@ class Onpage extends Component {
           </div>
           <div className="services">
             <div className="leftServices">
-              <p className="listServices">
-                <a href="/en/onpage/keywordresearch">{t("onpageHP1")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/onpage/landingpages">{t("onpageHP2")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/onpage/internallinking">
-                  {t("onpageHP3")} {t("onpageHP5")}
-                </a>
-              </p>
-              <p className="listServices">
-                <a href="/en/onpage/metas">{t("onpageHP4")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/onpage/content">{t("onpageHP6")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/onpage/images">{t("onpageHP7")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/onpage/structureddata">{t("onpageHP8")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/onpage/duplicatecontent">{t("onpageHP9")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/onpage/voicesearch">{t("onpageHP10")}</a>
-              </p>
+              <table>
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    <a href="/en/onpage/keywordresearch">{t("onpageHP1")}</a>
+                  </th>{" "}
+                  <th bgColor="beige">
+                    {" "}
+                    <a href="/en/onpage/landingpages">{t("onpageHP2")}</a>
+                  </th>{" "}
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="beige">
+                    <a href="/en/onpage/internallinking">
+                      {t("onpageHP3")} {t("onpageHP5")}
+                    </a>
+                  </th>{" "}
+                  <th>
+                    {" "}
+                    <a href="/en/onpage/metas">{t("onpageHP4")}</a>
+                  </th>{" "}
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    {" "}
+                    <a href="/en/technical/mobilefriendly">
+                      <a href="/en/onpage/content">{t("onpageHP6")}</a>
+                    </a>
+                  </th>
+                  <th bgColor="lightblue">
+                    {" "}
+                    <a href="/en/onpage/images">{t("onpageHP7")}</a>
+                  </th>
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    {" "}
+                    <a href="/en/onpage/structureddata">{t("onpageHP8")}</a>
+                  </th>
+                  <th bgColor="lightblue">
+                    {" "}
+                    <a href="/en/onpage/duplicatecontent">{t("onpageHP9")}</a>
+                  </th>
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    <a href="/en/onpage/voicesearch">{t("onpageHP10")}</a>
+                  </th>
+                </tr>
+              </table>
             </div>
           </div>
 

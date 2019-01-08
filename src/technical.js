@@ -65,31 +65,54 @@ class Technical extends Component {
             />
           </div>
 
-          <div className="services">
+          <div className="services black">
             <div className="black leftServices">
-              <p className="listServices">
-                <a href="/en/technical/indexation">{t("technicalHP1")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/technical/crawlability">{t("technicalHP2")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/technical/internationalisation">
-                  {t("technicalHP3")}
-                </a>
-              </p>
-              <p className="listServices">
-                <a href="/en/technical/pagespeed">{t("technicalHP4")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/technical/mobilefriendly">{t("technicalHP5")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/technical/dynamicrendering">{t("technicalHP6")}</a>
-              </p>
-              <p className="listServices">
-                <a href="/en/technical/security">{t("technicalHP7")}</a>
-              </p>
+              <table>
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    <a href="/en/technical/indexation">{t("technicalHP1")}</a>
+                  </th>{" "}
+                  <th bgColor="beige">
+                    {" "}
+                    <a href="/en/technical/crawlability">{t("technicalHP2")}</a>
+                  </th>{" "}
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="beige">
+                    <a href="/en/technical/internationalisation">
+                      {t("technicalHP3")}
+                    </a>{" "}
+                  </th>{" "}
+                  <th>
+                    {" "}
+                    <a href="/en/technical/pagespeed">{t("technicalHP4")}</a>
+                  </th>{" "}
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    {" "}
+                    <a href="/en/technical/mobilefriendly">
+                      {t("technicalHP5")}
+                    </a>
+                  </th>
+                  <th bgColor="lightblue">
+                    {" "}
+                    <a href="/en/technical/dynamicrendering">
+                      {t("technicalHP6")}
+                    </a>
+                  </th>
+                </tr>
+                <tr>
+                  <th>
+                    <a href="/en/technical/security">{t("technicalHP7")}</a>
+                  </th>
+                </tr>
+              </table>
             </div>
           </div>
 

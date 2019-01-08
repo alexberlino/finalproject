@@ -58,21 +58,39 @@ class Resources extends Component {
         <div>
           <div className="services">
             <div className="black leftServices">
-              <p className="black listServices">
-                <a href={"/en/onpage"}>ON PAGE</a>
-              </p>{" "}
-              <p className="black listServices">
-                <a href={"/en/offpage"}>OFFPAGE</a>{" "}
-              </p>
-              <p className="black listServices">
-                <a href={"/en/technical"}>TECHNICAL SEO</a>{" "}
-              </p>
-              <p className="black listServices">
-                <a href={"/en/research"}>RESEARCH & ANALYTICS</a>{" "}
-              </p>
-              <p className="black listServices">
-                <a href={"/en/seonews"}>SEONEWS</a>{" "}
-              </p>
+              <table>
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    <a size="49px" href={"/en/onpage"}>
+                      ON PAGE
+                    </a>
+                  </th>{" "}
+                  <th bgColor="beige">
+                    {" "}
+                    <a href={"/en/offpage"}>OFFPAGE</a>{" "}
+                  </th>{" "}
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="beige">
+                    <a href={"/en/technical"}>TECHNICAL SEO</a>{" "}
+                  </th>{" "}
+                  <th bgColor="lightblue">
+                    {" "}
+                    <a href={"/en/research"}>RESEARCH & ANALYTICS</a>{" "}
+                  </th>{" "}
+                </tr>
+
+                <tr>
+                  {" "}
+                  <th bgColor="lightblue">
+                    {" "}
+                    <a href={"/en/seonews"}>SEONEWS</a>{" "}
+                  </th>
+                </tr>
+              </table>
             </div>
           </div>
 
