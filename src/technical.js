@@ -67,7 +67,7 @@ class Technical extends Component {
 
           <div className="services black">
             <div className="black leftServices">
-              <table>
+              <table className="auditpages">
                 <tr>
                   {" "}
                   <th bgColor="lightblue">

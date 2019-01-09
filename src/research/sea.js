@@ -31,6 +31,14 @@ class SEA extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/advertising.jpg"
+            title="advertising, a photo by Denys Nevozhai"
+            alt="SEA"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER ></a>
 

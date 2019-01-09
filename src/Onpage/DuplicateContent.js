@@ -30,6 +30,14 @@ class DuplicateContent extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/duplicate.jpg"
+            title="duplication, a photo by rawpixel"
+            alt="duplicate content SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

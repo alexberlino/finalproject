@@ -26,7 +26,15 @@ class BacklinkAnalysis extends Component {
             href="https://www.seoberlino.com/en/offpage/backlinkanalysis"
           />{" "}
         </Helmet>
+
         <div className="services">
+          <img
+            src="/auditmainpic/linkmain.jpg"
+            title="Links, a photo by JJ Ying"
+            alt="backlinking"
+            width="90%"
+            height="440px"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
@@ -35,7 +43,6 @@ class BacklinkAnalysis extends Component {
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
           <h1 className="h1services"> Backlink Profile Audit</h1>
-
           <div>
             <div className="serviceText">
               <p>

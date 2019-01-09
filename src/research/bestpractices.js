@@ -26,6 +26,14 @@ class BestPractices extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/competitor.jpg"
+            title="analysis, a photo by Stephen Dawson"
+            alt="competitor analysis SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href="/en">> SEO FREELANCER ></a>
 

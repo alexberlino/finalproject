@@ -24,6 +24,14 @@ class Metas extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/tag.jpg"
+            title="tags, a photo by rawpixel"
+            alt="meta tags SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

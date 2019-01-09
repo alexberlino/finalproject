@@ -37,6 +37,14 @@ class Content extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/content.jpg"
+            title="content, a photo by Romain Vignes"
+            alt="content SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/en"}>> SEO FREELANCER ></a>
 

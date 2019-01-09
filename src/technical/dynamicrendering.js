@@ -35,6 +35,14 @@ class DynamicRendering extends Component {
           />
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/java.jpg"
+            title="script code, a photo by Markus Spiske"
+            alt="javascript and dynamic rendering SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

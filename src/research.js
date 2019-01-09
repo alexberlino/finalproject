@@ -62,9 +62,8 @@ class Technical extends Component {
 
           <div className="services">
             <div className="black leftServices">
-              <table>
+              <table className="auditpages">
                 <tr>
-                  {" "}
                   <th bgColor="lightblue">
                     <a href="/en/research/localseo">{t("analyticsHP1")}</a>
                   </th>{" "}

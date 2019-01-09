@@ -33,6 +33,14 @@ class MobileFriendly extends Component {
           />
         </Helmet>{" "}
         <div className="services">
+          <img
+            src="/auditmainpic/mobilefriendly.jpg"
+            title="mobile phone, a photo by Rodion Kutsaev"
+            alt="mobile friendly"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

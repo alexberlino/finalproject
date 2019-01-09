@@ -30,6 +30,14 @@ class LandingPageOptimization extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/landing.jpg"
+            title="landing, a photo by chuttersnap"
+            alt="landing page optimization"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

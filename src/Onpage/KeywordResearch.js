@@ -16,7 +16,7 @@ class KeywordResearch extends Component {
       <div className="main2">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO Freelancer - Keyword Research | SEO Berlino</title>
+          <title>Keyword Research - Onpage SEO Freelancer | SEO Berlino</title>
           <meta
             name="description"
             content="Keyword research is one the most important first steps in SEO.
@@ -28,6 +28,14 @@ class KeywordResearch extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/keyword.jpg"
+            title="keyword search, a photo by Edho Pratama"
+            alt="keyword research"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
@@ -36,7 +44,7 @@ class KeywordResearch extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services">On-page SEO: Keyword Research </h1>
+          <h1 className="h1services"> Keyword Research - Onpage SEO </h1>
           <h2 className="serviceTitle"> Why it's (extremely) Important</h2>
           <div className="serviceText">
             Keyword Research is critical to understand how your potential

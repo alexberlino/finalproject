@@ -24,6 +24,14 @@ class InternalLinking extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/internal.jpg"
+            title="arrow, a photo by Scott Rodgerson"
+            alt="internal linking SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

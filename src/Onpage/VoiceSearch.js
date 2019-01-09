@@ -27,6 +27,14 @@ class VoiceSearch extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/voice.jpg"
+            title="voice, a photo by Jason Rosewell"
+            alt="voice search SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

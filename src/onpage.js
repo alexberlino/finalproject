@@ -66,7 +66,7 @@ class Onpage extends Component {
           </div>
           <div className="services">
             <div className="leftServices">
-              <table>
+              <table className="auditpages">
                 <tr>
                   {" "}
                   <th bgColor="lightblue">

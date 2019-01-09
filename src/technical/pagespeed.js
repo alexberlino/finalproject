@@ -30,6 +30,14 @@ class PageSpeed extends Component {
           />
         </Helmet>{" "}
         <div className="services">
+          <img
+            src="/auditmainpic/pagespeed.jpg"
+            title="pagespeed, a photo by Twixes"
+            alt="pagespeed"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

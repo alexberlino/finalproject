@@ -27,6 +27,14 @@ class LocalSEO extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/local.jpg"
+            title="local, a photo by Brandi Ibrao"
+            alt="local SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER ></a>
 

@@ -30,6 +30,14 @@ class Crawlability extends Component {
           />
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/crawl.jpg"
+            title="crawl, a photo by Mathew Schwartz"
+            alt="crawlability"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/en"}>> SEO FREELANCER ></a>
 

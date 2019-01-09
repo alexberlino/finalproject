@@ -26,6 +26,14 @@ class Toxic extends Component {
           />
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/toxic.jpg"
+            title="toxic, a photo by Scott Rodgerson"
+            alt="backlinking"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

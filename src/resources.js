@@ -58,7 +58,7 @@ class Resources extends Component {
         <div>
           <div className="services">
             <div className="black leftServices">
-              <table>
+              <table className="auditpages">
                 <tr>
                   {" "}
                   <th bgColor="lightblue">

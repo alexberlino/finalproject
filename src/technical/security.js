@@ -33,6 +33,14 @@ class Security extends Component {
           />
         </Helmet>{" "}
         <div className="services">
+          <img
+            src="/auditmainpic/security.jpg"
+            title="security, a photo by Ibrahim Rifath"
+            alt="security SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

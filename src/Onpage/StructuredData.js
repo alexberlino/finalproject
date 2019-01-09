@@ -27,6 +27,14 @@ class StructuredData extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/structured.jpg"
+            title="data, a photo by Markus Spiske"
+            alt="structured data"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

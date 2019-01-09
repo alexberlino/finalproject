@@ -46,8 +46,8 @@
 
   .breadcrumb {
     position: relative;
-    margin-top: 45px;
-    padding-top: 15px;
+    margin-top: 5px;
+    padding-top: 5px;
     margin-bottom: 10%;
   }
   .breadcrumb a {
@@ -101,6 +101,16 @@
     width: 83%;
     margin-right: 30px;
     margin-left: 7%;
+  }
+
+  .auditpages {
+    font-size: 19px;
+    padding: 2px;
+  }
+
+  .imageAudit {
+    height: auto;
+    width: 100%;
   }
 
   .mainRightServices {

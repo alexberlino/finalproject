@@ -33,6 +33,14 @@ class Images extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/images.jpg"
+            title="images, a photo by Soragrit Wongsa"
+            alt="image optimization SEO"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

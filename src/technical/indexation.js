@@ -30,6 +30,14 @@ class Indexation extends Component {
           />
         </Helmet>
         <div className="services">
+          <img
+            src="/auditmainpic/indexation.jpg"
+            title="indexation, a photo by Scott Rodgerson"
+            alt="indexation"
+            width="80%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
