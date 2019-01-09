@@ -2,7 +2,7 @@
   z-index: 1;
   position: absolute;
   top: 120px;
-  font-size: 64px;
+  font-size: 52px;
   left: 15%;
 
   text-align: center;
@@ -54,7 +54,7 @@
 @keyframes heyThere {
   00%,
   50% {
-    color: white;
+    color: black;
   }
   50%,
   100% {

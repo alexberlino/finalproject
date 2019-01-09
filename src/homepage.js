@@ -68,12 +68,10 @@ class Homepage extends Component {
         </Helmet>
 
         <img
-          src="/berlin.jpg"
-          width="100%"
-          height="40%"
+          src="/homeHP.jpg"
           className="berlin"
-          alt="Photo of Berlin, SEO Berlino, SEO consultant in Berlin"
-          title="Berlin landscape, a photo by Stefan Widua"
+          alt="SEO Freelancer SEO Berlino, SEO consultant in Berlin"
+          title="a photo by rawpixel"
         />
 
         <div className="hey">
@@ -211,8 +209,10 @@ class Homepage extends Component {
             <img
               className="trafficImg"
               src="/traffic.jpg"
-              height="80%"
-              width="75%"
+              height="60%"
+              title="photo by Adrian Schwarz"
+              alt="boost your traffic with optimized keyword targeting"
+              width="55%"
             />
           </div>
 
