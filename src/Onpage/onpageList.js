@@ -80,6 +80,37 @@ class OnpageList extends Component {
             {t("onpageHP10")}
           </p>
         </div>{" "}
+        <div className="black slide-in-left sideLinks">
+          <a className="block" href="/en/onpage/keywordresearch">
+            {t("onpageHP1")}
+          </a>
+          <a className="block" href="/en/onpage/landingpages">
+            {t("onpageHP2")}
+          </a>
+          <a className="block" href="/en/onpage/internallinking">
+            {t("onpageHP3")} {t("onpageHP5")}
+          </a>{" "}
+          <a className="block" href="/en/onpage/metas">
+            {t("onpageHP4")}
+          </a>
+          <a className="block" href="/en/technical/mobilefriendly">
+            <a className="block" href="/en/onpage/content">
+              {t("onpageHP6")}
+            </a>
+          </a>
+          <a className="block" href="/en/onpage/images">
+            {t("onpageHP7")}
+          </a>
+          <a className="block" href="/en/onpage/structureddata">
+            {t("onpageHP8")}
+          </a>{" "}
+          <a className="block" href="/en/onpage/duplicatecontent">
+            {t("onpageHP9")}
+          </a>
+          <a className="block" href="/en/onpage/voicesearch">
+            {t("onpageHP10")}
+          </a>
+        </div>
         <LinksToPages />
       </div>
     );

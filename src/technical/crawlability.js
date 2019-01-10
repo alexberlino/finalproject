@@ -50,6 +50,7 @@ class Crawlability extends Component {
             {" "}
             Technical SEO Freelancer - Crawlability
           </h1>
+
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Crawlibility goes hand in hand with indexation. In order to adjust
@@ -101,6 +102,29 @@ class Crawlability extends Component {
             site. It is therefore important to keep an eye and understand which
             pages are indexed and why they need to be indexed (not all pages
             need to be indexed in particular in case of duplicate content)
+          </div>
+          <div className="black slide-in-left sideLinks">
+            <a className="block" href="/en/technical/indexation">
+              {t("technicalHP1")}
+            </a>
+            <a className="block" href="/en/technical/crawlability">
+              {t("technicalHP2")}
+            </a>
+            <a className="block" href="/en/technical/internationalisation">
+              {t("technicalHP3")}
+            </a>{" "}
+            <a className="block" href="/en/technical/pagespeed">
+              {t("technicalHP4")}
+            </a>
+            <a className="block" href="/en/technical/mobilefriendly">
+              {t("technicalHP5")}
+            </a>
+            <a className="block" href="/en/technical/dynamicrendering">
+              {t("technicalHP6")}
+            </a>
+            <a className="block" href="/en/technical/security">
+              {t("technicalHP7")}
+            </a>
           </div>
         </div>{" "}
         <LinksToPages />

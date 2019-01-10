@@ -98,6 +98,20 @@ class Analytics extends Component {
             <footer>Site Catalyst / Omniture</footer>
             <footer>GA Guide</footer>
           </div>
+          <div className="black slide-in-left sideLinks">
+            <a className="block" href="/en/research/localseo">
+              {t("analyticsHP1")}
+            </a>
+            <a className="block" href="/en/research/analytics">
+              {t("analyticsHP2")}
+            </a>
+            <a className="block" href="/en/research/bestpractices">
+              {t("analyticsHP3")}
+            </a>
+            <a className="block" href="/en/research/sea">
+              {t("analyticsHP6")}
+            </a>
+          </div>
         </div>
         <LinksToPages />
       </div>

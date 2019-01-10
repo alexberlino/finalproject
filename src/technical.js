@@ -82,9 +82,7 @@ class Technical extends Component {
                   {t("technicalHP4")}
                 </a>
                 <a className="block" href="/en/technical/mobilefriendly">
-                  <a className="block" href="/en/technical/mobilefriendly">
-                    {t("technicalHP5")}
-                  </a>
+                  {t("technicalHP5")}
                 </a>
                 <a className="block" href="/en/technical/dynamicrendering">
                   {t("technicalHP6")}

@@ -162,6 +162,17 @@ class BacklinkAnalysis extends Component {
               </a>
             </div>
           </div>
+          <div className="sideLinks black slide-in-left">
+            <a className="block" href="/en/offpage/backlinkanalysis">
+              {t("offpageHP1")}, {t("offpageHP2")}
+            </a>
+            <a className="block" href="/en/offpage/brandbuilding">
+              {t("offpageHP3")}, {t("offpageHP4")}
+            </a>{" "}
+            <a className="block" href="/en/offpage/toxic">
+              {t("offpageHP5")}
+            </a>
+          </div>
         </div>
         <LinksToPages />
       </div>

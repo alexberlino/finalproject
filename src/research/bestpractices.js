@@ -87,6 +87,20 @@ class BestPractices extends Component {
             keyword research. Analysing how competitors get most of their
             traffic also helps to establish content creation strategy.
           </div>{" "}
+          <div className="black slide-in-left sideLinks">
+            <a className="block" href="/en/research/localseo">
+              {t("analyticsHP1")}
+            </a>
+            <a className="block" href="/en/research/analytics">
+              {t("analyticsHP2")}
+            </a>
+            <a className="block" href="/en/research/bestpractices">
+              {t("analyticsHP3")}
+            </a>
+            <a className="block" href="/en/research/sea">
+              {t("analyticsHP6")}
+            </a>
+          </div>
         </div>
         <LinksToPages />
       </div>

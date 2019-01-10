@@ -93,6 +93,29 @@ class Security extends Component {
             should not. Timing is key to avoid risks, so avoid doing it before
             your high season.
           </div>
+          <div className="black slide-in-left sideLinks">
+            <a className="block" href="/en/technical/indexation">
+              {t("technicalHP1")}
+            </a>
+            <a className="block" href="/en/technical/crawlability">
+              {t("technicalHP2")}
+            </a>
+            <a className="block" href="/en/technical/internationalisation">
+              {t("technicalHP3")}
+            </a>{" "}
+            <a className="block" href="/en/technical/pagespeed">
+              {t("technicalHP4")}
+            </a>
+            <a className="block" href="/en/technical/mobilefriendly">
+              {t("technicalHP5")}
+            </a>
+            <a className="block" href="/en/technical/dynamicrendering">
+              {t("technicalHP6")}
+            </a>
+            <a className="block" href="/en/technical/security">
+              {t("technicalHP7")}
+            </a>
+          </div>
         </div>{" "}
         <LinksToPages />
       </div>

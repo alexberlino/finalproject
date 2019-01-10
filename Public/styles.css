@@ -332,6 +332,10 @@ iframe {
   padding: 10px;
 }
 
+.imageAudit {
+  width: 90%;
+}
+
 .mainBlog {
   background-color: rgba(250, 250, 250, 0.94);
   position: relative;

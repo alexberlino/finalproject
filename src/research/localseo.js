@@ -101,6 +101,20 @@ class LocalSEO extends Component {
             local SEO. Good luck optimizing!
             https://yoast.com/ranking-your-local-business-part-1-introduction/
           </div>{" "}
+          <div className="black slide-in-left sideLinks">
+            <a className="block" href="/en/research/localseo">
+              {t("analyticsHP1")}
+            </a>
+            <a className="block" href="/en/research/analytics">
+              {t("analyticsHP2")}
+            </a>
+            <a className="block" href="/en/research/bestpractices">
+              {t("analyticsHP3")}
+            </a>
+            <a className="block" href="/en/research/sea">
+              {t("analyticsHP6")}
+            </a>
+          </div>
         </div>{" "}
         <LinksToPages />
       </div>

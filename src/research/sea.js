@@ -66,7 +66,6 @@ class SEA extends Component {
             important to think budget and choose your strategy: visibility, ROI,
             etc. Adwords Set-up
           </div>
-
           <h2 className="serviceTitle"> Adwords Account Optimization</h2>
           <div className="serviceText">
             Once you have chosen your budget strategy, created your campaigns,
@@ -84,7 +83,6 @@ class SEA extends Component {
               <li>display network adjustments</li>
             </ul>
           </div>
-
           <h2 className="serviceTitle"> SEO / SEA Consistency </h2>
           <div className="serviceText">
             A great way to transmit a stronger message on SERPs is to be
@@ -100,7 +98,6 @@ class SEA extends Component {
               </li>
             </ul>
           </div>
-
           <h2 className="serviceTitle"> Google Ads Data for SEO </h2>
           <div className="serviceText">
             Google Ads are expensive but on top of getting you that visibility
@@ -111,6 +108,20 @@ class SEA extends Component {
           <h2 className="serviceTitle"> Releted Tools and Resources</h2>
           <div className="serviceText">
             <footer>Google Ads </footer>
+          </div>{" "}
+          <div className="black slide-in-left sideLinks">
+            <a className="block" href="/en/research/localseo">
+              {t("analyticsHP1")}
+            </a>
+            <a className="block" href="/en/research/analytics">
+              {t("analyticsHP2")}
+            </a>
+            <a className="block" href="/en/research/bestpractices">
+              {t("analyticsHP3")}
+            </a>
+            <a className="block" href="/en/research/sea">
+              {t("analyticsHP6")}
+            </a>
           </div>
         </div>{" "}
         <LinksToPages />
