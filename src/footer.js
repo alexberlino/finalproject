@@ -78,9 +78,6 @@ class Footer extends Component {
           >
             <span itemProp="name">Alex Bieth </span>
           </span>
-          <p itemProp="lastReviewed" content="28.10.2018">
-            Last Reviewed: 28/12/2018
-          </p>
         </div>
       </div>
     );

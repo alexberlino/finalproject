@@ -16,9 +16,9 @@ body {
 }
 .sideLinks {
   position: absolute;
-  background-color: ##f6f6f6;
+  background-color: #f6f6f6;
   left: 25px;
-  top: 90%;
+  top: 105%;
   padding: 30px;
   width: 10%;
   z-index: 2;
@@ -1271,7 +1271,7 @@ a.linkServices {
   margin-right: 6%;
   margin-left: 4%;
   margin-bottom: 10%;
-  background-color: white;
+  background-color: #f9f9f9;
   padding: 20px;
   width: 80%;
 }

@@ -32,8 +32,8 @@ class Analytics extends Component {
             src="/auditmainpic/analytics.jpg"
             title="analytics, a photo by Carlos Muza"
             alt="analytics SEO"
-            width="80%"
-            height="450px"
+            width="75%"
+            height="480px"
             className="imageAudit"
           />
           <div className="breadcrumb">

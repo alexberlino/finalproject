@@ -258,11 +258,11 @@ class Homepage extends Component {
               </h2>
               <p className="txt3">{t("OffpagePageOptimizationText")}</p>
 
-              <h3 className="black">
-                <a className="black" href="/en/offpage/backlinkanalysis">
+              <h2 className="traffic black">
+                <a href="/en/offpage/backlinkanalysis">
                   Backlink profile audit
                 </a>{" "}
-              </h3>
+              </h2>
               <p className="txt3">{t("offpage_main")}</p>
             </div>
           </div>
