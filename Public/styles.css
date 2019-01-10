@@ -12,6 +12,10 @@ body {
 * {
   font-family: bariolregular;
 }
+
+p {
+  font-size: 20px;
+}
 body {
 }
 .sideLinks {
@@ -55,6 +59,7 @@ h3 {
   display: block;
   position: relative;
   padding-top: 10px;
+  font-size: 20px;
 }
 .block2 {
   display: block;

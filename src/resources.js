@@ -72,11 +72,6 @@ class Resources extends Component {
                 </a>{" "}
               </div>
               <p>
-                <a className="resourcesLinks" href={"/en/onpage"}>
-                  ON PAGE
-                </a>
-              </p>
-              <p>
                 Search engine optimization is the term used to describe a set of
                 processes that aim in optimizing a website for search engines.
                 SEO is important not only for getting high quality visitors from

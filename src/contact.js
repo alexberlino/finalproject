@@ -32,6 +32,13 @@ class Contact extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/contact"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/technical.jpg"
+          title="technical, a photo by Markus Spiske"
+          alt="Technical SEO"
+          height="250px"
+          width="100%"
+        />
         <div className="breadcrumb">
           <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
