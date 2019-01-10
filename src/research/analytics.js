@@ -13,10 +13,10 @@ class Analytics extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Reseach & Analytics - Analysis for SEO | SEO Berlino</title>
+          <title> Analysis for SEO - Reseach & Analytics | SEO Berlino</title>
           <meta
             type="description"
             content="Analytics for SEO. Without Data, it is difficult

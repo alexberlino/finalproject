@@ -13,10 +13,10 @@ class LocalSEO extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Reseach & Analytics - Local SEO | SEO Berlino</title>
+          <title> Local SEO | SEO Berlino</title>
           <meta
             name="description"
             content="Local SEO : make sure that SEO is well optimized for your area"

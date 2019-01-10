@@ -16,11 +16,11 @@ class Images extends Component {
     }
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Onpage SEO Freelancer - Image Optimization | SEO Berlino
+            Image Optimization - Onpage SEO Freelancer | SEO Berlino
           </title>
           <meta
             name="description"

@@ -16,10 +16,10 @@ class Crawlability extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO Freelancer - Crawlability | SEO Berlino</title>
+          <title>Crawlability - Technical SEO Freelancer | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: crawlability and why its important in SEO "
@@ -46,10 +46,7 @@ class Crawlability extends Component {
             <a href={"/en/technical"}> TECHNICAL </a>
           </div>
 
-          <h1 className="h1services">
-            {" "}
-            Technical SEO Freelancer - Crawlability
-          </h1>
+          <h1 className="h1services"> Crawlability</h1>
 
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">

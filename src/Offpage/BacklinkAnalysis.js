@@ -13,10 +13,10 @@ class BacklinkAnalysis extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Backlink Profile Audit - Offpage SEO | SEO Berlino</title>
+          <title>Offpage SEO -Backlink Profile Audit - | SEO Berlino</title>
           <meta
             type="description"
             content="Backlinks still play a huge part in SEO. Understanding your profile and setting goals for quality links is key to success."

@@ -19,10 +19,12 @@ class Security extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO Freelancer - HTTPS and SEO | SEO Berlino</title>
+          <title>
+            - HTTPS and SEO - Technical SEO Freelancer | SEO Berlino
+          </title>
           <meta
             name="description"
             content="Technical SEO: HTTPS and security and why its important in SEO "
@@ -48,7 +50,7 @@ class Security extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services"> Technical SEO - migration to https</h1>{" "}
+          <h1 className="h1services"> Security - Migration to https</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             <p>

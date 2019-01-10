@@ -13,11 +13,11 @@ class BestPractices extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Research & Analytics - SEO Competitor Analysis | SEO Berlino
+            - SEO Competitor Analysis - Research & Analytics | SEO Berlino
           </title>
           <meta name="description" content="" />
           <link

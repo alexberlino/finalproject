@@ -16,10 +16,10 @@ class Indexation extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO Freelancer - Indexation | SEO Berlino</title>
+          <title>Indexation - Technical SEO Freelancer | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: indexation and why its important in SEO "
@@ -45,7 +45,7 @@ class Indexation extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services"> Technical SEO Freelancer - Indexation</h1>{" "}
+          <h1 className="h1services"> Indexation</h1>{" "}
           <div className="serviceTitle">
             {" "}
             Only have indexed pages which deserve to be indexed

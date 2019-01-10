@@ -15,12 +15,10 @@ class SEA extends Component {
       window.scrollTo(0, 0);
     }
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            Reseach & Analytics : pay-per-click Google Ads | SEO Berlino
-          </title>
+          <title>SEA - pay-per-click Google Ads | SEO Berlino</title>
           <meta
             name="description"
             content="Paid Search Services - Synchronize your SEA activities with your SEO Strategy. SEO Berlino."

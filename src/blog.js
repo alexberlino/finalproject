@@ -37,7 +37,7 @@ class Blog extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/blog" />{" "}
         </Helmet>
 
-        <div className="main2">
+        <div className="main">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 

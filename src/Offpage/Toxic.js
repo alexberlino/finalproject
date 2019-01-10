@@ -13,11 +13,11 @@ class Toxic extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Offpage SEO Freelancer - Toxic Links Cleaning | SEO Berlino
+            Toxic Links Cleaning - Offpage SEO Freelancer | SEO Berlino
           </title>
           <meta type="description" content="" />
           <link

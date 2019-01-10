@@ -85,7 +85,7 @@ class Article extends Component {
             href={"https://www.seoberlino.com/en/article" + this.state.url}
           />
         </Helmet>
-        <div className="main2">
+        <div className="main">
           <div className="breadcrumb">
             <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
 

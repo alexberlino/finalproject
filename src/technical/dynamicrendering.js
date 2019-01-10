@@ -19,11 +19,11 @@ class DynamicRendering extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Technical SEO Freelancer - Dynamic Rendering | SEO Berlino
+            Dynamic Rendering - Technical SEO Freelancer | SEO Berlino
           </title>
           <meta
             name="description"
@@ -50,10 +50,7 @@ class DynamicRendering extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services">
-            {" "}
-            Technical SEO Freelancer - Dynamic Rendering
-          </h1>
+          <h1 className="h1services"> Dynamic Rendering</h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             For JavaScript apps such as React, Angular or View, search engines

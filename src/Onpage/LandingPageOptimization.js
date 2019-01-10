@@ -13,11 +13,11 @@ class LandingPageOptimization extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Onpage SEO Freelancer - Landing Page Optimization | SEO Berlino
+            Landing Page Optimization - Onpage SEO Freelancer | SEO Berlino
           </title>
           <meta
             name="description"

@@ -13,10 +13,14 @@ class Metas extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO Freelancer - Meta optimization | SEO Berlino</title>
+          <title>
+            {" "}
+            Meta optimization - Onpage SEO Freelancer -Onpage SEO Freelancer |
+            SEO Berlino
+          </title>
           <meta type="description" content="" />
           <link
             rel="canonical"

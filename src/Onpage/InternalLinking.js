@@ -13,10 +13,10 @@ class InternalLinking extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Onpage SEO Freelancer- Internal Linking | SEO Berlino</title>
+          <title> Internal Linking - Onpage SEO Freelancer| SEO Berlino</title>
           <meta type="description" content="" />
           <link
             rel="canonical"

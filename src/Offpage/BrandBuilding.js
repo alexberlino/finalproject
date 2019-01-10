@@ -13,10 +13,10 @@ class BrandBuilding extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Offpage SEO Freelancer - Brand Building | SEO Berlino</title>
+          <title>- Brand Building - Offpage SEO Freelancer | SEO Berlino</title>
           <meta name="description" content="" />
           <link
             rel="canonical"

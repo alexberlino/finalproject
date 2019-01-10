@@ -16,11 +16,11 @@ class Internationalisation extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Technical SEO Freelancer - Internationalisation | SEO Berlino
+            Internationalisation - Technical SEO Freelancer | SEO Berlino
           </title>
           <meta
             name="description"
@@ -47,10 +47,7 @@ class Internationalisation extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services">
-            {" "}
-            Technical SEO Freelancer - Internationalisation
-          </h1>{" "}
+          <h1 className="h1services">Internationalisation</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             There are various options when operating internationally: same root

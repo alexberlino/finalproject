@@ -19,10 +19,13 @@ class MobileFriendly extends Component {
     console.log(this.props.i18n.language);
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Technical SEO Freelancer - Mobile First | SEO Berlino</title>
+          <title>
+            Mobile First - Mobile friendly - Technical SEO Freelancer | SEO
+            Berlino
+          </title>
           <meta
             name="description"
             content="Technical SEO: mobile friendly and why its important in SEO "
@@ -50,7 +53,7 @@ class MobileFriendly extends Component {
           </div>
           <h1 className="h1services">
             {" "}
-            Technical SEO Freelancer - Mobile First
+            Mobile First - Mobile friendly websites
           </h1>{" "}
           <div className="serviceTitle"> Why it's (extremely) Important</div>
           <div className="serviceText">

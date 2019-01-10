@@ -18,11 +18,11 @@ class Content extends Component {
     }
 
     return (
-      <div className="main2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Onpage SEO Freelancer - Content Optimization | SEO Berlino
+            Content Optimization - Onpage SEO Freelancer | SEO Berlino
           </title>
           <meta
             name="description"
