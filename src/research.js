@@ -41,7 +41,15 @@ class Technical extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/research" />
         </Helmet>
-        <div className="main2">
+        <div className="services">
+          <img
+            src="/auditmainpic/analysis.jpg"
+            title="analysis, a photo by rawpixel"
+            alt="SEO Analysis and Research"
+            width="90%"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
 
@@ -52,52 +60,54 @@ class Technical extends Component {
 
           <div className="infoTitle">
             <h1 className="h1services">Analytics and Research</h1>
-
-            <img
-              alt="research and analytics"
-              src="/analytics.svg"
-              className="logoAnimationServices"
-            />
           </div>
-
-          <div className="services">
-            <div className="black leftServices">
-              <table className="auditpages">
-                <tr>
-                  <th>
-                    <a href="/en/research/localseo">{t("analyticsHP1")}</a>
-                  </th>{" "}
-                  <th bgColor="beige">
-                    {" "}
-                    <a href="/en/research/analytics">{t("analyticsHP2")}</a>
-                  </th>{" "}
-                </tr>
-
-                <tr>
-                  {" "}
-                  <th bgColor="beige">
-                    <a href="/en/technical/internationalisation">
-                      <a href="/en/research/bestpractices">
-                        {t("analyticsHP3")}
-                      </a>
-                    </a>{" "}
-                  </th>{" "}
-                  <th>
-                    {" "}
-                    <a href="/en/research/sea">{t("analyticsHP6")}</a>
-                  </th>{" "}
-                </tr>
-              </table>
-            </div>
-          </div>
-
-          <div className={this.state.hide2}>
-            <LinksToPages
-              pageChange={this.props.pageChange}
-              lang={this.props.lng}
-            />
+          <div>
+            <div className="marginright">
+              <div className="black slide-in-left sideLinks">
+                <a className="block" href="/en/research/localseo">
+                  {t("analyticsHP1")}
+                </a>
+                <a className="block" href="/en/research/analytics">
+                  {t("analyticsHP2")}
+                </a>
+                <a className="block" href="/en/research/bestpractices">
+                  {t("analyticsHP3")}
+                </a>
+                <a className="block" href="/en/research/sea">
+                  {t("analyticsHP6")}
+                </a>
+              </div>
+              <p>
+                {" "}
+                If you have a local business, like a shop, or have people
+                visiting your office frequently, optimizing your website is also
+                about making sure people are able to find you in real life. But
+                even if your not actively getting visitors in your building, but
+                are targeting an audience that is located in the same
+                geographical area as you are, you need to optimize for that
+                area. This is what we call “local SEO.”
+              </p>
+              <p>
+                Web analytics is the measurement, collection, analysis and
+                reporting of web data for purposes of understanding and
+                optimizing web usage. ... Web analytics provides information
+                about the number of visitors to a website and the number of page
+                views.
+              </p>
+              <p>
+                The basics of search engine advertising. Search engine
+                advertising (SEA) is a branch of search engine marketing (SEM).
+                While search engine optimization (SEO) centers on improving
+                accessibility with the use of keywords, SEA places the paid
+                advert directly into the search engine results and on partner
+                websites.
+              </p>
+            </div>{" "}
           </div>
         </div>
+        <div>
+          <LinksToPages />
+        </div>{" "}
       </div>
     );
   }

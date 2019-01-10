@@ -24,9 +24,7 @@ class Resources extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            SEO Audit Expertise - Search Engine Optimization || SEOBerlino
-          </title>
+          <title>SEO Audit - Search Engine Optimization || SEOBerlino</title>
           <meta
             name="description"
             content="SEO Expertise: Onpage SEO, Offpage SEO, Technical SEO, Analytics and SEO Research."
@@ -36,70 +34,60 @@ class Resources extends Component {
             href="https://www.seoberlino.com/en/resources"
           />
         </Helmet>
-
-        <div className="main2" />
-
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
-
-          <a href={"/" + this.props.lang + "/resources"}> AUDIT ></a>
-        </div>
-
-        <div className="infoTitle">
-          <h1 className="h1services">SEO Audit</h1>
-
+        <div className="services">
           <img
-            alt="research and analytics"
-            src="/magnifier.svg"
-            className="logoAnimationServices"
+            src="/auditmainpic/audit.jpg"
+            title="content, a photo by Jo Szczepanska"
+            alt="SEO Audit"
+            height="450px"
+            width="85%"
+            className="imageAudit"
           />
-        </div>
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
 
-        <div>
-          <div className="services">
-            <div className="black leftServices">
-              <table className="auditpages">
-                <tr>
-                  {" "}
-                  <th>
-                    <a size="49px" href={"/en/onpage"}>
-                      ON PAGE
-                    </a>
-                  </th>{" "}
-                  <th bgColor="beige">
-                    {" "}
-                    <a href={"/en/offpage"}>OFFPAGE</a>{" "}
-                  </th>{" "}
-                </tr>
-
-                <tr>
-                  {" "}
-                  <th bgColor="beige">
-                    <a href={"/en/technical"}>TECHNICAL SEO</a>{" "}
-                  </th>{" "}
-                  <th>
-                    {" "}
-                    <a href={"/en/research"}>RESEARCH & ANALYTICS</a>{" "}
-                  </th>{" "}
-                </tr>
-
-                <tr>
-                  {" "}
-                  <th>
-                    {" "}
-                    <a href={"/en/seonews"}>SEONEWS</a>{" "}
-                  </th>
-                </tr>
-              </table>
-            </div>
+            <a href={"/" + this.props.lang + "/resources"}> AUDIT ></a>
+          </div>
+          <div className="infoTitle">
+            <h1 className="h1services">SEO Audit</h1>
           </div>
 
           <div>
             <div className="marginright">
+              <div className="black slide-in-left sideLinks">
+                <a className="block" href={"/en/onpage"}>
+                  ON PAGE
+                </a>
+                <a className="block" href={"/en/offpage"}>
+                  OFFPAGE
+                </a>
+                <a className="block" href={"/en/technical"}>
+                  TECHNICAL SEO
+                </a>{" "}
+                <a className="block" href={"/en/research"}>
+                  RESEARCH & ANALYTICS
+                </a>{" "}
+                <a className="block" href={"/en/seonews"}>
+                  SEONEWS
+                </a>{" "}
+              </div>
               <p>
                 <a className="resourcesLinks" href={"/en/onpage"}>
                   ON PAGE
                 </a>
+              </p>
+              <p>
+                Search engine optimization is the term used to describe a set of
+                processes that aim in optimizing a website for search engines.
+                SEO is important not only for getting high quality visitors from
+                search, but it’s also a way to improve the user-friendliness of
+                your website and increase its credibility. Search engines are
+                using complex algorithms to determine which pages to include in
+                their index and the order they show these pages in the search
+                results. SEO is the way to ‘speak’ to search engines in a
+                language they can understand and give them with more information
+                about your website. SEO has two major components, On Page and
+                Off Page SEO.
               </p>
               <p>
                 Content of course is the most important, but using the language
@@ -157,13 +145,12 @@ class Resources extends Component {
                 Keep in touch with the latest algorithm updates and news from
                 Google{" "}
               </p>
-            </div>
-          </div>
-
-          <div>
-            <LinksToPages />
+            </div>{" "}
           </div>
         </div>
+        <div>
+          <LinksToPages />
+        </div>{" "}
       </div>
     );
   }

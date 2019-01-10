@@ -48,7 +48,14 @@ class SEONews extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/seonews" />
         </Helmet>
-        <div className="main2">
+        <div className="services">
+          <img
+            src="/auditmainpic/seonews.jpg"
+            title="news, a photo by raw pixel"
+            alt="SEO News"
+            height="450px"
+            className="imageAudit"
+          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
             <a href={"/" + this.props.lang + "/resources"}> AUDIT ></a>
@@ -57,18 +64,10 @@ class SEONews extends Component {
           </div>
           <h1 className="h1services">SEONews</h1>
 
-          <div className="infoTitle" />
-
-          <div className="infoMain">
+          <div>
             {" "}
             <NewsItems />
             <div className="newsItem">
-              <img
-                alt="important"
-                className="importancenews"
-                src="/greenlight.png"
-              />
-
               <p onClick={() => this.handleClick(1)} className="low">
                 Google+ to close down.
               </p>
@@ -139,6 +138,9 @@ class SEONews extends Component {
           </div>
           <div />
         </div>
+        <div>
+          <LinksToPages />
+        </div>{" "}
       </div>
     );
   }

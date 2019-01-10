@@ -3,7 +3,7 @@
   position: absolute;
   top: 120px;
   font-size: 52px;
-  left: 40%;
+  left: 10%;
 
   text-align: center;
   padding: 5px;
@@ -55,14 +55,21 @@
   00%,
   50% {
     color: black;
+    background-color: white;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   50%,
   100% {
     color: transparent;
+    background-color: none;
+
     opacity: 0.1;
   }
   100% {
     color: transparent;
+    background-color: none;
     opacity: 0.1;
   }
 }
@@ -70,6 +77,10 @@
   00%,
   50% {
     color: black;
+    background-color: white;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   50%,
   100% {

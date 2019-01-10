@@ -212,7 +212,7 @@ class Homepage extends Component {
               height="60%"
               title="photo by Adrian Schwarz"
               alt="boost your traffic with optimized keyword targeting"
-              width="55%"
+              width="65%"
             />
           </div>
 
