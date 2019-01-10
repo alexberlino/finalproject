@@ -69,7 +69,7 @@ class Onpage extends Component {
               <table className="auditpages">
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th>
                     <a href="/en/onpage/keywordresearch">{t("onpageHP1")}</a>
                   </th>{" "}
                   <th bgColor="beige">
@@ -85,7 +85,7 @@ class Onpage extends Component {
                       {t("onpageHP3")} {t("onpageHP5")}
                     </a>
                   </th>{" "}
-                  <th>
+                  <th bgColor="beige">
                     {" "}
                     <a href="/en/onpage/metas">{t("onpageHP4")}</a>
                   </th>{" "}
@@ -93,13 +93,13 @@ class Onpage extends Component {
 
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th>
                     {" "}
                     <a href="/en/technical/mobilefriendly">
                       <a href="/en/onpage/content">{t("onpageHP6")}</a>
                     </a>
                   </th>
-                  <th bgColor="lightblue">
+                  <th>
                     {" "}
                     <a href="/en/onpage/images">{t("onpageHP7")}</a>
                   </th>
@@ -107,11 +107,11 @@ class Onpage extends Component {
 
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th bgColor="beige">
                     {" "}
                     <a href="/en/onpage/structureddata">{t("onpageHP8")}</a>
                   </th>
-                  <th bgColor="lightblue">
+                  <th>
                     {" "}
                     <a href="/en/onpage/duplicatecontent">{t("onpageHP9")}</a>
                   </th>
@@ -119,7 +119,7 @@ class Onpage extends Component {
 
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th>
                     <a href="/en/onpage/voicesearch">{t("onpageHP10")}</a>
                   </th>
                 </tr>

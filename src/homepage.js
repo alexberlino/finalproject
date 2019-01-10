@@ -367,6 +367,15 @@ class Homepage extends Component {
                 alt="teezily logo"
               />
             </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo"
+                height="60px"
+                width="130px"
+                src="/independent.png"
+                alt="independent logo"
+              />
+            </div>
           </div>
 
           <div className="coverHP" />

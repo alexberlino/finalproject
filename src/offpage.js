@@ -63,7 +63,7 @@ class Offpage extends Component {
               <table className="auditpages">
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th>
                     <a href="/en/offpage/backlinkanalysis">
                       {t("offpageHP1")} {t("offpageHP2")}
                     </a>

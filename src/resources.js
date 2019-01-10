@@ -61,7 +61,7 @@ class Resources extends Component {
               <table className="auditpages">
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th>
                     <a size="49px" href={"/en/onpage"}>
                       ON PAGE
                     </a>
@@ -77,7 +77,7 @@ class Resources extends Component {
                   <th bgColor="beige">
                     <a href={"/en/technical"}>TECHNICAL SEO</a>{" "}
                   </th>{" "}
-                  <th bgColor="lightblue">
+                  <th>
                     {" "}
                     <a href={"/en/research"}>RESEARCH & ANALYTICS</a>{" "}
                   </th>{" "}
@@ -85,7 +85,7 @@ class Resources extends Component {
 
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th>
                     {" "}
                     <a href={"/en/seonews"}>SEONEWS</a>{" "}
                   </th>

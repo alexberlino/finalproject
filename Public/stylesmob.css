@@ -719,9 +719,9 @@
 }
 @media (max-width: 768px) and (orientation: portrait) {
   .hey span {
-    left: 20px;
+    left: 70px;
 
-    font-size: 26px;
+    font-size: 23px;
   }
 
   .hey span:nth-child(2) {
@@ -760,9 +760,9 @@
     /* display: none; */
   }
 
-  .intro3 {
+  /* .intro3 {
     display: none;
-  }
+  } */
 
   .linkstoPageMainDiv2 {
     display: none;

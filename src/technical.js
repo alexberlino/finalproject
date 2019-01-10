@@ -70,7 +70,8 @@ class Technical extends Component {
               <table className="auditpages">
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th bgColor="beige">
+                    {" "}
                     <a href="/en/technical/indexation">{t("technicalHP1")}</a>
                   </th>{" "}
                   <th bgColor="beige">
@@ -81,7 +82,7 @@ class Technical extends Component {
 
                 <tr>
                   {" "}
-                  <th bgColor="beige">
+                  <th>
                     <a href="/en/technical/internationalisation">
                       {t("technicalHP3")}
                     </a>{" "}
@@ -94,13 +95,13 @@ class Technical extends Component {
 
                 <tr>
                   {" "}
-                  <th bgColor="lightblue">
+                  <th>
                     {" "}
                     <a href="/en/technical/mobilefriendly">
                       {t("technicalHP5")}
                     </a>
                   </th>
-                  <th bgColor="lightblue">
+                  <th bgColor="beige">
                     {" "}
                     <a href="/en/technical/dynamicrendering">
                       {t("technicalHP6")}
@@ -108,7 +109,8 @@ class Technical extends Component {
                   </th>
                 </tr>
                 <tr>
-                  <th>
+                  <th bgColor="beige">
+                    {" "}
                     <a href="/en/technical/security">{t("technicalHP7")}</a>
                   </th>
                 </tr>
