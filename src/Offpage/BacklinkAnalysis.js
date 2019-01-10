@@ -34,6 +34,7 @@ class BacklinkAnalysis extends Component {
             alt="backlinking"
             width="90%"
             height="440px"
+            className="imageAudit"
           />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
