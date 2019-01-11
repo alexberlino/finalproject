@@ -72,21 +72,9 @@ class Homepage extends Component {
           title="a photo by rawpixel"
         />
 
-        <div className="hey">
-          <span> </span>
-          <span>{t("hey1")}</span>
-          <span>{t("hey2")}</span>
-          <span>{t("hey3")} </span>
-          <span>{t("hey4")}</span>
-          <span>{t("hey5")}</span>
-          <span>{t("hey6")}</span>
-          <span>{t("hey7")}</span>
-          <span>{t("hey8")}</span>
-        </div>
-
         <div className="othercontentHP">
           <div className="txthead introHP">
-            {t("aboutmetitle") + ">"} <h1>{t("intro1")}</h1>
+            <h1>{t("intro1")}</h1>
           </div>
           <div className="intro">
             <div className="intro2">
@@ -161,7 +149,7 @@ class Homepage extends Component {
           ) : null}
 
           <div>
-            <h2 className="txthead"> {t("servicesL")}></h2>
+            <h2 className="txthead"> {t("servicesL")}</h2>
             <div className="intro21 ">
               {" "}
               <div className="serviceQuarter black">
@@ -299,7 +287,7 @@ class Homepage extends Component {
 
           <div>
             <div>
-              <h2 className="txthead"> {t("blog")}></h2>
+              <h2 className="txthead"> {t("blog")}</h2>
               <div className="blogArticlesHP">
                 {this.state.articles.map(article => (
                   <div className="blogItemHP">
@@ -338,7 +326,7 @@ class Homepage extends Component {
           <div />
 
           <div className="contactmob">
-            <h2 className="txthead"> {t("getintouch")}></h2>
+            <h2 className="txthead"> {t("getintouch")}</h2>
             <h2 className="txt">
               <img alt="telephone" src="/telephone.svg" className="iconphone" />
               015 787 011 932
@@ -349,7 +337,7 @@ class Homepage extends Component {
           </div>
           <div className="intro3 ">
             <div>
-              <h2 className="footerlink inline"> {t("clients")}></h2>
+              <h2 className="footerlink inline"> {t("clients")}</h2>
             </div>
 
             <div className="logoQuarter">

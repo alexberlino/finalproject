@@ -22,7 +22,7 @@ body {
   position: absolute;
   background-color: #f6f6f6;
   left: 25px;
-  top: 105%;
+  top: 100%;
   padding: 30px;
   width: 10%;
   z-index: 2;
@@ -984,7 +984,7 @@ a.linkServices {
 
 .introHP {
   color: #001f3f;
-  opacity: 0.92;
+
   position: relative;
   background-color: white;
   margin-top: 65%;
@@ -1228,8 +1228,8 @@ a.linkServices {
 .toolbar_logo {
   margin-left: 2rem;
   margin-top: 3.3rem;
-  height: 70px;
-  width: 80px;
+  height: 60px;
+  width: 70px;
 }
 
 .toolbar_navigation_items {
@@ -1264,7 +1264,9 @@ a.linkServices {
   margin-left: 20px;
   margin-bottom: 20px;
 }
-
+.center {
+  text-align: center;
+}
 .breadcrumb a:hover {
   color: white;
   background-color: black;

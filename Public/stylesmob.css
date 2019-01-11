@@ -467,17 +467,16 @@
   }
   .languageBtn {
     top: 11px;
-    left: 10px;
+    left: 80px;
   }
 
   .languageBtnEN {
-    margin-right: 15px;
     font-size: 16px;
     padding: 3px;
   }
 
   .languageBtnDE {
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 16px;
     padding: 3px;
   }
@@ -537,9 +536,10 @@
   }
 
   .introHP {
-    margin-left: 2%;
+    margin-left: 10%;
     width: 80%;
     margin-top: 80%;
+    text-align: center;
   }
 
   h1 {

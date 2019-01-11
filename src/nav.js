@@ -42,7 +42,7 @@ class Navigation extends Component {
               href={"/" + this.props.lang}
               onClick={() => this.props.pageChange("/")}
             >
-              <img alt="logo" className="toolbar_logo" src="/logonew.jpeg" />
+              <img alt="logo" className="toolbar_logo" src="/logo.jpg" />
             </a>
           </div>
 
