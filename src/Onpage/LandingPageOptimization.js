@@ -53,7 +53,12 @@ class LandingPageOptimization extends Component {
           <div className="serviceText">
             Often, companies create Landing pages and then expect it to perform
             as it is. There are actually many factors that will make a landing
-            page work, from design & UX to SEO.
+            page work, from design & UX to SEO. Users need to easily understand
+            your website. They should be able to find what they want in a
+            heartbeat. They should know where to click and how to navigate
+            through your site. And it should be fast! A beautifully designed
+            website is nice, but you should definitely make it your top priority
+            to create a user-friendly website first!
           </div>
           <div className="serviceTitle"> To do</div>
           <div className="serviceText">

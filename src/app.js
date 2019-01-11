@@ -101,7 +101,6 @@ class App extends Component {
 
   render() {
     const { lang, page } = this.state;
-    console.log("THISSTATE", this.state.lang);
 
     let sideDrawer;
     let backdrop;
@@ -393,9 +392,10 @@ class App extends Component {
                   path="/en/resources"
                   render={() => (
                     <Resources
+                      pageChange={this.changePage}
                       lang={lang}
                       page={page}
-                      pageChange={this.changePage}
+                      i18n={this.props.i18n}
                     />
                   )}
                 />

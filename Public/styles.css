@@ -612,7 +612,6 @@ section {
 
 .txt3 a {
   color: black;
-  cursor: help;
 }
 
 .linkToPages {
@@ -1032,9 +1031,9 @@ a.linkServices {
 
 .seotxt {
   background-color: #fbfbfb;
-  padding-bottom: 80px;
-  padding-top: 80px;
-  margin-top: 80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
   position: relative;
   display: inline;
 }
@@ -1267,8 +1266,8 @@ a.linkServices {
 }
 
 .breadcrumb a:hover {
-  color: darkblue;
-  text-decoration: underline;
+  color: white;
+  background-color: black;
 }
 
 .marginright {
@@ -1278,7 +1277,7 @@ a.linkServices {
   margin-bottom: 10%;
   background-color: #f9f9f9;
   padding: 20px;
-  width: 80%;
+  width: 70%;
 }
 
 .breadcrumb {

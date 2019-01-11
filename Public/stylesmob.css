@@ -42,11 +42,13 @@
     height: 90%;
   }
 
-  .txt3 {
+  p.txt3 {
     font-size: 18px;
-    margin-left: 10%;
-    margin-top: 21px;
-    width: 70%;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 10px;
   }
 
   .breadcrumb {

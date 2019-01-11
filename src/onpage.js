@@ -98,54 +98,16 @@ class Onpage extends Component {
                   {t("onpageHP10")}
                 </a>
               </div>
-
-              <p>
-                Onpage optimization (AKA on-page SEO) refers to all measures
-                that can be taken directly within the website in order to
-                improve its position in the search rankings. Examples of this
-                include measures to optimize the content or improve the meta
-                description and title tags. Conversely, off-page SEO refers to
-                links and other signals.
-              </p>
-              <p>
-                Importance of on-page SEO On-page SEO consists of all the
-                elements of SEO you can control best. If you own a website, you
-                can control the technical issues and the quality of your
-                content. We believe on-page issues should all be tackled as
-                they’re in your own hands. If you create an awesome website, it
-                will definitely start ranking. Focusing on on-page SEO will also
-                increase the probability that your off-page SEO strategy will be
-                successful. Link building with a crappy site is a very tough
-                job. Nobody wants to link to articles that are badly written or
-                boring.
-              </p>
-              <p>
-                Essential on-page SEO factors In our view, there are three major
-                on-page SEO factors. These three pillars are the ones you should
-                focus on: Technical excellence The quality of your code should
-                be high. Check if you’re not unintentionally blocking crawlers
-                from indexing your website (we still see this happening!).
-                WordPress is an SEO-friendly platform and our free Yoast SEO
-                plugin takes care of most remaining technical SEO challenges,
-                without you even noticing it. So if you’re using WordPress and
-                configured Yoast SEO well, you’ll have most technical aspects of
-                your on-page SEO covered. Want to dive deeper into the technical
-                side of SEO? Read our articles on technical SEO or take the
-                Technical SEO 1 training. Awesome content Why do people visit
-                your site? Most likely because it contains information they’re
-                looking for. Therefore you should write excellent content.
-                Search engines like Google read your text. Which site ranks
-                highest is for a large part based on the content of a website.
-                That content should be about the right keywords, informative,
-                and easy to read. Learn all about writing high-quality content
-                in our Ultimate Guide to SEO copywriting. Flawless UX The third
-                and final pillar is User eXperience. Users need to easily
-                understand your website. They should be able to find what they
-                want in a heartbeat. They should know where to click and how to
-                navigate through your site. And it should be fast! A beautifully
-                designed website is nice, but you should definitely make it your
-                top priority to create a user-friendly website first! R
-              </p>
+              <p className="italic">{t("onpageintro")}</p>
+              <br />
+              <h2>Keyword Research</h2>
+              <p>{t("onpageintro2")}</p>
+              <br />
+              <h2>Importance of on-page SEO</h2>
+              <p>{t("onpageintro3")}</p>
+              <br />
+              <h2>Essential on-page SEO factors</h2>
+              <p>{t("onpageintro4")}</p> <br />
             </div>{" "}
           </div>
         </div>

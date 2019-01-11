@@ -98,6 +98,16 @@ class Technical extends Component {
                 help search engine spiders crawl and index your site more
                 effectively (to help improve organic rankings).
               </p>
+
+              <p>
+                The quality of your code should be high. Check if you’re not
+                unintentionally blocking crawlers from indexing your website (we
+                still see this happening!). WordPress is an SEO-friendly
+                platform and our free Yoast SEO plugin takes care of most
+                remaining technical SEO challenges, without you even noticing
+                it. So if you’re using WordPress and configured Yoast SEO well,
+                you’ll have most technical aspects of your on-page SEO covered.
+              </p>
               <p>
                 Technical SEO Checklist Search engines give preferential
                 treatment in search results to websites that display certain

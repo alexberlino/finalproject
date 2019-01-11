@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 import axios from "./axios";
 import LinksToPages from "./LinksToPages";
 import ContactMain from "./ContactMain";
-
 import Blog from "./blog";
 
 class Homepage extends Component {
@@ -52,8 +51,7 @@ class Homepage extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.state.lang);
-    console.log(this.state.lng);
+    console.log(this.props);
 
     return (
       <div className="mainHP">
@@ -203,8 +201,11 @@ class Homepage extends Component {
               </div>
             </div>
 
-            <h3 className="boost">{t("boost1")}</h3>
-            <h3 className="boost">{t("boost2")}</h3>
+            <div className="seotxt">
+              {" "}
+              <h2 className="traffic black">What is SEO</h2>
+              <p className="txt3"> {t("whatisSEO")}</p>
+            </div>
 
             <img
               className="trafficImg"
@@ -214,6 +215,9 @@ class Homepage extends Component {
               alt="boost your traffic with optimized keyword targeting"
               width="65%"
             />
+            <h3 className="black">
+              {t("boost1")} {t("boost2")}
+            </h3>
           </div>
 
           <div className="seotxt">
@@ -231,13 +235,24 @@ class Homepage extends Component {
                 {" "}
                 <a href="/en/resources">{t("audit")}</a>
               </h2>
-              <p className="txt3">{t("auditText")}</p>
+              <p className="txt3">
+                {t("auditText")}
+                <a href="/en/resources" className="block black">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
+
               <h2 className="traffic black">
                 <a className="black" href="/en/onpage/keywordresearch">
                   {t("KWResearch")}
                 </a>
               </h2>
-              <p className="txt3">{t("KWResearchText")}</p>
+              <p className="txt3">
+                {t("KWResearchText")}
+                <a href="/en/onpage/keywordresearch" className="block">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
 
               <img
                 className="PDCD"
@@ -250,20 +265,35 @@ class Homepage extends Component {
                   {t("OnPageOptimization")}
                 </a>
               </h2>
-              <p className="txt3">{t("OnPageOptimizationText")}</p>
+              <p className="txt3">
+                {t("OnPageOptimizationText")}{" "}
+                <a href="/en/onpage" className="block black">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
               <h2 className="traffic black">
                 <a className="black" href="/en/offpage">
                   {t("OffpagePageOptimization")}
                 </a>
               </h2>
-              <p className="txt3">{t("OffpagePageOptimizationText")}</p>
+              <p className="txt3">
+                {t("OffpagePageOptimizationText")}
+                <a href="/en/offpage" className="block black">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
 
               <h2 className="traffic black">
                 <a href="/en/offpage/backlinkanalysis">
                   Backlink profile audit
                 </a>{" "}
               </h2>
-              <p className="txt3">{t("offpage_main")}</p>
+              <p className="txt3">
+                {t("offpage_main")}{" "}
+                <a href="/en/offpage/backlinkanalysis" className="block black">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
             </div>
           </div>
 

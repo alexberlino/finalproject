@@ -70,7 +70,7 @@ class Footer extends Component {
           </a>
         </div>
         <div itemScope itemType="https://schema.org/WebPage">
-          <p>SEO Freelancer</p> Author:{" "}
+          Author:{" "}
           <span
             itemProp="author"
             itemScope

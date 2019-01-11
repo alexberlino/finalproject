@@ -14,6 +14,19 @@ i18n.use(LanguageDetector).init({
         hey6: `Analytics Expertise`,
         hey7: `Competitor Analysis`,
         hey8: `Off-Page Audit`,
+        whatisSEO: `        Search engine optimization is the term used to describe the
+                processes to optimize a website for search engines. SEO is
+                important for getting high quality visitors from search which
+                are searching what the website has to offer. Given how the
+                algotiths have evolved these last years, there is also much
+                focus on user-friendliness of the website to increase its
+                credibility and "respect" from search engines such as Google,
+                Bing and Yandex. Search engines use more and more complex
+                algorithms to determine which pages to include in their index
+                and the order they show these pages in the search results. SEO
+                is the way to ‘speak’ to search engines in a language they can
+                understand and give them as much information about your website
+                as possible.`,
         clients: `current and former clients`,
         intro1: `Hi! My name is Alex, I am an SEO Expert in Berlin with MBA and scrum training.`,
         intro2: `9 years experience in SEO, SEA and Analytics.`,
@@ -157,7 +170,51 @@ Prioritised Action plan with:
         footer1: `All Right Reserved 2018 Alex Bieth`,
         footer2: `about this website`,
         boost1: `BOOST YOUR TRAFFIC WITH`,
-        boost2: `OPTIMIZED KEYWORD TARGETING!`
+        boost2: `OPTIMIZED KEYWORD TARGETING!`,
+
+        auditintro: `Audits can vary in scope depending on the website's needs and maturity.
+      A full audit though will cover all aspets of SEO which over the years has become more and mroe complex and segmented.
+      The main aspects of SEO can simply be categorized in three main fields: offpage, onpage and technical SEO, but there is a lot of overlapping.
+      Also efficient and reliable web analytics set-up and knowing your competitors (Competitor Analysis) are critical if you want to make progress and know your priorities and control efficiently   `,
+
+        auditintro2: `The first step in Audit it to make sure to know the  which are key to your business, which ones your are already ranking and those for which you are not, select the ones which are more likely
+  to bring the best traffic depending on your site's strength: if your site is quite new, you may not want to target keywords which have great Search Volume but which are too competitive.    Content of course is the most important, but using the language
+      your users like to use thanks to a good with quality landing
+      pages, and producing content for users not just for SEO. Link
+      internally in an efficient way.`,
+
+        auditintro3: `Keeping an eye on indexation is extremely important so that you
+            don't waste crawling credits. Avoid however duplicate content
+            and to confuse the Google bot with poor indexation messages
+            through inappropriate crawling messages. Make sure also your
+            mobile version loads fast. Does your website use https?`,
+        auditintro4: `Once you are confident you have great content and a website you are proud of you can more confident to get quality links pointing to you. Links are still key in SEO and more and more difficult to pro-actively collect if you are still new in your business. PR, social media, word of mouth and other media coverage increase visibility and more and more website will starting linking to you naturally if you have a website which stands out from the crowd.
+        Before that happens, they are ways to get going while taking care of your brand image and expertise in your field.  `,
+        auditintro5: `Know your competitors with a competitor analysis. Go Local to secure the market close to you and paid search to get those extra visits while you work on your SEO.
+        If you are not using analytics as a tool to closely monitor your traffic, you are losing opportunities that will guide you to make improvements. These themes are covered in the Research and Analytics section.`,
+        onpageintro: `Onpage optimization refers to all measures that can be taken
+            directly within the website in order to improve its position in
+            the search rankings. Examples of this include measures to
+            optimize the content or improve the meta description and title
+            tags.`,
+        onpageintro2: `First things first: Keyword Research; if you are not targeting the right keywords, or missing out on the most important ones, you will struggle to get the best traffic for your site.
+        Also, you need to know which questions are most searched and other themes close related to your business.  `,
+        onpageintro3: `Why do people visit your site? Most
+        likely because it contains information they’re looking for.
+        Therefore you should write excellent content. Search engines
+        like Google read your text. Which site ranks highest is for a
+        large part based on the content of a website. That content
+        should be about the right keywords, informative, and easy to
+        read. `,
+        onpageintro4: `    On-page SEO consists of all the elements of SEO you can control
+            best. If you own a website, you can control the technical issues
+            and the quality of your content. On-page issues should all be
+            tackled as they’re in your own hands. If you create an awesome
+            website, it will definitely start ranking. Focusing on on-page
+            SEO will also increase the probability that your off-page SEO
+            strategy will be successful. Link building with a poor site is a
+            very tough job. Nobody wants to link to articles that are badly
+            written or not interesting.`
       }
     }, //en
 
@@ -298,7 +355,20 @@ Prioritised Action plan with:
         footer1: `Alle Rechte vorbehalten. 2018 Alex Bieth`,
         footer2: `über diese Webseite`,
         boost1: `NUR MIT DEN BESTEN KEYWORDS`,
-        boost2: `KOMMT DER BESTE TRAFFIC!`
+        boost2: `KOMMT DER BESTE TRAFFIC!`,
+        whatisSEO: `        Search engine optimization is the term used to describe the
+                processes to optimize a website for search engines. SEO is
+                important for getting high quality visitors from search which
+                are searching what the website has to offer. Given how the
+                algotiths have evolved these last years, there is also much
+                focus on user-friendliness of the website to increase its
+                credibility and "respect" from search engines such as Google,
+                Bing and Yandex. Search engines use more and more complex
+                algorithms to determine which pages to include in their index
+                and the order they show these pages in the search results. SEO
+                is the way to ‘speak’ to search engines in a language they can
+                understand and give them as much information about your website
+                as possible.`
       }
     }, //de
 
@@ -429,7 +499,25 @@ L'analyse des mots clés est une partie très importante du référencement. Une
                         Of course many factors come into play: -timing of new backlinks
                         -quality of the website pointing the link to yours. These aspects
                         are critical in how to positively improve your backlink profile and
-                        boost your Domain Authority.`
+                        boost your Domain Authority.`,
+        whatisSEO: `        Search engine optimization is the term used to describe the
+                                processes to optimize a website for search engines. SEO is
+                                important for getting high quality visitors from search which
+                                are searching what the website has to offer. Given how the
+                                algotiths have evolved these last years, there is also much
+                                focus on user-friendliness of the website to increase its
+                                credibility and "respect" from search engines such as Google,
+                                Bing and Yandex. Search engines use more and more complex
+                                algorithms to determine which pages to include in their index
+                                and the order they show these pages in the search results. SEO
+                                is the way to ‘speak’ to search engines in a language they can
+                                understand and give them as much information about your website
+                                as possible.`,
+
+        auditintro: `Audits can vary in scope depending on the website's needs and maturity.
+                                A full audit though will cover all aspets of SEO which over the years has become more and mroe complex and segmented.
+                                The main aspects of SEO can simply be categorized in three main fields: offpage, onpage and technical SEO, but there is a lot of overlapping.
+                                Also efficient and reliable web analytics set-up and knowing your competitors (Competitor Analysis) are critical if you want to make progress and know your priorities and control efficiently   `
       }
     }, //fr
 
