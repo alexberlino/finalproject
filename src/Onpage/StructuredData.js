@@ -49,7 +49,17 @@ class StructuredData extends Component {
             Google, Bing, Yandex and Yahoo agreed on a standardised format:
             schema.org for providing information about a page and to classify
             its content. using Structured Data will enable you to improve the
-            way your pages are displayed.
+            way your pages are displayed. Structured Data Additionally,
+            structured data enhances search results through the addition of
+            ‘rich snippets’ - for example, you can use structured data to add
+            star ratings to reviews; prices to products; or reviewer
+            information(example below). Because they are more visually appealing
+            and highlight immediately useful information to searchers, these
+            enhanced results can improve your click-through rate (CTR), and
+            generate additional traffic to your site. Because sites with results
+            featuring higher CTRs are generally considered to receive
+            preferential treatment in search engines, it is worth making the
+            effort to add structured data to your site.
           </div>
           <div className="serviceTitle"> To do</div>
           <div className="serviceText">

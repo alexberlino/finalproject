@@ -66,7 +66,12 @@ class Crawlability extends Component {
             xml format sitemap guide Google on how to crawl your site. Although
             Google says there is no guaranty the Google bot will follow your
             instructions, it is still highly recommended and in most cases,
-            sitemaps are beneficial.
+            sitemaps are beneficial. It contains useful information about each
+            page on your site, including when a page was last modified; what
+            priority it has on your site; how frequently it is updated. In
+            BigCommerce, your XML site is created automatically; if you are
+            using another platform you may need to use a sitemap generator to
+            build one.
           </div>
 
           <div className="serviceTitle"> Robots</div>

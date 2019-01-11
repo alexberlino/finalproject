@@ -214,7 +214,65 @@ Prioritised Action plan with:
             SEO will also increase the probability that your off-page SEO
             strategy will be successful. Link building with a poor site is a
             very tough job. Nobody wants to link to articles that are badly
-            written or not interesting.`
+            written or not interesting.`,
+        technicalintro: `    Technical SEO refers to website and server optimizations that
+                help search engine spiders crawl and index your site more
+                effectively (to help improve organic rankings).`,
+        technicalintro2: `Search engines give preferential treatment in search results to
+                websites that display certain technical characteristics:
+                a secure connection, a responsive design or a fast
+                loading time — and technical SEO is the work you need to do to
+                ensure your website does so. `,
+        technicalintro3: `Use SSL. Secure Sockets Layer – It is a security
+        technology which creates an encrypted link between a web
+        server and a browser. You can recognise a site using SSL
+        easily: the website URL starts with ‘https’ rather than
+        ‘http’. A few years ago, Google announced that they will start giving
+        preference in rankings to websites using secure HTTPS over non-secure ones;
+        this can be simply done by installing an SSL certificate on
+        your website. `,
+        technicalintro4: `  Crazy but it happens: Make sure you are not unintentionally
+          blocking crawlers from indexing your website.`,
+        technicalintro5: `Speed your site up. Search engines prefer sites that load
+        quickly: page speed is considered an important ranking signal.`,
+        technicalintro6: `Create an XML sitemap. An XML sitemap is a file that helps
+        search engines to understand your website whilst crawling it –
+        you can think of it as being like a ‘search roadmap’ of sorts,
+        telling search engines exactly where each page is. `,
+        technicalintro7: ` Consider enabling AMP. AMP is a Google-backed project which
+          aims to speed up the delivery of content on mobile devices
+          through the use of special code known as AMP HTML. AMP
+          versions of your web pages load extremely quickly on mobile
+          devices. They do this by stripping your content and code down
+          to the bare bones, leaving text, images and video intact but
+          disabling scripts, comments and forms. Because they load so
+          fast, AMP versions of pages are far more likely to be read and
+          shared by your users, increasing dwell time and the number of
+          backlinks pointing to your content – all good things from an
+          SEO point of view. On top of that, Google sometimes highlights
+          AMP pages in prominent carousels in search results – giving
+          you an important search bump.`,
+        technicalintro8: `      Add structured data markup to your website. Structured data
+              markup is code which you add to your website to help search
+              engines better understand the content on it. This data can
+              help search engines index your site more effectively and
+              provide more relevant results. `,
+        technicalintro9: `Register your site with Google Search Console and Bing
+        Webmaster Tools. Google Search Console and Bing Webmaster
+        Tools are free tools from Google and Microsoft respectively
+        that allow you to submit your website to their search engines
+        for indexing. When you are ready to launch your website, you
+        should submit its XML sitemap (see above) to both Google
+        Search Console and Webmaster Tools so that they can crawl your
+        new site and start to display results from it in search
+        results. These services also allow you to keep an eye on the
+        general performance of your site from a search engine
+        prospective - other things you can do with the tools include:
+        testing your site’s mobile usability accessing search
+        analytics viewing backlinks to your site disavowing spammy
+        links and much more besides. Technical SEO Resources You may
+        find the below resources helpful for learning more about
+        technical SEO`
       }
     }, //en
 

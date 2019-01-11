@@ -51,7 +51,17 @@ class PageSpeed extends Component {
           <h1 className="h1services"> Page Speed</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
-            If your pages are slow to load, Google will figure it out and will
+            There are several ways you can speed up your site: Use fast hosting.
+            Use a fast DNS (‘domain name system’) provider Minimise ‘HTTP
+            requests’ - keep the use of scripts and plugins to a minimum Use one
+            CSS stylesheet (the code which is used to tell a website browser how
+            to display your website) instead of multiple CSS stylesheets or
+            inline CSS Ensure your image files are as small as possible (without
+            being too pixelated) Compress your web pages (this can be done using
+            a tool called GZIP) Minify your site’s code - rid of any unnecessary
+            spaces, line breaks or indentation in your HTML, CSS and Javascript
+            (see Google’s Minify Resources page for help with this). If your
+            pages are slow to load, Google will figure it out and will
             categorize your website as poor user experience, therefore suffering
             in terms of organic visibility. If you haven't done it yet, I
             strongly advise you to use the PageSpeed Insights tool (link below){" "}

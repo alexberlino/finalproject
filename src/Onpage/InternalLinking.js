@@ -39,13 +39,18 @@ class InternalLinking extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-
           <h1 className="h1services"> On-page SEO: Internal Linking </h1>
           <div className="serviceTitle"> Why it's (extermely) Important</div>
           <div className="serviceText">
             Internal Linking is core for on-page SEO, especially for big
             websites. Link juice redistribution, prioritization of key pages or
-            site sections to name a few reasons.
+            site sections to name a few reasons. Google crawls websites by
+            following links, internal and external, using a bot called Google
+            bot. This bot arrives at the homepage of a website, starts to render
+            the page and follows the first link. By following links Google can
+            work out the relationship between the various pages, posts and other
+            content. This way Google finds out which pages on your site cover
+            similar subject matter.
           </div>
           <div className="serviceTitle"> To do</div>
           <div className="serviceText">
@@ -54,7 +59,48 @@ class InternalLinking extends Component {
             account business prioritization. Report action plan with main
             priority points and explanations for each points.
           </div>
-
+          <div className="serviceText">
+            In addition to understanding the relationship between content,
+            Google divides link value between all links on a web page. Often,
+            the homepage of a website has the greatest link value because it has
+            the most backlinks. That link value will be shared between all the
+            links found on that homepage. The link value passed to the following
+            page will be divided between the links on that page, and so on.
+            Therefore, your newest blog posts will get more link value if you
+            link to them from the homepage, instead of only on the category
+            page. And Google will find new posts quicker if they’re linked to
+            from the homepage. When you get the concept that links pass their
+            link value on, you’ll understand that more links to a post mean more
+            value. Because Google deems a page that gets lots of valuable links
+            as more important, you’ll increase the chance of that page ranking.{" "}
+          </div>
+          <div className="serviceText">
+            It’s crucial for your SEO to evaluate and improve internal linking
+            strategy on a regular basis. By adding the right internal links you
+            make sure Google understands the relevance of pages, the
+            relationship between pages and the value of pages. The ideal
+            structure We always advise website owners to imagine their website
+            to be a pyramid with the most important content on top. We call
+            those articles cornerstone content. There should be lots of links to
+            that most essential content from topically-related pages in the
+            pyramid, which passes most link value on to those pages. However,
+            you should also link from those top pages to subpages about related
+            topics. Linking internally to related content shows Google what
+            pages hold information about similar topics.{" "}
+          </div>
+          <div className="serviceText">
+            Don’t forget to link from the top too Besides linking from
+            topically-related posts and pages, it’s possible to make your
+            cornerstone content more authoritative by adding links to it from
+            the homepage or the top navigation. This will give the most
+            important posts or pages a lot of link value and makes them stronger
+            in Google’s eyes. Linking to taxonomies If you run a blog it could
+            be beneficial to add internal links to the taxonomies the post
+            belongs to. Adding links to the category and tags helps Google to
+            understand the structure of your blog and helps visitors to more
+            easily navigate to related posts. At Yoast we always link to the
+            matching categories and tags in the sidebar of each post:
+          </div>{" "}
           <div className="serviceTitle"> Some relevant tools</div>
           <div className="serviceText">Screaming Frog</div>
           <div className="black slide-in-left sideLinks">

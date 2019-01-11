@@ -67,7 +67,19 @@ class DuplicateContent extends Component {
             page, deindex unnecessary pages using canonicals, 410s or redirects
             accordingly.
           </div>
-
+          <div className="serviceText">
+            Duplicate content can either be confusing for users (and indeed
+            search engine algorithms); it can also be used to try to manipulate
+            search rankings or win more traffic. As a result, search engines
+            aren’t keen on it, and Google and Bing advise webmasters to fix any
+            duplicate content issues they find. You can fix duplicate content
+            issues by: Preventing your CMS publishing multiple versions of a
+            page or post (for example, by disabling Session IDs where they are
+            not vital to the functionality of your website and getting rid of
+            printer-friendly versions of your content). Using the canonical link
+            element to let search engines know where the ‘main’ version of your
+            content resides.
+          </div>
           <div className="serviceTitle"> Using Canonicals</div>
           <div className="serviceText">
             Canonicals are best used when you have very similar pages fro

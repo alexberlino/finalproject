@@ -54,7 +54,7 @@ class Resources extends Component {
           </div>
 
           <div>
-            <div className="marginright">
+            <div className="marginright black">
               <div className="black slide-in-left sideLinks">
                 <a className="block" href={"/en/onpage"}>
                   ON PAGE
@@ -74,15 +74,26 @@ class Resources extends Component {
               </div>
               <p className="italic">{t("auditintro")}</p>
               <br />
-              <h2>Keyword Research & Onpage SEO</h2>
+              <h2>
+                <a href="/en/onpage/keywordresearch">Keyword Research</a> &{" "}
+                <a href="/en/onpage">Onpage SEO</a>
+              </h2>
               <p>{t("auditintro2")}</p>
               <br />
-              <h2>Technical SEO</h2>
+              <h2>
+                <a href="/en/technical">Technical SEO</a>
+              </h2>
               <p>{t("auditintro3")}</p>
               <br />
-              <h2>Offpage SEO</h2>
+              <h2>
+                <a href="/en/offpage">Offpage SEO</a>
+              </h2>
               <p>{t("auditintro4")}</p> <br />
-              <h2>Competitor Analysis, Analytics, SEA and Local SEO</h2>
+              <h2>
+                <a href="/en/research">
+                  Competitor Analysis, Analytics, SEA and Local SEO
+                </a>
+              </h2>
               <p>{t("auditintro5")}</p>
             </div>
           </div>

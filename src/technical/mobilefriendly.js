@@ -72,6 +72,17 @@ class MobileFriendly extends Component {
               height="100px"
             />
             <p>
+              A ‘responsive’ website design adjusts itself automatically so that
+              it can be navigated and read easily on any device. Google is clear
+              about the fact that having a responsive site is considered a very
+              significant ranking signal by its algorithms. And, with the
+              introduction of Google’s ‘mobile first’ approach to indexing
+              content, a responsive website is now more important than ever. So
+              it makes sense to ensure that your website is fully responsive and
+              will display in the best format possible for mobile, tablet or
+              desktop users.{" "}
+            </p>
+            <p>
               With mobile-first indexing, Googlebot primarily crawls and indexes
               pages with the smartphone agent. However Google will continue to
               show the device URL that is the most appropriate to users in
