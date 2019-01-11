@@ -28,7 +28,7 @@ i18n.use(LanguageDetector).init({
                 understand and give them as much information about your website
                 as possible.`,
         clients: `current and former clients`,
-        intro1: `Hi! My name is Alex, I am friendly and experienced SEO Expert based in beautiful Berlin.`,
+        intro1: `Hi! My name is Alex, I am a friendly and experienced SEO Expert based in beautiful Berlin.`,
         intro2: `9 years experience in SEO, SEA and Analytics.`,
         intro3: `Trained Full Stack Web Developer`,
         intro4: `Analysis, Action Plan with Prioritization, and Controlling`,
