@@ -38,9 +38,9 @@ class SEA extends Component {
             className="imageAudit"
           />
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER ></a>
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
-            <a href={"/en/resources"}> AUDIT ></a>
+            <a href={"/en/resources"}> AUDIT </a>
 
             <a href={"/en/research"}> RESEARCH </a>
           </div>

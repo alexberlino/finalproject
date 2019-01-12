@@ -40,7 +40,7 @@ class Contact extends Component {
           width="100%"
         />
         <div className="breadcrumb">
-          <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
+          <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
           <a href={"/" + this.props.lng + "/contact"}> CONTACT ></a>
         </div>

@@ -338,7 +338,10 @@ iframe {
 }
 
 .imageAudit {
-  width: 90%;
+  width: 85%;
+  height: auto;
+
+  max-height: 420px;
 
   margin-top: 5%;
 }
@@ -991,6 +994,7 @@ a.linkServices {
   width: 90%;
   margin-left: 0px;
   border: white 0px solid;
+  text-align: center;
 }
 
 .float {
@@ -1263,6 +1267,7 @@ a.linkServices {
   z-index: 1;
   margin-left: 20px;
   margin-bottom: 20px;
+  padding: 5px;
 }
 .center {
   text-align: center;

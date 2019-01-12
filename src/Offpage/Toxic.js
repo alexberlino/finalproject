@@ -35,9 +35,9 @@ class Toxic extends Component {
             className="imageAudit"
           />
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT ></a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>

@@ -40,14 +40,14 @@ class Resources extends Component {
             src="/auditmainpic/audit.jpg"
             title="content, a photo by Jo Szczepanska"
             alt="SEO Audit"
-            height="450px"
-            width="85%"
+            height="300px"
+            width="auto"
             className="imageAudit"
           />
           <div className="breadcrumb">
-            <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
+            <a href={"/" + this.props.lang}> SEO FREELANCER </a>
 
-            <a href={"/" + this.props.lang + "/resources"}> AUDIT ></a>
+            <a href={"/" + this.props.lang + "/resources"}> AUDIT </a>
           </div>
           <div className="infoTitle">
             <h1 className="h1services">SEO Audit</h1>

@@ -46,9 +46,9 @@ class Content extends Component {
             className="imageAudit"
           />
           <div className="breadcrumb">
-            <a href={"/en"}>> SEO FREELANCER ></a>
+            <a href={"/en"}> SEO FREELANCER </a>
 
-            <a href={"/en/resources"}> AUDIT ></a>
+            <a href={"/en/resources"}> AUDIT </a>
 
             <a href={"/en/onpage"}> ONPAGE </a>
           </div>

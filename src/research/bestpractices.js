@@ -35,9 +35,9 @@ class BestPractices extends Component {
             className="imageAudit"
           />
           <div className="breadcrumb">
-            <a href="/en">> SEO FREELANCER ></a>
+            <a href="/en"> SEO FREELANCER </a>
 
-            <a href={"/en/resources"}> AUDIT ></a>
+            <a href={"/en/resources"}> AUDIT </a>
 
             <a href={"/en/research"}> RESEARCH </a>
           </div>

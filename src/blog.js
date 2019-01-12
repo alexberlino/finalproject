@@ -47,7 +47,7 @@ class Blog extends Component {
         />
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}>> SEO FREELANCER ></a>
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
             <a href={"/" + this.props.lng + "/blog"}> BLOG ></a>
           </div>
