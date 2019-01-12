@@ -376,19 +376,19 @@ iframe {
   position: relative;
   display: table;
   top: 28px;
-  left: 40%;
+  left: 65%;
   z-index: 100;
 }
 .languageBtnDE {
   margin-right: 15px;
-  font-size: 32px;
+  font-size: 22px;
   border: 1px black solid;
   padding: 5px;
   color: black;
 }
 .languageBtnEN {
   color: black;
-  font-size: 32px;
+  font-size: 22px;
   margin-left: 15px;
   border: 1px black solid;
   padding: 5px;

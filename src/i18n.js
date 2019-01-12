@@ -418,7 +418,7 @@ Prioritised Action plan with:
                 processes to optimize a website for search engines. SEO is
                 important for getting high quality visitors from search which
                 are searching what the website has to offer. Given how the
-                algotiths have evolved these last years, there is also much
+                algorithms have evolved these last years, there is also much
                 focus on user-friendliness of the website to increase its
                 credibility and "respect" from search engines such as Google,
                 Bing and Yandex. Search engines use more and more complex

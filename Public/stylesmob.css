@@ -467,17 +467,17 @@
   }
   .languageBtn {
     top: 11px;
-    left: 80px;
+    left: 130px;
   }
 
   .languageBtnEN {
-    font-size: 16px;
+    font-size: 12px;
     padding: 3px;
   }
 
   .languageBtnDE {
-    margin-right: 10px;
-    font-size: 16px;
+    margin-right: 13px;
+    font-size: 12px;
     padding: 3px;
   }
   .toggleMan {

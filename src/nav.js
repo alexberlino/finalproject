@@ -14,15 +14,12 @@ class Navigation extends Component {
     super(props);
     this.state = {
       selectedEN: "",
-      selectedFR: "",
       selectedDE: ""
     };
   }
   componentDidMount() {
     if (this.props.lang == "en") {
       this.state.selectedEN = "langselected";
-    } else if (this.props.lang == "fr") {
-      this.state.selectedFR = "langselected";
     } else if (this.props.lang == "de") {
       this.state.selectedDE = "langselected";
     }
@@ -53,8 +50,7 @@ class Navigation extends Component {
                 this.props.languageChange("de") ||
                 this.setState({
                   selectedDE: "langselected",
-                  selectedEN: "",
-                  selectedFR: ""
+                  selectedEN: ""
                 })
               }
               to={"/de" + this.props.page}
@@ -68,8 +64,7 @@ class Navigation extends Component {
                 this.props.languageChange("en") ||
                 this.setState({
                   selectedDE: "",
-                  selectedEN: "langselected",
-                  selectedFR: ""
+                  selectedEN: "langselected"
                 })
               }
             >
