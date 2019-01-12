@@ -934,21 +934,13 @@ a.linkServices {
   margin-left: 5px;
 }
 
-.hey {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  color: white;
-}
-
 .berlin {
   position: fixed;
   display: inline;
   top: 0px;
   left: 0px;
-  height: 110%;
   width: 100%;
+  height: auto;
 }
 .othercontentHP {
   width: 100%;
@@ -1085,6 +1077,7 @@ a.linkServices {
 
 .imageservices {
   margin-left: 30%;
+  opacity: 0.6;
 }
 
 .footerlink {

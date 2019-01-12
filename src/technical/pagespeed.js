@@ -49,6 +49,13 @@ class PageSpeed extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services"> Page Speed</h1>{" "}
+          <img
+            src="/icons/speed.png"
+            className="imageservices"
+            alt="speed icon"
+            width="100px"
+            height="100px"
+          />
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             There are several ways you can speed up your site: Use fast hosting.
@@ -66,13 +73,6 @@ class PageSpeed extends Component {
             in terms of organic visibility. If you haven't done it yet, I
             strongly advise you to use the PageSpeed Insights tool (link below){" "}
           </div>
-          <img
-            src="/icons/speed.png"
-            className="imageservices"
-            alt="speed icon"
-            width="100px"
-            height="100px"
-          />
           <div className="serviceTitle"> Tools and Resources</div>
           <div className="serviceText">
             <footer>

@@ -45,15 +45,7 @@ class Crawlability extends Component {
 
             <a href={"/en/technical"}> TECHNICAL </a>
           </div>
-
-          <h1 className="h1services"> Crawlability</h1>
-
-          <div className="serviceTitle"> Why it's Important</div>
-          <div className="serviceText">
-            Crawlibility goes hand in hand with indexation. In order to adjust
-            and optimize indexation, you can improve and guide Google on how it
-            crawls your site.
-          </div>
+          <h1 className="h1services"> Crawlability</h1>{" "}
           <img
             src="/icons/crawler.png"
             className="imageservices"
@@ -61,6 +53,12 @@ class Crawlability extends Component {
             width="100px"
             height="100px"
           />
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            Crawlibility goes hand in hand with indexation. In order to adjust
+            and optimize indexation, you can improve and guide Google on how it
+            crawls your site.
+          </div>
           <div className="serviceTitle"> Sitemap(s)</div>
           <div className="serviceText">
             xml format sitemap guide Google on how to crawl your site. Although
@@ -73,21 +71,18 @@ class Crawlability extends Component {
             using another platform you may need to use a sitemap generator to
             build one.
           </div>
-
           <div className="serviceTitle"> Robots</div>
           <div className="serviceText">
             Robots set instructions depending on the user agent which parts of
             the site can be accessed. Making sure you are not excluding the
             relevant search engine bots is therefore of course paramount.
           </div>
-
           <div className="serviceTitle"> metas</div>
           <div className="serviceText">
             You can also guide the Google bot in the code with tags for each
             page the most common ones being: "follow/noFollow" and
             "index/noindex"
           </div>
-
           <div className="serviceTitle"> Search Console</div>
           <div className="serviceText">
             You can directly submit urls to the Google index in the Google
@@ -95,7 +90,6 @@ class Crawlability extends Component {
             issues and there are some pages you want to have crawl and indexed
             in priority.
           </div>
-
           <div className="serviceTitle"> Indexation Google Crawl Credit</div>
           <div className="serviceText">
             An important factor which links crawalability and indexation is that

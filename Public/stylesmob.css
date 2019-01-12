@@ -637,16 +637,6 @@
     position: relative;
   }
 
-  .blockAbout {
-    font-size: 18px;
-    width: 70%;
-    height: auto;
-    margin-left: 5%;
-    padding: 15px;
-    z-index: 100px;
-    opacity: 0.6;
-  }
-
   .resourcesLinks a {
     font-size: 18px;
   }
@@ -701,11 +691,6 @@
     left: 70%;
   }
 
-  .berlin {
-    height: 260px;
-    width: 99%;
-  }
-
   .imageAudit {
     width: 99%;
 
@@ -728,42 +713,6 @@
       top: 110px;
       -webkit-animation-timing-function: ease-out;
     }
-  }
-}
-@media (max-width: 768px) and (orientation: portrait) {
-  .hey span {
-    left: 70px;
-
-    font-size: 23px;
-  }
-
-  .hey span:nth-child(2) {
-    top: 50px;
-  }
-
-  .hey span:nth-child(3) {
-    top: 80px;
-  }
-
-  .hey span:nth-child(4) {
-    top: 50px;
-  }
-  .hey span:nth-child(5) {
-    top: 80px;
-  }
-  .hey span:nth-child(6) {
-    top: 50px;
-  }
-  .hey span:nth-child(7) {
-    top: 80px;
-  }
-
-  .hey span:nth-child(8) {
-    top: 50px;
-  }
-
-  .hey span:nth-child(9) {
-    top: 80px;
   }
 }
 
@@ -795,89 +744,12 @@
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-  .hey span {
-    top: 90px;
-    font-size: 34px;
-  }
-
-  .hey span:nth-child(1) {
-  }
-
-  .hey span:nth-child(2) {
-    top: 60px;
-  }
-
-  .hey span:nth-child(3) {
-    top: 110px;
-  }
-  .hey span:nth-child(4) {
-    top: 60px;
-  }
-  .hey span:nth-child(5) {
-    top: 110px;
-  }
-  .hey span:nth-child(6) {
-    top: 60px;
-  }
-
-  .hey span:nth-child(7) {
-    top: 110px;
-  }
-
-  .hey span:nth-child(8) {
-    top: 60px;
-  }
-  .hey span:nth-child(9) {
-    top: 110px;
-  }
   .txt2 {
     font-size: 20px;
-  }
-  .berlin {
-    height: 115%;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  .berlin {
-    height: 55%;
-  }
-
-  .hey span {
-    top: 90px;
-    font-size: 39px;
-  }
-
-  .hey span:nth-child(1) {
-  }
-
-  .hey span:nth-child(2) {
-    top: 110px;
-  }
-
-  .hey span:nth-child(3) {
-    top: 160px;
-  }
-  .hey span:nth-child(4) {
-    top: 110px;
-  }
-  .hey span:nth-child(5) {
-    top: 160px;
-  }
-  .hey span:nth-child(6) {
-    top: 110px;
-  }
-
-  .hey span:nth-child(7) {
-    top: 160px;
-  }
-
-  .hey span:nth-child(8) {
-    top: 110px;
-  }
-  .hey span:nth-child(9) {
-    top: 160px;
-  }
   .txt2 {
     font-size: 20px;
   }

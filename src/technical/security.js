@@ -51,6 +51,12 @@ class Security extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services"> Security - Migration to https</h1>{" "}
+          <img
+            className="imageservices"
+            src="/icons/lock.jpg"
+            width="80px"
+            height="80px"
+          />
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             <p>
@@ -60,12 +66,6 @@ class Security extends Component {
               means all communications between browser and website are
               encrypted.
             </p>
-            <img
-              className="imageservices"
-              src="/icons/lock.jpg"
-              width="80px"
-              height="80px"
-            />
 
             <p>
               HTTPS is often used to protect highly confidential online

@@ -48,13 +48,6 @@ class Internationalisation extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services">Internationalisation</h1>{" "}
-          <div className="serviceTitle"> Why it's Important</div>
-          <div className="serviceText">
-            There are various options when operating internationally: same root
-            domain, different top level domains, subdomains, how to link between
-            them, how to simplify the process without negatively affecting your
-            SEO.
-          </div>
           <img
             src="/icons/world.png"
             className="imageservices"
@@ -62,6 +55,13 @@ class Internationalisation extends Component {
             width="100px"
             height="100px"
           />
+          <div className="serviceTitle"> Why it's Important</div>
+          <div className="serviceText">
+            There are various options when operating internationally: same root
+            domain, different top level domains, subdomains, how to link between
+            them, how to simplify the process without negatively affecting your
+            SEO.
+          </div>
           <div className="serviceTitle"> To do</div>
           <div className="serviceText">
             <p>
