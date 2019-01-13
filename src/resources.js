@@ -78,23 +78,44 @@ class Resources extends Component {
                 <a href="/en/onpage/keywordresearch">Keyword Research</a> &{" "}
                 <a href="/en/onpage">Onpage SEO</a>
               </h2>
-              <p>{t("auditintro2")}</p>
+              <p>
+                {t("auditintro2")}{" "}
+                <a href="/en/onpage" className="block">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
               <br />
               <h2>
                 <a href="/en/technical">Technical SEO</a>
               </h2>
-              <p>{t("auditintro3")}</p>
+              <p>
+                {t("auditintro3")}{" "}
+                <a href="/en/technical" className="block">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
               <br />
               <h2>
                 <a href="/en/offpage">Offpage SEO</a>
               </h2>
-              <p>{t("auditintro4")}</p> <br />
+              <p>
+                {t("auditintro4")}{" "}
+                <a href="/en/offpage" className="block">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>{" "}
+              </p>{" "}
+              <br />
               <h2>
                 <a href="/en/research">
                   Competitor Analysis, Analytics, SEA and Local SEO
                 </a>
               </h2>
-              <p>{t("auditintro5")}</p>
+              <p>
+                {t("auditintro5")}{" "}
+                <a href="/en/research" className="block">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
             </div>
           </div>
         </div>

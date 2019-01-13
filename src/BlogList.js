@@ -54,7 +54,7 @@ class BlogList extends Component {
                       }
                     }}
                   >
-                    {article.title}( {article.dat.slice(0, 10)})
+                    {article.title}
                   </header>
                 </a>
               </div>

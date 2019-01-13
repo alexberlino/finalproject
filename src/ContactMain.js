@@ -82,7 +82,7 @@ class ContactMain extends Component {
             </div>
           </div>
         ) : null}
-        <div className="leftContact" />
+
         <div className="rightContact">
           <iframe
             title="map"
@@ -91,6 +91,13 @@ class ContactMain extends Component {
             src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
             allowFullScreen
           />
+
+          <h5 className="block">Kiehlufer D-12059 Berlin</h5>
+          <h5 className="block">
+            <img alt="telephone" src="/telephone.svg" className="iconphone" />
+            015 787 011 932
+          </h5>
+          <h5 className="block">seoberlino@gmail.com</h5>
         </div>
       </div>
     );

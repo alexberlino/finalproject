@@ -17,9 +17,12 @@ class BestPractices extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            - SEO Competitor Analysis - Research & Analytics | SEO Berlino
+            SEO Competitor Analysis - Backlink Profile Analysis | SEO Berlino
           </title>
-          <meta name="description" content="" />
+          <meta
+            name="description"
+            content="SEO Competitor Analysis to better understand where you stand. Backlink profile Analysis, Keyword targeting anaylsis, onpage, offpage. "
+          />
           <link
             rel="canonical"
             href="https://www.seoberlino.com/en/research/bestpractices"

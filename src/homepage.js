@@ -74,7 +74,12 @@ class Homepage extends Component {
 
         <div className="othercontentHP">
           <div className="txthead introHP">
-            <h1>{t("intro1")}</h1>
+            <h1 className="h1hp">{t("intro1")}</h1>
+            <br /> <br />
+            <div className="h2hp">
+              Grow traffic and visibility. Optimized Keyword Targeting, Brand
+              Building. SEO Consultancy, Audit.
+            </div>
           </div>
           <div className="intro">
             <div className="intro2">
@@ -149,7 +154,6 @@ class Homepage extends Component {
           ) : null}
 
           <div>
-            <h2 className="txthead"> {t("servicesL")}</h2>
             <div className="intro21 ">
               {" "}
               <div className="serviceQuarter black">
@@ -213,12 +217,6 @@ class Homepage extends Component {
               <h2 className="traffic"> {t("beratung")}</h2>
               <p className="txt3">{t("beratungText")}</p>
 
-              <img
-                className="PDCD"
-                heigth="350px"
-                width="350px"
-                src="/PDCA.png"
-              />
               <h2 className="traffic black">
                 {" "}
                 <a href="/en/resources">{t("audit")}</a>
@@ -242,12 +240,6 @@ class Homepage extends Component {
                 </a>
               </p>
 
-              <img
-                className="PDCD"
-                heigth="350px"
-                width="350px"
-                src="/seoprocess.png"
-              />
               <h2 className="traffic black">
                 <a className="black" href="/en/onpage">
                   {t("OnPageOptimization")}
@@ -287,7 +279,7 @@ class Homepage extends Component {
 
           <div>
             <div>
-              <h2 className="txthead"> {t("blog")}</h2>
+              <h2 className="traffic black"> {t("blog")}</h2>
               <div className="blogArticlesHP">
                 {this.state.articles.map(article => (
                   <div className="blogItemHP">
@@ -313,26 +305,12 @@ class Homepage extends Component {
               <Link
                 to={"en/blog"}
                 onClick={() => this.props.pageChange("/blog")}
-              >
-                <img
-                  alt="more"
-                  src="/more.svg"
-                  className="iconsmore"
-                  title="read more"
-                />{" "}
-              </Link>{" "}
+              />{" "}
             </div>
           </div>
           <div />
 
           <div className="contactmob">
-            <h2 className="txthead"> {t("getintouch")}</h2>
-            <h2 className="txt">
-              <img alt="telephone" src="/telephone.svg" className="iconphone" />
-              015 787 011 932
-            </h2>
-            <h2 className="txt">seoberlino@gmail.com</h2>
-
             <ContactMain />
           </div>
           <div className="intro3 ">

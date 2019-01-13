@@ -16,7 +16,7 @@ class BacklinkAnalysis extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Offpage SEO -Backlink Profile Audit - | SEO Berlino</title>
+          <title>Backlink Profile Audit - | SEO Berlino</title>
           <meta
             type="description"
             content="Backlinks still play a huge part in SEO. Understanding your profile and setting goals for quality links is key to success."

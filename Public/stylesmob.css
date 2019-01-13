@@ -7,9 +7,30 @@
     font-size: 20px;
   }
 
+  h5 {
+    margin-left: 16%;
+  }
+
+  .h1hp {
+    font-size: 29px;
+  }
+
+  .h2hp {
+    font-size: 20px;
+  }
+
   .center {
     width: 90%;
     margin-left: 3%;
+  }
+
+  .map {
+    width: 70%;
+    margin-left: 5%;
+  }
+
+  .berlin {
+    top: 50px;
   }
   .boost {
     font-size: 18px;
@@ -20,6 +41,7 @@
 
   .marginright {
     margin-bottom: 10%;
+    margin-left: 1%;
     width: 90%;
     padding: 20px;
   }
@@ -59,22 +81,7 @@
   }
   .breadcrumb a {
     font-size: 16px;
-  }
-
-  .breadcrumb2 {
-    position: absolute;
-    display: inline;
-    margin-left: 20px;
-
-    top: 50px;
-  }
-
-  .breadcrumb2 a {
-    color: black;
-    font-size: 16px;
-    position: relative;
-    display: inline;
-    margin-left: 5px;
+    margin-left: 7px;
   }
 
   .linkedin {
@@ -105,9 +112,9 @@
   }
   .services {
     margin-bottom: 50px;
-    width: 83%;
-    margin-right: 30px;
-    margin-left: 7%;
+    width: 89%;
+
+    margin-left: 3%;
   }
 
   .auditpages {
@@ -131,9 +138,11 @@
   }
 
   .imageBlogHP {
-    display: block;
+    display: inline;
     margin-bottom: 1px;
     vertical-align: middle;
+    width: 30%;
+    margin-left: 2px;
   }
 
   .logomustbe {
@@ -159,17 +168,17 @@
 
   .listArticlesBlog {
     width: 90%;
-    font-size: 17px;
-    margin-left: 0px;
+    font-size: 19px;
+
     margin-bottom: 20px;
     color: black;
-    display: block;
+    display: inline;
     position: relative;
   }
 
   .listArticlesBlogHP {
     width: 80%;
-    font-size: 17px;
+    font-size: 19px;
     margin-left: 0px;
     margin-bottom: 10px;
     color: black;
@@ -467,7 +476,7 @@
   }
   .languageBtn {
     top: 11px;
-    left: 130px;
+    left: 90px;
   }
 
   .languageBtnEN {
@@ -507,17 +516,13 @@
     display: inline;
   }
 
-  .map {
-    display: none;
-  }
-
   /* .intro3 {
     display: none;
   } */
 
-  .rightContact {
+  /* .rightContact {
     display: none;
-  }
+  } */
   .main {
     min-height: calc(80vh - 120px);
   }

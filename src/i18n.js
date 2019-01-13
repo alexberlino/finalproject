@@ -28,7 +28,7 @@ i18n.use(LanguageDetector).init({
                 understand and give them as much information about your website
                 as possible.`,
         clients: `current and former clients`,
-        intro1: `Hi! My name is Alex, I am a friendly and experienced SEO Expert based in beautiful Berlin.`,
+        intro1: `Experienced SEO Consultant in Berlin.`,
         intro2: `9 years experience in SEO, SEA and Analytics.`,
         intro3: `Trained Full Stack Web Developer`,
         intro4: `Analysis, Action Plan with Prioritization, and Controlling`,
@@ -76,7 +76,7 @@ creation quality and brand awareness.`,
         getintouch: `Get in touch`,
         aboutme: `SEO Expert in Berlin | 10 years experience | Alex Bieth`,
         aboutmetitle: `aboutme`,
-        HPTitle: `SEO Freelancer and Consultant | SEOBerlino`,
+        HPTitle: `SEO Consultant - SEO Freelancer | SEOBerlino`,
         descriptionHP: `SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building`,
         beratung: `SEO Consultancy`,
         beratungText: `For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs
@@ -107,7 +107,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         topic related to your topic which bring traffic, your influencers, blogs and other websites
         with whom you share common grounds.`,
 
-        getintouch_title: `SEO Expert Freelancer in Berlin | seoBerlino`,
+        getintouch_title: `SEO Freelancer in Berlin -  Get in touch | SEO Berlino`,
         blog: `blog`,
         bloglatest: `Latest posts`,
         services: `SERVICES`,
@@ -173,23 +173,22 @@ Prioritised Action plan with:
         boost2: `OPTIMIZED KEYWORD TARGETING!`,
 
         auditintro: `Audits can vary in scope depending on the website's needs and maturity.
-      A full audit though will cover all aspets of SEO which over the years has become more and mroe complex and segmented.
+      A full audit though will cover all aspets of SEO which over the years has become more and more complex and segmented.
       The main aspects of SEO can simply be categorized in three main fields: offpage, onpage and technical SEO, but there is a lot of overlapping.
-      Also efficient and reliable web analytics set-up and knowing your competitors (Competitor Analysis) are critical if you want to make progress and know your priorities and control efficiently   `,
+      Also efficient and reliable web analytics set-up and knowing your competitors (Competitor Analysis) are critical if you want to make progress, understand and set your priorities and control them efficiently   `,
 
         auditintro2: `The first step in Audit it to make sure to know the  which are key to your business, which ones your are already ranking and those for which you are not, select the ones which are more likely
   to bring the best traffic depending on your site's strength: if your site is quite new, you may not want to target keywords which have great Search Volume but which are too competitive.    Content of course is the most important, but using the language
-      your users like to use thanks to a good with quality landing
+      your users like to use thanks to quality landing
       pages, and producing content for users not just for SEO. Link
-      internally in an efficient way.`,
+      internally in an efficient way is also key for user experience and search engine bots.`,
 
         auditintro3: `Keeping an eye on indexation is extremely important so that you
             don't waste crawling credits. Avoid however duplicate content
-            and to confuse the Google bot with poor indexation messages
-            through inappropriate crawling messages. Make sure also your
-            mobile version loads fast. Does your website use https?`,
-        auditintro4: `Once you are confident you have great content and a website you are proud of you can more confident to get quality links pointing to you. Links are still key in SEO and more and more difficult to pro-actively collect if you are still new in your business. PR, social media, word of mouth and other media coverage increase visibility and more and more website will starting linking to you naturally if you have a website which stands out from the crowd.
-        Before that happens, they are ways to get going while taking care of your brand image and expertise in your field.  `,
+            that would confuse search engine bots with poor indexation messages. Make sure also your
+            mobile version loads fast. Make sure that your website uses https.`,
+        auditintro4: `Once you are confident you have great content and a website you are proud of, you can with more confidence ask for quality links pointing to your website. Links are still key in SEO and more and more difficult to pro-actively collect if you are still new in your business. PR, social media, word of mouth and other media coverage increase visibility and more and more websites will starting linking to you naturally if you have a website which stands out from the competition.
+        Before that happens, there are ways to get going while taking care of your brand image and expertise in your field.  `,
         auditintro5: `Know your competitors with a competitor analysis. Go Local to secure the market close to you and paid search to get those extra visits while you work on your SEO.
         If you are not using analytics as a tool to closely monitor your traffic, you are losing opportunities that will guide you to make improvements. These themes are covered in the Research and Analytics section.`,
         onpageintro: `Onpage optimization refers to all measures that can be taken

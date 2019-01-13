@@ -101,7 +101,12 @@ class Onpage extends Component {
               <p className="italic">{t("onpageintro")}</p>
               <br />
               <h2>Keyword Research</h2>
-              <p>{t("onpageintro2")}</p>
+              <p>
+                {t("onpageintro2")}{" "}
+                <a href="/en/keywordresearch" className="block">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
               <br />
               <h2>Importance of on-page SEO</h2>
               <p>{t("onpageintro3")}</p>
