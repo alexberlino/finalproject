@@ -286,7 +286,7 @@ Prioritised Action plan with:
         hey7: `Mitbewerberanalyse`,
         hey8: `Off-Page Prüfung`,
         clients: `kunden`,
-        intro1: `Hi! Ich bin Alex, ein erfahrener Freelance SEO Experte in Berlin mit MBA und in scrum ausgebildet.`,
+        intro1: `Erfahrener Freelance SEO Experte in Berlin.`,
         intro2: `9 Jahre Erfahrung in SEO, SEA und Analytics.`,
         intro3: `Full Stack Web-Entwickler`,
         intro4: `Analyse, Aktionsplan mit Priorisierung, und Controlling`,
