@@ -141,8 +141,16 @@
     display: inline;
     margin-bottom: 1px;
     vertical-align: middle;
-    width: 30%;
-    margin-left: 2px;
+    width: 35%;
+    height: 100px;
+  }
+
+  .imageBlog {
+    display: inline;
+    margin-bottom: 1px;
+    vertical-align: middle;
+    width: 20%;
+
     height: 100px;
   }
 
@@ -170,19 +178,18 @@
   .listArticlesBlog {
     font-size: 16px;
     height: 100px;
-    width: 35%;
+    width: 33%;
     margin-bottom: 50px;
     color: black;
     display: inline;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 7%;
   }
 
   .listArticlesBlogHP {
-    width: 50%;
-    font-size: 19px;
-    margin-left: 10%;
-
+    width: 45%;
+    font-size: 18px;
+    margin-left: 8%;
     color: black;
     display: inline;
     position: absolute;

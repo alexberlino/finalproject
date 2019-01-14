@@ -532,7 +532,7 @@ section {
 .blogItemHP {
   display: block;
   margin: 7px;
-  margin-left: 10%;
+  margin-left: 14%;
 }
 
 .listArticlesBlogHP {
@@ -557,6 +557,17 @@ section {
   margin-bottom: 1px;
   vertical-align: middle;
   height: 100px;
+}
+
+.imageBlog {
+  display: inline;
+  margin-bottom: 1px;
+  vertical-align: middle;
+  height: 100px;
+}
+
+th.imageBlog {
+  border: 0px;
 }
 
 .container {
