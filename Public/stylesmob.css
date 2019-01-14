@@ -141,7 +141,7 @@
     display: inline;
     margin-bottom: 1px;
     vertical-align: middle;
-    width: 40%;
+    width: 30%;
     margin-left: 2px;
     height: 100px;
   }
@@ -168,23 +168,34 @@
   }
 
   .listArticlesBlog {
-    font-size: 19px;
+    font-size: 16px;
     height: 100px;
-    width: 40%;
-    margin-bottom: 20px;
+    width: 35%;
+    margin-bottom: 50px;
     color: black;
     display: inline;
-    position: relative;
+    position: absolute;
+    margin-left: 10%;
   }
 
   .listArticlesBlogHP {
-    width: 80%;
+    width: 50%;
     font-size: 19px;
-    margin-left: 0px;
-    margin-bottom: 10px;
+    margin-left: 10%;
+
     color: black;
+    display: inline;
+    position: absolute;
+  }
+
+  .blogItemHP {
     display: block;
-    position: relative;
+    margin: 7px;
+    margin-left: 10%;
+    margin-bottom: 20%;
+  }
+  .blogItem {
+    margin-bottom: 10%;
   }
 
   .txthead2 {
