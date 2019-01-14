@@ -521,9 +521,9 @@ section {
 
 .blogItem {
   display: block;
-  padding-bottom: 45px;
+  padding-bottom: 35px;
   background-color: #f6f6f6;
-  width: 90%;
+  height: 100px;
 }
 .blogHPtext {
   display: block;
@@ -540,7 +540,7 @@ section {
   font-size: 24px;
   position: absolute;
   margin-left: 20px;
-  height: 70px;
+  height: 100px;
   vertical-align: middle;
 }
 
@@ -556,6 +556,7 @@ section {
   display: inline;
   margin-bottom: 1px;
   vertical-align: middle;
+  height: 100px;
 }
 
 .container {
@@ -991,12 +992,12 @@ a.linkServices {
 }
 
 .h1hp {
-  font-size: 31px;
+  font-size: 42px;
   font-family: sans-serif;
 }
 
 .h2hp {
-  font-size: 22px;
+  font-size: 24px;
   font-family: sans-serif;
   font-style: normal;
   font-weight: normal;

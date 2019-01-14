@@ -33,34 +33,33 @@ class BlogList extends Component {
 
     return (
       <div>
-        <div>
-          <div className="blogArticles">
-            {this.state.articles.map(article => (
-              <div className="blogItem">
-                <a href={"/" + this.props.lang + "/article/" + article.url}>
+        <table className="blogArticles">
+          {this.state.articles.map(article => (
+            <tr className="blogItem">
+              <a href={"/" + this.props.lang + "/article/" + article.url}>
+                <th className="imageBlogHP">
                   <img
                     src={article.imageurl}
                     height="120px"
                     width="160px"
-                    className="imageBlogHP"
                     alt="blog article"
                   />
+                </th>
 
-                  <header
-                    className="listArticlesBlog"
-                    onClick={() => {
-                      {
-                        this.props.pageChange("/article/" + article.url);
-                      }
-                    }}
-                  >
-                    {article.title}
-                  </header>
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
+                <th
+                  className="listArticlesBlog"
+                  onClick={() => {
+                    {
+                      this.props.pageChange("/article/" + article.url);
+                    }
+                  }}
+                >
+                  {article.title}
+                </th>
+              </a>
+            </tr>
+          ))}
+        </table>
       </div>
     );
   }

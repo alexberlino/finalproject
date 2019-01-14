@@ -141,8 +141,9 @@
     display: inline;
     margin-bottom: 1px;
     vertical-align: middle;
-    width: 30%;
+    width: 40%;
     margin-left: 2px;
+    height: 100px;
   }
 
   .logomustbe {
@@ -167,9 +168,9 @@
   }
 
   .listArticlesBlog {
-    width: 90%;
     font-size: 19px;
-
+    height: 100px;
+    width: 40%;
     margin-bottom: 20px;
     color: black;
     display: inline;
