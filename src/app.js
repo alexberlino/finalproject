@@ -30,6 +30,7 @@ import Toxic from "./Offpage/Toxic";
 import Content from "./Onpage/Content";
 import DuplicateContent from "./Onpage/DuplicateContent";
 import Images from "./Onpage/Images";
+import Services from "./services";
 import InternalLinking from "./Onpage/InternalLinking";
 import KeywordResearch from "./Onpage/KeywordResearch";
 import LandingPageOptimization from "./Onpage/LandingPageOptimization";
@@ -149,6 +150,18 @@ class App extends Component {
                   path="/fr"
                   render={() => (
                     <Homepage
+                      pageChange={this.changePage}
+                      lang={lang}
+                      page={page}
+                    />
+                  )}
+                />
+
+                <Route
+                  exact
+                  path="/en/services"
+                  render={() => (
+                    <Services
                       pageChange={this.changePage}
                       lang={lang}
                       page={page}

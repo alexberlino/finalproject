@@ -600,7 +600,6 @@ th.imageBlog {
 .intro2 {
   margin-left: 3%;
   background-color: none;
-  color: white;
   margin-top: 10px;
   position: relative;
   width: 80%;
@@ -1000,6 +999,21 @@ a.linkServices {
   margin-left: 0px;
   border: white 0px solid;
   text-align: center;
+}
+
+.servicesHP {
+  margin-top: 50px;
+  border: 1px #ff5a09 solid;
+  font-size: 27px;
+  color: #ff5a09;
+  width: 300px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.servicesHP :hover {
+  color: white;
+  background-color: #ff5a09;
 }
 
 .h1hp {

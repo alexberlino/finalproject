@@ -284,6 +284,10 @@
     background-color: #f4f5f9;
   }
 
+  .mobintro2 {
+    width: 100%;
+  }
+
   .introQuarter {
     display: inline;
     width: 20%;
@@ -718,6 +722,10 @@
     width: 99%;
 
     margin-top: 22%;
+  }
+
+  .servicesHP {
+    background-color: white;
   }
 
   .float2 {

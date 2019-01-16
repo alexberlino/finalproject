@@ -80,6 +80,9 @@ class Homepage extends Component {
               Grow traffic and visibility. Optimized Keyword Targeting, Brand
               Building. SEO Consultancy, Audit.
             </div>
+            <a className="servicesHP" href="/en/services">
+              <button className="servicesHP">Services</button>
+            </a>
           </div>
           <div className="intro">
             <div className="intro2">
