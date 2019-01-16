@@ -27,6 +27,19 @@ class SideDrawer extends Component {
           </li>
 
           <li>
+            <a href={"/en/services"}>
+              <span
+                onClick={() =>
+                  this.props.languageChange("en") ||
+                  this.props.pageChange("/resources")
+                }
+              >
+                SERVICES{" "}
+              </span>
+            </a>
+          </li>
+
+          <li>
             <a href={"/en/resources"}>
               <span
                 onClick={() =>
