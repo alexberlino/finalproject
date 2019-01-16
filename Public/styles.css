@@ -1005,15 +1005,16 @@ a.linkServices {
   margin-top: 50px;
   border: 1px #ff5a09 solid;
   font-size: 27px;
-  color: #ff5a09;
+  color: white;
   width: 300px;
   height: 60px;
+  background-color: #ff5a09;
   border-radius: 15px;
 }
 
 .servicesHP :hover {
-  color: white;
-  background-color: #ff5a09;
+  color: #ff5a09;
+  background-color: white;
 }
 
 .h1hp {

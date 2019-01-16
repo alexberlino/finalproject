@@ -25,8 +25,8 @@
   }
 
   .map {
-    width: 70%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 2%;
   }
 
   .berlin {
@@ -567,6 +567,7 @@
     width: 80%;
     margin-top: 80%;
     text-align: center;
+    padding-top: 30px;
   }
 
   h1 {
@@ -725,7 +726,11 @@
   }
 
   .servicesHP {
-    background-color: white;
+    background-color: #ff5a09;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 18px;
   }
 
   .float2 {
