@@ -279,8 +279,7 @@
     padding: 0px;
     padding-bottom: 50px;
     left: 0;
-    border: 1px solid darkgrey;
-    background-color: #f4f5f9;
+    background-color: white;
   }
 
   .mobintro2 {
@@ -293,7 +292,6 @@
     opacity: 1;
     text-align: center;
     margin-left: 20px;
-    background-color: #eaf8fd;
     padding: 0px;
     border: none;
   }
@@ -305,7 +303,6 @@
     margin-left: 20px;
     opacity: 1;
     min-height: auto;
-    background-color: #f4f5f9;
     border: none;
     padding: 5px;
   }
@@ -329,8 +326,8 @@
     padding: 0px;
     left: 30px;
     color: black;
-    border: 1px solid darkgrey;
-    background-color: #f4f5f9;
+
+    background-color: white;
   }
 
   .intro21 .txt2 {

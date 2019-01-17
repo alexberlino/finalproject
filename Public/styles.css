@@ -429,7 +429,7 @@ iframe {
   z-index: 1;
   opacity: 1;
 
-  background-color: black;
+  background-color: darkgrey;
 }
 
 .icons {
@@ -568,6 +568,7 @@ section {
   margin-bottom: 1px;
   vertical-align: middle;
   height: 100px;
+  width: auto;
 }
 
 .imageBlog {
