@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class Crawlability extends Component {
   componentDidMount() {
@@ -30,6 +29,13 @@ class Crawlability extends Component {
           />
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/en"}> SEO FREELANCER </a>
+
+            <a href={"/en/resources"}> AUDIT </a>
+
+            <a href={"/en/technical"}> TECHNICAL </a>
+          </div>
           <img
             src="/auditmainpic/crawl.jpg"
             title="crawl, a photo by Mathew Schwartz"
@@ -38,13 +44,6 @@ class Crawlability extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/en"}> SEO FREELANCER </a>
-
-            <a href={"/en/resources"}> AUDIT </a>
-
-            <a href={"/en/technical"}> TECHNICAL </a>
-          </div>
           <h1 className="h1services"> Crawlability</h1>{" "}
           <img
             src="/icons/crawler.png"
@@ -123,7 +122,6 @@ class Crawlability extends Component {
             </a>
           </div>
         </div>{" "}
-        <LinksToPages />
       </div>
     );
   }

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class Content extends Component {
   componentDidMount() {}
@@ -37,6 +36,13 @@ class Content extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/en"}> SEO FREELANCER </a>
+
+            <a href={"/en/resources"}> AUDIT </a>
+
+            <a href={"/en/onpage"}> ONPAGE </a>
+          </div>
           <img
             src="/auditmainpic/content.jpg"
             title="content, a photo by Romain Vignes"
@@ -45,13 +51,7 @@ class Content extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/en"}> SEO FREELANCER </a>
 
-            <a href={"/en/resources"}> AUDIT </a>
-
-            <a href={"/en/onpage"}> ONPAGE </a>
-          </div>
           <h1 className="h1services"> On-page SEO: Content & Semantics </h1>
           <div className="serviceTitle">
             {" "}
@@ -121,7 +121,6 @@ class Content extends Component {
             </a>
           </div>
         </div>{" "}
-        <LinksToPages />
       </div>
     );
   }

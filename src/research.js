@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "./LinksToPages";
 import Analytics from "./research/analytics";
 import BestPractices from "./research/bestpractices";
 import LocalSEO from "./research/localseo";
@@ -42,6 +41,13 @@ class Technical extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/research" />
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
+          </div>
           <img
             src="/auditmainpic/analysis.jpg"
             title="analysis, a photo by rawpixel"
@@ -50,13 +56,6 @@ class Technical extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
-          </div>
 
           <div className="infoTitle">
             <h1 className="h1services">Analytics, Research and more</h1>
@@ -105,9 +104,6 @@ class Technical extends Component {
             </div>{" "}
           </div>
         </div>
-        <div>
-          <LinksToPages />
-        </div>{" "}
       </div>
     );
   }

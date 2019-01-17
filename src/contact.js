@@ -8,7 +8,6 @@ import { Helmet } from "react-helmet";
 import { translate, Trans } from "react-i18next";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import i18n from "./i18n";
-import LinksToPages from "./LinksToPages";
 import ContactMain from "./ContactMain";
 
 import axios from "./axios";
@@ -32,6 +31,12 @@ class Contact extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/contact"}
           />{" "}
         </Helmet>
+
+        <div className="breadcrumb">
+          <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+          <a href={"/" + this.props.lng + "/contact"}> CONTACT ></a>
+        </div>
         <img
           src="/auditmainpic/technical.jpg"
           title="technical, a photo by Markus Spiske"
@@ -39,11 +44,6 @@ class Contact extends Component {
           height="250px"
           width="100%"
         />
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-          <a href={"/" + this.props.lng + "/contact"}> CONTACT ></a>
-        </div>
 
         <h2 className="txt">
           <img src="/telephone.svg" className="iconphone" />

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class Analytics extends Component {
   render() {
@@ -28,6 +27,13 @@ class Analytics extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/en/resources"}> AUDIT </a>
+
+            <a href={"/en/research"}> RESEARCH </a>
+          </div>
           <img
             src="/auditmainpic/analytics.jpg"
             title="analytics, a photo by Carlos Muza"
@@ -36,13 +42,7 @@ class Analytics extends Component {
             height="480px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
-            <a href={"/en/resources"}> AUDIT </a>
-
-            <a href={"/en/research"}> RESEARCH </a>
-          </div>
           <h1 className="h1services"> Analytics SEO</h1>
           <h2 className="serviceTitle">
             {" "}
@@ -113,7 +113,6 @@ class Analytics extends Component {
             </a>
           </div>
         </div>
-        <LinksToPages />
       </div>
     );
   }

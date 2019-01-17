@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class Internationalisation extends Component {
   componentDidMount() {
@@ -32,6 +31,13 @@ class Internationalisation extends Component {
           />
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
+          </div>
           <img
             src="/auditmainpic/international.jpg"
             title="internationalisation, a photo by Joshua Fuller"
@@ -40,13 +46,6 @@ class Internationalisation extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
-          </div>
           <h1 className="h1services">Internationalisation</h1>{" "}
           <img
             src="/icons/world.png"
@@ -113,7 +112,6 @@ class Internationalisation extends Component {
             </a>
           </div>
         </div>{" "}
-        <LinksToPages />
       </div>
     );
   }

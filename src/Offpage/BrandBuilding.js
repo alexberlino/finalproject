@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class BrandBuilding extends Component {
   render() {
@@ -24,6 +23,13 @@ class BrandBuilding extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
+          </div>
           <img
             src="/auditmainpic/brandbuilding.jpg"
             title="brandbuilding, a photo by Max Langelott"
@@ -32,13 +38,6 @@ class BrandBuilding extends Component {
             height="400px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
-          </div>
           <h1 className="h1services">
             Brandbuilding: backlinks and brand visibility
           </h1>
@@ -99,7 +98,6 @@ class BrandBuilding extends Component {
             </a>
           </div>
         </div>
-        <LinksToPages />
       </div>
     );
   }

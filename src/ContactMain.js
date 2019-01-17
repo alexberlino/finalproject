@@ -8,7 +8,6 @@ import { Helmet } from "react-helmet";
 import { translate, Trans } from "react-i18next";
 import { Form, FormGroup, Button } from "reactstrap";
 import i18n from "./i18n";
-import LinksToPages from "./LinksToPages";
 
 import axios from "./axios";
 

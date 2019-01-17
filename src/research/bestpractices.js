@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class BestPractices extends Component {
   render() {
@@ -29,6 +28,13 @@ class BestPractices extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href="/en"> SEO FREELANCER </a>
+
+            <a href={"/en/resources"}> AUDIT </a>
+
+            <a href={"/en/research"}> RESEARCH </a>
+          </div>
           <img
             src="/auditmainpic/competitor.jpg"
             title="analysis, a photo by Stephen Dawson"
@@ -37,13 +43,6 @@ class BestPractices extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href="/en"> SEO FREELANCER </a>
-
-            <a href={"/en/resources"}> AUDIT </a>
-
-            <a href={"/en/research"}> RESEARCH </a>
-          </div>
           <h1 className="h1services"> SEO Competitor Analysis</h1>
           <div className="serviceTitle"> Know who your SEO Competitors are</div>
           <div className="serviceText">
@@ -105,7 +104,6 @@ class BestPractices extends Component {
             </a>
           </div>
         </div>
-        <LinksToPages />
       </div>
     );
   }

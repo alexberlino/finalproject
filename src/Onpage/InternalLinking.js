@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class InternalLinking extends Component {
   render() {
@@ -24,6 +23,13 @@ class InternalLinking extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
           <img
             src="/auditmainpic/internal.jpg"
             title="arrow, a photo by Scott Rodgerson"
@@ -32,13 +38,6 @@ class InternalLinking extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-          </div>
           <h1 className="h1services"> On-page SEO: Internal Linking </h1>
           <div className="serviceTitle"> Why it's (extermely) Important</div>
           <div className="serviceText">
@@ -135,7 +134,6 @@ class InternalLinking extends Component {
             </a>
           </div>
         </div>
-        <LinksToPages />
       </div>
     );
   }

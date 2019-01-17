@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class LocalSEO extends Component {
   render() {
@@ -27,6 +26,13 @@ class LocalSEO extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
+          </div>
           <img
             src="/auditmainpic/local.jpg"
             title="local, a photo by Brandi Ibrao"
@@ -35,13 +41,6 @@ class LocalSEO extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
-          </div>
           <h1 className="h1services"> Local SEO</h1> <br />
           <div className="serviceText">
             Especially for local business, it is paramount to align your SEO
@@ -101,7 +100,6 @@ class LocalSEO extends Component {
             </a>
           </div>
         </div>{" "}
-        <LinksToPages />
       </div>
     );
   }

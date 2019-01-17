@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class KeywordResearch extends Component {
   render() {
@@ -28,6 +27,13 @@ class KeywordResearch extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
           <img
             src="/auditmainpic/keyword.jpg"
             title="keyword search, a photo by Edho Pratama"
@@ -36,13 +42,6 @@ class KeywordResearch extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-          </div>
 
           <h1 className="h1services"> Keyword Research - Onpage SEO </h1>
           <h2 className="serviceTitle"> Why it's (extremely) Important</h2>
@@ -185,7 +184,6 @@ class KeywordResearch extends Component {
             </a>
           </div>
         </div>{" "}
-        <LinksToPages />
       </div>
     );
   }

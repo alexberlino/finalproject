@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 import i18n from "./i18n";
 import { translate, Trans } from "react-i18next";
 import BlogList from "./BlogList.js";
-import LinksToPages from "./LinksToPages";
 
 class Blog extends Component {
   constructor() {
@@ -38,26 +37,23 @@ class Blog extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/blog" />{" "}
         </Helmet>
-        <img
-          src="/auditmainpic/technical.jpg"
-          title="technical, a photo by Markus Spiske"
-          alt="Technical SEO"
-          height="250px"
-          width="100%"
-        />
         <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
             <a href={"/" + this.props.lng + "/blog"}> BLOG ></a>
           </div>
+          <img
+            src="/auditmainpic/technical.jpg"
+            title="technical, a photo by Markus Spiske"
+            alt="Technical SEO"
+            height="250px"
+            width="100%"
+          />
           <div className="infoTitle">
             <h1 className="h1services">SEO Blog</h1>
           </div>{" "}
           <BlogList lang={this.props.lang} pageChange={this.changePage} />
-        </div>{" "}
-        <div>
-          <LinksToPages />
         </div>{" "}
       </div>
     );

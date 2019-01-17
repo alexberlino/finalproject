@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import Helmet from "react-helmet";
-import LinksToPages from "./LinksToPages";
 import KeywordResearch from "./Onpage/KeywordResearch";
 import LandingPageOptimization from "./Onpage/LandingPageOptimization";
 import InternalLinking from "./Onpage/InternalLinking";
@@ -46,6 +45,13 @@ class Onpage extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/onpage" />
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
           <img
             src="/auditmainpic/onpage.jpg"
             title="onpage SEO, a photo by Noémi Macavei-Katócz"
@@ -54,13 +60,6 @@ class Onpage extends Component {
             width="85%"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-          </div>
 
           <div className="infoTitle">
             <h1 className="h1services">Onpage SEO Audit</h1>
@@ -116,9 +115,6 @@ class Onpage extends Component {
             </div>{" "}
           </div>
         </div>
-        <div>
-          <LinksToPages />
-        </div>{" "}
       </div>
     );
   }

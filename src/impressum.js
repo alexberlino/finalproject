@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "./LinksToPages";
 import ContactMain from "./ContactMain";
 
 class Impressum extends Component {
@@ -53,17 +52,12 @@ class Impressum extends Component {
           <div className="contactmob">
             <h2 className="txthead"> {t("getintouch")}></h2>
             <h2 className="txt">
-              <img alt="telephone" src="/telephone.svg" className="iconphone" />015
-              787 011 932
+              <img alt="telephone" src="/telephone.svg" className="iconphone" />
+              015 787 011 932
             </h2>
 
             <ContactMain />
           </div>
-
-          <LinksToPages
-            pageChange={this.props.pageChange}
-            lang={this.props.lng}
-          />
         </div>
       </div>
     );

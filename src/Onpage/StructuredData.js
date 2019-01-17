@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class StructuredData extends Component {
   render() {
@@ -27,6 +26,13 @@ class StructuredData extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
           <img
             src="/auditmainpic/structured.jpg"
             title="data, a photo by Markus Spiske"
@@ -35,13 +41,6 @@ class StructuredData extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-          </div>
 
           <h1 className="h1services"> On-page SEO: Structured Data </h1>
           <div className="serviceTitle"> Why it's Important</div>
@@ -101,7 +100,6 @@ class StructuredData extends Component {
             </a>
           </div>
         </div>
-        <LinksToPages />
       </div>
     );
   }

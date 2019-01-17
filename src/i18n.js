@@ -78,28 +78,28 @@ creation quality and brand awareness.`,
         aboutmetitle: `aboutme`,
         HPTitle: `SEO Consultant - SEO Freelancer | SEOBerlino`,
         descriptionHP: `SEO Freelancer in Berlin: Audit, Onpage, Offpage, Technical SEO, Competitor Analysis, Analytics, Brand Building`,
-        beratung: `SEO Consultancy`,
+        beratung: `seo consultancy`,
         beratungText: `For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs
               and how to best work together to define realistic KPIs and goals.
               With my experience I can efficiently give you some estimates of new traffic you can get with a plan
               of how to reach it and the resources needed to achieve it. From conception to integration and control, I will keep you informed on what has been done and implemented
                 and which goals have been achieved.`,
 
-        audit: `Audit`,
+        audit: `audit`,
         auditText: `The SEO Audit helps to define where your website stands compared to your main competitors, and enables to set realistic objectives
                      based on gained visibility. In the audit, onpage, offpage and technical SEO aspects are covered. Subsequently
                       you will receive a detailed report on the results of the SEO audit.`,
-        KWResearch: `Keyword Research`,
+        KWResearch: `keyword research`,
         KWResearchText: `
 A very important cornerstone for all future SEO measures is the keyword analysis. Here we generate a list of relevant keywords for your product or service. Another result of keyword analysis is the definition of threshold keywords.`,
-        OnPageOptimization: `Onpage Optimization`,
+        OnPageOptimization: `onpage optimization`,
         OnPageOptimizationText: `The Onpage
   Optimization refers to any SEO action taken on the website that
   can be done directly. That concerns first and foremost
   the optimization of the content and the code of the page. It includes
   as well the elaboration of the content strategy and potential
   technical issues.`,
-        OffpagePageOptimization: `Offpage Optimization`,
+        OffpagePageOptimization: `offpage optimization`,
         OffpagePageOptimizationText: `Offpage
         Optimization is certainly the most complex process in SEO
      as well as the one of the most important factors. It is about

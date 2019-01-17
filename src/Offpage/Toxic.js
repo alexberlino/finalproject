@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class Toxic extends Component {
   render() {
@@ -26,6 +25,13 @@ class Toxic extends Component {
           />
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
+          </div>
           <img
             src="/auditmainpic/toxic.jpg"
             title="toxic, a photo by Scott Rodgerson"
@@ -34,13 +40,7 @@ class Toxic extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
-          </div>
           <h1 className="h1services">
             {" "}
             Cleaning Toxic Links - Backlinks Audit{" "}
@@ -121,7 +121,6 @@ class Toxic extends Component {
             </a>
           </div>
         </div>{" "}
-        <LinksToPages />
       </div>
     );
   }

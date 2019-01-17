@@ -44,6 +44,7 @@
     margin-left: 1%;
     width: 90%;
     padding: 20px;
+    margin-top: 5px;
   }
 
   .sideLinks {
@@ -58,10 +59,8 @@
     width: 50%;
   }
 
-  .trafficImg {
+  .traffic {
     margin-left: 3%;
-    width: 90%;
-    height: 90%;
   }
 
   p.txt3 {
@@ -346,11 +345,10 @@
   }
   .footer {
     text-align: left;
-    height: 80px;
+    height: auto;
     z-index: 30;
     font-size: 10px;
     width: 100%;
-    background-color: darkgrey;
   }
 
   .navEntry {
@@ -362,6 +360,19 @@
     color: purple;
     font-size: 70px;
     background-color: #586069;
+  }
+
+  h2.orange {
+    color: #ff6e00;
+    font-size: 35px;
+  }
+  .intro4 {
+    height: auto;
+    padding: 30px;
+    width: 80%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
   }
 
   .blogArticlesHP {
@@ -410,12 +421,10 @@
     position: relative;
 
     padding: 12px;
-    margin-left: 3px;
 
     margin-top: 100px;
-    margin-bottom: 100px;
 
-    font-size: 26px;
+    font-size: 40px;
   }
   .serviceImage {
     width: 100px;
@@ -624,6 +633,9 @@
 
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .linkstoPageMainDiv {
+    font-size: 13px;
   }
 
   .articleArticle {

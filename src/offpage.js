@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "./LinksToPages";
 import BacklinkAnalysis from "./Offpage/BacklinkAnalysis";
 import BrandBuilding from "./Offpage/BrandBuilding";
 import Toxic from "./Offpage/Toxic";
@@ -40,13 +39,6 @@ class Offpage extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/offpage" />{" "}
         </Helmet>
         <div className="services">
-          <img
-            src="/auditmainpic/offpage.jpg"
-            title="links, a photo by Fré Sonneveld"
-            alt="Offpage SEO"
-            height="450px"
-            className="imageAudit"
-          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
@@ -54,24 +46,19 @@ class Offpage extends Component {
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
+          <img
+            src="/auditmainpic/offpage.jpg"
+            title="links, a photo by Fré Sonneveld"
+            alt="Offpage SEO"
+            height="450px"
+            className="imageAudit"
+          />
 
           <div className="infoTitle">
             <h1 className="h1services">Offpage SEO Audit</h1>
           </div>
           <div>
             <div className="marginright">
-              <div className="sideLinks black slide-in-left">
-                <a className="block" href="/en/offpage/backlinkanalysis">
-                  {t("offpageHP1")}, {t("offpageHP2")}
-                </a>
-                <a className="block" href="/en/offpage/brandbuilding">
-                  {t("offpageHP3")}, {t("offpageHP4")}
-                </a>{" "}
-                <a className="block" href="/en/offpage/toxic">
-                  {t("offpageHP5")}
-                </a>
-              </div>
-
               <h2>What is Offpage SEO</h2>
               <p>
                 Offpage SEO refers to techniques that can be used to improve the
@@ -222,11 +209,19 @@ class Offpage extends Component {
                 promote your content.
               </p>
             </div>
+            <div className="sideLinks black slide-in-left">
+              <a className="block" href="/en/offpage/backlinkanalysis">
+                {t("offpageHP1")}, {t("offpageHP2")}
+              </a>
+              <a className="block" href="/en/offpage/brandbuilding">
+                {t("offpageHP3")}, {t("offpageHP4")}
+              </a>{" "}
+              <a className="block" href="/en/offpage/toxic">
+                {t("offpageHP5")}
+              </a>
+            </div>
           </div>
         </div>
-        <div>
-          <LinksToPages />
-        </div>{" "}
       </div>
     );
   }

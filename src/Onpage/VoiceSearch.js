@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class VoiceSearch extends Component {
   render() {
@@ -27,6 +26,13 @@ class VoiceSearch extends Component {
           />{" "}
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+          </div>
           <img
             src="/auditmainpic/voice.jpg"
             title="voice, a photo by Jason Rosewell"
@@ -35,13 +41,6 @@ class VoiceSearch extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
-          </div>
 
           <h1 className="h1services">
             On-page SEO: Optimization for Voice Search
@@ -122,7 +121,6 @@ class VoiceSearch extends Component {
             {t("onpageHP10")}
           </a>
         </div>
-        <LinksToPages />
       </div>
     );
   }

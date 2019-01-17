@@ -7,7 +7,6 @@ import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
 import axios from "./axios";
-import LinksToPages from "./LinksToPages";
 import ContactMain from "./ContactMain";
 import Blog from "./blog";
 
@@ -160,8 +159,8 @@ class Homepage extends Component {
             <div className="intro21 ">
               {" "}
               <div className="serviceQuarter black">
-                <h2 className="center">
-                  <a href="/en/resources">SEO AUDIT</a>
+                <h2 className="center orange">
+                  <a href="/en/resources">seo audit</a>
                 </h2>
                 <p className="txt2">{t("intro9")}</p>
                 <p className="txt2">{t("hey4")}</p>
@@ -172,8 +171,8 @@ class Homepage extends Component {
                 <p className="txt2"> {t("hey7")}</p>
               </div>
               <div className="serviceQuarter">
-                <h2 className="center black">
-                  <a href="/en/research/analytics">ANALYTICS </a>
+                <h2 className="center orange">
+                  <a href="/en/research/analytics">analytics </a>
                 </h2>
                 <p className="txt2">{t("analytics1")}</p>
 
@@ -184,10 +183,10 @@ class Homepage extends Component {
                 <p className="txt2">{t("analytics5")}</p>
               </div>
               <div className="serviceQuarter">
-                <h2 className="center black">
+                <h2 className="center orange">
                   {" "}
                   <a className="black" href="/en/offpage/brandbuilding">
-                    BRAND BUILDING
+                    brand building
                   </a>
                 </h2>
                 <p className="txt2">{t("brandbuilding1")}</p>
@@ -198,29 +197,19 @@ class Homepage extends Component {
 
             <div className="seotxt">
               {" "}
-              <h2 className="traffic black">What is SEO</h2>
+              <h2 className="orange traffic">what is SEO</h2>
               <p className="txt3"> {t("whatisSEO")}</p>
             </div>
-
-            <img
-              className="trafficImg"
-              src="/traffic.jpg"
-              height="60%"
-              title="photo by Adrian Schwarz"
-              alt="boost your traffic with optimized keyword targeting"
-              width="65%"
-            />
-            <h3 className="black">
-              {t("boost1")} {t("boost2")}
-            </h3>
           </div>
 
           <div className="seotxt">
             <div className="intro1">
-              <h2 className="traffic"> {t("beratung")}</h2>
+              <div className="intro4">
+                FULL AUDIT TO EFFICIENTLY PLAN TASKS <br /> BY PRIORITY
+              </div>
+              <h2 className="traffic orange"> {t("beratung")}</h2>
               <p className="txt3">{t("beratungText")}</p>
-
-              <h2 className="traffic black">
+              <h2 className="traffic orange">
                 {" "}
                 <a href="/en/resources">{t("audit")}</a>
               </h2>
@@ -230,20 +219,7 @@ class Homepage extends Component {
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
               </p>
-
-              <h2 className="traffic black">
-                <a className="black" href="/en/onpage/keywordresearch">
-                  {t("KWResearch")}
-                </a>
-              </h2>
-              <p className="txt3">
-                {t("KWResearchText")}
-                <a href="/en/onpage/keywordresearch" className="block">
-                  <img title="more" className="iconsmore" src="/more.svg" />
-                </a>
-              </p>
-
-              <h2 className="traffic black">
+              <h2 className="traffic orange">
                 <a className="black" href="/en/onpage">
                   {t("OnPageOptimization")}
                 </a>
@@ -254,7 +230,11 @@ class Homepage extends Component {
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
               </p>
-              <h2 className="traffic black">
+
+              <div className="intro4">
+                SHARABLE CONTENT THAT MATTERS <br /> AND BRAND BUILDING{" "}
+              </div>
+              <h2 className="traffic orange">
                 <a className="black" href="/en/offpage">
                   {t("OffpagePageOptimization")}
                 </a>
@@ -265,10 +245,9 @@ class Homepage extends Component {
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
               </p>
-
-              <h2 className="traffic black">
+              <h2 className="traffic orange">
                 <a href="/en/offpage/backlinkanalysis">
-                  Backlink profile audit
+                  backlink profile audit
                 </a>{" "}
               </h2>
               <p className="txt3">
@@ -277,12 +256,28 @@ class Homepage extends Component {
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
               </p>
+              <div className="intro4">
+                OPTIMIZED KEYWORD TARGETING <br />
+                TO BOOST YOUR TRAFFIC
+              </div>
+
+              <h2 className="traffic orange">
+                <a className="black" href="/en/onpage/keywordresearch">
+                  {t("KWResearch")}
+                </a>
+              </h2>
+              <p className="txt3">
+                {t("KWResearchText")}
+                <a href="/en/onpage/keywordresearch" className="block">
+                  <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+              </p>
             </div>
           </div>
 
           <div>
             <div>
-              <h2 className="traffic black"> {t("blog")}</h2>
+              <h2 className="traffic orange"> {t("blog")}</h2>
               <div className="blogArticlesHP">
                 {this.state.articles.map(article => (
                   <div className="blogItemHP">
@@ -378,7 +373,6 @@ class Homepage extends Component {
           </div>
 
           <div className="coverHP" />
-          <LinksToPages />
         </div>
       </div>
     );

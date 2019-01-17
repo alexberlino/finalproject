@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet";
 import Impressum from "./impressum";
 import i18n from "./i18n";
 import { translate, Trans } from "react-i18next";
+import LinksToPages from "./LinksToPages";
 
 class Footer extends Component {
   constructor(props) {
@@ -16,32 +17,6 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <div className="footerQuarter">
-          <div>
-            <a
-              onClick={() => this.props.languageChange("de")}
-              className="footerflags"
-              title="auf Deutsch"
-              name="change language to German"
-              href={"/de" + this.props.page}
-            >
-              DE{" "}
-            </a>
-            <a
-              name="change language to English"
-              onClick={() => this.props.languageChange("en")}
-              title="change language to English"
-              className="footerflags"
-              width="25px"
-              href={"/en" + this.props.page}
-            >
-              EN
-            </a>
-          </div>
-        </div>
-        <div className="footerLinks footerQuarter">
-          <div className="footerlink">&copy; Alex Bieth 2018 </div>
-        </div>
         <div className="footerLinks footerQuarter">
           <Link className="footerlink " to={"/en/login"}>
             login
@@ -55,29 +30,34 @@ class Footer extends Component {
           <a className="footerlink" href={"/sitemap.xml"}>
             sitemap
           </a>
+
+          <div className="footerlink">&copy; Alex Bieth 2018 </div>
         </div>
-        <div className="footerQuarter">
+
+        <div className="footerLinks">
+          <LinksToPages />
+        </div>
+
+        <div className="footerLinks footerQuarter">
           <a
-            name="my LinkedIn profile"
-            href="https://www.linkedin.com/in/alex-bieth-berlin/?locale=de_DE"
+            onClick={() => this.props.languageChange("de")}
+            className="footerflags"
+            title="auf Deutsch"
+            name="change language to German"
+            href={"/de" + this.props.page}
           >
-            <img
-              alt="linkedin logo"
-              src="/Linkedin-logo.png"
-              height="30px"
-              width="30px"
-            />
+            DE{" "}
           </a>
-        </div>
-        <div itemScope itemType="https://schema.org/WebPage">
-          Author:{" "}
-          <span
-            itemProp="author"
-            itemScope
-            itemType="https://schema.org/Person"
+          <a
+            name="change language to English"
+            onClick={() => this.props.languageChange("en")}
+            title="change language to English"
+            className="footerflags"
+            width="25px"
+            href={"/en" + this.props.page}
           >
-            <span itemProp="name">Alex Bieth </span>
-          </span>
+            EN
+          </a>{" "}
         </div>
       </div>
     );

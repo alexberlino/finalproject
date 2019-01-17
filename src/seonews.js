@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import NewsItems from "./NewsItems";
-import LinksToPages from "./LinksToPages";
 import ContactMain from "./ContactMain";
 
 class SEONews extends Component {
@@ -52,6 +51,12 @@ class SEONews extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/seonews" />
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
+            <a href={"/" + this.props.lang + "/resources"}> AUDIT ></a>
+
+            <a href={"/" + this.props.lang + "/seonews"}> SEONEWS ></a>
+          </div>
           <img
             src="/auditmainpic/seonews.jpg"
             title="news, a photo by raw pixel"
@@ -59,12 +64,7 @@ class SEONews extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
-            <a href={"/" + this.props.lang + "/resources"}> AUDIT ></a>
 
-            <a href={"/" + this.props.lang + "/seonews"}> SEONEWS ></a>
-          </div>
           <h1 className="h1services">SEONews</h1>
 
           <div>
@@ -141,9 +141,6 @@ class SEONews extends Component {
           </div>
           <div />
         </div>
-        <div>
-          <LinksToPages />
-        </div>{" "}
       </div>
     );
   }

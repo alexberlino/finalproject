@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "./LinksToPages";
 import ContactMain from "./ContactMain";
 
 class Resources extends Component {
@@ -36,6 +35,11 @@ class Resources extends Component {
           />
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lang}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lang + "/resources"}> AUDIT </a>
+          </div>
           <img
             src="/auditmainpic/audit.jpg"
             title="content, a photo by Jo Szczepanska"
@@ -44,11 +48,7 @@ class Resources extends Component {
             width="auto"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lang}> SEO FREELANCER </a>
 
-            <a href={"/" + this.props.lang + "/resources"}> AUDIT </a>
-          </div>
           <div className="infoTitle">
             <h1 className="h1services">SEO Audit</h1>
           </div>
@@ -119,9 +119,6 @@ class Resources extends Component {
             </div>
           </div>
         </div>
-        <div>
-          <LinksToPages />
-        </div>{" "}
       </div>
     );
   }

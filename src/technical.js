@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "./LinksToPages";
 import Crawlability from "./technical/crawlability";
 import DynamicRendering from "./technical/dynamicrendering";
 import Indexation from "./technical/indexation";
@@ -48,13 +47,6 @@ class Technical extends Component {
           />
         </Helmet>
         <div className="services">
-          <img
-            src="/auditmainpic/technical.jpg"
-            title="technical, a photo by Markus Spiske"
-            alt="Technical SEO"
-            height="450px"
-            className="imageAudit"
-          />
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
@@ -62,6 +54,13 @@ class Technical extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
+          <img
+            src="/auditmainpic/technical.jpg"
+            title="technical, a photo by Markus Spiske"
+            alt="Technical SEO"
+            height="450px"
+            className="imageAudit"
+          />
 
           <div className="infoTitle">
             <h1 className="h1services">Technical SEO </h1>
@@ -105,9 +104,6 @@ class Technical extends Component {
             </div>{" "}
           </div>
         </div>
-        <div>
-          <LinksToPages />
-        </div>{" "}
       </div>
     );
   }

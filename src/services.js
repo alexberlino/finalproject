@@ -7,8 +7,6 @@ import { connect } from "react-redux";
 import { translate, Trans } from "react-i18next";
 import i18n from "./i18n";
 import Helmet from "react-helmet";
-import LinksToPages from "./LinksToPages";
-
 import ContactMain from "./ContactMain";
 
 class Services extends Component {
@@ -36,6 +34,11 @@ class Services extends Component {
           <link rel="canonical" href="https://www.seoberlino.com/en/services" />
         </Helmet>
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/services"}> SERVICES </a>
+          </div>
           <img
             src="/auditmainpic/crawl.jpg"
             alt="SEO Services"
@@ -43,11 +46,6 @@ class Services extends Component {
             width="85%"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/services"}> SERVICES </a>
-          </div>
 
           <div className="infoTitle">
             <h1 className="h1services">SEO Services</h1>
@@ -130,9 +128,6 @@ class Services extends Component {
 
           <p className="marginright">* depends on size of the website </p>
         </div>
-        <div>
-          <LinksToPages />
-        </div>{" "}
       </div>
     );
   }

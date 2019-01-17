@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { translate, Trans } from "react-i18next";
 import i18n from "../i18n";
 import { Helmet } from "react-helmet";
-import LinksToPages from "../LinksToPages";
 
 class PageSpeed extends Component {
   componentDidMount() {
@@ -33,6 +32,13 @@ class PageSpeed extends Component {
           />
         </Helmet>{" "}
         <div className="services">
+          <div className="breadcrumb">
+            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+
+            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
+          </div>
           <img
             src="/auditmainpic/pagespeed.jpg"
             title="pagespeed, a photo by Twixes"
@@ -41,13 +47,6 @@ class PageSpeed extends Component {
             height="450px"
             className="imageAudit"
           />
-          <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
-          </div>
           <h1 className="h1services"> Page Speed</h1>{" "}
           <img
             src="/icons/speed.png"
@@ -112,7 +111,6 @@ class PageSpeed extends Component {
             </a>
           </div>
         </div>{" "}
-        <LinksToPages />
       </div>
     );
   }
