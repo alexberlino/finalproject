@@ -43,13 +43,6 @@ h3 {
   font-size: 16px;
 }
 
-h5 {
-  margin: 2px;
-
-  margin-left: 35%;
-  font-size: 18px;
-}
-
 .black a {
   color: black;
 }
@@ -62,6 +55,13 @@ h5 {
   position: relative;
   padding-top: 10px;
   font-size: 20px;
+}
+h5 {
+  margin: 2px;
+  display: block;
+  font-family: bariolregular;
+  margin-left: 19%;
+  font-size: 28px;
 }
 .block2 {
   display: block;
@@ -225,8 +225,8 @@ iframe {
 .map {
   position: relative;
   display: inline-flex;
-  width: 65%;
-  height: 400px;
+  width: 85%;
+  height: 800px;
   margin-bottom: 30px;
 }
 
@@ -417,19 +417,18 @@ iframe {
 
 .intro4 {
   height: 200px;
-  padding-top: 80px;
+  padding-top: 30px;
   text-align: center;
   /* color: #ff5a09; */
-  color: white;
+  color: black;
   position: relative;
   width: 100%;
   font-size: 50px;
-  margin-bottom: 100px;
   margin-top: 100px;
   z-index: 1;
   opacity: 1;
 
-  background-color: darkgrey;
+  background-color: white;
 }
 
 .icons {
@@ -610,11 +609,11 @@ th.imageBlog {
 }
 
 .intro2 {
-  margin-left: 3%;
+  margin-left: 11%;
   background-color: none;
   margin-top: 10px;
   position: relative;
-  width: 80%;
+  width: 70%;
   height: auto;
   display: flex;
   padding: 20px;
@@ -1586,10 +1585,6 @@ table th {
   margin-left: 15%;
 }
 
-.trafficImg {
-  margin-left: 15%;
-}
-
 .linkedin {
   margin-top: 30%;
 }
@@ -1613,12 +1608,12 @@ table th {
   padding: 1px;
 }
 .intro21 {
-  margin-left: 5%;
+  margin-left: 13%;
   background-color: none;
   margin-top: 10px;
   opacity: 0.95;
   position: relative;
-  width: 80%;
+  width: 70%;
   display: flex;
   padding: 20px;
 }

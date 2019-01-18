@@ -67,6 +67,13 @@ class ContactMain extends Component {
     const { t, i18n } = this.props;
     return (
       <div className="contactpage">
+        <h2 className="traffic orange">get in touch</h2>
+        <h5>Kiehlufer D-12059 Berlin</h5>
+        <h5>
+          <img alt="telephone" src="/telephone.svg" className="iconphone" />
+          015 787 011 932
+        </h5>
+        <h5>seoberlino@gmail.com</h5>
         {this.state.error ? (
           <div className="error">
             There was an error, please send an email to alex.bieth@gmail.com or
@@ -90,13 +97,6 @@ class ContactMain extends Component {
             src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
             allowFullScreen
           />
-
-          <h5 className="block">Kiehlufer D-12059 Berlin</h5>
-          <h5 className="block">
-            <img alt="telephone" src="/telephone.svg" className="iconphone" />
-            015 787 011 932
-          </h5>
-          <h5 className="block">seoberlino@gmail.com</h5>
         </div>
       </div>
     );
