@@ -38,9 +38,7 @@ class BrandBuilding extends Component {
             height="400px"
             className="imageAudit"
           />
-          <h1 className="h1services">
-            Brandbuilding: backlinks and brand visibility
-          </h1>
+          <h1 className="h1services">Brand building</h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Your links represent your reputation and relevancy in your domain.

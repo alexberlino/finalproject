@@ -50,13 +50,6 @@ class DynamicRendering extends Component {
             className="imageAudit"
           />
           <h1 className="h1services"> Dynamic Rendering</h1>{" "}
-          <img
-            src="/icons/javascript.png"
-            className="imageservices"
-            alt="javascript icon"
-            width="100px"
-            height="100px"
-          />
           <div className="serviceTitle"> </div>
           <div className="serviceText">
             For JavaScript apps such as React, Angular or View, search engines
@@ -79,6 +72,13 @@ class DynamicRendering extends Component {
             to detect crawlers for example by checking the user agent.
           </div>
           <br />
+          <img
+            src="/icons/javascript.png"
+            className="imageservices"
+            alt="javascript icon"
+            width="100px"
+            height="100px"
+          />
           <div className="serviceText">
             Requests from crawlers are routed to a renderer, requests from users
             are served normally. Where needed, the dynamic renderer serves a

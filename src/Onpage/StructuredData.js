@@ -42,7 +42,7 @@ class StructuredData extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services"> On-page SEO: Structured Data </h1>
+          <h1 className="h1services"> Structured Data </h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Google, Bing, Yandex and Yahoo agreed on a standardised format:

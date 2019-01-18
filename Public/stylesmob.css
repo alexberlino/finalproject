@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
   }
-  h1 {
-    font-size: 20px;
-  }
 
   h5 {
     margin-left: 16%;
@@ -59,7 +56,7 @@
   }
 
   .traffic {
-    margin-left: 7%;
+    margin-left: 16%;
   }
 
   p.txt3 {
@@ -416,14 +413,10 @@
 
   .h1services {
     width: 100%;
-    text-align: left;
     position: relative;
-
     padding: 12px;
-
-    margin-top: 100px;
-
-    font-size: 40px;
+    font-size: 30px;
+    text-indent: 10px;
   }
   .serviceImage {
     width: 100px;
@@ -582,7 +575,9 @@
     padding: 0px;
     margin: 0px;
     font-weight: normal;
+    font-size: 20px;
   }
+
   .infoIntro {
     margin-left: 10%;
     font-size: 18px;

@@ -43,7 +43,7 @@ class Metas extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services"> On-page SEO: Metas Tags and headers </h1>
+          <h1 className="h1services"> MetasTags & Headings </h1>
           <div className="serviceTitle"> titles</div>
           <div className="serviceText">
             Page titles are often neglected, but are really important and very
@@ -65,7 +65,7 @@ class Metas extends Component {
             click happen.
           </div>
 
-          <div className="serviceTitle"> headers</div>
+          <div className="serviceTitle"> headings</div>
           <div className="serviceText">
             you should have one h1 per page with h1 being your main keyword for
             the page. then

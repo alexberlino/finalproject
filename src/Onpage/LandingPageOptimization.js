@@ -16,7 +16,7 @@ class LandingPageOptimization extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Landing Page Optimization - Onpage SEO Freelancer | SEO Berlino
+            Landing Pages Optimization - Onpage SEO Freelancer | SEO Berlino
           </title>
           <meta
             name="description"
@@ -45,9 +45,7 @@ class LandingPageOptimization extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services">
-            On-page SEO: Landing Page Optimization{" "}
-          </h1>
+          <h1 className="h1services">Landing Pages</h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Often, companies create Landing pages and then expect it to perform

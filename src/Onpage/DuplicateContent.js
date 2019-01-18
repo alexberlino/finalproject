@@ -45,10 +45,7 @@ class DuplicateContent extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services">
-            {" "}
-            On-page SEO: Duplicate Content and Canonicals
-          </h1>
+          <h1 className="h1services"> Duplicate Content</h1>
           <div className="serviceTitle">
             {" "}
             Duplicate Content, the biggest threat to making content king

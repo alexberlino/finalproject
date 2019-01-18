@@ -43,7 +43,7 @@ class KeywordResearch extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services"> Keyword Research - Onpage SEO </h1>
+          <h1 className="h1services"> Keyword Research </h1>
           <h2 className="serviceTitle"> Why it's (extremely) Important</h2>
           <div className="serviceText">
             Keyword Research is critical to understand how your potential

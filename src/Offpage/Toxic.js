@@ -41,10 +41,7 @@ class Toxic extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services">
-            {" "}
-            Cleaning Toxic Links - Backlinks Audit{" "}
-          </h1>
+          <h1 className="h1services"> Cleaning Toxic Links</h1>
           <div className="serviceTitle"> Quality of quantity</div>
           <div className="serviceText">
             Many think the more links, the better but it doesn't actually work
@@ -83,12 +80,7 @@ class Toxic extends Component {
               <li> from websites flagged as spammy</li>
             </ul>
           </div>
-          <img
-            src="/disavow.png"
-            className="traffic"
-            width="300px"
-            height="150px"
-          />
+          <img src="/disavow.png" width="80%" height="auto" />
 
           <div className="serviceTitle">
             {" "}

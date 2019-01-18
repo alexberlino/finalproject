@@ -38,7 +38,7 @@ class InternalLinking extends Component {
             height="450px"
             className="imageAudit"
           />
-          <h1 className="h1services"> On-page SEO: Internal Linking </h1>
+          <h1 className="h1services">Internal Linking </h1>
           <div className="serviceTitle"> Why it's (extermely) Important</div>
           <div className="serviceText">
             Internal Linking is core for on-page SEO, especially for big

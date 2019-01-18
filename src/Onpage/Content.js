@@ -52,7 +52,7 @@ class Content extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services"> On-page SEO: Content & Semantics </h1>
+          <h1 className="h1services"> Content & Semantics </h1>
           <div className="serviceTitle">
             {" "}
             What does "content is king" really mean

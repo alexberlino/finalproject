@@ -48,7 +48,7 @@ class Images extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services"> On-page SEO: Images Optimization </h1>
+          <h1 className="h1services">Images Optimization </h1>
           <h2 className="serviceTitle"> Why it's Important</h2>
           <div className="serviceText">
             Image Search still represents for most industry an important SEO
