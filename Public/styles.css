@@ -629,6 +629,17 @@ th.imageBlog {
   padding: 20px;
 }
 
+.intro20 {
+  background-color: none;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  left: -170px;
+}
+
 .txt3 {
   font-size: 21px;
   margin-left: 12%;

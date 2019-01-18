@@ -23,7 +23,7 @@ class Services extends Component {
     const { t, i18n } = this.props;
 
     return (
-      <div className="services2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>SEO Services | SEO Expert Consultant || SEO Berlino</title>
@@ -33,7 +33,7 @@ class Services extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/services" />
         </Helmet>
-        <div className="main">
+        <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
@@ -47,7 +47,7 @@ class Services extends Component {
           <div className="infoTitle">
             <h1 className="h1services">SEO Services</h1>
           </div>
-          <div className="intro2">
+          <div className="intro20">
             <div className="introQuarter">
               {" "}
               <h2>Mini-Audit (16-22 hours*)</h2>
@@ -116,9 +116,8 @@ class Services extends Component {
               <p className="txt2"> SEA</p>
             </div>
           </div>{" "}
+          <p className="marginright">* depending on size of the website </p>
         </div>
-
-        <p className="marginright">* depends on size of the website </p>
       </div>
     );
   }

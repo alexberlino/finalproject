@@ -279,6 +279,20 @@
     background-color: white;
   }
 
+  .intro20 {
+    font-size: 16px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 90%;
+    margin-left: 0px;
+    padding: 0px;
+    padding-bottom: 50px;
+    left: 0;
+    background-color: white;
+  }
+
   .mobintro2 {
     width: 100%;
   }
