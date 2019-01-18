@@ -1528,6 +1528,7 @@ a.linkServices {
   width: 100%;
   font-size: 59px;
   margin-bottom: 10px;
+  display: block;
   z-index: 1;
   opacity: 1;
 }
