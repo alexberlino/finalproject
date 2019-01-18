@@ -67,36 +67,56 @@ class ContactMain extends Component {
     const { t, i18n } = this.props;
     return (
       <div className="contactpage">
-        <h2 className="traffic orange">get in touch</h2>
-        <h5>Kiehlufer D-12059 Berlin</h5>
-        <h5>
-          <img alt="telephone" src="/telephone.svg" className="iconphone" />
-          015 787 011 932
-        </h5>
-        <h5>seoberlino@gmail.com</h5>
-        {this.state.error ? (
-          <div className="error">
-            There was an error, please send an email to alex.bieth@gmail.com or
-            call me.{" "}
-          </div>
-        ) : null}
-        {this.state.success ? (
-          <div className="error">
-            <div className="error2">
-              Success! thank you for your email, I will be in touch with you
-              very soon!{" "}
-            </div>
-          </div>
-        ) : null}
+        <div className="backgroundBlack">
+          <h2 className="blackbgwhite traffic orange">get in touch</h2>
+          <h5 className="blackbgwhite">Kiehlufer D-12059 Berlin</h5>
+          <h5 className="blackbgwhite">
+            <img alt="telephone" src="/telephone.svg" className="iconphone" />
+            015 787 011 932
+          </h5>
+          <h5 className="blackbgwhite">seoberlino@gmail.com</h5>{" "}
+        </div>
+        <div className="intro2">
+          <div className="introQuarter">
+            <img alt="monitoring" src="/seo-monitoring.jpg" className="icon" />
 
-        <div className="rightContact">
-          <iframe
-            title="map"
-            frameBorder="0"
-            className="map"
-            src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
-            allowFullScreen
-          />
+            <p className="txt2"> SEO</p>
+            <p className="txt2">Analytics </p>
+            <p className="txt2">{t("intro5")}</p>
+
+            <p className="txt2"> Search Engine Advertising (Google Ads)</p>
+          </div>
+          <div className="introQuarter">
+            <img alt="programming" src="/programming.svg" className="icon" />
+
+            <p className="txt2"> React, Vue, Handlebars</p>
+            <p className="txt2">Javascript, JQuery </p>
+            <p className="txt2">Node, Express</p>
+
+            <p className="txt2"> HTML, CSS</p>
+            <p className="txt2"> SQL, Postgres</p>
+          </div>
+          <div className="introQuarter">
+            <img alt="programming" src="/me.svg" className="icon" />
+
+            <p className="txt2">{t("intro6")}</p>
+            <p className="txt2">{t("intro7")} </p>
+            <p className="txt2">{t("intro8")} </p>
+          </div>
+          <div className="introQuarter ">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/alex-bieth-berlin/"
+            >
+              <img
+                alt="LinkedIn Profile"
+                src="/linkedinprof.png"
+                className="linkedin"
+                height="100px"
+                width="140px"
+              />{" "}
+            </a>
+          </div>{" "}
         </div>
       </div>
     );

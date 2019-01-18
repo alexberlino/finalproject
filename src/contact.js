@@ -46,6 +46,14 @@ class Contact extends Component {
         />
 
         <ContactMain />
+
+        <iframe
+          title="map"
+          frameBorder="0"
+          className="map"
+          src="https://www.google.com/maps/embed/v1/search?q=Kiehlufer%2C%20Berlin%2C%20Germany&key=AIzaSyDs1sQ2-6colx4_-iVwhV0rmlAv8uUJEk8"
+          allowFullScreen
+        />
       </div>
     );
   }

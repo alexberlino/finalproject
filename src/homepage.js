@@ -107,7 +107,7 @@ class Homepage extends Component {
             <div className="intro21 ">
               {" "}
               <div className="serviceQuarter black">
-                <h2 className="center orange">
+                <h2 className="orange">
                   <a href="/en/resources">seo audit</a>
                 </h2>
                 <p className="txt2">{t("intro9")}</p>
@@ -119,7 +119,7 @@ class Homepage extends Component {
                 <p className="txt2"> {t("hey7")}</p>
               </div>
               <div className="serviceQuarter">
-                <h2 className="center orange">
+                <h2 className="orange">
                   <a href="/en/research/analytics">analytics </a>
                 </h2>
                 <p className="txt2">{t("analytics1")}</p>
@@ -131,7 +131,7 @@ class Homepage extends Component {
                 <p className="txt2">{t("analytics5")}</p>
               </div>
               <div className="serviceQuarter">
-                <h2 className="center orange">
+                <h2 className="orange">
                   {" "}
                   <a className="black" href="/en/offpage/brandbuilding">
                     brand building
@@ -144,16 +144,18 @@ class Homepage extends Component {
             </div>
 
             <div className="seotxt">
-              {" "}
-              <h2 className="orange traffic">what is SEO</h2>
-              <p className="txt3"> {t("whatisSEO")}</p>
+              <div className="backgroundBlack">
+                <h2 className="blackbgwhite orange traffic">what is SEO</h2>
+                <p className="blackbgwhite txt3"> {t("whatisSEO")}</p>
+              </div>
             </div>
           </div>
 
           <div className="seotxt">
             <div className="intro1">
               <div className="intro4">
-                FULL AUDIT TO EFFICIENTLY PLAN TASKS <br /> BY PRIORITY
+                FULL AUDIT TO EFFICIENTLY PLAN <br />
+                TASKS BY PRIORITY
               </div>
               <h2 className="traffic orange"> {t("beratung")}</h2>
               <p className="txt3">{t("beratungText")}</p>
@@ -179,31 +181,36 @@ class Homepage extends Component {
                 </a>
               </p>
 
-              <div className="intro4">
-                SHARABLE CONTENT THAT MATTERS <br /> AND BRAND BUILDING{" "}
+              <div className="backgroundBlack">
+                <div className="blackbgwhite intro4">
+                  SHARABLE CONTENT THAT <br /> MATTERS - BRAND BUILDING{" "}
+                </div>
+                <h2 className="traffic orange blackbgwhite">
+                  <a className="black" href="/en/offpage">
+                    {t("OffpagePageOptimization")}
+                  </a>
+                </h2>
+                <p className="txt3 blackbgwhite">
+                  {t("OffpagePageOptimizationText")}
+                  <a href="/en/offpage" className="block black">
+                    <img title="more" className="iconsmore" src="/more.svg" />
+                  </a>
+                </p>
+                <h2 className="traffic blackbgwhite orange">
+                  <a href="/en/offpage/backlinkanalysis">
+                    backlink profile audit
+                  </a>{" "}
+                </h2>
+                <p className="txt3 blackbgwhite">
+                  {t("offpage_main")}{" "}
+                  <a
+                    href="/en/offpage/backlinkanalysis"
+                    className="block black"
+                  >
+                    <img title="more" className="iconsmore" src="/more.svg" />
+                  </a>
+                </p>
               </div>
-              <h2 className="traffic orange">
-                <a className="black" href="/en/offpage">
-                  {t("OffpagePageOptimization")}
-                </a>
-              </h2>
-              <p className="txt3">
-                {t("OffpagePageOptimizationText")}
-                <a href="/en/offpage" className="block black">
-                  <img title="more" className="iconsmore" src="/more.svg" />
-                </a>
-              </p>
-              <h2 className="traffic orange">
-                <a href="/en/offpage/backlinkanalysis">
-                  backlink profile audit
-                </a>{" "}
-              </h2>
-              <p className="txt3">
-                {t("offpage_main")}{" "}
-                <a href="/en/offpage/backlinkanalysis" className="block black">
-                  <img title="more" className="iconsmore" src="/more.svg" />
-                </a>
-              </p>
               <div className="intro4">
                 OPTIMIZED KEYWORD TARGETING <br />
                 TO BOOST YOUR TRAFFIC
@@ -223,52 +230,8 @@ class Homepage extends Component {
             </div>
           </div>
 
-          <div className="intro2">
-            <div className="introQuarter">
-              <img
-                alt="monitoring"
-                src="/seo-monitoring.jpg"
-                className="icon"
-              />
-
-              <p className="txt2"> SEO</p>
-              <p className="txt2">Analytics </p>
-              <p className="txt2">{t("intro5")}</p>
-
-              <p className="txt2"> Search Engine Advertising (Google Ads)</p>
-            </div>
-            <div className="introQuarter">
-              <img alt="programming" src="/programming.svg" className="icon" />
-
-              <p className="txt2"> React, Vue, Handlebars</p>
-              <p className="txt2">Javascript, JQuery </p>
-              <p className="txt2">Node, Express</p>
-
-              <p className="txt2"> HTML, CSS</p>
-              <p className="txt2"> SQL, Postgres</p>
-            </div>
-
-            <div className="introQuarter">
-              <img alt="programming" src="/me.svg" className="icon" />
-
-              <p className="txt2">{t("intro6")}</p>
-              <p className="txt2">{t("intro7")} </p>
-              <p className="txt2">{t("intro8")} </p>
-            </div>
-            <div className="introQuarter">
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/alex-bieth-berlin/"
-              >
-                <img
-                  alt="LinkedIn Profile"
-                  src="/linkedinprof.png"
-                  className="linkedin"
-                  height="100px"
-                  width="140px"
-                />{" "}
-              </a>
-            </div>
+          <div className="contactmob">
+            <ContactMain />
           </div>
 
           <div>
@@ -304,9 +267,6 @@ class Homepage extends Component {
           </div>
           <div />
 
-          <div className="contactmob">
-            <ContactMain />
-          </div>
           <div className="intro3 ">
             <div>
               <h2 className="footerlink inline"> {t("clients")}</h2>

@@ -33,7 +33,7 @@ class Services extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/services" />
         </Helmet>
-        <div className="services">
+        <div className="traffic">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
@@ -52,7 +52,7 @@ class Services extends Component {
           </div>
 
           <div className="">
-            <div className="intro2 mobintro2">
+            <div className="intro2">
               <div className="introQuarter">
                 {" "}
                 <h2>Mini-Audit (16-22 hours*)</h2>
