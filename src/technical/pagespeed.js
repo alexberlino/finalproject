@@ -48,13 +48,6 @@ class PageSpeed extends Component {
             className="imageAudit"
           />
           <h1 className="h1services"> Page Speed</h1>{" "}
-          <img
-            src="/icons/speed.png"
-            className="imageservices"
-            alt="speed icon"
-            width="100px"
-            height="100px"
-          />
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             There are several ways you can speed up your site: Use fast hosting.

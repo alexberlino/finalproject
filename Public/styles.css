@@ -188,12 +188,9 @@ form {
 
 .boost {
   position: relative;
-  width: 60%;
-  top: 300px;
-  margin-left: 20%;
-  font-size: 40px;
-  z-index: 10;
-  color: white;
+  width: 70%;
+  height: 200px;
+  opacity: 1;
 }
 
 .field {
@@ -339,11 +336,11 @@ iframe {
 }
 
 .imageAudit {
-  width: 85%;
+  width: 75%;
   height: auto;
   position: relative;
   max-height: 420px;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   margin-top: 5%;
 }
 
@@ -436,8 +433,8 @@ iframe {
 }
 
 .xtrapad {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .icons {
@@ -541,7 +538,7 @@ section {
 .blogItem {
   display: block;
   padding-bottom: 35px;
-  background-color: #f6f6f6;
+  background-color: inherit;
   height: 100px;
 }
 .blogHPtext {
@@ -1115,7 +1112,20 @@ a.linkServices {
 
 .backgroundBlack {
   width: 100%;
-  background-color: black;
+  background-color: #85144b;
+  display: block;
+  position: relative;
+}
+.backgroundBlack::after {
+  content: "";
+  background-image: url("/computer.jpg");
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
 }
 
 .seotxt {
@@ -1523,7 +1533,7 @@ a.linkServices {
 }
 
 .h1services {
-  color: #ff5a09;
+  color: black;
   position: relative;
   width: 100%;
   font-size: 59px;
@@ -1544,9 +1554,9 @@ a.linkServices {
 .serviceTitle {
   font-weight: bold;
   margin-top: 30px;
+  margin-bottom: 1%;
   font-family: arial;
   font-size: 23px;
-  margin-left: 5%;
 }
 .listServices {
   color: black;
@@ -1561,7 +1571,6 @@ a.linkServices {
 
 table th {
   width: 190px;
-  border: black 1px solid;
   padding: 10px;
 }
 
@@ -1642,7 +1651,7 @@ h2.orange {
 }
 
 .blackbgwhite {
-  background-color: black;
+  background-color: inherit;
   color: white;
 }
 
