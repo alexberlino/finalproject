@@ -178,7 +178,7 @@ class Homepage extends Component {
                 </a>
               </p>
               <h2 className="traffic orange">
-                <a className="black" href="/en/onpage">
+                <a className="" href="/en/onpage">
                   {t("OnPageOptimization")}
                 </a>
               </h2>
