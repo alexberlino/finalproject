@@ -58,8 +58,20 @@ class Offpage extends Component {
             <h1 className="h1services">Offpage SEO Audit</h1>
           </div>
           <div>
+            <div className="sideLinks black slide-in-left">
+              <a className="block" href="/en/offpage/backlinkanalysis">
+                {t("offpageHP1")}, {t("offpageHP2")}
+              </a>
+              <a className="block" href="/en/offpage/brandbuilding">
+                {t("offpageHP3")}, {t("offpageHP4")}
+              </a>{" "}
+              <a className="block" href="/en/offpage/toxic">
+                {t("offpageHP5")}
+              </a>
+            </div>
             <div className="marginright">
               <h2>What is Offpage SEO</h2>
+
               <p>
                 Offpage SEO refers to techniques that can be used to improve the
                 position of a website in the search engine results page (SERPs).
@@ -208,17 +220,6 @@ class Offpage extends Component {
                 stumbleupon.com, scoop.it and delicious.com (to name a few) to
                 promote your content.
               </p>
-            </div>
-            <div className="sideLinks black slide-in-left">
-              <a className="block" href="/en/offpage/backlinkanalysis">
-                {t("offpageHP1")}, {t("offpageHP2")}
-              </a>
-              <a className="block" href="/en/offpage/brandbuilding">
-                {t("offpageHP3")}, {t("offpageHP4")}
-              </a>{" "}
-              <a className="block" href="/en/offpage/toxic">
-                {t("offpageHP5")}
-              </a>
             </div>
           </div>
         </div>

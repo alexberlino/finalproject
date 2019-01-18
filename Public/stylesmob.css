@@ -17,7 +17,7 @@
   }
 
   .center {
-    margin-left: 24%;
+    margin-left: 5%;
   }
 
   .map {
@@ -205,9 +205,8 @@
 
   .txt2 {
     font-size: 17px;
-    margin-left: 20%;
-
-    width: 80%;
+    margin-left: 10%;
+    width: 90%;
   }
   .txt a,
   .txt2 a {
@@ -224,7 +223,7 @@
 
   .icon {
     margin-top: 15%;
-    margin-left: 50px;
+    margin-left: 5%;
   }
 
   .intro3 {

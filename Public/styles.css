@@ -324,8 +324,13 @@ iframe {
 }
 
 .services {
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   margin-left: 22%;
+}
+
+.services2 {
+  margin-bottom: 50px;
+  margin-left: 3%;
 }
 
 .auditpages {
@@ -605,23 +610,26 @@ th.imageBlog {
 }
 
 .txt2 {
-  font-size: 19px;
+  font-size: 21px;
   color: black;
 
   margin-top: 5px;
-  width: 90%;
+  width: 100%;
+}
+
+.traffic {
+  margin-left: 10%;
 }
 
 .intro2 {
-  margin-left: 11%;
+  margin-left: 7%;
   background-color: none;
   margin-top: 10px;
   position: relative;
-  width: 70%;
+  width: 85%;
   height: auto;
   display: flex;
   padding: 20px;
-  opacity: 0.95;
 }
 
 .txt3 {
@@ -1589,10 +1597,6 @@ table th {
 
 .center {
   text-align: center;
-}
-
-.traffic {
-  margin-left: 15%;
 }
 
 .linkedin {
