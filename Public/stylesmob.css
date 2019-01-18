@@ -20,8 +20,7 @@
   }
 
   .center {
-    width: 90%;
-    margin-left: 3%;
+    margin-left: 24%;
   }
 
   .map {
@@ -228,6 +227,7 @@
 
   .icon {
     margin-top: 15%;
+    margin-left: 50px;
   }
 
   .intro3 {
@@ -300,9 +300,6 @@
     width: 30%;
     margin-top: 10px;
     margin-bottom: auto;
-    margin-left: 20px;
-    opacity: 1;
-    min-height: auto;
     border: none;
     padding: 5px;
   }
@@ -313,7 +310,7 @@
   }
 
   .logo {
-    left: 10px;
+    left: 4px;
   }
 
   .intro21 {
