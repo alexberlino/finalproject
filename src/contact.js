@@ -37,13 +37,6 @@ class Contact extends Component {
 
           <a href={"/" + this.props.lng + "/contact"}> CONTACT ></a>
         </div>
-        <img
-          src="/auditmainpic/technical.jpg"
-          title="technical, a photo by Markus Spiske"
-          alt="Technical SEO"
-          height="250px"
-          width="100%"
-        />
 
         <ContactMain />
 

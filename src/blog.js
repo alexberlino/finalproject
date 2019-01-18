@@ -47,6 +47,7 @@ class Blog extends Component {
             src="/auditmainpic/technical.jpg"
             title="technical, a photo by Markus Spiske"
             alt="Technical SEO"
+            className="imageAudit"
             height="250px"
             width="100%"
           />

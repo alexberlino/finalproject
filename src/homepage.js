@@ -268,10 +268,6 @@ class Homepage extends Component {
           <div />
 
           <div className="intro3 ">
-            <div>
-              <h2 className="footerlink inline"> {t("clients")}</h2>
-            </div>
-
             <div className="logoQuarter">
               <img
                 className="logo logomustbe"
