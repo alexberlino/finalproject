@@ -630,7 +630,7 @@ th.imageBlog {
 }
 
 .txt3 {
-  font-size: 19px;
+  font-size: 21px;
   margin-left: 12%;
   margin-top: 3px;
   width: 40%;
@@ -1660,7 +1660,15 @@ h2.orange {
 }
 
 .orange2 a {
-  color: #85144b;
+  color: black;
+  font-size: 45px;
+  margin-top: 0px;
+  padding-top: 10px;
+  display: inline;
+}
+
+.orange2 {
+  color: black;
   font-size: 45px;
   margin-top: 0px;
   padding-top: 10px;

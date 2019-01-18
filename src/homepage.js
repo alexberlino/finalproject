@@ -165,10 +165,9 @@ class Homepage extends Component {
                 FULL AUDIT TO EFFICIENTLY PLAN <br />
                 TASKS BY PRIORITY
               </div>
-              <h2 className="traffic orange"> {t("beratung")}</h2>
+              <h2 className="traffic orange2"> {t("beratung")}</h2>
               <p className="txt3">{t("beratungText")}</p>
-              <h2 className="traffic orange">
-                {" "}
+              <h2 className="traffic orange2">
                 <a href="/en/resources">{t("audit")}</a>
               </h2>
               <p className="txt3">
@@ -177,7 +176,7 @@ class Homepage extends Component {
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
               </p>
-              <h2 className="traffic orange">
+              <h2 className="traffic orange2">
                 <a className="" href="/en/onpage">
                   {t("OnPageOptimization")}
                 </a>
@@ -226,7 +225,7 @@ class Homepage extends Component {
                 TO BOOST YOUR TRAFFIC
               </div>
 
-              <h2 className="traffic orange">
+              <h2 className="traffic orange2">
                 <a className="black" href="/en/onpage/keywordresearch">
                   {t("KWResearch")}
                 </a>
@@ -246,7 +245,7 @@ class Homepage extends Component {
 
           <div>
             <div>
-              <h2 className="traffic orange"> {t("blog")}</h2>
+              <h2 className="traffic orange2"> {t("blog")}</h2>
               <div className="blogArticlesHP">
                 {this.state.articles.map(article => (
                   <div className="blogItemHP">
