@@ -68,7 +68,9 @@ class ContactMain extends Component {
     return (
       <div className="contactpage">
         <div className="backgroundBlack xtrapad">
-          <h2 className="blackbgwhite traffic orange">get in touch</h2>
+          <h2 className="blackbgwhite traffic orange">
+            get in <span className="white"> touch </span>
+          </h2>
           <h5 className="blackbgwhite">Kiehlufer D-12059 Berlin</h5>
           <h5 className="blackbgwhite">
             <img alt="telephone" src="/telephone.svg" className="iconphone" />

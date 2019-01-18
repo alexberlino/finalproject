@@ -1633,10 +1633,11 @@ table th {
 }
 
 h2.orange {
-  color: #ff6e00;
+  color: #fd6a02;
   font-size: 45px;
   margin-top: 0px;
   padding-top: 10px;
+  display: inline;
 }
 
 .blackbgwhite {
@@ -1645,5 +1646,13 @@ h2.orange {
 }
 
 .orange a {
-  color: #ff5a09;
+  color: #fd6a02;
+}
+
+h2.white {
+  color: white;
+  font-size: 45px;
+  margin-top: 0px;
+  padding-top: 10px;
+  display: inline;
 }
