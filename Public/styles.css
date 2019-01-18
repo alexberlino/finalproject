@@ -61,7 +61,7 @@ h5 {
   display: block;
   font-family: bariolregular;
   margin-left: 19%;
-  font-size: 28px;
+  font-size: 23px;
 }
 .block2 {
   display: block;
@@ -225,8 +225,8 @@ iframe {
 .map {
   position: relative;
   display: inline-flex;
-  width: 85%;
-  height: 800px;
+  width: 65%;
+  height: 600px;
   margin-bottom: 30px;
 }
 
@@ -567,7 +567,7 @@ section {
   margin-bottom: 1px;
   vertical-align: middle;
   height: 100px;
-  width: auto;
+  width: 200px;
 }
 
 .imageBlog {
