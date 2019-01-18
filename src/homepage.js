@@ -107,7 +107,7 @@ class Homepage extends Component {
             <div className="intro21">
               {" "}
               <div className="serviceQuarter">
-                <h2 className="orange">
+                <h2 className="orange2">
                   <a className="center" href="/en/resources">
                     {" "}
                     seo audit
@@ -122,7 +122,7 @@ class Homepage extends Component {
                 <p className="txt2"> {t("hey7")}</p>
               </div>
               <div className="serviceQuarter">
-                <h2 className="orange">
+                <h2 className="orange2">
                   <a className="center" href="/en/research/analytics">
                     {" "}
                     analytics{" "}
@@ -137,7 +137,7 @@ class Homepage extends Component {
                 <p className="txt2">{t("analytics5")}</p>
               </div>
               <div className="serviceQuarter">
-                <h2 className="orange">
+                <h2 className="orange2">
                   {" "}
                   <a className="center" href="/en/offpage/brandbuilding">
                     {" "}
