@@ -431,6 +431,11 @@ iframe {
   background-color: white;
 }
 
+.xtrapad {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .icons {
   height: 50px;
   width: 50px;
@@ -1104,8 +1109,6 @@ a.linkServices {
 .backgroundBlack {
   width: 100%;
   background-color: black;
-  padding-bottom: 40px;
-  padding-topf: 40px;
 }
 
 .seotxt {

@@ -361,6 +361,11 @@
     color: #ff6e00;
     font-size: 35px;
   }
+
+  .xtrapad  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .intro4 {
     height: auto;
     padding: 30px;

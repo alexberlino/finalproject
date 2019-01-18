@@ -144,7 +144,7 @@ class Homepage extends Component {
             </div>
 
             <div className="seotxt">
-              <div className="backgroundBlack">
+              <div className="backgroundBlack xtrapad">
                 <h2 className="blackbgwhite orange traffic">what is SEO</h2>
                 <p className="blackbgwhite txt3"> {t("whatisSEO")}</p>
               </div>

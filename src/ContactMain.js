@@ -67,7 +67,7 @@ class ContactMain extends Component {
     const { t, i18n } = this.props;
     return (
       <div className="contactpage">
-        <div className="backgroundBlack">
+        <div className="backgroundBlack xtrapad">
           <h2 className="blackbgwhite traffic orange">get in touch</h2>
           <h5 className="blackbgwhite">Kiehlufer D-12059 Berlin</h5>
           <h5 className="blackbgwhite">
