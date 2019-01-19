@@ -17,7 +17,7 @@ class Contact extends Component {
     const { t, i18n } = this.props;
     console.log(this.props.i18n.language);
     return (
-      <div className="maincontact2">
+      <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{t("getintouch_title")}</title>
@@ -32,13 +32,10 @@ class Contact extends Component {
           />{" "}
         </Helmet>
 
-        <div className="breadcrumb">
-          <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-          <a href={"/" + this.props.lng + "/contact"}> CONTACT ></a>
-        </div>
-
         <ContactMain />
+        <a className="servicesHP" href="/en/services">
+          <button className="servicesHP">Services</button>
+        </a>
 
         <iframe
           title="map"

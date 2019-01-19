@@ -67,7 +67,6 @@ class Article extends Component {
       return <NoMatch />;
     }
 
-    console.log(this.state);
     return (
       <div className="main">
         <Helmet>
@@ -85,37 +84,31 @@ class Article extends Component {
             href={"https://www.seoberlino.com/en/article" + this.state.url}
           />
         </Helmet>
-        <div className="main">
+        <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lang}> SEO FREELANCER </a>
+            <a href="/en"> SEO FREELANCER </a>
 
-            <a href={"/" + this.props.lang + "/blog"}> BLOG ></a>
+            <a href="/en/blog"> BLOG </a>
+          </div>
+          <img
+            src={this.state.imageurl}
+            className="imageAudit"
+            alt="blog article"
+          />
+          <div className="infoTitle">
+            <h1>{this.state.title}</h1>
           </div>
 
-          <div className="mainBlog">
-            <div className="articleTitle">
-              <h1>{this.state.title}</h1>
-            </div>
-            <div className="articleAuthor">
-              {"Author:  " + this.state.author}
-            </div>
-            <div className="articleDate">
-              {"Date published:  " + this.state.dat}
-            </div>
-            <div className="articleID">{"#" + this.state.id}</div>
-            <img
-              src={this.state.imageurl}
-              className="articlePic"
-              alt="blog article"
-            />
-            <div
-              className="articleArticle"
-              dangerouslySetInnerHTML={this.createMarkup()}
-            />
-            <div>
-              <LinksToPages className="linkToPages" />
-            </div>
+          <div className="articleAuthor">{"Author:  " + this.state.author}</div>
+          <div className="articleDate">
+            {"Date published:  " + this.state.dat}
           </div>
+          <div className="articleID">{"#" + this.state.id}</div>
+
+          <div
+            className="articleArticle"
+            dangerouslySetInnerHTML={this.createMarkup()}
+          />
         </div>
       </div>
     );

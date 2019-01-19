@@ -754,11 +754,12 @@
     margin-top: 22%;
   }
 
-  .servicesHP {
+  button.servicesHP {
     width: 180px;
     height: 50px;
     border-radius: 18px;
     font-size: 21px;
+    margin-left: 20%;
   }
 
   .float2 {

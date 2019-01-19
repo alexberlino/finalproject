@@ -79,10 +79,10 @@ class Homepage extends Component {
               Grow traffic and visibility. Optimized Keyword Targeting, Brand
               Building. SEO Consultancy, Audit.
             </div>
-            <a className="servicesHP" href="/en/services">
-              <button className="servicesHP">Services</button>
-            </a>
           </div>
+          <a className="servicesHP" href="/en/services">
+            <button className="servicesHP">Services</button>
+          </a>
           <div className="intro" />
           {this.state.show ? (
             <div className="cookienotice">
@@ -162,7 +162,8 @@ class Homepage extends Component {
           <div className="seotxt">
             <div className="intro1">
               <div className="intro4">
-                FULL AUDIT TO EFFICIENTLY PLAN <br />
+                <h2 className="blackbgwhite orange traffic">FULL AUDIT</h2> TO
+                EFFICIENTLY PLAN <br />
                 TASKS BY PRIORITY
               </div>
               <h2 className="traffic orange2"> {t("beratung")}</h2>
@@ -186,11 +187,16 @@ class Homepage extends Component {
                 <a href="/en/onpage" className="block black">
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
+                <a className="servicesHP" href="/en/services">
+                  <button className="servicesHP">Services</button>
+                </a>
               </p>
 
               <div className="backgroundBlack">
                 <div className="blackbgwhite intro4">
-                  SHARABLE CONTENT THAT <br /> MATTERS - BRAND BUILDING{" "}
+                  SHARABLE CONTENT THAT <br />{" "}
+                  <h2 className="blackbgwhite orange traffic">MATTERS </h2> WITH
+                  BRAND BUILDING{" "}
                 </div>
                 <h2 className="traffic orange blackbgwhite">
                   <a className="black" href="/en/offpage">
@@ -209,7 +215,6 @@ class Homepage extends Component {
                     <span className="white"> backlink profile </span> audit
                   </a>{" "}
                 </h2>
-
                 <p className="txt3 blackbgwhite">
                   {t("offpage_main")}{" "}
                   <a
@@ -222,7 +227,8 @@ class Homepage extends Component {
               </div>
               <div className="intro4">
                 OPTIMIZED KEYWORD TARGETING <br />
-                TO BOOST YOUR TRAFFIC
+                <h2 className="blackbgwhite orange traffic"> TO BOOST </h2>
+                YOUR TRAFFIC
               </div>
 
               <h2 className="traffic orange2">
@@ -234,6 +240,10 @@ class Homepage extends Component {
                 {t("KWResearchText")}
                 <a href="/en/onpage/keywordresearch" className="block">
                   <img title="more" className="iconsmore" src="/more.svg" />
+                </a>
+
+                <a className="servicesHP" href="/en/services">
+                  <button className="servicesHP">Services</button>
                 </a>
               </p>
             </div>
