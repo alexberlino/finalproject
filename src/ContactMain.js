@@ -78,48 +78,6 @@ class ContactMain extends Component {
           </h5>
           <h5 className="blackbgwhite">seoberlino@gmail.com</h5>{" "}
         </div>
-        <div className="intro2">
-          <div className="introQuarter">
-            <img alt="monitoring" src="/seo-monitoring.jpg" className="icon" />
-
-            <p className="txt2"> SEO</p>
-            <p className="txt2">Analytics </p>
-            <p className="txt2">{t("intro5")}</p>
-
-            <p className="txt2"> Search Engine Advertising (Google Ads)</p>
-          </div>
-          <div className="introQuarter">
-            <img alt="programming" src="/programming.svg" className="icon" />
-
-            <p className="txt2"> React, Vue, Handlebars</p>
-            <p className="txt2">Javascript, JQuery </p>
-            <p className="txt2">Node, Express</p>
-
-            <p className="txt2"> HTML, CSS</p>
-            <p className="txt2"> SQL, Postgres</p>
-          </div>
-          <div className="introQuarter">
-            <img alt="programming" src="/me.svg" className="icon" />
-
-            <p className="txt2">{t("intro6")}</p>
-            <p className="txt2">{t("intro7")} </p>
-            <p className="txt2">{t("intro8")} </p>
-          </div>
-          <div className="introQuarter ">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/alex-bieth-berlin/"
-            >
-              <img
-                alt="LinkedIn Profile"
-                src="/linkedinprof.png"
-                className="linkedin"
-                height="100px"
-                width="140px"
-              />{" "}
-            </a>
-          </div>{" "}
-        </div>
       </div>
     );
   }

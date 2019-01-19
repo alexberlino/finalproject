@@ -83,6 +83,10 @@ class Homepage extends Component {
           <a className="servicesHP" href="/en/services">
             <button className="servicesHP">Services</button>
           </a>
+
+          <a className="servicesHP2" href="/en/contact">
+            <button className="servicesHP2">About</button>
+          </a>
           <div className="intro" />
           {this.state.show ? (
             <div className="cookienotice">
@@ -189,6 +193,9 @@ class Homepage extends Component {
                 <a className="servicesHP" href="/en/services">
                   <button className="servicesHP">Services</button>
                 </a>
+                <a className="servicesHP2" href="/en/contact">
+                  <button className="servicesHP2">About</button>
+                </a>
               </p>
 
               <div className="backgroundBlack">
@@ -243,6 +250,9 @@ class Homepage extends Component {
 
                 <a className="servicesHP" href="/en/services">
                   <button className="servicesHP">Services</button>
+                </a>
+                <a className="servicesHP2" href="/en/contact">
+                  <button className="servicesHP2">About</button>
                 </a>
               </p>
             </div>

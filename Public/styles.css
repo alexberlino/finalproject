@@ -433,7 +433,7 @@ iframe {
 }
 
 .xtrapad {
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -1030,11 +1030,32 @@ a.linkServices {
   background-color: #85144b;
   color: white;
 }
+.servicesHP2 :hover {
+  background-color: white;
+  color: #85144b;
+}
 
 button.servicesHP {
   color: #85144b;
   background-color: white;
-  margin-top: 50px;
+  position: flex;
+  border: 1px #85144b solid;
+  font-size: 27px;
+  width: 300px;
+  height: 60px;
+  display: block;
+  margin-top: 30px;
+
+  border-radius: 15px;
+  margin-left: 40%;
+}
+
+button.servicesHP2 {
+  color: white;
+  background-color: #85144b;
+  display: block;
+  position: relative;
+  margin-top: 30px;
   border: 1px #85144b solid;
   font-size: 27px;
   width: 300px;
