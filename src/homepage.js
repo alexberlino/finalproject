@@ -163,8 +163,7 @@ class Homepage extends Component {
             <div className="intro1">
               <div className="intro4">
                 <h2 className="blackbgwhite orange traffic">FULL AUDIT</h2> TO
-                EFFICIENTLY PLAN <br />
-                TASKS BY PRIORITY
+                EFFICIENTLY PLAN TASKS BY PRIORITY
               </div>
               <h2 className="traffic orange2"> {t("beratung")}</h2>
               <p className="txt3">{t("beratungText")}</p>
@@ -194,7 +193,7 @@ class Homepage extends Component {
 
               <div className="backgroundBlack">
                 <div className="blackbgwhite intro4">
-                  SHARABLE CONTENT THAT <br />{" "}
+                  SHARABLE CONTENT THAT <br />
                   <h2 className="blackbgwhite orange traffic">MATTERS </h2> WITH
                   BRAND BUILDING{" "}
                 </div>

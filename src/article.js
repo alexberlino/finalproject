@@ -96,7 +96,7 @@ class Article extends Component {
             alt="blog article"
           />
           <div className="infoTitle">
-            <h1>{this.state.title}</h1>
+            <h1 className="h1services">{this.state.title}</h1>
           </div>
 
           <div className="articleAuthor">{"Author:  " + this.state.author}</div>

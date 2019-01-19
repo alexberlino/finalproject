@@ -143,10 +143,9 @@
 
   .imageBlog {
     display: inline;
-    margin-bottom: 1px;
     vertical-align: middle;
-    width: 15%;
     height: 100px;
+    width: 130px;
   }
 
   .logomustbe {
@@ -173,12 +172,14 @@
   .listArticlesBlog {
     font-size: 16px;
     height: auto;
-    width: 28%;
-    margin-bottom: 50px;
+    width: 35%;
     color: black;
     display: inline;
     position: absolute;
+    vertical-align: middle;
+    margin: 0px;
     margin-left: 3%;
+    padding: 9px;
   }
 
   .listArticlesBlogHP {
@@ -197,7 +198,11 @@
     margin-bottom: 20%;
   }
   .blogItem {
-    margin-bottom: 10%;
+    margin-bottom: 10px;
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+    height: auto;
   }
 
   .txthead2 {
@@ -392,6 +397,10 @@
     margin-left: 20px;
     padding-left: 10px;
     text-align: center;
+  }
+
+  .blogArticles {
+    margin-left: 8px;
   }
 
   .blogArticlesHP {
@@ -759,7 +768,7 @@
     height: 50px;
     border-radius: 18px;
     font-size: 21px;
-    margin-left: 20%;
+    margin-left: 23%;
   }
 
   .float2 {

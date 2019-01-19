@@ -37,8 +37,9 @@ class BlogList extends Component {
           {this.state.articles.map(article => (
             <tr className="blogItem">
               <a href={"/" + this.props.lang + "/article/" + article.url}>
-                <th className="imageBlog">
+                <th>
                   <img
+                    className="imageBlog"
                     src={article.imageurl}
                     height="120px"
                     width="160px"

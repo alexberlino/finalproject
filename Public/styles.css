@@ -433,8 +433,8 @@ iframe {
 }
 
 .xtrapad {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 90px;
+  padding-bottom: 80px;
 }
 
 .icons {
@@ -557,7 +557,8 @@ section {
   position: absolute;
   margin-left: 20px;
   height: 100px;
-  vertical-align: middle;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .listArticlesBlogHP a {
@@ -806,7 +807,7 @@ h4 {
 .articleDate {
   display: block;
   position: relative;
-  width: 60%;
+  width: 80%;
   padding: 5px;
   z-index: 0;
   font-size: 16px;
@@ -1576,11 +1577,6 @@ button.servicesHP {
   width: 70%;
   background-color: white;
   text-align: center;
-}
-
-table th {
-  width: 190px;
-  padding: 10px;
 }
 
 .mainrow {
