@@ -28,6 +28,8 @@
 
   .berlin {
     top: 50px;
+    left: 1%;
+    height: 210px;
   }
   .boost {
     font-size: 18px;
@@ -598,7 +600,7 @@
   .introHP {
     margin-left: 10%;
     width: 80%;
-    margin-top: 80%;
+    margin-top: 71%;
     text-align: center;
     padding-top: 30px;
   }
@@ -822,10 +824,28 @@
   .txt2 {
     font-size: 20px;
   }
+  .introHP {
+    margin-top: 257px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .txt2 {
     font-size: 20px;
+  }
+
+  .berlin {
+    top: 50px;
+    left: 1%;
+    height: 470px;
+  }
+
+  button.servicesHP,
+  button.servicesHP2 {
+    margin-left: 35%;
+  }
+
+  .introHP {
+    margin-top: 514px;
   }
 }
