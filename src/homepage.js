@@ -256,7 +256,7 @@ class Homepage extends Component {
               </div>{" "}
             </div>
 
-            <div className="transparent">dsfd </div>
+            <div className="transparent"> </div>
 
             <div className="contactmob">
               <ContactMain />
