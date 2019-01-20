@@ -423,7 +423,8 @@ iframe {
 }
 
 .intro4,
-.intro41 {
+.intro41,
+.intro42 {
   height: auto;
   padding-top: 30px;
   /* color: #ff5a09; */
@@ -432,11 +433,17 @@ iframe {
   width: (100%-60px);
   font-size: 43px;
   margin-bottom: 15px;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 80px;
   padding-left: 60px;
   z-index: 5;
   opacity: 1;
+  margin-top: 0px;
+}
+
+.intro41 {
+  background-color: white;
+  padding-left: 20px;
 }
 
 .xtrapad {
@@ -1177,7 +1184,8 @@ button.servicesHP2 {
   position: relative;
   z-index: 0;
 }
-.sharable {
+.sharable,
+.sharable2 {
   position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -1189,13 +1197,25 @@ button.servicesHP2 {
   overflow: scroll;
   background-color: #85144b;
   z-index: -1;
-
   width: 100%;
   left: 0;
 }
+
+.sharable2 {
+  min-height: 150px;
+  max-height: 250px;
+  margin-bottom: 0px;
+  top: 100px;
+  overflow: scroll;
+  background-color: inherit;
+  z-index: -2;
+  width: 96%;
+}
+
 .backgroundBlack:after,
 .sharable:after,
-.intro4:after {
+.intro4:after,
+.intro41:after {
   content: "";
   background-image: url("/computer.jpg");
   opacity: 0.1;
@@ -1748,6 +1768,7 @@ h2.orange {
   margin-top: 0px;
   padding-top: 10px;
   display: inline;
+  z-index: 3;
 }
 
 .orange2 {

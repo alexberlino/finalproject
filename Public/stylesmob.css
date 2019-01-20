@@ -398,6 +398,8 @@
 
   .intro4 {
     height: auto;
+    width: (100%-80px;);
+    padding-left: 13px;
 
     font-size: 28px;
   }

@@ -231,19 +231,19 @@ class Homepage extends Component {
                 </div>
 
                 <div className="othercontentHP">
-                  <div className="intro4">
+                  <div className="intro4 sharable2">
                     OPTIMIZED KEYWORD TARGETING <br />
                     <h2 className="blackbgwhite orange traffic"> TO BOOST </h2>
                     YOUR TRAFFIC
                   </div>
 
-                  <h2 className="traffic orange2">
-                    <a className="black" href="/en/onpage/keywordresearch">
-                      {t("KWResearch")}
-                    </a>
-                  </h2>
-                  <p className="txt3">
-                    {t("KWResearchText")}
+                  <div className="intro41">
+                    <h2 className="orange2">
+                      <a className="" href="/en/onpage/keywordresearch">
+                        {t("KWResearch")}
+                      </a>
+                    </h2>
+                    <p className="txt3">{t("KWResearchText")}</p>
 
                     <a className="servicesHP" href="/en/services">
                       <button className="servicesHP">Services</button>
@@ -251,9 +251,9 @@ class Homepage extends Component {
                     <a className="servicesHP2" href="/en/contact">
                       <button className="servicesHP2">About</button>
                     </a>
-                  </p>
+                  </div>
                 </div>
-              </div>{" "}
+              </div>
             </div>
 
             <div className="transparent"> </div>
