@@ -137,13 +137,14 @@ textarea.blogArticleInput {
   position: fixed;
   text-align: center;
   color: white;
-  top: 0px;
+  top: 60px;
   left: 0px;
-  z-index: 3000;
+  z-index: 21474847;
   font-size: 20px;
   width: 100%;
-  height: 190px;
-  background-color: rgba(100, 100, 100, 0.8);
+  height: 290px;
+  background-color: black;
+  opacity: 0.8;
 }
 input.blogedit {
   font-size: 19px;

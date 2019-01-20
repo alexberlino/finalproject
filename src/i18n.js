@@ -38,7 +38,7 @@ i18n.use(LanguageDetector).init({
         intro8: `Over 1 year experience working as a freelancer`,
         intro9: ` Full/Specific Audit with Executive Summary`,
         cookie1: `This website uses very basic and generic cookies.`,
-        cookie2: `You can read about which cookies are used`,
+        cookie2: `You can read about them`,
         cookie3: `or accept to continue.`,
         cookie4: `Accept`,
         cookie5: `Read`,
