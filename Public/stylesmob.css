@@ -395,6 +395,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
   .intro4 {
     height: auto;
 
@@ -449,14 +450,18 @@
     width: 70%;
   }
 
-  .h1services {
+  .h1services,
+  .h1services2 {
     width: 90%;
-
     padding: 12px;
     font-size: 30px;
     text-indent: 10px;
     color: black;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .h1services2 {
+    top: 40px;
   }
 
   .serviceImage {

@@ -39,9 +39,8 @@ class Services extends Component {
 
             <a href={"/" + this.props.lng + "/services"}> SERVICES </a>
           </div>
-          <img src="/homepage.jpg" alt="SEO Services" className="imageAudit" />
           <div className="infoTitle">
-            <h1 className="h1services">SEO Services</h1>
+            <h1 className="h1services2">SEO Services</h1>
           </div>
           <div className="intro20">
             <div className="introQuarter">

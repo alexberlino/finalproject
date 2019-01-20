@@ -1609,7 +1609,8 @@ button.servicesHP2 {
   width: 70%;
 }
 
-.h1services {
+.h1services,
+.h1services2 {
   color: black;
   position: relative;
   width: 100%;
@@ -1618,6 +1619,10 @@ button.servicesHP2 {
   display: block;
   z-index: 1;
   opacity: 1;
+}
+
+.h1services2 {
+  top: 30px;
 }
 
 .serviceImage {
@@ -1725,6 +1730,10 @@ h2.orange {
 .blackbgwhite {
   background-color: inherit;
   color: white;
+}
+
+.big {
+  font-size: 28px;
 }
 
 .orange a {

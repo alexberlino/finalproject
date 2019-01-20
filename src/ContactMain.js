@@ -71,12 +71,12 @@ class ContactMain extends Component {
           <h2 className="blackbgwhite traffic orange">
             get in <span className="white"> touch </span>
           </h2>
-          <h5 className="blackbgwhite">Kiehlufer D-12059 Berlin</h5>
           <h5 className="blackbgwhite">
             <img alt="telephone" src="/telephone.svg" className="iconphone" />
             015 787 011 932
           </h5>
-          <h5 className="blackbgwhite">seoberlino@gmail.com</h5>{" "}
+          <h5 className="blackbgwhite big">seoberlino@gmail.com</h5>{" "}
+          <h5 className="blackbgwhite">Kiehlufer D-12059 Berlin</h5>
         </div>
       </div>
     );

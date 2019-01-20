@@ -41,18 +41,10 @@ class Blog extends Component {
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER </a>
 
-            <a href={"/" + this.props.lng + "/blog"}> BLOG ></a>
+            <a href={"#"}> BLOG </a>
           </div>
-          <img
-            src="/homepage.jpg"
-            title="technical, a photo by Markus Spiske"
-            alt="Technical SEO"
-            className="imageAudit"
-            height="250px"
-            width="100%"
-          />
           <div className="infoTitle">
-            <h1 className="h1services">SEO Blog</h1>
+            <h1 className="h1services2">SEO Blog</h1>
           </div>{" "}
           <BlogList lang={this.props.lang} pageChange={this.changePage} />
         </div>{" "}
