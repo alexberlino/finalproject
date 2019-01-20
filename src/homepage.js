@@ -201,14 +201,16 @@ class Homepage extends Component {
                   </a>
                 </p>
 
-                <div className="backgroundBlack sharable">
+                <div className="backgroundBlack2 sharable">
                   <div className="blackbgwhite intro4 ">
                     SHARABLE CONTENT THAT <br />
                     <h2 className="blackbgwhite orange traffic">
                       MATTERS{" "}
                     </h2>{" "}
                     WITH BRAND BUILDING{" "}
-                  </div>
+                  </div>{" "}
+                </div>
+                <div className="backgroundBlack ">
                   <h2 className="traffic orange blackbgwhite">
                     <a className="black" href="/en/offpage">
                       off-page
@@ -225,11 +227,6 @@ class Homepage extends Component {
                     </a>{" "}
                   </h2>
                   <p className="txt3 blackbgwhite">{t("offpage_main")} </p>
-                  <br /> <br />
-                  <br /> <br />
-                  <br />
-                  <br />
-                  <br />
                   <br /> <br />
                 </div>
 

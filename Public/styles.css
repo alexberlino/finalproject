@@ -425,7 +425,6 @@ iframe {
   position: relative;
   width: 80%;
   font-size: 43px;
-  margin-top: 30px;
   margin-bottom: 15px;
   z-index: 5;
   opacity: 1;
@@ -643,7 +642,6 @@ th.imageBlog {
 .txt3 {
   font-size: 21px;
   margin-left: 12%;
-  margin-top: 3px;
   width: 80%;
 }
 
@@ -977,7 +975,7 @@ a.linkServices {
   position: fixed;
   top: 0px;
   height: auto;
-  width: 100%;
+  width: 99%;
   left: 0;
 }
 .othercontentHP {
@@ -1018,7 +1016,7 @@ a.linkServices {
   color: #001f3f;
   position: relative;
   background-color: white;
-  margin-top: 17%;
+  margin-top: 350px;
   width: 90%;
   margin-left: 0px;
   border: white 0px solid;
@@ -1115,7 +1113,6 @@ button.servicesHP2 {
 .seotxt {
   padding-bottom: 20px;
   padding-top: 20px;
-  margin-top: 20px;
   position: relative;
   display: inline;
 }
@@ -1157,6 +1154,16 @@ button.servicesHP2 {
   display: block;
   position: relative;
   z-index: 10;
+  height: auto;
+  z-index: 3;
+}
+.backgroundBlack2 {
+  width: 100%;
+  background-color: #85144b;
+  display: block;
+  height: auto;
+  position: relative;
+  z-index: 0;
 }
 .sharable {
   position: sticky;
@@ -1164,15 +1171,18 @@ button.servicesHP2 {
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
-  min-height: 0px;
+  min-height: 270px;
   max-height: 500px;
+  top: 100px;
   overflow: scroll;
+  background-color: #85144b;
   z-index: 0;
-  top: 50px;
+
   width: 100%;
   left: 0;
 }
-.backgroundBlack::after {
+.backgroundBlack:after,
+.sharable:after {
   content: "";
   background-image: url("/computer.jpg");
   opacity: 0.1;
