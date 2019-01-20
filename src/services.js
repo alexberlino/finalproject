@@ -45,6 +45,7 @@ class Services extends Component {
           <div className="intro20">
             <div className="introQuarter">
               {" "}
+              <div className="transparent"> </div>
               <h2>Mini-Audit (16-22 hours*)</h2>
               <p className="txt2"> Executive Summary</p>
               <p className="txt2"> Keyword Research</p>
@@ -58,6 +59,8 @@ class Services extends Component {
               <p className="txt2"> Competitor Analysis (1 main competitor)</p>
             </div>
             <div className="introQuarter">
+              <div className="transparent"> </div>
+
               <h2>Full Audit (30-40 hours*)</h2>
               <p className="txt2"> Executive Summary</p>
 
@@ -82,7 +85,7 @@ class Services extends Component {
             </div>
 
             <div className="introQuarter">
-              {" "}
+              <div className="transparent"> </div>{" "}
               <h2>Website Crawl (4-8 hours*)</h2>
               <p className="txt2"> Executive Summary</p>
               <p className="txt2">
@@ -98,6 +101,8 @@ class Services extends Component {
             </div>
 
             <div className="introQuarter">
+              <div className="transparent"> </div>
+
               <h2>Ad-hoc</h2>
               <p className="txt2">
                 Keywords for content creation, extra traffic (including
