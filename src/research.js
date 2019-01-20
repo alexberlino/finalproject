@@ -76,31 +76,9 @@ class Technical extends Component {
                   {t("analyticsHP6")}
                 </a>
               </div>
-              <p>
-                {" "}
-                If you have a local business, like a shop, or have people
-                visiting your office frequently, optimizing your website is also
-                about making sure people are able to find you in real life. But
-                even if your not actively getting visitors in your building, but
-                are targeting an audience that is located in the same
-                geographical area as you are, you need to optimize for that
-                area. This is what we call “local SEO.”
-              </p>
-              <p>
-                Web analytics is the measurement, collection, analysis and
-                reporting of web data for purposes of understanding and
-                optimizing web usage. ... Web analytics provides information
-                about the number of visitors to a website and the number of page
-                views.
-              </p>
-              <p>
-                The basics of search engine advertising. Search engine
-                advertising (SEA) is a branch of search engine marketing (SEM).
-                While search engine optimization (SEO) centers on improving
-                accessibility with the use of keywords, SEA places the paid
-                advert directly into the search engine results and on partner
-                websites.
-              </p>
+              <p>{t("researchHP1")}</p>
+              <p>{t("researchHP2")}</p>
+              <p>{t("researchHP3")}</p>
             </div>{" "}
           </div>
         </div>

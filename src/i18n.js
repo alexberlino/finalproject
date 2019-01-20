@@ -14,7 +14,7 @@ i18n.use(LanguageDetector).init({
         hey6: `Analytics Expertise`,
         hey7: `Competitor Analysis`,
         hey8: `Off-Page Audit`,
-        whatisSEO: `        Search engine optimization is the term used to describe the
+        whatisSEO: `Search engine optimization is the term used to describe the
                 processes to optimize a website for search engines. SEO is
                 important for getting high quality visitors from search which
                 are searching what the website has to offer. Given how the
@@ -106,6 +106,24 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         link building through brand awareness. To do so it is necessary to identify
         topic related to your topic which bring traffic, your influencers, blogs and other websites
         with whom you share common grounds.`,
+        researchHP1: `    If you have a local business, like a shop, or have people
+            visiting your office frequently, optimizing your website is also
+            about making sure people are able to find you in real life. But
+            even if your not actively getting visitors in your building, but
+            are targeting an audience that is located in the same
+            geographical area as you are, you need to optimize for that
+            area. This is what we call “local SEO.”`,
+        researchHP2: `    Web analytics is the measurement, collection, analysis and
+                reporting of web data for purposes of understanding and
+                optimizing web usage. ... Web analytics provides information
+                about the number of visitors to a website and the number of page
+                views.`,
+        researchHP3: `The basics of search engine advertising. Search engine
+                advertising (SEA) is a branch of search engine marketing (SEM).
+                While search engine optimization (SEO) centers on improving
+                accessibility with the use of keywords, SEA places the paid
+                advert directly into the search engine results and on partner
+                websites.`,
         getintouch_title: `SEO Freelancer in Berlin -  Get in touch | SEO Berlino`,
         blog: `blog`,
         bloglatest: `Latest posts`,
@@ -129,7 +147,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         offpageHP2: `backlink profile`,
         offpageHP3: `brand building`,
         offpageHP4: `influencers`,
-        offpageHP5: `toxic links`,
+        offpageHP5: `links to avoid`,
         technicalHP1: `indexation`,
         technicalHP2: `crawlability`,
         technicalHP3: `internationalisation`,
@@ -215,7 +233,7 @@ Prioritised Action plan with:
             written or not interesting.`,
         technicalintro: `    Technical SEO refers to website and server optimizations that
                 help search engine spiders crawl and index your site more
-                effectively (to help improve organic rankings).`,
+                effectively to help improve organic rankings.`,
         technicalintro2: `Search engines give preferential treatment in search results to
                 websites that display certain technical characteristics:
                 a secure connection, a responsive design or a fast
@@ -229,28 +247,20 @@ Prioritised Action plan with:
         preference in rankings to websites using secure HTTPS over non-secure ones;
         this can be simply done by installing an SSL certificate on
         your website. `,
-        technicalintro4: `  Crazy but it happens: Make sure you are not unintentionally
+        technicalintro4: `Make sure you are not unintentionally
           blocking crawlers from indexing your website.`,
         technicalintro5: `Speed your site up. Search engines prefer sites that load
         quickly: page speed is considered an important ranking signal.`,
         technicalintro6: `Create an XML sitemap. An XML sitemap is a file that helps
-        search engines to understand your website whilst crawling it –
-        you can think of it as being like a ‘search roadmap’ of sorts,
-        telling search engines exactly where each page is. `,
+        search engines to understand your website whilst crawling it `,
         technicalintro7: ` Consider enabling AMP. AMP is a Google-backed project which
           aims to speed up the delivery of content on mobile devices
           through the use of special code known as AMP HTML. AMP
           versions of your web pages load extremely quickly on mobile
-          devices. They do this by stripping your content and code down
-          to the bare bones, leaving text, images and video intact but
-          disabling scripts, comments and forms. Because they load so
-          fast, AMP versions of pages are far more likely to be read and
-          shared by your users, increasing dwell time and the number of
-          backlinks pointing to your content – all good things from an
-          SEO point of view. On top of that, Google sometimes highlights
+          devices. Google sometimes highlights
           AMP pages in prominent carousels in search results – giving
-          you an important search bump.`,
-        technicalintro8: `      Add structured data markup to your website. Structured data
+          them an important search advantage.`,
+        technicalintro8: ` Add structured data markup to your website. Structured data
               markup is code which you add to your website to help search
               engines better understand the content on it. This data can
               help search engines index your site more effectively and
@@ -259,18 +269,103 @@ Prioritised Action plan with:
         Webmaster Tools. Google Search Console and Bing Webmaster
         Tools are free tools from Google and Microsoft respectively
         that allow you to submit your website to their search engines
-        for indexing. When you are ready to launch your website, you
-        should submit its XML sitemap (see above) to both Google
-        Search Console and Webmaster Tools so that they can crawl your
-        new site and start to display results from it in search
-        results. These services also allow you to keep an eye on the
+        for indexing. These services  allow you to keep an eye on the
         general performance of your site from a search engine
-        prospective - other things you can do with the tools include:
-        testing your site’s mobile usability accessing search
-        analytics viewing backlinks to your site disavowing spammy
-        links and much more besides. Technical SEO Resources You may
-        find the below resources helpful for learning more about
-        technical SEO`
+        prospective.`,
+        offpageMP: `   Offpage SEO refers to techniques that can be used to improve the position of a website in the search engine results page (SERPs).  OffPage SEO has to do with promotion methods with the aim to get higher rankings  in the SERPs. Unlike On-page SEO, Off-page SEO refers to activities which are performed outside the boundaries of the website. The most important are: Link Building, Social Media Marketing and Social bookmarking.`,
+        offpageMP2: `Off page SEO gives search engines an indication on how other websites and users perceive the particular website. A website that is high quality and useful is more likely to have references (links) from other websites; more mentions on social media and it is more likely to be bookmarked and shared.`,
+        offpageMP3: `Link building is the most popular and effective off-Page SEO method. By building external links to your website, your trying to gather votes of confidence from other relevant websites. Old methods which now do not work: blog directories, forum signatures, comment links, link exchange, Reality is quality of links than the number. To get quality links the best is to understand what content you can produce that will add value to potential customers and to influencers and then bring it to them:  `,
+        offpageMP4: `Social Media is part of offpage SEO and a form of backlinking which could bring you traffic and recognition. Although most of the links from social media are nofollow they still have value. Social Media mentions are gaining ground as ranking factors and proper configuration of social media profiles can also boost SEO.`,
+
+        offpageMP5: `Social bookmarking is not as popular as it used to be in the past but it is still a good way to get traffic to your website. Depending on your niche you can find web sites like reddit.com, stumbleupon.com, scoop.it and delicious.com (to name a few) to promote your content.`,
+        BLanalysistitle: ``,
+        linkstoavoidtitle: `links to avoid`,
+        linkstoavoid1: `    Many think the more links, the better but it doesn't actually work
+    that way. Too many low quality and/or spammy links and your website
+    will lose "Google credibility" and therefore visibility.`,
+        linkstoavoid2: `Since a few years already, you as website owner are responsible for
+the backlinks pointing to your site, so you need to constantly
+monitor, identify bad links and clean up your backlink profile.
+First step using the disavow tool then to try pro-actively to remove
+them.`,
+        linkstoavoid3: `Getting a backlink that appears on every page of a site is rarely a
+good idea especially if it not set as nofollow. First the position
+of the link on the page is a key factor so if your link is in the
+footer its positioning is all but optimal. Second, your numerous
+backlinks will in fact count as only one and its value will be
+minimal if negative.        Other type of links to avoid: links from unrelated websites, from sites of different
+        languages and/or countries and from websites flagged as spammy`,
+        linkstoavoid4: `Once you have identified those toxic links, the best is first to use
+the Google disavow tool to inform Google you are aware of them and want to bring them to
+Google's attention. Please note that you need to be connected to the
+website's search console account in order to log into the tool.
+Google then advises you to actively get in touch with the respective
+webmasters and ask them to remove them.`,
+        brandbuilding1: `Your links represent your reputation and relevancy in your domain.
+Linkbuilding now goes hand in hand with brand building. As you
+increased the "digital signs of recognition" aka links, you are also
+building visibility of your brand. The best links are those which
+are where your potential customers are browsing the web or looking
+for companies such as yours. If these backlinks bring you quality
+traffic that means it is indeed in the right place and brings value
+to your online reputation (aka domain / page authority)`,
+        brandbuilding2: `After doing an audit of your link profile and of your main SEO
+competitors, a plan is needed to proactively develop your link
+building profile. This is on one hand a never ending job and on the
+other the new quality links need to be coming in at regular
+intervals.`,
+        brandbuilding3: `An important part in brand building is searching and finding the
+influencers sources and websites where your potential users visit
+when investigation or potentially deciding on which company to use.`,
+        brandbuilding4: `Looking at what the content your relevant influencers share, you can
+get some inspiration on the content you need to start producing.
+Also you need to identify parallel search terms and topics with
+significant search volume, which are not yet on your Keyword list.`,
+        BLanalysis1: `During a Backlink Profile Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
+of competitors to understand where you stand. Then a brainstorm can be done on link
+targets and content production. Finally work can be prioritised depending on
+potential and complexity,  setting targets: quantity and quality links
+for the next quarters focusing on brandbuilding`,
+        BLanalysis2: ` Like it has been the case since over 20 years, backlinks are key to SEO
+ success and still define the reputation and popularity of your
+ brand on the web. However, backlinks do not work like 20 years
+ ago, and far from it. It is now much more about quality of the
+ links and relevancy. It is crucial to understand where you stand,
+ plan, execute and control your backlink activities.
+`,
+        BLanalysis3: `Getting many backlinks from any website, paying links off from
+unrelated websites, or websites operating from a different country
+or with a different language are some example of wasted efforts.
+Most importantly, if the website which is linking to you has a
+poor reputation itself its value will be only minimum; worse if it
+is considered a spammy website, the link might even lower your
+website's reputation.`,
+        BLanalysis4: `  Getting a link from a reputable and relevant (to your industry)
+  website is a great achievement. However keep in mind the actual
+  page the link is appearing on is the real deal. If the page itself
+  has little exposure, little number of internal links and/or
+  traffic, its impact will not be as positive as if it was on the
+  homepage for example. On the contrary, if it appears in every page
+  of the site, this might seen as spammy backlinking so avoid that
+  extreme as well.`,
+        BLanalysis5: `  It is very important and useful to look at your successful
+  competitors to analyse: how they get their (high quality) links,
+  the domain authority and quality of their backlink profile, ratio
+  follow/nofollow, anchor text, ratio quality links, number &
+  quality of referring domains`,
+        BLanalysis6: ` Needs to be as natural as possible, avoiding "click here" or other misleading
+ text. Very often the brand name is the most used anchor text. Make
+ sure the ratio of nofollow links is not too high. nofollow means
+ that the website linking does not want to "commit" the link as
+ sign a trust and therefore pass link juice (authority). It is
+ totally acceptable to have a certain percentage of nofollow links
+ but if this ration gets to high, this is sign that your website is
+ not trusted.{" "}`,
+        BLanalysis7: `".gov" and ".edu" sites have by essence a lot more trust and power
+  as ".com" for instance. If you have the opportunity to get a link
+  from such sites and it makes sense to your business - bringing in
+  at the same time quality & relevant traffic - this link will very
+  likely be beneficial.`
       }
     }, //en
 
@@ -333,7 +428,7 @@ Prioritised Action plan with:
         offpageHP2: `Backlink Analyse,`,
         offpageHP3: `Markenbildung Chancen,`,
         offpageHP4: `Influencers Forschung,`,
-        offpageHP5: `Toxic Links Cleaning`,
+        offpageHP5: `Links`,
         technicalHP1: `Indexierung, redirects und urls`,
         technicalHP2: `Crawlfähigkeit, robots.txt, Sitemaps`,
         technicalHP3: `Internationalisierung,`,
@@ -385,20 +480,21 @@ Prioritised Action plan with:
         onpageSEO1: `Wichtiger erster Schritt: Bei der Keyword-Recherche wird ermittelt, wie Ihre Zielnutzer nach Ihrem Produkt oder Ihrer Dienstleistung suchen.`,
         onpageSEO2: `Dies muss vor Beginn der Arbeit auf der Seite geschehen. Competitor Analysis hilft, die Recherche zu erweitern und sicherzustellen, dass kein wichtiges Keyword ausgelassen wird. Obwohl Google seit Hummingbird eher semantisch vorgegangen ist, um den Inhalt der Website zu bewerten, und sich auf die Sprachsuche und Entitäten konzentriert hat, ist die Kenntnis Ihrer wichtigen Keywords bei der Strukturierung von Inhalten und Metadaten immer noch wichtig. Alex Bieth wird dann eine Überprüfung Ihrer Website vornehmen, um den Inhalt für jede wichtige Zielseite, Website-Struktur, Metadaten und Bilder zu überprüfen. Weitere wichtige Überprüfungen betreffen die strukturierte Datenimplementierung und andere technische Aspekte.`,
 
-        offpage_main: `1. Auditing your backlink profile (number and quality of current
-                        backlinks) 2. Checking on how competitors get (quality) backlinks
-                        and find any opportunities. 3. Taking into account the specificity of
-                        the industry and the local aspect, will suggest creative
-                        opportunities to get backlinks 4. Suggesting an action plan to boost
-                        your backlink profile What we can do for you About Backlinks
-                        Backlinks still play an important role in SEO and can help your
-                        website get more visibility. Backlinks are for Google a sign of
-                        trust from a website to another. The more (quality) backlinks you
-                        get pointing your site, the more popular will your website be rated.
-                        Of course many factors come into play: -timing of new backlinks
-                        -quality of the website pointing the link to yours. These aspects
-                        are critical in how to positively improve your backlink profile and
-                        boost your Domain Authority.`,
+        offpage_main: `
+Backlinks spielen im SEO eine wichtige Rolle und können Ihrer Webseite zu mehr Visibility verhelfen. Google wertet sie als Zeichen des Vertrauens von einer Website zur anderen. Je mehr solche (qualitativ hochwertige) Backlinks auf Ihre Seite verweisen, als desto beliebter wird Ihre Webseite eingestuft. Natürlich spielen hierbei viele Faktoren eine Rolle:
+-Timing der neuen Backlinks
+-Qualität der Webseite, die auf Ihre Seite verweist
+-Qualität der Seite mit dem Link, innerhalb der verweisenden Webseite
+
+Diese Aspekte sind entscheidend um Ihr Backlink Profil zu verbessern und Ihre Domainpopularität anzukurbeln.
+
+Wie es geht:
+Priorisierter Aktionsplan mit:
+
+1. Backlink Profil Audit (Anzahl und Qualität der aktuellen backlinks)
+2. Untersuchung wie Konkurrenten (quality) Backlinks erzielen und Erkennen von Möglichkeiten für die eigene Webseite
+3. Berücksichtigung branchenspezifischer und lokaler Besonderheiten, Vorschläge für kreative Möglichkeiten zur Erzielung von Backlink
+4. Vorschläge für Inhaltserstellung zu bestimmten Themen, basiert auf Suchvolumen und Wettbewerbsschwierigkeiten`,
         offpage_intro: `Backlinks sind für Google ein Vertrauensbeweis von einer Website zu einer anderen.
                                 Je mehr (Qualitäts-) Backlinks Sie erhalten, desto mehr zeigen Sie Ihre Website an
                                 beliebt wird Ihre Website bewertet.`,
@@ -424,7 +520,22 @@ Prioritised Action plan with:
                 and the order they show these pages in the search results. SEO
                 is the way to ‘speak’ to search engines in a language they can
                 understand and give them as much information about your website
-                as possible.`
+                as possible.`,
+        BLanalysistitle: ``,
+        brandbuildingtitle: ``,
+        linkstoavoidtitle: ``,
+        linkstoavoid1: ``,
+        linkstoavoid2: ``,
+        linkstoavoid3: ``,
+        linkstoavoid4: ``,
+        brandbuilding1: ``,
+        brandbuilding2: ``,
+        brandbuilding3: ``,
+        brandbuilding4: ``,
+        BLanalysis1: ``,
+        BLanalysis2: ``,
+        BLanalysis3: ``,
+        BLanalysis4: ``
       }
     }, //de
 
@@ -487,7 +598,7 @@ L'analyse des mots clés est une partie très importante du référencement. Une
         onpageHP1: `Recherche de mots clés`,
         offpageHP3: `opportunités de brand building`,
         offpageHP4: `recherche influencers`,
-        offpageHP5: `toxic links`,
+        offpageHP5: `liens`,
         onpageHP2: `optimisation landing page`,
         onpageHP3: `liens internees et architecture du site,`,
         onpageHP4: `meta tags & headings,`,

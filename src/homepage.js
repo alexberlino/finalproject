@@ -75,8 +75,9 @@ class Homepage extends Component {
               <h1 className="h1hp">{t("intro1")}</h1>
               <br /> <br />
               <div className="h2hp">
-                Grow traffic and visibility. Optimized Keyword Targeting, Brand
-                Building. SEO Consultancy, Audit.
+                Grow traffic and visibility. <br />
+                Optimized Keyword Targeting, Brand Building. <br />
+                SEO Consultancy, Audit.
               </div>
             </div>
             <a className="servicesHP" href="/en/services">
