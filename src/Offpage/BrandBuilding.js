@@ -40,13 +40,13 @@ class BrandBuilding extends Component {
           />
           <h1 className="h1services">Brand building</h1>
           <div className="serviceTitle"> Why it's Important</div>
-          <div className="serviceText">{t("brandbuilding1")}</div>
+          <div className="serviceText">{t("brandbuildingMP1")}</div>
           <h2 className="serviceTitle"> Plan to get links</h2>
-          <div className="serviceText">{t("brandbuilding2")}</div>
+          <div className="serviceText">{t("brandbuildingMP2")}</div>
           <h2 className="serviceTitle"> Influencers</h2>
-          <div className="serviceText">{t("brandbuilding3")}</div>
+          <div className="serviceText">{t("brandbuildingMP3")}</div>
           <h2 className="serviceTitle"> Content Creation, but not any</h2>
-          <div className="serviceText">{t("brandbuilding4")}</div>
+          <div className="serviceText">{t("brandbuildingMP4")}</div>
           <h2 className="serviceTitle"> more reading</h2>
           <div className="serviceText">
             <a

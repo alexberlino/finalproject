@@ -301,7 +301,7 @@ Google's attention. Please note that you need to be connected to the
 website's search console account in order to log into the tool.
 Google then advises you to actively get in touch with the respective
 webmasters and ask them to remove them.`,
-        brandbuilding1: `Your links represent your reputation and relevancy in your domain.
+        brandbuildingMP1: `Your links represent your reputation and relevancy in your domain.
 Linkbuilding now goes hand in hand with brand building. As you
 increased the "digital signs of recognition" aka links, you are also
 building visibility of your brand. The best links are those which
@@ -309,15 +309,15 @@ are where your potential customers are browsing the web or looking
 for companies such as yours. If these backlinks bring you quality
 traffic that means it is indeed in the right place and brings value
 to your online reputation (aka domain / page authority)`,
-        brandbuilding2: `After doing an audit of your link profile and of your main SEO
+        brandbuildingMP2: `After doing an audit of your link profile and of your main SEO
 competitors, a plan is needed to proactively develop your link
 building profile. This is on one hand a never ending job and on the
 other the new quality links need to be coming in at regular
 intervals.`,
-        brandbuilding3: `An important part in brand building is searching and finding the
+        brandbuildingMP3: `An important part in brand building is searching and finding the
 influencers sources and websites where your potential users visit
 when investigation or potentially deciding on which company to use.`,
-        brandbuilding4: `Looking at what the content your relevant influencers share, you can
+        brandbuildingMP4: `Looking at what the content your relevant influencers share, you can
 get some inspiration on the content you need to start producing.
 Also you need to identify parallel search terms and topics with
 significant search volume, which are not yet on your Keyword list.`,
