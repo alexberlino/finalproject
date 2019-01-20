@@ -203,11 +203,11 @@ class Homepage extends Component {
 
                 <div className="backgroundBlack2 sharable">
                   <div className="blackbgwhite intro4 ">
-                    SHARABLE CONTENT THAT <br />
+                    CREATE SHARABLE CONTENT THAT <br />
                     <h2 className="blackbgwhite orange traffic">
-                      MATTERS{" "}
+                      MATTERS -
                     </h2>{" "}
-                    WITH BRAND BUILDING{" "}
+                    AND BUILD BRAND AWARENESS <br /> <br />
                   </div>{" "}
                 </div>
                 <div className="backgroundBlack ">

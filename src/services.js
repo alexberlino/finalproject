@@ -113,7 +113,7 @@ class Services extends Component {
             </div>
           </div>{" "}
           <a className="servicesHP2" href="/en/contact">
-            <button className="servicesHP2">Get in toucb</button>
+            <button className="servicesHP2">Get in touch</button>
           </a>
           <p className="marginright">* depending on size of the website </p>
         </div>

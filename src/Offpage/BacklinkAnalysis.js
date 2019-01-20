@@ -43,7 +43,9 @@ class BacklinkAnalysis extends Component {
             className="imageAudit"
           />
 
-          <h1 className="h1services"> Backlink Profile Audit</h1>
+          <div className="infoTitle">
+            <h1 className="h1services"> Backlink Profile Audit</h1>
+          </div>
           <div>
             <div className="serviceText">
               <p>
