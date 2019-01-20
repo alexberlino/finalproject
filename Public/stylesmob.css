@@ -27,15 +27,27 @@
   }
 
   .berlin {
-    top: 50px;
-    left: 1%;
-    height: 210px;
+    top: 90px;
+    height: 170px;
   }
   .boost {
     font-size: 18px;
     top: 100px;
     width: 90%;
     margin-left: 30px;
+  }
+  .whatisseo {
+    position: sticky;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    top: -20px;
+    left: 0;
+    overflow: scroll;
+  }
+
+  .sharable {
+    overflow: scroll;
   }
 
   .marginright {
@@ -64,11 +76,11 @@
 
   p.txt3 {
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 5px;
     width: 80%;
     margin-left: 4%;
     margin-right: 4%;
-    padding: 10px;
+    padding: 5px;
   }
 
   .breadcrumb {
@@ -374,15 +386,15 @@
 
   h2.orange {
     color: #ff6e00;
-    font-size: 35px;
+    font-size: 32px;
   }
 
   h2.orange2 a {
-    font-size: 35px;
+    font-size: 32px;
   }
 
   .orange2 {
-    font-size: 35px;
+    font-size: 32px;
   }
 
   .xtrapad  {
@@ -393,7 +405,7 @@
     height: auto;
     padding: 20px;
     width: 70%;
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 10px;
     margin-top: 30px;
     margin-left: 20px;
@@ -413,6 +425,10 @@
     width: 90%;
     padding-bottom: 20px;
     margin-bottom: 10px;
+  }
+
+  .block {
+    padding-top: 3px;
   }
 
   .rightServices {
@@ -600,7 +616,7 @@
   .introHP {
     margin-left: 10%;
     width: 80%;
-    margin-top: 71%;
+    margin-top: 78%;
     text-align: center;
     padding-top: 30px;
   }
@@ -835,9 +851,8 @@
   }
 
   .berlin {
-    top: 50px;
-    left: 1%;
-    height: 470px;
+    top: 130px;
+    height: 370px;
   }
 
   button.servicesHP,

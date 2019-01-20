@@ -18,7 +18,7 @@ i18n.use(LanguageDetector).init({
                 processes to optimize a website for search engines. SEO is
                 important for getting high quality visitors from search which
                 are searching what the website has to offer. Given how the
-                algotiths have evolved these last years, there is also much
+                algorithms have evolved these last years, there is also much
                 focus on user-friendliness of the website to increase its
                 credibility and "respect" from search engines such as Google,
                 Bing and Yandex. Search engines use more and more complex
@@ -106,7 +106,6 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         link building through brand awareness. To do so it is necessary to identify
         topic related to your topic which bring traffic, your influencers, blogs and other websites
         with whom you share common grounds.`,
-
         getintouch_title: `SEO Freelancer in Berlin -  Get in touch | SEO Berlino`,
         blog: `blog`,
         bloglatest: `Latest posts`,
@@ -173,7 +172,7 @@ Prioritised Action plan with:
         boost2: `OPTIMIZED KEYWORD TARGETING!`,
 
         auditintro: `Audits can vary in scope depending on the website's needs and maturity.
-      A full audit though will cover all aspets of SEO which over the years has become more and more complex and segmented.
+      A full audit though will cover all aspects of SEO which over the years has become more and more complex and segmented.
       The main aspects of SEO can simply be categorized in three main fields: offpage, onpage and technical SEO, but there is a lot of overlapping.
       Also efficient and reliable web analytics set-up and knowing your competitors (Competitor Analysis) are critical if you want to make progress, understand and set your priorities and control them efficiently   `,
 

@@ -354,10 +354,10 @@ iframe {
   margin-top: 20%;
 }
 .mainHP {
-  min-height: calc(100vh - 120px);
   width: 100%;
   height: 100%;
   position: relative;
+  min-height: calc(100vh - 20px);
 }
 
 .logo {
@@ -415,7 +415,8 @@ iframe {
   background-color: black;
 }
 
-.intro4 {
+.intro4,
+.intro41 {
   height: auto;
   padding-top: 30px;
   margin-left: 13%;
@@ -426,10 +427,8 @@ iframe {
   font-size: 43px;
   margin-top: 30px;
   margin-bottom: 15px;
-  z-index: 1;
+  z-index: 5;
   opacity: 1;
-
-  background-color: white;
 }
 
 .xtrapad {
@@ -645,13 +644,13 @@ th.imageBlog {
   font-size: 21px;
   margin-left: 12%;
   margin-top: 3px;
-  width: 40%;
+  width: 80%;
 }
 
 .txt4 {
   font-size: 25px;
   margin-left: 15%;
-  margin-top: 21px;
+  margin-top: 11px;
   list-style: none;
   text-align: left;
   width: 60%;
@@ -976,15 +975,17 @@ a.linkServices {
 
 .berlin {
   position: fixed;
-  left: 20%;
   top: 0px;
-  heigth: 100%;
+  height: auto;
+  width: 100%;
+  left: 0;
 }
 .othercontentHP {
   width: 100%;
   height: auto;
   position: relative;
   background-color: white;
+  z-index: 5;
 }
 .background {
   position: absolute;
@@ -1015,10 +1016,9 @@ a.linkServices {
 
 .introHP {
   color: #001f3f;
-
   position: relative;
   background-color: white;
-  margin-top: 512px;
+  margin-top: 17%;
   width: 90%;
   margin-left: 0px;
   border: white 0px solid;
@@ -1113,28 +1113,35 @@ button.servicesHP2 {
 }
 
 .seotxt {
-  background-color: white;
   padding-bottom: 20px;
   padding-top: 20px;
   margin-top: 20px;
   position: relative;
   display: inline;
 }
+.whatisseo {
+  position: sticky;
+  z-index: 1;
+  min-height: 400px;
+  max-height: 600px;
+  width: 100%;
+  top: 250px;
+  left: 0;
+}
+
+.transparent {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  z-index: 1;
+}
 
 .seotxt p {
-  background-color: #lightgrey;
   width: 60%;
-  padding: 30px;
+  padding: 10px;
   padding-top: 0px;
 }
 
-.PDCD {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  position: relative;
-  display: inline-grid;
-  margin-left: 30%;
-}
 .intro1 {
   position: relative;
   display: inline;
@@ -1145,6 +1152,17 @@ button.servicesHP2 {
   background-color: #85144b;
   display: block;
   position: relative;
+  z-index: 10;
+}
+.sharable {
+  position: sticky;
+  min-height: 1000px;
+  max-height: 700px;
+  overflow: scroll;
+  z-index: 0;
+  top: 50px;
+  width: 100%;
+  left: 0;
 }
 .backgroundBlack::after {
   content: "";
