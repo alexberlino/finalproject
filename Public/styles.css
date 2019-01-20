@@ -1121,6 +1121,10 @@ button.servicesHP2 {
 }
 .whatisseo {
   position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   z-index: 1;
   min-height: 400px;
   max-height: 600px;
@@ -1156,6 +1160,10 @@ button.servicesHP2 {
 }
 .sharable {
   position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   min-height: 1000px;
   max-height: 700px;
   overflow: scroll;
