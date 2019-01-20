@@ -278,7 +278,7 @@ Prioritised Action plan with:
         offpageMP4: `Social Media is part of offpage SEO and a form of backlinking which could bring you traffic and recognition. Although most of the links from social media are nofollow they still have value. Social Media mentions are gaining ground as ranking factors and proper configuration of social media profiles can also boost SEO.`,
 
         offpageMP5: `Social bookmarking is not as popular as it used to be in the past but it is still a good way to get traffic to your website. Depending on your niche you can find web sites like reddit.com, stumbleupon.com, scoop.it and delicious.com (to name a few) to promote your content.`,
-        BLanalysistitle: ``,
+
         linkstoavoidtitle: `links to avoid`,
         linkstoavoid1: `    Many think the more links, the better but it doesn't actually work
     that way. Too many low quality and/or spammy links and your website
@@ -521,21 +521,93 @@ Priorisierter Aktionsplan mit:
                 is the way to ‘speak’ to search engines in a language they can
                 understand and give them as much information about your website
                 as possible.`,
-        BLanalysistitle: ``,
-        brandbuildingtitle: ``,
-        linkstoavoidtitle: ``,
-        linkstoavoid1: ``,
-        linkstoavoid2: ``,
-        linkstoavoid3: ``,
-        linkstoavoid4: ``,
-        brandbuilding1: ``,
-        brandbuilding2: ``,
-        brandbuilding3: ``,
-        brandbuilding4: ``,
-        BLanalysis1: ``,
-        BLanalysis2: ``,
-        BLanalysis3: ``,
-        BLanalysis4: ``
+        linkstoavoidtitle: `links to avoid`,
+        linkstoavoid1: `    Many think the more links, the better but it doesn't actually work
+                that way. Too many low quality and/or spammy links and your website
+                will lose "Google credibility" and therefore visibility.`,
+        linkstoavoid2: `Since a few years already, you as website owner are responsible for
+                the backlinks pointing to your site, so you need to constantly
+                monitor, identify bad links and clean up your backlink profile.
+                First step using the disavow tool then to try pro-actively to remove
+                them.`,
+        linkstoavoid3: `Getting a backlink that appears on every page of a site is rarely a
+                good idea especially if it not set as nofollow. First the position
+                of the link on the page is a key factor so if your link is in the
+                footer its positioning is all but optimal. Second, your numerous
+                backlinks will in fact count as only one and its value will be
+                minimal if negative.        Other type of links to avoid: links from unrelated websites, from sites of different
+                languages and/or countries and from websites flagged as spammy`,
+        linkstoavoid4: `Once you have identified those toxic links, the best is first to use
+                the Google disavow tool to inform Google you are aware of them and want to bring them to
+                Google's attention. Please note that you need to be connected to the
+                website's search console account in order to log into the tool.
+                Google then advises you to actively get in touch with the respective
+                webmasters and ask them to remove them.`,
+        brandbuildingMP1: `Your links represent your reputation and relevancy in your domain.
+                Linkbuilding now goes hand in hand with brand building. As you
+                increased the "digital signs of recognition" aka links, you are also
+                building visibility of your brand. The best links are those which
+                are where your potential customers are browsing the web or looking
+                for companies such as yours. If these backlinks bring you quality
+                traffic that means it is indeed in the right place and brings value
+                to your online reputation (aka domain / page authority)`,
+        brandbuildingMP2: `After doing an audit of your link profile and of your main SEO
+                competitors, a plan is needed to proactively develop your link
+                building profile. This is on one hand a never ending job and on the
+                other the new quality links need to be coming in at regular
+                intervals.`,
+        brandbuildingMP3: `An important part in brand building is searching and finding the
+                influencers sources and websites where your potential users visit
+                when investigation or potentially deciding on which company to use.`,
+        brandbuildingMP4: `Looking at what the content your relevant influencers share, you can
+                get some inspiration on the content you need to start producing.
+                Also you need to identify parallel search terms and topics with
+                significant search volume, which are not yet on your Keyword list.`,
+        BLanalysis1: `During a Backlink Profile Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
+                of competitors to understand where you stand. Then a brainstorm can be done on link
+                targets and content production. Finally work can be prioritised depending on
+                potential and complexity,  setting targets: quantity and quality links
+                for the next quarters focusing on brandbuilding`,
+        BLanalysis2: ` Like it has been the case since over 20 years, backlinks are key to SEO
+                success and still define the reputation and popularity of your
+                brand on the web. However, backlinks do not work like 20 years
+                ago, and far from it. It is now much more about quality of the
+                links and relevancy. It is crucial to understand where you stand,
+                plan, execute and control your backlink activities.
+                `,
+        BLanalysis3: `Getting many backlinks from any website, paying links off from
+                unrelated websites, or websites operating from a different country
+                or with a different language are some example of wasted efforts.
+                Most importantly, if the website which is linking to you has a
+                poor reputation itself its value will be only minimum; worse if it
+                is considered a spammy website, the link might even lower your
+                website's reputation.`,
+        BLanalysis4: `  Getting a link from a reputable and relevant (to your industry)
+                website is a great achievement. However keep in mind the actual
+                page the link is appearing on is the real deal. If the page itself
+                has little exposure, little number of internal links and/or
+                traffic, its impact will not be as positive as if it was on the
+                homepage for example. On the contrary, if it appears in every page
+                of the site, this might seen as spammy backlinking so avoid that
+                extreme as well.`,
+        BLanalysis5: `  It is very important and useful to look at your successful
+                competitors to analyse: how they get their (high quality) links,
+                the domain authority and quality of their backlink profile, ratio
+                follow/nofollow, anchor text, ratio quality links, number &
+                quality of referring domains`,
+        BLanalysis6: ` Needs to be as natural as possible, avoiding "click here" or other misleading
+                text. Very often the brand name is the most used anchor text. Make
+                sure the ratio of nofollow links is not too high. nofollow means
+                that the website linking does not want to "commit" the link as
+                sign a trust and therefore pass link juice (authority). It is
+                totally acceptable to have a certain percentage of nofollow links
+                but if this ration gets to high, this is sign that your website is
+                not trusted.{" "}`,
+        BLanalysis7: `".gov" and ".edu" sites have by essence a lot more trust and power
+                as ".com" for instance. If you have the opportunity to get a link
+                from such sites and it makes sense to your business - bringing in
+                at the same time quality & relevant traffic - this link will very
+                likely be beneficial.`
       }
     }, //de
 
