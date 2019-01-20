@@ -50,12 +50,6 @@ class Security extends Component {
             className="imageAudit"
           />
           <h1 className="h1services"> Security - Migration to https</h1>{" "}
-          <img
-            className="imageservices"
-            src="/icons/lock.jpg"
-            width="80px"
-            height="80px"
-          />
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             <p>

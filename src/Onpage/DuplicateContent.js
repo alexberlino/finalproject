@@ -55,7 +55,6 @@ class DuplicateContent extends Component {
             many similar pages and you are not flagging them, these pages will
             not rank well.
           </div>
-          <img src="/content.svg" className="serviceImage" />
 
           <div className="serviceTitle"> Indexation audit</div>
           <div className="serviceText">

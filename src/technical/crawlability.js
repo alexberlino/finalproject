@@ -45,13 +45,6 @@ class Crawlability extends Component {
             className="imageAudit"
           />
           <h1 className="h1services"> Crawlability</h1>{" "}
-          <img
-            src="/icons/crawler.png"
-            className="imageservices"
-            alt="web crawler"
-            width="100px"
-            height="100px"
-          />
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             Crawlibility goes hand in hand with indexation. In order to adjust

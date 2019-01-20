@@ -44,7 +44,7 @@ class Blog extends Component {
             <a href={"/" + this.props.lng + "/blog"}> BLOG ></a>
           </div>
           <img
-            src="/auditmainpic/technical.jpg"
+            src="/homepage.jpg"
             title="technical, a photo by Markus Spiske"
             alt="Technical SEO"
             className="imageAudit"

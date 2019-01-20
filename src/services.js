@@ -39,11 +39,7 @@ class Services extends Component {
 
             <a href={"/" + this.props.lng + "/services"}> SERVICES </a>
           </div>
-          <img
-            src="/auditmainpic/crawl.jpg"
-            alt="SEO Services"
-            className="imageAudit"
-          />
+          <img src="/homepage.jpg" alt="SEO Services" className="imageAudit" />
           <div className="infoTitle">
             <h1 className="h1services">SEO Services</h1>
           </div>
@@ -116,6 +112,9 @@ class Services extends Component {
               <p className="txt2"> SEA</p>
             </div>
           </div>{" "}
+          <a className="servicesHP2" href="/en/contact">
+            <button className="servicesHP2">Get in toucb</button>
+          </a>
           <p className="marginright">* depending on size of the website </p>
         </div>
       </div>

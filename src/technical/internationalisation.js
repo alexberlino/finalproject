@@ -47,13 +47,6 @@ class Internationalisation extends Component {
             className="imageAudit"
           />
           <h1 className="h1services">Internationalisation</h1>{" "}
-          <img
-            src="/icons/world.png"
-            className="imageservices"
-            alt="world map"
-            width="100px"
-            height="100px"
-          />
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">
             There are various options when operating internationally: same root
