@@ -436,7 +436,7 @@ iframe {
   padding-top: 100px;
   padding-bottom: 80px;
   padding-left: 60px;
-  z-index: 5;
+  z-index: 3000;
   opacity: 1;
   margin-top: 0px;
 }
@@ -1044,10 +1044,12 @@ a.linkServices {
 .servicesHP :hover {
   background-color: #85144b;
   color: white;
+  z-index: 3000;
 }
 .servicesHP2 :hover {
   background-color: white;
   color: #85144b;
+  z-index: 300;
 }
 
 button.servicesHP {
@@ -1060,9 +1062,9 @@ button.servicesHP {
   height: 60px;
   display: block;
   margin-top: 40px;
-
   border-radius: 15px;
   margin-left: 40%;
+  z-index: 300;
 }
 
 button.servicesHP2 {
@@ -1075,9 +1077,9 @@ button.servicesHP2 {
   font-size: 27px;
   width: 300px;
   height: 60px;
-
   border-radius: 15px;
   margin-left: 40%;
+  z-index: 300;
 }
 
 .h1hp {
@@ -1133,6 +1135,7 @@ button.servicesHP2 {
   padding-top: 20px;
   position: relative;
   display: inline;
+  z-index: 5;
 }
 .whatisseo {
   position: sticky;

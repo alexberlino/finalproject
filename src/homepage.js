@@ -192,12 +192,15 @@ class Homepage extends Component {
                   {t("OnPageOptimizationText")}{" "}
                   <a href="/en/onpage" className="block black">
                     <img title="more" className="iconsmore" src="/more.svg" />
+                  </a>{" "}
+                  <br />
+                  <br />
+                  <br />
+                  <a className="servicesHP2" href="/en/contact">
+                    <button className="servicesHP2">About</button>
                   </a>
                   <a className="servicesHP" href="/en/services">
                     <button className="servicesHP">Services</button>
-                  </a>
-                  <a className="servicesHP2" href="/en/contact">
-                    <button className="servicesHP2">About</button>
                   </a>
                 </p>
 
@@ -243,14 +246,12 @@ class Homepage extends Component {
                         {t("KWResearch")}
                       </a>
                     </h2>
-                    <p className="txt3">{t("KWResearchText")}</p>
-
-                    <a className="servicesHP" href="/en/services">
-                      <button className="servicesHP">Services</button>
-                    </a>
-                    <a className="servicesHP2" href="/en/contact">
-                      <button className="servicesHP2">About</button>
-                    </a>
+                    <p className="txt3">
+                      {t("KWResearchText")} <br /> <br />
+                      <a className="servicesHP2" href="/en/contact">
+                        <button className="servicesHP2">About</button>
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
