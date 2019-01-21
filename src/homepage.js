@@ -243,12 +243,18 @@ class Homepage extends Component {
 
                   <div className="intro41">
                     <h2 className="orange2">
-                      <a className="" href="/en/onpage/keywordresearch">
+                      <a
+                        className="traffic orange blackbgwhite"
+                        href="/en/onpage/keywordresearch"
+                      >
                         {t("KWResearch")}
                       </a>
                     </h2>
                     <p className="txt3">
                       {t("KWResearchText")} <br /> <br />
+                      <a className="servicesHP" href="/en/services">
+                        <button className="servicesHP">Services</button>
+                      </a>
                       <a className="servicesHP2" href="/en/contact">
                         <button className="servicesHP2">About</button>
                       </a>
@@ -258,11 +264,7 @@ class Homepage extends Component {
               </div>
             </div>
 
-            <div className="transparent"> </div>
-
-            <div className="contactmob">
-              <ContactMain />
-            </div>
+            <ContactMain />
 
             <div>
               <div>
@@ -295,66 +297,67 @@ class Homepage extends Component {
                 />{" "}
               </div>
             </div>
-            <div />
-
-            <div className="intro3 ">
-              <div className="logoQuarter">
-                <img
-                  className="logo logomustbe"
-                  height="110px"
-                  width="160px"
-                  alt="must-be logo"
-                  src="/mustbe.png"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo logospreadshirt"
-                  height="100px"
-                  width="65px"
-                  alt="spreadshirt logo"
-                  src="/spreadshirt.png"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo logomadeforrain"
-                  height="120px"
-                  width="160px"
-                  src="/madeforrain.png"
-                  alt="made for rain logo"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo logoholberton"
-                  height="100px"
-                  width="190px"
-                  src="/holberton.png"
-                  alt="holberton school logo"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo logoteezily"
-                  height="110px"
-                  width="100px"
-                  src="/teezily.png"
-                  alt="teezily logo"
-                />
-              </div>
-              <div className=" logoQuarter">
-                <img
-                  className="logo"
-                  height="60px"
-                  width="130px"
-                  src="/independent.png"
-                  alt="independent logo"
-                />
+            <div>
+              {" "}
+              <div className="intro3 ">
+                <div className="logoQuarter">
+                  <img
+                    className="logo logomustbe"
+                    height="110px"
+                    width="160px"
+                    alt="must-be logo"
+                    src="/mustbe.png"
+                  />
+                </div>
+                <div className=" logoQuarter">
+                  <img
+                    className="logo logospreadshirt"
+                    height="100px"
+                    width="65px"
+                    alt="spreadshirt logo"
+                    src="/spreadshirt.png"
+                  />
+                </div>
+                <div className=" logoQuarter">
+                  <img
+                    className="logo logomadeforrain"
+                    height="120px"
+                    width="160px"
+                    src="/madeforrain.png"
+                    alt="made for rain logo"
+                  />
+                </div>
+                <div className=" logoQuarter">
+                  <img
+                    className="logo logoholberton"
+                    height="100px"
+                    width="190px"
+                    src="/holberton.png"
+                    alt="holberton school logo"
+                  />
+                </div>
+                <div className=" logoQuarter">
+                  <img
+                    className="logo logoteezily"
+                    height="110px"
+                    width="100px"
+                    src="/teezily.png"
+                    alt="teezily logo"
+                  />
+                </div>
+                <div className=" logoQuarter">
+                  <img
+                    className="logo"
+                    height="60px"
+                    width="130px"
+                    src="/independent.png"
+                    alt="independent logo"
+                  />
+                </div>
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>
       </div>
     );
   }

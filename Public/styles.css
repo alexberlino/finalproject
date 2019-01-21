@@ -245,9 +245,6 @@ iframe {
   height: 400px;
 }
 
-.contactmob {
-  background-color: white;
-}
 .rightContact {
   position: relative;
   display: inline;
@@ -420,6 +417,7 @@ iframe {
   height: auto;
   padding-bottom: 50px;
   background-color: black;
+  z-index: 3500;
 }
 
 .intro4,
@@ -439,6 +437,7 @@ iframe {
   z-index: 3000;
   opacity: 1;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .intro41 {
@@ -994,6 +993,7 @@ a.linkServices {
   height: 250px;
   width: 99%;
   left: 0;
+  z-index: 0;
 }
 .othercontentHP {
   width: 100%;
@@ -1131,8 +1131,6 @@ button.servicesHP2 {
 }
 
 .seotxt {
-  padding-bottom: 20px;
-  padding-top: 20px;
   position: relative;
   display: inline;
   z-index: 5;
@@ -1176,8 +1174,6 @@ button.servicesHP2 {
   display: block;
   position: relative;
   z-index: 10;
-  height: auto;
-  z-index: 3;
 }
 .backgroundBlack2 {
   width: 100%;
@@ -1227,7 +1223,8 @@ button.servicesHP2 {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
+  margin-bottom: 0px;
 }
 
 .seotxt {
@@ -1753,7 +1750,7 @@ h2.orange {
 }
 
 .blackbgwhite {
-  background-color: inherit;
+  background-color: transparent;
   color: white;
 }
 
@@ -1771,7 +1768,7 @@ h2.orange {
   margin-top: 0px;
   padding-top: 10px;
   display: inline;
-  z-index: 3;
+  z-index: 5;
 }
 
 .orange2 {

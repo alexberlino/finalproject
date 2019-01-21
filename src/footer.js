@@ -16,48 +16,51 @@ class Footer extends Component {
   }
   render() {
     return (
-      <div className="footer">
-        <div className="footerLinks footerQuarter">
-          <Link className="footerlink " to={"/en/login"}>
-            login
-          </Link>
-          <a className="footerlink" href={"/en/admin"}>
-            admin
-          </a>
-          <Link className="footerlink" to={"/en/impressum"}>
-            impressum
-          </Link>
-          <a className="footerlink" href={"/sitemap.xml"}>
-            sitemap
-          </a>
+      <div>
+        <div className="transparent"> </div>
+        <div className="footer">
+          <div className="footerLinks footerQuarter">
+            <Link className="footerlink " to={"/en/login"}>
+              login
+            </Link>
+            <a className="footerlink" href={"/en/admin"}>
+              admin
+            </a>
+            <Link className="footerlink" to={"/en/impressum"}>
+              impressum
+            </Link>
+            <a className="footerlink" href={"/sitemap.xml"}>
+              sitemap
+            </a>
 
-          <div className="footerlink">&copy; Alex Bieth 2018 </div>
-        </div>
+            <div className="footerlink">&copy; Alex Bieth 2018 </div>
+          </div>
 
-        <div className="footerLinks">
-          <LinksToPages />
-        </div>
+          <div className="footerLinks">
+            <LinksToPages />
+          </div>
 
-        <div className="footerLinks footerQuarter">
-          <a
-            onClick={() => this.props.languageChange("de")}
-            className="footerflags"
-            title="auf Deutsch"
-            name="change language to German"
-            href={"/de" + this.props.page}
-          >
-            DE{" "}
-          </a>
-          <a
-            name="change language to English"
-            onClick={() => this.props.languageChange("en")}
-            title="change language to English"
-            className="footerflags"
-            width="25px"
-            href={"/en" + this.props.page}
-          >
-            EN
-          </a>{" "}
+          <div className="footerLinks footerQuarter">
+            <a
+              onClick={() => this.props.languageChange("de")}
+              className="footerflags"
+              title="auf Deutsch"
+              name="change language to German"
+              href={"/de" + this.props.page}
+            >
+              DE{" "}
+            </a>
+            <a
+              name="change language to English"
+              onClick={() => this.props.languageChange("en")}
+              title="change language to English"
+              className="footerflags"
+              width="25px"
+              href={"/en" + this.props.page}
+            >
+              EN
+            </a>{" "}
+          </div>
         </div>
       </div>
     );

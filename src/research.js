@@ -40,6 +40,7 @@ class Technical extends Component {
           />
           <link rel="canonical" href="https://www.seoberlino.com/en/research" />
         </Helmet>
+
         <div className="services">
           <div className="breadcrumb">
             <a href={"/" + this.props.lng}> SEO FREELANCER </a>
@@ -48,6 +49,7 @@ class Technical extends Component {
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
+
           <img
             src="/auditmainpic/analysis.jpg"
             title="analysis, a photo by rawpixel"

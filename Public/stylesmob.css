@@ -459,7 +459,7 @@
     font-size: 30px;
     text-indent: 10px;
     color: black;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
   }
 
   .h1services2 {
@@ -472,6 +472,10 @@
   }
   .bigicon {
     width: 40%;
+  }
+
+  .big {
+    font-size: 24px;
   }
   .leftServices {
     left: 7px;
