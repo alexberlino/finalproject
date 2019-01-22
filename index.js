@@ -193,7 +193,6 @@ app.get("/setcookiesession", (req, res) => {
 
 app.get("/checknotice", (req, res, next) => {
   if (req.session.checked) {
-    console.log(req.session);
     res.json({
       success: true
     });
@@ -215,8 +214,6 @@ app.get("/en/postarticle", checkSession, (req, res, next) => {
   next();
 });
 app.get("/en/admin", checkSession, (req, res, next) => {
-  console.log("REQPARAMS", req.params);
-  console.log("REQSESSION", req.session);
   next();
 });
 
@@ -272,21 +269,18 @@ app.get("/get3articles", (req, res) => {
 });
 
 app.get("/getarticle/:id", (req, res) => {
-  console.log("REQPARAMS", req.params.id);
   db.getArticle(req.params.id).then(function({ rows }) {
     res.json({ rows });
   });
 });
 
 app.get("/getarticleurl/:BE", (req, res) => {
-  console.log("REQPARAMS", req.params);
   db.getArticleUrl(req.params.BE).then(function({ rows }) {
     res.json({ rows });
   });
 });
 
 app.post("/en/login", (req, res) => {
-  console.log("inlogin");
   let { email, pass } = req.body;
   db.login(email)
     .then(function(result) {
@@ -336,8 +330,6 @@ app.get("/log-out", (req, res) => {
 ////////////////DO NOT TOUCH/////////////////////////
 
 app.post("/en/form", (req, res) => {
-  console.log("POSTREQBODY", req.body);
-
   nodemailer.createTestAccount((err, account) => {
     const htmlEmail = `
         <h3> Contact Details </h3>
@@ -348,8 +340,6 @@ app.post("/en/form", (req, res) => {
         <h3>Message</h3>
         <p>${req.body.message}</p>
         `;
-
-    console.log("HTMLEMAIL", htmlEmail);
 
     let transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
@@ -368,7 +358,6 @@ app.post("/en/form", (req, res) => {
       text: req.body.message,
       html: htmlEmail
     }; //closemailoptions
-    console.log(mailOptions);
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         return console.log("error sending mail", error);

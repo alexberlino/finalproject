@@ -29,7 +29,6 @@ class Article extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     let BE = this.props.page.slice(9);
-    console.log("BE", BE);
     axios.get(`/getarticleurl/${BE}`).then(res => {
       if (res.data.rows.length == 0) {
         this.setState({
