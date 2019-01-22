@@ -7,6 +7,8 @@ import { connect } from "react-redux";
 import { Helmet } from "react-helmet";
 import NewsItems from "./NewsItems";
 import ContactMain from "./ContactMain";
+import { translate, Trans } from "react-i18next";
+import i18n from "./i18n";
 
 class SEONews extends Component {
   constructor() {
@@ -52,10 +54,10 @@ class SEONews extends Component {
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lang}>> SEO FREELANCER ></a>
-            <a href={"/" + this.props.lang + "/resources"}> AUDIT ></a>
+            <a href={"/" + this.props.lang}> {t("services")}</a>
+            <a href={"/" + this.props.lang + "/resources"}> AUDIT </a>
 
-            <a href={"/" + this.props.lang + "/seonews"}> SEONEWS ></a>
+            <a href={"/" + this.props.lang + "/seonews"}> SEONEWS </a>
           </div>
           <img
             src="/auditmainpic/seonews.jpg"
@@ -146,7 +148,7 @@ class SEONews extends Component {
   }
 }
 
-export default SEONews;
+export default translate("translations")(SEONews);
 
 // const getStateFromRedux = state => {
 //   return {

@@ -40,7 +40,7 @@ class Offpage extends Component {
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
 
@@ -59,13 +59,22 @@ class Offpage extends Component {
           </div>
           <div>
             <div className="sideLinks black slide-in-left">
-              <a className="block" href="/en/offpage/backlinkanalysis">
+              <a
+                className="block"
+                href={"/" + this.props.lng + "/offpage/backlinkanalysis"}
+              >
                 {t("offpageHP1")}, {t("offpageHP2")}
               </a>
-              <a className="block" href="/en/offpage/brandbuilding">
+              <a
+                className="block"
+                href={"/" + this.props.lng + "/offpage/brandbuilding"}
+              >
                 {t("offpageHP3")}, {t("offpageHP4")}
               </a>{" "}
-              <a className="block" href="/en/offpage/toxic">
+              <a
+                className="block"
+                href={"/" + this.props.lng + "/offpage/toxic"}
+              >
                 {t("offpageHP5")}
               </a>
             </div>

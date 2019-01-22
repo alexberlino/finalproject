@@ -30,11 +30,11 @@ class Crawlability extends Component {
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/en"}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
 
-            <a href={"/en/resources"}> AUDIT </a>
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
 
-            <a href={"/en/technical"}> TECHNICAL </a>
+            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <img
             src="/auditmainpic/crawl.jpg"
@@ -92,25 +92,46 @@ class Crawlability extends Component {
             need to be indexed in particular in case of duplicate content)
           </div>
           <div className="black slide-in-left sideLinks">
-            <a className="block" href="/en/technical/indexation">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/indexation"}
+            >
               {t("technicalHP1")}
             </a>
-            <a className="block" href="/en/technical/crawlability">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/crawlability"}
+            >
               {t("technicalHP2")}
             </a>
-            <a className="block" href="/en/technical/internationalisation">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/internationalisation"}
+            >
               {t("technicalHP3")}
             </a>{" "}
-            <a className="block" href="/en/technical/pagespeed">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/pagespeed"}
+            >
               {t("technicalHP4")}
             </a>
-            <a className="block" href="/en/technical/mobilefriendly">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/mobilefriendly"}
+            >
               {t("technicalHP5")}
             </a>
-            <a className="block" href="/en/technical/dynamicrendering">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/dynamicrendering"}
+            >
               {t("technicalHP6")}
             </a>
-            <a className="block" href="/en/technical/security">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/security"}
+            >
               {t("technicalHP7")}
             </a>
           </div>

@@ -43,7 +43,7 @@ class Technical extends Component {
 
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
 
@@ -65,16 +65,28 @@ class Technical extends Component {
           <div>
             <div className="marginright">
               <div className="black slide-in-left sideLinks">
-                <a className="block" href="/en/research/localseo">
+                <a
+                  className="block"
+                  href={"/" + this.props.lng + "/research/localseo"}
+                >
                   {t("analyticsHP1")}
                 </a>
-                <a className="block" href="/en/research/analytics">
+                <a
+                  className="block"
+                  href={"/" + this.props.lng + "/research/analytics"}
+                >
                   {t("analyticsHP2")}
                 </a>
-                <a className="block" href="/en/research/bestpractices">
+                <a
+                  className="block"
+                  href={"/" + this.props.lng + "/research/bestpractices"}
+                >
                   {t("analyticsHP3")}
                 </a>
-                <a className="block" href="/en/research/sea">
+                <a
+                  className="block"
+                  href={"/" + this.props.lng + "/research/sea"}
+                >
                   {t("analyticsHP6")}
                 </a>
               </div>

@@ -21,12 +21,12 @@ class Toxic extends Component {
           <meta type="description" content="" />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/offpage/toxic"
+            href={"/" + this.props.lng + "/offpage/toxic"}
           />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
 
@@ -59,15 +59,19 @@ class Toxic extends Component {
           </div>
           <div className="serviceText">{t("linkstoavoid4")}</div>
           <div className="sideLinks black slide-in-left">
-            <a className="block" href="/en/offpage/backlinkanalysis">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/offpage/backlinkanalysis"}
+            >
               {t("offpageHP1")}, {t("offpageHP2")}
             </a>
-            <a className="block" href="/en/offpage/brandbuilding">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/offpage/brandbuilding"}
+            >
               {t("offpageHP3")}, {t("offpageHP4")}
             </a>{" "}
-            <a className="block" href="/en/offpage/toxic">
-              {t("offpageHP5")}
-            </a>
+            <span className="block bold">{t("offpageHP5")}</span>
           </div>
         </div>{" "}
       </div>

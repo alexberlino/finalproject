@@ -76,7 +76,7 @@ class Contact extends Component {
             </a>
           </div>
         </div>
-        <a className="servicesHP" href="/en/services">
+        <a className="servicesHP" href={"/" + this.props.lng + "/services"}>
           <button className="servicesHP">Services</button>
         </a>
 

@@ -39,7 +39,7 @@ class Blog extends Component {
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
 
             <a href={"#"}> BLOG </a>
           </div>

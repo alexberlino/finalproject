@@ -36,18 +36,11 @@ class Resources extends Component {
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lang}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lang}> {t("services")} </a>
 
             <a href={"/" + this.props.lang + "/resources"}> AUDIT </a>
           </div>
-          <img
-            src="/auditmainpic/audit.jpg"
-            title="content, a photo by Jo Szczepanska"
-            alt="SEO Audit"
-            height="300px"
-            width="auto"
-            className="imageAudit"
-          />
+          <div className="transparent2" />
 
           <div className="infoTitle">
             <h1 className="h1services">SEO Audit</h1>
@@ -56,63 +49,65 @@ class Resources extends Component {
           <div>
             <div className="marginright black">
               <div className="black slide-in-left sideLinks">
-                <a className="block" href={"/en/onpage"}>
-                  ON PAGE
+                <a className="block" href={"/" + this.props.lng + "/onpage"}>
+                  ONPAGE
                 </a>
-                <a className="block" href={"/en/offpage"}>
+                <a className="block" href={"/" + this.props.lng + "/ffpage"}>
                   OFFPAGE
                 </a>
-                <a className="block" href={"/en/technical"}>
-                  TECHNICAL SEO
+                <a className="block" href={"/" + this.props.lng + "/technical"}>
+                  {t("technical")}{" "}
                 </a>{" "}
-                <a className="block" href={"/en/research"}>
+                <a className="block" href={"/" + this.props.lng + "/research"}>
                   RESEARCH & ANALYTICS
                 </a>{" "}
-                <a className="block" href={"/en/seonews"}>
+                <a className="block" href={"/" + this.props.lng + "/seonews"}>
                   SEONEWS
                 </a>{" "}
               </div>
               <p className="italic">{t("auditintro")}</p>
-              <br />
+              <br />{" "}
               <h2>
-                <a href="/en/onpage/keywordresearch">Keyword Research</a> &{" "}
-                <a href="/en/onpage">Onpage SEO</a>
+                <a href={"/" + this.props.lng + "/onpage/keywordresearch"}>
+                  Keyword Research
+                </a>{" "}
+                & <a href={"/" + this.props.lng + "/onpage"}>Onpage SEO</a>
               </h2>
               <p>
                 {t("auditintro2")}{" "}
-                <a href="/en/onpage" className="block">
+                <a href={"/" + this.props.lng + "/onpage"} className="block">
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
               </p>
               <br />
               <h2>
-                <a href="/en/technical">Technical SEO</a>
+                <a href={"/" + this.props.lng + "/technical"}>Technical SEO</a>
               </h2>
               <p>
                 {t("auditintro3")}{" "}
-                <a href="/en/technical" className="block">
+                <a href={"/" + this.props.lng + "/technical"} className="block">
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
               </p>
               <br />
               <h2>
-                <a href="/en/offpage">Offpage SEO</a>
+                <a href={"/" + this.props.lng + "/offpage"}>Offpage SEO</a>
               </h2>
               <p>
                 {t("auditintro4")}{" "}
-                <a href="/en/offpage" className="block">
+                <a href={"/" + this.props.lng + "/offpage"} className="block">
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>{" "}
               </p>{" "}
               <br />
               <h2>
-                <a href="/en/research">
+                <a href={"/" + this.props.lng + "/research"}>
                   Competitor Analysis, Analytics, SEA and Local SEO
                 </a>
               </h2>
               <p>
                 {t("auditintro5")}{" "}
-                <a href="/en/research" className="block">
+                <a href={"/" + this.props.lng + "/research"} className="block">
                   <img title="more" className="iconsmore" src="/more.svg" />
                 </a>
               </p>

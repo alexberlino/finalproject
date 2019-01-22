@@ -22,13 +22,13 @@ class BacklinkAnalysis extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/offpage/backlinkanalysis"
+            href={"/" + this.props.lng + "/offpage/backlinkanalysis"}
           />{" "}
         </Helmet>
 
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
 
@@ -50,7 +50,11 @@ class BacklinkAnalysis extends Component {
             <div className="serviceText">
               <p>
                 {t("BLanalysis1")}
-                <a href="/en/offpage/brandbuilding">brand building</a>.
+                <a href={"/" + this.props.lng + "/offpage/brandbuilding"}>
+                  {" "}
+                  brand building
+                </a>
+                .
               </p>
             </div>
             <img
@@ -104,13 +108,16 @@ class BacklinkAnalysis extends Component {
             </div>
           </div>
           <div className="sideLinks black slide-in-left">
-            <a className="block" href="/en/offpage/backlinkanalysis">
+            <span className="block bold">
               {t("offpageHP1")}, {t("offpageHP2")}
-            </a>
-            <a className="block" href="/en/offpage/brandbuilding">
+            </span>
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/offpage/brandbuilding"}
+            >
               {t("offpageHP3")}, {t("offpageHP4")}
             </a>{" "}
-            <a className="block" href="/en/offpage/toxic">
+            <a className="block" href={"/" + this.props.lng + "/offpage/toxic"}>
               {t("offpageHP5")}
             </a>
           </div>

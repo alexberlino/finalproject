@@ -26,21 +26,19 @@ class Services extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEO Services | SEO Expert Consultant || SEO Berlino</title>
+          <title>{t("servicestitle")}</title>
           <meta
             name="description"
             content="SEO Services Audit Ad-hoc - SEO Consultant in Berlin"
           />
-          <link rel="canonical" href="https://www.seoberlino.com/en/services" />
+          <link rel="canonical" href={"/" + this.props.lang + "/services"} />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
-
-            <a href={"/" + this.props.lng + "/services"}> SERVICES </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
           </div>
           <div className="infoTitle">
-            <h1 className="h1services2">SEO Services</h1>
+            <h1 className="h1services2">{t("servicesh1")}</h1>
           </div>
           <div className="intro20">
             <div className="introQuarter">
@@ -116,8 +114,8 @@ class Services extends Component {
               <p className="txt2"> SEA</p>
             </div>
           </div>{" "}
-          <a className="servicesHP2" href="/en/contact">
-            <button className="servicesHP2">Get in touch</button>
+          <a className="servicesHP2" href={"/" + this.props.lang + "/contact"}>
+            <button className="servicesHP2">{t("getintouch")}</button>
           </a>
           <p className="marginright">* depending on size of the website </p>
         </div>

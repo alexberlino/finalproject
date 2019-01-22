@@ -86,9 +86,9 @@ class Article extends Component {
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href="/en"> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> CONSULTANT </a>
 
-            <a href="/en/blog"> BLOG </a>
+            <a href={"/" + this.props.lng + "/blog"}> BLOG </a>
           </div>
           <img
             src={this.state.imageurl}

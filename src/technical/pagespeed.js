@@ -33,7 +33,7 @@ class PageSpeed extends Component {
         </Helmet>{" "}
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
 
@@ -81,25 +81,46 @@ class PageSpeed extends Component {
             </footer>
           </div>
           <div className="black slide-in-left sideLinks">
-            <a className="block" href="/en/technical/indexation">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/indexation"}
+            >
               {t("technicalHP1")}
             </a>
-            <a className="block" href="/en/technical/crawlability">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/crawlability"}
+            >
               {t("technicalHP2")}
             </a>
-            <a className="block" href="/en/technical/internationalisation">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/internationalisation"}
+            >
               {t("technicalHP3")}
             </a>{" "}
-            <a className="block" href="/en/technical/pagespeed">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/pagespeed"}
+            >
               {t("technicalHP4")}
             </a>
-            <a className="block" href="/en/technical/mobilefriendly">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/mobilefriendly"}
+            >
               {t("technicalHP5")}
             </a>
-            <a className="block" href="/en/technical/dynamicrendering">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/dynamicrendering"}
+            >
               {t("technicalHP6")}
             </a>
-            <a className="block" href="/en/technical/security">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/security"}
+            >
               {t("technicalHP7")}
             </a>
           </div>

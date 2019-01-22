@@ -20,13 +20,16 @@ class Footer extends Component {
         <div className="transparent"> </div>
         <div className="footer">
           <div className="footerLinks footerQuarter">
-            <Link className="footerlink " to={"/en/login"}>
+            <Link className="footerlink " to={"/login"}>
               login
             </Link>
-            <a className="footerlink" href={"/en/admin"}>
+            <a className="footerlink" href={"/admin"}>
               admin
             </a>
-            <Link className="footerlink" to={"/en/impressum"}>
+            <Link
+              className="footerlink"
+              to={"/" + this.props.lng + "/impressum"}
+            >
               impressum
             </Link>
             <a className="footerlink" href={"/sitemap.xml"}>

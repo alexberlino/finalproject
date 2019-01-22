@@ -27,7 +27,7 @@ class StructuredData extends Component {
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> SEO FREELANCER </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
 
@@ -69,33 +69,57 @@ class StructuredData extends Component {
             * Breadcrumb * Ratings * Site navigation
           </div>
           <div className="black slide-in-left sideLinks">
-            <a className="block" href="/en/onpage/keywordresearch">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/onpage/keywordresearch"}
+            >
               {t("onpageHP1")}
             </a>
-            <a className="block" href="/en/onpage/landingpages">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/onpage/landingpages"}
+            >
               {t("onpageHP2")}
             </a>
-            <a className="block" href="/en/onpage/internallinking">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/onpage/internallinking"}
+            >
               {t("onpageHP3")} {t("onpageHP5")}
             </a>{" "}
-            <a className="block" href="/en/onpage/metas">
+            <a className="block" href={"/" + this.props.lng + "/onpage/metas"}>
               {t("onpageHP4")}
             </a>
-            <a className="block" href="/en/technical/mobilefriendly">
-              <a className="block" href="/en/onpage/content">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/technical/mobilefriendly"}
+            >
+              <a
+                className="block"
+                href={"/" + this.props.lng + "/onpage/content"}
+              >
                 {t("onpageHP6")}
               </a>
             </a>
-            <a className="block" href="/en/onpage/images">
+            <a className="block" href={"/" + this.props.lng + "/onpage/images"}>
               {t("onpageHP7")}
             </a>
-            <a className="block" href="/en/onpage/structureddata">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/onpage/structureddata"}
+            >
               {t("onpageHP8")}
             </a>{" "}
-            <a className="block" href="/en/onpage/duplicatecontent">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/onpage/duplicatecontent"}
+            >
               {t("onpageHP9")}
             </a>
-            <a className="block" href="/en/onpage/voicesearch">
+            <a
+              className="block"
+              href={"/" + this.props.lng + "/onpage/voicesearch"}
+            >
               {t("onpageHP10")}
             </a>
           </div>

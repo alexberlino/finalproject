@@ -80,11 +80,11 @@ class Homepage extends Component {
                 SEO Consultancy, Audit.
               </div>
             </div>
-            <a className="servicesHP" href="/en/services">
-              <button className="servicesHP">Services</button>
+            <a className="servicesHP" href={"/" + this.props.lng + "/services"}>
+              <button className="servicesHP">{t("servicesL")}</button>
             </a>
-            <a className="servicesHP2" href="/en/contact">
-              <button className="servicesHP2">About</button>
+            <a className="servicesHP2" href={"/" + this.props.lng + "/contact"}>
+              <button className="servicesHP2">{t("about")}</button>
             </a>
             <div className="intro" />
             {this.state.show ? (
@@ -113,7 +113,10 @@ class Homepage extends Component {
                 {" "}
                 <div className="serviceQuarter">
                   <h2 className="orange2">
-                    <a className="center" href="/en/resources">
+                    <a
+                      className="center"
+                      href={"/" + this.props.lng + "/resources"}
+                    >
                       {" "}
                       seo audit
                     </a>
@@ -128,7 +131,10 @@ class Homepage extends Component {
                 </div>
                 <div className="serviceQuarter">
                   <h2 className="orange2">
-                    <a className="center" href="/en/research/analytics">
+                    <a
+                      className="center"
+                      href={"/" + this.props.lng + "/research/analytics"}
+                    >
                       {" "}
                       analytics{" "}
                     </a>
@@ -144,7 +150,10 @@ class Homepage extends Component {
                 <div className="serviceQuarter">
                   <h2 className="orange2">
                     {" "}
-                    <a className="center" href="/en/offpage/brandbuilding">
+                    <a
+                      className="center"
+                      href={"/" + this.props.lng + "/offpage/brandbuilding"}
+                    >
                       {" "}
                       brand building
                     </a>
@@ -176,32 +185,44 @@ class Homepage extends Component {
                 <h2 className="traffic orange2"> {t("beratung")}</h2>
                 <p className="txt3">{t("beratungText")}</p>
                 <h2 className="traffic orange2">
-                  <a href="/en/resources">{t("audit")}</a>
+                  <a href={"/" + this.props.lng + "/resources"}>{t("audit")}</a>
                 </h2>
                 <p className="txt3">
                   {t("auditText")}
-                  <a href="/en/resources" className="block black">
+                  <a
+                    href={"/" + this.props.lng + "/resources"}
+                    className="block black"
+                  >
                     <img title="more" className="iconsmore" src="/more.svg" />
                   </a>
                 </p>
                 <h2 className="traffic orange2">
-                  <a className="" href="/en/onpage">
+                  <a className="" href={"/" + this.props.lng + "/onpage"}>
                     {t("OnPageOptimization")}
                   </a>
                 </h2>
                 <p className="txt3">
                   {t("OnPageOptimizationText")}{" "}
-                  <a href="/en/onpage" className="block black">
+                  <a
+                    href={"/" + this.props.lng + "/onpage"}
+                    className="block black"
+                  >
                     <img title="more" className="iconsmore" src="/more.svg" />
                   </a>{" "}
                   <br />
                   <br />
                   <br />
-                  <a className="servicesHP2" href="/en/contact">
-                    <button className="servicesHP2">About</button>
+                  <a
+                    className="servicesHP2"
+                    href={"/" + this.props.lng + "/contact"}
+                  >
+                    <button className="servicesHP2">{t("about")}</button>
                   </a>
-                  <a className="servicesHP" href="/en/services">
-                    <button className="servicesHP">Services</button>
+                  <a
+                    className="servicesHP"
+                    href={"/" + this.props.lng + "/services"}
+                  >
+                    <button className="servicesHP">{t("servicesL")}</button>
                   </a>
                 </p>
 
@@ -216,17 +237,25 @@ class Homepage extends Component {
                 </div>
                 <div className="backgroundBlack ">
                   <h2 className="traffic orange blackbgwhite">
-                    <a className="black" href="/en/offpage">
+                    <a
+                      className="black"
+                      href={"/" + this.props.lng + "/offpage"}
+                    >
                       off-page
                       <span className="white"> optimization </span>
                     </a>
                   </h2>
                   <p className="txt3 blackbgwhite">
                     {t("OffpagePageOptimizationText")}
-                    <a href="/en/offpage" className="block black" />
+                    <a
+                      href={"/" + this.props.lng + "/offpage"}
+                      className="block black"
+                    />
                   </p>
                   <h2 className="traffic blackbgwhite orange">
-                    <a href="/en/offpage/backlinkanalysis">
+                    <a
+                      href={"/" + this.props.lng + "/offpage/backlinkanalysis"}
+                    >
                       <span className="white"> backlink profile </span> audit
                     </a>{" "}
                   </h2>
@@ -245,18 +274,24 @@ class Homepage extends Component {
                     <h2 className="orange2">
                       <a
                         className="traffic orange blackbgwhite"
-                        href="/en/onpage/keywordresearch"
+                        href={"/" + this.props.lng + "/onpage/keywordresearch"}
                       >
                         {t("KWResearch")}
                       </a>
                     </h2>
                     <p className="txt3">
                       {t("KWResearchText")} <br /> <br />
-                      <a className="servicesHP" href="/en/services">
-                        <button className="servicesHP">Services</button>
+                      <a
+                        className="servicesHP"
+                        href={"/" + this.props.lng + "/services"}
+                      >
+                        <button className="servicesHP">{t("servicesL")}</button>
                       </a>
-                      <a className="servicesHP2" href="/en/contact">
-                        <button className="servicesHP2">About</button>
+                      <a
+                        className="servicesHP2"
+                        href={"/" + this.props.lng + "/contact"}
+                      >
+                        <button className="servicesHP2">{t("about")}</button>
                       </a>
                     </p>
                   </div>
@@ -282,7 +317,7 @@ class Homepage extends Component {
                         />
                       </div>
                       <div className="listArticlesBlogHP">
-                        <a href={"/en/blog"}>
+                        <a href={"/" + this.props.lng + "/blog"}>
                           <span onClick={() => this.props.pageChange("/blog")}>
                             {article.title}
                           </span>

@@ -21,10 +21,10 @@ class LinksToPages extends Component {
       <div className="linkstoPageMainDiv">
         <ul>
           <li>
-            <a href="/en/onpage">
+            <a href={"/" + this.props.lng + "/onpage"}>
               <span
                 onClick={() =>
-                  this.props.languageChange("en") ||
+                  this.props.lnguageChange("en") ||
                   this.props.pageChange("/onpage")
                 }
               >
@@ -33,10 +33,10 @@ class LinksToPages extends Component {
             </a>
           </li>
           <li>
-            <a href="/en/offpage">
+            <a href={"/" + this.props.lng + "/offpage"}>
               <span
                 onClick={() =>
-                  this.props.languageChange("en") ||
+                  this.props.lnguageChange("en") ||
                   this.props.pageChange("/offpage")
                 }
               >
@@ -46,10 +46,10 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href="/en/technical">
+            <a href={"/" + this.props.lng + "/technical"}>
               <span
                 onClick={() =>
-                  this.props.languageChange("en") ||
+                  this.props.lnguageChange("en") ||
                   this.props.pageChange("/technical")
                 }
               >
@@ -59,10 +59,10 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href="/en/research">
+            <a href={"/" + this.props.lng + "/research"}>
               <span
                 onClick={() =>
-                  this.props.languageChange("en") ||
+                  this.props.lnguageChange("en") ||
                   this.props.pageChange("/research")
                 }
               >
@@ -72,10 +72,10 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href={"/en/blog"}>
+            <a href={"/" + this.props.lng + "/blog"}>
               <span
                 onClick={() =>
-                  this.props.languageChange("en") ||
+                  this.props.lnguageChange("en") ||
                   this.props.pageChange("/blog")
                 }
               >
@@ -92,10 +92,10 @@ class LinksToPages extends Component {
             </a>
           </li>
           <li>
-            <a href={"/en/seonews"}>
+            <a href={"/" + this.props.lng + "/seonews"}>
               <span
                 onClick={() =>
-                  this.props.languageChange("en") ||
+                  this.props.lnguageChange("en") ||
                   this.props.pageChange("/seonews")
                 }
               >
@@ -105,10 +105,10 @@ class LinksToPages extends Component {
           </li>
 
           <li>
-            <a href={"/en/resources"}>
+            <a href={"/" + this.props.lng + "/resources"}>
               <span
                 onClick={() =>
-                  this.props.languageChange("en") ||
+                  this.props.lnguageChange("en") ||
                   this.props.pageChange("/resources")
                 }
               >
