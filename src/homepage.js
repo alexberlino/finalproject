@@ -67,7 +67,6 @@ class Homepage extends Component {
           src="/homepage.jpg"
           className="berlin"
           alt="SEO Freelancer SEO Berlino, SEO consultant in Berlin"
-          title="a photo by rawpixel"
         />
         <div className="mainHP">
           <div className="othercontentHP">

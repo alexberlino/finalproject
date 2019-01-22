@@ -25,6 +25,12 @@ class StructuredData extends Component {
             href={"/" + this.props.lng + "/onpage/structureddata"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/structured.jpg"
+          title="data, a photo by Markus Spiske"
+          alt="structured data"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -37,14 +43,6 @@ class StructuredData extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/structured.jpg"
-            title="data, a photo by Markus Spiske"
-            alt="structured data"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services"> Structured Data </h1>
           <div className="serviceTitle"> Why it's Important</div>

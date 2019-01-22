@@ -28,6 +28,12 @@ class Indexation extends Component {
             href={"/" + this.props.lng + "/technical/indexation"}
           />
         </Helmet>
+        <img
+          src="/auditmainpic/indexation.jpg"
+          title="indexation, a photo by Scott Rodgerson"
+          alt="indexation"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -40,14 +46,6 @@ class Indexation extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <img
-            src="/auditmainpic/indexation.jpg"
-            title="indexation, a photo by Scott Rodgerson"
-            alt="indexation"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services"> Indexation</h1>{" "}
           <div className="serviceTitle">
             {" "}

@@ -22,6 +22,12 @@ class InternalLinking extends Component {
             href={"/" + this.props.lng + "/onpage/internallinking"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/internal.jpg"
+          title="arrow, a photo by Scott Rodgerson"
+          alt="internal linking SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -34,14 +40,6 @@ class InternalLinking extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/internal.jpg"
-            title="arrow, a photo by Scott Rodgerson"
-            alt="internal linking SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services">Internal Linking </h1>
           <div className="serviceTitle"> Why it's (extermely) Important</div>
           <div className="serviceText">

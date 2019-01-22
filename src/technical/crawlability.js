@@ -28,6 +28,12 @@ class Crawlability extends Component {
             href={"/" + this.props.lng + "/technical/crawlability"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/crawl.jpg"
+          title="crawl, a photo by Mathew Schwartz"
+          alt="crawlability"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -40,14 +46,6 @@ class Crawlability extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <img
-            src="/auditmainpic/crawl.jpg"
-            title="crawl, a photo by Mathew Schwartz"
-            alt="crawlability"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services"> Crawlability</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">

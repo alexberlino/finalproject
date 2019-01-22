@@ -37,7 +37,7 @@ class Blog extends Component {
           />
           <link rel="canonical" href={"/" + this.props.lng + "blog"} />{" "}
         </Helmet>
-        <div className="services">
+        <div className="services2">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
 

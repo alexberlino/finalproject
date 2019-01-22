@@ -35,6 +35,12 @@ class Content extends Component {
             href={"/" + this.props.lng + "/onpage/content"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/content.jpg"
+          title="content, a photo by Romain Vignes"
+          alt="content SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -47,14 +53,6 @@ class Content extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/content.jpg"
-            title="content, a photo by Romain Vignes"
-            alt="content SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services"> Content & Semantics </h1>
           <div className="serviceTitle">

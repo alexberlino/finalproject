@@ -31,6 +31,13 @@ class Images extends Component {
             href={"/" + this.props.lng + "/onpage/images"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/images.jpg"
+          title="images, a photo by Soragrit Wongsa"
+          alt="image optimization SEO"
+          className="imageAudit"
+        />
+
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -43,14 +50,6 @@ class Images extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/images.jpg"
-            title="images, a photo by Soragrit Wongsa"
-            alt="image optimization SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services">Images Optimization </h1>
           <h2 className="serviceTitle"> Why it's Important</h2>

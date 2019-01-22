@@ -25,6 +25,12 @@ class BacklinkAnalysis extends Component {
             href={"/" + this.props.lng + "/offpage/backlinkanalysis"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/linkmain.jpg"
+          title="Links, a photo by JJ Ying"
+          alt="backlinking"
+          className="imageAudit"
+        />
 
         <div className="services">
           <div className="breadcrumb">
@@ -37,14 +43,6 @@ class BacklinkAnalysis extends Component {
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/linkmain.jpg"
-            title="Links, a photo by JJ Ying"
-            alt="backlinking"
-            width="90%"
-            height="440px"
-            className="imageAudit"
-          />
 
           <div className="infoTitle">
             <h1 className="h1services"> Backlink Profile Audit</h1>

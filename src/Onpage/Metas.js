@@ -26,6 +26,12 @@ class Metas extends Component {
             href={"/" + this.props.lng + "/onpage/metas"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/tag.jpg"
+          title="tags, a photo by rawpixel"
+          alt="meta tags SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -38,14 +44,6 @@ class Metas extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/tag.jpg"
-            title="tags, a photo by rawpixel"
-            alt="meta tags SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services"> MetasTags & Headings </h1>
           <div className="serviceTitle"> titles</div>

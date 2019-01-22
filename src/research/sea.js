@@ -24,6 +24,12 @@ class SEA extends Component {
           />
           <link rel="canonical" href={"/" + this.props.lng + "/research/sea"} />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/advertising.jpg"
+          title="advertising, a photo by Denys Nevozhai"
+          alt="SEA"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -36,14 +42,6 @@ class SEA extends Component {
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
-          <img
-            src="/auditmainpic/advertising.jpg"
-            title="advertising, a photo by Denys Nevozhai"
-            alt="SEA"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services"> SEA, Search Engine Advertising</h1>
           <h2 className="serviceTitle">
             {" "}

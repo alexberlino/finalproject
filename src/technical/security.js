@@ -33,6 +33,12 @@ class Security extends Component {
             href={"/" + this.props.lng + "/technical/security"}
           />
         </Helmet>{" "}
+        <img
+          src="/auditmainpic/security.jpg"
+          title="security, a photo by Ibrahim Rifath"
+          alt="security SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -45,14 +51,6 @@ class Security extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <img
-            src="/auditmainpic/security.jpg"
-            title="security, a photo by Ibrahim Rifath"
-            alt="security SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services"> Security - Migration to https</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">

@@ -47,6 +47,12 @@ class Onpage extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/onpage"}
           />
         </Helmet>
+        <img
+          src="/auditmainpic/onpage.jpg"
+          title="onpage SEO, a photo by Noémi Macavei-Katócz"
+          alt="Onpage SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -59,14 +65,6 @@ class Onpage extends Component {
 
             <a className="bold"> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/onpage.jpg"
-            title="onpage SEO, a photo by Noémi Macavei-Katócz"
-            alt="Onpage SEO"
-            height="450px"
-            width="85%"
-            className="imageAudit"
-          />
 
           <div className="infoTitle">
             <h1 className="h1services">Onpage SEO Audit</h1>

@@ -27,6 +27,12 @@ class BestPractices extends Component {
             href={"/" + this.props.lng + "/research/bestpractices"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/competitor.jpg"
+          title="analysis, a photo by Stephen Dawson"
+          alt="competitor analysis SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -39,14 +45,6 @@ class BestPractices extends Component {
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
-          <img
-            src="/auditmainpic/competitor.jpg"
-            title="analysis, a photo by Stephen Dawson"
-            alt="competitor analysis SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services"> SEO Competitor Analysis</h1>
           <div className="serviceTitle"> Know who your SEO Competitors are</div>
           <div className="serviceText">

@@ -3,7 +3,8 @@ import ReactDOM from "react";
 import App from "./App";
 import axios from "./axios";
 import BlogList from "./BlogList";
-
+import { translate, Trans } from "react-i18next";
+import i18n from "./i18n";
 import { BrowserRouter, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
@@ -66,6 +67,8 @@ class Article extends Component {
     if (this.state.error) {
       return <NoMatch />;
     }
+    const { t, i18n } = this.props;
+    console.log(this.props.i18n.language);
 
     return (
       <div className="main">
@@ -84,11 +87,11 @@ class Article extends Component {
             href={"/" + this.props.lng + "/article/" + this.state.url}
           />
         </Helmet>
-        <div className="services">
+        <div className="services2">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lang}> {t("servicesL")} </a>
+            <a href={"/" + this.props.lang}> {t("services")} </a>
             <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lang + "/blog"}> BLOG </a>
@@ -118,4 +121,4 @@ class Article extends Component {
   }
 }
 
-export default Article;
+export default translate("translations")(Article);

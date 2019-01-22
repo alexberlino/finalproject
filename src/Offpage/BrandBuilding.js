@@ -22,6 +22,12 @@ class BrandBuilding extends Component {
             href={"/" + this.props.lng + "/offpage/brandbuilding"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/brandbuilding.jpg"
+          title="brandbuilding, a photo by Max Langelott"
+          alt="backlinking"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -34,14 +40,6 @@ class BrandBuilding extends Component {
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/brandbuilding.jpg"
-            title="brandbuilding, a photo by Max Langelott"
-            alt="backlinking"
-            width="90%"
-            height="400px"
-            className="imageAudit"
-          />
           <h1 className="h1services">Brand building</h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">{t("brandbuildingMP1")}</div>

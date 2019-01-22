@@ -28,6 +28,12 @@ class DuplicateContent extends Component {
             href={"/" + this.props.lng + "/onpage/duplicatecontent"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/duplicate.jpg"
+          title="duplication, a photo by rawpixel"
+          alt="duplicate content SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -40,14 +46,6 @@ class DuplicateContent extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/duplicate.jpg"
-            title="duplication, a photo by rawpixel"
-            alt="duplicate content SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services"> Duplicate Content</h1>
           <div className="serviceTitle">

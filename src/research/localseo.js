@@ -25,6 +25,12 @@ class LocalSEO extends Component {
             href={"/" + this.props.lng + "/research/localseo"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/local.jpg"
+          title="local, a photo by Brandi Ibrao"
+          alt="local SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -37,14 +43,6 @@ class LocalSEO extends Component {
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
-          <img
-            src="/auditmainpic/local.jpg"
-            title="local, a photo by Brandi Ibrao"
-            alt="local SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services"> Local SEO</h1> <br />
           <div className="serviceText">
             Especially for local business, it is paramount to align your SEO

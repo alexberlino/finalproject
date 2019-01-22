@@ -33,6 +33,12 @@ class DynamicRendering extends Component {
             href={"/" + this.props.lng + "/technical/dynamicrendering"}
           />
         </Helmet>
+        <img
+          src="/auditmainpic/java.jpg"
+          title="script code, a photo by Markus Spiske"
+          alt="javascript and dynamic rendering SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -45,14 +51,6 @@ class DynamicRendering extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <img
-            src="/auditmainpic/java.jpg"
-            title="script code, a photo by Markus Spiske"
-            alt="javascript and dynamic rendering SEO"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services"> Dynamic Rendering</h1>{" "}
           <div className="serviceTitle"> </div>
           <div className="serviceText">

@@ -41,6 +41,14 @@ class Offpage extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/offpage"}
           />{" "}
         </Helmet>
+
+        <img
+          src="/auditmainpic/offpage.jpg"
+          title="links, a photo by Fré Sonneveld"
+          alt="Offpage SEO"
+          height="450px"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -53,13 +61,6 @@ class Offpage extends Component {
 
             <a className="bold"> OFFPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/offpage.jpg"
-            title="links, a photo by Fré Sonneveld"
-            alt="Offpage SEO"
-            height="450px"
-            className="imageAudit"
-          />
 
           <div className="infoTitle">
             <h1 className="h1services">Offpage SEO Audit</h1>

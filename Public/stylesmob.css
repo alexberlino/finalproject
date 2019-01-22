@@ -62,6 +62,8 @@
     position: relative;
     width: 80%;
     padding: 10px;
+    left: 0px;
+    top: 0px;
   }
 
   .PDCD {
@@ -125,6 +127,10 @@
     z-index: 11;
   }
   .services {
+    padding-top: 0px;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
     margin-bottom: 50px;
     width: 89%;
 
@@ -783,19 +789,20 @@
     margin-top: 1.5rem;
   }
 
-  .background {
-    left: 70%;
+  .iconsmore2 {
+    height: 10px;
+    width: 10px;
   }
 
   .imageAudit {
-    height: 120px;
-    width: 90%;
+    height: auto;
+    width: 79%;
     margin-left: 10%;
-    opacity: 0.8;
+    opacity: 1;
     /* -webkit-brightness: brightness(1.6); /* Safari */
     /* filter: brightness(1.6);  */
 
-    margin-top: 22%;
+    margin-top: 12%;
   }
 
   button.servicesHP,

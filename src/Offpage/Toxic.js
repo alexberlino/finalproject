@@ -24,6 +24,12 @@ class Toxic extends Component {
             href={"/" + this.props.lng + "/offpage/toxic"}
           />
         </Helmet>
+        <img
+          src="/auditmainpic/toxic.jpg"
+          title="toxic, a photo by Scott Rodgerson"
+          alt="backlinking"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -36,14 +42,6 @@ class Toxic extends Component {
 
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/toxic.jpg"
-            title="toxic, a photo by Scott Rodgerson"
-            alt="backlinking"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services"> {t("linkstoavoidtitle")}</h1>
           <div className="serviceTitle"> Quality over quantity</div>

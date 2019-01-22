@@ -28,6 +28,12 @@ class LandingPageOptimization extends Component {
             href={"/" + this.props.lng + "/onpage/landingpages"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/landing.jpg"
+          title="landing, a photo by chuttersnap"
+          alt="landing page optimization"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -40,14 +46,6 @@ class LandingPageOptimization extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/landing.jpg"
-            title="landing, a photo by chuttersnap"
-            alt="landing page optimization"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services">Landing Pages</h1>
           <div className="serviceTitle"> Why it's Important</div>

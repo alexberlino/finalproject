@@ -43,6 +43,12 @@ class Technical extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/research"}
           />
         </Helmet>
+        <img
+          src="/auditmainpic/analysis.jpg"
+          title="analysis, a photo by rawpixel"
+          alt="SEO Analysis and Research"
+          className="imageAudit"
+        />
 
         <div className="services">
           <div className="breadcrumb">
@@ -56,15 +62,6 @@ class Technical extends Component {
 
             <a className="bold"> RESEARCH </a>
           </div>
-
-          <img
-            src="/auditmainpic/analysis.jpg"
-            title="analysis, a photo by rawpixel"
-            alt="SEO Analysis and Research"
-            width="90%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <div className="infoTitle">
             <h1 className="h1services">Analytics, Research and more</h1>

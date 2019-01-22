@@ -34,7 +34,7 @@ class Resources extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/resources"}
           />
         </Helmet>
-        <div className="services">
+        <div className="services2">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
             <a href={"/" + this.props.lang}> {t("services")} </a>{" "}

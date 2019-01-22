@@ -31,6 +31,14 @@ class PageSpeed extends Component {
             href={"/" + this.props.lng + "/technical/pagespeed"}
           />
         </Helmet>{" "}
+        <img
+          src="/auditmainpic/pagespeed.jpg"
+          title="pagespeed, a photo by Twixes"
+          alt="pagespeed"
+          width="80%"
+          height="450px"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -43,14 +51,6 @@ class PageSpeed extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <img
-            src="/auditmainpic/pagespeed.jpg"
-            title="pagespeed, a photo by Twixes"
-            alt="pagespeed"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services"> Page Speed</h1>{" "}
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">

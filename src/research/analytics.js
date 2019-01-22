@@ -26,6 +26,12 @@ class Analytics extends Component {
             href={"/" + this.props.lng + "/research/analysics"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/analytics.jpg"
+          title="analytics, a photo by Carlos Muza"
+          alt="analytics SEO"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -38,14 +44,6 @@ class Analytics extends Component {
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
-          <img
-            src="/auditmainpic/analytics.jpg"
-            title="analytics, a photo by Carlos Muza"
-            alt="analytics SEO"
-            width="75%"
-            height="480px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services"> Analytics SEO</h1>
           <h2 className="serviceTitle">

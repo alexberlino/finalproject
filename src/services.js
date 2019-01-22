@@ -33,7 +33,7 @@ class Services extends Component {
           />
           <link rel="canonical" href={"/" + this.props.lang + "/services"} />
         </Helmet>
-        <div className="services">
+        <div className="services2">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
 

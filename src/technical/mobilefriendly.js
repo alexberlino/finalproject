@@ -34,6 +34,14 @@ class MobileFriendly extends Component {
             href={"/" + this.props.lng + "/technical/mobilefriendly"}
           />
         </Helmet>{" "}
+        <img
+          src="/auditmainpic/mobilefriendly.jpg"
+          title="mobile phone, a photo by Rodion Kutsaev"
+          alt="mobile friendly"
+          width="80%"
+          height="450px"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -46,14 +54,6 @@ class MobileFriendly extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <img
-            src="/auditmainpic/mobilefriendly.jpg"
-            title="mobile phone, a photo by Rodion Kutsaev"
-            alt="mobile friendly"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
           <h1 className="h1services">
             {" "}
             Mobile First - Mobile friendly websites

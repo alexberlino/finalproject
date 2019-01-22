@@ -26,6 +26,12 @@ class KeywordResearch extends Component {
             href={"/" + this.props.lng + "/onpage/keywordresearch"}
           />{" "}
         </Helmet>
+        <img
+          src="/auditmainpic/keyword.jpg"
+          title="keyword search, a photo by Edho Pratama"
+          alt="keyword research"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -38,14 +44,6 @@ class KeywordResearch extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <img
-            src="/auditmainpic/keyword.jpg"
-            title="keyword search, a photo by Edho Pratama"
-            alt="keyword research"
-            width="80%"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services"> Keyword Research </h1>
           <h2 className="serviceTitle"> Why it's (extremely) Important</h2>
