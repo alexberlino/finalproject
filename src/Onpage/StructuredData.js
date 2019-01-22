@@ -22,14 +22,18 @@ class StructuredData extends Component {
           <meta type="description" content="" />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/onpage/structureddata"
+            href={"/" + this.props.lng + "/onpage/structureddata"}
           />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
@@ -92,24 +96,14 @@ class StructuredData extends Component {
             </a>
             <a
               className="block"
-              href={"/" + this.props.lng + "/technical/mobilefriendly"}
+              href={"/" + this.props.lng + "/onpage/content"}
             >
-              <a
-                className="block"
-                href={"/" + this.props.lng + "/onpage/content"}
-              >
-                {t("onpageHP6")}
-              </a>
+              {t("onpageHP6")}
             </a>
             <a className="block" href={"/" + this.props.lng + "/onpage/images"}>
               {t("onpageHP7")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/onpage/structureddata"}
-            >
-              {t("onpageHP8")}
-            </a>{" "}
+            <a className="block bold">{t("onpageHP8")}</a>{" "}
             <a
               className="block"
               href={"/" + this.props.lng + "/onpage/duplicatecontent"}

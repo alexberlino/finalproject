@@ -64,6 +64,7 @@ creation quality and brand awareness.`,
         subject: `Subject:`,
         message: `Message*`,
         sendMessage: `SEND`,
+        whatis: `what is`,
         about1: `Proven results with 400% increase in SEO sales for multiple websites as head of SEO`,
         about2: `Over 9 years experience in SEO, SEA and using various Analytics tools`,
         about3: `Trained Full Stack Web Developer`,
@@ -118,6 +119,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
                 optimizing web usage. ... Web analytics provides information
                 about the number of visitors to a website and the number of page
                 views.`,
+        seolong: `Search Engine Optimization`,
         researchHP3: `The basics of search engine advertising. Search engine
                 advertising (SEA) is a branch of search engine marketing (SEM).
                 While search engine optimization (SEO) centers on improving
@@ -403,6 +405,7 @@ website's reputation.`,
         analytics4: `Reports & Dashboard`,
         analytics5: `Adobe SiteCatalyst /
         Marketing Cloud / Omniture Fähigkeit`,
+        seolong: `Suchmaschinenoptimierung`,
         brandbuilding1: `Brand-building: beste Empfehlung für
         Inhaltserstellung`,
         brandbuilding2: `Inhaltserstellung: mehr Traffic Markenbekanntheit, traffic
@@ -411,6 +414,7 @@ website's reputation.`,
         Kreationsqualität und Markenbewusstsein.`,
         blog: `blog (auf englisch)`,
         analyticsHP1: `Lokale SEO`,
+        whatis: `was ist`,
         analyticsHP2: `Analytics,`,
         analyticsHP3: `Konkurrenzanalyse`,
         analyticsHP4: `Neue Webseite, SEO bewährte Praktiken`,
@@ -455,6 +459,7 @@ website's reputation.`,
         beratung: `SEO Beratung`,
         beratungText: `Für jede SEO-Beratung ist zu Beginn ein persönliches Gespräch erforderlich, um Ihre Bedürfnisse zu besprechen und wie man am besten zusammenarbeitet, um realistische KPIs und Ziele zu definieren. Mit meiner Erfahrung kann ich Ihnen einige Schätzungen des neuen Verkehrs geben, die Sie mit einem Plan erhalten können wie man es erreicht und welche Ressourcen dafür benötigt werden. Von der Konzeption bis zur Integration und Kontrolle werde ich Sie auf dem Laufenden halten, was getan und umgesetzt wurde und welche Ziele wurden erreicht.`,
         technical: `TECHNISCHES SEO`,
+        optimization: `optimierung`,
         about: `Über mich`,
         contact: `KONTAKT`,
         fullname: `Name* `,
@@ -775,6 +780,7 @@ L'analyse des mots clés est une partie très importante du référencement. Une
         importante.`,
 
         blog: `blog (en anglais)`,
+        optimization: `optimization`,
         analyticsHP1: `SEO Local`,
         analyticsHP2: `analyse web, reporting et controlling,`,
         analyticsHP3: `Analyse de la concurrence,`,

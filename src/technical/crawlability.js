@@ -25,14 +25,18 @@ class Crawlability extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/technical/crawlability"
-          />
+            href={"/" + this.props.lng + "/technical/crawlability"}
+          />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
@@ -98,12 +102,7 @@ class Crawlability extends Component {
             >
               {t("technicalHP1")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/technical/crawlability"}
-            >
-              {t("technicalHP2")}
-            </a>
+            <a className="block bold">{t("technicalHP2")}</a>
             <a
               className="block"
               href={"/" + this.props.lng + "/technical/internationalisation"}

@@ -239,6 +239,10 @@
     font-weight: normal;
   }
 
+  h2.white {
+    font-size: 25px;
+  }
+
   .icon {
     margin-top: 15%;
     margin-left: 5%;

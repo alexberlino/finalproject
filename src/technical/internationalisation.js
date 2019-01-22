@@ -27,14 +27,18 @@ class Internationalisation extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/technical/internationalisation"
+            href={"/" + this.props.lng + "/technical/internationalisation"}
           />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
@@ -94,12 +98,7 @@ class Internationalisation extends Component {
             >
               {t("technicalHP2")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/technical/internationalisation"}
-            >
-              {t("technicalHP3")}
-            </a>{" "}
+            <a className="block bold">{t("technicalHP3")}</a>{" "}
             <a
               className="block"
               href={"/" + this.props.lng + "/technical/pagespeed"}

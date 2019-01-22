@@ -168,8 +168,8 @@ class Homepage extends Component {
 
           <div className="whatisseo">
             <div className="backgroundBlack xtrapad">
-              <h2 className="blackbgwhite orange traffic">what is </h2>
-              <h2 className="white">SEO </h2>
+              <h2 className="blackbgwhite orange traffic">{t("whatis")} </h2>
+              <h2 className="white">{t("seolong")} </h2>
               <p className="blackbgwhite txt3"> {t("whatisSEO")}</p>
             </div>
           </div>
@@ -241,8 +241,8 @@ class Homepage extends Component {
                       className="black"
                       href={"/" + this.props.lng + "/offpage"}
                     >
-                      off-page
-                      <span className="white"> optimization </span>
+                      offpage
+                      <span className="white"> {t("optimization")} </span>
                     </a>
                   </h2>
                   <p className="txt3 blackbgwhite">

@@ -28,14 +28,18 @@ class PageSpeed extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/technical/pagespeed"
+            href={"/" + this.props.lng + "/technical/pagespeed"}
           />
         </Helmet>{" "}
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
@@ -99,12 +103,7 @@ class PageSpeed extends Component {
             >
               {t("technicalHP3")}
             </a>{" "}
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/technical/pagespeed"}
-            >
-              {t("technicalHP4")}
-            </a>
+            <a className="block bold">{t("technicalHP4")}</a>
             <a
               className="block"
               href={"/" + this.props.lng + "/technical/mobilefriendly"}

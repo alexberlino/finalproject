@@ -38,16 +38,23 @@ class Technical extends Component {
             name="description"
             content="Research SEO Jobs: local SEO, Analytics, best practice, SEA"
           />
-          <link rel="canonical" href="https://www.seoberlino.com/en/research" />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/research"}
+          />
         </Helmet>
 
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
+            <a className="bold"> RESEARCH </a>
           </div>
 
           <img

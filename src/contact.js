@@ -77,7 +77,7 @@ class Contact extends Component {
           </div>
         </div>
         <a className="servicesHP" href={"/" + this.props.lng + "/services"}>
-          <button className="servicesHP">Services</button>
+          <button className="servicesHP">{t("servicesL")}</button>
         </a>
 
         <iframe

@@ -43,16 +43,18 @@ class Technical extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/technical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/technical"}
           />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> {t("services")} </a>
-
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
-
-            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
+            {" "}
+            <img className="iconsmore2" src="/arrow.png" />
+            <a href={"/" + this.props.lng}> {t("services")} </a>{" "}
+            <img className="iconsmore2" src="/arrow.png" />
+            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>{" "}
+            <img className="iconsmore2" src="/arrow.png" />
+            <a className="bold"> TECHNICAL </a>
           </div>
           <img
             src="/auditmainpic/technical.jpg"

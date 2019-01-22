@@ -22,14 +22,18 @@ class LocalSEO extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/research/localseo"
+            href={"/" + this.props.lng + "/research/localseo"}
           />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
@@ -86,12 +90,7 @@ class LocalSEO extends Component {
             <footer>Google's MyBusiness</footer>
           </div>
           <div className="black slide-in-left sideLinks">
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/research/localseo"}
-            >
-              {t("analyticsHP1")}
-            </a>
+            <a className="block bold">{t("analyticsHP1")}</a>
             <a
               className="block"
               href={"/" + this.props.lng + "/research/analytics"}

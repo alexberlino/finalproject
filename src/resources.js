@@ -31,14 +31,15 @@ class Resources extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/resources"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/resources"}
           />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lang}> {t("services")} </a>
-
-            <a href={"/" + this.props.lang + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
+            <a href={"/" + this.props.lang}> {t("services")} </a>{" "}
+            <img className="iconsmore2" src="/arrow.png" />
+            <a className="bold"> AUDIT </a>{" "}
           </div>
           <div className="transparent2" />
 
@@ -52,7 +53,7 @@ class Resources extends Component {
                 <a className="block" href={"/" + this.props.lng + "/onpage"}>
                   ONPAGE
                 </a>
-                <a className="block" href={"/" + this.props.lng + "/ffpage"}>
+                <a className="block" href={"/" + this.props.lng + "/offpage"}>
                   OFFPAGE
                 </a>
                 <a className="block" href={"/" + this.props.lng + "/technical"}>

@@ -30,14 +30,18 @@ class Security extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/technical/security"
+            href={"/" + this.props.lng + "/technical/security"}
           />
         </Helmet>{" "}
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
@@ -125,12 +129,7 @@ class Security extends Component {
             >
               {t("technicalHP6")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/technical/security"}
-            >
-              {t("technicalHP7")}
-            </a>
+            <a className="block bold">{t("technicalHP7")}</a>
           </div>
         </div>{" "}
       </div>

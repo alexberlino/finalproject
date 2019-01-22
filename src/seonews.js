@@ -50,12 +50,20 @@ class SEONews extends Component {
             name="description"
             content="SEO News: everything to know about the latest news in SEO"
           />
-          <link rel="canonical" href="https://www.seoberlino.com/en/seonews" />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/seonews"}
+          />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lang}> {t("services")}</a>
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lang + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lang + "/seonews"}> SEONEWS </a>
           </div>

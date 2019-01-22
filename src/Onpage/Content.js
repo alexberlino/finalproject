@@ -32,14 +32,18 @@ class Content extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/onpage/content"
+            href={"/" + this.props.lng + "/onpage/content"}
           />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
@@ -111,17 +115,7 @@ class Content extends Component {
             <a className="block" href={"/" + this.props.lng + "/onpage/metas"}>
               {t("onpageHP4")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/technical/mobilefriendly"}
-            >
-              <a
-                className="block"
-                href={"/" + this.props.lng + "/onpage/content"}
-              >
-                {t("onpageHP6")}
-              </a>
-            </a>
+            <span className="block bold">{t("onpageHP6")}</span>
             <a className="block" href={"/" + this.props.lng + "/onpage/images"}>
               {t("onpageHP7")}
             </a>

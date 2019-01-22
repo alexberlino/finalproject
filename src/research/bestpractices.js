@@ -24,14 +24,18 @@ class BestPractices extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/research/bestpractices"
+            href={"/" + this.props.lng + "/research/bestpractices"}
           />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> CONSULTANT </a>
+            <img className="iconsmore2" src="/arrow.png" />
+
+            <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
@@ -102,12 +106,7 @@ class BestPractices extends Component {
             >
               {t("analyticsHP2")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/research/bestpractices"}
-            >
-              {t("analyticsHP3")}
-            </a>
+            <a className="block bold">{t("analyticsHP3")}</a>
             <a className="block" href={"/" + this.props.lng + "/research/sea"}>
               {t("analyticsHP6")}
             </a>

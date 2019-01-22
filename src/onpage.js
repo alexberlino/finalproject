@@ -42,15 +42,22 @@ class Onpage extends Component {
             name="description"
             content="Onpage SEO Freelancer: Keyword research, landing pages, internal linking, metas, images and SD"
           />
-          <link rel="canonical" href="https://www.seoberlino.com/en/onpage" />
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/onpage"}
+          />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
+            <a className="bold"> ONPAGE </a>
           </div>
           <img
             src="/auditmainpic/onpage.jpg"

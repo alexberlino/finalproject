@@ -25,14 +25,18 @@ class Indexation extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/technical/indexation"
+            href={"/" + this.props.lng + "/technical/indexation"}
           />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
@@ -117,12 +121,7 @@ class Indexation extends Component {
             </ul>
           </div>
           <div className="black slide-in-left sideLinks">
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/technical/indexation"}
-            >
-              {t("technicalHP1")}
-            </a>
+            <a className="block bold">{t("technicalHP1")}</a>
             <a
               className="block"
               href={"/" + this.props.lng + "/technical/crawlability"}

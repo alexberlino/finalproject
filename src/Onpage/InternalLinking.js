@@ -19,14 +19,18 @@ class InternalLinking extends Component {
           <meta type="description" content="" />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/onpage/internallinking"
+            href={"/" + this.props.lng + "/onpage/internallinking"}
           />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
@@ -115,10 +119,7 @@ class InternalLinking extends Component {
             >
               {t("onpageHP2")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/onpage/internallinking"}
-            >
+            <a className="block bold">
               {t("onpageHP3")} {t("onpageHP5")}
             </a>{" "}
             <a className="block" href={"/" + this.props.lng + "/onpage/metas"}>
@@ -126,14 +127,9 @@ class InternalLinking extends Component {
             </a>
             <a
               className="block"
-              href={"/" + this.props.lng + "/technical/mobilefriendly"}
+              href={"/" + this.props.lng + "/onpage/content"}
             >
-              <a
-                className="block"
-                href={"/" + this.props.lng + "/onpage/content"}
-              >
-                {t("onpageHP6")}
-              </a>
+              {t("onpageHP6")}
             </a>
             <a className="block" href={"/" + this.props.lng + "/onpage/images"}>
               {t("onpageHP7")}

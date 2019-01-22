@@ -22,16 +22,17 @@ class SEA extends Component {
             name="description"
             content="Paid Search Services - Synchronize your SEA activities with your SEO Strategy. SEO Berlino."
           />
-          <link
-            rel="canonical"
-            href="https://www.seoberlino.com/en/research/sea"
-          />{" "}
+          <link rel="canonical" href={"/" + this.props.lng + "/research/sea"} />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
@@ -125,9 +126,7 @@ class SEA extends Component {
             >
               {t("analyticsHP3")}
             </a>
-            <a className="block" href={"/" + this.props.lng + "/research/sea"}>
-              {t("analyticsHP6")}
-            </a>
+            <a className="block bold">{t("analyticsHP6")}</a>
           </div>
         </div>{" "}
       </div>

@@ -35,6 +35,8 @@ class Services extends Component {
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
           </div>
           <div className="infoTitle">
@@ -44,7 +46,7 @@ class Services extends Component {
             <div className="introQuarter">
               {" "}
               <div className="transparent"> </div>
-              <h2>Mini-Audit (16-22 hours*)</h2>
+              <h2>Standard-Audit (16-22 hours*)</h2>
               <p className="txt2"> Executive Summary</p>
               <p className="txt2"> Keyword Research</p>
               <p className="txt2">

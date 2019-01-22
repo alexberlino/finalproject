@@ -35,13 +35,16 @@ class Blog extends Component {
             name="description"
             content="SEO Berlino Blog, about SEO topics: on-page, off-page, technical SEO, competitor analysis and Brandbuilding."
           />
-          <link rel="canonical" href="https://www.seoberlino.com/en/blog" />{" "}
+          <link rel="canonical" href={"/" + this.props.lng + "blog"} />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"#"}> BLOG </a>
+            <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
+
+            <a className="bold"> BLOG </a>
           </div>
           <div className="infoTitle">
             <h1 className="h1services2">SEO Blog</h1>

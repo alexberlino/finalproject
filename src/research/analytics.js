@@ -23,14 +23,18 @@ class Analytics extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/research/analytics"
+            href={"/" + this.props.lng + "/research/analysics"}
           />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
@@ -105,12 +109,7 @@ class Analytics extends Component {
             >
               {t("analyticsHP1")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/research/analytics"}
-            >
-              {t("analyticsHP2")}
-            </a>
+            <a className="block bold">{t("analyticsHP2")}</a>
             <a
               className="block"
               href={"/" + this.props.lng + "/research/bestpractices"}

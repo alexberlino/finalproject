@@ -81,14 +81,17 @@ class Article extends Component {
           />
           <link
             rel="canonical"
-            href={"https://www.seoberlino.com/en/article" + this.state.url}
+            href={"/" + this.props.lng + "/article/" + this.state.url}
           />
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
-            <a href={"/" + this.props.lng}> CONSULTANT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lng + "/blog"}> BLOG </a>
+            <a href={"/" + this.props.lang}> {t("servicesL")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
+
+            <a href={"/" + this.props.lang + "/blog"}> BLOG </a>
           </div>
           <img
             src={this.state.imageurl}

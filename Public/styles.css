@@ -46,7 +46,8 @@ h3 {
   color: black;
 }
 .black a:hover {
-  color: darkblue;
+  font-weight: bold;
+  color: black;
 }
 
 .block {
@@ -484,6 +485,11 @@ iframe {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
+.iconsmore2 {
+  height: 20px;
+  width: 20px;
+}
+
 .iconphone {
   background-color: transparent;
   display: inline;
@@ -662,7 +668,7 @@ th.imageBlog {
 }
 
 .txt4 {
-  font-size: 25px;
+  font-size: 22px;
   margin-left: 15%;
   margin-top: 11px;
   list-style: none;
@@ -1042,19 +1048,19 @@ a.linkServices {
 }
 
 .servicesHP :hover {
-  background-color: #5b0c32;
-  color: white;
-  z-index: 3000;
+  background-color: white;
+  color: #5b0c32;
+  z-index: 3;
 }
 .servicesHP2 :hover {
   background-color: white;
   color: #5b0c32;
-  z-index: 300;
+  z-index: 3;
 }
 
 button.servicesHP {
-  color: #5b0c32;
-  background-color: white;
+  color: white;
+  background-color: #5b0c32;
   position: flex;
   border: 1px #5b0c32 solid;
   font-size: 27px;
@@ -1152,7 +1158,7 @@ button.servicesHP2 {
 .transparent {
   width: 100%;
   position: relative;
-  height: 30px;
+  height: 10px;
   background-image: url("homepage.jpg");
   z-index: 0;
 }
@@ -1450,6 +1456,7 @@ button.servicesHP2 {
 
 .bold {
   font-weight: bold;
+  color: #5b0c32;
 }
 .breadcrumb {
   position: relative;
@@ -1460,7 +1467,7 @@ button.servicesHP2 {
 }
 
 .breadcrumb a:hover {
-  font-style: italic;
+  font-weight: bold;
 }
 .center {
   text-align: center;
@@ -1649,7 +1656,7 @@ button.servicesHP2 {
   color: black;
   position: relative;
   width: 100%;
-  font-size: 59px;
+  font-size: 52px;
   margin-bottom: 10px;
   display: block;
   z-index: 1;
@@ -1782,6 +1789,10 @@ h2.orange {
   padding-top: 10px;
   display: inline;
   z-index: 5;
+}
+
+.orange2 a:hover {
+  color: #5b0c32;
 }
 
 .orange2 {

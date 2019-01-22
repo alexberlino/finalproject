@@ -36,15 +36,22 @@ class Offpage extends Component {
             name="description"
             content="Offpage SEO Jobs: backlink competitor analysis, backlink profile, bradnbuilding opportunities, toxic link cleaning, best practice"
           />
-          <link rel="canonical" href="https://www.seoberlino.com/en/offpage" />{" "}
+          <link
+            rel="canonical"
+            href={"https://www.seoberlino.com/" + this.props.lng + "/offpage"}
+          />{" "}
         </Helmet>
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
+            <a className="bold"> OFFPAGE </a>
           </div>
           <img
             src="/auditmainpic/offpage.jpg"

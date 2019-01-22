@@ -31,14 +31,18 @@ class MobileFriendly extends Component {
           />
           <link
             rel="canonical"
-            href="https://www.seoberlino.com/en/technical/mobilefriendly"
+            href={"/" + this.props.lng + "/technical/mobilefriendly"}
           />
         </Helmet>{" "}
         <div className="services">
           <div className="breadcrumb">
+            <img className="iconsmore2" src="/arrow.png" />
+
             <a href={"/" + this.props.lng}> {t("services")} </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
@@ -137,12 +141,7 @@ class MobileFriendly extends Component {
             >
               {t("technicalHP4")}
             </a>
-            <a
-              className="block"
-              href={"/" + this.props.lng + "/technical/mobilefriendly"}
-            >
-              {t("technicalHP5")}
-            </a>
+            <a className="block bold">{t("technicalHP5")}</a>
             <a
               className="block"
               href={"/" + this.props.lng + "/technical/dynamicrendering"}
