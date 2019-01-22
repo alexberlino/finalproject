@@ -33,14 +33,48 @@ class Navigation extends Component {
     return (
       <header className="toolbar">
         <nav className="toolbar_navigation">
-          <div>
-            <a
-              name="back to Homepage"
-              href={"/" + this.props.lang}
-              onClick={() => this.props.pageChange("/")}
-            >
-              <img alt="logo" className="toolbar_logo" src="/logo.jpg" />
-            </a>
+          <a
+            name="back to Homepage"
+            href={"/" + this.props.lang}
+            onClick={() => this.props.pageChange("/")}
+          >
+            <img alt="logo" className="toolbar_logo" src="/logo.jpg" />
+          </a>
+
+          <div className="toolbar_navigation_items navEntries">
+            <ul>
+              <li>
+                <a href={"/" + this.props.lang + "/services"}>
+                  <span onClick={() => this.props.pageChange("/services")}>
+                    {t("servicesU")}
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href={"/" + this.props.lang + "/resources"}>
+                  <span onClick={() => this.props.pageChange("/resources")}>
+                    SEO AUDIT
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href={"/" + this.props.lang + "/blog"}>
+                  <span onClick={() => this.props.pageChange("/blog")}>
+                    BLOG
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href={"/" + this.props.lang + "/contact"}>
+                  <span onClick={() => this.props.pageChange("/contact")}>
+                    {t("contact")}
+                  </span>
+                </a>
+              </li>
+            </ul>
           </div>
 
           <div className="languageBtn">
@@ -72,7 +106,6 @@ class Navigation extends Component {
             </Link>
           </div>
 
-          <div className="toolbar_navigation_items navEntries" />
           <div className="toolbar_toggle_button">
             <img
               src="/hamburger.svg"

@@ -219,6 +219,10 @@ iframe {
   min-height: calc(100vh - 160px);
 }
 
+.main {
+  background-color: white;
+}
+
 .map {
   position: relative;
   display: inline-flex;
@@ -315,25 +319,17 @@ iframe {
   font-size: 30px;
 }
 
-.main {
-  background-color: white;
-  opacity: 0.9;
-}
-
 .services {
   margin-bottom: 50px;
   position: relative;
   margin-left: 22%;
   background-color: white;
-  opacity: 0.89;
+  opacity: 0.96;
+  z-index: 3;
   top: -200px;
-  padding-top: 0px;
-  margin-top: 0px;
 }
 
 .services2 {
-  margin-bottom: 50px;
-
   position: relative;
   margin-left: 17%;
   background-color: white;
@@ -351,7 +347,7 @@ iframe {
   position: relative;
   margin-bottom: 1%;
   margin-left: 25%;
-  position: relative;
+  top: 0px;
 }
 
 .mainBlog {
@@ -384,7 +380,7 @@ iframe {
   position: relative;
   display: table;
   top: 28px;
-  left: 65%;
+  left: 70%;
   z-index: 100;
 }
 .languageBtnDE {
@@ -1427,21 +1423,6 @@ button.servicesHP2 {
   width: 80px;
 }
 
-.toolbar_navigation_items {
-}
-
-.toolbar_navigation_items ul {
-  list-style: none;
-  position: fixed;
-  top: 0px;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  margin-left: 15px;
-  background-color: white;
-  height: 30px;
-}
-
 .languageBtn a:hover {
   color: white;
   background-color: black;
@@ -1485,21 +1466,37 @@ button.servicesHP2 {
   width: 80%;
 }
 
+.toolbar_navigation_items ul {
+  list-style: none;
+  position: fixed;
+  top: 10px;
+  margin-left: 33%;
+  padding: 0;
+  display: flex;
+  background-color: white;
+  height: 30px;
+}
+
 .toolbar_navigation_items li {
-  padding: 0.3rem;
   background-color: white;
   height: 20px;
-  width: 110px;
-  top: 5px;
+  width: auto;
+  padding-top: 5px;
+  padding-left: 25px;
+  text-align: center;
 }
 
 .toolbar_navigation_items a {
   color: black;
-  width: 70px;
+  font-size: 19px;
   text-decoration: none;
   background-color: white;
-  padding: 1px 15px;
 }
+
+.toolbar_navigation_items a:hover {
+  font-weight: bold;
+}
+
 .toggle-button {
   display: flex;
   z-index: 300;
@@ -1815,4 +1812,33 @@ h2.white {
   margin-top: 0px;
   padding-top: 10px;
   display: inline;
+}
+
+.slide-in-left {
+  animation: slide-in-left 1s;
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }

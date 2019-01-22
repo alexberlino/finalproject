@@ -51,72 +51,70 @@ class Resources extends Component {
             <h1 className="h1services">SEO Audit</h1>
           </div>
 
-          <div>
-            <div className="marginright black">
-              <div className="black slide-in-left sideLinks">
-                <a className="block" href={"/" + this.props.lng + "/onpage"}>
-                  ONPAGE
-                </a>
-                <a className="block" href={"/" + this.props.lng + "/offpage"}>
-                  OFFPAGE
-                </a>
-                <a className="block" href={"/" + this.props.lng + "/technical"}>
-                  {t("technical")}{" "}
-                </a>{" "}
-                <a className="block" href={"/" + this.props.lng + "/research"}>
-                  RESEARCH & ANALYTICS
-                </a>{" "}
-                <a className="block" href={"/" + this.props.lng + "/seonews"}>
-                  SEONEWS
-                </a>{" "}
-              </div>
-              <p className="italic">{t("auditintro")}</p>
-              <br />{" "}
-              <h2>
-                <a href={"/" + this.props.lng + "/onpage/keywordresearch"}>
-                  Keyword Research
-                </a>{" "}
-                & <a href={"/" + this.props.lng + "/onpage"}>Onpage SEO</a>
-              </h2>
-              <p>
-                {t("auditintro2")}{" "}
-                <a href={"/" + this.props.lng + "/onpage"} className="block">
-                  <img title="more" className="iconsmore" src="/more.svg" />
-                </a>
-              </p>
-              <br />
-              <h2>
-                <a href={"/" + this.props.lng + "/technical"}>Technical SEO</a>
-              </h2>
-              <p>
-                {t("auditintro3")}{" "}
-                <a href={"/" + this.props.lng + "/technical"} className="block">
-                  <img title="more" className="iconsmore" src="/more.svg" />
-                </a>
-              </p>
-              <br />
-              <h2>
-                <a href={"/" + this.props.lng + "/offpage"}>Offpage SEO</a>
-              </h2>
-              <p>
-                {t("auditintro4")}{" "}
-                <a href={"/" + this.props.lng + "/offpage"} className="block">
-                  <img title="more" className="iconsmore" src="/more.svg" />
-                </a>{" "}
-              </p>{" "}
-              <br />
-              <h2>
-                <a href={"/" + this.props.lng + "/research"}>
-                  Competitor Analysis, Analytics, SEA and Local SEO
-                </a>
-              </h2>
-              <p>
-                {t("auditintro5")}{" "}
-                <a href={"/" + this.props.lng + "/research"} className="block">
-                  <img title="more" className="iconsmore" src="/more.svg" />
-                </a>
-              </p>
+          <div className="marginright black">
+            <div className="black slide-in-left sideLinks">
+              <a className="block" href={"/" + this.props.lng + "/onpage"}>
+                ONPAGE
+              </a>
+              <a className="block" href={"/" + this.props.lng + "/offpage"}>
+                OFFPAGE
+              </a>
+              <a className="block" href={"/" + this.props.lng + "/technical"}>
+                {t("technical")}{" "}
+              </a>{" "}
+              <a className="block" href={"/" + this.props.lng + "/research"}>
+                RESEARCH & ANALYTICS
+              </a>{" "}
+              <a className="block" href={"/" + this.props.lng + "/seonews"}>
+                SEONEWS
+              </a>{" "}
             </div>
+            <p className="italic">{t("auditintro")}</p>
+            <br />{" "}
+            <h2>
+              <a href={"/" + this.props.lng + "/onpage/keywordresearch"}>
+                Keyword Research
+              </a>{" "}
+              & <a href={"/" + this.props.lng + "/onpage"}>Onpage SEO</a>
+            </h2>
+            <p>
+              {t("auditintro2")}{" "}
+              <a href={"/" + this.props.lng + "/onpage"} className="block">
+                <img title="more" className="iconsmore" src="/more.svg" />
+              </a>
+            </p>
+            <br />
+            <h2>
+              <a href={"/" + this.props.lng + "/technical"}>Technical SEO</a>
+            </h2>
+            <p>
+              {t("auditintro3")}{" "}
+              <a href={"/" + this.props.lng + "/technical"} className="block">
+                <img title="more" className="iconsmore" src="/more.svg" />
+              </a>
+            </p>
+            <br />
+            <h2>
+              <a href={"/" + this.props.lng + "/offpage"}>Offpage SEO</a>
+            </h2>
+            <p>
+              {t("auditintro4")}{" "}
+              <a href={"/" + this.props.lng + "/offpage"} className="block">
+                <img title="more" className="iconsmore" src="/more.svg" />
+              </a>{" "}
+            </p>{" "}
+            <br />
+            <h2>
+              <a href={"/" + this.props.lng + "/research"}>
+                Competitor Analysis, Analytics, SEA and Local SEO
+              </a>
+            </h2>
+            <p>
+              {t("auditintro5")}{" "}
+              <a href={"/" + this.props.lng + "/research"} className="block">
+                <img title="more" className="iconsmore" src="/more.svg" />
+              </a>
+            </p>
           </div>
         </div>
       </div>
