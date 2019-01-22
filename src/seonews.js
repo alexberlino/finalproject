@@ -40,7 +40,6 @@ class SEONews extends Component {
   render() {
     const { t, i18n } = this.props;
 
-    console.log(this.props);
     return (
       <div className="main">
         <Helmet>
@@ -55,6 +54,13 @@ class SEONews extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/seonews"}
           />
         </Helmet>
+        <img
+          src="/auditmainpic/seonews.jpg"
+          title="news, a photo by raw pixel"
+          alt="SEO News"
+          height="450px"
+          className="imageAudit"
+        />
         <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
@@ -67,13 +73,6 @@ class SEONews extends Component {
 
             <a href={"/" + this.props.lang + "/seonews"}> SEONEWS </a>
           </div>
-          <img
-            src="/auditmainpic/seonews.jpg"
-            title="news, a photo by raw pixel"
-            alt="SEO News"
-            height="450px"
-            className="imageAudit"
-          />
 
           <h1 className="h1services">SEONews</h1>
 

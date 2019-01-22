@@ -68,7 +68,6 @@ class Article extends Component {
       return <NoMatch />;
     }
     const { t, i18n } = this.props;
-    console.log(this.props.i18n.language);
 
     return (
       <div className="main">
@@ -87,7 +86,12 @@ class Article extends Component {
             href={"/" + this.props.lng + "/article/" + this.state.url}
           />
         </Helmet>
-        <div className="services2">
+        <img
+          src={this.state.imageurl}
+          className="imageAudit"
+          alt="blog article"
+        />
+        <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
 
@@ -96,11 +100,7 @@ class Article extends Component {
 
             <a href={"/" + this.props.lang + "/blog"}> BLOG </a>
           </div>
-          <img
-            src={this.state.imageurl}
-            className="imageAudit"
-            alt="blog article"
-          />
+
           <div className="infoTitle">
             <h1 className="h1services">{this.state.title}</h1>
           </div>

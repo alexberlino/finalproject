@@ -12,7 +12,7 @@ class Internationalisation extends Component {
   }
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props.i18n.language);
+    
 
     return (
       <div className="main">

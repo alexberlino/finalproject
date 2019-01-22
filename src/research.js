@@ -25,7 +25,6 @@ class Technical extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props);
 
     return (
       <div className="main">

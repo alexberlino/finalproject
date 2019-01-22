@@ -98,14 +98,9 @@ class Onpage extends Component {
                 </a>
                 <a
                   className="block"
-                  href={"/" + this.props.lng + "/technical/mobilefriendly"}
+                  href={"/" + this.props.lng + "/onpage/content"}
                 >
-                  <a
-                    className="block"
-                    href={"/" + this.props.lng + "/onpage/content"}
-                  >
-                    {t("onpageHP6")}
-                  </a>
+                  {t("onpageHP6")}
                 </a>
                 <a
                   className="block"

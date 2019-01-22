@@ -90,21 +90,12 @@ class Offpage extends Component {
               <h2>What is Offpage SEO?</h2>
               <p>{t("offpageMP")}</p>
               <h2>Why is Off-Page SEO important?</h2>
-              <p>
-                <p>{t("offpageMP2")}</p>
-              </p>
+              <p>{t("offpageMP2")}</p>
               <h2>What is linkbuilding?</h2>
-              <p>
-                <p>{t("offpageMP3")}</p>
-              </p>
+              <p>{t("offpageMP3")}</p>
               <h2>Social Media </h2>
-              <p>
-                <p>{t("offpageMP4")}</p>
-              </p>
-              <h2>Social Bookmarking</h2>{" "}
-              <p>
-                <p>{t("offpageMP5")}</p>
-              </p>
+              <p>{t("offpageMP4")}</p>
+              <h2>Social Bookmarking</h2> <p>{t("offpageMP5")}</p>
             </div>
           </div>
         </div>

@@ -18,7 +18,6 @@ class Resources extends Component {
   }
   render() {
     const { t, i18n } = this.props;
-    console.log("PROPS" + this.props);
 
     return (
       <div className="main">
@@ -34,14 +33,19 @@ class Resources extends Component {
             href={"https://www.seoberlino.com/" + this.props.lng + "/resources"}
           />
         </Helmet>
-        <div className="services2">
+        <img
+          src="/auditmainpic/audit.jpg"
+          title="analysis, a photo by rawpixel"
+          alt="SEO Analysis and Research"
+          className="imageAudit"
+        />
+        <div className="services">
           <div className="breadcrumb">
             <img className="iconsmore2" src="/arrow.png" />
             <a href={"/" + this.props.lang}> {t("services")} </a>{" "}
             <img className="iconsmore2" src="/arrow.png" />
             <a className="bold"> AUDIT </a>{" "}
           </div>
-          <div className="transparent2" />
 
           <div className="infoTitle">
             <h1 className="h1services">SEO Audit</h1>

@@ -15,7 +15,7 @@ import axios from "./axios";
 class Contact extends Component {
   render() {
     const { t, i18n } = this.props;
-    console.log(this.props.i18n.language);
+    
     return (
       <div className="main">
         <Helmet>

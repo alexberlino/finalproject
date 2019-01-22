@@ -15,7 +15,7 @@ class Security extends Component {
       window.scrollTo(0, 0);
     }
     const { t, i18n } = this.props;
-    console.log(this.props.i18n.language);
+    
 
     return (
       <div className="main">
