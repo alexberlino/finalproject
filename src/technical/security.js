@@ -15,7 +15,6 @@ class Security extends Component {
       window.scrollTo(0, 0);
     }
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -52,7 +51,7 @@ class Security extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services"> Security - Migration to https</h1>{" "}
-          <div className="serviceTitle"> Why it's Important</div>
+          <h2> Why it's Important</h2>
           <div className="serviceText">
             <p>
               Hyper Text Transfer Protocol Secure (HTTPS) is the secure version
@@ -83,7 +82,7 @@ class Security extends Component {
               implemented it yet, on top of lower rankings.
             </p>
           </div>
-          <div className="serviceTitle"> To do</div>
+          <h2> To do</h2>
           <div className="serviceText">
             Plan your site migration carefully, incluing identify pages to
             redirect (which should be the most valuable ones), and those you

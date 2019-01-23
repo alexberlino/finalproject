@@ -40,7 +40,7 @@ class BrandBuilding extends Component {
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
           <h1 className="h1services">Brand building</h1>
-          <div className="serviceTitle"> Why it's Important</div>
+          <h2> Why it's Important</h2>
           <div className="serviceText">{t("brandbuildingMP1")}</div>
           <h2> Plan to get links</h2>
           <div className="serviceText">{t("brandbuildingMP2")}</div>

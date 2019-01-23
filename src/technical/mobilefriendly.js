@@ -15,7 +15,6 @@ class MobileFriendly extends Component {
       window.scrollTo(0, 0);
     }
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -58,7 +57,7 @@ class MobileFriendly extends Component {
             {" "}
             Mobile First - Mobile friendly websites
           </h1>{" "}
-          <div className="serviceTitle"> Why it's (extremely) Important</div>
+          <h2> Why it's (extremely) Important</h2>
           <div className="serviceText">
             <p>
               If your website it not mobile friendly, in most cases, you are in
@@ -105,7 +104,7 @@ class MobileFriendly extends Component {
               PageSpeed Developer Tool
             </p>
           </div>
-          <div className="serviceTitle"> Tools and Resources</div>
+          <h2> Tools and Resources</h2>
           <div className="serviceText">
             <footer>
               <a

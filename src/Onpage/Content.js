@@ -55,10 +55,7 @@ class Content extends Component {
           </div>
 
           <h1 className="h1services"> Content & Semantics </h1>
-          <div className="serviceTitle">
-            {" "}
-            What does "content is king" really mean
-          </div>
+          <h2> What does "content is king" really mean</h2>
           <div className="serviceText">
             The content is the value you want to create. If you content has no
             value to the user, or if it is duplicate content, your content will
@@ -68,10 +65,7 @@ class Content extends Component {
             not focus on SEO only.
           </div>
 
-          <div className="serviceTitle">
-            {" "}
-            Content optimization is not keyword stuffing
-          </div>
+          <h2> Content optimization is not keyword stuffing</h2>
           <div className="serviceText">
             Content is King, but far away are the times when Google got tricked
             with keyword stuffing. As Google bots constantly improve to assess
@@ -79,10 +73,7 @@ class Content extends Component {
             your content doesn't make much sense linguisitcally or for the user.
           </div>
           <img src="/content.svg" className="serviceImage" />
-          <div className="serviceTitle">
-            {" "}
-            The effects of mobile first on content
-          </div>
+          <h2> The effects of mobile first on content</h2>
           <div className="serviceText">
             Since mobile first indexation, the content on your mobile version is
             the master one for both mobile and desktop indexation. This means

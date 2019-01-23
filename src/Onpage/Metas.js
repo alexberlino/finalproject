@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 class Metas extends Component {
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -46,7 +45,7 @@ class Metas extends Component {
           </div>
 
           <h1 className="h1services"> MetasTags & Headings </h1>
-          <div className="serviceTitle"> titles</div>
+          <h2> titles</h2>
           <div className="serviceText">
             Page titles are often neglected, but are really important and very
             simple to implement. That means you need to have them spot on. Each
@@ -54,7 +53,7 @@ class Metas extends Component {
             using terms that users are searching, so according to your keywords
             list.
           </div>
-          <div className="serviceTitle"> description</div>
+          <h2> description</h2>
           <div className="serviceText">
             Meta descriptions are not required t have your page rank well. Even
             if your meta description is empty or missing, Google will take some
@@ -67,13 +66,13 @@ class Metas extends Component {
             click happen.
           </div>
 
-          <div className="serviceTitle"> headings</div>
+          <h2> headings</h2>
           <div className="serviceText">
             you should have one h1 per page with h1 being your main keyword for
             the page. then
           </div>
 
-          <div className="serviceTitle"> what to check</div>
+          <h2> what to check</h2>
           <div className="serviceText">
             Crawling through the website to analyse and identify:
             <ul>
@@ -82,7 +81,7 @@ class Metas extends Component {
               <li>too long or too short metas</li>
             </ul>
           </div>
-          <div className="serviceTitle"> Tools and Resources</div>
+          <h2> Tools and Resources</h2>
           <div className="serviceText">
             <footer>Screaming Frog </footer>
           </div>

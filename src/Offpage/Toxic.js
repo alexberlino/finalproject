@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 class Toxic extends Component {
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -44,21 +43,15 @@ class Toxic extends Component {
           </div>
 
           <h1 className="h1services"> {t("linkstoavoidtitle")}</h1>
-          <div className="serviceTitle"> Quality over quantity</div>
+          <h2> Quality over quantity</h2>
           <div className="serviceText">{t("linkstoavoid1")}</div>
-          <div className="serviceTitle">
-            {" "}
-            You are responsible for the links that point to you
-          </div>
+          <h2> You are responsible for the links that point to you</h2>
           <div className="serviceText">{t("linkstoavoid2")}</div>
 
-          <div className="serviceTitle"> Too many links from one domain</div>
+          <h2> Too many links from one domain</h2>
           <div className="serviceText">{t("linkstoavoid3")}</div>
 
-          <div className="serviceTitle">
-            {" "}
-            Disavow and contact them to remove them
-          </div>
+          <h2> Disavow and contact them to remove them</h2>
           <div className="serviceText">{t("linkstoavoid4")}</div>
           <div className="sideLinks black slide-in-left">
             <a

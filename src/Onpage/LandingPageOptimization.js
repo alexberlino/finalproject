@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 class LandingPageOptimization extends Component {
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -48,7 +47,7 @@ class LandingPageOptimization extends Component {
           </div>
 
           <h1 className="h1services">Landing Pages</h1>
-          <div className="serviceTitle"> Why it's Important</div>
+          <h2> Why it's Important</h2>
           <div className="serviceText">
             Often, companies create Landing pages and then expect it to perform
             as it is. There are actually many factors that will make a landing
@@ -59,7 +58,7 @@ class LandingPageOptimization extends Component {
             website is nice, but you should definitely make it your top priority
             to create a user-friendly website first!
           </div>
-          <div className="serviceTitle"> To do</div>
+          <h2> To do</h2>
           <div className="serviceText">
             <ul>
               <li>

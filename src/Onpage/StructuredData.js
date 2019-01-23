@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 class StructuredData extends Component {
   render() {
     const { t, i18n } = this.props;
-    
+
     if (window.innerWidth < 1500) {
       window.scrollTo(0, 0);
     }
@@ -45,7 +45,7 @@ class StructuredData extends Component {
           </div>
 
           <h1 className="h1services"> Structured Data </h1>
-          <div className="serviceTitle"> Why it's Important</div>
+          <h2> Why it's Important</h2>
           <div className="serviceText">
             Google, Bing, Yandex and Yahoo agreed on a standardised format:
             schema.org for providing information about a page and to classify
@@ -62,7 +62,7 @@ class StructuredData extends Component {
             preferential treatment in search engines, it is worth making the
             effort to add structured data to your site.
           </div>
-          <div className="serviceTitle"> To do</div>
+          <h2> To do</h2>
           <div className="serviceText">
             You can use Structured Data to provide additional information about
             creative work, events, organisation, a person, a place or a product.

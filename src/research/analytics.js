@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 class Analytics extends Component {
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -46,53 +45,18 @@ class Analytics extends Component {
           </div>
 
           <h1 className="h1services"> Analytics SEO</h1>
-          <h2>
-            {" "}
-            Reliable data to make confident decisions
-          </h2>
-          <div className="serviceText">
-            In order to efficiently work in SEO, especially for on-page work, it
-            is crucial to use *reliable data*, and analytics is key here in
-            compiling reports which will enable for instance to identify the
-            number of visits/unique visitors and conversions for specific pages
-            and site sections, or compare data by device type or browser.
-          </div>
+          <h2> {t("analyticsMPT1")} </h2>
+          <div className="serviceText">{t("analyticsMP1")} </div>
           <h2> Google Analytics</h2>
-          <div className="serviceText">
-            Google offers a free version for an analytics tool: Google
-            Analytics. Its set-up is quite straight-forward but you will still
-            needs
-          </div>
+          <div className="serviceText">{t("analyticsMP2")}</div>
 
-          <h2> Google Analytics First steps</h2>
-          <div className="serviceText">
-            <ul>
-              <li>
-                Activation in code (head) for each page you want to track.
-              </li>
-              <li>
-                Create Accounts / Views for each account: All Data, Test, Master
-              </li>
-              <li>
-                Create Filters: exclude all bots traffic and internal traffic
-              </li>
-              <li>Create Reports and Dashboards</li>
-              <li>Correctly setup UTM for your marketing campaigns</li>
-              <li>
-                Optimize continuously, analysing reports and acting accordingly
-                (new reports, new filters, etc){" "}
-              </li>
-            </ul>
-          </div>
+          <h2>{t("analyticsMPT3")}</h2>
+          <div className="serviceText">{t("analyticsMP4")}</div>
 
-          <h2> Google Search Console Integration</h2>
-          <div className="serviceText">
-            To get more valuable insight especially in terms of keywords, it is
-            better to integrate Google Search Console to Google Analytics. GA
-            itself does not show any keywords; they appear as "not provided".
-          </div>
+          <h2>{t("analyticsMPT4")}</h2>
+          <div className="serviceText">{t("analyticsMP4")}</div>
 
-          <div className="serviceTitle"> Relevant Tools and Resources</div>
+          <h2> {t("analyticsMPT5")}</h2>
           <div className="serviceText">
             <footer>Google Analytics </footer>
             <footer>Google Search Console</footer>

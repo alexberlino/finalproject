@@ -12,7 +12,6 @@ class PageSpeed extends Component {
   }
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -52,7 +51,7 @@ class PageSpeed extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services"> Page Speed</h1>{" "}
-          <div className="serviceTitle"> Why it's Important</div>
+          <h2> Why it's Important</h2>
           <div className="serviceText">
             There are several ways you can speed up your site: Use fast hosting.
             Use a fast DNS (‘domain name system’) provider Minimise ‘HTTP
@@ -69,7 +68,7 @@ class PageSpeed extends Component {
             in terms of organic visibility. If you haven't done it yet, I
             strongly advise you to use the PageSpeed Insights tool (link below){" "}
           </div>
-          <div className="serviceTitle"> Tools and Resources</div>
+          <h2> Tools and Resources</h2>
           <div className="serviceText">
             <footer>
               <a href="https://developers.google.com/speed/pagespeed/insights/?hl=de">

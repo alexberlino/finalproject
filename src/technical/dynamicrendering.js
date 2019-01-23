@@ -15,7 +15,6 @@ class DynamicRendering extends Component {
       window.scrollTo(0, 0);
     }
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -52,7 +51,6 @@ class DynamicRendering extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services"> Dynamic Rendering</h1>{" "}
-          <div className="serviceTitle"> </div>
           <div className="serviceText">
             For JavaScript apps such as React, Angular or View, search engines
             such as Google still struggle to properly crawl and index all pages.

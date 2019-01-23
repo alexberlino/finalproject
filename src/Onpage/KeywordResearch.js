@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 class KeywordResearch extends Component {
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">

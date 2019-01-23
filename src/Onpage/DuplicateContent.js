@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 class DuplicateContent extends Component {
   render() {
     const { t, i18n } = this.props;
-    
+
     if (window.innerWidth < 1500) {
       window.scrollTo(0, 0);
     }
@@ -48,17 +48,14 @@ class DuplicateContent extends Component {
           </div>
 
           <h1 className="h1services"> Duplicate Content</h1>
-          <div className="serviceTitle">
-            {" "}
-            Duplicate Content, the biggest threat to making content king
-          </div>
+          <h2> Duplicate Content, the biggest threat to making content king</h2>
           <div className="serviceText">
             Search Engines do not like duplicate content indexed. If you have
             many similar pages and you are not flagging them, these pages will
             not rank well.
           </div>
 
-          <div className="serviceTitle"> Indexation audit</div>
+          <h2> Indexation audit</h2>
           <div className="serviceText">
             Identify duplicate content, assess status and design for the master
             page, deindex unnecessary pages using canonicals, 410s or redirects
@@ -77,7 +74,7 @@ class DuplicateContent extends Component {
             element to let search engines know where the ‘main’ version of your
             content resides.
           </div>
-          <div className="serviceTitle"> Using Canonicals</div>
+          <h2> Using Canonicals</h2>
           <div className="serviceText">
             Canonicals are best used when you have very similar pages fro
             imstance same t-shirt in different colours. You don't want to index
@@ -88,10 +85,7 @@ class DuplicateContent extends Component {
             follow up with a new strategy if necessary.
           </div>
 
-          <div className="serviceTitle">
-            {" "}
-            Same language country, different territory target
-          </div>
+          <h2> Same language country, different territory target</h2>
           <div className="serviceText">
             A possible cause for duplicate content is when targeting different
             territoris (UK and US for instance) with different domains or urls

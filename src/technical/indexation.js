@@ -12,7 +12,6 @@ class Indexation extends Component {
   }
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -46,11 +45,8 @@ class Indexation extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services"> Indexation</h1>{" "}
-          <div className="serviceTitle">
-            {" "}
-            Only have indexed pages which deserve to be indexed
-          </div>
+          <h1 className="h1services">Indexation</h1>{" "}
+          <h2> Only have indexed pages which deserve to be indexed</h2>
           <div className="serviceText">
             <p>
               Efficient Indexation is key in order to get on well with Google's
@@ -69,7 +65,7 @@ class Indexation extends Component {
               height="100px"
             />
           </div>
-          <div className="serviceTitle"> Investiate your indexation</div>
+          <h2> Investiate your indexation</h2>
           <div className="serviceText">
             <ul>
               <li>
@@ -86,7 +82,7 @@ class Indexation extends Component {
               </li>
             </ul>
           </div>
-          <div className="serviceTitle"> Redirects</div>
+          <h2> Redirects</h2>
           <div className="serviceText">
             <ul>
               <li>
@@ -101,7 +97,7 @@ class Indexation extends Component {
               </li>
             </ul>
           </div>
-          <div className="serviceTitle"> Check for metas</div>
+          <h2> Check for metas</h2>
           <div className="serviceText">
             <ul>
               <li>while you are auditing you indexation, check for metas</li>

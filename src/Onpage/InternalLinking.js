@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 class InternalLinking extends Component {
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -41,7 +40,7 @@ class InternalLinking extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
           <h1 className="h1services">Internal Linking </h1>
-          <div className="serviceTitle"> Why it's (extermely) Important</div>
+          <h2> Why it's (extermely) Important</h2>
           <div className="serviceText">
             Internal Linking is core for on-page SEO, especially for big
             websites. Link juice redistribution, prioritization of key pages or
@@ -53,7 +52,7 @@ class InternalLinking extends Component {
             content. This way Google finds out which pages on your site cover
             similar subject matter.
           </div>
-          <div className="serviceTitle"> To do</div>
+          <h2> To do</h2>
           <div className="serviceText">
             Review and audit your current internal linking settings, including
             navigation, sub-navigations, breadcrumb and tags, taking into
@@ -102,7 +101,7 @@ class InternalLinking extends Component {
             easily navigate to related posts. At Yoast we always link to the
             matching categories and tags in the sidebar of each post:
           </div>{" "}
-          <div className="serviceTitle"> Some relevant tools</div>
+          <h2> Some relevant tools</h2>
           <div className="serviceText">Screaming Frog</div>
           <div className="black slide-in-left sideLinks">
             <a

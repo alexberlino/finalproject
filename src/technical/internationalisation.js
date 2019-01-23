@@ -12,7 +12,6 @@ class Internationalisation extends Component {
   }
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -51,14 +50,14 @@ class Internationalisation extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services">Internationalisation</h1>{" "}
-          <div className="serviceTitle"> Why it's Important</div>
+          <h2> Why it's Important</h2>
           <div className="serviceText">
             There are various options when operating internationally: same root
             domain, different top level domains, subdomains, how to link between
             them, how to simplify the process without negatively affecting your
             SEO.
           </div>
-          <div className="serviceTitle"> To do</div>
+          <h2> To do</h2>
           <div className="serviceText">
             <p>
               If you are using the same root domain for internationalisation,

@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 class SEA extends Component {
   render() {
     const { t, i18n } = this.props;
-    
+
     if (window.innerWidth < 1500) {
       window.scrollTo(0, 0);
     }
@@ -43,65 +43,17 @@ class SEA extends Component {
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
           <h1 className="h1services"> SEA, Search Engine Advertising</h1>
-          <h2>
-            {" "}
-            What is SEA? And what SEO and SEA have in common ?{" "}
-          </h2>
-          <div className="serviceText">
-            Paid Search uses the same base as SEO in keywords, and of course
-            share the same space in SERPs (Search Engine Result Pages). With
-            poor SEO visibility, SEA helps you to get those first visits to get
-            going and/or get visibility and brand awareness using the Display
-            Network.
-          </div>
-          <h2> Adwords Set-up</h2>
-          <div className="serviceText">
-            Google Ads is not extremely competitive which means CPC (cost per
-            click) are very high for pretty much any industry. Doing a thorough
-            Keyword Research is key before starting a campaign. It is also
-            important to think budget and choose your strategy: visibility, ROI,
-            etc. Adwords Set-up
-          </div>
-          <h2> Adwords Account Optimization</h2>
-          <div className="serviceText">
-            Once you have chosen your budget strategy, created your campaigns,
-            adgroups and ads, optimization begins:
-            <ul>
-              <li>Keywords bid ajustments</li>
-              <li>landing pages testing, CVR here is good indicator</li>
-              <li>ads testing</li>{" "}
-              <li>work on that Quality Score to optimize your bids</li>
-              <li>
-                ad & remove keywords, vary match accordingly (main matches are
-                exact, phrase, broad)
-              </li>
-              <li>negative list adding</li>
-              <li>display network adjustments</li>
-            </ul>
-          </div>
-          <h2> SEO / SEA Consistency </h2>
-          <div className="serviceText">
-            A great way to transmit a stronger message on SERPs is to be
-            consistent in your language and word choice in SEO and SEA.
-            <ul>
-              <li>
-                consitent form of address for non-english languages such as
-                German, French, Italian, etc
-              </li>
-              <li>
-                same wording and style in Ads and meta descriptions so that the
-                user has more chances to recognise your brand.
-              </li>
-            </ul>
-          </div>
-          <h2> Google Ads Data for SEO </h2>
-          <div className="serviceText">
-            Google Ads are expensive but on top of getting you that visibility
-            and orders, it is a precious goldmine for keywords, especially if
-            the account is well managed (with impressions, meaning high enough
-            bids)
-          </div>
-          <h2> Releted Tools and Resources</h2>
+          <h2> {t("seaMPT1")} </h2>
+          <div className="serviceText">{t("seaMP1")}</div>
+          <h2> {t("seaMPT2")}</h2>
+          <div className="serviceText">{t("seaMP2")}</div>
+          <h2> {t("seaMPT3")}</h2>
+          <div className="serviceText">{t("seaMP3")}</div>
+          <h2> {t("seaMPT4")}</h2>
+          <div className="serviceText">{t("seaMP4")}</div>
+          <h2> {t("seaMPT5")}</h2>
+          <div className="serviceText">{t("seaMP5")}</div>
+          <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
             <footer>Google Ads </footer>
           </div>{" "}

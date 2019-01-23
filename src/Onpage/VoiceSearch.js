@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 class VoiceSearch extends Component {
   render() {
     const { t, i18n } = this.props;
-    
+
     if (window.innerWidth < 1500) {
       window.scrollTo(0, 0);
     }
