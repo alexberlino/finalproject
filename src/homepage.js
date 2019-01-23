@@ -50,7 +50,6 @@ class Homepage extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="mainHP">
@@ -74,9 +73,9 @@ class Homepage extends Component {
               <h1 className="h1hp">{t("intro1")}</h1>
               <br /> <br />
               <div className="h2hp">
-                Grow traffic and visibility. <br />
-                Optimized Keyword Targeting, Brand Building. <br />
-                SEO Consultancy, Audit.
+                {t("boost1")} <br />
+                {t("boost2")} <br />
+                {t("boost3")}
               </div>
             </div>
             <a className="servicesHP" href={"/" + this.props.lng + "/services"}>
@@ -178,8 +177,8 @@ class Homepage extends Component {
             <div className="seotxt">
               <div className="intro1">
                 <div className="intro4">
-                  <h2 className="blackbgwhite orange traffic">FULL AUDIT</h2> TO
-                  EFFICIENTLY PLAN TASKS BY PRIORITY
+                  <h2 className="blackbgwhite orange traffic">{t("boost4")}</h2>{" "}
+                  {t("boost5")}
                 </div>
                 <h2 className="traffic orange2"> {t("beratung")}</h2>
                 <p className="txt3">{t("beratungText")}</p>
@@ -227,11 +226,11 @@ class Homepage extends Component {
 
                 <div className="backgroundBlack2 sharable">
                   <div className="blackbgwhite intro4 ">
-                    CREATE SHARABLE CONTENT THAT <br />
+                    {t("boost6")} <br />
                     <h2 className="blackbgwhite orange traffic">
-                      MATTERS -
+                      {t("boost7")}
                     </h2>{" "}
-                    AND BUILD BRAND AWARENESS <br /> <br />
+                    {t("boost8")} <br /> <br />
                   </div>{" "}
                 </div>
                 <div className="backgroundBlack ">
@@ -264,9 +263,12 @@ class Homepage extends Component {
 
                 <div className="othercontentHP">
                   <div className="intro4 sharable2">
-                    OPTIMIZED KEYWORD TARGETING <br />
-                    <h2 className="blackbgwhite orange traffic"> TO BOOST </h2>
-                    YOUR TRAFFIC
+                    {t("boost9")} <br />
+                    <h2 className="blackbgwhite orange traffic">
+                      {" "}
+                      {t("boost11")}{" "}
+                    </h2>
+                    {t("boost10")}
                   </div>
 
                   <div className="intro41">

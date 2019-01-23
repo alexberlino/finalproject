@@ -18,7 +18,9 @@ class VoiceSearch extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Voice Search - Onpage SEO Freelancer | SEO Berlino</title>
+          <title>
+            {t("")}Voice Search - Onpage SEO Freelancer | SEO Berlino
+          </title>
           <meta name="description" content="" />
           <link
             rel="canonical"
@@ -44,13 +46,15 @@ class VoiceSearch extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
           <h1 className="h1services">
+            {t("")}
             On-page SEO: Optimization for Voice Search
           </h1>
           <h2>
-            {" "}
-            What is Voice Search and why it's Important to be ready for it
+            {t("")} What is Voice Search and why it's Important to be ready for
+            it
           </h2>
           <div className="serviceText">
+            {t("")}
             Google Assistant, Alexa are just of those devices which are
             transforming search. Instead of typing searches, users now more and
             more ask for their need vocally. Voice search is already disrupting
@@ -58,27 +62,31 @@ class VoiceSearch extends Component {
             number of searches. In order to be ready for it, every website needs
             to understand how it changes classical SEO.
           </div>
-          <h2> Questions</h2>
+          <h2> Questions {t("")}</h2>
           <div className="serviceText">
+            {t("")}
             The main difference with traditional search is that many voice
             search requests are questions, so they begin with where, how, what,
             etc.
           </div>
-          <h2> Longer Search terms</h2>
+          <h2> Longer Search terms {t("")}</h2>
           <div className="serviceText">
+            {t("")}
             The second main difference is that the "keywords" are longer, mostly
             because the requests are questions and because users are more
             descriptive when voally expressing their needs, compared to typing.{" "}
           </div>
-          <h2> Increasing Search Volume</h2>
+          <h2> Increasing Search Volume{t("")}</h2>
           <div className="serviceText">
+            {t("")}
             Search volumes for such searches are still lower than the classical
             searches equivalent, but the volumes are continuously increasing and
             the keywords are more segmented, meaning there are more questions
             for the equivalent classical search term
           </div>
-          <h2> Featured Snippet</h2>
+          <h2> Featured Snippet{t("")}</h2>
           <div className="serviceText">
+            {t("")}
             One of the main advantage to be ready and optimized for search term
             is that you can be featured at "position 0" with the featured
             snippet, answering directly to the question of the search.

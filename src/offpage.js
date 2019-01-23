@@ -29,9 +29,7 @@ class Offpage extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            Off-page SEO Audit | SEO Expert Freelancer || SEO Berlino
-          </title>
+          <title>Off-page SEO Audit | SEO Berlino</title>
           <meta
             name="description"
             content="Offpage SEO Jobs: backlink competitor analysis, backlink profile, bradnbuilding opportunities, toxic link cleaning, best practice"
@@ -87,11 +85,11 @@ class Offpage extends Component {
               </a>
             </div>
             <div className="marginright">
-              <h2>What is Offpage SEO?</h2>
+              <h2> {t("auditMPT1")}</h2>
               <p>{t("offpageMP")}</p>
-              <h2>Why is Off-Page SEO important?</h2>
+              <h2>{t("auditMPT2")}</h2>
               <p>{t("offpageMP2")}</p>
-              <h2>What is linkbuilding?</h2>
+              <h2>{t("auditMPT3")}</h2>
               <p>{t("offpageMP3")}</p>
               <h2>Social Media </h2>
               <p>{t("offpageMP4")}</p>

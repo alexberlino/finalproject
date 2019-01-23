@@ -17,9 +17,7 @@ class Internationalisation extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            Internationalisation - Technical SEO Freelancer | SEO Berlino
-          </title>
+          <title> {t("technicalHP3")} | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: internationalisation and why its important in SEO "
@@ -49,40 +47,15 @@ class Internationalisation extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services">Internationalisation</h1>{" "}
-          <h2> Why it's Important</h2>
+          <h1 className="h1services">{t("technicalHP3")}</h1>{" "}
+          <div className="serviceText">{t("internationalMP1")}</div>
+          <h2> {t("internationalMPT2")}</h2>
           <div className="serviceText">
-            There are various options when operating internationally: same root
-            domain, different top level domains, subdomains, how to link between
-            them, how to simplify the process without negatively affecting your
-            SEO.
-          </div>
-          <h2> To do</h2>
-          <div className="serviceText">
-            <p>
-              If you are using the same root domain for internationalisation,
-              you will be concentrating your backlink efforts to one main
-              domain. However the complexity is to be dealt with. For instance
-              href lang metas need to be implemented, avoid any duplicate
-              content, use canonicals when necessary.
-            </p>
+            <p>{t("internationalMP2")}</p>
 
-            <p>
-              If you are using different root domains for internationalisation,
-              there are pros and cons compared to same root, effectively easing
-              complexity and building a local identity with the possibility to
-              optimize server location. However, you will need to make sure to
-              link them from your "master" domain, and manage different backlink
-              startegies for each domain.
-            </p>
+            <p>{t("internationalMP3")}</p>
 
-            <p>
-              An Audit and careful planning will help you set-up an effective
-              SEO strategy depending on your requirements and resources. Make
-              sure the language meta tags and settings the Search console are
-              set-up, evaluate any possible SEO damage if using client-side
-              rendering with a mixed url structure.
-            </p>
+            <p>{t("internationalMP4")}</p>
           </div>
           <div className="black slide-in-left sideLinks">
             <a

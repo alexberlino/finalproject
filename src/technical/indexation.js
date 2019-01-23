@@ -17,7 +17,7 @@ class Indexation extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Indexation - Technical SEO Freelancer | SEO Berlino</title>
+          <title>{t("technicalHP1")} | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: indexation and why its important in SEO "
@@ -30,7 +30,7 @@ class Indexation extends Component {
         <img
           src="/auditmainpic/indexation.jpg"
           title="indexation, a photo by Scott Rodgerson"
-          alt="indexation"
+          alt={t("technicalHP1")}
           className="imageAudit"
         />
         <div className="services">
@@ -45,17 +45,10 @@ class Indexation extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services">Indexation</h1>{" "}
-          <h2> Only have indexed pages which deserve to be indexed</h2>
+          <h1 className="h1services">{t("technicalHP1")}</h1>{" "}
+          <h2> {t("indexationMPT1")}</h2>
           <div className="serviceText">
-            <p>
-              Efficient Indexation is key in order to get on well with Google's
-              spiders. Many believe the more pages indexed the better; that is
-              only true to a certain level. If you have many non-valuable,
-              not-visited or duplicate pages indexed for example, the bot will
-              likely limit your "crawling credit" and discard those pages which
-              you value most.
-            </p>
+            <p> {t("indexationMP1")}</p>
             <img
               src="/icons/indexation.png"
               alt="indexation"
@@ -65,55 +58,13 @@ class Indexation extends Component {
               height="100px"
             />
           </div>
-          <h2> Investiate your indexation</h2>
-          <div className="serviceText">
-            <ul>
-              <li>
-                Make sure all the important pages are indexed and that those you
-                do not want indexed are not. You can check the number of indexed
-                pages in the Search Console, and also use Google commands with
-                'site:yoursite.com' to check which pages are indexed.
-              </li>
-              <li>
-                Check on duplicate or irrelevant indexed pages and work on a
-                plan to have those pages de-indexed. The best way is to return a
-                410 status codes for those unwanted pages till they are
-                de-indexed.
-              </li>
-            </ul>
-          </div>
-          <h2> Redirects</h2>
-          <div className="serviceText">
-            <ul>
-              <li>
-                Check on your redirects, make sure you are using the correct
-                status codes.
-              </li>
-              <li>
-                Make sure you are limiting the number of redirects, if a big
-                majority of the pages Google is crawling are redirects, or worse
-                chains of redirects, your site will be negatively impacted by
-                this.
-              </li>
-            </ul>
-          </div>
-          <h2> Check for metas</h2>
-          <div className="serviceText">
-            <ul>
-              <li>while you are auditing you indexation, check for metas</li>
-              <li>
-                are there any description /titles missing? Are they unique and
-                all make sense targeting specific keywords which make sense to
-                your overall strategy?
-              </li>
-              <li>
-                it is not recommended to change url structure, but make sure you
-                have a readable url structure, with as little special characters
-                and numbers as possible. Preferably your ulrs should be
-                descriptive and as unique as possible. ,
-              </li>
-            </ul>
-          </div>
+          <h2> {t("indexationyMPT2")}</h2>
+          <div className="serviceText"> {t("indexationMP2")}</div>
+          <div className="serviceText"> {t("indexationMP22")}</div>
+          <h2> {t("indexationMPT3")}</h2>
+          <div className="serviceText"> {t("indexationMP3")}</div>
+          <h2> Check for metas {t("")}</h2>
+          <div className="serviceText"> {t("indexationMP4")}</div>
           <div className="black slide-in-left sideLinks">
             <a className="block bold">{t("technicalHP1")}</a>
             <a

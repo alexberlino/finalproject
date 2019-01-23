@@ -28,7 +28,7 @@ class LinksToPages extends Component {
                   this.props.pageChange("/onpage")
                 }
               >
-                ON-PAGE AUDIT
+                ONPAGE AUDIT
               </span>
             </a>
           </li>
@@ -40,7 +40,7 @@ class LinksToPages extends Component {
                   this.props.pageChange("/offpage")
                 }
               >
-                OFF-PAGE AUDIT
+                OFFPAGE AUDIT
               </span>
             </a>
           </li>
@@ -66,7 +66,7 @@ class LinksToPages extends Component {
                   this.props.pageChange("/research")
                 }
               >
-                RESEARCH AND ANALYICS
+                RESEARCH & ANALYICS
               </span>
             </a>
           </li>

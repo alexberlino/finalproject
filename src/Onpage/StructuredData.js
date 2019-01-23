@@ -18,7 +18,7 @@ class StructuredData extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Structured Data - Onpage SEO Freelancer | SEO Berlino</title>
+          <title>Structured Data - Onpage SEO | SEO Berlino</title>
           <meta type="description" content="" />
           <link
             rel="canonical"
@@ -45,8 +45,9 @@ class StructuredData extends Component {
           </div>
 
           <h1 className="h1services"> Structured Data </h1>
-          <h2> Why it's Important</h2>
+
           <div className="serviceText">
+            {t("")}
             Google, Bing, Yandex and Yahoo agreed on a standardised format:
             schema.org for providing information about a page and to classify
             its content. using Structured Data will enable you to improve the
@@ -62,8 +63,9 @@ class StructuredData extends Component {
             preferential treatment in search engines, it is worth making the
             effort to add structured data to your site.
           </div>
-          <h2> To do</h2>
+          <h2> {t("")}</h2>
           <div className="serviceText">
+            {t("")}
             You can use Structured Data to provide additional information about
             creative work, events, organisation, a person, a place or a product.
             Here is a list of the most common used of Structured Data: *

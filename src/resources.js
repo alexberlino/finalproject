@@ -73,7 +73,7 @@ class Resources extends Component {
             <br />{" "}
             <h2>
               <a href={"/" + this.props.lng + "/onpage/keywordresearch"}>
-                Keyword Research
+                {t("hey4")}
               </a>{" "}
               & <a href={"/" + this.props.lng + "/onpage"}>Onpage SEO</a>
             </h2>
@@ -85,7 +85,7 @@ class Resources extends Component {
             </p>
             <br />
             <h2>
-              <a href={"/" + this.props.lng + "/technical"}>Technical SEO</a>
+              <a href={"/" + this.props.lng + "/technical"}>{t("hey5")}</a>
             </h2>
             <p>
               {t("auditintro3")}{" "}
@@ -106,7 +106,7 @@ class Resources extends Component {
             <br />
             <h2>
               <a href={"/" + this.props.lng + "/research"}>
-                Competitor Analysis, Analytics, SEA and Local SEO
+                {t("hey7")}, Analytics, SEA & {t("analyticsHP1")}
               </a>
             </h2>
             <p>

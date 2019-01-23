@@ -107,6 +107,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         link building through brand awareness. To do so it is necessary to identify
         topic related to your topic which bring traffic, your influencers, blogs and other websites
         with whom you share common grounds.`,
+        researchMPh1: `Analytics, Research and more`,
         researchHP1: `    If you have a local business, like a shop, or have people
             visiting your office frequently, optimizing your website is also
             about making sure people are able to find you in real life. But
@@ -130,32 +131,32 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         blog: `blog`,
         bloglatest: `Latest posts`,
         services: `CONSULTANCY`,
-        analyticsHP1: `local SEO`,
-        analyticsHP2: `analytics and reporting`,
-        analyticsHP3: `competitor analysis`,
+        analyticsHP1: `Local SEO`,
+        analyticsHP2: `Analytics and reporting`,
+        analyticsHP3: `Competitor analysis`,
         analyticsHP4: `new website best practice`,
         analyticsHP6: `SEA (Google Ads)`,
-        onpageHP1: `keyword research`,
-        onpageHP2: `landing page optimization`,
-        onpageHP3: `internal linking`,
-        onpageHP4: `meta tags and headings`,
-        onpageHP5: `breadcrumb`,
-        onpageHP6: `content & semantics`,
-        onpageHP7: `images & media`,
-        onpageHP8: `structured data`,
-        onpageHP9: `duplicate content`,
+        onpageHP1: `Keyword research`,
+        onpageHP2: `Landing page optimization`,
+        onpageHP3: `Internal linking`,
+        onpageHP4: `Meta tags and headings`,
+        onpageHP5: `Breadcrumb`,
+        onpageHP6: `Content & semantics`,
+        onpageHP7: `Images`,
+        onpageHP8: `Structured data`,
+        onpageHP9: `Duplicate content`,
         onpageHP10: `voice search`,
-        offpageHP1: `backlink analysis`,
-        offpageHP2: `backlink profile`,
-        offpageHP3: `brand building`,
-        offpageHP4: `influencers`,
-        offpageHP5: `links to avoid`,
-        technicalHP1: `indexation`,
-        technicalHP2: `crawlability`,
-        technicalHP3: `internationalisation`,
-        technicalHP4: `pagespeed`,
-        technicalHP5: `mobile-friendly`,
-        technicalHP6: `dynamic rendering`,
+        offpageHP1: `Backlink analysis`,
+        offpageHP2: `Backlink profile`,
+        offpageHP3: `Brand building`,
+        offpageHP4: `Influencers`,
+        offpageHP5: `Links to avoid`,
+        technicalHP1: `Indexation`,
+        technicalHP2: `Crawlability`,
+        technicalHP3: `Internationalisation`,
+        technicalHP4: `Pagespeed`,
+        technicalHP5: `Mobile-friendly`,
+        technicalHP6: `Javascript`,
         technicalHP7: `https site migration`,
 
         onpageSEO1: `Important first step, keyword research is the process of understanding how your target users search for your product or service.`,
@@ -190,19 +191,31 @@ Prioritised Action plan with:
         servicesh1: `SEO Services`,
         footer1: `All Right Reserved 2018 Alex Bieth`,
         footer2: `about this website`,
-        boost1: `BOOST YOUR TRAFFIC WITH`,
-        boost2: `OPTIMIZED KEYWORD TARGETING!`,
+        boost1: `Grow traffic and visibility.`,
+        boost2: `Optimized Keyword Targeting, Brand Building.`,
+        boost3: `SEO Consultancy, Audit.`,
+        boost4: `FULL AUDIT`,
+        boost5: `TO
+        EFFICIENTLY PLAN TASKS BY PRIORITY`,
+        boost6: `CREATE SHARABLE CONTENT THAT `,
+        boost7: `MATTERS -`,
+        boost8: `AND BUILD BRAND AWARENESS`,
+        boost9: `OPTIMIZED KEYWORD TARGETING`,
+        boost10: `TO BOOST`,
+        boost11: `YOUR TRAFFIC`,
 
         auditintro: `Audits can vary in scope depending on the website's needs and maturity.
       A full audit though will cover all aspects of SEO which over the years has become more and more complex and segmented.
       The main aspects of SEO can simply be categorized in three main fields: offpage, onpage and technical SEO, but there is a lot of overlapping.
       Also efficient and reliable web analytics set-up and knowing your competitors (Competitor Analysis) are critical if you want to make progress, understand and set your priorities and control them efficiently   `,
+        auditMPT1: `What is Offpage SEO`,
+        auditMPT2: `Why is Offpage so important`,
+        auditMPT3: `What is Link Building`,
 
-        auditintro2: `The first step in Audit it to make sure to know the  which are key to your business, which ones your are already ranking and those for which you are not, select the ones which are more likely
-  to bring the best traffic depending on your site's strength: if your site is quite new, you may not want to target keywords which have great Search Volume but which are too competitive.    Content of course is the most important, but using the language
-      your users like to use thanks to quality landing
-      pages, and producing content for users not just for SEO. Link
-      internally in an efficient way is also key for user experience and search engine bots.`,
+        auditintro2: `The first step in Audit it to make sure to know the  which are key to your business, which
+        ones your are already ranking and those for which you are not, select the ones which are more likely
+  to bring the best traffic depending on your site's strength: if your site is quite new, you may not want to target
+  keywords which have great Search Volume but which are too competitive.   Content of course is the most important, but you also need to include words your visitors use to search for your services, and welcome them with  quality landing pages. Keep in mind you should  produce content for users not just for SEO. Linking internally in an efficient way is also key for user experience and search engine bots.`,
 
         auditintro3: `Keeping an eye on indexation is extremely important so that you
             don't waste crawling credits. Avoid however duplicate content
@@ -219,6 +232,9 @@ Prioritised Action plan with:
             tags.`,
         onpageintro2: `First things first: Keyword Research; if you are not targeting the right keywords, or missing out on the most important ones, you will struggle to get the best traffic for your site.
         Also, you need to know which questions are most searched and other themes close related to your business.  `,
+        onpageintroT3: `Importance of on-page SEO `,
+
+        onpageintroT4: `Essential on-page SEO factors `,
         onpageintro3: `Why do people visit your site? Most
         likely because it contains information they’re looking for.
         Therefore you should write excellent content. Search engines
@@ -513,75 +529,194 @@ website's reputation.`,
             beit indirect perhaps.`,
         localMPT5: ``,
         localMP5: ``,
+        crawlabilityMPintro: `Crawlibility goes hand in hand with indexation. In order to adjust
+        and optimize indexation, you can improve and guide Google on how it
+        crawls your site.`,
         crawlabilityMPT1: ``,
-        crawlabilityMP1: ``,
+        crawlabilityMP1: `xml format sitemap guide Google on how to crawl your site. Although
+                    Google says there is no guaranty the Google bot will follow your
+                    instructions, it is still highly recommended and in most cases,
+                    sitemaps are beneficial. It contains useful information about each
+                    page on your site, including when a page was last modified; what
+                    priority it has on your site; how frequently it is updated. In
+                    BigCommerce, your XML site is created automatically; if you are
+                    using another platform you may need to use a sitemap generator to
+                    build one.`,
         crawlabilityMPT2: ``,
-        crawlabilityMP2: ``,
+        crawlabilityMP2: `Robots set instructions depending on the user agent which parts of
+        the site can be accessed. Making sure you are not excluding the
+        relevant search engine bots is therefore of course paramount.`,
+        crawlabilityMP3: `You can also guide the Google bot in the code with tags for each
+        page the most common ones being: "follow/noFollow" and
+        "index/noindex"`,
         crawlabilityMPT3: ``,
-        crawlabilityMP3: ``,
         crawlabilityMPT4: ``,
-        crawlabilityMP4: ``,
+        crawlabilityMP4: `You can directly submit urls to the Google index in the Google
+        Search Console. This is particularly useful if you have crawling
+        issues and there are some pages you want to have crawl and indexed
+        in priority.`,
         crawlabilityMPT5: ``,
-        crawlabilityMP5: ``,
+        crawlabilityMP5: `        An important factor which links crawalability and indexation is that
+                for sites with many pages (indexed or not), there is a limit to how
+                much your site will be crawled each time the Google bot visits your
+                site. It is therefore important to keep an eye and understand which
+                pages are indexed and why they need to be indexed (not all pages
+                need to be indexed in particular in case of duplicate content)`,
         crawlabilityMPT6: ``,
         crawlabilityMP6: ``,
 
         dynamicrenderingMPT1: ``,
-        dynamicrenderingMP1: ``,
+        dynamicrenderingMP1: `    For JavaScript apps such as React, Angular or View, search engines
+            such as Google still struggle to properly crawl and index all pages.
+            Although they say they can achieve this over time after many visits,
+            they do recommend for most sites to use dynamic rendering. Get
+            started with dynamic rendering. Currently, it's difficult to process
+            JavaScript and not all search engine crawlers are able to process it
+            successfully or immediately.`,
         dynamicrenderingMPT2: ``,
-        dynamicrenderingMP2: ``,
+        dynamicrenderingMP2: `Dynamic rendering means switching between client-side rendered and
+            pre-rendered content for specific user agents. Dynamic rendering is
+            good for indexable, public JavaScript-generated content that changes
+            rapidly, or content that uses JavaScript features that aren't
+            supported by the crawlers you care about. Not all sites need to use
+            dynamic rendering, and it's worth noting that dynamic rendering is a
+            workaround for crawlers. Dynamic rendering requires your web server
+            to detect crawlers for example by checking the user agent.`,
         dynamicrenderingMPT3: ``,
-        dynamicrenderingMP3: ``,
+        dynamicrenderingMP3: `Requests from crawlers are routed to a renderer, requests from users
+            are served normally. Where needed, the dynamic renderer serves a
+            version of the content that's suitable to the crawler, for example,
+            it may serve a static HTML version.`,
         dynamicrenderingMPT4: ``,
-        dynamicrenderingMP4: ``,
+        dynamicrenderingMP4: `To setup dynamic rendering for your content, install and configure a
+                    dynamic renderer to transform your content into static HTML that's
+                    easier for crawlers to consume. Some common dynamic renderers are
+                    Puppeteer, Rendertron, and prerender.io. Choose the user agents that
+                    you think should receive your static HTML and refer to your specific
+                    configuration details on how to update or add user agents.`,
         dynamicrenderingMPT5: ``,
         dynamicrenderingMP5: ``,
         dynamicrenderingMPT6: ``,
         dynamicrenderingMP6: ``,
 
-        indexationMPT1: ``,
-        indexationMP1: ``,
-        indexationyMPT2: ``,
-        indexationMP2: ``,
-        indexationMPT3: ``,
-        indexationMP3: ``,
+        indexationMPT1: `Only have indexed pages which deserve to be indexed`,
+        indexationMP1: ` Efficient Indexation is key in order to get on well with Google's
+         spiders. Many believe the more pages indexed the better; that is
+         only true to a certain level. If you have many non-valuable,
+         not-visited or duplicate pages indexed for example, the bot will
+         likely limit your "crawling credit" and discard those pages which
+         you value most.`,
+        indexationyMPT2: `Investigate your indexation `,
+        indexationMP2: `Make sure all the important pages are indexed and that those you
+                do not want indexed are not. You can check the number of indexed
+                pages in the Search Console, and also use Google commands with
+                'site:yoursite.com' to check which pages are indexed.
+        `,
+        indexationMP22: `Check on duplicate or irrelevant indexed pages and work on a
+                        plan to have those pages de-indexed. The best way is to return a
+                        410 status codes for those unwanted pages till they are
+                        de-indexed.`,
+        indexationMPT3: `Redirects`,
+        indexationMP3: `
+                Check on your redirects, make sure you are using the correct
+                status codes. Make sure you are limiting the number of redirects, if a big
+                majority of the pages Google is crawling are redirects, or worse
+                chains of redirects, your site will be negatively impacted by
+                this.
+             `,
+
         indexationMPT4: ``,
-        indexationMP4: ``,
+        indexationMP4: `While you are auditing you indexation, check for metas. Are there any description /titles missing? Are they unique and
+                all make sense targeting specific keywords which make sense to
+                your overall strategy? It is not recommended to change url structure, but make sure you
+                have a readable url structure, with as little special characters
+                and numbers as possible. Preferably your ulrs should be
+                descriptive and as unique as possible. ,
+              `,
         indexationMPT5: ``,
         indexationMP5: ``,
         indexationMPT6: ``,
         indexationMP6: ``,
 
         internationalMPT1: ``,
-        internationalMP1: ``,
-        internationalMPT2: ``,
-        internationalMP2: ``,
-        internationalMPT3: ``,
-        internationalMP3: ``,
-        internationalMPT4: ``,
-        internationalMP4: ``,
+        internationalMP1: `There are various options when operating internationally: same root
+        domain, different top level domains, subdomains, how to link between
+        them, how to simplify the process without negatively affecting your
+        SEO.`,
+        internationalMPT2: `Same domain or multiple localised domains`,
+        internationalMP2: `  If you are using the same root domain for internationalisation,
+          you will be concentrating your backlink efforts to one main
+          domain. However the complexity is to be dealt with. For instance
+          href lang metas need to be implemented, avoid any duplicate
+          content, use canonicals when necessary.`,
+        internationalMP3: `  If you are using different root domains for internationalisation,
+          there are pros and cons compared to same root, effectively easing
+          complexity and building a local identity with the possibility to
+          optimize server location. However, you will need to make sure to
+          link them from your "master" domain, and manage different backlink
+          startegies for each domain.`,
+
+        internationalMP4: ` An Audit and careful planning will help you set-up an effective
+         SEO strategy depending on your requirements and resources. Make
+         sure the language meta tags and settings the Search console are
+         set-up, evaluate any possible SEO damage if using client-side
+         rendering with a mixed url structure.`,
         internationalMPT5: ``,
         internationalMP5: ``,
         internationalMPT6: ``,
         internationalMP6: ``,
-
+        mobileMPh1: `Mobile First - Mobile friendly websites`,
         mobileMPT1: ``,
-        mobileMP1: ``,
+        mobileMP1: `  If your website it not mobile friendly, in most cases, you are in
+          trouble. Google now uses the mobile version for indexation so
+          called mobile first. If you are not sure, you can use Google's
+          tool below.`,
         mobileMPT2: ``,
-        mobileMP2: ``,
+        mobileMP2: `A ‘responsive’ website design adjusts itself automatically
+        so that it can be navigated and read easily on any device. Google
+        is clear about the fact that having a responsive site is
+        considered a very significant ranking signal by its algorithms.
+        And, with the introduction of Google’s ‘mobile first’ approach to
+        indexing content, a responsive website is now more important than
+        ever. So it makes sense to ensure that your website is fully
+        responsive and will display in the best format possible for
+        mobile, tablet or desktop users.`,
         mobileMPT3: ``,
-        mobileMP3: ``,
-        mobileMPT4: ``,
-        mobileMP4: ``,
+        mobileMP3: `With mobile-first indexing, Googlebot primarily crawls and indexes
+        pages with the smartphone agent. However Google will continue to
+        show the device URL that is the most appropriate to users in
+        Search results.`,
+        mobileMP4: ` This means that you for instance text showing on the desktop
+         version but not on the mobile one may very likely be ignored for
+         indexation and page relavancy. If there is too much text for the
+         mobile version use 'show more'.`,
         mobileMPT5: ``,
-        mobileMP5: ``,
+        mobileMP5: ` In terms of performance, you need to make sure that your mobile
+         version loads fast and in the right format. You can use Google's
+         PageSpeed Developer Tool`,
         mobileMPT6: ``,
         mobileMP6: ``,
 
         speedMPT1: ``,
-        speedMP1: ``,
+        speedMP1: `There are several ways you can speed up your site: Use fast hosting.
+        Use a fast DNS (‘domain name system’) provider Minimise ‘HTTP
+        requests’ - keep the use of scripts and plugins to a minimum Use one
+        CSS stylesheet (the code which is used to tell a website browser how
+        to display your website) instead of multiple CSS stylesheets or
+        inline CSS Ensure your image files are as small as possible (without
+        being too pixelated) Compress your web pages (this can be done using
+        a tool called GZIP) Minify your site’s code - rid of any unnecessary
+        spaces, line breaks or indentation in your HTML, CSS and Javascript
+        (see Google’s Minify Resources page for help with this). If your
+        pages are slow to load, Google will figure it out and will
+        categorize your website as poor user experience, therefore suffering
+        in terms of organic visibility. If you haven't done it yet, I
+        strongly advise you to use the PageSpeed Insights tool (link below){" "}`,
         speedMPT2: ``,
-        speedMP2: ``,
+        speedMP2: `            Please note that Lighthouse belongs to Google and their advice
+                    is (a bit too) specific to Google Chrome, so for instance it
+                    will advise you to use new image formats which may not be usable
+                    and rendered on other browser such as Firefox or Safari.`,
         speedMPT3: ``,
         speedMP3: ``,
         speedMPT4: ``,
@@ -592,13 +727,27 @@ website's reputation.`,
         speedMP6: ``,
 
         securityMPT1: ``,
-        securityMP1: ``,
+        securityMP1: ` Hyper Text Transfer Protocol Secure (HTTPS) is the secure version
+         of HTTP, the protocol over which data is sent between browser and
+         the connected website. The 'S' of HTTPS stands for 'Secure'. It
+         means all communications between browser and website are
+         encrypted.`,
         securityMPT2: ``,
-        securityMP2: ``,
+        securityMP2: ` HTTPS is often used to protect highly confidential online
+         transactions like online banking and online shopping order forms.
+         But has now become to norm.`,
         securityMPT3: ``,
-        securityMP3: ``,
+        securityMP3: `          Https for "early-adopters" may have given them an advantage on
+                  their competitors, these times are over. If you haven't made the
+                  transition yet, it needs to be very high on your priority list.
+                  Since summer 2018, Chrome now shows a "not secure" warning so
+                  beware of a sharp increase in bounce rate should you now have
+                  implemented it yet, on top of lower rankings.`,
         securityMPT4: ``,
-        securityMP4: ``,
+        securityMP4: `Plan your site migration carefully, incluing identify pages to
+        redirect (which should be the most valuable ones), and those you
+        should not. Timing is key to avoid risks, so avoid doing it before
+        your high season.`,
         securityMPT5: ``,
         securityMP5: ``,
         securityMPT6: ``,
@@ -770,6 +919,7 @@ website's reputation.`,
         analyticsHP4: `Neue Webseite, SEO bewährte Praktiken`,
         analyticsHP5: `hierfür passend Untersuchung`,
         analyticsHP6: `SEA (Google Ads)`,
+
         onpageHP1: `Keyword Recherche`,
         onpageHP2: `landing page Optimierung`,
         onpageHP3: `Website-Architektur,`,
@@ -865,129 +1015,67 @@ Priorisierter Aktionsplan mit:
         impressum_title: `Impressum SEO Berlino || SEO Beratung in Berlin`,
         footer1: `Alle Rechte vorbehalten. 2018 Alex Bieth`,
         footer2: `über diese Webseite`,
-        boost1: `NUR MIT DEN BESTEN KEYWORDS`,
-        boost2: `KOMMT DER BESTE TRAFFIC!`,
-        whatisSEO: `        Search engine optimization is the term used to describe the
-                processes to optimize a website for search engines. SEO is
-                important for getting high quality visitors from search which
-                are searching what the website has to offer. Given how the
-                algorithms have evolved these last years, there is also much
-                focus on user-friendliness of the website to increase its
-                credibility and "respect" from search engines such as Google,
-                Bing and Yandex. Search engines use more and more complex
-                algorithms to determine which pages to include in their index
-                and the order they show these pages in the search results. SEO
-                is the way to ‘speak’ to search engines in a language they can
-                understand and give them as much information about your website
-                as possible.`,
-        auditintro: `Audits can vary in scope depending on the website's needs and maturity.
-              A full audit though will cover all aspects of SEO which over the years has become more and more complex and segmented.
-              The main aspects of SEO can simply be categorized in three main fields: offpage, onpage and technical SEO, but there is a lot of overlapping.
-              Also efficient and reliable web analytics set-up and knowing your competitors (Competitor Analysis) are critical if you want to make progress, understand and set your priorities and control them efficiently   `,
+        boost1: `Traffic und Sichtbarkeit steigern.`,
+        boost2: `Optimiertes Keyword Targeting, Brand Building.`,
+        boost3: `Beratung für Suchmaschinenoptimierung, Audit.`,
+        boost4: `KOMPLETTES AUDIT`,
+        boost5: `ZUR EFFIZIENTEN, PRIORISIERTEN  AUFGABENPLANUNG `,
+        boost6: `ERSTELLUNG RELEVANTER`,
+        boost7: `TEILBARER INHALT`,
+        boost8: `UND AUFBAU VON MARKENBEANNTHEIT `,
+        boost9: `OPTIMIERTES KEYWORD TARGETING`,
+        boost10: `UM IHREN TRAFFIC`,
+        boost11: `ANZUKURBELN`,
 
-        auditintro2: `The first step in Audit it to make sure to know the  which are key to your business, which ones your are already ranking and those for which you are not, select the ones which are more likely
-            to bring the best traffic depending on your site's strength: if your site is quite new, you may not want to target keywords which have great Search Volume but which are too competitive.    Content of course is the most important, but using the language
-              your users like to use thanks to quality landing
-              pages, and producing content for users not just for SEO. Link
-              internally in an efficient way is also key for user experience and search engine bots.`,
+        whatisSEO: `Suchmaschienenoptimierung (engl. Search Engine Optimization, kurz SEO) beschreibt Prozesse zur Optimierung einer Webseite für Suchmaschinen. SEO ist wichtig, damit Suchanfragen von Qualitätsbesuchern, die das suchen was Ihre Webseite anbietet, auf Ihre Seite verweisen. Angesichts der Weiterentwicklung der Algorithmen innerhalb der letzten Jahre ist auch die Benutzerfreundlichkeit einer Webseite wichtig, um deren Glaubwürdigeit und “Respekt” bei Suchmaschinen wie Google, Bing und Yandex zu steigern. Suchmaschinen nutzen immer komplexere Algorithmen um zu bestimmen welche Seiten in ihren Index aufgenommen werden, sowie in welcher Reihenfolge diese als Suchergebnisse angezeigt werden. SEO ist sozusagen die Sprache, die Suchmaschinen verstehen und in der ihnen daher so viel wie möglich über Ihre Webseite “gesagt” bzw. Information übermittelt werden sollte.`,
+        auditintro: `Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab. Die Hauptaspekte des SEO können in drei wesentliche Bereiche unterteilt werden: Offpage, Onpage und Technisches SEO, es gibt dabei jedoch viele Überschneidungen. Zudem sind ein effizientes und verlässliches Web-Analyse Set-Up sowie eine Kourrenzanalyse essentiell, wenn Sie Fortschritte machen, Ihre Prioritäten setzen und effizient kontrollieren wollen.   `,
+        auditMPT1: `Was ist Offpage SEO`,
+        auditMPT2: `Warum ist Offpage wichtig`,
+        auditMPT3: `Was ist Link Building`,
+        auditintro2: `Im ersten Schritt eines Audits gilt es sicherzustellen, welche Stichwörter Schlüsselbegriffe für Ihr Geschäft sind, welche davon Sie bereits ranken und unter den übrigen diejenigen auszuwählen, welche in Abhängigeit von der Stärke Ihrer Webseite den besten Traffic erzielen können: Wenn Ihre Seite noch neu ist, möchten Sie vielleicht lieber keine Keywords anvisieren, bei denen das Suchvolumen zwar groß, jedoch auch die Konurrenz enorm hoch ist. `,
 
-        auditintro3: `Keeping an eye on indexation is extremely important so that you
-                    don't waste crawling credits. Avoid however duplicate content
-                    that would confuse search engine bots with poor indexation messages. Make sure also your
-                    mobile version loads fast. Make sure that your website uses https.`,
-        auditintro4: `Once you are confident you have great content and a website you are proud of, you can with more confidence ask for quality links pointing to your website. Links are still key in SEO and more and more difficult to pro-actively collect if you are still new in your business. PR, social media, word of mouth and other media coverage increase visibility and more and more websites will starting linking to you naturally if you have a website which stands out from the competition.
-                Before that happens, there are ways to get going while taking care of your brand image and expertise in your field.  `,
-        auditintro5: `Know your competitors with a competitor analysis. Go Local to secure the market close to you and paid search to get those extra visits while you work on your SEO.
-                If you are not using analytics as a tool to closely monitor your traffic, you are losing opportunities that will guide you to make improvements. These themes are covered in the Research and Analytics section.`,
-        onpageintro: `Onpage optimization refers to all measures that can be taken
-                    directly within the website in order to improve its position in
-                    the search rankings. Examples of this include measures to
-                    optimize the content or improve the meta description and title
-                    tags.`,
-        onpageintro2: `First things first: Keyword Research; if you are not targeting the right keywords, or missing out on the most important ones, you will struggle to get the best traffic for your site.
-                Also, you need to know which questions are most searched and other themes close related to your business.  `,
-        onpageintro3: `Why do people visit your site? Most
-                likely because it contains information they’re looking for.
-                Therefore you should write excellent content. Search engines
-                like Google read your text. Which site ranks highest is for a
-                large part based on the content of a website. That content
-                should be about the right keywords, informative, and easy to
-                read. `,
-        onpageintro4: `    On-page SEO consists of all the elements of SEO you can control
-                    best. If you own a website, you can control the technical issues
-                    and the quality of your content. On-page issues should all be
-                    tackled as they’re in your own hands. If you create an awesome
-                    website, it will definitely start ranking. Focusing on on-page
-                    SEO will also increase the probability that your off-page SEO
-                    strategy will be successful. Link building with a poor site is a
-                    very tough job. Nobody wants to link to articles that are badly
-                    written or not interesting.`,
-        technicalintro: `    Technical SEO refers to website and server optimizations that
-                        help search engine spiders crawl and index your site more
-                        effectively to help improve organic rankings.`,
-        technicalintro2: `Search engines give preferential treatment in search results to
-                        websites that display certain technical characteristics:
-                        a secure connection, a responsive design or a fast
-                        loading time — and technical SEO is the work you need to do to
-                        ensure your website does so. `,
-        technicalintro3: `Use SSL. Secure Sockets Layer – It is a security
-                technology which creates an encrypted link between a web
-                server and a browser. You can recognise a site using SSL
-                easily: the website URL starts with ‘https’ rather than
-                ‘http’. A few years ago, Google announced that they will start giving
-                preference in rankings to websites using secure HTTPS over non-secure ones;
-                this can be simply done by installing an SSL certificate on
-                your website. `,
-        technicalintro4: `Make sure you are not unintentionally
-                  blocking crawlers from indexing your website.`,
-        technicalintro5: `Speed your site up. Search engines prefer sites that load
-                quickly: page speed is considered an important ranking signal.`,
-        technicalintro6: `Create an XML sitemap. An XML sitemap is a file that helps
-                search engines to understand your website whilst crawling it `,
-        technicalintro7: ` Consider enabling AMP. AMP is a Google-backed project which
-                  aims to speed up the delivery of content on mobile devices
-                  through the use of special code known as AMP HTML. AMP
-                  versions of your web pages load extremely quickly on mobile
-                  devices. Google sometimes highlights
-                  AMP pages in prominent carousels in search results – giving
-                  them an important search advantage.`,
-        technicalintro8: ` Add structured data markup to your website. Structured data
-                      markup is code which you add to your website to help search
-                      engines better understand the content on it. This data can
-                      help search engines index your site more effectively and
-                      provide more relevant results. `,
-        technicalintro9: `Register your site with Google Search Console and Bing
-                Webmaster Tools. Google Search Console and Bing Webmaster
-                Tools are free tools from Google and Microsoft respectively
-                that allow you to submit your website to their search engines
-                for indexing. These services  allow you to keep an eye on the
-                general performance of your site from a search engine
-                prospective.`,
-        researchHP1: `    If you have a local business, like a shop, or have people
-                    visiting your office frequently, optimizing your website is also
-                    about making sure people are able to find you in real life. But
-                    even if your not actively getting visitors in your building, but
-                    are targeting an audience that is located in the same
-                    geographical area as you are, you need to optimize for that
-                    area. This is what we call “local SEO.”`,
-        researchHP2: `    Web analytics is the measurement, collection, analysis and
-                        reporting of web data for purposes of understanding and
-                        optimizing web usage. ... Web analytics provides information
-                        about the number of visitors to a website and the number of page
-                        views.`,
-        researchHP3: `The basics of search engine advertising. Search engine
-                        advertising (SEA) is a branch of search engine marketing (SEM).
-                        While search engine optimization (SEO) centers on improving
-                        accessibility with the use of keywords, SEA places the paid
-                        advert directly into the search engine results and on partner
-                        websites.`,
-        offpageMP: `   Offpage SEO refers to techniques that can be used to improve the position of a website in the search engine results page (SERPs).  OffPage SEO has to do with promotion methods with the aim to get higher rankings  in the SERPs. Unlike On-page SEO, Off-page SEO refers to activities which are performed outside the boundaries of the website. The most important are: Link Building, Social Media Marketing and Social bookmarking.`,
-        offpageMP2: `Off page SEO gives search engines an indication on how other websites and users perceive the particular website. A website that is high quality and useful is more likely to have references (links) from other websites; more mentions on social media and it is more likely to be bookmarked and shared.`,
-        offpageMP3: `Link building is the most popular and effective off-Page SEO method. By building external links to your website, your trying to gather votes of confidence from other relevant websites. Old methods which now do not work: blog directories, forum signatures, comment links, link exchange, Reality is quality of links than the number. To get quality links the best is to understand what content you can produce that will add value to potential customers and to influencers and then bring it to them:  `,
-        offpageMP4: `Social Media is part of offpage SEO and a form of backlinking which could bring you traffic and recognition. Although most of the links from social media are nofollow they still have value. Social Media mentions are gaining ground as ranking factors and proper configuration of social media profiles can also boost SEO.`,
+        auditintro3: `Es ist extrem wichtig die Indexierung im Blick zu behalten, damit Sie keine Crawling Credits   verlieren. Vermeiden Sie daher inhaltliche Doppelungen, welche die Suchmaschinen-Bots mit schwachen Indexierungsnachrichten verwirren. Stellen Sie außerdem sicher, dass auch Ihre Mobile Webseite schnell lädt. Stellen Sie sicher, dass Ihre Webseite “https” verwendet.`,
+        auditintro4: `Sobald Sie davon überzeugt sind, tolle Inhalte und eine Webseite zu haben, auf die Sie stolz sein können, können Sie mit viel Selbstvertrauen Qualitätslinks anfragen, die auf Ihre Seite verweisen. Links sind auch weiterhin der Schlüssel im SEO and immer schwieriger proaktiv zu erlangen, gerade wenn Sie noch neu im Geschäft sind. PR, Social Media, Mund-zu-Mund-Empfehlungen and andere mediale Präsenz steigert Ihre Sichtbarkeit (engl. Visibility) und zunehmend mehr Webseiten werden sich von sich aus mit Ihnen verlinken, wenn Ihre Webseite sich von der Konkurrenz abhebt. Bevor es soweit ist, gibt es Möglicheiten loszulegen bei gleichzeitiger Verbesserung Ihres Markenimages und Ihrer Fachkenntnis.  `,
+        auditintro5: `Lernen Sie Ihre Konkurrenten mittels einer Konkurrenzanalyse kennen. Arbeiten Sie mit Lokalem SEO (engl. Local SEO) um sich den Markt in Ihrer Umgebung zu sichern und Paid Search um zusätzliche Seitenaufrufe zu generieren, während Sie weiter an Ihrem SEO arbeiten. Wenn Sie nicht mit Analytics Ihren Traffic genau beobachten, werden Sie einige Verbesserungsmöglichkeiten nicht erkennen. Diese Themen werden im Bereich Research und Analytics behandelt.`,
+        onpageintro: `Onpage Optimierung bezeichnet alle Maßnahmen, die direkt auf der eigenen Webseite getroffen werden können um deren Position in der Suchmaschinenplatzierung (engl. Search Ranking) zu verbessern. Beispiele hierfür sind Maßnahmen zur Optimierung Ihrer Inhalte oder zur Verbesserung der Metabeschreibung und Titel-Tags (engl. Title Tags).`,
+        onpageintro2: `Das Wichtigste zuerst: Keyword Recherche. Wenn Sie nicht die richtigen Stichwörter wählen oder wichtige vergessen, werden Sie Schwierigkeiten haben den besten Traffic für Ihre Webseite zu erzielen. Zudem müssen Sie wissen, welche Fragen am häufigsten in Suchmaschinen eingegeben werden, sowie andere, Ihrem Geschäft ähnliche Themen kennen.  `,
+        onpageintroT3: `die Wichtigkeit von Onpage SEO `,
 
-        offpageMP5: `Social bookmarking is not as popular as it used to be in the past but it is still a good way to get traffic to your website. Depending on your niche you can find web sites like reddit.com, stumbleupon.com, scoop.it and delicious.com (to name a few) to promote your content.`,
+        onpageintroT4: `Wesentliche Onpage SEO Faktoren`,
 
+        onpageintro3: `Warum gehen Leute auf Ihre Webseite? Sehr wahrscheinlich weil Sie Informationen liefert, nach denen sie suchen. Darum sollten Sie exzellente Inhalte verfassen. Suchmaschinen wie Google lesen Ihre Texte. Der Inhalt einer Webseite bestimmt wesenlich welche Seite die höchste Suchmaschinenplatzierung (engl. Ranking) erhält. Die Inhalte sollten daher die richtigen Stichwörter behandeln und dabei informativ und einfach zu lesen sein. `,
+
+        onpageintro4: `    Onpage SEO setzt sich aus all jenen Elementen des SEO zusammen, die sich am besten kontrollieren lassen. Wenn Sie eine Webseite haben, können Sie die technischen Aspekte und die Qualität Ihrer Inhalte selbst kontrollieren. Alle Onpage-Aspekte sollten angepackt werden, denn sie liegen in Ihren eigenen Händen. Wenn Sie eine großartige Webseite erstellen wird sie auf jeden Fall im Ranking auftauchen. Zudem steigert ein gründliches Onpage SEO die Wahrscheinlichkeit dafür, dass auch Ihre Strategie im Offpage SEO erfolgreich ist. Linkaufbau (engl. Link Building) für eine mittelmäßige Seite ist harte Arbeit. Schließlich möchte niemand schlecht geschriebene oder wenig interessante Artikel verlinken.`,
+
+        technicalintro: `    Technical SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern (engl. Search Engine Spiders) helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten und somit das natürliche Ranking zu verbessern.`,
+
+        technicalintro2: ` Suchmaschinen behandeln Webseiten mit bestimmten technischen Eigenschaften bevorzugt: eine sichere Verbindung, ein responsives Design oder eine schnelle Ladezeit (engl. Page Speed) – mit Technical SEO können Sie sicherstellen, dass diese Kriterien auf Ihre Webseite zutreffen.`,
+
+        technicalintro3: `Nutzen Sie das Sicherheitsprotokoll Secure Sockets Layer (SSL) – Es ist eine Sicherheitstechnologie die einen verschlüsselten Link zwischen einem Webserver und einem Browser erstellt. Eine Seite die SSL nutzt ist leicht zu erkennen: die URL der Webseite beginnt mit “https” und nicht mit “http”. Vor einigen Jahren kündigte Google an, im Ranking Webseiten mit dem sicheren Protokoll “https” gegenüber unsicheren bevorzugt behandeln zu wollen. Indem Sie einfach ein SSL-Zertifikat auf Ihrer Webseite installieren, können Sie von dieser Vorzugsbehandlung profitieren. `,
+
+        technicalintro4: `Stellen Sie sicher, dass Sie nicht unabsichtlich Crawlers am Indexieren Ihrer Webseite hindern.`,
+        technicalintro5: `Machen Sie Ihre Seite schneller. Suchmaschinen bevorzugen Seiten, die schnell laden: schnelle Ladezeit (engl. Page Speed) gilt als wichtiges Ranking-Kriterium.`,
+        technicalintro6: `Erstellen Sie ein XML Sitemap. Ein XML Sitemap ist ein File das Suchmaschinen während des Crawling dabei hilft, Ihre Webseite zu verstehen. `,
+        technicalintro7: ` Ziehen Sie in Erwägung AMP zu aktivieren. AMP ist ein Google-unterstütztes Projekt mit dem Ziel durch Einsatz des speziellen Codes AMP HTML die Liefergeschwindigeit von Inhalten auf Mobilen Endgeräten zu beschleunigen. AMP Versionen Ihrer Webseite laden auf Mobilen Geräten extrem schnell. Manchmal werden AMP Seiten von Google in den Suchergebnissen auch als hervorstechende Carousels markiert – was ihnen einen wichtigen Vorteil unter den Suchergebnissen verschafft.`,
+        technicalintro8: ` Zeichnen Sie Ihre Daten aus, indem Sie mit Structured Data Markup arbeiten. Structured Data Markup ist ein Code den Sie in Ihre Webseite einbinden um Suchmaschinen dabei zu helfen deren Inhalte besser zu verstehen. Diese Daten können Suchmaschinen dabei unterstützen, Ihre Seite effektiver zu indexieren und relevantere Suchergebnisse zu liefern. `,
+
+        technicalintro9: `Registrieren Sie Ihre Seite bei Google Search Console und Bing Webmaster Tools.  Google Search Console und Bing Webmaster Tools sind kostenlose Instrumente von Google beziehungsweise Microsoft die es Ihnen ermöglichen, Ihre Webseite bei den entsprechenden Suchmaschinen zur Indexierung einzureichen. Durch diesen Service können Sie die allgemeine Leistungsfähigkeit Ihrer Webseite aus Perspektive einer Suchmaschine im Blick behalten.`,
+        researchMPh1: `Analytics, Forschung und mehr`,
+        researchHP1: `Wenn Sie ein Ladenlokal haben, wie ein Geschäft oder ein Büro in dem Sie oft Besucher empfangen, ist ein wichtiger Aspekt Ihrer Webseitenoptimierung sicherzustellen, dass Menschen Sie auch im wirklichen Leben finden. Selbst wenn Sie nicht aktiv Besucher in Ihren Räumlichkeiten empfangen, sich aber an eine Zielgruppe richten, die sich geografisch im selben Gebiet befindet wie Sie, sollten Sie ----. Das nennen wir “Local SEO”.`,
+
+        researchHP2: `Webanalyse ist die Messung, Sammlung, Analyse und Meldung von Webdaten mit dem Ziel Webnutzung zu verstehen und zu optimieren. Die Webanalyse liefert Informationen über die Anzahl der Besucher auf einer Webseite und die Zahl der Seitenaufrufe.`,
+
+        researchHP3: `Die Grundlagen der Suchmaschinenwerbung (engl. Search Engine Advertising, kurz SEA). SEA ist ein Teilbereich des Suchmachinenmarketings (Search Engine Marketing, kurz SEM). Während sich SEO auf die verbesserte Zugänglichkeit von Stichwörtern (Keywords) fokussiert, werden im SEA bezahlte Werbeanzeigen direkt bei den Suchmaschinenergebnissen oder auf Partnerwebseiten platziert.`,
+
+        offpageMP: `  Offpage SEO bezeichnet Techniken, die angewandt werden um die Position einer Webseite innerhalb der Suchergebnisseite (engl. Search Engine Result Page, kurz SERP) zu verbessern. Offpage SEO hängt mit Werbemethoden zusammen, die ein besseres Ranking in den SERPs zum Ziel haben. Anders als Onpage SEO bezieht sich Offpage SEO auf Maßnahmen, welche außerhalb der Grenzen der eigenen Webseite erfolgen. Die wichtigsten sind: Linkaufbau (engl. Link Building), Social Media Marketing und Social Bookmarking.`,
+
+        offpageMP2: `Offpage SEO gibt den Suchmaschinen Aufschluss darüber, wie andere Webseiten eine bestimmte Webseite wahrnehmen. Bei einer Webseite von hohem Nutzen und Qualität ist die Wahrscheinlichkeit größer, dass sie Referenzen (Verlinkungen) von anderen Webseiten und viele Erwähnungen in Sozialen Medien hat, zudem wird sie vermutlich häufiger geteilt oder mit Lesezeichen (engl. Bookmarks) versehen.`,
+
+        offpageMP3: `Linkaufbau (engl. Link Building) ist die gängigste und effektivste Offpage-Methode. Durch das Erstellen externer Links auf Ihre Webseite versuchen Sie Vertrauensbekundungen anderer wichtiger Webseiten zu generieren. Veraltete Methoden, die heutzutage nicht mehr funktionieren: Blogverzeichnisse (engl. Blog Directories), Forensignaturen (engl. Forum Signatures), Kommentar-hinzufügen-Links (engl. Comment Links), Textlinktausch (engl. Link Exchange). Um Qualitätslinks (engl. Quality Links) aufzubauen ist es ratsam, zunächst zu erkennen welche Inhalte Sie erstellen können, um potentiellen Kunden und Influencern einen Mehrwert zu bieten und diese Inhalte im zweiten Schritt bereitzustellen.`,
+
+        offpageMP4: `Social Media ist Teil des Offpage SEO und eine Art der Rückverlinkung (engl. Backlinking) die Ihnen Traffic und Aufmersamkeit verschaffen kann. Die meisten Links aus Sozialen Medien sind zwar NoFollow-Links, sie sind jedoch trotzdem nützlich. Erwähnungen in Sozialen Medien gewinnen als Ranking-Faktoren an Boden und die passende Konfiguration von Social Media Profilen kann auch das SEO ankurbeln.`,
+
+        offpageMP5: `Social Boomarking ist nicht mehr so gängig wie in der Vergangenheit, stellt aber noch immer eine gute Möglichkeit dar, um Traffic auf Ihrer Webseite zu generieren. Je nach Nische, in welcher Sie tätig sind, können Sie passende Webseiten wie reddit.com, stumbleupon.com, scoop.it oder delicious.com (um nur einige zu nennen) nutzen, um Ihre Inhalte zu bewerben.`,
         linkstoavoidtitle: `links to avoid`,
         linkstoavoid1: `    Many think the more links, the better but it doesn't actually work
             that way. Too many low quality and/or spammy links and your website

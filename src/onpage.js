@@ -35,9 +35,7 @@ class Onpage extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            On-page SEO Audit | SEO Expert Freelancer || SEO Berlino
-          </title>
+          <title>On-page SEO Audit || SEO Berlino</title>
           <meta
             name="description"
             content="Onpage SEO Freelancer: Keyword research, landing pages, internal linking, metas, images and SD"
@@ -129,9 +127,9 @@ class Onpage extends Component {
               </div>
               <p className="italic">{t("onpageintro")}</p>
               <br />
-              <h2>Keyword Research</h2>
+              <h2> {t("hey4")}</h2>
               <p>
-                {t("onpageintro2")}{" "}
+                {t("onpageintro2")}
                 <a
                   href={"/" + this.props.lng + "/keywordresearch"}
                   className="block"
@@ -140,10 +138,10 @@ class Onpage extends Component {
                 </a>
               </p>
               <br />
-              <h2>Importance of on-page SEO</h2>
+              <h2>{t("onpageintroT3")}</h2>
               <p>{t("onpageintro3")}</p>
               <br />
-              <h2>Essential on-page SEO factors</h2>
+              <h2>{t("onpageintroT4")}</h2>
               <p>{t("onpageintro4")}</p> <br />
             </div>{" "}
           </div>

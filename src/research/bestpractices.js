@@ -15,6 +15,7 @@ class BestPractices extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>
+            {t("")}
             SEO Competitor Analysis - Backlink Profile Analysis | SEO Berlino
           </title>
           <meta

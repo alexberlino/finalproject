@@ -20,10 +20,7 @@ class MobileFriendly extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            Mobile First - Mobile friendly - Technical SEO Freelancer | SEO
-            Berlino
-          </title>
+          <title>Mobile First - Mobile friendly | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: mobile friendly and why its important in SEO "
@@ -53,18 +50,9 @@ class MobileFriendly extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services">
-            {" "}
-            Mobile First - Mobile friendly websites
-          </h1>{" "}
-          <h2> Why it's (extremely) Important</h2>
+          <h1 className="h1services">{t("mobileMPh1")}</h1>{" "}
           <div className="serviceText">
-            <p>
-              If your website it not mobile friendly, in most cases, you are in
-              trouble. Google now uses the mobile version for indexation so
-              called mobile first. If you are not sure, you can use Google's
-              tool below.
-            </p>
+            <p>{t("mobileMP1")}</p>
             <img
               src="/icons/mobilefirst.png"
               className="imageservices"
@@ -73,38 +61,14 @@ class MobileFriendly extends Component {
               width="100px"
               height="100px"
             />
-            <p>
-              A ‘responsive’ website design adjusts itself automatically so that
-              it can be navigated and read easily on any device. Google is clear
-              about the fact that having a responsive site is considered a very
-              significant ranking signal by its algorithms. And, with the
-              introduction of Google’s ‘mobile first’ approach to indexing
-              content, a responsive website is now more important than ever. So
-              it makes sense to ensure that your website is fully responsive and
-              will display in the best format possible for mobile, tablet or
-              desktop users.{" "}
-            </p>
-            <p>
-              With mobile-first indexing, Googlebot primarily crawls and indexes
-              pages with the smartphone agent. However Google will continue to
-              show the device URL that is the most appropriate to users in
-              Search results.
-            </p>
+            <p>{t("mobileMP2")} </p>
+            <p>{t("mobileMP3")}</p>
 
-            <p>
-              This means that you for instance text showing on the desktop
-              version but not on the mobile one may very likely be ignored for
-              indexation and page relavancy. If there is too much text for the
-              mobile version use 'show more'.
-            </p>
+            <p>{t("mobileMP4")}</p>
 
-            <p>
-              In terms of performance, you need to make sure that your mobile
-              version loads fast and in the right format. You can use Google's
-              PageSpeed Developer Tool
-            </p>
+            <p>{t("mobileMP5")}</p>
           </div>
-          <h2> Tools and Resources</h2>
+          <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
             <footer>
               <a

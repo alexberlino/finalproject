@@ -21,6 +21,7 @@ class Content extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>
+            {t("")}
             Content Optimization - Onpage SEO Freelancer | SEO Berlino
           </title>
           <meta
@@ -54,9 +55,10 @@ class Content extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> Content & Semantics </h1>
-          <h2> What does "content is king" really mean</h2>
+          <h1 className="h1services"> Content & Semantics {t("")}</h1>
+          <h2> What does "content is king" really mean {t("")}</h2>
           <div className="serviceText">
+            {t("")}
             The content is the value you want to create. If you content has no
             value to the user, or if it is duplicate content, your content will
             not be brought forward. Check content quality, good usage of
@@ -65,7 +67,7 @@ class Content extends Component {
             not focus on SEO only.
           </div>
 
-          <h2> Content optimization is not keyword stuffing</h2>
+          <h2> Content optimization is not keyword stuffing {t("")}</h2>
           <div className="serviceText">
             Content is King, but far away are the times when Google got tricked
             with keyword stuffing. As Google bots constantly improve to assess
@@ -73,8 +75,9 @@ class Content extends Component {
             your content doesn't make much sense linguisitcally or for the user.
           </div>
           <img src="/content.svg" className="serviceImage" />
-          <h2> The effects of mobile first on content</h2>
+          <h2> The effects of mobile first on content {t("")}</h2>
           <div className="serviceText">
+            {t("")}
             Since mobile first indexation, the content on your mobile version is
             the master one for both mobile and desktop indexation. This means
             the content on the mobile version is the one which counts. Space on

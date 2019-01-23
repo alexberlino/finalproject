@@ -15,7 +15,8 @@ class LandingPageOptimization extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Landing Pages Optimization - Onpage SEO Freelancer | SEO Berlino
+            {t("")}Landing Pages Optimization - Onpage SEO Freelancer | SEO
+            Berlino
           </title>
           <meta
             name="description"
@@ -47,8 +48,9 @@ class LandingPageOptimization extends Component {
           </div>
 
           <h1 className="h1services">Landing Pages</h1>
-          <h2> Why it's Important</h2>
+
           <div className="serviceText">
+            {t("")}
             Often, companies create Landing pages and then expect it to perform
             as it is. There are actually many factors that will make a landing
             page work, from design & UX to SEO. Users need to easily understand
@@ -60,6 +62,7 @@ class LandingPageOptimization extends Component {
           </div>
           <h2> To do</h2>
           <div className="serviceText">
+            {t("")}
             <ul>
               <li>
                 check how the page fits within the website, does it make sense

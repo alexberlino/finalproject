@@ -17,10 +17,7 @@ class PageSpeed extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            {" "}
-            Page Speed SEO - Technical SEO Freelancer | SEO Berlino
-          </title>
+          <title>{t("technicalHP4")} | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: page speed and why its important in SEO "
@@ -33,7 +30,7 @@ class PageSpeed extends Component {
         <img
           src="/auditmainpic/pagespeed.jpg"
           title="pagespeed, a photo by Twixes"
-          alt="pagespeed"
+          alt={t("technicalHP4")}
           width="80%"
           height="450px"
           className="imageAudit"
@@ -50,37 +47,16 @@ class PageSpeed extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services"> Page Speed</h1>{" "}
-          <h2> Why it's Important</h2>
-          <div className="serviceText">
-            There are several ways you can speed up your site: Use fast hosting.
-            Use a fast DNS (‘domain name system’) provider Minimise ‘HTTP
-            requests’ - keep the use of scripts and plugins to a minimum Use one
-            CSS stylesheet (the code which is used to tell a website browser how
-            to display your website) instead of multiple CSS stylesheets or
-            inline CSS Ensure your image files are as small as possible (without
-            being too pixelated) Compress your web pages (this can be done using
-            a tool called GZIP) Minify your site’s code - rid of any unnecessary
-            spaces, line breaks or indentation in your HTML, CSS and Javascript
-            (see Google’s Minify Resources page for help with this). If your
-            pages are slow to load, Google will figure it out and will
-            categorize your website as poor user experience, therefore suffering
-            in terms of organic visibility. If you haven't done it yet, I
-            strongly advise you to use the PageSpeed Insights tool (link below){" "}
-          </div>
-          <h2> Tools and Resources</h2>
+          <h1 className="h1services"> {t("technicalHP4")} </h1>{" "}
+          <div className="serviceText">{t("speedMP1")}</div>
+          <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
             <footer>
               <a href="https://developers.google.com/speed/pagespeed/insights/?hl=de">
                 Google PageSpeed Insights
               </a>{" "}
               <div className="block"> Lighthouse</div>
-              <p>
-                Please note that Lighthouse belongs to Google and their advice
-                is (a bit too) specific to Google Chrome, so for instance it
-                will advise you to use new image formats which may not be usable
-                and rendered on other browser such as Firefox or Safari.
-              </p>
+              <p className="italic">{t("speedMP2")}</p>
             </footer>
           </div>
           <div className="black slide-in-left sideLinks">

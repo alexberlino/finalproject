@@ -14,7 +14,9 @@ class KeywordResearch extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Keyword Research - Onpage SEO Freelancer | SEO Berlino</title>
+          <title>
+            {t("")}Keyword Research - Onpage SEO Freelancer | SEO Berlino
+          </title>
           <meta
             name="description"
             content="Keyword research is one the most important first steps in SEO.
@@ -44,18 +46,20 @@ class KeywordResearch extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> Keyword Research </h1>
-          <h2> Why it's (extremely) Important</h2>
+          <h1 className="h1services"> Keyword Research{t("")} </h1>
           <div className="serviceText">
+            {t("")}
             Keyword Research is critical to understand how your potential
             clients are searching for the products or services you are offering.
             <p className="italic">
+              {t("")}
               The keywords you are using for your site are possibly not the ones
               your potential clients are using to look for your services.
             </p>
           </div>
-          <h2> To do</h2>
+          <h2> {t("")}</h2>
           <div className="serviceText">
+            {t("")}
             Good keyword research starts with gathering data:
             <ul>
               <li>keywords currently bringing traffic</li>
@@ -68,19 +72,23 @@ class KeywordResearch extends Component {
               <li>Keyword tools</li>
             </ul>
             <div className="italic">
+              {t("")}
               which keywords have the most value for you?{" "}
             </div>
+            {t("")}
             <p>
               Search Volume is not the most important factor, but if there is no
               seach volume for the terms you want to optimize your site for, you
               are already making your life difficult.
             </p>
             <p>
+              {t("")}
               Equally, targeting high competitive keywords with very high Search
               Volumes, or Keywords not related to products or services which you
               offer will cause problems.
             </p>
             <p>
+              {t("")}
               Set up a list of keywords: main keywords, broad terms, related
               terms, long tail, each type of keywords having different
               objectives the huge majority of searches now represent a maximum
@@ -93,13 +101,14 @@ class KeywordResearch extends Component {
               >
                 Voice search
               </a>{" "}
+              {t("")}
               is creating a lof of disruption in terms of keywords research
               since people use different phrases depending on whether they type
               of speak. In general voice search keywords are longer and they are
               in the form of a question.
             </p>
           </div>
-          <h2> Tools and Resources</h2>
+          <h2> {t("")}</h2>
           <div className="serviceText">
             <a target="blank" className="block" href=" https://adwords.com/">
               Adwords Keyword Planner{" "}

@@ -18,7 +18,9 @@ class DuplicateContent extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Duplicate Content - Onpage SEO Freelancer | SEO Berlino</title>
+          <title>
+            Duplicate Content - Onpage SEO Freelancer | SEO Berlino{t("")}
+          </title>
           <meta
             name="description"
             content="Duplicate Content and Semantics for SEO."
@@ -48,20 +50,26 @@ class DuplicateContent extends Component {
           </div>
 
           <h1 className="h1services"> Duplicate Content</h1>
-          <h2> Duplicate Content, the biggest threat to making content king</h2>
+          <h2>
+            {" "}
+            Duplicate Content, the biggest threat to making content king {t("")}
+          </h2>
           <div className="serviceText">
+            {t("")}
             Search Engines do not like duplicate content indexed. If you have
             many similar pages and you are not flagging them, these pages will
             not rank well.
           </div>
 
-          <h2> Indexation audit</h2>
+          <h2> Indexation audit{t("")}</h2>
           <div className="serviceText">
+            {t("")}
             Identify duplicate content, assess status and design for the master
             page, deindex unnecessary pages using canonicals, 410s or redirects
             accordingly.
           </div>
           <div className="serviceText">
+            {t("")}
             Duplicate content can either be confusing for users (and indeed
             search engine algorithms); it can also be used to try to manipulate
             search rankings or win more traffic. As a result, search engines
@@ -74,8 +82,9 @@ class DuplicateContent extends Component {
             element to let search engines know where the ‘main’ version of your
             content resides.
           </div>
-          <h2> Using Canonicals</h2>
+          <h2> Using Canonicals{t("")}</h2>
           <div className="serviceText">
+            {t("")}
             Canonicals are best used when you have very similar pages fro
             imstance same t-shirt in different colours. You don't want to index
             the same t-shirt for each colour, although you want to keep the urls
@@ -85,12 +94,12 @@ class DuplicateContent extends Component {
             follow up with a new strategy if necessary.
           </div>
 
-          <h2> Same language country, different territory target</h2>
+          <h2> Same language country, different territory target{t("")}</h2>
           <div className="serviceText">
-            A possible cause for duplicate content is when targeting different
-            territoris (UK and US for instance) with different domains or urls
-            but with a very similar content. Make sure then that you have well
-            implemented href lang!
+            {t("")}A possible cause for duplicate content is when targeting
+            different territoris (UK and US for instance) with different domains
+            or urls but with a very similar content. Make sure then that you
+            have well implemented href lang!
           </div>
           <div className="black slide-in-left sideLinks">
             <a

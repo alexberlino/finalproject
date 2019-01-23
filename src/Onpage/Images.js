@@ -19,6 +19,7 @@ class Images extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>
+            {t("")}
             Image Optimization - Onpage SEO Freelancer | SEO Berlino
           </title>
           <meta
@@ -51,9 +52,10 @@ class Images extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services">Images Optimization </h1>
-          <h2> Why it's Important</h2>
+          <h1 className="h1services">Images Optimization{t("")} </h1>
+
           <div className="serviceText">
+            {t("")}
             Image Search still represents for most industry an important SEO
             subchannel. Given how Image search now works, many Image "visits"
             are only virtual and therefore invisible in analytics reports. Image
@@ -62,6 +64,7 @@ class Images extends Component {
           <img src="/picture.svg" height="200px" className="serviceImage" />
 
           <div className="serviceText">
+            {t("")}
             Make sure images are well optimized from image hosting to image alt
             tags. In case, your website actively uses images, help you with a
             strategy to improve brand awareness.
@@ -76,9 +79,9 @@ class Images extends Component {
             not as important for SEO as the alt attribute, it should not be
             neglected. Avoid copy and pasting the same text you have as alt
             attribute.
-            <h2> image size and format</h2>
-            If your image is too big, this will affect pagespeed, especially for
-            mobile traffic.
+            <h2> image size and format{t("")}</h2>
+            {t("")}If your image is too big, this will affect pagespeed,
+            especially for mobile traffic.
           </div>
           <div className="black slide-in-left sideLinks">
             <a

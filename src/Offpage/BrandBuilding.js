@@ -40,15 +40,14 @@ class BrandBuilding extends Component {
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
           <h1 className="h1services">Brand building</h1>
-          <h2> Why it's Important</h2>
           <div className="serviceText">{t("brandbuildingMP1")}</div>
-          <h2> Plan to get links</h2>
+          <h2> Plan to get links{t("")}</h2>
           <div className="serviceText">{t("brandbuildingMP2")}</div>
           <h2> Influencers</h2>
           <div className="serviceText">{t("brandbuildingMP3")}</div>
-          <h2> Content Creation, but not any</h2>
+          <h2> Content Creation, but not any {t("")}</h2>
           <div className="serviceText">{t("brandbuildingMP4")}</div>
-          <h2> more reading</h2>
+          <h2> {t("")}</h2>
           <div className="serviceText">
             <a
               onClick={() =>

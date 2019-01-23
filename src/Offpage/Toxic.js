@@ -15,7 +15,7 @@ class Toxic extends Component {
         <Helmet>
           <meta charSet="utf-8" />
           <title>
-            Toxic Links Cleaning - Offpage SEO Freelancer | SEO Berlino
+            {t("")} Toxic Links Cleaning - Offpage SEO Freelancer | SEO Berlino
           </title>
           <meta type="description" content="" />
           <link
@@ -43,15 +43,15 @@ class Toxic extends Component {
           </div>
 
           <h1 className="h1services"> {t("linkstoavoidtitle")}</h1>
-          <h2> Quality over quantity</h2>
+          <h2> Quality over quantity {t("")}</h2>
           <div className="serviceText">{t("linkstoavoid1")}</div>
-          <h2> You are responsible for the links that point to you</h2>
+          <h2> You are responsible for the links that point to you {t("")}</h2>
           <div className="serviceText">{t("linkstoavoid2")}</div>
 
-          <h2> Too many links from one domain</h2>
+          <h2> Too many links from one domain {t("")}</h2>
           <div className="serviceText">{t("linkstoavoid3")}</div>
 
-          <h2> Disavow and contact them to remove them</h2>
+          <h2> Disavow and contact them to remove them {t("")}</h2>
           <div className="serviceText">{t("linkstoavoid4")}</div>
           <div className="sideLinks black slide-in-left">
             <a

@@ -264,6 +264,7 @@ iframe {
   margin-left: 22%;
   background-color: white;
   opacity: 0.96;
+  width: 70%;
   z-index: 3;
   top: -200px;
 }

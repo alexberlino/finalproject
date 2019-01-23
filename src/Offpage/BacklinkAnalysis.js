@@ -14,7 +14,7 @@ class BacklinkAnalysis extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Backlink Profile Audit - | SEO Berlino</title>
+          <title>{t("")}Backlink Profile Audit - | SEO Berlino</title>
           <meta
             type="description"
             content="Backlinks still play a huge part in SEO. Understanding your profile and setting goals for quality links is key to success."
@@ -44,7 +44,7 @@ class BacklinkAnalysis extends Component {
           </div>
 
           <div className="infoTitle">
-            <h1 className="h1services"> Backlink Profile Audit</h1>
+            <h1 className="h1services"> {t("")}Backlink Profile Audit</h1>
           </div>
           <div>
             <div className="serviceText">

@@ -20,9 +20,7 @@ class Security extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            - HTTPS and SEO - Technical SEO Freelancer | SEO Berlino
-          </title>
+          <title>{t("technicalHP7")} | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO: HTTPS and security and why its important in SEO "
@@ -50,22 +48,11 @@ class Security extends Component {
 
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
-          <h1 className="h1services"> Security - Migration to https</h1>{" "}
-          <h2> Why it's Important</h2>
+          <h1 className="h1services"> {t("technicalHP7")}</h1>{" "}
           <div className="serviceText">
-            <p>
-              Hyper Text Transfer Protocol Secure (HTTPS) is the secure version
-              of HTTP, the protocol over which data is sent between browser and
-              the connected website. The 'S' of HTTPS stands for 'Secure'. It
-              means all communications between browser and website are
-              encrypted.
-            </p>
+            <p>{t("securityMP1")}</p>
 
-            <p>
-              HTTPS is often used to protect highly confidential online
-              transactions like online banking and online shopping order forms.
-              But has now become to norm.
-            </p>
+            <p>{t("securityMP2")}</p>
             <img
               className="imageservices"
               src="/icons/notsecure.png"
@@ -73,22 +60,10 @@ class Security extends Component {
               height="32px"
             />
 
-            <p>
-              Https for "early-adopters" may have given them an advantage on
-              their competitors, these times are over. If you haven't made the
-              transition yet, it needs to be very high on your priority list.
-              Since summer 2018, Chrome now shows a "not secure" warning so
-              beware of a sharp increase in bounce rate should you now have
-              implemented it yet, on top of lower rankings.
-            </p>
+            <p>{t("securityMP3")}</p>
           </div>
-          <h2> To do</h2>
-          <div className="serviceText">
-            Plan your site migration carefully, incluing identify pages to
-            redirect (which should be the most valuable ones), and those you
-            should not. Timing is key to avoid risks, so avoid doing it before
-            your high season.
-          </div>
+          <h2> {t("")}</h2>
+          <div className="serviceText">{t("securityMP4")}</div>
           <div className="black slide-in-left sideLinks">
             <a
               className="block"

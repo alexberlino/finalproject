@@ -14,7 +14,10 @@ class Analytics extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Analysis for SEO - Reseach & Analytics | SEO Berlino</title>
+          <title>
+            {" "}
+            {t("")}Analysis for SEO - Reseach & Analytics | SEO Berlino
+          </title>
           <meta
             type="description"
             content="Analytics for SEO. Without Data, it is difficult

@@ -14,7 +14,10 @@ class InternalLinking extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Internal Linking - Onpage SEO Freelancer| SEO Berlino</title>
+          <title>
+            {" "}
+            {t("")}Internal Linking - Onpage SEO Freelancer| SEO Berlino
+          </title>
           <meta type="description" content="" />
           <link
             rel="canonical"
@@ -39,9 +42,9 @@ class InternalLinking extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
-          <h1 className="h1services">Internal Linking </h1>
-          <h2> Why it's (extermely) Important</h2>
+          <h1 className="h1services">Internal Linking{t("")} </h1>
           <div className="serviceText">
+            {t("")}
             Internal Linking is core for on-page SEO, especially for big
             websites. Link juice redistribution, prioritization of key pages or
             site sections to name a few reasons. Google crawls websites by
@@ -52,14 +55,16 @@ class InternalLinking extends Component {
             content. This way Google finds out which pages on your site cover
             similar subject matter.
           </div>
-          <h2> To do</h2>
+          <h2> To do{t("")}</h2>
           <div className="serviceText">
+            {t("")}
             Review and audit your current internal linking settings, including
             navigation, sub-navigations, breadcrumb and tags, taking into
             account business prioritization. Report action plan with main
             priority points and explanations for each points.
           </div>
           <div className="serviceText">
+            {t("")}
             In addition to understanding the relationship between content,
             Google divides link value between all links on a web page. Often,
             the homepage of a website has the greatest link value because it has
@@ -75,6 +80,7 @@ class InternalLinking extends Component {
             as more important, you’ll increase the chance of that page ranking.{" "}
           </div>
           <div className="serviceText">
+            {t("")}
             It’s crucial for your SEO to evaluate and improve internal linking
             strategy on a regular basis. By adding the right internal links you
             make sure Google understands the relevance of pages, the
@@ -89,6 +95,7 @@ class InternalLinking extends Component {
             pages hold information about similar topics.{" "}
           </div>
           <div className="serviceText">
+            {t("")}
             Don’t forget to link from the top too Besides linking from
             topically-related posts and pages, it’s possible to make your
             cornerstone content more authoritative by adding links to it from
@@ -101,7 +108,7 @@ class InternalLinking extends Component {
             easily navigate to related posts. At Yoast we always link to the
             matching categories and tags in the sidebar of each post:
           </div>{" "}
-          <h2> Some relevant tools</h2>
+          <h2> {t("")}</h2>
           <div className="serviceText">Screaming Frog</div>
           <div className="black slide-in-left sideLinks">
             <a

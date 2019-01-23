@@ -16,6 +16,7 @@ class Metas extends Component {
           <meta charSet="utf-8" />
           <title>
             {" "}
+            {t("")}
             Meta optimization - Onpage SEO Freelancer -Onpage SEO Freelancer |
             SEO Berlino
           </title>
@@ -45,8 +46,9 @@ class Metas extends Component {
           </div>
 
           <h1 className="h1services"> MetasTags & Headings </h1>
-          <h2> titles</h2>
+          <h2> titles{t("")}</h2>
           <div className="serviceText">
+            {t("")}
             Page titles are often neglected, but are really important and very
             simple to implement. That means you need to have them spot on. Each
             page should have unique titles, clearly stating the page main focus,
@@ -55,6 +57,7 @@ class Metas extends Component {
           </div>
           <h2> description</h2>
           <div className="serviceText">
+            {t("")}
             Meta descriptions are not required t have your page rank well. Even
             if your meta description is empty or missing, Google will take some
             text from the page and fill in the gap. If you have one but Google
@@ -68,12 +71,14 @@ class Metas extends Component {
 
           <h2> headings</h2>
           <div className="serviceText">
+            {t("")}
             you should have one h1 per page with h1 being your main keyword for
             the page. then
           </div>
 
-          <h2> what to check</h2>
+          <h2> {t("")}what to check</h2>
           <div className="serviceText">
+            {t("")}
             Crawling through the website to analyse and identify:
             <ul>
               <li>missing or empty metas</li>
@@ -81,7 +86,7 @@ class Metas extends Component {
               <li>too long or too short metas</li>
             </ul>
           </div>
-          <h2> Tools and Resources</h2>
+          <h2> {t("")}s</h2>
           <div className="serviceText">
             <footer>Screaming Frog </footer>
           </div>

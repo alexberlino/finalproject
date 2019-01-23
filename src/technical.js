@@ -63,7 +63,7 @@ class Technical extends Component {
           </div>
 
           <div className="infoTitle">
-            <h1 className="h1services">Technical SEO </h1>
+            <h1 className="h1services">{t("hey5")}</h1>
           </div>
           <div>
             <div className="marginright">
