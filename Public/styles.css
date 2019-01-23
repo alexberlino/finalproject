@@ -264,7 +264,7 @@ iframe {
   margin-left: 22%;
   background-color: white;
   opacity: 0.96;
-  width: 70%;
+  width: 80%;
   z-index: 3;
   top: -200px;
 }
@@ -1208,6 +1208,7 @@ button.servicesHP2 {
 .marginright {
   margin-top: 45px;
   margin-right: 6%;
+  margin-left: 2%;
   width: 80%;
 }
 

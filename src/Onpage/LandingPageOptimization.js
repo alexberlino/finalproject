@@ -14,10 +14,7 @@ class LandingPageOptimization extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            {t("")}Landing Pages Optimization - Onpage SEO Freelancer | SEO
-            Berlino
-          </title>
+          <title>{t("onpageHP2")} | SEO Berlino</title>
           <meta
             name="description"
             content="Landing Page Optimization is not just about UX and graphics.
@@ -46,37 +43,17 @@ class LandingPageOptimization extends Component {
 
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
+          <h1 className="h1services">{t("onpageHP2")}</h1>
+          <div className="serviceText">{t("landingMP1")}</div>
+          <h2> {t("landingMPT2")}</h2>
+          <div className="serviceText">{t("landingMP2")}</div>
+          <h2> {t("landingMPT3")}</h2>
+          <div className="serviceText">{t("landingMP3")} </div>
+          <h2>{t("landingMPT4")}</h2>
+          <div className="serviceText">{t("landingMP4")} </div>
+          <h2>{t("landingMPT5")}</h2>
+          <div className="serviceText">{t("landingMP5")} </div>
 
-          <h1 className="h1services">Landing Pages</h1>
-
-          <div className="serviceText">
-            {t("")}
-            Often, companies create Landing pages and then expect it to perform
-            as it is. There are actually many factors that will make a landing
-            page work, from design & UX to SEO. Users need to easily understand
-            your website. They should be able to find what they want in a
-            heartbeat. They should know where to click and how to navigate
-            through your site. And it should be fast! A beautifully designed
-            website is nice, but you should definitely make it your top priority
-            to create a user-friendly website first!
-          </div>
-          <h2> To do</h2>
-          <div className="serviceText">
-            {t("")}
-            <ul>
-              <li>
-                check how the page fits within the website, does it make sense
-                in the user journey?
-              </li>
-              <li>keyword targeting</li>
-              <li> outcoming links </li>
-
-              <li>how is the page linked internally and externally</li>
-              <li>content and semantics, out</li>
-              <li>technical aspects including pagespeed</li>
-              <li>image optimization</li>
-            </ul>
-          </div>
           <div className="black slide-in-left sideLinks">
             <a
               className="block"

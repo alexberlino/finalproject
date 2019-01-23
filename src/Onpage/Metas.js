@@ -14,12 +14,7 @@ class Metas extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            {" "}
-            {t("")}
-            Meta optimization - Onpage SEO Freelancer -Onpage SEO Freelancer |
-            SEO Berlino
-          </title>
+          <title> {t("onpageHP4")}| SEO Berlino</title>
           <meta type="description" content="" />
           <link
             rel="canonical"
@@ -45,48 +40,18 @@ class Metas extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> MetasTags & Headings </h1>
-          <h2> titles{t("")}</h2>
-          <div className="serviceText">
-            {t("")}
-            Page titles are often neglected, but are really important and very
-            simple to implement. That means you need to have them spot on. Each
-            page should have unique titles, clearly stating the page main focus,
-            using terms that users are searching, so according to your keywords
-            list.
-          </div>
-          <h2> description</h2>
-          <div className="serviceText">
-            {t("")}
-            Meta descriptions are not required t have your page rank well. Even
-            if your meta description is empty or missing, Google will take some
-            text from the page and fill in the gap. If you have one but Google
-            is not using it, that means Google did not find it relevant enough
-            for the searched term. Either way, meta descriptions are important
-            for CTR, searched terms if included in your description will appear
-            in bold and you can also confirm to the user your entry is the most
-            relevant for the search and add that difference that will make the
-            click happen.
-          </div>
+          <h1 className="h1services"> {t("onpageHP4")} </h1>
+          <h2> Title</h2>
+          <div className="serviceText">{t("metasMP1")}</div>
+          <h2> Description</h2>
+          <div className="serviceText">{t("metasMP2")}</div>
 
-          <h2> headings</h2>
-          <div className="serviceText">
-            {t("")}
-            you should have one h1 per page with h1 being your main keyword for
-            the page. then
-          </div>
+          <h2> Headings</h2>
+          <div className="serviceText">{t("metasMP3")}</div>
 
-          <h2> {t("")}what to check</h2>
-          <div className="serviceText">
-            {t("")}
-            Crawling through the website to analyse and identify:
-            <ul>
-              <li>missing or empty metas</li>
-              <li>duplicate or unclear metas</li>
-              <li>too long or too short metas</li>
-            </ul>
-          </div>
-          <h2> {t("")}s</h2>
+          <h2> {t("metasMPT4")}</h2>
+          <div className="serviceText">{t("metasMP4")}</div>
+          <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
             <footer>Screaming Frog </footer>
           </div>

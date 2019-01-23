@@ -18,9 +18,7 @@ class DuplicateContent extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            Duplicate Content - Onpage SEO Freelancer | SEO Berlino{t("")}
-          </title>
+          <title>| SEO Berlino</title>
           <meta
             name="description"
             content="Duplicate Content and Semantics for SEO."
@@ -49,58 +47,18 @@ class DuplicateContent extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
 
-          <h1 className="h1services"> Duplicate Content</h1>
-          <h2>
-            {" "}
-            Duplicate Content, the biggest threat to making content king {t("")}
-          </h2>
-          <div className="serviceText">
-            {t("")}
-            Search Engines do not like duplicate content indexed. If you have
-            many similar pages and you are not flagging them, these pages will
-            not rank well.
-          </div>
+          <h1 className="h1services"> {t("onpageHP9")} </h1>
+          <h2>{t("duplicateMPT1")}</h2>
+          <div className="serviceText">{t("duplicateMP1")}</div>
 
-          <h2> Indexation audit{t("")}</h2>
-          <div className="serviceText">
-            {t("")}
-            Identify duplicate content, assess status and design for the master
-            page, deindex unnecessary pages using canonicals, 410s or redirects
-            accordingly.
-          </div>
-          <div className="serviceText">
-            {t("")}
-            Duplicate content can either be confusing for users (and indeed
-            search engine algorithms); it can also be used to try to manipulate
-            search rankings or win more traffic. As a result, search engines
-            aren’t keen on it, and Google and Bing advise webmasters to fix any
-            duplicate content issues they find. You can fix duplicate content
-            issues by: Preventing your CMS publishing multiple versions of a
-            page or post (for example, by disabling Session IDs where they are
-            not vital to the functionality of your website and getting rid of
-            printer-friendly versions of your content). Using the canonical link
-            element to let search engines know where the ‘main’ version of your
-            content resides.
-          </div>
-          <h2> Using Canonicals{t("")}</h2>
-          <div className="serviceText">
-            {t("")}
-            Canonicals are best used when you have very similar pages fro
-            imstance same t-shirt in different colours. You don't want to index
-            the same t-shirt for each colour, although you want to keep the urls
-            for the user to browse through the options. Beware though that
-            sometimes canonicals are sometimes ignored by Google so it is
-            important to monitor the results of canonicals implementation and
-            follow up with a new strategy if necessary.
-          </div>
+          <h2> {t("duplicateMPT2")}</h2>
+          <div className="serviceText">{t("duplicateMP2")}</div>
+          <div className="serviceText">{t("duplicateMP3")}</div>
+          <h2> {t("duplicateMPT4")}</h2>
+          <div className="serviceText">{t("duplicateMP4")}</div>
 
-          <h2> Same language country, different territory target{t("")}</h2>
-          <div className="serviceText">
-            {t("")}A possible cause for duplicate content is when targeting
-            different territoris (UK and US for instance) with different domains
-            or urls but with a very similar content. Make sure then that you
-            have well implemented href lang!
-          </div>
+          <h2> {t("duplicateMPT5")}</h2>
+          <div className="serviceText">{t("duplicateMP5")}</div>
           <div className="black slide-in-left sideLinks">
             <a
               className="block"
