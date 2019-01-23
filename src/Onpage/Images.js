@@ -52,7 +52,7 @@ class Images extends Component {
           </div>
 
           <h1 className="h1services">Images Optimization </h1>
-          <h2 className="serviceTitle"> Why it's Important</h2>
+          <h2> Why it's Important</h2>
           <div className="serviceText">
             Image Search still represents for most industry an important SEO
             subchannel. Given how Image search now works, many Image "visits"
@@ -65,18 +65,18 @@ class Images extends Component {
             Make sure images are well optimized from image hosting to image alt
             tags. In case, your website actively uses images, help you with a
             strategy to improve brand awareness.
-            <h2 className="serviceTitle"> alt attribute</h2>
+            <h2> alt attribute</h2>
             The alt attribute often called "alt tag" gives important information
             to the Google bot regarding what the piture is about. If the image
             path is incorrect, the alt (alternative) attribute will show
             instead.
-            <h2 className="serviceTitle"> image title</h2>
+            <h2> image title</h2>
             The title appears as tooltip when there is a mouse-over above the
             image. Use it to give more information about the picture. Although
             not as important for SEO as the alt attribute, it should not be
             neglected. Avoid copy and pasting the same text you have as alt
             attribute.
-            <h2 className="serviceTitle"> image size and format</h2>
+            <h2> image size and format</h2>
             If your image is too big, this will affect pagespeed, especially for
             mobile traffic.
           </div>

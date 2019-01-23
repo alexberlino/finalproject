@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet";
 class BrandBuilding extends Component {
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -43,13 +42,13 @@ class BrandBuilding extends Component {
           <h1 className="h1services">Brand building</h1>
           <div className="serviceTitle"> Why it's Important</div>
           <div className="serviceText">{t("brandbuildingMP1")}</div>
-          <h2 className="serviceTitle"> Plan to get links</h2>
+          <h2> Plan to get links</h2>
           <div className="serviceText">{t("brandbuildingMP2")}</div>
-          <h2 className="serviceTitle"> Influencers</h2>
+          <h2> Influencers</h2>
           <div className="serviceText">{t("brandbuildingMP3")}</div>
-          <h2 className="serviceTitle"> Content Creation, but not any</h2>
+          <h2> Content Creation, but not any</h2>
           <div className="serviceText">{t("brandbuildingMP4")}</div>
-          <h2 className="serviceTitle"> more reading</h2>
+          <h2> more reading</h2>
           <div className="serviceText">
             <a
               onClick={() =>

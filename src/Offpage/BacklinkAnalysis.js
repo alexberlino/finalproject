@@ -63,7 +63,7 @@ class BacklinkAnalysis extends Component {
               heigth="200px"
               width="200px"
             />
-            <h2 className="serviceTitle">
+            <h2>
               Fact: Backlinks are still very important in 2019
             </h2>
             <div className="serviceText">{t("BLanalysis2")}</div>
@@ -73,20 +73,20 @@ class BacklinkAnalysis extends Component {
               heigth="200px"
               width="200px"
             />
-            <h2 className="serviceTitle">Quality over quantity</h2>
+            <h2>Quality over quantity</h2>
 
             <div className="serviceText">{t("BLanalysis3")}</div>
-            <h2 className="serviceTitle">
+            <h2>
               Refering Domains: page authority over domain authority
             </h2>
             <div className="serviceText">{t("BLanalysis4")}</div>
-            <h2 className="serviceTitle">Competitors</h2>
+            <h2>Competitors</h2>
             <div className="serviceText">{t("BLanalysis5")}</div>
-            <h2 className="serviceTitle">Anchor text, nofollow/follow links</h2>
+            <h2>Anchor text, nofollow/follow links</h2>
             <div className="serviceText">{t("BLanalysis6")}</div>
-            <h2 className="serviceTitle">gov & edu links</h2>
+            <h2>gov & edu links</h2>
             <div className="serviceText">{t("BLanalysis7")}</div>
-            <h2 className="serviceTitle"> Related Tools and Resources</h2>
+            <h2> Related Tools and Resources</h2>
             <div className="serviceText">
               <a
                 target="blank"

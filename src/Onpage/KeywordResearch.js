@@ -46,7 +46,7 @@ class KeywordResearch extends Component {
           </div>
 
           <h1 className="h1services"> Keyword Research </h1>
-          <h2 className="serviceTitle"> Why it's (extremely) Important</h2>
+          <h2> Why it's (extremely) Important</h2>
           <div className="serviceText">
             Keyword Research is critical to understand how your potential
             clients are searching for the products or services you are offering.
@@ -55,7 +55,7 @@ class KeywordResearch extends Component {
               your potential clients are using to look for your services.
             </p>
           </div>
-          <h2 className="serviceTitle"> To do</h2>
+          <h2> To do</h2>
           <div className="serviceText">
             Good keyword research starts with gathering data:
             <ul>
@@ -100,7 +100,7 @@ class KeywordResearch extends Component {
               in the form of a question.
             </p>
           </div>
-          <h2 className="serviceTitle"> Tools and Resources</h2>
+          <h2> Tools and Resources</h2>
           <div className="serviceText">
             <a target="blank" className="block" href=" https://adwords.com/">
               Adwords Keyword Planner{" "}

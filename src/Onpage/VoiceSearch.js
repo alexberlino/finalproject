@@ -46,7 +46,7 @@ class VoiceSearch extends Component {
           <h1 className="h1services">
             On-page SEO: Optimization for Voice Search
           </h1>
-          <h2 className="serviceTitle">
+          <h2>
             {" "}
             What is Voice Search and why it's Important to be ready for it
           </h2>
@@ -58,26 +58,26 @@ class VoiceSearch extends Component {
             number of searches. In order to be ready for it, every website needs
             to understand how it changes classical SEO.
           </div>
-          <h2 className="serviceTitle"> Questions</h2>
+          <h2> Questions</h2>
           <div className="serviceText">
             The main difference with traditional search is that many voice
             search requests are questions, so they begin with where, how, what,
             etc.
           </div>
-          <h2 className="serviceTitle"> Longer Search terms</h2>
+          <h2> Longer Search terms</h2>
           <div className="serviceText">
             The second main difference is that the "keywords" are longer, mostly
             because the requests are questions and because users are more
             descriptive when voally expressing their needs, compared to typing.{" "}
           </div>
-          <h2 className="serviceTitle"> Increasing Search Volume</h2>
+          <h2> Increasing Search Volume</h2>
           <div className="serviceText">
             Search volumes for such searches are still lower than the classical
             searches equivalent, but the volumes are continuously increasing and
             the keywords are more segmented, meaning there are more questions
             for the equivalent classical search term
           </div>
-          <h2 className="serviceTitle"> Featured Snippet</h2>
+          <h2> Featured Snippet</h2>
           <div className="serviceText">
             One of the main advantage to be ready and optimized for search term
             is that you can be featured at "position 0" with the featured

@@ -43,7 +43,7 @@ class SEA extends Component {
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
           <h1 className="h1services"> SEA, Search Engine Advertising</h1>
-          <h2 className="serviceTitle">
+          <h2>
             {" "}
             What is SEA? And what SEO and SEA have in common ?{" "}
           </h2>
@@ -54,7 +54,7 @@ class SEA extends Component {
             going and/or get visibility and brand awareness using the Display
             Network.
           </div>
-          <h2 className="serviceTitle"> Adwords Set-up</h2>
+          <h2> Adwords Set-up</h2>
           <div className="serviceText">
             Google Ads is not extremely competitive which means CPC (cost per
             click) are very high for pretty much any industry. Doing a thorough
@@ -62,7 +62,7 @@ class SEA extends Component {
             important to think budget and choose your strategy: visibility, ROI,
             etc. Adwords Set-up
           </div>
-          <h2 className="serviceTitle"> Adwords Account Optimization</h2>
+          <h2> Adwords Account Optimization</h2>
           <div className="serviceText">
             Once you have chosen your budget strategy, created your campaigns,
             adgroups and ads, optimization begins:
@@ -79,7 +79,7 @@ class SEA extends Component {
               <li>display network adjustments</li>
             </ul>
           </div>
-          <h2 className="serviceTitle"> SEO / SEA Consistency </h2>
+          <h2> SEO / SEA Consistency </h2>
           <div className="serviceText">
             A great way to transmit a stronger message on SERPs is to be
             consistent in your language and word choice in SEO and SEA.
@@ -94,14 +94,14 @@ class SEA extends Component {
               </li>
             </ul>
           </div>
-          <h2 className="serviceTitle"> Google Ads Data for SEO </h2>
+          <h2> Google Ads Data for SEO </h2>
           <div className="serviceText">
             Google Ads are expensive but on top of getting you that visibility
             and orders, it is a precious goldmine for keywords, especially if
             the account is well managed (with impressions, meaning high enough
             bids)
           </div>
-          <h2 className="serviceTitle"> Releted Tools and Resources</h2>
+          <h2> Releted Tools and Resources</h2>
           <div className="serviceText">
             <footer>Google Ads </footer>
           </div>{" "}

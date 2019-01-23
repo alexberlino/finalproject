@@ -46,7 +46,7 @@ class Analytics extends Component {
           </div>
 
           <h1 className="h1services"> Analytics SEO</h1>
-          <h2 className="serviceTitle">
+          <h2>
             {" "}
             Reliable data to make confident decisions
           </h2>
@@ -57,14 +57,14 @@ class Analytics extends Component {
             number of visits/unique visitors and conversions for specific pages
             and site sections, or compare data by device type or browser.
           </div>
-          <h2 className="serviceTitle"> Google Analytics</h2>
+          <h2> Google Analytics</h2>
           <div className="serviceText">
             Google offers a free version for an analytics tool: Google
             Analytics. Its set-up is quite straight-forward but you will still
             needs
           </div>
 
-          <h2 className="serviceTitle"> Google Analytics First steps</h2>
+          <h2> Google Analytics First steps</h2>
           <div className="serviceText">
             <ul>
               <li>
@@ -85,7 +85,7 @@ class Analytics extends Component {
             </ul>
           </div>
 
-          <h2 className="serviceTitle"> Google Search Console Integration</h2>
+          <h2> Google Search Console Integration</h2>
           <div className="serviceText">
             To get more valuable insight especially in terms of keywords, it is
             better to integrate Google Search Console to Google Analytics. GA

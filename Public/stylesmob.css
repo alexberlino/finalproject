@@ -66,12 +66,6 @@
     top: 0px;
   }
 
-  .PDCD {
-    margin-left: 20%;
-    height: 50%;
-    width: 50%;
-  }
-
   .traffic {
     margin-left: 5%;
   }
@@ -140,16 +134,6 @@
   .auditpages {
     font-size: 19px;
     padding: 2px;
-  }
-
-  .mainRightServices {
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    background-color: #f6f6f6;
-  }
-  .showRight {
-    transform: translateY(-450px);
   }
 
   .imageBlogHP {
@@ -260,12 +244,6 @@
     padding-bottom: 20px;
   }
 
-  .portrait {
-    position: relative;
-    display: block;
-    margin-bottom: 20px;
-  }
-
   ul {
     margin: 0px;
     padding: 0px;
@@ -318,10 +296,6 @@
     padding-bottom: 50px;
     left: 0;
     background-color: white;
-  }
-
-  .mobintro2 {
-    width: 100%;
   }
 
   .introQuarter {
@@ -436,15 +410,6 @@
     padding-top: 3px;
   }
 
-  .rightServices {
-    position: relative;
-    width: 40%;
-    left: 0px;
-    top: 0px;
-    z-index: 11;
-    opacity: 1;
-  }
-
   .hide {
     transform: translateX(-400px);
     transition-duration: 3s;
@@ -489,37 +454,13 @@
   .services2 {
     margin-left: 5%;
   }
-  .serviceImage {
-    width: 100px;
-    height: 100px;
-  }
+
   .bigicon {
     width: 40%;
   }
 
   .big {
     font-size: 24px;
-  }
-  .leftServices {
-    left: 7px;
-    width: 80%;
-  }
-
-  .listServices:hover {
-    background-color: black;
-    color: white;
-  }
-
-  .listServices {
-    width: 70%;
-    margin-left: 15%;
-    font-size: 18px;
-  }
-
-  .logoAnimationServices {
-    height: 30px;
-    width: 30px;
-    top: -60px;
   }
 
   .serviceTitle {
@@ -545,35 +486,6 @@
     font-size: 14px;
   }
 
-  .navEntries a {
-    top: 0px;
-    font-size: 11px;
-    color: black;
-    padding: 0px 0px;
-
-    text-decoration: none;
-  }
-  .navEntry {
-    font-size: 10px;
-    color: grey;
-
-    margin-right: 2px;
-    text-decoration: none;
-    height: 50px;
-    top: 0px;
-    z-index: 20;
-    background-color: white;
-  }
-  .dropdown .dropbtn {
-    display: inline;
-    font-size: 12px;
-    padding: 12px 2px;
-    background-color: none;
-    z-index: 20;
-
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
   .languageBtn {
     top: 11px;
     left: 90px;
@@ -616,13 +528,6 @@
     display: inline;
   }
 
-  /* .intro3 {
-    display: none;
-  } */
-
-  /* .rightContact {
-    display: none;
-  } */
   .main {
     min-height: calc(80vh - 120px);
   }
@@ -672,22 +577,6 @@
     padding-bottom: 0px;
   }
 
-  .leftBlog {
-    font-style: bariolregular;
-    position: relative;
-    height: auto;
-    padding: 40px;
-    font-size: 16px;
-    top: 50px;
-    display: block;
-    z-index: 10;
-    width: auto;
-    margin-left: 20%;
-  }
-  .leftBlog a:hover {
-    color: white;
-  }
-
   .article {
     left: -100px;
     margin-top: 60%;
@@ -695,16 +584,6 @@
     display: block;
   }
 
-  .blogArticleWindow {
-    position: absolute;
-    min-height: 1000px;
-    margin-top: 100px;
-    width: 90%;
-    left: 0;
-
-    margin-left: 5%;
-    margin-right: 5%;
-  }
   .linkstoPageMainDiv {
     font-size: 13px;
   }
@@ -743,44 +622,6 @@
     margin-left: 10%;
   }
 
-  .aboutpage {
-    overflow: scroll;
-    position: relative;
-  }
-
-  .resourcesLinks a {
-    font-size: 18px;
-  }
-
-  .resourcesLinks {
-    padding-bottom: 26px;
-  }
-
-  .about21 {
-    font-size: 17px;
-    width: 70%;
-    position: relative;
-    margin-top: 10%;
-  }
-
-  .about22 {
-    font-size: 17px;
-    position: relative;
-    width: 50%;
-  }
-
-  .contactmeHead {
-    font-size: 20px;
-    width: 25%;
-  }
-
-  .leftContact {
-    top: 10px;
-    bottom: 50px;
-    padding-bottom: 40px;
-    position: relative;
-  }
-
   .fieldMessage {
     height: 200px;
     width: 240px;
@@ -808,12 +649,8 @@
     width: 95%;
     margin-left: 5px;
     left: 0px;
-
     opacity: 1;
     position: fixed;
-    /* -webkit-brightness: brightness(1.6); /* Safari */
-    /* filter: brightness(1.6);  */
-
     top: 15px;
   }
 
@@ -825,35 +662,12 @@
     font-size: 21px;
     margin-left: 23%;
   }
-
-  .float2 {
-    position: relative;
-    -webkit-animation: floatBubble2 2s infinite;
-    -webkit-animation-direction: alternate;
-  }
-
-  @-webkit-keyframes floatBubble2 {
-    from {
-      top: 50px;
-      -webkit-animation-timing-function: ease-in;
-    }
-
-    to {
-      top: 110px;
-      -webkit-animation-timing-function: ease-out;
-    }
-  }
 }
 
 @media (min-width: 769px) {
   .side-drawer {
     font-size: 25px;
-    /* display: none; */
   }
-
-  /* .intro3 {
-    display: none;
-  } */
 
   .linkstoPageMainDiv2 {
     display: none;
@@ -863,8 +677,6 @@
     height: 36px;
     width: 36px;
     z-index: 1000;
-
-    /* display: none; */
   }
 }
 
