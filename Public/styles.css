@@ -42,6 +42,12 @@ h3 {
   font-size: 24px;
 }
 
+h2 {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  margin-left: 2px;
+}
+
 .black a {
   color: black;
 }
@@ -260,13 +266,21 @@ iframe {
 
 .services {
   margin-bottom: 50px;
+  padding-left: 70px;
   position: relative;
-  margin-left: 22%;
+  margin-left: 25%;
   background-color: white;
   opacity: 0.96;
-  width: 80%;
+  width: 67%;
   z-index: 3;
   top: -200px;
+}
+
+.serviceImage {
+  width: 15%;
+  height: 15%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .services2 {

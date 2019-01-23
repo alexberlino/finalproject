@@ -397,22 +397,21 @@ website's reputation.`,
         analyticsMPT1: `Reliable data to make confident decisions
 `,
         analyticsMP1: `In order to efficiently work in SEO, especially for on-page work, it
-  is crucial to use *reliable data*, and analytics is key here in
+  is crucial to use reliable data, and analytics is key here in
   compiling reports which will enable for instance to identify the
   number of visits/unique visitors and conversions for specific pages
   and site sections, or compare data by device type or browser.`,
 
         analyticsMP2: `Google offers a free version for an analytics tool: Google
-  Analytics. Its set-up is quite straight-forward but you will still
-  needs`,
+  Analytics. Its set-up is quite straight-forward.`,
         analyticsMPT3: `Google Analytics First steps`,
-        analyticsMP3: `Activation in code (head) for each page you want to track.
+        analyticsMP3: `Activate the account by adding the snippet in the code (head section) for each page you want to track.
   Create Accounts / Views for each account: All Data, Test, Master
-  Create Filters: exclude all bots traffic and internal traffic
-  Create Reports and Dashboards
-  Correctly setup UTM for your marketing campaigns
+  Create Filters: exclude for instance all bots traffic and internal traffic.
+  Create Reports and Dashboards.
+  Correctly setup UTM for your marketing campaigns.
   Optimize continuously, analysing reports and acting accordingly
-  (new reports, new filters, etc)
+  (new reports, new filters, etc).
 
 `,
         analyticsMPT4: `Google Search Console Integration`,
@@ -421,36 +420,39 @@ website's reputation.`,
   itself does not show any keywords; they appear as "not provided".`,
         analyticsMPT5: `Relevant Tools and Resources`,
         bestpractMPh1: `SEO Competitor Analysis`,
-        bestpractMPT1: `Know who your SEO Competitors are`,
+        bestpractMPT1: `Know you SEO Competitors`,
         bestpractMP1: `It is important to keep in mind in terms of SEO Competitor Analysis,
-        that you need to identify your *SEO* competitors, those which are
+        that you need to identify your SEO competitors, those which are
         leading in terms of organic traffic acquisition, domain authority
         and other important SEO factors. These are the websites which rank
         the best and the most consistently for the main keywords you have
         identified, and/or those websites which rank best for long tail
         keywords.`,
-        bestpractMPT2: `why do a competitor analysis`,
+        bestpractMPT2: `Why do a competitor analysis`,
         bestpractMP2: `To improve the way you do business online, it is very difficult to
             be successful if you ignore the competition. The same applies with
             SEO. Knowing how your competitors operate, what they offer helps to
             find out: keywords you are possibly missing one, backlink
-            oppportunities, and benchmarks. Copying however is not really a long
-            time efficient strategy; the best is to get inspired to offer better
-            value to your customers.`,
+            opportunities, and benchmarks. Copying however is not really a long
+            time efficient strategy; being aware of what they are doing, your strengths and weaknesses,
+            to offer better value to your customers.`,
         bestpractMPT3: `What is their content and how do they organise their website
 `,
         bestpractMP3: `How are is the website organised and structured, including main
         navigation items and the internal linking strategy. What is included
         in their Sitemap(s).`,
+
         bestpractMPT4: `How do they get backlinks`,
-        bestpractMP4: `Analyse their backlink profile`,
-        bestpractMPT5: `How can you do better?`,
-        bestpractMP5: `    Competitor analysis is great to be aware of what your competitors
+        bestpractMP4: `Analyse their backlink profile, understand where you stand and set an ongoing plan on
+        how you can better them`,
+        bestpractMPT5: `Copying can be dangerous`,
+        bestpractMP5: `Competitor analysis is great to be aware of what your competitors
             are doing, how their site is structured, how their get their
             backlinks, and check if you are missing out on low hanging fruit.
             But by no means should you copy and paste how they do business. Get
-            rather inspired, and plan to do better.`,
-        bestpractMPT6: `To do`,
+            rather inspired, and plan to do better. Be aware that if for instance they are doing black hat SEOBerlino and you have the bad idea
+            to copy them as they are currently outranking you, if they get punished for what they do in the future, you might also follow suit.`,
+        bestpractMPT6: `What is included in a competitor analysis`,
         bestpractMP6: `A Competitor analysis comprises of backlink
         audit, on-page audit and keyword research. Analysing how competitors
         get most of their traffic also helps to establish content creation
@@ -462,49 +464,38 @@ website's reputation.`,
         going and/or get visibility and brand awareness using the Display
         Network.`,
         seaMPT2: `Adwords Set-up`,
-        seaMP2: `            Google Ads is not extremely competitive which means CPC (cost per
+        seaMP2: ` Google Ads is more and more competitive which means CPC (cost per
                     click) are very high for pretty much any industry. Doing a thorough
                     Keyword Research is key before starting a campaign. It is also
                     important to think budget and choose your strategy: visibility, ROI,
                     etc. Adwords Set-up`,
         seaMPT3: `Adwords Account Optimization`,
         seaMP3: `Once you have chosen your budget strategy, created your campaigns,
-        adgroups and ads, optimization begins:
-
-         Keywords bid ajustments
-          landing pages testing, CVR here is good indicator
-         ads testing
-         work on that Quality Score to optimize your bids
-
-            ad & remove keywords, vary match accordingly (main matches are
-            exact, phrase, broad)
-
-        negative list adding
-          display network adjustments`,
+        adgroups and ads, optimization begins: Keywords bid adjustments, landing pages testing, CVR here is good indicator
+        Also, ads testing working on the Quality Score to optimize your bids. At first you should be continuously testing for instance adding and removing keywords depending on their performance, varying match accordingly (main matches are
+            exact, phrase, broad), adding terms to the negative list and adding also testing display network.`,
         seaMPT4: `SEO / SEA Consistency `,
-        seaMP4: `        A great way to transmit a stronger message on SERPs is to be
-                consistent in your language and word choice in SEO and SEA.
-
-                    consitent form of address for non-english languages such as
-                    German, French, Italian, etc
-
-                    same wording and style in Ads and meta descriptions so that the
-                    user has more chances to recognise your brand.`,
+        seaMP4: `A great way to transmit a stronger message on SERPs is to be consistent in your language and word choice in SEO and SEA. For example, consistent form of address for non-English languages such as
+    German, French, Italian, etc. Also using the same wording and style in Ads and meta descriptions so that the user has more chances to recognise your brand.`,
         seaMPT5: `Google Ads Data for SEO `,
-        seaMP5: `    Google Ads are expensive but on top of getting you that visibility
+        seaMP5: `Google Ads are expensive but on top of getting you that visibility
             and orders, it is a precious goldmine for keywords, especially if
             the account is well managed (with impressions, meaning high enough
             bids)`,
-        localMPT1: ``,
         relevanttools: `Relevant Tools and Resources`,
+
+        localMPT1: `Location: an important factor in search results`,
         localMP1: `Especially for local business, it is paramount to align your SEO
-        overall strategy to local SEO. It is important to keep in mind that
+        overall strategy to local SEO,  keeping in mind that
         the most important factor in personalised search results is
-        location.`,
-        localMPT2: ``,
-        localMP2: `In the audit which is affected by both on-page an off-page, local
-        SEO factors such as city/ region mention will be taken in account.`,
-        localMPT3: ``,
+        location. Being well optimized for Local especially in highly density locations, helps you take advantage of this specificity to guaranty you privileged
+        visibility for people located around you`,
+
+        localMPT2: `MyBusiness`,
+        localMP2: `To be present on Google Maps and on SERPs for local searches, activate a MyBusines
+        account`,
+
+        localMPT3: `Onpage Mentions`,
         localMP3: `If you have a local business, like a shop, or have people visiting
         your office frequently, optimizing your website is also about making
         sure people are able to find you in real life. But even if your not
@@ -515,21 +506,16 @@ website's reputation.`,
         a region/city. The thing is that if you want to optimize for, for
         instance, a service area that you are not located in physically,
         your main tool for optimization is content. You should simply write
-        a lot about that area. We found that often, this leads to forced
-        pages that have little to do with the business at hand.`,
-        localMPT4: ``,
-        localMP4: `    Local SEO isn’t just about search engines. Yes, there is a lot you
+        a lot about that area.`,
+        localMPT4: `Offpage mentions count`,
+        localMP4: ` Local SEO isn’t just about search engines. Yes, there is a lot you
             can do online to optimize your website for a local audience. But if
             you are running a local business, things like word-of-mouth and a
-            print brochure also contribute to local SEO. If you mention your
-            website and social profiles on your offline communication/promotion
-            as well, your Facebook likes might go up, your Twitter followers
-            could increase, and the direct traffic on your website will get
-            higher. One way or another, this will be visible to Google as well,
-            beit indirect perhaps.`,
+            print brochure also contribute to local SEO. One way or another, this will
+         be visible to Google as well.`,
         localMPT5: ``,
         localMP5: ``,
-        crawlabilityMPintro: `Crawlibility goes hand in hand with indexation. In order to adjust
+        crawlabilityMPintro: `Crawlability goes hand in hand with indexation. In order to adjust
         and optimize indexation, you can improve and guide Google on how it
         crawls your site.`,
         crawlabilityMPT1: ``,
@@ -566,34 +552,30 @@ website's reputation.`,
         crawlabilityMP6: ``,
 
         dynamicrenderingMPT1: ``,
-        dynamicrenderingMP1: `    For JavaScript apps such as React, Angular or View, search engines
+        dynamicrenderingMP1: `For JavaScript apps such as React, Angular or View, search engines
             such as Google still struggle to properly crawl and index all pages.
             Although they say they can achieve this over time after many visits,
-            they do recommend for most sites to use dynamic rendering. Get
-            started with dynamic rendering. Currently, it's difficult to process
+            they do recommend for most sites to use dynamic rendering. Currently, it's difficult to process
             JavaScript and not all search engine crawlers are able to process it
             successfully or immediately.`,
-        dynamicrenderingMPT2: ``,
-        dynamicrenderingMP2: `Dynamic rendering means switching between client-side rendered and
-            pre-rendered content for specific user agents. Dynamic rendering is
-            good for indexable, public JavaScript-generated content that changes
+        dynamicrenderingMPT2: `What is Dynamic Rendering`,
+        dynamicrenderingMP2: `Dynamic rendering is a
+        workaround for crawlers. It means switching between client-side rendered and
+            pre-rendered content depending on the user agents. Dynamic rendering is
+            good in particular for websites for which content changes
             rapidly, or content that uses JavaScript features that aren't
-            supported by the crawlers you care about. Not all sites need to use
-            dynamic rendering, and it's worth noting that dynamic rendering is a
-            workaround for crawlers. Dynamic rendering requires your web server
-            to detect crawlers for example by checking the user agent.`,
+            supported by crawlers. Not all sites need to use
+            dynamic rendering.`,
         dynamicrenderingMPT3: ``,
         dynamicrenderingMP3: `Requests from crawlers are routed to a renderer, requests from users
             are served normally. Where needed, the dynamic renderer serves a
             version of the content that's suitable to the crawler, for example,
             it may serve a static HTML version.`,
-        dynamicrenderingMPT4: ``,
+        dynamicrenderingMPT4: `Dynamic Rendering Set-up`,
         dynamicrenderingMP4: `To setup dynamic rendering for your content, install and configure a
-                    dynamic renderer to transform your content into static HTML that's
-                    easier for crawlers to consume. Some common dynamic renderers are
-                    Puppeteer, Rendertron, and prerender.io. Choose the user agents that
-                    you think should receive your static HTML and refer to your specific
-                    configuration details on how to update or add user agents.`,
+                    dynamic renderer to transform the content into static HTML. Some common dynamic renderers are
+                    Puppeteer or prerender.io. Choose the user agents that
+                    you think should receive your static HTML.`,
         dynamicrenderingMPT5: ``,
         dynamicrenderingMP5: ``,
         dynamicrenderingMPT6: ``,
@@ -697,34 +679,30 @@ website's reputation.`,
         mobileMPT6: ``,
         mobileMP6: ``,
 
-        speedMPT1: ``,
-        speedMP1: `There are several ways you can speed up your site: Use fast hosting.
-        Use a fast DNS (‘domain name system’) provider Minimise ‘HTTP
-        requests’ - keep the use of scripts and plugins to a minimum Use one
+        speedMPT1: `Ways to speed up your site`,
+        speedMP1: `Use fast hosting, a fast DNS (‘domain name system’) provider`,
+        speedMP2: `Minimise ‘HTTP
+        requests’ - keep the use of scripts and plugins to a minimum, use one
         CSS stylesheet (the code which is used to tell a website browser how
         to display your website) instead of multiple CSS stylesheets or
-        inline CSS Ensure your image files are as small as possible (without
-        being too pixelated) Compress your web pages (this can be done using
-        a tool called GZIP) Minify your site’s code - rid of any unnecessary
+        inline CSS`,
+        speedMP3: `Ensure your image files are as small as possible (without
+        being too pixelated)`,
+
+        speedMP4: `Compress your web pages (this can be done using
+        a tool called GZIP), Minify your site’s code - rid of any unnecessary
         spaces, line breaks or indentation in your HTML, CSS and Javascript
-        (see Google’s Minify Resources page for help with this). If your
+        (see Google’s Minify Resources page for help with this)`,
+        speedMPT5: `Negative SEO Impact for slow sites `,
+        speedMP5: `If your
         pages are slow to load, Google will figure it out and will
         categorize your website as poor user experience, therefore suffering
         in terms of organic visibility. If you haven't done it yet, I
         strongly advise you to use the PageSpeed Insights tool (link below){" "}`,
-        speedMPT2: ``,
-        speedMP2: `            Please note that Lighthouse belongs to Google and their advice
+        speedMP6: `            Please note that Lighthouse belongs to Google and their advice
                     is (a bit too) specific to Google Chrome, so for instance it
                     will advise you to use new image formats which may not be usable
                     and rendered on other browser such as Firefox or Safari.`,
-        speedMPT3: ``,
-        speedMP3: ``,
-        speedMPT4: ``,
-        speedMP4: ``,
-        speedMPT5: ``,
-        speedMP5: ``,
-        speedMPT6: ``,
-        speedMP6: ``,
 
         securityMPT1: ``,
         securityMP1: ` Hyper Text Transfer Protocol Secure (HTTPS) is the secure version
@@ -1089,7 +1067,7 @@ website's reputation.`,
         onpageHP2: `landing page Optimierung`,
         onpageHP3: `Website-Architektur,`,
         onpageHP4: `Metas Tags`,
-        onpageHP5: `verbunden tags`,
+        onpageHP5: `Verbunden tags`,
         onpageHP6: `Inhalt und Semantik`,
         onpageHP7: `Bildoptimierung,`,
         onpageHP8: `Structured Data,`,
@@ -1283,12 +1261,12 @@ Priorisierter Aktionsplan mit:
             get some inspiration on the content you need to start producing.
             Also you need to identify parallel search terms and topics with
             significant search volume, which are not yet on your Keyword list.`,
-        BLanalysisT1: `Fact: Backlinks are still very important in 2019`,
-        BLanalysisT2: `Quality over quantity`,
+        BLanalysisT1: `Backlinks sind noch wichtig in 2019`,
+        BLanalysisT2: `Qualität vor Quantität.`,
         BLanalysisT3: `Refering Domains: page authority over domain authority`,
-        BLanalysisT4: `Competitors`,
+        BLanalysisT4: `Wettbewerber`,
         BLanalysisT5: `Anchor text, nofollow/follow links`,
-        BLanalysisT6: `gov & edu links`,
+        BLanalysisT6: `Gov & Edu links`,
         BLanalysis1: `During a Backlink Profile Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
             of competitors to understand where you stand. Then a brainstorm can be done on link
             targets and content production. Finally work can be prioritised depending on
@@ -1334,34 +1312,38 @@ Priorisierter Aktionsplan mit:
             from such sites and it makes sense to your business - bringing in
             at the same time quality & relevant traffic - this link will very
             likely be beneficial.`,
-        analyticsMPT1: `Reliable data to make confident decisions
-          `,
+
+        analyticsMPT1: `Zuverlässige Daten, um sichere Entscheidungen zu treffen`,
         analyticsMP1: `In order to efficiently work in SEO, especially for on-page work, it
-            is crucial to use *reliable data*, and analytics is key here in
-            compiling reports which will enable for instance to identify the
-            number of visits/unique visitors and conversions for specific pages
-            and site sections, or compare data by device type or browser.`,
+      is crucial to use reliable data, and analytics is key here in
+      compiling reports which will enable for instance to identify the
+      number of visits/unique visitors and conversions for specific pages
+      and site sections, or compare data by device type or browser.`,
 
         analyticsMP2: `Google offers a free version for an analytics tool: Google
-            Analytics. Its set-up is quite straight-forward but you will still
-            needs`,
-        analyticsMPT3: `Google Analytics First steps`,
-        analyticsMP3: `Activation in code (head) for each page you want to track.
-            Create Accounts / Views for each account: All Data, Test, Master
-            Create Filters: exclude all bots traffic and internal traffic
-            Create Reports and Dashboards
-            Correctly setup UTM for your marketing campaigns
-            Optimize continuously, analysing reports and acting accordingly
-            (new reports, new filters, etc)
+      Analytics. Its set-up is quite straight-forward.`,
+        analyticsMPT3: `Google Analytics erste Schritte`,
+        analyticsMP3: `Activate the account by adding the snippet in the code (head section) for each page you want to track.
+      Create Accounts / Views for each account: All Data, Test, Master
+      Create Filters: exclude for instance all bots traffic and internal traffic.
+      Create Reports and Dashboards.
+      Correctly setup UTM for your marketing campaigns.
+      Optimize continuously, analysing reports and acting accordingly
+      (new reports, new filters, etc).
 
-          `,
+    `,
         analyticsMPT4: `Google Search Console Integration`,
+        analyticsMP4: `To get more valuable insight especially in terms of keywords, it is
+      better to integrate Google Search Console to Google Analytics. GA
+      itself does not show any keywords; they appear as "not provided".`,
+
+        analyticsMPT4: `Google Search Console`,
         analyticsMP4: `To get more valuable insight especially in terms of keywords, it is
             better to integrate Google Search Console to Google Analytics. GA
             itself does not show any keywords; they appear as "not provided".`,
         analyticsMPT5: `Relevant Tools and Resources`,
-        bestpractMPh1: `SEO Competitor Analysis`,
-        bestpractMPT1: `Know who your SEO Competitors are`,
+        bestpractMPh1: `SEO Wettbewerbsanalyse`,
+        bestpractMPT1: `Know your SEO Competitors`,
         bestpractMP1: `It is important to keep in mind in terms of SEO Competitor Analysis,
         that you need to identify your *SEO* competitors, those which are
         leading in terms of organic traffic acquisition, domain authority
@@ -1369,12 +1351,12 @@ Priorisierter Aktionsplan mit:
         the best and the most consistently for the main keywords you have
         identified, and/or those websites which rank best for long tail
         keywords.`,
-        bestpractMPT2: `why do a competitor analysis`,
+        bestpractMPT2: `Warum eine Wettbewerbsanalyse`,
         bestpractMP2: `To improve the way you do business online, it is very difficult to
             be successful if you ignore the competition. The same applies with
             SEO. Knowing how your competitors operate, what they offer helps to
             find out: keywords you are possibly missing one, backlink
-            oppportunities, and benchmarks. Copying however is not really a long
+            opportunities, and benchmarks. Copying however is not really a long
             time efficient strategy; the best is to get inspired to offer better
             value to your customers.`,
         bestpractMPT3: `What is their content and how do they organise their website
@@ -1429,7 +1411,7 @@ Priorisierter Aktionsplan mit:
             beit indirect perhaps.`,
         localMPT5: ``,
         localMP5: ``,
-        crawlabilityMPintro: `Crawlibility goes hand in hand with indexation. In order to adjust
+        crawlabilityMPintro: `Crawlability goes hand in hand with indexation. In order to adjust
         and optimize indexation, you can improve and guide Google on how it
         crawls your site.`,
         crawlabilityMPT1: ``,
@@ -1438,10 +1420,7 @@ Priorisierter Aktionsplan mit:
                     instructions, it is still highly recommended and in most cases,
                     sitemaps are beneficial. It contains useful information about each
                     page on your site, including when a page was last modified; what
-                    priority it has on your site; how frequently it is updated. In
-                    BigCommerce, your XML site is created automatically; if you are
-                    using another platform you may need to use a sitemap generator to
-                    build one.`,
+                    priority it has on your site; how frequently it is updated. `,
         crawlabilityMPT2: ``,
         crawlabilityMP2: `Robots set instructions depending on the user agent which parts of
         the site can be accessed. Making sure you are not excluding the
@@ -1456,9 +1435,8 @@ Priorisierter Aktionsplan mit:
         issues and there are some pages you want to have crawl and indexed
         in priority.`,
         crawlabilityMPT5: ``,
-        crawlabilityMP5: `        An important factor which links crawalability and indexation is that
-                for sites with many pages (indexed or not), there is a limit to how
-                much your site will be crawled each time the Google bot visits your
+        crawlabilityMP5: `An important factor which links crawlability and indexation is that
+                there is a limit to how much your site will be crawled each time the Google bot visits your
                 site. It is therefore important to keep an eye and understand which
                 pages are indexed and why they need to be indexed (not all pages
                 need to be indexed in particular in case of duplicate content)`,
@@ -1469,11 +1447,10 @@ Priorisierter Aktionsplan mit:
         dynamicrenderingMP1: `    For JavaScript apps such as React, Angular or View, search engines
             such as Google still struggle to properly crawl and index all pages.
             Although they say they can achieve this over time after many visits,
-            they do recommend for most sites to use dynamic rendering. Get
-            started with dynamic rendering. Currently, it's difficult to process
+            they do recommend for most sites to use dynamic rendering. Currently, it's difficult to process
             JavaScript and not all search engine crawlers are able to process it
             successfully or immediately.`,
-        dynamicrenderingMPT2: ``,
+        dynamicrenderingMPT2: `What is Dynamic Rendering`,
         dynamicrenderingMP2: `Dynamic rendering means switching between client-side rendered and
             pre-rendered content for specific user agents. Dynamic rendering is
             good for indexable, public JavaScript-generated content that changes
@@ -1506,7 +1483,7 @@ Priorisierter Aktionsplan mit:
          not-visited or duplicate pages indexed for example, the bot will
          likely limit your "crawling credit" and discard those pages which
          you value most.`,
-        indexationyMPT2: `Investigate your indexation `,
+        indexationyMPT2: `Indexierung untersuchen `,
         indexationMP2: `Make sure all the important pages are indexed and that those you
                 do not want indexed are not. You can check the number of indexed
                 pages in the Search Console, and also use Google commands with
@@ -1516,7 +1493,7 @@ Priorisierter Aktionsplan mit:
                         plan to have those pages de-indexed. The best way is to return a
                         410 status codes for those unwanted pages till they are
                         de-indexed.`,
-        indexationMPT3: `Redirects`,
+        indexationMPT3: `Weiterleitungen`,
         indexationMP3: `
                 Check on your redirects, make sure you are using the correct
                 status codes. Make sure you are limiting the number of redirects, if a big
@@ -1658,17 +1635,17 @@ Priorisierter Aktionsplan mit:
         poor SEO visibility, SEA helps you to get those first visits to get
         going and/or get visibility and brand awareness using the Display
         Network.`,
-        seaMPT2: `Adwords Set-up`,
+        seaMPT2: `Adwords Konfiguration`,
         seaMP2: `            Google Ads is not extremely competitive which means CPC (cost per
                     click) are very high for pretty much any industry. Doing a thorough
                     Keyword Research is key before starting a campaign. It is also
                     important to think budget and choose your strategy: visibility, ROI,
                     etc. Adwords Set-up`,
-        seaMPT3: `Adwords Account Optimization`,
+        seaMPT3: `Google Ads Optimierung`,
         seaMP3: `Once you have chosen your budget strategy, created your campaigns,
         adgroups and ads, optimization begins:
 
-         Keywords bid ajustments
+         Keywords bid adjustments
           landing pages testing, CVR here is good indicator
          ads testing
          work on that Quality Score to optimize your bids
@@ -1678,7 +1655,7 @@ Priorisierter Aktionsplan mit:
 
         negative list adding
           display network adjustments`,
-        seaMPT4: `SEO / SEA Consistency `,
+        seaMPT4: `SEO / SEA Konsistenz `,
         seaMP4: `        A great way to transmit a stronger message on SERPs is to be
                 consistent in your language and word choice in SEO and SEA.
 
@@ -1687,25 +1664,25 @@ Priorisierter Aktionsplan mit:
 
                     same wording and style in Ads and meta descriptions so that the
                     user has more chances to recognise your brand.`,
-        seaMPT5: `Google Ads Data for SEO `,
+        seaMPT5: `Google Ads Daten für SEO `,
         seaMP5: `    Google Ads are expensive but on top of getting you that visibility
             and orders, it is a precious goldmine for keywords, especially if
             the account is well managed (with impressions, meaning high enough
             bids)`,
 
-        contentMPT1: `What does "content is king" really mean `,
+        contentMPT1: `Was bedeutet "content is king" `,
         contentMP1: `    The content is the value you want to create. If you content has no
                         value to the user, or if it is duplicate content, your content will
                         not be brought forward. Check content quality, good usage of
                         semantics, still using the most important keywords and variations in
                         the right places, while keeping focus on relevancy for the user and
                         not focus on SEO only.`,
-        contentMPT2: `Content optimization is not keyword stuffing`,
+        contentMPT2: `Inhalt Optimierung ist kein keyword stuffing`,
         contentMP2: `Content is King, but far away are the times when Google got tricked
                     with keyword stuffing. As Google bots constantly improve to assess
                     your website's content, your site will be penealised in rankings if
                     your content doesn't make much sense linguisitcally or for the user.`,
-        contentMPT3: `The effects of mobile first on content`,
+        contentMPT3: `Was bedeutet "mobile first"`,
         contentMP3: `Since mobile first indexation, the content on your mobile version is
                     the master one for both mobile and desktop indexation. This means
                     the content on the mobile version is the one which counts. Space on
@@ -1723,7 +1700,7 @@ Priorisierter Aktionsplan mit:
         duplicateMP1: `Search Engines do not like duplicate content indexed. If you have
                     many similar pages and you are not flagging them, these pages will
                     not rank well.`,
-        duplicateMPT2: `Indexation audit`,
+        duplicateMPT2: `Indexierung Audit`,
         duplicateMP2: `Identify duplicate content, assess status and design for the master
                     page, deindex unnecessary pages using canonicals, 410s or redirects
                     accordingly.`,
@@ -1739,7 +1716,7 @@ Priorisierter Aktionsplan mit:
                     printer-friendly versions of your content). Using the canonical link
                     element to let search engines know where the ‘main’ version of your
                     content resides.`,
-        duplicateMPT4: `Using Canonicals`,
+        duplicateMPT4: `Canonicals`,
         duplicateMP4: `Canonicals are best used when you have very similar pages fro
                             imstance same t-shirt in different colours. You don't want to index
                             the same t-shirt for each colour, although you want to keep the urls
@@ -1775,7 +1752,7 @@ Priorisierter Aktionsplan mit:
                     not as important for SEO as the alt attribute, it should not be
                     neglected. Avoid copy and pasting the same text you have as alt
                     attribute.`,
-        imagesMPT5: `image size and format`,
+        imagesMPT5: `Bildgröße und Format`,
         imagesMP5: `If your image is too big, this will affect pagespeed,
                     especially for mobile traffic.`,
         imagesMPT6: ``,
@@ -1791,7 +1768,7 @@ Priorisierter Aktionsplan mit:
                     work out the relationship between the various pages, posts and other
                     content. This way Google finds out which pages on your site cover
                     similar subject matter.`,
-        internalMPT2: `Internal Linking AUdit`,
+        internalMPT2: `Interne Verknüpfung Audit`,
         internalMP2: `Review and audit your current internal linking settings, including
                             navigation, sub-navigations, breadcrumb and tags, taking into
                             account business prioritization. Report action plan with main
@@ -1847,7 +1824,7 @@ Priorisierter Aktionsplan mit:
         keywordMPT3: ``,
         keywordMP3: `Good keyword research starts with gathering data: keywords currently bringing traffic, keywords with impressions but no clicks, ppc data if any, keywords used by competitors, Keyword tools
             `,
-        keywordMPT4: `Which keywords have the most value for you?
+        keywordMPT4: `Welche Keywords haben für Sie den größten Wert?
             `,
         keywordMP4: ` Search Volume is not the most important factor, but if there is no
                      seach volume for the terms you want to optimize your site for, you
@@ -1880,10 +1857,10 @@ Priorisierter Aktionsplan mit:
                     the user journey?`,
         landingMPT3: `Linking`,
         landingMP3: ` how is the page linked internally and externally`,
-        landingMPT4: `Keyword targeting`,
+        landingMPT4: `Keyword-Targeting`,
         landingMP4: `keyword targeting: content and semantics`,
-        landingMPT5: `technical`,
-        landingMP5: `including pagespeed image optimization`,
+        landingMPT5: `technisch`,
+        landingMP5: `inklusive Seitengeschwindigkeit Bildoptimierung`,
         landingMPT6: ``,
         landingMP6: ``,
 
@@ -1955,15 +1932,15 @@ Priorisierter Aktionsplan mit:
                             online marketing. It already represents an important share of the
                             number of searches. In order to be ready for it, every website needs
                             to understand how it changes classical SEO.`,
-        voiceMPT2: `Questions`,
+        voiceMPT2: `Fragen`,
         voiceMP2: `The main difference with traditional search is that many voice
                     search requests are questions, so they begin with where, how, what,
                     etc.`,
-        voiceMPT3: `Longer Search terms`,
+        voiceMPT3: `Längere Suchbegriffe`,
         voiceMP3: `            The second main difference is that the "keywords" are longer, mostly
                                 because the requests are questions and because users are more
                                 descriptive when voally expressing their needs, compared to typing.`,
-        voiceMPT4: `Increasing Search Volume`,
+        voiceMPT4: `Suchvolumen erhöhen`,
         voiceMP4: `Search volumes for such searches are still lower than the classical
                     searches equivalent, but the volumes are continuously increasing and
                     the keywords are more segmented, meaning there are more questions

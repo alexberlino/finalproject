@@ -59,11 +59,15 @@
   }
 
   .sideLinks {
+    margin-top: 50px;
     position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
     width: 80%;
-    padding: 10px;
+
     left: 0px;
     top: 0px;
+    min-height: calc(10vh);
   }
 
   .traffic {
@@ -114,19 +118,19 @@
   .serviceText {
     font-size: 17px;
     width: 80%;
-    padding: 10px;
-    margin-left: 10%;
-    margin-top: 10%;
-    padding-bottom: 30px;
+    padding: 5px;
+    margin-left: 3%;
+    margin-top: 3%;
+
     z-index: 11;
   }
   .services {
-    padding-top: 0px;
-    margin-top: 300px;
+    margin-top: 250px;
     left: 0;
-    margin-bottom: 50px;
-    width: 100%;
-
+    width: 96%;
+    padding-left: 4px;
+    z-index: 10;
+    margin-bottom: 0px;
     margin-left: 1%;
     opacity: 0.94;
   }
@@ -529,7 +533,7 @@
   }
 
   .main {
-    min-height: calc(80vh - 120px);
+    min-height: calc(140vh - 1000px);
   }
 
   .maincontact2 {

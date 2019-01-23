@@ -43,14 +43,24 @@ class LocalSEO extends Component {
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
           <h1 className="h1services"> Local SEO</h1> <br />
+          <h2>{t("localMPT1")}</h2>
           <div className="serviceText">{t("localMP1")}</div>
           <br />
-          <div className="serviceText">{t("localMP2")}</div> <br />
+          <img className="serviceImage" src="/mybusiness.jpg" />
+          <h2>{t("localMPT2")}</h2>
+          <div className="serviceText">{t("localMP2")}</div>
+          <br />
+          <h2>{t("localMPT3")}</h2>
           <div className="serviceText">{t("localMP3")}</div> <br />
+          <h2>{t("localMPT4")}</h2>
           <div className="serviceText">{t("localMP4")}</div> <br />
           <h2> {t("relevanttools")} </h2>
           <div className="serviceText">
-            <footer>Google's MyBusiness</footer>
+            <footer>
+              <a href="https://www.google.com/business/" target="_blank">
+                Google's MyBusiness
+              </a>
+            </footer>
           </div>
           <div className="black slide-in-left sideLinks">
             <a className="block bold">{t("analyticsHP1")}</a>

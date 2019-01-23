@@ -54,12 +54,12 @@ class Analytics extends Component {
           <div className="serviceText">{t("analyticsMP2")}</div>
 
           <h2>{t("analyticsMPT3")}</h2>
-          <div className="serviceText">{t("analyticsMP4")}</div>
+          <div className="serviceText">{t("analyticsMP3")}</div>
 
           <h2>{t("analyticsMPT4")}</h2>
           <div className="serviceText">{t("analyticsMP4")}</div>
 
-          <h2> {t("analyticsMPT5")}</h2>
+          <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
             <footer>Google Analytics </footer>
             <footer>Google Search Console</footer>

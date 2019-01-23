@@ -55,7 +55,9 @@ class SEA extends Component {
           <div className="serviceText">{t("seaMP5")}</div>
           <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
-            <footer>Google Ads </footer>
+            <a href="https://ads.google.com/home/" target="_blank">
+              Google Ads
+            </a>
           </div>{" "}
           <div className="black slide-in-left sideLinks">
             <a

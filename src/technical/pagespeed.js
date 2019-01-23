@@ -40,6 +40,7 @@ class PageSpeed extends Component {
             <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng}> {t("services")} </a>
+
             <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
@@ -48,7 +49,13 @@ class PageSpeed extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services"> {t("technicalHP4")} </h1>{" "}
-          <div className="serviceText">{t("speedMP1")}</div>
+          <h2>{t("speedMPT1")}</h2>
+          <p className="serviceText">{t("speedMP1")}</p>
+          <p className="serviceText">{t("speedMP2")}</p>
+          <p className="serviceText">{t("speedMP3")}</p>
+          <p className="serviceText">{t("speedMP4")}</p>
+          <h2> {t("speedMPT5")} </h2>{" "}
+          <div className="serviceText">{t("speedMP5")}</div>
           <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
             <footer>

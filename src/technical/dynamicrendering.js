@@ -51,17 +51,12 @@ class DynamicRendering extends Component {
           <h1 className="h1services"> Dynamic Rendering</h1>{" "}
           <div className="serviceText"> {t("dynamicrenderingMP1")}</div>
           <br />
+          <h2>{t("dynamicrenderingMPT2")}</h2>
           <div className="serviceText"> {t("dynamicrenderingMP2")}</div>
           <br />
-          <img
-            src="/icons/javascript.png"
-            className="imageservices"
-            alt="javascript icon"
-            width="100px"
-            height="100px"
-          />
           <div className="serviceText"> {t("dynamicrenderingMP3")}</div>
           <br />
+          <h2>{t("dynamicrenderingMPT4")}</h2>
           <div className="serviceText"> {t("dynamicrenderingMP4")}</div>
           <br />
           <div className="black slide-in-left sideLinks">
