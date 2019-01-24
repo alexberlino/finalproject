@@ -113,7 +113,7 @@ class SEONews extends Component {
                   hardly any other personalisation.
                   <a
                     target="_blank"
-                    className="blockbold"
+                    className="block bold"
                     href="https://www.cnbc.com/2018/09/17/google-tests-changes-to-its-search-algorithm-how-search-works.html"
                   >
                     read_more
@@ -138,7 +138,7 @@ class SEONews extends Component {
                     reports, removing some query data.
                     <a
                       target="_blank"
-                      className="blockbold"
+                      className="block bold"
                       href="https://twitter.com/googlewmc/status/1034703153470599168"
                     >
                       read_more

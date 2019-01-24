@@ -47,7 +47,7 @@ class NewsItems extends Component {
                 optimized deployment. Hence, Google is still struggling to crawl
                 and index JavaScript webpages.
                 <a
-                  className="blockbold"
+                  className="block bold"
                   href="https://twitter.com/googlewmc/status/1047458977225875456"
                 >
                   read_more
@@ -96,7 +96,7 @@ class NewsItems extends Component {
                 reports on moz{" "}
                 <a
                   href="https://moz.com/blog/googles-august-1st-core-update-week-1"
-                  className="blockbold"
+                  className="block bold"
                 >
                   read_more
                 </a>
@@ -122,7 +122,7 @@ class NewsItems extends Component {
                 because of the "not secure" warning Google has implemented this
                 summer
                 <a
-                  className="blockbold"
+                  className="block bold"
                   href="https://www.blog.google/products/chrome/milestone-chrome-security-marking-http-not-secure/"
                 >
                   read_more

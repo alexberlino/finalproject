@@ -1,9 +1,4 @@
 @media (max-width: 768px) {
-  .h2 {
-    margin: 0;
-    padding: 0;
-  }
-
   h5 {
     margin-left: 16%;
     font-size: 18px;
@@ -37,12 +32,7 @@
     margin-left: 30px;
   }
   .whatisseo {
-    position: sticky;
-    z-index: 1;
-    height: auto;
-    width: 100%;
     top: -20px;
-    left: 0;
     overflow: scroll;
   }
 
@@ -64,7 +54,6 @@
     padding-bottom: 30px;
     margin-bottom: 0px;
     width: 80%;
-
     left: 0px;
     top: 0px;
     min-height: calc(10vh);
@@ -76,17 +65,15 @@
 
   p.txt3 {
     font-size: 18px;
-    width: 80%;
-    margin-left: 4%;
-    margin-right: 4%;
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 5px;
   }
 
   .breadcrumb {
-    position: relative;
     margin-top: 5px;
     padding-top: 5px;
-    margin-bottom: 90px;
   }
 
   .transparent2 {
@@ -104,10 +91,7 @@
 
   .txt {
     font-size: 17px;
-    color: black;
-
     margin-left: 10%;
-    width: 70%;
   }
   .txt4 {
     margin-top: 5%;
@@ -121,7 +105,6 @@
     padding: 5px;
     margin-left: 3%;
     margin-top: 3%;
-
     z-index: 11;
   }
   .services {
@@ -135,23 +118,12 @@
     opacity: 0.94;
   }
 
-  .auditpages {
-    font-size: 19px;
-    padding: 2px;
-  }
-
   .imageBlogHP {
-    display: inline;
-    margin-bottom: 1px;
     vertical-align: middle;
     width: 35%;
-    height: 100px;
   }
 
   .imageBlog {
-    display: inline;
-    vertical-align: middle;
-    height: 100px;
     width: 130px;
   }
 
@@ -180,8 +152,6 @@
     font-size: 16px;
     height: auto;
     width: 35%;
-    color: black;
-    display: inline;
     position: absolute;
     vertical-align: middle;
     margin: 0px;
@@ -194,13 +164,9 @@
     font-size: 18px;
     margin-left: 8%;
     color: black;
-    display: inline;
-    position: absolute;
   }
 
   .blogItemHP {
-    display: block;
-    margin: 7px;
     margin-left: 10%;
     margin-bottom: 20%;
   }
@@ -211,10 +177,6 @@
     height: auto;
   }
 
-  .txthead2 {
-    left: 10px;
-  }
-
   .txt2 {
     font-size: 17px;
     margin-left: 10%;
@@ -223,14 +185,6 @@
   .txt a,
   .txt2 a {
     color: white;
-  }
-
-  .txthead {
-    left: 0px;
-    font-size: 17px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: normal;
   }
 
   h2.white {
@@ -260,11 +214,6 @@
     font-size: 18px;
     width: 90%;
   }
-
-  .introContent {
-    width: 95%;
-  }
-
   .buttonHP {
     font-size: 10px;
     top: 40px;
@@ -277,7 +226,6 @@
   .intro2 {
     font-size: 16px;
     margin-top: 20px;
-    position: relative;
     text-align: center;
     display: block;
     width: 90%;
@@ -291,7 +239,6 @@
   .intro20 {
     font-size: 16px;
     margin-top: 20px;
-    position: relative;
     text-align: center;
     display: block;
     width: 90%;
@@ -303,20 +250,15 @@
   }
 
   .introQuarter {
-    display: inline;
     width: 20%;
     opacity: 1;
-    text-align: center;
     margin-left: 20px;
     padding: 0px;
-    border: none;
   }
   .serviceQuarter {
-    display: inline;
     width: 30%;
     margin-top: 10px;
     margin-bottom: auto;
-    border: none;
     padding: 5px;
   }
 
@@ -332,7 +274,6 @@
   .intro21 {
     font-size: 16px;
     margin-top: 20px;
-    position: relative;
     text-align: center;
     display: block;
     padding: 0px;
@@ -344,34 +285,17 @@
   .intro21 .txt2 {
     color: black;
   }
-  .homepageNews {
-    margin-top: 2px;
-    position: relative;
-    padding: 10px;
-    height: auto;
-    width: 90%;
-  }
+
   .footer {
-    text-align: left;
-    height: auto;
     z-index: 30;
     font-size: 10px;
-    width: 100%;
-  }
-
-  .navEntry {
-    font-size: 12px;
-    margin-left: 5%;
   }
 
   .message404 {
-    color: purple;
     font-size: 70px;
-    background-color: #586069;
   }
 
   h2.orange {
-    color: #ff6e00;
     font-size: 32px;
   }
 
@@ -389,10 +313,8 @@
   }
 
   .intro4 {
-    height: auto;
     width: (100%-80px;);
     padding-left: 13px;
-
     font-size: 28px;
   }
 
@@ -401,38 +323,15 @@
   }
 
   .blogArticlesHP {
-    position: relative;
     display: block;
     top: 10px;
     margin-left: 5px;
     width: 90%;
-    padding-bottom: 20px;
     margin-bottom: 10px;
   }
 
   .block {
     padding-top: 3px;
-  }
-
-  .hide {
-    transform: translateX(-400px);
-    transition-duration: 3s;
-    overflow: hidden;
-  }
-  .hide2 {
-    -webkit-animation: text-blur-out 1s cubic-bezier(0.95, 0.085, 0.68, 0.53)
-      both;
-    animation: text-blur-out 1s cubic-bezier(0.95, 0.085, 0.68, 0.53) both;
-  }
-  .show {
-    transform: translateX(0px);
-    transition-duration: 1.7s;
-    overflow: hidden;
-  }
-
-  .serviceTitle {
-    margin-left: 15%;
-    width: 70%;
   }
 
   .h1services,
@@ -442,8 +341,6 @@
     margin: 0px;
     font-size: 30px;
     text-indent: 10px;
-    color: black;
-    fwidth: 100%;
     margin-left: 1px;
   }
 
@@ -465,23 +362,6 @@
 
   .big {
     font-size: 24px;
-  }
-
-  .serviceTitle {
-    font-size: 19px;
-    margin-bottom: 12px;
-  }
-
-  .navEntries {
-    top: 0px;
-    left: -80px;
-    background-color: none;
-    opacity: 0.7;
-
-    display: inline;
-    position: fixed;
-
-    height: 50px;
   }
 
   .footerlink {
@@ -563,19 +443,6 @@
     font-weight: normal;
     font-size: 20px;
   }
-
-  .infoIntro {
-    margin-left: 10%;
-    font-size: 18px;
-    width: 80%;
-    top: -100px;
-  }
-  .infoMain {
-    margin-left: 5%;
-    width: 60%;
-    padding: 30px;
-    font-size: 16px;
-  }
   .mainBlog {
     display: block;
     padding-bottom: 0px;
@@ -591,7 +458,6 @@
   .linkstoPageMainDiv {
     font-size: 13px;
   }
-
   .articleArticle {
     width: 80%;
     margin-left: 10%;
@@ -616,19 +482,10 @@
     font-size: 22px;
   }
 
-  .animationHP {
-    display: none;
-  }
-
   .articlePic {
     height: 200px;
     width: 300px;
     margin-left: 10%;
-  }
-
-  .fieldMessage {
-    height: 200px;
-    width: 240px;
   }
 
   .field {

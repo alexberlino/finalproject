@@ -42,20 +42,20 @@ class About2 extends Component {
         </div>
 
         <div className="infoMain">
-          <p className="block2">Website live since: October 20th 2018 </p>
+          <p className="block">Website live since: October 20th 2018 </p>
           <p className="txthead">Why</p>
           <div className="newsItem">
             <ul>
               <li>
                 {" "}
-                <p className="block2">
+                <p className="block">
                   To experience all the challenges encountered for SEO in web
                   development and web design, and to improve my technical skills
                 </p>
               </li>
               <li>
                 {" "}
-                <p className="block2">
+                <p className="block">
                   Practice with React and all I learnt at Spiced during my Full
                   Stack Web Development Bootcamp.
                 </p>
@@ -63,7 +63,7 @@ class About2 extends Component {
 
               <li>
                 {" "}
-                <p className="block2">
+                <p className="block">
                   Because I wasn't happy with my previous website
                 </p>
               </li>
@@ -76,64 +76,64 @@ class About2 extends Component {
             <ul>
               <li>
                 {" "}
-                <p className="block2">
+                <p className="block">
                   *React* for front end, with react-router
                 </p>
               </li>
               <li>
                 {" "}
-                <p className="block2">*Helmet* plug-in for SEO</p>
+                <p className="block">*Helmet* plug-in for SEO</p>
               </li>
 
               <li>
                 {" "}
-                <p className="block2">*i18n* for the internationalisation</p>
+                <p className="block">*i18n* for the internationalisation</p>
               </li>
 
               <li>
                 {" "}
-                <p className="block2">*Node.js* and *Express.js* for backend</p>
+                <p className="block">*Node.js* and *Express.js* for backend</p>
               </li>
               <li>
                 {" "}
-                <p className="block2">*Heroku* for hosting</p>
-              </li>
-
-              <li>
-                {" "}
-                <p className="block2">*Postgresql* for the blog</p>
-              </li>
-              <li>
-                {" "}
-                <p className="block2">*axios* for ajax requests</p>
+                <p className="block">*Heroku* for hosting</p>
               </li>
 
               <li>
                 {" "}
-                <p className="block2">
+                <p className="block">*Postgresql* for the blog</p>
+              </li>
+              <li>
+                {" "}
+                <p className="block">*axios* for ajax requests</p>
+              </li>
+
+              <li>
+                {" "}
+                <p className="block">
                   *Nodemailer* for the contact form sending
                 </p>
               </li>
               <li>
                 {" "}
-                <p className="block2">
+                <p className="block">
                   *csurf*, *salt* and *hash* for sessions and admin log-in
                 </p>
               </li>
               <li>
                 {" "}
-                <p className="block2">
+                <p className="block">
                   *3js* animation but currently disabled due to performance
                   issues
                 </p>
               </li>
               <li>
                 {" "}
-                <p className="block2">*github*, *git*</p>
+                <p className="block">*github*, *git*</p>
               </li>
               <li>
                 {" "}
-                <p className="block2">and a lot of *CSS*</p>
+                <p className="block">and a lot of *CSS*</p>
               </li>
             </ul>{" "}
           </div>
@@ -142,30 +142,30 @@ class About2 extends Component {
             <ul>
               <li>
                 {" "}
-                <p className="block2">
+                <p className="block">
                   Optimize JS payloads delivery for performance improvements.
                 </p>{" "}
               </li>
 
               <li>
                 {" "}
-                <p className="block2">More in-depth content</p>{" "}
+                <p className="block">More in-depth content</p>{" "}
               </li>
               <li>
                 {" "}
-                <p className="block2">Dynamic rendering</p>{" "}
+                <p className="block">Dynamic rendering</p>{" "}
               </li>
               <li>
                 {" "}
-                <p className="block2">More translation into German</p>{" "}
+                <p className="block">More translation into German</p>{" "}
               </li>
               <li>
                 {" "}
-                <p className="block2">More languages to follow</p>{" "}
+                <p className="block">More languages to follow</p>{" "}
               </li>
               <li>
                 {" "}
-                <p className="block2">More SEO, backlinks needed!</p>{" "}
+                <p className="block">More SEO, backlinks needed!</p>{" "}
               </li>
             </ul>
           </div>
