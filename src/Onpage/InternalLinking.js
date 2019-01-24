@@ -40,12 +40,16 @@ class InternalLinking extends Component {
             <a href={"/" + this.props.lng + "/onpage"}> ONPAGE </a>
           </div>
           <h1 className="h1services">{t("onpageHP3")}</h1>
+          <h2> {t("internalMPT1")}</h2>
           <div className="serviceText">{t("internalMP1")}</div>
           <h2> {t("internalMPT2")}</h2>
           <div className="serviceText">{t("internalMP2")}</div>
-          <div className="serviceText">{t("internalMP3")}</div>
+          <h2> {t("internalMPT4")}</h2>
           <div className="serviceText">{t("internalMP4")}</div>
+          <h2> {t("internalMPT5")}</h2>
           <div className="serviceText">{t("internalMP5")}</div>{" "}
+          <h2> {t("internalMPT3")}</h2>
+          <div className="serviceText">{t("internalMP3")}</div>
           <h2> {t("relevanttools")}</h2>
           <div className="serviceText">Screaming Frog</div>
           <div className="black slide-in-left sideLinks">

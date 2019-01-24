@@ -145,7 +145,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         onpageHP7: `Image Optimization`,
         onpageHP8: `Structured data`,
         onpageHP9: `Duplicate content`,
-        onpageHP10: `voice search`,
+        onpageHP10: `Voice search`,
         offpageHP1: `Backlink analysis`,
         offpageHP2: `Backlink profile`,
         offpageHP3: `Brand building`,
@@ -168,7 +168,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
 -quality of the page with the link, within the website
 
 
-These aspects are critical to positively improve your backlink profile and boost your Domain Authority.
+These aspects are critical if you want to positively improve your backlink profile and boost your Domain Authority.
 
 How it is done:
 Prioritised Action plan with:
@@ -620,23 +620,25 @@ website's reputation.`,
         indexationMPT6: ``,
         indexationMP6: ``,
 
-        internationalMPT1: ``,
         internationalMP1: `There are various options when operating internationally: same root
         domain, different top level domains, subdomains, how to link between
         them, how to simplify the process without negatively affecting your
         SEO.`,
-        internationalMPT2: `Same domain or multiple localised domains`,
+        internationalMPT2: `Same domain domains, multiple languages`,
         internationalMP2: `  If you are using the same root domain for internationalisation,
           you will be concentrating your backlink efforts to one main
           domain. However the complexity is to be dealt with. For instance
-          href lang metas need to be implemented, avoid any duplicate
+          href lang need to be implemented, avoid any duplicate
           content, use canonicals when necessary.`,
-        internationalMP3: `  If you are using different root domains for internationalisation,
+
+        internationalMPT3: `One domain per language`,
+
+        internationalMP3: `  If you are using different top level domains for internationalisation,
           there are pros and cons compared to same root, effectively easing
           complexity and building a local identity with the possibility to
           optimize server location. However, you will need to make sure to
           link them from your "master" domain, and manage different backlink
-          startegies for each domain.`,
+          strategies for each domain.`,
 
         internationalMP4: ` An Audit and careful planning will help you set-up an effective
          SEO strategy depending on your requirements and resources. Make
@@ -648,12 +650,12 @@ website's reputation.`,
         internationalMPT6: ``,
         internationalMP6: ``,
         mobileMPh1: `Mobile First - Mobile friendly websites`,
-        mobileMPT1: ``,
-        mobileMP1: `  If your website it not mobile friendly, in most cases, you are in
+        mobileMPT1: `Your site must be mobile friendly`,
+        mobileMP1: `  If your website is not mobile friendly, in most cases, you are in
           trouble. Google now uses the mobile version for indexation so
           called mobile first. If you are not sure, you can use Google's
           tool below.`,
-        mobileMPT2: ``,
+        mobileMPT2: `Responsive website`,
         mobileMP2: `A ‘responsive’ website design adjusts itself automatically
         so that it can be navigated and read easily on any device. Google
         is clear about the fact that having a responsive site is
@@ -663,16 +665,16 @@ website's reputation.`,
         ever. So it makes sense to ensure that your website is fully
         responsive and will display in the best format possible for
         mobile, tablet or desktop users.`,
-        mobileMPT3: ``,
+        mobileMPT3: `What is mobile first`,
         mobileMP3: `With mobile-first indexing, Googlebot primarily crawls and indexes
         pages with the smartphone agent. However Google will continue to
         show the device URL that is the most appropriate to users in
         Search results.`,
         mobileMP4: ` This means that you for instance text showing on the desktop
          version but not on the mobile one may very likely be ignored for
-         indexation and page relavancy. If there is too much text for the
+         indexation and page relevancy. If there is too much text for the
          mobile version use 'show more'.`,
-        mobileMPT5: ``,
+        mobileMPT5: `Mobile Performance is also key`,
         mobileMP5: ` In terms of performance, you need to make sure that your mobile
          version loads fast and in the right format. You can use Google's
          PageSpeed Developer Tool`,
@@ -704,13 +706,13 @@ website's reputation.`,
                     will advise you to use new image formats which may not be usable
                     and rendered on other browser such as Firefox or Safari.`,
 
-        securityMPT1: ``,
+        securityMPT1: `What is HTTPS`,
         securityMP1: ` Hyper Text Transfer Protocol Secure (HTTPS) is the secure version
          of HTTP, the protocol over which data is sent between browser and
          the connected website. The 'S' of HTTPS stands for 'Secure'. It
          means all communications between browser and website are
          encrypted.`,
-        securityMPT2: ``,
+        securityMPT2: `HTTPS is now the norm`,
         securityMP2: ` HTTPS is often used to protect highly confidential online
          transactions like online banking and online shopping order forms.
          But has now become to norm.`,
@@ -721,8 +723,8 @@ website's reputation.`,
                   Since summer 2018, Chrome now shows a "not secure" warning so
                   beware of a sharp increase in bounce rate should you now have
                   implemented it yet, on top of lower rankings.`,
-        securityMPT4: ``,
-        securityMP4: `Plan your site migration carefully, incluing identify pages to
+        securityMPT4: `Migration`,
+        securityMP4: `Plan your site migration carefully, including identifying pages to
         redirect (which should be the most valuable ones), and those you
         should not. Timing is key to avoid risks, so avoid doing it before
         your high season.`,
@@ -741,8 +743,8 @@ website's reputation.`,
         contentMPT2: `Content optimization is not keyword stuffing`,
         contentMP2: `Content is King, but far away are the times when Google got tricked
         with keyword stuffing. As Google bots constantly improve to assess
-        your website's content, your site will be penealised in rankings if
-        your content doesn't make much sense linguisitcally or for the user.`,
+        your website's content, your site will be penalised in rankings if
+        your content doesn't make much sense linguistically or for the user.`,
         contentMPT3: `The effects of mobile first on content`,
         contentMP3: `Since mobile first indexation, the content on your mobile version is
         the master one for both mobile and desktop indexation. This means
@@ -757,41 +759,35 @@ website's reputation.`,
         contentMPT6: ``,
         contentMP6: ``,
 
-        duplicateMPT1: `    Duplicate Content, the biggest threat to making content king `,
+        duplicateMPT1: `A threat to making content king `,
         duplicateMP1: `Search Engines do not like duplicate content indexed. If you have
         many similar pages and you are not flagging them, these pages will
-        not rank well.`,
-        duplicateMPT2: `Indexation audit`,
-        duplicateMP2: `Identify duplicate content, assess status and design for the master
-        page, deindex unnecessary pages using canonicals, 410s or redirects
-        accordingly.`,
-        duplicateMPT3: ``,
-        duplicateMP3: `Duplicate content can either be confusing for users (and indeed
+        not rank well and make your indexation of key pages tricky. Duplicate content can either be confusing for users (and indeed
         search engine algorithms); it can also be used to try to manipulate
         search rankings or win more traffic. As a result, search engines
         aren’t keen on it, and Google and Bing advise webmasters to fix any
-        duplicate content issues they find. You can fix duplicate content
+        duplicate content issues they find. `,
+        duplicateMPT2: `Identification of duplicate content`,
+        duplicateMP2: `A crawl of your site will help Identify duplicate.
+        It is important then to decide on the "master page", the page with most internal links or/and
+        with the best UX.`,
+        duplicateMPT3: `Using canonicals`,
+        duplicateMP3: `You can fix duplicate content
         issues by: Preventing your CMS publishing multiple versions of a
-        page or post (for example, by disabling Session IDs where they are
-        not vital to the functionality of your website and getting rid of
-        printer-friendly versions of your content). Using the canonical link
+        page or post. Using the canonical link
         element to let search engines know where the ‘main’ version of your
-        content resides.`,
-        duplicateMPT4: `Using Canonicals`,
-        duplicateMP4: `Canonicals are best used when you have very similar pages fro
-                imstance same t-shirt in different colours. You don't want to index
-                the same t-shirt for each colour, although you want to keep the urls
-                for the user to browse through the options. Beware though that
-                sometimes canonicals are sometimes ignored by Google so it is
-                important to monitor the results of canonicals implementation and
-                follow up with a new strategy if necessary.`,
-        duplicateMPT5: `Same language country, different territory target`,
-        duplicateMP5: `A possible cause for duplicate content is when targeting
-        different territoris (UK and US for instance) with different domains
+        content resides. Canonicals are best used when you have very similar pages for
+        instance same t-shirt in different colours. You don't want to index
+        the same t-shirt for each colour, although you want to keep the urls
+        for the user to browse through the options. Beware though that
+        sometimes canonicals are sometimes ignored by Google so it is
+        important to monitor the results of canonicals implementation and
+        follow up with a new strategy if necessary.`,
+        duplicateMPT4: `Same language, different territory target`,
+        duplicateMP4: `A possible cause for duplicate content is when targeting
+        different territories (UK and US for instance) with different domains
         or urls but with a very similar content. Make sure then that you
         have well implemented href lang!`,
-        duplicateMPT6: ``,
-        duplicateMP6: ``,
 
         imagesMPT1: ``,
         imagesMP1: `            Image Search still represents for most industry an important SEO
@@ -801,10 +797,10 @@ website's reputation.`,
         imagesMPT2: ``,
         imagesMP2: `    Make sure images are well optimized from image hosting to image alt
             tags. In case, your website actively uses images, help you with a
-            strategy to improve brand awareness.{" "}`,
+            strategy to improve brand awareness.`,
         imagesMPT3: ``,
         imagesMP3: `The alt attribute often called "alt tag" gives important information
-        to the Google bot regarding what the piture is about. If the image
+        to the Google bot regarding what the picture is about. If the image
         path is incorrect, the alt (alternative) attribute will show
         instead.`,
         imagesMPT4: ``,
@@ -819,7 +815,7 @@ website's reputation.`,
         imagesMPT6: ``,
         imagesMP6: ``,
 
-        internalMPT1: ``,
+        internalMPT1: `Understand how the Google bot crawls your website`,
         internalMP1: `Internal Linking is core for on-page SEO, especially for big
         websites. Link juice redistribution, prioritization of key pages or
         site sections to name a few reasons. Google crawls websites by
@@ -828,59 +824,45 @@ website's reputation.`,
         the page and follows the first link. By following links Google can
         work out the relationship between the various pages, posts and other
         content. This way Google finds out which pages on your site cover
-        similar subject matter.`,
-        internalMPT2: `Internal Linking AUdit`,
+        similar subject matters.`,
+        internalMPT2: `It all begins with the homepage`,
         internalMP2: `Review and audit your current internal linking settings, including
                 navigation, sub-navigations, breadcrumb and tags, taking into
-                account business prioritization. Report action plan with main
-                priority points and explanations for each points.`,
-        internalMPT3: ``,
-        internalMP3: `In addition to understanding the relationship between content,
-                Google divides link value between all links on a web page. Often,
-                the homepage of a website has the greatest link value because it has
-                the most backlinks. That link value will be shared between all the
-                links found on that homepage. The link value passed to the following
-                page will be divided between the links on that page, and so on.
-                Therefore, your newest blog posts will get more link value if you
-                link to them from the homepage, instead of only on the category
-                page. And Google will find new posts quicker if they’re linked to
-                from the homepage. When you get the concept that links pass their
-                link value on, you’ll understand that more links to a post mean more
-                value. Because Google deems a page that gets lots of valuable links
-                as more important, you’ll increase the chance of that page ranking.`,
-        internalMPT4: ``,
-        internalMP4: `It’s crucial for your SEO to evaluate and improve internal linking
-                    strategy on a regular basis. By adding the right internal links you
-                    make sure Google understands the relevance of pages, the
-                    relationship between pages and the value of pages. The ideal
-                    structure We always advise website owners to imagine their website
-                    to be a pyramid with the most important content on top. We call
-                    those articles cornerstone content. There should be lots of links to
-                    that most essential content from topically-related pages in the
+                account business prioritization. In addition to understanding the relationship between content,
+                        Google divides link value between all links on a web page. Often,
+                        the homepage of a website has the greatest link value because it has
+                        the most backlinks. That link value will be shared between all the
+                        links found on that homepage. The link value passed to the following
+                        page will be divided between the links on that page, and so on.
+                        Therefore, your newest blog posts will get more link value if you
+                        link to them from the homepage, instead of only on the category
+                        page. And Google will find new posts quicker if they’re linked to
+                        from the homepage.`,
+        internalMPT3: `Breadcrumbs`,
+        internalMP3: `Breadcrumbs have two positive impact: for users: navigation and where they are in the site, and for SEO and boost internal linking and site mapping. `,
+        internalMPT4: `The ideal structure: a pyramid`,
+        internalMP4: `The most important content should be on top of the pyramid, that being the Homepage.
+         There should be lots of links to the most essential content from topically-related pages in the
                     pyramid, which passes most link value on to those pages. However,
                     you should also link from those top pages to subpages about related
                     topics. Linking internally to related content shows Google what
                     pages hold information about similar topics.`,
-        internalMPT5: ``,
-        internalMP5: `Don’t forget to link from the top too Besides linking from
-                    topically-related posts and pages, it’s possible to make your
-                    cornerstone content more authoritative by adding links to it from
-                    the homepage or the top navigation. This will give the most
+        internalMPT5: `Top Navigation`,
+        internalMP5: `Using a top navigation will give the most
                     important posts or pages a lot of link value and makes them stronger
-                    in Google’s eyes. Linking to taxonomies If you run a blog it could
-                    be beneficial to add internal links to the taxonomies the post
-                    belongs to. Adding links to the category and tags helps Google to
-                    understand the structure of your blog and helps visitors to more
-                    easily navigate to related posts. At Yoast we always link to the
-                    matching categories and tags in the sidebar of each post:`,
-        internalMPT6: ``,
-        internalMP6: ``,
+                    in Google’s eyes. `,
+        internalMPT6: ` Linking to taxonomies`,
+        internalMP6: ` If you run a blog it could
+        be beneficial to add internal links to the taxonomies the post
+        belongs to. Adding links to the category and tags helps Google to
+        understand the structure of your blog and helps visitors to more
+        easily navigate to related posts.`,
 
         keywordMPT1: ``,
-        keywordMP1: `Keyword Research is critical to understand how your potential
-        clients are searching for the products or services you are offering.`,
+        keywordMP1: `If you want to efficiently understand how your potential
+        clients are searching for the products or services you are offering, Keyword Research is critical.`,
         keywordMPT2: ``,
-        keywordMP2: `          The keywords you are using for your site are possibly not the ones
+        keywordMP2: `The keywords you are using for your site are possibly not the ones
                   your potential clients are using to look for your services.`,
         keywordMPT3: ``,
         keywordMP3: `Good keyword research starts with gathering data: keywords currently bringing traffic, keywords with impressions but no clicks, ppc data if any, keywords used by competitors, Keyword tools
@@ -888,17 +870,17 @@ website's reputation.`,
         keywordMPT4: `Which keywords have the most value for you?
 `,
         keywordMP4: ` Search Volume is not the most important factor, but if there is no
-         seach volume for the terms you want to optimize your site for, you
+         search volume for the terms you want to optimize your site for, you
          are already making your life difficult.`,
         keywordMPT5: ``,
         keywordMP5: ` Equally, targeting high competitive keywords with very high Search
          Volumes, or Keywords not related to products or services which you
          offer will cause problems.`,
-        keywordMPT6: ``,
-        keywordMP6: `  Set up a list of keywords: main keywords, broad terms, related
-          terms, long tail, each type of keywords having different
-          objectives the huge majority of searches now represent a maximum
-          of 50 searches per month.`,
+
+        keywordMP6: ` Set up a list of keywords: main keywords, broad terms, related
+                          terms, long tail, each type of keywords having different
+                          objectives.`,
+        keywordMPT7: `Also include voice search terms / questions`,
         keywordMP7: `is creating a lof of disruption in terms of keywords research
           since people use different phrases depending on whether they type
           of speak. In general voice search keywords are longer and they are
@@ -907,32 +889,38 @@ website's reputation.`,
         landingMPT1: ``,
         landingMP1: `Often, companies create Landing pages and then expect it to perform
             as it is. There are actually many factors that will make a landing
-            page work, from design & UX to SEO. Users need to easily understand
-            your website. They should be able to find what they want in a
-            heartbeat. They should know where to click and how to navigate
-            through your site. And it should be fast! A beautifully designed
-            website is nice, but you should definitely make it your top priority
-            to create a user-friendly website first!s`,
-        landingMPT2: `User Journey`,
-        landingMP2: `Check how the page fits within the website, does it make sense in
-        the user journey?`,
-        landingMPT3: `Linking`,
-        landingMP3: ` how is the page linked internally and externally`,
+            page work, from design & UX to SEO.`,
+        landingMPT2: `Customer journey`,
+        landingMP2: `Users need to easily understand
+        your website. They should be able to find what they want in a
+        heartbeat. They should know where to click and how to navigate
+        through your site. Check how the page fits within the website, does it make sense in
+        the customer journey? A beautifully designed
+        website is nice, but you should definitely make it your top priority
+        to create a user-friendly website first.`,
+        landingMPT3: `External and Internal Linking`,
+        landingMP3: ` The importance of the page should be measured by two main parameters: how deep in the website
+        it is (the more important the term, the fewer clicks it should be from your homepage. Secondly, the more important it
+            is, the more internal and external links should be pointing to it compared to your less important pages.`,
         landingMPT4: `Keyword targeting`,
-        landingMP4: `keyword targeting: content and semantics`,
-        landingMPT5: `technical`,
-        landingMP5: `including pagespeed image optimization`,
+        landingMP4: `The keywords you have selected for the page as the most important should be used for content and general
+        onpage optimization. Make sure another page is not cannibalizing the traffic for the selected keywords(s) and organic traffic
+        is not going to another page instead of the one you chose.`,
+        landingMPT5: `Technical`,
+        landingMP5: `Generic technical issues also apply such as page speed. It needs to load fast and of course be mobile friendly.
+        Finally, the page should be available for indexation and crawlable.`,
         landingMPT6: ``,
         landingMP6: ``,
 
-        metasMPT1: ``,
+        metasMPT1: `Easy to implement and still important impact`,
         metasMP1: `Page titles are often neglected, but are really important and very
         simple to implement. That means you need to have them spot on. Each
         page should have unique titles, clearly stating the page main focus,
         using terms that users are searching, so according to your keywords
-        list.`,
+        list. This also applies for the homepage, your most important page. Unless you are
+        a major brand with already huge brandawareness, avoid using just your brand name but your most important Keyword which best describes your business.`,
         metasMPT2: ``,
-        metasMP2: `Meta descriptions are not required t have your page rank well. Even
+        metasMP2: `Meta descriptions are not required as such to have your page rank well. Even
             if your meta description is empty or missing, Google will take some
             text from the page and fill in the gap. If you have one but Google
             is not using it, that means Google did not find it relevant enough
@@ -942,42 +930,38 @@ website's reputation.`,
             relevant for the search and add that difference that will make the
             click happen.`,
         metasMPT3: ``,
-        metasMP3: `you should have one h1 per page with h1 being your main keyword for
-            the page.`,
-        metasMPT4: `what to check`,
-        metasMP4: `Crawling through the website to analyse and identify:
-
-         missing or empty metas,
-         duplicate or unclear metas,
-         too long or too short metas.`,
+        metasMP3: `You should have one h1 per page with h1 being your main keyword for
+            the page. Then use H2, H3, etc accordingy and logically, depending on the content`,
+        metasMPT4: `Crawl your website`,
+        metasMP4: `There are many tools out there such as Screaming Frog which can easily identify missing or empty metas,
+         You can also identify and fix duplicate or unclear metas, those which are
+         too long or too short.`,
         metasMPT5: ``,
         metasMP5: ``,
         metasMPT6: ``,
         metasMP6: ``,
 
-        structuredMPT1: ``,
+        structuredMPT1: `schema.org`,
         structuredMP1: `Google, Bing, Yandex and Yahoo agreed on a standardised format:
         schema.org for providing information about a page and to classify
         its content. using Structured Data will enable you to improve the
-        way your pages are displayed. Structured Data Additionally,
-        structured data enhances search results through the addition of
+        way your pages are displayed.`,
+
+        structuredMPT2: `Rich snippets`,
+        structuredMP2: `Structured data enhances search results through the addition of
         ‘rich snippets’ - for example, you can use structured data to add
         star ratings to reviews; prices to products; or reviewer
-        information(example below). Because they are more visually appealing
+        information(example below). Since they are more visually appealing
         and highlight immediately useful information to searchers, these
-        enhanced results can improve your click-through rate (CTR), and
-        generate additional traffic to your site. Because sites with results
-        featuring higher CTRs are generally considered to receive
-        preferential treatment in search engines, it is worth making the
-        effort to add structured data to your site.`,
-        structuredMPT2: `Examples of Structured Data`,
-        structuredMP2: `    You can use Structured Data to provide additional information about
-            creative work, events, organisation, a person, a place or a product.
-            Here is a list of the most common used of Structured Data: *
+        enhanced results can improve your CTR, and
+        generating additional traffic to your site. Sites with higher CTR results
+        are generally considered to receive
+        preferential treatment in search engines, therefore it is worth making the
+        effort to include structured data to your site.`,
+        structuredMPT3: `Examples of Structured Data`,
+        structuredMP3: `Here is a list of the most common used of Structured Data:
             Organization information * Local business Markup * Product and Offer
             * Breadcrumb * Ratings * Site navigation`,
-        structuredMPT3: ``,
-        structuredMP3: ``,
         structuredMPT4: ``,
         structuredMP4: ``,
         structuredMPT5: ``,
@@ -1000,7 +984,7 @@ website's reputation.`,
         voiceMPT3: `Longer Search terms`,
         voiceMP3: `            The second main difference is that the "keywords" are longer, mostly
                     because the requests are questions and because users are more
-                    descriptive when voally expressing their needs, compared to typing.`,
+                    descriptive when vocally expressing their needs, compared to typing.`,
         voiceMPT4: `Increasing Search Volume`,
         voiceMP4: `Search volumes for such searches are still lower than the classical
         searches equivalent, but the volumes are continuously increasing and
@@ -1065,25 +1049,25 @@ website's reputation.`,
 
         onpageHP1: `Keyword Recherche`,
         onpageHP2: `landing page Optimierung`,
-        onpageHP3: `Website-Architektur,`,
+        onpageHP3: `Website-Architektur`,
         onpageHP4: `Metas Tags`,
         onpageHP5: `Verbunden tags`,
         onpageHP6: `Inhalt und Semantik`,
-        onpageHP7: `Bildoptimierung,`,
-        onpageHP8: `Structured Data,`,
+        onpageHP7: `Bildoptimierung`,
+        onpageHP8: `Structured Data`,
         onpageHP9: `Duplizierter Inhalt`,
         onpageHP10: `Sprachsuche`,
-        offpageHP1: `Backlink Analyse,`,
-        offpageHP2: `Backlink Konkurrenzanalyse,`,
+        offpageHP1: `Backlink Analyse`,
+        offpageHP2: `Backlink Konkurrenzanalyse`,
         offpageHP3: `Markenbildung`,
         offpageHP4: `Influencers`,
         offpageHP5: `Links`,
         technicalHP1: `Indexierung`,
         technicalHP2: `Crawlfähigkeit`,
-        technicalHP3: `Internationalisierung,`,
-        technicalHP4: `Seitengeschwindigkeit,`,
-        technicalHP5: `Mobile-friendliness,`,
-        technicalHP6: `Javascript`,
+        technicalHP3: `Internationalisierung`,
+        technicalHP4: `Seitengeschwindigkeit`,
+        technicalHP5: `Mobile-friendliness`,
+        technicalHP6: `Dynamic Rendering / Javascript`,
         technicalHP7: `Sicherheit und Website-Migration`,
         audit: `Audit`,
         auditText: ` Das SEO Audit hilft zu definieren, wo Ihre Website im Vergleich zu Ihren Hauptkonkurrenten steht, und ermöglicht es Ihnen, realistische Ziele zu setzen basierend auf visibility gewonnen. In der Prüfung werden Onpage-, Offpage- und technische SEO-Aspekte behandelt. Anschließend Sie erhalten einen detaillierten Bericht über die Ergebnisse des SEO-Audits.`,
@@ -1182,7 +1166,7 @@ Priorisierter Aktionsplan mit:
         auditintro5: `Lernen Sie Ihre Konkurrenten mittels einer Konkurrenzanalyse kennen. Arbeiten Sie mit Lokalem SEO (engl. Local SEO) um sich den Markt in Ihrer Umgebung zu sichern und Paid Search um zusätzliche Seitenaufrufe zu generieren, während Sie weiter an Ihrem SEO arbeiten. Wenn Sie nicht mit Analytics Ihren Traffic genau beobachten, werden Sie einige Verbesserungsmöglichkeiten nicht erkennen. Diese Themen werden im Bereich Research und Analytics behandelt.`,
         onpageintro: `Onpage Optimierung bezeichnet alle Maßnahmen, die direkt auf der eigenen Webseite getroffen werden können um deren Position in der Suchmaschinenplatzierung (engl. Search Ranking) zu verbessern. Beispiele hierfür sind Maßnahmen zur Optimierung Ihrer Inhalte oder zur Verbesserung der Metabeschreibung und Titel-Tags (engl. Title Tags).`,
         onpageintro2: `Das Wichtigste zuerst: Keyword Recherche. Wenn Sie nicht die richtigen Stichwörter wählen oder wichtige vergessen, werden Sie Schwierigkeiten haben den besten Traffic für Ihre Webseite zu erzielen. Zudem müssen Sie wissen, welche Fragen am häufigsten in Suchmaschinen eingegeben werden, sowie andere, Ihrem Geschäft ähnliche Themen kennen.  `,
-        onpageintroT3: `die Wichtigkeit von Onpage SEO `,
+        onpageintroT3: `Die Wichtigkeit von Onpage SEO `,
 
         onpageintroT4: `Wesentliche Onpage SEO Faktoren`,
 
@@ -1313,6 +1297,36 @@ Priorisierter Aktionsplan mit:
             at the same time quality & relevant traffic - this link will very
             likely be beneficial.`,
 
+        internationalMP1: `There are various options when operating internationally: same root
+            domain, different top level domains, subdomains, how to link between
+            them, how to simplify the process without negatively affecting your
+            SEO.`,
+        internationalMPT2: `Eine Domain für alle Sprachen`,
+        internationalMP2: `  If you are using the same root domain for internationalisation,
+              you will be concentrating your backlink efforts to one main
+              domain. However the complexity is to be dealt with. For instance
+              href lang need to be implemented, avoid any duplicate
+              content, use canonicals when necessary.`,
+
+        internationalMPT3: `Eine Domain pro Sprache`,
+
+        internationalMP3: `  If you are using different top level domains for internationalisation,
+              there are pros and cons compared to same root, effectively easing
+              complexity and building a local identity with the possibility to
+              optimize server location. However, you will need to make sure to
+              link them from your "master" domain, and manage different backlink
+              strategies for each domain.`,
+
+        internationalMP4: ` An Audit and careful planning will help you set-up an effective
+             SEO strategy depending on your requirements and resources. Make
+             sure the language meta tags and settings the Search console are
+             set-up, evaluate any possible SEO damage if using client-side
+             rendering with a mixed url structure.`,
+        internationalMPT5: ``,
+        internationalMP5: ``,
+        internationalMPT6: ``,
+        internationalMP6: ``,
+
         analyticsMPT1: `Zuverlässige Daten, um sichere Entscheidungen zu treffen`,
         analyticsMP1: `In order to efficiently work in SEO, especially for on-page work, it
       is crucial to use reliable data, and analytics is key here in
@@ -1378,7 +1392,7 @@ Priorisierter Aktionsplan mit:
         get most of their traffic also helps to establish content creation
         strategy.`,
         localMPT1: ``,
-        relevanttools: `Relevant Tools and Resources`,
+        relevanttools: `Mehr`,
         localMP1: `Especially for local business, it is paramount to align your SEO
         overall strategy to local SEO. It is important to keep in mind that
         the most important factor in personalised search results is
@@ -1515,40 +1529,56 @@ Priorisierter Aktionsplan mit:
         indexationMPT6: ``,
         indexationMP6: ``,
 
-        internationalMPT1: ``,
-        internationalMP1: `There are various options when operating internationally: same root
-        domain, different top level domains, subdomains, how to link between
-        them, how to simplify the process without negatively affecting your
-        SEO.`,
-        internationalMPT2: `Same domain or multiple localised domains`,
-        internationalMP2: `  If you are using the same root domain for internationalisation,
-          you will be concentrating your backlink efforts to one main
-          domain. However the complexity is to be dealt with. For instance
-          href lang metas need to be implemented, avoid any duplicate
-          content, use canonicals when necessary.`,
-        internationalMP3: `  If you are using different root domains for internationalisation,
-          there are pros and cons compared to same root, effectively easing
-          complexity and building a local identity with the possibility to
-          optimize server location. However, you will need to make sure to
-          link them from your "master" domain, and manage different backlink
-          startegies for each domain.`,
+        internalMPT1: `Understand how the Google bot crawls your website`,
+        internalMP1: `Internal Linking is core for on-page SEO, especially for big
+        websites. Link juice redistribution, prioritization of key pages or
+        site sections to name a few reasons. Google crawls websites by
+        following links, internal and external, using a bot called Google
+        bot. This bot arrives at the homepage of a website, starts to render
+        the page and follows the first link. By following links Google can
+        work out the relationship between the various pages, posts and other
+        content. This way Google finds out which pages on your site cover
+        similar subject matters.`,
+        internalMPT2: `It all begins with the homepage`,
+        internalMP2: `Review and audit your current internal linking settings, including
+                navigation, sub-navigations, breadcrumb and tags, taking into
+                account business prioritization. In addition to understanding the relationship between content,
+                        Google divides link value between all links on a web page. Often,
+                        the homepage of a website has the greatest link value because it has
+                        the most backlinks. That link value will be shared between all the
+                        links found on that homepage. The link value passed to the following
+                        page will be divided between the links on that page, and so on.
+                        Therefore, your newest blog posts will get more link value if you
+                        link to them from the homepage, instead of only on the category
+                        page. And Google will find new posts quicker if they’re linked to
+                        from the homepage.`,
+        internalMPT3: `Breadcrumbs`,
+        internalMP3: `Breadcrumbs have two positive impact: for users: navigation and where they are in the site, and for SEO and boost internal linking and site mapping. `,
+        internalMPT4: `The ideal structure: a pyramid`,
+        internalMP4: `The most important content should be on top of the pyramid, that being the Homepage.
+         There should be lots of links to the most essential content from topically-related pages in the
+                    pyramid, which passes most link value on to those pages. However,
+                    you should also link from those top pages to subpages about related
+                    topics. Linking internally to related content shows Google what
+                    pages hold information about similar topics.`,
+        internalMPT5: `Top Navigation`,
+        internalMP5: `Using a top navigation will give the most
+                    important posts or pages a lot of link value and makes them stronger
+                    in Google’s eyes. `,
+        internalMPT6: ` Linking to taxonomies`,
+        internalMP6: ` If you run a blog it could
+        be beneficial to add internal links to the taxonomies the post
+        belongs to. Adding links to the category and tags helps Google to
+        understand the structure of your blog and helps visitors to more
+        easily navigate to related posts.`,
 
-        internationalMP4: ` An Audit and careful planning will help you set-up an effective
-         SEO strategy depending on your requirements and resources. Make
-         sure the language meta tags and settings the Search console are
-         set-up, evaluate any possible SEO damage if using client-side
-         rendering with a mixed url structure.`,
-        internationalMPT5: ``,
-        internationalMP5: ``,
-        internationalMPT6: ``,
-        internationalMP6: ``,
-        mobileMPh1: `Mobile First - Mobile friendly websites`,
-        mobileMPT1: ``,
-        mobileMP1: `  If your website it not mobile friendly, in most cases, you are in
+        mobileMPh1: `Mobile First - Mobile friendly Website`,
+        mobileMPT1: `Ihre Website muss mobile friendly sein`,
+        mobileMP1: `  If your website is not mobile friendly, in most cases, you are in
           trouble. Google now uses the mobile version for indexation so
           called mobile first. If you are not sure, you can use Google's
           tool below.`,
-        mobileMPT2: ``,
+        mobileMPT2: `Responsive Webdesign`,
         mobileMP2: `A ‘responsive’ website design adjusts itself automatically
         so that it can be navigated and read easily on any device. Google
         is clear about the fact that having a responsive site is
@@ -1558,16 +1588,16 @@ Priorisierter Aktionsplan mit:
         ever. So it makes sense to ensure that your website is fully
         responsive and will display in the best format possible for
         mobile, tablet or desktop users.`,
-        mobileMPT3: ``,
+        mobileMPT3: `Was bedeutet "mobile first"`,
         mobileMP3: `With mobile-first indexing, Googlebot primarily crawls and indexes
         pages with the smartphone agent. However Google will continue to
         show the device URL that is the most appropriate to users in
         Search results.`,
         mobileMP4: ` This means that you for instance text showing on the desktop
          version but not on the mobile one may very likely be ignored for
-         indexation and page relavancy. If there is too much text for the
+         indexation and page relevancy. If there is too much text for the
          mobile version use 'show more'.`,
-        mobileMPT5: ``,
+        mobileMPT5: `Mobile Performance ist auch wichtig`,
         mobileMP5: ` In terms of performance, you need to make sure that your mobile
          version loads fast and in the right format. You can use Google's
          PageSpeed Developer Tool`,
@@ -1590,7 +1620,7 @@ Priorisierter Aktionsplan mit:
         in terms of organic visibility. If you haven't done it yet, I
         strongly advise you to use the PageSpeed Insights tool (link below){" "}`,
         speedMPT2: ``,
-        speedMP2: `            Please note that Lighthouse belongs to Google and their advice
+        speedMP2: `Please note that Lighthouse belongs to Google and their advice
                     is (a bit too) specific to Google Chrome, so for instance it
                     will advise you to use new image formats which may not be usable
                     and rendered on other browser such as Firefox or Safari.`,
@@ -1603,25 +1633,25 @@ Priorisierter Aktionsplan mit:
         speedMPT6: ``,
         speedMP6: ``,
 
-        securityMPT1: ``,
+        securityMPT1: `Was bedeutet HTTPS`,
         securityMP1: ` Hyper Text Transfer Protocol Secure (HTTPS) is the secure version
          of HTTP, the protocol over which data is sent between browser and
          the connected website. The 'S' of HTTPS stands for 'Secure'. It
          means all communications between browser and website are
          encrypted.`,
-        securityMPT2: ``,
+        securityMPT2: `HTTPS ist jetzt der Normalfall.`,
         securityMP2: ` HTTPS is often used to protect highly confidential online
          transactions like online banking and online shopping order forms.
          But has now become to norm.`,
         securityMPT3: ``,
-        securityMP3: `          Https for "early-adopters" may have given them an advantage on
+        securityMP3: `Https for "early-adopters" may have given them an advantage on
                   their competitors, these times are over. If you haven't made the
                   transition yet, it needs to be very high on your priority list.
                   Since summer 2018, Chrome now shows a "not secure" warning so
                   beware of a sharp increase in bounce rate should you now have
                   implemented it yet, on top of lower rankings.`,
-        securityMPT4: ``,
-        securityMP4: `Plan your site migration carefully, incluing identify pages to
+        securityMPT4: `Migration`,
+        securityMP4: `Plan your site migration carefully, including identifying pages to
         redirect (which should be the most valuable ones), and those you
         should not. Timing is key to avoid risks, so avoid doing it before
         your high season.`,
@@ -1672,23 +1702,23 @@ Priorisierter Aktionsplan mit:
 
         contentMPT1: `Was bedeutet "content is king" `,
         contentMP1: `    The content is the value you want to create. If you content has no
-                        value to the user, or if it is duplicate content, your content will
-                        not be brought forward. Check content quality, good usage of
-                        semantics, still using the most important keywords and variations in
-                        the right places, while keeping focus on relevancy for the user and
-                        not focus on SEO only.`,
-        contentMPT2: `Inhalt Optimierung ist kein keyword stuffing`,
+                value to the user, or if it is duplicate content, your content will
+                not be brought forward. Check content quality, good usage of
+                semantics, still using the most important keywords and variations in
+                the right places, while keeping focus on relevancy for the user and
+                not focus on SEO only.`,
+        contentMPT2: `Content Optimierung ohne Keyword-Stuffing`,
         contentMP2: `Content is King, but far away are the times when Google got tricked
-                    with keyword stuffing. As Google bots constantly improve to assess
-                    your website's content, your site will be penealised in rankings if
-                    your content doesn't make much sense linguisitcally or for the user.`,
-        contentMPT3: `Was bedeutet "mobile first"`,
+            with keyword stuffing. As Google bots constantly improve to assess
+            your website's content, your site will be penalised in rankings if
+            your content doesn't make much sense linguistically or for the user.`,
+        contentMPT3: `The effects of mobile first on content`,
         contentMP3: `Since mobile first indexation, the content on your mobile version is
-                    the master one for both mobile and desktop indexation. This means
-                    the content on the mobile version is the one which counts. Space on
-                    mobile is more limited than on desktop so choose your content
-                    carefully: engage your users, don't bore them with too much content,
-                    but enough to guide google bots.`,
+            the master one for both mobile and desktop indexation. This means
+            the content on the mobile version is the one which counts. Space on
+            mobile is more limited than on desktop so choose your content
+            carefully: engage your users, don't bore them with too much content,
+            but enough to guide google bots.`,
         contentMPT4: ``,
         contentMP4: ``,
         contentMPT5: ``,
@@ -1696,85 +1726,76 @@ Priorisierter Aktionsplan mit:
         contentMPT6: ``,
         contentMP6: ``,
 
-        duplicateMPT1: `    Duplicate Content, the biggest threat to making content king `,
+        duplicateMPT1: `A threat to making content king `,
         duplicateMP1: `Search Engines do not like duplicate content indexed. If you have
-                    many similar pages and you are not flagging them, these pages will
-                    not rank well.`,
-        duplicateMPT2: `Indexierung Audit`,
-        duplicateMP2: `Identify duplicate content, assess status and design for the master
-                    page, deindex unnecessary pages using canonicals, 410s or redirects
-                    accordingly.`,
-        duplicateMPT3: ``,
-        duplicateMP3: `Duplicate content can either be confusing for users (and indeed
-                    search engine algorithms); it can also be used to try to manipulate
-                    search rankings or win more traffic. As a result, search engines
-                    aren’t keen on it, and Google and Bing advise webmasters to fix any
-                    duplicate content issues they find. You can fix duplicate content
-                    issues by: Preventing your CMS publishing multiple versions of a
-                    page or post (for example, by disabling Session IDs where they are
-                    not vital to the functionality of your website and getting rid of
-                    printer-friendly versions of your content). Using the canonical link
-                    element to let search engines know where the ‘main’ version of your
-                    content resides.`,
-        duplicateMPT4: `Canonicals`,
-        duplicateMP4: `Canonicals are best used when you have very similar pages fro
-                            imstance same t-shirt in different colours. You don't want to index
-                            the same t-shirt for each colour, although you want to keep the urls
-                            for the user to browse through the options. Beware though that
-                            sometimes canonicals are sometimes ignored by Google so it is
-                            important to monitor the results of canonicals implementation and
-                            follow up with a new strategy if necessary.`,
-        duplicateMPT5: `Same language country, different territory target`,
-        duplicateMP5: `A possible cause for duplicate content is when targeting
-                    different territoris (UK and US for instance) with different domains
-                    or urls but with a very similar content. Make sure then that you
-                    have well implemented href lang!`,
-        duplicateMPT6: ``,
-        duplicateMP6: ``,
+            many similar pages and you are not flagging them, these pages will
+            not rank well and make your indexation of key pages tricky. Duplicate content can either be confusing for users (and indeed
+            search engine algorithms); it can also be used to try to manipulate
+            search rankings or win more traffic. As a result, search engines
+            aren’t keen on it, and Google and Bing advise webmasters to fix any
+            duplicate content issues they find. `,
+        duplicateMPT2: `Identifizierung`,
+        duplicateMP2: `A crawl of your site will help Identify duplicate.
+            It is important then to decide on the "master page", the page with most internal links or/and
+            with the best UX.`,
+        duplicateMPT3: `Canonicals`,
+        duplicateMP3: `You can fix duplicate content
+            issues by: Preventing your CMS publishing multiple versions of a
+            page or post. Using the canonical link
+            element to let search engines know where the ‘main’ version of your
+            content resides. Canonicals are best used when you have very similar pages for
+            instance same t-shirt in different colours. You don't want to index
+            the same t-shirt for each colour, although you want to keep the urls
+            for the user to browse through the options. Beware though that
+            sometimes canonicals are sometimes ignored by Google so it is
+            important to monitor the results of canonicals implementation and
+            follow up with a new strategy if necessary.`,
+        duplicateMPT4: `Same language, different territory target`,
+        duplicateMP4: `A possible cause for duplicate content is when targeting
+            different territories (UK and US for instance) with different domains
+            or urls but with a very similar content. Make sure then that you
+            have well implemented href lang!`,
 
         imagesMPT1: ``,
         imagesMP1: `            Image Search still represents for most industry an important SEO
-                                subchannel. Given how Image search now works, many Image "visits"
-                                are only virtual and therefore invisible in analytics reports. Image
-                                Search is still a fantastic opportunity to improve brand awareness.`,
+                        subchannel. Given how Image search now works, many Image "visits"
+                        are only virtual and therefore invisible in analytics reports. Image
+                        Search is still a fantastic opportunity to improve brand awareness.`,
         imagesMPT2: ``,
         imagesMP2: `    Make sure images are well optimized from image hosting to image alt
-                        tags. In case, your website actively uses images, help you with a
-                        strategy to improve brand awareness.{" "}`,
+                tags. In case, your website actively uses images, help you with a
+                strategy to improve brand awareness.`,
         imagesMPT3: ``,
         imagesMP3: `The alt attribute often called "alt tag" gives important information
-                    to the Google bot regarding what the piture is about. If the image
-                    path is incorrect, the alt (alternative) attribute will show
-                    instead.`,
+            to the Google bot regarding what the picture is about. If the image
+            path is incorrect, the alt (alternative) attribute will show
+            instead.`,
         imagesMPT4: ``,
         imagesMP4: `The title appears as tooltip when there is a mouse-over above the
-                    image. Use it to give more information about the picture. Although
-                    not as important for SEO as the alt attribute, it should not be
-                    neglected. Avoid copy and pasting the same text you have as alt
-                    attribute.`,
-        imagesMPT5: `Bildgröße und Format`,
+            image. Use it to give more information about the picture. Although
+            not as important for SEO as the alt attribute, it should not be
+            neglected. Avoid copy and pasting the same text you have as alt
+            attribute.`,
+        imagesMPT5: `Bildgröße und Format "`,
         imagesMP5: `If your image is too big, this will affect pagespeed,
-                    especially for mobile traffic.`,
+            especially for mobile traffic.`,
         imagesMPT6: ``,
         imagesMP6: ``,
 
-        internalMPT1: ``,
+        internalMPT1: `Understand how the Google bot crawls your website`,
         internalMP1: `Internal Linking is core for on-page SEO, especially for big
-                    websites. Link juice redistribution, prioritization of key pages or
-                    site sections to name a few reasons. Google crawls websites by
-                    following links, internal and external, using a bot called Google
-                    bot. This bot arrives at the homepage of a website, starts to render
-                    the page and follows the first link. By following links Google can
-                    work out the relationship between the various pages, posts and other
-                    content. This way Google finds out which pages on your site cover
-                    similar subject matter.`,
-        internalMPT2: `Interne Verknüpfung Audit`,
+            websites. Link juice redistribution, prioritization of key pages or
+            site sections to name a few reasons. Google crawls websites by
+            following links, internal and external, using a bot called Google
+            bot. This bot arrives at the homepage of a website, starts to render
+            the page and follows the first link. By following links Google can
+            work out the relationship between the various pages, posts and other
+            content. This way Google finds out which pages on your site cover
+            similar subject matters.`,
+        internalMPT2: `It all begins with the homepage`,
         internalMP2: `Review and audit your current internal linking settings, including
-                            navigation, sub-navigations, breadcrumb and tags, taking into
-                            account business prioritization. Report action plan with main
-                            priority points and explanations for each points.`,
-        internalMPT3: ``,
-        internalMP3: `In addition to understanding the relationship between content,
+                    navigation, sub-navigations, breadcrumb and tags, taking into
+                    account business prioritization. In addition to understanding the relationship between content,
                             Google divides link value between all links on a web page. Often,
                             the homepage of a website has the greatest link value because it has
                             the most backlinks. That link value will be shared between all the
@@ -1783,172 +1804,155 @@ Priorisierter Aktionsplan mit:
                             Therefore, your newest blog posts will get more link value if you
                             link to them from the homepage, instead of only on the category
                             page. And Google will find new posts quicker if they’re linked to
-                            from the homepage. When you get the concept that links pass their
-                            link value on, you’ll understand that more links to a post mean more
-                            value. Because Google deems a page that gets lots of valuable links
-                            as more important, you’ll increase the chance of that page ranking.`,
-        internalMPT4: ``,
-        internalMP4: `It’s crucial for your SEO to evaluate and improve internal linking
-                                strategy on a regular basis. By adding the right internal links you
-                                make sure Google understands the relevance of pages, the
-                                relationship between pages and the value of pages. The ideal
-                                structure We always advise website owners to imagine their website
-                                to be a pyramid with the most important content on top. We call
-                                those articles cornerstone content. There should be lots of links to
-                                that most essential content from topically-related pages in the
-                                pyramid, which passes most link value on to those pages. However,
-                                you should also link from those top pages to subpages about related
-                                topics. Linking internally to related content shows Google what
-                                pages hold information about similar topics.`,
-        internalMPT5: ``,
-        internalMP5: `Don’t forget to link from the top too Besides linking from
-                                topically-related posts and pages, it’s possible to make your
-                                cornerstone content more authoritative by adding links to it from
-                                the homepage or the top navigation. This will give the most
-                                important posts or pages a lot of link value and makes them stronger
-                                in Google’s eyes. Linking to taxonomies If you run a blog it could
-                                be beneficial to add internal links to the taxonomies the post
-                                belongs to. Adding links to the category and tags helps Google to
-                                understand the structure of your blog and helps visitors to more
-                                easily navigate to related posts. At Yoast we always link to the
-                                matching categories and tags in the sidebar of each post:`,
-        internalMPT6: ``,
-        internalMP6: ``,
+                            from the homepage.`,
+        internalMPT3: `Breadcrumbs`,
+        internalMP3: `Breadcrumbs have two positive impact: for users: navigation and where they are in the site, and for SEO and boost internal linking and site mapping. `,
+        internalMPT4: `The ideal structure: a pyramid`,
+        internalMP4: `The most important content should be on top of the pyramid, that being the Homepage.
+             There should be lots of links to the most essential content from topically-related pages in the
+                        pyramid, which passes most link value on to those pages. However,
+                        you should also link from those top pages to subpages about related
+                        topics. Linking internally to related content shows Google what
+                        pages hold information about similar topics.`,
+        internalMPT5: `Top Navigation`,
+        internalMP5: `Using a top navigation will give the most
+                        important posts or pages a lot of link value and makes them stronger
+                        in Google’s eyes. `,
+        internalMPT6: ` Linking to taxonomies`,
+        internalMP6: ` If you run a blog it could
+            be beneficial to add internal links to the taxonomies the post
+            belongs to. Adding links to the category and tags helps Google to
+            understand the structure of your blog and helps visitors to more
+            easily navigate to related posts.`,
 
         keywordMPT1: ``,
-        keywordMP1: `Keyword Research is critical to understand how your potential
-                    clients are searching for the products or services you are offering.`,
+        keywordMP1: `If you want to efficiently understand how your potential
+            clients are searching for the products or services you are offering, Keyword Research is critical.`,
         keywordMPT2: ``,
-        keywordMP2: `          The keywords you are using for your site are possibly not the ones
-                              your potential clients are using to look for your services.`,
+        keywordMP2: `The keywords you are using for your site are possibly not the ones
+                      your potential clients are using to look for your services.`,
         keywordMPT3: ``,
         keywordMP3: `Good keyword research starts with gathering data: keywords currently bringing traffic, keywords with impressions but no clicks, ppc data if any, keywords used by competitors, Keyword tools
-            `,
-        keywordMPT4: `Welche Keywords haben für Sie den größten Wert?
-            `,
+    `,
+        keywordMPT4: `Welche Keywords haben den größten Wert?`,
         keywordMP4: ` Search Volume is not the most important factor, but if there is no
-                     seach volume for the terms you want to optimize your site for, you
-                     are already making your life difficult.`,
+             search volume for the terms you want to optimize your site for, you
+             are already making your life difficult.`,
         keywordMPT5: ``,
         keywordMP5: ` Equally, targeting high competitive keywords with very high Search
-                     Volumes, or Keywords not related to products or services which you
-                     offer will cause problems.`,
-        keywordMPT6: ``,
-        keywordMP6: `  Set up a list of keywords: main keywords, broad terms, related
-                      terms, long tail, each type of keywords having different
-                      objectives the huge majority of searches now represent a maximum
-                      of 50 searches per month.`,
+             Volumes, or Keywords not related to products or services which you
+             offer will cause problems.`,
+
+        keywordMP6: ` Set up a list of keywords: main keywords, broad terms, related
+                              terms, long tail, each type of keywords having different
+                              objectives.`,
+        keywordMPT7: `Sprachsuche Keywords und Fragen`,
         keywordMP7: `is creating a lof of disruption in terms of keywords research
-                      since people use different phrases depending on whether they type
-                      of speak. In general voice search keywords are longer and they are
-                      in the form of a question.`,
+              since people use different phrases depending on whether they type
+              of speak. In general voice search keywords are longer and they are
+              in the form of a question.`,
 
         landingMPT1: ``,
         landingMP1: `Often, companies create Landing pages and then expect it to perform
-                        as it is. There are actually many factors that will make a landing
-                        page work, from design & UX to SEO. Users need to easily understand
-                        your website. They should be able to find what they want in a
-                        heartbeat. They should know where to click and how to navigate
-                        through your site. And it should be fast! A beautifully designed
-                        website is nice, but you should definitely make it your top priority
-                        to create a user-friendly website first!s`,
-        landingMPT2: `User Journey`,
-        landingMP2: `Check how the page fits within the website, does it make sense in
-                    the user journey?`,
+                as it is. There are actually many factors that will make a landing
+                page work, from design & UX to SEO.`,
+        landingMPT2: `Customer journey`,
+        landingMP2: `Users need to easily understand
+            your website. They should be able to find what they want in a
+            heartbeat. They should know where to click and how to navigate
+            through your site. Check how the page fits within the website, does it make sense in
+            the customer journey? A beautifully designed
+            website is nice, but you should definitely make it your top priority
+            to create a user-friendly website first.`,
         landingMPT3: `Linking`,
-        landingMP3: ` how is the page linked internally and externally`,
-        landingMPT4: `Keyword-Targeting`,
-        landingMP4: `keyword targeting: content and semantics`,
-        landingMPT5: `technisch`,
-        landingMP5: `inklusive Seitengeschwindigkeit Bildoptimierung`,
+        landingMP3: ` The importance of the page should be measured by two main parameters: how deep in the website
+            it is (the more important the term, the fewer clicks it should be from your homepage. Secondly, the more important it
+                is, the more internal and external links should be pointing to it compared to your less important pages.`,
+        landingMPT4: `Keyword targeting`,
+        landingMP4: `The keywords you have selected for the page as the most important should be used for content and general
+            onpage optimization. Make sure another page is not cannibalizing the traffic for the selected keywords(s) and organic traffic
+            is not going to another page instead of the one you chose.`,
+        landingMPT5: `Tec`,
+        landingMP5: `Generic technical issues also apply such as page speed. It needs to load fast and of course be mobile friendly.
+            Finally, the page should be available for indexation and crawlable.`,
         landingMPT6: ``,
         landingMP6: ``,
 
-        metasMPT1: ``,
+        metasMPT1: `Einfach zu implementieren und effizient`,
         metasMP1: `Page titles are often neglected, but are really important and very
-                    simple to implement. That means you need to have them spot on. Each
-                    page should have unique titles, clearly stating the page main focus,
-                    using terms that users are searching, so according to your keywords
-                    list.`,
+            simple to implement. That means you need to have them spot on. Each
+            page should have unique titles, clearly stating the page main focus,
+            using terms that users are searching, so according to your keywords
+            list. This also applies for the homepage, your most important page. Unless you are
+            a major brand with already huge brandawareness, avoid using just your brand name but your most important Keyword which best describes your business.`,
         metasMPT2: ``,
-        metasMP2: `Meta descriptions are not required t have your page rank well. Even
-                        if your meta description is empty or missing, Google will take some
-                        text from the page and fill in the gap. If you have one but Google
-                        is not using it, that means Google did not find it relevant enough
-                        for the searched term. Either way, meta descriptions are important
-                        for CTR, searched terms if included in your description will appear
-                        in bold and you can also confirm to the user your entry is the most
-                        relevant for the search and add that difference that will make the
-                        click happen.`,
+        metasMP2: `Meta descriptions are not required as such to have your page rank well. Even
+                if your meta description is empty or missing, Google will take some
+                text from the page and fill in the gap. If you have one but Google
+                is not using it, that means Google did not find it relevant enough
+                for the searched term. Either way, meta descriptions are important
+                for CTR, searched terms if included in your description will appear
+                in bold and you can also confirm to the user your entry is the most
+                relevant for the search and add that difference that will make the
+                click happen.`,
         metasMPT3: ``,
-        metasMP3: `you should have one h1 per page with h1 being your main keyword for
-                        the page.`,
-        metasMPT4: `what to check`,
-        metasMP4: `Crawling through the website to analyse and identify:
-
-                     missing or empty metas,
-                     duplicate or unclear metas,
-                     too long or too short metas.`,
+        metasMP3: `You should have one h1 per page with h1 being your main keyword for
+                the page. Then use H2, H3, etc accordingy and logically, depending on the content`,
+        metasMPT4: `Wbsite Crawl`,
+        metasMP4: `There are many tools out there such as Screaming Frog which can easily identify missing or empty metas,
+             You can also identify and fix duplicate or unclear metas, those which are
+             too long or too short.`,
         metasMPT5: ``,
         metasMP5: ``,
         metasMPT6: ``,
         metasMP6: ``,
 
-        structuredMPT1: ``,
+        structuredMPT1: `schema.org`,
         structuredMP1: `Google, Bing, Yandex and Yahoo agreed on a standardised format:
-                    schema.org for providing information about a page and to classify
-                    its content. using Structured Data will enable you to improve the
-                    way your pages are displayed. Structured Data Additionally,
-                    structured data enhances search results through the addition of
-                    ‘rich snippets’ - for example, you can use structured data to add
-                    star ratings to reviews; prices to products; or reviewer
-                    information(example below). Because they are more visually appealing
-                    and highlight immediately useful information to searchers, these
-                    enhanced results can improve your click-through rate (CTR), and
-                    generate additional traffic to your site. Because sites with results
-                    featuring higher CTRs are generally considered to receive
-                    preferential treatment in search engines, it is worth making the
-                    effort to add structured data to your site.`,
-        structuredMPT2: `Examples of Structured Data`,
-        structuredMP2: `    You can use Structured Data to provide additional information about
-                        creative work, events, organisation, a person, a place or a product.
-                        Here is a list of the most common used of Structured Data: *
-                        Organization information * Local business Markup * Product and Offer
-                        * Breadcrumb * Ratings * Site navigation`,
-        structuredMPT3: ``,
-        structuredMP3: ``,
-        structuredMPT4: ``,
-        structuredMP4: ``,
-        structuredMPT5: ``,
-        structuredMP5: ``,
-        structuredMPT6: ``,
-        structuredMP6: ``,
+            schema.org for providing information about a page and to classify
+            its content. using Structured Data will enable you to improve the
+            way your pages are displayed.`,
 
-        voiceMPT1: `What is Voice Search and why it's Important to be ready for
-                    it`,
+        structuredMPT2: `Rich snippets`,
+        structuredMP2: `Structured data enhances search results through the addition of
+            ‘rich snippets’ - for example, you can use structured data to add
+            star ratings to reviews; prices to products; or reviewer
+            information(example below). Since they are more visually appealing
+            and highlight immediately useful information to searchers, these
+            enhanced results can improve your CTR, and
+            generating additional traffic to your site. Sites with higher CTR results
+            are generally considered to receive
+            preferential treatment in search engines, therefore it is worth making the
+            effort to include structured data to your site.`,
+        structuredMPT3: `Beispiele`,
+        structuredMP3: `Here is a list of the most common used of Structured Data:
+                Organization information * Local business Markup * Product and Offer
+                * Breadcrumb * Ratings * Site navigation`,
+
+        voiceMPT1: `Was ist Sprachsuche`,
         voiceMP1: `        Google Assistant, Alexa are just of those devices which are
-                            transforming search. Instead of typing searches, users now more and
-                            more ask for their need vocally. Voice search is already disrupting
-                            online marketing. It already represents an important share of the
-                            number of searches. In order to be ready for it, every website needs
-                            to understand how it changes classical SEO.`,
+                    transforming search. Instead of typing searches, users now more and
+                    more ask for their need vocally. Voice search is already disrupting
+                    online marketing. It already represents an important share of the
+                    number of searches. In order to be ready for it, every website needs
+                    to understand how it changes classical SEO.`,
         voiceMPT2: `Fragen`,
         voiceMP2: `The main difference with traditional search is that many voice
-                    search requests are questions, so they begin with where, how, what,
-                    etc.`,
+            search requests are questions, so they begin with where, how, what,
+            etc.`,
         voiceMPT3: `Längere Suchbegriffe`,
         voiceMP3: `            The second main difference is that the "keywords" are longer, mostly
-                                because the requests are questions and because users are more
-                                descriptive when voally expressing their needs, compared to typing.`,
-        voiceMPT4: `Suchvolumen erhöhen`,
+                        because the requests are questions and because users are more
+                        descriptive when vocally expressing their needs, compared to typing.`,
+        voiceMPT4: `Immer mehr Search Volume`,
         voiceMP4: `Search volumes for such searches are still lower than the classical
-                    searches equivalent, but the volumes are continuously increasing and
-                    the keywords are more segmented, meaning there are more questions
-                    for the equivalent classical search term`,
+            searches equivalent, but the volumes are continuously increasing and
+            the keywords are more segmented, meaning there are more questions
+            for the equivalent classical search term`,
         voiceMPT5: ``,
         voiceMP5: `One of the main advantage to be ready and optimized for search term
-                    is that you can be featured at "position 0" with the featured
-                    snippet, answering directly to the question of the search.`,
+            is that you can be featured at "position 0" with the featured
+            snippet, answering directly to the question of the search.`,
         voiceMPT6: ``,
         voiceMP6: ``
       }

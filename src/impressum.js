@@ -19,7 +19,6 @@ class Impressum extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    
 
     return (
       <div className="main">
@@ -36,28 +35,21 @@ class Impressum extends Component {
           />
         </Helmet>
 
-        <div className="infoTitle">
-          <h1>Impressum</h1>
-        </div>
-
-        <div className="container">
-          <div className="infoMain2">E-Mail: alex.bieth@gmail.com</div>
-          <div className="infoMain2">Internet: www.seoberlino.com </div>
-          <div className="infoMain2">Kiehlufer, 12059 Berlin</div>
-          <div className="infoMain2">
-            Inhaltlich Verantwortlicher nach § 10 Absatz 3 Verantwortlich für
-            den redaktionellen Bereich: Alex Bieth{" "}
+        <div className="services3">
+          <div className="infoTitle">
+            <h1>Impressum</h1>
           </div>
-
-          <div className="contactmob">
-            <h2 className="txthead"> {t("getintouch")}></h2>
-            <h2 className="txt">
-              <img alt="telephone" src="/telephone.svg" className="iconphone" />
-              015 787 011 932
-            </h2>
-
-            <ContactMain />
+          <div className="container marginright">
+            <div className="infoMain2">E-Mail: seoberlino@gmail.com</div>
+            <div className="infoMain2">Internet: www.seoberlino.com </div>
+            <div className="infoMain2">Kiehlufer, 12059 Berlin</div>
+            <div className="infoMain2">
+              Inhaltlich Verantwortlicher nach § 10 Absatz 3 Verantwortlich für
+              den redaktionellen Bereich: Alex Bieth{" "}
+            </div>
           </div>
+          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+          <br /> <br />
         </div>
       </div>
     );

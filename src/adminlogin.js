@@ -44,27 +44,33 @@ class LoginAdmin extends Component {
             <meta type="description" content="" />
             <link rel="canonical" />
           </Helmet>
-          <div className="pagetitle">Admin Log in</div>
-          {this.state.error && (
-            <div className="error">Error, please check and try again</div>
-          )}
-          <input
-            onChange={this.handleChange}
-            name="email"
-            className="input"
-            placeholder="Email"
-          />
-          <input
-            onChange={this.handleChange}
-            name="pass"
-            type="password"
-            className="input"
-            placeholder="Password"
-          />
-          <button onClick={this.submit} className="button">
-            Log in
-          </button>
-        </div>{" "}
+          <div className="services3">
+            <div className="pagetitle">Admin Log in</div>
+            {this.state.error && (
+              <div className="error marginright">
+                Error, please check and try again
+              </div>
+            )}
+            <input
+              onChange={this.handleChange}
+              name="email"
+              className="input"
+              placeholder="Email"
+            />
+            <input
+              onChange={this.handleChange}
+              name="pass"
+              type="password"
+              className="input"
+              placeholder="Password"
+            />
+            <button onClick={this.submit} className="servicesHP">
+              Log in
+            </button>
+          </div>{" "}
+        </div>
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />{" "}
+        <br /> <br /> <br /> <br />
       </div>
     );
   }

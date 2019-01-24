@@ -54,11 +54,11 @@ class DuplicateContent extends Component {
           <h2> {t("duplicateMPT2")}</h2>
           <div className="serviceText">{t("duplicateMP2")}</div>
           <div className="serviceText">{t("duplicateMP3")}</div>
+          <h2> {t("duplicateMPT3")}</h2>
+          <div className="serviceText">{t("duplicateMP3")}</div>
+
           <h2> {t("duplicateMPT4")}</h2>
           <div className="serviceText">{t("duplicateMP4")}</div>
-
-          <h2> {t("duplicateMPT5")}</h2>
-          <div className="serviceText">{t("duplicateMP5")}</div>
           <div className="black slide-in-left sideLinks">
             <a
               className="block"

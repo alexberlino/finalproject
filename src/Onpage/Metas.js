@@ -53,7 +53,14 @@ class Metas extends Component {
           <div className="serviceText">{t("metasMP4")}</div>
           <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
-            <footer>Screaming Frog </footer>
+            <footer>
+              <a
+                href="https://www.screamingfrog.co.uk/seo-spider/"
+                target="_blank"
+              >
+                Screaming Frog
+              </a>
+            </footer>
           </div>
           <div className="black slide-in-left sideLinks">
             <a

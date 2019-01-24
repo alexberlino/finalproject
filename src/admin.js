@@ -23,21 +23,25 @@ class Admin extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <div className="mainBox">
+        <div className="services3 black">
           <span>
-            <Link className="infoMain block" to={"/en/postarticle"}>
+            <br /> <br /> <br /> <br /> <br />
+            <Link className=" block black" to={"/en/postarticle"}>
               Create new Blog Post
             </Link>{" "}
+            <br /> <br /> <br /> <br /> <br />
           </span>
           <span>
-            <Link className="infoMain block" to={"/en/editarticle"}>
+            <Link className=" block black" to={"/en/editarticle"}>
               Edit a Blog Post
-            </Link>
+            </Link>{" "}
+            <br /> <br /> <br /> <br /> <br />
           </span>
-
-          <a className="infoMain block" href="/log-out">
+          <br />
+          <a className=" block black" href="/log-out">
             Log out
-          </a>
+          </a>{" "}
+          <br /> <br /> <br /> <br /> <br />
         </div>
       </div> //Main
     );

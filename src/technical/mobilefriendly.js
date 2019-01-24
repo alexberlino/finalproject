@@ -51,8 +51,27 @@ class MobileFriendly extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services">{t("mobileMPh1")}</h1>{" "}
+          <h2>{t("mobileMPT1")}</h2>
           <div className="serviceText">
-            <p>{t("mobileMP1")}</p>
+            <p>{t("mobileMP1")}</p>{" "}
+            <div className="serviceText italic">
+              <footer>
+                <a
+                  target="_blank"
+                  href="https://search.google.com/test/mobile-friendly"
+                >
+                  Google's Mobile Friendly Test
+                </a>{" "}
+              </footer>
+            </div>
+          </div>
+          <h2>{t("mobileMPT2")}</h2>
+          <div className="serviceText">
+            <p>{t("mobileMP2")} </p>{" "}
+          </div>
+          <h2>{t("mobileMPT3")}</h2>{" "}
+          <div className="serviceText">
+            <p>{t("mobileMP3")}</p>
             <img
               src="/icons/mobilefirst.png"
               className="imageservices"
@@ -60,24 +79,12 @@ class MobileFriendly extends Component {
               alt="mobile-first"
               width="100px"
               height="100px"
-            />
-            <p>{t("mobileMP2")} </p>
-            <p>{t("mobileMP3")}</p>
-
-            <p>{t("mobileMP4")}</p>
-
-            <p>{t("mobileMP5")}</p>
+            />{" "}
+            <p>{t("mobileMP4")}</p>{" "}
           </div>
-          <h2> {t("relevanttools")}</h2>
+          <h2>{t("mobileMPT5")}</h2>{" "}
           <div className="serviceText">
-            <footer>
-              <a
-                target="_blank"
-                href="https://search.google.com/test/mobile-friendly"
-              >
-                Google's Mobile Friendly Test
-              </a>{" "}
-            </footer>
+            <p>{t("mobileMP5")}</p>
           </div>
           <div className="black slide-in-left sideLinks">
             <a

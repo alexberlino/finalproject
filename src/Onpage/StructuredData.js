@@ -45,10 +45,13 @@ class StructuredData extends Component {
           </div>
 
           <h1 className="h1services"> {t("onpageHP8")}</h1>
+          <h2> {t("structuredMPT1")}</h2>
 
           <div className="serviceText">{t("structuredMP1")}</div>
           <h2> {t("structuredMPT2")}</h2>
           <div className="serviceText">{t("structuredMP2")}</div>
+          <h2> {t("structuredMPT3")}</h2>
+          <div className="serviceText">{t("structuredMP3")}</div>
           <div className="black slide-in-left sideLinks">
             <a
               className="block"

@@ -49,21 +49,26 @@ class Security extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services"> {t("technicalHP7")}</h1>{" "}
+          <h2>{t("securityMPT1")}</h2>{" "}
           <div className="serviceText">
-            <p>{t("securityMP1")}</p>
-
-            <p>{t("securityMP2")}</p>
-            <img
-              className="imageservices"
-              src="/icons/notsecure.png"
-              width="100px"
-              height="32px"
-            />
-
+            <p>{t("securityMP1")}</p>{" "}
+          </div>
+          <img
+            className="imageservices"
+            src="/icons/notsecure.png"
+            width="100px"
+            height="32px"
+          />
+          <h2>{t("securityMPT2")}</h2>
+          <div className="serviceText">
+            <p>{t("securityMP2")}</p>{" "}
+          </div>
+          <div className="serviceText">
             <p>{t("securityMP3")}</p>
           </div>
           <h2> {t("")}</h2>
-          <div className="serviceText">{t("securityMP4")}</div>
+          <h2>{t("securityMPT4")}</h2>{" "}
+          <div className="serviceText">{t("securityMP4")}</div>{" "}
           <div className="black slide-in-left sideLinks">
             <a
               className="block"

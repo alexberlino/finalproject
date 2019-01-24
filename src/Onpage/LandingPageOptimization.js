@@ -51,7 +51,7 @@ class LandingPageOptimization extends Component {
           <div className="serviceText">{t("landingMP3")} </div>
           <h2>{t("landingMPT4")}</h2>
           <div className="serviceText">{t("landingMP4")} </div>
-          <h2>{t("landingMPT5")}</h2>
+          <h2>{t("hey5")}</h2>
           <div className="serviceText">{t("landingMP5")} </div>
 
           <div className="black slide-in-left sideLinks">

@@ -20,10 +20,10 @@ class Footer extends Component {
         <div className="transparent"> </div>
         <div className="footer">
           <div className="footerLinks footerQuarter">
-            <Link className="footerlink " to={"/login"}>
+            <Link className="footerlink " to={"/en/login"}>
               login
             </Link>
-            <a className="footerlink" href={"/admin"}>
+            <a className="footerlink" href={"/en/admin"}>
               admin
             </a>
             <Link

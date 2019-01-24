@@ -10,7 +10,7 @@ class Cookies extends Component {
 
   render() {
     const { t, i18n } = this.props;
-    
+
     if (window.innerWidth < 1500) {
       window.scrollTo(0, 0);
     }
@@ -24,18 +24,40 @@ class Cookies extends Component {
           <link rel="canonical" />
         </Helmet>
 
-        <h1 className="infoTitle"> Cookies </h1>
-        <div className="infoMain">
-          This website, like many others, stores and retrieves information on
-          your browser using cookies. This information is used for analytic. It
-          is not personally identifiable to you. Because we respect your right
-          to privacy, you can choose to change your privacy preferences to
-          prevent non-essential cookies being set.
+        <div className="services3 marginright">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1 className="infoTitle"> Cookies </h1>
+          <div className="serviceText">
+            This website, like many others, stores and retrieves information on
+            your browser using cookies. This information is used for analytic.
+            It is not personally identifiable to you. Because we respect your
+            right to privacy, you can choose to change your privacy preferences
+            to prevent non-essential cookies being set.
+          </div>
+          <br />
+          <br />
+
+          <br />
+          <div className="infoMain">
+            Google Analytics Web Property ID UA-103006854-1
+          </div>
+          <div className="infoMain">cookie sessions with csurf</div>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
-        <div className="infoMain">
-          Google Analytics Web Property ID UA-103006854-1
-        </div>
-        <div className="infoMain">cookie sessions with csurf</div>
       </div>
     );
   }

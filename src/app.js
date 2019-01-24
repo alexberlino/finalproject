@@ -318,7 +318,7 @@ class App extends Component {
                   path="/en/postarticle"
                   render={() => <WriteArticles />}
                 />
-                <Route exact path="/login" render={() => <LoginAdmin />} />
+                <Route exact path="/en/login" render={() => <LoginAdmin />} />
                 <Route
                   exact
                   path="/en/editarticle"
@@ -331,7 +331,7 @@ class App extends Component {
                   render={() => <Impressum />}
                 />
 
-                <Route exact path="/admin" render={() => <Admin />} />
+                <Route exact path="/en/admin" render={() => <Admin />} />
 
                 <Route
                   exact

@@ -57,7 +57,7 @@ class Content extends Component {
           <div className="serviceText">{t("contentMP1")}</div>
 
           <h2> {t("contentMPT2")}</h2>
-          <div className="serviceText">t("contentMP2")}</div>
+          <div className="serviceText">{t("contentMP2")}</div>
           <img src="/content.svg" className="serviceImage" />
           <h2> {t("contentMPT3")}</h2>
           <div className="serviceText">{t("contentMP3")}</div>

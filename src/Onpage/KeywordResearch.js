@@ -51,20 +51,23 @@ class KeywordResearch extends Component {
             <p>{t("keywordMP2")}</p>
           </div>
           <h2> {t("keywordMPT3")}</h2>
+          <div className="serviceText">{t("keywordMP3")}</div>
+
+          <h2>{t("keywordMPT4")}</h2>
           <div className="serviceText">
-            {t("keywordMP3")}
-
-            <h2>{t("keywordMPT4")}</h2>
-
             <p>{t("keywordMP4")}</p>
             <p>{t("keywordMP5")}</p>
             <p>{t("keywordMP6")}</p>
+          </div>
+
+          <h2>{t("keywordMPT7")}</h2>
+          <div className="serviceText">
             <p>
               <a
                 className="linkServices"
                 href={"/" + this.props.lng + "/onpage/voicesearch"}
               >
-                Voice search
+                {t("onpageHP10")}
               </a>{" "}
               {t("keywordMP7")}
             </p>

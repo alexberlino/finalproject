@@ -48,14 +48,17 @@ class Internationalisation extends Component {
             <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
           </div>
           <h1 className="h1services">{t("technicalHP3")}</h1>{" "}
-          <div className="serviceText">{t("internationalMP1")}</div>
+          <div className="serviceText">
+            <p>{t("internationalMP1")}</p>
+            <p>{t("internationalMP4")}</p>
+          </div>
           <h2> {t("internationalMPT2")}</h2>
           <div className="serviceText">
             <p>{t("internationalMP2")}</p>
-
+          </div>
+          <h2> {t("internationalMPT3")}</h2>
+          <div className="serviceText">
             <p>{t("internationalMP3")}</p>
-
-            <p>{t("internationalMP4")}</p>
           </div>
           <div className="black slide-in-left sideLinks">
             <a
