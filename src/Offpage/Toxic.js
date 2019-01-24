@@ -14,9 +14,7 @@ class Toxic extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            {t("")} Toxic Links Cleaning - Offpage SEO Freelancer | SEO Berlino
-          </title>
+          <title>Toxic Links - Offpage SEO Freelancer | SEO Berlino</title>
           <meta type="description" content="" />
           <link
             rel="canonical"
@@ -42,16 +40,16 @@ class Toxic extends Component {
             <a href={"/" + this.props.lng + "/offpage"}> OFFPAGE </a>
           </div>
 
-          <h1 className="h1services"> {t("linkstoavoidtitle")}</h1>
-          <h2> Quality over quantity {t("")}</h2>
+          <h1 className="h1services">Toxic links & {t("linkstoavoidtitle")}</h1>
+          <h2>{t("BLanalysisT2")}</h2>
           <div className="serviceText">{t("linkstoavoid1")}</div>
-          <h2> You are responsible for the links that point to you {t("")}</h2>
+          <h2>{t("linkstoavoidT2")}</h2>
           <div className="serviceText">{t("linkstoavoid2")}</div>
 
-          <h2> Too many links from one domain {t("")}</h2>
+          <h2>{t("structuredMPT3")}</h2>
           <div className="serviceText">{t("linkstoavoid3")}</div>
 
-          <h2> Disavow and contact them to remove them {t("")}</h2>
+          <h2> Disavow Tool</h2>
           <div className="serviceText">{t("linkstoavoid4")}</div>
           <div className="sideLinks black slide-in-left">
             <a

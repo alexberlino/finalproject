@@ -41,13 +41,13 @@ class BrandBuilding extends Component {
           </div>
           <h1 className="h1services">Brand building</h1>
           <div className="serviceText">{t("brandbuildingMP1")}</div>
-          <h2> Plan to get links{t("")}</h2>
+          <h2> {t("brandbuildingMPT2")}</h2>
           <div className="serviceText">{t("brandbuildingMP2")}</div>
           <h2> Influencers</h2>
           <div className="serviceText">{t("brandbuildingMP3")}</div>
-          <h2> Content Creation, but not any {t("")}</h2>
+          <h2> {t("brandbuildingMPT4")}</h2>
           <div className="serviceText">{t("brandbuildingMP4")}</div>
-          <h2> {t("")}</h2>
+          <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
             <a
               onClick={() =>

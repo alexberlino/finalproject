@@ -45,7 +45,7 @@ class Internationalisation extends Component {
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
             <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
+            <a href={"/" + this.props.lng + "/technical"}> {t("technical")} </a>
           </div>
           <h1 className="h1services">{t("technicalHP3")}</h1>{" "}
           <div className="serviceText">

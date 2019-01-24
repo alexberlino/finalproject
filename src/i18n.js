@@ -146,8 +146,8 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         onpageHP8: `Structured data`,
         onpageHP9: `Duplicate content`,
         onpageHP10: `Voice search`,
-        offpageHP1: `Backlink analysis`,
-        offpageHP2: `Backlink profile`,
+        offpageHP1: `Backlinks audit`,
+        offpageHP2: ``,
         offpageHP3: `Brand building`,
         offpageHP4: `Influencers`,
         offpageHP5: `Links to avoid`,
@@ -156,7 +156,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         technicalHP3: `Internationalisation`,
         technicalHP4: `Pagespeed`,
         technicalHP5: `Mobile-friendly`,
-        technicalHP6: `Javascript`,
+        technicalHP6: `Javascript / Dynamic Rendering`,
         technicalHP7: `https site migration`,
 
         onpageSEO1: `Important first step, keyword research is the process of understanding how your target users search for your product or service.`,
@@ -173,7 +173,7 @@ These aspects are critical if you want to positively improve your backlink profi
 How it is done:
 Prioritised Action plan with:
 
-1. Backlink profile audit (number and quality of current backlinks)
+1. Backlink audit (number and quality of current backlinks)
 2. Investigation on how competitors get (quality) backlinks and find opportunities.
 3. Taking into account the specificity of the industry and the local aspect, suggestion on creative opportunities to get backlinks
 4. Suggestion of content creation themes based on Search Volume and competitive difficulty
@@ -300,6 +300,8 @@ Prioritised Action plan with:
         offpageMP5: `Social bookmarking is not as popular as it used to be in the past but it is still a good way to get traffic to your website. Depending on your niche you can find web sites like reddit.com, stumbleupon.com, scoop.it and delicious.com (to name a few) to promote your content.`,
 
         linkstoavoidtitle: `links to avoid`,
+        linkstoavoidT2: `You are responsible for the links that point to
+          you`,
         linkstoavoid1: `    Many think the more links, the better but it doesn't actually work
     that way. Too many low quality and/or spammy links and your website
     will lose "Google credibility" and therefore visibility.`,
@@ -321,6 +323,9 @@ Google's attention. Please note that you need to be connected to the
 website's search console account in order to log into the tool.
 Google then advises you to actively get in touch with the respective
 webmasters and ask them to remove them.`,
+
+        brandbuildingMPT2: `Getting links`,
+        brandbuildingMPT4: `Content Creation`,
         brandbuildingMP1: `Your links represent your reputation and relevancy in your domain.
 Linkbuilding now goes hand in hand with brand building. As you
 increased the "digital signs of recognition" aka links, you are also
@@ -329,6 +334,7 @@ are where your potential customers are browsing the web or looking
 for companies such as yours. If these backlinks bring you quality
 traffic that means it is indeed in the right place and brings value
 to your online reputation (aka domain / page authority)`,
+
         brandbuildingMP2: `After doing an audit of your link profile and of your main SEO
 competitors, a plan is needed to proactively develop your link
 building profile. This is on one hand a never ending job and on the
@@ -349,7 +355,7 @@ significant search volume, which are not yet on your Keyword list.`,
         BLanalysisT5: `Anchor text, nofollow/follow links`,
         BLanalysisT6: `gov & edu links`,
 
-        BLanalysis1: `During a Backlink Profile Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
+        BLanalysis1: `During a Backlink Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
 of competitors to understand where you stand. Then a brainstorm can be done on link
 targets and content production. Finally work can be prioritised depending on
 potential and complexity,  setting targets: quantity and quality links
@@ -1057,8 +1063,8 @@ website's reputation.`,
         onpageHP8: `Structured Data`,
         onpageHP9: `Duplizierter Inhalt`,
         onpageHP10: `Sprachsuche`,
-        offpageHP1: `Backlink Analyse`,
-        offpageHP2: `Backlink Konkurrenzanalyse`,
+        offpageHP1: `Backlinks Analyse`,
+        offpageHP2: ``,
         offpageHP3: `Markenbildung`,
         offpageHP4: `Influencers`,
         offpageHP5: `Links`,
@@ -1203,7 +1209,8 @@ Priorisierter Aktionsplan mit:
         offpageMP4: `Social Media ist Teil des Offpage SEO und eine Art der Rückverlinkung (engl. Backlinking) die Ihnen Traffic und Aufmersamkeit verschaffen kann. Die meisten Links aus Sozialen Medien sind zwar NoFollow-Links, sie sind jedoch trotzdem nützlich. Erwähnungen in Sozialen Medien gewinnen als Ranking-Faktoren an Boden und die passende Konfiguration von Social Media Profilen kann auch das SEO ankurbeln.`,
 
         offpageMP5: `Social Boomarking ist nicht mehr so gängig wie in der Vergangenheit, stellt aber noch immer eine gute Möglichkeit dar, um Traffic auf Ihrer Webseite zu generieren. Je nach Nische, in welcher Sie tätig sind, können Sie passende Webseiten wie reddit.com, stumbleupon.com, scoop.it oder delicious.com (um nur einige zu nennen) nutzen, um Ihre Inhalte zu bewerben.`,
-        linkstoavoidtitle: `links to avoid`,
+        linkstoavoidtitle: `links zu vermeiden`,
+        linkstoavoidT2: `Links Verantwortung`,
         linkstoavoid1: `    Many think the more links, the better but it doesn't actually work
             that way. Too many low quality and/or spammy links and your website
             will lose "Google credibility" and therefore visibility.`,
@@ -1225,6 +1232,8 @@ Priorisierter Aktionsplan mit:
             website's search console account in order to log into the tool.
             Google then advises you to actively get in touch with the respective
             webmasters and ask them to remove them.`,
+        brandbuildingMPT2: `Links bekommen`,
+        brandbuildingMPT4: `Inhaltserstellung`,
         brandbuildingMP1: `Your links represent your reputation and relevancy in your domain.
             Linkbuilding now goes hand in hand with brand building. As you
             increased the "digital signs of recognition" aka links, you are also
@@ -1247,11 +1256,11 @@ Priorisierter Aktionsplan mit:
             significant search volume, which are not yet on your Keyword list.`,
         BLanalysisT1: `Backlinks sind noch wichtig in 2019`,
         BLanalysisT2: `Qualität vor Quantität.`,
-        BLanalysisT3: `Refering Domains: page authority over domain authority`,
+        BLanalysisT3: `Refering Domains: page authority über domain authority`,
         BLanalysisT4: `Wettbewerber`,
         BLanalysisT5: `Anchor text, nofollow/follow links`,
         BLanalysisT6: `Gov & Edu links`,
-        BLanalysis1: `During a Backlink Profile Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
+        BLanalysis1: `During a Backlink Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
             of competitors to understand where you stand. Then a brainstorm can be done on link
             targets and content production. Finally work can be prioritised depending on
             potential and complexity,  setting targets: quantity and quality links
@@ -1458,33 +1467,30 @@ Priorisierter Aktionsplan mit:
         crawlabilityMP6: ``,
 
         dynamicrenderingMPT1: ``,
-        dynamicrenderingMP1: `    For JavaScript apps such as React, Angular or View, search engines
+        dynamicrenderingMP1: `For JavaScript apps such as React, Angular or View, search engines
             such as Google still struggle to properly crawl and index all pages.
             Although they say they can achieve this over time after many visits,
             they do recommend for most sites to use dynamic rendering. Currently, it's difficult to process
             JavaScript and not all search engine crawlers are able to process it
             successfully or immediately.`,
-        dynamicrenderingMPT2: `What is Dynamic Rendering`,
-        dynamicrenderingMP2: `Dynamic rendering means switching between client-side rendered and
-            pre-rendered content for specific user agents. Dynamic rendering is
-            good for indexable, public JavaScript-generated content that changes
+        dynamicrenderingMPT2: `Was bedeutet Dynamic Rendering`,
+        dynamicrenderingMP2: `Dynamic rendering is a
+        workaround for crawlers. It means switching between client-side rendered and
+            pre-rendered content depending on the user agents. Dynamic rendering is
+            good in particular for websites for which content changes
             rapidly, or content that uses JavaScript features that aren't
-            supported by the crawlers you care about. Not all sites need to use
-            dynamic rendering, and it's worth noting that dynamic rendering is a
-            workaround for crawlers. Dynamic rendering requires your web server
-            to detect crawlers for example by checking the user agent.`,
+            supported by crawlers. Not all sites need to use
+            dynamic rendering.`,
         dynamicrenderingMPT3: ``,
         dynamicrenderingMP3: `Requests from crawlers are routed to a renderer, requests from users
             are served normally. Where needed, the dynamic renderer serves a
             version of the content that's suitable to the crawler, for example,
             it may serve a static HTML version.`,
-        dynamicrenderingMPT4: ``,
+        dynamicrenderingMPT4: `Konfiguration für Dynamic Rendering`,
         dynamicrenderingMP4: `To setup dynamic rendering for your content, install and configure a
-                    dynamic renderer to transform your content into static HTML that's
-                    easier for crawlers to consume. Some common dynamic renderers are
-                    Puppeteer, Rendertron, and prerender.io. Choose the user agents that
-                    you think should receive your static HTML and refer to your specific
-                    configuration details on how to update or add user agents.`,
+                    dynamic renderer to transform the content into static HTML. Some common dynamic renderers are
+                    Puppeteer or prerender.io. Choose the user agents that
+                    you think should receive your static HTML.`,
         dynamicrenderingMPT5: ``,
         dynamicrenderingMP5: ``,
         dynamicrenderingMPT6: ``,
@@ -1565,7 +1571,7 @@ Priorisierter Aktionsplan mit:
         internalMP5: `Using a top navigation will give the most
                     important posts or pages a lot of link value and makes them stronger
                     in Google’s eyes. `,
-        internalMPT6: ` Linking to taxonomies`,
+        internalMPT6: `Taxonomien`,
         internalMP6: ` If you run a blog it could
         be beneficial to add internal links to the taxonomies the post
         belongs to. Adding links to the category and tags helps Google to
@@ -1898,7 +1904,7 @@ Priorisierter Aktionsplan mit:
         metasMPT3: ``,
         metasMP3: `You should have one h1 per page with h1 being your main keyword for
                 the page. Then use H2, H3, etc accordingy and logically, depending on the content`,
-        metasMPT4: `Wbsite Crawl`,
+        metasMPT4: `Website Crawl`,
         metasMP4: `There are many tools out there such as Screaming Frog which can easily identify missing or empty metas,
              You can also identify and fix duplicate or unclear metas, those which are
              too long or too short.`,
@@ -2235,7 +2241,7 @@ Priorisierter Aktionsplan mit:
     //                         get some inspiration on the content you need to start producing.
     //                         Also you need to identify parallel search terms and topics with
     //                         significant search volume, which are not yet on your Keyword list.`,
-    //         BLanalysis1: `During a Backlink Profile Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
+    //         BLanalysis1: `During a Backlink Audit, a report needs to be done with the profile's pros and cons. In addition, it should include an audit
     //                         of competitors to understand where you stand. Then a brainstorm can be done on link
     //                         targets and content production. Finally work can be prioritised depending on
     //                         potential and complexity,  setting targets: quantity and quality links

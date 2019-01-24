@@ -16,7 +16,7 @@ class BestPractices extends Component {
           <meta charSet="utf-8" />
           <title>
             {t("")}
-            SEO Competitor Analysis - Backlink Profile Analysis | SEO Berlino
+            {t("bestpractMPh1")} | SEO Berlino
           </title>
           <meta
             name="description"

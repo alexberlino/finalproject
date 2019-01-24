@@ -14,10 +14,7 @@ class Analytics extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>
-            {" "}
-            {t("")}Analysis for SEO - Reseach & Analytics | SEO Berlino
-          </title>
+          <title> {t("")}SEO Analytics | SEO Berlino</title>
           <meta
             type="description"
             content="Analytics for SEO. Without Data, it is difficult
@@ -47,7 +44,7 @@ class Analytics extends Component {
             <a href={"/" + this.props.lng + "/research"}> RESEARCH </a>
           </div>
 
-          <h1 className="h1services"> Analytics SEO</h1>
+          <h1 className="h1services"> SEO Analytics</h1>
           <h2> {t("analyticsMPT1")} </h2>
           <div className="serviceText">{t("analyticsMP1")} </div>
           <h2> Google Analytics</h2>

@@ -20,7 +20,7 @@ class DynamicRendering extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Dynamic Rendering | SEO Berlino</title>
+          <title>{t("technicalHP6")} | SEO Berlino</title>
           <meta
             name="description"
             content="Technical SEO Freelancer: dynamic rendering and why its important in SEO "
@@ -46,9 +46,9 @@ class DynamicRendering extends Component {
             <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
             <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lng + "/technical"}> TECHNICAL </a>
+            <a href={"/" + this.props.lng + "/technical"}> {t("technical")} </a>
           </div>
-          <h1 className="h1services"> Dynamic Rendering</h1>{" "}
+          <h1 className="h1services"> {t("technicalHP6")}</h1>{" "}
           <div className="serviceText"> {t("dynamicrenderingMP1")}</div>
           <br />
           <h2>{t("dynamicrenderingMPT2")}</h2>
