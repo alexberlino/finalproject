@@ -33,71 +33,78 @@ class Services extends Component {
           />
           <link rel="canonical" href={"/" + this.props.lang + "/services"} />
         </Helmet>
-        <div className="services2">
-          <div className="breadcrumb">
-            <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lng}> {t("services")} </a>
-          </div>
+        <div className="services2">
           <div className="infoTitle">
+            <br />
+            <br />
             <h1 className="h1services2">{t("servicesh1")}</h1>
           </div>
           <div className="intro20">
             <div className="introQuarter">
               {" "}
               <div className="transparent"> </div>
-              <h2>Standard-Audit (16-22 hours*)</h2>
-              <p className="txt2"> Executive Summary</p>
-              <p className="txt2"> Keyword Research</p>
+              <h2>Express-Audit (15-20 {t("hours")})</h2>
+              <p className="txt2"> {t("execsumm")}</p>
+              <p className="txt2"> {t("onpageHP1")}(Main Keywords)</p>
+              <p className="txt2">Express Website Crawl: {t("listmain")}</p>
+              <p className="txt2">Backlink Audit</p>
               <p className="txt2">
-                Website Crawl: prioritized List main issues
+                {t("hey5")}: {t("technicalHP4")} & {t("technicalHP5")} &
+                crawlability
               </p>
-              <p className="txt2">Backlink profile Audit</p>
               <p className="txt2">
-                Technical SEO: pageSpeed & mobile friendliness & Crawlability
+                {" "}
+                {t("bestpractMPh1")} (1 {t("competitor")})
               </p>
-              <p className="txt2"> Competitor Analysis (1 main competitor)</p>
             </div>
             <div className="introQuarter">
               <div className="transparent"> </div>
 
-              <h2>Full Audit (30-40 hours*)</h2>
-              <p className="txt2"> Executive Summary</p>
+              <h2>Full Audit (30-40 {t("hours")})</h2>
+              <p className="txt2"> {t("execsumm")}</p>
 
-              <p className="txt2"> In-depth Keyword Research</p>
-              <p className="txt2">On-page: internal linking, </p>
+              <p className="txt2"> In-depth {t("onpageHP1")}</p>
 
-              <p className="txt2">WebSite Crawl: In-depth Prioritized List </p>
               <p className="txt2">
-                In-depth Backlink profile Audit including toxic link analysis,
-                best types of links
+                WebSite Crawl onpage: {t("listmain")} ({t("onpageHP7")},
+                content, {t("onpageHP3")}, metas, {t("onpageHP10")})
               </p>
               <p className="txt2">
-                Competitor Analysis (up to 3 main competitors), including best
-                types of links
+                In-depth {t("bestpractMP4")} incl. toxic link analysis,{" "}
+                {t("catlinks")}
               </p>
 
               <p className="txt2">
-                {" "}
-                Technical SEO: pageSpeed & mobile friendliness, indexation &
-                Crawlability
+                {t("hey5")}: {t("technicalHP1")} & {t("technicalHP4")} &{" "}
+                {t("technicalHP5")} & {t("technicalHP2")}
               </p>
+
+              <p className="txt2">{t("bestpractMPh1")} (min. 2)</p>
             </div>
-
+          </div>
+          <div className="intro20">
             <div className="introQuarter">
               <div className="transparent"> </div>{" "}
-              <h2>Website Crawl (4-8 hours*)</h2>
-              <p className="txt2"> Executive Summary</p>
+              <h2>Website Crawl (min 6 {t("hours")} )</h2>
+              <p className="txt2"> {t("execsumm")}</p>
+              <p className="txt2">Website Crawl: {t("listmain")}</p>
+              <h2>
+                {t("bestpractMP4")}(min 6 {t("hours")})
+              </h2>
+              <p className="txt2"> {t("execsumm")}</p>
+              <p className="txt2"> {t("offpageHP1")}</p>
               <p className="txt2">
-                Website Crawl: prioritized List main issues
+                {t("hey7")} & {t("bestpractMP4")}
               </p>
-              <h2>Backlink Profile Audit (4-8 hours)</h2>
-              <p className="txt2"> Executive Summary</p>
-              <p className="txt2"> Backlink Profile Audit</p>
-              <p className="txt2"> Competitor's Backlink Profile Audit</p>
-              <h2>Keyword Research (4-8 hours)</h2>
-              <p className="txt2"> In-depth Keyword Reasearch</p>
-              <p className="txt2"> Voice Search (Questions)</p>
+              <h2>
+                {t("onpageHP1")} (min 6 {t("hours")})
+              </h2>
+              <p className="txt2"> In-depth {t("onpageHP1")}</p>
+              <p className="txt2">
+                {" "}
+                {t("onpageHP10")} ( {t("voiceMPT2")})
+              </p>
             </div>
 
             <div className="introQuarter">
@@ -105,21 +112,23 @@ class Services extends Component {
 
               <h2>Ad-hoc</h2>
               <p className="txt2">
-                Keywords for content creation, extra traffic (including
-                questions for Voice Search)
+                {t("onpageHP1")} for {t("brandbuildingMPT4")}(incl. for{" "}
+                {t("onpageHP10")})
               </p>
+              <p className="txt2">{t("technicalHP3")} incl. href lang</p>
+              <p className="txt2"> {t("technicalHP2")}: robots, sitemaps</p>
+              <p className="txt2"> Brand building/ Backlinking </p>
+              <p className="txt2"> {t("onpageHP8")}</p>
               <p className="txt2">Analytics </p>
-              <p className="txt2">KW Reseach</p>
-              <p className="txt2"> Local SEO</p>
-              <p className="txt2"> Any Offpage / Backlink SEO</p>
-              <p className="txt2"> Any On-page</p>
+              <p className="txt2"> {t("analyticsHP1")}</p>
+
               <p className="txt2"> SEA</p>
             </div>
-          </div>{" "}
+          </div>
           <a className="servicesHP2" href={"/" + this.props.lang + "/contact"}>
             <button className="servicesHP2">{t("getintouch")}</button>
           </a>
-          <p className="marginright">* depending on size of the website </p>
+          <br /> <br /> <br />
         </div>
       </div>
     );

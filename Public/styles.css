@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 23px;
 }
 body {
 }
@@ -305,7 +305,7 @@ iframe {
 .languageBtn {
   position: relative;
   display: table;
-  top: 28px;
+  top: 18px;
   left: 70%;
   z-index: 100;
 }
@@ -1035,17 +1035,17 @@ a.langselected {
 .toolbar_navigation_items ul {
   list-style: none;
   position: fixed;
-  top: 4px;
-  margin-left: 17%;
+  top: 10px;
+  margin-left: 15%;
   display: flex;
   background-color: white;
-  height: 30px;
+  height: auto;
 }
 
 .toolbar_navigation_items li {
   background-color: white;
-  height: 21px;
-  width: 140px;
+  height: 24px;
+  width: 127px;
   text-align: center;
 }
 
@@ -1133,7 +1133,7 @@ a.langselected {
 }
 
 .serviceText {
-  font-size: 21px;
+  font-size: 23px;
   width: 70%;
 }
 

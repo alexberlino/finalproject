@@ -40,7 +40,7 @@ class Indexation extends Component {
             <a href={"/" + this.props.lng}> {t("services")} </a>
             <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>
+            <a href={"/" + this.props.lng + "/resources"}> SEO </a>
             <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lng + "/technical"}> {t("technical")} </a>

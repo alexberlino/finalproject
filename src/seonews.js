@@ -68,7 +68,7 @@ class SEONews extends Component {
             <a href={"/" + this.props.lang}> {t("services")}</a>
             <img className="iconsmore2" src="/arrow.png" />
 
-            <a href={"/" + this.props.lang + "/resources"}> AUDIT </a>
+            <a href={"/" + this.props.lang + "/resources"}> SEO </a>
             <img className="iconsmore2" src="/arrow.png" />
 
             <a href={"/" + this.props.lang + "/seonews"}> SEONEWS </a>

@@ -23,7 +23,7 @@ class Resources extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEO Audit - Search Engine Optimization || SEOBerlino</title>
+          <title>SEO - Search Engine Optimization || SEOBerlino</title>
           <meta
             name="description"
             content="SEO Expertise: Onpage SEO, Offpage SEO, Technical SEO, Analytics and SEO Research."
@@ -44,11 +44,11 @@ class Resources extends Component {
             <img className="iconsmore2" src="/arrow.png" />
             <a href={"/" + this.props.lang}> {t("services")} </a>{" "}
             <img className="iconsmore2" src="/arrow.png" />
-            <a className="bold"> AUDIT </a>{" "}
+            <a className="bold"> SEO </a>{" "}
           </div>
 
           <div className="infoTitle">
-            <h1 className="h1services">SEO Audit</h1>
+            <h1 className="h1services">SEO</h1>
           </div>
 
           <div className="marginright black">

@@ -79,7 +79,7 @@ class Navigation extends Component {
               <li>
                 <a href={"/" + this.props.lang + "/resources"}>
                   <span onClick={() => this.props.pageChange("/resources")}>
-                    SEO AUDIT
+                    SEO
                   </span>
                 </a>
               </li>

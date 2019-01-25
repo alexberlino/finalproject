@@ -6,6 +6,11 @@ i18n.use(LanguageDetector).init({
   resources: {
     en: {
       translations: {
+        execsumm: `Executive Summary`,
+        catlinks: `Links categorisation`,
+        hours: `Hours`,
+        competitor: `competitor`,
+        listmain: `Prioritized List of main issues`,
         hey1: `SEO Expert in Berlin`,
         hey2: `scrum trained & web developer `,
         hey3: `On-page Audit`,
@@ -154,7 +159,7 @@ A very important cornerstone for all future SEO measures is the keyword analysis
         technicalHP1: `Indexation`,
         technicalHP2: `Crawlability`,
         technicalHP3: `Internationalisation`,
-        technicalHP4: `Pagespeed`,
+        technicalHP4: `Page speed`,
         technicalHP5: `Mobile-friendly`,
         technicalHP6: `Javascript / Dynamic Rendering`,
         technicalHP7: `https site migration`,
@@ -1006,6 +1011,11 @@ website's reputation.`,
 
     de: {
       translations: {
+        execsumm: `Zusammenfassung`,
+        hours: `Stunden`,
+        catlinks: `Kategorisierung von Links`,
+        competitor: `Mitbewerber`,
+        listmain: `priorisierte Liste des Hauptproblems`,
         hey1: `SEO Experte in Berlin `,
         hey2: `Full Stack Web-Entwickler`,
         hey3: `On-page Prüfung`,
@@ -1081,9 +1091,7 @@ website's reputation.`,
         ist die Keyword Recherche. Hier generiere ich eine Liste der für Ihr Produkt oder Ihre
         Dienstleistungen relevanten Keywords. Ein weiteres Ergebnis der Keyword Recherche ist die Definition von Schwellenkeywords.`,
         OnPageOptimization: `Onpage Optimierung`,
-        OnPageOptimizationText: `Die Onpage Optimierung bezieht sich auf jede SEO-Aktion, die auf der Website ausgeführt wird
-   kann direkt gemacht werden. Das betrifft in erster Linie die Optimierung des Inhalts und des Codes der Seite. Es enthält
-   auch die Ausarbeitung der inhaltlichen Strategie und des Potenzials Technische Probleme.`,
+        OnPageOptimizationText: `Die Onpage Optimierung bezieht sich auf jede SEO-Aktion, die auf der Website ausgeführt wird kann direkt gemacht werden. Das betrifft in erster Linie die Optimierung des Inhalts und des Codes der Seite. Es enthält auch die Ausarbeitung der inhaltlichen Strategie und des Potenzials Technische Probleme.`,
         OffpagePageOptimization: `Offpage Optimierung`,
         OffpagePageOptimizationText: `Offpage Optimierung ist sicherlich der komplexeste Prozess in SEO sowie einer der wichtigsten Faktoren. Es geht um Linkbuilding durch Markenbekanntheit. Dazu muss man sich identifizieren themenbezogenes thema, das den verkehr bringt, ihre Influencer, blogs und andere websites mit wem Sie Gemeinsamkeiten haben. `,
         servicesL: `Leistungen`,
@@ -1387,7 +1395,7 @@ Priorisierter Aktionsplan mit:
         navigation items and the internal linking strategy. What is included
         in their Sitemap(s).`,
         bestpractMPT4: `How do they get backlinks`,
-        bestpractMP4: `Analyse their backlink profile`,
+        bestpractMP4: `Backlink profile Audit`,
         bestpractMPT5: `How can you do better?`,
         bestpractMP5: `    Competitor analysis is great to be aware of what your competitors
             are doing, how their site is structured, how their get their

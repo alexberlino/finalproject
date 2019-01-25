@@ -57,7 +57,7 @@ class Technical extends Component {
             <img className="iconsmore2" src="/arrow.png" />
             <a href={"/" + this.props.lng}> {t("services")} </a>{" "}
             <img className="iconsmore2" src="/arrow.png" />
-            <a href={"/" + this.props.lng + "/resources"}> AUDIT </a>{" "}
+            <a href={"/" + this.props.lng + "/resources"}> SEO </a>{" "}
             <img className="iconsmore2" src="/arrow.png" />
             <a className="bold"> TECHNICAL </a>
           </div>
@@ -116,6 +116,7 @@ class Technical extends Component {
               <p className="italic">{t("technicalintro")}</p>
               <br />
               <h2>Technical SEO Checklist </h2>
+
               <p>{t("technicalintro2")}</p>
               <p>{t("technicalintro3")}</p>
               <p>{t("technicalintro4")}</p>
