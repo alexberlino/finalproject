@@ -54,16 +54,21 @@ class PageSpeed extends Component {
           <p className="serviceText">{t("speedMP2")}</p>
           <p className="serviceText">{t("speedMP3")}</p>
           <p className="serviceText">{t("speedMP4")}</p>
-          <h2> {t("speedMPT5")} </h2>{" "}
-          <div className="serviceText">{t("speedMP5")}</div>
+          <h2> {t("speedMPT5")} </h2>
+          <div className="serviceText">
+            {t("speedMP5")}{" "}
+            <a
+              className="serviceText"
+              href="https://developers.google.com/speed/pagespeed/insights/?hl=de"
+            >
+              Google PageSpeed Insights
+            </a>{" "}
+          </div>
           <h2> {t("relevanttools")}</h2>
           <div className="serviceText">
             <footer>
-              <a href="https://developers.google.com/speed/pagespeed/insights/?hl=de">
-                Google PageSpeed Insights
-              </a>{" "}
               <div className="block"> Lighthouse</div>
-              <p className="italic">{t("speedMP2")}</p>
+              <p className="italic">{t("speedMP6")}</p>
             </footer>
           </div>
           <div className="black slide-in-left sideLinks">

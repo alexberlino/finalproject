@@ -79,9 +79,7 @@ class Resources extends Component {
             </h2>
             <p>
               {t("auditintro2")}{" "}
-              <a href={"/" + this.props.lng + "/onpage"} className="block">
-                <img title="more" className="iconsmore" src="/more.svg" />
-              </a>
+              <a href={"/" + this.props.lng + "/onpage"} className="block" />
             </p>
             <br />
             <h2>
@@ -89,9 +87,7 @@ class Resources extends Component {
             </h2>
             <p>
               {t("auditintro3")}{" "}
-              <a href={"/" + this.props.lng + "/technical"} className="block">
-                <img title="more" className="iconsmore" src="/more.svg" />
-              </a>
+              <a href={"/" + this.props.lng + "/technical"} className="block" />
             </p>
             <br />
             <h2>
@@ -99,9 +95,7 @@ class Resources extends Component {
             </h2>
             <p>
               {t("auditintro4")}{" "}
-              <a href={"/" + this.props.lng + "/offpage"} className="block">
-                <img title="more" className="iconsmore" src="/more.svg" />
-              </a>{" "}
+              <a href={"/" + this.props.lng + "/offpage"} className="block" />{" "}
             </p>{" "}
             <br />
             <h2>
@@ -111,9 +105,7 @@ class Resources extends Component {
             </h2>
             <p>
               {t("auditintro5")}{" "}
-              <a href={"/" + this.props.lng + "/research"} className="block">
-                <img title="more" className="iconsmore" src="/more.svg" />
-              </a>
+              <a href={"/" + this.props.lng + "/research"} className="block" />
             </p>
           </div>
         </div>

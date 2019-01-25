@@ -4,6 +4,11 @@
     font-size: 18px;
   }
 
+  h2 {
+    font-size: 24px;
+    margin-left: 7px;
+  }
+
   .h1hp {
     font-size: 29px;
   }
@@ -93,12 +98,7 @@
     font-size: 17px;
     margin-left: 10%;
   }
-  .txt4 {
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 80%;
-    font-size: 17px;
-  }
+
   .serviceText {
     font-size: 17px;
     width: 80%;
@@ -342,6 +342,7 @@
     font-size: 30px;
     text-indent: 10px;
     margin-left: 1px;
+    text-align: center;
   }
 
   .h1services2 {
@@ -414,12 +415,6 @@
 
   .main {
     min-height: calc(140vh - 1000px);
-  }
-
-  .maincontact2 {
-    margin-top: 80px;
-    width: 100%;
-    margin-left: 0px;
   }
 
   .mainHP {

@@ -689,8 +689,7 @@ website's reputation.`,
 
         speedMPT1: `Ways to speed up your site`,
         speedMP1: `Use fast hosting, a fast DNS (‘domain name system’) provider`,
-        speedMP2: `Minimise ‘HTTP
-        requests’ - keep the use of scripts and plugins to a minimum, use one
+        speedMP2: `Minimise ‘HTTP requests - keep the use of scripts and plugins to a minimum, use one
         CSS stylesheet (the code which is used to tell a website browser how
         to display your website) instead of multiple CSS stylesheets or
         inline CSS`,
@@ -706,7 +705,7 @@ website's reputation.`,
         pages are slow to load, Google will figure it out and will
         categorize your website as poor user experience, therefore suffering
         in terms of organic visibility. If you haven't done it yet, I
-        strongly advise you to use the PageSpeed Insights tool (link below){" "}`,
+        strongly advise you to use the PageSpeed Insights tool:`,
         speedMP6: `            Please note that Lighthouse belongs to Google and their advice
                     is (a bit too) specific to Google Chrome, so for instance it
                     will advise you to use new image formats which may not be usable
@@ -1110,8 +1109,8 @@ website's reputation.`,
         about7: `Erfahrung mit der Erstellung von Roadmaps, Aktionsplänen, technischen Dashboards und Analyseberichten`,
 
         getintouch: `Kontakt`,
-        aboutme: `SEO Experte || SEO Freelancer in Berlin | SEO Berlino`,
-        HPTitle: `SEO Consultant in Berlin | SEO Berlino`,
+        aboutme: `SEO Consultant || SEO Freelancer in Berlin | SEO Berlino`,
+        HPTitle: `SEO Beratung in Berlin | SEO Berlino`,
         descriptionHP: `SEO Beratung in Berlin: Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Webanalyse, Brand Building`,
 
         getintouch_title: `SEO Consultant in Berlin | Kontakt | seoberlino`,
@@ -1610,34 +1609,29 @@ Priorisierter Aktionsplan mit:
         mobileMPT6: ``,
         mobileMP6: ``,
 
-        speedMPT1: ``,
-        speedMP1: `There are several ways you can speed up your site: Use fast hosting.
-        Use a fast DNS (‘domain name system’) provider Minimise ‘HTTP
-        requests’ - keep the use of scripts and plugins to a minimum Use one
+        speedMPT1: `Ways to speed up your site`,
+        speedMP1: `Use fast hosting, a fast DNS (‘domain name system’) provider`,
+        speedMP2: `Minimise HTTP requests; keep the use of scripts and plugins to a minimum, use one
         CSS stylesheet (the code which is used to tell a website browser how
         to display your website) instead of multiple CSS stylesheets or
-        inline CSS Ensure your image files are as small as possible (without
-        being too pixelated) Compress your web pages (this can be done using
-        a tool called GZIP) Minify your site’s code - rid of any unnecessary
+        inline CSS`,
+        speedMP3: `Ensure your image files are as small as possible (without
+        being too pixelated)`,
+
+        speedMP4: `Compress your web pages (this can be done using
+        a tool called GZIP), Minify your site’s code - rid of any unnecessary
         spaces, line breaks or indentation in your HTML, CSS and Javascript
-        (see Google’s Minify Resources page for help with this). If your
+        (see Google’s Minify Resources page for help with this)`,
+        speedMPT5: `Negative SEO Impact for slow sites `,
+        speedMP5: `If your
         pages are slow to load, Google will figure it out and will
         categorize your website as poor user experience, therefore suffering
         in terms of organic visibility. If you haven't done it yet, I
-        strongly advise you to use the PageSpeed Insights tool (link below){" "}`,
-        speedMPT2: ``,
-        speedMP2: `Please note that Lighthouse belongs to Google and their advice
+        strongly advise you to use the PageSpeed Insights tool:`,
+        speedMP6: `            Please note that Lighthouse belongs to Google and their advice
                     is (a bit too) specific to Google Chrome, so for instance it
                     will advise you to use new image formats which may not be usable
                     and rendered on other browser such as Firefox or Safari.`,
-        speedMPT3: ``,
-        speedMP3: ``,
-        speedMPT4: ``,
-        speedMP4: ``,
-        speedMPT5: ``,
-        speedMP5: ``,
-        speedMPT6: ``,
-        speedMP6: ``,
 
         securityMPT1: `Was bedeutet HTTPS`,
         securityMP1: ` Hyper Text Transfer Protocol Secure (HTTPS) is the secure version

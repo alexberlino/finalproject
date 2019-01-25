@@ -86,7 +86,7 @@ class SEONews extends Component {
             </div>
             <div>
               {this.state.show == 1 ? (
-                <div className="txt4">
+                <div className="txt3">
                   There have many talks about using Google+ for SEO. Despite
                   being a flop especially in Europe, it was still a Google
                   product but now finally after so much resistance, it's being
@@ -107,7 +107,7 @@ class SEONews extends Component {
             </div>
             <div>
               {this.state.show == 2 ? (
-                <div className="txt4">
+                <div className="txt3">
                   Of course location is a still big factor in search results,
                   but other than that and searches done just before, there is
                   hardly any other personalisation.
@@ -133,7 +133,7 @@ class SEONews extends Component {
               </p>
               <div>
                 {this.state.show == 3 ? (
-                  <div className="txt4">
+                  <div className="txt3">
                     since this summer, Google has made changes to how it filters
                     reports, removing some query data.
                     <a

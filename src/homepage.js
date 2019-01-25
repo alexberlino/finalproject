@@ -166,9 +166,9 @@ class Homepage extends Component {
 
           <div className="whatisseo">
             <div className="backgroundBlack xtrapad">
-              <h2 className="blackbgwhite orange traffic">{t("whatis")} </h2>
+              <h2 className="transpbg-white orange traffic">{t("whatis")} </h2>
               <h2 className="white">{t("seolong")} </h2>
-              <p className="blackbgwhite txt3"> {t("whatisSEO")}</p>
+              <p className="transpbg-white txt3"> {t("whatisSEO")}</p>
             </div>
           </div>
 
@@ -177,7 +177,9 @@ class Homepage extends Component {
             <div className="seotxt">
               <div className="intro1">
                 <div className="intro4">
-                  <h2 className="blackbgwhite orange traffic">{t("boost4")}</h2>{" "}
+                  <h2 className="transpbg-white orange traffic">
+                    {t("boost4")}
+                  </h2>{" "}
                   {t("boost5")}
                 </div>
                 <h2 className="traffic orange2"> {t("beratung")}</h2>
@@ -225,16 +227,16 @@ class Homepage extends Component {
                 </p>
 
                 <div className="backgroundBlack2 sharable">
-                  <div className="blackbgwhite intro4 ">
+                  <div className="transpbg-white intro4 ">
                     {t("boost6")} <br />
-                    <h2 className="blackbgwhite orange traffic">
+                    <h2 className="transpbg-white orange traffic">
                       {t("boost7")}
                     </h2>{" "}
                     {t("boost8")} <br /> <br />
                   </div>{" "}
                 </div>
                 <div className="backgroundBlack ">
-                  <h2 className="traffic orange blackbgwhite">
+                  <h2 className="traffic orange transpbg-white">
                     <a
                       className="black"
                       href={"/" + this.props.lng + "/offpage"}
@@ -243,28 +245,28 @@ class Homepage extends Component {
                       <span className="white"> {t("optimization")} </span>
                     </a>
                   </h2>
-                  <p className="txt3 blackbgwhite">
+                  <p className="txt3 transpbg-white">
                     {t("OffpagePageOptimizationText")}
                     <a
                       href={"/" + this.props.lng + "/offpage"}
                       className="block black"
                     />
                   </p>
-                  <h2 className="traffic blackbgwhite orange">
+                  <h2 className="traffic transpbg-white orange">
                     <a
                       href={"/" + this.props.lng + "/offpage/backlinkanalysis"}
                     >
                       <span className="white"> backlink profile </span> audit
                     </a>{" "}
                   </h2>
-                  <p className="txt3 blackbgwhite">{t("offpage_main")} </p>
+                  <p className="txt3 transpbg-white">{t("offpage_main")} </p>
                   <br /> <br />
                 </div>
 
                 <div className="othercontentHP">
                   <div className="intro4 sharable2">
                     {t("boost9")} <br />
-                    <h2 className="blackbgwhite orange traffic">
+                    <h2 className="transpbg-white orange traffic">
                       {" "}
                       {t("boost11")}{" "}
                     </h2>
@@ -274,7 +276,7 @@ class Homepage extends Component {
                   <div className="intro41">
                     <h2 className="orange2">
                       <a
-                        className="traffic orange blackbgwhite"
+                        className="traffic orange transpbg-white"
                         href={"/" + this.props.lng + "/onpage/keywordresearch"}
                       >
                         {t("KWResearch")}

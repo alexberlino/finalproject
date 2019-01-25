@@ -68,12 +68,12 @@ class ContactMain extends Component {
     return (
       <div className="contactpage">
         <div className="backgroundBlack xtrapad">
-          <h2 className="blackbgwhite traffic orange">
+          <h2 className="transpbg-white traffic orange">
             get in <span className="white"> touch </span>
           </h2>
-          <h5 className="blackbgwhite">Mob: 015 787 011 932</h5>
-          <h5 className="blackbgwhite big">seoberlino@gmail.com</h5>{" "}
-          <h5 className="blackbgwhite">Kiehlufer D-12059 Berlin</h5>
+          <h5 className="transpbg-white">Mob: 015 787 011 932</h5>
+          <h5 className="transpbg-white big">seoberlino@gmail.com</h5>{" "}
+          <h5 className="transpbg-white">Kiehlufer D-12059 Berlin</h5>
         </div>
       </div>
     );

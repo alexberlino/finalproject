@@ -43,6 +43,7 @@ h2 {
   margin-top: 45px;
   margin-bottom: 15px;
   margin-left: 2px;
+  font-size: 35px;
 }
 h2.white {
   color: white;
@@ -522,20 +523,6 @@ th.imageBlog {
   width: 80%;
 }
 
-.txt4 {
-  font-size: 22px;
-  margin-left: 15%;
-  margin-top: 11px;
-  list-style: none;
-  text-align: left;
-  width: 60%;
-  color: rgba(70, 70, 70);
-}
-
-.txt3 a {
-  color: black;
-}
-
 .linkToPages {
   position: relative;
   display: block;
@@ -847,7 +834,8 @@ button.servicesHP2 {
   display: inline;
 }
 
-.backgroundBlack {
+.backgroundBlack,
+.backgroundBlack2 {
   width: 100%;
   background-color: #5b0c32;
   display: block;
@@ -855,11 +843,7 @@ button.servicesHP2 {
   z-index: 10;
 }
 .backgroundBlack2 {
-  width: 100%;
-  background-color: #5b0c32;
-  display: block;
   height: auto;
-  position: relative;
   z-index: 0;
 }
 .sharable,
@@ -1038,8 +1022,7 @@ a.langselected {
   list-style: none;
   position: fixed;
   top: 10px;
-  margin-left: 33%;
-  padding: 0;
+  margin-left: 27%;
   display: flex;
   background-color: white;
   height: 30px;
@@ -1047,51 +1030,34 @@ a.langselected {
 
 .toolbar_navigation_items li {
   background-color: white;
-  height: 20px;
+  padding: 10px;
+  height: 21px;
   width: auto;
-  padding-top: 5px;
-  padding-left: 25px;
   text-align: center;
 }
 
 .toolbar_navigation_items a {
   color: black;
-  font-size: 19px;
+  font-size: 21px;
+  padding: 10px;
   text-decoration: none;
   background-color: white;
 }
 
 .toolbar_navigation_items a:hover {
   font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
 
-.toggle-button {
-  display: flex;
-  z-index: 300;
-  flex-direction: column;
-  height: 26px;
-  width: 26px;
-  background: transparent;
-  border: none;
-  padding: 0;
-  box-sizing: border-box;
-  justify-content: space-around;
-}
 .toolbar_toggle_button {
   position: fixed;
   left: 90%;
   top: 20px;
   z-index: 100;
 }
-.toggle-button:focus {
-  outline: none;
-}
-.toggle-button_line {
-  width: 30px;
-  height: 1px;
-  padding: 1px;
-  background: black;
-}
+
 .side span {
   color: white;
 }
@@ -1136,11 +1102,6 @@ a.langselected {
   color: rgba(196, 196, 196);
 }
 
-.blockAbout:hover a {
-  color: white;
-  background-color: black;
-}
-
 .side_drawer#dropbtn {
   margin-top: 20px;
   color: red;
@@ -1183,12 +1144,6 @@ a.langselected {
 
 .mainrow {
   background-color: lightgrey;
-}
-
-.linksToSections {
-  background-color: grey;
-  margin-left: 10%;
-  width: auto;
 }
 
 .center {
@@ -1236,7 +1191,7 @@ h2.orange {
   display: inline;
 }
 
-.blackbgwhite {
+.transpbg-white {
   background-color: transparent;
   color: white;
 }
