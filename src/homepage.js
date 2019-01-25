@@ -145,7 +145,7 @@ class Homepage extends Component {
 
           <div className="whatisseo">
             <div className="backgroundBlack xtrapad">
-              <h2 className="transpbg-white orange traffic">{t("whatis")} </h2>
+              <h2 className="transpbg-white orange ">{t("whatis")} </h2>
               <h2 className="white">{t("seolong")} </h2>
               <p className="transpbg-white txt3"> {t("whatisSEO")}</p>
             </div>
@@ -156,14 +156,15 @@ class Homepage extends Component {
             <div className="seotxt">
               <div className="intro1">
                 <div className="intro4">
-                  <h2 className="transpbg-white orange traffic">
-                    {t("boost4")}
-                  </h2>{" "}
+                  <h2 className="transpbg-white orange ">{t("boost4")}</h2>{" "}
                   {t("boost5")}
                 </div>
-                <h2 className="traffic orange2"> {t("beratung")}</h2>
+                <h2 className=" orange2">
+                  {" "}
+                  <a>{t("beratung")}</a>
+                </h2>
                 <p className="txt3">{t("beratungText")}</p>
-                <h2 className="traffic orange2">
+                <h2 className=" orange2">
                   <a href={"/" + this.props.lng + "/resources"}>{t("audit")}</a>
                 </h2>
                 <p className="txt3">
@@ -175,7 +176,7 @@ class Homepage extends Component {
                     <img title="more" className="iconsmore" src="/more.svg" />
                   </a>
                 </p>
-                <h2 className="traffic orange2">
+                <h2 className=" orange2">
                   <a className="" href={"/" + this.props.lng + "/onpage"}>
                     {t("OnPageOptimization")}
                   </a>
@@ -206,16 +207,16 @@ class Homepage extends Component {
                 </p>
 
                 <div className="backgroundBlack2 sharable">
-                  <div className="transpbg-white intro4 ">
+                  <div className="transpbg-white intro4">
                     {t("boost6")} <br />
-                    <h2 className="transpbg-white orange traffic">
+                    <h2 className="transpbg-white orange ">
                       {t("boost7")}
                     </h2>{" "}
                     {t("boost8")} <br /> <br />
                   </div>{" "}
                 </div>
                 <div className="backgroundBlack ">
-                  <h2 className="traffic orange transpbg-white">
+                  <h2 className=" orange transpbg-white">
                     <a
                       className="black"
                       href={"/" + this.props.lng + "/offpage"}
@@ -231,7 +232,7 @@ class Homepage extends Component {
                       className="block black"
                     />
                   </p>
-                  <h2 className="traffic transpbg-white orange">
+                  <h2 className=" transpbg-white orange">
                     <a
                       href={"/" + this.props.lng + "/offpage/backlinkanalysis"}
                     >
@@ -245,17 +246,14 @@ class Homepage extends Component {
                 <div className="othercontentHP">
                   <div className="intro4 sharable2">
                     {t("boost9")} <br />
-                    <h2 className="transpbg-white orange traffic">
-                      {" "}
-                      {t("boost11")}{" "}
-                    </h2>
+                    <h2 className="transpbg-white orange "> {t("boost11")} </h2>
                     {t("boost10")}
                   </div>
 
                   <div className="intro41">
                     <h2 className="orange2">
                       <a
-                        className="traffic orange transpbg-white"
+                        className=" orange transpbg-white"
                         href={"/" + this.props.lng + "/onpage/keywordresearch"}
                       >
                         {t("KWResearch")}
@@ -280,12 +278,86 @@ class Homepage extends Component {
                 </div>
               </div>
             </div>
+            <div>
+              <p className="txt3">
+                <img
+                  height="60px"
+                  width="80px"
+                  alt="must-be logo"
+                  src="/mustbe.png"
+                />
+                <q className="block">
+                  Alex is an SEO expert who proposes concrete action measures
+                  based on a well-founded analysis and independently implements
+                  them. This gives me the opportunity to focus on my day-to-day
+                  business while still keeping my finger on the pulse of the
+                  times with my website. Thank you for the transparent and
+                  professional cooperation!
+                </q>
+                <span className="bold ">
+                  Hendrik Feige - owner of marketing, and strategy at consulting
+                  must-be
+                </span>
+                <br /> <br />
+                <br />
+                <br />
+                <img
+                  height="60px"
+                  width="70px"
+                  src="/teezily.png"
+                  alt="teezily logo"
+                />
+                <q className="block">
+                  Thank you for report which was exactly what I was hoping for!
+                </q>
+                <span className="bold">Charles Dilasser - CEO at Teezily </span>{" "}
+                <br /> <br />
+                <br />
+                <br />
+                <img
+                  height="50px"
+                  width="120px"
+                  src="/independent.png"
+                  alt="independent logo"
+                />
+                <q className="block">
+                  Fast, reliable & professional. Would definitely recommend.
+                </q>
+                <span className="bold">
+                  Richard Arthur Sfez – General Manager at The Independent
+                  Photographer
+                </span>
+                <br /> <br />
+                <br />
+                <br />
+                <img
+                  height="65px"
+                  width="50px"
+                  alt="spreadshirt logo"
+                  src="/spreadshirt.png"
+                />
+                <quote className="block">
+                  Alex always had a superior command of his field of activity
+                  and very good knowledge of all processes and aspects of the
+                  company. He was always very successful in expanding his
+                  professional knowledge on his own initiative. Alex has led
+                  several major projects of cleaning up our SEO profiles so as
+                  to reflect the best practices preached by Google as well as
+                  pioners. He has been strict in following the cleanest and best
+                  practices to avoid penalties, but continue growth in
+                  Spreadshirt's SEO visibility.{" "}
+                </quote>
+                <span className="bold">
+                  Hugo Smoter - Chief Commercial Officer at Spreadshirt
+                </span>{" "}
+              </p>
+            </div>
 
             <ContactMain />
 
             <div>
               <div>
-                <h2 className="traffic orange2"> {t("blog")}</h2>
+                <h2 className=" orange2"> {t("blog")}</h2>
                 <div className="blogArticlesHP">
                   {this.state.articles.map(article => (
                     <div className="blogItemHP">

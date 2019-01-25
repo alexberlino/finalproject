@@ -64,10 +64,6 @@
     min-height: calc(10vh);
   }
 
-  .traffic {
-    margin-left: 5%;
-  }
-
   p.txt3 {
     font-size: 18px;
     width: 90%;
@@ -223,19 +219,7 @@
     position: relative;
     width: 80px;
   }
-  .intro2 {
-    font-size: 16px;
-    margin-top: 20px;
-    text-align: center;
-    display: block;
-    width: 90%;
-    margin-left: 0px;
-    padding: 0px;
-    padding-bottom: 50px;
-    left: 0;
-    background-color: white;
-  }
-
+  .intro2,
   .intro20 {
     font-size: 16px;
     margin-top: 20px;
@@ -295,10 +279,7 @@
     font-size: 70px;
   }
 
-  h2.orange {
-    font-size: 32px;
-  }
-
+  h2.orange,
   h2.orange2 a {
     font-size: 32px;
   }

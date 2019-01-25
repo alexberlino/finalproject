@@ -45,12 +45,24 @@ h2 {
   margin-left: 2px;
   font-size: 35px;
 }
-h2.white {
+h2.white,
+.orange2,
+.orange2 a {
   color: white;
   font-size: 45px;
   margin-top: 0px;
   padding-top: 10px;
   display: inline;
+  margin-left: 3%;
+}
+
+.orange2 a {
+  color: black;
+  z-index: 5;
+}
+
+.orange2 {
+  color: black;
 }
 
 h3 {
@@ -148,7 +160,6 @@ iframe {
 }
 .black a:hover {
   font-weight: bold;
-  color: black;
 }
 
 .block {
@@ -339,16 +350,19 @@ a.languageBtnEN {
   /* color: #ff5a09; */
   color: black;
   position: relative;
-  width: (100%-60px);
   font-size: 43px;
   margin-bottom: 15px;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 60px;
   z-index: 3000;
   opacity: 1;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.intro4 {
+  padding-bottom: 20px;
 }
 
 .intro41 {
@@ -478,22 +492,22 @@ th.imageBlog {
   width: 70%;
 }
 
-.txt a,
-.txt a {
-  color: white;
-}
-
 .txt2 {
   font-size: 21px;
   color: black;
-
   margin-top: 5px;
   width: 100%;
 }
 
-.traffic {
-  margin-left: 10%;
-  z-index: 5;
+.txt3 {
+  font-size: 21px;
+  margin-left: 12%;
+  width: 80%;
+}
+
+.txt a,
+.txt a {
+  color: white;
 }
 
 .intro2 {
@@ -518,10 +532,15 @@ th.imageBlog {
   left: -170px;
 }
 
-.txt3 {
-  font-size: 21px;
-  margin-left: 12%;
-  width: 80%;
+.intro21 {
+  margin-left: 13%;
+  background-color: none;
+  margin-top: 10px;
+  opacity: 0.95;
+  position: relative;
+  width: 70%;
+  display: flex;
+  padding: 20px;
 }
 
 .linkToPages {
@@ -709,7 +728,6 @@ th.imageBlog {
   height: auto;
   position: relative;
   background-color: white;
-
   z-index: 5;
 }
 
@@ -742,16 +760,12 @@ th.imageBlog {
   margin-top: 280px;
   padding-top: 50px;
   width: 90%;
-  margin-left: 0px;
+  margin-left: 6%;
   border: white 0px solid;
   text-align: center;
 }
 
-.servicesHP :hover {
-  background-color: white;
-  color: #5b0c32;
-  z-index: 3;
-}
+.servicesHP :hover,
 .servicesHP2 :hover {
   background-color: white;
   color: #5b0c32;
@@ -823,7 +837,6 @@ button.servicesHP2 {
   margin-bottom: 1%;
   margin-top: 40px;
   z-index: -1;
-  opacity: 1;
 }
 
 .seotxt p {
@@ -871,12 +884,12 @@ button.servicesHP2 {
   max-height: 250px;
   margin-bottom: 0px;
   background-color: inherit;
-  z-index: -2;
-  width: 96%;
+  width: 95%;
 }
 
 .backgroundBlack:after,
 .sharable:after,
+.sharable2:after,
 .intro4:after,
 .intro41:after {
   content: "";
@@ -949,8 +962,6 @@ button.servicesHP2 {
   font-size: 150px;
   background-color: #586069;
 }
-
-/* ABOUT start*/
 
 .toolbar {
   position: fixed;
@@ -1183,14 +1194,6 @@ a.langselected {
   padding: 20px;
 }
 
-h2.orange {
-  color: #fd6a02;
-  font-size: 45px;
-  margin-top: 0px;
-
-  display: inline;
-}
-
 .transpbg-white {
   background-color: transparent;
   color: white;
@@ -1200,29 +1203,16 @@ h2.orange {
   font-size: 28px;
 }
 
-.orange a {
+h2.orange {
   color: #fd6a02;
-}
-
-.orange2 a {
-  color: black;
   font-size: 45px;
   margin-top: 0px;
-  padding-top: 10px;
+  margin-left: 3%;
   display: inline;
-  z-index: 5;
 }
 
 .orange2 a:hover {
   color: #5b0c32;
-}
-
-.orange2 {
-  color: black;
-  font-size: 45px;
-  margin-top: 0px;
-  padding-top: 10px;
-  display: inline;
 }
 
 .slide-in-left {
