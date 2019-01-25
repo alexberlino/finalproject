@@ -85,27 +85,6 @@ class Homepage extends Component {
               <button className="servicesHP2">{t("about")}</button>
             </a>
             <div className="intro" />
-            {this.state.show ? (
-              <div className="cookienotice">
-                <div className="block">{t("cookie1")} </div>
-                <div className="block">{t("cookie2")} </div>
-                <div className="block"> {t("cookie3")} </div>
-                <div className="block">
-                  <button
-                    onClick={() => this.clickHandlerClose()}
-                    className="buttonHP2"
-                  >
-                    {t("cookie4")}
-                  </button>
-                  <Link
-                    to={"/" + this.props.lang + "/cookies"}
-                    className="black"
-                  >
-                    <button className="buttonHP2">{t("cookie5")} </button>{" "}
-                  </Link>
-                </div>
-              </div>
-            ) : null}
             <div>
               <div className="intro21">
                 {" "}
