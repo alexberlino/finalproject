@@ -72,7 +72,7 @@ class ContactMain extends Component {
             get in <span className="white"> touch </span>
           </h2>
           <h5 className="transpbg-white">Mob: 015 787 011 932</h5>
-          <h5 className="transpbg-white big">seoberlino@gmail.com</h5>{" "}
+          <h5 className="transpbg-white big">alex@seoberlino.com</h5>{" "}
           <h5 className="transpbg-white">Kiehlufer D-12059 Berlin</h5>
         </div>
       </div>
