@@ -68,6 +68,7 @@ class ContactMain extends Component {
     return (
       <div className="contactpage">
         <div className="backgroundBlack xtrapad">
+          <br />
           <h2 className="transpbg-white traffic orange">
             get in <span className="white"> touch </span>
           </h2>
