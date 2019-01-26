@@ -353,7 +353,6 @@ a.languageBtnEN {
   margin-bottom: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: 10px;
   z-index: 3000;
   opacity: 1;
   margin-top: 0px;
@@ -367,12 +366,15 @@ a.languageBtnEN {
 
 .intro41 {
   background-color: white;
-  padding-left: 20px;
 }
 
 .xtrapad {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.marginleft {
+  margin-left: 3%;
 }
 
 .icons,
@@ -833,16 +835,6 @@ button.servicesHP2 {
   height: 10px;
   background-image: url("homepage.jpg");
   z-index: 0;
-}
-
-.transparent2 {
-  width: 80%;
-  height: 60px;
-  background-image: url("homepage.jpg");
-  position: relative;
-  margin-bottom: 1%;
-  margin-top: 40px;
-  z-index: -1;
 }
 
 .seotxt p {
