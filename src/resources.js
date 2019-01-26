@@ -34,7 +34,7 @@ class Resources extends Component {
           />
         </Helmet>
         <img
-          src="/auditmainpic/audit.jpg"
+          src="/auditmainpic/structured.jpg"
           title="analysis, a photo by rawpixel"
           alt="SEO Analysis and Research"
           className="imageAudit"
