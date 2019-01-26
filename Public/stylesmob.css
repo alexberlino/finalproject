@@ -305,10 +305,10 @@
 
   .blogArticlesHP {
     display: block;
-    top: 10px;
+    padding-top: 10px;
 
     width: 100%;
-    margin-bottom: 10px;
+    padding-bottom: 40px;
   }
 
   .block {

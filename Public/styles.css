@@ -53,7 +53,7 @@ h2.white,
   margin-top: 0px;
   padding-top: 10px;
   display: inline;
-  margin-left: 3%;
+  margin-left: 4%;
 }
 
 .orange2 a {
@@ -165,7 +165,7 @@ iframe {
 .block {
   display: block;
   position: relative;
-  padding-top: 19px;
+  padding-top: 6px;
   font-size: 20px;
 }
 
@@ -346,7 +346,6 @@ a.languageBtnEN {
 .intro41,
 .intro42 {
   height: auto;
-  padding-top: 30px;
   /* color: #ff5a09; */
   color: black;
   position: relative;
@@ -354,11 +353,12 @@ a.languageBtnEN {
   margin-bottom: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 60px;
+  margin-left: 10px;
   z-index: 3000;
   opacity: 1;
   margin-top: 0px;
   margin-bottom: 0px;
+  width: auto;
 }
 
 .intro4 {
@@ -371,8 +371,8 @@ a.languageBtnEN {
 }
 
 .xtrapad {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .icons,
@@ -418,8 +418,7 @@ a.languageBtnEN {
   width: 100%;
   z-index: 10;
   position: relative;
-  margin-top: 30px;
-  margin-bottom: 30px;
+
   background-color: white;
 }
 
@@ -728,7 +727,7 @@ th.imageBlog {
   height: auto;
   position: relative;
   background-color: white;
-  z-index: 5;
+  z-index: 8;
 }
 
 .introQuarter {
@@ -845,11 +844,6 @@ button.servicesHP2 {
   padding-top: 0px;
 }
 
-.intro1 {
-  position: relative;
-  display: inline;
-}
-
 .backgroundBlack,
 .backgroundBlack2 {
   width: 100%;
@@ -875,7 +869,7 @@ button.servicesHP2 {
   overflow: scroll;
   background-color: #5b0c32;
   z-index: -1;
-  width: 100%;
+  width: auto;
   left: 0;
 }
 
@@ -883,8 +877,8 @@ button.servicesHP2 {
   min-height: 150px;
   max-height: 250px;
   margin-bottom: 0px;
-  background-color: inherit;
-  width: 95%;
+  background-color: white;
+  width: auto;
 }
 
 .backgroundBlack:after,
@@ -1026,7 +1020,7 @@ a.langselected {
 }
 
 .marginright {
-  margin-top: 45px;
+  margin-top: 15px;
   margin-right: 6%;
   margin-left: 2%;
   width: 80%;

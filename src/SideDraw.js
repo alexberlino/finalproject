@@ -21,13 +21,13 @@ class SideDrawer extends Component {
       <nav className={drawerClasses}>
         <ul>
           <li>
-            <a href={"/" + this.props.lang}>
+            <a className="white" href={"/" + this.props.lang}>
               <span onClick={() => this.props.pageChange("/")}>HOME</span>
             </a>
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/services"}>
+            <a className="white" href={"/" + this.props.lang + "/services"}>
               <span onClick={() => this.props.pageChange("/services")}>
                 {t("servicesU")}
               </span>
@@ -35,21 +35,21 @@ class SideDrawer extends Component {
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/resources"}>
+            <a className="white" href={"/" + this.props.lang + "/resources"}>
               <span onClick={() => this.props.pageChange("/resources")}>
-                SEO AUDIT
+                SEO
               </span>
             </a>
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/blog"}>
+            <a className="white" href={"/" + this.props.lang + "/blog"}>
               <span onClick={() => this.props.pageChange("/blog")}>BLOG</span>
             </a>
           </li>
 
           <li>
-            <a href={"/" + this.props.lang + "/contact"}>
+            <a className="white" href={"/" + this.props.lang + "/contact"}>
               <span onClick={() => this.props.pageChange("/contact")}>
                 {t("contact")}
               </span>
