@@ -14,7 +14,7 @@ class BacklinkAnalysis extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Backlink Audit - | SEO Berlino</title>
+          <title>Backlink Audit | SEO Berlino</title>
           <meta
             type="description"
             content="Backlinks still play a huge part in SEO. Understanding your profile and setting goals for quality links is key to success."
@@ -51,10 +51,8 @@ class BacklinkAnalysis extends Component {
               <p>
                 {t("BLanalysis1")}
                 <a href={"/" + this.props.lng + "/offpage/brandbuilding"}>
-                  {" "}
                   brand building
                 </a>
-                .
               </p>
             </div>
             <img

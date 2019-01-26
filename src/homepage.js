@@ -73,8 +73,7 @@ class Homepage extends Component {
               <h1 className="h1hp">{t("intro1")}</h1>
               <br /> <br />
               <div className="h2hp">
-                {t("boost1")} <br />
-                {t("boost2")} <br />
+                {t("boost1")} {t("boost2")} <br />
                 {t("boost3")}
               </div>
             </div>
@@ -151,13 +150,17 @@ class Homepage extends Component {
             </div>
           </div>
 
-          <div className="transparent" />
           <div className="othercontentHP">
             <div className="seotxt">
               <div className="intro1">
                 <div className="intro4">
-                  <h2 className="transpbg-white orange ">{t("boost4")}</h2>{" "}
-                  {t("boost5")}
+                  <div className="marginright">
+                    {" "}
+                    <h2 className="transpbg-white orange ">
+                      {t("boost4")}
+                    </h2>{" "}
+                    {t("boost5")}
+                  </div>
                 </div>
                 <h2 className=" orange2">
                   {" "}
@@ -279,22 +282,23 @@ class Homepage extends Component {
               </div>
             </div>
             <div>
-              <p className="txt3">
+              <p>
                 <img
                   height="60px"
                   width="80px"
                   alt="must-be logo"
                   src="/mustbe.png"
+                  className="infoDate"
                 />
-                <q className="block">
+                <span className="txt3 block">
                   Alex is an SEO expert who proposes concrete action measures
                   based on a well-founded analysis and independently implements
                   them. This gives me the opportunity to focus on my day-to-day
                   business while still keeping my finger on the pulse of the
                   times with my website. Thank you for the transparent and
                   professional cooperation!
-                </q>
-                <span className="bold ">
+                </span>
+                <span className="txt3 bold block">
                   Hendrik Feige - owner of marketing, and strategy at consulting
                   must-be
                 </span>
@@ -306,11 +310,14 @@ class Homepage extends Component {
                   width="70px"
                   src="/teezily.png"
                   alt="teezily logo"
+                  className="infoDate"
                 />
-                <q className="block">
+                <span className="txt3 block">
                   Thank you for report which was exactly what I was hoping for!
-                </q>
-                <span className="bold">Charles Dilasser - CEO at Teezily </span>{" "}
+                </span>
+                <span className="txt3 bold block">
+                  Charles Dilasser - CEO at Teezily{" "}
+                </span>{" "}
                 <br /> <br />
                 <br />
                 <br />
@@ -319,11 +326,12 @@ class Homepage extends Component {
                   width="120px"
                   src="/independent.png"
                   alt="independent logo"
+                  className="infoDate"
                 />
-                <q className="block">
+                <span className="txt3 block">
                   Fast, reliable & professional. Would definitely recommend.
-                </q>
-                <span className="bold">
+                </span>
+                <span className="txt3 bold block">
                   Richard Arthur Sfez – General Manager at The Independent
                   Photographer
                 </span>
@@ -335,8 +343,9 @@ class Homepage extends Component {
                   width="50px"
                   alt="spreadshirt logo"
                   src="/spreadshirt.png"
+                  className="infoDate"
                 />
-                <quote className="block">
+                <span className="txt3 block">
                   Alex always had a superior command of his field of activity
                   and very good knowledge of all processes and aspects of the
                   company. He was always very successful in expanding his
@@ -346,104 +355,105 @@ class Homepage extends Component {
                   pioners. He has been strict in following the cleanest and best
                   practices to avoid penalties, but continue growth in
                   Spreadshirt's SEO visibility.{" "}
-                </quote>
-                <span className="bold">
+                </span>
+                <span className="txt3 bold block">
                   Hugo Smoter - Chief Commercial Officer at Spreadshirt
                 </span>{" "}
               </p>
             </div>
 
             <ContactMain />
+          </div>
+        </div>
+        <div>
+          <div className="blogHP">
+            <div className="blogArticlesHP">
+              <h2 className=" orange2"> {t("blog")}</h2>
 
-            <div>
-              <div>
-                <h2 className=" orange2"> {t("blog")}</h2>
-                <div className="blogArticlesHP">
-                  {this.state.articles.map(article => (
-                    <div className="blogItemHP">
-                      <div className="imageBlogHP">
-                        <img
-                          src={article.imageurl}
-                          height="70px"
-                          width="70px"
-                          className="imageBlogHP"
-                          alt="blog article"
-                        />
-                      </div>
-                      <div className="listArticlesBlogHP">
-                        <a href={"/" + this.props.lng + "/blog"}>
-                          <span onClick={() => this.props.pageChange("/blog")}>
-                            {article.title}
-                          </span>
-                        </a>
-                      </div>
-                    </div>
-                  ))}
+              {this.state.articles.map(article => (
+                <div className="blogItemHP">
+                  <div className="imageBlogHP">
+                    <img
+                      src={article.imageurl}
+                      height="70px"
+                      width="70px"
+                      className="imageBlogHP"
+                      alt="blog article"
+                    />
+                  </div>
+                  <div className="listArticlesBlogHP">
+                    <a href={"/" + this.props.lng + "/blog"}>
+                      <span onClick={() => this.props.pageChange("/blog")}>
+                        {article.title}
+                      </span>
+                    </a>
+                  </div>
                 </div>
-                <Link
-                  to={"en/blog"}
-                  onClick={() => this.props.pageChange("/blog")}
-                />{" "}
-              </div>
+              ))}
             </div>
-            <div>
-              {" "}
-              <div className="intro3 ">
-                <div className="logoQuarter">
-                  <img
-                    className="logo logomustbe"
-                    height="110px"
-                    width="160px"
-                    alt="must-be logo"
-                    src="/mustbe.png"
-                  />
-                </div>
-                <div className=" logoQuarter">
-                  <img
-                    className="logo logospreadshirt"
-                    height="100px"
-                    width="65px"
-                    alt="spreadshirt logo"
-                    src="/spreadshirt.png"
-                  />
-                </div>
-                <div className=" logoQuarter">
-                  <img
-                    className="logo logomadeforrain"
-                    height="120px"
-                    width="160px"
-                    src="/madeforrain.png"
-                    alt="made for rain logo"
-                  />
-                </div>
-                <div className=" logoQuarter">
-                  <img
-                    className="logo logoholberton"
-                    height="100px"
-                    width="190px"
-                    src="/holberton.png"
-                    alt="holberton school logo"
-                  />
-                </div>
-                <div className=" logoQuarter">
-                  <img
-                    className="logo logoteezily"
-                    height="110px"
-                    width="100px"
-                    src="/teezily.png"
-                    alt="teezily logo"
-                  />
-                </div>
-                <div className=" logoQuarter">
-                  <img
-                    className="logo"
-                    height="60px"
-                    width="130px"
-                    src="/independent.png"
-                    alt="independent logo"
-                  />
-                </div>
-              </div>
+            <Link
+              to={"en/blog"}
+              onClick={() => this.props.pageChange("/blog")}
+            />{" "}
+          </div>
+        </div>
+
+        <div>
+          {" "}
+          <div className="intro3 ">
+            <div className="logoQuarter">
+              <img
+                className="logo logomustbe"
+                height="110px"
+                width="160px"
+                alt="must-be logo"
+                src="/mustbe.png"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo logospreadshirt"
+                height="100px"
+                width="65px"
+                alt="spreadshirt logo"
+                src="/spreadshirt.png"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo logomadeforrain"
+                height="120px"
+                width="160px"
+                src="/madeforrain.png"
+                alt="made for rain logo"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo logoholberton"
+                height="100px"
+                width="190px"
+                src="/holberton.png"
+                alt="holberton school logo"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo logoteezily"
+                height="110px"
+                width="100px"
+                src="/teezily.png"
+                alt="teezily logo"
+              />
+            </div>
+            <div className=" logoQuarter">
+              <img
+                className="logo"
+                height="60px"
+                width="130px"
+                src="/independent.png"
+                alt="independent logo"
+              />
             </div>
           </div>
         </div>

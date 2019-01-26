@@ -33,6 +33,7 @@ class BlogList extends Component {
 
     return (
       <div>
+        <br /> <br /> <br /> <br /> <br />
         <table className="blogArticles">
           {this.state.articles.map(article => (
             <tr className="blogItem">

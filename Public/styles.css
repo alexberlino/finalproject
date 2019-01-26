@@ -248,7 +248,7 @@ iframe {
   opacity: 0.96;
   width: 67%;
   z-index: 3;
-  top: -200px;
+  top: -250px;
 }
 
 .serviceImage {
@@ -334,14 +334,18 @@ a.languageBtnEN {
 
 .intro3 {
   width: 100%;
-  top: 20px;
   height: auto;
   padding-bottom: 50px;
   position: relative;
   background-color: black;
-  z-index: 3500;
+  z-index: 14;
 }
 
+.blogHP {
+  background-color: white;
+  z-index: 10;
+  height: auto;
+}
 .intro4,
 .intro41,
 .intro42 {
@@ -500,7 +504,7 @@ th.imageBlog {
 }
 
 .txt3 {
-  font-size: 21px;
+  font-size: 24px;
   margin-left: 12%;
   width: 80%;
 }
@@ -728,7 +732,7 @@ th.imageBlog {
   height: auto;
   position: relative;
   background-color: white;
-  z-index: 5;
+  z-index: 15;
 }
 
 .introQuarter {
