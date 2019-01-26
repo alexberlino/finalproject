@@ -501,7 +501,14 @@ th.imageBlog {
 .txt3 {
   font-size: 24px;
   margin-left: 12%;
-  width: 80%;
+  width: 65%;
+}
+
+.testimonial {
+  margin-left: 13%;
+  width: 65%;
+  font-size: 24px;
+  display: block;
 }
 
 .txt a,
@@ -884,8 +891,7 @@ button.servicesHP2 {
 .backgroundBlack:after,
 .sharable:after,
 .sharable2:after,
-.intro4:after,
-.intro41:after {
+.intro4:after {
   content: "";
   background-image: url("/computer.jpg");
   opacity: 0.1;
@@ -1022,7 +1028,6 @@ a.langselected {
 .marginright {
   margin-top: 15px;
   margin-right: 6%;
-  margin-left: 2%;
   width: 80%;
 }
 

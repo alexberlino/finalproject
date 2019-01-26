@@ -453,9 +453,8 @@ website's reputation.`,
         navigation items and the internal linking strategy. What is included
         in their Sitemap(s).`,
 
-        bestpractMPT4: `How do they get backlinks`,
-        bestpractMP4: `Analyse their backlink profile, understand where you stand and set an ongoing plan on
-        how you can better them`,
+        bestpractMPT4: `Backlink profile Audit`,
+        bestpractMP4: `Analysis to understand how your competitors get their backlinks`,
         bestpractMPT5: `Copying can be dangerous`,
         bestpractMP5: `Competitor analysis is great to be aware of what your competitors
             are doing, how their site is structured, how their get their
@@ -1394,8 +1393,8 @@ Priorisierter Aktionsplan mit:
         bestpractMP3: `How are is the website organised and structured, including main
         navigation items and the internal linking strategy. What is included
         in their Sitemap(s).`,
-        bestpractMPT4: `How do they get backlinks`,
-        bestpractMP4: `Backlink profile Audit`,
+        bestpractMPT4: `Backlink profile Audit`,
+        bestpractMP4: `An audit to understand how your competitors get their backlinks`,
         bestpractMPT5: `How can you do better?`,
         bestpractMP5: `    Competitor analysis is great to be aware of what your competitors
             are doing, how their site is structured, how their get their

@@ -71,7 +71,7 @@ class Services extends Component {
                 content, {t("onpageHP3")}, metas, {t("onpageHP10")})
               </p>
               <p className="txt2">
-                In-depth {t("bestpractMP4")} incl. toxic link analysis,{" "}
+                In-depth {t("bestpractMPT4")} incl. toxic link analysis,{" "}
                 {t("catlinks")}
               </p>
 
@@ -90,12 +90,12 @@ class Services extends Component {
               <p className="txt2"> {t("execsumm")}</p>
               <p className="txt2">Website Crawl: {t("listmain")}</p>
               <h2>
-                {t("bestpractMP4")}(min 6 {t("hours")})
+                {t("bestpractMPT4")}(min 6 {t("hours")})
               </h2>
               <p className="txt2"> {t("execsumm")}</p>
               <p className="txt2"> {t("offpageHP1")}</p>
               <p className="txt2">
-                {t("hey7")} & {t("bestpractMP4")}
+                {t("hey7")} & {t("bestpractMPT4")}
               </p>
               <h2>
                 {t("onpageHP1")} (min 6 {t("hours")})

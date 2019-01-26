@@ -261,15 +261,15 @@ class Homepage extends Component {
                     src="/mustbe.png"
                     className="infoDate"
                   />
-                  <p className="txt3 block marginright">
+                  <p className="txt3 testimonial">
                     Alex is an SEO expert who proposes concrete action measures
                     based on a well-founded analysis and independently
                     implements them. This gives me the opportunity to focus on
                     my day-to-day business while still keeping my finger on the
                     pulse of the times with my website. Thank you for the
-                    transparent and professional cooperation!{" "}
+                    transparent and professional cooperation!
+                    <br />
                     <span className="bold">
-                      {" "}
                       Hendrik Feige - owner of marketing, and strategy at
                       consulting must-be{" "}
                     </span>
@@ -282,9 +282,10 @@ class Homepage extends Component {
                     alt="teezily logo"
                     className="infoDate"
                   />
-                  <p className="txt3 block marginright">
+                  <p className="txt3 testimonial">
                     Thank you for report which was exactly what I was hoping
                     for!
+                    <br />
                     <span className="bold">
                       {" "}
                       Charles Dilasser - CEO at Teezily{" "}
@@ -298,8 +299,9 @@ class Homepage extends Component {
                     alt="independent logo"
                     className="infoDate"
                   />
-                  <p className="txt3 block marginright">
+                  <p className="txt3 testimonial">
                     Fast, reliable & professional. Would definitely recommend.
+                    <br />
                     <span className=" bold ">
                       {" "}
                       Richard Arthur Sfez – General Manager at The Independent
@@ -314,7 +316,7 @@ class Homepage extends Component {
                     src="/spreadshirt.png"
                     className="infoDate"
                   />
-                  <p className="txt3 block marginright">
+                  <p className="txt3 testimonial">
                     Alex always had a superior command of his field of activity
                     and very good knowledge of all processes and aspects of the
                     company. He was always very successful in expanding his
@@ -323,7 +325,7 @@ class Homepage extends Component {
                     to reflect the best practices preached by Google as well as
                     pioners. He has been strict in following the cleanest and
                     best practices to avoid penalties, but continue growth in
-                    Spreadshirt's SEO visibility.{" "}
+                    Spreadshirt's SEO visibility. <br />
                     <span className="bold">
                       {" "}
                       Hugo Smoter - Chief Commercial Officer at Spreadshirt
