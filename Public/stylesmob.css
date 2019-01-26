@@ -306,8 +306,8 @@
   .blogArticlesHP {
     display: block;
     top: 10px;
-    margin-left: 5px;
-    width: 90%;
+
+    width: 100%;
     margin-bottom: 10px;
   }
 

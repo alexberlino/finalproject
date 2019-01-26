@@ -290,18 +290,18 @@ class Homepage extends Component {
                   src="/mustbe.png"
                   className="infoDate"
                 />
-                <span className="txt3 block">
+                <p className="txt3 block marginright">
                   Alex is an SEO expert who proposes concrete action measures
                   based on a well-founded analysis and independently implements
                   them. This gives me the opportunity to focus on my day-to-day
                   business while still keeping my finger on the pulse of the
                   times with my website. Thank you for the transparent and
                   professional cooperation!
-                </span>
-                <span className="txt3 bold block">
+                </p>
+                <p className="txt3 bold block">
                   Hendrik Feige - owner of marketing, and strategy at consulting
                   must-be
-                </span>
+                </p>
                 <br /> <br />
                 <br />
                 <br />
@@ -312,12 +312,12 @@ class Homepage extends Component {
                   alt="teezily logo"
                   className="infoDate"
                 />
-                <span className="txt3 block">
+                <p className="txt3 block marginright">
                   Thank you for report which was exactly what I was hoping for!
-                </span>
-                <span className="txt3 bold block">
+                </p>
+                <p className="txt3 bold block">
                   Charles Dilasser - CEO at Teezily{" "}
-                </span>{" "}
+                </p>{" "}
                 <br /> <br />
                 <br />
                 <br />
@@ -328,13 +328,13 @@ class Homepage extends Component {
                   alt="independent logo"
                   className="infoDate"
                 />
-                <span className="txt3 block">
+                <p className="txt3 block marginright">
                   Fast, reliable & professional. Would definitely recommend.
-                </span>
-                <span className="txt3 bold block">
+                </p>
+                <p className="txt3 bold block">
                   Richard Arthur Sfez – General Manager at The Independent
                   Photographer
-                </span>
+                </p>
                 <br /> <br />
                 <br />
                 <br />
@@ -345,7 +345,7 @@ class Homepage extends Component {
                   src="/spreadshirt.png"
                   className="infoDate"
                 />
-                <span className="txt3 block">
+                <p className="txt3 block marginright">
                   Alex always had a superior command of his field of activity
                   and very good knowledge of all processes and aspects of the
                   company. He was always very successful in expanding his
@@ -355,10 +355,10 @@ class Homepage extends Component {
                   pioners. He has been strict in following the cleanest and best
                   practices to avoid penalties, but continue growth in
                   Spreadshirt's SEO visibility.{" "}
-                </span>
-                <span className="txt3 bold block">
+                </p>
+                <p className="txt3 bold block">
                   Hugo Smoter - Chief Commercial Officer at Spreadshirt
-                </span>{" "}
+                </p>{" "}
               </p>
             </div>
 

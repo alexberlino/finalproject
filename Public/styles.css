@@ -339,13 +339,9 @@ a.languageBtnEN {
   position: relative;
   background-color: black;
   z-index: 14;
+  top: 20px;
 }
 
-.blogHP {
-  background-color: white;
-  z-index: 10;
-  height: auto;
-}
 .intro4,
 .intro41,
 .intro42 {
@@ -732,7 +728,7 @@ th.imageBlog {
   height: auto;
   position: relative;
   background-color: white;
-  z-index: 15;
+  z-index: 5;
 }
 
 .introQuarter {
