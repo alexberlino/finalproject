@@ -185,6 +185,13 @@ iframe {
   display: inline;
   position: relative;
 }
+.inline2 {
+  width: auto;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  min-height: 60px;
+}
 .blockWriteBlog {
   display: block;
   position: relative;
@@ -305,8 +312,8 @@ iframe {
 .languageBtn {
   position: relative;
   display: table;
-  top: 18px;
-  left: 70%;
+  top: 31px;
+  margin-left: 66%;
   z-index: 100;
 }
 
@@ -336,10 +343,11 @@ a.languageBtnEN {
   width: 100%;
   height: auto;
   padding-bottom: 50px;
+
   position: relative;
   background-color: black;
   z-index: 14;
-  top: 20px;
+  margin-top: 0px;
 }
 
 .intro4,
@@ -350,7 +358,6 @@ a.languageBtnEN {
   color: black;
   position: relative;
   font-size: 43px;
-  margin-bottom: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
   z-index: 3000;
@@ -420,6 +427,7 @@ a.languageBtnEN {
   width: 100%;
   z-index: 10;
   position: relative;
+  padding-bottom: 30px;
 
   background-color: white;
 }
@@ -445,6 +453,7 @@ a.languageBtnEN {
   display: block;
   margin: 7px;
   margin-left: 14%;
+  margin-bottom: 0px;
 }
 
 .listArticlesBlogHP {
@@ -510,7 +519,12 @@ th.imageBlog {
   margin-left: 13%;
   width: 65%;
   font-size: 24px;
-  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px lightgrey solid;
+  padding: 25px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .txt a,
@@ -1025,9 +1039,9 @@ a.langselected {
 
 .toolbar_navigation_items ul {
   list-style: none;
-  position: fixed;
-  top: 10px;
-  margin-left: 15%;
+  position: absolute;
+  top: 20px;
+  margin-left: 18%;
   display: flex;
   background-color: white;
   height: auto;
@@ -1042,15 +1056,13 @@ a.langselected {
 
 .toolbar_navigation_items a {
   color: black;
-  font-size: 20px;
+  font-size: 24px;
   text-decoration: none;
   background-color: white;
 }
 
 .toolbar_navigation_items a:hover {
-  color: white;
-  background-color: black;
-  padding: 10px;
+  font-weight: bold;
 }
 
 .toolbar_toggle_button {

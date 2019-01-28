@@ -66,7 +66,7 @@ class Navigation extends Component {
             <img alt="logo" className="toolbar_logo" src="/logo.jpg" />
           </a>
 
-          <div className="toolbar_navigation_items navEntries">
+          <div className="toolbar_navigation_items">
             <ul>
               <li>
                 <a href={"/" + this.props.lang + "/services"}>

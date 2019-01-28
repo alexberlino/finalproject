@@ -17,7 +17,6 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <div className="transparent"> </div>
         <div className="footer">
           <div className="footerLinks footerQuarter">
             <Link className="footerlink " to={"/en/login"}>

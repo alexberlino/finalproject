@@ -254,10 +254,9 @@ class Homepage extends Component {
                   <button className="servicesHP2">{t("about")}</button>
                 </a>
                 <br />
-                <div className="transparent" />
                 <br />
                 <div>
-                  <p className="txt3 testimonial">
+                  <div className="txt3 testimonial">
                     "Alex is an SEO expert who proposes concrete action measures
                     based on a well-founded analysis and independently
                     implements them. This gives me the opportunity to focus on
@@ -265,55 +264,59 @@ class Homepage extends Component {
                     pulse of the times with my website. Thank you for the
                     transparent and professional cooperation!"
                     <br />
-                    <br />
-                    <span className="bold">
-                      {" "}
-                      <img
-                        height="40px"
-                        width="60px"
-                        alt="must-be logo"
-                        src="/mustbe.png"
-                      />{" "}
-                      Hendrik Feige - owner of marketing, and strategy at
-                      consulting must-be{" "}
-                    </span>
-                  </p>
+                    <div className="bold">
+                      <span className="inline2">
+                        <img
+                          height="40px"
+                          width="60px"
+                          alt="must-be logo"
+                          src="/mustbe.png"
+                        />{" "}
+                      </span>{" "}
+                      <span className="inline2">
+                        Hendrik Feige - owner at must-be
+                      </span>{" "}
+                    </div>
+                  </div>
                   <br />
-                  <br />
-                  <p className="txt3 testimonial">
+                  <div className="txt3 testimonial">
                     "Thank you for report which was exactly what I was hoping
                     for!"
                     <br />
-                    <br />
-                    <span className="bold">
-                      {" "}
-                      <img
-                        height="40px"
-                        width="45px"
-                        src="/teezily.png"
-                        alt="teezily logo"
-                      />{" "}
-                      Charles Dilasser - CEO at Teezily{" "}
-                    </span>
-                  </p>{" "}
+                    <div className="bold">
+                      <span className="inline2">
+                        <img
+                          height="40px"
+                          width="45px"
+                          src="/teezily.png"
+                          alt="teezily logo"
+                        />{" "}
+                      </span>{" "}
+                      <span className="inline2">
+                        Charles Dilasser - CEO at Teezily{" "}
+                      </span>
+                    </div>{" "}
+                  </div>
                   <br />
-                  <p className="txt3 testimonial">
+                  <div className="txt3 testimonial">
                     "Fast, reliable & professional. Would definitely recommend."
                     <br />
-                    <br />
-                    <span className=" bold ">
-                      <img
-                        height="30px"
-                        width="60px"
-                        src="/independent.png"
-                        alt="independent logo"
-                      />{" "}
-                      Richard Arthur Sfez – General Manager at The Independent
-                      Photographer
-                    </span>{" "}
-                  </p>
+                    <div className=" bold ">
+                      <span className="inline2">
+                        <img
+                          height="30px"
+                          width="60px"
+                          src="/independent.png"
+                          alt="independent logo"
+                        />{" "}
+                      </span>{" "}
+                      <span className="inline2">
+                        Richard Sfez – GM at The Independent Photographer
+                      </span>{" "}
+                    </div>{" "}
+                  </div>{" "}
                   <br />
-                  <p className="txt3 testimonial">
+                  <div className="txt3 testimonial">
                     "Alex always had a superior command of his field of activity
                     and very good knowledge of all processes and aspects of the
                     company. He was always very successful in expanding his
@@ -322,18 +325,22 @@ class Homepage extends Component {
                     to reflect the best practices preached by Google as well as
                     pioners. He has been strict in following the cleanest and
                     best practices to avoid penalties, but continue growth in
-                    Spreadshirt's SEO visibility." <br />
+                    Spreadshirt's SEO visibility."
                     <br />
-                    <span className="bold">
-                      <img
-                        height="40px"
-                        width="35px"
-                        alt="spreadshirt logo"
-                        src="/spreadshirt.png"
-                      />{" "}
-                      Hugo Smoter - Chief Commercial Officer at Spreadshirt
-                    </span>{" "}
-                  </p>{" "}
+                    <div className="bold">
+                      <span className="inline2">
+                        <img
+                          height="40px"
+                          width="35px"
+                          alt="spreadshirt logo"
+                          src="/spreadshirt.png"
+                        />{" "}
+                      </span>{" "}
+                      <span className="inline2">
+                        Hugo Smoter - CCO at Spreadshirt
+                      </span>{" "}
+                    </div>{" "}
+                  </div>
                 </div>{" "}
                 <ContactMain />{" "}
               </div>{" "}
