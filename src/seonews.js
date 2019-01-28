@@ -99,7 +99,7 @@ class SEONews extends Component {
               <img
                 alt="importance"
                 className="importancenews"
-                src="/orangelight.webp"
+                src="/orangelight.jpg"
               />
               <p onClick={() => this.handleClick(2)} className="medium">
                 Google admits personalised search results limited
@@ -125,7 +125,7 @@ class SEONews extends Component {
               <img
                 alt="importance"
                 className="importancenews"
-                src="/orangelight.webp"
+                src="/orangelight.jpg"
               />
               <p onClick={() => this.handleClick(3)} className="medium">
                 Search Console and query data that may make the overall numbers
