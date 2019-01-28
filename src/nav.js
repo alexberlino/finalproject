@@ -101,25 +101,6 @@ class Navigation extends Component {
               </li>
             </ul>
           </div>
-          {this.state.show ? (
-            <div className="cookienotice">
-              <br /> <br /> <br /> <br /> <br /> <br />
-              <div className="block">{t("cookie1")} </div>
-              <div className="block">{t("cookie2")} </div>
-              <div className="block"> {t("cookie3")} </div>
-              <div className="block">
-                <button
-                  onClick={() => this.clickHandlerClose()}
-                  className="buttonHP2"
-                >
-                  {t("cookie4")}
-                </button>
-                <Link to={"/" + this.props.lang + "/cookies"} className="black">
-                  <button className="buttonHP2">{t("cookie5")} </button>{" "}
-                </Link>
-              </div>
-            </div>
-          ) : null}
 
           <div className="languageBtn">
             <Link
@@ -160,7 +141,25 @@ class Navigation extends Component {
               onClick={this.props.drawerClickHandler}
             />
           </div>
-        </nav>
+        </nav>{" "}
+        {this.state.show ? (
+          <div className="cookienotice">
+            <div className="block">{t("cookie1")} </div>
+            <div className="block">{t("cookie2")} </div>
+            <div className="block"> {t("cookie3")} </div>
+            <div className="block">
+              <button
+                onClick={() => this.clickHandlerClose()}
+                className="buttonHP2"
+              >
+                {t("cookie4")}
+              </button>
+              <Link to={"/" + this.props.lang + "/cookies"} className="black">
+                <button className="buttonHP2">{t("cookie5")} </button>{" "}
+              </Link>
+            </div>
+          </div>
+        ) : null}
       </header>
     );
   }

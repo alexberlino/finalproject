@@ -198,16 +198,16 @@ iframe {
 }
 
 .cookienotice {
-  padding-top: 20px;
-  position: bottom;
+  position: fixed;
   text-align: center;
   color: white;
   left: 0px;
-  z-index: 1000;
+  z-index: 800;
+  top: -15px;
   font-size: 18px;
   width: 100%;
-  padding-bottom: 30px;
-  padding-top: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   height: auto;
   background-color: black;
   opacity: 0.8;
@@ -314,7 +314,6 @@ iframe {
   display: table;
   top: 31px;
   margin-left: 66%;
-  z-index: 100;
 }
 
 .languageBtnEN {
