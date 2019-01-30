@@ -364,19 +364,17 @@
 
   .languageBtn {
     top: 11px;
-    left: 90px;
+    right: 130px;
+    position: fixed;
   }
 
   .languageBtnEN {
     font-size: 12px;
-    padding: 3px;
+    padding: 6px;
+    position: flex;
+    margin-left: 10px;
   }
 
-  .languageBtnDE {
-    margin-right: 13px;
-    font-size: 12px;
-    padding: 3px;
-  }
   .toggleMan {
     width: 40px;
     height: 40px;
