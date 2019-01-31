@@ -80,17 +80,6 @@ app.get("/seo-tips", function(request, response) {
   response.end();
 });
 
-
-app.get("/seo-tips", function(request, response) {
-  response.writeHead(301, {
-    Location: "https://www.seoberlino.com/en/resources",
-    Expires: new Date().toGMTString()
-  });
-  response.end();
-});
-
-----
-
 app.get("/archives/208 ", function(request, response) {
   response.writeHead(301, {
     Location: "https://www.seoberlino.com/en",
@@ -122,11 +111,6 @@ app.get("/archives/99", function(request, response) {
   });
   response.end();
 });
-
-
-
-
-
 
 app.get("/backlinking-check", function(request, response) {
   response.writeHead(301, {
