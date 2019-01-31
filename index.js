@@ -112,6 +112,30 @@ app.get("/archives/99", function(request, response) {
   response.end();
 });
 
+app.get("/ad/*", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
+app.get("/lo/*", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
+app.get("/un/*", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
 app.get("/backlinking-check", function(request, response) {
   response.writeHead(301, {
     Location: "https://www.seoberlino.com/en/offpage",

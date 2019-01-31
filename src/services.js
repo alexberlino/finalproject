@@ -86,11 +86,11 @@ class Services extends Component {
           <div className="intro20">
             <div className="introQuarter">
               <div className="transparent"> </div>{" "}
-              <h2>Website Crawl (min 6 {t("hours")} )</h2>
+              <h2>Website Crawl (min 4 {t("hours")} )</h2>
               <p className="txt2"> {t("execsumm")}</p>
               <p className="txt2">Website Crawl: {t("listmain")}</p>
               <h2>
-                {t("bestpractMPT4")}(min 6 {t("hours")})
+                {t("bestpractMPT4")}(min 4 {t("hours")})
               </h2>
               <p className="txt2"> {t("execsumm")}</p>
               <p className="txt2"> {t("offpageHP1")}</p>
@@ -98,7 +98,7 @@ class Services extends Component {
                 {t("hey7")} & {t("bestpractMPT4")}
               </p>
               <h2>
-                {t("onpageHP1")} (min 6 {t("hours")})
+                {t("onpageHP1")} (min 4 {t("hours")})
               </h2>
               <p className="txt2"> In-depth {t("onpageHP1")}</p>
               <p className="txt2">
