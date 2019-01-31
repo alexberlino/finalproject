@@ -27,7 +27,7 @@ class Footer extends Component {
             </a>
             <Link
               className="footerlink"
-              to={"/" + this.props.lng + "/impressum"}
+              to={"/" + this.props.lang + "/impressum"}
             >
               impressum
             </Link>

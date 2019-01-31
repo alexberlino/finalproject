@@ -48,6 +48,8 @@ import Internationalisation from "./technical/internationalisation";
 import MobileFriendly from "./technical/mobilefriendly";
 import PageSpeed from "./technical/pagespeed";
 import Security from "./technical/security";
+import Freeaudit from "./freeaudit";
+import Partnership from "./partnership";
 
 // import SearchBox from "./searchbox";
 
@@ -220,6 +222,18 @@ class App extends Component {
                   exact
                   path="/:lang/onpage/duplicatecontent"
                   render={() => <DuplicateContent />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/freeaudit"
+                  render={() => <Freeaudit />}
+                />
+
+                <Route
+                  exact
+                  path="/:lang/partnership"
+                  render={() => <Partnership />}
                 />
 
                 <Route

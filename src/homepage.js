@@ -80,6 +80,18 @@ class Homepage extends Component {
             <a className="servicesHP" href={"/" + this.props.lng + "/services"}>
               <button className="servicesHP">{t("servicesL")}</button>
             </a>
+            <a
+              className="servicesHP2"
+              href={"/" + this.props.lng + "/freeaudit"}
+            >
+              <button className="servicesHP2">{t("preaudit")}</button>
+            </a>
+            <a
+              className="servicesHP2"
+              href={"/" + this.props.lng + "/partnership"}
+            >
+              <button className="servicesHP2">{t("sponsorship")}</button>
+            </a>
             <a className="servicesHP2" href={"/" + this.props.lng + "/contact"}>
               <button className="servicesHP2">{t("about")}</button>
             </a>
