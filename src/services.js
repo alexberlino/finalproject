@@ -107,11 +107,6 @@ class Services extends Component {
               </p>
             </div>
 
-            <div>
-              Free Pre-Audit: Get in touch and ask for free Pre-Audit.
-              (conditions apply)
-            </div>
-
             <div className="introQuarter">
               <div className="transparent"> </div>
 
