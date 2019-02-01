@@ -131,6 +131,11 @@ app.get("/un/*", function(request, response) {
   response.end();
 });
 
+app.get("/undefined/*", function(request, response) {
+  response.writeHead(410);
+  response.end();
+});
+
 app.get("/backlinking-check", function(request, response) {
   response.writeHead(301, {
     Location: "https://www.seoberlino.com/en/offpage",
