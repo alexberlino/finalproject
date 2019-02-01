@@ -23,7 +23,7 @@ class Resources extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>SEO - Search Engine Optimization || SEOBerlino</title>
+          <title>SEO - {t("seolong")} || SEOBerlino</title>
           <meta
             name="description"
             content="SEO Expertise: Onpage SEO, Offpage SEO, Technical SEO, Analytics and SEO Research."

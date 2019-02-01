@@ -14,7 +14,7 @@ class Analytics extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> {t("")}SEO Analytics | SEO Berlino</title>
+          <title> SEO Analytics | SEO Berlino</title>
           <meta
             type="description"
             content="Analytics for SEO. Without Data, it is difficult

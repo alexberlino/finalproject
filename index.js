@@ -113,26 +113,21 @@ app.get("/archives/99", function(request, response) {
 });
 
 app.get("/ad/*", function(request, response) {
-  response.writeHead(301, {
-    Location: "https://www.seoberlino.com/en",
-    Expires: new Date().toGMTString()
-  });
+  response.writeHead(410);
   response.end();
 });
 
 app.get("/lo/*", function(request, response) {
-  response.writeHead(301, {
-    Location: "https://www.seoberlino.com/en",
-    Expires: new Date().toGMTString()
-  });
+  response.writeHead(410), response.end();
+});
+
+app.get("/fr/*", function(request, response) {
+  response.writeHead(410);
   response.end();
 });
 
 app.get("/un/*", function(request, response) {
-  response.writeHead(301, {
-    Location: "https://www.seoberlino.com/en",
-    Expires: new Date().toGMTString()
-  });
+  response.writeHead(410);
   response.end();
 });
 

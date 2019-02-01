@@ -18,7 +18,7 @@ class DuplicateContent extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>| SEO Berlino</title>
+          <title>{t("onpageHP9")} | SEO Berlino</title>
           <meta
             name="description"
             content="Duplicate Content and Semantics for SEO."

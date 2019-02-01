@@ -14,7 +14,7 @@ class BrandBuilding extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>- Brand Building - Offpage SEO Freelancer | SEO Berlino</title>
+          <title>- Brand Building - Offpage SEO | SEO Berlino</title>
           <meta name="description" content="" />
           <link
             rel="canonical"

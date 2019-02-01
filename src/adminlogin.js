@@ -40,8 +40,9 @@ class LoginAdmin extends Component {
         <div className="mainlogin">
           <Helmet>
             <meta charSet="utf-8" />
-            <title>Log-in</title>
+            <title>Log-in | SEO Berlino </title>
             <meta type="description" content="" />
+            <meta name="robots" content="noindex, nofollow" />
             <link rel="canonical" />
           </Helmet>
           <div className="services3">

@@ -18,8 +18,9 @@ class Admin extends Component {
       <div className="main">
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Admin </title>
+          <title>Admin | SEO Berlino </title>
           <meta type="description" content="" />
+          <meta name="robots" content="noindex, nofollow" />
           <link rel="canonical" />
         </Helmet>
 
