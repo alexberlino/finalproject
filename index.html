@@ -1,68 +1,14 @@
 <!DOCTYPE html>
-<html amp lang="en">
+<html lang="en">
   <head>
     <!-- Google Tag Manager -->
-    <meta charset="utf-8" />
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <script
       ${helmet.title.toString()}
       ${helmet.meta.toString()}
       ${helmet.link.toString()}
-    ></script>
-    <style amp-boilerplate>
-      body {
-        -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-        animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-      }
-      @-webkit-keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-      @-moz-keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-      @-ms-keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-      @-o-keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-      @keyframes -amp-start {
-        from {
-          visibility: hidden;
-        }
-        to {
-          visibility: visible;
-        }
-      }
-    </style>
-    <script
-      async
-      custom-element="amp-analytics"
-      src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"
     ></script>
 
     <link rel="stylesheet" type="text/css" href="/styles.css" />
@@ -95,41 +41,8 @@
       name="google-site-verification"
       content="v54iEJfnZxc4xBVbC9LAvbxZA8sM48TjcD18LBAojKo"
     />
-    <noscript
-      ><style amp-boilerplate>
-        body {
-          -webkit-animation: none;
-          -moz-animation: none;
-          -ms-animation: none;
-          animation: none;
-        }
-      </style></noscript
-    >
   </head>
   <body>
-    <amp-analytics type="gtag" data-credentials="include">
-      <script type="application/json">
-        {
-          "vars": {
-            "gtag_id": "UA-103006854-1",
-            "config": {
-              "UA-103006854-1": { "groups": "default" }
-            }
-          },
-          "triggers": {
-            "button": {
-              "selector": "#the-button",
-              "on": "click",
-              "vars": {
-                "event_name": "login",
-                "method": "Google"
-              }
-            }
-          }
-        }
-      </script>
-    </amp-analytics>
-
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
