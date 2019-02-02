@@ -1,11 +1,9 @@
 const express = require("express");
 const nodemailer = require("nodemailer");
-// var i18n = require("i18next");
-// const i18nMiddleware = require("i18next-express-middleware");
+
 const app = express();
 app.use(require("prerender-node"));
 
-// import { renderToString } from "react-dom/server";
 const compression = require("compression");
 const db = require("./sql/db.js");
 const { checkPassword, hashPassword } = require("./Public/hash.js");
@@ -14,10 +12,8 @@ if (process.env.NODE_ENV == "production") {
   secrets = process.env;
   app.use(function(req, res, next) {
     if (req.secure) {
-      // request was via https, so do no special handling
       next();
     } else {
-      // request was via http, so redirect to https
       res.redirect("https://" + req.headers.host + req.url);
     }
   });
@@ -107,6 +103,14 @@ app.get("/archives/195", function(request, response) {
 app.get("/archives/99", function(request, response) {
   response.writeHead(301, {
     Location: "https://www.seoberlino.com/en",
+    Expires: new Date().toGMTString()
+  });
+  response.end();
+});
+
+app.get("/single-post/*", function(request, response) {
+  response.writeHead(301, {
+    Location: "https://www.seoberlino.com/en/blog",
     Expires: new Date().toGMTString()
   });
   response.end();
@@ -207,7 +211,6 @@ if (process.env.NODE_ENV != "production") {
   app.use("/bundle.js", (req, res) => res.sendFile(`${__dirname}/bundle.js`));
 }
 app.use(express.static("./Public"));
-// app.use(express.static(path.resolve(__dirname, "../dist")));
 
 function checkSession(req, res, next) {
   if (!req.session.userId) {
@@ -216,29 +219,6 @@ function checkSession(req, res, next) {
     next();
   }
 }
-
-////////////LANGUAGES////////////
-//
-// i18n
-//   .use(i18nFsBackend)
-//   .use(i18nMiddleware.LanguageDetector)
-//   .init({
-//     backend: {
-//       loadPath: __dirname + "/src/i18n.js"
-//     },
-//     fallbackLng: "de",
-//     lowerCaseLng: true,
-//     preload: ["en", "de"],
-//     saveMissing: true
-//   });
-//
-// app.use(
-//   i18nMiddleware.handle(i18n, {
-//     removeLngFromUrl: false
-//   })
-// );
-
-////////////END LANGUAGES////////////
 
 app.get("/setcookiesession", (req, res) => {
   req.session.checked = true;
@@ -371,111 +351,14 @@ app.get("/log-out", (req, res) => {
   return res.redirect("/en");
 });
 
-// app.get("/:lang/blog/:url", (req, res) => {});
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 ////////////////DO NOT TOUCH/////////////////////////
 
-app.post("/en/form", (req, res) => {
-  nodemailer.createTestAccount((err, account) => {
-    const htmlEmail = `
-        <h3> Contact Details </h3>
-        <ul>
-            <li>Name: ${req.body.name}</li>
-            <li>Email: ${req.body.email}</li>
-        </ul>
-        <h3>Message</h3>
-        <p>${req.body.message}</p>
-        `;
-
-    let transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
-      auth: {
-        user: secrets.EMAIL_USER,
-        pass: secrets.EMAIL_PASS
-      }
-    });
-
-    let mailOptions = {
-      from: secrets.EMAIL_USER,
-      to: secrets.MAIL_TO,
-      subject: "new Message from website",
-      text: req.body.message,
-      html: htmlEmail
-    }; //closemailoptions
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        return console.log("error sending mail", error);
-      } else {
-        res.json({
-          success: true
-        });
-      }
-      console.log("Message sent: %s", info.messageId);
-      // Preview only available when sending through an Ethereal account
-      console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-    }); //transporter
-  });
-}); //main
 app.enable("trust proxy");
-
-// app.use(require("prerender-node"));
-
-// Add a handler to inspect the req.secure flag (see
-// http://expressjs.com/api#req.secure). This allows us
-// to know whether the request was via http or https.
-
-// set up plain http server
-
-// set up a route to redirect http to https
-// http.get("*", function(req, res) {
-//   res.redirect("https://" + req.headers.host + req.url);
-//
-//   // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
-//   // res.redirect('https://example.com' + req.url);
-// });
 
 app.get("*", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
-// app.get("/*", (req, res) => {
-//   const jsx = <Layout />;
-//   const reactDom = renderToString(jsx);
-//
-//   res.writeHead(200, { "Content-Type": "text/html" });
-//   res.end(htmlTemplate(reactDom));
-// });
-
 app.listen(process.env.PORT || 8080, function() {
   console.log("I'm listening.");
 });
-//
-// function htmlTemplate(reactDom) {
-//   return `
-//         <!DOCTYPE html>
-//         <html>
-//         <head>
-//             <meta charset="utf-8">
-//             <title>React SSR</title>
-//         </head>
-//
-//         <body>
-//             <div id="app">${reactDom}</div>
-//             <script src="./app.bundle.js"></script>
-//         </body>
-//         </html>
-//     `;
-// }

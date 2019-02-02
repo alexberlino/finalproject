@@ -18,7 +18,7 @@ class Footer extends Component {
     return (
       <div>
         <div className="footer">
-          <div className="footerLinks footerQuarter">
+          <div className="footerLinks footerHalf">
             <Link className="footerlink " to={"/en/login"}>
               login
             </Link>
@@ -34,18 +34,10 @@ class Footer extends Component {
             <a className="footerlink" href={"/sitemap.xml"}>
               sitemap
             </a>
-
             <div className="footerlink">&copy; Alex Bieth 2018 </div>
-          </div>
-
-          <div className="footerLinks">
-            <LinksToPages />
-          </div>
-
-          <div className="footerLinks footerQuarter">
             <a
               onClick={() => this.props.languageChange("de")}
-              className="footerflags"
+              className="footerflags footerlink"
               title="auf Deutsch"
               name="change language to German"
               href={"/de" + this.props.page}
@@ -56,12 +48,16 @@ class Footer extends Component {
               name="change language to English"
               onClick={() => this.props.languageChange("en")}
               title="change language to English"
-              className="footerflags"
+              className="footerflags footerlink"
               width="25px"
               href={"/en" + this.props.page}
             >
               EN
             </a>{" "}
+          </div>
+
+          <div className="footerLinks footerHalf">
+            <LinksToPages />
           </div>
         </div>
       </div>

@@ -323,7 +323,7 @@ class Homepage extends Component {
                         />{" "}
                       </span>{" "}
                       <span className="inline2">
-                        Richard Sfez – GM at The Independent Photographer
+                        Richard Sfez – CEO at The Independent Photographer
                       </span>{" "}
                     </div>{" "}
                   </div>{" "}
@@ -438,6 +438,141 @@ class Homepage extends Component {
               src="/independent.png"
               alt="independent logo"
             />
+          </div>
+        </div>
+
+        <div className="footer">
+          <div className="footerLinks footerHalf">
+            <span className="block footerlink">
+              {t("offpageHP1")} {t("offpageHP2")}
+            </span>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/offpage/brandbuilding"}
+            >
+              {t("offpageHP3")}, {t("offpageHP4")}
+            </a>{" "}
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/offpage/toxic"}
+            >
+              {t("offpageHP5")}
+            </a>
+          </div>
+          <div className="footerLinks footerHalf">
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/research/localseo"}
+            >
+              {t("analyticsHP1")}
+            </a>
+            <a className="block footerlink">{t("analyticsHP2")}</a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/research/bestpractices"}
+            >
+              {t("analyticsHP3")}
+            </a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/research/sea"}
+            >
+              {t("analyticsHP6")}
+            </a>
+          </div>{" "}
+        </div>
+
+        <div className="footer">
+          <div className="footerLinks footerHalf">
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/keywordresearch"}
+            >
+              {t("onpageHP1")}
+            </a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/landingpages"}
+            >
+              {t("onpageHP2")}
+            </a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/internallinking"}
+            >
+              {t("onpageHP3")} {t("onpageHP5")}
+            </a>{" "}
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/metas"}
+            >
+              {t("onpageHP4")}
+            </a>
+            <a className="block footerlink">{t("onpageHP6")}</a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/images"}
+            >
+              {t("onpageHP7")}
+            </a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/structureddata"}
+            >
+              {t("onpageHP8")}
+            </a>{" "}
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/duplicatecontent"}
+            >
+              {t("onpageHP9")}
+            </a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/voicesearch"}
+            >
+              {t("onpageHP10")}
+            </a>
+          </div>
+
+          <div className="footerLinks footerHalf">
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/technical/indexation"}
+            >
+              {t("technicalHP1")}
+            </a>
+            <a className="block footerlink">{t("technicalHP2")}</a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/technical/internationalisation"}
+            >
+              {t("technicalHP3")}
+            </a>{" "}
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/technical/pagespeed"}
+            >
+              {t("technicalHP4")}
+            </a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/technical/mobilefriendly"}
+            >
+              {t("technicalHP5")}
+            </a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/technical/dynamicrendering"}
+            >
+              {t("technicalHP6")}
+            </a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/technical/security"}
+            >
+              {t("technicalHP7")}
+            </a>
           </div>
         </div>
       </div>

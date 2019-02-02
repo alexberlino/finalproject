@@ -165,7 +165,7 @@ iframe {
 .block {
   display: block;
   position: relative;
-  padding-top: 6px;
+  padding-top: 14px;
   font-size: 20px;
 }
 
@@ -734,6 +734,13 @@ th.imageBlog {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 5px;
+}
+
+.footerHalf {
+  display: inline;
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .berlin {
