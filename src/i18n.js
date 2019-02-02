@@ -420,22 +420,21 @@ website's reputation.`,
         analyticsMP2: `Google offers a free version for an analytics tool: Google
   Analytics. Its set-up is quite straight-forward.`,
         analyticsMPT3: `Google Analytics First steps`,
-        analyticsMP3: `Activate the account by adding the snippet in the code (head section) for each page you want to track.
-  Create Accounts / Views for each account: All Data, Test, Master
-  Create Filters: exclude for instance all bots traffic and internal traffic.
-  Create Reports and Dashboards.
-  Correctly setup UTM for your marketing campaigns.
-  Optimize continuously, analysing reports and acting accordingly
-  (new reports, new filters, etc).
-
-`,
+        analyticsMP3: `Activate the account by adding the snippet in the code (head section)
+        for each page you want to track.
+      Create Accounts / Views for each account: All Data, Test, Master
+      Create Filters: exclude for instance all spam bots traffic and internal traffic.
+      Create Reports and Dashboards.
+      Correctly setup UTM for your marketing campaigns.
+      Optimize continuously, analysing reports and acting accordingly
+      (new reports, new filters, etc).`,
         analyticsMPT4: `Google Search Console Integration`,
         analyticsMP4: `To get more valuable insight especially in terms of keywords, it is
   better to integrate Google Search Console to Google Analytics. GA
   itself does not show any keywords; they appear as "not provided".`,
         analyticsMPT5: `Relevant Tools and Resources`,
         bestpractMPh1: `SEO Competitor Analysis`,
-        bestpractMPT1: `Know you SEO Competitors`,
+        bestpractMPT1: `Know your SEO Competitors`,
         bestpractMP1: `It is important to keep in mind in terms of SEO Competitor Analysis,
         that you need to identify your SEO competitors, those which are
         leading in terms of organic traffic acquisition, domain authority
@@ -453,7 +452,7 @@ website's reputation.`,
             to offer better value to your customers.`,
         bestpractMPT3: `What is their content and how do they organise their website
 `,
-        bestpractMP3: `How are is the website organised and structured, including main
+        bestpractMP3: `How is the website organised and structured, including main
         navigation items and the internal linking strategy. What is included
         in their Sitemap(s).`,
 
@@ -485,12 +484,13 @@ website's reputation.`,
                     etc. Adwords Set-up`,
         seaMPT3: `Adwords Account Optimization`,
         seaMP3: `Once you have chosen your budget strategy, created your campaigns,
-        adgroups and ads, optimization begins: Keywords bid adjustments, landing pages testing, CVR here is good indicator
-        Also, ads testing working on the Quality Score to optimize your bids. At first you should be continuously testing for instance adding and removing keywords depending on their performance, varying match accordingly (main matches are
+        adgroups and ads, optimization begins: Keywords bid adjustments, landing pages testing, ads testing,
+        working on the Quality Score to optimize your bids. At first you should be continuously testing for instance
+        adding and removing keywords depending on their performance, varying match accordingly (main matches are
             exact, phrase, broad), adding terms to the negative list and adding also testing display network.`,
         seaMPT4: `SEO / SEA Consistency `,
         seaMP4: `A great way to transmit a stronger message on SERPs is to be consistent in your language and word choice in SEO and SEA. For example, consistent form of address for non-English languages such as
-    German, French, Italian, etc. Also using the same wording and style in Ads and meta descriptions so that the user has more chances to recognise your brand.`,
+    German, French, Italian, etc. Also use the same wording and style in Ads and meta descriptions so that the user has more chances to recognise your brand.`,
         seaMPT5: `Google Ads Data for SEO `,
         seaMP5: `Google Ads are expensive but on top of getting you that visibility
             and orders, it is a precious goldmine for keywords, especially if
@@ -502,7 +502,7 @@ website's reputation.`,
         localMP1: `Especially for local business, it is paramount to align your SEO
         overall strategy to local SEO,  keeping in mind that
         the most important factor in personalised search results is
-        location. Being well optimized for Local especially in highly density locations, helps you take advantage of this specificity to guaranty you privileged
+        location. Being well optimized for Local SEO, especially in highly density locations, helps you take advantage of this specificity to guaranty you privileged
         visibility for people located around you`,
 
         localMPT2: `MyBusiness`,
@@ -533,15 +533,12 @@ website's reputation.`,
         and optimize indexation, you can improve and guide Google on how it
         crawls your site.`,
         crawlabilityMPT1: ``,
-        crawlabilityMP1: `xml format sitemap guide Google on how to crawl your site. Although
+        crawlabilityMP1: `xml format sitemap guides Google on how to crawl your site. Although
                     Google says there is no guaranty the Google bot will follow your
                     instructions, it is still highly recommended and in most cases,
                     sitemaps are beneficial. It contains useful information about each
                     page on your site, including when a page was last modified; what
-                    priority it has on your site; how frequently it is updated. In
-                    BigCommerce, your XML site is created automatically; if you are
-                    using another platform you may need to use a sitemap generator to
-                    build one.`,
+                    priority it has on your site; how frequently it is updated.`,
         crawlabilityMPT2: ``,
         crawlabilityMP2: `Robots set instructions depending on the user agent which parts of
         the site can be accessed. Making sure you are not excluding the
@@ -622,7 +619,7 @@ website's reputation.`,
              `,
 
         indexationMPT4: ``,
-        indexationMP4: `While you are auditing you indexation, check for metas. Are there any description /titles missing? Are they unique and
+        indexationMP4: `While you are auditing your indexation, check for metas. Are there any description /titles missing? Are they unique and
                 all make sense targeting specific keywords which make sense to
                 your overall strategy? It is not recommended to change url structure, but make sure you
                 have a readable url structure, with as little special characters
@@ -684,10 +681,10 @@ website's reputation.`,
         pages with the smartphone agent. However Google will continue to
         show the device URL that is the most appropriate to users in
         Search results.`,
-        mobileMP4: ` This means that you for instance text showing on the desktop
+        mobileMP4: ` This means for instance that text showing on the desktop
          version but not on the mobile one may very likely be ignored for
          indexation and page relevancy. If there is too much text for the
-         mobile version use 'show more'.`,
+         mobile version you can use 'show more'.`,
         mobileMPT5: `Mobile Performance is also key`,
         mobileMP5: ` In terms of performance, you need to make sure that your mobile
          version loads fast and in the right format. You can use Google's
@@ -793,7 +790,7 @@ website's reputation.`,
         instance same t-shirt in different colours. You don't want to index
         the same t-shirt for each colour, although you want to keep the urls
         for the user to browse through the options. Beware though that
-        sometimes canonicals are sometimes ignored by Google so it is
+        sometimes canonicals are ignored by Google so it is
         important to monitor the results of canonicals implementation and
         follow up with a new strategy if necessary.`,
         duplicateMPT4: `Same language, different territory target`,
@@ -808,9 +805,9 @@ website's reputation.`,
                     are only virtual and therefore invisible in analytics reports. Image
                     Search is still a fantastic opportunity to improve brand awareness.`,
         imagesMPT2: ``,
-        imagesMP2: `    Make sure images are well optimized from image hosting to image alt
-            tags. In case, your website actively uses images, help you with a
-            strategy to improve brand awareness.`,
+        imagesMP2: `Make sure images are well optimized: from image hosting to image alt
+            tags. In case your website actively uses images, use Image Search
+             to improve brand awareness.`,
         imagesMPT3: ``,
         imagesMP3: `The alt attribute often called "alt tag" gives important information
         to the Google bot regarding what the picture is about. If the image
@@ -856,7 +853,7 @@ website's reputation.`,
         internalMPT4: `The ideal structure: a pyramid`,
         internalMP4: `The most important content should be on top of the pyramid, that being the Homepage.
          There should be lots of links to the most essential content from topically-related pages in the
-                    pyramid, which passes most link value on to those pages. However,
+                    pyramid. However,
                     you should also link from those top pages to subpages about related
                     topics. Linking internally to related content shows Google what
                     pages hold information about similar topics.`,
@@ -913,7 +910,7 @@ website's reputation.`,
         to create a user-friendly website first.`,
         landingMPT3: `External and Internal Linking`,
         landingMP3: ` The importance of the page should be measured by two main parameters: how deep in the website
-        it is (the more important the term, the fewer clicks it should be from your homepage. Secondly, the more important it
+        it is (the more important the keyword the page is targeting, the fewer clicks it should be from your homepage), Secondly, the more important it
             is, the more internal and external links should be pointing to it compared to your less important pages.`,
         landingMPT4: `Keyword targeting`,
         landingMP4: `The keywords you have selected for the page as the most important should be used for content and general
@@ -940,7 +937,7 @@ website's reputation.`,
             for the searched term. Either way, meta descriptions are important
             for CTR, searched terms if included in your description will appear
             in bold and you can also confirm to the user your entry is the most
-            relevant for the search and add that difference that will make the
+            relevant for the search, and add that difference that will make the
             click happen.`,
         metasMPT3: ``,
         metasMP3: `You should have one h1 per page with h1 being your main keyword for
@@ -984,7 +981,7 @@ website's reputation.`,
 
         voiceMPT1: `What is Voice Search and why it's Important to be ready for
         it`,
-        voiceMP1: `        Google Assistant, Alexa are just of those devices which are
+        voiceMP1: `Google Assistant, Alexa are just 2 of those devices which are
                 transforming search. Instead of typing searches, users now more and
                 more ask for their need vocally. Voice search is already disrupting
                 online marketing. It already represents an important share of the
@@ -995,7 +992,7 @@ website's reputation.`,
         search requests are questions, so they begin with where, how, what,
         etc.`,
         voiceMPT3: `Longer Search terms`,
-        voiceMP3: `            The second main difference is that the "keywords" are longer, mostly
+        voiceMP3: `The second main difference is that the "keywords" are longer, mostly
                     because the requests are questions and because users are more
                     descriptive when vocally expressing their needs, compared to typing.`,
         voiceMPT4: `Increasing Search Volume`,
@@ -1004,7 +1001,7 @@ website's reputation.`,
         the keywords are more segmented, meaning there are more questions
         for the equivalent classical search term`,
         voiceMPT5: ``,
-        voiceMP5: `One of the main advantage to be ready and optimized for search term
+        voiceMP5: `One of the main advantage to be ready and optimized for voice search terms
         is that you can be featured at "position 0" with the featured
         snippet, answering directly to the question of the search.`,
         voiceMPT6: ``,
@@ -1090,21 +1087,37 @@ website's reputation.`,
         technicalHP6: `JAVASCRIPT`,
         technicalHP7: `HTTPS`,
         audit: `Audit`,
-        auditText: ` Das SEO Audit hilft zu definieren, wo Ihre Website im Vergleich zu Ihren Hauptkonkurrenten steht, und ermöglicht es Ihnen, realistische Ziele zu setzen basierend auf visibility gewonnen. In der Prüfung werden Onpage-, Offpage- und technische SEO-Aspekte behandelt. Anschließend Sie erhalten einen detaillierten Bericht über die Ergebnisse des SEO-Audits.`,
+        auditText: `The SEO Audit helps to define where your website stands compared to your main competitors, and enables to set realistic objectives
+                     based on gained visibility. In the audit, onpage, offpage and technical SEO aspects are covered. Subsequently
+                      you will receive a detailed report on the results of the SEO audit.`,
         KWResearch: `Keyword Recherche`,
         KWResearchText: `Ein ganz wichtiger Grundstein für alle zukünftigen SEO Maßnahmen
         ist die Keyword Recherche. Hier generiere ich eine Liste der für Ihr Produkt oder Ihre
         Dienstleistungen relevanten Keywords. Ein weiteres Ergebnis der Keyword Recherche ist die Definition von Schwellenkeywords.`,
         OnPageOptimization: `Onpage Optimierung`,
-        OnPageOptimizationText: `Die Onpage Optimierung bezieht sich auf jede SEO-Aktion, die auf der Website ausgeführt wird kann direkt gemacht werden. Das betrifft in erster Linie die Optimierung des Inhalts und des Codes der Seite. Es enthält auch die Ausarbeitung der inhaltlichen Strategie und des Potenzials Technische Probleme.`,
+        OnPageOptimizationText: `The Onpage
+    Optimization refers to any SEO action taken on the website that
+    can be done directly. That concerns first and foremost
+    the optimization of the content and the code of the page. It includes
+    as well the elaboration of the content strategy and potential
+    technical issues.`,
         OffpagePageOptimization: `Offpage Optimierung`,
-        OffpagePageOptimizationText: `Offpage Optimierung ist sicherlich der komplexeste Prozess in SEO sowie einer der wichtigsten Faktoren. Es geht um Linkbuilding durch Markenbekanntheit. Dazu muss man sich identifizieren themenbezogenes thema, das den verkehr bringt, ihre Influencer, blogs und andere websites mit wem Sie Gemeinsamkeiten haben. `,
+        OffpagePageOptimizationText: `Offpage
+        Optimization is certainly the most complex process in SEO
+        as well as the one of the most important factors. It is about
+        link building through brand awareness. To do so it is necessary to identify
+        topic related to your topic which bring traffic, your influencers, blogs and other websites
+        with whom you share common grounds.`,
         servicesL: `Leistungen`,
         servicesU: `LEISTUNGEN`,
         freeauditMP: `I can provide you with free sample of how I work, and how I can help you grow your SEO traffic, before commiting to a full audit. With a free sample: crawl of your website, basic backlink profile audit and main keywords rankings. To give you key SEO directions for organic growth. Please get in touch for more details. (conditions apply)`,
         partnershipMP: `For a limited time, I am offering to businesses a partnership. If your website already has good brand visibility, in exchange for a sponsorship and a fixed low one-time payment:  a 6-hour audit and then after continous follow up (up to 2 hours per month).  Please get in touch for more details. (Conditions apply) `,
         beratung: `SEO Beratung`,
-        beratungText: `Für jede SEO-Beratung ist zu Beginn ein persönliches Gespräch erforderlich, um Ihre Bedürfnisse zu besprechen und wie man am besten zusammenarbeitet, um realistische KPIs und Ziele zu definieren. Mit meiner Erfahrung kann ich Ihnen einige Schätzungen des neuen Verkehrs geben, die Sie mit einem Plan erhalten können wie man es erreicht und welche Ressourcen dafür benötigt werden. Von der Konzeption bis zur Integration und Kontrolle werde ich Sie auf dem Laufenden halten, was getan und umgesetzt wurde und welche Ziele wurden erreicht.`,
+        beratungText: `For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs
+              and how to best work together to define realistic KPIs and goals.
+              With my experience I can efficiently give you some estimates of new traffic you can get with a plan
+              of how to reach it and the resources needed to achieve it. From conception to integration and control, I will keep you informed on what has been done and implemented
+                and which goals have been achieved.`,
         technical: `TECHNISCHES SEO`,
         optimization: `optimierung`,
         about: `Über mich`,
@@ -1360,9 +1373,10 @@ Priorisierter Aktionsplan mit:
         analyticsMP2: `Google offers a free version for an analytics tool: Google
       Analytics. Its set-up is quite straight-forward.`,
         analyticsMPT3: `Google Analytics erste Schritte`,
-        analyticsMP3: `Activate the account by adding the snippet in the code (head section) for each page you want to track.
+        analyticsMP3: `Activate the account by adding the snippet in the code (head section)
+        for each page you want to track.
       Create Accounts / Views for each account: All Data, Test, Master
-      Create Filters: exclude for instance all bots traffic and internal traffic.
+      Create Filters: exclude for instance all spam bots traffic and internal traffic.
       Create Reports and Dashboards.
       Correctly setup UTM for your marketing campaigns.
       Optimize continuously, analysing reports and acting accordingly
