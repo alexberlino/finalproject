@@ -443,9 +443,12 @@ class Homepage extends Component {
 
         <div className="footer">
           <div className="footerLinks footerHalf">
-            <span className="block footerlink">
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/offpage/backlinkanalysis"}
+            >
               {t("offpageHP1")} {t("offpageHP2")}
-            </span>
+            </a>
             <a
               className="block footerlink"
               href={"/" + this.props.lng + "/offpage/brandbuilding"}
@@ -466,7 +469,12 @@ class Homepage extends Component {
             >
               {t("analyticsHP1")}
             </a>
-            <a className="block footerlink">{t("analyticsHP2")}</a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/research/analytics"}
+            >
+              {t("analyticsHP2")}
+            </a>
             <a
               className="block footerlink"
               href={"/" + this.props.lng + "/research/bestpractices"}
@@ -508,7 +516,12 @@ class Homepage extends Component {
             >
               {t("onpageHP4")}
             </a>
-            <a className="block footerlink">{t("onpageHP6")}</a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/onpage/content"}
+            >
+              {t("onpageHP6")}
+            </a>
             <a
               className="block footerlink"
               href={"/" + this.props.lng + "/onpage/images"}
@@ -542,7 +555,12 @@ class Homepage extends Component {
             >
               {t("technicalHP1")}
             </a>
-            <a className="block footerlink">{t("technicalHP2")}</a>
+            <a
+              className="block footerlink"
+              href={"/" + this.props.lng + "/technical/crawlability"}
+            >
+              {t("technicalHP2")}
+            </a>
             <a
               className="block footerlink"
               href={"/" + this.props.lng + "/technical/internationalisation"}
