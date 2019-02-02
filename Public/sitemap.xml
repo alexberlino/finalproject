@@ -152,12 +152,6 @@ href="https://www.seoberlino.com/de/technical"/>
 
 
 
-<url><loc>https://www.seoberlino.com/en/audit</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/audit"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/audit"/>
-<priority>0.5</priority></url>
-
-
 
 <url><loc>https://www.seoberlino.com/en/blog</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/blog"/><xhtml:link rel="alternate" hreflang="de"
@@ -377,11 +371,6 @@ href="https://www.seoberlino.com/en/technical"/>
 <priority>0.5</priority></url>
 
 
-
-<url><loc>https://www.seoberlino.com/de/audit</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/de/audit"/><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/audit"/>
-<priority>0.5</priority></url>
 
 
 

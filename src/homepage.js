@@ -267,6 +267,64 @@ class Homepage extends Component {
                 </a>
                 <br />
                 <br />
+                <br />
+                <div className="intro3 ">
+                  <div className="logoQuarter">
+                    <img
+                      className="logo logomustbe"
+                      height="110px"
+                      width="160px"
+                      alt="must-be logo"
+                      src="/mustbe.png"
+                    />
+                  </div>
+                  <div className=" logoQuarter">
+                    <img
+                      className="logo logospreadshirt"
+                      height="100px"
+                      width="65px"
+                      alt="spreadshirt logo"
+                      src="/spreadshirt.png"
+                    />
+                  </div>
+                  <div className=" logoQuarter">
+                    <img
+                      className="logo logomadeforrain"
+                      height="120px"
+                      width="160px"
+                      src="/madeforrain.png"
+                      alt="made for rain logo"
+                    />
+                  </div>
+                  <div className=" logoQuarter">
+                    <img
+                      className="logo logoholberton"
+                      height="100px"
+                      width="190px"
+                      src="/holberton.png"
+                      alt="holberton school logo"
+                    />
+                  </div>
+                  <div className=" logoQuarter">
+                    <img
+                      className="logo logoteezily"
+                      height="110px"
+                      width="100px"
+                      src="/teezily.png"
+                      alt="teezily logo"
+                    />
+                  </div>
+                  <div className=" logoQuarter">
+                    <img
+                      className="logo"
+                      height="60px"
+                      width="130px"
+                      src="/independent.png"
+                      alt="independent logo"
+                    />
+                  </div>
+                </div>
+                <br />
                 <div>
                   <div className="txt3 testimonial">
                     "Alex is an SEO expert who proposes concrete action measures
@@ -354,7 +412,7 @@ class Homepage extends Component {
                     </div>{" "}
                   </div>
                 </div>{" "}
-                <ContactMain />{" "}
+                <ContactMain />
               </div>{" "}
               <div className="blogArticlesHP">
                 <h2 className=" orange2"> {t("blog")}</h2>
@@ -383,62 +441,6 @@ class Homepage extends Component {
             </div>
           </div>
           <Link to={"en/blog"} onClick={() => this.props.pageChange("/blog")} />{" "}
-        </div>
-        <div className="intro3 ">
-          <div className="logoQuarter">
-            <img
-              className="logo logomustbe"
-              height="110px"
-              width="160px"
-              alt="must-be logo"
-              src="/mustbe.png"
-            />
-          </div>
-          <div className=" logoQuarter">
-            <img
-              className="logo logospreadshirt"
-              height="100px"
-              width="65px"
-              alt="spreadshirt logo"
-              src="/spreadshirt.png"
-            />
-          </div>
-          <div className=" logoQuarter">
-            <img
-              className="logo logomadeforrain"
-              height="120px"
-              width="160px"
-              src="/madeforrain.png"
-              alt="made for rain logo"
-            />
-          </div>
-          <div className=" logoQuarter">
-            <img
-              className="logo logoholberton"
-              height="100px"
-              width="190px"
-              src="/holberton.png"
-              alt="holberton school logo"
-            />
-          </div>
-          <div className=" logoQuarter">
-            <img
-              className="logo logoteezily"
-              height="110px"
-              width="100px"
-              src="/teezily.png"
-              alt="teezily logo"
-            />
-          </div>
-          <div className=" logoQuarter">
-            <img
-              className="logo"
-              height="60px"
-              width="130px"
-              src="/independent.png"
-              alt="independent logo"
-            />
-          </div>
         </div>
 
         <div className="footer">

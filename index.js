@@ -130,6 +130,11 @@ app.get("/fr/*", function(request, response) {
   response.end();
 });
 
+app.get("/endefined/*", function(request, response) {
+  response.writeHead(410);
+  response.end();
+});
+
 app.get("/un/*", function(request, response) {
   response.writeHead(410);
   response.end();

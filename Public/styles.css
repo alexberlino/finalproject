@@ -716,7 +716,8 @@ th.imageBlog {
 }
 
 .footer {
-  padding-top: 10px;
+  padding-top: 60px;
+  z-index: 100;
   padding-bottom: 10px;
   background-color: black;
   font-size: 18px;
