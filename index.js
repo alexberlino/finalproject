@@ -1,4 +1,4 @@
-const { checkPass, hashPass, capital } = require("./Public/hash.js");
+const { checkPassword, hashPass, capital } = require("./Public/hash.js");
 const express = require("express");
 const app = express();
 var i18n = require("i18n");
@@ -773,6 +773,7 @@ app.post("/en/login", (req, res) => {
     db.login(email)
         .then(function(result) {
             if (!result) {
+                console.log("No email");
                 throw new Error();
             } else {
                 return checkPassword(pass, result.rows[0].password).then(
@@ -783,6 +784,7 @@ app.post("/en/login", (req, res) => {
                                 success: true
                             });
                         } else {
+                            console.log("wrong pw");
                             throw new Error();
                         }
                     }
