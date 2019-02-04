@@ -101,15 +101,20 @@ app.use(helmet());
 ////////////////////new routes & redirects///////////////////////////
 
 app.get("/", function(request, response, next) {
-    if (process.env.NODE_ENV == "production") {
-        response.writeHead(301, {
-            Location: "https://www.seoberlino.com/en",
-            Expires: new Date().toGMTString()
-        });
-        response.end();
-    } else {
-        next();
-    }
+    // if (process.env.NODE_ENV == "production") {
+    //     response.writeHead(301, {
+    //         Location: "https://www.seoberlino.com/en",
+    //         Expires: new Date().toGMTString()
+    //     });
+    //     response.end();
+    // } else {
+    //     next();
+    // }
+    i18n.setLocale(req, "en");
+
+    res.render("home", {
+        layout: "main"
+    });
 });
 
 app.get("/en", (req, res) => {
