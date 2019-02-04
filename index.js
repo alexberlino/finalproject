@@ -1,4 +1,3 @@
-const db = require("./SQL/db.js");
 const { checkPass, hashPass, capital } = require("./Public/hash.js");
 const express = require("express");
 const app = express();
