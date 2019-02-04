@@ -56,13 +56,13 @@ app.use(require("body-parser").json());
 let secrets;
 if (process.env.NODE_ENV == "production") {
     secrets = process.env;
-    app.use(function(req, res, next) {
-        if (req.secure) {
-            next();
-        } else {
-            res.redirect("https://" + req.headers.host + req.url);
-        }
-    });
+    // app.use(function(req, res, next) {
+    //     if (req.secure) {
+    //         next();
+    //     } else {
+    //         res.redirect("https://" + req.headers.host + req.url);
+    //     }
+    // });
 } else {
     secrets = require("./secrets.json");
 }
@@ -100,7 +100,7 @@ app.use(helmet());
 
 ////////////////////new routes & redirects///////////////////////////
 
-app.get("/", function(request, response, next) {
+app.get("/", function(req, res, next) {
     // if (process.env.NODE_ENV == "production") {
     //     response.writeHead(301, {
     //         Location: "https://www.seoberlino.com/en",
