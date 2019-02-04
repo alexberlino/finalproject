@@ -102,11 +102,11 @@ function checkSession(req, res, next) {
 
 app.get("/", function(req, res, next) {
     if (process.env.NODE_ENV == "production") {
-        response.writeHead(301, {
+        res.writeHead(301, {
             Location: "https://www.seoberlino.com/en",
             Expires: new Date().toGMTString()
         });
-        response.end();
+        res.end();
     } else {
         i18n.setLocale(req, "en");
 
