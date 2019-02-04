@@ -905,112 +905,7 @@ app.get("/seo-sea-jargon", function(request, response) {
 
 ////////////////////////////////////////
 
-app.post("/profile", (req, res) => {
-    return db
-        .addProfileToDb(
-            req.session.userId,
-            req.body.age,
-            req.body.city,
-            req.body.personalweb
-        )
-        .then(function(results) {
-            console.log(results);
-            res.redirect("/");
-        })
-        .catch(function() {
-            console.log("error");
-            res.render("profile", {
-                layout: "petitionLog",
-                errorMessage: true
-            });
-        });
-});
-
 ////////////////////profile///////////////////////////
-
-app.get("/profile/edit", (req, res) => {
-    db.infosForEdit(req.session.userId)
-
-        .then(function(results) {
-            console.log(results);
-
-            res.render("profile-edit", {
-                layout: "petition",
-                user: results
-            });
-        })
-        .catch(e => console.log(e));
-});
-app.post("/profile/edit", (req, res) => {
-    const userDb = function() {
-        if (req.body.password.length == 0) {
-            return db.UpdateUserEditNoPwd(
-                req.body.firstname,
-                req.body.surname,
-                req.body.emailaddress,
-                req.session.userId
-            );
-        } else {
-            hashPass(req.body.password)
-                .then(pass => {
-                    return db.UpdateUserEditPwd(
-                        req.body.firstname,
-                        req.body.surname,
-                        req.body.emailaddress,
-                        pass,
-                        req.session.userId
-                    );
-                })
-                .catch(function(e) {
-                    console.log(e);
-                });
-        }
-    };
-
-    Promise.all([
-        userDb(),
-        db.UpdateProfile(
-            req.session.userId,
-            req.body.age,
-            req.body.city,
-            req.body.personalweb
-        )
-    ])
-
-        .then(() => {
-            //!!!!to do: update session.username etc with a function!!!!
-            res.redirect("/thankyou");
-        })
-        .catch(function(e) {
-            console.log(e);
-        });
-});
-
-app.post("/profile", (req, res) => {
-    console.log(
-        req.session.userId,
-        req.body.age,
-        req.body.city,
-        req.body.personalweb
-    );
-    return db
-        .addProfileToDb(
-            req.session.userId,
-            req.body.age,
-            req.body.city,
-            req.body.personalweb
-        )
-        .then(function(result) {
-            console.log(result);
-        })
-        .catch(function() {
-            console.log("error");
-            res.render("profile", {
-                layout: "petitionLog",
-                errorMessage: true
-            });
-        });
-});
 
 ////////////////////login///////////////////////////
 
@@ -1062,50 +957,6 @@ app.post("/login", (req, res) => {
         });
 });
 /////////////////login///////////////////////////
-
-/////////////////register///////////////////////////
-
-app.get("/register", checkSignedIn, function(req, res) {
-    res.render("register", {
-        layout: "petitionLog"
-    });
-});
-
-app.post("/register", (req, res) => {
-    hashPass(req.body.password)
-        .then(pass => {
-            return db.addUserToDb(
-                req.body.firstname,
-                req.body.surname,
-                req.body.emailaddress,
-                pass
-            );
-        })
-        .then(result => {
-            return (
-                (req.session.userId = result.rows[0].id),
-                (req.session.firstname = req.body.firstname),
-                (req.session.surname = req.body.surname)
-            );
-        })
-        .then(function() {
-            console.log(
-                req.session.userId,
-                req.session.firstname,
-                req.session.surname
-            );
-            res.redirect("/profile");
-        })
-        .catch(function() {
-            console.log("error");
-            res.render("register", {
-                layout: "petitionLog",
-                errorMessage: true
-            });
-        });
-});
-
-/////////////////register///////////////////////////
 
 // app.use(csurf());
 ///!!!!
@@ -1180,35 +1031,6 @@ app.post("/", (req, res) => {
 
 /////////////////thankyou///////////////////////////
 
-app.get("/thankyou", checkSession, checkNotSignedIn, (req, res) => {
-    // res.cookie("confirmCookie", "done");
-
-    db.getSignatures(req.session.userId)
-        .then(function(result) {
-            result[0].id == req.session.checked;
-            const sign = result[0].signature;
-            db.getAllSignatures().then(function(results) {
-                res.render("thankyou", {
-                    layout: "petition",
-                    numberSign: results.length,
-                    userSign: sign,
-                    firstname: capital(req.session.firstname)
-                });
-            });
-        })
-        .catch(function(e) {
-            console.log(e);
-        });
-});
-
-app.post("/thankyou", (req, res) => {
-    console.log(req.session.userdId);
-    db.deleteSign(req.session.userId).then(function() {
-        req.session.checked = req.session.unchecked;
-        res.redirect("/");
-    });
-});
-
 /////////////////thankyou///////////////////////////
 
 app.get("/logout", function(req, res) {
@@ -1217,65 +1039,39 @@ app.get("/logout", function(req, res) {
 });
 /////////////////signatures///////////////////////////
 
-app.get("/buddylist", checkNotSignedIn, checkSession, (req, res) => {
-    db.getSignatures2()
-        .then(function(results) {
-            console.log(results);
-
-            res.render("buddylist", {
-                layout: "petition",
-                signs: results
-            });
-        })
-        .catch(e => console.log(e));
-});
-
-app.get("/buddylist/:city", (req, res) => {
-    db.getSignatures3(req.params.city)
-        .then(function(results) {
-            console.log(results);
-            res.render("buddylist2", {
-                layout: "petition",
-                signs: results,
-                city: capital(req.params.city)
-            });
-        })
-        .catch(e => console.log(e));
-});
-
 /////////////////signatures///////////////////////////
-
-app.get("/aboutus", function(req, res) {
-    res.render("about", {
-        layout: "petitionLog"
-    });
-});
-
-app.get("/contact", checkNotSignedIn, function(req, res) {
-    res.render("contact", {
-        layout: "petition"
-    });
-});
-
-app.get("/contactus", function(req, res) {
-    res.render("contact", {
-        layout: "petitionLog"
-    });
-});
-
-app.post("/contactus", function(req, res) {
-    res.render("contact", {
-        layout: "petitionLog",
-        ThanksMessage: true
-    });
-});
-
-app.post("/contact", function(req, res) {
-    res.render("contact", {
-        layout: "petition",
-        ThanksMessage: true
-    });
-});
+//
+// app.get("/aboutus", function(req, res) {
+//     res.render("about", {
+//         layout: "petitionLog"
+//     });
+// });
+//
+// app.get("/contact", checkNotSignedIn, function(req, res) {
+//     res.render("contact", {
+//         layout: "petition"
+//     });
+// });
+//
+// app.get("/contactus", function(req, res) {
+//     res.render("contact", {
+//         layout: "petitionLog"
+//     });
+// });
+//
+// app.post("/contactus", function(req, res) {
+//     res.render("contact", {
+//         layout: "petitionLog",
+//         ThanksMessage: true
+//     });
+// });
+//
+// app.post("/contact", function(req, res) {
+//     res.render("contact", {
+//         layout: "petition",
+//         ThanksMessage: true
+//     });
+// });
 
 // listening
 app.listen(process.env.PORT || 8080, () => console.log("listening"));
