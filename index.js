@@ -7,6 +7,8 @@ var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 const helmet = require("helmet");
+const db = require("./sql/db.js");
+const csrf = require("csurf");
 
 app.engine(
     ".hbs",
@@ -47,8 +49,6 @@ app.use(express.static("./SQL"));
 
 // setup hbs
 
-app.use(require("body-parser").json());
-
 // init i18n module for this loop
 
 // register hbs helpers in res.locals' context which provides this.locale
@@ -67,10 +67,9 @@ if (process.env.NODE_ENV == "production") {
     secrets = require("./secrets.json");
 }
 
-const csrf = require("csurf");
-
 const cookieSession = require("cookie-session");
 app.use(require("cookie-parser")());
+app.use(require("body-parser").json());
 
 const cookieSessionMiddleware = cookieSession({
     secret: secrets.COOKIE_PASS,
@@ -82,7 +81,7 @@ app.use(csrf({ cookie: true }));
 
 app.use(function(req, res, next) {
     res.cookie("mytoken", req.csrfToken());
-    return next();
+    next();
 });
 
 // const spicedPg = require("spiced-pg");
@@ -98,23 +97,30 @@ app.use(
 
 app.use(helmet());
 
+function checkSession(req, res, next) {
+    if (!req.session.userId) {
+        res.redirect("/en");
+    } else {
+        next();
+    }
+}
+
 ////////////////////new routes & redirects///////////////////////////
 
 app.get("/", function(req, res, next) {
-    // if (process.env.NODE_ENV == "production") {
-    //     response.writeHead(301, {
-    //         Location: "https://www.seoberlino.com/en",
-    //         Expires: new Date().toGMTString()
-    //     });
-    //     response.end();
-    // } else {
-    //     next();
-    // }
-    i18n.setLocale(req, "en");
+    if (process.env.NODE_ENV == "production") {
+        response.writeHead(301, {
+            Location: "https://www.seoberlino.com/en",
+            Expires: new Date().toGMTString()
+        });
+        response.end();
+    } else {
+        i18n.setLocale(req, "en");
 
-    res.render("home", {
-        layout: "main"
-    });
+        res.render("home", {
+            layout: "main"
+        });
+    }
 });
 
 app.get("/en", (req, res) => {
@@ -158,6 +164,13 @@ app.get("/de/onpage/images", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("images", {
         layout: "mainDE"
+    });
+});
+
+app.get("/en/login", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("login", {
+        layout: "main"
     });
 });
 
@@ -763,6 +776,7 @@ app.get("/getarticleurl/:BE", (req, res) => {
 
 app.post("/en/login", (req, res) => {
     let { email, pass } = req.body;
+    console.log(req.body);
     db.login(email)
         .then(function(result) {
             if (!result) {
@@ -863,36 +877,6 @@ app.get("/un/*", function(request, response) {
 
 app.get("/undefined/*", function(request, response) {
     response.writeHead(410);
-    response.end();
-});
-
-app.get("/backlinking-check", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/offpage",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-app.get("/technical-seo", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/technical",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-app.get("/competitor-analysis", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/research",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/on-page-audit", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/onpage",
-        Expires: new Date().toGMTString()
-    });
     response.end();
 });
 

@@ -312,20 +312,21 @@ iframe {
 .languageBtn {
     position: relative;
     display: table;
-    top: 31px;
-    margin-left: 66%;
+    margin-left: 15%;
 }
 
 .languageBtnEN {
-    color: white;
-    font-size: 22px;
+    color: black;
+    background-color: white;
+    font-size: 29px;
     margin-left: 15px;
-    border: 1px black solid;
+    border: 1px white solid;
     padding: 5px;
 }
 
 a.languageBtnEN {
     color: black;
+    background-color: white;
 }
 
 .intro {
@@ -380,9 +381,12 @@ a.languageBtnEN {
 }
 
 .marginleft {
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
+.paddingleft {
+    padding-left: 5%;
+}
 .icons,
 .icon {
     height: 50px;
@@ -440,7 +444,7 @@ a.languageBtnEN {
 
 .blogItem {
     display: inline-block;
-    padding-bottom: 35px;
+    margin-bottom: 35px;
     background-color: inherit;
     height: 100px;
     width: 100%;
@@ -1083,7 +1087,7 @@ a.langselected {
     width: 1px;
     height: 1px;
     padding: 0;
-    margin: -1px;
+    margin: -f1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
