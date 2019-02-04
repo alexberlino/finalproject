@@ -1,11 +1,11 @@
 {
-    "name": "petition",
+    "name": "seoberlino",
     "version": "1.0.0",
     "description": "",
-    "main": "main.js",
+    "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node main.js"
+        "start": "node index.js"
     },
     "engines": {
         "node": "8.9.4"
