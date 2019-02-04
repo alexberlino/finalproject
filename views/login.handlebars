@@ -1,0 +1,63 @@
+
+<div class="registermain">
+
+    <h3 class="titleReg h3head2"> LOG IN  HERE
+        </h3>
+
+        <form method="POST">
+            <label>Email</label>
+            <input type="email" placeholder="your email address" name="emailaddress"required>
+
+            <label>Password</label>
+            <input type="password" placeholder="your password" name="password" required>
+
+
+            <button class="registerSubmit" type="submit">Log in</button>
+
+            {{#if errorMessage}}
+            <p id="error">
+                Error! The password is incorrect, or the email address not registered.<br>
+                Please check and try again.
+            </p>
+            {{/if}}
+
+        </form>
+</div>
+
+<div class="main">
+  <div class="mainlogin">
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Log-in | SEO Berlino </title>
+      <meta type="description" content="" />
+      <meta name="robots" content="noindex, nofollow" />
+      <link rel="canonical" />
+    </Helmet>
+    <div class="services3">
+      <div class="pagetitle">Admin Log in</div>
+      {this.state.error && (
+        <div class="error marginright">
+          Error, please check and try again
+        </div>
+      }}}
+      <input
+        onChange={this.handleChange}
+        name="email"
+        class="input"
+        placeholder="Email"
+      />
+      <input
+        onChange={this.handleChange}
+        name="pass"
+        type="password"
+        class="input"
+        placeholder="Password"
+      />
+      <button onClick={this.submit} class="servicesHP">
+        Log in
+      </button>
+    </div>
+  </div>
+  <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+  <br /> <br /> <br /> <br />
+</div>
