@@ -656,9 +656,6 @@ app.get("/de/services", (req, res) => {
 app.get("/sitemap.xml", (req, res) => {
     res.render("sitemap");
 });
-app.get("/robots.txt", (req, res) => {
-    res.render("robots");
-});
 
 function checkSession(req, res, next) {
     if (!req.session.userId) {
@@ -895,13 +892,13 @@ app.get("/on-page-audit", function(request, response) {
     response.end();
 });
 
-app.get("/seo-sea-jargon", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/resources",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+// app.get("/seo-sea-jargon", function(request, response) {
+//     response.writeHead(301, {
+//         Location: "https://www.seoberlino.com/en/resources",
+//         Expires: new Date().toGMTString()
+//     });
+//     response.end();
+// });
 
 ////////////////////////////////////////
 
@@ -909,53 +906,53 @@ app.get("/seo-sea-jargon", function(request, response) {
 
 ////////////////////login///////////////////////////
 
-app.get("/login", checkSignedIn, function(req, res) {
-    res.render("login", {
-        layout: "petitionLog"
-    });
-});
+// app.get("/login", checkSignedIn, function(req, res) {
+//     res.render("login", {
+//         layout: "petitionLog"
+//     });
+// });
 
 // const emailaddress = req.body.emailaddress;
 // let password = req.body.password;
-app.post("/login", (req, res) => {
-    db.getUserForLogin(req.body.emailaddress)
-        .then(function(result) {
-            if (!result) {
-                throw new Error();
-            } else {
-                return checkPass(req.body.password, result.rows[0].password)
-                    .then(function(doesMatch) {
-                        if (doesMatch) {
-                            req.session.userId = result.rows[0].id;
-                            req.session.firstname = result.rows[0].firstname;
-                            req.session.surname = result.rows[0].surname;
-                        } else {
-                            throw new Error();
-                        }
-                    })
-                    .then(function() {
-                        return db
-                            .checkSign(req.session.userId)
-                            .then(function(response) {
-                                if (response == undefined) {
-                                    res.redirect("/");
-                                } else {
-                                    req.session.checked = result.rows[0].id;
-                                    res.redirect("/thankyou");
-                                }
-                            });
-                    });
-            }
-        })
-
-        .catch(function(e) {
-            console.log("error catch" + e);
-            res.render("login", {
-                layout: "petitionLog",
-                errorMessage: true
-            });
-        });
-});
+// app.post("/login", (req, res) => {
+//     db.getUserForLogin(req.body.emailaddress)
+//         .then(function(result) {
+//             if (!result) {
+//                 throw new Error();
+//             } else {
+//                 return checkPass(req.body.password, result.rows[0].password)
+//                     .then(function(doesMatch) {
+//                         if (doesMatch) {
+//                             req.session.userId = result.rows[0].id;
+//                             req.session.firstname = result.rows[0].firstname;
+//                             req.session.surname = result.rows[0].surname;
+//                         } else {
+//                             throw new Error();
+//                         }
+//                     })
+//                     .then(function() {
+//                         return db
+//                             .checkSign(req.session.userId)
+//                             .then(function(response) {
+//                                 if (response == undefined) {
+//                                     res.redirect("/");
+//                                 } else {
+//                                     req.session.checked = result.rows[0].id;
+//                                     res.redirect("/thankyou");
+//                                 }
+//                             });
+//                     });
+//             }
+//         })
+//
+//         .catch(function(e) {
+//             console.log("error catch" + e);
+//             res.render("login", {
+//                 layout: "petitionLog",
+//                 errorMessage: true
+//             });
+//         });
+// });
 /////////////////login///////////////////////////
 
 // app.use(csurf());
@@ -970,62 +967,62 @@ app.post("/login", (req, res) => {
 
 ////////////middleware//////////////////////////////
 
-function checkSession(req, res, next) {
-    if (!req.session.checked) {
-        res.redirect("/");
-    } else {
-        next();
-    }
-}
+// function checkSession(req, res, next) {
+//     if (!req.session.checked) {
+//         res.redirect("/");
+//     } else {
+//         next();
+//     }
+// }
+//
+// function checkSignedPet(req, res, next) {
+//     if (req.session.checked) {
+//         res.redirect("/thankyou");
+//     } else {
+//         next();
+//     }
+// }
 
-function checkSignedPet(req, res, next) {
-    if (req.session.checked) {
-        res.redirect("/thankyou");
-    } else {
-        next();
-    }
-}
-
-function checkSignedIn(req, res, next) {
-    if (req.session.userId) {
-        res.redirect("/");
-    } else {
-        next();
-    }
-}
-
-function checkNotSignedIn(req, res, next) {
-    if (!req.session.userId) {
-        res.redirect("/register");
-    } else {
-        next();
-    }
-}
+// function checkSignedIn(req, res, next) {
+//     if (req.session.userId) {
+//         res.redirect("/");
+//     } else {
+//         next();
+//     }
+// }
+//
+// function checkNotSignedIn(req, res, next) {
+//     if (!req.session.userId) {
+//         res.redirect("/register");
+//     } else {
+//         next();
+//     }
+// }
 
 ////////////middleware//////////////////////////////
 
 /////////////////petition///////////////////////////
 
-app.post("/", (req, res) => {
-    console.log(
-        req.session.userId,
-        req.session.firstname,
-        req.session.surname,
-        req.body.signature
-    );
-    return db
-        .addToDatabase(req.session.userId, req.body.signature)
-        .then(function(results) {
-            req.session.checked = results.rows[0].id;
-            res.redirect("/thankyou");
-        })
-        .catch(function() {
-            res.render("main", {
-                layout: "petition",
-                errorMessage: true
-            });
-        });
-});
+// app.post("/", (req, res) => {
+//     console.log(
+//         req.session.userId,
+//         req.session.firstname,
+//         req.session.surname,
+//         req.body.signature
+//     );
+//     return db
+//         .addToDatabase(req.session.userId, req.body.signature)
+//         .then(function(results) {
+//             req.session.checked = results.rows[0].id;
+//             res.redirect("/thankyou");
+//         })
+//         .catch(function() {
+//             res.render("main", {
+//                 layout: "petition",
+//                 errorMessage: true
+//             });
+//         });
+// });
 
 /////////////////petition///////////////////////////
 
@@ -1033,10 +1030,10 @@ app.post("/", (req, res) => {
 
 /////////////////thankyou///////////////////////////
 
-app.get("/logout", function(req, res) {
-    req.session = null;
-    res.redirect("/login");
-});
+// app.get("/logout", function(req, res) {
+//     req.session = null;
+//     res.redirect("/login");
+// });
 /////////////////signatures///////////////////////////
 
 /////////////////signatures///////////////////////////
