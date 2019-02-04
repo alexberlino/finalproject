@@ -7,7 +7,6 @@ var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 const helmet = require("helmet");
-const db = require("./sql/db.js");
 
 app.engine(
     ".hbs",
@@ -157,13 +156,6 @@ app.get("/de/onpage/images", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("images", {
         layout: "mainDE"
-    });
-});
-
-app.get("/en/login", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("login", {
-        layout: "main"
     });
 });
 
@@ -663,6 +655,48 @@ app.get("/de/services", (req, res) => {
     });
 });
 
+app.get("/en/article/linkbuilding-in-2019", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blog1", {
+        layout: "main"
+    });
+});
+
+app.get("/en/article/beyond-mobile-first", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blog2", {
+        layout: "main"
+    });
+});
+
+app.get("/en/article/voice-search-challenges", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blog5", {
+        layout: "main"
+    });
+});
+
+app.get("/en/article/why-you-need-implement-structured-data", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blog6", {
+        layout: "main"
+    });
+});
+
+app.get("/en/article/link-building-to-brandbuilding", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blog7", {
+        layout: "main"
+    });
+});
+
+app.get("/en/article/how-to-get-those-first-links", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blog8", {
+        layout: "main"
+    });
+});
+
 app.get("/sitemap.xml", (req, res) => {
     res.render("sitemap");
 });
@@ -691,117 +725,6 @@ app.get("/checknotice", (req, res, next) => {
     } else {
         next();
     }
-});
-
-app.get("/en/editarticle", checkSession, (req, res, next) => {
-    next();
-});
-
-app.get("/en/postarticle", checkSession, (req, res, next) => {
-    next();
-});
-app.get("/en/admin", checkSession, (req, res, next) => {
-    next();
-});
-
-app.post("/en/postarticle", checkSession, (req, res) => {
-    db.postArticle(
-        req.body.title,
-        req.body.author,
-        req.body.article,
-        req.body.status,
-        req.body.imageurl,
-        req.body.url
-    ).catch(error => {
-        console.log("error in upload server", error);
-        res.status(500).json({
-            success: false
-        });
-    });
-});
-
-app.post("/en/editarticle/:id", checkSession, (req, res) => {
-    db.updateArticle(
-        req.body.title,
-        req.body.author,
-        req.body.article,
-        req.body.status,
-        req.body.imageurl,
-        req.params.id,
-        req.body.url
-    )
-        .then(({ rows }) => {
-            res.json({
-                success: true
-            });
-        })
-        .catch(error => {
-            console.log("error in upload server", error);
-            res.status(500).json({
-                success: false
-            });
-        });
-});
-
-app.get("/getarticles", (req, res) => {
-    db.getArticles().then(function(results) {
-        res.json(results);
-    });
-});
-
-app.get("/get3articles", (req, res) => {
-    db.get3Articles().then(function(results) {
-        res.json(results);
-    });
-});
-
-app.get("/getarticle/:id", (req, res) => {
-    db.getArticle(req.params.id).then(function({ rows }) {
-        res.json({ rows });
-    });
-});
-
-app.get("/getarticleurl/:BE", (req, res) => {
-    db.getArticleUrl(req.params.BE).then(function({ rows }) {
-        res.json({ rows });
-    });
-});
-
-app.post("/en/login", (req, res) => {
-    let { email, pass } = req.body;
-    console.log(req.body);
-    db.login(email)
-        .then(function(result) {
-            if (!result) {
-                console.log("No email");
-                throw new Error();
-            } else {
-                return checkPassword(pass, result.rows[0].password).then(
-                    function(doesMatch) {
-                        if (doesMatch) {
-                            req.session.userId = result.rows[0].id;
-                            res.json({
-                                success: true
-                            });
-                        } else {
-                            console.log("wrong pw");
-                            throw new Error();
-                        }
-                    }
-                );
-            }
-        })
-        .catch(function(e) {
-            console.log("error while login");
-            res.json({
-                success: false
-            });
-        });
-});
-
-app.get("/log-out", (req, res) => {
-    req.session = null;
-    return res.redirect("/en");
 });
 
 /////////////redirects and 410///////////////////////
@@ -874,184 +797,6 @@ app.get("/undefined/*", function(request, response) {
     response.writeHead(410);
     response.end();
 });
-
-// app.get("/seo-sea-jargon", function(request, response) {
-//     response.writeHead(301, {
-//         Location: "https://www.seoberlino.com/en/resources",
-//         Expires: new Date().toGMTString()
-//     });
-//     response.end();
-// });
-
-////////////////////////////////////////
-
-////////////////////profile///////////////////////////
-
-////////////////////login///////////////////////////
-
-// app.get("/login", checkSignedIn, function(req, res) {
-//     res.render("login", {
-//         layout: "petitionLog"
-//     });
-// });
-
-// const emailaddress = req.body.emailaddress;
-// let password = req.body.password;
-// app.post("/login", (req, res) => {
-//     db.getUserForLogin(req.body.emailaddress)
-//         .then(function(result) {
-//             if (!result) {
-//                 throw new Error();
-//             } else {
-//                 return checkPass(req.body.password, result.rows[0].password)
-//                     .then(function(doesMatch) {
-//                         if (doesMatch) {
-//                             req.session.userId = result.rows[0].id;
-//                             req.session.firstname = result.rows[0].firstname;
-//                             req.session.surname = result.rows[0].surname;
-//                         } else {
-//                             throw new Error();
-//                         }
-//                     })
-//                     .then(function() {
-//                         return db
-//                             .checkSign(req.session.userId)
-//                             .then(function(response) {
-//                                 if (response == undefined) {
-//                                     res.redirect("/");
-//                                 } else {
-//                                     req.session.checked = result.rows[0].id;
-//                                     res.redirect("/thankyou");
-//                                 }
-//                             });
-//                     });
-//             }
-//         })
-//
-//         .catch(function(e) {
-//             console.log("error catch" + e);
-//             res.render("login", {
-//                 layout: "petitionLog",
-//                 errorMessage: true
-//             });
-//         });
-// });
-/////////////////login///////////////////////////
-
-// app.use(csurf());
-///!!!!
-//for POST requests(submit) forms
-//input name=_csrf value=""{{crsrfToken}} type hidden
-
-// app.use((req, res, next) => {
-//     res.locals.csrfToken = req.csrfToken();
-//     next();
-// });
-
-////////////middleware//////////////////////////////
-
-// function checkSession(req, res, next) {
-//     if (!req.session.checked) {
-//         res.redirect("/");
-//     } else {
-//         next();
-//     }
-// }
-//
-// function checkSignedPet(req, res, next) {
-//     if (req.session.checked) {
-//         res.redirect("/thankyou");
-//     } else {
-//         next();
-//     }
-// }
-
-// function checkSignedIn(req, res, next) {
-//     if (req.session.userId) {
-//         res.redirect("/");
-//     } else {
-//         next();
-//     }
-// }
-//
-// function checkNotSignedIn(req, res, next) {
-//     if (!req.session.userId) {
-//         res.redirect("/register");
-//     } else {
-//         next();
-//     }
-// }
-
-////////////middleware//////////////////////////////
-
-/////////////////petition///////////////////////////
-
-// app.post("/", (req, res) => {
-//     console.log(
-//         req.session.userId,
-//         req.session.firstname,
-//         req.session.surname,
-//         req.body.signature
-//     );
-//     return db
-//         .addToDatabase(req.session.userId, req.body.signature)
-//         .then(function(results) {
-//             req.session.checked = results.rows[0].id;
-//             res.redirect("/thankyou");
-//         })
-//         .catch(function() {
-//             res.render("main", {
-//                 layout: "petition",
-//                 errorMessage: true
-//             });
-//         });
-// });
-
-/////////////////petition///////////////////////////
-
-/////////////////thankyou///////////////////////////
-
-/////////////////thankyou///////////////////////////
-
-// app.get("/logout", function(req, res) {
-//     req.session = null;
-//     res.redirect("/login");
-// });
-/////////////////signatures///////////////////////////
-
-/////////////////signatures///////////////////////////
-//
-// app.get("/aboutus", function(req, res) {
-//     res.render("about", {
-//         layout: "petitionLog"
-//     });
-// });
-//
-// app.get("/contact", checkNotSignedIn, function(req, res) {
-//     res.render("contact", {
-//         layout: "petition"
-//     });
-// });
-//
-// app.get("/contactus", function(req, res) {
-//     res.render("contact", {
-//         layout: "petitionLog"
-//     });
-// });
-//
-// app.post("/contactus", function(req, res) {
-//     res.render("contact", {
-//         layout: "petitionLog",
-//         ThanksMessage: true
-//     });
-// });
-//
-// app.post("/contact", function(req, res) {
-//     res.render("contact", {
-//         layout: "petition",
-//         ThanksMessage: true
-//     });
-// });
 
 // listening
 app.listen(process.env.PORT || 8080, () => console.log("listening"));
