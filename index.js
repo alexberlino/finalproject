@@ -774,6 +774,16 @@ app.get("/ad/*", function(request, response) {
     response.end();
 });
 
+app.get("/admin", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/login", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
 app.get("/lo/*", function(request, response) {
     response.writeHead(410), response.end();
 });
