@@ -8,7 +8,6 @@ var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 const helmet = require("helmet");
 const db = require("./sql/db.js");
-const csrf = require("csurf");
 
 app.engine(
     ".hbs",
@@ -77,12 +76,6 @@ const cookieSessionMiddleware = cookieSession({
 });
 
 app.use(cookieSessionMiddleware);
-app.use(csrf({ cookie: true }));
-
-app.use(function(req, res, next) {
-    res.cookie("mytoken", req.csrfToken());
-    next();
-});
 
 // const spicedPg = require("spiced-pg");
 
