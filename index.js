@@ -405,7 +405,7 @@ app.get("/de/offpage/brandbuilding", (req, res) => {
 
 app.get("/en/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("backlinkanaylsis", {
+    res.render("backlinkanalysis", {
         layout: "main"
     });
     i18n.setLocale(req, "en");
@@ -413,7 +413,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
 
 app.get("/de/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("backlinkanaylsis", {
+    res.render("backlinkanalisis", {
         layout: "mainDE"
     });
 });
