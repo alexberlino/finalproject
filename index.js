@@ -117,38 +117,17 @@ app.get("/", function(req, res, next) {
 });
 
 app.get("/en", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
-
     res.render("home", {
         layout: "main"
     });
+    res.setHeader("Content-Type", "text/event-stream");
+    res.setHeader("Cache-Control", "no-cache");
+
+    res.flush();
 });
 
 app.get("/de", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("home", {
         layout: "mainDE"
@@ -156,18 +135,6 @@ app.get("/de", (req, res) => {
 });
 
 app.get("/en/onpage/duplicatecontent", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("duplicatecontent", {
         layout: "main"
@@ -175,18 +142,6 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
 });
 
 app.get("/de/onpage/duplicatecontent", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("duplicatecontent", {
         layout: "mainDE"
@@ -194,18 +149,6 @@ app.get("/de/onpage/duplicatecontent", (req, res) => {
 });
 
 app.get("/en/onpage/images", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("images", {
         layout: "main"
@@ -214,18 +157,6 @@ app.get("/en/onpage/images", (req, res) => {
 });
 
 app.get("/de/onpage/images", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("images", {
         layout: "mainDE"
@@ -233,18 +164,6 @@ app.get("/de/onpage/images", (req, res) => {
 });
 
 app.get("/en/onpage/internallinking", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("internallinking", {
         layout: "main"
@@ -253,18 +172,6 @@ app.get("/en/onpage/internallinking", (req, res) => {
 });
 
 app.get("/de/onpage/internallinking", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("internallinking", {
         layout: "mainDE"
@@ -272,18 +179,6 @@ app.get("/de/onpage/internallinking", (req, res) => {
 });
 
 app.get("/en/onpage/keywordresearch", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("keyword", {
         layout: "main"
@@ -292,18 +187,6 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
 });
 
 app.get("/en/onpage/metas", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("metas", {
         layout: "main"
@@ -311,18 +194,6 @@ app.get("/en/onpage/metas", (req, res) => {
 });
 
 app.get("/de/onpage/metas", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("metas", {
         layout: "mainDE"
@@ -330,18 +201,6 @@ app.get("/de/onpage/metas", (req, res) => {
 });
 
 app.get("/en/onpage/content", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("content", {
         layout: "main"
@@ -349,18 +208,6 @@ app.get("/en/onpage/content", (req, res) => {
 });
 
 app.get("/de/onpage/content", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("content", {
         layout: "mainDE"
@@ -368,18 +215,6 @@ app.get("/de/onpage/content", (req, res) => {
 });
 
 app.get("/de/onpage/keywordresearch", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("keyword", {
         layout: "mainDE"
@@ -387,18 +222,6 @@ app.get("/de/onpage/keywordresearch", (req, res) => {
 });
 
 app.get("/en/onpage/keywordresearch", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("keyword", {
         layout: "main"
@@ -406,18 +229,6 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
 });
 
 app.get("/en/onpage/landingpages", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("landingpages", {
         layout: "main"
@@ -426,18 +237,6 @@ app.get("/en/onpage/landingpages", (req, res) => {
 });
 
 app.get("/de/onpage/landingpages", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("landingpages", {
         layout: "mainDE"
@@ -445,18 +244,6 @@ app.get("/de/onpage/landingpages", (req, res) => {
 });
 
 app.get("/en/onpage/structureddata", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("structureddata", {
         layout: "main"
@@ -465,18 +252,6 @@ app.get("/en/onpage/structureddata", (req, res) => {
 });
 
 app.get("/de/onpage/structureddata", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("structureddata", {
         layout: "mainDE"
@@ -484,18 +259,6 @@ app.get("/de/onpage/structureddata", (req, res) => {
 });
 
 app.get("/en/research/analytics", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("analytics", {
         layout: "main"
@@ -504,18 +267,6 @@ app.get("/en/research/analytics", (req, res) => {
 });
 
 app.get("/de/research/analytics", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("analytics", {
         layout: "mainDE"
@@ -523,18 +274,6 @@ app.get("/de/research/analytics", (req, res) => {
 });
 
 app.get("/en/research/bestpractices", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("competitor", {
         layout: "main"
@@ -543,18 +282,6 @@ app.get("/en/research/bestpractices", (req, res) => {
 });
 
 app.get("/de/research/bestpractices", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("competitor", {
         layout: "mainDE"
@@ -562,18 +289,6 @@ app.get("/de/research/bestpractices", (req, res) => {
 });
 
 app.get("/en/technical/crawlability", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("crawlability", {
         layout: "main"
@@ -582,18 +297,6 @@ app.get("/en/technical/crawlability", (req, res) => {
 });
 
 app.get("/de/technical/crawlability", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("crawlability", {
         layout: "mainDE"
@@ -601,18 +304,6 @@ app.get("/de/technical/crawlability", (req, res) => {
 });
 
 app.get("/en/technical/indexation", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("indexation", {
         layout: "main"
@@ -621,36 +312,12 @@ app.get("/en/technical/indexation", (req, res) => {
 });
 
 app.get("/de/technical/indexation", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("indexation", {
         layout: "mainDE"
     });
 });
 app.get("/en/technical/internationalisation", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("internationalisation", {
         layout: "main"
@@ -659,18 +326,6 @@ app.get("/en/technical/internationalisation", (req, res) => {
 });
 
 app.get("/de/technical/internationalisation", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("internationalisation", {
         layout: "mainDE"
@@ -678,18 +333,6 @@ app.get("/de/technical/internationalisation", (req, res) => {
 });
 
 app.get("/en/technical/pagespeed", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("pagespeed", {
         layout: "main"
@@ -698,18 +341,6 @@ app.get("/en/technical/pagespeed", (req, res) => {
 });
 
 app.get("/de/technical/pagespeed", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("pagespeed", {
         layout: "mainDE"
@@ -717,18 +348,6 @@ app.get("/de/technical/pagespeed", (req, res) => {
 });
 
 app.get("/en/technical/mobilefriendly", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("mobile", {
         layout: "main"
@@ -737,18 +356,6 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
 });
 
 app.get("/de/technical/mobilefriendly", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("mobile", {
         layout: "mainDE"
@@ -756,18 +363,6 @@ app.get("/de/technical/mobilefriendly", (req, res) => {
 });
 
 app.get("/en/technical/security", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("https", {
         layout: "main"
@@ -776,18 +371,6 @@ app.get("/en/technical/security", (req, res) => {
 });
 
 app.get("/de/technical/security", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("https", {
         layout: "mainDE"
@@ -795,18 +378,6 @@ app.get("/de/technical/security", (req, res) => {
 });
 
 app.get("/en/technical/dynamicrendering", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("javascript", {
         layout: "main"
@@ -815,18 +386,6 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
 });
 
 app.get("/de/technical/dynamicrendering", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("javascript", {
         layout: "mainDE"
@@ -834,18 +393,6 @@ app.get("/de/technical/dynamicrendering", (req, res) => {
 });
 
 app.get("/en/offpage/brandbuilding", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("brandbuilding", {
         layout: "main"
@@ -854,18 +401,6 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
 });
 
 app.get("/de/offpage/brandbuilding", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("brandbuilding", {
         layout: "mainDE"
@@ -873,18 +408,6 @@ app.get("/de/offpage/brandbuilding", (req, res) => {
 });
 
 app.get("/en/offpage/backlinkanalysis", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("backlinkanalysis", {
         layout: "main"
@@ -893,18 +416,6 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
 });
 
 app.get("/de/offpage/backlinkanalysis", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("backlinkanalysis", {
         layout: "mainDE"
@@ -912,18 +423,6 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
 });
 
 app.get("/en/offpage/toxic", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("links", {
         layout: "main"
@@ -932,18 +431,6 @@ app.get("/en/offpage/toxic", (req, res) => {
 });
 
 app.get("/de/offpage/toxic", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("links", {
         layout: "mainDE"
@@ -951,18 +438,6 @@ app.get("/de/offpage/toxic", (req, res) => {
 });
 
 app.get("/en/blog", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("blog", {
         layout: "main"
@@ -971,18 +446,6 @@ app.get("/en/blog", (req, res) => {
 });
 
 app.get("/de/blog", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("blog", {
         layout: "mainDE"
@@ -990,18 +453,6 @@ app.get("/de/blog", (req, res) => {
 });
 
 app.get("/en/impressum", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("impressum", {
         layout: "main"
@@ -1010,18 +461,6 @@ app.get("/en/impressum", (req, res) => {
 });
 
 app.get("/de/impressum", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("impressum", {
         layout: "mainDE"
@@ -1029,18 +468,6 @@ app.get("/de/impressum", (req, res) => {
 });
 
 app.get("/en/seonews", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("seonews", {
         layout: "main"
@@ -1049,18 +476,6 @@ app.get("/en/seonews", (req, res) => {
 });
 
 app.get("/de/seonews", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("seonews", {
         layout: "mainDE"
@@ -1068,18 +483,6 @@ app.get("/de/seonews", (req, res) => {
 });
 
 app.get("/en/offpage", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("offpage", {
         layout: "main"
@@ -1088,18 +491,6 @@ app.get("/en/offpage", (req, res) => {
 });
 
 app.get("/de/offpage", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("offpage", {
         layout: "mainDE"
@@ -1107,18 +498,6 @@ app.get("/de/offpage", (req, res) => {
 });
 
 app.get("/en/onpage", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("onpage", {
         layout: "main"
@@ -1127,18 +506,6 @@ app.get("/en/onpage", (req, res) => {
 });
 
 app.get("/de/onpage", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("onpage", {
         layout: "mainDE"
@@ -1146,18 +513,6 @@ app.get("/de/onpage", (req, res) => {
 });
 
 app.get("/en/onpage/voicesearch", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("voicesearch", {
         layout: "main"
@@ -1166,18 +521,6 @@ app.get("/en/onpage/voicesearch", (req, res) => {
 });
 
 app.get("/de/onpage/voicesearch", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("voicesearch", {
         layout: "mainDE"
@@ -1185,18 +528,6 @@ app.get("/de/onpage/voicesearch", (req, res) => {
 });
 
 app.get("/en/research/localseo", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("localseo", {
         layout: "main"
@@ -1205,18 +536,6 @@ app.get("/en/research/localseo", (req, res) => {
 });
 
 app.get("/de/research/localseo", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("localseo", {
         layout: "mainDE"
@@ -1224,18 +543,6 @@ app.get("/de/research/localseo", (req, res) => {
 });
 
 app.get("/en/research/sea", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("sea", {
         layout: "main"
@@ -1244,18 +551,6 @@ app.get("/en/research/sea", (req, res) => {
 });
 
 app.get("/de/research/sea", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("sea", {
         layout: "mainDE"
@@ -1263,18 +558,6 @@ app.get("/de/research/sea", (req, res) => {
 });
 
 app.get("/en/technical", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("technical", {
         layout: "main"
@@ -1283,18 +566,6 @@ app.get("/en/technical", (req, res) => {
 });
 
 app.get("/de/technical", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("technical", {
         layout: "mainDE"
@@ -1302,18 +573,6 @@ app.get("/de/technical", (req, res) => {
 });
 
 app.get("/en/research", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("research", {
         layout: "main"
@@ -1322,18 +581,6 @@ app.get("/en/research", (req, res) => {
 });
 
 app.get("/de/research", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("research", {
         layout: "mainDE"
@@ -1341,18 +588,6 @@ app.get("/de/research", (req, res) => {
 });
 
 app.get("/en/resources", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("resources", {
         layout: "main"
@@ -1361,18 +596,6 @@ app.get("/en/resources", (req, res) => {
 });
 
 app.get("/de/resources", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("resources", {
         layout: "mainDE"
@@ -1380,18 +603,6 @@ app.get("/de/resources", (req, res) => {
 });
 
 app.get("/en/freeaudit", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("freeaudit", {
         layout: "main"
@@ -1399,18 +610,6 @@ app.get("/en/freeaudit", (req, res) => {
 });
 
 app.get("/de/freeaudit", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("freeaudit", {
         layout: "mainDE"
@@ -1418,18 +617,6 @@ app.get("/de/freeaudit", (req, res) => {
 });
 
 app.get("/en/partnership", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("partnership", {
         layout: "main"
@@ -1437,18 +624,6 @@ app.get("/en/partnership", (req, res) => {
 });
 
 app.get("/de/partnership", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("partnership", {
         layout: "mainDE"
@@ -1456,18 +631,6 @@ app.get("/de/partnership", (req, res) => {
 });
 
 app.get("/en/contact", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("contact", {
         layout: "main"
@@ -1475,18 +638,6 @@ app.get("/en/contact", (req, res) => {
 });
 
 app.get("/de/contact", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("contact", {
         layout: "mainDE"
@@ -1494,18 +645,6 @@ app.get("/de/contact", (req, res) => {
 });
 
 app.get("/en/services", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("services", {
         layout: "main"
@@ -1514,18 +653,6 @@ app.get("/en/services", (req, res) => {
 });
 
 app.get("/de/services", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "de");
     res.render("services", {
         layout: "mainDE"
@@ -1533,18 +660,6 @@ app.get("/de/services", (req, res) => {
 });
 
 app.get("/en/article/linkbuilding-in-2019", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("blog1", {
         layout: "main"
@@ -1552,18 +667,6 @@ app.get("/en/article/linkbuilding-in-2019", (req, res) => {
 });
 
 app.get("/en/article/beyond-mobile-first", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("blog2", {
         layout: "main"
@@ -1571,18 +674,6 @@ app.get("/en/article/beyond-mobile-first", (req, res) => {
 });
 
 app.get("/en/article/voice-search-challenges", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("blog5", {
         layout: "main"
@@ -1590,18 +681,6 @@ app.get("/en/article/voice-search-challenges", (req, res) => {
 });
 
 app.get("/en/article/why-you-need-implement-structured-data", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("blog6", {
         layout: "main"
@@ -1609,18 +688,6 @@ app.get("/en/article/why-you-need-implement-structured-data", (req, res) => {
 });
 
 app.get("/en/article/link-building-to-brandbuilding", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("blog7", {
         layout: "main"
@@ -1628,18 +695,6 @@ app.get("/en/article/link-building-to-brandbuilding", (req, res) => {
 });
 
 app.get("/en/article/how-to-get-those-first-links", (req, res) => {
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-    var timer = setInterval(function() {
-        res.write("data: ping\n\n");
-
-        // !!! this is the important part
-        res.flush();
-    }, 2000);
-
-    res.on("close", function() {
-        clearInterval(timer);
-    });
     i18n.setLocale(req, "en");
     res.render("blog8", {
         layout: "main"
