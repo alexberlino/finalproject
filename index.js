@@ -9,18 +9,16 @@ var cookieParser = require("cookie-parser");
 const helmet = require("helmet");
 var http = require("http");
 
-var server = http.createServer((req, res) => {
-    res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
-    res.end();
-});
+// var server = http.createServer((req, res) => {
+//     res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
+//     res.end();
+// });
 
 app.use(function(req, res, next) {
-    if (req.secure) {
-        // request was via https, so do no special handling
-        next();
+    if (!/https/.test(req.protocol)) {
+        return res.redirect("https://" + req.headers.host + req.url);
     } else {
-        // request was via http, so redirect to https
-        res.redirect("https://" + req.headers.host + req.url);
+        return next();
     }
 });
 
@@ -104,14 +102,6 @@ app.use(
 );
 
 app.use(helmet());
-
-function checkSession(req, res, next) {
-    if (!req.session.userId) {
-        res.redirect("/en");
-    } else {
-        next();
-    }
-}
 
 ////////////////////new routes & redirects///////////////////////////
 
@@ -716,14 +706,6 @@ app.get("/en/article/how-to-get-those-first-links", (req, res) => {
 app.get("/sitemap.xml", (req, res) => {
     res.render("sitemap");
 });
-
-function checkSession(req, res, next) {
-    if (!req.session.userId) {
-        res.redirect("/en");
-    } else {
-        next();
-    }
-}
 
 app.get("/setcookiesession", (req, res) => {
     req.session.checked = true;
