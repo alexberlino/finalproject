@@ -493,7 +493,7 @@ app.get("/de/technical/security", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("https", {
         layout: "mainDE",
-        title: "Was ist https| SEO Berlino",
+        title: "Was ist https | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -504,7 +504,7 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("javascript", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Javascript SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -516,7 +516,7 @@ app.get("/de/technical/dynamicrendering", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("javascript", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Javascript SEO  | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -527,7 +527,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("brandbuilding", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Brand Building | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -539,7 +539,7 @@ app.get("/de/offpage/brandbuilding", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("brandbuilding", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Brand Building | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -550,7 +550,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("backlinkanalysis", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Backlink Analysis | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -562,7 +562,7 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("backlinkanalysis", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Backlink Analyse | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -573,7 +573,7 @@ app.get("/en/offpage/toxic", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("links", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "What is a backlink ? | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -585,7 +585,7 @@ app.get("/de/offpage/toxic", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("links", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Was sind backlinks ? | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -596,7 +596,7 @@ app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Search Engine Optimization Blog | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -608,7 +608,7 @@ app.get("/de/blog", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blog", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Suchmaschinenoptimierung Blog | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -619,7 +619,7 @@ app.get("/en/impressum", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("impressum", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Consultant in Berlin - Impressum | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -631,7 +631,7 @@ app.get("/de/impressum", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("impressum", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Berater in Berlin - Impressum | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -642,7 +642,7 @@ app.get("/en/seonews", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seonews", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Google SEO News | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -654,7 +654,7 @@ app.get("/de/seonews", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seonews", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Nachrichten | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -665,7 +665,7 @@ app.get("/en/offpage", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("offpage", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Offpage Optimization | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -677,7 +677,7 @@ app.get("/de/offpage", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("offpage", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Offpage Optimierung | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -688,7 +688,7 @@ app.get("/en/onpage", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("onpage", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Onpage Optimization| SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -700,7 +700,7 @@ app.get("/de/onpage", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("onpage", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Onpage Optimierung  | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -711,7 +711,7 @@ app.get("/en/onpage/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("voicesearch", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Voice Search SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -723,7 +723,7 @@ app.get("/de/onpage/voicesearch", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("voicesearch", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Sprachsuche SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -734,7 +734,7 @@ app.get("/en/research/localseo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("localseo", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Local SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -746,7 +746,7 @@ app.get("/de/research/localseo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("localseo", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Local SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -757,7 +757,7 @@ app.get("/en/research/sea", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("sea", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Search Engine Advertising and SEO| SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -769,7 +769,7 @@ app.get("/de/research/sea", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("sea", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Suchmaschinenwerbung und SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -780,7 +780,7 @@ app.get("/en/technical", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("technical", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "What is Technical SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -792,7 +792,7 @@ app.get("/de/technical", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("technical", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Was ist Technisches SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -803,7 +803,7 @@ app.get("/en/research", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("research", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Research and Analytics SEO | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -815,7 +815,7 @@ app.get("/de/research", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("research", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Webanalyse und Forschung SEO  | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -826,7 +826,7 @@ app.get("/en/resources", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("resources", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Audit | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -838,7 +838,7 @@ app.get("/de/resources", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("resources", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Audit | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -849,7 +849,7 @@ app.get("/en/freeaudit", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("freeaudit", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Free SEO Audit | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -860,7 +860,7 @@ app.get("/de/freeaudit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("freeaudit", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Check Kostenlos | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -871,7 +871,7 @@ app.get("/en/partnership", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("partnership", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Free SEO Partnership | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -882,7 +882,7 @@ app.get("/de/partnership", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("partnership", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Kostenlos SEO Partnerschaft | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -893,7 +893,7 @@ app.get("/en/contact", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("contact", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Expert in Berlin - Contact | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -904,7 +904,7 @@ app.get("/de/contact", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("contact", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Experte in Berlin | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -915,7 +915,7 @@ app.get("/en/services", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("services", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Beratung | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -927,7 +927,7 @@ app.get("/de/services", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("services", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Consultancy | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -938,7 +938,7 @@ app.get("/en/article/linkbuilding-in-2019", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog1", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Link Building in 2019 | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -949,7 +949,7 @@ app.get("/en/article/beyond-mobile-first", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog2", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Beyond Mobile First | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -960,7 +960,7 @@ app.get("/en/article/voice-search-challenges", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog5", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "SEO Voice Search Challenges | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -971,7 +971,7 @@ app.get("/en/article/why-you-need-implement-structured-data", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog6", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Why you need to implement Structured Data | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -982,7 +982,7 @@ app.get("/en/article/link-building-to-brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog7", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Link Building to Brand Building| SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -993,7 +993,7 @@ app.get("/en/article/how-to-get-those-first-links", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog8", {
         layout: "main",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "How to get those first links | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
