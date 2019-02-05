@@ -88,9 +88,9 @@ href="https://www.seoberlino.com/en/research/localseo"/><xhtml:link rel="alterna
 href="https://www.seoberlino.com/de/research/localseo"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/en/research/bestpractices</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/research/bestpractices"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/research/bestpractices"/>
+<url><loc>https://www.seoberlino.com/en/research/competitor-analysis</loc><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en/research/competitor-analysis"/><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/research/competitor-analysis"/>
 <priority>0.5</priority></url>
 
 
@@ -308,9 +308,9 @@ href="https://www.seoberlino.com/de/research/localseo"/><xhtml:link rel="alterna
 href="https://www.seoberlino.com/en/research/localseo"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/de/research/bestpractices</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/de/research/bestpractices"/><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/research/bestpractices"/>
+<url><loc>https://www.seoberlino.com/de/research/competitor-analysis</loc><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/de/research/competitor-analysis"/><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en/research/competitor-analysis"/>
 <priority>0.5</priority></url>
 
 
