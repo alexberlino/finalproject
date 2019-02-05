@@ -9,19 +9,10 @@ var cookieParser = require("cookie-parser");
 const helmet = require("helmet");
 var http = require("http");
 
-var server = http.createServer((req, res) => {
+var server = http.createServer();
+http.get("*", function(req, res) {
     res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
     res.end();
-});
-
-var http = express.createServer();
-
-// set up a route to redirect http to https
-http.get("*", function(req, res) {
-    res.redirect("https://" + req.headers.host + req.url);
-
-    // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
-    // res.redirect('https://example.com' + req.url);
 });
 
 app.engine(
