@@ -7,6 +7,12 @@ var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 const helmet = require("helmet");
+var http = require("http");
+
+var server = http.createServer((req, res) => {
+    res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
+    res.end();
+});
 
 app.engine(
     ".hbs",
