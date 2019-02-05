@@ -97,12 +97,6 @@ function checkSession(req, res, next) {
     }
 }
 
-app.use(function(request, response) {
-    if (!request.protocol == "https") {
-        response.redirect("https://" + request.headers.host + request.url);
-    }
-});
-
 ////////////////////new routes & redirects///////////////////////////
 
 app.get("/", function(req, res, next) {
