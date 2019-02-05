@@ -25,12 +25,6 @@ app.engine(
 );
 app.set("view engine", ".hbs");
 
-app.use(function(request, response) {
-    if (!request.secure) {
-        response.redirect("https://" + request.headers.host + request.url);
-    }
-});
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -102,6 +96,12 @@ function checkSession(req, res, next) {
         next();
     }
 }
+
+app.use(function(request, response) {
+    if (!request.secure) {
+        response.redirect("https://" + request.headers.host + request.url);
+    }
+});
 
 ////////////////////new routes & redirects///////////////////////////
 
