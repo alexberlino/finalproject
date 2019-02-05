@@ -14,6 +14,9 @@ var server = http.createServer((req, res) => {
     res.end();
 });
 
+var compression = require("compression");
+app.use(compression());
+
 app.engine(
     ".hbs",
     hb({
@@ -114,6 +117,18 @@ app.get("/", function(req, res, next) {
 });
 
 app.get("/en", (req, res) => {
+    res.setHeader("Content-Type", "text/event-stream");
+    res.setHeader("Cache-Control", "no-cache");
+    var timer = setInterval(function() {
+        res.write("data: ping\n\n");
+
+        // !!! this is the important part
+        res.flush();
+    }, 2000);
+
+    res.on("close", function() {
+        clearInterval(timer);
+    });
     i18n.setLocale(req, "en");
 
     res.render("home", {
@@ -411,7 +426,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
 
 app.get("/de/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("backlinkanalisis", {
+    res.render("backlinkanalysis", {
         layout: "mainDE"
     });
 });
