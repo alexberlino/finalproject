@@ -9,17 +9,9 @@ var cookieParser = require("cookie-parser");
 const helmet = require("helmet");
 var http = require("http");
 
-// var server = http.createServer((req, res) => {
-//     res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
-//     res.end();
-// });
-
-app.use(function(req, res, next) {
-    if (!/https/.test(req.protocol)) {
-        return res.redirect("https://" + req.headers.host + req.url);
-    } else {
-        return next();
-    }
+var server = http.createServer((req, res) => {
+    res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
+    res.end();
 });
 
 app.engine(
