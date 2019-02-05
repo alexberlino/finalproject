@@ -66,7 +66,7 @@ h2.white,
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 h4 {
@@ -312,7 +312,9 @@ iframe {
 .languageBtn {
     position: relative;
     display: table;
-    margin-left: 15%;
+    margin-left: 25%;
+    padding: 30px;
+    margin-bottom: 100px;
 }
 
 .languageBtnEN {
@@ -320,8 +322,9 @@ iframe {
     background-color: white;
     font-size: 29px;
     margin-left: 15px;
+    padding: 10px;
     border: 1px white solid;
-    padding: 5px;
+    text-align: center;
 }
 
 a.languageBtnEN {
@@ -541,13 +544,11 @@ a.languageBtnEN {
     height: auto;
     display: flex;
     padding: 20px;
-    left: -170px;
 }
 
 .intro21 {
     margin-left: 13%;
     background-color: none;
-    margin-top: 10px;
     opacity: 0.95;
     position: relative;
     width: 70%;
@@ -1002,7 +1003,7 @@ button.servicesHP2 {
 
 .languageBtn a:hover {
     color: white;
-    background-color: black;
+    background-color: darkred;
 }
 
 a.langselected {
