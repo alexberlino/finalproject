@@ -121,10 +121,6 @@ app.get("/en", (req, res) => {
     res.render("home", {
         layout: "main"
     });
-    res.setHeader("Content-Type", "text/event-stream");
-    res.setHeader("Cache-Control", "no-cache");
-
-    res.flush();
 });
 
 app.get("/de", (req, res) => {
