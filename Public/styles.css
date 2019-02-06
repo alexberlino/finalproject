@@ -729,16 +729,16 @@ a.languageBtnEN {
 .footerQuarter {
     display: inline;
     width: 33%;
-    margin-top: auto;
     margin-bottom: auto;
     margin-left: 5px;
 }
 
 .footerHalf {
     display: inline;
-    width: 50%;
+    width: 30%;
     margin-top: auto;
     margin-bottom: auto;
+    vertical-align: top;
 }
 
 .berlin {
@@ -836,6 +836,9 @@ button.servicesHP2 {
     font-weight: normal;
 }
 
+h3.grey {
+    color: grey;
+}
 .seotxt {
     position: relative;
     display: inline;
@@ -951,7 +954,6 @@ button.servicesHP2 {
 }
 
 .footerlink {
-    margin-left: 80px;
     position: relative;
     display: block;
     color: white;
