@@ -139,10 +139,9 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("duplicatecontent", {
         layout: "main",
-        title:
-            "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content.",
+        title: "Duplicate Content SEO | SEO Berlino",
         description:
-            "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content.",
+            "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content and how to avoid it.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -153,7 +152,7 @@ app.get("/de/onpage/duplicatecontent", (req, res) => {
         layout: "mainDE",
         title: "Duplicate Content | SEO Berlino",
         description:
-            "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content.",
+            "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -162,9 +161,9 @@ app.get("/en/onpage/images", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("images", {
         layout: "main",
-        title: "Duplicate Content | SEO Berlino",
+        title: "Image OPtimization SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Images optimisation enables you to get visibility on  Image Search which can still be powerful for brand visibility.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -174,9 +173,9 @@ app.get("/de/onpage/images", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("images", {
         layout: "mainDE",
-        title: "SEO Consultant and Freelancer | SEO Berlino",
+        title: "Bildoptimierung SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Für viele Wirtschaftszweige ist die Bildersuche noch immer ein wichtiger Unterbereich des SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -187,7 +186,7 @@ app.get("/en/onpage/internallinking", (req, res) => {
         layout: "main",
         title: "Internal Linking | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Internal linking is key in SEO essentially to redistribute link juice and prioritise your most important pages.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -199,7 +198,7 @@ app.get("/de/onpage/internallinking", (req, res) => {
         layout: "mainDE",
         title: "Interne Verlinkung | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Interne Verlinkungen sind der Kern des Onpage SEO. Verstehen, wie das Crawling Ihrer Webseite durch den Google Bot funktioniert.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -210,7 +209,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
         layout: "main",
         title: "Keyword Research SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Keyword Reseach is key to understand how your potential clients are searching for your product or services.Search Volume, relevance and keyword competitivity are in deciding on your best keywords.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -222,7 +221,7 @@ app.get("/de/onpage/keywordresearch", (req, res) => {
         layout: "mainDE",
         title: "Keyword Recherche SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Wenn Sie eingehend verstehen möchten, wie Ihre potenziellen Kunden nach den von Ihnen angebotenen Produkten oder Leistungen suchen, ist eine Keyword Recherche unerlässlich.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -233,7 +232,7 @@ app.get("/en/onpage/metas", (req, res) => {
         layout: "main",
         title: "Meta Tags SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Page titles are often neglected, but are really important and very  simple to implement. That means you need to have them spot on.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -244,7 +243,7 @@ app.get("/de/onpage/metas", (req, res) => {
         layout: "mainDE",
         title: "Meta Tags SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Seitentitel werden oft vernachlässigt, sind allerdings extrem wichtig und sehr einfach zu realisieren. Wesentlich ist, dass Sie mit der Formulierung ins Schwarze treffen.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -255,7 +254,7 @@ app.get("/en/onpage/content", (req, res) => {
         layout: "main",
         title: "SEO Content -  SEO Content Marketing | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "The content is the value you want to create. If you content has no  value to the user, or if it is duplicate content, your content will  not be brought forward.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -266,7 +265,7 @@ app.get("/de/onpage/content", (req, res) => {
         layout: "mainDE",
         title: "SEO Content -  SEO Content Marketing | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Die Inhalte sind der Wert, den Sie erschaffen wollen. Wenn Ihre Inhalte für den Nutzer keinen Wert haben, oder bereits an anderer Stelle verfügbar sind, werden Sie damit nicht weit kommen. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -277,7 +276,7 @@ app.get("/en/onpage/landingpages", (req, res) => {
         layout: "main",
         title: "Landing Page Optimization| SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "If you want to efficiently understand how your potential  clients are searching for the products or services you are offering, Keyword Research is critical.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -289,7 +288,7 @@ app.get("/de/onpage/landingpages", (req, res) => {
         layout: "mainDE",
         title: "Landingpage Optimierung | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Die Keywords, die Sie als die wichtigsten für Ihre Seite ausgewählt haben sollten für Inhalte und allgemeine Onpage Optimierung genutzt werden. Achten Sie darauf, dass keine andere Seite den Traffic für Ihre ausgewählten Keywords abzieht und dass der natürliche Traffic nicht auf einer anderen, als der dafür bestimmten Seite landet.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -300,7 +299,7 @@ app.get("/en/onpage/structureddata", (req, res) => {
         layout: "main",
         title: "What is Structured Data | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Google, Bing, Yandex and Yahoo agreed on a standardised format: schema.org for providing information about a page and to classify its content. using Structured Data will enable you to improve the way your pages are displayed.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -312,7 +311,7 @@ app.get("/de/onpage/structureddata", (req, res) => {
         layout: "mainDE",
         title: "Google Structured Data | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Google, Bing, Yandex und Yahoo haben sich auf ein standartisiertes Format geeinigt: mit schema.org werden Informationen über eine Seite bereitgestellt und die Inhalte klassifiziert. Sie können positiv beeinflussen wie Ihre Seiten angezeigt werden, indem Sie Structured Data nutzen.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -323,7 +322,7 @@ app.get("/en/research/analytics", (req, res) => {
         layout: "main",
         title: "Web Analytics for SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "In order to efficiently work in SEO, especially for on-page work, it  is crucial to use reliable data, and analytics is key here in  compiling reports which will enable for instance to identify the  number of visits/unique visitors and conversions for specific pages  and site sections, or compare data by device type or browser.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -335,7 +334,7 @@ app.get("/de/research/analytics", (req, res) => {
         layout: "mainDE",
         title: "Webanalyse für SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Um im SEO effizient arbeiten zu können, besonders im Bereich Onpage, sind verlässliche Daten unerlässlich.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -346,7 +345,7 @@ app.get("/en/research/competitor-analysis", (req, res) => {
         layout: "main",
         title: "Competitor Analysis for SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "It is important to keep in mind in terms of SEO Competitor Analysis,  that you need to identify your SEO competitors, those which are  leading in terms of organic traffic acquisition, domain authority  and other important SEO factors. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -358,7 +357,7 @@ app.get("/de/research/competitor-analysis", (req, res) => {
         layout: "mainDE",
         title: "SEO-Konkurrenzanalyse | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Im Zuge einer SEO-Konkurrenzanalyse ist es wichtig herauszufinden, welche Ihrer SEO Konkurrenten bei der Organic Traffic Acquisition, der Domain Authority und anderen zentralen SEO-Faktoren führend sind. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -369,7 +368,7 @@ app.get("/en/technical/crawlability", (req, res) => {
         layout: "main",
         title: "Crawling SEO - Web Crawl | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "xml format sitemap guides Google on how to crawl your site. Although  Google says there is no guaranty the Google bot will follow your  instructions, it is still highly recommended and in most cases,  sitemaps are beneficial.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -381,7 +380,7 @@ app.get("/de/technical/crawlability", (req, res) => {
         layout: "mainDE",
         title: "Crawling SEO - Web Crawl | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Crawling hängt unmittelbar mit Indexierung zusammen. Um die Indexierung anzupassen, beziehungsweise zu optimieren, können Sie Google dabei lenken, wie es beim Crawling auf Ihrer Seite vorgeht.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -392,7 +391,7 @@ app.get("/en/technical/indexation", (req, res) => {
         layout: "main",
         title: "SEO Indexation| SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Efficient Indexation is key in order to get on well with Google's  spiders. Many believe the more pages indexed the better; that is  only true to a certain level.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -404,7 +403,7 @@ app.get("/de/technical/indexation", (req, res) => {
         layout: "mainDE",
         title: "SEO Indexierung| SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Effiziente Indexierung ist für ein gutes Funktionieren mit den Google Spiders entscheidend. Oft wird geglaubt, es gehe darum möglichst viele Seiten indexieren zu lassen, dies ist allerdings nur bedingt richtig. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -414,7 +413,7 @@ app.get("/en/technical/internationalisation", (req, res) => {
         layout: "main",
         title: "SEO Internatinalisation | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "There are various options when operating internationally: same root  domain, different top level domains, subdomains, how to link between  them, how to simplify the process without negatively affecting your  SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -426,7 +425,7 @@ app.get("/de/technical/internationalisation", (req, res) => {
         layout: "mainDE",
         title: "SEO Internationalisierung | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Wenn Sie international agieren gibt es eine Vielzahl von Möglichkeiten: einheitliche Root-Domain, verschiedene Top-Level-Domains, Subdomains; wie diese untereinander verknüpft werden und wie der Prozess ohne negative Auswirkungen auf Ihr SEO vereinfacht werden kann.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -437,7 +436,7 @@ app.get("/en/technical/pagespeed", (req, res) => {
         layout: "main",
         title: "SEO Page Speed | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Page load speed is key in SEO: a very important aspect of Technical SEO. If your site loads fast, Search Engines will prefer it to others.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -449,7 +448,7 @@ app.get("/de/technical/pagespeed", (req, res) => {
         layout: "mainDE",
         title: "SEO Page Speed | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "So machen Sie Ihre Seite schneller. Nutzen Sie schnelle Host-Dienste, einen schnellen DNS (“Domain Name System”) Provider",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -460,7 +459,7 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
         layout: "main",
         title: "SEO Mobile Friendly| SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Since a couple of years now, more people search the web on mobile devices than on Desktop. Hence, mobile optimization is critical and the mobile version is now the master version over Desktop for indexation.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -472,7 +471,7 @@ app.get("/de/technical/mobilefriendly", (req, res) => {
         layout: "mainDE",
         title: "SEO Mobile Friendly| SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Sofern Ihre Webseite nicht für mobile Endgeräte geeignet ist, stellt dies in den meisten Fällen ein Problem dar, denn Google verfährt mittlerweile nach dem Prinzip “mobile-first”,  nutzt für die Indexierung also die Mobile Webseite.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -483,7 +482,7 @@ app.get("/en/technical/security", (req, res) => {
         layout: "main",
         title: "What is https | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "https is now the norm. If your site is still not on https, its migration should be on the top of your SEO to-do list.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -495,7 +494,7 @@ app.get("/de/technical/security", (req, res) => {
         layout: "mainDE",
         title: "Was ist https | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Hyper Text Transfer Protocol Secure (HTTPS) ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Webseite laufen. Das “S” in  HTTPS steht für “secure”. Konkret bedeutet es, dass jede Kommunikation zwischen Browser und Webseite verschlüsselt wird.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -506,7 +505,7 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
         layout: "main",
         title: "Javascript SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Javascript frameworks such as React and Angular which are client-side rendered are still very complex for Search Engines for indexation as they have trouble crawling them. This causes difficult challenges for SEO Optimization. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -518,7 +517,7 @@ app.get("/de/technical/dynamicrendering", (req, res) => {
         layout: "mainDE",
         title: "Javascript SEO  | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme, Crawling und Indexierung auf allen Seiten angemessen durchzuführen. Wenngleich sie ankündigen, im Laufe der Zeit und durch viele Seitenaufrufen (engl. Visits) gute Ergebnisse erzielen zu können, empfehlen sie für die meisten Seiten Dynamic Rendering.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -529,7 +528,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
         layout: "main",
         title: "SEO Brand Building | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Your links represent your reputation and relevancy in your domain.  Link building now goes hand in hand with brand building. As you  increased the digital signs of recognition aka links, you are also  building visibility of your brand.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -541,7 +540,7 @@ app.get("/de/offpage/brandbuilding", (req, res) => {
         layout: "mainDE",
         title: "SEO Brand Building | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Brand-building: beste Empfehlung für Inhaltserstellung. Inhaltserstellung: mehr Traffic Markenbekanntheit, traffic und backlinks",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -552,7 +551,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
         layout: "main",
         title: "Backlink Analysis | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "During a backlink analysis, a report needs to be done with the profile's pros and cons. In addition, it should include an audit  of competitors to understand where you stand. Then a brainstorm can be done on link  targets and content production. Finally work can be prioritised depending on  potential and complexity, setting targets: quantity and quality links  for the next quarters focusing on.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -564,7 +563,7 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
         layout: "mainDE",
         title: "Backlink Analyse | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Im Zuge eines Backlink Profil Audits muss ein Bericht über die Vor- und Nachteile des Profils erstellt werden. Zudem sollte es ein Audit der Konkurrenten beinhalten um Sie und Ihre Seite im Wettbewerb verorten zu können. Danach kann ein Brainstorming über angestrebte Links stattfinden.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -575,7 +574,7 @@ app.get("/en/offpage/toxic", (req, res) => {
         layout: "main",
         title: "What is a backlink ? | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Many think the more links, the better but it doesn't actually work that way. Too many low quality and/or spammy links and your website will lose Google credibility and therefore visibility.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -587,7 +586,7 @@ app.get("/de/offpage/toxic", (req, res) => {
         layout: "mainDE",
         title: "Was sind backlinks ? | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Viele denken, es gehe immer um eine möglichst große Anzahl von Links, dem ist allerdings nicht so. Zu viele Links von geringer Qualität und Spam senken Ihre Glaubwürdigkeit bei Suchmaschinen (engl. Google Credibility) und schaden somit Ihrer Sichtbarkeit.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -598,7 +597,7 @@ app.get("/en/blog", (req, res) => {
         layout: "main",
         title: "Search Engine Optimization Blog | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Berlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -610,7 +609,7 @@ app.get("/de/blog", (req, res) => {
         layout: "mainDE",
         title: "Suchmaschinenoptimierung Blog | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Blog von SEO Berlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -621,7 +620,7 @@ app.get("/en/impressum", (req, res) => {
         layout: "main",
         title: "SEO Consultant in Berlin - Impressum | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Berlino Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -633,7 +632,7 @@ app.get("/de/impressum", (req, res) => {
         layout: "mainDE",
         title: "SEO Berater in Berlin - Impressum | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Impressum, SEO Berlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -644,7 +643,7 @@ app.get("/en/seonews", (req, res) => {
         layout: "main",
         title: "Google SEO News | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO News around the web, from SEO Berlino, SEO and Analytics Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -655,8 +654,7 @@ app.get("/de/seonews", (req, res) => {
     res.render("seonews", {
         layout: "mainDE",
         title: "SEO Nachrichten | SEO Berlino",
-        description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "SEO Nachrichten von SEO Berlino. SEO Berater in Berlin. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -667,7 +665,7 @@ app.get("/en/offpage", (req, res) => {
         layout: "main",
         title: "Offpage Optimization | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building. Create great content to show your expertise, build your brand and attracted links and potential customers.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -678,8 +676,7 @@ app.get("/de/offpage", (req, res) => {
     res.render("offpage", {
         layout: "mainDE",
         title: "Offpage Optimierung | SEO Berlino",
-        description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Offpage Optimierung,",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -690,7 +687,7 @@ app.get("/en/onpage", (req, res) => {
         layout: "main",
         title: "Onpage Optimization| SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Onpage Optimization refers to any SEO action taken on the website that can be done directly. That concerns first and foremost the optimization of the content and the code of the page. It includes as well the elaboration of the content strategy and potential technical issues.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -701,8 +698,7 @@ app.get("/de/onpage", (req, res) => {
     res.render("onpage", {
         layout: "mainDE",
         title: "Onpage Optimierung  | SEO Berlino",
-        description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Offpage Optimierung,",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -713,7 +709,7 @@ app.get("/en/onpage/voicesearch", (req, res) => {
         layout: "main",
         title: "Voice Search SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Google Assistant, Alexa are just 2 of those devices which are transforming search. Instead of typing searches, users now more and more ask for their need vocally.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -724,8 +720,7 @@ app.get("/de/onpage/voicesearch", (req, res) => {
     res.render("voicesearch", {
         layout: "mainDE",
         title: "Sprachsuche SEO | SEO Berlino",
-        description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Offpage Optimierung,",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -736,7 +731,7 @@ app.get("/en/research/localseo", (req, res) => {
         layout: "main",
         title: "Local SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO, keeping in mind that  the most important factor in personalised search results is  location.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -747,8 +742,7 @@ app.get("/de/research/localseo", (req, res) => {
     res.render("localseo", {
         layout: "mainDE",
         title: "Local SEO | SEO Berlino",
-        description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Offpage Optimierung,",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -759,7 +753,7 @@ app.get("/en/research/sea", (req, res) => {
         layout: "main",
         title: "Search Engine Advertising and SEO| SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Paid Search uses the same base as SEO in keywords, and of course  share the same space in SERPs (Search Engine Result Pages). ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -770,8 +764,7 @@ app.get("/de/research/sea", (req, res) => {
     res.render("sea", {
         layout: "mainDE",
         title: "Suchmaschinenwerbung und SEO | SEO Berlino",
-        description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Offpage Optimierung,",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -794,7 +787,7 @@ app.get("/de/technical", (req, res) => {
         layout: "mainDE",
         title: "Was ist Technisches SEO | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Technisches SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern (engl. Search Engine Spiders) helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten und somit das natürliche Ranking zu verbessern.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -817,7 +810,7 @@ app.get("/de/research", (req, res) => {
         layout: "mainDE",
         title: "Webanalyse und Forschung SEO  | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Wenn Sie ein Ladenlokal haben, wie ein Geschäft oder ein Büro in dem Sie oft Besucher empfangen, ist ein wichtiger Aspekt Ihrer Webseitenoptimierung sicherzustellen, dass Menschen Sie auch im wirklichen Leben finden.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -840,7 +833,7 @@ app.get("/de/resources", (req, res) => {
         layout: "mainDE",
         title: "SEO Audit | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -862,7 +855,7 @@ app.get("/de/freeaudit", (req, res) => {
         layout: "mainDE",
         title: "SEO Check Kostenlos | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Check Kostenlos. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -884,7 +877,7 @@ app.get("/de/partnership", (req, res) => {
         layout: "mainDE",
         title: "Kostenlos SEO Partnerschaft | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Kostenlos SEO Partnerschaft. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -906,7 +899,7 @@ app.get("/de/contact", (req, res) => {
         layout: "mainDE",
         title: "SEO Experte in Berlin | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Berater in Berlin. SEO Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -929,7 +922,7 @@ app.get("/de/services", (req, res) => {
         layout: "mainDE",
         title: "SEO Consultancy | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });

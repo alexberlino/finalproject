@@ -362,6 +362,12 @@
         font-size: 14px;
     }
 
+    .languageBtn {
+        margin-left: 18%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
     .languageBtnEN {
         font-size: 17px;
         padding: 3px;

@@ -499,7 +499,8 @@ a.languageBtnEN {
     font-size: 21px;
     color: black;
     margin-top: 5px;
-    width: 100%;
+    width: 80%;
+    margin-left: 55px;
 }
 
 .txt3 {
