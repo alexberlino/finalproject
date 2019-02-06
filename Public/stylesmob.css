@@ -212,6 +212,10 @@
         padding: 0px;
     }
 
+    .logowhite {
+        width: 28%;
+    }
+
     .intro {
         margin-top: 10px;
         position: relative;
@@ -255,13 +259,40 @@
         padding: 5px;
     }
 
-    .logoQuarter {
-        background-color: black;
-        width: 100%;
-    }
-
     .logo {
         left: 4px;
+    }
+
+    .GAlogo {
+        width: 12%;
+    }
+
+    .GAdslogo {
+        width: 6%;
+    }
+    .Majesticlogo {
+        width: 24%;
+    }
+    .myBusinesslogo {
+        width: 20%;
+    }
+
+    .SClogo {
+        width: 20%;
+    }
+    .Sistrixlogo {
+        width: 20%;
+    }
+
+    .logowhite {
+        width: 34%;
+    }
+    .ahreflogo {
+        width: 32%;
+    }
+
+    .SFlogo {
+        width: 22%;
     }
 
     .intro21 {

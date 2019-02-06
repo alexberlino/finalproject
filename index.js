@@ -1039,11 +1039,39 @@ app.get("/en/services", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("services", {
         requrl: "/de" + req.originalUrl.substring(3),
-
+        title: "SEO Consultancy | SEO Berlino",
         layout: "main",
-        title: "SEO Beratung | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+    i18n.setLocale(req, "en");
+});
+
+app.get("/de/seo-for-small-businesses", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("servicesfreelancers", {
+        requrl: "/en" + req.originalUrl.substring(3),
+
+        layout: "mainDE",
+        title: "SEO Beratung für Kleinunternehmen in Berlin | SEO Berlino",
+
+        description:
+            "SEO Audit für Kleinunternehmen in Berlin. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
+
+app.get("/en/seo-for-small-businesses", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("servicesfreelancers", {
+        requrl: "/de" + req.originalUrl.substring(3),
+
+        layout: "main",
+        title:
+            "SEO Consultant / Audit for small Businesses in Berlin | SEO Berlino",
+        description:
+            "SEO Consultant in Berlin for . Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -1055,7 +1083,7 @@ app.get("/de/services", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Consultancy | SEO Berlino",
+        title: "SEO Bertatung in Berlin | SEO Berlino",
         description:
             "Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl

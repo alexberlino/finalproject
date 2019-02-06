@@ -354,6 +354,49 @@ a.languageBtnEN {
     margin-top: 0px;
 }
 
+.intro33 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+
+    position: relative;
+    background-color: white;
+    z-index: 14;
+    margin-top: 0px;
+}
+
+.GAlogo {
+    width: 6%;
+}
+
+.GAdslogo {
+    width: 3%;
+}
+.Majesticlogo {
+    width: 12%;
+}
+.myBusinesslogo {
+    width: 10%;
+}
+
+.SClogo {
+    width: 10%;
+}
+.Sistrixlogo {
+    width: 10%;
+}
+
+.logowhite {
+    width: 17%;
+}
+.ahreflogo {
+    width: 16%;
+}
+
+.SFlogo {
+    width: 16%;
+}
+
 .intro4,
 .intro41,
 .intro42 {
