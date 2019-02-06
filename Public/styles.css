@@ -1049,41 +1049,6 @@ a.langselected {
     width: 80%;
 }
 
-.toolbar_navigation_items ul {
-    list-style: none;
-    position: absolute;
-    top: 20px;
-    margin-left: 18%;
-    display: flex;
-    background-color: white;
-    height: auto;
-}
-
-.toolbar_navigation_items li {
-    background-color: white;
-    height: 24px;
-    width: 127px;
-    text-align: center;
-}
-
-.toolbar_navigation_items a {
-    color: black;
-    font-size: 24px;
-    text-decoration: none;
-    background-color: white;
-}
-
-.toolbar_navigation_items a:hover {
-    font-weight: bold;
-}
-
-.toolbar_toggle_button {
-    position: fixed;
-    left: 90%;
-    top: 20px;
-    z-index: 100;
-}
-
 .side span {
     color: white;
 }
@@ -1240,7 +1205,7 @@ a.langselected {
         top: auto;
         height: auto;
         display: block;
-        margin-left: 70%;
+        margin-left: 34%;
     }
 
     .main-menu ul {
