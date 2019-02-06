@@ -757,7 +757,7 @@ a.languageBtnEN {
 
 .footer {
     padding-top: 60px;
-    z-index: 100;
+    z-index: 900;
     padding-bottom: 10px;
     background-color: black;
     font-size: 18px;
@@ -899,6 +899,7 @@ h3.grey {
     width: 100%;
     top: 250px;
     left: 0;
+    z-index: 0;
 }
 
 .transparent {
