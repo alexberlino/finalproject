@@ -369,6 +369,7 @@ a.languageBtnEN {
     margin-top: 0px;
     margin-bottom: 0px;
     width: auto;
+    overflow: hidden;
 }
 
 .intro4 {
