@@ -989,9 +989,9 @@ app.get("/en/partnership", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "Free SEO Partnership | SEO Berlino",
+        title: "SEO Partnership | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Partnership with Consultant in Berlin: Audit for Sponsor. SEO Consultant with close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1002,9 +1002,9 @@ app.get("/de/partnership", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Kostenlos SEO Partnerschaft | SEO Berlino",
+        title: "SEO Partnerschaft | SEO Berlino",
         description:
-            "Kostenlos SEO Partnerschaft. Kontaktieren Sie uns jetzt für weitere Details.",
+            "SEO Partnerschaft. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
