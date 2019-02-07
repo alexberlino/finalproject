@@ -13,6 +13,16 @@ var server = http.createServer((req, res) => {
     res.end();
 });
 
+app.use(function(req, res, next) {
+    if (req.protocol === "https") {
+        console.log(req.protocol, req.secure);
+        next();
+    } else {
+        console.log("redirected");
+        res.redirect("https://" + req.headers.host + req.url);
+    }
+});
+
 var compression = require("compression");
 app.use(compression());
 
