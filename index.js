@@ -8,16 +8,16 @@ var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var http = require("http");
 
-app.use(function(req, res, next) {
-    if (req.protocol === "https") {
-        console.log(req.protocol, req.secure);
-        next();
-    } else {
-        console.log("redirected");
-        res.redirect("https://" + req.headers.host + req.url);
-        end();
-    }
-});
+if (process.env.NODE_ENV === "production") {
+    app.use(function(req, res, next) {
+        if (req.headers["x-forwarded-proto"] !== "https") {
+            return res.redirect(
+                ["https://", req.get("Host"), req.url].join("")
+            );
+        }
+        return next();
+    });
+}
 
 var compression = require("compression");
 app.use(compression());
