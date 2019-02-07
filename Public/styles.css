@@ -325,8 +325,16 @@ iframe {
     font-size: 29px;
     margin-left: 15px;
     padding: 10px;
-    border: 1px white solid;
+    border: 1px black solid;
     text-align: center;
+}
+
+.languageBtn2 {
+    position: fixed;
+    margin-left: 75%;
+    padding: 0px;
+    z-index: 105;
+    top: 18px;
 }
 
 a.languageBtnEN {
@@ -1257,6 +1265,7 @@ a.langselected {
 
     .main-menu ul {
         display: flex;
+        margin-top: 30px;
 
         /* Undo off-canvas styling */
         padding: 0;

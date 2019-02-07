@@ -1259,6 +1259,10 @@ app.get("/undefined/*", function(request, response) {
     response.end();
 });
 
+app.all("*", function(req, res) {
+    res.redirect("https://www.seoberlino.com/en");
+});
+
 // listening
 app.listen(process.env.PORT || 8080, () => console.log("listening"));
 
