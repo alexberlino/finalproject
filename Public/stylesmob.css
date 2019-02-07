@@ -132,27 +132,6 @@
         width: 130px;
     }
 
-    .logomustbe {
-        height: 30%;
-        width: 20%;
-    }
-    .logospreadshirt {
-        height: 40%;
-        width: 13%;
-    }
-    .logoteezily {
-        height: 30%;
-        width: 16%;
-    }
-    .logoholberton {
-        height: 20%;
-        width: 20%;
-    }
-    .logomadeforrain {
-        height: 30%;
-        width: 20%;
-    }
-
     .listArticlesBlog {
         font-size: 16px;
         height: auto;
@@ -212,10 +191,6 @@
         padding: 0px;
     }
 
-    .logowhite {
-        width: 28%;
-    }
-
     .intro {
         margin-top: 10px;
         position: relative;
@@ -262,39 +237,22 @@
     .logo {
         left: 4px;
     }
+    .brandlogo {
+        width: 50%;
+        margin-left: 1px;
+        margin-bottom: 5px;
+        max-width: 63px;
+    }
 
-    .GAlogo {
-        width: 12%;
+    .brandlogo2 {
+        margin-left: 1px;
+        margin-bottom: 5px;
+        max-height: 40px;
     }
 
     .GAdslogo {
-        width: 6%;
+        width: 10%;
     }
-    .Majesticlogo {
-        width: 24%;
-    }
-    .myBusinesslogo {
-        width: 20%;
-    }
-
-    .SClogo {
-        width: 20%;
-    }
-    .Sistrixlogo {
-        width: 20%;
-    }
-
-    .logowhite {
-        width: 34%;
-    }
-    .ahreflogo {
-        width: 32%;
-    }
-
-    .SFlogo {
-        width: 22%;
-    }
-
     .intro21 {
         font-size: 16px;
         margin-top: 20px;

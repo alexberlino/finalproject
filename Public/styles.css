@@ -365,55 +365,36 @@ a.languageBtnEN {
     margin-top: 0px;
 }
 
-.GAlogo {
-    width: 6.5%;
+.brandlogo {
+    margin-left: 2px;
+    margin-top: 35px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+}
+
+.GAlogo {
 }
 
 .GAdslogo {
-    width: 3.5%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 .Majesticlogo {
-    width: 10%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 .myBusinesslogo {
-    width: 8%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 .SClogo {
-    width: 8%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 .Sistrixlogo {
-    width: 10%;
     margin-bottom: 9px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 .logowhite {
-    width: 10%;
-    margin-left: 5%;
 }
 .ahreflogo {
-    width: 10%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 .SFlogo {
-    width: 14%;
     margin-top: 9px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
 
 .intro4,
