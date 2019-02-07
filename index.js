@@ -8,11 +8,6 @@ var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var http = require("http");
 
-var server = http.createServer((req, res) => {
-    res.writeHead(301, { Location: `https://${req.headers.host}${req.url}` });
-    res.end();
-});
-
 app.use(function(req, res, next) {
     if (req.protocol === "https") {
         console.log(req.protocol, req.secure);
@@ -20,6 +15,7 @@ app.use(function(req, res, next) {
     } else {
         console.log("redirected");
         res.redirect("https://" + req.headers.host + req.url);
+        end();
     }
 });
 
