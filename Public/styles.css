@@ -838,6 +838,10 @@ h3.grey {
     color: white;
 }
 
+h3.marginleft.white {
+     color: white;
+}
+
 .infoTitle {
     width: 100%;
     z-index: 1;
