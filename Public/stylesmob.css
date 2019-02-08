@@ -453,6 +453,10 @@
         margin-left: 35%;
     }
 
+    .toolbar_navigation {
+        margin-left: -50px;
+    }
+
     .introHP {
         margin-top: 514px;
     }
