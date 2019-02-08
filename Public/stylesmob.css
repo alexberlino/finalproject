@@ -113,7 +113,6 @@
         z-index: 11;
     }
     .services {
-        margin-top: 250px;
         left: 0;
         width: 96%;
         padding-left: 4px;
@@ -403,7 +402,7 @@
         margin-left: 5px;
         left: 0px;
         opacity: 1;
-        position: fixed;
+        position: relative;
         top: 15px;
     }
 
