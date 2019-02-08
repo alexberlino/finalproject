@@ -120,7 +120,7 @@
         z-index: 10;
         margin-bottom: 0px;
         margin-left: 1%;
-        opacity: 0.94;
+        opacity: 0.97;
     }
 
     .imageBlogHP {
@@ -130,24 +130,6 @@
 
     .imageBlog {
         width: 130px;
-    }
-
-    .listArticlesBlog {
-        font-size: 16px;
-        height: auto;
-        width: 35%;
-        position: absolute;
-        vertical-align: middle;
-        margin: 0px;
-        margin-left: 3%;
-        padding: 9px;
-    }
-
-    .listArticlesBlogHP {
-        width: 45%;
-        font-size: 18px;
-        margin-left: 8%;
-        color: black;
     }
 
     .blogItemHP {
@@ -253,20 +235,6 @@
     .GAdslogo {
         width: 10%;
     }
-    .intro21 {
-        font-size: 16px;
-        margin-top: 20px;
-        text-align: center;
-        display: block;
-        padding: 0px;
-        margin-left: 10%;
-        color: black;
-        background-color: white;
-    }
-
-    .intro21 .txt2 {
-        color: black;
-    }
 
     .footer {
         z-index: 30;
@@ -299,14 +267,6 @@
 
     .blogArticles {
         margin-left: 8px;
-    }
-
-    .blogArticlesHP {
-        display: block;
-        padding-top: 10px;
-
-        width: 100%;
-        padding-bottom: 40px;
     }
 
     .block {
@@ -419,61 +379,17 @@
         font-weight: normal;
         font-size: 20px;
     }
-    .mainBlog {
-        display: block;
-        padding-bottom: 0px;
-    }
 
-    .article {
-        left: -100px;
-        margin-top: 60%;
-
-        display: block;
-    }
-
-    .linkstoPageMainDiv {
-        font-size: 13px;
-    }
-    .articleArticle {
-        width: 80%;
-        margin-left: 10%;
-        margin-bottom: 25%;
-        padding: 5px;
-        z-index: 0;
-        font-size: 18px;
-    }
     .blognote {
         margin-left: 35px;
         font-size: 15px;
     }
-    .articleAuthor {
-        margin-left: 10%;
-    }
-    .articleDate {
-        margin-left: 10%;
-    }
-    .articleTitle {
-        width: 60%;
-        margin-left: 10%;
-        font-size: 22px;
-    }
 
-    .articlePic {
-        height: 200px;
-        width: 300px;
-        margin-left: 10%;
-    }
-
-    .field {
-        width: 270px;
-    }
-    .toolbar_navigation_items {
-        display: none;
-    }
     .toolbar_logo {
-        width: 45px;
-        height: 40px;
-        margin-top: -13px;
+        left: 100px;
+        width: 50px;
+        height: 45px;
+        top: -9px;
     }
 
     .iconsmore2 {
@@ -504,10 +420,6 @@
 @media (min-width: 769px) {
     .side-drawer {
         font-size: 25px;
-    }
-
-    .linkstoPageMainDiv2 {
-        display: none;
     }
 
     .toggle_button {

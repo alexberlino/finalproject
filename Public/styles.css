@@ -221,23 +221,6 @@ iframe {
     opacity: 1;
 }
 
-.field {
-    display: flex;
-    background-color: white;
-    width: 100%;
-    opacity: 0.8;
-    border-radius: 10px;
-    border: black 1px dotted;
-}
-
-.map {
-    position: relative;
-    display: inline-flex;
-    width: 85%;
-    height: 500px;
-    margin-bottom: 30px;
-}
-
 .contactpage {
     position: relative;
     display: inline;
@@ -286,16 +269,6 @@ iframe {
     top: 0px;
 }
 
-.mainBlog {
-    background-color: rgba(250, 250, 250, 0.94);
-    position: relative;
-    margin-top: 10%;
-    min-height: calc(100vh - 120px);
-}
-
-.mainlogin {
-    margin-top: 20%;
-}
 .mainHP {
     width: 100%;
     height: 100%;
@@ -324,14 +297,14 @@ iframe {
     background-color: white;
     font-size: 29px;
     margin-left: 15px;
-    padding: 10px;
+    padding: 5px;
     border: 1px black solid;
     text-align: center;
 }
 
 .languageBtn2 {
     position: fixed;
-    margin-left: 75%;
+    margin-left: 85%;
     padding: 0px;
     z-index: 105;
     top: 18px;
@@ -380,25 +353,8 @@ a.languageBtnEN {
     filter: grayscale(100%);
 }
 
-.GAlogo {
-}
-
-.GAdslogo {
-}
-.Majesticlogo {
-}
-.myBusinesslogo {
-}
-
-.SClogo {
-}
 .Sistrixlogo {
     margin-bottom: 9px;
-}
-
-.logowhite {
-}
-.ahreflogo {
 }
 
 .SFlogo {
@@ -473,22 +429,6 @@ a.languageBtnEN {
 .iconsmore2 {
     height: 15px;
     width: 15px;
-}
-
-.iconphone {
-    background-color: transparent;
-    display: inline;
-    height: 30px;
-    width: 25px;
-}
-
-.blogArticlesHP {
-    width: 100%;
-    z-index: 10;
-    position: relative;
-    padding-bottom: 30px;
-
-    background-color: white;
 }
 
 .blogArticles {
@@ -600,65 +540,6 @@ a.languageBtnEN {
     padding: 20px;
 }
 
-.intro21 {
-    margin-left: 13%;
-    background-color: none;
-    opacity: 0.95;
-    position: relative;
-    width: 70%;
-    display: flex;
-    padding: 20px;
-}
-
-.linkToPages {
-    position: relative;
-    display: block;
-    background-color: white;
-    z-index: 100;
-}
-
-.buttonHP2 {
-    margin-left: 5%;
-    margin-top: 30px;
-    width: 10%;
-    font-size: 20px;
-    background: none;
-    color: white;
-    border: white 1px solid;
-    display: inline;
-    position: relative;
-}
-
-.buttonEdit,
-.buttonEdit2 {
-    background-color: black;
-    color: white;
-    left: 9px;
-    top: 10px;
-    z-index: 10;
-    position: relative;
-    height: 30px;
-    width: 180px;
-    font-size: 17px;
-    margin-bottom: 10%;
-    border-radius: 120px;
-    border: white 2px solid;
-}
-
-.buttonEdit2 {
-    top: 0;
-    left: 0;
-}
-.listArticlesBlog {
-    font-size: 26px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    color: black;
-    display: flex;
-    position: relative;
-    border: red 1px solid;
-    width: 50%;
-}
 .importancenews {
     display: inline;
     height: 11px;
@@ -686,59 +567,10 @@ a.languageBtnEN {
     margin-left: 40%;
 }
 
-.articleTitle {
-    display: block;
-    position: relative;
-    margin-top: 10%;
-    width: 60%;
-    padding: 5px;
-    z-index: 0;
-    font-size: 22px;
-}
-
-.articleDate {
-    display: block;
-    position: relative;
-    width: 80%;
-    padding: 5px;
-    z-index: 0;
-    font-size: 16px;
-    font-weight: bold;
-}
-.articleAuthor {
-    display: block;
-    position: relative;
-    width: 60%;
-    padding: 5px;
-    z-index: 0;
-    font-style: italic;
-    font-size: 18px;
-}
-
 .italic {
     font-style: italic;
 }
-.articleID {
-    display: block;
-    position: relative;
-    width: 60%;
-    margin-left: 30%;
-    padding: 5px;
-    z-index: 0;
-    color: grey;
-    font-style: italic;
-    font-size: 10px;
-}
 
-.articleArticle {
-    display: block;
-    position: relative;
-    word-wrap: break-word;
-    width: 60%;
-    padding: 5px;
-    z-index: 0;
-    font-size: 22px;
-}
 .blognote {
     position: absolute;
     bottom: 50px;
@@ -746,21 +578,6 @@ a.languageBtnEN {
     font-style: italic;
     margin-left: 30%;
     display: block;
-}
-
-.articlePic {
-    height: 300px;
-    width: 500px;
-    position: relative;
-    z-index: 2;
-    margin-left: 30%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.footerflags {
-    padding: 5px;
-    color: white;
 }
 
 .footer {
@@ -1047,11 +864,13 @@ h3.grey {
     height: 30px;
     vertical-align: middle;
     z-index: 100;
+    width: 100%;
 }
 
 .toolbar_logo {
-    margin-top: 25px;
-    top: 0px;
+    margin-top: 48px;
+    top: 3px;
+    left: 3px;
     position: relative;
     height: 80px;
     width: 80px;
@@ -1120,6 +939,7 @@ a.langselected {
 
 /* Button styling */
 .menu-toggle {
+    margin-top: 14px;
     display: inline-block;
     padding: 0.75em 15px;
     line-height: 1em;
@@ -1151,14 +971,15 @@ a.langselected {
 
 .main-menu ul {
     list-style: none;
+    margin-top: 58px;
     margin: 0;
     padding: 2.5em 0 0;
     /* Hide shadow w/ -8px while 'closed' */
-    -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
-    box-shadow: -8px 0 8px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, 0);
+    -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, 0);
+    box-shadow: -8px 0 8px rgba(0, 0, 0, 0);
     min-height: 100%;
-    width: 200px;
+    width: 410px;
     background: #1a1a1a;
 }
 
@@ -1168,6 +989,7 @@ a.langselected {
     line-height: 1em;
     font-size: 1em;
     color: #fff;
+    margin-top: 10px;
     text-decoration: none;
     border-bottom: 1px solid #383838;
 }
@@ -1180,7 +1002,6 @@ a.langselected {
 .main-menu a:focus {
     background: #333;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .main-menu .menu-close {
@@ -1201,9 +1022,6 @@ a.langselected {
     display: block;
     left: 0;
     outline: none;
-    -moz-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
-    box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
 }
 
 .main-menu:target .menu-close,
@@ -1260,13 +1078,12 @@ a.langselected {
         top: auto;
         height: auto;
         display: block;
-        margin-left: 34%;
+        top: 40px;
+        left: 20%;
     }
 
     .main-menu ul {
         display: flex;
-        margin-top: 30px;
-
         /* Undo off-canvas styling */
         padding: 0;
         -webkit-box-shadow: none;
@@ -1274,12 +1091,15 @@ a.langselected {
         box-shadow: none;
         height: auto;
         width: auto;
+
+        min-width: 80px;
         background: none;
     }
 
     .main-menu a {
         color: black;
         font-size: 22px;
+
         border: 0 !important; /* Remove borders from off-canvas styling */
     }
 
@@ -1289,38 +1109,6 @@ a.langselected {
         text-decoration: bold;
         text-shadow: 0px 1px grey;
     }
-}
-
-/*
- Demo purposes only
-*/
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-header {
-    padding: 20px;
-    display: flex;
-    align-items: baseline;
-}
-
-article {
-    padding: 30px;
-    width: 55em;
-    font-size: 16px;
-    line-height: 1.5em;
-}
-
-article h2 {
-    font-weight: 500;
-    font-size: 28px;
-}
-
-.logo {
-    margin: 0 30px 0 10px;
-    font-size: 1.5em;
 }
 
 .main2 {
@@ -1360,35 +1148,6 @@ article h2 {
     margin-top: 30%;
 }
 
-.linkstoPageMainDiv {
-    font-size: 15px;
-    text-align: center;
-    color: white;
-    position: relative;
-    width: 100%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.linkstoPageMainDiv a {
-    color: white;
-    padding: 3px;
-}
-.linkstoPageMainDiv li {
-    list-style: none;
-    padding: 1px;
-}
-.intro21 {
-    margin-left: 13%;
-    background-color: none;
-    margin-top: 10px;
-    opacity: 0.95;
-    position: relative;
-    width: 70%;
-    display: flex;
-    padding: 20px;
-}
-
 .transpbg-white {
     background-color: transparent;
     color: white;
@@ -1408,33 +1167,4 @@ h2.orange {
 
 .orange2 a:hover {
     color: #5b0c32;
-}
-
-.slide-in-left {
-    animation: slide-in-left 1s;
-}
-
-@-webkit-keyframes slide-in-left {
-    0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes slide-in-left {
-    0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
 }
