@@ -46,8 +46,8 @@ h2 {
     font-size: 35px;
 }
 h2.white,
-.orange2,
-.orange2 a {
+.black2,
+.black2 a {
     color: white;
     font-size: 45px;
     margin-top: 0px;
@@ -56,12 +56,12 @@ h2.white,
     margin-left: 4%;
 }
 
-.orange2 a {
+.black2 a {
     color: black;
     z-index: 5;
 }
 
-.orange2 {
+.black2 {
     color: black;
 }
 
@@ -747,6 +747,8 @@ h3.grey {
     background-color: #5b0c32;
     display: block;
     position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
     z-index: 10;
 }
 .backgroundBlack2 {
@@ -1157,6 +1159,7 @@ a.langselected {
     font-size: 28px;
 }
 
+.orange,
 h2.orange {
     color: #fd6a02;
     font-size: 45px;
@@ -1165,6 +1168,6 @@ h2.orange {
     display: inline;
 }
 
-.orange2 a:hover {
+.black2 a:hover {
     color: #5b0c32;
 }
