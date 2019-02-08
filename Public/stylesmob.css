@@ -392,9 +392,10 @@
         top: -12px;
     }
 
-    h3.marginleft.white {
-         color: white;
-        font-size: 24px;
+    h3.black.marginleft2 {
+         color: black;
+        font-size: 22px;
+        margin-top: -50px;
     }
 
     .iconsmore2 {

@@ -396,6 +396,10 @@ a.languageBtnEN {
     margin-left: 5%;
 }
 
+.marginleft2 {
+    margin-left: 15%;
+}
+
 .paddingleft {
     padding-left: 5%;
 }
@@ -838,8 +842,10 @@ h3.grey {
     color: white;
 }
 
-h3.marginleft.white {
-     color: white;
+h3.black.marginleft2 {
+     color: black;
+    font-size: 35px;
+    margin-top: -30px;
 }
 
 .infoTitle {
