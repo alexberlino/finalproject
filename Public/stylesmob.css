@@ -10,6 +10,10 @@
         margin-left: 7px;
     }
 
+    .block.center {
+        text-align: left;
+    }
+
     .h1hp {
         font-size: 29px;
     }
@@ -247,6 +251,11 @@
 
     h2.orange,
     h2.black2 a {
+        font-size: 32px;
+    }
+
+    h2.transpbg-white.orange {
+        color: #fd6a02;
         font-size: 32px;
     }
 

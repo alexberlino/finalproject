@@ -1094,6 +1094,10 @@ a.langselected {
         left: 20%;
     }
 
+    .backdrop {
+        transform: translate(-10000px);
+    }
+
     .main-menu ul {
         display: flex;
         /* Undo off-canvas styling */
