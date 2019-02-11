@@ -295,7 +295,7 @@ iframe {
 .languageBtnEN {
     color: black;
     background-color: white;
-    font-size: 29px;
+    font-size: 20px;
     margin-left: 15px;
     padding: 5px;
     border: 1px black solid;
@@ -306,8 +306,8 @@ iframe {
     position: fixed;
     margin-left: 85%;
     padding: 0px;
-    z-index: 99;
-    top: 18px;
+    z-index: 97;
+    top: 27px;
 }
 
 a.languageBtnEN {
@@ -690,7 +690,7 @@ button.servicesHP2 {
     display: block;
     margin-top: 20px;
     border-radius: 15px;
-    margin-left: 42%;
+    margin-left: 40%;
     z-index: 300;
 }
 
@@ -724,9 +724,9 @@ h3.grey {
     position: -o-sticky;
     z-index: 1;
     min-height: 0px;
-    max-height: 500px;
+    max-height: 700px;
     width: 100%;
-    top: 250px;
+    top: 50px;
     left: 0;
     z-index: 0;
 }
