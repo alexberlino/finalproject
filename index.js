@@ -967,9 +967,9 @@ app.get("/en/resources", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "SEO Berlin - SEO Audit | SEO Berlino",
+        title: "SEO Marketing Berlin | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Marketing Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -981,9 +981,9 @@ app.get("/de/resources", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Berlin  - SEO Audit | SEO Berlino",
+        title: "SEO Marketing Berlin | SEO Berlino",
         description:
-            "Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+            "SEO Marketing Berlin. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1046,9 +1046,9 @@ app.get("/en/contact", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "SEO Freelancer Berlin - Contact | SEO Berlino",
+        title: "SEO Expert Berlin - Contact | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Expert Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
