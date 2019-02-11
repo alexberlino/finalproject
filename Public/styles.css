@@ -403,12 +403,13 @@ a.languageBtnEN {
 .paddingleft {
     padding-left: 5%;
 }
-.icons,
+
 .icon {
     height: 50px;
     width: 50px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    margin-left: 70px;
 }
 
 .bigicon {
@@ -926,6 +927,11 @@ a.langselected {
 }
 .center {
     text-align: center;
+}
+
+.floatright {
+    margin-left: 35%;
+    font-size: 40px;
 }
 
 .marginright {
