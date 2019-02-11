@@ -230,7 +230,8 @@ iframe {
     padding: 5px;
     margin-left: 10%;
 }
-.services {
+.services,
+.services4 {
     margin-bottom: 20px;
     padding-left: 70px;
     position: relative;
@@ -258,6 +259,11 @@ iframe {
     margin-top: 150px;
     background-color: white;
     opacity: 0.89;
+}
+
+.services4 {
+    margin-left: 12%;
+    width: 72%;
 }
 
 .imageAudit {
