@@ -124,7 +124,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Consultant and Freelancer Berlin | SEO Berlino",
+        title: "SEO Consultant Berlin | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -136,9 +136,9 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Berater und Freelancer Berlin | SEO Berlino",
+        title: "SEO Beratung Berlisn | SEO Berlino",
         description:
-            "SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
+            "SEO Beratung in Berlin. 10 Jahre Erfahrung: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -372,6 +372,31 @@ app.get("/de/research/analytics", (req, res) => {
         title: "Webanalyse für SEO | SEO Berlino",
         description:
             "Um im SEO effizient arbeiten zu können, besonders im Bereich Onpage, sind verlässliche Daten unerlässlich.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
+
+app.get("/en/research/wordpress", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("wordpressseo", {
+        requrl: "/de" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "WordPress SEO | SEO Berlino",
+        description:
+            "In order to efficiently work with WordPress, especially for on-page work, it is crucial to use reliable data, and analytics is key here in  compiling reports which will enable for instance to identify the  number of visits/unique visitors and conversions for specific pages  and site sections, or compare data by device type or browser.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+    i18n.setLocale(req, "en");
+});
+
+app.get("/de/research/wordpress", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("wordpressseo", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainDE",
+        title: "SEO für WordPress | SEO Berlino",
+        description:
+            "Für WordPress, um im SEO effizient arbeiten zu können, besonders im Bereich Onpage, sind verlässliche Daten unerlässlich.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1045,10 +1070,10 @@ app.get("/en/services", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("services", {
         requrl: "/de" + req.originalUrl.substring(3),
-        title: "SEO Services and Consultancy Berlin | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Berlino",
         layout: "main",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -1088,9 +1113,9 @@ app.get("/de/services", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Beratung Berlin | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Berlino",
         description:
-            "SEO Beratung in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+            "SEO Freela in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
