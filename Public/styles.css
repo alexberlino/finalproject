@@ -1173,7 +1173,11 @@ a.langselected {
 }
 
 .linkedin {
-    margin-top: 30%;
+    top: -40px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 60%;
+    border-radius: 7px;
 }
 
 .transpbg-white {

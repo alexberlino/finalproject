@@ -124,9 +124,9 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Consultant Berlin | SEO Berlino",
+        title: "SEO Consultant | Freelancer Berlin | SEO Berlino",
         description:
-            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Consultant Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -136,7 +136,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung Berlisn | SEO Berlino",
+        title: "SEO Beratung | Freelancer Berlin | SEO Berlino",
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -1211,22 +1211,6 @@ app.get("/checknotice", (req, res, next) => {
 
 /////////////redirects and 410///////////////////////
 
-app.get("/archives/208 ", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/archives/70 ", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
 app.get("/en/services ", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-freelancer",
@@ -1259,15 +1243,7 @@ app.get("/de/resources ", function(request, response) {
     response.end();
 });
 
-app.get("/archives/195", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/archives/99", function(request, response) {
+app.get("/archives/*", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en",
         Expires: new Date().toGMTString()
