@@ -1229,7 +1229,7 @@ app.get("/archives/70 ", function(request, response) {
 
 app.get("/en/services ", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seo-freelancer",
+        Location: "/en/seo-freelancer",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1237,7 +1237,7 @@ app.get("/en/services ", function(request, response) {
 
 app.get("/de/services ", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seo-freelancer",
+        Location: "/de/seo-freelancer",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1245,7 +1245,7 @@ app.get("/de/services ", function(request, response) {
 
 app.get("/en/resources ", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seo",
+        Location: "/en/seo",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1253,7 +1253,7 @@ app.get("/en/resources ", function(request, response) {
 
 app.get("/de/resources ", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seo",
+        Location: "/de/seo",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1323,7 +1323,7 @@ app.get("/undefined/*", function(request, response) {
 });
 
 app.all("*", function(req, res) {
-    res.redirect("https://www.seoberlino.com/en");
+    res.redirect("/en");
 });
 
 // listening
