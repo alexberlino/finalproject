@@ -961,7 +961,7 @@ app.get("/de/research", (req, res) => {
     });
 });
 
-app.get("/en/resources", (req, res) => {
+app.get("/en/seo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("resources", {
         requrl: "/de" + req.originalUrl.substring(3),
@@ -975,7 +975,7 @@ app.get("/en/resources", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/resources", (req, res) => {
+app.get("/de/seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("resources", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -1066,9 +1066,9 @@ app.get("/de/contact", (req, res) => {
     });
 });
 
-app.get("/en/services", (req, res) => {
+app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("services", {
+    res.render("freelancer", {
         requrl: "/de" + req.originalUrl.substring(3),
         title: "SEO Freelancer Berlin | SEO Berlino",
         layout: "main",
@@ -1107,9 +1107,9 @@ app.get("/en/seo-for-small-businesses", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/services", (req, res) => {
+app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("services", {
+    res.render("freelancer", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -1222,6 +1222,38 @@ app.get("/archives/208 ", function(request, response) {
 app.get("/archives/70 ", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/services ", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/en/seo-freelancer",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/services ", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/seo-freelancer",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/resources ", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/en/seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/resources ", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/seo",
         Expires: new Date().toGMTString()
     });
     response.end();

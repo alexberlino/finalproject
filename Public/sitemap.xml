@@ -174,9 +174,9 @@ href="https://www.seoberlino.com/en/seonews"/>
 
 
 
-<url><loc>https://www.seoberlino.com/en/resources</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/resources"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/resources"/>
+<url><loc>https://www.seoberlino.com/en/seo</loc><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en/seo"/><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/seo"/>
 <priority>0.5</priority></url>
 
 
@@ -230,9 +230,9 @@ href="https://www.seoberlino.com/en/impressum"/>
 <xhtml:link rel="alternate" hreflang="de"
 href="https://www.seoberlino.com/de/impressum"/><priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/en/services</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/services"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/services"/>
+<url><loc>https://www.seoberlino.com/en/seo-freelancer</loc><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en/seo-freelancer"/><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/seo-freelancer"/>
 <priority>0.5</priority></url>
 
 
@@ -433,9 +433,9 @@ href="https://www.seoberlino.com/en/contact"/><priority>0.5</priority></url>
 
 
 
-<url><loc>https://www.seoberlino.com/de/resources</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/resources"/><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/resources"/><priority>0.5</priority></url>
+<url><loc>https://www.seoberlino.com/de/seo</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/seo"/><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en/seo"/><priority>0.5</priority></url>
 
 
 <url><loc>https://www.seoberlino.com/en/research</loc><xhtml:link rel="alternate" hreflang="en"
@@ -450,9 +450,9 @@ href="https://www.seoberlino.com/de/research"/><xhtml:link rel="alternate" hrefl
 href="https://www.seoberlino.com/en/research"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/de/services</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/services"/><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/services"/>
+<url><loc>https://www.seoberlino.com/de/seo-freelancer</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/seo-freelancer"/><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en/seo-freelancer"/>
 <priority>0.5</priority></url>
 
 </urlset>
