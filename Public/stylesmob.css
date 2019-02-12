@@ -153,9 +153,23 @@
         margin-left: 10%;
         width: 90%;
     }
-    .txt a,
+    /* .txt a,
     .txt2 a {
         color: white;
+    } */
+
+    .txt.black a,
+    .txt2.black a {
+        color: black;
+    }
+
+    .txt2.black a {
+        color: black;
+    }
+
+    .floatright {
+        font-size: 33px;
+        margin-left: 16%;
     }
 
     h2.white {
@@ -330,6 +344,10 @@
         padding: 1px;
         position: flex;
         margin-left: 10px;
+    }
+
+    .languageBtn2 {
+        top: 13px;
     }
 
     .toggleMan {
