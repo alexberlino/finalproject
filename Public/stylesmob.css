@@ -117,7 +117,8 @@
         margin-top: 3%;
         z-index: 11;
     }
-    .services {
+    .services,
+    .services4 {
         left: 0;
         width: 96%;
         padding-left: 4px;
