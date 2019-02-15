@@ -1174,9 +1174,7 @@ a.langselected {
 
 .linkedin {
     top: -40px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    width: 60%;
+    width: 80%;
     border-radius: 7px;
 }
 
