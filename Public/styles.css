@@ -613,7 +613,7 @@ a.languageBtnEN {
 
 .footerHalf {
     display: inline;
-    width: 30%;
+    width: 50%;
     margin-top: auto;
     margin-bottom: auto;
     vertical-align: top;
@@ -1181,6 +1181,10 @@ a.langselected {
 .transpbg-white {
     background-color: transparent;
     color: white;
+}
+
+.footerproven {
+    margin-left: 40%;
 }
 
 .big {

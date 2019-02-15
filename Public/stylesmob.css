@@ -172,6 +172,11 @@
         margin-left: 16%;
     }
 
+    .footerproven {
+        width: 80px;
+        heigth: 80px;
+    }
+
     h2.white {
         font-size: 25px;
     }
