@@ -125,9 +125,9 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Consultant | Freelancer Berlin | SEO Berlino",
+        title: "SEO Freelancer | SEO Consultant Berlin | SEO Berlino",
         description:
-            "SEO Consultant Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Freelancer & Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -964,13 +964,13 @@ app.get("/de/research", (req, res) => {
 
 app.get("/en/seo", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("resources", {
+    res.render("seo", {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "SEO Marketing Berlin | SEO Berlino",
+        title: "SEO Berlin | SEO Berlino",
         description:
-            "SEO Marketing Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Berlin: SEO Freelancer. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -978,13 +978,13 @@ app.get("/en/seo", (req, res) => {
 
 app.get("/de/seo", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("resources", {
+    res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Marketing Berlin | SEO Berlino",
+        title: "SEO Berlin | SEO Berlino",
         description:
-            "SEO Marketing Berlin. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+            "SEO Berlin: SEO Freelancer. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1071,10 +1071,10 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("freelancer", {
         requrl: "/de" + req.originalUrl.substring(3),
-        title: "SEO Freelancer Berlin | SEO Berlino",
+        title: "SEO Consultant Freelancer Berlin | SEO Berlino",
         layout: "main",
         description:
-            "SEO Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Consultant Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
     i18n.setLocale(req, "en");
@@ -1116,7 +1116,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         layout: "mainDE",
         title: "SEO Freelancer Berlin | SEO Berlino",
         description:
-            "SEO Freela in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+            "SEO Freelancer in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1271,6 +1271,14 @@ app.get("/admin", function(request, response) {
 });
 
 app.get("/login", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+app.get("/en/login", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+app.get("en/en/blog", function(request, response) {
     response.writeHead(410);
     response.end();
 });
