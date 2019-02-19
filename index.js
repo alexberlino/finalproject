@@ -125,7 +125,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Freelancer | SEO Consultant Berlin | SEO Berlino",
+        title: "SEO Freelancer & SEO Consultant Berlin | SEO Berlino",
         description:
             "SEO Freelancer & Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -137,9 +137,9 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung | Freelancer Berlin | SEO Berlino",
+        title: "SEO Beratung Berlin | SEO Berlino",
         description:
-            "SEO Beratung in Berlin. 10 Jahre Erfahrung: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
+            "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
