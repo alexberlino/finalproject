@@ -715,9 +715,11 @@ button.servicesHP2 {
     font-weight: normal;
 }
 
-h3.grey {
+h3.grey a,
+h3.grey a:visited {
     color: grey;
 }
+
 .seotxt {
     position: relative;
     display: inline;
