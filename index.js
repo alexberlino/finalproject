@@ -1316,7 +1316,8 @@ app.get("/undefined/*", function(request, response) {
 });
 
 app.all("*", function(req, res) {
-    res.redirect("/en");
+    res.writeHead(404);
+    res.end();
 });
 
 // listening
