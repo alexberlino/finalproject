@@ -107,15 +107,14 @@ app.use(
 app.get("/", function(req, res, next) {
     if (process.env.NODE_ENV == "production") {
         res.writeHead(301, {
-            Location: "https://www.seoberlino.com/en",
+            Location: "https://www.seoberlino.com/de",
             Expires: new Date().toGMTString()
         });
         res.end();
     } else {
-        i18n.setLocale(req, "en");
-
+        i18n.setLocale(req, "de");
         res.render("home", {
-            layout: "main"
+            layout: "mainDE"
         });
     }
 });
