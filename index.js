@@ -161,7 +161,7 @@ app.get("/de/onpage/duplicatecontent", (req, res) => {
     res.render("duplicatecontent", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Duplicate Content | SEO Berlino",
+        title: "Doppelter Inhalt SEO | SEO Berlino",
         description:
             "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -212,7 +212,7 @@ app.get("/de/onpage/internallinking", (req, res) => {
     res.render("internallinking", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Interne Verlinkung | SEO Berlino",
+        title: "Interne Verlinkung SEO | SEO Berlino",
         description:
             "Interne Verlinkungen sind der Kern des Onpage SEO. Verstehen, wie das Crawling Ihrer Webseite durch den Google Bot funktioniert.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -264,7 +264,7 @@ app.get("/de/onpage/metas", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Meta Tags SEO | SEO Berlino",
+        title: "Meta Tags - Google Suche optimieren | SEO Berlino",
         description:
             "Seitentitel werden oft vernachlässigt, sind allerdings extrem wichtig und sehr einfach zu realisieren. Wesentlich ist, dass Sie mit der Formulierung ins Schwarze treffen.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -277,7 +277,7 @@ app.get("/en/onpage/content", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "SEO Content -  SEO Content Marketing | SEO Berlino",
+        title: "SEO Content SEO Inhalt - Content Marketing | SEO Berlino",
         description:
             "The content is the value you want to create. If you content has no  value to the user, or if it is duplicate content, your content will  not be brought forward.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -449,7 +449,7 @@ app.get("/de/technical/crawlability", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Crawling SEO - Web Crawl | SEO Berlino",
+        title: "Web-Crawling | SEO Berlino",
         description:
             "Crawling hängt unmittelbar mit Indexierung zusammen. Um die Indexierung anzupassen, beziehungsweise zu optimieren, können Sie Google dabei lenken, wie es beim Crawling auf Ihrer Seite vorgeht.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -529,7 +529,7 @@ app.get("/de/technical/pagespeed", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Page Speed | SEO Berlino",
+        title: "SEO Seitengeschwindigkeit | SEO Berlino",
         description:
             "So machen Sie Ihre Seite schneller. Nutzen Sie schnelle Host-Dienste, einen schnellen DNS (“Domain Name System”) Provider",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -556,7 +556,7 @@ app.get("/de/technical/mobilefriendly", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Mobile Friendly| SEO Berlino",
+        title: "SEO Mobile First| SEO Berlino",
         description:
             "Sofern Ihre Webseite nicht für mobile Endgeräte geeignet ist, stellt dies in den meisten Fällen ein Problem dar, denn Google verfährt mittlerweile nach dem Prinzip “mobile-first”,  nutzt für die Indexierung also die Mobile Webseite.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -610,7 +610,7 @@ app.get("/de/technical/dynamicrendering", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Javascript SEO  | SEO Berlino",
+        title: "Javascript Webframes SEO  | SEO Berlino",
         description:
             "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme, Crawling und Indexierung auf allen Seiten angemessen durchzuführen. Wenngleich sie ankündigen, im Laufe der Zeit und durch viele Seitenaufrufen (engl. Visits) gute Ergebnisse erzielen zu können, empfehlen sie für die meisten Seiten Dynamic Rendering.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -637,7 +637,7 @@ app.get("/de/offpage/brandbuilding", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Brand Building | SEO Berlino",
+        title: "SEO Markenentwicklung | SEO Berlino",
         description:
             "Brand-building: beste Empfehlung für Inhaltserstellung. Inhaltserstellung: mehr Traffic Markenbekanntheit, traffic und backlinks",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -664,7 +664,7 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Backlink Analyse | SEO Berlino",
+        title: "Backlink Analyse SEO | SEO Berlino",
         description:
             "Im Zuge eines Backlink Profil Audits muss ein Bericht über die Vor- und Nachteile des Profils erstellt werden. Zudem sollte es ein Audit der Konkurrenten beinhalten um Sie und Ihre Seite im Wettbewerb verorten zu können. Danach kann ein Brainstorming über angestrebte Links stattfinden.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -876,7 +876,7 @@ app.get("/de/research/localseo", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Local SEO - SEO Berlin | SEO Berlino",
+        title: "Local SEO Optimierung | SEO Berlino",
         description: "Offpage Optimierung,",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -982,7 +982,7 @@ app.get("/de/seo", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Berlin | SEO Berlino",
+        title: "SEO Berlin Suchmaschinenoptimierung | SEO Berlino",
         description:
             "SEO Berlin: SEO Freelancer. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -1298,6 +1298,14 @@ app.get("/endefined/*", function(request, response) {
 });
 
 app.get("/un/*", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+app.get("/en/en/*", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+app.get("/de/de/*", function(request, response) {
     response.writeHead(410);
     response.end();
 });
