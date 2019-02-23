@@ -1245,7 +1245,7 @@ app.get("/de/resources ", function(request, response) {
 
 app.get("/archives/*", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en",
+        Location: "https://www.seoberlino.com/de",
         Expires: new Date().toGMTString()
     });
     response.end();
