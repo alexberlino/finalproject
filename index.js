@@ -136,9 +136,9 @@ app.get("/fr", (req, res) => {
     res.render("homeFR", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainFR",
-        title: "SEO Freelancer & SEO Consultant Berlin | SEO Berlino",
+        title: "Freelance SEO | Consultant Référencement Berlin | SEO Berlino",
         description:
-            "SEO Freelancer & Consultant à Berlin.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
+            "Freelance SEO & Consultant Référencement à Berlin.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
