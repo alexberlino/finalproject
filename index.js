@@ -134,7 +134,7 @@ app.get("/en", (req, res) => {
 app.get("/fr", (req, res) => {
     i18n.setLocale(req, "fr");
     res.render("homeFR", {
-        requrl: "/de" + req.originalUrl.substring(3),
+        requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainFR",
         title: "SEO Freelancer & SEO Consultant Berlin | SEO Berlino",
         description:
