@@ -45,7 +45,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 i18n.configure({
-    locales: ["en", "de"],
+    locales: ["en", "de", "fr"],
     queryParameter: "lang",
     directory: __dirname + "/locales",
     autoReload: true,
@@ -131,6 +131,17 @@ app.get("/en", (req, res) => {
     });
 });
 
+app.get("/fr", (req, res) => {
+    i18n.setLocale(req, "fr");
+    res.render("homeFR", {
+        requrl: "/de" + req.originalUrl.substring(3),
+        layout: "mainFR",
+        title: "SEO Freelancer & SEO Consultant Berlin | SEO Berlino",
+        description:
+            "SEO Freelancer & Consultant à Berlin.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum and web développement.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
 app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("home", {
