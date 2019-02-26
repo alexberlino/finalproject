@@ -124,9 +124,9 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Freelancer & SEO Consultant Berlin | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Berlino",
         description:
-            "SEO Freelancer & Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -147,7 +147,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung Berlin | SEO Freelancer Berlin",
+        title: "SEO Beratung Berlin | SEO Freelancer | SEO Berlino",
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -209,7 +209,7 @@ app.get("/en/onpage/internallinking", (req, res) => {
     res.render("internallinking", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Internal Linking | SEO Berlino",
+        title: "SEO Internal Linking | SEO Berlino",
         description:
             "Internal linking is key in SEO essentially to redistribute link juice and prioritise your most important pages.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -235,7 +235,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "Keyword Research SEO | SEO Berlino",
+        title: "Keyword Research for SEO | SEO Berlino",
         description:
             "Keyword Research is key to understand how your potential clients are searching for your product or services.Search Volume, relevance and keyword competitivity are in deciding on your best keywords.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -248,7 +248,7 @@ app.get("/de/onpage/keywordresearch", (req, res) => {
     res.render("keyword", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Keyword Recherche SEO | SEO Berlino",
+        title: "Keyword Recherche für SEO | SEO Berlino",
         description:
             "Wenn Sie eingehend verstehen möchten, wie Ihre potenziellen Kunden nach den von Ihnen angebotenen Produkten oder Leistungen suchen, ist eine Keyword Recherche unerlässlich.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -287,7 +287,7 @@ app.get("/en/onpage/content", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "SEO Content SEO Inhalt - Content Marketing | SEO Berlino",
+        title: "SEO Content (Inhalt) - Content Marketing | SEO Berlino",
         description:
             "The content is the value you want to create. If you content has no  value to the user, or if it is duplicate content, your content will  not be brought forward.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -300,7 +300,7 @@ app.get("/de/onpage/content", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Content -  SEO Content Marketing | SEO Berlino",
+        title: "SEO Content -  SEO Marketing | SEO Berlino",
         description:
             "Die Inhalte sind der Wert, den Sie erschaffen wollen. Wenn Ihre Inhalte für den Nutzer keinen Wert haben, oder bereits an anderer Stelle verfügbar sind, werden Sie damit nicht weit kommen. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -313,7 +313,7 @@ app.get("/en/onpage/landingpages", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "Landing Page Optimization| SEO Berlino",
+        title: "Landing Page Optimization SEO| SEO Berlino",
         description:
             "If you want to efficiently understand how your potential  clients are searching for the products or services you are offering, Keyword Research is critical.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -1057,9 +1057,9 @@ app.get("/en/contact", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "SEO Expert Berlin - Contact | SEO Berlino",
+        title: "SEO Consultant Berlin - Contact | SEO Berlino",
         description:
-            "SEO Expert Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1070,9 +1070,9 @@ app.get("/de/contact", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Experte Berater Berlin | SEO Berlino",
+        title: "SEO Berater Berlin | SEO Experte | SEO Berlino",
         description:
-            "SEO Beratung Berlin. SEO Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
+            "SEO Berater Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1081,7 +1081,7 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("freelancer", {
         requrl: "/de" + req.originalUrl.substring(3),
-        title: "SEO Consultant Freelancer Berlin | SEO Berlino",
+        title: "SEO Freelancer Services Berlin | SEO Berlino",
         layout: "main",
         description:
             "SEO Consultant Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
@@ -1124,7 +1124,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Freelancer Berlin | SEO Berlino",
+        title: "SEO Freelancer Leistungen Berlin | SEO Berlino",
         description:
             "SEO Freelancer in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
