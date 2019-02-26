@@ -193,6 +193,7 @@ iframe {
     align-items: center;
     min-height: 60px;
 }
+
 .blockWriteBlog {
     display: block;
     position: relative;
@@ -1189,6 +1190,12 @@ a.langselected {
     position: absolute;
     margin-left: 45%;
     padding-bottom: 90px;
+}
+
+.footerproven2 {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -120px;
 }
 
 .big {
