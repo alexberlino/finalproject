@@ -284,7 +284,7 @@ app.get("/de/on-page/metas", (req, res) => {
 app.get("/en/onpage/content", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("content", {
-        requrl: "/de" + req.originalUrl.substring(3),
+        requrl: "/de/on-page/content",
 
         layout: "main",
         title: "SEO Content (Inhalt) - Content Marketing | SEO Berlino",
@@ -1222,7 +1222,7 @@ app.get("/checknotice", (req, res, next) => {
 
 /////////////redirects and 410///////////////////////
 
-app.get("/en/services ", function(request, response) {
+app.get("/en/services", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-freelancer",
         Expires: new Date().toGMTString()
@@ -1230,7 +1230,63 @@ app.get("/en/services ", function(request, response) {
     response.end();
 });
 
-app.get("/de/services ", function(request, response) {
+app.get("/de/technical", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/technik",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/offpage", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/off-page",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/on-page", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/on-page",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/research", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/forschung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/research/competitor-analysis", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/forschung/competitor-analysis",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/research/localseo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/forschung/sea",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/research/localseo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/forschung/sea",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/services", function(request, response) {
     response.writeHead(301, {
         Location: "/de/seo-freelancer",
         Expires: new Date().toGMTString()
@@ -1238,7 +1294,7 @@ app.get("/de/services ", function(request, response) {
     response.end();
 });
 
-app.get("/en/resources ", function(request, response) {
+app.get("/en/resources", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo",
         Expires: new Date().toGMTString()
@@ -1246,7 +1302,7 @@ app.get("/en/resources ", function(request, response) {
     response.end();
 });
 
-app.get("/de/resources ", function(request, response) {
+app.get("/de/resources", function(request, response) {
     response.writeHead(301, {
         Location: "/de/seo",
         Expires: new Date().toGMTString()
