@@ -166,7 +166,7 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
     });
 });
 
-app.get("/de/onpage/duplicatecontent", (req, res) => {
+app.get("/de/on-page/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("duplicatecontent", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -192,7 +192,7 @@ app.get("/en/onpage/images", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/onpage/images", (req, res) => {
+app.get("/de/on-page/images", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("images", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -217,7 +217,7 @@ app.get("/en/onpage/internallinking", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/onpage/internallinking", (req, res) => {
+app.get("/de/on-page/internallinking", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internallinking", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -243,7 +243,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/onpage/keywordresearch", (req, res) => {
+app.get("/de/on-page/keywordresearch", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("keyword", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -268,7 +268,7 @@ app.get("/en/onpage/metas", (req, res) => {
     });
 });
 
-app.get("/de/onpage/metas", (req, res) => {
+app.get("/de/on-page/metas", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("metas", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -294,7 +294,7 @@ app.get("/en/onpage/content", (req, res) => {
     });
 });
 
-app.get("/de/onpage/content", (req, res) => {
+app.get("/de/on-page/content", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("content", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -321,7 +321,7 @@ app.get("/en/onpage/landingpages", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/onpage/landingpages", (req, res) => {
+app.get("/de/on-page/landingpages", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("landingpages", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -348,7 +348,7 @@ app.get("/en/onpage/structureddata", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/onpage/structureddata", (req, res) => {
+app.get("/de/on-page/structureddata", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("structureddata", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -374,7 +374,7 @@ app.get("/en/research/analytics", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/research/analytics", (req, res) => {
+app.get("/de/forschung/analytics", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("analytics", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -400,7 +400,7 @@ app.get("/en/research/wordpress", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/research/wordpress", (req, res) => {
+app.get("/de/forschung/wordpress", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("wordpressseo", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -426,7 +426,7 @@ app.get("/en/research/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/research/competitor-analysis", (req, res) => {
+app.get("/de/forschung/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("competitor", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -453,7 +453,7 @@ app.get("/en/technical/crawlability", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technical/crawlability", (req, res) => {
+app.get("/de/technik/crawlability", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("crawlability", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -480,7 +480,7 @@ app.get("/en/technical/indexation", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technical/indexation", (req, res) => {
+app.get("/de/technik/indexation", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("indexation", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -506,7 +506,7 @@ app.get("/en/technical/internationalisation", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technical/internationalisation", (req, res) => {
+app.get("/de/technik/internationalisation", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internationalisation", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -533,7 +533,7 @@ app.get("/en/technical/pagespeed", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technical/pagespeed", (req, res) => {
+app.get("/de/technik/pagespeed", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("pagespeed", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -560,7 +560,7 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technical/mobilefriendly", (req, res) => {
+app.get("/de/technik/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("mobile", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -587,7 +587,7 @@ app.get("/en/technical/security", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technical/security", (req, res) => {
+app.get("/de/technik/security", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("https", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -614,7 +614,7 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technical/dynamicrendering", (req, res) => {
+app.get("/de/technik/dynamicrendering", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("javascript", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -641,7 +641,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/offpage/brandbuilding", (req, res) => {
+app.get("/de/off-page/brandbuilding", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("brandbuilding", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -668,7 +668,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/offpage/backlinkanalysis", (req, res) => {
+app.get("/de/off-page/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("backlinkanalysis", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -695,7 +695,7 @@ app.get("/en/offpage/toxic", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/offpage/toxic", (req, res) => {
+app.get("/de/off-page/toxic", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("links", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -802,7 +802,7 @@ app.get("/en/offpage", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/offpage", (req, res) => {
+app.get("/de/off-page", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("offpage", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -828,7 +828,7 @@ app.get("/en/onpage", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/onpage", (req, res) => {
+app.get("/de/on-page", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("onpage", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -854,7 +854,7 @@ app.get("/en/onpage/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/onpage/voicesearch", (req, res) => {
+app.get("/de/on-page/voicesearch", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("voicesearch", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -880,7 +880,7 @@ app.get("/en/research/localseo", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/research/localseo", (req, res) => {
+app.get("/de/forschung/localseo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("localseo", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -906,7 +906,7 @@ app.get("/en/research/sea", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/research/sea", (req, res) => {
+app.get("/de/forschung/sea", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("sea", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -932,7 +932,7 @@ app.get("/en/technical", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technical", (req, res) => {
+app.get("/de/technik", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("technical", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -959,7 +959,7 @@ app.get("/en/research", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/research", (req, res) => {
+app.get("/de/forschung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("research", {
         requrl: "/en" + req.originalUrl.substring(3),
