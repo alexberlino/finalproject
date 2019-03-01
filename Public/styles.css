@@ -43,13 +43,13 @@ h2 {
     margin-top: 45px;
     margin-bottom: 15px;
     margin-left: 2px;
-    font-size: 35px;
+    font-size: 30px;
 }
 h2.white,
 .black2,
 .black2 a {
     color: white;
-    font-size: 45px;
+    font-size: 30px;
     margin-top: 0px;
     padding-top: 10px;
     display: inline;
@@ -375,7 +375,7 @@ a.languageBtnEN {
     /* color: #ff5a09; */
     color: black;
     position: relative;
-    font-size: 43px;
+    font-size: 30px;
     padding-top: 60px;
     padding-bottom: 60px;
     z-index: 3000;
@@ -395,8 +395,8 @@ a.languageBtnEN {
 }
 
 .xtrapad {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .marginleft {
@@ -501,7 +501,7 @@ a.languageBtnEN {
 }
 
 .txt2 {
-    font-size: 21px;
+    font-size: 22px;
     color: black;
     margin-top: 5px;
     width: 80%;
@@ -509,7 +509,7 @@ a.languageBtnEN {
 }
 
 .txt3 {
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 12%;
     width: 65%;
 }
@@ -692,7 +692,7 @@ button.servicesHP2 {
     background-color: #5b0c32;
     position: flex;
     border: 1px #5b0c32 solid;
-    font-size: 27px;
+    font-size: 24px;
     width: 320px;
     height: 70px;
     display: block;
@@ -705,12 +705,12 @@ button.servicesHP2 {
 .h1hp {
     margin-top: 50px;
     position: relative;
-    font-size: 42px;
+    font-size: 28px;
     font-family: sans-serif;
 }
 
 .h2hp {
-    font-size: 24px;
+    font-size: 22px;
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -854,7 +854,7 @@ h3.grey a:visited {
 
 h3.black.marginleft2 {
      color: black;
-    font-size: 35px;
+    font-size: 25px;
     margin-top: -10px;
 }
 
@@ -940,7 +940,7 @@ a.langselected {
 
 .floatright {
     margin-left: 35%;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .marginright {
@@ -1014,7 +1014,7 @@ a.langselected {
     display: block;
     padding: 0.75em 15px;
     line-height: 1em;
-    font-size: 1em;
+    font-size: 20px;
     color: #fff;
     margin-top: 10px;
     text-decoration: none;
@@ -1199,13 +1199,13 @@ a.langselected {
 }
 
 .big {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .orange,
 h2.orange {
     color: #fd6a02;
-    font-size: 45px;
+    font-size: 30px;
     margin-top: 0px;
     margin-left: 3%;
     display: inline;
