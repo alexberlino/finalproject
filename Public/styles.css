@@ -395,8 +395,8 @@ a.languageBtnEN {
 }
 
 .xtrapad {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .marginleft {
@@ -1203,12 +1203,16 @@ a.langselected {
 }
 
 .orange,
-h2.orange {
+h2.orange,
+.orange00 {
     color: #fd6a02;
     font-size: 30px;
     margin-top: 0px;
     margin-left: 3%;
     display: inline;
+}
+.orange00 {
+    margin-left: 0px;
 }
 
 .black2 a:hover {
