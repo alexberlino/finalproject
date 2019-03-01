@@ -711,7 +711,7 @@ app.get("/en/blog", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "Search Engine Optimization Blog | SEO Berlino",
+        title: "SEO Blog - Search Engine Optimization Blog | SEO Berlino",
         description:
             "SEO Berlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -725,7 +725,7 @@ app.get("/de/blog", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Suchmaschinenoptimierung Blog | SEO Berlino",
+        title: "SEO Blog - Suchmaschinenoptimierung Blog | SEO Berlino",
         description:
             "SEO Blog von SEO Berlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
