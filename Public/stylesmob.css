@@ -177,6 +177,12 @@
         heigth: 80px;
     }
 
+    .footerproven2 {
+        position: absolute;
+        margin-left: 60%;
+        margin-top: -260px;
+    }
+
     h2.white {
         font-size: 25px;
     }

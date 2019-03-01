@@ -728,7 +728,7 @@ app.get("/de/blog", (req, res) => {
         title: "SEO Blog - Suchmaschinenoptimierung Blog | SEO Berlino",
         description:
             "SEO Blog von SEO Berlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com/en"
     });
 });
 
