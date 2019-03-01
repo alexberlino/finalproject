@@ -104,19 +104,16 @@ app.use(
 
 ////////////////////new routes & redirects///////////////////////////
 
-app.get("/", function(req, res, next) {
-    if (process.env.NODE_ENV == "production") {
-        res.writeHead(301, {
-            Location: "https://www.seoberlino.com/de",
-            Expires: new Date().toGMTString()
-        });
-        res.end();
-    } else {
-        i18n.setLocale(req, "de");
-        res.render("home", {
-            layout: "mainDE"
-        });
-    }
+app.get("/", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("home", {
+        requrl: "/en",
+        layout: "mainDE",
+        title: "SEO Beratung Berlin | SEO Freelancer | SEO Berlino",
+        description:
+            "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
+        canonical: "https://www.seoberlino.com/de"
+    });
 });
 
 app.get("/en", (req, res) => {
@@ -808,7 +805,7 @@ app.get("/de/off-page", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Offpage Optimierung SEO Berlin | SEO Berlino",
+        title: "Offpage Optimierung SEO | SEO Berlino",
         description: "Offpage Optimierung,",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -820,7 +817,7 @@ app.get("/en/onpage", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "Onpage Optimization SEO Berlin | SEO Berlino",
+        title: "Onpage Optimization SEO | SEO Berlino",
         description:
             "Onpage Optimization refers to any SEO action taken on the website that can be done directly. That concerns first and foremost the optimization of the content and the code of the page. It includes as well the elaboration of the content strategy and potential technical issues.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
@@ -834,7 +831,7 @@ app.get("/de/on-page", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Onpage Optimierung SEO Berlin | SEO Berlino",
+        title: "Onpage Optimierung SEO | SEO Berlino",
         description: "Offpage Optimierung,",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
