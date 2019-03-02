@@ -1323,6 +1323,26 @@ app.get("/single-post/*", function(request, response) {
     response.end();
 });
 
+app.get("/de/technical", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/de/research", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/de/onpage", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/de/offpage", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
 app.get("/ad/*", function(request, response) {
     response.writeHead(410);
     response.end();
