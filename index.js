@@ -2,27 +2,11 @@ const { checkPassword, hashPass, capital } = require("./Public/hash.js");
 const express = require("express");
 const app = express();
 var i18n = require("i18n");
-const hbs = require("hbs");
+var hbs = require("hbs");
 var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var http = require("http");
-
-if (process.env.NODE_ENV === "production") {
-    app.use(function(req, res, next) {
-        if (req.headers["x-forwarded-proto"] !== "https") {
-            return res.redirect(
-                301,
-                ["https://", req.get("Host"), req.url].join("")
-            );
-        }
-        return next();
-    });
-}
-
-var compression = require("compression");
-app.use(compression());
-
 app.engine(
     ".hbs",
     hb({
@@ -39,11 +23,6 @@ app.engine(
     })
 );
 app.set("view engine", ".hbs");
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
-
 i18n.configure({
     locales: ["en", "de", "fr"],
     queryParameter: "lang",
@@ -56,6 +35,25 @@ i18n.configure({
     }
 });
 app.use(i18n.init);
+
+if (process.env.NODE_ENV === "production") {
+    app.use(function(req, res, next) {
+        if (req.headers["x-forwarded-proto"] !== "https") {
+            return res.redirect(
+                301,
+                ["https://", req.get("Host"), req.url].join("")
+            );
+        }
+        return next();
+    });
+}
+
+var compression = require("compression");
+app.use(compression());
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
 
 app.use(express.static("./Public"));
 app.use(express.static("./SQL"));
@@ -1219,54 +1217,6 @@ app.get("/checknotice", (req, res, next) => {
 
 /////////////redirects and 410///////////////////////
 
-app.get("/de/research/competitor-analysis", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/forschung/competitor-analysis",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/research/localseo", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/forschung/sea",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/research/localseo", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/forschung/sea",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/services", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/seo-freelancer",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/resources", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/seo",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/resources", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/seo",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
 app.get("/archives/*", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de",
@@ -1284,6 +1234,26 @@ app.get("/single-post/*", function(request, response) {
 });
 
 app.get("/de/technical", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/de/resources", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/en/resources", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/de/services", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/en/services", function(request, response) {
     response.writeHead(410);
     response.end();
 });
