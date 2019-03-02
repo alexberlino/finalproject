@@ -163,7 +163,7 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
     });
 });
 
-app.get("/de/on-page/duplicatecontent", (req, res) => {
+app.get("/de/on-page/duplizierte-content", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("duplicatecontent", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -171,7 +171,7 @@ app.get("/de/on-page/duplicatecontent", (req, res) => {
         title: "Doppelter Inhalt SEO | SEO Berlino",
         description:
             "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com/de/on-page/duplizierte-content"
     });
 });
 
@@ -189,7 +189,7 @@ app.get("/en/onpage/images", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/images", (req, res) => {
+app.get("/de/on-page/bildoptimierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("images", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -214,7 +214,7 @@ app.get("/en/onpage/internallinking", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/internallinking", (req, res) => {
+app.get("/de/on-page/interne-verlinkung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internallinking", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -240,7 +240,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/keywordresearch", (req, res) => {
+app.get("/de/on-page/keyword-recherche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("keyword", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -265,7 +265,7 @@ app.get("/en/onpage/metas", (req, res) => {
     });
 });
 
-app.get("/de/on-page/metas", (req, res) => {
+app.get("/de/on-page/metas-tags-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("metas", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -291,7 +291,7 @@ app.get("/en/onpage/content", (req, res) => {
     });
 });
 
-app.get("/de/on-page/content", (req, res) => {
+app.get("/de/on-page/inhalt", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("content", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -318,7 +318,7 @@ app.get("/en/onpage/landingpages", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/landingpages", (req, res) => {
+app.get("/de/on-page/landing-pages-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("landingpages", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -345,7 +345,7 @@ app.get("/en/onpage/structureddata", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/structureddata", (req, res) => {
+app.get("/de/on-page/structured-data-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("structureddata", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -371,7 +371,7 @@ app.get("/en/research/analytics", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/forschung/analytics", (req, res) => {
+app.get("/de/forschung/webanalyse", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("analytics", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -423,7 +423,7 @@ app.get("/en/research/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/forschung/competitor-analysis", (req, res) => {
+app.get("/de/forschung/mitwettbewerber", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("competitor", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -450,7 +450,7 @@ app.get("/en/technical/crawlability", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/crawlability", (req, res) => {
+app.get("/de/technik/crawling", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("crawlability", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -477,7 +477,7 @@ app.get("/en/technical/indexation", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/indexation", (req, res) => {
+app.get("/de/technik/indexierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("indexation", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -503,7 +503,7 @@ app.get("/en/technical/internationalisation", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/internationalisation", (req, res) => {
+app.get("/de/technik/internationalisierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internationalisation", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -530,7 +530,7 @@ app.get("/en/technical/pagespeed", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/pagespeed", (req, res) => {
+app.get("/de/technik/ladegeschwindigkeit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("pagespeed", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -557,7 +557,7 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/mobilefriendly", (req, res) => {
+app.get("/de/technik/mobile-friendly-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("mobile", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -584,7 +584,7 @@ app.get("/en/technical/security", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/security", (req, res) => {
+app.get("/de/technik/sicherheit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("https", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -611,7 +611,7 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/dynamicrendering", (req, res) => {
+app.get("/de/technik/dynamic-rendering-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("javascript", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -638,7 +638,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/off-page/brandbuilding", (req, res) => {
+app.get("/de/off-page/brand-building-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("brandbuilding", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -665,7 +665,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/off-page/backlinkanalysis", (req, res) => {
+app.get("/de/off-page/backlink-analyse", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("backlinkanalysis", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -692,7 +692,7 @@ app.get("/en/offpage/toxic", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/off-page/toxic", (req, res) => {
+app.get("/de/off-page/links", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("links", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -851,7 +851,7 @@ app.get("/en/onpage/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/voicesearch", (req, res) => {
+app.get("/de/on-page/sprachsuche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("voicesearch", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -877,7 +877,7 @@ app.get("/en/research/localseo", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/forschung/localseo", (req, res) => {
+app.get("/de/forschung/local-seo-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("localseo", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -903,7 +903,7 @@ app.get("/en/research/sea", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/forschung/sea", (req, res) => {
+app.get("/de/forschung/suchmaschinenwerbung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("sea", {
         requrl: "/en" + req.originalUrl.substring(3),
