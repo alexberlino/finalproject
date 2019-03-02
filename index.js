@@ -1219,46 +1219,6 @@ app.get("/checknotice", (req, res, next) => {
 
 /////////////redirects and 410///////////////////////
 
-app.get("/en/services", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/seo-freelancer",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/technical", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/technik",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/offpage", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/off-page",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/on-page", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/on-page",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/research", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/forschung",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
 app.get("/de/research/competitor-analysis", function(request, response) {
     response.writeHead(301, {
         Location: "/de/forschung/competitor-analysis",
@@ -1339,6 +1299,11 @@ app.get("/de/onpage", function(request, response) {
 });
 
 app.get("/de/offpage", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/de/services", function(request, response) {
     response.writeHead(410);
     response.end();
 });
