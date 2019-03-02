@@ -1078,7 +1078,7 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("freelancer", {
         requrl: "/de" + req.originalUrl.substring(3),
-        title: "SEO Freelancer Services Berlin | SEO Berlino",
+        title: "SEO Consultant Berlin | SEO Berlino",
         layout: "main",
         description:
             "SEO Consultant Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
@@ -1121,7 +1121,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Freelancer Leistungen Berlin | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Berlino",
         description:
             "SEO Freelancer in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
