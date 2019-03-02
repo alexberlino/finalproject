@@ -28,45 +28,45 @@ href="https://www.seoberlino.com/de/on-page"/>
 
 <url><loc>https://www.seoberlino.com/en/onpage/content</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/content"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/content"/>
+href="https://www.seoberlino.com/de/on-page/inhalt"/>
 <priority>0.5</priority></url>
 
 
 <url><loc>https://www.seoberlino.com/en/onpage/duplicatecontent</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/duplicatecontent"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/duplicatecontent"/>
+href="https://www.seoberlino.com/de/on-page/duplizierte-content"/>
 <priority>0.5</priority></url>
 
 <url><loc>https://www.seoberlino.com/en/onpage/images</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/images"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/images"/>
+href="https://www.seoberlino.com/de/on-page/bildoptimierung"/>
 <priority>0.5</priority></url>
 
 
 <url><loc>https://www.seoberlino.com/en/onpage/internallinking</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/internallinking"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/internallinking"/>
+href="https://www.seoberlino.com/de/on-page/interne-verlinkung"/>
 <priority>0.5</priority></url>
 
 <url><loc>https://www.seoberlino.com/en/onpage/keywordresearch</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/keywordresearch"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/keywordresearch"/>
+href="https://www.seoberlino.com/de/on-page/keyword-recherche"/>
 <priority>0.5</priority></url>
 
 <url><loc>https://www.seoberlino.com/en/onpage/landingpages</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/landingpages"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/landingpages"/>
+href="https://www.seoberlino.com/de/on-page/landing-pages-de"/>
 <priority>0.5</priority></url>
 
 <url><loc>https://www.seoberlino.com/en/onpage/metas</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/metas"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/metas"/>
+href="https://www.seoberlino.com/de/on-page/metas-tags-de"/>
 <priority>0.5</priority></url>
 
 
 <url><loc>https://www.seoberlino.com/en/onpage/structureddata</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/structureddata"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/structureddata"/>
+href="https://www.seoberlino.com/de/on-page/structured-data-de"/>
 <priority>0.5</priority></url>
 
 <url><loc>https://www.seoberlino.com/en/onpage/voicesearch</loc><xhtml:link rel="alternate" hreflang="en"
@@ -106,13 +106,13 @@ href="https://www.seoberlino.com/de/forschung/localseo"/>
 
 <url><loc>https://www.seoberlino.com/en/research/competitor-analysis</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/research/competitor-analysis"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/forschung/competitor-analysis"/>
+href="https://www.seoberlino.com/de/forschung/mitwettbewerber"/>
 <priority>0.5</priority></url>
 
 
 <url><loc>https://www.seoberlino.com/en/research/analytics</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/research/analytics"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/forschung/analytics"/>
+href="https://www.seoberlino.com/de/forschung/webanalyse"/>
 <priority>0.5</priority></url>
 
 
@@ -287,46 +287,46 @@ href="https://www.seoberlino.com/de/on-page"/><xhtml:link rel="alternate" hrefla
 href="https://www.seoberlino.com/en/onpage"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/de/on-page/content</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/content"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/on-page/inhalt</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/on-page/inhalt"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/content"/>
 <priority>0.5</priority></url>
 
 
-<url><loc>https://www.seoberlino.com/de/on-page/duplicatecontent</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/duplicatecontent"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/on-page/duplizierte-content</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/on-page/duplizierte-content"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/duplicatecontent"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/de/on-page/images</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/images"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/on-page/bildoptimierung</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/on-page/bildoptimierung"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/images"/>
 <priority>0.5</priority></url>
 
 
-<url><loc>https://www.seoberlino.com/de/on-page/internallinking</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/internallinking"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/on-page/interne-verlinkung</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/on-page/interne-verlinkung"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/internallinking"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/de/on-page/keywordresearch</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/keywordresearch"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/on-page/keyword-recherche</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/on-page/keyword-recherche"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/keywordresearch"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/de/on-page/landingpages</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/landingpages"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/on-page/landing-pages-de</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/on-page/landing-pages-de"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/landingpages"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/de/on-page/metas</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/metas"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/on-page/metas-tags-de</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/on-page/metas-tags-de"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/metas"/>
 <priority>0.5</priority></url>
 
 
-<url><loc>https://www.seoberlino.com/de/on-page/structureddata</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/on-page/structureddata"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/on-page/structured-data-de</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/on-page/structured-data-de"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/onpage/structureddata"/>
 <priority>0.5</priority></url>
 
@@ -365,14 +365,14 @@ href="https://www.seoberlino.com/de/forschung/localseo"/><xhtml:link rel="altern
 href="https://www.seoberlino.com/en/research/localseo"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/en/research/competitor-analysis</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/research/competitor-analysis"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/forschung/competitor-analysis"/>
+<url><loc>https://www.seoberlino.com/de/forschung/mitwettbewerber</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/forschung/mitwettbewerber"/><xhtml:link rel="alternate" hreflang="en"
+href="https://www.seoberlino.com/en/research/competitor-analysis"/>
 <priority>0.5</priority></url>
 
 
-<url><loc>https://www.seoberlino.com/de/forschung/analytics</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/forschung/analytics"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/forschung/webanalyse</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/forschung/webanalyse"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/research/analytics"/>
 <priority>0.5</priority></url>
 
