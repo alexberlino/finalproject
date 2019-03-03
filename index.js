@@ -1041,7 +1041,7 @@ app.get("/en/seo", (req, res) => {
 
 app.get("/de/seo", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("seo", {
+    res.render("seo2", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "SEO Berlin Suchmaschinenoptimierung | SEO Berlino",

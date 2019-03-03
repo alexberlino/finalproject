@@ -170,8 +170,7 @@ href="https://www.seoberlino.com/de/technik"/>
 
 
 <url><loc>https://www.seoberlino.com/en/blog</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/blog"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/blog"/>
+href="https://www.seoberlino.com/en/blog"/>
 <priority>0.5</priority></url>
 
 
@@ -431,10 +430,6 @@ href="https://www.seoberlino.com/en/technical"/>
 
 
 
-<url><loc>https://www.seoberlino.com/de/blog</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/blog"/><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/blog"/>
-<priority>0.5</priority></url>
 
 
 <url><loc>https://www.seoberlino.com/de/contact</loc><xhtml:link rel="alternate" hreflang="de"
