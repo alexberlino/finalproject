@@ -1269,7 +1269,10 @@ app.get("/de/onpage", function(request, response) {
 });
 
 app.get("/de/offpage", function(request, response) {
-    response.writeHead(410);
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/off-page",
+        Expires: new Date().toGMTString()
+    });
     response.end();
 });
 
