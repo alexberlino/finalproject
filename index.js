@@ -792,7 +792,8 @@ app.get("/en/offpage", (req, res) => {
         title: "Offpage Optimization SEO Berlin | SEO Berlino",
         description:
             "Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building. Create great content to show your expertise, build your brand and attracted links and potential customers.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/off-page"
     });
     i18n.setLocale(req, "en");
 });
@@ -805,7 +806,8 @@ app.get("/de/off-page", (req, res) => {
         layout: "mainDE",
         title: "Offpage Optimierung SEO | SEO Berlino",
         description: "Offpage Optimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/offpage"
     });
 });
 
@@ -818,7 +820,8 @@ app.get("/en/onpage", (req, res) => {
         title: "Onpage Optimization SEO | SEO Berlino",
         description:
             "Onpage Optimization refers to any SEO action taken on the website that can be done directly. That concerns first and foremost the optimization of the content and the code of the page. It includes as well the elaboration of the content strategy and potential technical issues.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/on-page"
     });
     i18n.setLocale(req, "en");
 });
@@ -831,7 +834,8 @@ app.get("/de/on-page", (req, res) => {
         layout: "mainDE",
         title: "Onpage Optimierung SEO | SEO Berlino",
         description: "Offpage Optimierung,",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/onpage"
     });
 });
 
@@ -922,7 +926,8 @@ app.get("/en/technical", (req, res) => {
         title: "What is Technical SEO | SEO Berlin | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/technik"
     });
     i18n.setLocale(req, "en");
 });
@@ -936,7 +941,8 @@ app.get("/de/technik", (req, res) => {
         title: "Was ist Technisches SEO | SEO Berlin | SEO Berlino",
         description:
             "Technisches SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern (engl. Search Engine Spiders) helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten und somit das natürliche Ranking zu verbessern.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/technical"
     });
 });
 
@@ -949,7 +955,8 @@ app.get("/en/research", (req, res) => {
         title: "Research and Analytics SEO | SEO Berlin | SEO Berlino",
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/forschung"
     });
     i18n.setLocale(req, "en");
 });
@@ -963,7 +970,8 @@ app.get("/de/forschung", (req, res) => {
         title: "Webanalyse und Research Berlin SEO  | SEO Berlino",
         description:
             "Wenn Sie ein Ladenlokal haben, wie ein Geschäft oder ein Büro in dem Sie oft Besucher empfangen, ist ein wichtiger Aspekt Ihrer Webseitenoptimierung sicherzustellen, dass Menschen Sie auch im wirklichen Leben finden.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/research"
     });
 });
 
