@@ -94,9 +94,7 @@
 
 
 
-<url><loc>https://www.seoberlino.com/en/blog</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/blog"/>
-<priority>0.5</priority><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/blog</loc><lastmod>2019-03-03</lastmod></url>
 
 
 <url><loc>https://www.seoberlino.com/en/contact</loc><lastmod>2019-03-03</lastmod></url>
@@ -161,8 +159,7 @@ href="https://www.seoberlino.com/en/blog"/>
 
 
 
-<url><loc>https://www.seoberlino.com/de/impressum</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/impressum"/>
+<url><loc>https://www.seoberlino.com/de/impressum</loc>
 <lastmod>2019-03-03</lastmod></url>
 
 
