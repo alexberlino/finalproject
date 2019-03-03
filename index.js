@@ -124,7 +124,8 @@ app.get("/en", (req, res) => {
         description:
             "SEO Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de"
+        alt: "https://www.seoberlino.com/de",
+        alt2: "https://www.seoberlino.com/fr"
     });
 });
 
@@ -148,7 +149,8 @@ app.get("/de", (req, res) => {
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en"
+        alt: "https://www.seoberlino.com/en",
+        alt2: "https://www.seoberlino.com/fr"
     });
 });
 
