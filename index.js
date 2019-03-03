@@ -638,7 +638,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
 
 app.get("/de/off-page/brand-building-de", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("brandbuilding", {
+    res.render("brandbuilding2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -665,7 +665,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
 
 app.get("/de/off-page/backlink-analyse", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("backlinkanalysis", {
+    res.render("backlinkanalysis2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
