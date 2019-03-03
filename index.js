@@ -555,7 +555,7 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/mobile-friendly-de", (req, res) => {
+app.get("/de/technik/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("mobile", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -636,7 +636,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/off-page/brand-building-de", (req, res) => {
+app.get("/de/off-page/brand-building", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("brandbuilding2", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -663,7 +663,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/off-page/backlink-analyse", (req, res) => {
+app.get("/de/off-page/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("backlinkanalysis2", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -690,7 +690,7 @@ app.get("/en/offpage/toxic", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/off-page/links", (req, res) => {
+app.get("/de/off-page/toxic", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("links", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -804,7 +804,7 @@ app.get("/de/off-page", (req, res) => {
 
         layout: "mainDE",
         title: "Offpage Optimierung SEO | SEO Berlino",
-        description: "Offpage Optimierung,",
+        description: "Offpage Optimierung",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });

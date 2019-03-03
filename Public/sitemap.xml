@@ -78,18 +78,18 @@ href="https://www.seoberlino.com/de/on-page/sprachsuche"/>
 
 <url><loc>https://www.seoberlino.com/en/offpage/brandbuilding</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/offpage/brandbuilding"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/off-page/brand-building-de"/>
+href="https://www.seoberlino.com/de/off-page/brand-building"/>
 <priority>0.5</priority></url>
 
 
 <url><loc>https://www.seoberlino.com/en/offpage/toxic</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/offpage/toxic"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/off-page/links"/>
+href="https://www.seoberlino.com/de/off-page/toxic"/>
 <priority>0.5</priority></url>
 
 <url><loc>https://www.seoberlino.com/en/offpage/backlinkanalysis</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/offpage/backlinkanalysis"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/off-page/backlink-analyse"/>
+href="https://www.seoberlino.com/de/off-page/backlinkanalysis"/>
 <priority>0.5</priority></url>
 
 
@@ -139,7 +139,7 @@ href="https://www.seoberlino.com/de/technik/internationalisierung"/>
 
 <url><loc>https://www.seoberlino.com/en/technical/mobilefriendly</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/technical/mobilefriendly"/><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/technik/mobile-friendly-de"/>
+href="https://www.seoberlino.com/de/technik/mobilefriendly"/>
 <priority>0.5</priority></url>
 
 
@@ -337,19 +337,19 @@ href="https://www.seoberlino.com/en/onpage/voicesearch"/>
 
 f
 
-<url><loc>https://www.seoberlino.com/de/off-page/brand-building-de</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/off-page/brand-building-de"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/off-page/brand-building</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/off-page/brand-building"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/offpage/brandbuilding"/>
 <priority>0.5</priority></url>
 
 
-<url><loc>https://www.seoberlino.com/de/off-page/links</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/off-page/links"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/off-page/toxic</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/off-page/toxic"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/offpage/toxic"/>
 <priority>0.5</priority></url>
 
-<url><loc>https://www.seoberlino.com/de/off-page/backlink-analyse</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/off-page/backlink-analyse"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/off-page/backlinkanalysis</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/off-page/backlinkanalysis"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/offpage/backlinkanalysis"/>
 <priority>0.5</priority></url>
 
@@ -398,8 +398,8 @@ href="https://www.seoberlino.com/en/technical/internationalisation"/>
 <priority>0.5</priority></url>
 
 
-<url><loc>https://www.seoberlino.com/de/technik/mobile-friendly-de</loc><xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/technik/mobile-friendly-de"/><xhtml:link rel="alternate" hreflang="en"
+<url><loc>https://www.seoberlino.com/de/technik/mobilefriendly</loc><xhtml:link rel="alternate" hreflang="de"
+href="https://www.seoberlino.com/de/technik/mobilefriendly"/><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/technical/mobilefriendly"/>
 <priority>0.5</priority></url>
 
