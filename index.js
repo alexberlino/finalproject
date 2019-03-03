@@ -110,7 +110,8 @@ app.get("/", (req, res) => {
         title: "SEO Beratung Berlin | SEO Freelancer | SEO Berlino",
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
-        canonical: "https://www.seoberlino.com/de"
+        canonical: "https://www.seoberlino.com/de",
+        alt: "/en"
     });
 });
 
