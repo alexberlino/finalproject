@@ -371,7 +371,7 @@ app.get("/en/research/analytics", (req, res) => {
 
 app.get("/de/forschung/webanalyse", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("analytics", {
+    res.render("analytics2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -423,7 +423,7 @@ app.get("/en/research/competitor-analysis", (req, res) => {
 
 app.get("/de/forschung/mitwettbewerber", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("competitor", {
+    res.render("competitor2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -877,7 +877,7 @@ app.get("/en/research/localseo", (req, res) => {
 
 app.get("/de/forschung/local-seo-de", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("localseo", {
+    res.render("localseo2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -903,7 +903,7 @@ app.get("/en/research/sea", (req, res) => {
 
 app.get("/de/forschung/suchmaschinenwerbung", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("sea", {
+    res.render("sea2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -1259,7 +1259,10 @@ app.get("/en/services", function(request, response) {
 });
 
 app.get("/de/research", function(request, response) {
-    response.writeHead(410);
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/forschung",
+        Expires: new Date().toGMTString()
+    });
     response.end();
 });
 
