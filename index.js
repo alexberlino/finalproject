@@ -784,7 +784,7 @@ app.get("/en/impressum", (req, res) => {
         title: "SEO Consultant in Berlin - Impressum | SEO Berlino",
         description:
             "SEO Berlino Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/impressum",
         alt: "https://www.seoberlino.com/de/impressum"
     });
     i18n.setLocale(req, "en");
@@ -796,11 +796,11 @@ app.get("/de/impressum", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Berater in Berlin - Impressum | SEO Berlino",
+        title: "Impressum SEO Berlino SEO Experte in Berlin | SEO Berlino",
         description:
             "Impressum, SEO Berlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/impressum"
+        alt: "https://www.seoberlino.com/de/impressum"
     });
 });
 

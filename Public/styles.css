@@ -85,6 +85,17 @@ h5 {
     font-size: 23px;
 }
 
+.map {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.map2 {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 90%;
+}
+
 input {
     font-size: 19px;
     width: 70%;
@@ -146,13 +157,6 @@ form {
     margin-bottom: 5%;
     left: 5%;
     width: 30%;
-}
-
-iframe {
-    position: relative;
-    display: inline-block;
-    margin-left: 10%;
-    margin-top: 10%;
 }
 
 .black a {

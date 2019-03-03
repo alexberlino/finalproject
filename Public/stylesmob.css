@@ -22,13 +22,17 @@
         font-size: 20px;
     }
 
+    iframe {
+        width: 95%;
+        height: 200px;
+    }
     .center {
         margin-left: 5%;
     }
 
     .map {
-        width: 80%;
-        height: 400px;
+        width: 90%;
+        margin-left: 20px;
     }
 
     .berlin {

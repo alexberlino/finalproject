@@ -236,10 +236,7 @@ href="https://www.seoberlino.com/en/partnership"/><priority>0.5</priority></url>
 
 
 
-<url><loc>https://www.seoberlino.com/en/impressum</loc><xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/impressum"/>
-<xhtml:link rel="alternate" hreflang="de"
-href="https://www.seoberlino.com/de/impressum"/><priority>0.5</priority></url>
+
 
 <url><loc>https://www.seoberlino.com/en/seo-freelancer</loc><xhtml:link rel="alternate" hreflang="en"
 href="https://www.seoberlino.com/en/seo-freelancer"/><xhtml:link rel="alternate" hreflang="de"
@@ -276,8 +273,7 @@ href="https://www.seoberlino.com/en/contact"/>
 
 <url><loc>https://www.seoberlino.com/de/impressum</loc><xhtml:link rel="alternate" hreflang="de"
 href="https://www.seoberlino.com/de/impressum"/>
-<xhtml:link rel="alternate" hreflang="en"
-href="https://www.seoberlino.com/en/impressum"/><priority>0.5</priority></url>
+</url>
 
 
 
