@@ -874,7 +874,7 @@ app.get("/en/onpage", (req, res) => {
 
 app.get("/de/on-page", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("onpage", {
+    res.render("onpage2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -986,7 +986,7 @@ app.get("/en/technical", (req, res) => {
 
 app.get("/de/technik", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("technical", {
+    res.render("technical2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -1014,7 +1014,7 @@ app.get("/en/research", (req, res) => {
 
 app.get("/de/forschung", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("research", {
+    res.render("research2", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Webanalyse und Research Berlin SEO  | SEO Berlino",
