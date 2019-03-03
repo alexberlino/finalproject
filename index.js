@@ -799,7 +799,7 @@ app.get("/en/offpage", (req, res) => {
 
 app.get("/de/off-page", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("offpage", {
+    res.render("offpage2", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
