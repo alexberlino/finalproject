@@ -107,7 +107,7 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/en",
         layout: "mainDE",
-        title: "SEO Beratung Berlin | SEO Freelancer | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Beratung | SEO Berlino",
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
@@ -146,7 +146,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung Berlin | SEO Freelancer | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Beratungf | SEO Berlino",
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1189,7 +1189,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Freelancer Berlin | SEO Berlino",
+        title: "SEO Freelancer Berlin  | SEO Berlino",
         description:
             "SEO Freelancer in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,

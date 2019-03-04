@@ -29,6 +29,14 @@
     .center {
         margin-left: 5%;
     }
+    .searchconsole {
+        height: 100px;
+        width: 250px;
+    }
+
+    .xmp {
+        font-size: 16px;
+    }
 
     .map {
         width: 90%;
