@@ -111,7 +111,8 @@ app.get("/", (req, res) => {
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
-        alt: "/en"
+        alt: "https://www.seoberlino.com/en",
+        alt2: "https://www.seoberlino.com/fr"
     });
 });
 
