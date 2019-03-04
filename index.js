@@ -1305,10 +1305,7 @@ app.get("/single-post/*", function(request, response) {
 });
 
 app.get("/de/technical", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/technik",
-        Expires: new Date().toGMTString()
-    });
+    response.writeHead(410);
     response.end();
 });
 
@@ -1333,26 +1330,17 @@ app.get("/en/services", function(request, response) {
 });
 
 app.get("/de/research", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/forschung",
-        Expires: new Date().toGMTString()
-    });
+    response.writeHead(410);
     response.end();
 });
 
 app.get("/de/onpage", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/on-page",
-        Expires: new Date().toGMTString()
-    });
+    response.writeHead(410);
     response.end();
 });
 
 app.get("/de/offpage", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/off-page",
-        Expires: new Date().toGMTString()
-    });
+    response.writeHead(410);
     response.end();
 });
 
