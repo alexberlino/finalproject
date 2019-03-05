@@ -164,11 +164,11 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
         description:
             "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content and how to avoid it.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/duplizierte-content"
+        alt: "https://www.seoberlino.com/de/onpage/duplizierte-content"
     });
 });
 
-app.get("/de/on-page/duplizierte-content", (req, res) => {
+app.get("/de/onpage/duplizierte-content", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("duplicatecontent", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -176,7 +176,7 @@ app.get("/de/on-page/duplizierte-content", (req, res) => {
         title: "Doppelter Inhalt SEO | SEO Berlino",
         description:
             "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
-        canonical: "https://www.seoberlino.com/de/on-page/duplizierte-content",
+        canonical: "https://www.seoberlino.com/de/onpage/duplizierte-content",
         alt: "https://www.seoberlino.com/en/onpage/duplicatecontent"
     });
 });
@@ -191,12 +191,12 @@ app.get("/en/onpage/images", (req, res) => {
         description:
             "Images optimisation enables you to get visibility on  Image Search which can still be powerful for brand visibility.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/bildoptimierung"
+        alt: "https://www.seoberlino.com/de/onpage/bildoptimierung"
     });
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/bildoptimierung", (req, res) => {
+app.get("/de/onpage/bildoptimierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("images", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -218,12 +218,12 @@ app.get("/en/onpage/internallinking", (req, res) => {
         description:
             "Internal linking is key in SEO essentially to redistribute link juice and prioritise your most important pages.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/interne-verlinkung"
+        alt: "https://www.seoberlino.com/de/onpage/interne-verlinkung"
     });
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/interne-verlinkung", (req, res) => {
+app.get("/de/onpage/interne-verlinkung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internallinking", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -246,12 +246,12 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
         description:
             "Keyword Research is key to understand how your potential clients are searching for your product or services.Search Volume, relevance and keyword competitivity are in deciding on your best keywords.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/keyword-recherche"
+        alt: "https://www.seoberlino.com/de/onpage/keyword-recherche"
     });
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/keyword-recherche", (req, res) => {
+app.get("/de/onpage/keyword-recherche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("keyword", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -274,11 +274,11 @@ app.get("/en/onpage/metas", (req, res) => {
         description:
             "Page titles are often neglected, but are really important and very  simple to implement. That means you need to have them spot on.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/metas-tags-de"
+        alt: "https://www.seoberlino.com/de/onpage/metas-tags-de"
     });
 });
 
-app.get("/de/on-page/metas-tags-de", (req, res) => {
+app.get("/de/onpage/metas-tags-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("metas", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -295,18 +295,18 @@ app.get("/de/on-page/metas-tags-de", (req, res) => {
 app.get("/en/onpage/content", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("content", {
-        requrl: "/de/on-page/content",
+        requrl: "/de/onpage/content",
 
         layout: "main",
         title: "SEO Content (Inhalt) - Content Marketing | SEO Berlino",
         description:
             "The content is the value you want to create. If you content has no  value to the user, or if it is duplicate content, your content will  not be brought forward.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/inhalt"
+        alt: "https://www.seoberlino.com/de/onpage/inhalt"
     });
 });
 
-app.get("/de/on-page/inhalt", (req, res) => {
+app.get("/de/onpage/inhalt", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("content", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -330,12 +330,12 @@ app.get("/en/onpage/landingpages", (req, res) => {
         description:
             "If you want to efficiently understand how your potential  clients are searching for the products or services you are offering, Keyword Research is critical.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/landing-pages-de"
+        alt: "https://www.seoberlino.com/de/onpage/landing-pages-de"
     });
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/landing-pages-de", (req, res) => {
+app.get("/de/onpage/landing-pages-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("landingpages", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -359,12 +359,12 @@ app.get("/en/onpage/structureddata", (req, res) => {
         description:
             "Google, Bing, Yandex and Yahoo agreed on a standardised format: schema.org for providing information about a page and to classify its content. using Structured Data will enable you to improve the way your pages are displayed.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/structured-data-de"
+        alt: "https://www.seoberlino.com/de/onpage/structured-data-de"
     });
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/structured-data-de", (req, res) => {
+app.get("/de/onpage/structured-data-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("structureddata", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -870,12 +870,12 @@ app.get("/en/onpage", (req, res) => {
         description:
             "Onpage Optimization refers to any SEO action taken on the website that can be done directly. That concerns first and foremost the optimization of the content and the code of the page. It includes as well the elaboration of the content strategy and potential technical issues.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page"
+        alt: "https://www.seoberlino.com/de/onpage"
     });
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page", (req, res) => {
+app.get("/de/onpage", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("onpage2", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -898,12 +898,12 @@ app.get("/en/onpage/voicesearch", (req, res) => {
         description:
             "Google Assistant, Alexa are just 2 of those devices which are transforming search. Instead of typing searches, users now more and more ask for their need vocally.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/on-page/sprachsuche"
+        alt: "https://www.seoberlino.com/de/onpage/sprachsuche"
     });
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/on-page/sprachsuche", (req, res) => {
+app.get("/de/onpage/sprachsuche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("voicesearch", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -1354,11 +1354,6 @@ app.get("/en/services", function(request, response) {
 });
 
 app.get("/de/research", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/de/onpage", function(request, response) {
     response.writeHead(410);
     response.end();
 });
