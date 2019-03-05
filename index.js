@@ -120,7 +120,7 @@ app.get("/en", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainHP",
         title: "SEO Freelancer Berlin | SEO Berlino",
         description:
             "SEO Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
@@ -145,7 +145,7 @@ app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainDEHP",
         title: "SEO Freelancer Berlin | SEO Beratungf | SEO Berlino",
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
