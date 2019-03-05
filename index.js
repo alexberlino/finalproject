@@ -1139,20 +1139,6 @@ app.get("/de/contact", (req, res) => {
     });
 });
 
-app.get("/en/seo-freelancer", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("freelancer", {
-        requrl: "/de" + req.originalUrl.substring(3),
-        title: "SEO Consultant Berlin | SEO Berlino",
-        layout: "main",
-        description:
-            "SEO Consultant Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/seo-freelancer"
-    });
-    i18n.setLocale(req, "en");
-});
-
 app.get("/de/seo-for-small-businesses", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("servicesfreelancers", {
@@ -1183,18 +1169,32 @@ app.get("/en/seo-for-small-businesses", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/seo-freelancer", (req, res) => {
+app.get("/de/seo-beratung-berlin", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("freelancer", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Freelancer Berlin  | SEO Berlino",
+        title: "SEO Beratung Berlin  | SEO Berlino",
         description:
-            "SEO Freelancer in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+            "SEO Beratung in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/seo-freelancer"
+        alt: "https://www.seoberlino.com/en/seo-beratung"
     });
+});
+
+app.get("/en/seo-consultancy", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("freelancer", {
+        requrl: "/de" + req.originalUrl.substring(3),
+        title: "SEO Consultant Berlin | SEO Berlino",
+        layout: "main",
+        description:
+            "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-consultancy"
+    });
+    i18n.setLocale(req, "en");
 });
 
 app.get("/en/article/linkbuilding-in-2019", (req, res) => {
@@ -1287,6 +1287,30 @@ app.get("/checknotice", (req, res, next) => {
 });
 
 /////////////redirects and 410///////////////////////
+
+app.get("/archives/*", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/{{{__ "seo-freelancer}}}", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/{{{__ "seo-freelancer}}}", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 app.get("/archives/*", function(request, response) {
     response.writeHead(301, {
