@@ -15,6 +15,17 @@ p {
 }
 body {
 }
+
+xmp {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 20%;
+    font-size: 20px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    color: darkgrey;
+}
 .sideLinks {
     position: absolute;
     left: -21%;
