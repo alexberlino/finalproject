@@ -1169,7 +1169,7 @@ app.get("/en/seo-for-small-businesses", (req, res) => {
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/seo-beratung-berlin", (req, res) => {
+app.get("/de/seo-beratung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("freelancer", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -1296,7 +1296,7 @@ app.get("/archives/*", function(request, response) {
     response.end();
 });
 
-app.get("/en/seo-consultancy", function(request, response) {
+app.get("/en/seo-freelancer", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/seo-consultancy",
         Expires: new Date().toGMTString()
@@ -1304,7 +1304,7 @@ app.get("/en/seo-consultancy", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-beratung", function(request, response) {
+app.get("/de/seo-freelancer", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/seo-beratung",
         Expires: new Date().toGMTString()
