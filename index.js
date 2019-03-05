@@ -984,11 +984,11 @@ app.get("/en/research", (req, res) => {
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/forschung"
+        alt: "https://www.seoberlino.com/de/research"
     });
 });
 
-app.get("/de/forschung", (req, res) => {
+app.get("/de/research", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("research2", {
         requrl: "/en" + req.originalUrl.substring(3),
