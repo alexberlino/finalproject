@@ -1332,11 +1332,6 @@ app.get("/de/research", function(request, response) {
     response.end();
 });
 
-app.get("/de/offpage", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
 app.get("/de/services", function(request, response) {
     response.writeHead(410);
     response.end();
