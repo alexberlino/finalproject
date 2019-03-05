@@ -1179,7 +1179,7 @@ app.get("/de/seo-beratung", (req, res) => {
         description:
             "SEO Beratung in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/seo-beratung"
+        alt: "https://www.seoberlino.com/en/seo-consultancy"
     });
 });
 
