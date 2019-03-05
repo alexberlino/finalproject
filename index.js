@@ -193,7 +193,6 @@ app.get("/en/onpage/images", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/bildoptimierung"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/onpage/bildoptimierung", (req, res) => {
@@ -220,7 +219,6 @@ app.get("/en/onpage/internallinking", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/interne-verlinkung"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/onpage/interne-verlinkung", (req, res) => {
@@ -248,7 +246,6 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/keyword-recherche"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/onpage/keyword-recherche", (req, res) => {
@@ -332,7 +329,6 @@ app.get("/en/onpage/landingpages", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/landing-pages-de"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/onpage/landing-pages-de", (req, res) => {
@@ -361,7 +357,6 @@ app.get("/en/onpage/structureddata", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/structured-data-de"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/onpage/structured-data-de", (req, res) => {
@@ -389,7 +384,6 @@ app.get("/en/research/analytics", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/forschung/webanalyse"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/forschung/webanalyse", (req, res) => {
@@ -417,7 +411,6 @@ app.get("/en/research/wordpress", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/forschung/wordpress"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/forschung/wordpress", (req, res) => {
@@ -445,7 +438,6 @@ app.get("/en/research/competitor-analysis", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/forschung/mitwettbewerber"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/forschung/mitwettbewerber", (req, res) => {
@@ -474,7 +466,6 @@ app.get("/en/technical/crawlability", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technik/crawling"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/technik/crawling", (req, res) => {
@@ -503,7 +494,6 @@ app.get("/en/technical/indexation", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technik/indexierung"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/technik/indexierung", (req, res) => {
@@ -531,7 +521,6 @@ app.get("/en/technical/internationalisation", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technik/internationalisierung"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/technik/internationalisierung", (req, res) => {
@@ -560,7 +549,6 @@ app.get("/en/technical/pagespeed", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technik/ladegeschwindigkeit"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/technik/ladegeschwindigkeit", (req, res) => {
@@ -583,13 +571,12 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "SEO Mobile Friendly| SEO Berlino",
+        title: "SEO Mobile Friendly | SEO Berlino",
         description:
             "Since a couple of years now, more people search the web on mobile devices than on Desktop. Hence, mobile optimization is critical and the mobile version is now the master version over Desktop for indexation.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technik/mobilefriendly"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/technik/mobilefriendly", (req, res) => {
@@ -598,7 +585,7 @@ app.get("/de/technik/mobilefriendly", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Mobile First| SEO Berlino",
+        title: "SEO Mobile First | SEO Berlino",
         description:
             "Sofern Ihre Webseite nicht für mobile Endgeräte geeignet ist, stellt dies in den meisten Fällen ein Problem dar, denn Google verfährt mittlerweile nach dem Prinzip “mobile-first”,  nutzt für die Indexierung also die Mobile Webseite.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -647,7 +634,6 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technik/dynamic-rendering-de"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/technik/dynamic-rendering-de", (req, res) => {
@@ -676,7 +662,6 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/off-page/brand-building"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/off-page/brand-building", (req, res) => {
@@ -705,7 +690,6 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/off-page/backlinkanalysis"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/off-page/backlinkanalysis", (req, res) => {
@@ -734,7 +718,6 @@ app.get("/en/offpage/toxic", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/off-page/toxic"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/off-page/toxic", (req, res) => {
@@ -762,7 +745,6 @@ app.get("/en/blog", (req, res) => {
             "SEO Berlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/blog", (req, res) => {
@@ -790,7 +772,6 @@ app.get("/en/impressum", (req, res) => {
         canonical: "https://www.seoberlino.com/de/impressum",
         alt: "https://www.seoberlino.com/de/impressum"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/impressum", (req, res) => {
@@ -818,7 +799,6 @@ app.get("/en/seonews", (req, res) => {
             "SEO News around the web, from SEO Berlino, SEO and Analytics Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/seonews"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/seonews", (req, res) => {
@@ -845,7 +825,6 @@ app.get("/en/offpage", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/off-page"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/off-page", (req, res) => {
@@ -872,7 +851,6 @@ app.get("/en/onpage", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/onpage", (req, res) => {
@@ -900,7 +878,6 @@ app.get("/en/onpage/voicesearch", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/sprachsuche"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/onpage/sprachsuche", (req, res) => {
@@ -928,7 +905,6 @@ app.get("/en/research/localseo", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/forschung/local-seo-de"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/forschung/local-seo-de", (req, res) => {
@@ -956,7 +932,6 @@ app.get("/en/research/sea", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/forschung/suchmaschinenwerbung"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/forschung/suchmaschinenwerbung", (req, res) => {
@@ -984,7 +959,6 @@ app.get("/en/technical", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technik"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/technik", (req, res) => {
@@ -1012,7 +986,6 @@ app.get("/en/research", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/forschung"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/forschung", (req, res) => {
@@ -1039,7 +1012,6 @@ app.get("/en/seo", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/seo", (req, res) => {
@@ -1166,7 +1138,6 @@ app.get("/en/seo-for-small-businesses", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-for-small-businesses"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/de/seo-beratung", (req, res) => {
@@ -1194,7 +1165,6 @@ app.get("/en/seo-consultancy", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-beratung"
     });
-    i18n.setLocale(req, "en");
 });
 
 app.get("/en/article/linkbuilding-in-2019", (req, res) => {
@@ -1276,25 +1246,17 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
-app.get("/checknotice", (req, res, next) => {
-    if (req.session.checked) {
-        res.json({
-            success: true
-        });
-    } else {
-        next();
-    }
-});
+// app.get("/checknotice", (req, res, next) => {
+//     if (req.session.checked) {
+//         res.json({
+//             success: true
+//         });
+//     } else {
+//         next();
+//     }
+// });
 
 /////////////redirects and 410///////////////////////
-
-app.get("/archives/*", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
 app.get("/en/seo-freelancer", function(request, response) {
     response.writeHead(301, {
@@ -1307,22 +1269,6 @@ app.get("/en/seo-freelancer", function(request, response) {
 app.get("/de/seo-freelancer", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/seo-beratung",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/archives/*", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/single-post/*", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/blog",
         Expires: new Date().toGMTString()
     });
     response.end();
