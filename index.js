@@ -464,11 +464,11 @@ app.get("/en/technical/crawlability", (req, res) => {
         description:
             "xml format sitemap guides Google on how to crawl your site. Although  Google says there is no guarantee the Google bot will follow your  instructions, it is still highly recommended and in most cases,  sitemaps are beneficial.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technik/crawling"
+        alt: "https://www.seoberlino.com/de/technical/crawling"
     });
 });
 
-app.get("/de/technik/crawling", (req, res) => {
+app.get("/de/technical/crawling", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("crawlability", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -492,11 +492,11 @@ app.get("/en/technical/indexation", (req, res) => {
         description:
             "Efficient Indexation is key in order to get on well with Google's  spiders. Many believe the more pages indexed the better; that is  only true to a certain level.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technik/indexierung"
+        alt: "https://www.seoberlino.com/de/technical/indexierung"
     });
 });
 
-app.get("/de/technik/indexierung", (req, res) => {
+app.get("/de/technical/indexierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("indexation", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -519,11 +519,11 @@ app.get("/en/technical/internationalisation", (req, res) => {
         description:
             "There are various options when operating internationally: same root  domain, different top level domains, subdomains, how to link between  them, how to simplify the process without negatively affecting your  SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technik/internationalisierung"
+        alt: "https://www.seoberlino.com/de/technical/internationalisierung"
     });
 });
 
-app.get("/de/technik/internationalisierung", (req, res) => {
+app.get("/de/technical/internationalisierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internationalisation", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -547,11 +547,11 @@ app.get("/en/technical/pagespeed", (req, res) => {
         description:
             "Page load speed is key in SEO: a very important aspect of Technical SEO. If your site loads fast, Search Engines will prefer it to others.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technik/ladegeschwindigkeit"
+        alt: "https://www.seoberlino.com/de/technical/ladegeschwindigkeit"
     });
 });
 
-app.get("/de/technik/ladegeschwindigkeit", (req, res) => {
+app.get("/de/technical/ladegeschwindigkeit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("pagespeed", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -575,11 +575,11 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
         description:
             "Since a couple of years now, more people search the web on mobile devices than on Desktop. Hence, mobile optimization is critical and the mobile version is now the master version over Desktop for indexation.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technik/mobilefriendly"
+        alt: "https://www.seoberlino.com/de/technical/mobilefriendly"
     });
 });
 
-app.get("/de/technik/mobilefriendly", (req, res) => {
+app.get("/de/technical/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("mobile", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -603,12 +603,12 @@ app.get("/en/technical/security", (req, res) => {
         description:
             "https is now the norm. If your site is still not on https, its migration should be on the top of your SEO to-do list.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technik/sicherheit"
+        alt: "https://www.seoberlino.com/de/technical/sicherheit"
     });
     i18n.setLocale(req, "en");
 });
 
-app.get("/de/technik/sicherheit", (req, res) => {
+app.get("/de/technical/sicherheit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("https", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -632,11 +632,11 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
         description:
             "Javascript frameworks such as React and Angular which are client-side rendered are still very complex for Search Engines for indexation as they have trouble crawling them. This causes difficult challenges for SEO Optimization. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technik/dynamic-rendering-de"
+        alt: "https://www.seoberlino.com/de/technical/dynamic-rendering-de"
     });
 });
 
-app.get("/de/technik/dynamic-rendering-de", (req, res) => {
+app.get("/de/technical/dynamic-rendering-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("javascript", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -957,11 +957,11 @@ app.get("/en/technical", (req, res) => {
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technik"
+        alt: "https://www.seoberlino.com/de/technical"
     });
 });
 
-app.get("/de/technik", (req, res) => {
+app.get("/de/technical", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("technical2", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -1290,8 +1290,20 @@ app.get("/de/seo-freelancer", function(request, response) {
     response.end();
 });
 
-app.get("/de/technical", function(request, response) {
-    response.writeHead(410);
+app.get("/de/technik/mobilefriendly", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/technical/mobilefriendly",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/technik/internationalisierung", function(request, response) {
+    response.writeHead(301, {
+        Location:
+            "https://www.seoberlino.com/de/technical/internationalisierung",
+        Expires: new Date().toGMTString()
+    });
     response.end();
 });
 
