@@ -1192,7 +1192,7 @@ app.get("/en/seo-consultancy", (req, res) => {
         description:
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/seo-consultancy"
+        alt: "https://www.seoberlino.com/de/seo-beratung"
     });
     i18n.setLocale(req, "en");
 });
