@@ -102,9 +102,30 @@ h5 {
 }
 
 .map2 {
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 3%;
+    margin-top: 3%;
     width: 90%;
+}
+
+.auditdiv {
+    background-color: white;
+    padding: 30px;
+}
+
+.projectsdiv {
+    background-color: white;
+    padding: 30px;
+}
+
+.border {
+    border: black solid 1px;
+    background-color: lightgrey;
+    padding: 17px;
+    color: black;
+    width: 40%;
+    font-size: 24px;
+    border-radius: 10px;
+    text-shadow: 1px #000;
 }
 
 input {
@@ -686,11 +707,17 @@ a.languageBtnEN {
 }
 
 .servicesHP :hover,
-.servicesHP2 :hover {
+.servicesHP2 :hover,
+.servicesHP5 {
     background-color: white;
     color: #5b0c32;
     z-index: 3;
     text-shadow: 0px 1px grey;
+}
+
+.servicesHP5 :hover {
+    background-color: grey;
+    color: white;
 }
 
 .limited {
@@ -702,7 +729,8 @@ a.languageBtnEN {
 }
 
 button.servicesHP,
-button.servicesHP2 {
+button.servicesHP2,
+button.servicesHP5 {
     color: white;
     background-color: #5b0c32;
     position: flex;
@@ -715,6 +743,12 @@ button.servicesHP2 {
     border-radius: 15px;
     margin-left: 40%;
     z-index: 300;
+}
+
+button.servicesHP5 {
+    background-color: black;
+    color: white;
+    margin-left: 3%;
 }
 
 .h1hp {
