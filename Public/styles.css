@@ -1180,9 +1180,9 @@ a.langselected {
 }
 
 .linkedin {
-    top: -40px;
-    width: 80%;
-    border-radius: 7px;
+    margin-top: 90px;
+    width: 60%;
+    border-radius: 0px;
 }
 
 .transpbg-white {
