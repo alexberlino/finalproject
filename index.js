@@ -660,11 +660,11 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
         description:
             "Your links represent your reputation and relevancy in your domain.  Link building now goes hand in hand with brand building. As you  increased the digital signs of recognition aka links, you are also  building visibility of your brand.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/off-page/brand-building"
+        alt: "https://www.seoberlino.com/de/offpage/brand-building"
     });
 });
 
-app.get("/de/off-page/brand-building", (req, res) => {
+app.get("/de/offpage/brand-building", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("brandbuilding2", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -688,11 +688,11 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
         description:
             "During a backlink analysis, a report needs to be done with the profile's pros and cons. In addition, it should include an audit  of competitors to understand where you stand. Then a brainstorm can be done on link  targets and content production. Finally work can be prioritised depending on  potential and complexity, setting targets: quantity and quality links  for the next quarters focusing on.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/off-page/backlinkanalysis"
+        alt: "https://www.seoberlino.com/de/offpage/backlinkanalysis"
     });
 });
 
-app.get("/de/off-page/backlinkanalysis", (req, res) => {
+app.get("/de/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("backlinkanalysis2", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -716,11 +716,11 @@ app.get("/en/offpage/toxic", (req, res) => {
         description:
             "Many think the more links, the better but it doesn't actually work that way. Too many low quality and/or spammy links and your website will lose Google credibility and therefore visibility.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/off-page/toxic"
+        alt: "https://www.seoberlino.com/de/offpage/toxic"
     });
 });
 
-app.get("/de/off-page/toxic", (req, res) => {
+app.get("/de/offpage/toxic", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("links", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -823,11 +823,11 @@ app.get("/en/offpage", (req, res) => {
         description:
             "Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building. Create great content to show your expertise, build your brand and attracted links and potential customers.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/off-page"
+        alt: "https://www.seoberlino.com/de/offpage"
     });
 });
 
-app.get("/de/off-page", (req, res) => {
+app.get("/de/offpage", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("offpage2", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -1261,6 +1261,22 @@ app.get("/setcookiesession", (req, res) => {
 app.get("/en/seo-freelancer", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/off-page/toxic", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/offpage/toxic",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/off-page/backlink-analyse", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/offpage/backlinkanalysis",
         Expires: new Date().toGMTString()
     });
     response.end();
