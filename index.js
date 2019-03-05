@@ -1296,7 +1296,7 @@ app.get("/archives/*", function(request, response) {
     response.end();
 });
 
-app.get("/en/{{{__ "seo-freelancer}}}", function(request, response) {
+app.get("/en/seo-consultancy", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/seo-consultancy",
         Expires: new Date().toGMTString()
@@ -1304,7 +1304,7 @@ app.get("/en/{{{__ "seo-freelancer}}}", function(request, response) {
     response.end();
 });
 
-app.get("/de/{{{__ "seo-freelancer}}}", function(request, response) {
+app.get("/de/seo-beratung", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/seo-beratung",
         Expires: new Date().toGMTString()
