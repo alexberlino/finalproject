@@ -350,13 +350,18 @@ form {
     width: 72%;
 }
 
-.imageAudit {
+.imageAudit,
+.imageAudit2 {
     width: 70%;
     height: auto;
     position: relative;
     margin-bottom: 1%;
     margin-left: 25%;
     top: 0px;
+}
+
+.imageAudit2 {
+    margin-top: 40px;
 }
 
 .mainHP {
@@ -1305,7 +1310,6 @@ a.langselected {
 
 .grey {
     width: 200px;
-    margin-left: 31%;
 }
 
 .transpbg-white {

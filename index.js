@@ -154,6 +154,19 @@ app.get("/de", (req, res) => {
         alt2: "https://www.seoberlino.com/fr"
     });
 });
+app.get("/de/", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("home", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainDEHP",
+        title: "SEO Freelancer Berlin | SEO Beratungf | SEO Berlino",
+        description:
+            "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
+        canonical: "https://www.seoberlino.com/de",
+        alt: "https://www.seoberlino.com/en",
+        alt2: "https://www.seoberlino.com/fr"
+    });
+});
 
 app.get("/en/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1313,6 +1326,11 @@ app.get("/de/resources", function(request, response) {
 });
 
 app.get("/en/resources", function(request, response) {
+    response.writeHead(410);
+    response.end();
+});
+
+app.get("/de/onpage/duplicatecontent", function(request, response) {
     response.writeHead(410);
     response.end();
 });

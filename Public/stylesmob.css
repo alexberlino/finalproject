@@ -477,7 +477,8 @@
         font-size: 24px;
     }
 
-    .imageAudit {
+    .imageAudit,
+    .imageAudit2 {
         height: auto;
         width: 95%;
         margin-left: 5px;
@@ -487,6 +488,12 @@
         top: 15px;
     }
 
+    .grey {
+        margin-left: 0%;
+    }
+
+    .imageAudit2 {
+    }
     button.servicesHP,
     button.servicesHP2 {
         width: 220px;
