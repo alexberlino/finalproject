@@ -19,7 +19,9 @@
     }
     xmp {
         font-size: 16px;
-        margin-left: 20px;
+        margin-left: 0px;
+        width: 100%;
+        padding-left: 5px;
     }
 
     .h1hp {
@@ -48,12 +50,8 @@
         margin-left: 5%;
     }
     .searchconsole {
-        height: 100px;
-        width: 250px;
-    }
-
-    .xmp {
-        font-size: 16px;
+        height: 130px;
+        width: 330px;
     }
 
     .map {
@@ -373,8 +371,8 @@
     .footerlink {
         margin-left: 2px;
         color: white;
-        font-size: 14px;
-        padding-top: 4px;
+        font-size: 15px;
+        padding-top: 9px;
     }
 
     .languageBtn {
