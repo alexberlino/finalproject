@@ -1279,6 +1279,22 @@ app.get("/en/seo-freelancer", function(request, response) {
     response.end();
 });
 
+app.get("/de/onpage/voicesearch", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/onpage/sprachsuche",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/onpage/metas", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/onpage/metas-tags-de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 app.get("/de/off-page/toxic", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/offpage/toxic",
