@@ -146,7 +146,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Freelancer Berlin | SEO Beratungf | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Beratung | SEO Berlino",
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -159,7 +159,7 @@ app.get("/de/", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Freelancer Berlin | SEO Beratungf | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Beratung | SEO Berlino",
         description:
             "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Konkurrenzanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
