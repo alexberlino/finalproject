@@ -121,7 +121,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Freelancer Berlin | SEO Berlino",
+        title: "SEO Freelancer and Consulant in Berlin | SEO Berlino",
         description:
             "SEO Freelancer in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -135,9 +135,9 @@ app.get("/fr", (req, res) => {
     res.render("homeFR", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainFR",
-        title: "Freelance SEO | Consultant Référencement Berlin | SEO Berlino",
+        title: "Consultant SEO | SEO Freelancer Berlin | SEO Berlino",
         description:
-            "Freelance SEO & Consultant Référencement à Berlin.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
+            "Consultant SEO et SEO Freelancer basé à Berlin.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -177,11 +177,11 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
         description:
             "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content and how to avoid it.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/onpage/duplizierte-content"
+        alt: "https://www.seoberlino.com/de/onpage/duplicatecontent"
     });
 });
 
-app.get("/de/onpage/duplizierte-content", (req, res) => {
+app.get("/de/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("duplicatecontent", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -189,7 +189,7 @@ app.get("/de/onpage/duplizierte-content", (req, res) => {
         title: "Doppelter Inhalt SEO | SEO Berlino",
         description:
             "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
-        canonical: "https://www.seoberlino.com/de/onpage/duplizierte-content",
+        canonical: "https://www.seoberlino.com/de/onpage/duplicatecontent",
         alt: "https://www.seoberlino.com/en/onpage/duplicatecontent"
     });
 });
@@ -742,7 +742,7 @@ app.get("/de/offpage/toxic", (req, res) => {
         title: "Was sind backlinks ? | SEO Berlino",
         description:
             "Viele denken, es gehe immer um eine möglichst große Anzahl von Links, dem ist allerdings nicht so. Zu viele Links von geringer Qualität und Spam senken Ihre Glaubwürdigkeit bei Suchmaschinen (engl. Google Credibility) und schaden somit Ihrer Sichtbarkeit.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/offpage/toxic",
         alt: "https://www.seoberlino.com/en/offpage/toxic"
     });
 });
