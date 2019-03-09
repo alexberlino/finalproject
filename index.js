@@ -1272,18 +1272,12 @@ app.get("/setcookiesession", (req, res) => {
 /////////////redirects and 410///////////////////////
 
 app.get("/en/seo-freelancer", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seo-consultancy",
-        Expires: new Date().toGMTString()
-    });
+    response.writeHead(410);
     response.end();
 });
 
 app.get("/de/seo-freelancer", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seo-beratung",
-        Expires: new Date().toGMTString()
-    });
+    response.writeHead(410);
     response.end();
 });
 
