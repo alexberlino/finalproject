@@ -153,10 +153,11 @@
         width: 96%;
         padding-left: 4px;
         z-index: 10;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: 0px;
         margin-left: 1%;
         opacity: 0.97;
+        padding-top: 10px;
     }
 
     .services4 {
@@ -456,7 +457,7 @@
 
     .introHP {
         margin-top: 45%;
-        opacity: 0.85;
+        opacity: 1;
         margin-bottom: 0px;
     }
 
@@ -520,6 +521,8 @@
         border-radius: 18px;
         font-size: 18px;
         margin-left: 23%;
+        background-color: #1a2827;
+        border: 1px solid #1a2827;
     }
 }
 
@@ -540,7 +543,7 @@
         font-size: 20px;
     }
     .introHP {
-        margin-top: -35%;
+        margin-top: 35%;
     }
 }
 
