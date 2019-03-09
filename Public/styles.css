@@ -15,6 +15,10 @@ p {
 }
 body {
 }
+.homepage {
+    width: 100%;
+    opacity: 0.3;
+}
 
 xmp {
     background-color: black;
@@ -750,12 +754,14 @@ a.languageBtnEN {
     color: #001f3f;
     position: relative;
     background-color: white;
-    margin-top: 280px;
+    margin-top: -50%;
+    margin-bottom: 20px;
     padding-top: 50px;
-    width: 90%;
-    margin-left: 6%;
+    padding-bottom: 50px;
+    width: 100%;
     border: white 0px solid;
     text-align: center;
+    opacity: 0.9;
 }
 
 .servicesHP :hover,
@@ -784,9 +790,9 @@ button.servicesHP,
 button.servicesHP2,
 button.servicesHP5 {
     color: white;
-    background-color: #5b0c32;
+    background-color: #283d3b;
     position: flex;
-    border: 1px #5b0c32 solid;
+    border: 1px #283d3b solid;
     font-size: 24px;
     width: 320px;
     height: 70px;
@@ -801,7 +807,7 @@ button.servicesHP5 {
     background-color: darkred;
     color: white;
     margin-left: 3%;
-    animation: bounce-in-top 4s;
+    animation: bounce-in-top 2s;
 }
 
 .h1hp {
@@ -885,7 +891,7 @@ h3.grey a:visited {
 .backgroundBlack,
 .backgroundBlack2 {
     width: 100%;
-    background-color: #5b0c32;
+    background-color: #283d3b;
     display: block;
     position: relative;
     padding-bottom: 50px;
@@ -907,7 +913,7 @@ h3.grey a:visited {
     max-height: 500px;
     top: 100px;
     overflow: scroll;
-    background-color: #5b0c32;
+    background-color: #283d3b;
     z-index: -1;
     width: auto;
     left: 0;
@@ -1336,7 +1342,7 @@ a.langselected {
 .orange,
 h2.orange,
 .orange00 {
-    color: #fd6a02;
+    color: #c44536;
     font-size: 30px;
     margin-top: 0px;
     margin-left: 3%;
