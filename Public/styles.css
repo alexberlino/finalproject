@@ -899,6 +899,11 @@ h3.grey a:visited {
     padding-top: 0px;
 }
 
+a[href^="tel"] {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 .backgroundBlack,
 .backgroundBlack2 {
     width: 100%;
