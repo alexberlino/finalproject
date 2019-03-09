@@ -496,7 +496,8 @@
     }
 
     .imageAudit,
-    .imageAudit2 {
+    .imageAudit2,
+    .imageAudit3 {
         height: auto;
         width: 95%;
         margin-left: 5px;

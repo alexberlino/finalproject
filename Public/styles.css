@@ -355,7 +355,8 @@ form {
 }
 
 .imageAudit,
-.imageAudit2 {
+.imageAudit2,
+.imageAudit3 {
     width: 70%;
     height: auto;
     position: relative;
@@ -366,6 +367,11 @@ form {
 
 .imageAudit2 {
     margin-top: 40px;
+}
+.imageAudit3 {
+    width: 60%;
+    margin-bottom: 15%;
+    top: 20px;
 }
 
 .mainHP {
