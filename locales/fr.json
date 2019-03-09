@@ -22,7 +22,7 @@
     "hey8": "Audit Off-Page",
     "whatisSEO": "Référencement (ou Search engine optimization en anglais) est le terme utilisé pour décrire le processus d'optimisation d'un site pour les moteurs de recherche. Le référencement est important pour attirer des visiteurs qui recherchent en ligne les produits ou services offert par le site. Les moteurs de recherche utilisent des algorithmes de plus en plus complexes pour déterminer les pages à inclure dans leur index et leur ordre d'affichage dans les résultats de la recherche. Le référencement est le moyen de communiquer avec les moteurs de recherche dans une langue qu’ils peuvent comprendre et de leur donner le plus d’informations possible sur votre site Web.",
     "clients": "current and former clients",
-    "intro1": "Freelance SEO (Référencement) français à Berlin, avec 10 ans d'expérience.",
+    "intro1": "SEO Freelancer français à Berlin, 10 ans d'expérience.",
     "intro2": "9 years experience in SEO, SEA and Analytics.",
     "intro3": "Trained Full Stack Web Developer",
     "intro4": "Analysis, Action Plan with Prioritization, and Controlling",
@@ -389,5 +389,6 @@
     "voiceMP5": "One of the main advantage to be ready and optimized for voice search terms is that you can be featured at position 0 with the featured snippet, answering directly to the question of the search.",
     "optimization": "optimisation",
     "analyticsHP3U": "COMPETITOR ANALYSIS",
-    "crawlabilityMPintro": " "
+    "crawlabilityMPintro": " ",
+    "seo-freelancer": "seo-freelancer"
 }

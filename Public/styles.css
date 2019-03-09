@@ -761,14 +761,14 @@ a.languageBtnEN {
     width: 100%;
     border: white 0px solid;
     text-align: center;
-    opacity: 0.9;
+    opacity: 0.75;
 }
 
 .servicesHP :hover,
 .servicesHP2 :hover,
 .servicesHP5 {
     background-color: white;
-    color: #5b0c32;
+    color: #c44536;
     z-index: 3;
     text-shadow: 0px 1px grey;
 }
@@ -786,13 +786,18 @@ a.languageBtnEN {
     margin-left: 20%;
 }
 
+.logocontainer {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 button.servicesHP,
 button.servicesHP2,
 button.servicesHP5 {
     color: white;
-    background-color: #283d3b;
+    background-color: #c44536;
     position: flex;
-    border: 1px #283d3b solid;
+    border: 1px #c44536 solid;
     font-size: 24px;
     width: 320px;
     height: 70px;
