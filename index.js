@@ -1279,6 +1279,14 @@ app.get("/en/seo-freelancer", function(request, response) {
     response.end();
 });
 
+app.get("/de/seo-freelancer", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 app.get("/de/onpage/voicesearch", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/onpage/sprachsuche",
@@ -1311,14 +1319,6 @@ app.get("/de/off-page/backlink-analyse", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-freelancer", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seo-beratung",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
 app.get("/de/technik/mobilefriendly", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/technical/mobilefriendly",
@@ -1336,32 +1336,7 @@ app.get("/de/technik/internationalisierung", function(request, response) {
     response.end();
 });
 
-app.get("/de/resources", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/en/resources", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/de/onpage/duplicatecontent", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/de/services", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
 app.get("/en/services", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/de/services", function(request, response) {
     response.writeHead(410);
     response.end();
 });
