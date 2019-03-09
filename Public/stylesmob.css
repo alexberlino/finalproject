@@ -40,6 +40,8 @@
 
     .h2hp {
         font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     iframe {
@@ -100,8 +102,8 @@
     p.txt3 {
         font-size: 18px;
         width: 90%;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
         padding: 5px;
     }
 
@@ -151,9 +153,14 @@
         width: 96%;
         padding-left: 4px;
         z-index: 10;
+        margin-top: 10%;
         margin-bottom: 0px;
         margin-left: 1%;
         opacity: 0.97;
+    }
+
+    .services4 {
+        margin-top: 50%;
     }
 
     .imageBlogHP {
@@ -250,7 +257,7 @@
     .intro2,
     .intro20 {
         font-size: 16px;
-        margin-top: 20px;
+        margin-top: 0px;
         text-align: center;
         display: block;
         width: 90%;
@@ -376,6 +383,14 @@
         width: 80%;
     }
 
+    .homepage {
+        width: 100%;
+        opacity: 0.3;
+        position: fixed;
+        top: 50px;
+        opacity: 0.8;
+    }
+
     .logocontainer {
         margin-left: 10%;
         margin-right: 10%;
@@ -440,7 +455,9 @@
     }
 
     .introHP {
-        margin-top: -30%;
+        margin-top: 45%;
+        opacity: 0.85;
+        margin-bottom: 0px;
     }
 
     h1 {
