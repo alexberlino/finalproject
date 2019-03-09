@@ -379,6 +379,8 @@ form {
     height: 100%;
     position: relative;
     min-height: calc(100vh - 20px);
+    background-color: white;
+    z-index: 0;
 }
 .logo {
     position: relative;
@@ -495,6 +497,8 @@ a.languageBtnEN {
 .xtrapad {
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .marginleft {
@@ -908,6 +912,8 @@ a[href^="tel"] {
 .backgroundBlack2 {
     width: 100%;
     background-color: #283d3b;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display: block;
     position: relative;
     padding-bottom: 50px;
@@ -957,6 +963,7 @@ a[href^="tel"] {
     position: absolute;
     z-index: -1;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .seotxt {

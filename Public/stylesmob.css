@@ -326,8 +326,8 @@
     }
 
     .xtrapad  {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .intro4 {
@@ -390,6 +390,7 @@
         position: fixed;
         top: 50px;
         opacity: 0.8;
+        z-index: -1;
     }
 
     .logocontainer {
