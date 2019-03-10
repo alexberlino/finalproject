@@ -132,7 +132,7 @@
     "offpageHP1": "Backlink Analysis",
     "offpageHP3": "Brand building",
     "offpageHP4": "Influencers",
-    "offpageHP5": "Links",
+    "offpageHP5": "Backlinks",
     "technicalHP1": "Indexation",
     "technicalHP2": "Crawlability",
     "technicalHP3": "Internationalisation",
@@ -157,7 +157,7 @@
     "offpageHP1U": "BACKLINK ANALYSIS",
     "offpageHP3U": "BRAND BUILDING",
     "offpageHP4U": "INFLUENCERS",
-    "offpageHP5U": "LINKS",
+    "offpageHP5U": "BACKLINKS",
     "technicalHP1U": "INDEXATION",
     "technicalHP2U": "CRAWLING",
     "technicalHP3U": "INTERNATIONALISATION",
@@ -219,7 +219,7 @@
     "offpageMP3": "Link building is the most popular and effective off-Page SEO method. By building external links to your website, your trying to gather votes of confidence from other relevant websites. Old methods which now do not work: blog directories, forum signatures, comment links, link exchange, Reality is quality of links than the number. To get quality links the best is to understand what content you can produce that will add value to potential customers and to influencers and then bring it to them: ",
     "offpageMP4": "Social Media is part of offpage SEO and a form of backlinking which could bring you traffic and recognition. Although most of the links from social media are nofollow they still have value. Social Media mentions are gaining ground as ranking factors and proper configuration of social media profiles can also boost SEO.",
     "offpageMP5": "Social bookmarking is not as popular as it used to be in the past but it is still a good way to get traffic to your website. Depending on your niche you can find web sites like reddit.com, stumbleupon.com, scoop.it and delicious.com (to name a few) to promote your content.",
-    "linkstoavoidtitle": "links to avoid",
+    "linkstoavoidtitle": "Backlinks to avoid",
     "linkstoavoidT2": "You are responsible for the links that point to you",
     "linkstoavoid1": "Many think the more links, the better but it doesn't actually work that way. Too many low quality and/or spammy links and your website will lose Google credibility and therefore visibility.",
     "linkstoavoid2": "Since a few years already, you as website owner are responsible for the backlinks pointing to your site, so you need to constantly monitor, identify bad links and clean up your backlink profile. First step using the disavow tool then to try pro-actively to remove them.",
@@ -415,5 +415,9 @@
     "voiceMP4": "Search volumes for such searches are still lower than the classical searches equivalent, but the volumes are continuously increasing and the keywords are more segmented, meaning there are more questions for the equivalent classical search term",
     "voiceMP5": "One of the main advantage to be ready and optimized for voice search terms is that you can be featured at position 0 with the featured snippet, answering directly to the question of the search.",
     "optimization": "optimization",
-    "analyticsHP3U": "COMPETITOR ANALYSIS"
+    "analyticsHP3U": "COMPETITOR ANALYSIS",
+    "example": "Example",
+    "definition": "Definition",
+    "nofollowMP": "nofollow is a value that can be assigned to the rel attribute of an HTML element a (link) to instruct search engines that the hyperlink should not affect the ranking of the link target in the index of the search engine.",
+    "": ""
 }

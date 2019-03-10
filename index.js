@@ -186,7 +186,7 @@ app.get("/de/onpage/duplicatecontent", (req, res) => {
     res.render("duplicatecontent", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Doppelter Inhalt SEO | SEO Berlino",
+        title: "Duplicate Content SEO | SEO Berlino",
         description:
             "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
         canonical: "https://www.seoberlino.com/de/onpage/duplicatecontent",
@@ -1177,6 +1177,30 @@ app.get("/en/seo-consultancy", (req, res) => {
             "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-beratung"
+    });
+});
+
+app.get("/en/lexical/nofollow", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("nofollow", {
+        requrl: "/de/lexical/nofollow",
+        layout: "main",
+        title: "Nofollow Links | SEO Berlino",
+        description: "Understand NoFollow Links and how they affect your SEO",
+        canonical: "https://www.seoberlino.com/en/lexical/nofollow",
+        alt: "/de/lexical/nofollow"
+    });
+});
+
+app.get("/de/lexical/nofollow", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("nofollow", {
+        requrl: "/en/lexical/nofollow",
+        layout: "mainDE",
+        title: "Nofollow Links | SEO Berlino",
+        description: "Understand NoFollow Links and how they affect your SEO",
+        canonical: "https://www.seoberlino.com/de/lexical/nofollow",
+        alt: "/en/lexical/nofollow"
     });
 });
 
