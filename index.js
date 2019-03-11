@@ -560,11 +560,11 @@ app.get("/en/technical/pagespeed", (req, res) => {
         description:
             "Page load speed is key in SEO: a very important aspect of Technical SEO. If your site loads fast, Search Engines will prefer it to others.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technical/ladegeschwindigkeit"
+        alt: "https://www.seoberlino.com/de/technical/pagespeed"
     });
 });
 
-app.get("/de/technical/ladegeschwindigkeit", (req, res) => {
+app.get("/de/technical/pagespeed", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("pagespeed", {
         requrl: "/en" + req.originalUrl.substring(3),
