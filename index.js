@@ -1222,7 +1222,7 @@ app.get("/de/lexical/alt-attribute", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("altattribute", {
         requrl: "/en/lexical/alt-attribute",
-        layout: "main",
+        layout: "mainDE",
         title: "Alt Attribute für SEO Bildoptimierung | SEO Berlino",
         description: "Understand Alt Attribute and how can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1246,7 +1246,7 @@ app.get("/de/lexical/amp-pages", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("amppages", {
         requrl: "/en/lexical/amp-pages",
-        layout: "main",
+        layout: "mainDE",
         title: "AMP Seiten für SEO | SEO Berlino",
         description: "Understand AMP Pages and how can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1270,7 +1270,7 @@ app.get("/de/lexical/canonical", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("canonical", {
         requrl: "/en/lexical/canonical",
-        layout: "main",
+        layout: "mainDE",
         title: "Canonicals for SEO | SEO Berlino",
         description: "Understand Canonicals work and how can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1294,7 +1294,7 @@ app.get("/de/lexical/google-keyword-tool", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("googlekwtool", {
         requrl: "/en/lexical/google-keyword-tool",
-        layout: "main",
+        layout: "mainDE",
         title: "Canonicals for SEO | SEO Berlino",
         description: "Understand Canonicals work and how can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1319,7 +1319,7 @@ app.get("/de/lexical/hreflang", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("hreflang", {
         requrl: "/en/lexical/hreflang",
-        layout: "main",
+        layout: "mainDE",
         title: "hreflang für SEO | SEO Berlino",
         description: "Understand Canonicals work and how can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1344,7 +1344,7 @@ app.get("/de/lexical/long-tail", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("longtail", {
         requrl: "/en/lexical/long-tail",
-        layout: "main",
+        layout: "mainDE",
         title: "Was bedeutet Long Tail für SEO | SEO Berlino",
         description:
             "Understand how long-tail works and how can improve your SEO",
@@ -1370,7 +1370,7 @@ app.get("/de/lexical/robots", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("robots", {
         requrl: "/en/lexical/robots",
-        layout: "main",
+        layout: "mainDE",
         title: "Was bedeutet Robots.txt für SEO | SEO Berlino",
         description:
             "Understand how Robots.txt works and how can improve your SEO",
@@ -1396,7 +1396,7 @@ app.get("/de/lexical/robots", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("robots", {
         requrl: "/en/lexical/robots",
-        layout: "main",
+        layout: "mainDE",
         title: "Was bedeutet Robots.txt für SEO | SEO Berlino",
         description:
             "Understand how Robots.txt works and how can improve your SEO",
@@ -1422,7 +1422,7 @@ app.get("/de/lexical", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("robots", {
         requrl: "/en/lexical",
-        layout: "main",
+        layout: "mainDE",
         title: "SEO Lexical | SEO Berlino",
         description:
             "Understand how Robots.txt works and how can improve your SEO",
@@ -1448,7 +1448,7 @@ app.get("/de/lexical/search-console", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("searchconsole", {
         requrl: "/en/lexical/search-console",
-        layout: "main",
+        layout: "mainDE",
         title: "Wie funktioniert Search Console für SEO | SEO Berlino",
         description:
             "Understand how to use Google's Search Console and it can help you to improve your SEO",
@@ -1474,7 +1474,7 @@ app.get("/de/lexical/search-volume", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("searchvolume", {
         requrl: "/en/lexical/search-volume",
-        layout: "main",
+        layout: "mainDE",
         title: "Was bedeutet Robots.txt für SEO | SEO Berlino",
         description:
             "Understand Search Volume and how to use it to improve your SEO",
@@ -1500,7 +1500,7 @@ app.get("/de/lexical/sitemaps", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("sitemaps", {
         requrl: "/en/lexical/sitemaps",
-        layout: "main",
+        layout: "mainDE",
         title: "Was funktionieren Sitemaps für SEO | SEO Berlino",
         description:
             "Understand how Sitemaps work and how they can improve your SEO",
@@ -1509,6 +1509,136 @@ app.get("/de/lexical/sitemaps", (req, res) => {
     });
 });
 
+app.get("/en/lexical/noindex", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("noindex", {
+        requrl: "/de/lexical/noindex",
+        layout: "main",
+        title: "What is a Sitemap and how to use it for SEO | SEO Berlino",
+        description:
+            "Understand how noindex works and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/noindex"
+    });
+});
+
+app.get("/de/lexical/noindex", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("noindex", {
+        requrl: "/en/lexical/noindex",
+        layout: "mainDE",
+        title: "Was funktionieren Sitemaps für SEO | SEO Berlino",
+        description:
+            "Understand how noindex works and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/noindex"
+    });
+});
+
+app.get("/en/lexical/redirects", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("redirects", {
+        requrl: "/de/lexical/redirects",
+        layout: "main",
+        title: "What is a redirect and how to use it for SEO | SEO Berlino",
+        description:
+            "Understand how redirects work and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/redirects"
+    });
+});
+
+app.get("/de/lexical/redirects", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("redirects", {
+        requrl: "/en/lexical/redirects",
+        layout: "mainDE",
+        title: "Was funktionieren redirects für SEO | SEO Berlino",
+        description:
+            "Understand how redirects work and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/redirects"
+    });
+});
+
+app.get("/en/lexical/lighthouse", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("lighthouse", {
+        requrl: "/de/lexical/lighthouse",
+        layout: "main",
+        title: "What is a Lighthouse and how to use it for SEO | SEO Berlino",
+        description:
+            "Understand how Lighthouse work and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/lighthouse"
+    });
+});
+
+app.get("/de/lexical/lighthouse", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("lighthouse", {
+        requrl: "/en/lexical/lighthouse",
+        layout: "mainDE",
+        title: "Was funktioniert lighthouse für SEO | SEO Berlino",
+        description:
+            "Understand how Lighthouse work and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/lighthouse"
+    });
+});
+
+app.get("/en/lexical/remove-url-tool", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("removeurltool", {
+        requrl: "/de/lexical/remove-url-tool",
+        layout: "main",
+        title:
+            "What is the Remove url Tool and how to use it for SEO | SEO Berlino",
+        description:
+            "Understand how the Remove url Tool works and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/remove-url-tool"
+    });
+});
+
+app.get("/de/lexical/remove-url-tool", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("removeurltool", {
+        requrl: "/en/lexical/remove-url-tool",
+        layout: "mainDE",
+        title: "Was funktioniert Remove URL Tool| SEO Berlino",
+        description:
+            "Understand how the Remove url Tool work and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/remove-url-tool"
+    });
+});
+
+app.get("/en/lexical/disavow-tool", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("disavowtool", {
+        requrl: "/de/lexical/disavow-tool",
+        layout: "main",
+        title: "What is the Disavow and how to use it for SEO | SEO Berlino",
+        description:
+            "Understand how the Disavow Tool works and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/disavow-tool"
+    });
+});
+
+app.get("/de/lexical/disavow-tool", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("removeurltool", {
+        requrl: "/en/lexical/disavow-tool",
+        layout: "mainDE",
+        title: "Was funktioniert Disavow Tool | SEO Berlino",
+        description:
+            "Understand how the Disavow Tool works and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/disavow-tool"
+    });
+});
 //////blog pages/////////
 app.get("/en/article/linkbuilding-in-2019", (req, res) => {
     i18n.setLocale(req, "en");
