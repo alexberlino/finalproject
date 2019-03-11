@@ -17,16 +17,20 @@
 
 
     </div>
-    <h1 class="h1services"> Nofollow Links</h1>
+    <h1 class="h1services"> hreflang & SEO</h1>
     <h2>{{{__ "definition"}}}</h2>
     <div class="serviceText">
-        {{{__ "nofollowMP"}}}
+        {{{__ "hreflangMP"}}}
     </div>
 
     <h2>{{{__ "example"}}}</h2>
     <div class="serviceText">
         <xmp>
-<a href="http://www.example.com/" rel="nofollow">example</a>
+        <link rel="alternate" hreflang="en"
+        href="https://www.mysite.com/en" />
+
+        <link rel="alternate" hreflang="de"
+        href="https://www.mysite.com/de" />
 
 </xmp>
     </div>
@@ -56,3 +60,5 @@
 </script>
 
 </div>
+{{>extendedlexical}}
+{{>extendedfooter}}

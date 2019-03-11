@@ -694,7 +694,7 @@ a.languageBtnEN {
     display: block;
 }
 
-.footer {
+.footer, .footer2 {
     padding-top: 60px;
     padding-bottom: 10px;
     background-color: black;
@@ -707,6 +707,20 @@ a.languageBtnEN {
     position: relative;
     bottom: 0px;
 }
+
+
+.footer2 {
+background-color: white;
+color: black;
+padding-bottom: 80px;
+
+}
+
+
+
+
+
+
 .footerQuarter {
     display: inline;
     width: 33%;
@@ -773,6 +787,8 @@ a.languageBtnEN {
     text-align: center;
     opacity: 0.75;
 }
+
+
 
 .servicesHP :hover,
 .servicesHP2 :hover,
@@ -842,6 +858,12 @@ button.servicesHP5 {
 h3.grey a,
 h3.grey a:visited {
     color: grey;
+}
+
+a.grey2 {
+    text-align: center;
+    color: lightgrey;
+    margin-top: 9px;
 }
 
 .seotxt {

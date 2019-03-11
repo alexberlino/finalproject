@@ -1180,6 +1180,8 @@ app.get("/en/seo-consultancy", (req, res) => {
     });
 });
 
+//////lexicalpages////////
+
 app.get("/en/lexical/nofollow", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("nofollow", {
@@ -1187,7 +1189,7 @@ app.get("/en/lexical/nofollow", (req, res) => {
         layout: "main",
         title: "Nofollow Links | SEO Berlino",
         description: "Understand NoFollow Links and how they affect your SEO",
-        canonical: "https://www.seoberlino.com/en/lexical/nofollow",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/nofollow"
     });
 });
@@ -1199,11 +1201,315 @@ app.get("/de/lexical/nofollow", (req, res) => {
         layout: "mainDE",
         title: "Nofollow Links | SEO Berlino",
         description: "Understand NoFollow Links and how they affect your SEO",
-        canonical: "https://www.seoberlino.com/de/lexical/nofollow",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/nofollow"
     });
 });
 
+app.get("/en/lexical/alt-attribute", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("altattribute", {
+        requrl: "/de/lexical/alt-attribute",
+        layout: "main",
+        title: "Alt Attribute for SEO Images | SEO Berlino",
+        description: "Understand Alt Attribute and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/alt-attribute"
+    });
+});
+
+app.get("/de/lexical/alt-attribute", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("altattribute", {
+        requrl: "/en/lexical/alt-attribute",
+        layout: "main",
+        title: "Alt Attribute für SEO Bildoptimierung | SEO Berlino",
+        description: "Understand Alt Attribute and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/alt-attribute"
+    });
+});
+
+app.get("/en/lexical/amp-pages", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("amppages", {
+        requrl: "/de/lexical/amp-pages",
+        layout: "main",
+        title: "AMP Pages for SEO | SEO Berlino",
+        description: "Understand AMP Pages and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/amp-pages"
+    });
+});
+
+app.get("/de/lexical/amp-pages", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("amppages", {
+        requrl: "/en/lexical/amp-pages",
+        layout: "main",
+        title: "AMP Seiten für SEO | SEO Berlino",
+        description: "Understand AMP Pages and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/amp-pages"
+    });
+});
+
+app.get("/en/lexical/canonical", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("canonical", {
+        requrl: "/de/lexical/canonical",
+        layout: "main",
+        title: "Canonicals for SEO | SEO Berlino",
+        description: "Understand Canonicals work and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/amp-pages"
+    });
+});
+
+app.get("/de/lexical/canonical", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("canonical", {
+        requrl: "/en/lexical/canonical",
+        layout: "main",
+        title: "Canonicals for SEO | SEO Berlino",
+        description: "Understand Canonicals work and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/amp-pages"
+    });
+});
+
+app.get("/en/lexical/google-keyword-tool", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("googlekwtool", {
+        requrl: "/de/lexical/google-keyword-tool",
+        layout: "main",
+        title: "Canonicals for SEO | SEO Berlino",
+        description: "Understand Canonicals work and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/google-keyword-tool"
+    });
+});
+
+app.get("/de/lexical/google-keyword-tool", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("googlekwtool", {
+        requrl: "/en/lexical/google-keyword-tool",
+        layout: "main",
+        title: "Canonicals for SEO | SEO Berlino",
+        description: "Understand Canonicals work and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/google-keyword-tool"
+    });
+});
+
+app.get("/en/lexical/hreflang", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("hreflang", {
+        requrl: "/de/lexical/hreflang",
+        layout: "main",
+        title: "hreflang for SEO | SEO Berlino",
+        description:
+            "Understand how hreflang work and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/hreflang"
+    });
+});
+
+app.get("/de/lexical/hreflang", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("hreflang", {
+        requrl: "/en/lexical/hreflang",
+        layout: "main",
+        title: "hreflang für SEO | SEO Berlino",
+        description: "Understand Canonicals work and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/hreflang"
+    });
+});
+
+app.get("/en/lexical/long-tail", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("longtail", {
+        requrl: "/de/lexical/long-tail",
+        layout: "main",
+        title: "What is Long Tail | SEO Berlino",
+        description:
+            "Understand how long-tail works and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/long-tail"
+    });
+});
+
+app.get("/de/lexical/long-tail", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("longtail", {
+        requrl: "/en/lexical/long-tail",
+        layout: "main",
+        title: "Was bedeutet Long Tail für SEO | SEO Berlino",
+        description:
+            "Understand how long-tail works and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/long-tail"
+    });
+});
+
+app.get("/en/lexical/robots", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("robots", {
+        requrl: "/de/lexical/robots",
+        layout: "main",
+        title: "What is Robots.txt | SEO Berlino",
+        description:
+            "Understand how Robots.txt works and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/robots"
+    });
+});
+
+app.get("/de/lexical/robots", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("robots", {
+        requrl: "/en/lexical/robots",
+        layout: "main",
+        title: "Was bedeutet Robots.txt für SEO | SEO Berlino",
+        description:
+            "Understand how Robots.txt works and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/robots"
+    });
+});
+
+app.get("/en/lexical/robots", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("robots", {
+        requrl: "/de/lexical/robots",
+        layout: "main",
+        title: "What is Robots.txt | SEO Berlino",
+        description:
+            "Understand how Robots.txt works and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/robots"
+    });
+});
+
+app.get("/de/lexical/robots", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("robots", {
+        requrl: "/en/lexical/robots",
+        layout: "main",
+        title: "Was bedeutet Robots.txt für SEO | SEO Berlino",
+        description:
+            "Understand how Robots.txt works and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/robots"
+    });
+});
+
+app.get("/en/lexical", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("lexical", {
+        requrl: "/de/lexical",
+        layout: "main",
+        title: "SEO Lexical | SEO Berlino",
+        description:
+            "Understand how Robots.txt works and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical"
+    });
+});
+
+app.get("/de/lexical", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("robots", {
+        requrl: "/en/lexical",
+        layout: "main",
+        title: "SEO Lexical | SEO Berlino",
+        description:
+            "Understand how Robots.txt works and how can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical"
+    });
+});
+
+app.get("/en/lexical/search-console", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("searchconsole", {
+        requrl: "/de/lexical/search-console",
+        layout: "main",
+        title: "What is Google's Search Console | SEO Berlino",
+        description:
+            "Understand how to use Google's Search Console and it can help you to improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/search-console"
+    });
+});
+
+app.get("/de/lexical/search-console", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("searchconsole", {
+        requrl: "/en/lexical/search-console",
+        layout: "main",
+        title: "Wie funktioniert Search Console für SEO | SEO Berlino",
+        description:
+            "Understand how to use Google's Search Console and it can help you to improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/search-console"
+    });
+});
+
+app.get("/en/lexical/search-volume", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("searchvolume", {
+        requrl: "/de/lexical/search-volume",
+        layout: "main",
+        title: "What is Search Volume and how to use it for SEO | SEO Berlino",
+        description:
+            "Understand Search Volume and how to use it to improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/search-volume"
+    });
+});
+
+app.get("/de/lexical/search-volume", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("searchvolume", {
+        requrl: "/en/lexical/search-volume",
+        layout: "main",
+        title: "Was bedeutet Robots.txt für SEO | SEO Berlino",
+        description:
+            "Understand Search Volume and how to use it to improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/search-volume"
+    });
+});
+
+app.get("/en/lexical/sitemaps", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("sitemaps", {
+        requrl: "/de/lexical/sitemaps",
+        layout: "main",
+        title: "What is a Sitemap and how to use it for SEO | SEO Berlino",
+        description:
+            "Understand how Sitemaps work and how it can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/sitemaps"
+    });
+});
+
+app.get("/de/lexical/sitemaps", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("sitemaps", {
+        requrl: "/en/lexical/sitemaps",
+        layout: "main",
+        title: "Was funktionieren Sitemaps für SEO | SEO Berlino",
+        description:
+            "Understand how Sitemaps work and how they can improve your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/sitemaps"
+    });
+});
+
+//////blog pages/////////
 app.get("/en/article/linkbuilding-in-2019", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog1", {
