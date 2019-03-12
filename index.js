@@ -1434,7 +1434,7 @@ app.get("/en/lexical", (req, res) => {
 
 app.get("/de/lexical", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("robots", {
+    res.render("lexical", {
         requrl: "/en/lexical",
         layout: "mainDE",
         title: "SEO Lexical | SEO Berlino",
