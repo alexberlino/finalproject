@@ -53,9 +53,10 @@
         margin-left: 5%;
     }
     .searchconsole {
-        height: 130px;
-        width: 300px;
-    }
+
+max-width: 100%;
+margin-left: 0px;
+height:auto  }
 
     .map {
         width: 90%;
