@@ -1110,6 +1110,20 @@ app.get("/en/contact", (req, res) => {
     });
 });
 
+app.get("/fr/contact", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("contact", {
+        requrl: "/en" + req.originalUrl.substring(3),
+
+        layout: "mainFR",
+        title: "SEO Consultant Berlin - Contact | SEO Berlino",
+        description:
+            "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/fr/contact"
+    });
+});
+
 app.get("/de/contact", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("contact", {
