@@ -1487,7 +1487,7 @@ app.get("/de/lexical/sitemaps", (req, res) => {
     res.render("sitemaps", {
         requrl: "/en/lexical/sitemaps",
         layout: "mainDE",
-        title: "Was funktionieren Sitemaps für SEO | SEO Berlino",
+        title: "Wie funktionieren Sitemaps für SEO | SEO Berlino",
         description:
             "Understand how Sitemaps work and how they can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1513,7 +1513,7 @@ app.get("/de/lexical/noindex", (req, res) => {
     res.render("noindex", {
         requrl: "/en/lexical/noindex",
         layout: "mainDE",
-        title: "Was funktionieren noindex für SEO | SEO Berlino",
+        title: "Wie funktionieren noindex für SEO | SEO Berlino",
         description:
             "Understand how noindex works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1539,7 +1539,7 @@ app.get("/de/lexical/redirects", (req, res) => {
     res.render("redirects", {
         requrl: "/en/lexical/redirects",
         layout: "mainDE",
-        title: "Was funktionieren redirects für SEO | SEO Berlino",
+        title: "Wie funktionieren redirects für SEO | SEO Berlino",
         description:
             "Understand how redirects work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1565,7 +1565,7 @@ app.get("/de/lexical/lighthouse", (req, res) => {
     res.render("lighthouse", {
         requrl: "/en/lexical/lighthouse",
         layout: "mainDE",
-        title: "Was funktioniert Lighthouse für SEO | SEO Berlino",
+        title: "Wie funktioniert Lighthouse für SEO | SEO Berlino",
         description:
             "Understand how Lighthouse work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1591,7 +1591,7 @@ app.get("/de/lexical/remove-url-tool", (req, res) => {
     res.render("removeurltool", {
         requrl: "/en/lexical/remove-url-tool",
         layout: "mainDE",
-        title: "Was funktioniert Remove URL Tool| SEO Berlino",
+        title: "Wie funktioniert Remove URL Tool| SEO Berlino",
         description:
             "Understand how the Remove url Tool work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1618,7 +1618,7 @@ app.get("/de/lexical/disavow-tool", (req, res) => {
     res.render("removeurltool", {
         requrl: "/en/lexical/disavow-tool",
         layout: "mainDE",
-        title: "Was funktioniert Google's Disavow Tool | SEO Berlino",
+        title: "Wie funktioniert Google's Disavow Tool | SEO Berlino",
         description:
             "Understand how the Disavow Tool works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
