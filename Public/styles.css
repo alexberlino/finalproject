@@ -24,6 +24,8 @@ xmp {
     background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px;
     margin-right: 20%;
     font-size: 20px;
     white-space: pre-wrap;
@@ -1407,7 +1409,7 @@ a.langselected {
     /* Change color of dropdown links on shover */
     .dropdown-content a:hover {
         text-shadow: 0px 1px grey;
-    
+
     }
 
     /* Show the dropdown menu on hover */

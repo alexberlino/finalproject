@@ -25,10 +25,47 @@
 
     <h2>{{{__ "example"}}}</h2>
     <div class="serviceText">
-        <xmp>
-User-agent: *
+
+<span> Block one folder
+<xmp>
+    User-agent: *
+    Disallow: /folder/
 
 </xmp>
+
+
+<span> Block one file
+<xmp>
+    User-agent: *
+    Disallow: /file.html
+
+</xmp>
+
+<span> Block all
+<xmp>
+    User-agent: *
+    Disallow: /
+
+</xmp>
+
+<span> Allow all
+<xmp>
+    User-agent: *
+    Disallow:
+
+</xmp>
+
+
+<span> User agents: google
+<xmp>
+    User-agent: Googlebot
+
+</xmp>
+
+
+
+
+
     </div>
     <h2> </h2>
     <div class="serviceText"></div>
