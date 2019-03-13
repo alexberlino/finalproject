@@ -30,6 +30,7 @@ xmp {
     font-size: 20px;
     white-space: pre-wrap;
     font-family: monospace;
+    word-wrap: break-word;
     color: darkgrey;
 }
 .sideLinks {
