@@ -1130,9 +1130,9 @@ app.get("/de/contact", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Berater Berlin | SEO Experte | SEO Berlino",
+        title: "SEO Consultant Berlin | SEO Experte | SEO Berlino",
         description:
-            "SEO Berater Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
+            "SEO Consultant Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/contact"
     });
