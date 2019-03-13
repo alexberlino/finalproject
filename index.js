@@ -1615,7 +1615,7 @@ app.get("/en/lexical/disavow-tool", (req, res) => {
 
 app.get("/de/lexical/disavow-tool", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("removeurltool", {
+    res.render("disavowtool", {
         requrl: "/en/lexical/disavow-tool",
         layout: "mainDE",
         title: "Wie funktioniert Google's Disavow Tool | SEO Berlino",
