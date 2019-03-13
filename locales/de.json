@@ -426,7 +426,7 @@
 	"followup": "Followup",
 	"freelancer": "freelancer",
 	"example": "Beispiel",
-	"definition": "Definition",
+	"definition": "Beschreibung",
 	"nofollowMP": "nofollow ist ein Wert, der dem rel-Attribut eines HTML-Elements `a`(link) zugewiesen werden kann, um einige Suchmaschinen anzuweisen, dass der Hyperlink die Rangfolge des Link-Ziels im Index der Suchmaschine nicht beeinflussen soll.",
 	"altattributeMP": "alt attribut hilfe Suchmaschinen, um das Bild zu verstehen, das sie durchsuchen. Alt steht für 'alternate'. Es wird oft 'alt tag' genannt, ist aber tatsächlich ein 'Attribut'.",
 	"canonicalsMP": "canonicals teilt den Suchmaschinen mit, welche Version der Masterseite verwendet wird, um zu vermeiden, dass doppelte Inhalte indiziert werden.",
@@ -442,5 +442,7 @@
 	"lighthouseMP": "Lighthouse ist ein großartiges Werkzeug, um die Leistung zu überprüfen. Die Ladezeit ist der Schlüssel für SEO und hat einen massiven Einfluss auf das Ranking.",
 	"noindexMP": "Wenn Sie Seiten identifizieren, die nicht indexiert werden sollen, müssen Sie noindex verwenden",
 	"redirectsMP": "Das korrekte Umleiten von Seiten ist in SEO wichtig. Die beiden wichtigsten Statuscodes für Weiterleitungen sind 301 und 302: permanente und temporäre Weiterleitungen",
-	"removeurltoolMP": "Zusätzlich zur Verwendung von noindex können Sie Google dazu auffordern, Seiten vorübergehend zu deindexieren."
+	"removeurltoolMP": "Zusätzlich zur Verwendung von noindex können Sie Google dazu auffordern, Seiten vorübergehend zu deindexieren.",
+	"removeurlalt": "Remove URL Tool von Google, wie funktioniert",
+	"removeurltitle": "Klicken Sie hier, um zur Google Remove URL Tool-Seite zu gelangen"
 }

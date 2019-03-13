@@ -114,7 +114,7 @@
     "getintouch_title": "SEO Freelancer in Berlin - Get in touch  SEO Berlino",
     "blog": "blog",
     "bloglatest": "Latest posts",
-    "services": "consultant",
+    "services": "Consultant",
     "analyticsHP1": "Local SEO",
     "analyticsHP2": "Analytics & reporting",
     "analyticsHP3": "Competitor Analysis",
@@ -417,7 +417,7 @@
     "optimization": "optimization",
     "analyticsHP3U": "COMPETITOR ANALYSIS",
     "example": "Example",
-    "definition": "Definition",
+    "definition": "Description",
     "nofollowMP": "nofollow is a value that can be assigned to the rel attribute of an HTML element a (link) to instruct search engines that the hyperlink should not affect the ranking of the link target in the index of the search engine.",
     "altattributeMP": "alt attribute help Search Engines to understand the image they are crawling. Alt stands for 'alternate'. It often called 'alt tag' but it is in fact an 'attribute'",
     "canonicalsMP": "canonicals tell Search Engines which is the master page version to avoid duplicate content being indexed.",
@@ -434,5 +434,6 @@
     "noindexMP": "If you identify pages which should not be index you need to use noindex",
     "redirectsMP": "Correctly redirecting pages is important in SEO. The two main redirects status codes are 301 and 302: respectively permanent and temporary redirects",
     "removeurltoolMP": "On top of using noindex, you can ask Google to temporarily deindex pages.",
-    "": ""
+    "removeurlalt": "Remove URL Tool by Google, how it works",
+    "removeurltitle": "click to go to Google Remove URL Tool page"
 }

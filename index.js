@@ -1399,7 +1399,7 @@ app.get("/en/lexical", (req, res) => {
     res.render("lexical", {
         requrl: "/de/lexical",
         layout: "main",
-        title: "SEO Lexical | SEO Berlino",
+        title: "SEO Lexicon | SEO Berlino",
         description: "SEO Lexicon for SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical"
@@ -1411,7 +1411,7 @@ app.get("/de/lexical", (req, res) => {
     res.render("lexical", {
         requrl: "/en/lexical",
         layout: "mainDE",
-        title: "SEO Lexical | SEO Berlino",
+        title: "SEO Lexicon | SEO Berlino",
         description: "SEO Lexicon für SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical"
@@ -1619,8 +1619,7 @@ app.get("/de/lexical/disavow-tool", (req, res) => {
         requrl: "/en/lexical/disavow-tool",
         layout: "mainDE",
         title: "Wie funktioniert Google's Disavow Tool | SEO Berlino",
-        description:
-            "Understand how the Disavow Tool works and how it can improve your SEO",
+        description: "Disavow Tool und Suchmaschinenoptimierung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/disavow-tool"
     });
