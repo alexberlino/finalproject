@@ -308,7 +308,7 @@ app.get("/en/onpage/content", (req, res) => {
         requrl: "/de/onpage/content",
 
         layout: "main",
-        title: "SEO Content (Inhalt) - Content Marketing | SEO Berlino",
+        title: "SEO Content - Content Marketing | SEO Berlino",
         description:
             "The content is the value you want to create. If you content has no  value to the user, or if it is duplicate content, your content will  not be brought forward.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -322,7 +322,7 @@ app.get("/de/onpage/inhalt", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Content -  SEO Marketing | SEO Berlino",
+        title: "SEO Content (Inhalt) -  SEO Marketing | SEO Berlino",
         description:
             "Die Inhalte sind der Wert, den Sie erschaffen wollen. Wenn Ihre Inhalte für den Nutzer keinen Wert haben, oder bereits an anderer Stelle verfügbar sind, werden Sie damit nicht weit kommen. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -340,17 +340,18 @@ app.get("/en/onpage/landingpages", (req, res) => {
         description:
             "If you want to efficiently understand how your potential  clients are searching for the products or services you are offering, Keyword Research is critical.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/onpage/landing-pages-de"
+        alt: "https://www.seoberlino.com/de/onpage/landingpages"
     });
 });
 
-app.get("/de/onpage/landing-pages-de", (req, res) => {
+app.get("/de/onpage/landingpages", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("landingpages", {
+    res.render("landingpagesDE", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "Landingpage Optimierung | SEO Berlino",
+        title:
+            "Landingpage Optimierung | Suchmaschinenoptimierung | SEO Berlino",
         description:
             "Die Keywords, die Sie als die wichtigsten für Ihre Seite ausgewählt haben sollten für Inhalte und allgemeine Onpage Optimierung genutzt werden. Achten Sie darauf, dass keine andere Seite den Traffic für Ihre ausgewählten Keywords abzieht und dass der natürliche Traffic nicht auf einer anderen, als der dafür bestimmten Seite landet.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -528,7 +529,7 @@ app.get("/en/technical/internationalisation", (req, res) => {
         requrl: "/de" + req.originalUrl.substring(3),
 
         layout: "main",
-        title: "SEO Internatinalisation | SEO Berlino",
+        title: "SEO Internationalisation | SEO Berlino",
         description:
             "There are various options when operating internationally: same root  domain, different top level domains, subdomains, how to link between  them, how to simplify the process without negatively affecting your  SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
