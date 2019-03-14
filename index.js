@@ -1728,18 +1728,12 @@ app.get("/de/seo-freelancer", function(request, response) {
 });
 
 app.get("/de/onpage/voicesearch", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/onpage/sprachsuche",
-        Expires: new Date().toGMTString()
-    });
+    response.writeHead(410);
     response.end();
 });
 
 app.get("/de/onpage/metas", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/onpage/metas-tags-de",
-        Expires: new Date().toGMTString()
-    });
+    response.writeHead(410);
     response.end();
 });
 
