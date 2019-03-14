@@ -183,10 +183,10 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
 
 app.get("/de/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("duplicatecontent", {
+    res.render("duplicatecontentDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Duplicate Content SEO | SEO Berlino",
+        title: "Duplizierter Inhalt | Duplicate Content SEO | SEO Berlino",
         description:
             "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
         canonical: "https://www.seoberlino.com/de/onpage/duplicatecontent",
