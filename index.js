@@ -567,7 +567,7 @@ app.get("/en/technical/pagespeed", (req, res) => {
 
 app.get("/de/technical/pagespeed", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("pagespeed", {
+    res.render("pagespeedDE", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
@@ -595,11 +595,11 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
 
 app.get("/de/technical/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("mobile", {
+    res.render("mobileDE", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
-        title: "SEO Mobile First | SEO Berlino",
+        title: "SEO Mobile First Suchmaschinenoptimierung | SEO Berlino",
         description:
             "Sofern Ihre Webseite nicht für mobile Endgeräte geeignet ist, stellt dies in den meisten Fällen ein Problem dar, denn Google verfährt mittlerweile nach dem Prinzip “mobile-first”,  nutzt für die Indexierung also die Mobile Webseite.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -624,7 +624,7 @@ app.get("/en/technical/security", (req, res) => {
 
 app.get("/de/technical/sicherheit", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("https", {
+    res.render("httpsDE", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
