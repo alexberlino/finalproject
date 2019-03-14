@@ -1618,7 +1618,7 @@ app.get("/de/lexical/disavow-tool", (req, res) => {
     res.render("disavowtool", {
         requrl: "/en/lexical/disavow-tool",
         layout: "mainDE",
-        title: "Wie funktioniert Google's Disavow Tool | SEO Berlino",
+        title: "Links für ungültig erklären | Disavow Tool | SEO Berlino",
         description: "Disavow Tool und Suchmaschinenoptimierung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/disavow-tool"

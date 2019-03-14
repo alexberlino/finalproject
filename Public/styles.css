@@ -716,6 +716,8 @@ a.languageBtnEN {
 background-color: white;
 color: black;
 padding-bottom: 80px;
+text-align: left;
+padding-left: 10%;
 
 }
 
@@ -766,6 +768,8 @@ padding-bottom: 80px;
     z-index: 1;
     min-width: 21%;
 }
+
+
 
 .serviceQuarter {
     display: inline;
@@ -1504,4 +1508,9 @@ h2.orange,
 
 .black2 a:hover {
     color: #5b0c32;
+}
+
+a.blue {
+    color:darkblue;
+    text-decoration: underline;
 }
