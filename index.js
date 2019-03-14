@@ -318,7 +318,7 @@ app.get("/en/onpage/content", (req, res) => {
 
 app.get("/de/onpage/inhalt", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("content", {
+    res.render("contentDE", {
         requrl: "/en" + req.originalUrl.substring(3),
 
         layout: "mainDE",
