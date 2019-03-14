@@ -363,7 +363,7 @@
 	"duplicateMP4": "A possible cause for duplicate content is when targeting  different territories (UK and US for instance) with different domains  or urls but with a very similar content. Make sure then that you  have well implemented href lang!",
 	"imagesMP1": " Image Search still represents for most industry an important SEO  subchannel. Given how Image search now works, many Image visits  are only virtual and therefore invisible in analytics reports. Image  Search is still a fantastic opportunity to improve brand awareness.",
 	"imagesMP2": "Make sure images are well optimized: from image hosting to image alt  tags. In case your website actively uses images, use Image Search  to improve brand awareness.",
-	"imagesMP3": "The alt attribute often called alt tag gives important information  to the Google bot regarding what the picture is about. If the image  path is incorrect, the alt (alternative) attribute will show  instead.",
+	"imagesMP3": " often called alt tag gives important information  to the Google bot regarding what the picture is about. If the image  path is incorrect, the alt (alternative) attribute will show  instead.",
 	"imagesMP4": "The title appears as tooltip when there is a mouse-over above the  image. Use it to give more information about the picture. Although  not as important for SEO as the alt attribute, it should not be  neglected. Avoid copy and pasting the same text you have as alt  attribute.",
 	"imagesMPT5": "image size and format",
 	"imagesMP5": "If your image is too big, this will affect pagespeed,  especially for mobile traffic.",
@@ -417,7 +417,7 @@
 	"voiceMPT3": "Longer Search terms",
 	"voiceMP3": "The second main difference is that the keywords are longer, mostly because the requests are questions and because users are more descriptive when vocally expressing their needs, compared to typing.",
 	"voiceMPT4": "Increasing Search Volume",
-	"voiceMP4": "Search volumes for such searches are still lower than the classical searches equivalent, but the volumes are continuously increasing and the keywords are more segmented, meaning there are more questions for the equivalent classical search term",
+	"voiceMP4": " for such searches are still lower than the classical searches equivalent, but the volumes are continuously increasing and the keywords are more segmented, meaning there are more questions for the equivalent classical search term",
 	"voiceMP5": "One of the main advantage to be ready and optimized for voice search terms is that you can be featured at position 0 with the featured snippet, answering directly to the question of the search.",
 	"optimization": "optimization",
 	"analyticsHP3U": "COMPETITOR ANALYSIS",
@@ -443,5 +443,6 @@
 	"removeurltoolMP": "On top of using noindex, you can ask Google to temporarily deindex pages.",
 	"removeurlalt": "Remove URL Tool by Google, how it works",
 	"removeurltitle": "click to go to Google Remove URL Tool page",
-	"": ""
+	"": "",
+	"metas": "metas"
 }
