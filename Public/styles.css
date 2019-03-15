@@ -1301,7 +1301,7 @@ a.langselected {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  padding: 2px 2px;
+  padding: 4px 4px;
   text-decoration: none;
   display: block;
 }
@@ -1406,7 +1406,8 @@ a.langselected {
     /* Links inside the dropdown */
     .dropdown-content a {
       color: black;
-      padding: 5px 6px;
+      padding: 10px 6px;
+
       text-decoration: none;
       display: block;
     }

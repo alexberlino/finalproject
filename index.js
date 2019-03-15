@@ -192,6 +192,28 @@ app.get("/en/casestudy/fromatob", (req, res) => {
     });
 });
 
+app.get("/en/casestudy", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudy", {
+        layout: "main",
+        title: "SEO Case Studies | SEOBerlino",
+        description: "SEO Case Studies",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/casestudy"
+    });
+});
+
+app.get("/en/casestudy/hometogo", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudyhometogo", {
+        layout: "main",
+        title: "Home ToGo : SEO Case Study | SEOBerlino",
+        description: "SEO Case Study: Berlin's Home ToGo  ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/casestudy/hometogo"
+    });
+});
+
 app.get("/de/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("duplicatecontentDE", {
