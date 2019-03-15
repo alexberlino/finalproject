@@ -143,7 +143,7 @@ app.get("/fr", (req, res) => {
 });
 app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("home", {
+    res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
         title: "SEO Freelancer Berlin | SEO Beratung | SEO Berlino",
