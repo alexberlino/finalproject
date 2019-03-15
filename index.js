@@ -181,6 +181,17 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
     });
 });
 
+app.get("/en/casestudy/fromatob", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudyfromatob", {
+        layout: "main",
+        title: "fromAtoB : SEO Case Study | SEOBerlino",
+        description: "SEO Case Study: Berlin's fromAtoB  ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/casestudy/fromatob"
+    });
+});
+
 app.get("/de/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("duplicatecontentDE", {
