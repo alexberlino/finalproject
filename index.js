@@ -192,6 +192,17 @@ app.get("/en/casestudy/fromatob", (req, res) => {
     });
 });
 
+app.get("/en/casestudy/hellofresh", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudyhellofresh", {
+        layout: "main",
+        title: "Hello Fresh: SEO Case Study | SEOBerlino",
+        description: "SEO Case Study: Berlin's Hello Fresh  ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/casestudy/hellofresh"
+    });
+});
+
 app.get("/en/casestudy", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudy", {
