@@ -121,7 +121,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "Experienced SEO Freelancer and Consultant",
+        title: "SEO Freelancer and Consultant | SEOBerlino",
         description:
             "SEO Freelancer with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -148,21 +148,8 @@ app.get("/de", (req, res) => {
         layout: "mainDEHP",
         title: "SEO Freelancer Berlin | SEO Beratung | SEO Berlino",
         description:
-            "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+            "SEO Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en",
-        alt2: "https://www.seoberlino.com/fr"
-    });
-});
-app.get("/de/", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("home", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDEHP",
-        title: "SEO Freelancer Berlin | SEO Beratung | SEO Berlino",
-        description:
-            "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
-        canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
     });
@@ -184,7 +171,7 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
 app.get("/en/casestudy/fromatob", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyfromatob", {
-        layout: "main",
+        layout: "mainNoAlt",
         title: "fromAtoB : SEO Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's fromAtoB  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -195,7 +182,7 @@ app.get("/en/casestudy/fromatob", (req, res) => {
 app.get("/en/casestudy/hellofresh", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhellofresh", {
-        layout: "main",
+        layout: "mainNoAlt",
         title: "Hello Fresh: SEO Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's Hello Fresh  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -206,7 +193,7 @@ app.get("/en/casestudy/hellofresh", (req, res) => {
 app.get("/en/casestudy", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudy", {
-        layout: "main",
+        layout: "mainNoAlt",
         title: "SEO Case Studies | SEOBerlino",
         description: "SEO Case Studies",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -217,7 +204,7 @@ app.get("/en/casestudy", (req, res) => {
 app.get("/en/casestudy/hometogo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhometogo", {
-        layout: "main",
+        layout: "mainNoAlt",
         title: "Home ToGo : SEO Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's Home ToGo  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
