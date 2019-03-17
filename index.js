@@ -121,9 +121,9 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Freelancer and Consultant | SEOBerlino",
+        title: "SEO Consultant and Freelancer | SEOBerlino",
         description:
-            "SEO Freelancer with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Consultant with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de",
         alt2: "https://www.seoberlino.com/fr"
