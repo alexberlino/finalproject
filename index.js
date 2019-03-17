@@ -1331,9 +1331,9 @@ app.get("/en/lexical/google-keyword-tool", (req, res) => {
     res.render("googlekwtool", {
         requrl: "/de/lexical/google-keyword-tool",
         layout: "main",
-        title: "Google Keyword Tool for SEO | SEO Berlino",
+        title: "Google Keyword Planner for SEO | SEO Berlino",
         description:
-            "Understand Google's Keyword Tool and how it can improve your SEO",
+            "Understand Google's Keyword PLanner and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/google-keyword-tool"
     });
@@ -1348,6 +1348,29 @@ app.get("/de/lexical/google-keyword-tool", (req, res) => {
         description: "Google Keyword Tool für Suchmaschinenoptimierung",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/google-keyword-tool"
+    });
+});
+
+app.get("/de/lexical/google-pagespeed", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("googlepagespeed", {
+        layout: "mainDE",
+        title: "Google PageSpeed für Suchmaschinenoptimierung | SEO Berlino",
+        description: "Google PageSpeed für Suchmaschinenoptimierung",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/google-pagespeed"
+    });
+});
+
+app.get("/en/lexical/google-pagespeed", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("googlepagespeed", {
+        layout: "main",
+        title: "Google PageSpeed for SEO | SEO Berlino",
+        description:
+            "Google PageSpeed for SEO is a very important tool. Learn here how to use it.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/google-pagespeed"
     });
 });
 

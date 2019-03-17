@@ -443,6 +443,14 @@
     "removeurltoolMP": "On top of using noindex, you can ask Google to temporarily deindex pages.",
     "removeurlalt": "Remove URL Tool by Google, how it works",
     "removeurltitle": "click to go to Google Remove URL Tool page",
-    "": "",
-    "metas": "metas"
+    "metas": "metas",
+    "googlePageSpeedMP": "Google PageSpeed is a family of tools by Google, designed to help webmasters improve their website's performance. PageSpeed Insights is an online tool which helps in identifying performance best practices on any given website, provides suggestions on a webpage’s optimizations, and suggests overall ideas of how to make a website faster. ",
+    "googlePageSpeedScore": "Per URL request, it grades webpage performance on a scale from 1 to 100",
+    "googlePageSpeedLab": "Lab data is performance data collected within a controlled environment with predefined device and network settings. This offers reproducible results and debugging capabilities to help identify, isolate, and fix performance issues.",
+    "LabData": "Lab Data",
+    "googlePageSpeedOpp": "Opportunities provide suggestions how to improve the page’s performance metrics. Each suggestion in this section estimates how much faster the page will load if the improvement is implemented.",
+    "googlePageSpeedDiag": "Diagnostics provide additional information about how a page adheres to best practices for web development.",
+    "Diagnostics": "Diagnostics",
+    "Opportunities": "Opportunities",
+    "pagespeedlink": "https://developers.google.com/speed/pagespeed/insights/?hl=en"
 }
