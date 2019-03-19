@@ -180,6 +180,18 @@ app.get("/en/casestudy/fromatob", (req, res) => {
     });
 });
 
+app.get("/en/casestudy/n26", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudyn26", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "N26 : SEO Case Study | SEOBerlino",
+        description: "SEO Case Study: Berlin's N26  ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/casestudy/n26"
+    });
+});
+
 app.get("/en/casestudy/hellofresh", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhellofresh", {
