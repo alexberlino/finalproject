@@ -368,6 +368,16 @@ form {
     top: 0px;
 }
 
+.imagesCases {
+    width: 70%;
+    height: auto;
+    position: relative;
+    margin-bottom: 25%;
+    margin-left: 25%;
+    top: 90px;
+
+}
+
 .imageAudit2 {
     margin-top: 40px;
 }
@@ -463,6 +473,14 @@ a.languageBtnEN {
     filter: grayscale(100%);
 }
 
+.blacknwhite {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 50px;
+    width:auto;
+
+
+}
 .Sistrixlogo {
     margin-bottom: 9px;
 }
