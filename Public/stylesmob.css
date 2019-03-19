@@ -21,6 +21,18 @@
 
     }
 
+
+    .casetitle{
+
+    width:65%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 30px;
+
+
+    }
+
     .border {
         width: 80%;
     }

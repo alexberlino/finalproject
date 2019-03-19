@@ -378,6 +378,17 @@ form {
 
 }
 
+
+.casetitle{
+text-align: center;
+width:65%;
+background-color: black;
+color: white;
+font-size: 40px;
+padding: 30px;
+
+
+}
 .imageAudit2 {
     margin-top: 40px;
 }
@@ -1528,6 +1539,14 @@ h2.orange,
 
 .black2 a:hover {
     color: #5b0c32;
+}
+
+.blue {
+    color:#E80C7A;
+}
+
+.red {
+    color:#FF530D;
 }
 
 a.blue {
