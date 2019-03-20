@@ -453,5 +453,6 @@
 	"Diagnostics": "Diagnostics",
 	"Opportunities": "Opportunities",
 	"pagespeedlink": "https://developers.google.com/speed/pagespeed/insights/?hl=en",
-	"": ""
+	"": "",
+	"crawlabilityMPintro": "crawlabilityMPintro"
 }
