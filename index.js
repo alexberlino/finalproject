@@ -121,9 +121,9 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Consultant and Freelancer | SEOBerlino",
+        title: "SEO Consultant Freelancer | SEOBerlino",
         description:
-            "SEO Consultant with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+            "SEO Consultant Freelancer with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de",
         alt2: "https://www.seoberlino.com/fr"
@@ -135,9 +135,9 @@ app.get("/fr", (req, res) => {
     res.render("homeFR", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainFR",
-        title: "Consultant SEO | SEO Freelancer | SEOBerlino",
+        title: "SEO Freelancer & Consultant SEO | SEOBerlino",
         description:
-            "Consultant SEO et SEO Freelancer.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
+            "Consultant SEO et Freelancer.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -146,9 +146,10 @@ app.get("/de", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Freelancer Berlin | SEO Beratung | SEO Berlino",
+        title:
+            "SEO Consultant Freelancer | Optimierung & Analyse | SEO Berlino",
         description:
-            "SEO Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+            "SEO Consultant Freelancer für SEO in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
