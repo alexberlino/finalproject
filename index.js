@@ -192,6 +192,18 @@ app.get("/en/casestudy/juniqe", (req, res) => {
     });
 });
 
+app.get("/en/casestudy/modomoto", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudymodomoto", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "Modomoto : SEO Case Study | SEOBerlino",
+        description: "SEO Case Study: Berlin's Modomoto  ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/casestudy/modomoto"
+    });
+});
+
 app.get("/en/casestudy/n26", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyn26", {
