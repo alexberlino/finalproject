@@ -180,6 +180,18 @@ app.get("/en/casestudy/fromatob", (req, res) => {
     });
 });
 
+app.get("/en/casestudy/wooga", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudywooga", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "Wooga : SEO Case Study | SEOBerlino",
+        description: "SEO Case Study: Berlin's Wooga  ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/casestudy/wooga"
+    });
+});
+
 app.get("/en/casestudy/juniqe", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyjuniqe", {
