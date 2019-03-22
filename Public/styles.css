@@ -136,6 +136,12 @@ h5 {
     animation: slide-in-left 3s;
 }
 
+
+.slideinleft {
+    animation: slide-in-left 5s;
+
+
+}
 table {
     padding: 10px;
     width: auto;
@@ -394,15 +400,16 @@ form {
 
 
 .casetitle{
-text-align: center;
 width:65%;
-background-color: black;
-color: white;
-font-size: 40px;
+color: black;
+font-size: 30px;
+background-color: lightgrey;
 padding: 30px;
-
-
+border: 1px black dotted;
 }
+
+
+
 .imageAudit2 {
     margin-top: 40px;
 }
@@ -494,6 +501,7 @@ a.languageBtnEN {
 .brandlogo {
     margin-left: 2px;
     margin-top: 35px;
+    margin-left: 15px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
@@ -506,9 +514,18 @@ a.languageBtnEN {
 
 
 }
+
+
+.casestudy {
+
+    width: 70%;
+
+
+}
 .Sistrixlogo {
     margin-bottom: 9px;
 }
+
 
 .SFlogo {
     margin-top: 9px;
@@ -553,6 +570,10 @@ a.languageBtnEN {
 
 .marginleft2 {
     margin-left: 15%;
+}
+
+.marginleft3 {
+    margin-left: 35%;
 }
 
 .paddingleft {
