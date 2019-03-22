@@ -407,10 +407,9 @@ height:auto  }
 
     .homepage {
         width: 100%;
-        opacity: 0.3;
+        opacity: 0.1;
         position: fixed;
         top: 50px;
-        opacity: 0.8;
         z-index: -1;
     }
 
