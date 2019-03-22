@@ -829,14 +829,15 @@ width:100%;
     color: #001f3f;
     position: relative;
     background-color: white;
-    margin-top: -50%;
+
     margin-bottom: 20px;
-    padding-top: 50px;
+    margin-top: 100px;
+    padding-top: 60px;
     padding-bottom: 50px;
     width: 100%;
-    border: white 0px solid;
     text-align: center;
     opacity: 0.75;
+
 }
 
 
@@ -845,7 +846,7 @@ width:100%;
 .servicesHP2 :hover,
 .servicesHP5 {
     background-color: white;
-    color: #c44536;
+    color: #1a2827;
     z-index: 3;
     text-shadow: 0px 1px grey;
 }
@@ -872,9 +873,10 @@ button.servicesHP,
 button.servicesHP2,
 button.servicesHP5 {
     color: white;
-    background-color: #c44536;
+    background-color: #1a2827;
+    border: 1px solid #1a2827;
     position: flex;
-    border: 1px #c44536 solid;
+
     font-size: 24px;
     width: 320px;
     height: 70px;
