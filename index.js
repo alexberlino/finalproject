@@ -107,9 +107,9 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/en",
         layout: "mainDE",
-        title: "SEO Consultant Freelancer | SEO Beratung Optimierung & Analyse",
+        title: "SEO Consultant Freelancer | SEO Beratung Berlin",
         description:
-            "SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+            "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
@@ -146,9 +146,9 @@ app.get("/de", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Consultant Freelancer | SEO Beratung Optimierung & Analyse",
+        title: "SEO Consultant Freelancer | SEO Beratung Berlin",
         description:
-            "SEO Consultant Freelancer für SEO in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+            "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
@@ -842,9 +842,9 @@ app.get("/de/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Impressum SEO Berlino SEO Experte in Berlin | SEO Berlino",
+        title: "SEO Consultant in Berlin SEO Experte Impressum | SEO Berlino",
         description:
-            "Impressum, SEO Berlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
+            "Impressum SEO Berlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/impressum"
     });
@@ -1200,9 +1200,9 @@ app.get("/de/seo-beratung", (req, res) => {
     res.render("freelancer", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung Berlin  | SEO Berlino",
+        title: "SEO Beratung  - SEO Berate Experte in Berlin  | SEO Berlino",
         description:
-            "SEO Beratung in Berlin. Seo Expert. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+            "SEO Beratung in Berlin. SEO Experte. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-consultancy"
     });
