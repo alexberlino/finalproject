@@ -30,7 +30,8 @@
 
     .marginleft3 {
 
-        margin-left: 16%;
+        margin-left: 15%;
+        margin-top: 5px;
 
     }
 
@@ -321,7 +322,7 @@ height:auto  }
         width: 50%;
         margin-left: 1px;
         margin-bottom: 5px;
-        max-width: 80px;
+        max-width: 60px;
     }
 
     .brandlogo2 {
