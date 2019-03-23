@@ -110,7 +110,7 @@ app.get("/", (req, res) => {
         title: "SEO Consultant Freelancer | SEO Beratung Berlin",
         description:
             "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
-        canonical: "https://www.seoberlino.com/de",
+        canonical: "https://www.seoberlino.com",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
     });
@@ -149,7 +149,7 @@ app.get("/de", (req, res) => {
         title: "SEO Consultant Freelancer | SEO Beratung Berlin",
         description:
             "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
     });
