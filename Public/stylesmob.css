@@ -321,7 +321,7 @@ height:auto  }
         width: 50%;
         margin-left: 1px;
         margin-bottom: 5px;
-        max-width: 63px;
+        max-width: 80px;
     }
 
     .brandlogo2 {
@@ -492,6 +492,7 @@ height:auto  }
         margin-top: 5%;
         opacity: 1;
         margin-bottom: 0px;
+
     }
 
     h1 {
