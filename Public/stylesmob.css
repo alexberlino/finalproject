@@ -510,9 +510,9 @@ height:auto  }
 
     .toolbar_logo {
         left: 100px;
-        width: 50px;
-        height: 45px;
         top: -12px;
+        height:35px;
+        width:35px;
     }
 
     h3.black.marginleft2 {
