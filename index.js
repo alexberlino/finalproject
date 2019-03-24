@@ -11,7 +11,8 @@ var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var http = require("http");
-app.set('etag', 'strong');
+var etag = require('etag')
+res.setHeader('ETag', etag(body))
 
 app.engine(
     ".hbs",
@@ -137,8 +138,6 @@ app.get("/en", (req, res) => {
 });
 
 app.get("/fr", (req, res) => {
-    res.append('Last-Modified', (new Date(lastModifiedStringDate)).toUTCString());
-    return res.send(response);
     i18n.setLocale(req, "fr");
     res.render("homeFR", {
         requrl: "/en" + req.originalUrl.substring(3),
@@ -148,11 +147,6 @@ app.get("/fr", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
-
-
-
-
-
 app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("homeDE", {
