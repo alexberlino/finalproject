@@ -11,6 +11,8 @@ var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var http = require("http");
+app.set('etag', 'strong');
+
 app.engine(
     ".hbs",
     hb({
