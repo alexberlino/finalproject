@@ -12,7 +12,8 @@ var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var http = require("http");
 var etag = require('etag')
-res.setHeader('ETag', etag(body))
+
+
 
 app.engine(
     ".hbs",
@@ -112,6 +113,7 @@ app.use(
 ////////////////////new routes & redirects///////////////////////////
 
 app.get("/", (req, res) => {
+    res.setHeader('ETag', etag(body))
     i18n.setLocale(req, "de");
     res.render("home", {
         requrl: "/en",
