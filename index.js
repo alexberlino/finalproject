@@ -123,7 +123,6 @@ app.get("/", (req, res) => {
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
     });
-    res.setHeader('ETag', etag(body))
 });
 
 app.get("/en", (req, res) => {
