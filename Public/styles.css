@@ -1212,6 +1212,10 @@ a.langselected {
     width: 80%;
 }
 
+.marginright2 {
+    margin-right: 16%;
+}
+
 .side span {
     color: white;
 }
