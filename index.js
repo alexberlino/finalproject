@@ -119,11 +119,13 @@ app.get("/", (req, res) => {
         layout: "mainDE",
         title: "SEO Consultant Freelancer | SEO Beratung Berlin",
         description: "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
-        canonical: "https://www.seoberlino.com",
+        canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
     });
 });
+
+
 
 app.get("/en", (req, res) => {
     i18n.setLocale(req, "en");
@@ -137,6 +139,9 @@ app.get("/en", (req, res) => {
         alt2: "https://www.seoberlino.com/fr"
     });
 });
+
+
+
 
 app.get("/fr", (req, res) => {
     i18n.setLocale(req, "fr");
@@ -155,7 +160,7 @@ app.get("/de", (req, res) => {
         layout: "mainDEHP",
         title: "SEO Consultant Freelancer | SEO Beratung Berlin",
         description: "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
-        canonical: "https://www.seoberlino.com",
+        canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
     });
