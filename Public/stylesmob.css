@@ -322,6 +322,8 @@ height:auto  }
         width: 50%;
         margin-left: 1px;
         margin-bottom: 5px;
+        margin-top: 5px;
+
         max-width: 60px;
     }
 
@@ -553,11 +555,10 @@ height:auto  }
     button.servicesHP2 {
         width: 220px;
         height: 50px;
-        border-radius: 18px;
+
         font-size: 18px;
         margin-left: 23%;
-        background-color: #1a2827;
-        border: 1px solid #1a2827;
+
     }
 }
 
@@ -602,13 +603,24 @@ height:auto  }
     }
 
     .introHP {
-        margin-top: -30%;
+        margin-top: 40px;
     }
     .toolbar {
         height: 80px;
     }
     .main-menu {
-        left: 70px;
+        left: 45px;
+
+    }
+
+    .main-menu a {
+        font-size: 20px;
+
+    }
+
+    .dropbtn{
+        font-size: 20px;
+
     }
     .toolbar_logo {
         left: 55px;
@@ -620,5 +632,10 @@ height:auto  }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .languageBtnEN {
         margin-left: 94%;
+    }
+
+    .main-menu {
+        left: 45px;
+
     }
 }

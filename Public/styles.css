@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 * {
     font-family: bariolregular;
 }
@@ -13,8 +14,9 @@ body {
 p {
     font-size: 23px;
 }
-body {
-}
+
+body {}
+
 .homepage {
     width: 100%;
     opacity: 0.1;
@@ -25,7 +27,7 @@ xmp {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    padding-right:20px;
+    padding-right: 20px;
     margin-right: 20%;
     font-size: 20px;
     white-space: pre-wrap;
@@ -33,6 +35,7 @@ xmp {
     word-wrap: break-word;
     color: darkgrey;
 }
+
 .sideLinks {
     position: absolute;
     left: -21%;
@@ -63,6 +66,7 @@ h2 {
     margin-left: 2px;
     font-size: 30px;
 }
+
 h2.white,
 .black2,
 .black2 a {
@@ -95,6 +99,7 @@ h4 {
     font-size: 22px;
     z-index: 10;
 }
+
 h5 {
     margin: 2px;
     display: block;
@@ -136,25 +141,23 @@ h5 {
     animation: slide-in-left 3s;
 }
 
-
 .slideinleft {
-    animation: slide-in-left 5s;
-
-
+    animation: slide-in-left 3s;
 }
+
+.marginleft0 {
+    margin-left: 35%;
+}
+
 table {
     padding: 10px;
     width: auto;
-
 }
 
 td {
     padding: 12px;
     border: 1px solid black;
-
-
 }
-
 
 @-webkit-keyframes bounce-in-top {
     0% {
@@ -178,11 +181,11 @@ td {
         transform: translateY(0);
     }
 }
+
 @keyframes bounce-in-top {
     0% {
         -webkit-transform: translateY(-500px);
         transform: translateY(-500px);
-
         opacity: 0;
     }
 
@@ -228,6 +231,7 @@ textarea.blogedit {
 textarea {
     font-size: 18px;
 }
+
 textarea.blogArticleInput {
     height: 600px;
     display: block;
@@ -241,6 +245,7 @@ select {
     display: block;
     font-size: 18px;
 }
+
 section {
     width: 100%;
     border-radius: 10px;
@@ -268,6 +273,7 @@ form {
 .black a {
     color: black;
 }
+
 .black a:hover {
     font-weight: bold;
     text-shadow: 0px 1px grey;
@@ -283,6 +289,7 @@ form {
 .hidden {
     display: none;
 }
+
 .show {
     display: block;
 }
@@ -296,6 +303,7 @@ form {
     display: inline;
     position: relative;
 }
+
 .inline2 {
     width: auto;
     vertical-align: middle;
@@ -341,6 +349,7 @@ form {
     padding: 5px;
     margin-left: 10%;
 }
+
 .services,
 .services4 {
     margin-bottom: 20px;
@@ -360,11 +369,13 @@ form {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 .services2 {
     margin-left: 17%;
     background-color: white;
     opacity: 0.89;
 }
+
 .services3 {
     margin-left: 3%;
     margin-top: 150px;
@@ -395,24 +406,21 @@ form {
     margin-bottom: 25%;
     margin-left: 25%;
     top: 90px;
-
 }
 
-
-.casetitle{
-width:65%;
-color: black;
-font-size: 30px;
-background-color: lightgrey;
-padding: 30px;
-border: 1px black dotted;
+.casetitle {
+    width: 65%;
+    color: black;
+    font-size: 30px;
+    background-color: lightgrey;
+    padding: 30px;
+    border: 1px black dotted;
 }
-
-
 
 .imageAudit2 {
     margin-top: 40px;
 }
+
 .imageAudit3 {
     width: 60%;
     margin-bottom: 15%;
@@ -427,6 +435,7 @@ border: 1px black dotted;
     background-color: white;
     z-index: 0;
 }
+
 .logo {
     position: relative;
     top: 5px;
@@ -481,7 +490,6 @@ a.languageBtnEN {
     width: 100%;
     height: auto;
     padding-bottom: 50px;
-
     position: relative;
     background-color: black;
     z-index: 14;
@@ -502,36 +510,30 @@ a.languageBtnEN {
     margin-left: 2px;
     margin-top: 35px;
     margin-left: 15px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
 .blacknwhite {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     height: 50px;
-    width:auto;
-
-
+    width: auto;
 }
+
 .publisheddate {
-
-
     font-size: 18px;
-
 }
-
 
 .casestudy {
-
     width: 80%;
-
-
 }
+
 .Sistrixlogo {
     margin-bottom: 9px;
 }
-
 
 .SFlogo {
     margin-top: 9px;
@@ -579,7 +581,7 @@ a.languageBtnEN {
 }
 
 .marginleft3 {
-    margin-left: 35%;
+    margin-left: 20%;
 }
 
 .paddingleft {
@@ -589,28 +591,35 @@ a.languageBtnEN {
 .icon {
     height: 50px;
     width: 50px;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     margin-left: 70px;
 }
 
 .bigicon {
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     margin-left: 28%;
     margin-top: 50px;
     margin-bottom: 50px;
     opacity: 0.8;
 }
+
 .iconsmore {
     margin-left: 90%;
     top: 20px;
     height: 30px;
     width: 40px;
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
 }
 
 .iconsmore2 {
@@ -632,6 +641,7 @@ a.languageBtnEN {
     height: 100px;
     width: 100%;
 }
+
 .blogHPtext {
     display: block;
 }
@@ -650,6 +660,7 @@ a.languageBtnEN {
     vertical-align: middle;
     height: 100px;
 }
+
 .listArticlesBlog {
     font-size: 26px;
     margin-left: 30px;
@@ -665,6 +676,7 @@ a.languageBtnEN {
     position: relative;
     display: block;
 }
+
 .txt {
     font-size: 21px;
     color: black;
@@ -738,6 +750,7 @@ a.languageBtnEN {
     font-size: 23px;
     display: inline;
 }
+
 .newsItem {
     display: block;
     padding: 10px;
@@ -781,21 +794,13 @@ a.languageBtnEN {
     bottom: 0px;
 }
 
-
 .footer2 {
-background-color: white;
-color: black;
-padding-bottom: 80px;
-text-align: left;
-
-width:100%;
-
+    background-color: white;
+    color: black;
+    padding-bottom: 80px;
+    text-align: left;
+    width: 100%;
 }
-
-
-
-
-
 
 .footerQuarter {
     display: inline;
@@ -820,6 +825,7 @@ width:100%;
     left: 0;
     z-index: 0;
 }
+
 .othercontentHP {
     width: 100%;
     height: auto;
@@ -840,8 +846,6 @@ width:100%;
     min-width: 21%;
 }
 
-
-
 .serviceQuarter {
     display: inline;
     text-align: center;
@@ -856,18 +860,13 @@ width:100%;
     color: #001f3f;
     position: relative;
     background-color: white;
-
     margin-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top: 60px;
     padding-bottom: 50px;
     width: 100%;
     text-align: center;
-    opacity: 0.75;
-
 }
-
-
 
 .servicesHP :hover,
 .servicesHP2 :hover,
@@ -876,6 +875,7 @@ width:100%;
     color: #1a2827;
     z-index: 3;
     text-shadow: 0px 1px grey;
+    border: 1px solid black;
 }
 
 .servicesHP5 :hover {
@@ -900,22 +900,20 @@ button.servicesHP,
 button.servicesHP2,
 button.servicesHP5 {
     color: white;
-    background-color: #1a2827;
-    border: 1px solid #1a2827;
+    background-color: #c53211;
     position: flex;
-
     font-size: 24px;
     width: 320px;
-    height: 70px;
+    height: 60px;
     display: block;
     margin-top: 20px;
-    border-radius: 15px;
     margin-left: 40%;
     z-index: 300;
+    border-radius: 15px;
 }
 
 button.servicesHP5 {
-    background-color: darkred;
+    background-color: #c53211;
     color: white;
     margin-left: 3%;
     animation: bounce-in-top 2s;
@@ -951,6 +949,7 @@ a.grey2 {
     display: inline;
     z-index: 3;
 }
+
 .whatisseo {
     position: sticky;
     position: -webkit-sticky;
@@ -972,18 +971,21 @@ a.grey2 {
         transform: translateX(-1000px);
         opacity: 0;
     }
+
     100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
         opacity: 1;
     }
 }
+
 @keyframes slide-in-left {
     0% {
         -webkit-transform: translateX(-1000px);
         transform: translateX(-1000px);
         opacity: 0;
     }
+
     100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
@@ -1022,10 +1024,12 @@ a[href^="tel"] {
     padding-top: 50px;
     z-index: 10;
 }
+
 .backgroundBlack2 {
     height: auto;
     z-index: 0;
 }
+
 .sharable,
 .sharable2 {
     position: sticky;
@@ -1111,7 +1115,7 @@ a[href^="tel"] {
 }
 
 h3.black.marginleft2 {
-     color: black;
+    color: black;
     font-size: 25px;
     margin-top: -10px;
 }
@@ -1152,7 +1156,6 @@ h3.black.marginleft2 {
     top: 3px;
     left: 16px;
     position: relative;
-
     z-index: 900;
 }
 
@@ -1166,6 +1169,7 @@ a.langselected {
     color: white;
     background-color: black;
 }
+
 .breadcrumb a {
     color: black;
     font-size: 24px;
@@ -1179,6 +1183,7 @@ a.langselected {
     font-weight: bold;
     color: black;
 }
+
 .breadcrumb {
     position: relative;
     top: 80px;
@@ -1191,6 +1196,7 @@ a.langselected {
     font-weight: bold;
     text-shadow: 0px 1px grey;
 }
+
 .center {
     text-align: center;
 }
@@ -1209,6 +1215,7 @@ a.langselected {
 .side span {
     color: white;
 }
+
 /* Screen reader only */
 .sr-only {
     position: absolute;
@@ -1323,8 +1330,8 @@ a.langselected {
  We could us `.main-menu:target:after`, but
  it wouldn't be clickable.
 */
-.main-menu:target + .backdrop,
-.main-menu[aria-expanded="true"] + .backdrop {
+.main-menu:target+.backdrop,
+.main-menu[aria-expanded="true"]+.backdrop {
     position: absolute;
     display: block;
     left: 0;
@@ -1338,65 +1345,69 @@ a.langselected {
 }
 
 @supports (position: fixed) {
+
     .main-menu,
-    .main-menu:target + .backdrop,
-    .main-menu[aria-expanded="true"] + .backdrop {
+    .main-menu:target+.backdrop,
+    .main-menu[aria-expanded="true"]+.backdrop {
         position: fixed;
     }
 }
 
 .dropbtn {
-  background-color: black;
-  color: white;
-  padding: 12px;
-  font-size: 22px;
-  border: none;
-  cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
-  margin-top:10px;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  width: 260px;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 260px;
+    z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 4px 4px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
 }
 
 /* Change color of dropdown links on shover */
-.dropdown-content a:hover {background-color: lightgrey}
+.dropdown-content a:hover {
+    background-color: lightgrey
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn  {
-  background-color: white;
-  color: black;
-
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
 }
+
 /*
  Larger screen styling
  Horizontal menu
 */
 @media (min-width: 768px) {
+
     .menu-toggle,
     .main-menu .menu-close {
         display: none;
@@ -1426,7 +1437,6 @@ a.langselected {
         box-shadow: none;
         height: auto;
         width: auto;
-
         min-width: 80px;
         background: none;
     }
@@ -1434,71 +1444,70 @@ a.langselected {
     .main-menu a {
         color: black;
         font-size: 22px;
-
-        border: 0 !important; /* Remove borders from off-canvas styling */
+        border: 0 !important;
+        /* Remove borders from off-canvas styling */
     }
 
     .main-menu a:hover,
     .main-menu a:focus {
-        background: none; /* Remove background from off-canvas styling */
+        background: none;
+        /* Remove background from off-canvas styling */
         text-decoration: bold;
         text-shadow: 0px 1px grey;
     }
 
-
     .dropbtn {
-     margin-top: 3px;
-      background-color: white;
-      color: black;
-      padding: 12px;
-      font-size: 22px;
-      border: none;
-      cursor: pointer;
+        margin-top: 3px;
+        background-color: white;
+        color: black;
+        padding: 12px;
+        font-size: 22px;
+        border: none;
+        cursor: pointer;
     }
 
-.dropbtn:hover {text-shadow: 0px 1px grey;}
-
+    .dropbtn:hover {
+        text-shadow: 0px 1px grey;
+    }
 
     /* The container <div> - needed to position the dropdown content */
     .dropdown {
-      position: relative;
-      display: inline-block;
-      margin-top:10px;
+        position: relative;
+        display: inline-block;
+        margin-top: 10px;
     }
 
     /* Dropdown Content (Hidden by Default) */
     .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: white;
-      min-width: 160px;
-      z-index: 1;
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        z-index: 1;
     }
 
     /* Links inside the dropdown */
     .dropdown-content a {
-      color: black;
-      padding: 10px 6px;
-
-      text-decoration: none;
-      display: block;
+        color: black;
+        padding: 10px 6px;
+        text-decoration: none;
+        display: block;
     }
 
     /* Change color of dropdown links on shover */
     .dropdown-content a:hover {
         text-shadow: 0px 1px grey;
-
     }
 
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
-      display: block;
+        display: block;
     }
 
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {
-      background-color: white;
-      color: black
+        background-color: white;
+        color: black
     }
 }
 
@@ -1575,6 +1584,7 @@ h2.orange,
     margin-left: 3%;
     display: inline;
 }
+
 .orange00 {
     margin-left: 0px;
 }
@@ -1584,14 +1594,14 @@ h2.orange,
 }
 
 .blue {
-    color:#E80C7A;
+    color: #E80C7A;
 }
 
 .red {
-    color:#FF530D;
+    color: #FF530D;
 }
 
 a.blue {
-    color:darkblue;
+    color: darkblue;
     text-decoration: underline;
 }
