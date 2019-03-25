@@ -458,6 +458,8 @@
     "googlePageSpeedLab": "Lab Daten sind Leistungsdaten, die in einer kontrollierten Umgebung mit vordefinierten Geräte- und Netzwerkeinstellungen erfasst werden. Dies bietet reproduzierbare Ergebnisse und Debugging-Funktionen zum Erkennen, Isolieren und Beheben von Leistungsproblemen.",
     "googlePageSpeedOpp": "Empfehlungen bieten Vorschläge zur Verbesserung der Leistungskennzahlen der Seite. Jeder Vorschlag in diesem Abschnitt schätzt, wie viel schneller die Seite geladen wird, wenn die Verbesserung implementiert wird.",
     "googlePageSpeedDiag": "Diagnosen stellen zusätzliche Informationen dazu bereit, wie sich eine Seite an bewährte Methoden für die Webentwicklung hält.",
+    "rankbraintitle":"Was bedeutet Rankbrain?",
+    "rankbrainMP":"Rankbrain is a Google algorithm used to understand search queries and sort search results using machine learning. \n<br><br>RankBrain adapts the results depending on the keyword type reassessing the importance of domain authority & page authority, backlinks, content freshness & length. RankBrain also assesses how users interact with search results and adapts the algorithm depending on how they interact with them.\n<br><br>RankBrain uses keywords it has already dealt with to understand searches never yet seen before (which represent over 15% of all searches) to transform keywords into concepts and then analyse user's response to the results (CTR, Dwell time, Bounce rate, number of results clicked on).\n<br><br>For keyword targeting, this means you should be targeting medium tail keywords that will then in tunr rank for many similar related other keywords.",
     "LabData": "Lab Daten",
     "Diagnostics": "Diagnose",
     "Opportunities": "Empfehlungen",

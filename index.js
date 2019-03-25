@@ -255,8 +255,8 @@ app.get("/en/casestudy", (req, res) => {
     res.render("casestudy", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO Case Studies | SEOBerlino",
-        description: "SEO Case Studies",
+        title: "SEO Start-up Case Studies | SEOBerlino",
+        description: "SEO Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy"
     });
@@ -1185,6 +1185,31 @@ app.get("/de/lexical/nofollow", (req, res) => {
         description: "Understand NoFollow Links and how they affect your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/nofollow"
+    });
+});
+
+
+app.get("/en/lexical/rankbrain", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("rankbrain", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "What is Google's Rankbrain | SEO Berlino",
+        description: "Understand Rankbrain and how it affects your SEO",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/lexical/rankbrain"
+    });
+});
+
+app.get("/de/lexical/rankbrain", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("rankbrain", {
+        requrl: "/de" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Was beudeutet Rankbrain | SEO Berlino",
+        description: "Was beudeutet Rankbrain und warum ist das für SEO wichtig?",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/en/lexical/rankbrain"
     });
 });
 
