@@ -574,6 +574,7 @@ a.languageBtnEN {
 
 .marginleft {
     margin-left: 5%;
+    white-space: pre-wrap;
 }
 
 .marginleft2 {
@@ -1572,7 +1573,7 @@ a.langselected {
 .footerproven2 {
     position: absolute;
     margin-left: 65%;
-    margin-top: -190px;
+    margin-top: -20px;
 }
 
 .big {
@@ -1615,6 +1616,10 @@ a.blue {
         margin-left: 16%;
         font-size: 18px;
         color: white;
+    }
+
+    .marginleft {
+        white-space: pre-wrap;
     }
 
     h2 {
@@ -1856,7 +1861,7 @@ a.blue {
     .footerproven2 {
         position: absolute;
         margin-left: 55%;
-        margin-top: -260px;
+        margin-top: -340px;
     }
 
     h2.white {
