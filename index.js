@@ -183,7 +183,7 @@ app.get("/en/casestudy/fromatob", (req, res) => {
     res.render("casestudyfromatob", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "fromAtoB : SEO Case Study | SEOBerlino",
+        title: "fromAtoB: SEO Berlin Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's fromAtoB  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/fromatob"
@@ -195,7 +195,7 @@ app.get("/en/casestudy/wooga", (req, res) => {
     res.render("casestudywooga", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Wooga : SEO Case Study | SEOBerlino",
+        title: "Wooga: SEO Berlin Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's Wooga  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/wooga"
@@ -207,7 +207,7 @@ app.get("/en/casestudy/juniqe", (req, res) => {
     res.render("casestudyjuniqe", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Juniqe : SEO Case Study | SEOBerlino",
+        title: "Juniqe: SEO Berlin Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's Juniqe  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/juniqe"
@@ -219,7 +219,7 @@ app.get("/en/casestudy/modomoto", (req, res) => {
     res.render("casestudymodomoto", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Modomoto : SEO Case Study | SEOBerlino",
+        title: "Modomoto: SEO Berlin Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's Modomoto  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/modomoto"
@@ -231,7 +231,7 @@ app.get("/en/casestudy/n26", (req, res) => {
     res.render("casestudyn26", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "N26 : SEO Case Study | SEOBerlino",
+        title: "N26 : SEO Berlin Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's N26  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/n26"
@@ -243,7 +243,7 @@ app.get("/en/casestudy/hellofresh", (req, res) => {
     res.render("casestudyhellofresh", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Hello Fresh: SEO Case Study | SEOBerlino",
+        title: "Hello Fresh: SEO Berlin Case Study | SEOBerlino",
         description: "SEO Case Study: Berlin's Hello Fresh  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/hellofresh"
@@ -255,8 +255,8 @@ app.get("/en/casestudy", (req, res) => {
     res.render("casestudy", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO Start-up Case Studies | SEOBerlino",
-        description: "SEO Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
+        title: "SEO Berlin Start-up Case Studies | SEOBerlino",
+        description: "SEO Berlin Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy"
     });
@@ -267,8 +267,8 @@ app.get("/en/casestudy/hometogo", (req, res) => {
     res.render("casestudyhometogo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Home ToGo : SEO Case Study | SEOBerlino",
-        description: "SEO Case Study: Berlin's Home ToGo  ",
+        title: "Home ToGo: SEO Berlin Case Study | SEOBerlino",
+        description: "SEO Berlin Case Study: Berlin's Home ToGo  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/hometogo"
     });
@@ -1011,8 +1011,8 @@ app.get("/en/seo", (req, res) => {
     res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Berlin | SEO Berlino",
-        description: "SEO Berlin: SEO Freelancer. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        title: "SEO Definition: Analysis and Optimization | SEO Berlino",
+        description: "SEO Definition: Onpage, Offpage, Technical & Analytics. SEO Freelancer. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo"
     });
@@ -1023,7 +1023,7 @@ app.get("/de/seo", (req, res) => {
     res.render("seo2", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Berlin Suchmaschinenoptimierung | SEO Berlino",
+        title: "SEO Definition - Analyse & Suchmaschinenoptimierung Optimierung | SEO Berlino",
         description: "SEO Berlin: SEO Freelancer. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo"
@@ -1143,7 +1143,7 @@ app.get("/de/seo-beratung", (req, res) => {
     res.render("freelancer", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung  - SEO Berate Experte in Berlin  | SEO Berlino",
+        title: "SEO Beratung Berlin - SEO Berate Experte in Berlin  | SEO Berlino",
         description: "SEO Beratung in Berlin. SEO Experte. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-consultancy"
@@ -1154,7 +1154,7 @@ app.get("/en/seo-consultancy", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("freelancer", {
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "SEO Consultant Berlin | SEO Berlino",
+        title: "Experienced SEO Consultant | SEO Berlino",
         layout: "main",
         description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1302,8 +1302,8 @@ app.get("/de/lexical/google-keyword-tool", (req, res) => {
     res.render("googlekwtool", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Google Keyword Tool für Suchmaschinenoptimierung | SEO Berlino",
-        description: "Google Keyword Tool für Suchmaschinenoptimierung",
+        title: "Google Keyword Planner für Suchmaschinenoptimierung | SEO Berlino",
+        description: "Google Keyword Planner     für Suchmaschinenoptimierung",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/google-keyword-tool"
     });

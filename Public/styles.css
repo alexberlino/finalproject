@@ -574,7 +574,6 @@ a.languageBtnEN {
 
 .marginleft {
     margin-left: 5%;
-    white-space: pre-wrap;
 }
 
 .marginleft2 {
@@ -1462,7 +1461,7 @@ a.langselected {
     }
 
     .dropbtn {
-        margin-top: 3px;
+        margin-top: -22px;
         background-color: white;
         color: black;
         padding: 12px;
