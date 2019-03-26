@@ -1011,8 +1011,8 @@ app.get("/en/seo", (req, res) => {
     res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO  | SEO Berlino",
-        description: "SEO Berlin: SEO Freelancer. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        title: "SEO Definition: Optimization and Analysis | SEO Berlino",
+        description: "SEO Definition: Analysis & Optimization. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo"
     });
@@ -1023,8 +1023,8 @@ app.get("/de/seo", (req, res) => {
     res.render("seo2", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Berlin Suchmaschinenoptimierung | SEO Berlino",
-        description: "SEO Berlin: SEO Freelancer. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+        title: "SEO Check, Optimierung und Analyse | SEO Berlino",
+        description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo"
     });
