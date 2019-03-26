@@ -584,6 +584,10 @@ a.languageBtnEN {
     margin-left: 20%;
 }
 
+.marginleft4 {
+    margin-left: 35%;
+}
+
 .paddingleft {
     padding-left: 5%;
 }
@@ -1035,7 +1039,7 @@ a[href^="tel"] {
     margin-top: 0px;
     margin-bottom: 0px;
     display: block;
-    opacity: 0.84;
+    opacity: 0.89;
     position: relative;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -1651,7 +1655,7 @@ a.blue {
         font-size: 16px;
     }
 
-    .marginleft3 {
+    .marginleft3, .marginleft4 {
         margin-left: 15%;
         margin-top: 5px;
     }
