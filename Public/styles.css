@@ -1030,6 +1030,19 @@ a[href^="tel"] {
     z-index: 0;
 }
 
+.backgroundBlack3 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    opacity: 0.84;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    z-index: 10;
+    background-color: black;
+}
+
 .sharable,
 .sharable2 {
     position: sticky;
@@ -1055,7 +1068,7 @@ a[href^="tel"] {
     width: auto;
 }
 
-.backgroundBlack:after,
+.backgroundBlack:after, .backgroundBlack3:after,
 .sharable:after,
 .sharable2:after,
 .intro4:after {
