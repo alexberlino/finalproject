@@ -3,6 +3,7 @@
 	"home": "HOME",
 	"provenexpertFooteralt": "Experience & Reviews for Alex Bieth",
 	"logoNav": "SEO Freelancer Consultant",
+	"maintxtcasestudies": "SEO Consultant Work Samples\n<br>Berlin Start-up Case Studies",
 	"seo-freelancer": "seo-consultancy",
 	"otherservices": "Other freelancer services",
 	"langvs": "DE",
@@ -103,9 +104,9 @@
 	"beratungText": "For every SEO Consultation, a personal conversation is needed at the beginning to discuss your needs and how to best work together to define realistic KPIs and goals. With my experience I can efficiently give you some estimates of new traffic you can get with a plan of how to reach it and the resources needed to achieve it. From conception to integration and control, I will keep you informed on what has been done and implemented and which goals have been achieved.",
 	"audit": "SEO Audits",
 	"auditText": "An SEO Audit helps to define where your website stands compared to your main competitors, and enables to set realistic objectives based on gained visibility. In the audit, onpage, offpage and technical SEO aspects are covered. Subsequently you will receive a detailed report on the results of the SEO audit.",
-	"KWResearch": "SEO Freelancer: Keyword research",
+	"KWResearch": "SEO Consultant for Keyword research",
 	"KWResearchText": "A very important cornerstone before working on most SEO projects and audits is keyword research. Using a lot of data such as Keyword Tools, Analytics, Search Console Data, competitor analysis, I will setup a list of keywords relevant to your product or service.",
-	"OnPageOptimization": "SEO Freelance Onpage optimization",
+	"OnPageOptimization": "Consultant for Onpage optimization",
 	"OnPageOptimizationText": "Onpage Optimization refers to any SEO action taken on the website that can be done directly. That concerns first and foremost the optimization of the content and the code of the page. It includes as well the elaboration of the content strategy and potential technical issues.",
 	"OffpagePageOptimization": "offpage optimization",
 	"OffpagePageOptimizationText": "Offpage Optimization is certainly the most complex process in SEO as well as the one of the most important factors. It is about link building through brand awareness. To do so it is necessary to identify sites related to your industry which bring traffic, your influencers, blogs and other websites with whom you share common grounds.",
@@ -184,7 +185,7 @@
 	"boost1": "Grow traffic and visibility.",
 	"boost2": "Optimized Keyword Targeting, Brand Building.",
 	"boost3": "SEO Consultancy, Audit.",
-	"boost4": "SEO FREELANCER FOR FULL AUDIT",
+	"boost4": "SEO CONSULTANT FOR FULL AUDIT",
 	"boost5": "TO EFFICIENTLY PLAN TASKS BY PRIORITY",
 	"boost6": "CREATE SHAREABLE CONTENT THAT ",
 	"boost7": "MATTERS -",
@@ -456,6 +457,5 @@
 	"rankbraintitle": "What does Rankbrain mean to your SEO?",
 	"rankbrainMP": "Rankbrain is a Google algorithm used to understand search queries and sort search results using machine learning. \n<br><br>RankBrain adapts the results depending on the keyword type reassessing the importance of domain authority & page authority, backlinks, content freshness & length. RankBrain also assesses how users interact with search results and adapts the algorithm depending on how they interact with them.\n<br><br>RankBrain uses keywords it has already dealt with to understand searches never yet seen before (which represent over 15% of all searches) to transform keywords into concepts and then analyse user's response to the results (CTR, Dwell time, Bounce rate, number of results clicked on).\n<br><br>For keyword targeting, this means you should be targeting medium tail keywords that will then in tunr rank for many similar related other keywords.",
 	"CTRMP": "\n<br><br>Emotional title tags with terms such as effective, case study, example, study, meta decription",
-	"crawlabilityMPintro": "crawlabilityMPintro",
-	"": ""
+	"crawlabilityMPintro": "crawlabilityMPintro"
 }

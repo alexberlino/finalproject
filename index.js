@@ -114,9 +114,22 @@ app.use(
 
 app.get("/", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("home", {
+    res.render("homeDE", {
         requrl: "/en",
         layout: "mainDE",
+        title: "SEO Consultant Freelancer | SEO Beratung Berlin",
+        description: "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+        canonical: "https://www.seoberlino.com/de",
+        alt: "https://www.seoberlino.com/en",
+        alt2: "https://www.seoberlino.com/fr"
+    });
+});
+
+app.get("/de", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("homeDE", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainDEHP",
         title: "SEO Consultant Freelancer | SEO Beratung Berlin",
         description: "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
@@ -146,25 +159,14 @@ app.get("/en", (req, res) => {
 app.get("/fr", (req, res) => {
     i18n.setLocale(req, "fr");
     res.render("homeFR", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en",
         layout: "mainFR",
         title: "SEO Freelancer & Consultant SEO | SEOBerlino",
         description: "Consultant SEO et Freelancer.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
-app.get("/de", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("homeDE", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDEHP",
-        title: "SEO Consultant Freelancer | SEO Beratung Berlin",
-        description: "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
-        canonical: "https://www.seoberlino.com/de",
-        alt: "https://www.seoberlino.com/en",
-        alt2: "https://www.seoberlino.com/fr"
-    });
-});
+
 
 app.get("/en/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "en");
@@ -723,7 +725,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
     res.render("backlinkanalysis", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Backlink Analysis | SEO Berlino",
+        title: "Backlink Analysis & Audit | SEO Berlino",
         description: "During a backlink analysis, a report needs to be done with the profile's pros and cons. In addition, it should include an audit  of competitors to understand where you stand. Then a brainstorm can be done on link  targets and content production. Finally work can be prioritised depending on  potential and complexity, setting targets: quantity and quality links  for the next quarters focusing on.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/offpage/backlinkanalysis"
@@ -735,8 +737,8 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
     res.render("backlinkanalysis2", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Backlink Analyse SEO | SEO Berlino",
-        description: "Im Zuge eines Backlink Profil Audits muss ein Bericht über die Vor- und Nachteile des Profils erstellt werden. Zudem sollte es ein Audit der Konkurrenten beinhalten um Sie und Ihre Seite im Wettbewerb verorten zu können. Danach kann ein Brainstorming über angestrebte Links stattfinden.",
+        title: "Backlink Analyse SEO - SEO Consultant Berlin | SEO Berlino",
+        description: "SEO Freelancer & Consultant Backlink Analyse in Berlin. Im Zuge eines Backlink Profil Audits muss ein Bericht über die Vor- und Nachteile des Profils erstellt werden. Zudem sollte es ein Audit der Konkurrenten beinhalten um Sie und Ihre Seite im Wettbewerb verorten zu können. Danach kann ein Brainstorming über angestrebte Links stattfinden.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/offpage/backlinkanalysis"
     });

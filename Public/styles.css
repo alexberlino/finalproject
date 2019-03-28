@@ -1627,6 +1627,7 @@ a.blue {
     text-decoration: underline;
 }
 
+/* MOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILE */
 @media (max-width: 768px) {
     h5 {
         margin-left: 16%;
@@ -1971,8 +1972,7 @@ a.blue {
 
     .footer, .footer2 {
         z-index: 30;
-        font-size: 16px;
-        padding-left: 3px;
+        font-size: 15px;
     }
 
     .message404 {
@@ -1996,6 +1996,9 @@ a.blue {
     .xtrapad {
         padding-top: 40px;
         padding-bottom: 40px;
+        padding-right: 15px;
+        padding-left: 5px;
+        width: 95%;
     }
 
     .intro4 {
@@ -2050,6 +2053,7 @@ a.blue {
         color: white;
         font-size: 18px;
         padding-top: 14px;
+        padding-left: 3px;
     }
 
     .homepage {
@@ -2114,6 +2118,8 @@ a.blue {
 
     .main {
         min-height: calc(140vh - 1000px);
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .mainHP {
