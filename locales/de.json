@@ -464,5 +464,7 @@
 	"Diagnostics": "Diagnose",
 	"Opportunities": "Empfehlungen",
 	"pagespeedlink": "https://developers.google.com/speed/pagespeed/insights/?hl=de",
-	"maintxtcasestudies": "SEO Freelancer Work Samples\n<br>Berlin Start-up Case Studies"
+	"maintxtcasestudies": "SEO Freelancer Work Samples\n<br>Berlin Start-up Case Studies",
+	"crawlingURL": "crawlingURL",
+	"ampURL": "ampURL"
 }
