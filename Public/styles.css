@@ -63,7 +63,7 @@ h1 {
 h2 {
     margin-top: 45px;
     margin-bottom: 15px;
-    margin-left: 2px;
+    margin-left: 4px;
     font-size: 30px;
 }
 
@@ -484,6 +484,10 @@ a.languageBtnEN {
     margin-left: 30px;
     padding: 2px;
     margin-bottom: 40px;
+}
+
+.marginbottom {
+    margin-bottom: 20px;
 }
 
 .intro3 {

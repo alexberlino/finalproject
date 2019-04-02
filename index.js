@@ -161,8 +161,8 @@ app.get("/fr", (req, res) => {
     res.render("homeFR", {
         requrl: "/en",
         layout: "mainFR",
-        title: "SEO Freelancer & Consultant SEO | SEOBerlino",
-        description: "Consultant SEO et Freelancer.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
+        title: "SEO Freelancer & Consultant SEO Paris/ France basé en Allemagne | SEOBerlino",
+        description: "Consultant SEO et Freelancer Paris pour la France, basé en Allemagne.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1145,7 +1145,7 @@ app.get("/de/seo-beratung", (req, res) => {
     res.render("freelancer", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung Berlin - SEO Berate Experte in Berlin  | SEO Berlino",
+        title: "SEO Beratung Berlin - SEO Berater und Experte in Berlin  | SEO Berlino",
         description: "SEO Beratung in Berlin. SEO Experte. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-consultancy"
