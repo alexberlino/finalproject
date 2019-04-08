@@ -1013,7 +1013,7 @@ app.get("/en/seo", (req, res) => {
     res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Definition: Optimization and Analysis | SEO Berlino",
+        title: "SEO Berlin: Optimization and Analysis | SEO Berlino",
         description: "SEO Definition: Analysis & Optimization. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo"
@@ -1025,10 +1025,34 @@ app.get("/de/seo", (req, res) => {
     res.render("seo2", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Check, Optimierung und Analyse | SEO Berlino",
+        title: "SEO Berlin: SEO Check und Analyse | SEO Berlino",
         description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo"
+    });
+});
+
+app.get("/de/datenschutz", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("datenschutz", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainDE",
+        title: "Datenschuzt | SEO Berlino",
+        description: "SEO Berlino, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/datenschutz"
+    });
+});
+
+app.get("/en/datenschutz", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("datenschutz", {
+        requrl: "/de" + req.originalUrl.substring(3),
+        layout: "mainDE",
+        title: "Datenschuzt | SEO Berlino",
+        description: "SEO Berlino, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+        canonical: "https://www.seoberlino.com/de/datenschutz",
+        alt: "https://www.seoberlino.com/de/datenschutz"
     });
 });
 
