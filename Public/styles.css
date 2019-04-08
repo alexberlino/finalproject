@@ -900,8 +900,8 @@ a.languageBtnEN {
 }
 
 .logocontainer {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 button.servicesHP,
@@ -1045,8 +1045,7 @@ a[href^="tel"] {
     display: block;
     opacity: 0.89;
     position: relative;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 5px;
     z-index: 10;
     background-color: black;
 }
@@ -2076,8 +2075,8 @@ a.blue {
     }
 
     .logocontainer {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 
     .languageBtn {
