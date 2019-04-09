@@ -1037,7 +1037,7 @@ app.get("/de/datenschutz", (req, res) => {
     res.render("datenschutz", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Datenschuzt | SEO Berlino",
+        title: "Datenschutz | SEO Berlino",
         description: "SEO Berlino, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/datenschutz"

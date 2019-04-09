@@ -2,6 +2,14 @@ html {
     height: 100%;
 }
 
+.homepage {
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    z-index: 0;
+    opacity: 0.45;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -16,11 +24,6 @@ p {
 }
 
 body {}
-
-.homepage {
-    width: 100%;
-    opacity: 0.1;
-}
 
 xmp {
     background-color: black;
@@ -869,9 +872,9 @@ a.languageBtnEN {
     position: relative;
     background-color: white;
     margin-bottom: 20px;
-    margin-top: 50px;
-    padding-top: 60px;
-    padding-bottom: 50px;
+    margin-top: 300px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     width: 100%;
     text-align: center;
 }
@@ -1045,7 +1048,7 @@ a[href^="tel"] {
     display: block;
     opacity: 0.89;
     position: relative;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
     z-index: 10;
     background-color: black;
 }
@@ -1295,18 +1298,16 @@ a.langselected {
     box-shadow: -8px 0 8px rgba(0, 0, 0, 0);
     min-height: 100%;
     width: 410px;
-    background: #1a1a1a;
+    background: white;
 }
 
 .main-menu a, .dropbtn {
     display: block;
     padding: 0.75em 15px;
-    line-height: 1em;
     font-size: 21px;
-    color: #fff;
+    color: black;
     margin-top: 9px;
     text-decoration: none;
-    border-bottom: 1px solid #383838;
 }
 
 .main-menu li:first-child a {
@@ -1623,16 +1624,6 @@ a.blue {
 
 /* MOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILE */
 @media (max-width: 768px) {
-    .dropbtn {
-        background-color: #1a1a1a;
-        color: white;
-        padding: 12px;
-        font-size: 22px;
-        border: none;
-        cursor: pointer;
-        margin: 0px 0px 0px;
-    }
-
     .dropbtn a {
         margin-left: -10px;
         padding: 0px;
@@ -2066,14 +2057,6 @@ a.blue {
         padding-left: 3px;
     }
 
-    .homepage {
-        width: 100%;
-        opacity: 0.1;
-        position: fixed;
-        top: 50px;
-        z-index: -1;
-    }
-
     .logocontainer {
         margin-left: 8%;
         margin-right: 8%;
@@ -2140,7 +2123,7 @@ a.blue {
     }
 
     .introHP {
-        margin-top: 5%;
+        margin-top: 55%;
         opacity: 1;
         margin-bottom: 0px;
     }
@@ -2249,7 +2232,7 @@ a.blue {
     }
 
     .introHP {
-        margin-top: 40px;
+        margin-top: 200px;
     }
 
     .toolbar {
@@ -2266,6 +2249,7 @@ a.blue {
 
     .dropbtn {
         font-size: 20px;
+        padding-top: 27px;
     }
 
     .toolbar_logo {
