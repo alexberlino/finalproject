@@ -117,8 +117,8 @@ app.get("/", (req, res) => {
     res.render("homeDE", {
         requrl: "/en",
         layout: "mainDE",
-        title: "SEO Consultant Freelancer | SEO Beratung Berlin",
-        description: "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+        title: "SEO Freelancer Berlin | SEO Beratung Consultant Berlin",
+        description: "SEO Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
@@ -130,8 +130,8 @@ app.get("/de", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Consultant Freelancer | SEO Beratung Berlin",
-        description: "SEO Consultant Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+        title: "SEO Freelancer Berlin | SEO Beratung Consultant Berlin",
+        description: "SEO Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
@@ -145,7 +145,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Consultant Freelancer | SEOBerlino",
+        title: "SEO Consultant Freelancer in Germany | SEOBerlino",
         description: "SEO Consultant Freelancer with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de",
