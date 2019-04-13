@@ -522,6 +522,11 @@ a.languageBtnEN {
     max-height: 80px;
 }
 
+.provmeasure {
+    height: 180px;
+    width: 180px
+}
+
 .blacknwhite {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
@@ -1607,6 +1612,12 @@ a.blue {
         margin-left: -10px;
         padding: 0px;
         padding-left: 12px;
+    }
+
+    .provmeasure {
+        height: 120px;
+        width: 120px;
+        padding-top: 60px;
     }
 
     ul a:hover {
