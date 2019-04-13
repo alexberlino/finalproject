@@ -1767,11 +1767,31 @@ app.get("/de/off-page/toxic", function(request, response) {
 
 app.get("/register", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com",
+        Location: "https://www.seoberlino.com/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
+
+
+app.get("/i-think-search", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/offpage/backlinkanalysis",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/archives/*", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/onpage",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
 
 app.get("/de/off-page/backlink-analyse", function(request, response) {
     response.writeHead(301, {
