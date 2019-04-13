@@ -1384,7 +1384,6 @@ a.langselected {
     margin-top: 10px;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -1393,7 +1392,6 @@ a.langselected {
     z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 4px 4px;
@@ -1401,17 +1399,10 @@ a.langselected {
     display: block;
 }
 
-/* Change color of dropdown links on shover */
-.dropdown-content a:hover {
-    background-color: lightgrey
-}
-
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: white;
     color: black;
@@ -1481,18 +1472,12 @@ a.langselected {
         cursor: pointer;
     }
 
-    .dropbtn:hover {
-        text-shadow: 0px 1px grey;
-    }
-
-    /* The container <div> - needed to position the dropdown content */
     .dropdown {
         position: relative;
         display: inline-block;
         margin-top: 10px;
     }
 
-    /* Dropdown Content (Hidden by Default) */
     .dropdown-content {
         display: none;
         position: absolute;
@@ -1501,7 +1486,6 @@ a.langselected {
         z-index: 1;
     }
 
-    /* Links inside the dropdown */
     .dropdown-content a {
         color: black;
         padding: 10px 6px;
@@ -1509,17 +1493,10 @@ a.langselected {
         display: block;
     }
 
-    /* Change color of dropdown links on shover */
-    .dropdown-content a:hover {
-        text-shadow: 0px 1px grey;
-    }
-
-    /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
         display: block;
     }
 
-    /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {
         background-color: white;
         color: black
@@ -1627,6 +1604,15 @@ a.blue {
         margin-left: -10px;
         padding: 0px;
         padding-left: 12px;
+    }
+
+    ul a:hover {
+        background-color: none
+    }
+
+    .dropbtn button {
+        background-color: none;
+        border: 0px;
     }
 
     h5 {
