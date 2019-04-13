@@ -1315,7 +1315,7 @@ a.langselected {
 
 .main-menu a:hover,
 .main-menu a:focus {
-    background: #333;
+    background: none;
     text-decoration: none;
 }
 
@@ -1608,11 +1608,6 @@ a.blue {
 
     ul a:hover {
         background-color: none
-    }
-
-    .dropbtn button {
-        background-color: none;
-        border: 0px;
     }
 
     h5 {
@@ -2254,4 +2249,9 @@ a.blue {
     .main-menu {
         left: 45px;
     }
+}
+
+button.dropbtn {
+    background-color: none;
+    border: 0px;
 }
