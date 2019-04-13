@@ -1179,6 +1179,8 @@ h3.black.marginleft2 {
     left: 16px;
     position: relative;
     z-index: 900;
+    height: 57px;
+    width: auto;
 }
 
 .languageBtn a:hover {
