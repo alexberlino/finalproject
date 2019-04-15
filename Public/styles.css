@@ -1687,8 +1687,8 @@ a.blue {
 
     .h2hp {
         font-size: 20px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 18px;
+        margin-right: 18px;
     }
 
     iframe {
@@ -1971,12 +1971,12 @@ a.blue {
 
     h2.orange,
     h2.black2 a {
-        font-size: 32px;
+        font-size: 27px;
     }
 
     h2.transpbg-white.orange {
         color: #c44536;
-        font-size: 32px;
+        font-size: 27px;
     }
 
     .black2 {
@@ -2149,7 +2149,7 @@ a.blue {
 
     h2.transpbg-white {
         color: white;
-        font-size: 24px;
+        font-size: 27px;
     }
 
     .imageAudit,
