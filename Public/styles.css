@@ -828,8 +828,6 @@ a.languageBtnEN {
 .footerHalf {
     display: inline;
     width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
     vertical-align: top;
 }
 
@@ -1132,6 +1130,7 @@ a[href^="tel"] {
     position: relative;
     display: block;
     color: white;
+    margin-top: 20px;
 }
 
 .imageHPMob {
