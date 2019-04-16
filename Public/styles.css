@@ -2184,6 +2184,10 @@ a.blue {
         font-size: 25px;
     }
 
+    .mov {
+        max-width: 100%
+    }
+
     .toggle_button {
         height: 36px;
         width: 36px;
