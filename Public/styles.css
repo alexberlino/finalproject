@@ -1,10 +1,11 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 .homepage {
     position: fixed;
-    width: 100%;
+    max-width: 100%;
     top: 50px;
     z-index: 0;
 }
@@ -21,8 +22,6 @@ body {
 p {
     font-size: 23px;
 }
-
-body {}
 
 xmp {
     background-color: black;
@@ -713,7 +712,7 @@ a.languageBtnEN {
 
 .txt3 {
     font-size: 22px;
-    margin-left: 12%;
+    padding-left: 10px;
     width: 65%;
 }
 
@@ -1756,7 +1755,6 @@ a.blue {
         width: 90%;
         margin-left: 3%;
         margin-right: 3%;
-        padding: 5px;
     }
 
     .breadcrumb {
@@ -1986,9 +1984,7 @@ a.blue {
     .xtrapad {
         padding-top: 40px;
         padding-bottom: 40px;
-        padding-right: 15px;
-        padding-left: 5px;
-        width: 95%;
+        width: 100%;
     }
 
     .intro4 {
@@ -2108,7 +2104,7 @@ a.blue {
         display: block;
         margin: 0;
         width: 100%;
-        min-height: calc(100vh - 120px);
+        min-height: calc(20vh - 120px);
     }
 
     .introHP {
@@ -2267,4 +2263,10 @@ a.blue {
 button.dropbtn {
     background-color: none;
     border: 0px;
+}
+
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
