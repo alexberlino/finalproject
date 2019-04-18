@@ -890,6 +890,105 @@ app.get("/en/audit", (req, res) => {
     });
 });
 
+//////////////////////
+
+app.get("/de/sea", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("beratungsea", {
+        layout: "mainDE",
+        title: "SEA Beratung Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/sea"
+    });
+});
+
+app.get("/en/sea", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratungsea", {
+        layout: "main",
+        title: "SEA Services Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/sea"
+    });
+});
+
+
+
+app.get("/de/backlinks", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("beratunglinks", {
+        layout: "mainDE",
+        title: "SEO Backlinks Beratung Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/backlinks"
+    });
+});
+
+app.get("/en/backlinks", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratunglinks", {
+        layout: "main",
+        title: "SEO Backlinks Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/backlinks"
+    });
+});
+
+
+app.get("/de/analytics", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("beratunganalytics", {
+        layout: "mainDE",
+        title: "SEO Webanalyse Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/analytics"
+    });
+});
+
+app.get("/en/analytics", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratunganalytics", {
+        layout: "main",
+        title: "SEO Analytics Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/analytics"
+    });
+});
+
+app.get("/de/content", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("beratungcontent", {
+        layout: "mainDE",
+        title: "SEO Audit Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/content"
+    });
+});
+
+app.get("/en/content", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratungcontent", {
+        layout: "main",
+        title: "SEO Audit Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/content"
+    });
+});
+
+
+
+
+
+
+///////////////
 
 app.get("/en/onpage", (req, res) => {
     i18n.setLocale(req, "en");
