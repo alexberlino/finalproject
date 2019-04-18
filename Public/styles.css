@@ -1393,9 +1393,10 @@ a.langselected {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    width: 260px;
+    width: auto;
     z-index: 1;
+    text-align: center;
+    background-color: white;
 }
 
 .dropdown-content a {
@@ -1482,12 +1483,14 @@ a.langselected {
         position: relative;
         display: inline-block;
         margin-top: 10px;
+        min-width: 160px;
+        text-align: center;
     }
 
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: white;
+        background-color: lightgrey;
         min-width: 160px;
         z-index: 1;
     }
@@ -1497,6 +1500,7 @@ a.langselected {
         padding: 10px 6px;
         text-decoration: none;
         display: block;
+        min-width: 160px;
     }
 
     .dropdown:hover .dropdown-content {

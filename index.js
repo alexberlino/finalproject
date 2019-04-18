@@ -156,6 +156,9 @@ app.get("/en", (req, res) => {
 
 
 
+
+
+
 app.get("/fr", (req, res) => {
     i18n.setLocale(req, "fr");
     res.render("homeFR", {
@@ -864,6 +867,30 @@ app.get("/de/offpage", (req, res) => {
     });
 });
 
+
+app.get("/de/audit", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("audit", {
+        layout: "mainDE",
+        title: "SEO Audit Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/audit"
+    });
+});
+
+app.get("/en/audit", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("audit", {
+        layout: "main",
+        title: "SEO Audit Berlin | SEO Berlino",
+        description: "SEO Audit in Berlin",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/audit"
+    });
+});
+
+
 app.get("/en/onpage", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("onpage", {
@@ -1166,7 +1193,7 @@ app.get("/en/seo-for-small-businesses", (req, res) => {
 
 app.get("/de/seo-beratung", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("freelancer", {
+    res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "SEO Beratung Berlin - SEO Berater und Experte in Berlin  | SEO Berlino",
@@ -1178,9 +1205,9 @@ app.get("/de/seo-beratung", (req, res) => {
 
 app.get("/en/seo-consultancy", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("freelancer", {
+    res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "Experienced SEO Consultant | SEO Berlino",
+        title: "SEO Consultant Expert Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
