@@ -1136,7 +1136,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Consultant Berlin - Contact | SEO Berlino",
+        title: "SEO Specialist Berlin - Contact | SEO Berlino",
         description: "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
