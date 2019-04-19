@@ -866,7 +866,8 @@ a.languageBtnEN {
     min-height: 300px;
     background-color: white;
     padding: 10px;
-    min-width: 30%;
+    width: 30%;
+    ;
 }
 
 .introHP {
