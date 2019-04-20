@@ -931,7 +931,7 @@ app.get("/en/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratunglinks", {
         layout: "main",
-        title: "SEO Backlinks Berlin | SEO Berlino",
+        title: "SEO Backlinks Beratung Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/backlinks"
@@ -943,7 +943,7 @@ app.get("/de/analytics", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratunganalytics", {
         layout: "mainDE",
-        title: "SEO Webanalyse Berlin | SEO Berlino",
+        title: "SEO Webanalyse Beratung Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/analytics"
@@ -954,7 +954,7 @@ app.get("/en/analytics", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratunganalytics", {
         layout: "main",
-        title: "SEO Analytics Berlin | SEO Berlino",
+        title: "SEO Analytics Services Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/analytics"
@@ -965,7 +965,7 @@ app.get("/de/content", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratungcontent", {
         layout: "mainDE",
-        title: "SEO Audit Berlin | SEO Berlino",
+        title: "SEO Content Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/content"
@@ -976,7 +976,7 @@ app.get("/en/content", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungcontent", {
         layout: "main",
-        title: "SEO Audit Berlin | SEO Berlino",
+        title: "SEO Content Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/content"
@@ -1306,7 +1306,7 @@ app.get("/en/seo-consultancy", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "SEO Consultant Expert Berlin | SEO Berlino",
+        title: "SEO Consultant Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,

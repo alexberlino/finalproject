@@ -2,138 +2,187 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.seoberlino.com/en</loc>
-    <lastmod>2019-03-03</lastmod>
+    <lastmod>2019-04-20</lastmod>
   </url>
   <url>
     <loc>https://www.seoberlino.com/de</loc>
-    <lastmod>2019-03-03</lastmod>
+    <lastmod>2019-04-20</lastmod>
   </url>
 
   <url>
     <loc>https://www.seoberlino.com/fr</loc>
-    <lastmod>2019-03-03</lastmod>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.seoberlino.com/en/audit</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.seoberlino.com/de/audit</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.seoberlino.com/en/backlinks</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.seoberlino.com/de/backlinks</loc>
+    <lastmod>2019-04-20</lastmod>
   </url>
 
 
   <url>
+    <loc>https://www.seoberlino.com/en/content</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.seoberlino.com/de/content</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.seoberlino.com/en/analytics</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.seoberlino.com/de/analytics</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+
+
+  <url>
+    <loc>https://www.seoberlino.com/en/sea</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+  <url>
+    <loc>https://www.seoberlino.com/de/sea</loc>
+    <lastmod>2019-04-20</lastmod>
+  </url>
+
+
+
+
+  <url>
     <loc>https://www.seoberlino.com/en/onpage</loc>
-    <lastmod>2019-03-03</lastmod>
+    <lastmod>2019-04-20</lastmod>
   </url>
 
 
   <url>
     <loc>https://www.seoberlino.com/en/onpage/content</loc>
-    <lastmod>2019-03-03</lastmod>
+    <lastmod>2019-04-20</lastmod>
   </url>
 
 
 
 <url><loc>https://www.seoberlino.com/en/onpage/duplicatecontent</loc>
-<lastmod>2019-03-03</lastmod></url>
+<lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/onpage/images</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/onpage/images</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/onpage/internallinking</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/onpage/internallinking</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/onpage/keywordresearch</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/onpage/keywordresearch</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/onpage/landingpages</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/onpage/landingpages</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/onpage/metas</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/onpage/metas</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/onpage/structureddata</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/onpage/structureddata</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/onpage/voicesearch</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/onpage/voicesearch</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
-<url><loc>https://www.seoberlino.com/en/offpage/brandbuilding</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/offpage/brandbuilding</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/offpage/toxic</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/offpage/toxic</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/offpage/backlinkanalysis</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/offpage/backlinkanalysis</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/research/sea</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/research/sea</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/research/localseo</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/research/localseo</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/research/competitor-analysis</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/research/competitor-analysis</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/research/analytics</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/research/analytics</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/technical/crawlability</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/technical/crawlability</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/technical/dynamicrendering</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/technical/dynamicrendering</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/technical/indexation</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/technical/indexation</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/technical/internationalisation</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/technical/internationalisation</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/technical/mobilefriendly</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/technical/mobilefriendly</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/technical/pagespeed</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/technical/pagespeed</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/technical/security</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/technical/security</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
-<url><loc>https://www.seoberlino.com/en/offpage</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/offpage</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/technical</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/technical</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
 
-<url><loc>https://www.seoberlino.com/en/blog</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/blog</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/contact</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/contact</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/seonews</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/seonews</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
-<url><loc>https://www.seoberlino.com/en/seo</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/seo</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
 
 
-<url><loc>https://www.seoberlino.com/en/research</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/research</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
-<url><loc>https://www.seoberlino.com/en/seo-for-small-businesses</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/seo-for-small-businesses</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/seo-for-small-businesses</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/seo-for-small-businesses</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/freeaudit</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/freeaudit</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/freeaudit</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/freeaudit</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
 
-<url><loc>https://www.seoberlino.com/en/partnership</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/partnership</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/partnership</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/partnership</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
 
 
-<url><loc>https://www.seoberlino.com/en/seo-consultancy</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/seo-consultancy</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
@@ -143,11 +192,11 @@
 
 
 
-<url><loc>https://www.seoberlino.com/en/article/linkbuilding-in-2019</loc><priority>0.5</priority><lastmod>2019-03-03</lastmod></url>
-<url><loc>https://www.seoberlino.com/en/article/beyond-mobile-first</loc><priority>0.5</priority><lastmod>2019-03-03</lastmod></url>
-<url><loc>https://www.seoberlino.com/en/article/how-to-get-those-first-links</loc><priority>0.5</priority><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/article/linkbuilding-in-2019</loc><priority>0.5</priority><lastmod>2019-04-20</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/article/beyond-mobile-first</loc><priority>0.5</priority><lastmod>2019-04-20</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/article/how-to-get-those-first-links</loc><priority>0.5</priority><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/en/article/link-building-to-brandbuilding</loc><priority>0.5</priority><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/en/article/link-building-to-brandbuilding</loc><priority>0.5</priority><lastmod>2019-04-20</lastmod></url>
 
 
 
@@ -155,104 +204,104 @@
 
 
 
-<url><loc>https://www.seoberlino.com/de/contact</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/contact</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
 <url><loc>https://www.seoberlino.com/de/impressum</loc>
-<lastmod>2019-03-03</lastmod></url>
+<lastmod>2019-04-20</lastmod></url>
 
 
 
-<url><loc>https://www.seoberlino.com/de/onpage</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/onpage</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/onpage/inhalt</loc><lastmod>2019-03-03</lastmod></url>
-
-
-<url><loc>https://www.seoberlino.com/de/onpage/duplicatecontent</loc><lastmod>2019-03-03</lastmod></url>
-
-<url><loc>https://www.seoberlino.com/de/onpage/bildoptimierung</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/onpage/inhalt</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/de/onpage/interne-verlinkung</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/onpage/duplicatecontent</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/onpage/keyword-recherche</loc><lastmod>2019-03-03</lastmod></url>
-
-<url><loc>https://www.seoberlino.com/de/onpage/landingpages</loc><lastmod>2019-03-03</lastmod></url>
-
-<url><loc>https://www.seoberlino.com/de/onpage/metas-tags-de</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/onpage/bildoptimierung</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/de/onpage/structured-data-de</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/onpage/interne-verlinkung</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/onpage/sprachsuche</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/onpage/keyword-recherche</loc><lastmod>2019-04-20</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/onpage/landingpages</loc><lastmod>2019-04-20</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/onpage/metas-tags-de</loc><lastmod>2019-04-20</lastmod></url>
+
+
+<url><loc>https://www.seoberlino.com/de/onpage/structured-data-de</loc><lastmod>2019-04-20</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/onpage/sprachsuche</loc><lastmod>2019-04-20</lastmod></url>
 
 f
 
-<url><loc>https://www.seoberlino.com/de/offpage/brand-building</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/offpage/brand-building</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/de/offpage/toxic</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/offpage/toxic</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/offpage/backlinkanalysis</loc><lastmod>2019-03-03</lastmod></url>
-
-
-<url><loc>https://www.seoberlino.com/de/forschung/suchmaschinenwerbung</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/offpage/backlinkanalysis</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/de/forschung/local-seo-de</loc><lastmod>2019-03-03</lastmod></url>
-
-<url><loc>https://www.seoberlino.com/de/forschung/mitwettbewerber</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/forschung/suchmaschinenwerbung</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/de/forschung/webanalyse</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/forschung/local-seo-de</loc><lastmod>2019-04-20</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/forschung/mitwettbewerber</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/de/technical/crawling</loc><lastmod>2019-03-03</lastmod></url>
-
-<url><loc>https://www.seoberlino.com/de/technical/dynamic-rendering-de</loc><lastmod>2019-03-03</lastmod></url>
-
-<url><loc>https://www.seoberlino.com/de/technical/indexierung</loc><lastmod>2019-03-03</lastmod></url>
-
-<url><loc>https://www.seoberlino.com/de/technical/internationalisierung</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/forschung/webanalyse</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/de/technical/mobilefriendly</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/technical/crawling</loc><lastmod>2019-04-20</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/technical/dynamic-rendering-de</loc><lastmod>2019-04-20</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/technical/indexierung</loc><lastmod>2019-04-20</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/technical/internationalisierung</loc><lastmod>2019-04-20</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/de/technical/pagespeed</loc><lastmod>2019-03-03</lastmod></url>
-
-<url><loc>https://www.seoberlino.com/de/technical/sicherheit</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/technical/mobilefriendly</loc><lastmod>2019-04-20</lastmod></url>
 
 
+<url><loc>https://www.seoberlino.com/de/technical/pagespeed</loc><lastmod>2019-04-20</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/offpage</loc><lastmod>2019-03-03</lastmod></url>
-
-
-<url><loc>https://www.seoberlino.com/de/technical</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/technical/sicherheit</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
+<url><loc>https://www.seoberlino.com/de/offpage</loc><lastmod>2019-04-20</lastmod></url>
 
 
-
-
-<url><loc>https://www.seoberlino.com/de/contact</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/technical</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
 
 
-<url><loc>https://www.seoberlino.com/de/seo</loc><lastmod>2019-03-03</lastmod></url>
 
 
-<url><loc>https://www.seoberlino.com/en/research</loc><lastmod>2019-03-03</lastmod></url>
+<url><loc>https://www.seoberlino.com/de/contact</loc><lastmod>2019-04-20</lastmod></url>
 
 
 
-<url><loc>https://www.seoberlino.com/de/research</loc><lastmod>2019-03-03</lastmod></url>
 
-<url><loc>https://www.seoberlino.com/de/seo-beratung</loc><lastmod>2019-03-03</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/seo</loc><lastmod>2019-04-20</lastmod></url>
+
+
+<url><loc>https://www.seoberlino.com/en/research</loc><lastmod>2019-04-20</lastmod></url>
+
+
+
+<url><loc>https://www.seoberlino.com/de/research</loc><lastmod>2019-04-20</lastmod></url>
+
+<url><loc>https://www.seoberlino.com/de/seo-beratung</loc><lastmod>2019-04-20</lastmod></url>
 
 
 <url><loc>https://www.seoberlino.com/en/lexical/nofollow</loc><lastmod>2019-03-10</lastmod></url>
