@@ -344,7 +344,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
     res.render("keyword", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Keyword Research for SEO | SEO Berlino",
+        title: "Keyword Research and Keyword Tools for SEO | SEO Berlino",
         description: "Keyword Research is key to understand how your potential clients are searching for your product or services.Search Volume, relevance and keyword competitivity are in deciding on your best keywords.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/keyword-recherche"
@@ -356,7 +356,7 @@ app.get("/de/onpage/keyword-recherche", (req, res) => {
     res.render("keyword", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Keyword Recherche für SEO | SEO Berlino",
+        title: "Keyword Recherche & Keyword Tools für SEO | SEO Berlino",
         description: "Wenn Sie eingehend verstehen möchten, wie Ihre potenziellen Kunden nach den von Ihnen angebotenen Produkten oder Leistungen suchen, ist eine Keyword Recherche unerlässlich.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/onpage/keywordresearch"
