@@ -229,8 +229,9 @@
 	"offpageMP4": "Social Media ist Teil des Offpage SEO und eine Art der Rückverlinkung (engl. Backlinking) die Ihnen Traffic und Aufmerksamkeit verschaffen kann. Die meisten Links aus Sozialen Medien sind zwar",
 	"offpageMP42": ", sie sind jedoch trotzdem nützlich. Erwähnungen in Sozialen Medien gewinnen als Ranking-Faktoren an Boden und die passende Konfiguration von Social Media Profilen kann auch das SEO ankurbeln.",
 	"offpageMP5": "Social Bookmarking ist nicht mehr so gängig wie in der Vergangenheit, stellt aber noch immer eine gute Möglichkeit dar, um Traffic auf Ihrer Website zu generieren. Je nach Branche, in welcher Sie tätig sind, können Sie passende Webseiten wie reddit.com, stumbleupon.com, scoop.it oder delicious.com (um nur einige zu nennen) nutzen, um Ihre Inhalte zu bewerben.",
-	"linkstoavoidtitle": "Backlinks & zu vermeidende Links",
+	"linkstoavoidtitle": "Backlinks zu vermeiden",
 	"linkstoavoidT2": "Links Verantwortung",
+	"linkstoavoidT3": "Beispiele",
 	"linkstoavoid1": "Viele denken, es gehe immer um eine möglichst große Anzahl von Links, dem ist allerdings nicht so. Zu viele Links von geringer Qualität und Spam senken Ihre Glaubwürdigkeit bei Suchmaschinen (engl. Google Credibility) und schaden somit Ihrer Sichtbarkeit",
 	"linkstoavoid2": "Bereits seit einigen Jahren sind Sie als Betreiber einer Website verantwortlich für die Backlinks, die auf Ihre Seite verweisen. Es ist daher wichtig, dass Sie Ihr Backlink-Profil permanent überwachen, schlechte Links erkennen und das Profil säubern. Zunächst empfiehlt sich die Nutzung des Disavow Tools, danach versuchen Sie proaktiv die Links zu entfernen.",
 	"linkstoavoid3": "Meist ist es wenig ratsam, einen Backlink aufzubauen, der auf jeder Seite Ihrer Website auftaucht, besonders wenn er nicht als Nofollow eingerichtet ist. Bereits die Positionierung des Links auf der Seite ist ein Schlüsselkriterium für dessen Erfolg, demnach ist eine Platzierung im Footer alles andere als optimal. Hinzu kommt, dass alle diese Backlinks als ein einzelner gezählt werden, sodass  ihr Wert sehr gering, wenn nicht sogar negativ wird. Andere Arten von Links die es zu vermeiden gilt: Links von Webseiten ohne fachlichen Bezug, von Seiten in anderen Sprachen oder aus anderen Ländern sowie von Webseiten, die als Spam markiert sind.",
@@ -470,5 +471,7 @@
 	"pagespeedlink": "https://developers.google.com/speed/pagespeed/insights/?hl=de",
 	"maintxtcasestudies": "Case Studies",
 	"crawlingURL": "crawlingURL",
-	"ampURL": "amp-pages"
+	"ampURL": "amp-pages",
+	"keywordresearchURL": "keywordresearchURL",
+	"researchURL": "researchURL"
 }
