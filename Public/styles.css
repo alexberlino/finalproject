@@ -83,6 +83,10 @@ h2.white,
     margin-left: 4%;
 }
 
+.border22 {
+    border: 1px black solid;
+}
+
 .black2 a {
     color: black;
     z-index: 5;
@@ -1137,10 +1141,6 @@ a[href^="tel"] {
     margin-top: 20px;
 }
 
-.border22 {
-    border: 1px black solid;
-}
-
 .imageHPMob {
     display: none;
 }
@@ -1415,7 +1415,7 @@ a.langselected {
     display: block;
 }
 
-.dropdown:hover {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
@@ -1489,23 +1489,36 @@ a.langselected {
     }
 
     .dropdown {
-        display: none
+        position: relative;
+        display: inline-block;
+        margin-top: 10px;
+        min-width: 160px;
+        text-align: center;
     }
 
     .dropdown-content {
         display: none;
+        position: absolute;
+        background-color: lightgrey;
+        min-width: 160px;
+        z-index: 1;
     }
 
     .dropdown-content a {
-        display: none;
+        color: black;
+        padding: 10px 6px;
+        text-decoration: none;
+        display: block;
+        min-width: 160px;
     }
 
     .dropdown:hover .dropdown-content {
-        display: none;
+        display: block;
     }
 
     .dropdown:hover .dropbtn {
-        display: none;
+        background-color: white;
+        color: black
     }
 }
 
@@ -1646,6 +1659,10 @@ a.blue {
 
     .imagesCases {
         margin-bottom: 40%;
+    }
+
+    .border22 {
+        border: none;
     }
 
     .publisheddate {
@@ -1937,7 +1954,6 @@ a.blue {
         margin-top: 10px;
         margin-bottom: auto;
         padding: 5px;
-        border: 0px black solid;
     }
 
     .logo {
@@ -2034,10 +2050,6 @@ a.blue {
         width: 40%;
     }
 
-    .border22 {
-        border: none;
-    }
-
     .big {
         font-size: 22px;
     }
@@ -2082,7 +2094,7 @@ a.blue {
     }
 
     .dropdown-content {
-        display: none;
+        min-width: 300px;
     }
 
     .toolbar_toggle_button {
@@ -2281,8 +2293,4 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 0;
-}
-
-a {
-    text-decoration-style: none;
 }
