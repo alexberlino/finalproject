@@ -1317,7 +1317,7 @@ a.langselected {
 
 .main-menu a, .dropbtn {
     display: block;
-    padding: 0.75em 15px;
+    padding: 0.45em 8px;
     font-size: 21px;
     color: black;
     margin-top: 9px;
