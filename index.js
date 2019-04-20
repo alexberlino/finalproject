@@ -130,7 +130,7 @@ app.get("/de", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Freelancer Berlin | SEO Beratung Consultant Berlin",
+        title: "SEO Freelancer Berlin | SEO Consultant Berlin",
         description: "SEO Freelancer für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
@@ -145,7 +145,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Consultant Freelancer in Germany | SEOBerlino",
+        title: "SEO Consultant Freelancer | SEOBerlino",
         description: "SEO Consultant Freelancer with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de",
@@ -164,7 +164,7 @@ app.get("/fr", (req, res) => {
     res.render("homeFR", {
         requrl: "/en",
         layout: "mainFR",
-        title: "SEO Freelancer & Consultant SEO Paris/ France basé en Allemagne | SEOBerlino",
+        title: "SEO Freelancer & Consultant SEO Paris/ France | SEOBerlino",
         description: "Consultant SEO et Freelancer Paris pour la France, basé en Allemagne.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -296,7 +296,7 @@ app.get("/en/onpage/images", (req, res) => {
     res.render("images", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Image OPtimization SEO | SEO Berlino",
+        title: "Image Optimization SEO | SEO Berlino",
         description: "Images optimisation enables you to get visibility on  Image Search which can still be powerful for brand visibility.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/bildoptimierung"
@@ -482,30 +482,30 @@ app.get("/de/forschung/webanalyse", (req, res) => {
         alt: "https://www.seoberlino.com/en/research/analytics"
     });
 });
-
-app.get("/en/research/wordpress", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("wordpressseo", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "WordPress SEO | SEO Berlino",
-        description: "In order to efficiently work with WordPress, especially for on-page work, it is crucial to use reliable data, and analytics is key here in  compiling reports which will enable for instance to identify the  number of visits/unique visitors and conversions for specific pages  and site sections, or compare data by device type or browser.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/forschung/wordpress"
-    });
-});
-
-app.get("/de/forschung/wordpress", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("wordpressseo", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "SEO für WordPress | SEO Berlino",
-        description: "Für WordPress, um im SEO effizient arbeiten zu können, besonders im Bereich Onpage, sind verlässliche Daten unerlässlich.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/research/wordpress"
-    });
-});
+//
+// app.get("/en/research/wordpress", (req, res) => {
+//     i18n.setLocale(req, "en");
+//     res.render("wordpressseo", {
+//         requrl: "/en" + req.originalUrl.substring(3),
+//         layout: "main",
+//         title: "WordPress SEO | SEO Berlino",
+//         description: "In order to efficiently work with WordPress, especially for on-page work, it is crucial to use reliable data, and analytics is key here in  compiling reports which will enable for instance to identify the  number of visits/unique visitors and conversions for specific pages  and site sections, or compare data by device type or browser.",
+//         canonical: "https://www.seoberlino.com" + req.originalUrl,
+//         alt: "https://www.seoberlino.com/de/forschung/wordpress"
+//     });
+// });
+//
+// app.get("/de/forschung/wordpress", (req, res) => {
+//     i18n.setLocale(req, "de");
+//     res.render("wordpressseo", {
+//         requrl: "/en" + req.originalUrl.substring(3),
+//         layout: "mainDE",
+//         title: "SEO für WordPress | SEO Berlino",
+//         description: "Für WordPress, um im SEO effizient arbeiten zu können, besonders im Bereich Onpage, sind verlässliche Daten unerlässlich.",
+//         canonical: "https://www.seoberlino.com" + req.originalUrl,
+//         alt: "https://www.seoberlino.com/en/research/wordpress"
+//     });
+// });
 
 app.get("/en/research/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
@@ -800,7 +800,7 @@ app.get("/en/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Consultant in Berlin - Impressum | SEO Berlino",
+        title: "SEO Specialist in Berlin - Impressum | SEO Berlino",
         description: "SEO Berlino Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/impressum",
         alt: "https://www.seoberlino.com/de/impressum"
@@ -812,8 +812,8 @@ app.get("/de/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Consultant in Berlin SEO Experte Impressum | SEO Berlino",
-        description: "Impressum SEO Berlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
+        title: "SEO Spezialist in Berlin | SEO Berlino",
+        description: "SEO Spezialist in Berlin. Impressum für SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/impressum"
     });
@@ -907,7 +907,7 @@ app.get("/en/sea", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungsea", {
         layout: "main",
-        title: "SEA Services Berlin | SEO Berlino",
+        title: "SEA Consultancy Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/sea"
@@ -954,7 +954,7 @@ app.get("/en/analytics", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratunganalytics", {
         layout: "main",
-        title: "SEO Analytics Services Berlin | SEO Berlino",
+        title: "SEO Analytics Consultant Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/analytics"
@@ -965,7 +965,7 @@ app.get("/de/content", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratungcontent", {
         layout: "mainDE",
-        title: "SEO Content Berlin | SEO Berlino",
+        title: "SEO Content Beratung Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/content"
@@ -976,7 +976,7 @@ app.get("/en/content", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungcontent", {
         layout: "main",
-        title: "SEO Content Berlin | SEO Berlino",
+        title: "SEO Content Consultant Berlin | SEO Berlino",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/content"
@@ -1235,7 +1235,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Specialist Berlin - Contact | SEO Berlino",
+        title: "SEO Expert in Berlin - Contact | SEO Berlino",
         description: "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
@@ -1247,7 +1247,7 @@ app.get("/fr/contact", (req, res) => {
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainFR",
-        title: "SEO Consultant Berlin - Contact | SEO Berlino",
+        title: "SEO Expert Berlin - Contact | SEO Berlino",
         description: "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/fr/contact"
@@ -1259,7 +1259,7 @@ app.get("/de/contact", (req, res) => {
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Consultant Berlin | SEO Experte | SEO Berlino",
+        title: "SEO Experte Berlin | SEO Experte | SEO Berlino",
         description: "SEO Consultant Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/contact"
