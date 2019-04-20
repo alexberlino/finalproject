@@ -15,6 +15,10 @@ body {
     padding: 0;
 }
 
+.clutch {
+    margin-left: 80%;
+}
+
 * {
     font-family: bariolregular;
 }
@@ -1133,6 +1137,10 @@ a[href^="tel"] {
     margin-top: 20px;
 }
 
+.border22 {
+    border: 1px black solid;
+}
+
 .imageHPMob {
     display: none;
 }
@@ -1407,7 +1415,7 @@ a.langselected {
     display: block;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover {
     display: block;
 }
 
@@ -1481,36 +1489,23 @@ a.langselected {
     }
 
     .dropdown {
-        position: relative;
-        display: inline-block;
-        margin-top: 10px;
-        min-width: 160px;
-        text-align: center;
+        display: none
     }
 
     .dropdown-content {
         display: none;
-        position: absolute;
-        background-color: lightgrey;
-        min-width: 160px;
-        z-index: 1;
     }
 
     .dropdown-content a {
-        color: black;
-        padding: 10px 6px;
-        text-decoration: none;
-        display: block;
-        min-width: 160px;
+        display: none;
     }
 
     .dropdown:hover .dropdown-content {
-        display: block;
+        display: none;
     }
 
     .dropdown:hover .dropbtn {
-        background-color: white;
-        color: black
+        display: none;
     }
 }
 
@@ -1564,8 +1559,9 @@ a.langselected {
 
 .footerproven {
     position: absolute;
-    margin-left: 45%;
+    margin-left: 25%;
     padding-bottom: 90px;
+    bottom: 100px;
 }
 
 .footerproven2 {
@@ -1592,6 +1588,10 @@ h2.orange,
 
 .black2 a:hover {
     color: #5b0c32;
+}
+
+.clutch {
+    margin-left: 40%;
 }
 
 .blue {
@@ -1866,12 +1866,10 @@ a.blue {
     }
 
     .footerproven {
-        width: 80px;
-        heigth: 80px;
-    }
-
-    .footerproven2 {
-        margin-left: 15%;
+        height: 130px;
+        width: auto;
+        margin-left: 2%;
+        bottom: 10px;
     }
 
     h2.white {
@@ -1939,6 +1937,7 @@ a.blue {
         margin-top: 10px;
         margin-bottom: auto;
         padding: 5px;
+        border: 0px black solid;
     }
 
     .logo {
@@ -2035,6 +2034,10 @@ a.blue {
         width: 40%;
     }
 
+    .border22 {
+        border: none;
+    }
+
     .big {
         font-size: 22px;
     }
@@ -2079,7 +2082,7 @@ a.blue {
     }
 
     .dropdown-content {
-        width: 100%;
+        display: none;
     }
 
     .toolbar_toggle_button {
@@ -2278,4 +2281,8 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration-style: none;
 }
