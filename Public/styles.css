@@ -2078,6 +2078,10 @@ a.blue {
         padding: 14px;
     }
 
+    .dropdown-content {
+        width: 100%;
+    }
+
     .toolbar_toggle_button {
         position: fixed;
         left: 80%;
