@@ -908,9 +908,9 @@ a.languageBtnEN {
     margin-right: 12%;
 }
 
-button.servicesHP,
-button.servicesHP2,
-button.servicesHP5 {
+.servicesHP,
+.servicesHP2,
+.servicesHP5 {
     color: white;
     background-color: #c53211;
     position: flex;
@@ -924,7 +924,7 @@ button.servicesHP5 {
     border-radius: 15px;
 }
 
-button.servicesHP5 {
+.servicesHP5 {
     background-color: #c53211;
     color: white;
     margin-left: 3%;
@@ -1685,7 +1685,7 @@ a.blue {
         font-size: 29px;
     }
 
-    button.servicesHP5 {
+    .servicesHP5 {
         width: 70%;
         margin-left: 3%;
         font-size: 18px;
@@ -2179,8 +2179,8 @@ a.blue {
 
     .imageAudit2 {}
 
-    button.servicesHP,
-    button.servicesHP2 {
+    .servicesHP,
+    .servicesHP2 {
         width: 220px;
         height: 50px;
         font-size: 18px;
@@ -2224,8 +2224,8 @@ a.blue {
         height: 370px;
     }
 
-    button.servicesHP,
-    button.servicesHP2 {
+    .servicesHP,
+    .servicesHP2 {
         margin-left: 35%;
     }
 
