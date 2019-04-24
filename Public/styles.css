@@ -138,18 +138,6 @@ h5 {
     padding: 30px;
 }
 
-.border {
-    border: black solid 1px;
-    background-color: lightgrey;
-    padding: 17px;
-    color: black;
-    width: 460px;
-    font-size: 24px;
-    border-radius: 10px;
-    text-shadow: 1px #000;
-    animation: slide-in-left 3s;
-}
-
 .slideinleft {
     animation: slide-in-left 3s;
 }
