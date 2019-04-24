@@ -2147,14 +2147,13 @@ a.blue {
         width: 220px;
         height: 50px;
         font-size: 18px;
-        opacity: 1;
-        z-index: 1000
+        border-radius: 2px;
+        background-color: white;
+        color: black
     }
 
     form {
         margin-left: -20%;
-        opacity: 1;
-        z-index: 1000
     }
 }
 
