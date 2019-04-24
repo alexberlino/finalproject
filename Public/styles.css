@@ -919,7 +919,7 @@ a.languageBtnEN {
     height: 60px;
     display: block;
     margin-top: 20px;
-    margin-left: 40%;
+    margin-left: 110%;
     z-index: 300;
     border-radius: 15px;
 }
@@ -2109,8 +2109,6 @@ a.blue {
 
     .main {
         min-height: calc(140vh - 1000px);
-        padding-right: 15px;
-        padding-left: 15px;
     }
 
     .mainHP {
