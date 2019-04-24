@@ -274,8 +274,7 @@ label {
 form {
     display: inline-block;
     position: relative;
-    margin-bottom: 5%;
-    left: 5%;
+    left: 40%;
     width: 30%;
 }
 
@@ -880,19 +879,12 @@ a.languageBtnEN {
     text-align: center;
 }
 
-.servicesHP :hover,
-.servicesHP2 :hover,
-.servicesHP5 {
+.servicesHP:hover,
+.servicesHP2:hover {
     background-color: white;
     color: #1a2827;
     z-index: 3;
-    text-shadow: 0px 1px grey;
     border: 1px solid black;
-}
-
-.servicesHP5 :hover {
-    background-color: grey;
-    color: white;
 }
 
 .limited {
@@ -909,26 +901,17 @@ a.languageBtnEN {
 }
 
 .servicesHP,
-.servicesHP2,
-.servicesHP5 {
+.servicesHP2 {
     color: white;
     background-color: #c53211;
     position: flex;
     font-size: 24px;
     width: 320px;
+    margin-bottom: 20px;
     height: 60px;
     display: block;
-    margin-top: 20px;
-    margin-left: 110%;
     z-index: 300;
     border-radius: 15px;
-}
-
-.servicesHP5 {
-    background-color: #c53211;
-    color: white;
-    margin-left: 3%;
-    animation: bounce-in-top 2s;
 }
 
 .h1hp {
@@ -1561,9 +1544,8 @@ a.langselected {
 
 .footerproven {
     position: absolute;
-    margin-left: 25%;
-    padding-bottom: 90px;
-    bottom: 100px;
+    margin-top: -150px;
+    margin-left: 400px;
 }
 
 .footerproven2 {
@@ -1683,12 +1665,6 @@ a.blue {
 
     .h1hp {
         font-size: 29px;
-    }
-
-    .servicesHP5 {
-        width: 70%;
-        margin-left: 3%;
-        font-size: 18px;
     }
 
     .border {
@@ -1875,7 +1851,7 @@ a.blue {
         height: 130px;
         width: auto;
         margin-left: 2%;
-        bottom: 10px;
+        bottom: 80px;
     }
 
     h2.white {
@@ -1904,17 +1880,6 @@ a.blue {
         margin-right: 0px;
         font-size: 18px;
         width: 90%;
-    }
-
-    .buttonHP {
-        font-size: 10px;
-        top: 40px;
-    }
-
-    .buttonHP2 {
-        font-size: 10px;
-        position: relative;
-        width: 80px;
     }
 
     .intro2,
@@ -2182,7 +2147,10 @@ a.blue {
         width: 220px;
         height: 50px;
         font-size: 18px;
-        margin-left: 23%;
+    }
+
+    form {
+        margin-left: -20%;
     }
 }
 
