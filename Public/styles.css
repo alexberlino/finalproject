@@ -198,21 +198,6 @@ td {
     }
 }
 
-input {
-    font-size: 19px;
-    width: 70%;
-    height: 24px;
-    border: black 1px dotted;
-}
-
-input.blogedit {
-    font-size: 19px;
-    margin: 4px;
-    width: 230px;
-    height: 24px;
-    border: black 1px dotted;
-}
-
 textarea.blogedit {
     font-size: 19px;
     margin: 4px;
@@ -223,15 +208,6 @@ textarea.blogedit {
 
 textarea {
     font-size: 18px;
-}
-
-textarea.blogArticleInput {
-    height: 600px;
-    display: block;
-    margin-bottom: 2%;
-    width: 75%;
-    font-size: 18px;
-    border: black 1px dotted;
 }
 
 select {
@@ -863,14 +839,6 @@ a.languageBtnEN {
     text-align: center;
 }
 
-.servicesHP:hover,
-.servicesHP2:hover {
-    background-color: white;
-    color: #1a2827;
-    z-index: 3;
-    border: 1px solid black;
-}
-
 .limited {
     background-color: #5b0c32;
     color: white;
@@ -889,13 +857,15 @@ a.languageBtnEN {
     color: white;
     background-color: #c53211;
     position: flex;
+    margin-left: 40%;
     font-size: 24px;
     width: 320px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     height: 60px;
     display: block;
     z-index: 300;
     border-radius: 15px;
+    padding-top: 9px;
 }
 
 .h1hp {
@@ -2098,14 +2068,11 @@ a.blue {
 
     .imageAudit2 {}
 
-    input.servicesHP,
-    input.servicesHP2 {
+    .servicesHP,
+    .servicesHP2 {
         width: 220px;
         height: 50px;
         font-size: 18px;
-        border-radius: 2px;
-        background-color: white;
-        color: black
     }
 
     form {
