@@ -1121,7 +1121,7 @@ h3.black.marginleft2 {
     left: 16px;
     position: relative;
     z-index: 900;
-    height: 57px;
+    height: 52px;
     width: auto;
 }
 
@@ -2062,7 +2062,6 @@ a.blue {
         left: 100px;
         top: -12px;
         height: 35px;
-        width: 35px;
     }
 
     h3.black.marginleft2 {
