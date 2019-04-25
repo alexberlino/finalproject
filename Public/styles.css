@@ -1121,7 +1121,7 @@ h3.black.marginleft2 {
     left: 16px;
     position: relative;
     z-index: 900;
-    height: 52px;
+    height: 45px;
     width: auto;
 }
 
@@ -1357,7 +1357,7 @@ a.langselected {
  Larger screen styling
  Horizontal menu
 */
-@media (min-width: 768px) {
+@media (min-width: 968px) {
 
     .menu-toggle,
     .main-menu .menu-close {
@@ -2059,9 +2059,9 @@ a.blue {
     }
 
     .toolbar_logo {
-        left: 100px;
+        left: 50px;
         top: -12px;
-        height: 35px;
+        height: 25px;
     }
 
     h3.black.marginleft2 {
