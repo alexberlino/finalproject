@@ -1484,8 +1484,9 @@ a.langselected {
 }
 
 .linkedin {
-    margin-top: 90px;
-    width: 80%;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 100%;
     border-radius: 0px;
 }
 
