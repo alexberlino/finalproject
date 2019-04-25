@@ -2198,7 +2198,7 @@ a.blue {
     }
 }
 
-button.dropbtn {
+.dropbtn {
     background-color: none;
     border: 0px;
 }
