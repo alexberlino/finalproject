@@ -138,10 +138,6 @@ h5 {
     padding: 30px;
 }
 
-.slideinleft {
-    animation: slide-in-left 3s;
-}
-
 .marginleft0 {
     margin-left: 35%;
 }
@@ -946,34 +942,6 @@ a.grey2 {
     top: 50px;
     left: 0;
     z-index: 0;
-}
-
-@-webkit-keyframes slide-in-left {
-    0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes slide-in-left {
-    0% {
-        -webkit-transform: translateX(-1000px);
-        transform: translateX(-1000px);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-        opacity: 1;
-    }
 }
 
 .transparent {
