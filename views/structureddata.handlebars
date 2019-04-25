@@ -1,174 +1,154 @@
 <div class="main">
 
-  <img
-    src="/auditmainpic/structured.jpg"
-    title="data, a photo by Markus Spiske"
-    alt="structured data"
-    class="imageAudit"
-  />
-  <div class="services">
-    <div class="breadcrumb">
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+    <img src="/auditmainpic/structured.jpg" title="data, a photo by Markus Spiske" alt="structured data" class="imageAudit" />
+    <div class="services">
+        <div class="breadcrumb">
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
 
 
-      <a href="/{{{__ "lang"}}}"> {{{__ "services"}}} </a>
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+            <a href="/{{{__ "lang"}}}"> {{{__ "services"}}} </a>
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
 
 
-      <a href="/{{{__ "lang"}}}/seo"> SEO </a>
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+            <a href="/{{{__ "lang"}}}/seo"> SEO </a>
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
 
 
-      <a href="/{{{__ "lang"}}}/{{{__ "onpage"}}}"> ONPAGE </a>
+            <a href="/{{{__ "lang"}}}/{{{__ "onpage"}}}"> ONPAGE </a>
+        </div>
+
+        <h1 class="h1services"> {{{__ "onpageHP8"}}}</h1>
+        <h2> {{{__ "structuredMPT1"}}}</h2>
+
+        <div class="serviceText">{{{__ "structuredMP1"}}}</div>
+        <h2> {{{__ "structuredMPT2"}}}</h2>
+        <div class="serviceText">{{{__ "structuredMP2"}}}</div>
+        <h2> {{{__ "structuredMPT3"}}}</h2>
+        <div class="serviceText">{{{__ "structuredMP3"}}}</div>
+
+
+        <xmp>
+
+            <script type="application/ld+json">
+                {
+
+                    "@context": "http://schema.org",
+
+                    "@type": "Organization",
+
+                    "url": "yoursite.com",
+
+                    "contactPoint": [{
+
+                        "@type": "ContactPoint",
+
+                        "telephone": "youphonenumber",
+
+                        "contactType": "customer support"
+
+                    }]
+
+                }
+            </script>
+
+        </xmp>
+
+
+
+
+        <xmp>
+            <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [{
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Books",
+                        "item": "https://example.com"
+                    }, {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Authors",
+                        "item": "https://example.com/2"
+                    }, {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Ann Leckie",
+                        "item": "https://example.com/3"
+                    }, {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "name": "Ancillary Justice",
+                        "item": "https://example.com/4"
+                    }]
+                }
+            </script>
+
+
+        </xmp>
+
+        <a class="black block big bold" target="_blank" href="https://schema.org/">Schema.org all references</a>
+
+        <a class="black block big bold" target="_blank" href="https://www.google.com/webmasters/markup-helper/u/0/?hl=en">Markup Helper</a>
+
+        <a class="black block big bold" target="_blank" href="https://search.google.com/structured-data/testing-tool/u/0/?hl=en">Tester</a>
+
+
+
+        <div class="black sideLinks">
+            <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "kwrechercheURL"}}}">
+                {{{__ "onpageHP1U"}}}
+            </a>
+            <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "landingpagesURL"}}}">
+                {{{__ "onpageHP2U"}}}
+            </a>
+            <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "internallinkingURL"}}}">
+                {{{__ "onpageHP3U"}}} {{{__ "onpageHP5U"}}}
+            </a>
+            <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "metasURL"}}}">
+                {{{__ "onpageHP4U"}}}
+            </a>
+            <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "contentURL"}}}">
+                {{{__ "onpageHP6U"}}}
+            </a>
+            <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "imagesURL"}}}">
+                {{{__ "onpageHP7U"}}}
+            </a>
+            <a class="block bold">{{{__ "onpageHP8U"}}}</a>
+            <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "duplicatecontentURL"}}}">
+                {{{__ "onpageHP9U"}}}
+            </a>
+            <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "voicesearchURL"}}}">
+                {{{__ "onpageHP10U"}}}
+            </a>
+        </div>
     </div>
-
-    <h1 class="h1services"> {{{__ "onpageHP8"}}}</h1>
-    <h2> {{{__ "structuredMPT1"}}}</h2>
-
-    <div class="serviceText">{{{__ "structuredMP1"}}}</div>
-    <h2> {{{__ "structuredMPT2"}}}</h2>
-    <div class="serviceText">{{{__ "structuredMP2"}}}</div>
-    <h2> {{{__ "structuredMPT3"}}}</h2>
-    <div class="serviceText">{{{__ "structuredMP3"}}}</div>
-
-
-    <xmp>
-
     <script type="application/ld+json">
-
-    {
-
-    "@context": "http://schema.org",
-
-    "@type": "Organization",
-
-    "url": "yoursite.com",
-
-    "contactPoint": [{
-
-    "@type": "ContactPoint",
-
-    "telephone": "youphonenumber",
-
-    "contactType": "customer support"
-
-    }]
-
-    }
-
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "{{{__ "
+                servicesL "}}}",
+                "item": "https://www.seoberlino.com/{{{__ "
+                lang "}}}"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "SEO",
+                "item": "https://www.seoberlino.com/{{{__ "
+                lang "}}}/seo"
+            }, {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Onpage",
+                "item": "https://www.seoberlino.com/{{{__ "
+                lang "}}}/{{{__ "
+                onpage "}}}"
+            }]
+        }
     </script>
-
-</xmp>
-
-
-
-
-<xmp>
-    <script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "BreadcrumbList",
-"itemListElement": [{
-"@type": "ListItem",
-"position": 1,
-"name": "Books",
-"item": "https://example.com"
-},{
-"@type": "ListItem",
-"position": 2,
-"name": "Authors",
-"item": "https://example.com/2"
-},{
-"@type": "ListItem",
-"position": 3,
-"name": "Ann Leckie",
-"item": "https://example.com/3"
-},{
-"@type": "ListItem",
-"position": 4,
-"name": "Ancillary Justice",
-"item": "https://example.com/4"
-}]
-}
-</script>
-
-
-</xmp>
-
-<a class="black block big bold" target="_blank" href="https://schema.org/">Schema.org all references</a>
-
-<a class="black block big bold" target="_blank" href="https://www.google.com/webmasters/markup-helper/u/0/?hl=en">Markup Helper</a>
-
-<a class="black block big bold" target="_blank" href="https://search.google.com/structured-data/testing-tool/u/0/?hl=en">Tester</a>
-
-
-
-    <div class="black sideLinks">
-      <a
-        class="block"
-        href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "kwrechercheURL"}}}"
-      >
-        {{{__ "onpageHP1U"}}}
-      </a>
-      <a
-        class="block"
-        href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "landingpagesURL"}}}"
-      >
-        {{{__ "onpageHP2U"}}}
-      </a>
-      <a
-        class="block"
-        href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "internallinkingURL"}}}"
-      >
-        {{{__ "onpageHP3U"}}} {{{__ "onpageHP5U"}}}
-      </a>
-      <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "metasURL"}}}">
-        {{{__ "onpageHP4U"}}}
-      </a>
-      <a
-        class="block"
-        href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "contentURL"}}}"
-      >
-        {{{__ "onpageHP6U"}}}
-      </a>
-      <a class="block" href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "imagesURL"}}}">
-        {{{__ "onpageHP7U"}}}
-      </a>
-      <a class="block bold">{{{__ "onpageHP8U"}}}</a>
-      <a
-        class="block"
-        href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "duplicatecontentURL"}}}"
-      >
-        {{{__ "onpageHP9U"}}}
-      </a>
-      <a
-        class="block"
-        href="/{{{__ "lang"}}}/{{{__ "onpage"}}}/{{{__ "voicesearchURL"}}}"
-      >
-        {{{__ "onpageHP10U"}}}
-      </a>
-    </div>
-  </div>
-  <script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "BreadcrumbList",
-"itemListElement": [{
-"@type": "ListItem",
-"position": 1,
-"name": "{{{__ "servicesL"}}}",
-"item": "https://www.seoberlino.com/{{{__ "lang"}}}"
-},{
-"@type": "ListItem",
-"position": 2,
-"name": "SEO",
-"item": "https://www.seoberlino.com/{{{__ "lang"}}}/seo"
-},{
-"@type": "ListItem",
-"position": 3,
-"name": "Onpage",
-"item": "https://www.seoberlino.com/{{{__ "lang"}}}/{{{__ "onpage"}}}"
-}]
-}
-</script>
-</div></div>
+</div>

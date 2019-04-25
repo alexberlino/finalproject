@@ -1,80 +1,86 @@
 <div class="main">
 
 
-  <div class="services2">
-    <div class="breadcrumb">
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+    <div class="services2">
+        <div class="breadcrumb">
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
 
 
-      <a href="/{{{__ "lang"}}}"> {{{__ "services"}}} </a>
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+            <a href="/{{{__ "lang"}}}"> {{{__ "services"}}} </a>
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
 
 
-      <a href="/{{{__ "lang"}}}/seo"> SEO </a>
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
-      <a href="/{{{__ "lang"}}}/lexical"> Lexicon </a>
+            <a href="/{{{__ "lang"}}}/seo"> SEO </a>
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+            <a href="/{{{__ "lang"}}}/lexical"> Lexicon </a>
 
 
+
+        </div>
+        <h1 class="h1services"> Lighthouse for SEO</h1>
+        <h2>{{{__ "definition"}}}</h2>
+        <div class="serviceText">
+            {{{__ "lighthouseMP"}}}
+        </div>
+        <div class="serviceText">
+            <br>
+
+            <ul>
+                <li class="big bold">Chrome > New Incognito Window</li>
+
+                <br>
+
+                <li class="big bold">Google Chrome Dev Tools > Audits</li>
+
+            </ul>
+
+            <br>
+            <img class="searchconsole" src="/lighthouse1.png" />
+
+            <br><br><br>
+
+            <ul>
+                <li class="big bold">Run audits</li>
+            </ul>
+            <br><br><br>
+
+
+            <img class="searchconsole" src="/lighthouse2.png" />
+
+            <br><br><br>
+
+            <ul>
+                <li class="big bold">Results</li>
+            </ul>
+            <br><br><br>
+            <img class="searchconsole" src="/lighthouse3.png" />
+        </div>
+
+
+
+
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "{{{__ "
+                    servicesL "}}}",
+                    "item": "https://www.seoberlino.com/{{{__ "
+                    lang "}}}"
+                }, {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "SEO",
+                    "item": "https://www.seoberlino.com/{{{__ "
+                    lang "}}}/seo"
+                }, ]
+            }
+        </script>
 
     </div>
-    <h1 class="h1services"> Lighthouse for SEO</h1>
-    <h2>{{{__ "definition"}}}</h2>
-    <div class="serviceText">
-        {{{__ "lighthouseMP"}}}
-    </div>
-<div class="serviceText">
-    <br>
-
-<ul>
-    <li class="big bold">Chrome > New Incognito Window</li>
-
-    <br>
-
-    <li class="big bold">Google Chrome Dev Tools > Audits</li>
-
-</ul>
-
-    <br>
-        <img class="searchconsole" src="/lighthouse1.png" />
-
-<br><br><br>
-
-<ul>
-<li class="big bold">Run audits</li></ul>
-<br><br><br>
-
-
-        <img class="searchconsole" src="/lighthouse2.png" />
-
-        <br><br><br>
-
-<ul>
-        <li class="big bold">Results</li>
-    </ul>
-        <br><br><br>
-        <img class="searchconsole" src="/lighthouse3.png" />
-    </div>
-
-
-
-
-  <script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "BreadcrumbList",
-"itemListElement": [{
-"@type": "ListItem",
-"position": 1,
-"name": "{{{__ "servicesL"}}}",
-"item": "https://www.seoberlino.com/{{{__ "lang"}}}"
-},{
-"@type": "ListItem",
-"position": 2,
-"name": "SEO",
-"item": "https://www.seoberlino.com/{{{__ "lang"}}}/seo"
-},]
-}
-</script>
 
 </div>
 {{>extendedlexical}}

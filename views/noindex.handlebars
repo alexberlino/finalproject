@@ -1,63 +1,69 @@
 <div class="main">
 
 
-  <div class="services2">
-    <div class="breadcrumb">
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+    <div class="services2">
+        <div class="breadcrumb">
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
 
 
-      <a href="/{{{__ "lang"}}}"> {{{__ "services"}}} </a>
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+            <a href="/{{{__ "lang"}}}"> {{{__ "services"}}} </a>
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
 
 
-      <a href="/{{{__ "lang"}}}/seo"> SEO </a>
-      <img class="iconsmore2" src="/arrow.png" alt="arrow" />
-      <a href="/{{{__ "lang"}}}/lexical"> Lexicon </a>
+            <a href="/{{{__ "lang"}}}/seo"> SEO </a>
+            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
+            <a href="/{{{__ "lang"}}}/lexical"> Lexicon </a>
+
+
+
+        </div>
+        <h1 class="h1services"> noindex</h1>
+        <h2>{{{__ "definition"}}}</h2>
+        <div class="serviceText">
+            {{{__ "noindexMP"}}}
+        </div>
+
+        <h2>{{{__ "example"}}}</h2>
+        <div class="serviceText">
+            <xmp>
+                <!DOCTYPE html>
+                <html>
+
+                <head>
+                    <meta name="robots" content="noindex" />
+                    (…)
+                </head>
+
+                <body>(…)</body>
+
+                </html>
+
+            </xmp>
+        </div>
 
 
 
     </div>
-    <h1 class="h1services"> noindex</h1>
-    <h2>{{{__ "definition"}}}</h2>
-    <div class="serviceText">
-        {{{__ "noindexMP"}}}
-    </div>
-
-    <h2>{{{__ "example"}}}</h2>
-    <div class="serviceText">
-        <xmp>
-            <!DOCTYPE html>
-            <html><head>
-            <meta name="robots" content="noindex" />
-            (…)
-            </head>
-            <body>(…)</body>
-            </html>
-
-</xmp>
-    </div>
-
-
-
-  </div>
-  <script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "BreadcrumbList",
-"itemListElement": [{
-"@type": "ListItem",
-"position": 1,
-"name": "{{{__ "servicesL"}}}",
-"item": "https://www.seoberlino.com/{{{__ "lang"}}}"
-},{
-"@type": "ListItem",
-"position": 2,
-"name": "SEO",
-"item": "https://www.seoberlino.com/{{{__ "lang"}}}/seo"
-},]
-}
-</script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "{{{__ "
+                servicesL "}}}",
+                "item": "https://www.seoberlino.com/{{{__ "
+                lang "}}}"
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "SEO",
+                "item": "https://www.seoberlino.com/{{{__ "
+                lang "}}}/seo"
+            }, ]
+        }
+    </script>
 
 </div>
 {{>extendedlexical}}
-
