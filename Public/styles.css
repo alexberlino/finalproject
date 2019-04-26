@@ -16,7 +16,7 @@ body {
 }
 
 .clutch {
-    margin-left: 80%;
+    padding-right: 30px;
 }
 
 * {
@@ -247,11 +247,17 @@ form {
     text-shadow: 0px 1px grey;
 }
 
-.block {
+.block, .block2 {
     display: block;
     position: relative;
-    padding-top: 14px;
+    padding-top: 11px;
     font-size: 20px;
+}
+
+.block2 {
+    padding-left: 49px;
+    display: block;
+    padding-top: 9px;
 }
 
 .hidden {
@@ -493,6 +499,10 @@ a.languageBtnEN {
 
 .publisheddate {
     font-size: 18px;
+}
+
+.whitebg {
+    background-color: white;
 }
 
 .casestudy {
@@ -754,7 +764,7 @@ a.languageBtnEN {
 
 .footer, .footer2 {
     padding-top: 60px;
-    padding-bottom: 10px;
+    padding-bottom: 80px;
     background-color: black;
     font-size: 18px;
     width: 100%;
@@ -911,14 +921,6 @@ a.grey2 {
     width: 100%;
     top: 50px;
     left: 0;
-    z-index: 0;
-}
-
-.transparent {
-    width: 100%;
-    position: relative;
-    height: 10px;
-    background-image: url("homepage.jpg");
     z-index: 0;
 }
 
@@ -1501,10 +1503,6 @@ h2.orange,
     color: #5b0c32;
 }
 
-.clutch {
-    margin-left: 50%;
-}
-
 .blue {
     color: #E80C7A;
 }
@@ -1607,10 +1605,6 @@ a.blue {
     iframe {
         width: 95%;
         height: 200px;
-    }
-
-    .center {
-        margin-left: 5%;
     }
 
     .searchconsole {
@@ -1899,9 +1893,13 @@ a.blue {
         margin-left: 8px;
     }
 
-    .block {
+    .block, .block2 {
         padding-top: 16px;
         font-size: 18px;
+    }
+
+    .block2 {
+        padding-left: 15px;
     }
 
     .h1services,
