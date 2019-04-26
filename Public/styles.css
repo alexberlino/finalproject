@@ -6,6 +6,7 @@ html {
 .homepage {
     position: fixed;
     width: 100%;
+    left: 0;
     top: 50px;
     z-index: 0;
 }
@@ -849,7 +850,7 @@ a.languageBtnEN {
     position: relative;
     background-color: white;
     margin-bottom: 20px;
-    margin-top: 300px;
+    margin-top: 170px;
     padding-top: 130px;
     padding-bottom: 130px;
     width: 100%;
@@ -2030,9 +2031,10 @@ a.blue {
     }
 
     .introHP {
-        margin-top: 55%;
+        margin-top: 25%;
         opacity: 1;
         margin-bottom: 0px;
+        padding-bottom: 30px;
     }
 
     h1 {
