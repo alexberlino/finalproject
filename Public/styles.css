@@ -502,7 +502,7 @@ a.languageBtnEN {
 }
 
 .whitebg {
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 .casestudy {
@@ -546,6 +546,13 @@ a.languageBtnEN {
 .xtrapad {
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.xtrapad2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -1289,6 +1296,10 @@ a.langselected {
     cursor: default;
 }
 
+.email {
+    font-size: 30px;
+}
+
 @supports (position: fixed) {
 
     .main-menu,
@@ -1904,7 +1915,7 @@ a.blue {
     }
 
     .block, .block2 {
-        padding-top: 16px;
+        padding-top: 14px;
         font-size: 18px;
     }
 
