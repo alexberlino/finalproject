@@ -20,9 +20,8 @@
 
 
     </div>
-    {{>clients}}
+
     <div class="othercontentHP">
-        <br><br><br>
         <div class="intro2">
             <div class="serviceQuarter">
                 <img alt="SEO audit" class="icon" src="/audit.svg" /><br>
@@ -55,7 +54,7 @@
 
             </div>
         </div>
-        <br><br><br>
+        <br>
 
         <div class="intro2">
             <div class="serviceQuarter">
@@ -88,8 +87,7 @@
     </div><br><br><br>
 
 
-    {{>testimonials}} {{>contactmain}}<br><br><br><br>
-
+    {{>contactmain}}<br>
 
     <div class="whatisseo">
         <div class="backgroundBlack xtrapad">
@@ -168,6 +166,7 @@
                     </a>
                 </h2>
                 <p class="txt3">{{{__ "KWResearchText"}}}</p> <br /><br />
+                {{>clients}}<br><br>{{>testimonials}}
                 <div class="logocontainer">
                     <img src="/hrefs.png" class="brandlogo" alt="ahrefs" />
                     <img src="/majesticLogo.png" class="brandlogo" alt="majestic SEO" />
@@ -183,6 +182,7 @@
             </div>
         </div>
     </div>
+
 </div>
 
 

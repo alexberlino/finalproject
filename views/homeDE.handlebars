@@ -15,10 +15,10 @@
             </a> <br>
             <a href="/{{{__ "lang"}}}/contact">
                 <div class="servicesHP center">{{{__ "about"}}}</div>
-            </a><br>
+            </a>
 
         </div>
-        {{>clients}}
+
         <div class="othercontentHP">
             <div class="intro2">
                 <div class="serviceQuarter">
@@ -118,7 +118,7 @@
                     {{{__ "OnPageOptimization"}}}
                 </a>
             </h2>
-            <p class="txt3">{{{__ "OnPageOptimizationText"}}}</p>
+            <p class="txt3">{{{__ "OnPageOptimizationText"}}}</p><br><br>
             <a href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}">
                 <div class="servicesHP center">{{{__ "servicesL"}}}</div>
             </a> <br>
@@ -160,8 +160,9 @@
                         </a>
                     </h2>
                     <p class="txt3">{{{__ "KWResearchText"}}}</p>
-                    <br />
-                    <br />
+                    <br>
+                    {{>clients}}<br><br>{{>testimonials}}
+                    <br>
                     <div class="logocontainer">
                         <img src="/hrefs.png" class="brandlogo" alt="ahrefs" />
                         <img src="/majesticLogo.png" class="brandlogo" alt="majestic SEO" />
