@@ -75,7 +75,7 @@ h2 {
 h2.white,
 .black2,
 .black2 a {
-    color: white;
+    color: black;
     font-size: 30px;
     margin-top: 0px;
     padding-top: 10px;
@@ -864,7 +864,7 @@ a.languageBtnEN {
 
 .servicesHP {
     color: white;
-    background-color: #c53211;
+    background-color: #f25f3e;
     position: flex;
     margin-left: 40%;
     font-size: 24px;
@@ -875,11 +875,11 @@ a.languageBtnEN {
     z-index: 300;
     border-radius: 15px;
     padding-top: 9px;
-    border: 1px solid #c53211;
+    border: 1px solid #f25f3e;
 }
 
 .servicesHP:hover {
-    color: #c53211;
+    color: #f25f3e;
     background-color: white;
 }
 
@@ -943,7 +943,7 @@ a[href^="tel"] {
 .backgroundBlack,
 .backgroundBlack2 {
     width: 100%;
-    background-color: #283d3b;
+    background-color: lightgrey;
     margin-top: 0px;
     margin-bottom: 0px;
     display: block;
@@ -981,7 +981,7 @@ a[href^="tel"] {
     max-height: 500px;
     top: 100px;
     overflow: scroll;
-    background-color: #283d3b;
+    background-color: #black;
     z-index: -1;
     width: auto;
     left: 0;
@@ -1001,7 +1001,7 @@ a[href^="tel"] {
 .intro4:after {
     content: "";
     background-image: url("/computer.jpg");
-    opacity: 0.1;
+    opacity: 0.05;
     top: 0;
     left: 0;
     bottom: 0;
@@ -1052,7 +1052,7 @@ a[href^="tel"] {
 }
 
 .white {
-    color: white;
+    color: black;
 }
 
 h3.black.marginleft2 {
@@ -1473,7 +1473,7 @@ a.langselected {
 
 .transpbg-white {
     background-color: transparent;
-    color: white;
+    color: black;
 }
 
 .footerproven {
@@ -1493,7 +1493,7 @@ a.langselected {
 .orange,
 h2.orange,
 .orange00 {
-    color: #c44536;
+    color: #c53211;
     font-size: 30px;
     margin-top: 0px;
     margin-left: 3%;
@@ -1877,7 +1877,7 @@ a.blue {
     }
 
     h2.transpbg-white.orange {
-        color: #c44536;
+        color: black;
         font-size: 27px;
     }
 
