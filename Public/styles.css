@@ -502,7 +502,7 @@ a.languageBtnEN {
 }
 
 .whitebg {
-    background-color: white;
+    background-color: #f2f2f2;
 }
 
 .casestudy {
@@ -765,7 +765,7 @@ a.languageBtnEN {
 .footer, .footer2 {
     padding-top: 60px;
     padding-bottom: 80px;
-    background-color: black;
+    background-color: darkgrey;
     font-size: 18px;
     width: 100%;
     height: auto;
@@ -904,7 +904,7 @@ h3.grey a:visited {
 
 a.grey2 {
     text-align: center;
-    color: lightgrey;
+    color: white;
     margin-top: 9px;
 }
 
@@ -943,7 +943,7 @@ a[href^="tel"] {
 .backgroundBlack,
 .backgroundBlack2 {
     width: 100%;
-    background-color: lightgrey;
+    background-color: #f2f2f2;
     margin-top: 0px;
     margin-bottom: 0px;
     display: block;
@@ -1510,6 +1510,7 @@ h2.orange,
     border-radius: 8px;
     padding: 10px;
     width: 300px;
+    background-color: #f2f2f2;
 }
 
 .black2 a:hover {
