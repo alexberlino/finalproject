@@ -862,8 +862,7 @@ a.languageBtnEN {
     margin-right: 12%;
 }
 
-.servicesHP,
-.servicesHP2 {
+.servicesHP {
     color: white;
     background-color: #c53211;
     position: flex;
@@ -876,6 +875,12 @@ a.languageBtnEN {
     z-index: 300;
     border-radius: 15px;
     padding-top: 9px;
+    border: 1px solid #c53211;
+}
+
+.servicesHP:hover {
+    color: #c53211;
+    background-color: white;
 }
 
 .h1hp {
@@ -2066,8 +2071,7 @@ a.blue {
 
     .imageAudit2 {}
 
-    .servicesHP,
-    .servicesHP2 {
+    .servicesHP {
         width: 220px;
         height: 50px;
         font-size: 18px;
@@ -2115,8 +2119,7 @@ a.blue {
         height: 370px;
     }
 
-    .servicesHP,
-    .servicesHP2 {
+    .servicesHP {
         margin-left: 35%;
     }
 
