@@ -337,10 +337,9 @@ form {
 
 .services2 {
     background-color: white;
-    opacity: 0.99;
-    width: 86%;
-    margin-left: 8%;
-    padding: 25px;
+    opacity: 0.9;
+    width: 90%;
+    padding: 5%;
 }
 
 .services3 {
@@ -711,14 +710,14 @@ a.languageBtnEN {
 }
 
 .intro2 {
-    margin-left: 7%;
-    background-color: none;
+    background-color: white;
     margin-top: 10px;
     position: relative;
-    width: 85%;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
     height: auto;
     display: flex;
-    padding: 20px;
     opacity: 1;
 }
 
@@ -1832,13 +1831,12 @@ a.blue {
     .intro2,
     .intro20 {
         font-size: 18px;
-        margin-top: 0px;
+        margin-top: 30px;
         text-align: center;
         display: block;
-        width: 90%;
+        width: 80%;
         margin-left: 0px;
-        padding: 0px;
-        padding-bottom: 50px;
+        padding: 10%;
         left: 0;
         background-color: white;
     }
@@ -1930,13 +1928,14 @@ a.blue {
 
     .h1services,
     .h1services2 {
-        width: 90%;
-        padding: 1px;
+        width: 92%;
+        padding: 4%;
         margin: 0px;
         font-size: 30px;
         text-indent: 10px;
-        margin-left: 1px;
         text-align: center;
+        background-color: white;
+        z-index: 2;
     }
 
     .h1services2 {
@@ -1947,11 +1946,7 @@ a.blue {
         top: -60px;
     }
 
-    .services2 {
-        margin-left: 10%;
-        width: 82%;
-        padding: 15px;
-    }
+    .services2 {}
 
     .bigicon {
         width: 40%;
