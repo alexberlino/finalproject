@@ -468,5 +468,6 @@
 	"\n                lang ": "\n                lang ",
 	"\n                offpage ": "\n                offpage ",
 	"\n                onpage ": "\n                onpage ",
-	"\n                technicalURL ": "\n                technicalURL "
+	"\n                technicalURL ": "\n                technicalURL ",
+	"\n                services ": "\n                services "
 }

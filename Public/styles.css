@@ -336,9 +336,11 @@ form {
 }
 
 .services2 {
-    margin-left: 17%;
     background-color: white;
-    opacity: 0.89;
+    opacity: 0.99;
+    width: 86%;
+    margin-left: 8%;
+    padding: 25px;
 }
 
 .services3 {
@@ -717,6 +719,7 @@ a.languageBtnEN {
     height: auto;
     display: flex;
     padding: 20px;
+    opacity: 1;
 }
 
 .intro20 {
@@ -1458,6 +1461,7 @@ a.langselected {
     display: block;
     z-index: 1;
     opacity: 1;
+    margin-left: 5%;
 }
 
 .h1services2 {

@@ -473,5 +473,7 @@
 	"crawlingURL": "crawlingURL",
 	"ampURL": "amp-pages",
 	"keywordresearchURL": "keywordresearchURL",
-	"researchURL": "researchURL"
+	"researchURL": "researchURL",
+	"\n                servicesL ": "\n                servicesL ",
+	"\n                lang ": "\n                lang "
 }
