@@ -850,7 +850,7 @@ a.languageBtnEN {
     position: relative;
     background-color: white;
     margin-bottom: 20px;
-    margin-top: 110px;
+    margin-top: 100px;
     padding-top: 130px;
     padding-bottom: 130px;
     width: 100%;
@@ -2091,8 +2091,8 @@ a.blue {
 
     .servicesHP {
         width: 220px;
-        height: 50px;
-        font-size: 18px;
+        height: 42px;
+        font-size: 20px;
         margin-left: 22%;
     }
 
@@ -2123,7 +2123,7 @@ a.blue {
     }
 
     .introHP {
-        margin-top: 35%;
+        margin-top: 100px;
     }
 }
 
@@ -2139,6 +2139,12 @@ a.blue {
 
     .servicesHP {
         margin-left: 35%;
+    }
+
+    .toolbar_logo {
+        left: 50px;
+        top: -12px;
+        height: 25px;
     }
 
     .toolbar_navigation {
