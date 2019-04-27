@@ -1948,7 +1948,9 @@ a.blue {
     }
 
     .services2 {
-        margin-left: 5%;
+        margin-left: 10%;
+        width: 82%;
+        padding: 15px;
     }
 
     .bigicon {
