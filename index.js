@@ -44,13 +44,13 @@ i18n.configure({
 });
 app.use(i18n.init);
 
-app.get('/*', function(req, res, next) {
-    if (req.headers.host.match(/^www/) !== null) {
-        res.redirect('https://' + req.headers.host.replace(/^www\./, '') + req.url);
+app.get('*', function(req, res, next) {
+    if (req.headers.host.slice(0, 3) != 'www') {
+        res.redirect('http://www.' + req.headers.host + req.url, 301);
     } else {
         next();
     }
-})
+});
 
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
