@@ -44,6 +44,14 @@ i18n.configure({
 });
 app.use(i18n.init);
 
+app.get('/*', function(req, res, next) {
+    if (req.headers.host.match(/^www/) !== null) {
+        res.redirect('https://' + req.headers.host.replace(/^www\./, '') + req.url);
+    } else {
+        next();
+    }
+})
+
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
         if (req.headers["x-forwarded-proto"] !== "https") {
@@ -55,13 +63,7 @@ if (process.env.NODE_ENV === "production") {
         return next();
     });
 }
-app.get('/*', function(req, res, next) {
-    if (req.headers.host.match(/^www/) !== null) {
-        res.redirect('http://' + req.headers.host.replace(/^www\./, '') + req.url);
-    } else {
-        next();
-    }
-})
+
 
 var compression = require("compression");
 app.use(compression());
