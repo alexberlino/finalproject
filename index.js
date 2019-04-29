@@ -55,6 +55,13 @@ if (process.env.NODE_ENV === "production") {
         return next();
     });
 }
+app.get('/*', function(req, res, next) {
+    if (req.headers.host.match(/^www/) !== null) {
+        res.redirect('http://' + req.headers.host.replace(/^www\./, '') + req.url);
+    } else {
+        next();
+    }
+})
 
 var compression = require("compression");
 app.use(compression());
