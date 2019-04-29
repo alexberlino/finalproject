@@ -44,23 +44,26 @@ i18n.configure({
 });
 app.use(i18n.init);
 
-app.get('*', function(req, res, next) {
-    if (req.headers.host.slice(0, 3) != 'www') {
-        res.redirect('http://www.' + req.headers.host + req.url, 301);
-    } else {
-        next();
-    }
-});
 
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
+
+        if (req.headers["x-forwarded-proto"] == "https") {
+
+            if (req.headers.host.slice(0, 3) != 'www') {
+                res.redirect('https://www.' + req.headers.host + req.url, 301);
+            }
+        }
+
         if (req.headers["x-forwarded-proto"] !== "https") {
             return res.redirect(
                 301,
                 ["https://", req.get("Host"), req.url].join("")
             );
+        } else {
+            next();
         }
-        return next();
+
     });
 }
 
