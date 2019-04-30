@@ -1247,7 +1247,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Expert in Berlin - Contact | SEO Berlin",
+        title: "SEO Expert in Berlin - Get in touch | SEO Berlin",
         description: "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
@@ -1260,9 +1260,9 @@ app.get("/fr/contact", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainFR",
         title: "SEO Expert Berlin - Contact | SEO Berlin",
-        description: "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "SEO Expert basé à Berlin. 10 années d'expérience: SEO, Analyse Web & SEA. MBA, Scrum et dévelopement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/fr/contact"
+        alt: "https://www.seoberlino.com/en/contact"
     });
 });
 
@@ -1272,7 +1272,7 @@ app.get("/de/contact", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "SEO Experte Berlin | SEO Experte | SEO Berlin",
-        description: "SEO Consultant Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
+        description: "SEO Consultant Experte in Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/contact"
     });
