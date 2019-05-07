@@ -14,7 +14,7 @@ var http = require("http");
 var etag = require('etag');
 
 app.use(bodyParser.urlencoded({
-    extended: true
+    extended: false
 }));
 app.use(bodyParser.json());
 
@@ -76,10 +76,6 @@ if (process.env.NODE_ENV === "production") {
 var compression = require("compression");
 app.use(compression());
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-    extended: false
-}));
 app.use(cookieParser());
 
 app.use(express.static("./Public"));
@@ -1903,18 +1899,6 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
-// app.get("/checknotice", (req, res, next) => {
-//     if (req.session.checked) {
-//         res.json({
-//             success: true
-//         });
-//     } else {
-//         next();
-//     }
-// });
-
-/////////////redirects and 410///////////////////////
-
 app.get("/en/seo-freelancer", function(request, response) {
     response.writeHead(410);
     response.end();
@@ -1949,7 +1933,7 @@ var nodemailer = require('nodemailer');
 
 
 app.post("/email", (req, res) => {
-    console.log("YOOOOO")
+    console.log(req.body.name)
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
         <h3> Contact Details </h3>
@@ -1966,15 +1950,15 @@ app.post("/email", (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: "seoberlino@gmail.com",
-                pass: "SeoBerlinoGeraldine88"
+                user: secrets.EMAIL_USER,
+                pass: secrets.EMAIL_PASS
             }
         });
 
 
         let mailOptions = {
-            from: "seo@gmail.com",
-            to: "alex@seoberlino.com",
+            from: secrets.EMAIL_USER,
+            to: secrets.MAIL_TO,
             subject: "New Message from seoberlino",
             text: req.body.message,
             html: htmlEmail
