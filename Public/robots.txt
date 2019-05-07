@@ -1,5 +1,7 @@
 
 # HTTPS  www.seoberlino.com
 User-agent: *
+Disallow: /error
+Disallow: /success
 
 Sitemap: https://www.seoberlino.com/sitemap.xml
