@@ -12,7 +12,6 @@ var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var http = require("http");
 var etag = require('etag');
-var cookieConsent = require("cookieconsent")
 
 app.use(bodyParser.urlencoded({
     extended: true
