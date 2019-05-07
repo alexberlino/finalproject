@@ -1,17 +1,27 @@
 <img alt="freelancer image" class="homepage" src="/homepage.jpg" />
 
-<div class="main">
-    {{>contactmain}} <br />
-    <h1 class="h1hp marginleft2 email"> {{{__ "contacth1"}}} </h1><br /><br />
+<div class="main"><br><br><br><br><br><br><br>
 
-    <div class="intro">
-        <h4 class="orangecolor">Ex-Head of SEO at Spreadshirt </h4>
-        <span class="txt2">(100m+ yearly revenues), + 400% non-brand Organic Traffic</span>
-        <br>
-        <h4 class="orangecolor">Current and former clients: </h4>
-        <span class="txt2">Holberton School, Red Cross, MSF, Bosch und Siemens Hausgeräte, DBS, etc</span>
-    </div>
+
     <div class="services2">
+        <h1 class="h1hp marginleft2 email"> {{{__ "contacth1"}}} </h1><br /><br />
+
+        <form role="form" action="/send-email" method="post">
+            <br style="clear:both">
+            <input class="form-group" type="email" name="email" placeholder="Email">
+            </input>
+            <div>
+                <input type="text" class="form-group" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div>
+                <textarea class="form-group" type="textarea" id="message" name="message" placeholder="Message" maxlength="140" rows="7" required></textarea>
+            </div><br>
+            <div class="center">
+                <button type="submit" id="submit" name="submit" class="servicesHP
+                ">Send</button>
+            </div>
+        </form><br><br><br><br><br><br>
+        <br><br>
         <div class="intro2">
             <div class="introQuarter">
                 <img alt="monitoring" src="/seo-monitoring.jpg" class="icon" />
@@ -52,3 +62,4 @@
     </div>
 
 </div>
+{{>clients}}

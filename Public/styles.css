@@ -41,6 +41,15 @@ p {
     font-size: 23px;
 }
 
+.form-group {
+    font-size: 22px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+    padding: 10px;
+    width: 600px;
+    margin-left: 20%;
+}
+
 xmp {
     background-color: black;
     padding-top: 20px;
@@ -175,8 +184,8 @@ section {
 form {
     display: inline-block;
     position: relative;
-    left: 40%;
-    width: 30%;
+    margin-left: 10px;
+    width: auto;
 }
 
 .black a {
@@ -1507,6 +1516,14 @@ a.blue {
         height: 200px;
     }
 
+    .form-group {
+        font-size: 20px;
+        border: 1px solid 1px;
+        margin-bottom: 3px;
+        padding: 7px;
+        max-width: 90%;
+    }
+
     .searchconsole {
         max-width: 90%;
         margin-left: 0px;
@@ -1786,6 +1803,12 @@ a.blue {
         font-size: 18px;
     }
 
+    form {
+        display: inline-block;
+        position: relative;
+        margin-left: 10px;
+    }
+
     .h1services,
     .h1services2 {
         width: 92%;
@@ -1955,10 +1978,6 @@ a.blue {
         height: 42px;
         font-size: 20px;
         margin-left: 22%;
-    }
-
-    form {
-        margin-left: -20%;
     }
 }
 

@@ -13,7 +13,10 @@ var cookieParser = require("cookie-parser");
 var http = require("http");
 var etag = require('etag')
 
-
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+app.use(bodyParser.json());
 
 app.engine(
     ".hbs",
@@ -1593,6 +1596,24 @@ app.get("/en/lexical", (req, res) => {
     });
 });
 
+app.get("/error", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("error", {
+        layout: "mainHP",
+        title: "Error",
+        description: "",
+    });
+});
+
+app.get("/success", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("success", {
+        layout: "mainHP",
+        title: "Success!",
+        description: "",
+    });
+});
+
 app.get("/de/lexical", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("lexical", {
@@ -1927,123 +1948,71 @@ app.get("/de/off-page/toxic", function(request, response) {
     response.end();
 });
 
-app.get("/register", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seo-beratung",
-        Expires: new Date().toGMTString()
+
+
+var nodemailer = require('nodemailer');
+
+
+app.post("/send-email", (req, res) => {
+    console.log("POSTREQBODY", req.body);
+
+    nodemailer.createTestAccount((err, account) => {
+        const htmlEmail = `
+        <h3> Contact Details </h3>
+        <ul>
+            <li>Name: ${req.body.name}</li>
+            <li>Email: ${req.body.email}</li>
+        </ul>
+        <h3>Message</h3>
+        <p>${req.body.message}</p>
+        `;
+
+        console.log("HTMLEMAIL", htmlEmail);
+
+        let transporter = nodemailer.createTransport({
+            host: 'smtp.gmail.com',
+            port: 465,
+            secure: true,
+            auth: {
+                user: secrets.EMAIL_USER,
+                pass: secrets.EMAIL_PASS
+            }
+        });
+
+        let mailOptions = {
+            from: secrets.EMAIL_USER,
+            to: secrets.MAIL_TO,
+            subject: "New Message from seoberlino",
+            text: req.body.message,
+            html: htmlEmail
+        }; //closemailoptions
+        console.log(mailOptions);
+        transporter.sendMail(mailOptions, (error, info) => {
+            if (error) {
+                return console.log("error sending mail", error);
+                res.writeHead(301, {
+                    Location: "/error"
+                });
+                res.end();
+            } else {
+                console.log("Message sent: %s", info.messageId);
+                // Preview only available when sending through an Ethereal account
+                console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+                res.writeHead(301, {
+                    Location: "/success"
+                });
+                res.end();
+            }
+
+        }); //transporter
     });
-    response.end();
-});
 
-
-app.get("/i-think-search", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/offpage/backlinkanalysis",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/archives/*", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/onpage",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-
-
-
-app.get("/de/off-page/backlink-analyse", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/offpage/backlinkanalysis",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/technik/mobilefriendly", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/technical/mobilefriendly",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/technik/internationalisierung", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/technical/internationalisierung",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/services", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/ad/*", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/admin", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/login", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-app.get("/en/login", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-app.get("en/en/blog", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/lo/*", function(request, response) {
-    response.writeHead(410), response.end();
-});
-
-app.get("/fr/*", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/endefined/*", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/un/*", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-app.get("/en/en/*", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-app.get("/de/de/*", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/undefined/*", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
+}); //main
 
 app.all("*", function(req, res) {
     res.writeHead(404);
     res.end();
 });
-
 // listening
 app.listen(process.env.PORT || 8080, () => console.log("listening"));
 
