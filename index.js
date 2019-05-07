@@ -1948,7 +1948,8 @@ app.get("/de/off-page/toxic", function(request, response) {
 var nodemailer = require('nodemailer');
 
 
-app.post("/send-email", (req, res) => {
+app.post("/email", (req, res) => {
+    console.log("YOOOOO")
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
         <h3> Contact Details </h3>
@@ -1970,6 +1971,7 @@ app.post("/send-email", (req, res) => {
             }
         });
 
+
         let mailOptions = {
             from: secrets.EMAIL_USER,
             to: secrets.MAIL_TO,
@@ -1979,7 +1981,8 @@ app.post("/send-email", (req, res) => {
         }; //closemailoptions
         transporter.sendMail(mailOptions, (error, info) => {
             if (error) {
-                return console.log("error sending mail", error);
+                console.log("error sending mail", error);
+
                 res.writeHead(301, {
                     Location: "/error"
                 });
