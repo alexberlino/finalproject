@@ -94,13 +94,6 @@ app.use(express.static("./SQL"));
 let secrets;
 if (process.env.NODE_ENV == "production") {
     secrets = process.env;
-    // app.use(function(req, res, next) {
-    //     if (req.secure) {
-    //         next();
-    //     } else {
-    //         res.redirect("https://" + req.headers.host + req.url);
-    //     }
-    // });
 } else {
     secrets = require("./secrets.json");
 }
@@ -1976,14 +1969,14 @@ app.post("/send-email", (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS
+                user: secrets.EMAIL_USER,
+                pass: secrets.EMAIL_PASS
             }
         });
 
         let mailOptions = {
-            from: process.env.EMAIL_USER,
-            to: process.env.MAIL_TO,
+            from: secrets.EMAIL_USER,
+            to: secrets.MAIL_TO,
             subject: "New Message from seoberlino",
             text: req.body.message,
             html: htmlEmail
