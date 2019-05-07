@@ -372,6 +372,12 @@ form {
     top: 27px;
 }
 
+.formcontact {
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
 a.languageBtnEN {
     color: black;
     background-color: white;

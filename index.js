@@ -1252,7 +1252,7 @@ app.get("/en/contact", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainHP",
         title: "SEO Expert in Berlin - Get in touch | SEO Berlin",
         description: "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1276,7 +1276,7 @@ app.get("/de/contact", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainDEHP",
         title: "SEO Experte Berlin | SEO Experte | SEO Berlin",
         description: "SEO Consultant Experte in Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
