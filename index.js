@@ -1966,15 +1966,15 @@ app.post("/email", (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: secrets.EMAIL_USER,
+                user: "seoberlino@gmail.com",
                 pass: secrets.EMAIL_PASS
             }
         });
 
 
         let mailOptions = {
-            from: secrets.EMAIL_USER,
-            to: secrets.MAIL_TO,
+            from: "seo@gmail.com",
+            to: "alex@seoberlino.com",
             subject: "New Message from seoberlino",
             text: req.body.message,
             html: htmlEmail
