@@ -157,6 +157,11 @@ table {
     width: auto;
 }
 
+table.asiablog {
+    min-width: 70%;
+    border: black dotted 1px;
+}
+
 td {
     padding: 12px;
     border: 1px solid black;

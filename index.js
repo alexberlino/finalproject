@@ -130,7 +130,7 @@ app.get("/", (req, res) => {
         requrl: "/en",
         layout: "mainDE",
         title: "SEO Freelancer Consultant | SEO Beratung Berlin",
-        description: "SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+        description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
@@ -142,8 +142,8 @@ app.get("/de", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Freelancer Consultant | SEO Beratung Berlin",
-        description: "SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+        title: "SEO Freelancer Consultant |Beratung | SEO Berlin",
+        description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
         alt2: "https://www.seoberlino.com/fr"
@@ -158,7 +158,7 @@ app.get("/en", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
         title: "SEO Consultant Freelancer | SEO Berlin",
-        description: "SEO Consultant Freelancer with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Alex Bieth: SEO Consultant Freelancer with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de",
         alt2: "https://www.seoberlino.com/fr"
@@ -176,8 +176,8 @@ app.get("/fr", (req, res) => {
     res.render("homeFR", {
         requrl: "/en",
         layout: "mainFR",
-        title: "SEO Freelancer & Consultant SEO Paris/ France | SEO Berlin",
-        description: "Consultant SEO et Freelancer Paris pour la France, basé en Allemagne.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
+        title: "Alex Bieth: SEO Freelancer & Consultant SEO Paris/ France",
+        description: "Consultant SEO et Freelancer pour la France, basé en Allemagne.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -795,6 +795,18 @@ app.get("/en/blog", (req, res) => {
     });
 });
 
+app.get("/en/blog", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blog", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "SEO Blog - Search Engine Optimization Blog | SEO Berlin",
+        description: "SEO Berlin Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        canonical: "https://www.seoberlino.com/en/blog",
+        alt: "https://www.seoberlino.com/de/blog"
+    });
+});
+
 app.get("/de/blog", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blog", {
@@ -1115,7 +1127,7 @@ app.get("/de/technical", (req, res) => {
     res.render("technical2", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Was ist Technisches SEO | SEO Berlin | SEO Berlin",
+        title: "Was ist Technisches SEO | SEO Berlin",
         description: "Technisches SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern (engl. Search Engine Spiders) helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten und somit das natürliche Ranking zu verbessern.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/technical"
@@ -1790,7 +1802,19 @@ app.get("/en/article/linkbuilding-in-2019", (req, res) => {
     res.render("blog1", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Link Building in 2019 | SEO Berlin | SEO Berlin",
+        title: "Link Building in 2019 | SEO Berlin",
+        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
+
+
+app.get("/en/article/seo-in-asia-korea-china-japan-2019", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogasia", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "SEO in Asia: China, Japan and Korea in 2019 | SEO Berlin",
         description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
