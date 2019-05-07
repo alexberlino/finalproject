@@ -47,5 +47,29 @@
     <div class="languageBtn"> </div>{{>contactmain}}
     {{>footer}}
 </body>
+<link rel="stylesheet" type="text/css" src="css/cookieconsent.min.css" />
+<script src="js/cookieconsent.min.js"></script>
+<script>
+    window.cookieconsent.initialise({
+        container: document.getElementById("content"),
+        palette: {
+            popup: {
+                background: "#fff"
+            },
+            button: {
+                background: "#aa0000"
+            },
+        },
+        revokable: true,
+        onStatusChange: function(status) {
+            console.log(this.hasConsented() ?
+                'enable cookies' : 'disable cookies');
+        },
+        law: {
+            regionalLaw: false,
+        },
+        location: true,
+    });
+</script>
 
 </html>

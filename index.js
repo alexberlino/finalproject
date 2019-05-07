@@ -11,12 +11,15 @@ var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var cookieParser = require("cookie-parser");
 var http = require("http");
-var etag = require('etag')
+var etag = require('etag');
+var cookieConsent = require("cookieconsent")
 
 app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
+
+
 
 app.engine(
     ".hbs",
@@ -1974,14 +1977,14 @@ app.post("/send-email", (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: secrets.EMAIL_USER,
-                pass: secrets.EMAIL_PASS
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASS
             }
         });
 
         let mailOptions = {
-            from: secrets.EMAIL_USER,
-            to: secrets.MAIL_TO,
+            from: process.env.EMAIL_USER,
+            to: process.env.MAIL_TO,
             subject: "New Message from seoberlino",
             text: req.body.message,
             html: htmlEmail
