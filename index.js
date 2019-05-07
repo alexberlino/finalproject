@@ -1967,16 +1967,16 @@ app.post("/send-email", (req, res) => {
         let transporter = nodemailer.createTransport({
             host: 'smtp.gmail.com',
             port: 465,
-            secure: true,
+            secure: false,
             auth: {
-                user: "seoberlino@gmail.com",
-                pass: "SeoBerlinoGeraldine88"
+                user: secrets.EMAIL_USER,
+                pass: secrets.EMAIL_PASS
             }
         });
 
         let mailOptions = {
-            from: "seoberlino@gmail.com",
-            to: "alex@seoberlino.com",
+            from: secrets.EMAIL_USER,
+            to: secrets.MAIL_TO,
             subject: "New Message from seoberlino",
             text: req.body.message,
             html: htmlEmail
