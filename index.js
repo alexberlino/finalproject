@@ -1946,7 +1946,7 @@ app.post("/email", (req, res) => {
         `;
 
         let transporter = nodemailer.createTransport({
-            host: 'smtp.gmail.com',
+            host: 'smtp.mailgun.org',
             port: 465,
             secure: true,
             auth: {
