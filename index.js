@@ -1967,7 +1967,7 @@ app.post("/email", (req, res) => {
             secure: true,
             auth: {
                 user: "seoberlino@gmail.com",
-                pass: secrets.EMAIL_PASS
+                pass: "SeoBerlinoGeraldine88"
             }
         });
 
