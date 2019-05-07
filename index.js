@@ -1949,9 +1949,7 @@ var nodemailer = require('nodemailer');
 
 
 app.post("/send-email", (req, res) => {
-    console.log("POSTREQBODY", req.body);
-
-    nodemailer.createTestAccount((err, account) => {
+    nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
         <h3> Contact Details </h3>
         <ul>
@@ -1962,12 +1960,10 @@ app.post("/send-email", (req, res) => {
         <p>${req.body.message}</p>
         `;
 
-        console.log("HTMLEMAIL", htmlEmail);
-
         let transporter = nodemailer.createTransport({
             host: 'smtp.gmail.com',
             port: 465,
-            secure: false,
+            secure: true,
             auth: {
                 user: secrets.EMAIL_USER,
                 pass: secrets.EMAIL_PASS
@@ -1981,7 +1977,6 @@ app.post("/send-email", (req, res) => {
             text: req.body.message,
             html: htmlEmail
         }; //closemailoptions
-        console.log(mailOptions);
         transporter.sendMail(mailOptions, (error, info) => {
             if (error) {
                 return console.log("error sending mail", error);
@@ -1990,9 +1985,6 @@ app.post("/send-email", (req, res) => {
                 });
                 res.end();
             } else {
-                console.log("Message sent: %s", info.messageId);
-                // Preview only available when sending through an Ethereal account
-                console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
                 res.writeHead(301, {
                     Location: "/success"
                 });
