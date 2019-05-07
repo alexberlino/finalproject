@@ -91,14 +91,19 @@ app.use(express.static("./SQL"));
 
 // register hbs helpers in res.locals' context which provides this.locale
 
-
+let secrets;
+if (process.env.NODE_ENV == "production") {
+    secrets = process.env;
+} else {
+    secrets = require("./secrets.json");
+}
 
 const cookieSession = require("cookie-session");
 app.use(require("cookie-parser")());
 app.use(require("body-parser").json());
 
 const cookieSessionMiddleware = cookieSession({
-    secret: process.env.COOKIE_PASS,
+    secret: secrets.COOKIE_PASS,
     maxAge: 100 * 60 * 60 * 24 * 4
 });
 
@@ -1964,14 +1969,14 @@ app.post("/send-email", (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS
+                user: "seoberlino@gmail.com",
+                pass: "SeoBerlinoGeraldine88"
             }
         });
 
         let mailOptions = {
-            from: process.env.EMAIL_USER,
-            to: process.env.MAIL_TO,
+            from: "seoberlino@gmail.com",
+            to: "alex@seoberlino.com",
             subject: "New Message from seoberlino",
             text: req.body.message,
             html: htmlEmail
