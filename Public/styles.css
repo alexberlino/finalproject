@@ -376,6 +376,8 @@ form {
     width: 100%;
     background-color: white;
     z-index: 1000;
+    margin: 0px;
+    padding: 0px;
 }
 
 a.languageBtnEN {
@@ -1528,7 +1530,7 @@ a.blue {
         border: 1px solid 1px;
         margin-bottom: 3px;
         padding: 7px;
-        max-width: 90%;
+        max-width: 70%;
     }
 
     .searchconsole {
