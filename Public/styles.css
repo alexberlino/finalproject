@@ -1529,8 +1529,9 @@ a.blue {
         font-size: 20px;
         border: 1px solid 1px;
         margin-bottom: 3px;
-        padding: 7px;
-        max-width: 70%;
+        padding: 10px;
+        max-width: 78%;
+        margin-left: 25px;
     }
 
     .searchconsole {
