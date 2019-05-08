@@ -1232,109 +1232,16 @@ a.langselected {
     color: black;
     padding: 4px 4px;
     text-decoration: none;
-    display: block;
+    display: none;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: none;
 }
 
 .dropdown:hover .dropbtn {
     background-color: white;
     color: black;
-}
-
-@media (min-width: 968px) {
-
-    .menu-toggle,
-    .main-menu .menu-close {
-        display: none;
-    }
-
-    /* Undo positioning of off-canvas menu */
-    .main-menu {
-        position: relative;
-        left: auto;
-        top: auto;
-        height: auto;
-        display: block;
-        top: 40px;
-        left: 10%;
-    }
-
-    .backdrop {
-        transform: translate(-10000px);
-    }
-
-    .main-menu ul {
-        display: flex;
-        /* Undo off-canvas styling */
-        padding: 0;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-        height: auto;
-        width: auto;
-        min-width: 80px;
-        background: none;
-    }
-
-    .main-menu a {
-        color: black;
-        font-size: 22px;
-        border: 0 !important;
-        /* Remove borders from off-canvas styling */
-    }
-
-    .main-menu a:hover,
-    .main-menu a:focus {
-        background: none;
-        /* Remove background from off-canvas styling */
-        text-decoration: bold;
-        text-shadow: 0px 1px grey;
-    }
-
-    .dropbtn {
-        margin-top: -22px;
-        background-color: white;
-        color: black;
-        font-size: 22px;
-        border: none;
-        cursor: pointer;
-    }
-
-    .dropdown {
-        position: relative;
-        display: inline-block;
-        margin-top: 10px;
-        min-width: 160px;
-        text-align: center;
-    }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: lightgrey;
-        min-width: 160px;
-        z-index: 1;
-    }
-
-    .dropdown-content a {
-        color: black;
-        padding: 10px 6px;
-        text-decoration: none;
-        display: block;
-        min-width: 160px;
-    }
-
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-
-    .dropdown:hover .dropbtn {
-        background-color: white;
-        color: black
-    }
 }
 
 .main2 {
@@ -1443,7 +1350,7 @@ a.blue {
     .dropbtn a {
         margin-left: -10px;
         padding: 0px;
-        padding-left: 12px;
+        padding-left: 10px;
     }
 
     .provmeasure {
@@ -1682,10 +1589,6 @@ a.blue {
         color: black;
     }
 
-    .txt2.black a {
-        color: black;
-    }
-
     .floatright {
         font-size: 33px;
         margin-left: 16%;
@@ -1889,6 +1792,7 @@ a.blue {
 
     .dropdown-content {
         min-width: 300px;
+        display: none;
     }
 
     .toolbar_toggle_button {
@@ -1988,99 +1892,101 @@ a.blue {
         font-size: 20px;
         margin-left: 22%;
     }
-}
-
-@media (min-width: 769px) {
-    .side-drawer {
-        font-size: 25px;
-    }
-
-    .mov {
-        max-width: 100%
-    }
-
-    .toggle_button {
-        height: 36px;
-        width: 36px;
-        z-index: 1000;
-    }
-}
-
-@media (max-width: 768px) and (orientation: landscape) {
-    .txt2 {
-        font-size: 20px;
-    }
-
-    .introHP {
-        margin-top: 100px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    .txt2 {
-        font-size: 20px;
-    }
-
-    .berlin {
-        top: 130px;
-        height: 370px;
-    }
-
-    .servicesHP {
-        margin-left: 35%;
-    }
-
-    .toolbar_logo {
-        left: 50px;
-        top: -12px;
-        height: 25px;
-    }
-
-    .toolbar_navigation {
-        margin-left: -50px;
-    }
-
-    .introHP {
-        margin-top: 200px;
-    }
-
-    .toolbar {
-        height: 80px;
-    }
 
     .main-menu {
-        left: 45px;
+        display: none;
+    }
+}
+
+@media (min-width: 1268px) {
+
+    .menu-toggle,
+    .main-menu .menu-close {
+        display: none;
+    }
+
+    /* Undo positioning of off-canvas menu */
+    .main-menu {
+        position: relative;
+        left: auto;
+        top: auto;
+        height: auto;
+        display: block;
+        top: 40px;
+        left: 10%;
+    }
+
+    .backdrop {
+        transform: translate(-10000px);
+    }
+
+    .main-menu ul {
+        display: flex;
+        /* Undo off-canvas styling */
+        padding: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        height: auto;
+        width: auto;
+        min-width: 80px;
+        background: none;
     }
 
     .main-menu a {
-        font-size: 20px;
+        color: black;
+        font-size: 22px;
+        border: 0 !important;
+        /* Remove borders from off-canvas styling */
+    }
+
+    .main-menu a:hover,
+    .main-menu a:focus {
+        background: none;
+        /* Remove background from off-canvas styling */
+        text-decoration: bold;
+        text-shadow: 0px 1px grey;
     }
 
     .dropbtn {
-        font-size: 20px;
-        padding-top: 27px;
+        margin-top: -22px;
+        background-color: white;
+        color: black;
+        font-size: 22px;
+        border: none;
+        cursor: pointer;
     }
 
-    .toolbar_logo {
-        left: 55px;
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-top: 10px;
+        min-width: 160px;
+        text-align: center;
     }
 
-    .languageBtnEN {
-        right: 5%;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .languageBtnEN {
-        right: 5%;
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: lightgrey;
+        min-width: 160px;
+        z-index: 1;
     }
 
-    .main-menu {
-        left: 45px;
+    .dropdown-content a {
+        color: black;
+        padding: 10px 6px;
+        text-decoration: none;
+        display: block;
+        min-width: 160px;
     }
-}
 
-.dropbtn {
-    background-color: none;
-    border: 0px;
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: white;
+        color: black
+    }
 }
