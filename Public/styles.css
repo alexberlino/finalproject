@@ -519,7 +519,7 @@ a.languageBtnEN {
 }
 
 .paddingleft {
-    padding-left: 5%;
+    padding-left: 25px;
 }
 
 .icon {
@@ -1103,7 +1103,7 @@ a.langselected {
 
 /* Button styling */
 .menu-toggle {
-    margin-top: 14px;
+    margin-top: 26px;
     display: inline-block;
     padding: 0.75em 15px;
     line-height: 1em;
@@ -1988,5 +1988,16 @@ a.blue {
     .dropdown:hover .dropbtn {
         background-color: white;
         color: black
+    }
+}
+
+@media (min-width: 677px) {
+    .menu-toggle {
+        margin-top: 58px;
+        margin-left: 1px;
+        margin-right: 18px;
+        padding: 0.95em 20px;
+        line-height: 1em;
+        font-size: 1em;
     }
 }
