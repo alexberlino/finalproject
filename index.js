@@ -890,7 +890,7 @@ app.get("/de/audit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("audit", {
         layout: "mainDE",
-        title: "SEO Audit Berlin | SEO Berlin",
+        title: "SEO Experte Berlin: SEO Audit | SEO Berlin",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/audit"
@@ -901,7 +901,7 @@ app.get("/en/audit", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("audit", {
         layout: "main",
-        title: "SEO Audit Berlin | SEO Berlin",
+        title: "SEO Expert Berlin: SEO Audit | SEO Berlin",
         description: "SEO Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/audit"

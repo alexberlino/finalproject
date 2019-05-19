@@ -1156,6 +1156,11 @@ a.langselected {
     border-top: 1px solid #383838;
 }
 
+.main-menu li a {
+    min-width: 140px;
+    text-align: center;
+}
+
 .main-menu a:hover,
 .main-menu a:focus {
     background: none;
@@ -1351,6 +1356,10 @@ a.blue {
         margin-left: -10px;
         padding: 0px;
         padding-left: 10px;
+    }
+
+    .main-menu li a {
+        text-align: left;
     }
 
     .provmeasure {
