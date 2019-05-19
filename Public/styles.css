@@ -1662,6 +1662,14 @@ a.blue {
         max-width: 80px;
     }
 
+    .brandlogo1 {
+        width: 90%;
+        margin-left: 1px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        max-width: 80px;
+    }
+
     .brandlogo2 {
         margin-left: 1px;
         margin-bottom: 5px;
