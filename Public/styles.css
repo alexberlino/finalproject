@@ -1371,6 +1371,7 @@ a.blue {
 
     .marginleft {
         white-space: pre-wrap;
+        margin-left: 10px;
     }
 
     h2 {
@@ -1474,10 +1475,10 @@ a.blue {
     }
 
     .marginright {
-        margin-bottom: 10%;
-        margin-left: 1%;
+        margin-right: 10px;
+        margin-bottom: 6%;
         width: 90%;
-        padding: 10px;
+        padding: 4px;
         margin-top: 5px;
     }
 
@@ -1685,9 +1686,9 @@ a.blue {
         font-size: 27px;
     }
 
-    h2.transpbg-white.orange {
+    .transpbg-white.orange {
         color: black;
-        font-size: 27px;
+        font-size: 22px;
     }
 
     .black2 {
@@ -1704,7 +1705,7 @@ a.blue {
         width: (100%-80px;
         );
         padding-left: 13px;
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .blogArticles {
@@ -1866,6 +1867,7 @@ a.blue {
     h2.transpbg-white {
         color: white;
         font-size: 27px;
+        margin-left: 5px;
     }
 
     .imageAudit,

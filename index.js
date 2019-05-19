@@ -136,7 +136,7 @@ app.get("/de", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Freelancer Consultant |Beratung | SEO Berlin",
+        title: "SEO Freelancer Consultant | Beratung | SEO Berlin",
         description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
@@ -170,8 +170,8 @@ app.get("/fr", (req, res) => {
     res.render("homeFR", {
         requrl: "/en",
         layout: "mainFR",
-        title: "Alex Bieth: SEO Freelancer & Consultant SEO Paris/ France",
-        description: "Consultant SEO et Freelancer pour la France, basé en Allemagne.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
+        title: "SEO Freelancer & Consultant SEO Paris/ France",
+        description: "Consultant SEO et Freelancer.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
