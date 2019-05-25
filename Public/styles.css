@@ -208,11 +208,6 @@ form {
     display: none;
 }
 
-.inline {
-    display: inline;
-    position: relative;
-}
-
 .inline2 {
     width: auto;
     vertical-align: middle;
@@ -440,6 +435,15 @@ a.languageBtnEN {
     filter: grayscale(100%);
     height: 50px;
     width: auto;
+    margin-left: 45px;
+}
+
+.blacknwhite2 {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: auto;
+    margin-left: 45px;
 }
 
 .publisheddate {
@@ -2019,4 +2023,9 @@ a.blue {
         line-height: 1em;
         font-size: 1em;
     }
+}
+
+.inline {
+    display: inline;
+    position: relative;
 }
