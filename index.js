@@ -194,19 +194,32 @@ app.get("/en/casestudy/fromatob", (req, res) => {
     res.render("casestudyfromatob", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "fromAtoB: SEO Berlin Case Study | SEO Berlin",
+        title: "fromAtoB: SEO Case Study | SEO Berlin",
         description: "SEO Case Study: Berlin's fromAtoB  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/fromatob"
     });
 });
 
+app.get("/en/casestudy/zalando", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudyzalando", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "Zalando: SEO Case Study | SEO Berlin",
+        description: "SEO Case Study: Berlin's Zalando  ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/casestudy/zalando"
+    });
+});
+
+
 app.get("/en/casestudy/wooga", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudywooga", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Wooga: SEO Berlin Case Study | SEO Berlin",
+        title: "Wooga: SEO Case Study | SEO Berlin",
         description: "SEO Case Study: Berlin's Wooga  ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/wooga"
