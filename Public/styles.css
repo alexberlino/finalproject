@@ -1462,6 +1462,12 @@ a.blue {
         height: auto
     }
 
+    .searchconsole2 {
+        max-width: 110%;
+        margin-left: 0px;
+        height: auto
+    }
+
     .map {
         width: 90%;
         margin-left: 20px;
