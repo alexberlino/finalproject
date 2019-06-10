@@ -18,8 +18,6 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-
-
 app.engine(
     ".hbs",
     hb({
@@ -49,7 +47,6 @@ i18n.configure({
 });
 app.use(i18n.init);
 
-
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
 
@@ -77,15 +74,8 @@ var compression = require("compression");
 app.use(compression());
 
 app.use(cookieParser());
-
 app.use(express.static("./Public"));
-app.use(express.static("./SQL"));
 
-// setup hbs
-
-// init i18n module for this loop
-
-// register hbs helpers in res.locals' context which provides this.locale
 
 let secrets;
 if (process.env.NODE_ENV == "production") {
@@ -123,7 +113,7 @@ app.get("/", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Freelancer Consultant | Beratung | SEO Berlin",
+        title: "SEO Freelancer Consultant | SEO Beratung",
         description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
@@ -136,7 +126,7 @@ app.get("/de", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Consultant | SEO Berater | SEO Berlin",
+        title: "SEO Consultant & Freelancer | SEO Berater in Berlin",
         description: "SEO Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
@@ -144,14 +134,12 @@ app.get("/de", (req, res) => {
     });
 });
 
-
-
 app.get("/en", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Consultant | SEO Freelancer | SEO Berlin",
+        title: "SEO Consultant | SEO Freelancer in Berlin",
         description: "SEO Consultant Freelancer with 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de",
@@ -159,18 +147,12 @@ app.get("/en", (req, res) => {
     });
 });
 
-
-
-
-
-
-
 app.get("/fr", (req, res) => {
     i18n.setLocale(req, "fr");
     res.render("homeFR", {
         requrl: "/en",
         layout: "mainFR",
-        title: "SEO Freelancer | SEO Consultant Paris/ France",
+        title: "SEO Freelancer | SEO Consultant basé à Berlin",
         description: "Consultant SEO et Freelancer.  10 ans d'expérience SEO, Analyse Web, SEA. MBA, Scrum et développement web.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
