@@ -1152,7 +1152,7 @@ app.get("/en/seo", (req, res) => {
     res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Berlin: Optimization and Analysis | SEO Berlino",
+        title: "Optimization and Analysis | SEO Berlino",
         description: "SEO Definition: Analysis & Optimization. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo"
@@ -1164,7 +1164,7 @@ app.get("/de/seo", (req, res) => {
     res.render("seo2", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Berlin: SEO Check und Analyse | SEO Berlino",
+        title: "SEO Check und Analyse | SEO Berlino",
         description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo"
@@ -1236,7 +1236,7 @@ app.get("/de/partnership", (req, res) => {
     res.render("partnership", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Partnerschaft Berlin | SEO Berlino",
+        title: "SEO Partnerschaft | SEO Berlino",
         description: "SEO Partnerschaft. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/partnership"
@@ -1296,7 +1296,7 @@ app.get("/en/seo-for-small-businesses", (req, res) => {
     res.render("servicesfreelancers", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Consultant Berlin for small Businesses| SEO Berlino",
+        title: "SEO Consultant for small Businesses| SEO Berlino",
         description: "SEO Consultant in Berlin for . Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-for-small-businesses"
@@ -1843,7 +1843,7 @@ app.get("/en/article/voice-search-challenges", (req, res) => {
     res.render("blog5", {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "SEO Voice Search Challenges | SEO Berlin | SEO Berlino",
+        title: "SEO Voice Search Challenges| SEO Berlino",
         description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1865,7 +1865,7 @@ app.get("/en/article/link-building-to-brandbuilding", (req, res) => {
     res.render("blog7", {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "Link Building to Brand Building | SEO Berlin | SEO Berlino",
+        title: "Link Building to Brand Building | SEO Berlino",
         description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1894,25 +1894,7 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
-app.get("/en/seo-freelancer", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
 
-app.get("/de/seo-freelancer", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/de/onpage/voicesearch", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
-
-app.get("/de/onpage/metas", function(request, response) {
-    response.writeHead(410);
-    response.end();
-});
 
 app.get("/de/off-page/toxic", function(request, response) {
     response.writeHead(301, {
