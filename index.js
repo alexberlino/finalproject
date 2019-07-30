@@ -126,7 +126,7 @@ app.get("/de", (req, res) => {
     res.render("homeDE", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Consultant & Freelancer | SEO Berlino",
+        title: "Agile SEO Freelancer in Berlin | SEO Berlino",
         description: "SEO Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: Spreadshirt, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
@@ -139,7 +139,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Consultant | SEO Freelancer | SEO Berlino",
+        title: "Agile SEO Freelancer in Berlin | SEO Berlino",
         description: "SEO Consultant Freelancer with 10 years experience: Spreadshirt, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de",
