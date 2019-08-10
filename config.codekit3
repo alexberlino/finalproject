@@ -3326,12 +3326,12 @@
 		"oAP": "/views/home.handlebars",
 		"oF": 0
 		},
-	"/views/home.handlebars": {
+	"/views/homeDE.handlebars": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/views/home.handlebars",
+		"oAP": "/views/homeDE.handlebars",
 		"oF": 0
 		},
 	"/views/homeFR.handlebars": {
