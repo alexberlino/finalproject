@@ -146,11 +146,12 @@
 	"OnPageOptimizationText": "Onpage Optimierung bezeichnet alle Maßnahmen, die direkt auf der eigenen Website getroffen werden können um deren Position in der Suchmaschinenplatzierung (engl. Search Ranking) zu verbessern. Beispiele hierfür sind Maßnahmen zur Optimierung Ihrer Inhalte oder zur Verbesserung der Meta-beschreibung und Titel-Tags.",
 	"OffpagePageOptimization": "Offpage Optimierung",
 	"OffpagePageOptimizationText": "Backlinks spielen im SEO weiterhin eine wichtige Rolle und können Ihrer Website zu mehr Visibility verhelfen. Google wertet sie als Zeichen des Vertrauens von einer Website zur anderen. Je mehr solche (qualitativ hochwertige) Backlinks auf Ihre Seite verweisen, als desto beliebter wird Ihre Website eingestuft. Natürlich spielen hierbei viele Faktoren eine Rolle:  -Timing der neuen Backlinks  -Qualität der Website, die auf Ihre Seite verweist  -Qualität der Seite mit dem Link, innerhalb der verweisenden Website   Diese Aspekte sind entscheidend um Ihr Backlink Profil zu verbessern und Ihre Domainpopularität anzukurbeln.   Wie es geht:  Priorisierter Aktionsplan mit:   1. Backlink Profil Audit (Anzahl und Qualität der aktuellen Backlinks)  2. Untersuchung wie Konkurrenten (quality) Backlinks erzielen und Erkennen von Möglichkeiten (für die eigene Webseite)  3. Berücksichtigung branchenspezifischer und lokaler Besonderheiten, Vorschläge für kreative Möglichkeiten zur Erzielung von Backlinks  4. Vorschläge für Inhaltserstellung zu bestimmten Themen, basiert auf Suchvolumen und Wettbewerbsschwierigkeiten.",
-	"servicesU": "BERATUNG",
+	"servicesU": "Beratung",
 	"freeauditMP": "Apply for a Free Audit overview. Full Site crawl with ahrefs, 1 page summary of main issues. Please get in touch for more details.",
 	"partnershipMP": "Free Audit for Sponsorship.  If your website already has good brand visibility, in exchange for a sponsorship and a fixed low one-time payment: a 6-hour audit and then after continous follow up (up to 2 hours per month). Please get in touch for more details. (Conditions apply) ",
 	"beratung": "SEO Beratung",
 	"beratungText": "   ",
+	"newlang": "En",
 	"technical": "TECHNISCHES SEO",
 	"technicalURL": "technical",
 	"optimization": "optimierung",
@@ -479,5 +480,6 @@
 	"crawlingURL": "crawlingURL",
 	"ampURL": "amp-pages",
 	"keywordresearchURL": "keywordresearchURL",
-	"researchURL": "researchURL"
+	"researchURL": "researchURL",
+	"auditintro-extra": "auditintro-extra"
 }

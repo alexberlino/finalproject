@@ -1,70 +1,146 @@
-<header class="toolbar nav-down">
-    <div class="toolbar_navigation">
-        <a href="#main-menu">
-            <img src="/hamburger.svg" id="main-menu-toggle" class="menu-toggle" alt="hamburger" />
-            <span class="sr-only black">Open main menu</span>
-            <span class="fa fa-bars" aria-hidden="true"></span>
-        </a>
-        <a href="/{{{__ "lang"}}}">
-            <img alt="{{{__ "logoNav"}}}" class="toolbar_logo" src="/logo5.png" />
-        </a>
-        <nav id="main-menu" class="main-menu" aria-label="Main menu">
-            <a href="#main-menu-toggle" id="main-menu-close" class="menu-close" aria-label="Close main menu">
-                <span class="sr-only black">Close main menu</span>
-                <span class="fa fa-close" aria-hidden="true"></span>
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="container">
+
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/{{{__ "lang"}}}">
+                <img alt="{{{__ "logoNav"}}}" src="/logo5.png" width="240" height="28" />
             </a>
-            <ul>
-                <li>
-                    <div class="dropdown">
-                        <div class="dropbtn"> <a href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}"> {{{__ "servicesU"}}}</a></div>
-                        <div class="dropdown-content">
-                            <a href="/{{{__ "lang"}}}/audit">Audit</a>
-                            <a href="/{{{__ "lang"}}}/backlinks">Link Building</a>
-                            <a href="/{{{__ "lang"}}}/content">Content Creation</a>
-                            <a href="/{{{__ "lang"}}}/sea">SEA</a>
-                            <a href="/{{{__ "lang"}}}/analytics">Analytics</a>
-                        </div>
-                    </div>
-                </li>
 
-                <li>
-                    <div class="dropdown">
-                        <div class="dropbtn"> <a href="/{{{__ "lang"}}}/seo">RESOURCES</a></div>
-                        <div class="dropdown-content">
-                            <a href="/{{{__ "lang"}}}/offpage">Offpage</a>
-                            <a href="/{{{__ "lang"}}}/onpage">Onpage</a>
-                            <a href="/{{{__ "lang"}}}/technical">{{{__ "hey5"}}}</a>
-                            <a href="/{{{__ "lang"}}}/research">Research</a>
-                            <a href="/{{{__ "lang"}}}/lexical">SEO Lexicon</a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <div class="dropbtn"> <a href="/en/casestudy">CASE STUDIES</a></div>
-                        <div class="dropdown-content">
-                            <a href="/en/casestudy/hometogo">Home to go</a>
-                            <a href="/en/casestudy/fromatob">From A to B</a>
-                            <a href="/en/casestudy/hellofresh">Hello Fresh</a>
-                            <a href="/en/casestudy/n26">N26</a>
-                            <a href="/en/casestudy/juniqe">Juniqe</a>
-                            <a href="/en/casestudy/wooga">Wooga</a>
-                            <a href="/en/casestudy/zalando">Zalando</a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
 
+        <div id="navbar-mainmenu" class="navbar-menu">
+            <div class="navbar-end">
 
-                        </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}"> {{{__ "servicesU"}}}</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/audit">Audit</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/backlinks">Link Building</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/content">Content Creation</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/sea">SEA</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/analytics">Analytics</a>
                     </div>
-                </li>
-                <li>
-                    <a class="black" href="/{{{__ "lang"}}}/blog">BLOG</a>
-                </li>
-                <li>
-                    <a class="black" href="/{{{__ "lang"}}}/contact">
-                        {{{__ "contact"}}}
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="/{{{__ "lang"}}}/seo">Resources</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/offpage">Offpage</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/onpage">Onpage</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/technical">{{{__ "hey5"}}}</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/research">Research</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/lexical">SEO Lexicon</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="/en/casestudy">Case Studies</a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="/en/casestudy/hometogo">Home to go</a>
+                        <a class="navbar-item" href="/en/casestudy/fromatob">From A to B</a>
+                        <a class="navbar-item" href="/en/casestudy/hellofresh">Hello Fresh</a>
+                        <a class="navbar-item" href="/en/casestudy/n26">N26</a>
+                        <a class="navbar-item" href="/en/casestudy/juniqe">Juniqe</a>
+                        <a class="navbar-item" href="/en/casestudy/wooga">Wooga</a>
+                        <a class="navbar-item" href="/en/casestudy/zalando">Zalando</a>
+                    </div>
+                </div>
+
+                <div class="navbar-item">
+                    <a class="navbar-link" href="/{{{__ "lang"}}}/blog">
+                        Blog
                     </a>
-                </li>
-            </ul>
-            <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
-        </nav>
+                </div>
+
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-normal is-primary is-outlined" href="/{{{__ "lang"}}}/contact">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+
+                <div class="navbar-item">
+                    <div class="buttons languageBtn2">
+                        <a class="button is-secondary language-button languageBtnEN" href="{{alt}}">
+                            {{{__ "newlang"}}}
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-</header>
+</nav>
+
+<nav class="mobile-nav" id="navMenu">
+    <div class="mobile-menu has-text-right">
+
+        <div class="navbar-item has-dropdown is-hoverable">
+            <span data-target="navMenu" class="dropdown-arrow"></span>
+            <a class="navbar-link" href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}"> {{{__ "servicesU"}}}</a>
+
+            <div class="navbar-dropdown seo">
+                <a class="navbar-item" href="/{{{__ "lang"}}}/audit">Audit</a>
+                <a class="navbar-item" href="/{{{__ "lang"}}}/backlinks">Link Building</a>
+                <a class="navbar-item" href="/{{{__ "lang"}}}/content">Content Creation</a>
+                <a class="navbar-item" href="/{{{__ "lang"}}}/sea">SEA</a>
+                <a class="navbar-item" href="/{{{__ "lang"}}}/analytics">Analytics</a>
+            </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+            <span data-target="navMenu" class="dropdown-arrow"></span>
+            <a class="navbar-link" href="/{{{__ "lang"}}}/seo">Resources</a>
+
+            <div class="navbar-dropdown">
+                <a class="navbar-item" href="/{{{__ "lang"}}}/offpage">Offpage</a>
+                <a class="navbar-item" href="/{{{__ "lang"}}}/onpage">Onpage</a>
+                <a class="navbar-item" href="/{{{__ "lang"}}}/technical">{{{__ "hey5"}}}</a>
+                <a class="navbar-item" href="/{{{__ "lang"}}}/research">Research</a>
+                <a class="navbar-item" href="/{{{__ "lang"}}}/lexical">SEO Lexicon</a>
+            </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+            <span data-target="navMenu" class="dropdown-arrow"></span>
+            <a class="navbar-link" href="/en/casestudy">Case Studies</a>
+
+            <div class="navbar-dropdown">
+                <a class="navbar-item" href="/en/casestudy/hometogo">Home to go</a>
+                <a class="navbar-item" href="/en/casestudy/fromatob">From A to B</a>
+                <a class="navbar-item" href="/en/casestudy/hellofresh">Hello Fresh</a>
+                <a class="navbar-item" href="/en/casestudy/n26">N26</a>
+                <a class="navbar-item" href="/en/casestudy/juniqe">Juniqe</a>
+                <a class="navbar-item" href="/en/casestudy/wooga">Wooga</a>
+                <a class="navbar-item" href="/en/casestudy/zalando">Zalando</a>
+            </div>
+        </div>
+
+        <div class="navbar-item">
+            <a class="navbar-link" href="/{{{__ "lang"}}}/blog">
+                Blog
+            </a>
+        </div>
+
+        <div class="navbar-item">
+            <a class="navbar-link" href="/{{{__ "lang"}}}/contact">Contact</a>
+        </div>
+
+        <div class="navbar-item">
+            <div class="buttons languageBtn2">
+                <a class="button is-secondary language-button languageBtnEN" href="{{alt}}">
+                    De
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,50 @@
+@mixin menu-slide {
+  -webkit-animation-name: menu_slide; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 400ms; /* Safari 4.0 - 8.0 */
+  animation-name: menu_slide;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.17,.67,.38,.98);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes menu_slide {
+  0% {opacity: 0; transform: translateX(100vw);}
+  95% {opacity: 1}
+  100% {opacity: 1; transform: translateX(0vw);}
+}
+
+/* Standard syntax */
+@keyframes menu_slide {
+  0% {opacity: 0; transform: translateX(100vw);}
+  95% {opacity: 1}
+  100% {opacity: 1; transform: translateX(0vw);}
+}
+
+
+@mixin item-rise {
+  -webkit-animation-name: item_rise; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 300ms; /* Safari 4.0 - 8.0 */
+  animation-name: item_rise;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.17,.67,.38,.98);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes item_rise {
+  0% {opacity: 0; transform: translateY(60px);}
+  95% {opacity: 1}
+  100% {opacity: 1; transform: translateY(0px);}
+}
+
+/* Standard syntax */
+@keyframes item_rise {
+  0% {opacity: 0; transform: translateY(60px);}
+  95% {opacity: 1}
+  100% {opacity: 1; transform: translateY(0px);}
+}

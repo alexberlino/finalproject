@@ -21,11 +21,48 @@
     <meta name="twitter:image" content="/logo.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bulma.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/wal3lcu.css">
 
-    <script src="/script.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103006854-1"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+            document.body.classList.toggle("frozen");
+          });
+        });
+      }
+      var dropdownArrow = document.getElementsByClassName("dropdown-arrow");
+      var dropdownMenu = document.getElementsByClassName("navbar-dropdown");
+
+      var mobileDropdownActivate = function() {
+        var attribute = this.classList.toggle('is-active');
+      };
+
+      for (var i = 0; i < dropdownArrow.length; i++) {
+          dropdownArrow[i].addEventListener('click', mobileDropdownActivate, false);
+      }
+    });
+    </script>
 
     <!-- Google Tag Manager -->
     <script>
@@ -49,18 +86,18 @@
 </head>
 
 <body>
+  <div class="ruler-1-left"></div>
+  <div class="ruler-1-right"></div>
     <a class="languageBtnEN" href="/en">EN</a>
     </div>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53H275L" height="0" title="tagmanager" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    {{>navFR}}
+    {{>nav}}
 
     {{{body}}}
-    {{>formcontact}}
 
     {{>footer}}
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
 </body>
