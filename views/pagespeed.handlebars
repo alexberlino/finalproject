@@ -1,59 +1,109 @@
-<div class="main">
-    <img src="/auditmainpic/pagespeed.jpg" title="pagespeed, a photo by Twixes" alt={{{__ "technicalHP4"}}} width="80%" height="450px" class="imageAudit" />
-    <div class="services">
-        <div class="breadcrumb">
-            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
-            <a href="/{{{__ "lang"}}}"> {{{__ "services"}}} </a>
-            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
-            <a href="/{{{__ "lang"}}}/seo"> SEO </a>
-            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
-            <a href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}"> {{{__ "technicalURL"}}} </a>
+<div class="content single-post has-sidebar offpage-en">
+  <!-- Blog Article Photo header -->
+  <div class="blog-imageheader">
+    <div class="header-body remove-padding">
+      <div class="bg-image" style="background-image: url('/auditmainpic/pagespeed.jpg');"></div>
+      <div class="gradient white-gradient"></div>
+      <div class="title-strip">
+        <div class="container reduced">
+          <div class="columns is-centered is-multiline">
+            <div class="column is-12-mobile is-11-tablet is-10-desktop">
+              <h2 class="title is-2 is-heavy is-white">{{{__ "technicalHP4"}}}</h2>
+            </div>
+          </div>
         </div>
-        <h1 class="h1services"> {{{__ "technicalHP4"}}} </h1>
-        <h2>{{{__ "speedMPT1"}}}</h2>
-        <p class="serviceText">{{{__ "speedMP1"}}}</p>
-        <p class="serviceText">{{{__ "speedMP2"}}}</p>
-        <p class="serviceText">{{{__ "speedMP3"}}}</p>
-        <p class="serviceText">{{{__ "speedMP4"}}}</p>
-        <h2> {{{__ "speedMPT5"}}} </h2>
-        <div class="serviceText">
-            {{{__ "speedMP5"}}}
-            <a class="blue" href="https://developers.google.com/speed/pagespeed/insights/?hl=de">
-                Google PageSpeed Insights
-            </a>
-        </div>
-        <h2> {{{__ "relevanttools"}}}</h2>
-        <div class="serviceText">
-            <footer>
-                <div class="block"><a class="blue block" href="https://developers.google.com/web/tools/lighthouse/" target="_ blank">Lighthouse</a></div>
-                <p class="italic">{{{__ "speedMP6"}}}</p>
-
-                <img src="/performance.png" class="searchconsole" heigth="400px" width="600px" alt="Lighthouse Google Chrome Developers Tool">
-
-
-                <a class="blue block" href="https://gtmetrix.com/" target="_ blank">GT Metrix</a>
-            </footer>
-        </div>
-        <div class="black sideLinks">
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "indexationURL"}}}">
-                {{{__ "technicalHP1U"}}}
-            </a>
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "crawlabilityURL"}}}">
-                {{{__ "technicalHP2U"}}}
-            </a>
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "internationalisationURL"}}}">
-                {{{__ "technicalHP3U"}}}
-            </a>
-            <a class="block bold">{{{__ "technicalHP4U"}}}</a>
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "mobilefriendlyURL"}}}">
-                {{{__ "technicalHP5U"}}}
-            </a>
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "dynamicrenderingURL"}}}">
-                {{{__ "technicalHP6U"}}}
-            </a>
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "securityURL"}}}">
-                {{{__ "technicalHP7U"}}}
-            </a>
-        </div>
+      </div>
     </div>
-</div>
+  </div>
+
+
+  <!-- Blog Article Body -->
+  <section class="blogpost-hero hero is-medium">
+    <div class="hero-body remove-padding">
+      <div class="container reduced">
+        <div class="columns is-centered is-multiline">
+          <div class="column is-12-mobile is-12-tablet is-10-desktop">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+              <ul>
+                <li><a href="/{{{__ "lang"}}}">{{{__ "services"}}}</a></li>
+                <li><a href="/{{{__ "lang"}}}/seo">SEO</a></li>
+                <li><a href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}">{{{__ "hey5"}}}</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="column is-12-mobile is-7-tablet is-7-desktop post">
+
+            <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "speedMPT1"}}}</h2>
+            <p>{{{__ "speedMP1"}}}</p>
+            <p>{{{__ "speedMP2"}}}</p>
+            <p>{{{__ "speedMP3"}}}</p>
+            <p>{{{__ "speedMP4"}}}</p>
+            <h2 class="title is-4 is-heavy">{{{__ "speedMPT5"}}} </h2>
+
+            <p>{{{__ "speedMP5"}}}
+                <a href="https://developers.google.com/speed/pagespeed/insights/?hl=de">
+                    Google PageSpeed Insights
+                </a>
+            </p>
+
+            <h2 class="title is-4 is-heavy">{{{__ "relevanttools"}}}</h2>
+
+            <p><a href="https://developers.google.com/web/tools/lighthouse/" target="_ blank">Lighthouse</a></p>
+
+            <p class="italic">{{{__ "speedMP6"}}}</p>
+
+
+            <figure class="image is-fullwidth is-outlined">
+              <img src="/performance.png" alt="Lighthouse Google Chrome Developers Tool">
+            </figure>
+
+            <p><a href="https://gtmetrix.com/" target="_ blank">GT Metrix</a></p>
+
+          </div>
+
+          <div class="column is-3-desktop sidebar">
+            <ul>
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "indexationURL"}}}">{{{__ "technicalHP1U"}}}</a>
+              </li>
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "crawlabilityURL"}}}">
+                  {{{__ "technicalHP2U"}}}
+                </a>
+              </li>
+
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "internationalisationURL"}}}">
+                  {{{__ "technicalHP3U"}}}
+                </a>
+              </li>
+
+              <li>
+                <a class="active" href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "pagespeedURL"}}}">
+                  {{{__ "technicalHP4U"}}}
+                </a>
+              </li>
+
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "mobilefriendlyURL"}}}">
+                  {{{__ "technicalHP5U"}}}
+                </a>
+              </li>
+
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "dynamicrenderingURL"}}}">
+                  {{{__ "technicalHP6U"}}}
+                </a>
+              </li>
+
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "technicalURL"}}}/{{{__ "securityURL"}}}">
+                  {{{__ "technicalHP7U"}}}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

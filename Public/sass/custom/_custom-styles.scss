@@ -1,0 +1,381 @@
+// General {
+body {
+  &.frozen {
+    height: 100vh;
+    overflow: hidden !important;
+    position: fixed;
+  }
+}
+.vertical-aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-margins {margin:0 !important;}
+.boost-margin-top {margin-top:3rem !important;}
+
+.blue-dot-list {
+  @include blue-dot-list;
+  a {
+    color: $lightish-blue !important;
+    text-decoration: underline;
+  }
+  &.big {
+    font-size:1.3rem;
+    line-height: 2.35rem;
+    ul {
+      margin: 0.25rem 0 0.25rem 1.5rem;
+      li {
+        display:  inline-block;
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+
+// Navbar Styles
+.navbar {
+  padding: 0.75rem 0rem;
+  .navbar-item {
+    font-size: 1.25rem;
+    font-weight: $weight-bold;
+    .language-button {
+      @include lang-button;
+    }
+  }
+}
+
+// Sidebar
+.sidebar {
+  padding-left: 5rem;
+  ul {
+    margin: 0;
+    list-style: none;
+    li {
+      display: block;
+      padding: 0.35rem 0;
+      a {
+        color: $lightish-blue;
+        font-size:1.2rem;
+        text-decoration: underline;
+        font-weight: 700;
+        &.active {
+          color: $grey-blue !important;
+        }
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+  }
+
+}
+.mobile-nav {display: none;}
+
+// Glyphs
+.glyph {
+  max-width:100px;
+}
+
+// Tables
+table {
+  padding: 10px;
+  width: auto;
+  min-width: 100%;
+  border-collapse: collapse;
+  border-radius: 6px;
+  border-style: hidden;
+  box-shadow: 0 0 0 2px $lightish-blue-shadow;
+  td {
+      padding: 12px;
+      border: 2px solid $lightish-blue-shadow !important;
+  }
+  th {
+      border: 2px solid $lightish-blue-shadow !important;
+  }
+  &.client-compare {
+    background: $white;
+  }
+}
+
+
+// Clients
+.clients-hero {
+  .logo-container {
+    .client-logo {height: 95px; padding: 0.5rem;}
+    .dbs-music {position: relative; left:-20px;}
+    .spiced {position: relative; left:-20px;}
+    a {
+      .client-logo {
+        height: 95px;
+        padding: 0.5rem;
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+// Testimonials
+.testimonials-hero {
+  .column {
+    display: flex;
+  }
+  .testimonial-card {
+    &.card {
+      border:0px;
+      @include rounded-corners;
+      @include content-shadow;
+    }
+    .card-content {
+      border:0px;
+    }
+    .title {
+      margin-bottom: 0.25rem;
+      font-size: 1.3rem;
+    }
+    .title {
+      margin-bottom: 0.25rem;
+      font-size: 1.15rem;
+    }
+    .subtitle {
+      margin-bottom: 0.25rem;
+      font-size: 0.85rem;
+    }
+    hr {
+      background-color: $grey-lightest;
+      margin: 0.75rem 0;
+    }
+  }
+}
+
+// Footer - Colophon
+.colophon-hero {
+  .footer-logo {
+    img {
+      position: relative;
+      top:-2px;
+      margin-bottom:1.25rem;
+    }
+  }
+  ul {
+    list-style: none;
+    margin:0px;
+    padding:0px;
+    li {
+      padding: 0.105rem 0 !important;
+    }
+  }
+  .colophone-form {
+    width: 100%;
+    .small {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+footer.page-end {
+  background: $darkest-blue;
+  .pe-richsnippets {
+    a {
+      margin-top:6px;
+    }
+  }
+  .clutch {max-height: 56px;}
+}
+
+// Pill List
+.pill-list {
+  .column {
+    display: flex;
+    .pill {
+      border:2px solid $lightish-blue-shadow;
+      background: $white;
+      padding:0.5rem 1.5rem;
+      border-radius: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-height: 5rem;
+      p {
+        font-size: 0.85rem;
+        margin-top:0.35rem;
+        margin-bottom:0.35rem;
+        text-transform: capitalize !important;
+      }
+      .subtitle {
+        margin-bottom: 0px;
+        color: $grey-dark;
+        text-transform: capitalize !important;
+      }
+    }
+  }
+}
+
+// Blog Archive Page
+.archive {
+  .post {
+    padding: 2rem;
+    .title {
+      display: block;
+      border-bottom: 3px solid $blue;
+      padding-bottom: 1.25rem;
+      margin-top:1.15rem;
+      a {
+        color: $black;
+        &:hover {
+          color:$blue;
+        }
+      }
+    }
+    .image {
+      margin-bottom: 0rem;
+      &:hover {
+        opacity: 0.7;
+        -webkit-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -ms-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
+      }
+      img {
+        width: 100%;
+        border-radius: 3px;
+      }
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+// Single Blog Page
+.single-post {
+  .blog-imageheader {
+    .header-body {
+      min-height: 40rem;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      .bg-image {
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        opacity: 0.25;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
+      .gradient {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        right: 0px;
+        bottom: 200px;
+        z-index: 8;
+      }
+      .title-strip {
+        position: relative;
+        width: 100%;
+        padding:1.85rem 0 0.8rem;
+        background-color: rgba(217, 58, 95, 0.8);
+        z-index: 9;
+      }
+    }
+  }
+  .meta-date {
+    color : $lightish-blue;
+    font-weight: $weight-bold;
+  }
+  .post {
+     a {
+       color: $lightish-blue !important;
+       text-decoration: underline;
+       &:hover {
+         color: $blue !important;
+       }
+     }
+    .title {
+      margin-top: 3rem;
+    }
+    .card-case {
+      margin-top:2.5rem;
+      background-color: $light-grey-blue;
+      .subtitle {color: $red;}
+      border-radius: 6px;
+      padding:1.5rem;
+    }
+  }
+}
+
+// Case Studies
+.cases-hero {
+  .case-logo {
+    height: 100px;
+  }
+}
+
+// Contact Page
+.contact-details {
+  margin-bottom: 0rem;
+  .profile-photo {
+    border-radius: 999px;
+    width: 70px;
+    height: 70px;
+    margin-right: 1.5rem;
+    display: inline-block;
+    background: $red;
+    background-image: url('/images/portrait.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .details {
+    position: relative;
+    top:5px;
+    vertical-align: top;
+    display: inline-block;
+    h3, a {
+      color: $red !important;
+    }
+  }
+}
+.skill-card-1 {
+  border-bottom: 3px solid $light-blue;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.contact-page-form {
+  .form-title, .form-message {display: none;}
+}
+
+
+// Code Snippets
+xmp {
+  background-color: $grey-dark;
+  color:white;
+  padding:2rem 1rem;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  font-family: monospace;
+  word-wrap: break-word;
+  width: 100%;
+  font-size:0.9rem;
+}
+
+// Lexicon
+.lexicon {
+  .lexical-list {
+    .column:first-of-type {
+      padding-left:0px !important;
+    }
+  }
+}

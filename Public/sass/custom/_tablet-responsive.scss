@@ -1,0 +1,194 @@
+// Tablet Styles
+
+@include touch {
+
+  // Navbar
+  .navbar {
+    padding: 0.75rem 2rem;
+  }
+  .gradient {
+    top: 52px !important;
+  }
+  
+  .mobile-nav {
+    display: none;
+    position: fixed;
+    background: $off-white;
+    box-shadow: inset 0 10px 15px -7px rgba(0,0,0,0.08);
+    z-index:999;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    left:0px;
+    right: 0px;
+    bottom:0px;
+    top: 76px;
+    transform: translateX(100vw);
+    &.is-active {
+      @include menu-slide;
+      display: block;
+      opacity: 0;
+      .mobile-menu {
+        @for $i from 1 through 100 {
+            .navbar-item:nth-of-type(#{$i}n) {
+                animation-delay: #{$i * 100}ms;
+            }
+        }
+        .navbar-item {
+          @include item-rise;
+        }
+      }
+    }
+    .mobile-menu {
+      margin-top: 1rem;
+      .navbar-item.has-dropdown {}
+      .navbar-item {
+        padding: 0;
+        opacity: 0;
+        border-bottom: 3px solid $off-white-shaddow;
+        &:last-of-type {
+          border-bottom: 0px solid $off-white-shaddow;
+        }
+        &.has-dropdown {
+          .dropdown-arrow {
+            @include downward-chevron;
+            display: inline-block;
+            float: left;
+            width: 24px;
+            height: 24px;
+            margin-top:25px;
+            margin-left:26px;
+          }
+        }
+        .buttons {padding: 0.5rem 0.75rem; display: inline-block; margin-top: 10px;}
+        .language-button {
+          @include lang-button;
+          padding: 1.05rem 0.85rem 1.15rem;
+          font-size: 1.5rem;
+          margin-right: 10px;
+        }
+      }
+      .navbar-link {
+        font-size: 1.75rem;
+        font-weight: 700;
+        display: inline-block;
+        padding: 0.95rem 1.5rem;
+      }
+      .navbar-dropdown {
+        display: none;
+        background: $red;
+        padding-bottom:2rem;
+        -webkit-box-shadow:inset 0 0 7px 5px rgba(0,0,0,0.09);
+        box-shadow:inset 0 0 7px 5px rgba(0,0,0,0.09);
+        .navbar-item {
+          border-bottom: 0px;
+          color: $white;
+          font-weight: 700;
+          font-size: 1.2rem;
+          opacity: 0.95;
+          padding: 0.5rem 1.5rem;
+        }
+      }
+    }
+  }
+
+  // Rulers
+  .ruler-1-left {
+    position: fixed;
+    top:0px;
+    bottom:0px;
+    width: 1px;
+    background: red;
+    z-index: 999;
+    left:48px;
+    display: none;
+  }
+  .ruler-1-right {
+    position: fixed;
+    top:0px;
+    bottom:0px;
+    width: 1px;
+    background: red;
+    z-index: 999;
+    right:48px;
+    display: none;
+
+  }
+  // text
+  .title, .subtitle {
+    &.is-1 {font-size: 2rem !important;}
+    &.is-2 {font-size: 1.75rem  !important;}
+    &.is-3 {font-size: 1.55rem  !important;}
+    &.is-4 {font-size: 1.25rem  !important;}
+    &.is-5 {font-size: 1.1rem  !important;}
+    &.is-6 {font-size: 1rem  !important;}
+    &.boost-margin {margin-bottom:2rem !important;}
+  }
+
+  // Heros
+  .hero {
+    .hero-body {
+      padding: 3rem 2.3rem;
+      .button.is-large {
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 1.35rem 2rem 1.35rem;
+        margin: 0rem 0.65rem 0rem 0rem;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+
+  // Footer
+  .colophon-hero {
+    .hero-body {
+      .footer-logo {
+        img {
+          width: 190px;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .page-end {
+    .clutch {
+      margin-top:15px;
+    }
+  }
+
+  // Specific Blocks
+  .introduction-hero {
+    min-height: 60vh !important;
+  }
+  .clients-hero {
+    .logo-container {
+      padding: 0 6rem;
+      .client-logo {
+        height: 75px !important;
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .blog-post, .case-study-post  {
+    .title-strip {
+      padding: 1.85rem 8% 0.8rem !important;
+    }
+  }
+
+  .lexicon {
+    .title-strip {
+      padding: 1.85rem 2.1rem 0.8rem !important;
+    }
+    .lexical-list {
+      margin-top:2rem;
+      .column {
+        padding-left:0px !important;
+        h2 {
+          margin-top:0px;
+        }
+      }
+    }
+  }
+
+
+}

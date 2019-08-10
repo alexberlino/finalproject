@@ -1,17 +1,26 @@
-<form role="form" action="/email" method="post" class="formcontact">
-    <h2 class="h1hp marginleft2">Get in touch</h2><br>
-    <span class="marginleft2 italic">Please no backlinking agencies messages.
-        <br style="clear:both"><br><br>
-        <input class="form-group" type="email" name="email" placeholder="Email">
-        </input>
+<form class="colophone-form" role="form" action="/email" method="post" class="">
+    <h2 class="title is-5 is-heavy no-margins form-title">Get in touch</h2><br>
+    <p class="small form-message">Please no backlinking agencies messages.
 
-        <input type="text" class="form-group" id="name" name="name" placeholder="Name" required>
-
-
-        <textarea class="form-group" type="textarea" id="message" name="message" placeholder="Message" rows="16" required></textarea>
-        <br><br><br><br>
-        <div class="center">
-            <button type="submit" id="submit" name="submit" class="servicesHP
-        ">Send</button>
+      <div class="field fullname">
+        <div class="control">
+          <input class="input" type="text" id="fullname" name="name" placeholder="Full Name" required>
         </div>
+      </div><div class="field email">
+        <div class="control">
+          <input class="input" type="email" placeholder="Email">
+        </div>
+      </div>
+
+      <div class="field message">
+        <div class="control">
+          <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6"></textarea>
+        </div>
+      </div>
+
+      <div class="field send">
+        <div class="control">
+          <button class="button is-link is-medium" type="submit" id="submit" name="submit">Send</button>
+        </div>
+      </div>
 </form>

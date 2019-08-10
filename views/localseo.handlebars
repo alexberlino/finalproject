@@ -1,45 +1,93 @@
-<div class="main">
-    <img src="/auditmainpic/local.jpg" title="local, a photo by Brandi Ibrao" alt="local SEO" class="imageAudit" />
-    <div class="services">
-        <div class="breadcrumb">
-            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
-            <a href="/{{{__ "lang"}}}"> {{{__ "services"}}} </a>
-            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
-            <a href="/{{{__ "lang"}}}/seo"> SEO </a>
-            <img class="iconsmore2" src="/arrow.png" alt="arrow" />
-            <a href="/{{{__ "lang"}}}/research"> RESEARCH </a>
+<div class="content single-post has-sidebar offpage-en">
+  <!-- Blog Article Photo header -->
+  <div class="blog-imageheader">
+    <div class="header-body remove-padding">
+      <div class="bg-image" style="background-image: url('/auditmainpic/local.jpg');"></div>
+      <div class="gradient white-gradient"></div>
+      <div class="title-strip">
+        <div class="container reduced">
+          <div class="columns is-centered is-multiline">
+            <div class="column is-12-mobile is-11-tablet is-10-desktop">
+              <h2 class="title is-2 is-heavy is-white">Local SEO</h2>
+            </div>
+          </div>
         </div>
-        <h1 class="h1services"> Local SEO</h1> <br />
-        <h2>{{{__ "localMPT1"}}}</h2>
-        <div class="serviceText">{{{__ "localMP1"}}}</div>
-        <br />
-        <img class="serviceImage" src="/mybusiness.jpg" alt="My Business, Local SEO" />
-        <h2>{{{__ "localMPT2"}}}</h2>
-        <div class="serviceText">{{{__ "localMP2"}}}</div>
-        <br />
-        <h2>{{{__ "localMPT3"}}}</h2>
-        <div class="serviceText">{{{__ "localMP3"}}}</div> <br />
-        <h2>{{{__ "localMPT4"}}}</h2>
-        <div class="serviceText">{{{__ "localMP4"}}}</div> <br />
-        <h2> {{{__ "relevanttools"}}} </h2>
-        <div class="serviceText">
-            <footer>
-                <a href="https://www.google.com/business/" target="_blank">
-                    Google's MyBusiness
-                </a>
-            </footer>
-        </div>
-        <div class="black sideLinks">
-            <a class="block bold">{{{__ "analyticsHP1U"}}}</a>
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "analyticsURL"}}}">
-                {{{__ "analyticsHP2U"}}}
-            </a>
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "competitorURL"}}}">
-                {{{__ "analyticsHP3U"}}}
-            </a>
-            <a class="block" href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "seaURL"}}}">
-                {{{__ "analyticsHP6U"}}}
-            </a>
-        </div>
+      </div>
     </div>
-</div>
+  </div>
+
+
+  <!-- Blog Article Body -->
+  <section class="blogpost-hero hero is-medium">
+    <div class="hero-body remove-padding">
+      <div class="container reduced">
+        <div class="columns is-centered is-multiline">
+          <div class="column is-12-mobile is-12-tablet is-10-desktop">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+              <ul>
+                <li><a href="/{{{__ "lang"}}}">{{{__ "services"}}}</a></li>
+                <li><a href="/{{{__ "lang"}}}/seo">SEO</a></li>
+                <li><a href="/{{{__ "lang"}}}/research">Research</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="column is-12-mobile is-7-tablet is-7-desktop post">
+
+            <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "localMPT1"}}}</h2>
+            <p>{{{__ "localMP1"}}}</p>
+
+            <figure class="image is-outlined is-fullwidth">
+              <img class="serviceImage" src="/mybusiness.jpg" alt="My Business, Local SEO" />
+            </figure>
+
+            <h2 class="title is-4 is-heavy">{{{__ "localMPT2"}}}</h2>
+
+            <p>{{{__ "localMP2"}}}</p>
+
+            <h2 class="title is-4 is-heavy">{{{__ "localMPT3"}}}</h2>
+            <p>{{{__ "localMP3"}}}</p>
+
+            <h2 class="title is-4 is-heavy">{{{__ "localMPT4"}}}</h2>
+            <p>{{{__ "localMP4"}}}</p>
+
+            <h2 class="title is-4 is-heavy">{{{__ "relevanttools"}}} </h2>
+
+            <p>
+              <a href="https://www.google.com/business/" target="_blank">
+                  Google's MyBusiness
+              </a>
+            </p>
+
+          </div>
+
+          <div class="column is-3-desktop sidebar">
+            <ul>
+              <li>
+                <a class="active">
+                  {{{__ "analyticsHP1U"}}}
+                </a>
+              </li>
+
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "analyticsURL"}}}">
+                    {{{__ "analyticsHP2U"}}}
+                </a>
+              </li>
+
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "competitorURL"}}}">
+                    {{{__ "analyticsHP3U"}}}
+                </a>
+              </li>
+
+              <li>
+                <a href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "seaURL"}}}">
+                    {{{__ "analyticsHP6U"}}}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

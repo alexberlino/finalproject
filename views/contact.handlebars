@@ -1,48 +1,62 @@
-<div class="main"><br><br><br><br>
+<div class="content contact-en">
 
-
-    <div class="services2">
-
-
-        <h1 class="h1hp marginleft2 email"> {{{__ "contacth1"}}} </h1><br />
-
-        <div class="intro2">
-            <div class="introQuarter">
-                <img alt="monitoring" src="/seo-monitoring.jpg" class="icon" />
-                <p class="txt2"> SEO</p>
-                <p class="txt2">Analytics </p>
-                <p class="txt2">{{{__ "intro5"}}}</p>
-                <p class="txt2"> Search Engine Advertising (Google Ads)</p>
+<!-- Contact Page Intro Block-->
+<section class="audit-hero hero is-large-intro">
+  <div class="hero-body remove-padding">
+    <div class="container reduced">
+      <div class="columns is-centered contact-header">
+        <div class="column is-12">
+          <h2 class="title is-2 is-heavy reduced-margin">Contact</h2>
+          <h3 class="subtitle is-4 is-heavy reduced-top-margin">{{{__ "contacth1"}}}</h2>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-6">
+          <div class="contact-details">
+            <div class="profile-photo"></div>
+            <div class="details">
+              <h3 class="subtitle is-5 reduced-margin">T - <a itemprop="telephone" href="tel: +49 015787011932">015787011932</a><br>
+              <h3 class="subtitle is-5 reduced-top-margin">E - <a href="mailto:alex@seoberlino.com">alex@seoberlino.com</a>
             </div>
-            <div class="introQuarter">
-                <img alt="programming" src="/programming.svg" class="icon" />
-                <p class="txt2"> React, Vue, Handlebars</p>
-                <p class="txt2">Javascript, JQuery </p>
-                <p class="txt2">Node, Express</p>
-                <p class="txt2"> HTML, CSS</p>
-                <p class="txt2"> SQL, Postgres</p>
-            </div>
-            <div class="introQuarter">
-                <img alt="programming" src="/me.svg" class="icon" />
-                <p class="txt2">{{{__ "intro6"}}}</p>
-                <p class="txt2">{{{__ "intro7"}}}</p>
-                <p class="txt2">{{{__ "intro8"}}}</p>
-                <p class="txt2">Deutsch, English, Français, Castellano </p>
-            </div>
-            <div class="introQuarter ">
-                <div class="grey">
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alex-bieth-berlin/">
-                        <img alt="LinkedIn Profile" src="/portrait.jpg" class="linkedin" /></a>
-                </div>
-                </a>
-            </div>
+          </div>
 
+          <div class="contact-page-form">
+            {{>formcontact}}
+          </div>
+        </div>
 
+        <div class="column is-5-desktop is-offset-1">
+          <div class="skill-card-1">
+          <h3 class="title is-4 is-heavy reduced-margin">Skills</h2>
+            <p> SEO, Analytics, {{{__ "intro5"}}}, Search Engine Advertising (Google Ads), React, Vue, Handlebars,
+            Javascript, JQuery, Node, Express, HTML, CSS, SQL, Postgres</p>
+          </div>
+
+          <div class="skill-card-2">
+          <h3 class="title is-4 is-heavy reduced-margin">Experience</h2>
+            <p>
+              {{{__ "intro6"}}}<br>
+              {{{__ "intro7"}}}<br>
+              {{{__ "intro8"}}}<br>
+              Deutsch, English, Français, Castellano
+            </p>
+          </div>
 
         </div>
+      </div>
+
     </div>
+  </div>
+</section>
+
+<!-- Recent Clients Block-->
+<section class="clients-hero red-gradient hero is-medium">
+  <div class="hero-body remove-padding">
+    <div class="container reduced has-text-centered">
+        <h2 class="title is-3 is-white is-heavy boost-margin">Recent Clients</h2>
+        {{>clients}}
+    </div>
+  </div>
+</section>
 
 </div>
-{{>clients}}<br><br><br>
-
-{{>formcontact}}<br><br>
