@@ -3,9 +3,9 @@
 	"home": "HOME",
 	"provenexpertFooteralt": "Erfahrungen & Bewertungen zu Alex Bieth",
 	"logoNav": "SEO Freelancer Beratung",
-	"currentformerclients":"Kunden",
+	"currentformerclients": "Kunden",
 	"seo-freelancer": "seo-beratung",
-	"languagefooter":"Sprachen",
+	"languagefooter": "Sprachen",
 	"otherservices": "Sonstige Freelancer Dienstleistungen",
 	"getin": "SEO Freelancer",
 	"touch": "gesucht?",
@@ -484,5 +484,6 @@
 	"ampURL": "amp-pages",
 	"keywordresearchURL": "keywordresearchURL",
 	"researchURL": "researchURL",
-	"auditintro-extra": "auditintro-extra"
+	"auditintro-extra": "auditintro-extra",
+	"auditfocusList": "auditfocusList"
 }
