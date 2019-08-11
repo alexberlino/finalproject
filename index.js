@@ -111,8 +111,8 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Freelancer Consultant | SEO Beratung",
-        description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
+        title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "/de",
         alt: "/en",
         alt2: "/fr"
@@ -124,9 +124,8 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Consultant & Freelancer | SEO Berlino",
-        description: "SEO Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung als Freelancer: Spreadshirt, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
-        canonical: "/de",
+        title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        description: "Alex Bieth: SEO Berater. 10 Jahre ErfahrungMontblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "/en",
         alt2: "/fr"
     });
@@ -137,8 +136,8 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Consultant | SEO Freelancer | SEO Berlino",
-        description: "SEO Consultant Freelancer with 10 years experience: Spreadshirt, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
+        title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        description: "SEO Consultant with 10 years experience. Clients: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de",
         alt2: "/fr"
@@ -150,8 +149,8 @@ app.get("/fr", (req, res) => {
     res.render("home", {
         requrl: "/en",
         layout: "mainFR",
-        title: "SEO Freelancer | SEO Consultant SEO Berlino",
-        description: "Consultant SEO et Freelancer.  10 ans d'expérience : Spreadshirt, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
+        title: "Freelancer SEO Référencement | SEO Berlino",
+        description: "Consultant SEO.  10 ans d'expérience : Spreadshirt, Ricoh, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en",
     });

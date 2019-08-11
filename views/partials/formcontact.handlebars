@@ -1,26 +1,26 @@
 <form class="colophone-form" role="form" action="/email" method="post" class="">
-    <h2 class="title is-5 is-heavy no-margins form-title">Get in touch</h2><br>
-    <p class="small form-message">Please no backlinking agencies messages.
+    <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
 
-      <div class="field fullname">
+    <div class="field fullname">
         <div class="control">
-          <input class="input" type="text" id="fullname" name="name" placeholder="Full Name" required>
+            <input class="input" type="text" id="fullname" name="name" placeholder="Full Name" required>
         </div>
-      </div><div class="field email">
+    </div>
+    <div class="field email">
         <div class="control">
-          <input class="input" type="email" placeholder="Email">
+            <input class="input" type="email" placeholder="Email">
         </div>
-      </div>
+    </div>
 
-      <div class="field message">
+    <div class="field message">
         <div class="control">
-          <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6"></textarea>
+            <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6"></textarea>
         </div>
-      </div>
+    </div>
 
-      <div class="field send">
+    <div class="field send">
         <div class="control">
-          <button class="button is-link is-medium" type="submit" id="submit" name="submit">Send</button>
+            <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
         </div>
-      </div>
+    </div>
 </form>
