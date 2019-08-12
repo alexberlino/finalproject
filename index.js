@@ -1176,7 +1176,7 @@ app.get("/de/datenschutz", (req, res) => {
         layout: "mainDE",
         title: "Datenschutz | SEO Berlino",
         description: "SEO Berlin, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de",
         alt: "/en/datenschutz"
     });
 });
