@@ -1827,7 +1827,7 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", (req, res) => {
 
 app.get("/en/article/beyond-mobile-first", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("blog", {
+    res.render("blog2", {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
         title: "SEO Beyond Mobile First | SEO Berlin | SEO Berlino",
