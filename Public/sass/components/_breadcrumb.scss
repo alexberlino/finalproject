@@ -15,16 +15,15 @@ $breadcrumb-item-separator-color: $grey-light !default;
   font-size: $size-normal;
   white-space: nowrap;
   ul {
-    margin: 0px;
+    margin: 0px 0px 8px 0px !important;
   }
   a {
     align-items: center;
     color: $lightish-blue !important;
     display: flex;
     justify-content: center;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: $weight-bold;
-    text-decoration: underline;
     padding: $breadcrumb-item-padding-vertical $breadcrumb-item-padding-horizontal;
     &:hover {
       color: $blue !important;

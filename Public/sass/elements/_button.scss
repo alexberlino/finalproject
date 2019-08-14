@@ -248,9 +248,9 @@ $button-static-border-color: $grey-lighter !default;
         &.is-hovered,
         &:focus,
         &.is-focused {
-          background-color: $color;
-          border-color: $color;
-          color: $color-invert;
+          background-color: $light-blue;
+          border-color: $light-blue;
+          color: $white;
         }
 
         &.is-loading {

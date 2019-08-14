@@ -28,7 +28,18 @@
   -webkit-animation-name: item_rise; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 300ms; /* Safari 4.0 - 8.0 */
   animation-name: item_rise;
-  animation-duration: 300ms;
+  animation-duration: 250ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(.17,.67,.38,.98);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+@mixin item-rise-fast {
+  -webkit-animation-name: item_rise; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 200ms; /* Safari 4.0 - 8.0 */
+  animation-name: item_rise;
+  animation-duration: 250ms;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(.17,.67,.38,.98);
   animation-iteration-count: 1;

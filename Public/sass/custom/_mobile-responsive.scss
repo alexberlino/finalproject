@@ -11,6 +11,31 @@
       img {width: 164px !important;}
     }
   }
+  .mobile-nav {
+    top: 52px !important;
+    .navbar-item {
+      padding: 0 !important;
+      .dropdown-arrow {
+        margin-left: -2px !important;
+      }
+      .navbar-link {
+        padding-left: 0px !important;
+        padding-right: 1.5rem !important;
+      }
+      .navbar-item {
+        padding: 0.5rem 1.5rem !important;
+      }
+      .buttons {
+        padding-right: 1.5rem !important;
+      }
+      .navbar-dropdown {
+        padding-right: 0rem;
+        .level-two {
+          padding-right: 1.5rem !important;
+        }
+      }
+    }
+  }
 
   // Rulers
   .ruler-1-left {
@@ -62,6 +87,15 @@
     }
     th {
         border: 2px solid $lightish-blue-shadow !important;
+    }
+  }
+
+  .card-content {
+    .media {
+      margin-bottom: 0px !important;
+      h3, h4 {
+        margin-bottom: 5px !important;
+      }
     }
   }
 
@@ -135,7 +169,8 @@
       .dbs-music {position: relative; left:auto;}
       .spiced {position: relative; left:auto;}
       .client-logo {
-        height: 75px !important;
+        max-height: 75px !important;
+        width: 120px !important;
         padding: 0.5rem;
       }
     }
@@ -242,7 +277,6 @@
       height: 70px;
       margin-right: 1.5rem;
       display: inline-block;
-      background: $red;
     }
     .details {
       position: relative;

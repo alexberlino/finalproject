@@ -12,8 +12,9 @@ body {
   justify-content: center;
 }
 .no-margins {margin:0 !important;}
+.is-heavy {font-weight: $weight-bold !important;}
 .boost-margin-top {margin-top:3rem !important;}
-
+.hero-body, .header-body {visibility: hidden;}
 .blue-dot-list {
   @include blue-dot-list;
   a {
@@ -41,6 +42,9 @@ body {
     font-weight: $weight-bold;
     .language-button {
       @include lang-button;
+      &:hover {
+        background-color: $blue;
+      }
     }
   }
 }
@@ -56,8 +60,7 @@ body {
       padding: 0.35rem 0;
       a {
         color: $lightish-blue;
-        font-size:1.2rem;
-        text-decoration: underline;
+        font-size:1rem;
         font-weight: 700;
         &.active {
           color: $grey-blue !important;
@@ -74,7 +77,15 @@ body {
 
 // Glyphs
 .glyph {
-  max-width:100px;
+  max-width:110px;
+}
+
+.list-block {
+  margin:0 5%;
+  a {
+    color: $grey-dark !important;
+    text-decoration: underline;
+  }
 }
 
 // Tables
@@ -305,7 +316,8 @@ footer.page-end {
        }
      }
     .title {
-      margin-top: 3rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem !important;
     }
     .card-case {
       margin-top:2.5rem;
@@ -313,6 +325,20 @@ footer.page-end {
       .subtitle {color: $red;}
       border-radius: 6px;
       padding:1.5rem;
+    }
+  }
+  .after-post {
+    .title {
+      margin-top: 0rem;
+      margin-bottom: 1rem !important;
+      color: $lightish-blue;
+    }
+    a {
+      color: $lightish-blue !important;
+      text-decoration: underline;
+      &:hover {
+        color: $blue !important;
+      }
     }
   }
 }

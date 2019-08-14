@@ -239,7 +239,6 @@ a.navbar-item,
   &:focus-within,
   &:hover,
   &.is-active {
-    background-color: $navbar-item-hover-background-color;
     color: $navbar-item-hover-color;
   }
 }

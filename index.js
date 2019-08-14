@@ -1254,7 +1254,7 @@ app.get("/en/contact", (req, res) => {
 });
 
 app.get("/fr/contact", (req, res) => {
-    i18n.setLocale(req, "en");
+    i18n.setLocale(req, "fr");
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainFR",
