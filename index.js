@@ -113,7 +113,7 @@ app.get("/", (req, res) => {
         layout: "mainDEHP",
         title: "SEO & Analytics Agile Consultant | SEO Berlino",
         description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
-        canonical: "/de",
+        canonical: "https://www.seoberlino.com/de",
         alt: "/en",
         alt2: "/fr"
     });
@@ -125,6 +125,7 @@ app.get("/de", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
         title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        canonical: "https://www.seoberlino.com/de",
         description: "Alex Bieth: SEO Berater. 10 Jahre ErfahrungMontblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "/en",
         alt2: "/fr"
@@ -138,7 +139,7 @@ app.get("/en", (req, res) => {
         layout: "mainHP",
         title: "SEO & Analytics Agile Consultant | SEO Berlino",
         description: "SEO Consultant with 10 years experience. Clients: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en",
         alt: "/de",
         alt2: "/fr"
     });
@@ -151,7 +152,7 @@ app.get("/fr", (req, res) => {
         layout: "mainFR",
         title: "Freelancer SEO Référencement | SEO Berlino",
         description: "Consultant SEO.  10 ans d'expérience : Spreadshirt, Ricoh, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/fr",
         alt: "/en",
     });
 });
