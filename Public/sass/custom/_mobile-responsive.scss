@@ -148,16 +148,15 @@
       .intro-summary {
         margin: 0 auto;
         .aligner-container {
-          h2 {margin-top: 0.85rem; text-align: justify !important;}
+          h2 {margin-top: 0.85rem;}
         }
       }
       .intro-image {
         text-align: center;
-        img {
-          max-width: 90%;
+      img {
+          max-width: 100%;
           position: relative;
-          left:-8px;
-          top: 10px;
+          top: 0px;
         }
       }
     }
