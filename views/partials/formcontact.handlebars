@@ -3,17 +3,18 @@
 
     <div class="field fullname">
         <div class="control">
-            <input class="input" type="text" id="fullname" name="name" placeholder="Full Name" required>
+            <input class="input" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
         </div>
-    </div><div class="field email">
+    </div>
+    <div class="field email">
         <div class="control">
-            <input class="input" type="email" placeholder="Email">
+            <input class="input" type="email" name="email" placeholder="Email" required>
         </div>
     </div>
 
     <div class="field message">
         <div class="control">
-            <textarea class="textarea" id="message" name="message" placeholder="Message" rows="6"></textarea>
+            <textarea class="textarea" name="message" placeholder="{{{__ "message"}}}" rows="6"></textarea>
         </div>
     </div>
 
