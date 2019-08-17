@@ -1,8 +1,6 @@
 {
 	"lang": "en",
-	"home": "HOME",
 	"currentformerclients": "Current and former clients",
-	"provenexpertFooteralt": "Experience & Reviews for Alex Bieth",
 	"logoNav": "SEO Freelancer Consultant",
 	"languagefooter": "Languages",
 	"maintxtcasestudies": "Case Studies",
@@ -484,4 +482,5 @@
 	"onpage ": "onpage ",
 	"contactskills": "Skills",
 	"contactexperience": "Experience",
-	"with": "with"}
+	"with": "with",
+}

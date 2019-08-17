@@ -111,7 +111,7 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        title: "SEO & Analytics Agile Berater | SEO Berlino",
         description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
         canonical: "https://www.seoberlino.com/de",
         alt: "/en",
@@ -124,9 +124,9 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        title: "SEO & Analytics Agile Berater | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
-        description: "Alex Bieth: SEO Berater. 10 Jahre ErfahrungMontblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
+        description: "Alex Bieth: SEO Berater. 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "/en",
         alt2: "/fr"
     });
