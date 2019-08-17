@@ -928,14 +928,25 @@ app.get("/en/sea", (req, res) => {
 
 
 
-app.get("/de/backlinks", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("beratunglinks", {
+app.get("/en/scrum", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratungscrum", {
         layout: "mainDE",
-        title: "SEO Backlinks Beratung Berlin | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        title: "Implement and use scrum for SEO Projects | SEO Berlino",
+        description: "SEO consultant with Scrum experience.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/backlinks"
+        alt: "/de/scrum"
+    });
+});
+
+app.get("/de/scrum", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("beratungscrum", {
+        layout: "mainDE",
+        title: "Implementierung und Nutzung von Scrum für SEO-Projekte | SEO Berlino",
+        description: "SEO consultant with Scrum experience.",
+        canonical: "https://www.seoberlino.com/de/scrum",
+        alt: "/en/scrum"
     });
 });
 

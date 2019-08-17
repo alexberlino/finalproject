@@ -58,7 +58,7 @@
 	"hey7": "Wettbewerbsanalyse",
 	"hey8": "Off-Page Prüfung",
 	"clients": "kunden",
-	"intro1": "SEO Berater - 10 Jahre Erfahrung",
+	"intro1": "SEO Berater - 10 Jahre SEO Erfahrung",
 	"client1": "Schneller, zuverlässiger und professioneller SEO-Berater. Ich würde ihn auf jeden Fall weiterempfehlen.",
 	"client2": "Ich kann gern Alex als SEO Experte empfehlen. Gründlich und professionell. Danke, Alex!",
 	"client3": "Es war großartig, mit Alex als SEO Freelancer zusammenzuarbeiten. Er hat mir dabei geholfen, ein solides Fundament für die zukünftige Arbeit zu schaffen.",
@@ -194,9 +194,9 @@
 	"footer1": "Alle Rechte vorbehalten. 2018 Alex Bieth",
 	"footer2": "über diese Website",
 	"boost1": "Traffic und Sichtbarkeit steigern.",
-	"boost2": "Optimiertes Keyword Targeting, Brand Building.",
-	"boost3": "Beratung für Suchmaschinenoptimierung, Analyse, Optimierung.",
-	"boost31": "To-Do-Liste einschließlich Ziel, Beschreibung, Metriken und Priorität.",
+	"boost2": "	Mit optimiertem Keyword Targeting, On-Page & technisches SEO, Markenaufbau.",
+	"boost3": "SEO-Beratung mit Audit Backlog.",
+	"boost31": "mit Audit Items, Zielen, Kennzahlen & Prioritäten",
 	"boost4": "SEO FREELANCER AUDIT",
 	"boost5": "ZUR EFFIZIENTEN, PRIORISIERTEN AUFGABENPLANUNG ",
 	"boost6": "ERSTELLUNG RELEVANTER",
@@ -479,6 +479,7 @@
 	"rankbraintitle": "Was bedeutet Rankbrain?",
 	"rankbrainMP": "Rankbrain is a Google algorithm used to understand search queries and sort search results using machine learning. \n<br><br>RankBrain adapts the results depending on the keyword type reassessing the importance of domain authority & page authority, backlinks, content freshness & length. RankBrain also assesses how users interact with search results and adapts the algorithm depending on how they interact with them.\n<br><br>RankBrain uses keywords it has already dealt with to understand searches never yet seen before (which represent over 15% of all searches) to transform keywords into concepts and then analyse user's response to the results (CTR, Dwell time, Bounce rate, number of results clicked on).\n<br><br>For keyword targeting, this means you should be targeting medium tail keywords that will then in tunr rank for many similar related other keywords.",
 	"LabData": "Lab Daten",
+	"with":"mit",
 	"Diagnostics": "Diagnose",
 	"Opportunities": "Empfehlungen",
 	"pagespeedlink": "https://developers.google.com/speed/pagespeed/insights/?hl=de",
@@ -488,5 +489,6 @@
 	"keywordresearchURL": "keywordresearchURL",
 	"researchURL": "researchURL",
 	"auditintro-extra": "auditintro-extra",
-	"auditfocusList": "auditfocusList"
+	"auditfocusList": "auditfocusList",
+	"agileHP": "Erfahrung mit der Implementierung von Scrum (als Head of SEO bei Spreadshirt) als Product Owner und bei Montblanc, um sicherzustellen, dass Artikel aus dem Backlog priorisiert werden. Scrum hilft auch, vorausschauend zu planen und SEO-Aktionen transparenter zu machen. Ich bin Scrum Master zertifiziert (2013)"
 }
