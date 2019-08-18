@@ -1188,8 +1188,8 @@ app.get("/de/datenschutz", (req, res) => {
         layout: "mainDE",
         title: "Datenschutz | SEO Berlino",
         description: "SEO Berlin, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
-        canonical: "https://www.seoberlino.com/de",
-        alt: "/en/datenschutz"
+        canonical: "/de/datenschutz",
+        alt: "/de/datenschutz"
     });
 });
 
@@ -1379,7 +1379,7 @@ app.get("/en/lexical/rankbrain", (req, res) => {
 app.get("/de/lexical/rankbrain", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("rankbrain", {
-        requrl: "/de" + req.originalUrl.substring(3),
+        requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Was beudeutet Rankbrain | SEO Berlino",
         description: "Was beudeutet Rankbrain und warum ist das für SEO wichtig?",
