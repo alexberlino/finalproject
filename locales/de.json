@@ -201,10 +201,11 @@
 	"boost9": "OPTIMIERTES KEYWORD TARGETING",
 	"boost10": "UM IHREN TRAFFIC",
 	"boost11": "ANZUKURBELN",
-	"auditfocus": "Der Schwerpunkt des Audits liegt für Sie im Aufgabenbereich, der auf allen Erkenntnissen basiert: \n<br> -eine Erklärung zu jedem Problem, \n<br> -Priorität, \n<br> -Erwartete Ergebnisse \n<br> -Lösung",
+	"auditfocus": "Das Audit liegt als PDF-Dokument und mit einem Backlog vor, in dem alle während des Audits gefundenen Probleme zusammengefasst und nach Priorität geordnet sind.",
 	"growthhacking": "Inhaltserstellung um Ihren Traffic anzukurbeln",
 	"sitecrawl": "Low-hanging fruit Verbesserungen (onpage & technisches SEO)",
 	"whatisSEO": "Suchmaschinenoptimierung (engl. Search Engine Optimization, kurz SEO) beschreibt Prozesse zur Optimierung einer Webseite für Suchmaschinen. SEO ist wichtig, damit Suchanfragen von Qualitätsbesuchern, die suchen was Ihre Webseite anbietet, auf Ihre Seite verweisen. Angesichts der Weiterentwicklung der Algorithmen innerhalb der letzten Jahre ist auch die Benutzerfreundlichkeit einer Webseite wichtig, um deren Glaubwürdigkeit und “Respekt” bei Suchmaschinen wie Google, Bing und Yandex zu steigern. Suchmaschinen nutzen immer komplexere Algorithmen um zu bestimmen welche Seiten in ihren Index aufgenommen werden, sowie in welcher Reihenfolge diese als Suchergebnisse angezeigt werden. SEO ist sozusagen die Sprache, die Suchmaschinen verstehen und in der ihnen daher so viel wie möglich über Ihre Webseite “gesagt” bzw. Information übermittelt werden sollte.",
+	"auditintro-new":"Das SEO-Audit folgt folgendem Format - kann jedoch je nach den Anforderungen und Prioritäten des Kunden angepasst werden: Zusammenfassung, Keyword Recherche, Konkurrenzanalyse, On-Page & Technisches SEO, Backlink Profilanalyse. Kommt auch mit einem Backlog (online Google Sheet Format), der alle Einträgen aufnimmt und nach Priorität klassifiziert, mit einer kurzen Beschreibung, Status der sich bei der Implementierung der Korrekturen ändert, und einem Kommentarabschnitt für die Kommunikation.",
 	"auditintro": "Audits können im Umfang je nach Bedarf und Reife der Webseite variieren. Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab. Die Hauptaspekte des SEO können in drei wesentliche Bereiche unterteilt werden: Offpage, Onpage und Technical SEO, es gibt dabei jedoch viele Überschneidungen. Zudem sind ein effizientes und verlässliches Web-Analyse-Set-Up sowie eine Wettbewerbsanalyse essentiell, wenn Sie Fortschritte machen, Ihre Prioritäten setzen und effizient kontrollieren wollen.",
 	"auditMPT1": "Was ist Offpage SEO",
 	"auditMPT2": "Warum ist Offpage wichtig",
@@ -469,6 +470,7 @@
 	"rankbrainMP": "Rankbrain is a Google algorithm used to understand search queries and sort search results using machine learning. \n<br><br>RankBrain adapts the results depending on the keyword type reassessing the importance of domain authority & page authority, backlinks, content freshness & length. RankBrain also assesses how users interact with search results and adapts the algorithm depending on how they interact with them.\n<br><br>RankBrain uses keywords it has already dealt with to understand searches never yet seen before (which represent over 15% of all searches) to transform keywords into concepts and then analyse user's response to the results (CTR, Dwell time, Bounce rate, number of results clicked on).\n<br><br>For keyword targeting, this means you should be targeting medium tail keywords that will then in tunr rank for many similar related other keywords.",
 	"LabData": "Lab Daten",
 	"with": "mit",
+	"also":"Auch",
 	"Diagnostics": "Diagnose",
 	"Opportunities": "Empfehlungen",
 	"pagespeedlink": "https://developers.google.com/speed/pagespeed/insights/?hl=de",
@@ -478,7 +480,6 @@
 	"keywordresearchURL": "keywordresearchURL",
 	"researchURL": "researchURL",
 	"auditintro-extra": "auditintro-extra",
-	"auditfocusList": "Das Audit liegt als PDF-Dokument und mit einem Backlog vor, in dem alle während des Audits gefundenen Probleme zusammengefasst und nach Priorität geordnet sind.",
-	"agileHP": "Erfahrung mit der Implementierung von Scrum (als Head of SEO bei Spreadshirt) als Product Owner und auch bei Montblanc. Wird verwendet, um sicherzustellen, dass Einträge aus dem Backlog priorisiert werden. Ich bin Scrum Master zertifiziert (2013)",
-	"": ""
+	"auditfocusList": "Der Schwerpunkt des Audits liegt für Sie im Aufgabenbereich, der auf allen Erkenntnissen basiert: \n<br> -eine Erklärung zu jedem Problem, \n<br> -Priorität, \n<br> -Erwartete Ergebnisse \n<br> -Lösung",
+	"agileHP": "Erfahrung mit der Implementierung von Scrum (als Head of SEO bei Spreadshirt) als Product Owner und auch bei Montblanc. Wird verwendet, um sicherzustellen, dass Einträge aus dem Backlog priorisiert werden. Ich bin Scrum Master zertifiziert (2013)"
 }

@@ -86,6 +86,7 @@
 	"brandbuilding3": "Based on user & influencers interests to boost quality link creation quality and brand awareness.",
 	"servicesL": "Consultancy",
 	"servicesU": "Consultancy",
+	"also":"Also",
 	"technical": "Technical SEO",
 	"technicalURL": "technical",
 	"sponsorship": "SEO Partnership",
@@ -210,8 +211,8 @@
 	"sitecrawl": "for low hanging fruit onpage and technical improvements.",
 	"auditintro": "Audits can vary in scope depending on the website's needs and maturity.",
 	"auditintro-extra": "A full audit though will cover all aspects of SEO which over the years has become more and more complex and segmented. The main aspects of SEO can simply be categorized in three main fields: offpage, onpage and technical SEO, but there is a lot of overlapping. Also efficient and reliable web analytics set-up and knowing your competitors (Competitor Analysis) are critical if you want to make progress, understand and set your priorities and control them efficiently ",
-	"auditfocus": "The audit comes in PDF document and with a Backlog which summarises all issues found during the Audit, classified by priority.",
-	"auditfocusList": "<ul><li>An explanation of each issue,</li> \n<li>Priority,</li>\n<li>Solution, Explanation and Expected results</li> \n<li>Comments section for communication.</li></ul>",
+	"auditfocus": "The audit comes in a PDF document and with a Backlog which summarises all issues found during the Audit, classified by priority.",
+	"auditfocusList": "An explanation of each issue, Priority, Solution, Explanation and Expected results, Comments section for communication.",
 	"auditMPT1": "What is Offpage SEO",
 	"auditMPT2": "Why is Offpage so important",
 	"auditMPT3": "What is Link Building",
@@ -482,5 +483,6 @@
 	"onpage ": "onpage ",
 	"contactskills": "Skills",
 	"contactexperience": "Experience",
-	"with": "with"
+	"with": "with",
+	"auditintro-new":"The SEO Audit follows the following format - although it can be adapted depending on the client's requirements and priorities: Executive Summary, Keyword Research, Competitor Analysis, On-page & Technical SEO, Backlink Profile Analysis. We also include a backlog (online Google sheet format) which takes all the items of Audit and classifies them by priority, with a short description, a column for the status which will change as the fixes is implemented and a comment section for communication."
 }
