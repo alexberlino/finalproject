@@ -107,14 +107,14 @@ app.use(
 ////////////////////new routes & redirects///////////////////////////
 
 app.get("/", (req, res) => {
-    i18n.setLocale(req, "de");
+    i18n.setLocale(req, "en");
     res.render("home", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDEHP",
-        title: "SEO & Analytics Agile Berater | SEO Berlino",
-        description: "Alex Bieth: SEO Freelancer & Consultant für SEO Beratung in Berlin. 10 Jahre Erfahrung: SEO, Webanalyse, SEA. MBA, scrum, web development. Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Brand Building",
-        canonical: "https://www.seoberlino.com/de",
-        alt: "/en",
+        requrl: "/de" + req.originalUrl.substring(3),
+        layout: "mainHP",
+        title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        description: "SEO Consultant with 10 years experience. Clients: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
+        canonical: "https://www.seoberlino.com/en",
+        alt: "/de",
         alt2: "/fr"
     });
 });
