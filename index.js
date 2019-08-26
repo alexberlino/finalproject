@@ -111,7 +111,7 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        title: "SEO & Analytics Agile Consultant & Freelancer | SEO Berlino",
         description: "SEO Consultant with 10 years experience. Clients: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
@@ -124,9 +124,9 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO & Analytics Agile Berater | SEO Berlino",
+        title: "SEO & Analytics Agile Freelancer / Consultant | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
-        description: "Alex Bieth: SEO Berater. 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
+        description: "Alex Bieth: SEO Freelancer / Consultant. 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "/en",
         alt2: "/fr"
     });
@@ -137,7 +137,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO & Analytics Agile Consultant | SEO Berlino",
+        title: "SEO & Analytics Agile Consultant & Freelancer | SEO Berlino",
         description: "SEO Consultant with 10 years experience. Clients: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
@@ -884,8 +884,8 @@ app.get("/de/audit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("audit", {
         layout: "mainDE",
-        title: "SEO Experte Berlin: SEO Audit | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        title: "SEO Audits: On-page, Off-page, Technical SEO | SEO Berlino",
+        description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/audit"
     });
@@ -895,8 +895,8 @@ app.get("/en/audit", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("audit", {
         layout: "main",
-        title: "SEO Expert Berlin: SEO Audit | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
+        title: "SEO Audits: On-page, Off-page, Technikes SEO | SEO Berlino",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/audit"
     });
@@ -933,7 +933,7 @@ app.get("/en/scrum", (req, res) => {
     res.render("beratungscrum", {
         layout: "mainDE",
         title: "Implement and use scrum for SEO Projects | SEO Berlino",
-        description: "SEO consultant with Scrum experience.",
+        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/scrum"
     });
@@ -943,8 +943,8 @@ app.get("/de/scrum", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratungscrum", {
         layout: "mainDE",
-        title: "Implementierung und Nutzung von Scrum für SEO-Projekte | SEO Berlino",
-        description: "SEO consultant with Scrum experience.",
+        title: "Scrum-Implementierung für SEO-Projekte | SEO Berlino",
+        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com/de/scrum",
         alt: "/en/scrum"
     });
@@ -1031,7 +1031,7 @@ app.get("/de/onpage", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Onpage Optimierung SEO | SEO Berlino",
-        description: "Offpage Optimierung,",
+        description: "Onpage Optimization refers to any SEO action taken on the website that can be done directly. That concerns first and foremost the optimization of the content and the code of the page. It includes as well the elaboration of the content strategy and potential technical issues.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage"
     });
@@ -1055,7 +1055,7 @@ app.get("/de/onpage/sprachsuche", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Sprachsuche SEO | SEO Berlino",
-        description: "Offpage Optimierung,",
+        description: "Google Assistant, Alexa are just 2 of those devices which are transforming search. Instead of typing searches, users now more and more ask for their need vocally.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage/voicesearch"
     });
@@ -1079,7 +1079,7 @@ app.get("/de/forschung/local-seo-de", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Local SEO Optimierung | SEO Berlino",
-        description: "Offpage Optimierung,",
+        description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO, keeping in mind that  the most important factor in personalised search results is  location.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/research/localseo"
     });
@@ -1103,7 +1103,7 @@ app.get("/de/forschung/suchmaschinenwerbung", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Suchmaschinenwerbung und SEO | SEO Berlin | SEO Berlino",
-        description: "Offpage Optimierung,",
+        description: "Paid Search uses the same base as SEO in keywords, and of course  share the same space in SERPs (Search Engine Result Pages). ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/research/sea"
     });
@@ -1115,7 +1115,7 @@ app.get("/en/technical", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is Technical SEO | SEO Berlin | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Technical SEO by a SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical"
     });
@@ -1162,7 +1162,7 @@ app.get("/en/seo", (req, res) => {
     res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Optimization and Analysis | SEO Berlino",
+        title: "Search Engine Optimization Resources | SEO Berlino",
         description: "SEO Definition: Analysis & Optimization. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/seo"
@@ -1174,7 +1174,7 @@ app.get("/de/seo", (req, res) => {
     res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Check und Analyse | SEO Berlino",
+        title: "Suchmaschinenoptimierung Resources | SEO Berlino",
         description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/seo"
@@ -1205,53 +1205,56 @@ app.get("/en/datenschutz", (req, res) => {
     });
 });
 
-app.get("/en/freeaudit", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("freeaudit", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "Free SEO Audit Berlin | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/freeaudit"
+
+
+app.get("/en/freeaudit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
     });
+    response.end();
 });
 
-app.get("/de/freeaudit", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("freeaudit", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "SEO Check Kostenlos Berlin | SEO Berlino",
-        description: "SEO Check Kostenlos. Kontaktieren Sie uns jetzt für weitere Details.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/freeaudit"
+
+
+app.get("/de/freeaudit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
     });
+    response.end();
 });
 
-app.get("/en/partnership", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("partnership", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "SEO Partnership Berlin | SEO Berlino",
-        description: "SEO Partnership with Consultant in Berlin: Audit for Sponsor. SEO Consultant with close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/partnership"
+app.get("/en/partnership", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
     });
+    response.end();
+});
+app.get("/de/partnership", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
 });
 
-app.get("/de/partnership", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("partnership", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "SEO Partnerschaft | SEO Berlino",
-        description: "SEO Partnerschaft. Kontaktieren Sie uns jetzt für weitere Details.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/partnership"
+
+
+app.get("/de/seo-for-small-businesses", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
     });
+    response.end();
 });
+
+
+app.get("/en/seo-for-small-businesses", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
 
 app.get("/en/contact", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1289,36 +1292,14 @@ app.get("/de/contact", (req, res) => {
     });
 });
 
-app.get("/de/seo-for-small-businesses", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("servicesfreelancers", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "SEO Beratung für Kleinunternehmen Berlin | SEO Berlino",
-        description: "SEO Audit für Kleinunternehmen in Berlin. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/seo-for-small-businesses"
-    });
-});
 
-app.get("/en/seo-for-small-businesses", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("servicesfreelancers", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "SEO Consultant for small Businesses| SEO Berlino",
-        description: "SEO Consultant in Berlin for . Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/seo-for-small-businesses"
-    });
-});
 
 app.get("/de/seo-beratung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung | SEO Experte | SEO Berlino",
+        title: "SEO Beratung: Audit, Web Analyse | SEO Berlino",
         description: "SEO Beratung in Berlin. SEO Experte. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/seo-consultancy"
@@ -1329,7 +1310,7 @@ app.get("/en/seo-consultancy", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "SEO Consultancy | SEO Expert | SEO Berlino",
+        title: "SEO Consultancy: Audit, Analytics | SEO Berlino",
         layout: "main",
         description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1478,7 +1459,7 @@ app.get("/de/lexical/google-keyword-tool", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Google Keyword Planner für Suchmaschinenoptimierung | SEO Berlino",
-        description: "Google Keyword Planner     für Suchmaschinenoptimierung",
+        description: "Google Keyword Planner für Suchmaschinenoptimierung",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/google-keyword-tool"
     });
@@ -1864,7 +1845,7 @@ app.get("/en/article/why-you-need-implement-structured-data", (req, res) => {
     res.render("blog6", {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "Why you need to implement Structured Data | SEO Berlin | SEO Berlino",
+        title: "Why you need to implement Structured Data | SEO Berlino",
         description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
