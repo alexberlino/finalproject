@@ -137,8 +137,8 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO & Analytics Agile Consultant & Freelancer | SEO Berlino",
-        description: "SEO Consultant with 10 years experience. Clients: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
+        title: "SEO & Analytics Agile Consultant based in Berlin | SEO Berlino",
+        description: "SEO and Analytics Expert Consultant with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
         alt2: "/fr"
@@ -896,7 +896,7 @@ app.get("/en/audit", (req, res) => {
     res.render("audit", {
         layout: "main",
         description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
-        title: "SEO Audits: On-page, Off-page, Technikes SEO | SEO Berlino",
+        title: "SEO Audits by SEO Experts in Berlin | SEO Berlino",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/audit"
     });
@@ -950,16 +950,7 @@ app.get("/de/scrum", (req, res) => {
     });
 });
 
-app.get("/en/backlinks", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("beratunglinks", {
-        layout: "main",
-        title: "SEO Backlinks Beratung Berlin | SEO Berlino",
-        description: "SEO Audit in Berlin",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/backlinks"
-    });
-});
+
 
 
 app.get("/de/analytics", (req, res) => {
@@ -999,8 +990,8 @@ app.get("/en/content", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungcontent", {
         layout: "main",
-        title: "SEO Content Consultant Berlin | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        title: "SEO Content Growth Hacking Consultant | SEO Berlino",
+        description: "Boost traffic with targeted Content Creation. SEO Growth Hacking by your SEO Consultant in Berlin, over 10 years experience.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/content"
     });
@@ -1213,7 +1204,20 @@ app.get("/en/freeaudit", function(request, response) {
     });
     response.end();
 });
+app.get("/en/backlinks", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
+
+app.get("/de/backlinks", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 
 app.get("/de/freeaudit", function(request, response) {
@@ -1261,8 +1265,8 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Expert in Berlin - Get in touch | SEO Berlino",
-        description: "SEO Consultant Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        title: "Get in touch - SEO Freelancer in Berlin | SEO Berlino",
+        description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/contact"
     });
@@ -1310,9 +1314,9 @@ app.get("/en/seo-consultancy", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "SEO Consultancy: Audit, Analytics | SEO Berlino",
+        title: "SEO Consultancy Services | SEO Berlino",
         layout: "main",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "SEO & Analytics Consultancy services: SEO, Analytics, SEA and scrum implementation. 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross…",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/seo-beratung"
     });
