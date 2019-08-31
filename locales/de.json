@@ -412,9 +412,7 @@
 	"landingMP5": "Allgemeine technische Anforderungen gelten auch für die Ladezeiten (engl. Page Speed). Die Website muss sich schnell aufbauen und natürlich kompatibel für Mobile Endgeräte sein. Zu guter Letzt sollte die Seite für Indexierung und Crawling zugänglich sein.",
 	"metasMPT1": "Einfach zu implementieren und effizient",
 	"metasMP1": "Seitentitel (engl. Page Titles) werden oft vernachlässigt, sind allerdings extrem wichtig und sehr einfach zu realisieren. Wesentlich ist, dass Sie mit der Formulierung ins Schwarze treffen. Jede Seite sollte einzigartige Titel haben, die klar den Fokus der Seite wiedergeben und dafür die Suchbegriffe der Nutzer verwenden, so wie sie auf der Keyword Liste aufgeführt sind. Dies gilt auch für die Startseite, Ihre wichtigste Seite von allen. Wenn Sie nicht bereits eine große Marke mit großer Markenbekanntheit sind, vermeiden Sie es nur Ihren Markennamen zu verwenden; achten Sie vielmehr darauf, die wichtigsten Schlüsselbegriffe aufzugreifen, um Ihr Geschäft optimal zu beschreiben.",
-	"metasMPT2": "",
 	"metasMP2": "Meta Beschreibungen sind für ein gutes Ranking Ihrer Seite nicht zwingend notwendig. Sofern Ihre Meta Beschreibung fehlt oder leer ist, füllt Google die Lücke mit anderem Text. Wenn Sie eine Beschreibung haben, sie von Google jedoch nicht verwendet wird, erachtet die Suchmaschine sie für den Suchbegriff offensichtlich nicht als relevant genug. So oder so sind Meta Beschreibungen für Ihr CTR wichtig: in der Beschreibung enthaltene Begriffe werden fett gedruckt angezeigt, dadurch bestätigen Sie dem Nutzer, dass Ihr Eintrag der passendste ist und dieses Extra führt Sie zum Klick.",
-	"metasMPT3": "",
 	"metasMP3": "Sie sollten ein h1 pro Seite haben, wobei h1 Ihr wichtigster Suchbegriff für die Seite ist. Danach können Sie h2, h3 usw. entsprechend der inhaltlichen Logik bestimmen.",
 	"metasMPT4": "Website Crawl",
 	"metasMP4": "Es gibt mehrere Tools wie Screaming Frog die problemlos fehlende oder leere Metas erkennen, ebenso können Sie damit doppelte oder unklare Metas reparieren, die beispielsweise zu lang oder zu kurz sind.",
@@ -482,6 +480,5 @@
 	"auditintro-extra": "auditintro-extra",
 	"auditfocusList": "Der Schwerpunkt des Audits liegt für Sie im Aufgabenbereich, der auf allen Erkenntnissen basiert: \n<br> -eine Erklärung zu jedem Problem, \n<br> -Priorität, \n<br> -Erwartete Ergebnisse \n<br> -Lösung",
 	"agileHP": "Erfahrung mit der Implementierung von Scrum (als Head of SEO bei Spreadshirt) als Product Owner und auch bei Montblanc. Wird verwendet, um sicherzustellen, dass Einträge aus dem Backlog priorisiert werden. Ich bin Scrum Master zertifiziert (2013)",
-	"": "",
-	"lexical": "lexical"
+	"lexical": "Lexicon"
 }
