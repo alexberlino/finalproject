@@ -111,8 +111,8 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO & Analytics Agile Consultant & Freelancer | SEO Berlino",
-        description: "SEO Consultant with 10 years experience. Clients: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
+        title: "SEO & Analytics Agile Freelancer Berlin | SEO Berlino",
+        description: "SEO and Analytics Expert Consultant with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
         alt2: "/fr"
@@ -124,7 +124,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO & Analytics Agile Freelancer / Consultant | SEO Berlino",
+        title: "SEO & Analytics Agile Consultant Berlin | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
         description: "Alex Bieth: SEO Freelancer / Consultant. 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "/en",
@@ -137,7 +137,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO & Analytics Agile Consultant based in Berlin | SEO Berlino",
+        title: "SEO & Analytics Agile Freelancer Berlin | SEO Berlino",
         description: "SEO and Analytics Expert Consultant with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
@@ -150,7 +150,7 @@ app.get("/fr", (req, res) => {
     res.render("home", {
         requrl: "/en",
         layout: "mainFR",
-        title: "Freelancer SEO Référencement | SEO Berlino",
+        title: "Freelancer SEO Référencement Berlin | SEO Berlino",
         description: "Consultant SEO.  10 ans d'expérience : Spreadshirt, Ricoh, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/fr",
         alt: "/en",
@@ -740,7 +740,7 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
     res.render("backlinkanalysis", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Backlink Analyse SEO - SEO Consultant Berlin | SEO Berlino",
+        title: "Backlink Analyse SEO | SEO Berlino",
         description: "SEO Freelancer & Consultant Backlink Analyse in Berlin. Im Zuge eines Backlink Profil Audits muss ein Bericht über die Vor- und Nachteile des Profils erstellt werden. Zudem sollte es ein Audit der Konkurrenten beinhalten um Sie und Ihre Seite im Wettbewerb verorten zu können. Danach kann ein Brainstorming über angestrebte Links stattfinden.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/offpage/backlinkanalysis"
@@ -1303,7 +1303,7 @@ app.get("/de/seo-beratung", (req, res) => {
     res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Beratung: Audit, Web Analyse | SEO Berlino",
+        title: "SEO Freelancer Beratung: Audit, Web Analyse | SEO Berlino",
         description: "SEO Beratung in Berlin. SEO Experte. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/seo-consultancy"
@@ -1314,7 +1314,7 @@ app.get("/en/seo-consultancy", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "SEO Consultancy Services | SEO Berlino",
+        title: "SEO Consultant: SEO Services | SEO Berlino",
         layout: "main",
         description: "SEO & Analytics Consultancy services: SEO, Analytics, SEA and scrum implementation. 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross…",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
