@@ -1204,6 +1204,16 @@ app.get("/en/freeaudit", function(request, response) {
     });
     response.end();
 });
+
+app.get("/en/seonews", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
 app.get("/en/backlinks", function(request, response) {
     response.writeHead(410, {
         Expires: new Date().toGMTString()
@@ -1239,6 +1249,70 @@ app.get("/de/partnership", function(request, response) {
     });
     response.end();
 });
+
+app.get("/de/technical/ladegeschwindigkeit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("de/on-page/structured-data-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/off-page", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("de/off-page/backlink-analyse", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/technik/security", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/onpage/content", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/technical/security", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/seo-tips", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+
 
 
 

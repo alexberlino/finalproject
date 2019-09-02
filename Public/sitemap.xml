@@ -259,6 +259,8 @@ f
 
 <url><loc>https://www.seoberlino.com/de/contact</loc></url>
 
+<url><loc>https://www.seoberlino.com/fr/contact</loc></url>
+
 
 
 
@@ -277,6 +279,8 @@ f
 
 <url><loc>https://www.seoberlino.com/en/lexical/nofollow</loc></url>
 <url><loc>https://www.seoberlino.com/en/lexical/rankbrain</loc></url>
+<url><loc>https://www.seoberlino.com/de/lexical/rankbrain</loc></url>
+
 
 
 <url><loc>https://www.seoberlino.com/de/lexical/nofollow</loc></url>
@@ -351,6 +355,8 @@ f
 
 
 <url><loc>https://www.seoberlino.com/de/lexical/lighthouse</loc></url>
+
+<url><loc>https://www.seoberlino.com/en/article/why-you-need-implement-structured-data</loc></url>
 
 
 <url><loc>https://www.seoberlino.com/en/lexical/search-volume</loc></url>
