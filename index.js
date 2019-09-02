@@ -428,7 +428,7 @@ app.get("/de/onpage/landingpages", (req, res) => {
     res.render("landingpages", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Landingpage Optimierung | Suchmaschinenoptimierung | SEO Berlino",
+        title: "Landingpage Optimierung | SEO Berlino",
         description: "Die Keywords, die Sie als die wichtigsten für Ihre Seite ausgewählt haben sollten für Inhalte und allgemeine Onpage Optimierung genutzt werden. Achten Sie darauf, dass keine andere Seite den Traffic für Ihre ausgewählten Keywords abzieht und dass der natürliche Traffic nicht auf einer anderen, als der dafür bestimmten Seite landet.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage/landingpages"
@@ -459,29 +459,7 @@ app.get("/de/onpage/structured-data-de", (req, res) => {
     });
 });
 
-app.get("/en/research/analytics", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("analytics", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "Web Analytics for SEO | SEO Berlino",
-        description: "In order to efficiently work in SEO, especially for on-page work, it  is crucial to use reliable data, and analytics is key here in  compiling reports which will enable for instance to identify the  number of visits/unique visitors and conversions for specific pages  and site sections, or compare data by device type or browser.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/forschung/webanalyse"
-    });
-});
 
-app.get("/de/forschung/webanalyse", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("analytics", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "Webanalyse für SEO | SEO Berlino",
-        description: "Um im SEO effizient arbeiten zu können, besonders im Bereich Onpage, sind verlässliche Daten unerlässlich.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/research/analytics"
-    });
-});
 //
 // app.get("/en/research/wordpress", (req, res) => {
 //     i18n.setLocale(req, "en");
@@ -619,7 +597,7 @@ app.get("/de/technical/pagespeed", (req, res) => {
     res.render("pagespeed", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Seitengeschwindigkeit Page Speed SEO | SEO Berlino",
+        title: "Seitengeschwindigkeit SEO | SEO Berlino",
         description: "So machen Sie Ihre Seite schneller. Für Page Speed, nutzen Sie schnelle Host-Dienste, einen schnellen DNS (“Domain Name System”) Provider",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/pagespeed"
@@ -643,7 +621,7 @@ app.get("/de/technical/mobilefriendly", (req, res) => {
     res.render("mobile", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Mobile First Suchmaschinenoptimierung | SEO Berlino",
+        title: "SEO Mobile First | SEO Berlino",
         description: "Sofern Ihre Webseite nicht für mobile Endgeräte geeignet ist, stellt dies in den meisten Fällen ein Problem dar, denn Google verfährt mittlerweile nach dem Prinzip “mobile-first”,  nutzt für die Indexierung also die Mobile Webseite.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/mobilefriendly"
@@ -800,7 +778,7 @@ app.get("/de/blog", (req, res) => {
     res.render("blog", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Blog - Suchmaschinenoptimierung Blog | SEO Berlino",
+        title: "Suchmaschinenoptimierung Blog | SEO Berlino",
         description: "SEO Blog von SEO Berlin, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "/en/blog",
         alt: "/en/blog"
@@ -812,7 +790,7 @@ app.get("/en/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Specialist in Berlin - Impressum | SEO Berlino",
+        title: "Impressum | SEO Berlino",
         description: "SEO Berlin Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "/de/impressum",
         alt: "/de/impressum"
@@ -824,36 +802,14 @@ app.get("/de/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Spezialist in Berlin | SEO Berlino",
+        title: "Impressum | SEO Berlino",
         description: "SEO Spezialist in Berlin. Impressum für SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/impressum"
     });
 });
 
-app.get("/en/seonews", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seonews", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "Google SEO News | SEO Berlino",
-        description: "SEO News around the web, from SEO Berlin, SEO and Analytics Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seonews",
-        alt: "/de/seonews"
-    });
-});
 
-app.get("/de/seonews", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seonews", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "SEO Nachrichten | SEO Berlino",
-        description: "SEO Nachrichten von SEO Berlin. SEO Berater in Berlin. ",
-        canonical: "/en/seonews",
-        alt: "/en/seonews"
-    });
-});
 
 app.get("/en/offpage", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1076,29 +1032,9 @@ app.get("/de/forschung/local-seo-de", (req, res) => {
     });
 });
 
-app.get("/en/research/sea", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("sea", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "Search Engine Advertising and SEO| SEO Berlino",
-        description: "Paid Search uses the same base as SEO in keywords, and of course  share the same space in SERPs (Search Engine Result Pages). ",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/forschung/suchmaschinenwerbung"
-    });
-});
 
-app.get("/de/forschung/suchmaschinenwerbung", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("sea", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "Suchmaschinenwerbung und SEO | SEO Berlin | SEO Berlino",
-        description: "Paid Search uses the same base as SEO in keywords, and of course  share the same space in SERPs (Search Engine Result Pages). ",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/research/sea"
-    });
-});
+
+
 
 app.get("/en/technical", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1124,29 +1060,9 @@ app.get("/de/technical", (req, res) => {
     });
 });
 
-app.get("/en/research", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("research", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "Research and Analytics SEO | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/research"
-    });
-});
 
-app.get("/de/research", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("research", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "Webanalyse und Research Berlin SEO  | SEO Berlino",
-        description: "Wenn Sie ein Ladenlokal haben, wie ein Geschäft oder ein Büro in dem Sie oft Besucher empfangen, ist ein wichtiger Aspekt Ihrer Webseitenoptimierung sicherzustellen, dass Menschen Sie auch im wirklichen Leben finden.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/research"
-    });
-});
+
+
 
 app.get("/en/seo", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1196,6 +1112,19 @@ app.get("/en/datenschutz", (req, res) => {
     });
 });
 
+app.get("/research/analytics", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/forschung/webanalyse", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 
 app.get("/en/freeaudit", function(request, response) {
@@ -1265,6 +1194,31 @@ app.get("de/on-page/structured-data-de", function(request, response) {
     response.end();
 });
 
+
+app.get("/en/research/sea", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/forschung/suchmaschinenwerbung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 app.get("/de/off-page", function(request, response) {
     response.writeHead(410, {
