@@ -111,8 +111,8 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO & Analytics Agile Freelancer Berlin | SEO Berlino",
-        description: "SEO and Analytics Expert Consultant with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
+        title: "Agile SEO & Analytics Consultant based in Berlin  | SEO Berlino",
+        description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
         alt2: "/fr"
@@ -126,7 +126,7 @@ app.get("/de", (req, res) => {
         layout: "mainDEHP",
         title: "SEO & Analytics Agile Consultant Berlin | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
-        description: "Alex Bieth: SEO Freelancer / Consultant. 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
+        description: "SEO Experte, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "/en",
         alt2: "/fr"
     });
@@ -137,8 +137,8 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO & Analytics Agile Freelancer Berlin | SEO Berlino",
-        description: "SEO and Analytics Expert Consultant with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
+        title: "Agile SEO & Analytics Consultant based in Berlin  | SEO Berlino",
+        description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
         alt2: "/fr"
@@ -619,7 +619,7 @@ app.get("/de/technical/pagespeed", (req, res) => {
     res.render("pagespeed", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Page Speed SEO Seitengeschwindigkeit | SEO Berlino",
+        title: "Seitengeschwindigkeit Page Speed SEO | SEO Berlino",
         description: "So machen Sie Ihre Seite schneller. Für Page Speed, nutzen Sie schnelle Host-Dienste, einen schnellen DNS (“Domain Name System”) Provider",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/pagespeed"
@@ -1309,12 +1309,6 @@ app.get("/seo-tips", function(request, response) {
     });
     response.end();
 });
-
-
-
-
-
-
 
 app.get("/de/seo-for-small-businesses", function(request, response) {
     response.writeHead(410, {

@@ -55,7 +55,7 @@
 	"hey7": "Wettbewerbsanalyse",
 	"hey8": "Off-Page Prüfung",
 	"clients": "Kunden",
-	"intro1": "SEO Berater - 10 Jahre SEO Erfahrung",
+	"intro1": "SEO Consultant - 10 Jahre SEO Erfahrung",
 	"client1": "Schneller, zuverlässiger und professioneller SEO-Berater. Ich würde ihn auf jeden Fall weiterempfehlen.",
 	"client2": "Ich kann gern Alex als SEO Experte empfehlen. Gründlich und professionell. Danke, Alex!",
 	"client3": "Es war großartig, mit Alex als SEO Freelancer zusammenzuarbeiten. Er hat mir dabei geholfen, ein solides Fundament für die zukünftige Arbeit zu schaffen.",
@@ -357,7 +357,7 @@
 	"securityMP1": "Hyper Text Transfer Protocol Secure (HTTPS) ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Website laufen. Das “S” in  HTTPS steht für “secure”. Konkret bedeutet es, dass jede Kommunikation zwischen Browser und Website verschlüsselt wird.",
 	"securityMPT2": "HTTPS ist jetzt der Normalfall.",
 	"securityMP2": " Ursprünglich wurde HTTPS genutzt, um hoch vertrauliche Transaktionen wie Online Banking oder Bestellformulare für Onlineshopping abzusichern. Mittlerweile ist es jedoch zur Norm geworden. ",
-	"securityMPT3": "",
+	"SEOResources": "SEO Tipps",
 	"securityMP3": "Mag die Nutzung von HTTPS in der Vergangenheit einen Wettbewerbsvorteil für “early adopters” bedeutet haben, so sind diese Zeiten definitiv vorbei. Wenn Sie den Wechsel noch nicht vollzogen haben, sollte dieser auf Ihrer Prioritätenliste ganz weit oben stehen. Seit Sommer 2018 zeigt Chrome eine “nicht sicher”-Warnung an. Sie können daher davon ausgehen, dass ohne HTTPS nicht nur Ihre Position im Ranking leidet, sondern auch die Absprungrate (engl. Bounce Rate) in die Höhe schnellt.",
 	"securityMPT4": "Migration",
 	"securityMP4": "Planen Sie Ihren Umzug (engl. Site Migration) sorgfältig und legen Sie auch fest, welche Seiten weitergeleitet werden sollen (dies sollten die wichtigsten sein) und welche nicht. Timing ist hier wichtig, um mögliche Risiken zu vermeiden: vollziehen Sie diesen Wechsel daher auf keinen Fall unmittelbar vor Ihrer Hauptsaison.",
@@ -480,7 +480,5 @@
 	"auditintro-extra": "auditintro-extra",
 	"auditfocusList": "Der Schwerpunkt des Audits liegt für Sie im Aufgabenbereich, der auf allen Erkenntnissen basiert: \n<br> -eine Erklärung zu jedem Problem, \n<br> -Priorität, \n<br> -Erwartete Ergebnisse \n<br> -Lösung",
 	"agileHP": "Erfahrung mit der Implementierung von Scrum (als Head of SEO bei Spreadshirt) als Product Owner und auch bei Montblanc. Wird verwendet, um sicherzustellen, dass Einträge aus dem Backlog priorisiert werden. Ich bin Scrum Master zertifiziert (2013)",
-	"lexical": "Lexicon",
-	"": "",
-	"seaMP11": "seaMP11"
+	"lexical": "Lexicon"
 }
