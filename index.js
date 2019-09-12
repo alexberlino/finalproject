@@ -1069,7 +1069,7 @@ app.get("/en/seo", (req, res) => {
     res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Search Engine Optimization Resources | SEO Berlino",
+        title: "Search Engine Optimization Tips | SEO Berlino",
         description: "SEO Definition: Analysis & Optimization. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/seo"
@@ -1081,7 +1081,7 @@ app.get("/de/seo", (req, res) => {
     res.render("seo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Suchmaschinenoptimierung Resources | SEO Berlino",
+        title: "Suchmaschinenoptimierung Tipps | SEO Berlino",
         description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/seo"
