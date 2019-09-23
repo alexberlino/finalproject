@@ -1834,6 +1834,18 @@ app.get("/en/article/linkbuilding-in-2019", (req, res) => {
 });
 
 
+app.get("/en/article/clutch", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogclutch", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "SEO Berlino Named Top SEO Services Company in Germany | SEO Berlino",
+        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
+
+
 app.get("/en/article/seo-in-asia-korea-china-japan-2019", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogasia", {
