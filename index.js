@@ -1307,7 +1307,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "Get in touch - SEO Freelancer in Berlin | SEO Berlino",
+        title: "Profile and Contact - SEO Freelancer in Berlin | SEO Berlino",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/contact"
