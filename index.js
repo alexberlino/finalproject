@@ -34,7 +34,7 @@ app.engine(
 );
 app.set("view engine", ".hbs");
 i18n.configure({
-    locales: ["en", "de", "fr"],
+    locales: ["en", "de"],
     queryParameter: "lang",
     directory: __dirname + "/locales",
     autoReload: true,
