@@ -143,7 +143,7 @@ app.get("/en", (req, res) => {
     });
 });
 
-app.get("/fr", (req, res) => {
+app.get("/fr", function(request, response) {
     response.writeHead(410, {
         Expires: new Date().toGMTString()
     });
@@ -1287,7 +1287,7 @@ app.get("/en/contact", (req, res) => {
     });
 });
 
-app.get("/fr/contact", (req, res) => {
+app.get("/fr/contact", function(request, response) {
     response.writeHead(410, {
         Expires: new Date().toGMTString()
     });
