@@ -907,6 +907,51 @@ app.get("/de/scrum", (req, res) => {
     });
 });
 
+app.get("/en/scrum/pillars", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("scrumpillars", {
+        layout: "mainDE",
+        title: "Scrum's 3 Pillars | SEO Berlino",
+        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/scrum"
+    });
+});
+
+app.get("/en/scrum/team", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("scrumteam", {
+        layout: "mainDE",
+        title: "Scrum Team | SEO Berlino",
+        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/scrum"
+    });
+});
+
+app.get("/en/scrum/events", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("scrumevents", {
+        layout: "mainDE",
+        title: "Scrum Events | SEO Berlino",
+        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/scrum"
+    });
+});
+
+
+app.get("/en/scrum/artifacts", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("scrumartifacts", {
+        layout: "mainDE",
+        title: "Scrum Artifacts | SEO Berlino",
+        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "/de/scrum"
+    });
+});
+
 
 
 
