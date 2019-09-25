@@ -2,26 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.seoberlino.com/en</loc>
-
   </url>
   <url>
     <loc>https://www.seoberlino.com/de</loc>
-
   </url>
-
-  <url>
-    <loc>https://www.seoberlino.com/fr</loc>
-
-  </url>
-
   <url>
     <loc>https://www.seoberlino.com/en/scrum/pillars</loc>
-
   </url>
-
   <url>
     <loc>https://www.seoberlino.com/en/scrum/team</loc>
-
   </url>
 
   <url>
@@ -57,8 +46,6 @@
     <loc>https://www.seoberlino.com/de/scrum</loc>
 
   </url>
-
-
   <url>
     <loc>https://www.seoberlino.com/en/content</loc>
 
@@ -76,8 +63,6 @@
     <loc>https://www.seoberlino.com/de/analytics</loc>
 
   </url>
-
-
   <url>
     <loc>https://www.seoberlino.com/en/sea</loc>
 
@@ -86,23 +71,15 @@
     <loc>https://www.seoberlino.com/de/sea</loc>
 
   </url>
-
-
-
-
   <url>
     <loc>https://www.seoberlino.com/en/onpage</loc>
 
   </url>
 
-
   <url>
     <loc>https://www.seoberlino.com/en/onpage/content</loc>
 
   </url>
-
-
-
 <url><loc>https://www.seoberlino.com/en/onpage/duplicatecontent</loc>
 </url>
 
@@ -147,56 +124,27 @@
 
 <url><loc>https://www.seoberlino.com/en/technical/security</loc></url>
 
-
-
 <url><loc>https://www.seoberlino.com/en/offpage</loc></url>
 
 
 <url><loc>https://www.seoberlino.com/en/technical</loc></url>
-
-
-
-
 <url><loc>https://www.seoberlino.com/en/blog</loc></url>
 
-
 <url><loc>https://www.seoberlino.com/en/contact</loc></url>
-
-
-
-
-
 <url><loc>https://www.seoberlino.com/en/seo</loc></url>
-
 <url><loc>https://www.seoberlino.com/en/seo-consultancy</loc></url>
-
 <url><loc>https://www.seoberlino.com/en/article/linkbuilding-in-2019</loc><priority>0.5</priority></url>
 <url><loc>https://www.seoberlino.com/en/article/beyond-mobile-first</loc><priority>0.5</priority></url>
 <url><loc>https://www.seoberlino.com/en/article/how-to-get-those-first-links</loc><priority>0.5</priority></url>
 
 <url><loc>https://www.seoberlino.com/en/article/link-building-to-brandbuilding</loc><priority>0.5</priority></url>
 <url><loc>https://www.seoberlino.com/en/article/seo-in-asia-korea-china-japan-2019</loc><priority>0.5</priority></url>
-
-
-
-
-
-
-
 <url><loc>https://www.seoberlino.com/de/contact</loc></url>
-
-
-
 <url><loc>https://www.seoberlino.com/de/impressum</loc>
 </url>
-
-
-
 <url><loc>https://www.seoberlino.com/de/onpage</loc></url>
 
 <url><loc>https://www.seoberlino.com/de/onpage/inhalt</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/onpage/duplicatecontent</loc></url>
 
 <url><loc>https://www.seoberlino.com/de/onpage/bildoptimierung</loc></url>
@@ -215,10 +163,7 @@
 
 <url><loc>https://www.seoberlino.com/de/onpage/sprachsuche</loc></url>
 
-f
-
 <url><loc>https://www.seoberlino.com/de/offpage/brand-building</loc></url>
-
 
 <url><loc>https://www.seoberlino.com/de/offpage/toxic</loc></url>
 
@@ -232,138 +177,68 @@ f
 
 <url><loc>https://www.seoberlino.com/de/technical/internationalisierung</loc></url>
 
-
 <url><loc>https://www.seoberlino.com/de/technical/mobilefriendly</loc></url>
 
 
 <url><loc>https://www.seoberlino.com/de/technical/pagespeed</loc></url>
 
 <url><loc>https://www.seoberlino.com/de/technical/sicherheit</loc></url>
-
-
-
 <url><loc>https://www.seoberlino.com/de/offpage</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/technical</loc></url>
-
-
-
-
-
-
 
 <url><loc>https://www.seoberlino.com/de/contact</loc></url>
 
-<url><loc>https://www.seoberlino.com/fr/contact</loc></url>
-
-
-
-
-
 <url><loc>https://www.seoberlino.com/de/seo</loc></url>
-
-
-
-
 <url><loc>https://www.seoberlino.com/de/seo-beratung</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/en/lexical/nofollow</loc></url>
 <url><loc>https://www.seoberlino.com/en/lexical/rankbrain</loc></url>
 <url><loc>https://www.seoberlino.com/de/lexical/rankbrain</loc></url>
-
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/nofollow</loc></url>
 
 <url><loc>https://www.seoberlino.com/en/lexical</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical</loc></url>
-
 <url><loc>https://www.seoberlino.com/en/lexical/sitemaps</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/sitemaps</loc></url>
-
 <url><loc>https://www.seoberlino.com/en/lexical/noindex</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/noindex</loc></url>
 
 <url><loc>https://www.seoberlino.com/en/lexical/alt-attribute</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/alt-attribute</loc></url>
 
 <url><loc>https://www.seoberlino.com/en/lexical/amp-pages</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/amp-pages</loc></url>
 
 
 <url><loc>https://www.seoberlino.com/en/lexical/google-keyword-tool</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/google-keyword-tool</loc></url>
-
-
-
 <url><loc>https://www.seoberlino.com/en/lexical/remove-url-tool</loc></url>
-
 
 <url><loc>https://www.seoberlino.com/de/lexical/disavow-tool</loc></url>
 
 <url><loc>https://www.seoberlino.com/en/lexical/disavow-tool</loc></url>
 
-
 <url><loc>https://www.seoberlino.com/de/lexical/remove-url-tool</loc></url>
-
 
 <url><loc>https://www.seoberlino.com/en/lexical/canonical</loc></url>
 
-
 <url><loc>https://www.seoberlino.com/de/lexical/canonical</loc></url>
-
-
-
 <url><loc>https://www.seoberlino.com/en/lexical/hreflang</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/hreflang</loc></url>
-
 <url><loc>https://www.seoberlino.com/en/lexical/long-tail</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/long-tail</loc></url>
-
 <url><loc>https://www.seoberlino.com/en/lexical/robots</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/robots</loc></url>
-
 <url><loc>https://www.seoberlino.com/en/lexical/lighthouse</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/lighthouse</loc></url>
-
 <url><loc>https://www.seoberlino.com/en/article/why-you-need-implement-structured-data</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/en/lexical/search-volume</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/search-volume</loc></url>
 
 <url><loc>https://www.seoberlino.com/en/lexical/search-console</loc></url>
-
-
 <url><loc>https://www.seoberlino.com/de/lexical/search-console</loc></url>
 
 <url>
   <loc>https://www.seoberlino.com/en/casestudy</loc>
-
 </url>
 <url>
   <loc>https://www.seoberlino.com/en/casestudy/zalando</loc>
@@ -375,10 +250,7 @@ f
 </url>
 <url>
   <loc>https://www.seoberlino.com/en/casestudy/fromatob</loc>
-
 </url>
-
-
 <url>
   <loc>https://www.seoberlino.com/en/casestudy/hometogo</loc>
 
@@ -391,19 +263,15 @@ f
 <url>
   <loc>https://www.seoberlino.com/en/casestudy/modomoto</loc>
 </url>
-
 <url>
   <loc>https://www.seoberlino.com/en/casestudy/juniqe</loc>
   </url>
 <url>
   <loc>https://www.seoberlino.com/en/casestudy/wooga</loc>
   </url>
-
 <url><loc>https://www.seoberlino.com/en/lexical/redirects</loc></url>
 <url><loc>https://www.seoberlino.com/de/lexical/google-pagespeed</loc></url>
 <url><loc>https://www.seoberlino.com/en/lexical/google-pagespeed</loc></url>
-
-
 
 <url><loc>https://www.seoberlino.com/de/lexical/redirects</loc></url>
 </urlset>

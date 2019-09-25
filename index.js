@@ -116,7 +116,6 @@ app.get("/", (req, res) => {
         description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
-        alt2: "/fr"
     });
 });
 
@@ -129,7 +128,6 @@ app.get("/de", (req, res) => {
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Experte, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "/en",
-        alt2: "/fr"
     });
 });
 
@@ -142,20 +140,14 @@ app.get("/en", (req, res) => {
         description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
-        alt2: "/fr"
     });
 });
 
 app.get("/fr", (req, res) => {
-    i18n.setLocale(req, "fr");
-    res.render("home", {
-        requrl: "/en",
-        layout: "mainFR",
-        title: "Freelancer SEO à Berlin, Allemagne | SEO Berlino",
-        description: "Consultant SEO.  10 ans d'expérience : Spreadshirt, Ricoh, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
-        canonical: "https://www.seoberlino.com/fr",
-        alt: "/en",
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
     });
+    response.end();
 });
 
 
@@ -736,18 +728,6 @@ app.get("/en/blog", (req, res) => {
     });
 });
 
-app.get("/en/blog", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("blog", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "SEO Blog - Search Engine Optimization Blog | SEO Berlino",
-        description: "SEO Berlin Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/blog",
-        alt: "/de/blog"
-    });
-});
-
 app.get("/de/blog", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blog", {
@@ -779,12 +759,10 @@ app.get("/de/impressum", (req, res) => {
         layout: "mainDE",
         title: "Impressum | SEO Berlino",
         description: "SEO Spezialist in Berlin. Impressum für SEO Berater, Experte in Webanalyse, SEA und SEO.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "/de/impressum",
         alt: "/en/impressum"
     });
 });
-
-
 
 app.get("/en/offpage", (req, res) => {
     i18n.setLocale(req, "en");
@@ -899,7 +877,6 @@ app.get("/en/scrum/team", (req, res) => {
         title: "Scrum Team | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/scrum"
     });
 });
 
@@ -910,7 +887,6 @@ app.get("/en/scrum/events", (req, res) => {
         title: "Scrum Events | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/scrum"
     });
 });
 
@@ -922,11 +898,8 @@ app.get("/en/scrum/artifacts", (req, res) => {
         title: "Scrum Artifacts | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/scrum"
     });
 });
-
-
 
 
 app.get("/de/analytics", (req, res) => {
@@ -1315,16 +1288,13 @@ app.get("/en/contact", (req, res) => {
 });
 
 app.get("/fr/contact", (req, res) => {
-    i18n.setLocale(req, "fr");
-    res.render("contact", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainFR",
-        title: "SEO Expert Berlin - Contact | SEO Berlino",
-        description: "SEO Expert basé à Berlin. 10 années d'expérience: SEO, Analyse Web & SEA. MBA, Scrum et dévelopement web.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/contact"
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
     });
+    response.end();
 });
+
+
 
 app.get("/de/contact", (req, res) => {
     i18n.setLocale(req, "de");
