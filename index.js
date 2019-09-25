@@ -112,7 +112,7 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/de" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "Agile SEO & Analytics Consultant based in Berlin  | SEO Berlino",
+        title: "SEO Consultant in Berlin, Agile and Analytics Expert | SEO Berlino",
         description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
@@ -125,7 +125,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO & Analytics Agile Consultant Berlin | SEO Berlino",
+        title: "SEO Freelancer, Analytics & Scrum | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Experte, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "/en",
@@ -138,7 +138,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "Agile SEO & Analytics Consultant based in Berlin  | SEO Berlino",
+        title: "SEO Consultant in Berlin, Agile and Analytics Expert | SEO Berlino",
         description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
@@ -151,7 +151,7 @@ app.get("/fr", (req, res) => {
     res.render("home", {
         requrl: "/en",
         layout: "mainFR",
-        title: "Freelancer SEO Référencement Berlin | SEO Berlino",
+        title: "Freelancer SEO à Berlin, Allemagne | SEO Berlino",
         description: "Consultant SEO.  10 ans d'expérience : Spreadshirt, Ricoh, Montblanc HQ, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/fr",
         alt: "/en",
@@ -460,32 +460,6 @@ app.get("/de/onpage/structured-data-de", (req, res) => {
     });
 });
 
-
-//
-// app.get("/en/research/wordpress", (req, res) => {
-//     i18n.setLocale(req, "en");
-//     res.render("wordpressseo", {
-//         requrl: "/en" + req.originalUrl.substring(3),
-//         layout: "main",
-//         title: "WordPress SEO | SEO Berlino",
-//         description: "In order to efficiently work with WordPress, especially for on-page work, it is crucial to use reliable data, and analytics is key here in  compiling reports which will enable for instance to identify the  number of visits/unique visitors and conversions for specific pages  and site sections, or compare data by device type or browser.",
-//         canonical: "https://www.seoberlino.com" + req.originalUrl,
-//         alt: "/de/forschung/wordpress"
-//     });
-// });
-//
-// app.get("/de/forschung/wordpress", (req, res) => {
-//     i18n.setLocale(req, "de");
-//     res.render("wordpressseo", {
-//         requrl: "/en" + req.originalUrl.substring(3),
-//         layout: "mainDE",
-//         title: "SEO für WordPress | SEO Berlino",
-//         description: "Für WordPress, um im SEO effizient arbeiten zu können, besonders im Bereich Onpage, sind verlässliche Daten unerlässlich.",
-//         canonical: "https://www.seoberlino.com" + req.originalUrl,
-//         alt: "/en/research/wordpress"
-//     });
-// });
-
 app.get("/en/research/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("competitor", {
@@ -731,7 +705,7 @@ app.get("/en/offpage/toxic", (req, res) => {
     res.render("links", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "What is a backlink ? | SEO Berlino",
+        title: "What is a backlink? | SEO Berlino",
         description: "Many think the more links, the better but it doesn't actually work that way. Too many low quality and/or spammy links and your website will lose Google credibility and therefore visibility.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/offpage/toxic"
@@ -743,7 +717,7 @@ app.get("/de/offpage/toxic", (req, res) => {
     res.render("links", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Was sind backlinks ? | SEO Berlino",
+        title: "Was sind backlinks? | SEO Berlino",
         description: "Viele denken, es gehe immer um eine möglichst große Anzahl von Links, dem ist allerdings nicht so. Zu viele Links von geringer Qualität und Spam senken Ihre Glaubwürdigkeit bei Suchmaschinen (engl. Google Credibility) und schaden somit Ihrer Sichtbarkeit.",
         canonical: "/de/offpage/toxic",
         alt: "/en/offpage/toxic"
@@ -841,7 +815,7 @@ app.get("/de/audit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("audit", {
         layout: "mainDE",
-        title: "SEO Audits: On-page, Off-page, Technical SEO | SEO Berlino",
+        title: "SEO Freelancer: On-page, Off-page, Technical SEO | SEO Berlino",
         description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/audit"
@@ -853,7 +827,7 @@ app.get("/en/audit", (req, res) => {
     res.render("audit", {
         layout: "main",
         description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
-        title: "SEO Audits by SEO Experts in Berlin | SEO Berlino",
+        title: "SEO Freelancer for SEO Audits in Berlin | SEO Berlino",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/audit"
     });
@@ -866,7 +840,7 @@ app.get("/de/sea", (req, res) => {
     res.render("beratungsea", {
         layout: "mainDE",
         title: "SEA Beratung Berlin | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        description: "SEA Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/sea"
     });
@@ -877,7 +851,7 @@ app.get("/en/sea", (req, res) => {
     res.render("beratungsea", {
         layout: "main",
         title: "SEA Consultancy Berlin | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        description: "SEA Audit in Berlin",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/sea"
     });
@@ -889,7 +863,7 @@ app.get("/en/scrum", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungscrum", {
         layout: "mainDE",
-        title: "Implement and use scrum for SEO Projects | SEO Berlino",
+        title: "Scrum Master in Berlin, scrum for SEO Projects | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/scrum"
@@ -900,7 +874,7 @@ app.get("/de/scrum", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratungscrum", {
         layout: "mainDE",
-        title: "Scrum-Implementierung für SEO-Projekte | SEO Berlino",
+        title: "Scrum Master -Implementierung für SEO-Projekte | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com/de/scrum",
         alt: "/en/scrum"
