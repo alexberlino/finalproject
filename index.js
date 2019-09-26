@@ -883,6 +883,7 @@ app.get("/en/scrum/team", (req, res) => {
 app.get("/en/scrum/events", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumevents", {
+        layout: "mainNoAlt",
         title: "Scrum Events | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
