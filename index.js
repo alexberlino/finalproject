@@ -169,7 +169,7 @@ app.get("/en/casestudy/fromatob", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "fromAtoB: SEO Case Study | SEO Berlino",
-        description: "SEO Case Study: Berlin's fromAtoB  ",
+        description: "Mini SEO Case Study about Berlin's fromAtoB: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/casestudy/fromatob"
     });
@@ -181,7 +181,7 @@ app.get("/en/casestudy/zalando", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Zalando: SEO Case Study | SEO Berlino",
-        description: "SEO Case Study: Berlin's Zalando  ",
+        description: "Mini SEO Case Study about Berlin's Zalando: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/casestudy/zalando"
     });
@@ -194,7 +194,7 @@ app.get("/en/casestudy/wooga", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Wooga: SEO Case Study | SEO Berlino",
-        description: "SEO Case Study: Berlin's Wooga  ",
+        description: "Mini SEO Case Study about Berlin's Wooga: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/casestudy/wooga"
     });
@@ -206,7 +206,7 @@ app.get("/en/casestudy/juniqe", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Juniqe: SEO Berlin Case Study | SEO Berlino",
-        description: "SEO Case Study: Berlin's Juniqe  ",
+        description: "Mini SEO Case Study about Berlin's Juniqe: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/casestudy/juniqe"
     });
@@ -218,7 +218,7 @@ app.get("/en/casestudy/modomoto", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Modomoto: SEO Berlin Case Study | SEO Berlino",
-        description: "SEO Case Study: Berlin's Modomoto  ",
+        description: "Mini SEO Case Study about Berlin's Modomoto: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/casestudy/modomoto"
     });
@@ -230,7 +230,7 @@ app.get("/en/casestudy/n26", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "N26 : SEO Berlin Case Study | SEO Berlino",
-        description: "SEO Case Study: Berlin's N26  ",
+        description: "Mini SEO Case Study about Berlin's N26: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/casestudy/n26"
     });
@@ -242,7 +242,7 @@ app.get("/en/casestudy/hellofresh", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Hello Fresh: SEO Berlin Case Study | SEO Berlino",
-        description: "SEO Case Study: Berlin's Hello Fresh  ",
+        description: "Mini SEO Case Study about Berlin's Hello Fresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/casestudy/hellofresh"
     });
@@ -266,7 +266,7 @@ app.get("/en/casestudy/hometogo", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Home ToGo: SEO Berlin Case Study | SEO Berlino",
-        description: "SEO Berlin Case Study: Berlin's Home ToGo  ",
+        description: "Mini SEO Case Study about Berlin's Home To Go: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/casestudy/hometogo"
     });
@@ -638,7 +638,7 @@ app.get("/de/technical/dynamic-rendering-de", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Javascript Webframes SEO  | SEO Berlino",
-        description: "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme, Crawling und Indexierung auf allen Seiten angemessen durchzuführen. Wenngleich sie ankündigen, im Laufe der Zeit und durch viele Seitenaufrufen (engl. Visits) gute Ergebnisse erzielen zu können, empfehlen sie für die meisten Seiten Dynamic Rendering.",
+        description: "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme, Crawling und Indexierung auf allen Seiten angemessen durchzuführen.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/dynamicrendering"
     });
@@ -864,7 +864,7 @@ app.get("/en/scrum/pillars", (req, res) => {
     res.render("scrumpillars", {
         layout: "mainNoAlt",
         title: "Scrum's 3 Pillars | SEO Berlino",
-        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        description: "Scrum 3 Pillars. Learn about Scrum and how to Implement Scrum it for your SEO Projects.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/scrum"
     });
@@ -875,7 +875,7 @@ app.get("/en/scrum/team", (req, res) => {
     res.render("scrumteam", {
         layout: "mainNoAlt",
         title: "Scrum Team | SEO Berlino",
-        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        description: "More about the Scrum Team and how to implement it. Agile Expert in Berlin.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
 });
@@ -885,7 +885,7 @@ app.get("/en/scrum/events", (req, res) => {
     res.render("scrumevents", {
         layout: "mainNoAlt",
         title: "Scrum Events | SEO Berlino",
-        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        description: "Learn about the Scrum Events and how to Implement scrum for your SEO Projects.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
 });
@@ -896,7 +896,7 @@ app.get("/en/scrum/artifacts", (req, res) => {
     res.render("scrumartifacts", {
         layout: "mainNoAlt",
         title: "Scrum Artifacts | SEO Berlino",
-        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        description: "Learn about scrum artifacts and Implement Scrum for your SEO Projects. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
 });
@@ -907,7 +907,7 @@ app.get("/de/analytics", (req, res) => {
     res.render("beratunganalytics", {
         layout: "mainDE",
         title: "SEO Webanalyse Beratung Berlin | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        description: "SEO Analytics Services in Berlin, SEO Expert mit über 10 Jahren Erfahrung mit Unternehmen wie Montblanc, Spreadshirt und Ricoh.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/analytics"
     });
@@ -918,7 +918,7 @@ app.get("/en/analytics", (req, res) => {
     res.render("beratunganalytics", {
         layout: "main",
         title: "SEO Analytics Consultant Berlin | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        description: "SEO Analytics services in Berlin, SEO Expert with over 10 years experience with companies such as Montblanc, Spreadshirt and Ricoh.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/analytics"
     });
@@ -929,7 +929,7 @@ app.get("/de/content", (req, res) => {
     res.render("beratungcontent", {
         layout: "mainDE",
         title: "SEO Content Beratung Berlin | SEO Berlino",
-        description: "SEO Audit in Berlin",
+        description: "Steigern Sie den Traffic durch gezielte Inhaltserstellung. SEO Growth Hacking durch Ihren SEO-Berater in Berlin, über 10 Jahre Erfahrung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/content"
     });
@@ -1342,7 +1342,7 @@ app.get("/en/lexical/nofollow", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Nofollow Links | SEO Berlino",
-        description: "Understand NoFollow Links and how they affect your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand NoFollow Links and how they affect your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/nofollow"
     });
@@ -1354,7 +1354,7 @@ app.get("/de/lexical/nofollow", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Nofollow Links | SEO Berlino",
-        description: "Understand NoFollow Links and how they affect your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand NoFollow Links and how they affect your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/nofollow"
     });
@@ -1367,7 +1367,7 @@ app.get("/en/lexical/rankbrain", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is Google's Rankbrain | SEO Berlino",
-        description: "Understand Rankbrain and how it affects your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand Rankbrain and how it affects your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/rankbrain"
     });
@@ -1391,7 +1391,7 @@ app.get("/en/lexical/alt-attribute", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Alt Attribute for SEO Images | SEO Berlino",
-        description: "Understand Alt Attribute and how can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand Alt Attribute and how can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/alt-attribute"
     });
@@ -1415,7 +1415,7 @@ app.get("/en/lexical/amp-pages", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "AMP for SEO | SEO Berlino",
-        description: "Understand AMP and how can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand AMP and how can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/amp-pages"
     });
@@ -1439,7 +1439,7 @@ app.get("/en/lexical/canonical", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Canonicals for SEO | SEO Berlino",
-        description: "Understand Canonicals work and how they can help you improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand Canonicals work and how they can help you improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/canonical"
     });
@@ -1463,7 +1463,7 @@ app.get("/en/lexical/google-keyword-tool", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Google Keyword Planner for SEO | SEO Berlino",
-        description: "Understand Google's Keyword PLanner and how it can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand Google's Keyword PLanner and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/google-keyword-tool"
     });
@@ -1499,7 +1499,7 @@ app.get("/en/lexical/google-pagespeed", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Google PageSpeed for SEO | SEO Berlino",
-        description: "Google PageSpeed for SEO is a very important tool. Learn here how to use it.",
+        description: "SEO Lexical about SEO Jargon. Google PageSpeed for SEO is a very important tool. Learn here how to use it.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/google-pagespeed"
     });
@@ -1511,7 +1511,7 @@ app.get("/en/lexical/hreflang", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "hreflang for SEO | SEO Berlino",
-        description: "Understand how hreflang work and how they can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand how hreflang work and how they can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/hreflang"
     });
@@ -1535,7 +1535,7 @@ app.get("/en/lexical/long-tail", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is Long Tail | SEO Berlino",
-        description: "Understand what is long-tail and how it can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand what is long-tail and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/long-tail"
     });
@@ -1559,7 +1559,7 @@ app.get("/en/lexical/robots", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is the Robots.txt file | SEO Berlino",
-        description: "Understand how Robots.txt works and how it can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand how Robots.txt works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/robots"
     });
@@ -1583,7 +1583,7 @@ app.get("/en/lexical", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "SEO Lexicon | SEO Berlino",
-        description: "SEO Lexicon for SEO",
+        description: "SEO Lexicon for SEO. Learn about SEO Jargon and what some terms mean. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical"
     });
@@ -1625,7 +1625,7 @@ app.get("/en/lexical/search-console", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is Google's Search Console | SEO Berlino",
-        description: "Understand how to use Google's Search Console and how it can help you to improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand how to use Google's Search Console and how it can help you to improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/search-console"
     });
@@ -1649,7 +1649,7 @@ app.get("/en/lexical/search-volume", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is Search Volume and how to use it for SEO | SEO Berlino",
-        description: "Understand Search Volume and how to use it to improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand Search Volume and how to use it to improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/search-volume"
     });
@@ -1673,7 +1673,7 @@ app.get("/en/lexical/sitemaps", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What are Sitemaps | SEO Berlino",
-        description: "Understand how Sitemaps work and how it can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand how Sitemaps work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/sitemaps"
     });
@@ -1697,7 +1697,7 @@ app.get("/en/lexical/noindex", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is noindex | SEO Berlino",
-        description: "Understand how noindex works and how it can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand how noindex works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/noindex"
     });
@@ -1721,7 +1721,7 @@ app.get("/en/lexical/redirects", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is a redirect and how to use it for SEO | SEO Berlino",
-        description: "Understand how redirects work and how it can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand how redirects work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/redirects"
     });
@@ -1745,7 +1745,7 @@ app.get("/en/lexical/lighthouse", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is a Lighthouse and how to use it for SEO | SEO Berlino",
-        description: "Understand how Lighthouse work and how it can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand how Lighthouse work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/lighthouse"
     });
@@ -1769,7 +1769,7 @@ app.get("/en/lexical/remove-url-tool", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is the Remove url Tool? | SEO Berlino",
-        description: "Understand how the Remove url Tool works and how it can improve your SEO",
+        description: "SEO Lexical about SEO Jargon. Understand how the Remove url Tool works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/remove-url-tool"
     });
@@ -1792,8 +1792,8 @@ app.get("/en/lexical/disavow-tool", (req, res) => {
     res.render("disavowtool", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "What is the Google'S Disavow Tool and how to use it for SEO | SEO Berlino",
-        description: "Understand how the Disavow Tool works and how it can improve your SEO",
+        title: "What is the Disavow Tool and how to use it | SEO Berlino",
+        description: "SEO Lexical about SEO Jargon. Understand how the Disavow Tool works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/disavow-tool"
     });
@@ -1804,7 +1804,7 @@ app.get("/de/lexical/disavow-tool", (req, res) => {
     res.render("disavowtool", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Links für ungültig erklären | Disavow Tool | SEO Berlino",
+        title: "Disavow Tool | SEO Berlino",
         description: "Disavow Tool und Suchmaschinenoptimierung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/disavow-tool"
@@ -1817,7 +1817,7 @@ app.get("/en/article/linkbuilding-in-2019", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Link Building in 2019 | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Link Building in one of the most difficult but important aspects of SEO. Read these tips to start your Backlinking tasks.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1829,7 +1829,7 @@ app.get("/en/article/clutch", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Berlino Named Top SEO Services Company in Germany | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Clutch has selected SEO Berlino as one of the top SEO companies in Germany for 2019.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1841,7 +1841,7 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO in Asia: China, Japan and Korea in 2019 | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Blog article about SEO in Asia and Search Engines in Asia. How to approach SEO for the Asian market.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1852,7 +1852,7 @@ app.get("/en/article/beyond-mobile-first", (req, res) => {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
         title: "SEO Beyond Mobile First | SEO Berlin | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1874,7 +1874,7 @@ app.get("/en/article/why-you-need-implement-structured-data", (req, res) => {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
         title: "Why you need to implement Structured Data | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "SEO Blog articles about Structured Data and why you need to implement them to improve your SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1885,7 +1885,7 @@ app.get("/en/article/link-building-to-brandbuilding", (req, res) => {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
         title: "Link Building to Brand Building | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Link Bulding is now very connected to PR and how to spread visibility online.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1896,7 +1896,7 @@ app.get("/en/article/how-to-get-those-first-links", (req, res) => {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
         title: "How to get those first links | SEO Berlin | SEO Berlino",
-        description: "SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        description: "Read this article about SEO and Backlinking and how to get your first backlinks in a simple way.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
