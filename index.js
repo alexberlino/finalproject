@@ -299,7 +299,7 @@ app.get("/en/onpage/images", (req, res) => {
 app.get("/de/onpage/bildoptimierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("images", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/onpage/images",
         layout: "mainDE",
         title: "Bildoptimierung SEO | SEO Berlino",
         description: "Für viele Wirtschaftszweige ist die Bildersuche noch immer ein wichtiger Unterbereich des SEO.",
@@ -323,7 +323,7 @@ app.get("/en/onpage/internallinking", (req, res) => {
 app.get("/de/onpage/interne-verlinkung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internallinking", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/onpage/internallinking",
         layout: "mainDE",
         title: "Interne Verlinkung SEO | SEO Berlino",
         description: "Interne Verlinkungen sind der Kern des Onpage SEO. Verstehen, wie das Crawling Ihrer Webseite durch den Google Bot funktioniert.",
@@ -395,7 +395,7 @@ app.get("/en/onpage/content", (req, res) => {
 app.get("/de/onpage/inhalt", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("content", {
-        requrl: "/en/onpage/contact",
+        requrl: "/en/onpage/content",
         layout: "mainDE",
         title: "SEO Content (Inhalt) -  SEO Marketing | SEO Berlino",
         description: "Die Inhalte sind der Wert, den Sie erschaffen wollen. Wenn Ihre Inhalte für den Nutzer keinen Wert haben, oder bereits an anderer Stelle verfügbar sind, werden Sie damit nicht weit kommen. ",
