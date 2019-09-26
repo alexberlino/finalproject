@@ -720,7 +720,7 @@ app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "SEO Blog - Search Engine Optimization Blog | SEO Berlino",
         description: "SEO Berlin Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "/en/blog",
@@ -732,7 +732,7 @@ app.get("/de/blog", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blog", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "Suchmaschinenoptimierung Blog | SEO Berlino",
         description: "SEO Blog von SEO Berlin, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "/en/blog",
@@ -744,7 +744,7 @@ app.get("/en/impressum", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "Impressum | SEO Berlino",
         description: "SEO Berlin Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "/de/impressum",
@@ -756,7 +756,7 @@ app.get("/de/impressum", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "Impressum | SEO Berlino",
         description: "SEO Spezialist in Berlin. Impressum für SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "/de/impressum",
@@ -862,7 +862,7 @@ app.get("/de/scrum", (req, res) => {
 app.get("/en/scrum/pillars", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumpillars", {
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "Scrum's 3 Pillars | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -873,7 +873,7 @@ app.get("/en/scrum/pillars", (req, res) => {
 app.get("/en/scrum/team", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumteam", {
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "Scrum Team | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -893,7 +893,7 @@ app.get("/en/scrum/events", (req, res) => {
 app.get("/en/scrum/artifacts", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumartifacts", {
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "Scrum Artifacts | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1084,7 +1084,7 @@ app.get("/de/datenschutz", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("datenschutz", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "Datenschutz | SEO Berlino",
         description: "SEO Berlin, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "/de/datenschutz",
@@ -1096,7 +1096,7 @@ app.get("/en/datenschutz", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("datenschutz", {
         requrl: "/de" + req.originalUrl.substring(3),
-        layout: "maiNoAlt",
+        layout: "mainNoAlt",
         title: "Datenschuzt | SEO Berlino",
         description: "SEO Berlin, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "/de/datenschutz",
