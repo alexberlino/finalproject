@@ -8,7 +8,7 @@
                 <div class="container reduced">
                     <div class="columns is-centered is-multiline">
                         <div class="column is-12-mobile is-10-tablet is-10-desktop">
-                            <h1 class="title is-2 is-heavy is-white">Google PageSpeed</h1>
+                            <h1 class="title is-2 is-heavy is-white">Redirects & SEO</h1>
                         </div>
                     </div>
                 </div>
@@ -32,41 +32,18 @@
                         </nav>
                     </div>
                     <div class="column is-12-mobile is-10-tablet is-10-desktop post">
+                        <h2 class="title is-heavy is-4 reduced-top-margin">{{{__ "definition"}}}</h2>
+                        <p>{{{__ "redirectsMP"}}}</p>
 
-                        <figure class="image is-fullwidth is-outlined">
-                            <a target="_blank" href="{{{__ "pagespeedlink"}}}">
-                                <img alt="page speed" class="searchconsole" src="/Pagespeed.png" />
-                            </a>
-                        </figure>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "definition"}}}</h2>
-                        <p>{{{__ "googlePageSpeedMP"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">Mobile / Desktop Score</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="page speed" src="/pagespeedscore.png" />
-                        </figure>
-                        <p>{{{__ "googlePageSpeedScore"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "LabData"}}}</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="page speed SEO" src="/pageSpeedLab.png" />
-                        </figure>
-                        <p>{{{__ "googlePageSpeedLab"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "Opportunities"}}}</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="SEO page speed" src="/pagespeedOpp.png" />
-                        </figure>
-                        <p>{{{__ "googlePageSpeedOpp"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "Diagnostics"}}}</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img src="/pagespeedDiag.png" />
-                        </figure>
-
-                        <p>{{{__ "googlePageSpeedDiag"}}}</p>
-
+                        <h2 class="title is-heavy is-4 reduced-top-margin">{{{__ "example"}}}</h2>
+                        <xmp>app.get("/de/folder/page", function(request, response) {
+                            response.writeHead(301, {
+                            Location: "https://newtargetpage.com",
+                            Expires: new Date().toGMTString()
+                            });
+                            response.end();
+                            });
+                        </xmp>
 
 
                         <div class="columns is-centered lexical-list is-multiline">

@@ -422,7 +422,7 @@ app.get("/de/onpage/landingpages", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Landingpage Optimierung | SEO Berlino",
-        description: "Die Keywords, die Sie als die wichtigsten für Ihre Seite ausgewählt haben sollten für Inhalte und allgemeine Onpage Optimierung genutzt werden. Achten Sie darauf, dass keine andere Seite den Traffic für Ihre ausgewählten Keywords abzieht und dass der natürliche Traffic nicht auf einer anderen, als der dafür bestimmten Seite landet.",
+        description: "Die Keywords, die Sie als die wichtigsten für Ihre Seite ausgewählt haben sollten für Inhalte und allgemeine Onpage Optimierung genutzt werden.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage/landingpages"
     });
@@ -614,7 +614,7 @@ app.get("/de/technical/sicherheit", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Was ist https | SEO Berlino",
-        description: "Hyper Text Transfer Protocol Secure (HTTPS) ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Webseite laufen. Das “S” in  HTTPS steht für “secure”. Konkret bedeutet es, dass jede Kommunikation zwischen Browser und Webseite verschlüsselt wird.",
+        description: "Hyper Text Transfer Protocol Secure (HTTPS) ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Webseite laufen.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/security"
     });
@@ -626,7 +626,7 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Javascript SEO | SEO Berlino",
-        description: "Javascript frameworks such as React and Angular which are client-side rendered are still very complex for Search Engines for indexation as they have trouble crawling them. This causes difficult challenges for SEO Optimization. ",
+        description: "Javascript frameworks such as React and Angular which are client-side rendered are still very complex for Search Engines for indexation as they have trouble crawling them.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical/dynamic-rendering-de"
     });
@@ -674,7 +674,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Backlink Analysis & Audit | SEO Berlino",
-        description: "During a backlink analysis, a report needs to be done with the profile's pros and cons. In addition, it should include an audit  of competitors to understand where you stand. Then a brainstorm can be done on link  targets and content production. Finally work can be prioritised depending on  potential and complexity, setting targets: quantity and quality links  for the next quarters focusing on.",
+        description: "During a backlink analysis, a report needs to be done with the profile's pros and cons. In addition, it should include an audit  of competitors to understand where you stand.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/offpage/backlinkanalysis"
     });
@@ -686,7 +686,7 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Backlink Analyse SEO | SEO Berlino",
-        description: "SEO Freelancer & Consultant Backlink Analyse in Berlin. Im Zuge eines Backlink Profil Audits muss ein Bericht über die Vor- und Nachteile des Profils erstellt werden. Zudem sollte es ein Audit der Konkurrenten beinhalten um Sie und Ihre Seite im Wettbewerb verorten zu können. Danach kann ein Brainstorming über angestrebte Links stattfinden.",
+        description: "SEO Freelancer & Consultant Backlink Analyse in Berlin. Im Zuge eines Backlink Profil Audits muss ein Bericht über die Vor- und Nachteile des Profils erstellt werden.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/offpage/backlinkanalysis"
     });
@@ -720,7 +720,7 @@ app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "maiNoAlt",
         title: "SEO Blog - Search Engine Optimization Blog | SEO Berlino",
         description: "SEO Berlin Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "/en/blog",
@@ -732,7 +732,7 @@ app.get("/de/blog", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blog", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "maiNoAlt",
         title: "Suchmaschinenoptimierung Blog | SEO Berlino",
         description: "SEO Blog von SEO Berlin, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "/en/blog",
@@ -744,7 +744,7 @@ app.get("/en/impressum", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "maiNoAlt",
         title: "Impressum | SEO Berlino",
         description: "SEO Berlin Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "/de/impressum",
@@ -756,7 +756,7 @@ app.get("/de/impressum", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("impressum", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "maiNoAlt",
         title: "Impressum | SEO Berlino",
         description: "SEO Spezialist in Berlin. Impressum für SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "/de/impressum",
@@ -840,7 +840,7 @@ app.get("/en/sea", (req, res) => {
 app.get("/en/scrum", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungscrum", {
-        layout: "mainDE",
+        layout: "main",
         title: "Scrum Master in Berlin, scrum for SEO Projects | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -862,7 +862,7 @@ app.get("/de/scrum", (req, res) => {
 app.get("/en/scrum/pillars", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumpillars", {
-        layout: "mainDE",
+        layout: "maiNoAlt",
         title: "Scrum's 3 Pillars | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -873,7 +873,7 @@ app.get("/en/scrum/pillars", (req, res) => {
 app.get("/en/scrum/team", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumteam", {
-        layout: "mainDE",
+        layout: "maiNoAlt",
         title: "Scrum Team | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -883,8 +883,7 @@ app.get("/en/scrum/team", (req, res) => {
 app.get("/en/scrum/events", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumevents", {
-        layout: "mainDE",
-        title: "Scrum Events | SEO Berlino",
+        v title: "Scrum Events | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
@@ -894,7 +893,7 @@ app.get("/en/scrum/events", (req, res) => {
 app.get("/en/scrum/artifacts", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumartifacts", {
-        layout: "mainDE",
+        layout: "maiNoAlt",
         title: "Scrum Artifacts | SEO Berlino",
         description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1085,7 +1084,7 @@ app.get("/de/datenschutz", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("datenschutz", {
         requrl: "/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "maiNoAlt",
         title: "Datenschutz | SEO Berlino",
         description: "SEO Berlin, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "/de/datenschutz",
@@ -1097,7 +1096,7 @@ app.get("/en/datenschutz", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("datenschutz", {
         requrl: "/de" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "maiNoAlt",
         title: "Datenschuzt | SEO Berlino",
         description: "SEO Berlin, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
         canonical: "/de/datenschutz",
