@@ -9,7 +9,7 @@
 	"contactskills": "Kompetenzen",
 	"contactexperience": "Erfahrung",
 	"langvs": "EN",
-	"contactU":"Kontakt",
+	"contactU": "Kontakt",
 	"langvsL": "en",
 	"onpage": "onpage",
 	"offpage": "offpage",
@@ -37,7 +37,8 @@
 	"analyticsURL": "webanalyse",
 	"competitorURL": "mitwettbewerber",
 	"seaURL": "suchmaschinenwerbung",
-	"langvsLang": "In English",
+	"langvsLang": "English",
+	"langvsLang2": "Deutsch",
 	"sponsorship": "SEO Partnerschaft",
 	"preaudit": "Kostenlos SEO pre-audit",
 	"execsumm": "Zusammenfassung",
@@ -481,5 +482,6 @@
 	"auditintro-extra": "auditintro-extra",
 	"auditfocusList": "Der Schwerpunkt des Audits liegt für Sie im Aufgabenbereich, der auf allen Erkenntnissen basiert: \n<br> -eine Erklärung zu jedem Problem, \n<br> -Priorität, \n<br> -Erwartete Ergebnisse \n<br> -Lösung",
 	"agileHP": "Erfahrung mit der Implementierung von Scrum (als Head of SEO bei Spreadshirt) als Product Owner und auch bei Montblanc. Wird verwendet, um sicherzustellen, dass Einträge aus dem Backlog priorisiert werden. Ich bin Scrum Master zertifiziert (2013)",
-	"lexical": "Lexicon"
+	"lexical": "Lexicon",
+	"": ""
 }
