@@ -110,7 +110,7 @@ app.use(
 app.get("/", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("home", {
-        requrl: "/de" + req.originalUrl.substring(3),
+        requrl: "/en",
         layout: "mainHP",
         title: "SEO Consultant in Berlin, Agile and Analytics Expert | SEO Berlino",
         description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
@@ -122,7 +122,7 @@ app.get("/", (req, res) => {
 app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("home", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en",
         layout: "mainDEHP",
         title: "SEO Freelancer, Analytics & Scrum | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
@@ -134,7 +134,7 @@ app.get("/de", (req, res) => {
 app.get("/en", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("home", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en",
         layout: "mainHP",
         title: "SEO Consultant in Berlin, Agile and Analytics Expert | SEO Berlino",
         description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
@@ -347,7 +347,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
 app.get("/de/onpage/keyword-recherche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("keyword", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/onpage/keywordresearch",
         layout: "mainDE",
         title: "Keyword Recherche & Keyword Tools für SEO | SEO Berlino",
         description: "Wenn Sie eingehend verstehen möchten, wie Ihre potenziellen Kunden nach den von Ihnen angebotenen Produkten oder Leistungen suchen, ist eine Keyword Recherche unerlässlich.",
@@ -371,7 +371,7 @@ app.get("/en/onpage/metas", (req, res) => {
 app.get("/de/onpage/metas-tags-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("metas", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/onpage/metas",
         layout: "mainDE",
         title: "Meta Tags - Google Suche optimieren | SEO Berlino",
         description: "Seitentitel werden oft vernachlässigt, sind allerdings extrem wichtig und sehr einfach zu realisieren. Wesentlich ist, dass Sie mit der Formulierung ins Schwarze treffen.",
@@ -395,7 +395,7 @@ app.get("/en/onpage/content", (req, res) => {
 app.get("/de/onpage/inhalt", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("content", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/onpage/contact",
         layout: "mainDE",
         title: "SEO Content (Inhalt) -  SEO Marketing | SEO Berlino",
         description: "Die Inhalte sind der Wert, den Sie erschaffen wollen. Wenn Ihre Inhalte für den Nutzer keinen Wert haben, oder bereits an anderer Stelle verfügbar sind, werden Sie damit nicht weit kommen. ",
@@ -443,7 +443,7 @@ app.get("/en/onpage/structureddata", (req, res) => {
 app.get("/de/onpage/structured-data-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("structureddata", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/onpage/structureddata",
         layout: "mainDE",
         title: "Google Structured Data | SEO Berlino",
         description: "Google, Bing, Yandex und Yahoo haben sich auf ein standartisiertes Format geeinigt: mit schema.org werden Informationen über eine Seite bereitgestellt und die Inhalte klassifiziert. Sie können positiv beeinflussen wie Ihre Seiten angezeigt werden, indem Sie Structured Data nutzen.",
@@ -467,7 +467,7 @@ app.get("/en/research/competitor-analysis", (req, res) => {
 app.get("/de/forschung/mitwettbewerber", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("competitor", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/research/competitor-analysis",
         layout: "mainDE",
         title: "SEO-Wettbewerbsanalyse | SEO Berlino",
         description: "Im Zuge einer SEO-Wettbewerbsanalyse ist es wichtig herauszufinden, welche Ihrer SEO Konkurrenten bei der Organic Traffic Acquisition, der Domain Authority und anderen zentralen SEO-Faktoren führend sind. ",
@@ -491,7 +491,7 @@ app.get("/en/technical/crawlability", (req, res) => {
 app.get("/de/technical/crawling", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("crawlability", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/technical/crawlability",
         layout: "mainDE",
         title: "Web-Crawling | SEO Berlino",
         description: "Crawling hängt unmittelbar mit Indexierung zusammen. Um die Indexierung anzupassen, beziehungsweise zu optimieren, können Sie Google dabei lenken, wie es beim Crawling auf Ihrer Seite vorgeht.",
@@ -515,7 +515,7 @@ app.get("/en/technical/indexation", (req, res) => {
 app.get("/de/technical/indexierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("indexation", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/technical/indexation",
         layout: "mainDE",
         title: "SEO Indexierung| SEO Berlino",
         description: "Effiziente Indexierung ist für ein gutes Funktionieren mit den Google Spiders entscheidend. Oft wird geglaubt, es gehe darum möglichst viele Seiten indexieren zu lassen, dies ist allerdings nur bedingt richtig. ",
@@ -538,7 +538,7 @@ app.get("/en/technical/internationalisation", (req, res) => {
 app.get("/de/technical/internationalisierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internationalisation", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/technical/internationalisation",
         layout: "mainDE",
         title: "SEO Internationalisierung | SEO Berlino",
         description: "Wenn Sie international agieren gibt es eine Vielzahl von Möglichkeiten: einheitliche Root-Domain, verschiedene Top-Level-Domains, Subdomains; wie diese untereinander verknüpft werden und wie der Prozess ohne negative Auswirkungen auf Ihr SEO vereinfacht werden kann.",
@@ -611,7 +611,7 @@ app.get("/en/technical/security", (req, res) => {
 app.get("/de/technical/sicherheit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("https", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/technical/security",
         layout: "mainDE",
         title: "Was ist https | SEO Berlino",
         description: "Hyper Text Transfer Protocol Secure (HTTPS) ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Webseite laufen.",
@@ -635,7 +635,7 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
 app.get("/de/technical/dynamic-rendering-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("javascript", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/technical/dynamicrendering",
         layout: "mainDE",
         title: "Javascript Webframes SEO  | SEO Berlino",
         description: "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme, Crawling und Indexierung auf allen Seiten angemessen durchzuführen.",
@@ -659,7 +659,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
 app.get("/de/offpage/brand-building", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("brandbuilding", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/offpage/brandbuilding",
         layout: "mainDE",
         title: "SEO Markenentwicklung | SEO Berlino",
         description: "Brand-building: beste Empfehlung für Inhaltserstellung. Inhaltserstellung: mehr Traffic Markenbekanntheit, traffic und backlinks",
@@ -731,7 +731,7 @@ app.get("/en/blog", (req, res) => {
 app.get("/de/blog", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blog", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/blog",
         layout: "mainNoAlt",
         title: "Suchmaschinenoptimierung Blog | SEO Berlino",
         description: "SEO Blog von SEO Berlin, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
@@ -1006,7 +1006,7 @@ app.get("/en/onpage/voicesearch", (req, res) => {
 app.get("/de/onpage/sprachsuche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("voicesearch", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/onpage/voicesearch",
         layout: "mainDE",
         title: "Sprachsuche SEO | SEO Berlino",
         description: "Google Assistant, Alexa are just 2 of those devices which are transforming search. Instead of typing searches, users now more and more ask for their need vocally.",
@@ -1030,7 +1030,7 @@ app.get("/en/research/localseo", (req, res) => {
 app.get("/de/forschung/local-seo-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("localseo", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/research/localseo",
         layout: "mainDE",
         title: "Local SEO Optimierung | SEO Berlino",
         description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO, keeping in mind that  the most important factor in personalised search results is  location.",
@@ -1322,7 +1322,7 @@ app.get("/de/contact", (req, res) => {
 app.get("/de/seo-beratung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratung", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/seo-consultancy",
         layout: "mainDE",
         title: "SEO Freelancer Beratung: Audit, Web Analyse | SEO Berlino",
         description: "SEO Beratung in Berlin. SEO Experte. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
