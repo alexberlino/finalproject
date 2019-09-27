@@ -1168,7 +1168,7 @@ app.get("/de/contact", (req, res) => {
         title: "SEO Experte in Berlin | Kontakt SEO Berlin",
         description: "SEO Consultant Experte in Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/en/contact",
-        alt: "https://www.seoberlino.com/en/contact"
+        alt: "https://www.seoberlino.com/de/contact"
     });
 });
 
