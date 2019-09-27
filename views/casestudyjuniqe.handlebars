@@ -29,8 +29,11 @@
                                 <li><a href="/{{{__ "lang"}}}/seo">SEO</a></li>
                                 <li><a href="/en/casestudy">Case Study</a></li>
                             </ul>
-                            <h4 class="meta-date title is-6">Published: March 21st 2019</h6>
                         </nav>
+                        <h6 class="title is-6 is-black">Published: March 22th 2019</h6>
+
+                        <h6 class=" title is-6 is-black"><a href="/en/contact">Author: Alex Bieth</a></h6>
+                        <br>
                     </div>
                     <div class="column is-12-mobile is-10-tablet is-10-desktop post">
 
@@ -111,7 +114,7 @@
                         <p>From around 190k pages indexed, over 775 pages each get at least 10 visits per month.</p>
 
                     </div>
-                </div>
+                </div>{{>articlesCTA}}
             </div>
         </div>
     </section>
@@ -151,3 +154,11 @@
         </div>
     </section>
 </div>
+<section class="clients-hero red-gradient">
+    <div class="hero-body remove-padding">
+        <div class="container reduced has-text-centered">
+            <h2 class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
+            {{>clients}}
+        </div>
+    </div>
+</section>

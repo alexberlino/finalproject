@@ -29,9 +29,12 @@
                                 <li><a href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}"> {{{__ "services"}}} </a></li>
                                 <li><a href="/{{{__ "lang"}}}/blog">Blog</a></li>
                             </ul>
-                            <h4 class="meta-date title is-6">Published: January, 5 2019</h6>
-                        </nav>
 
+                        </nav>
+                        <h6 class="title is-6 is-black">Published: January, 5 2019</h6>
+
+                        <h6 class=" title is-6 is-black"><a href="/en/contact">Author: Alex Bieth</a></h6>
+                        <br>
                     </div>
                     <div class="column is-12-mobile is-10-tablet is-10-desktop post">
 
@@ -93,39 +96,22 @@
                         </span>
 
 
-                    </div>
-                    <section class="is-centered">
+                    </div>{{>articlesCTA}}
 
-                        <div class="contact-details">
-                            <h4 class="is-italic title is-5"> Alex Bieth, SEO Consultant
-                            </h4>
-
-
-                            <div class="profile-photo"></div>
-                            <div class="details">
-                                <h3 class="subtitle is-5 reduced-top-margin">E - <a href="mailto:alex@seoberlino.com">alex@seoberlino.com</a>
-                            </div>
-                        </div>
-
-                        <div class="is-11-mobile hero-body is-6-desktop has-text-left vertical-aligner">
-
-                            <a class="button is-large is-primed is-outlined is-medium" href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}">
-                                {{{__ "servicesL"}}}
-                            </a>
-                            <a class="button is-large is-primary is-outlined is-medium" href="/{{{__ "lang"}}}/contact">
-                                {{{__ "getintouch"}}}
-                            </a>
-                        </div>
-
-
-                    </section>
                 </div>
             </div>
 
     </section>
 
 
-
+    <section class="clients-hero red-gradient">
+        <div class="hero-body remove-padding">
+            <div class="container reduced has-text-centered">
+                <h2 class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
+                {{>clients}}
+            </div>
+        </div>
+    </section>
 
 
 

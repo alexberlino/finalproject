@@ -32,8 +32,11 @@
                                 <li><a href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}"> {{{__ "services"}}} </a></li>
                                 <li><a href="/{{{__ "lang"}}}/blog">Blog</a></li>
                             </ul>
-                            <h4 class="meta-date title is-6">Published: March 17th 2019</h6>
                         </nav>
+                        <h6 class="title is-6 is-black">Published: March 17th 2019</h6>
+
+                        <h6 class=" title is-6 is-black"><a href="/en/contact">Author: Alex Bieth</a></h6>
+                        <br>
                     </div>
                     <div class="column is-12-mobile is-10-tablet is-10-desktop post">
 
@@ -84,43 +87,18 @@
                         <p>Evaluate how any improvements in ranking improves or not your goals for conversion, maybe the ones you are targeting are not the best ones.</p>
 
                     </div>
-                </div>
+                </div>{{>articlesCTA}}
             </div>
     </section>
 
 
-    <section class="comments-hero hero is-medium off-white">
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <div class="columns is-centered">
-                    <div class="column is-10 comments">
-                        <div id="disqus_thread"></div>
-                        <script>
-                            /**
-                             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                            /*
 
-                            */
-
-                            var disqus_config = function() {
-                                this.page.url = `https://www.seoberlino.com/en/article/how-to-get-those-first-links`; // Replace PAGE_URL with your page's canonical URL variable
-                                this.page.identifier = "Blog8"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                            };
-
-
-                            (function() { // DON'T EDIT BELOW THIS LINE
-                                var d = document,
-                                    s = d.createElement('script');
-                                s.src = 'https://www-seoberlino-com.disqus.com/embed.js';
-                                s.setAttribute('data-timestamp', +new Date());
-                                (d.head || d.body).appendChild(s);
-                            })();
-                        </script>
-                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 </div>
+<section class="clients-hero red-gradient">
+    <div class="hero-body remove-padding">
+        <div class="container reduced has-text-centered">
+            <h2 class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
+            {{>clients}}
+        </div>
+    </div>
+</section>
