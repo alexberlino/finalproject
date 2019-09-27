@@ -112,7 +112,7 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "/en",
         layout: "mainHP",
-        title: "SEO Consultant in Berlin, Agile and Analytics Expert | SEO Berlino",
+        title: "SEO Consultant, Agile and Analytics Expert | SEO Berlino",
         description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
@@ -136,7 +136,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "/en",
         layout: "mainHP",
-        title: "SEO Consultant in Berlin, Agile and Analytics Expert | SEO Berlino",
+        title: "SEO Consultant, Agile and Analytics Expert | SEO Berlino",
         description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de",
@@ -338,7 +338,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Keyword Research and Keyword Tools for SEO | SEO Berlino",
-        description: "Keyword Research is key to understand how your potential clients are searching for your product or services.Search Volume, relevance and keyword competitivity are in deciding on your best keywords.",
+        description: "Keyword Research is key to understand how your potential clients are searching for your product or services.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/onpage/keyword-recherche"
     });
@@ -350,7 +350,7 @@ app.get("/de/onpage/keyword-recherche", (req, res) => {
         requrl: "/en/onpage/keywordresearch",
         layout: "mainDE",
         title: "Keyword Recherche & Keyword Tools für SEO | SEO Berlino",
-        description: "Wenn Sie eingehend verstehen möchten, wie Ihre potenziellen Kunden nach den von Ihnen angebotenen Produkten oder Leistungen suchen, ist eine Keyword Recherche unerlässlich.",
+        description: "Wenn Sie eingehend verstehen möchten, wie Ihre potenziellen Kunden nach den von Ihnen angebotenen Produkten, ist es unerlässlich.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage/keywordresearch"
     });
@@ -361,7 +361,7 @@ app.get("/en/onpage/metas", (req, res) => {
     res.render("metas", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Meta Tags SEO | SEO Berlino",
+        title: "Meta Tags and SEO | SEO Berlino",
         description: "Page titles are often neglected, but are really important and very  simple to implement. That means you need to have them spot on.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/onpage/metas-tags-de"
@@ -373,8 +373,8 @@ app.get("/de/onpage/metas-tags-de", (req, res) => {
     res.render("metas", {
         requrl: "/en/onpage/metas",
         layout: "mainDE",
-        title: "Meta Tags - Google Suche optimieren | SEO Berlino",
-        description: "Seitentitel werden oft vernachlässigt, sind allerdings extrem wichtig und sehr einfach zu realisieren. Wesentlich ist, dass Sie mit der Formulierung ins Schwarze treffen.",
+        title: "Meta Tags und wie es funktioniert | SEO Berlino",
+        description: "Seitentitel werden oft vernachlässigt, sind aber wirklich wichtig und sehr einfach zu implementieren. Das bedeutet, dass du sie auf den Punkt bringen musst.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage/metas"
     });
@@ -386,7 +386,7 @@ app.get("/en/onpage/content", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "SEO Content - Content Marketing | SEO Berlino",
-        description: "The content is the value you want to create. If you content has no  value to the user, or if it is duplicate content, your content will  not be brought forward.",
+        description: "The content is the value you want to create. If you content has no value to the user or is duplicate, your SEO will be poor.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/onpage/inhalt"
     });
@@ -398,7 +398,7 @@ app.get("/de/onpage/inhalt", (req, res) => {
         requrl: "/en/onpage/content",
         layout: "mainDE",
         title: "SEO Content (Inhalt) -  SEO Marketing | SEO Berlino",
-        description: "Die Inhalte sind der Wert, den Sie erschaffen wollen. Wenn Ihre Inhalte für den Nutzer keinen Wert haben, oder bereits an anderer Stelle verfügbar sind, werden Sie damit nicht weit kommen. ",
+        description: "Der Inhalt ist der Wert, den Sie schaffen wollen. Wenn Ihr Inhalt für den Benutzer keinen Wert hat oder doppelt ist, wird Ihre SEO schlecht sein.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage/content"
     });
@@ -434,7 +434,7 @@ app.get("/en/onpage/structureddata", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is Structured Data | SEO Berlino",
-        description: "Google, Bing, Yandex and Yahoo agreed on a standardised format: schema.org for providing information about a page and to classify its content. using Structured Data will enable you to improve the way your pages are displayed.",
+        description: "Google, Bing, Yandex and Yahoo agreed on a standardised format: schema.org for providing information about a page and to classify its content.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/onpage/structured-data-de"
     });
@@ -446,7 +446,7 @@ app.get("/de/onpage/structured-data-de", (req, res) => {
         requrl: "/en/onpage/structureddata",
         layout: "mainDE",
         title: "Google Structured Data | SEO Berlino",
-        description: "Google, Bing, Yandex und Yahoo haben sich auf ein standartisiertes Format geeinigt: mit schema.org werden Informationen über eine Seite bereitgestellt und die Inhalte klassifiziert. Sie können positiv beeinflussen wie Ihre Seiten angezeigt werden, indem Sie Structured Data nutzen.",
+        description: "Google, Bing, Yandex und Yahoo haben sich auf ein standartisiertes Format geeinigt: mit schema.org werden Informationen über eine Seite bereitgestellt und die Inhalte klassifiziert.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage/structureddata"
     });
@@ -458,7 +458,7 @@ app.get("/en/research/competitor-analysis", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Competitor Analysis for SEO | SEO Berlino",
-        description: "It is important to keep in mind in terms of SEO Competitor Analysis,  that you need to identify your SEO competitors, those which are  leading in terms of organic traffic acquisition, domain authority  and other important SEO factors. ",
+        description: "SEO Competitor Analysis is important to gather information from the industry leaders: keywords, site structure, backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/forschung/mitwettbewerber"
     });
@@ -470,7 +470,7 @@ app.get("/de/forschung/mitwettbewerber", (req, res) => {
         requrl: "/en/research/competitor-analysis",
         layout: "mainDE",
         title: "SEO-Wettbewerbsanalyse | SEO Berlino",
-        description: "Im Zuge einer SEO-Wettbewerbsanalyse ist es wichtig herauszufinden, welche Ihrer SEO Konkurrenten bei der Organic Traffic Acquisition, der Domain Authority und anderen zentralen SEO-Faktoren führend sind. ",
+        description: "Die SEO-Wettbewerberanalyse ist wichtig, um Informationen von den Branchenführern zu sammeln: Keywords, Seitenstruktur, Backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/research/competitor-analysis"
     });
@@ -482,7 +482,7 @@ app.get("/en/technical/crawlability", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Crawling SEO - Web Crawl | SEO Berlino",
-        description: "xml format sitemap guides Google on how to crawl your site. Although  Google says there is no guarantee the Google bot will follow your  instructions, it is still highly recommended and in most cases,  sitemaps are beneficial.",
+        description: "xml format sitemap guides Google on how to crawl your site. There is no guarantee however that the Google bot will follow your instructions.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical/crawling"
     });
@@ -493,8 +493,8 @@ app.get("/de/technical/crawling", (req, res) => {
     res.render("crawlability", {
         requrl: "/en/technical/crawlability",
         layout: "mainDE",
-        title: "Web-Crawling | SEO Berlino",
-        description: "Crawling hängt unmittelbar mit Indexierung zusammen. Um die Indexierung anzupassen, beziehungsweise zu optimieren, können Sie Google dabei lenken, wie es beim Crawling auf Ihrer Seite vorgeht.",
+        title: "Web-Crawling wie es funktioniert | SEO Berlino",
+        description: "Crawling hängt unmittelbar mit Indexierung zusammen. Um die Indexierung anzupassen, beziehungsweise zu optimieren, können Sie Google dabei lenken.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/crawlability"
     });
@@ -505,8 +505,8 @@ app.get("/en/technical/indexation", (req, res) => {
     res.render("indexation", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Indexation| SEO Berlino",
-        description: "Efficient Indexation is key in order to get on well with Google's  spiders. Many believe the more pages indexed the better; that is  only true to a certain level.",
+        title: "SEO and the importance of Indexation| SEO Berlino",
+        description: "Efficient Indexation is key in order to get on well with Google's spiders. The right number depends on your site and objectives.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical/indexierung"
     });
@@ -517,8 +517,8 @@ app.get("/de/technical/indexierung", (req, res) => {
     res.render("indexation", {
         requrl: "/en/technical/indexation",
         layout: "mainDE",
-        title: "SEO Indexierung| SEO Berlino",
-        description: "Effiziente Indexierung ist für ein gutes Funktionieren mit den Google Spiders entscheidend. Oft wird geglaubt, es gehe darum möglichst viele Seiten indexieren zu lassen, dies ist allerdings nur bedingt richtig. ",
+        title: "SEO Indexierung wie es funktioniert | SEO Berlino",
+        description: "Effiziente Indexierung ist für ein gutes Funktionieren mit den Google Spiders entscheidend.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/indexation"
     });
@@ -529,7 +529,7 @@ app.get("/en/technical/internationalisation", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "SEO Internationalisation | SEO Berlino",
-        description: "There are various options when operating internationally: same root  domain, different top level domains, subdomains, how to link between  them, how to simplify the process without negatively affecting your  SEO.",
+        description: "There are various options when operating internationally: same root  domain, different top level domains, subdomains, how to link between them, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical/internationalisierung"
     });
@@ -541,7 +541,7 @@ app.get("/de/technical/internationalisierung", (req, res) => {
         requrl: "/en/technical/internationalisation",
         layout: "mainDE",
         title: "SEO Internationalisierung | SEO Berlino",
-        description: "Wenn Sie international agieren gibt es eine Vielzahl von Möglichkeiten: einheitliche Root-Domain, verschiedene Top-Level-Domains, Subdomains; wie diese untereinander verknüpft werden und wie der Prozess ohne negative Auswirkungen auf Ihr SEO vereinfacht werden kann.",
+        description: "Wenn Sie international agieren gibt es eine Vielzahl von Möglichkeiten: einheitliche Root-Domain, verschiedene Top-Level-Domains, Subdomains",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/internationalisation"
     });
@@ -552,7 +552,7 @@ app.get("/en/technical/pagespeed", (req, res) => {
     res.render("pagespeed", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Page Speed | SEO Berlino",
+        title: "Page Speed and SEO | SEO Berlino",
         description: "Page load speed is key in SEO: a very important aspect of Technical SEO. If your site loads fast, Search Engines will prefer it to others.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical/pagespeed"
@@ -577,7 +577,7 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "SEO Mobile Friendly | SEO Berlino",
-        description: "Since a couple of years now, more people search the web on mobile devices than on Desktop. Hence, mobile optimization is critical and the mobile version is now the master version over Desktop for indexation.",
+        description: "It is now critical for a site to be mobile-friendly. Otherwise is a close to a no-go resulting in poor SEO performance.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical/mobilefriendly"
     });
@@ -589,7 +589,7 @@ app.get("/de/technical/mobilefriendly", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "SEO Mobile First | SEO Berlino",
-        description: "Sofern Ihre Webseite nicht für mobile Endgeräte geeignet ist, stellt dies in den meisten Fällen ein Problem dar, denn Google verfährt mittlerweile nach dem Prinzip “mobile-first”,  nutzt für die Indexierung also die Mobile Webseite.",
+        description: "Es ist jetzt entscheidend, dass ein Standort mobil einsetzbar ist. Andernfalls ist es fast unmöglich, was zu einer schlechten SEO-Leistung führt.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/mobilefriendly"
     });
@@ -600,7 +600,7 @@ app.get("/en/technical/security", (req, res) => {
     res.render("https", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "What is https | SEO Berlino",
+        title: "What is https and its impact on SEO | SEO Berlino",
         description: "https is now the norm. If your site is still not on https, its migration should be on the top of your SEO to-do list.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical/sicherheit"
@@ -613,8 +613,8 @@ app.get("/de/technical/sicherheit", (req, res) => {
     res.render("https", {
         requrl: "/en/technical/security",
         layout: "mainDE",
-        title: "Was ist https | SEO Berlino",
-        description: "Hyper Text Transfer Protocol Secure (HTTPS) ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Webseite laufen.",
+        title: "Was ist https wie es funktioniert  | SEO Berlino",
+        description: "HTTPS ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Webseite laufen.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/security"
     });
@@ -625,8 +625,8 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
     res.render("javascript", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Javascript SEO | SEO Berlino",
-        description: "Javascript frameworks such as React and Angular which are client-side rendered are still very complex for Search Engines for indexation as they have trouble crawling them.",
+        title: "Javascript and how it affects SEO | SEO Berlino",
+        description: "Javascript frameworks such as React and Angular which are client-side rendered are still very complex for Search Engines for indexation.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/technical/dynamic-rendering-de"
     });
@@ -638,7 +638,7 @@ app.get("/de/technical/dynamic-rendering-de", (req, res) => {
         requrl: "/en/technical/dynamicrendering",
         layout: "mainDE",
         title: "Javascript Webframes SEO  | SEO Berlino",
-        description: "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme, Crawling und Indexierung auf allen Seiten angemessen durchzuführen.",
+        description: "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme mit Crawling und Indexierung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical/dynamicrendering"
     });
@@ -650,7 +650,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "SEO Brand Building | SEO Berlino",
-        description: "Your links represent your reputation and relevancy in your domain.  Link building now goes hand in hand with brand building. As you  increased the digital signs of recognition aka links, you are also  building visibility of your brand.",
+        description: "Your links represent your reputation and relevancy in your domain.  Link building now goes hand in hand with brand building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/offpage/brand-building"
     });
@@ -674,7 +674,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Backlink Analysis & Audit | SEO Berlino",
-        description: "During a backlink analysis, a report needs to be done with the profile's pros and cons. In addition, it should include an audit  of competitors to understand where you stand.",
+        description: "During a backlink analysis, a report needs to be done with the profile's pros and cons. It should also include an audit of competitors'.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/offpage/backlinkanalysis"
     });
@@ -686,7 +686,7 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Backlink Analyse SEO | SEO Berlino",
-        description: "SEO Freelancer & Consultant Backlink Analyse in Berlin. Im Zuge eines Backlink Profil Audits muss ein Bericht über die Vor- und Nachteile des Profils erstellt werden.",
+        description: "Während einer Backlink-Analyse muss ein Bericht mit den Vor- und Nachteilen des Profils erstellt werden. Es sollte auch eine Auditierung von Wettbewerbern beinhalten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/offpage/backlinkanalysis"
     });
@@ -698,7 +698,7 @@ app.get("/en/offpage/toxic", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is a backlink? | SEO Berlino",
-        description: "Many think the more links, the better but it doesn't actually work that way. Too many low quality and/or spammy links and your website will lose Google credibility and therefore visibility.",
+        description: "Many think the more links, the better but it doesn't actually work that way. Too many low quality and/or spammy links will damage your SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/offpage/toxic"
     });
@@ -710,7 +710,7 @@ app.get("/de/offpage/toxic", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Was sind backlinks? | SEO Berlino",
-        description: "Viele denken, es gehe immer um eine möglichst große Anzahl von Links, dem ist allerdings nicht so. Zu viele Links von geringer Qualität und Spam senken Ihre Glaubwürdigkeit bei Suchmaschinen (engl. Google Credibility) und schaden somit Ihrer Sichtbarkeit.",
+        description: "Viele denken, es gehe immer um eine möglichst große Anzahl von Links, dem ist allerdings nicht so.",
         canonical: "/de/offpage/toxic",
         alt: "/en/offpage/toxic"
     });
@@ -770,7 +770,7 @@ app.get("/en/offpage", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Offpage Optimization SEO Berlin | SEO Berlino",
-        description: "Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building. Create great content to show your expertise, build your brand and attracted links and potential customers.",
+        description: "Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/offpage"
     });
@@ -782,7 +782,7 @@ app.get("/de/offpage", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Offpage Optimierung SEO | SEO Berlino",
-        description: "Offpage Optimierung",
+        description: "Offpage SEO ist ein wichtiger Bestandteil von SEO und umfasst insbesondere Link Building und Brand Building. Erstellen Sie großartige Inhalte, um Ihr Fachwissen zu präsentieren, bauen Sie Ihre Marke auf und ziehen Sie Links und potenzielle Kunden an.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/offpage"
     });
@@ -795,7 +795,7 @@ app.get("/de/audit", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "SEO Freelancer: On-page, Off-page, Technical SEO | SEO Berlino",
-        description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
+        description: "Lassen Sie Ihre Website mit Full SEO Audit auditieren, das mit einer To-Do-Liste (Backlog) mit nach Priorität klassifizierten Problemen geliefert wird.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/audit"
     });
@@ -821,7 +821,7 @@ app.get("/de/sea", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "SEA Beratung Berlin | SEO Berlino",
-        description: "SEA Audit in Berlin",
+        description: "SEA-Experte für SEA-Projekte: Google Ads, Facebook Ads, Instagram. Einrichtung, Test, Analyse und Optimierung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/sea"
     });
@@ -833,7 +833,7 @@ app.get("/en/sea", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "SEA Consultancy Berlin | SEO Berlino",
-        description: "SEA Audit in Berlin",
+        description: "SEA Expert for SEA Projects: Google Ads, Facebook Ads, Instagram. Set-up, Testing, Analytics and Optimization.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/sea"
     });
@@ -859,7 +859,7 @@ app.get("/de/scrum", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Scrum Master -Implementierung für SEO-Projekte | SEO Berlino",
-        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        description: "Implementieren Sie Scrum für Ihre SEO-Projekte. 10 Jahre erfahrener SEO-Experte, zertifizierter Scrum-Master und erfahren als Product Owner.",
         canonical: "https://www.seoberlino.com/de/scrum",
         alt: "/en/scrum"
     });
@@ -882,7 +882,7 @@ app.get("/en/scrum/team", (req, res) => {
     res.render("scrumteam", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Scrum Team | SEO Berlino",
+        title: "About Scrum: Scrum Teams | SEO Berlino",
         description: "More about the Scrum Team and how to implement it. Agile Expert in Berlin.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
@@ -893,7 +893,7 @@ app.get("/en/scrum/events", (req, res) => {
     res.render("scrumevents", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Scrum Events | SEO Berlino",
+        title: "About Scrum: Scrum Events | SEO Berlino",
         description: "Learn about the Scrum Events and how to Implement scrum for your SEO Projects.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
@@ -905,7 +905,7 @@ app.get("/en/scrum/artifacts", (req, res) => {
     res.render("scrumartifacts", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Scrum Artifacts | SEO Berlino",
+        title: "About Scrum: Scrum Artifacts | SEO Berlino",
         description: "Learn about scrum artifacts and Implement Scrum for your SEO Projects. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
@@ -973,7 +973,7 @@ app.get("/en/onpage", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Onpage Optimization SEO | SEO Berlino",
-        description: "Onpage Optimization refers to any SEO action taken on the website that can be done directly. That concerns first and foremost the optimization of the content and the code of the page. It includes as well the elaboration of the content strategy and potential technical issues.",
+        description: "Onpage Optimization refers to any SEO action taken on the website: content and and code of the page.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/onpage"
     });
@@ -985,7 +985,7 @@ app.get("/de/onpage", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Onpage Optimierung SEO | SEO Berlino",
-        description: "Onpage Optimization refers to any SEO action taken on the website that can be done directly. That concerns first and foremost the optimization of the content and the code of the page. It includes as well the elaboration of the content strategy and potential technical issues.",
+        description: "Onpage Optimization bezieht sich auf alle SEO-Maßnahmen auf der Website, die direkt durchgeführt werden können.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage"
     });
@@ -1008,8 +1008,8 @@ app.get("/de/onpage/sprachsuche", (req, res) => {
     res.render("voicesearch", {
         requrl: "/en/onpage/voicesearch",
         layout: "mainDE",
-        title: "Sprachsuche SEO | SEO Berlino",
-        description: "Google Assistant, Alexa are just 2 of those devices which are transforming search. Instead of typing searches, users now more and more ask for their need vocally.",
+        title: "Sprachsuche SEO wie es funktioniert | SEO Berlino",
+        description: "Google Assistant, Alexa sind nur 2 dieser Geräte, die die Suche verändern. Anstatt Suchen zu tippen, fragen die Benutzer immer häufiger nach ihrem Bedarf.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/onpage/voicesearch"
     });
@@ -1020,8 +1020,8 @@ app.get("/en/research/localseo", (req, res) => {
     res.render("localseo", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Local SEO | SEO Berlino",
-        description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO, keeping in mind that  the most important factor in personalised search results is  location.",
+        title: "How to deal with Local SEO | SEO Berlino",
+        description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/forschung/local-seo-de"
     });
@@ -1033,7 +1033,7 @@ app.get("/de/forschung/local-seo-de", (req, res) => {
         requrl: "/en/research/localseo",
         layout: "mainDE",
         title: "Local SEO Optimierung | SEO Berlino",
-        description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO, keeping in mind that  the most important factor in personalised search results is  location.",
+        description: "Insbesondere für lokale Unternehmen ist es von größter Bedeutung, Ihre SEO-Gesamtstrategie auf lokale SEO auszurichten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/research/localseo"
     });
@@ -1061,7 +1061,7 @@ app.get("/de/technical", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Was ist Technisches SEO | SEO Berlino",
-        description: "Technisches SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern (engl. Search Engine Spiders) helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten und somit das natürliche Ranking zu verbessern.",
+        description: "Technisches SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/technical"
     });
@@ -1089,7 +1089,7 @@ app.get("/de/seo", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Suchmaschinenoptimierung Tipps | SEO Berlino",
-        description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+        description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/seo"
     });
@@ -1325,7 +1325,7 @@ app.get("/de/seo-beratung", (req, res) => {
         requrl: "/en/seo-consultancy",
         layout: "mainDE",
         title: "SEO Freelancer Beratung: Audit, Web Analyse | SEO Berlino",
-        description: "SEO Beratung in Berlin. SEO Experte. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren . Ein komplettes Audit deckt jedoch alle Aspekte des über die Jahre sehr komplex gewordenen SEO ab.",
+        description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/seo-consultancy"
     });
@@ -1337,7 +1337,7 @@ app.get("/en/seo-consultancy", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         title: "SEO Consultant: SEO Services | SEO Berlino",
         layout: "main",
-        description: "SEO & Analytics Consultancy services: SEO, Analytics, SEA and scrum implementation. 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross…",
+        description: "SEO & Analytics Expert: SEO, Analytics, SEA and scrum implementation. 10 years experience with Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/seo-beratung"
     });
@@ -1350,7 +1350,7 @@ app.get("/en/lexical/nofollow", (req, res) => {
     res.render("nofollow", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Nofollow Links | SEO Berlino",
+        title: "Nofollow Links and SEO | SEO Berlino",
         description: "SEO Lexical about SEO Jargon. Understand NoFollow Links and how they affect your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/nofollow"
@@ -1362,7 +1362,7 @@ app.get("/de/lexical/nofollow", (req, res) => {
     res.render("nofollow", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Nofollow Links | SEO Berlino",
+        title: "Nofollow Links wie es funktioniert | SEO Berlino",
         description: "SEO Lexicon für SEO. SEO Lexical about SEO Jargon. Understand NoFollow Links and how they affect your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/nofollow"
@@ -1423,7 +1423,7 @@ app.get("/en/lexical/amp-pages", (req, res) => {
     res.render("amppages", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "AMP for SEO | SEO Berlino",
+        title: "Accelerated Mobile Pages and SEO | SEO Berlino",
         description: "SEO Lexical about SEO Jargon. Understand AMP and how can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/amp-pages"
@@ -1591,7 +1591,7 @@ app.get("/en/lexical", (req, res) => {
     res.render("lexical", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Lexicon | SEO Berlino",
+        title: "SEO Lexicon: About SEO Jargon | SEO Berlino",
         description: "SEO Lexicon for SEO. Learn about SEO Jargon and what some terms mean. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical"
@@ -1621,7 +1621,7 @@ app.get("/de/lexical", (req, res) => {
     res.render("lexical", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Lexicon | SEO Berlino",
+        title: "SEO Lexicon und SEO Jargon | SEO Berlino",
         description: "SEO Lexicon für SEO. Find out about SEO and all those words which can scare you.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical"
@@ -1693,7 +1693,7 @@ app.get("/de/lexical/sitemaps", (req, res) => {
     res.render("sitemaps", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Lexicon über SEO Jargon. Wie funktionieren Sitemaps für SEO | SEO Berlino",
+        title: "Wie funktionieren Sitemaps für SEO | SEO Berlino",
         description: "SEO Lexical about SEO Jargon. Understand how Sitemaps work and how they can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/sitemaps"
@@ -1705,8 +1705,8 @@ app.get("/en/lexical/noindex", (req, res) => {
     res.render("noindex", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "What is noindex | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand how noindex works and how it can improve your SEO",
+        title: "What is noindex and SEO | SEO Berlino",
+        description: "SEO Lexicon about SEO Jargon. Understand how noindex works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/lexical/noindex"
     });
@@ -1717,8 +1717,8 @@ app.get("/de/lexical/noindex", (req, res) => {
     res.render("noindex", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Lexicon über SEO Jargon. Wie funktionieren noindex für SEO | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand how noindex works and how it can improve your SEO",
+        title: "Wie funktionieren noindex für SEO | SEO Berlino",
+        description: "SEO Lexicon über SEO Jargon. Verstehen Sie, wie noindex funktioniert und wie es Ihre SEO verbessern kann.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/noindex"
     });
@@ -1741,8 +1741,8 @@ app.get("/de/lexical/redirects", (req, res) => {
     res.render("redirects", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Lexicon über SEO Jargon. Wie funktionieren redirects für SEO | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand how redirects work and how it can improve your SEO",
+        title: "Wie funktionieren redirects für SEO | SEO Berlino",
+        description: "SEO Lexikalisch über SEO Jargon. Verstehen Sie, wie Redirects funktionieren und wie sie Ihre SEO verbessern können.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/redirects"
     });
@@ -1813,7 +1813,7 @@ app.get("/de/lexical/disavow-tool", (req, res) => {
     res.render("disavowtool", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Disavow Tool | SEO Berlino",
+        title: "Disavow Tool und wie es funktioniert| SEO Berlino",
         description: "SEO Lexicon über SEO Jargon. Disavow Tool und Suchmaschinenoptimierung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/en/lexical/disavow-tool"
@@ -1837,7 +1837,7 @@ app.get("/en/article/clutch", (req, res) => {
     res.render("blogclutch", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO Berlino Named Top SEO Services Company in Germany | SEO Berlino",
+        title: "SEOBerlino Top SEO Services Company in Germany | SEO Berlino",
         description: "Clutch has selected SEO Berlino as one of the top SEO companies in Germany for 2019.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
