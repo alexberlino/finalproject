@@ -1670,6 +1670,18 @@ app.get("/en/article/linkbuilding-in-2019", (req, res) => {
 });
 
 
+app.get("/en/article/voicesearch", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogvoice", {
+        requrl: "/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "Voice Search and how it challenges SEO | SEO Berlino",
+        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
+
+
 app.get("/en/article/clutch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogclutch", {
