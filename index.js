@@ -124,7 +124,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "/en",
         layout: "mainDEHP",
-        title: "SEO Freelancer, Analytics & Scrum | SEO Berlino",
+        title: "SEO Berater: Consultant & Freelancer | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Experte, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
@@ -154,7 +154,7 @@ app.get("/de/seo-beratung", (req, res) => {
     res.render("beratung", {
         requrl: "/en/seo-consultancy",
         layout: "mainDE",
-        title: "SEO Freelancer Beratung: Audit, Web Analyse | SEO Berlino",
+        title: "SEO Beratung: Audit, Web Analyse | SEO Berlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-consultancy"
@@ -165,7 +165,7 @@ app.get("/en/seo-consultancy", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "/en" + req.originalUrl.substring(3),
-        title: "SEO Consultant: SEO Services | SEO Berlino",
+        title: "SEO Consultant: Audits & Analytics | SEO Berlino",
         layout: "main",
         description: "SEO & Analytics Expert: SEO, Analytics, SEA and scrum implementation. 10 years experience with Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
