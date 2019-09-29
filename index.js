@@ -397,7 +397,7 @@ app.get("/de/onpage/bildoptimierung", (req, res) => {
         requrl: "/en/onpage/images",
         layout: "mainDE",
         title: "Bildoptimierung SEO | SEO Berlino",
-        description: "Für viele Wirtschaftszweige ist die Bildersuche noch immer ein wichtiger Unterbereich des SEO.",
+        description: "Für viele Wirtschaftszweige ist die Bildersuche noch immer ein wichtiger Unterbereich des SEO. Alles, was Sie wissen müssen über Bildoptimierung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/onpage/images"
     });
@@ -853,7 +853,7 @@ app.get("/en/offpage", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Offpage Optimization SEO Berlin | SEO Berlino",
-        description: "Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building.",
+        description: "SEO Resources from SEO Berlino: Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/offpage"
     });
@@ -1118,7 +1118,7 @@ app.get("/en/scrum/pillars", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Scrum's 3 Pillars | SEO Berlino",
-        description: "Scrum 3 Pillars. Learn about Scrum and how to Implement Scrum it for your SEO Projects.",
+        description: "Scrum 3 Pillars: Transparency, Inspection and Adaptation. Learn about Scrum and how to Implement Scrum it for your SEO Projects.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/scrum"
     });
@@ -1130,7 +1130,7 @@ app.get("/en/scrum/team", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "About Scrum: Scrum Teams | SEO Berlino",
-        description: "More about the Scrum Team and how to implement it. Agile Expert in Berlin.",
+        description: "Learn about Scrum and how the Scrum Team is organised and its members: Product Owner, Scrum Master and Dev Team.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
 });
@@ -1141,7 +1141,7 @@ app.get("/en/scrum/events", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "About Scrum: Scrum Events | SEO Berlino",
-        description: "Learn about the Scrum Events and how to Implement scrum for your SEO Projects.",
+        description: "Learn about Scrum and the Scrum Events: the Sprint, Sprint Planning, Daily Scrum, Sprint review and Backlog Refinement.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
 });
@@ -1153,7 +1153,7 @@ app.get("/en/scrum/artifacts", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "About Scrum: Scrum Artifacts | SEO Berlino",
-        description: "Learn about scrum artifacts and Implement Scrum for your SEO Projects. ",
+        description: "Learn about Scrum and the Scrum Artifacts: the Product Backlog, The Sprint Backlog and the defintion of Done.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
 });
@@ -1203,7 +1203,7 @@ app.get("/en/lexical", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "SEO Lexicon: About SEO Jargon | SEO Berlino",
-        description: "SEO Lexicon for SEO. Learn about SEO Jargon and what some terms mean. ",
+        description: "SEO Lexicon for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/lexical"
     });
@@ -1228,7 +1228,7 @@ app.get("/en/lexical/nofollow", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Nofollow Links and SEO | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand NoFollow Links and how they affect your SEO",
+        description: "SEO Lexicon about SEO Jargon for you to understand how NoFollow links work and how they affect your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/lexical/nofollow"
     });
@@ -1253,7 +1253,7 @@ app.get("/en/lexical/rankbrain", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "What is Google's Rankbrain | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand Rankbrain and how it affects your SEO",
+        description: "SEO Lexicon about SEO Jargon for you to understand how Rankbrain works and how it affects your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/lexical/rankbrain"
     });
@@ -1277,7 +1277,7 @@ app.get("/en/lexical/alt-attribute", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Alt Attribute for SEO Images | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand Alt Attribute and how can improve your SEO",
+        description: "SEO Lexicon about SEO Jargon for you to understand how alt attributs work and how it affects your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/lexical/alt-attribute"
     });
@@ -1301,7 +1301,7 @@ app.get("/en/lexical/amp-pages", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Accelerated Mobile Pages and SEO | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand AMP and how can improve your SEO",
+        description: "SEO Lexicon about SEO Jargon for you to understand how AMP Papes work and how it affects your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/lexical/amp-pages"
     });
@@ -1325,7 +1325,7 @@ app.get("/en/lexical/canonical", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Canonicals for SEO | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand Canonicals work and how they can help you improve your SEO",
+        description: "SEO Lexicon about SEO Jargon for you to understand how canonicals work and how it affects your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/lexical/canonical"
     });
@@ -1349,7 +1349,7 @@ app.get("/en/lexical/google-keyword-tool", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Google Keyword Planner for SEO | SEO Berlino",
-        description: "SEO Lexical about SEO Jargon. Understand Google's Keyword PLanner and how it can improve your SEO",
+        description: "SEO Lexicon about SEO Jargon for you to understand how the Google Keyword Tool works and how it affects your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/lexical/google-keyword-tool"
     });
@@ -1676,7 +1676,7 @@ app.get("/en/article/voicesearch", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Voice Search and how it challenges SEO | SEO Berlino",
-        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search.",
+        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1688,7 +1688,7 @@ app.get("/en/article/clutch", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEOBerlino Top SEO Services Company in Germany | SEO Berlino",
-        description: "Clutch has selected SEO Berlino as one of the top SEO companies in Germany for 2019.",
+        description: "Clutch has selected SEO Berlino as one of the top SEO companies in Germany for 2019. Read the Press Release from Clutch.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1736,7 +1736,7 @@ app.get("/en/article/why-you-need-implement-structured-data", (req, res) => {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
         title: "Why you need to implement Structured Data | SEO Berlino",
-        description: "SEO Blog articles about Structured Data and why you need to implement them to improve your SEO.",
+        description: "SEO Blog article about Structured Data and why you need to implement them to improve your SEO.  Everything you need to know about Strucutured Data. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1748,7 +1748,7 @@ app.get("/en/article/link-building-to-brandbuilding", (req, res) => {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
         title: "Link Building to Brand Building | SEO Berlino",
-        description: "Link Bulding is now very connected to PR and how to spread visibility online.",
+        description: "Link Bulding is now very connected to PR and how to spread visibility online. Read about how you need to adapt your PR online strategy.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1760,7 +1760,7 @@ app.get("/en/article/how-to-get-those-first-links", (req, res) => {
         layout: "mainNoAlt",
         requrl: "/en" + req.originalUrl.substring(3),
         title: "How to get those first links | SEO Berlin | SEO Berlino",
-        description: "Read this article about SEO and Backlinking and how to get your first backlinks in a simple way.",
+        description: "Read this article about SEO and Backlinking and how to get your first backlinks in a simple way: clients, sponsoring, specialised websites, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
