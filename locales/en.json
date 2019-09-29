@@ -487,5 +487,6 @@
 	"contactexperience": "Experience",
 	"with": "with",
 	"auditintro-new": "The SEO Audit follows the following format - although it can be adapted depending on the client's requirements and priorities: Executive Summary, Keyword Research, Competitor Analysis, On-page & Technical SEO, Backlink Profile Analysis. We also include a backlog (online Google sheet format) which takes all the items of Audit and classifies them by priority, with a short description, a column for the status which will change as the fixes is implemented and a comment section for communication.",
-	"": ""
+	"": "",
+	"noindexMP": "noindexMP"
 }
