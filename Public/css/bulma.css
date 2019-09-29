@@ -9626,16 +9626,10 @@ footer.page-end .clutch {
     display: none
 }
 
-xmp {
-    background-color: #4a4a4a;
-    color: white;
-    padding: 2rem 1rem;
-    border-radius: 6px;
+pre {
     white-space: pre-wrap;
-    font-family: monospace;
     word-wrap: break-word;
-    width: 100%;
-    font-size: 0.9rem
+    font-size: 11px;
 }
 
 .lexicon .lexical-list .column:first-of-type {

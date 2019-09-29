@@ -36,14 +36,14 @@
                         <p>{{{__ "redirectsMP"}}}</p>
 
                         <h2 class="title is-heavy is-4 reduced-top-margin">{{{__ "example"}}}</h2>
-                        <xmp>app.get("/de/folder/page", function(request, response) {
-                            response.writeHead(301, {
-                            Location: "https://newtargetpage.com",
-                            Expires: new Date().toGMTString()
-                            });
-                            response.end();
-                            });
-                        </xmp>
+                        <pre>app.get("/de/folder/page", function(request, response) {
+response.writeHead(301, {
+Location: "https://newtargetpage.com",
+Expires: new Date().toGMTString()
+});
+response.end();
+});
+                        </pre>
 
 
 
