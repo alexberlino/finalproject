@@ -1790,6 +1790,2232 @@ app.get("/de/off-page/toxic", function(request, response) {
 });
 
 
+/////410 PAGES
+
+app.get("/fr", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/datenschutz", (req, res) => {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/research/analytics", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/forschung/webanalyse", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/freeaudit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/seonews", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/en/backlinks", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/backlinks", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/freeaudit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/partnership", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/partnership", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/technical/ladegeschwindigkeit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("de/on-page/structured-data-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/research/sea", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/forschung/suchmaschinenwerbung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/off-page", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/off-page/backlink-analyse", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/technik/security", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/onpage/content", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/technical/security", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/seo-tips", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-for-small-businesses", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/seo-for-small-businesses", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/un/seonews", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/ad/research/bestpractices", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage/landing-pages-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/research/sea", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/technical/dynamicrendering", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/research/sea", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/duplicatecontent", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/mobile-friendly-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/research/analytics", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/research/bestpractices", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/seonews", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/services", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/contact", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/technical/indexation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/research/localseo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/technical/internationalisation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/cookies", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/research/analytics", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/offpage/brandbuilding", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/research/sea", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/offpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/services", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/contact", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/technical", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/onpage/images", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/research/analytics", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/onpage/duplicatecontent", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research/localseo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/offpage/brandbuilding", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/onpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/blog", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/seonews", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/article/link-building-to-brand-building", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research/bestpractices", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/undefined/impressum", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/article/link-building-to-brand-building", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research/analytics", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/technical/crawlability", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/offpage/toxic", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/technical/pagespeed", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/technical/security", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technical/crawlability", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/research/localseo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/resources", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/offpage/backlinkanalysis", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/offpage/backlinkanalysis", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/images", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/offpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/services", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/offpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/cookies", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/technical/crawlability", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/technical/mobilefriendly", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/services", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/services", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/blog", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/blog", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/resources", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/admin", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technical/ladegeschwindigkeit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/pagespeed", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/seo-tips", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/metas", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/off-page/backlinkanalysis", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/off-page/backlink-analyse", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/bildoptimierung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research/sea", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage/metas", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage/structureddata", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage/images", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/structureddata", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/DomainAuthority", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/single-post/2018/03/09/What-does-mobile-first-really-means-and-how-to-get-ready-for-it", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/LinkBuilding", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/date/2018-05", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/_api/common-services/notification/invoke", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/MajesticSEO", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/Outreach", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/berlin-neukoelln", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/ratings", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/googlehome", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/date/2018-03", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/breadcrumb", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/MobileSEO", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/G2Crowd", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/PWA", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/schema", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/backlinking-check", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/Buzzsumo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/technical-seo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/Moz", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/MyBusiness", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/dynamic-rendering-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/article/en/technical", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ened/", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/internallinking", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/structured-data-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/ladegeschwindigkeit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/enog/category/MobileFirst", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technical/indexation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/technical/indexation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/deed/", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/offpage/brandbuilding", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/sprachsuche", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/internationalisation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/article/linkbuilding-getting-it-right-in-2018", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/Rankings", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/landingpages", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/technical/security", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/de/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/technical/internationalisation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/Google-Algorithm", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/technical/mobilefriendly", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/duplicatecontent", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technical/security", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/article/beyond-mobile-first", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/technical/dynamicrendering", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/enws", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/de/technical", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/fr/contact", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/on-page/internallinking", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/voicesearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/crawlability", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/contact", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/content", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage/internallinking", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/interne-verlinkung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage/voicesearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research/competitor-analysis", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/sicherheit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/indexierung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/technical", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/competitor-analysis", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/onpage/keywordresearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/research/bestpractices", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/technical/internationalisation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/article/link-building-to-brand-building", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/off-page/brandbuilding", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/enchnical-seo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/technical/indexation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/technical/indexation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/offpage/backlinkanalysis", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/voicesearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/inhalt", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage/keywordresearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/feed/", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/dechnical-seo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/keyword-recherche", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/research/sea", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/crawling", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/about", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/onpage/internallinking", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/technical/pagespeed", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/off-page/brand-building-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/security", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technical/dynamicrendering", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/engin", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/freeaudit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/seo-for-small-businesses", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/partnership", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/images", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/seit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/technical/crawlability", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/admin", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/technical/internationalisation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/technical/crawlability", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/technical/dynamicrendering", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/technical/mobilefriendly", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/technical/pagespeed", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/inprint", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/indexation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technik/dynamicrendering", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/forschung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/seo-freelancer", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/en/offpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/resources", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/login", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/seo-freelancer", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/cookies", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/en/technical", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/en/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/research/analytics", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/research/localseo", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/research/sea", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/impressum", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/about", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/login", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/offpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/structureddata", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/aboutthiswebsite", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/research/bestpractices", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/landing-pages-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/off-page/brand-building", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/on-page/metas-tags-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/de/forschung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/de/off-page", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/de/on-page", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/de/technik", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/metas", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage/en/casestudy", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/article/how-to-get-those-first-links", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/on-page-audit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/article/beyond-mobile-first", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/blog", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/single-post/2018/03/09/en/blog", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/single-post/2018/03/08/en/blog", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/keywordresearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/voicesearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/content", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/metas", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/images", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/dedefined/impressum", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/endefined/impressum", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/resources", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/article/how-to-get-those-first-links", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/article/beyond-mobile-first", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/article/beyond-mobile-first", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/article/link-building-to-brand-building", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/technical/dynamic-rendering-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/onpage/interne-verlinkung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/forschung/mitwettbewerber", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/onpage/structured-data-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/technical/internationalisierung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/forschung/suchmaschinenwerbung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/onpage/keyword-recherche", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/offpage/brand-building", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/onpage/bildoptimierung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/onpage/sprachsuche", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/technical/sicherheit", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/technical/crawling", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/technical/indexierung", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/keywordresearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/landingpages", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/structureddata", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/voicesearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/metas", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/duplicatecontent", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/technical", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/technical", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/contact", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/login", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/cookies", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/en/casestudy", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/article/linkbuilding-getting-it-right-in-2018", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/resources", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/cookies", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/content", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technical/internationalisation", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/aboutthiswebsite", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/single-post/2018/03/11/Link-Building-to-Brand-Building", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/single-post/2018/05/15/Linkbuilding-in-2018", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/single-post/2018/03/08/Why-you-need-to-implement-Structured-Data-on-your-website", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/single-post/2018/03/12/Who-and-How-to-contact-other-websites-to-link-to-you", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/GoogleSearch Commands", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/featuredsnippets", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/LinkProspector", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/featured-snippets", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/voicesearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/localSEO", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/ContentMarketing", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/category/VoiceSearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/Influencers", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/GoogleAssistant", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/MobileFirst", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/long-tail", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/Twitter", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/JSON-LD", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/PWAMP", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/CTR", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/AMP", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/dedefined", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/structureddata", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/en/onpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/Domain-Authority", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/research/bestpractices", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/technical/mobilefriendly", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/images", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/onpage/internallinking", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/technical/dynamicrendering", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/onpage/content", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/onpage/landingpages", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/structured-data", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/seo-sea-jargon", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/landingpages", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/onpage/voicesearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/offpage/toxic", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/Content-Marketing", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/article/linkbuilding-getting-it-right-in-2018", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/blog/tag/google-home", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/reporttemplate.pdf", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/endefined/services", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/article/en/offpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/article/en/onpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/article/en/research", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/technical/en/casestudy", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/lexical/en/casestudy", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/research/local-seo-de", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/onpage/internallinking", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/casestudy/en/casestudy", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/Mobilefirst", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/about", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/logo.jpg", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/un/article/linkbuilding-getting-it-right-in-2018", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/content", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/single-post/2018/03/12/Who-and-How-to-contact-other-websites-to-link-to-you?_amp_", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/services", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/offpage/brandbuilding", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/onpage/keywordresearch", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/ad/article/beyond-mobile-first", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/research/analytics", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/de/offpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/de/onpage", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/undefined/services", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/login", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/lo/article/linkbuilding-getting-it-right-in-2018", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/article/linkbuilding-getting-it-right-in-2018", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/fr/seonews", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/GoogleAlgorithm", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/Mobile-first", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/Penguin", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/Possum", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/Google", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/news/tag/2017", function(request, response) {
+    response.writeHead(410, {
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 
 var nodemailer = require('nodemailer');
 
