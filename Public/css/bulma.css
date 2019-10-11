@@ -9521,7 +9521,7 @@ footer.page-end .clutch {
 }
 
 .single-post .blog-imageheader .header-body {
-    min-height: 40rem;
+    min-height: 20rem;
     position: relative;
     display: flex;
     justify-content: center;
