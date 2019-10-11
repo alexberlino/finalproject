@@ -112,8 +112,8 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO & Agile Berater und Freelancer | SEO Berlino",
-        description: "SEO Experte, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
+        title: "SEO Freelancer und Agile Coach | SEO Berlino",
+        description: "SEO Experte und Agile Coach, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
     });
@@ -124,9 +124,9 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO & Agile Berater und Freelancer | SEO Berlino",
+        title: "SEO Freelancer und Agile Coach | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
-        description: "SEO Experte, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
+        description: "SEO Experte und Agile Coach, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
     });
 });
@@ -136,8 +136,8 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainHP",
-        title: "SEO Consultant, Agile and Analytics Expert | SEO Berlino",
-        description: "SEO Expert, 10 years experience €100m + multinationals:  Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
+        title: "SEO Consultant and Agile Coach | SEO Berlino",
+        description: "SEO Consultant and Agile Coach, 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de",
     });
@@ -1093,8 +1093,8 @@ app.get("/en/scrum", (req, res) => {
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Scrum Master in Berlin, scrum for SEO Projects | SEO Berlino",
-        description: "Implement Scrum for your SEO Projects. 10 Year-Experienced SEO Expert, certified scrum master and experienced as Product owner.",
+        title: "Agile Coach / ScrumMaster in Berlin | SEO Berlino",
+        description: "Implement Scrum for your Projects. 10 Year-Experienced SEO Expert, certified ScrumMaster and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/scrum"
     });
@@ -1105,7 +1105,7 @@ app.get("/de/scrum", (req, res) => {
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Scrum Master -Implementierung für SEO-Projekte | SEO Berlino",
+        title: "ScrumMaster -Implementierung für SEO-Projekte | SEO Berlino",
         description: "Implementieren Sie Scrum für Ihre SEO-Projekte. 10 Jahre erfahrener SEO-Experte, zertifizierter Scrum-Master und erfahren als Product Owner.",
         canonical: "https://www.seoberlino.com/de/scrum",
         alt: "https://www.seoberlino.com/en/scrum"
@@ -1130,7 +1130,7 @@ app.get("/en/scrum/team", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "About Scrum: Scrum Teams | SEO Berlino",
-        description: "Learn about Scrum and how the Scrum Team is organised and its members: Product Owner, Scrum Master and Dev Team.",
+        description: "Learn about Scrum and how the Scrum Team is organised and its members: Product Owner, ScrumMaster and Dev Team.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
 });
