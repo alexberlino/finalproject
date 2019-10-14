@@ -1789,6 +1789,29 @@ app.get("/de/off-page/toxic", function(request, response) {
     response.end();
 });
 
+app.get("https://www.seoberlino.com", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seo-agile.com",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("https://www.seoberlino.com/de", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seo-agile.com/de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("https://www.seoberlino.com/en", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seo-agile.com/en",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 /////410 PAGES
 
