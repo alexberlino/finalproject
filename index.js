@@ -51,7 +51,7 @@ if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
 
 
-        if (req.host == "seoberlino.com") {
+        if (req.headers.host == "www.seoberlino.com") {
 
             return res.redirect(301, 'https://www.seo-agile.com' + req.url);
 
@@ -72,18 +72,13 @@ if (process.env.NODE_ENV === "production") {
 
         } else {
 
-
             next();
         }
 
     });
 }
 
-if (process.env.NODE_ENV != "production") {
 
-    console.log(req.host)
-
-}
 
 var compression = require("compression");
 app.use(compression());
