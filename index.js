@@ -46,8 +46,16 @@ i18n.configure({
 });
 app.use(i18n.init);
 
+
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
+
+
+        if (req.host == "seoberlino.com") {
+
+            return res.redirect(301, 'https://www.seo-agile.com' + req.url);
+
+        }
 
         if (req.headers["x-forwarded-proto"] == "https") {
 
@@ -63,12 +71,19 @@ if (process.env.NODE_ENV === "production") {
             );
 
         } else {
+
+
             next();
         }
 
     });
 }
 
+if (process.env.NODE_ENV != "production") {
+
+    console.log(req.host)
+
+}
 
 var compression = require("compression");
 app.use(compression());
@@ -1789,29 +1804,7 @@ app.get("/de/off-page/toxic", function(request, response) {
     response.end();
 });
 
-app.get("https://www.seoberlino.com", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seo-agile.com",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
-app.get("https://www.seoberlino.com/de", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seo-agile.com/de",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("https://www.seoberlino.com/en", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seo-agile.com/en",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
 /////410 PAGES
 
