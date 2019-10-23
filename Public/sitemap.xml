@@ -192,50 +192,33 @@
 <url><loc>https://www.seo-agile.com/de/seo-beratung</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/nofollow</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/rankbrain</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/rankbrain</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/nofollow</loc></url>
 
 <url><loc>https://www.seo-agile.com/en/lexical</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/sitemaps</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/sitemaps</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/noindex</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/noindex</loc></url>
 
 <url><loc>https://www.seo-agile.com/en/lexical/alt-attribute</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/alt-attribute</loc></url>
 
 <url><loc>https://www.seo-agile.com/en/lexical/amp-pages</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/amp-pages</loc></url>
 
 
 <url><loc>https://www.seo-agile.com/en/lexical/google-keyword-tool</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/google-keyword-tool</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/remove-url-tool</loc></url>
 
-<url><loc>https://www.seo-agile.com/de/lexical/disavow-tool</loc></url>
 
 <url><loc>https://www.seo-agile.com/en/lexical/disavow-tool</loc></url>
 
-<url><loc>https://www.seo-agile.com/de/lexical/remove-url-tool</loc></url>
 
 <url><loc>https://www.seo-agile.com/en/lexical/canonical</loc></url>
 
-<url><loc>https://www.seo-agile.com/de/lexical/canonical</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/hreflang</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/hreflang</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/long-tail</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/long-tail</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/robots</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/robots</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/lighthouse</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/lighthouse</loc></url>
 <url><loc>https://www.seo-agile.com/en/article/why-you-need-implement-structured-data</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/search-volume</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/search-volume</loc></url>
 
 <url><loc>https://www.seo-agile.com/en/lexical/search-console</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/search-console</loc></url>
 
 <url>
   <loc>https://www.seo-agile.com/en/casestudy</loc>
@@ -270,8 +253,6 @@
   <loc>https://www.seo-agile.com/en/casestudy/wooga</loc>
   </url>
 <url><loc>https://www.seo-agile.com/en/lexical/redirects</loc></url>
-<url><loc>https://www.seo-agile.com/de/lexical/google-pagespeed</loc></url>
 <url><loc>https://www.seo-agile.com/en/lexical/google-pagespeed</loc></url>
 
-<url><loc>https://www.seo-agile.com/de/lexical/redirects</loc></url>
 </urlset>
