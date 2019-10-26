@@ -1115,8 +1115,8 @@ app.get("/de/scrum", (req, res) => {
     res.render("beratungscrum", {
         requrl: "https://www.seo-agile.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "ScrumMaster -Implementierung für SEO-Projekte | SEO Agile Berlin",
-        description: "Implementieren Sie Scrum für Ihre SEO-Projekte. 10 Jahre erfahrener SEO-Experte, zertifizierter Scrum-Master und erfahren als Product Owner.",
+        title: "Agile Coach / ScrumMaster in Berlin | SEO Agile Berlin",
+        description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener SEO-Experte, zertifizierter Scrum-Master und erfahren als Product Owner.",
         canonical: "https://www.seo-agile.com/de/scrum",
         alt: "https://www.seo-agile.com/en/scrum"
     });
