@@ -3269,31 +3269,31 @@ a.box:active {
 }
 
 .title.is-1 {
-    font-size: 3rem
+    font-size: 1.8rem
 }
 
 .title.is-2 {
-    font-size: 2.5rem
+    font-size: 1.6rem
 }
 
 .title.is-3 {
-    font-size: 2rem
+    font-size: 1.4rem
 }
 
 .title.is-4 {
-    font-size: 1.5rem
-}
-
-.title.is-5 {
-    font-size: 1.25rem
-}
-
-.title.is-6 {
     font-size: 1rem
 }
 
+.title.is-5 {
+    font-size: 0.9rem
+}
+
+.title.is-6 {
+    font-size: 0.8rem
+}
+
 .title.is-7 {
-    font-size: .75rem
+    font-size: .7rem
 }
 
 .subtitle {
@@ -3321,23 +3321,23 @@ a.box:active {
 }
 
 .subtitle.is-1 {
-    font-size: 3rem
-}
-
-.subtitle.is-2 {
-    font-size: 2.5rem
-}
-
-.subtitle.is-3 {
     font-size: 2rem
 }
 
+.subtitle.is-2 {
+    font-size: 1.8rem
+}
+
+.subtitle.is-3 {
+    font-size: 1.6rem
+}
+
 .subtitle.is-4 {
-    font-size: 1.5rem
+    font-size: 1.3rem
 }
 
 .subtitle.is-5 {
-    font-size: 1.25rem
+    font-size: 1.1rem
 }
 
 .subtitle.is-6 {
@@ -9266,7 +9266,7 @@ body.frozen {
 }
 
 .navbar .navbar-item {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 700
 }
 
@@ -10652,19 +10652,19 @@ xmp {
     }
 
     .subtitle.is-1, .title.is-1 {
-        font-size: 2rem !important
+        font-size: 1.8rem !important
     }
 
     .subtitle.is-2, .title.is-2 {
-        font-size: 1.75rem !important
+        font-size: 1.6rem !important
     }
 
     .subtitle.is-3, .title.is-3 {
-        font-size: 1.55rem !important
+        font-size: 1.4rem !important
     }
 
     .subtitle.is-4, .title.is-4 {
-        font-size: 1.25rem !important
+        font-size: 1.2rem !important
     }
 
     .subtitle.is-5, .title.is-5 {
