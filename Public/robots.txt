@@ -1,7 +1,7 @@
 
-# HTTPS  www.seo-agile.com
+# HTTPS  www.seoberlino.com
 User-agent: *
 Disallow: /error
 Disallow: /success
 
-Sitemap: https://www.seo-agile.com/sitemap.xml
+Sitemap: https://www.seoberlino.com/sitemap.xml
