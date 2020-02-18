@@ -4033,14 +4033,7 @@ app.get("/news/tag/2017", function(request, response) {
 var nodemailer = require('nodemailer');
 
 
-
-
-
-
 app.post("/email", (req, res) => {
-
-
-
     console.log(req.body.name)
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
