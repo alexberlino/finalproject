@@ -4075,12 +4075,7 @@ app.post("/email", (req, res) => {
 
     // g-recaptcha-response is the key that browser will generate upon form submit.
     // if its blank or null means user has not selected the captcha, so return the error.
-    if (req.body['g-recaptcha-response'] === undefined || req.body['g-recaptcha-response'] === '' || req.body['g-recaptcha-response'] === null) {
-        return res.json({
-            "responseCode": 1,
-            "responseDesc": "Please select captcha"
-        });
-    }
+
     // Put your secret key here.
     var secretKey = "6LcaJtoUAAAAADzjtzOsxGn13J5XypBzaap2eJyv";
     // req.connection.remoteAddress will provide IP address of connected user.
