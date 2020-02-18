@@ -47,21 +47,12 @@
     <link rel="stylesheet" href="https://use.typekit.net/wal3lcu.css">
     <meta name="google-site-verification" content="oF1-hfVAGySaz7pJ1kWDPQa2u_ZwhTFk54__ovCcI5A" />
     <script data-cookie-notice='{ "learnMoreLinkEnabled": true, "learnMoreLinkHref": "/de/datenschutz" }' src="https://unpkg.com/cookie-notice@^1/dist/cookie.notice.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#comment_form').submit(function() {
-                $(this).ajaxSubmit({
-                    error: function(xhr) {
-                        status('Error: ' + xhr.status);
-                    },
-                    success: function(response) {
-                        console.log(response);
-                    }
-                });
-                //Very important line, it disable the page refresh.
-                return false;
-            });
-        });
+    <script type="text/javascript">
+        var onloadCallback = function() {
+            alert("grecaptcha is ready!");
+        };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
     </script>
 </head>
 
