@@ -369,7 +369,7 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
     res.render("duplicatecontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Duplicate Content SEO | SEO Agile Berlin",
+        title: "Duplicate Content SEO | | seoberlino",
         description: "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content and how to avoid it.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/onpage/duplicatecontent"
@@ -551,7 +551,7 @@ app.get("/de/onpage/structured-data-de", (req, res) => {
         requrl: "https://www.seoberlino.com/en/onpage/structureddata",
         layout: "mainDE",
         title: "Google Structured Data | seoberlino",
-        description: "Google, Bing, Yandex und Yahoo haben sich auf ein standartisiertes Format geeinigt: mit schema.org werden Informationen über eine Seite bereitgestellt und die Inhalte klassifiziert.",
+        description: "Google und Co haben sich auf ein standartisiertes Format geeinigt: mit schema.org werden Informationen über eine Seite bereitgestellt und die Inhalte klassifiziert.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/onpage/structureddata"
     });
@@ -846,7 +846,7 @@ app.get("/de/technical", (req, res) => {
     res.render("technical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Was ist Technisches SEO | SEO Agile Berlin",
+        title: "Was ist Technisches SEO | | seoberlino",
         description: "Technisches SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/technical"
@@ -863,7 +863,7 @@ app.get("/en/offpage", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Offpage Optimization SEO Berlin | seoberlino",
-        description: "SEO Resources from SEO Agile Berlin: Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building.",
+        description: "SEO Resources from seoberlino: Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/offpage"
     });
@@ -875,7 +875,7 @@ app.get("/de/offpage", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Offpage Optimierung SEO | seoberlino",
-        description: "Offpage SEO ist ein wichtiger Bestandteil von SEO und umfasst insbesondere Link Building und Brand Building. Erstellen Sie großartige Inhalte, um Ihr Fachwissen zu präsentieren, bauen Sie Ihre Marke auf und ziehen Sie Links und potenzielle Kunden an.",
+        description: "Offpage SEO ist ein wichtiger Bestandteil von SEO und umfasst insbesondere Link Building und Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/offpage"
     });
@@ -1002,7 +1002,7 @@ app.get("/de/audit", (req, res) => {
     res.render("audit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Freelancer: On-page, Off-page, Technical SEO | seoberlino",
+        title: "SEO Audits: Onpage, Offpage, Technical SEO | seoberlino",
         description: "Lassen Sie Ihre Website mit Full SEO Audit auditieren, das mit einer To-Do-Liste (Backlog) mit nach Priorität klassifizierten Problemen geliefert wird.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/audit"
@@ -1370,7 +1370,7 @@ app.get("/de/lexical/google-keyword-tool", (req, res) => {
     res.render("googlekwtool", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDENoIndex",
-        title: "Google Keyword Planner für Suchmaschinenoptimierung | seoberlino",
+        title: "Google Keyword Planner für SEO | seoberlino",
         description: "SEO Lexicon für SEO. Google Keyword Planner für Suchmaschinenoptimierung",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/lexical/google-keyword-tool"
@@ -1673,7 +1673,7 @@ app.get("/en/article/linkbuilding-in-2019", (req, res) => {
     res.render("blog1", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Link Building in 2019 | SEO Agile Berlin",
+        title: "Link Building in 2019 | | seoberlino",
         description: "Link Building in one of the most difficult but important aspects of SEO. Read these tips to start your Backlinking tasks.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1685,7 +1685,7 @@ app.get("/en/article/voicesearch", (req, res) => {
     res.render("blogvoice", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Voice Search and how it challenges SEO | SEO Agile Berlin",
+        title: "Voice Search and how it challenges SEO | | seoberlino",
         description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1697,8 +1697,8 @@ app.get("/en/article/clutch", (req, res) => {
     res.render("blogclutch", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEOBerlino Top SEO Services Company in Germany | SEO Agile Berlin",
-        description: "Clutch has selected SEO Agile Berlin as one of the top SEO companies in Germany for 2019. Read the Press Release from Clutch.",
+        title: "SEOBerlino Top SEO Services Company in Germany | seoberlino",
+        description: "Clutch has selected seoberlino as one of the top SEO companies in Germany for 2019. Read the Press Release from Clutch.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1709,7 +1709,7 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", (req, res) => {
     res.render("blogasia", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO in Asia: China, Japan and Korea in 2019 | SEO Agile Berlin",
+        title: "SEO in Asia: China, Japan and Korea | seoberlino",
         description: "Blog article about SEO in Asia and Search Engines in Asia. How to approach SEO for the Asian market.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
