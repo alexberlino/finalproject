@@ -134,7 +134,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Freelancer | SEO Beratung in Berlin",
+        title: "SEO Freelancer in Berlin | SEO Beratung| seoberlino",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Experte und Agile Coach, 10 Jahre Erfahrung: Montblanc, Ricoh, Spreadshirt, Holberton School, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
@@ -146,7 +146,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainHP",
-        title: "SEO Consultant | SEO Freelancer in Berlin",
+        title: "SEO Consultant | SEO Freelancer in Berlin| seoberlino",
         description: "SEO Consultant and Agile Coach, 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de",
@@ -184,6 +184,57 @@ app.get("/en/seo-consultancy", (req, res) => {
 });
 
 
+app.get("/en/seo-freelancer", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratung", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "SEO Freelancer in Berlin Audits & Analytics | seoberlino",
+        layout: "main",
+        description: "SEO Freelancer Expert: SEO, Analytics, SEA and scrum implementation. 10 years experience with Montblanc, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-beratung"
+    });
+});
+
+
+
+
+app.get("/en/seo-specialist", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratung", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "SEO Specialist in Berlin | seoberlino",
+        layout: "main",
+        description: "SEO Freelancer Expert: SEO, Analytics, SEA and scrum implementation. 10 years experience with Montblanc, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-beratung"
+    });
+});
+
+
+app.get("/en/seo-tools", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratung", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "SEO Tools | seoberlino",
+        layout: "main",
+        description: "SEO Freelancer Expert: SEO, Analytics, SEA and scrum implementation. 10 years experience with Montblanc, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-beratung"
+    });
+});
+
+app.get("/en/seo-berlin", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("beratung", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "SEO Berlin | seoberlino",
+        layout: "main",
+        description: "SEO Freelancer Expert: SEO, Analytics, SEA and scrum implementation. 10 years experience with Montblanc, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-beratung"
+    });
+});
 
 app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
@@ -3114,12 +3165,7 @@ app.get("/de/forschung", function(request, response) {
     });
     response.end();
 });
-app.get("/en/seo-freelancer", function(request, response) {
-    response.writeHead(410, {
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+
 app.get("/en/en/offpage", function(request, response) {
     response.writeHead(410, {
         Expires: new Date().toGMTString()
