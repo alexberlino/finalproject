@@ -159,7 +159,7 @@ app.get("/en", (req, res) => {
 
 
 
-app.get("/de/seo-beratung", (req, res) => {
+app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en/seo-consultancy",
@@ -1850,6 +1850,13 @@ app.get("/de/off-page/toxic", function(request, response) {
     response.end();
 });
 
+app.get("/de/seo-beratung", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-freelancer",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 
 /////410 PAGES
