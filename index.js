@@ -1225,7 +1225,7 @@ app.get("/de/contact", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDENoIndex",
+        layout: "mainDE",
         title: "SEO Experte in Berlin | Kontakt SEO Berlin",
         description: "SEO Consultant Experte in Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
