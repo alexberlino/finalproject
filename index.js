@@ -122,8 +122,7 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Freelancer in Berlin | SEO Experte Beratung | seoberlino",
-        description: "SEO Experte und Agile Coach, 10 Jahre Erfahrung: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
+        title: "SEO Experte in Berlin | SEO Beratung & Consulting | seoberlino",
         canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en",
     });
@@ -134,7 +133,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Freelancer in Berlin | SEO Experte Beratung | seoberlino",
+        title: "SEO Experte in Berlin | SEO Beratung & Consulting | seoberlino",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Experte Freelancer und Agile Coach. 10 Jahre Erfahrung. Kunden: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
@@ -146,7 +145,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainHP",
-        title: "SEO Consultant | SEO Specialist in Berlin| seoberlino",
+        title: "SEO Expert in Berlin, Germany | SEO Consulting | seoberlino",
         description: "SEO Consultant and Agile Coach, 10 years experience €100m + multinationals:  Montblanc, Hello Fresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de",
