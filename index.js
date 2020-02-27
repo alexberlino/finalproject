@@ -277,7 +277,7 @@ app.get("/de/seo", (req, res) => {
     res.render("seo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Suchmaschinenoptimierung Tipps | seoberlino",
+        title: "Optimierung für Suchmaschinen | seoberlino",
         description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo"
