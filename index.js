@@ -265,8 +265,8 @@ app.get("/en/seo", (req, res) => {
     res.render("seo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Search Engine Optimization Tips | seoberlino",
-        description: "SEO Definition: Analysis & Optimization. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
+        title: "How to become an SEO Expert | seoberlino",
+        description: "Learn about SEO and become an expert: Onpage, Offpage, Technical SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo"
     });
