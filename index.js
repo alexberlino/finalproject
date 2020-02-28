@@ -1051,7 +1051,7 @@ app.get("/de/datenschutz", (req, res) => {
 ///AUDIT PAGES
 
 
-app.get("/de/consultant", (req, res) => {
+app.get("/de/seo-consultant", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("audit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1059,11 +1059,11 @@ app.get("/de/consultant", (req, res) => {
         title: "SEO Consultant: Onpage, Offpage, Technical SEO Audits | seoberlino",
         description: "Lassen Sie Ihre Website mit Full SEO Audit auditieren, das mit einer To-Do-Liste (Backlog) mit nach Priorität klassifizierten Problemen geliefert wird.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/audit"
+        alt: "https://www.seoberlino.com/en/seo-consultant"
     });
 });
 
-app.get("/en/consultant", (req, res) => {
+app.get("/en/seo-consultant", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("audit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1071,7 +1071,7 @@ app.get("/en/consultant", (req, res) => {
         description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
         title: "SEO Consultant for SEO Audits in Berlin | seoberlino",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/audit"
+        alt: "https://www.seoberlino.com/de/seo-consultant"
     });
 });
 
@@ -1852,14 +1852,14 @@ app.get("/de/off-page/toxic", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-consultant", function(request, response) {
+app.get("/de/audit", function(request, response) {
     response.writeHead(301, {
         Location: "/de/seo-consultant",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
-app.get("/en/seo-consultant", function(request, response) {
+app.get("/en/audit", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-consultant",
         Expires: new Date().toGMTString()
