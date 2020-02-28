@@ -1852,14 +1852,14 @@ app.get("/de/off-page/toxic", function(request, response) {
     response.end();
 });
 
-app.get("/de/audit", function(request, response) {
+app.get("/de/seo-consultant", function(request, response) {
     response.writeHead(301, {
         Location: "/de/seo-consultant",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
-app.get("/en/audit", function(request, response) {
+app.get("/en/seo-consultant", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-consultant",
         Expires: new Date().toGMTString()
