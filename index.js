@@ -300,7 +300,20 @@ app.get("/en/seo-berlin", (req, res) => {
         title: "SEO Berlin: Start-ups and SEO in Berlin | seoberlino",
         description: "SEO Berlin Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com" + req.originalUrl
+        alt: "https://www.seoberlino.com/en/seo-berlin"
+
+    });
+});
+
+app.get("/de/seo-berlin", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("casestudy", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "SEO Berlin: Start-ups and SEO in Berlin | seoberlino",
+        description: "SEO Berlin Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-berlin"
 
     });
 });
