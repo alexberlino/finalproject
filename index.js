@@ -161,7 +161,7 @@ app.get("/en", (req, res) => {
 app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratung", {
-        requrl: "https://www.seoberlino.com/en/seo-consultancy",
+        requrl: "https://www.seoberlino.com/de/seo-freelancer",
         layout: "mainDE",
         title: "SEO Freelancer: SEO Beratung, Audit & Web Analyse | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
@@ -170,13 +170,13 @@ app.get("/de/seo-freelancer", (req, res) => {
     });
 });
 
-app.get("/en/seo-consultant", (req, res) => {
+app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Consultant in Berlin, Germany: SEO Audits | seoberlino",
+        title: "SEO Freelancer in Berlin: SEO Audits | seoberlino",
         layout: "main",
-        description: "SEO Consultant in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        description: "SEO Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-beratung"
     });
@@ -312,7 +312,7 @@ app.get("/de/seo-berlin", (req, res) => {
         layout: "mainNoAlt",
         title: "SEO Berlin: Start-ups and SEO in Berlin | seoberlino",
         description: "SEO Berlin Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/seo-berlin",
         alt: "https://www.seoberlino.com/en/seo-berlin"
 
     });
@@ -1051,7 +1051,7 @@ app.get("/de/datenschutz", (req, res) => {
 ///AUDIT PAGES
 
 
-app.get("/de/audit", (req, res) => {
+app.get("/de/consultant", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("audit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1063,7 +1063,7 @@ app.get("/de/audit", (req, res) => {
     });
 });
 
-app.get("/en/audit", (req, res) => {
+app.get("/en/consultant", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("audit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1852,6 +1852,21 @@ app.get("/de/off-page/toxic", function(request, response) {
     response.end();
 });
 
+app.get("/de/audit", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-consultant",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/en/audit", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-consultant",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 app.get("/en/casestudy", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-berlin",
@@ -1878,7 +1893,7 @@ app.get("/en/scrum", function(request, response) {
 
 app.get("/en/seo-consultancy", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/seo-consultant",
+        Location: "/en/seo-freelancer",
         Expires: new Date().toGMTString()
     });
     response.end();
