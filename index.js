@@ -223,17 +223,7 @@ app.get("/en/seo-tools", (req, res) => {
     });
 });
 
-app.get("/en/seo-berlin", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("beratung", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Berlin | seoberlino",
-        layout: "main",
-        description: "SEO Freelancer Expert: SEO, Analytics, SEA and scrum implementation. 10 years experience with Montblanc, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/seo-beratung"
-    });
-});
+
 
 app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
@@ -302,15 +292,16 @@ app.get("/en/contact", (req, res) => {
 /////CASE Studies
 
 
-app.get("/en/casestudy", (req, res) => {
+app.get("/en/seo-berlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudy", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAltNoIndex",
-        title: "SEO Berlin Start-up Case Studies | seoberlino",
+        layout: "mainNoAlt",
+        title: "SEO Berlin: Start-ups and SEO in Berlin | seoberlino",
         description: "SEO Berlin Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy"
+        alt: "https://www.seoberlino.com" + req.originalUrl
+
     });
 });
 
@@ -1052,7 +1043,7 @@ app.get("/de/audit", (req, res) => {
     res.render("audit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Audits: Onpage, Offpage, Technical SEO | seoberlino",
+        title: "SEO Consultant: Onpage, Offpage, Technical SEO Audits | seoberlino",
         description: "Lassen Sie Ihre Website mit Full SEO Audit auditieren, das mit einer To-Do-Liste (Backlog) mit nach Priorität klassifizierten Problemen geliefert wird.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/audit"
@@ -1065,7 +1056,7 @@ app.get("/en/audit", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
-        title: "SEO Freelancer for SEO Audits in Berlin | seoberlino",
+        title: "SEO Consultant for SEO Audits in Berlin | seoberlino",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/audit"
     });
@@ -1100,7 +1091,7 @@ app.get("/de/analytics", (req, res) => {
     res.render("beratunganalytics", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Webanalyse Beratung Berlin | seoberlino",
+        title: "SEO Webanalyse Experte Berlin | seoberlino",
         description: "SEO Analytics Services in Berlin, SEO Expert mit über 10 Jahren Erfahrung mit Unternehmen wie Montblanc, Spreadshirt und Ricoh.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/analytics"
@@ -1112,7 +1103,7 @@ app.get("/en/analytics", (req, res) => {
     res.render("beratunganalytics", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Analytics Consultant Berlin | seoberlino",
+        title: "SEO Analytics Expert Berlin | seoberlino",
         description: "SEO Analytics services in Berlin, SEO Expert with over 10 years experience with companies such as Montblanc, Spreadshirt and Ricoh.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/analytics"
@@ -1124,7 +1115,7 @@ app.get("/de/content", (req, res) => {
     res.render("beratungcontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Content Beratung Berlin | seoberlino",
+        title: "Content Growth Hacking SEO Experte Berlin | seoberlino",
         description: "Steigern Sie den Traffic durch gezielte Inhaltserstellung. SEO Growth Hacking durch Ihren SEO-Berater in Berlin, über 10 Jahre Erfahrung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/content"
@@ -1136,7 +1127,7 @@ app.get("/en/content", (req, res) => {
     res.render("beratungcontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Content Growth Hacking Consultant | seoberlino",
+        title: "Content Growth Hacking Consultant Berlin | seoberlino",
         description: "Boost traffic with targeted Content Creation. SEO Growth Hacking by your SEO Consultant in Berlin, over 10 years experience.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/content"
@@ -1148,7 +1139,7 @@ app.get("/en/content", (req, res) => {
 
 
 
-app.get("/en/scrum", (req, res) => {
+app.get("/en/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1156,19 +1147,19 @@ app.get("/en/scrum", (req, res) => {
         title: "Agile Coach / ScrumMaster in Berlin | seoberlino",
         description: "Implement Scrum for your Projects. 10 Year-Experienced SEO Expert, certified ScrumMaster and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/scrum"
+        alt: "https://www.seoberlino.com/de/agile-coach-berlin"
     });
 });
 
-app.get("/de/scrum", (req, res) => {
+app.get("/de/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Agile Coach / ScrumMaster in Berlin | seoberlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener SEO-Experte, zertifizierter Scrum-Master und erfahren als Product Owner.",
-        canonical: "https://www.seoberlino.com/de/scrum",
-        alt: "https://www.seoberlino.com/en/scrum"
+        canonical: "https://www.seoberlino.com/de/agile-coach-berlin",
+        alt: "https://www.seoberlino.com/en/agile-coach-berlin"
     });
 });
 
@@ -1179,8 +1170,7 @@ app.get("/en/scrum/pillars", (req, res) => {
         layout: "mainNoAlt",
         title: "Scrum's 3 Pillars | seoberlino",
         description: "Scrum 3 Pillars: Transparency, Inspection and Adaptation. Learn about Scrum and how to Implement Scrum it for your SEO Projects.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/scrum"
+        canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
 
@@ -1844,6 +1834,30 @@ app.get("/setcookiesession", (req, res) => {
 app.get("/de/off-page/toxic", function(request, response) {
     response.writeHead(301, {
         Location: "/de/offpage/toxic",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/casestudy", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-berlin",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/scrum", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/agile-coach-berlin",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/scrum", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/agile-coach-berlin",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -3336,12 +3350,7 @@ app.get("/fr/onpage/metas", function(request, response) {
     });
     response.end();
 });
-app.get("/de/onpage/en/casestudy", function(request, response) {
-    response.writeHead(410, {
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+
 app.get("/un/article/how-to-get-those-first-links", function(request, response) {
     response.writeHead(410, {
         Expires: new Date().toGMTString()
@@ -3594,12 +3603,7 @@ app.get("/en/cookies", function(request, response) {
     });
     response.end();
 });
-app.get("/en/en/casestudy", function(request, response) {
-    response.writeHead(410, {
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+
 app.get("/de/article/linkbuilding-getting-it-right-in-2018", function(request, response) {
     response.writeHead(410, {
         Expires: new Date().toGMTString()
@@ -3906,18 +3910,8 @@ app.get("/en/article/en/research", function(request, response) {
     });
     response.end();
 });
-app.get("/de/technical/en/casestudy", function(request, response) {
-    response.writeHead(410, {
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-app.get("/de/lexical/en/casestudy", function(request, response) {
-    response.writeHead(410, {
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+
+
 app.get("/de/research/local-seo-de", function(request, response) {
     response.writeHead(410, {
         Expires: new Date().toGMTString()
@@ -3930,12 +3924,7 @@ app.get("/un/onpage/internallinking", function(request, response) {
     });
     response.end();
 });
-app.get("/en/casestudy/en/casestudy", function(request, response) {
-    response.writeHead(410, {
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+
 app.get("/news/tag/Mobilefirst", function(request, response) {
     response.writeHead(410, {
         Expires: new Date().toGMTString()
