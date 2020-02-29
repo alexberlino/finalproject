@@ -120,8 +120,9 @@ app.get("/", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Experte in Berlin | SEO Beratung & Consulting | seoberlino",
+        title: "SEO Experte in Berlin | Beratung & Consulting | seoberlino",
         canonical: "https://www.seoberlino.com/de",
+        description: "SEO Experte Freelancer und Agile Coach. 10 Jahre Erfahrung. Kunden: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
     });
 });
@@ -131,7 +132,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Experte in Berlin | SEO Beratung & Consulting | seoberlino",
+        title: "SEO Experte in Berlin | Beratung & Consulting | seoberlino",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Experte Freelancer und Agile Coach. 10 Jahre Erfahrung. Kunden: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
@@ -155,10 +156,10 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/de/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Freelancer: SEO Beratung, Audit & Web Analyse | seoberlino",
+        title: "SEO Freelancer: SEO Beratung & Audits | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/seo-consultancy"
+        alt: "https://www.seoberlino.com/en/seo-freelancer"
     });
 });
 
@@ -170,7 +171,7 @@ app.get("/en/seo-freelancer", (req, res) => {
         layout: "main",
         description: "SEO Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/seo-beratung"
+        alt: "https://www.seoberlino.com/de/seo-freelancer"
     });
 });
 
@@ -303,7 +304,7 @@ app.get("/en/casestudy/fromatob", (req, res) => {
     res.render("casestudyfromatob", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "fromAtoB: SEO Case Study | seoberlino",
+        title: "fromAtoB: SEO Berlin Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's fromAtoB: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/fromatob"
@@ -315,7 +316,7 @@ app.get("/en/casestudy/zalando", (req, res) => {
     res.render("casestudyzalando", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Zalando: SEO Case Study | seoberlino",
+        title: "Zalando: SEO Berlin Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Zalando: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/zalando"
@@ -327,7 +328,7 @@ app.get("/en/casestudy/wooga", (req, res) => {
     res.render("casestudywooga", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Wooga: SEO Case Study | seoberlino",
+        title: "Wooga: SEO Berlin Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Wooga: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/wooga"
@@ -376,7 +377,7 @@ app.get("/en/casestudy/hellofresh", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Hello Fresh: SEO Berlin Case Study | seoberlino",
-        description: "Mini SEO Case Study about Berlin's Hello Fresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
+        description: "Mini SEO Berlin Case Study about Berlin's Hello Fresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/hellofresh"
     });
@@ -1016,7 +1017,7 @@ app.get("/de/seo-consultant", (req, res) => {
     res.render("audit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Consultant: Onpage, Offpage, Technical SEO Audits | seoberlino",
+        title: "SEO Consultant Onpage, Offpage, Technical Audits| seoberlino",
         description: "Lassen Sie Ihre Website mit Full SEO Audit auditieren, das mit einer To-Do-Liste (Backlog) mit nach Priorität klassifizierten Problemen geliefert wird.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-consultant"
