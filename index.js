@@ -1197,12 +1197,20 @@ app.get("/error", (req, res) => {
     });
 });
 
-app.get("/success", (req, res) => {
+app.get("/en/success", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("success", {
         layout: "mainHPNoIndex",
-        title: "Success!",
-        description: "This page should not be indexed so please ignore it.",
+        title: "Success, thank you for your message!",
+        description: "Thank you for your message.",
+    });
+});
+app.get("/de/success", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("success", {
+        layout: "mainHPNoIndex",
+        title: "Danke für Ihre Nachricht!",
+        description: "Danke für Ihre Nachricht",
     });
 });
 ///LEXICON PAGES
@@ -1841,7 +1849,7 @@ app.get("/de/seo-beratung", function(request, response) {
 var nodemailer = require('nodemailer');
 
 
-app.post("/email", (req, res) => {
+app.post("/en/email", (req, res) => {
     console.log(req.body.name)
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
@@ -1882,7 +1890,59 @@ app.post("/email", (req, res) => {
                 res.end();
             } else {
                 res.writeHead(301, {
-                    Location: "/success"
+                    Location: "/en/success"
+                });
+                res.end();
+            }
+
+        }); //transporter
+    });
+
+}); //main
+
+
+app.post("/de/email", (req, res) => {
+    console.log(req.body.name)
+    nodemailer.createTestAccount((error, account) => {
+        const htmlEmail = `
+        <h3> Contact Details </h3>
+        <ul>
+            <li>Name: ${req.body.name}</li>
+            <li>Email: ${req.body.email}</li>
+        </ul>
+        <h3>Message</h3>
+        <p>${req.body.message}</p>
+        `;
+
+        let transporter = nodemailer.createTransport({
+            host: 'smtp.mailgun.org',
+            port: 465,
+            secure: true,
+            auth: {
+                user: secrets.EMAIL_USER,
+                pass: secrets.EMAIL_PASS
+            }
+        });
+
+
+        let mailOptions = {
+            from: secrets.EMAIL_USER,
+            to: secrets.MAIL_TO,
+            subject: "New Message from your website",
+            text: req.body.message,
+            html: htmlEmail
+        }; //closemailoptions
+        transporter.sendMail(mailOptions, (error, info) => {
+            if (error) {
+                console.log("error sending mail", error);
+
+                res.writeHead(301, {
+                    Location: "/error"
+                });
+                res.end();
+            } else {
+                res.writeHead(301, {
+                    Location: "/de/success"
                 });
                 res.end();
             }
