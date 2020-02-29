@@ -22,7 +22,7 @@
 	"metasURL": "metas",
 	"pagespeedURL": "pagespeed",
 	"contentURL": "content",
-	"Aboutprep": "About",
+	"aboutprep": "About",
 	"imagesURL": "images",
 	"agileHP": "Experience with implementing scrum at Spreadshirt - Product Owner - and at Montblanc. Agile Coach at HelloFrest for 6 months for MBI Team and then Marketing Analytics. <br><br>One of most important benefits of scrum is to make sure items from the backlog are prioritised and prepared in advance. Scrum also helps to plan ahead and make SEO actions more transparent to the team and other departmentss. I am scrum master certified (2013)",
 	"structuredURL": "structureddata",
@@ -487,11 +487,16 @@
 	"servicesL ": "servicesL ",
 	"offpage ": "offpage ",
 	"onpage ": "onpage ",
+	"Experience":"Experience",
 	"contactskills": "Skills",
 	"contactexperience": "Experience",
 	"with": "with",
 	"auditintro-new": "The SEO Audit follows the following format - although it can be adapted depending on the client's requirements and priorities: Executive Summary, Keyword Research, Competitor Analysis, On-page & Technical SEO, Backlink Profile Analysis. We also include a backlog (online Google sheet format) which takes all the items of Audit and classifies them by priority, with a short description, a column for the status which will change as the fixes is implemented and a comment section for communication.",
 	"noindexMP": "If you identify pages that are not to be indexed, you should use `noindex`",
 	"for": "for",
-	"seoexpert": "SEO Expert"
+	"seoexpert": "SEO Expert",
+	"Availability":"Verfügbarkeit",
+	"availText":"Fully Booked till May 2020",
+	"since": "since",
+
 }
