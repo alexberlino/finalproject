@@ -601,8 +601,8 @@ table th {
 
 @media screen and (min-width:390px) and (max-width:1023px) {
     .post1, .illustration {
-        width: 60% !important;
-        height: 60% !important;
+        width: 73% !important;
+        height: 73% !important;
         margin-left: 20% !important;
     }
 }
