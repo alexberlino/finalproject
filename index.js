@@ -91,18 +91,18 @@ if (process.env.NODE_ENV == "production") {
 } else {
     secrets = require("./secrets.json");
 }
-response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 
-const handleSend = (req, res) => {
+const handleSend = (req, response) => {
     const secret_key = secrets.KEY
     const token = req.body.token;
     const url = `https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${token}`;
+    response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 
     fetch(url, {
             method: 'post'
         })
         .then(response => response.json())
-        .then(google_response => res.json({
+        .then(google_response => response.json({
             google_response
         }))
         .catch(error => res.json({
