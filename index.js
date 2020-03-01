@@ -91,6 +91,7 @@ if (process.env.NODE_ENV == "production") {
 } else {
     secrets = require("./secrets.json");
 }
+response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 
 const handleSend = (req, res) => {
     const secret_key = secrets.KEY
