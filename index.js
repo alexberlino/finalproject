@@ -96,7 +96,6 @@ const handleSend = (req, response) => {
     const secret_key = secrets.KEY
     const token = req.body.token;
     const url = `https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${token}`;
-    response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 
     fetch(url, {
             method: 'post'

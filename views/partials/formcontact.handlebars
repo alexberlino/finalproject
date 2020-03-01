@@ -1,3 +1,31 @@
+<form class="colophone-form" role="form" action="/{{{__ "lang"}}}/email" method="post" class="">
+    <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
+    <div class="inline">
+
+        <div class="field fullname">
+            <div class="control">
+                <input class="input" id="hello" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
+            </div>
+        </div>
+        <div class="field email">
+            <div class="control">
+                <input class="input" type="email" name="email" placeholder="Email" required>
+            </div>
+        </div>
+    </div>
+    <div class="field message">
+        <div class="control">
+            <textarea class="textarea" name="message" placeholder="{{{__ "message"}}}" rows="6"></textarea>
+        </div>
+    </div>
+
+    <div class="field send">
+        <div class="control">
+            <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
+        </div>
+    </div>
+    <div id="result"></div>
+</form>
 <script src="https://www.google.com/recaptcha/api.js?render=6LdjJdoUAAAAAKmIRjqhXiK1btMx7I7oTJAqK5P5"></script>
 <script>
     function showResult(text) {
@@ -35,31 +63,3 @@
             });
     });
 </script>
-
-<form class="colophone-form" role="form" action="/{{{__ "lang"}}}/email" method="post" class="">
-    <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
-    <div class="inline">
-
-        <div class="field fullname">
-            <div class="control">
-                <input class="input" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
-            </div>
-        </div>
-        <div class="field email">
-            <div class="control">
-                <input class="input" type="email" name="email" placeholder="Email" required>
-            </div>
-        </div>
-    </div>
-    <div class="field message">
-        <div class="control">
-            <textarea class="textarea" name="message" id="hello" placeholder="{{{__ "message"}}}" rows="6"></textarea>
-        </div>
-    </div>
-
-    <div class="field send">
-        <div class="control">
-            <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
-        </div>
-    </div>
-</form>
