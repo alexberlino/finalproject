@@ -92,6 +92,23 @@ if (process.env.NODE_ENV == "production") {
     secrets = require("./secrets.json");
 }
 
+const handleSend = (req, res) => {
+    const secret_key = secrets.KEY
+    const token = req.body.token;
+    const url = `https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${token}`;
+
+    fetch(url, {
+            method: 'post'
+        })
+        .then(response => response.json())
+        .then(google_response => res.json({
+            google_response
+        }))
+        .catch(error => res.json({
+            error
+        }));
+};
+
 const cookieSession = require("cookie-session");
 app.use(require("cookie-parser")());
 app.use(require("body-parser").json());
