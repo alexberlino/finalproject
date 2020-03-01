@@ -92,23 +92,6 @@ if (process.env.NODE_ENV == "production") {
     secrets = require("./secrets.json");
 }
 
-const handleSend = (req, response) => {
-    const secret_key = secrets.KEY
-    const token = req.body.token;
-    const url = `https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${token}`;
-
-    fetch(url, {
-            method: 'post'
-        })
-        .then(response => response.json())
-        .then(google_response => response.json({
-            google_response
-        }))
-        .catch(error => res.json({
-            error
-        }));
-};
-
 const cookieSession = require("cookie-session");
 app.use(require("cookie-parser")());
 app.use(require("body-parser").json());
@@ -1868,6 +1851,26 @@ var nodemailer = require('nodemailer');
 
 
 app.post("/en/email", (req, res) => {
+    if (req.body.grecaptcharesponse === undefined || req.body.grecaptcharesponse === "" || req.body.grecaptcharesponse === null) {
+        return res.json({
+            "responseError": "something went wrong"
+        });
+    }
+
+    const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secrets.KEY + "&amp;response=" + req.body['grecaptcharesponse'] + "&amp;remoteip=" + req.connection.remoteAddress;
+    //
+    request(verificationURL, function(error, res, body) {
+        body = JSON.parse(body);
+
+        if (body.success !== undefined & amp; & amp; !body.success) {
+            return res.json({
+                "responseError": "Failed captcha verification"
+            });
+        }
+        res.json({
+            "responseSuccess": "Success"
+        });
+    });
     console.log(req.body.name)
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
@@ -1970,7 +1973,6 @@ app.post("/de/email", (req, res) => {
 
 }); //main
 
-app.post('/send', handleSend);
 
 
 app.all("*", function(req, res) {

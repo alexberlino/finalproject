@@ -1,65 +1,46 @@
-<form class="colophone-form" role="form" action="/{{{__ "lang"}}}/email" method="post" class="">
-    <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
-    <div class="inline">
+    <form class="colophone-form" role="form" action="/{{{__ "lang"}}}/email" method="post">
+        <input type="hidden" id="grecaptcharesponse" name="grecaptcharesponse">
+        <input type="hidden" name="action" value="validate_captcha">
+        <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
+        <div class="inline">
 
-        <div class="field fullname">
-            <div class="control">
-                <input class="input" id="hello" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
+            <div class="field fullname">
+                <div class="control">
+                    <input class="input" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
+                </div>
+            </div>
+            <div class="field email">
+                <div class="control">
+                    <input class="input" type="email" name="email" placeholder="Email" required>
+                </div>
             </div>
         </div>
-        <div class="field email">
+        <div class="field message">
             <div class="control">
-                <input class="input" type="email" name="email" placeholder="Email" required>
+                <textarea class="textarea" name="message" placeholder="{{{__ "message"}}}" rows="6"></textarea>
             </div>
         </div>
-    </div>
-    <div class="field message">
-        <div class="control">
-            <textarea class="textarea" name="message" placeholder="{{{__ "message"}}}" rows="6"></textarea>
+
+        <div class="field send">
+            <div class="control">
+                <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
+            </div>
         </div>
-    </div>
+    </form>
 
-    <div class="field send">
-        <div class="control">
-            <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
-        </div>
-    </div>
-    <div id="result"></div>
-</form>
-<script src="https://www.google.com/recaptcha/api.js?render=6LdjJdoUAAAAAKmIRjqhXiK1btMx7I7oTJAqK5P5"></script>
-<script>
-    function showResult(text) {
-        document.querySelector('#result').innerHTML = text;
-    }
 
-    function handleClick(token) {
-        return function() {
-            var hello = document.querySelector('#hello').value;
-            var data = {
-                hello: hello,
-                token: token
-            };
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdjJdoUAAAAAKmIRjqhXiK1btMx7I7oTJAqK5P5"></script>
 
-            fetch('/send', {
-                    headers: {
-                        'Accept': 'application/json',
-                        'Content-Type': 'application/json'
-                    },
-                    method: 'post',
-                    body: JSON.stringify(data)
+    <script>
+        grecaptcha.ready(function() {
+            // do request for recaptcha token
+            // response is promise with passed token
+            grecaptcha.execute('6LdjJdoUAAAAAKmIRjqhXiK1btMx7I7oTJAqK5P5', {
+                    action: 'validate_captcha'
                 })
-                .then(response => response.text())
-                .then(text => showResult(text))
-                .catch(error => showResult(error));
-        }
-    }
-
-    grecaptcha.ready(function() {
-        grecaptcha.execute('6LdjJdoUAAAAAKmIRjqhXiK1btMx7I7oTJAqK5P5', {
-                action: 'demo'
-            })
-            .then(function(token) {
-                document.querySelector('#submit').addEventListener('click', handleClick(token));
-            });
-    });
-</script>
+                .then(function(token) {
+                    // add token value to form
+                    document.getElementById('g-recaptcha-response').value = token;
+                });
+        });
+    </script>
