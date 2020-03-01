@@ -1969,6 +1969,10 @@ app.post("/de/email", (req, res) => {
     });
 
 }); //main
+
+app.post('/send', handleSend);
+
+
 app.all("*", function(req, res) {
     res.writeHead(404);
     res.end();

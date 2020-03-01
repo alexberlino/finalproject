@@ -31,7 +31,7 @@
                 action: 'demo'
             })
             .then(function(token) {
-                document.querySelector('#send_button').addEventListener('click', handleClick(token));
+                document.querySelector('#submit').addEventListener('click', handleClick(token));
             });
     });
 </script>
@@ -53,7 +53,7 @@
     </div>
     <div class="field message">
         <div class="control">
-            <textarea class="textarea" name="message" placeholder="{{{__ "message"}}}" rows="6"></textarea>
+            <textarea class="textarea" name="message" id="hello" placeholder="{{{__ "message"}}}" rows="6"></textarea>
         </div>
     </div>
 
@@ -62,4 +62,5 @@
             <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
         </div>
     </div>
+    <div id="result"></div>
 </form>
