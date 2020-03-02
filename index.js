@@ -1851,26 +1851,26 @@ var nodemailer = require('nodemailer');
 
 
 app.post("/en/email", (req, res) => {
-    // if (req.body.grecaptcharesponse === undefined || req.body.grecaptcharesponse === "" || req.body.grecaptcharesponse === null) {
-    //     return res.json({
-    //         "responseError": "something went wrong"
-    //     });
-    // }
+    if (req.body.grecaptcharesponse === undefined || req.body.grecaptcharesponse === "" || req.body.grecaptcharesponse === null) {
+        return res.json({
+            "responseError": "something went wrong"
+        });
+    }
+
+    const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secrets.KEY + "&amp;response=" + req.body['grecaptcharesponse'] + "&amp;remoteip=" + req.connection.remoteAddress;
     //
-    // const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secrets.KEY + "&amp;response=" + req.body['grecaptcharesponse'] + "&amp;remoteip=" + req.connection.remoteAddress;
-    // //
-    // request(verificationURL, function(error, res, body) {
-    //     body = JSON.parse(body);
-    //
-    //     if (body.success !== undefined & amp; & amp; !body.success) {
-    //         return res.json({
-    //             "responseError": "Failed captcha verification"
-    //         });
-    //     }
-    //     res.json({
-    //         "responseSuccess": "Success"
-    //     });
-    // });
+    request(verificationURL, function(error, res, body) {
+        body = JSON.parse(body);
+
+        if (body.success !== undefined & amp; & amp; !body.success) {
+            return res.json({
+                "responseError": "Failed captcha verification"
+            });
+        }
+        res.json({
+            "responseSuccess": "Success"
+        });
+    });
     console.log(req.body.name)
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
@@ -1923,6 +1923,26 @@ app.post("/en/email", (req, res) => {
 
 
 app.post("/de/email", (req, res) => {
+    if (req.body.grecaptcharesponse === undefined || req.body.grecaptcharesponse === "" || req.body.grecaptcharesponse === null) {
+        return res.json({
+            "responseError": "something went wrong"
+        });
+    }
+
+    const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secrets.KEY + "&amp;response=" + req.body['grecaptcharesponse'] + "&amp;remoteip=" + req.connection.remoteAddress;
+    //
+    request(verificationURL, function(error, res, body) {
+        body = JSON.parse(body);
+
+        if (body.success !== undefined & amp; & amp; !body.success) {
+            return res.json({
+                "responseError": "Failed captcha verification"
+            });
+        }
+        res.json({
+            "responseSuccess": "Success"
+        });
+    });
     console.log(req.body.name)
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
