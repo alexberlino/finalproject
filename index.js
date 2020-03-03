@@ -1853,45 +1853,7 @@ app.get("/de/seo-beratung", function(request, response) {
 
 var nodemailer = require('nodemailer');
 
-app.post('/email', async (req, res) => {
-    if (!req.body.captcha)
-        return res.json({
-            success: false
-        });
-
-    // Secret key
-    const secretKey = secrets.KEY;
-
-    // Verify URL
-    const query = stringify({
-        secret: secretKey,
-        response: req.body.captcha,
-        remoteip: req.connection.remoteAddress
-    });
-    const verifyURL = `https://google.com/recaptcha/api/siteverify?${query}`;
-
-    // Make a request to verifyURL
-
-
-    const body = await fetch(verifyURL).then(res => res.json());
-
-
-
-    // If not successful
-    if (body.success !== undefined && !body.success)
-        return res.json({
-            success: false
-        });
-
-    // If successful
-    else {
-
-        return res.json({
-            success: true
-        })
-
-
-    }
+app.post('/email', function(req, res) {
 
 
     nodemailer.createTestAccount((error, account) => {
