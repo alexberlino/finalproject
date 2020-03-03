@@ -1868,10 +1868,10 @@ app.post('/email', async (req, res) => {
 
     // Make a request to verifyURL
 
-    (async () => {
-        const body = await fetch(verifyURL).then(res => res.json());
 
-    })();
+    const body = await fetch(verifyURL).then(res => res.json());
+
+
 
     // If not successful
     if (body.success !== undefined && !body.success)
