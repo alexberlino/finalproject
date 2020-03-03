@@ -1,4 +1,4 @@
-    <form id="subscribeForm" class="colophone-form" role="form">
+    <form id="subscribeForm" class="colophone-form" role="form" method="post" action="/email">
         <input type="hidden" id="grecaptcharesponse" name="grecaptcharesponse">
         <input type="hidden" name="action" value="validate_captcha">
         <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
@@ -19,11 +19,9 @@
             <div class="control">
                 <textarea class="textarea" name="message" id="message" placeholder="{{{__ "message"}}}" rows="6"></textarea>
             </div>
-        </div><br>
+        </div>
 
-        <div>
-            <div class="g-recaptcha" data-sitekey="6LcaJtoUAAAAADS1u-PO72RfkwzGZyCaDCygKH8x"></div>
-        </div><br>
+
         <div class="field send">
             <div class="control">
                 <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
@@ -31,36 +29,5 @@
         </div>
     </form>
 
-    <script>
-        document.getElementById('subscribeForm').addEventListener('submit', e => {
-            e.preventDefault();
-
-            const name = document.querySelector('#name').value;
-            const email = document.querySelector('#email').value;
-            const message = document.querySelector('#message').value;
-            const captcha = document.querySelector('#g-recaptcha-response').value;
-
-
-
-            return fetch('/email', {
-                    method: 'POST',
-                    headers: {
-                        'Content-type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        name,
-                        email,
-                        message,
-                        captcha
-                    })
-                })
-                .then(res => res.json())
-                .then(data => {
-                    console.log(data);
-                    if (data.success) {
-                        next();
-
-                    }
-                });
-        });
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
     </script>

@@ -2,8 +2,18 @@
 <html lang="en">
 
 <head>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        var onSubmit = function(token) {
+            console.log('success!');
+        };
 
+        var onloadCallback = function() {
+            grecaptcha.render('submit', {
+                'sitekey': 'your_site_key',
+                'callback': onSubmit
+            });
+        };
+    </script>
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
