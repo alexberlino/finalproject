@@ -1885,12 +1885,13 @@ app.post('/email', async (req, res) => {
 
     // If successful
 
-    else {
-        return res.json({
-            success: true
-        });
-        nodemailer.createTestAccount((error, account) => {
-            const htmlEmail = `
+
+    return res.json({
+        success: true
+    })
+
+    nodemailer.createTestAccount((error, account) => {
+        const htmlEmail = `
                 <h3> Contact Details </h3>
                 <ul>
                     <li>Name: ${req.body.name}</li>
@@ -1900,47 +1901,48 @@ app.post('/email', async (req, res) => {
                 <p>${req.body.message}</p>
                 `;
 
-            let transporter = nodemailer.createTransport({
-                host: 'smtp.mailgun.org',
-                port: 465,
-                secure: true,
-                auth: {
-                    user: secrets.EMAIL_USER,
-                    pass: secrets.EMAIL_PASS
-                }
-            });
-
-
-            let mailOptions = {
-                from: secrets.EMAIL_USER,
-                to: secrets.MAIL_TO,
-                subject: "New Message from your website",
-                text: req.body.message,
-                html: htmlEmail
-            }; //closemailoptions
-            transporter.sendMail(mailOptions, (error, info) => {
-                if (error) {
-                    console.log("error sending mail", error);
-
-                    res.writeHead(301, {
-                        Location: "/error"
-                    });
-                    res.end();
-                } else {
-                    res.writeHead(301, {
-                        Location: "/en/success"
-                    });
-                    res.end();
-                }
-
-            }); //transporter
+        let transporter = nodemailer.createTransport({
+            host: 'smtp.mailgun.org',
+            port: 465,
+            secure: true,
+            auth: {
+                user: secrets.EMAIL_USER,
+                pass: secrets.EMAIL_PASS
+            }
         });
 
 
+        let mailOptions = {
+            from: secrets.EMAIL_USER,
+            to: secrets.MAIL_TO,
+            subject: "New Message from your website",
+            text: req.body.message,
+            html: htmlEmail
+        }; //closemailoptions
+        transporter.sendMail(mailOptions, (error, info) => {
+            if (error) {
+                console.log("error sending mail", error);
 
-    }
+                res.writeHead(301, {
+                    Location: "/error"
+                });
+                res.end();
+            } else {
+                res.writeHead(301, {
+                    Location: "/en/success"
+                });
+                res.end();
+            }
 
-})
+        }); //transporter
+    });
+
+});
+
+
+
+
+
 
 
 
