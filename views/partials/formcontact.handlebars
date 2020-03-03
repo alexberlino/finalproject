@@ -56,8 +56,9 @@
                 })
                 .then(res => res.json())
                 .then(data => {
-                        console.log(data);
-                        if (data.success) next();
+                    console.log(data);
+                    if (data.success) {
+                        next();
 
                     }
                 });
