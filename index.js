@@ -1853,7 +1853,7 @@ app.get("/de/seo-beratung", function(request, response) {
 
 var nodemailer = require('nodemailer');
 
-app.post('/email', async (req, res) => {
+app.post('/check', async (req, res) => {
     if (!req.body.captcha)
         return res.json({
             success: false
@@ -1884,11 +1884,18 @@ app.post('/email', async (req, res) => {
         });
 
     // If successful
+    else {
+
+        return res.json({
+            success: true
+        })
 
 
-    return res.json({
-        success: true
-    })
+    }
+})
+
+app.post('/email', (req, res) => {
+
 
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
