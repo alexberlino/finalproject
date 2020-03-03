@@ -1849,7 +1849,7 @@ app.get("/de/seo-beratung", function(request, response) {
 
 var nodemailer = require('nodemailer');
 
-app.post('/email', async (req, res) => {
+app.post('/check', async (req, res) => {
     if (!req.body.captcha)
         return res.json({
             success: false
@@ -1885,17 +1885,22 @@ app.post('/email', async (req, res) => {
         return res.json({
             success: true
         });
+
     }
+
+})
+
+app.post('/email', function(req, res) {
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
-        <h3> Contact Details </h3>
-        <ul>
-            <li>Name: ${req.body.name}</li>
-            <li>Email: ${req.body.email}</li>
-        </ul>
-        <h3>Message</h3>
-        <p>${req.body.message}</p>
-        `;
+            <h3> Contact Details </h3>
+            <ul>
+                <li>Name: ${req.body.name}</li>
+                <li>Email: ${req.body.email}</li>
+            </ul>
+            <h3>Message</h3>
+            <p>${req.body.message}</p>
+            `;
 
         let transporter = nodemailer.createTransport({
             host: 'smtp.mailgun.org',
@@ -1932,9 +1937,6 @@ app.post('/email', async (req, res) => {
 
         }); //transporter
     });
-
-
-
 
 
 }); //main
