@@ -1851,37 +1851,38 @@ var nodemailer = require('nodemailer');
 
 
 app.post("/en/email", (req, res) => {
-    // if (req.body.captcha === undefined ||
-    //     req.body.captcha === "" ||
-    //     req.body.captch === null) {
-    //     return res.json({
-    //         "success": false,
-    //         "msg": "Please select a captcha"
-    //     });
-    // }
-    // const secretKey = secrets.KEY
+    if (!req.body.captcha)
+        return res.json({
+            success: false,
+            msg: 'Please select captcha'
+        });
 
-    // const verifyURL = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${req.body.captcha}&remoteip=${req.connection.remoteAddress}`;
-    //
-    // request(verifyURL, (error, response, body) => {
-    //         body = JSON.parse(body)
-    //
-    //         if (body.success !== undefined && !body.success) {
-    //             return res.json({
-    //                 "success": false,
-    //                 "msg": "Failed capcha verification"
-    //             });
-    //         }
-    //
-    //         if (body.success !== undefined && !body.success) {
-    //             return res.json({
-    //                 "success": true,
-    //                 "msg": "Capcha passed"
-    //             });
-    //         }
-    //
-    //     }
-    // }
+    // Secret key
+    const secretKey = secrets.KEY;
+
+    // Verify URL
+    const query = stringify({
+        secret: secretKey,
+        response: req.body.captcha,
+        remoteip: req.connection.remoteAddress
+    });
+    const verifyURL = `https://google.com/recaptcha/api/siteverify?${query}`;
+
+    // Make a request to verifyURL
+    const body = fetch(verifyURL).then(res => res.json());
+
+    // If not successful
+    if (body.success !== undefined && !body.success)
+        return res.json({
+            success: false,
+            msg: 'Failed captcha verification'
+        });
+
+    // If successful
+    return res.json({
+        success: true,
+        msg: 'Captcha passed'
+    });
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
         <h3> Contact Details </h3>
