@@ -1870,7 +1870,7 @@ app.post("/email", (req, res) => {
     // Make a request to verifyURL
 
     (async () => {
-        const body = fetch(verifyURL).then(res => res.json());
+        const body = await fetch(verifyURL).then(res => res.json());
 
     })();
 
