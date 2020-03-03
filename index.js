@@ -1868,7 +1868,11 @@ app.post("/email", (req, res) => {
     const verifyURL = `https://google.com/recaptcha/api/siteverify?${query}`;
 
     // Make a request to verifyURL
-    const body = fetch(verifyURL).then(res => res.json());
+
+    (async () => {
+        const body = fetch(verifyURL).then(res => res.json());
+
+    })();
 
     // If not successful
     if (body.success !== undefined && !body.success)
