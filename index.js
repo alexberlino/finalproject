@@ -1849,8 +1849,7 @@ app.get("/de/seo-beratung", function(request, response) {
 
 var nodemailer = require('nodemailer');
 
-
-app.post("/email", (req, res) => {
+app.post('/email', async (req, res) => {
     if (!req.body.captcha)
         return res.json({
             success: false
