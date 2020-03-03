@@ -1894,8 +1894,7 @@ app.post('/check', async (req, res) => {
     }
 })
 
-app.post('/email', (req, res) => {
-
+app.post('/check', async (req, res) => {
 
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `

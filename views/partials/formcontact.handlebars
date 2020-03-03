@@ -57,11 +57,12 @@
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);
-                    alert(data.msg);
-                    if (data.success) fetch('/email', {
-                        method: 'POST',
+                    if (data.success) {
+                        fetch('/email', {
+                            method: 'POST',
 
-                    });
+                        });
+                    }
                 });
         })
     </script>
