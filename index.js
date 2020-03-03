@@ -1853,8 +1853,7 @@ var nodemailer = require('nodemailer');
 app.post("/en/email", (req, res) => {
     if (!req.body.captcha)
         return res.json({
-            success: false,
-            msg: 'Please select captcha'
+            success: false
         });
 
     // Secret key
@@ -1874,14 +1873,12 @@ app.post("/en/email", (req, res) => {
     // If not successful
     if (body.success !== undefined && !body.success)
         return res.json({
-            success: false,
-            msg: 'Failed captcha verification'
+            success: false
         });
 
     // If successful
     return res.json({
-        success: true,
-        msg: 'Captcha passed'
+        success: true
     });
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
@@ -1934,30 +1931,36 @@ app.post("/en/email", (req, res) => {
 
 
 app.post("/de/email", (req, res) => {
-    if (req.body.grecaptcharesponse === undefined || req.body.grecaptcharesponse === "" || req.body.grecaptcharesponse === null) {
+    if (!req.body.captcha)
         return res.json({
-            "responseError": "something went wrong"
+            success: false
         });
-    }
 
-    console.log(req.body.grecaptcharesponse)
+    // Secret key
+    const secretKey = secrets.KEY;
 
+    // Verify URL
+    const query = stringify({
+        secret: secretKey,
+        response: req.body.captcha,
+        remoteip: req.connection.remoteAddress
+    });
+    const verifyURL = `https://google.com/recaptcha/api/siteverify?${query}`;
 
+    // Make a request to verifyURL
+    const body = fetch(verifyURL).then(res => res.json());
 
-    // const verificationURL = "https://www.google.com/recaptcha/api.js?render=" + secrets.KEY
-    //
-    // request(verificationURL, function(error, res, body) {
-    //     body = JSON.parse(body);
-    //
-    //     if (body.success !== undefined & amp; & amp; !body.success) {
-    //         return res.json({
-    //             "responseError": "Failed captcha verification"
-    //         });
-    //     }
-    //     res.json({
-    //         "responseSuccess": "Success"
-    //     });
-    // });
+    // If not successful
+    if (body.success !== undefined && !body.success)
+        return res.json({
+            success: false
+        });
+
+    // If successful
+    return res.json({
+        success: true,
+        msg: 'Captcha passed'
+    });
     console.log(req.body.name)
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
