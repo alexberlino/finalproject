@@ -47,7 +47,9 @@
             const message = document.querySelector('#message').value;
             const captcha = document.querySelector('#g-recaptcha-response').value;
 
-            return fetch("/en/email", {
+
+
+            return fetch('/email', {
                     method: 'POST',
                     headers: {
                         'Content-type': 'application/json'
