@@ -5,6 +5,10 @@ const {
 } = require("./Public/hash.js");
 const express = require("express");
 const app = express();
+const fetch = require('node-fetch');
+const {
+    stringify
+} = require('querystring');
 var i18n = require("i18n");
 var hbs = require("hbs");
 var hb = require("express-handlebars");
