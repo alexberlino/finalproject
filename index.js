@@ -1923,14 +1923,18 @@ app.post("/en/email", (req, res) => {
 
 
 app.post("/de/email", (req, res) => {
-    // if (req.body.grecaptcharesponse === undefined || req.body.grecaptcharesponse === "" || req.body.grecaptcharesponse === null) {
-    //     return res.json({
-    //         "responseError": "something went wrong"
-    //     });
-    // }
+    if (req.body.grecaptcharesponse === undefined || req.body.grecaptcharesponse === "" || req.body.grecaptcharesponse === null) {
+        return res.json({
+            "responseError": "something went wrong"
+        });
+    }
+
+    console.log(req.body.grecaptcharesponse)
+
+
+
+    // const verificationURL = "https://www.google.com/recaptcha/api.js?render=" + secrets.KEY
     //
-    // const verificationURL = "https://www.google.com/recaptcha/api/siteverify?secret=" + secrets.KEY + "&amp;response=" + req.body['grecaptcharesponse'] + "&amp;remoteip=" + req.connection.remoteAddress;
-    // //
     // request(verificationURL, function(error, res, body) {
     //     body = JSON.parse(body);
     //
