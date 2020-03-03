@@ -21,6 +21,10 @@
             </div>
         </div>
 
+        <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6LcaJtoUAAAAADS1u-PO72RfkwzGZyCaDCygKH8x"></div>
+        </div>
+
         <div class="field send">
             <div class="control">
                 <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
@@ -28,20 +32,36 @@
         </div>
     </form>
 
-    <script src="https://www.google.com/recaptcha/api.js?render=6LdjJdoUAAAAAKmIRjqhXiK1btMx7I7oTJAqK5P5"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
 
 
     <script>
-        grecaptcha.ready(function() {
-            // do request for recaptcha token
-            // response is promise with passed token
-            grecaptcha.execute('6LdjJdoUAAAAAKmIRjqhXiK1btMx7I7oTJAqK5P5', {
-                    action: 'validate_captcha'
+        document.getElementById('subscribeForm').addEventListener('submit', e => {
+            e.preventDefault();
+
+            const name = document.querySelector('#name').value;
+            const email = document.querySelector('#email').value;
+            const message = document.querySelector('#message').value;
+            const captcha = document.querySelector('#g-recaptcha-response').value;
+
+            return fetch('/subscribe', {
+                    method: 'POST',
+                    headers: {
+                        'Content-type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name,
+                        email,
+                        message,
+                        captcha
+                    })
                 })
-                .then(function(token) {
-                    // add token value to form
-                    document.getElementById("grecaptcharesponse").value = token;
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                    alert(data.msg);
+                    if (data.success) return location.reload();
                 });
         });
     </script>
