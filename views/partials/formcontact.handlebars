@@ -1,4 +1,4 @@
-    <form id="subscribeForm" class="colophone-form" role="form" type="post" action="/email">
+    <form id="subscribeForm" class="colophone-form" role="form">
         <input type="hidden" id="grecaptcharesponse" name="grecaptcharesponse">
         <input type="hidden" name="action" value="validate_captcha">
         <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
@@ -42,7 +42,7 @@
 
 
 
-            return fetch('/check', {
+            return fetch('/email', {
                     method: 'POST',
                     headers: {
                         'Content-type': 'application/json'
