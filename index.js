@@ -1851,59 +1851,47 @@ var nodemailer = require('nodemailer');
 
 
 app.post("/en/email", (req, res) => {
+    // if (req.body.captcha === undefined ||
+    //     req.body.captcha === "" ||
+    //     req.body.captch === null) {
+    //     return res.json({
+    //         "success": false,
+    //         "msg": "Please select a captcha"
+    //     });
+    // }
+    // const secretKey = secrets.KEY
 
-    if (req.body.captcha === undefined ||
-        req.body.captcha === "" ||
-        req.body.captch === null) {
-        return res.json({
-            "success": false,
-            "msg": "Please select a captcha"
-        });
-    }
-    const secretKey = secrets.KEY
-
-    const verifyURL = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${req.body.captcha}&remoteip=${req.connection.remoteAddress}`;
-
-    request(verifyURL, (error, response, body) => {
-            body = JSON.parse(body)
-
-            if (body.success !== undefined && !body.success) {
-                return res.json({
-                    "success": false,
-                    "msg": "Failed capcha verification"
-                });
-            }
-
-            if (body.success !== undefined && !body.success) {
-                return res.json({
-                    "success": true,
-                    "msg": "Capcha passed"
-                });
-            }
-
-        }
-    }
-
-
-
-
-    console.log(req.body.name) nodemailer.createTestAccount((error, account) => {
-        const htmlEmail = ` <
-                h3 > Contact Details < /h3> <
-                ul >
-                <
-                li > Name: $ {
-                    req.body.name
-                } < /li> <
-                li > Email: $ {
-                    req.body.email
-                } < /li> <
-                /ul> <
-                h3 > Message < /h3> <
-                p > $ {
-                    req.body.message
-                } < /p>
-            `;
+    // const verifyURL = `https://www.google.com/recaptcha/api/siteverify?secret=${secretKey}&response=${req.body.captcha}&remoteip=${req.connection.remoteAddress}`;
+    //
+    // request(verifyURL, (error, response, body) => {
+    //         body = JSON.parse(body)
+    //
+    //         if (body.success !== undefined && !body.success) {
+    //             return res.json({
+    //                 "success": false,
+    //                 "msg": "Failed capcha verification"
+    //             });
+    //         }
+    //
+    //         if (body.success !== undefined && !body.success) {
+    //             return res.json({
+    //                 "success": true,
+    //                 "msg": "Capcha passed"
+    //             });
+    //         }
+    //
+    //     }
+    // }
+    nodemailer.createTestAccount((error, account) => {
+        const htmlEmail = `
+        <h3> Contact Details </h3>
+        <ul>
+            <li>Name: ${req.body.name}</li>
+            <li>Email: ${req.body.email}</li>
+        </ul>
+        <h3>Message</h3>
+        <p>${req.body.message}</p>
+        `;
 
         let transporter = nodemailer.createTransport({
             host: 'smtp.mailgun.org',
@@ -1971,22 +1959,15 @@ app.post("/de/email", (req, res) => {
     // });
     console.log(req.body.name)
     nodemailer.createTestAccount((error, account) => {
-        const htmlEmail = ` <
-            h3 > Contact Details < /h3> <
-                ul >
-                <
-                li > Name: $ {
-                    req.body.name
-                } < /li> <
-                li > Email: $ {
-                    req.body.email
-                } < /li> <
-                /ul> <
-                h3 > Message < /h3> <
-                p > $ {
-                    req.body.message
-                } < /p>
-            `;
+        const htmlEmail = `
+        <h3> Contact Details </h3>
+        <ul>
+            <li>Name: ${req.body.name}</li>
+            <li>Email: ${req.body.email}</li>
+        </ul>
+        <h3>Message</h3>
+        <p>${req.body.message}</p>
+        `;
 
         let transporter = nodemailer.createTransport({
             host: 'smtp.mailgun.org',
