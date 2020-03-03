@@ -1853,7 +1853,9 @@ app.get("/de/seo-beratung", function(request, response) {
 
 var nodemailer = require('nodemailer');
 
-app.post('/check', async (req, res) => {
+
+app.post('/email', async (req, res) => {
+
     if (!req.body.captcha)
         return res.json({
             success: false
@@ -1894,10 +1896,8 @@ app.post('/check', async (req, res) => {
     }
 })
 
-app.post('/email', function(req, res) {
-
-    nodemailer.createTestAccount((error, account) => {
-        const htmlEmail = `
+nodemailer.createTestAccount((error, account) => {
+const htmlEmail = `
                 <h3> Contact Details </h3>
                 <ul>
                     <li>Name: ${req.body.name}</li>
@@ -1907,41 +1907,41 @@ app.post('/email', function(req, res) {
                 <p>${req.body.message}</p>
                 `;
 
-        let transporter = nodemailer.createTransport({
-            host: 'smtp.mailgun.org',
-            port: 465,
-            secure: true,
-            auth: {
-                user: secrets.EMAIL_USER,
-                pass: secrets.EMAIL_PASS
-            }
+let transporter = nodemailer.createTransport({
+    host: 'smtp.mailgun.org',
+    port: 465,
+    secure: true,
+    auth: {
+        user: secrets.EMAIL_USER,
+        pass: secrets.EMAIL_PASS
+    }
+});
+
+
+let mailOptions = {
+    from: secrets.EMAIL_USER,
+    to: secrets.MAIL_TO,
+    subject: "New Message from your website",
+    text: req.body.message,
+    html: htmlEmail
+}; //closemailoptions
+transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+        console.log("error sending mail", error);
+
+        res.writeHead(301, {
+            Location: "/error"
         });
+        res.end();
+    } else {
+        res.writeHead(301, {
+            Location: "/en/success"
+        });
+        res.end();
+    }
 
-
-        let mailOptions = {
-            from: secrets.EMAIL_USER,
-            to: secrets.MAIL_TO,
-            subject: "New Message from your website",
-            text: req.body.message,
-            html: htmlEmail
-        }; //closemailoptions
-        transporter.sendMail(mailOptions, (error, info) => {
-            if (error) {
-                console.log("error sending mail", error);
-
-                res.writeHead(301, {
-                    Location: "/error"
-                });
-                res.end();
-            } else {
-                res.writeHead(301, {
-                    Location: "/en/success"
-                });
-                res.end();
-            }
-
-        }); //transporter
-    });
+}); //transporter
+});
 
 });
 

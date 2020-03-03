@@ -42,7 +42,7 @@
 
 
 
-            return fetch('/check', {
+            return fetch('/email', {
                     method: 'POST',
                     headers: {
                         'Content-type': 'application/json'
@@ -56,21 +56,10 @@
                 })
                 .then(res => res.json())
                 .then(data => {
-                    console.log(data);
-                    if (data.success) {
-                        fetch('/email', {
-                            method: 'POST',
-                            headers: {
-                                'Content-type': 'application/json'
-                            },
-                            body: JSON.stringify({
-                                name,
-                                email,
-                                message
+                        console.log(data);
 
-                            })
+                        if (data.success) next();
 
-                        });
                     }
                 });
         });
