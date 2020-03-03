@@ -1880,9 +1880,12 @@ app.post('/email', async (req, res) => {
         });
 
     // If successful
-    return res.json({
-        success: true
-    });
+
+    else {
+        return res.json({
+            success: true
+        });
+    }
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
         <h3> Contact Details </h3>
