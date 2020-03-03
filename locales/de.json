@@ -163,7 +163,7 @@
 	"optimization": "optimierung",
 	"about": "Über uns",
 	"aboutprep": "Über",
-	"Experience":"Erfahrung",
+	"Experience": "Erfahrung",
 	"contact": "KONTAKT",
 	"fullname": "Name",
 	"subject": "Betreff ",
@@ -171,8 +171,8 @@
 	"sendMessage": "Senden",
 	"since": "seit",
 	"aboutmetitle": "übermich",
-	"Availability":"Verfügbarkeit",
-	"availText":"Ausgebucht bis Mai 2020",
+	"Availability": "Verfügbarkeit",
+	"availText": "Ausgebucht bis Mai 2020",
 	"about1": "Nachgewiesene Ergebnisse mit 400% mehr SEO-Umsatz für mehrere Websites als SEO-Leiter",
 	"about2": "9 Jahre Erfahrung in SEO, SEA und Analytics.",
 	"about3": "Full Stack Web-Entwickler",
@@ -183,7 +183,7 @@
 	"getintouch": "Kontakt",
 	"aboutme": "SEO Consultant  SEO Freelancer in Berlin  SEO Berlin",
 	"HPTitle": "SEO Freelancer - SEO Experte Berlin |  SEO Berlin",
-	"successemailmessage":"Vielen Dank für Ihre Anfrage, wir werden uns so schnell wie möglich bei Ihnen melden.",
+	"successemailmessage": "Vielen Dank für Ihre Anfrage, wir werden uns so schnell wie möglich bei Ihnen melden.",
 	"descriptionHP": "SEO Experte in Berlin: Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Webanalyse, Brand Building",
 	"getintouch_title": "SEO Berater in Berlin  Kontakt  SEO Berlin",
 	"servicestitle": "SEO Beratung und Leistungen  SEO Berlin",
@@ -494,5 +494,6 @@
 	"seaMP11": "seaMP11",
 	"for": "für",
 	"seoexpert": "SEO Experte",
-	"": ""
+	"": "",
+	"lang ": "lang "
 }
