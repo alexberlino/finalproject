@@ -4,12 +4,14 @@ const {
     capital
 } = require("./Public/hash.js");
 const express = require("express");
+const axios = require("axios");
 const app = express();
 const fetch = require('node-fetch');
 const {
     stringify
 } = require('querystring');
 var i18n = require("i18n");
+
 var hbs = require("hbs");
 var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
@@ -1856,16 +1858,27 @@ var nodemailer = require('nodemailer');
 app.post('/email', function(req, res) {
 
 
+    // var recaptcha_url = "https://www.google.com/recaptcha/api/siteverify?";
+    // recaptcha_url += "secret=" + secrets.KEY + "&";
+    // recaptcha_url += "response=" + req.body["g-recaptcha-response"] + "&";
+    // recaptcha_url += "remoteip=" + req.connection.remoteAddress;
+    // axios.get(recaptcha_url, function(error, resp, body) {
+    //     body = JSON.parse(body);
+    //     if (body.success !== undefined && !body.success) {
+    //         return response.send({
+    //             "message": "Captcha validation failed"
+    //         });
+    //     }
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
-                <h3> Contact Details </h3>
-                <ul>
-                    <li>Name: ${req.body.name}</li>
-                    <li>Email: ${req.body.email}</li>
-                </ul>
-                <h3>Message</h3>
-                <p>${req.body.message}</p>
-                `;
+                    <h3> Contact Details </h3>
+                    <ul>
+                        <li>Name: ${req.body.name}</li>
+                        <li>Email: ${req.body.email}</li>
+                    </ul>
+                    <h3>Message</h3>
+                    <p>${req.body.message}</p>
+                    `;
 
         let transporter = nodemailer.createTransport({
             host: 'smtp.mailgun.org',
@@ -1902,6 +1915,11 @@ app.post('/email', function(req, res) {
 
         }); //transporter
     });
+    // });
+
+
+
+
 
 });
 
