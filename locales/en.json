@@ -1,11 +1,11 @@
 {
 	"lang": "en",
-	"whatisSEOTitle":"what is SEO",
-	"consultantvsagency":"Consultant vs SEO Agency",
-	"consultantvsagencyTxt":"SEO Agencies charge in average up to three times more as freelancers. Moreover clients rarely get a personalised contact with agencies. Use my longtime experience and individual SEO solutions to generate more leads, optimize your site and increase your sales. With many years of in-house experience as Head of SEO using scrum, I make sure to communicate the audit findings efficiently. The audit comes with a follow-up backlog with status and prioritization so that you can follow progress on fixes and communicate with questions and comments.",
+	"whatisSEOTitle": "what is SEO",
+	"consultantvsagency": "Consultant vs SEO Agency",
+	"consultantvsagencyTxt": "SEO Agencies charge in average up to three times more as freelancers. Moreover clients rarely get a personalised contact with agencies. Use my longtime experience and individual SEO solutions to generate more leads, optimize your site and increase your sales. With many years of in-house experience as Head of SEO using scrum, I make sure to communicate the audit findings efficiently. The audit comes with a follow-up backlog with status and prioritization so that you can follow progress on fixes and communicate with questions and comments.",
 	"currentformerclients": "Current and former clients",
 	"logoNav": "SEO Freelancer Consultant",
-	"moreAbout":"Read More",
+	"moreAbout": "Read More",
 	"languagefooter": "Languages",
 	"maintxtcasestudies": "Case Studies",
 	"seo-freelancer": "seo-freelancer",
@@ -203,7 +203,7 @@
 	"impressum_title": "Impressum SEO Berlin  SEO Expert in Berlin",
 	"servicestitle": "SEO Audit and Services  SEO Berlin",
 	"servicesh1": "SEO Freelancer in Berlin",
-	"successemailmessage":" Thank you for your enquiry, we will come back to you as soon as possible.",
+	"successemailmessage": " Thank you for your enquiry, we will come back to you as soon as possible.",
 	"footer1": "All Right Reserved 2018 Alex Bieth",
 	"footer2": "about this website",
 	"boost1": "Experienced SEO Consultant with +100m multinationals.",
@@ -491,7 +491,7 @@
 	"servicesL ": "servicesL ",
 	"offpage ": "offpage ",
 	"onpage ": "onpage ",
-	"Experience":"Experience",
+	"Experience": "Experience",
 	"contactskills": "Skills",
 	"contactexperience": "Experience",
 	"with": "with",
@@ -499,8 +499,8 @@
 	"noindexMP": "If you identify pages that are not to be indexed, you should use `noindex`",
 	"for": "for",
 	"seoexpert": "SEO Expert",
-	"Availability":"Availability",
-	"availText":"Fully Booked till May 2020",
-	"since": "since"
-
+	"Availability": "Availability",
+	"availText": "Fully Booked till May 2020",
+	"since": "since",
+	"": ""
 }
