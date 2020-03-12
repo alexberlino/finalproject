@@ -1795,12 +1795,12 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
-app.get("/en/article/seo-in-asia-korea-china-japan-2019
-", function(request, response) {
-response.writeHead(301, {
-    Location: "/en/article/seo-in-asia-korea-china-japan-2020",
-    Expires: new Date().toGMTString()
-}); response.end();
+app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/article/seo-in-asia-korea-china-japan-2020",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
 });
 
 
