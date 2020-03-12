@@ -1679,12 +1679,12 @@ app.get("/de/lexical/disavow-tool", (req, res) => {
     });
 });
 ////blog pages/////////
-app.get("/en/article/linkbuilding-in-2019", (req, res) => {
+app.get("/en/article/linkbuilding-in-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog1", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Link Building in 2019 | | seoberlino",
+        title: "Link Building in 2020 | | seoberlino",
         description: "Link Building in one of the most difficult but important aspects of SEO. Read these tips to start your Backlinking tasks.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
