@@ -1712,7 +1712,7 @@ app.get("/en/article/clutch", (req, res) => {
     });
 });
 
-app.get("/en/article/seo-in-asia-korea-china-japan-2019", (req, res) => {
+app.get("/en/article/seo-in-asia-korea-china-japan-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogasia", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
