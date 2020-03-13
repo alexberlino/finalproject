@@ -600,10 +600,16 @@ table th {
 }
 
 @media screen and (min-width:390px) and (max-width:1023px) {
-    .post1, .illustration {
+    .post1, {
         width: 73% !important;
         height: 73% !important;
         margin-left: 20% !important;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:1023px) {
+    .illustration {
+        margin-left: 10% !important;
     }
 }
 
