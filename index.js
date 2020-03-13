@@ -890,7 +890,7 @@ app.get("/en/offpage", (req, res) => {
     res.render("offpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Offpage Optimization SEO Berlin | seoberlino",
+        title: "SEO Offpage Optimization | seoberlino",
         description: "SEO Resources from seoberlino: Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/offpage"
@@ -902,7 +902,7 @@ app.get("/de/offpage", (req, res) => {
     res.render("offpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Offpage Optimierung SEO | seoberlino",
+        title: "SEO Offpage Optimierung | seoberlino",
         description: "Offpage SEO ist ein wichtiger Bestandteil von SEO und umfasst insbesondere Link Building und Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/offpage"
