@@ -608,9 +608,7 @@ table th {
 }
 
 @media screen and (min-width:390px) and (max-width:1023px) {
-    .illustration {
-        margin-left: 10% !important;
-    }
+    .illustration {}
 }
 
 @media screen and (max-width:1023px) {
