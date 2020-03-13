@@ -41,14 +41,7 @@
 
   </url>
 
-  <url>
-    <loc>https://www.seoberlino.com/en/scrum</loc>
 
-  </url>
-  <url>
-    <loc>https://www.seoberlino.com/de/scrum</loc>
-
-  </url>
   <url>
     <loc>https://www.seoberlino.com/en/content</loc>
 
@@ -222,9 +215,7 @@
 
 <url><loc>https://www.seoberlino.com/en/lexical/search-console</loc></url>
 
-<url>
-  <loc>https://www.seoberlino.com/en/casestudy</loc>
-</url>
+
 <url>
   <loc>https://www.seoberlino.com/en/casestudy/zalando</loc>
 
