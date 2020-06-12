@@ -150,7 +150,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainHP",
-        title: "SEO Consultant in Berlin, Germany | SEO Consulting | seoberlino",
+        title: "SEO Consultant in Berlin, Germany | SEO Freelancer | seoberlino",
         description: "SEO Consultant, 10 years experience €100m + multinationals:  Montblanc, Hello Fresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de",
@@ -164,7 +164,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         layout: "mainDE",
         title: "SEO Freelancer: SEO Beratung & Audits | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
     });
 });
@@ -176,7 +176,7 @@ app.get("/en/seo-freelancer", (req, res) => {
         title: "SEO Freelancer in Berlin: SEO Audits | seoberlino",
         layout: "main",
         description: "SEO Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de/seo-freelancer"
     });
 });
@@ -992,7 +992,7 @@ app.get("/de/seo-consultant", (req, res) => {
         layout: "mainDE",
         title: "SEO Consultant Onpage, Offpage, Technical Audits| seoberlino",
         description: "Lassen Sie Ihre Website mit Full SEO Audit auditieren, das mit einer To-Do-Liste (Backlog) mit nach Priorität klassifizierten Problemen geliefert wird.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de",
         alt: "https://www.seoberlino.com/en/seo-consultant"
     });
 });
@@ -1004,7 +1004,7 @@ app.get("/en/seo-consultant", (req, res) => {
         layout: "main",
         description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
         title: "SEO Consultant for SEO Audits in Berlin | seoberlino",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de/seo-consultant"
     });
 });
