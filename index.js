@@ -277,7 +277,7 @@ app.get("/en/casestudy/fromatob", (req, res) => {
     res.render("casestudyfromatob", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "fromAtoB: SEO Berlin Case Study | seoberlino",
+        title: "SEO Berlin: fromAtoB SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's fromAtoB: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/fromatob"
@@ -289,7 +289,7 @@ app.get("/en/casestudy/zalando", (req, res) => {
     res.render("casestudyzalando", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Zalando: SEO Berlin Case Study | seoberlino",
+        title: "SEO Berlin: Zalando SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Zalando: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/zalando"
@@ -301,7 +301,7 @@ app.get("/en/casestudy/wooga", (req, res) => {
     res.render("casestudywooga", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Wooga: SEO Berlin Case Study | seoberlino",
+        title: "SEO Berlin: Wooga SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Wooga: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/wooga"
@@ -313,7 +313,7 @@ app.get("/en/casestudy/juniqe", (req, res) => {
     res.render("casestudyjuniqe", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Juniqe: SEO Berlin Case Study | seoberlino",
+        title: "SEO Berlin: Juniqe SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Juniqe: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/juniqe"
@@ -337,7 +337,7 @@ app.get("/en/casestudy/n26", (req, res) => {
     res.render("casestudyn26", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "N26 : SEO Berlin Case Study | seoberlino",
+        title: "SEO Berlin: N26 SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's N26: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/n26"
@@ -349,7 +349,7 @@ app.get("/en/casestudy/hellofresh", (req, res) => {
     res.render("casestudyhellofresh", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Hello Fresh: SEO Berlin Case Study | seoberlino",
+        title: "SEO Berlin: HelloFresh SEO Case Study | seoberlino",
         description: "Mini SEO Berlin Case Study about Berlin's Hello Fresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/hellofresh"
@@ -363,8 +363,8 @@ app.get("/en/casestudy/hometogo", (req, res) => {
     res.render("casestudyhometogo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Home ToGo: SEO Berlin Case Study | seoberlino",
-        description: "Mini SEO Case Study about Berlin's Home To Go: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
+        title: "SEO Berlin: HomeToGo SEO Case Study | seoberlino",
+        description: "Mini SEO Case Study about Berlin's HomeToGo: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/hometogo"
     });
