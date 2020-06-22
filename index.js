@@ -164,7 +164,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         layout: "mainDE",
         title: "SEO Freelancer: SEO Beratung & Audits | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/de",
+        canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
     });
 });
@@ -176,7 +176,7 @@ app.get("/en/seo-freelancer", (req, res) => {
         title: "SEO Freelancer in Berlin: SEO Audits | seoberlino",
         layout: "main",
         description: "SEO Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en",
+        canonical: "https://www.seoberlino.com/en/seo-freelancer",
         alt: "https://www.seoberlino.com/de/seo-freelancer"
     });
 });
