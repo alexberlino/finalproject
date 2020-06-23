@@ -56,13 +56,6 @@ app.use(i18n.init);
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
 
-
-        if (req.headers.host == "www.seo-agile.com") {
-
-            return res.redirect(301, 'https://www.seoberlino.com' + req.url);
-
-        }
-
         if (req.headers["x-forwarded-proto"] == "https") {
 
             if (req.headers.host.slice(0, 3) != 'www') {
@@ -1770,6 +1763,13 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(request, resp
     response.end();
 });
 
+app.get("/", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 app.get("/de/audit", function(request, response) {
     response.writeHead(301, {
