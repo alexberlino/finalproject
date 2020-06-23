@@ -666,7 +666,7 @@ app.get("/en/technical/crawlability", (req, res) => {
         layout: "main",
         title: "Crawling SEO - Web Crawl | seoberlino",
         description: "xml format sitemap guides Google on how to crawl your site. There is no guarantee however that the Google bot will follow your instructions.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/en/technical",
         alt: "https://www.seoberlino.com/de/technical/crawling"
     });
 });
@@ -678,7 +678,7 @@ app.get("/de/technical/crawling", (req, res) => {
         layout: "mainDE",
         title: "Web-Crawling wie es funktioniert | seoberlino",
         description: "Crawling hängt unmittelbar mit Indexierung zusammen. Um die Indexierung anzupassen, beziehungsweise zu optimieren, können Sie Google dabei lenken.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/de/technical",
         alt: "https://www.seoberlino.com/en/technical/crawlability"
     });
 });
@@ -690,7 +690,7 @@ app.get("/en/technical/indexation", (req, res) => {
         layout: "main",
         title: "SEO and the importance of Indexation| seoberlino",
         description: "Efficient Indexation is key in order to get on well with Google's spiders. The right number depends on your site and objectives.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/en/technical",
         alt: "https://www.seoberlino.com/de/technical/indexierung"
     });
 });
@@ -702,7 +702,7 @@ app.get("/de/technical/indexierung", (req, res) => {
         layout: "mainDE",
         title: "SEO Indexierung wie es funktioniert | seoberlino",
         description: "Effiziente Indexierung ist für ein gutes Funktionieren mit den Google Spiders entscheidend.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/de/technical",
         alt: "https://www.seoberlino.com/en/technical/indexation"
     });
 });
@@ -713,7 +713,7 @@ app.get("/en/technical/internationalisation", (req, res) => {
         layout: "main",
         title: "SEO Internationalisation | seoberlino",
         description: "There are various options when operating internationally: same root  domain, different top level domains, subdomains, how to link between them, etc.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/en/technical",
         alt: "https://www.seoberlino.com/de/technical/internationalisierung"
     });
 });
@@ -725,7 +725,7 @@ app.get("/de/technical/internationalisierung", (req, res) => {
         layout: "mainDE",
         title: "SEO Internationalisierung | seoberlino",
         description: "Wenn Sie international agieren gibt es eine Vielzahl von Möglichkeiten: einheitliche Root-Domain, verschiedene Top-Level-Domains, Subdomains",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/de/technical",
         alt: "https://www.seoberlino.com/en/technical/internationalisation"
     });
 });
@@ -737,7 +737,7 @@ app.get("/en/technical/pagespeed", (req, res) => {
         layout: "main",
         title: "Page Speed and SEO | seoberlino",
         description: "Page load speed is key in SEO: a very important aspect of Technical SEO. If your site loads fast, Search Engines will prefer it to others.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/en/technical",
         alt: "https://www.seoberlino.com/de/technical/pagespeed"
     });
 });
@@ -749,7 +749,7 @@ app.get("/de/technical/pagespeed", (req, res) => {
         layout: "mainDE",
         title: "Seitengeschwindigkeit SEO | seoberlino",
         description: "So machen Sie Ihre Seite schneller. Für Page Speed, nutzen Sie schnelle Host-Dienste, einen schnellen DNS (“Domain Name System”) Provider",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/de/technical",
         alt: "https://www.seoberlino.com/en/technical/pagespeed"
     });
 });
@@ -761,7 +761,7 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
         layout: "main",
         title: "SEO Mobile Friendly | seoberlino",
         description: "It is now critical for a site to be mobile-friendly. Otherwise is a close to a no-go resulting in poor SEO performance.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/technical",
         alt: "https://www.seoberlino.com/de/technical/mobilefriendly"
     });
 });
@@ -773,7 +773,7 @@ app.get("/de/technical/mobilefriendly", (req, res) => {
         layout: "mainDE",
         title: "SEO Mobile First | seoberlino",
         description: "Es ist jetzt entscheidend, dass ein Standort mobil einsetzbar ist. Andernfalls ist es fast unmöglich, was zu einer schlechten SEO-Leistung führt.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/de/technical",
         alt: "https://www.seoberlino.com/en/technical/mobilefriendly"
     });
 });
@@ -785,7 +785,7 @@ app.get("/en/technical/security", (req, res) => {
         layout: "main",
         title: "What is https and its impact on SEO | seoberlino",
         description: "https is now the norm. If your site is still not on https, its migration should be on the top of your SEO to-do list.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/en/technical",
         alt: "https://www.seoberlino.com/de/technical/sicherheit"
     });
     i18n.setLocale(req, "en");
@@ -798,7 +798,7 @@ app.get("/de/technical/sicherheit", (req, res) => {
         layout: "mainDE",
         title: "Was ist https wie es funktioniert  | seoberlino",
         description: "HTTPS ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Webseite laufen.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/de/technical",
         alt: "https://www.seoberlino.com/en/technical/security"
     });
 });
@@ -810,7 +810,7 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
         layout: "main",
         title: "Javascript and how it affects SEO | seoberlino",
         description: "Javascript frameworks such as React and Angular which are client-side rendered are still very complex for Search Engines for indexation.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/en/technical",
         alt: "https://www.seoberlino.com/de/technical/dynamic-rendering-de"
     });
 });
@@ -822,7 +822,7 @@ app.get("/de/technical/dynamic-rendering-de", (req, res) => {
         layout: "mainDE",
         title: "Javascript Webframes SEO  | seoberlino",
         description: "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme mit Crawling und Indexierung.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/de/technical",
         alt: "https://www.seoberlino.com/en/technical/dynamicrendering"
     });
 });
@@ -835,7 +835,7 @@ app.get("/en/technical", (req, res) => {
         layout: "main",
         title: "What is Technical SEO | SEO Berlin | seoberlino",
         description: "Technical SEO by a SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.comn/en/technical",
         alt: "https://www.seoberlino.com/de/technical"
     });
 });
@@ -845,7 +845,7 @@ app.get("/de/technical", (req, res) => {
     res.render("technical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Was ist Technisches SEO | | seoberlino",
+        title: "Technisches SEO | seoberlino",
         description: "Technisches SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/technical"

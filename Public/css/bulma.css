@@ -11086,4 +11086,11 @@ xmp {
     max-height: 116px
 }
 
-@media screen
+h2::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+}

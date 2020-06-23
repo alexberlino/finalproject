@@ -96,21 +96,7 @@
 
 <url><loc>https://www.seoberlino.com/en/offpage/backlinkanalysis</loc></url>
 
-<url><loc>https://www.seoberlino.com/en/technical/crawlability</loc></url>
 
-<url><loc>https://www.seoberlino.com/en/technical/dynamicrendering</loc></url>
-
-<url><loc>https://www.seoberlino.com/en/technical/indexation</loc></url>
-
-<url><loc>https://www.seoberlino.com/en/technical/internationalisation</loc></url>
-
-
-<url><loc>https://www.seoberlino.com/en/technical/mobilefriendly</loc></url>
-
-
-<url><loc>https://www.seoberlino.com/en/technical/pagespeed</loc></url>
-
-<url><loc>https://www.seoberlino.com/en/technical/security</loc></url>
 
 <url><loc>https://www.seoberlino.com/en/offpage</loc></url>
 
@@ -121,6 +107,12 @@
 <url><loc>https://www.seoberlino.com/en/contact</loc></url>
 <url><loc>https://www.seoberlino.com/en/seo</loc></url>
 <url><loc>https://www.seoberlino.com/en/seo-consultant</loc></url>
+<url><loc>https://www.seoberlino.com/de/seo-consultant</loc></url>
+
+
+<url><loc>https://www.seoberlino.com/en/seo-freelancer</loc></url>
+<url><loc>https://www.seoberlino.com/de/seo-freelancer</loc></url>
+
 <url><loc>https://www.seoberlino.com/en/article/linkbuilding-in-2020</loc><priority>0.5</priority></url>
 <url><loc>https://www.seoberlino.com/en/article/beyond-mobile-first</loc><priority>0.5</priority></url>
 <url><loc>https://www.seoberlino.com/en/article/how-to-get-those-first-links</loc><priority>0.5</priority></url>
@@ -156,20 +148,7 @@
 
 <url><loc>https://www.seoberlino.com/de/offpage/backlinkanalysis</loc></url>
 
-<url><loc>https://www.seoberlino.com/de/technical/crawling</loc></url>
 
-<url><loc>https://www.seoberlino.com/de/technical/dynamic-rendering-de</loc></url>
-
-<url><loc>https://www.seoberlino.com/de/technical/indexierung</loc></url>
-
-<url><loc>https://www.seoberlino.com/de/technical/internationalisierung</loc></url>
-
-<url><loc>https://www.seoberlino.com/de/technical/mobilefriendly</loc></url>
-
-
-<url><loc>https://www.seoberlino.com/de/technical/pagespeed</loc></url>
-
-<url><loc>https://www.seoberlino.com/de/technical/sicherheit</loc></url>
 <url><loc>https://www.seoberlino.com/de/offpage</loc></url>
 <url><loc>https://www.seoberlino.com/de/technical</loc></url>
 
