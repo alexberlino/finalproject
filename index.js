@@ -114,17 +114,6 @@ app.use(
     })
 );
 
-app.get("/", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("home", {
-        requrl: "https://www.seoberlino.com/en",
-        layout: "mainDEHP",
-        title: "SEO Freelancer in Berlin | Beratung & Consulting | seoberlino",
-        canonical: "https://www.seoberlino.com/de",
-        description: "SEO Experte Freelancer und Agile Coach. 10 Jahre Erfahrung. Kunden: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
-        alt: "https://www.seoberlino.com/en",
-    });
-});
 
 app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
