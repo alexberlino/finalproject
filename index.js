@@ -162,7 +162,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/de/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Freelancer: SEO Beratung & Audits | seoberlino",
+        title: "SEO Freelancer - SEO Audits | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
