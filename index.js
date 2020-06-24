@@ -866,7 +866,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
         layout: "main",
         title: "SEO Brand Building | seoberlino",
         description: "Your links represent your reputation and relevancy in your domain.  Link building now goes hand in hand with brand building.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/offpage",
         alt: "https://www.seoberlino.com/de/offpage/brand-building"
     });
 });
@@ -878,7 +878,7 @@ app.get("/de/offpage/brand-building", (req, res) => {
         layout: "mainDE",
         title: "SEO Markenentwicklung | seoberlino",
         description: "Brand-building: beste Empfehlung für Inhaltserstellung. Inhaltserstellung: mehr Traffic Markenbekanntheit, traffic und backlinks",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/offpage",
         alt: "https://www.seoberlino.com/en/offpage/brandbuilding"
     });
 });
@@ -890,7 +890,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
         layout: "main",
         title: "Backlink Analysis & Audit | seoberlino",
         description: "During a backlink analysis, a report needs to be done with the profile's pros and cons. It should also include an audit of competitors'.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/offpage",
         alt: "https://www.seoberlino.com/de/offpage/backlinkanalysis"
     });
 });
@@ -902,7 +902,7 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
         layout: "mainDE",
         title: "Backlink Analyse SEO | seoberlino",
         description: "Während einer Backlink-Analyse muss ein Bericht mit den Vor- und Nachteilen des Profils erstellt werden. Es sollte auch eine Auditierung von Wettbewerbern beinhalten.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/offpage",
         alt: "https://www.seoberlino.com/en/offpage/backlinkanalysis"
     });
 });
@@ -914,7 +914,7 @@ app.get("/en/offpage/toxic", (req, res) => {
         layout: "main",
         title: "What is a backlink? | seoberlino",
         description: "Many think the more links, the better but it doesn't actually work that way. Too many low quality and/or spammy links will damage your SEO.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/offpage",
         alt: "https://www.seoberlino.com/de/offpage/toxic"
     });
 });
@@ -926,7 +926,7 @@ app.get("/de/offpage/toxic", (req, res) => {
         layout: "mainDE",
         title: "Was sind backlinks? | seoberlino",
         description: "Viele denken, es gehe immer um eine möglichst große Anzahl von Links, dem ist allerdings nicht so.",
-        canonical: "https://www.seoberlino.com/de/offpage/toxic",
+        canonical: "https://www.seoberlino.com/de/offpage",
         alt: "https://www.seoberlino.com/en/offpage/toxic"
     });
 });
@@ -986,7 +986,7 @@ app.get("/en/seo-consultant", (req, res) => {
         layout: "main",
         description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
         title: "SEO Consultant for SEO Audits in Berlin | seoberlino",
-        canonical: "https://www.seoberlino.com/en",
+        canonical: "https://www.seoberlino.com/en/seo-consultant",
         alt: "https://www.seoberlino.com/de/seo-consultant"
     });
 });
