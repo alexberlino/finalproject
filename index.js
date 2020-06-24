@@ -360,7 +360,7 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
         layout: "main",
         title: "Duplicate Content SEO | | seoberlino",
         description: "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content and how to avoid it.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/duplicatecontent"
     });
 });
@@ -372,7 +372,7 @@ app.get("/de/onpage/duplicatecontent", (req, res) => {
         layout: "mainDE",
         title: "Duplizierter Inhalt | Duplicate Content SEO | seoberlino",
         description: "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
-        canonical: "https://www.seoberlino.com/de/onpage/duplicatecontent",
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/duplicatecontent"
     });
 });
@@ -384,7 +384,7 @@ app.get("/en/onpage/images", (req, res) => {
         layout: "main",
         title: "Image Optimization SEO | seoberlino",
         description: "Images optimisation enables you to get visibility on  Image Search which can still be powerful for brand visibility.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/bildoptimierung"
     });
 });
@@ -396,7 +396,7 @@ app.get("/de/onpage/bildoptimierung", (req, res) => {
         layout: "mainDE",
         title: "Bildoptimierung SEO | seoberlino",
         description: "Für viele Wirtschaftszweige ist die Bildersuche noch immer ein wichtiger Unterbereich des SEO. Alles, was Sie wissen müssen über Bildoptimierung.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/images"
     });
 });
@@ -408,7 +408,7 @@ app.get("/en/onpage/internallinking", (req, res) => {
         layout: "main",
         title: "SEO Internal Linking | seoberlino",
         description: "Internal linking is key in SEO essentially to redistribute link juice and prioritise your most important pages.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/interne-verlinkung"
     });
 });
@@ -420,7 +420,7 @@ app.get("/de/onpage/interne-verlinkung", (req, res) => {
         layout: "mainDE",
         title: "Interne Verlinkung SEO | seoberlino",
         description: "Interne Verlinkungen sind der Kern des Onpage SEO. Verstehen, wie das Crawling Ihrer Webseite durch den Google Bot funktioniert.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/internallinking"
     });
 });
@@ -432,7 +432,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
         layout: "main",
         title: "Keyword Research and Keyword Tools for SEO | seoberlino",
         description: "Keyword Research is key to understand how your potential clients are searching for your product or services.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/keyword-recherche"
     });
 });
@@ -444,7 +444,7 @@ app.get("/de/onpage/keyword-recherche", (req, res) => {
         layout: "mainDE",
         title: "Keyword Recherche & Keyword Tools für SEO | seoberlino",
         description: "Wenn Sie eingehend verstehen möchten, wie Ihre potenziellen Kunden nach den von Ihnen angebotenen Produkten, ist es unerlässlich.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/keywordresearch"
     });
 });
@@ -456,7 +456,7 @@ app.get("/en/onpage/metas", (req, res) => {
         layout: "main",
         title: "Meta Tags and SEO | seoberlino",
         description: "Page titles are often neglected, but are really important and very  simple to implement. That means you need to have them spot on.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/metas-tags-de"
     });
 });
@@ -468,7 +468,7 @@ app.get("/de/onpage/metas-tags-de", (req, res) => {
         layout: "mainDE",
         title: "Meta Tags und wie es funktioniert | seoberlino",
         description: "Seitentitel werden oft vernachlässigt, sind aber wirklich wichtig und sehr einfach zu implementieren. Das bedeutet, dass du sie auf den Punkt bringen musst.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/metas"
     });
 });
@@ -480,7 +480,7 @@ app.get("/en/onpage/content", (req, res) => {
         layout: "main",
         title: "SEO Content - Content Marketing | seoberlino",
         description: "The content is the value you want to create. If you content has no value to the user or is duplicate, your SEO will be poor.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/inhalt"
     });
 });
@@ -492,7 +492,7 @@ app.get("/de/onpage/inhalt", (req, res) => {
         layout: "mainDE",
         title: "SEO Content (Inhalt) -  SEO Marketing | seoberlino",
         description: "Der Inhalt ist der Wert, den Sie schaffen wollen. Wenn Ihr Inhalt für den Benutzer keinen Wert hat oder doppelt ist, wird Ihre SEO schlecht sein.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/content"
     });
 });
@@ -504,7 +504,7 @@ app.get("/en/onpage/landingpages", (req, res) => {
         layout: "main",
         title: "Landing Page Optimization SEO| seoberlino",
         description: "If you want to efficiently understand how your potential  clients are searching for the products or services you are offering, Keyword Research is critical.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/landingpages"
     });
 });
@@ -516,7 +516,7 @@ app.get("/de/onpage/landingpages", (req, res) => {
         layout: "mainDE",
         title: "Landingpage Optimierung | seoberlino",
         description: "Die Keywords, die Sie als die wichtigsten für Ihre Seite ausgewählt haben sollten für Inhalte und allgemeine Onpage Optimierung genutzt werden.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/landingpages"
     });
 });
@@ -528,7 +528,7 @@ app.get("/en/onpage/structureddata", (req, res) => {
         layout: "main",
         title: "What is Structured Data | seoberlino",
         description: "Google, Bing, Yandex and Yahoo agreed on a standardised format: schema.org for providing information about a page and to classify its content.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/structured-data-de"
     });
 });
@@ -540,7 +540,7 @@ app.get("/de/onpage/structured-data-de", (req, res) => {
         layout: "mainDE",
         title: "Google Structured Data | seoberlino",
         description: "Google und Co haben sich auf ein standartisiertes Format geeinigt: mit schema.org werden Informationen über eine Seite bereitgestellt und die Inhalte klassifiziert.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/structureddata"
     });
 });
@@ -552,7 +552,7 @@ app.get("/en/onpage", (req, res) => {
         layout: "main",
         title: "Onpage Optimization SEO | seoberlino",
         description: "Onpage Optimization refers to any SEO action taken on the website: content and and code of the page.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage"
     });
 });
@@ -564,7 +564,7 @@ app.get("/de/onpage", (req, res) => {
         layout: "mainDE",
         title: "Onpage Optimierung SEO | seoberlino",
         description: "Onpage Optimization bezieht sich auf alle SEO-Maßnahmen auf der Website, die direkt durchgeführt werden können.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage"
     });
 });
@@ -576,7 +576,7 @@ app.get("/en/onpage/voicesearch", (req, res) => {
         layout: "main",
         title: "Voice Search SEO | seoberlino",
         description: "Google Assistant, Alexa are just 2 of those devices which are transforming search. Instead of typing searches, users now more and more ask for their need vocally.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage/sprachsuche"
     });
 });
@@ -588,7 +588,7 @@ app.get("/de/onpage/sprachsuche", (req, res) => {
         layout: "mainDE",
         title: "Sprachsuche SEO wie es funktioniert | seoberlino",
         description: "Google Assistant, Alexa sind nur 2 dieser Geräte, die die Suche verändern. Anstatt Suchen zu tippen, fragen die Benutzer immer häufiger nach ihrem Bedarf.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage/voicesearch"
     });
 });
