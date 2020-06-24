@@ -8865,6 +8865,10 @@ body.has-navbar-fixed-bottom, html.has-navbar-fixed-bottom {
     }
 }
 
+.sidebar, .sidebar ul, .sidebar li {
+    padding-left: 0.7rem;
+}
+
 .hero.is-danger {
     background-color: #d93a5f;
     color: #fff
@@ -9288,27 +9292,29 @@ body.frozen {
 }
 
 .sidebar {
-    padding-left: 5rem
+    padding-left: 5rem;
 }
 
 .sidebar ul {
     margin: 0;
-    list-style: none
+    list-style: none;
+    position: sticky;
+    top: 11%;
 }
 
 .sidebar ul li {
     display: block;
-    padding: .35rem 0
+    padding: .35rem 0;
 }
 
 .sidebar ul li a {
     color: #98abb6;
     font-size: 1rem;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .sidebar ul li a.active {
-    color: #424950 !important
+    color: #424950 !important;
 }
 
 .sidebar ul li a:hover {
@@ -10741,6 +10747,10 @@ xmp {
 @media screen and (max-width:768px) {
     .navbar {
         padding: 0 .45rem
+    }
+
+    .sidebar ul {
+        position: relative;
     }
 
     .navbar .navbar-brand img {
