@@ -120,7 +120,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Freelancer und Agile Coach in Berlin | SEO Beratung | seoberlino",
+        title: "SEO Marketing Freelancer • Agile • Beratung | seoberlino",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Experte Freelancer und Agile Coach. 10 Jahre Erfahrung. Kunden: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
@@ -132,7 +132,7 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainHP",
-        title: "SEO Consultant and Agile Coach in Berlin, Germany | seoberlino",
+        title: "SEO Marketing Consultant in Berlin, Germany | seoberlino",
         description: "SEO Consultant, 10 years experience €100m + multinationals:  Montblanc, Hello Fresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de",
@@ -827,8 +827,8 @@ app.get("/de/technical", (req, res) => {
     res.render("technical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Technisches SEO | seoberlino",
-        description: "Technisches SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten.",
+        title: "Technical SEO | Technisches SEO | seoberlino",
+        description: "Technical SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/technical"
     });
@@ -839,8 +839,8 @@ app.get("/en/offpage", (req, res) => {
     res.render("offpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Learn about SEO Offpage Optimization | seoberlino",
-        description: "SEO Resources from seoberlino: Offpage SEO is a key part of SEO and includes in particular Link Building and Brand Building.",
+        title: "Backlinks and Offpage SEO | seoberlino",
+        description: "Backlinks and Offpage SEO represent a key part of SEO and include in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/offpage"
     });
@@ -851,8 +851,8 @@ app.get("/de/offpage", (req, res) => {
     res.render("offpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Offpage Optimierung | seoberlino",
-        description: "Offpage SEO ist ein wichtiger Bestandteil von SEO und umfasst insbesondere Link Building und Brand Building.",
+        title: "Backlinks & Offpage SEO | seoberlino",
+        description: "Backlinks sind ein wichtiger Bestandteil von SEO und umfassen insbesondere Link Building und Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/offpage"
     });
@@ -972,9 +972,9 @@ app.get("/de/seo-consultant", (req, res) => {
     res.render("audit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Consultant Onpage, Offpage, Technical Audits| seoberlino",
+        title: "SEO Consultant für SEO Audits| seoberlino",
         description: "Lassen Sie Ihre Website mit Full SEO Audit auditieren, das mit einer To-Do-Liste (Backlog) mit nach Priorität klassifizierten Problemen geliefert wird.",
-        canonical: "https://www.seoberlino.com/de",
+        canonical: "https://www.seoberlino.com/de/seo-consultant",
         alt: "https://www.seoberlino.com/en/seo-consultant"
     });
 });
@@ -1137,8 +1137,8 @@ app.get("/de/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Experte in Berlin | Kontakt SEO Berlin",
-        description: "SEO Consultant Experte in Berlin. SEO Experte Freelancer in Berlin. Kontaktieren Sie uns jetzt für weitere Details.",
+        title: "SEO Experte in Berlin | seoberlino ",
+        description: "SEO Consultant Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
         alt: "https://www.seoberlino.com/en/contact"
     });
