@@ -357,7 +357,7 @@ app.get("/en/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("duplicatecontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Duplicate Content SEO | | seoberlino",
         description: "Duplicate Content and Semantics for SEO. Read more about the dangers of Duplicate Content and how to avoid it.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -369,7 +369,7 @@ app.get("/de/onpage/duplicatecontent", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("duplicatecontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Duplizierter Inhalt | Duplicate Content SEO | seoberlino",
         description: "Suchmaschinen mögen keine Indexierung von Duplicate Content. Anschließend ist es wichtig zu entscheiden, welche Seite Ihre “Master Page” ist ",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -381,7 +381,7 @@ app.get("/en/onpage/images", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("images", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Image Optimization SEO | seoberlino",
         description: "Images optimisation enables you to get visibility on  Image Search which can still be powerful for brand visibility.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -393,7 +393,7 @@ app.get("/de/onpage/bildoptimierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("images", {
         requrl: "https://www.seoberlino.com/en/onpage/images",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Bildoptimierung SEO | seoberlino",
         description: "Für viele Wirtschaftszweige ist die Bildersuche noch immer ein wichtiger Unterbereich des SEO. Alles, was Sie wissen müssen über Bildoptimierung.",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -405,7 +405,7 @@ app.get("/en/onpage/internallinking", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("internallinking", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "SEO Internal Linking | seoberlino",
         description: "Internal linking is key in SEO essentially to redistribute link juice and prioritise your most important pages.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -417,7 +417,7 @@ app.get("/de/onpage/interne-verlinkung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internallinking", {
         requrl: "https://www.seoberlino.com/en/onpage/internallinking",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Interne Verlinkung SEO | seoberlino",
         description: "Interne Verlinkungen sind der Kern des Onpage SEO. Verstehen, wie das Crawling Ihrer Webseite durch den Google Bot funktioniert.",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -429,7 +429,7 @@ app.get("/en/onpage/keywordresearch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("keyword", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Keyword Research and Keyword Tools for SEO | seoberlino",
         description: "Keyword Research is key to understand how your potential clients are searching for your product or services.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -441,7 +441,7 @@ app.get("/de/onpage/keyword-recherche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("keyword", {
         requrl: "https://www.seoberlino.com/en/onpage/keywordresearch",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Keyword Recherche & Keyword Tools für SEO | seoberlino",
         description: "Wenn Sie eingehend verstehen möchten, wie Ihre potenziellen Kunden nach den von Ihnen angebotenen Produkten, ist es unerlässlich.",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -453,7 +453,7 @@ app.get("/en/onpage/metas", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("metas", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Meta Tags and SEO | seoberlino",
         description: "Page titles are often neglected, but are really important and very  simple to implement. That means you need to have them spot on.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -465,7 +465,7 @@ app.get("/de/onpage/metas-tags-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("metas", {
         requrl: "https://www.seoberlino.com/en/onpage/metas",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Meta Tags und wie es funktioniert | seoberlino",
         description: "Seitentitel werden oft vernachlässigt, sind aber wirklich wichtig und sehr einfach zu implementieren. Das bedeutet, dass du sie auf den Punkt bringen musst.",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -477,7 +477,7 @@ app.get("/en/onpage/content", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("content", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "SEO Content - Content Marketing | seoberlino",
         description: "The content is the value you want to create. If you content has no value to the user or is duplicate, your SEO will be poor.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -489,7 +489,7 @@ app.get("/de/onpage/inhalt", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("content", {
         requrl: "https://www.seoberlino.com/en/onpage/content",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "SEO Content (Inhalt) -  SEO Marketing | seoberlino",
         description: "Der Inhalt ist der Wert, den Sie schaffen wollen. Wenn Ihr Inhalt für den Benutzer keinen Wert hat oder doppelt ist, wird Ihre SEO schlecht sein.",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -501,7 +501,7 @@ app.get("/en/onpage/landingpages", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("landingpages", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Landing Page Optimization SEO| seoberlino",
         description: "If you want to efficiently understand how your potential  clients are searching for the products or services you are offering, Keyword Research is critical.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -513,7 +513,7 @@ app.get("/de/onpage/landingpages", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("landingpages", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Landingpage Optimierung | seoberlino",
         description: "Die Keywords, die Sie als die wichtigsten für Ihre Seite ausgewählt haben sollten für Inhalte und allgemeine Onpage Optimierung genutzt werden.",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -525,7 +525,7 @@ app.get("/en/onpage/structureddata", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("structureddata", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is Structured Data | seoberlino",
         description: "Google, Bing, Yandex and Yahoo agreed on a standardised format: schema.org for providing information about a page and to classify its content.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -537,7 +537,7 @@ app.get("/de/onpage/structured-data-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("structureddata", {
         requrl: "https://www.seoberlino.com/en/onpage/structureddata",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Google Structured Data | seoberlino",
         description: "Google und Co haben sich auf ein standartisiertes Format geeinigt: mit schema.org werden Informationen über eine Seite bereitgestellt und die Inhalte klassifiziert.",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -573,7 +573,7 @@ app.get("/en/onpage/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("voicesearch", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Voice Search SEO | seoberlino",
         description: "Google Assistant, Alexa are just 2 of those devices which are transforming search. Instead of typing searches, users now more and more ask for their need vocally.",
         canonical: "https://www.seoberlino.com/en/onpage",
@@ -585,7 +585,7 @@ app.get("/de/onpage/sprachsuche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("voicesearch", {
         requrl: "https://www.seoberlino.com/en/onpage/voicesearch",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Sprachsuche SEO wie es funktioniert | seoberlino",
         description: "Google Assistant, Alexa sind nur 2 dieser Geräte, die die Suche verändern. Anstatt Suchen zu tippen, fragen die Benutzer immer häufiger nach ihrem Bedarf.",
         canonical: "https://www.seoberlino.com/de/onpage",
@@ -645,7 +645,7 @@ app.get("/en/technical/crawlability", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("crawlability", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Crawling SEO - Web Crawl | seoberlino",
         description: "xml format sitemap guides Google on how to crawl your site. There is no guarantee however that the Google bot will follow your instructions.",
         canonical: "https://www.seoberlino.comn/en/technical",
@@ -657,7 +657,7 @@ app.get("/de/technical/crawling", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("crawlability", {
         requrl: "https://www.seoberlino.com/en/technical/crawlability",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Web-Crawling wie es funktioniert | seoberlino",
         description: "Crawling hängt unmittelbar mit Indexierung zusammen. Um die Indexierung anzupassen, beziehungsweise zu optimieren, können Sie Google dabei lenken.",
         canonical: "https://www.seoberlino.comn/de/technical",
@@ -669,7 +669,7 @@ app.get("/en/technical/indexation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("indexation", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "SEO and the importance of Indexation| seoberlino",
         description: "Efficient Indexation is key in order to get on well with Google's spiders. The right number depends on your site and objectives.",
         canonical: "https://www.seoberlino.comn/en/technical",
@@ -681,7 +681,7 @@ app.get("/de/technical/indexierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("indexation", {
         requrl: "https://www.seoberlino.com/en/technical/indexation",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "SEO Indexierung wie es funktioniert | seoberlino",
         description: "Effiziente Indexierung ist für ein gutes Funktionieren mit den Google Spiders entscheidend.",
         canonical: "https://www.seoberlino.comn/de/technical",
@@ -692,7 +692,7 @@ app.get("/en/technical/internationalisation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("internationalisation", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "SEO Internationalisation | seoberlino",
         description: "There are various options when operating internationally: same root  domain, different top level domains, subdomains, how to link between them, etc.",
         canonical: "https://www.seoberlino.comn/en/technical",
@@ -704,7 +704,7 @@ app.get("/de/technical/internationalisierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("internationalisation", {
         requrl: "https://www.seoberlino.com/en/technical/internationalisation",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "SEO Internationalisierung | seoberlino",
         description: "Wenn Sie international agieren gibt es eine Vielzahl von Möglichkeiten: einheitliche Root-Domain, verschiedene Top-Level-Domains, Subdomains",
         canonical: "https://www.seoberlino.comn/de/technical",
@@ -716,7 +716,7 @@ app.get("/en/technical/pagespeed", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("pagespeed", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Page Speed and SEO | seoberlino",
         description: "Page load speed is key in SEO: a very important aspect of Technical SEO. If your site loads fast, Search Engines will prefer it to others.",
         canonical: "https://www.seoberlino.comn/en/technical",
@@ -728,7 +728,7 @@ app.get("/de/technical/pagespeed", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("pagespeed", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Seitengeschwindigkeit SEO | seoberlino",
         description: "So machen Sie Ihre Seite schneller. Für Page Speed, nutzen Sie schnelle Host-Dienste, einen schnellen DNS (“Domain Name System”) Provider",
         canonical: "https://www.seoberlino.comn/de/technical",
@@ -740,7 +740,7 @@ app.get("/en/technical/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("mobile", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "SEO Mobile Friendly | seoberlino",
         description: "It is now critical for a site to be mobile-friendly. Otherwise is a close to a no-go resulting in poor SEO performance.",
         canonical: "https://www.seoberlino.com/en/technical",
@@ -752,7 +752,7 @@ app.get("/de/technical/mobilefriendly", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("mobile", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "SEO Mobile First | seoberlino",
         description: "Es ist jetzt entscheidend, dass ein Standort mobil einsetzbar ist. Andernfalls ist es fast unmöglich, was zu einer schlechten SEO-Leistung führt.",
         canonical: "https://www.seoberlino.comn/de/technical",
@@ -764,7 +764,7 @@ app.get("/en/technical/security", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("https", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is https and its impact on SEO | seoberlino",
         description: "https is now the norm. If your site is still not on https, its migration should be on the top of your SEO to-do list.",
         canonical: "https://www.seoberlino.comn/en/technical",
@@ -777,7 +777,7 @@ app.get("/de/technical/sicherheit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("https", {
         requrl: "https://www.seoberlino.com/en/technical/security",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Was ist https wie es funktioniert  | seoberlino",
         description: "HTTPS ist die abgesicherte Version von HTTP, dem Protokoll über welches die Daten zwischen Browser und verbundener Webseite laufen.",
         canonical: "https://www.seoberlino.comn/de/technical",
@@ -789,7 +789,7 @@ app.get("/en/technical/dynamicrendering", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("javascript", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Javascript and how it affects SEO | seoberlino",
         description: "Javascript frameworks such as React and Angular which are client-side rendered are still very complex for Search Engines for indexation.",
         canonical: "https://www.seoberlino.comn/en/technical",
@@ -801,7 +801,7 @@ app.get("/de/technical/dynamic-rendering-de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("javascript", {
         requrl: "https://www.seoberlino.com/en/technical/dynamicrendering",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Javascript Webframes SEO  | seoberlino",
         description: "Bei JavaScript Apps wie React, Angular oder View haben Suchmaschinen wie Google noch immer große Probleme mit Crawling und Indexierung.",
         canonical: "https://www.seoberlino.comn/de/technical",
@@ -863,7 +863,7 @@ app.get("/en/offpage/brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("brandbuilding", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "SEO Brand Building | seoberlino",
         description: "Your links represent your reputation and relevancy in your domain.  Link building now goes hand in hand with brand building.",
         canonical: "https://www.seoberlino.com/en/offpage",
@@ -875,7 +875,7 @@ app.get("/de/offpage/brand-building", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("brandbuilding", {
         requrl: "https://www.seoberlino.com/en/offpage/brandbuilding",
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "SEO Markenentwicklung | seoberlino",
         description: "Brand-building: beste Empfehlung für Inhaltserstellung. Inhaltserstellung: mehr Traffic Markenbekanntheit, traffic und backlinks",
         canonical: "https://www.seoberlino.com/de/offpage",
@@ -887,7 +887,7 @@ app.get("/en/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("backlinkanalysis", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Backlink Analysis & Audit | seoberlino",
         description: "During a backlink analysis, a report needs to be done with the profile's pros and cons. It should also include an audit of competitors'.",
         canonical: "https://www.seoberlino.com/en/offpage",
@@ -899,7 +899,7 @@ app.get("/de/offpage/backlinkanalysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("backlinkanalysis", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Backlink Analyse SEO | seoberlino",
         description: "Während einer Backlink-Analyse muss ein Bericht mit den Vor- und Nachteilen des Profils erstellt werden. Es sollte auch eine Auditierung von Wettbewerbern beinhalten.",
         canonical: "https://www.seoberlino.com/de/offpage",
@@ -911,7 +911,7 @@ app.get("/en/offpage/toxic", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("links", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is a backlink? | seoberlino",
         description: "Many think the more links, the better but it doesn't actually work that way. Too many low quality and/or spammy links will damage your SEO.",
         canonical: "https://www.seoberlino.com/en/offpage",
@@ -923,7 +923,7 @@ app.get("/de/offpage/toxic", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("links", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainDENoIndex",
         title: "Was sind backlinks? | seoberlino",
         description: "Viele denken, es gehe immer um eine möglichst große Anzahl von Links, dem ist allerdings nicht so.",
         canonical: "https://www.seoberlino.com/de/offpage",
@@ -1200,7 +1200,7 @@ app.get("/en/lexical/nofollow", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("nofollow", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Nofollow Links and SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how NoFollow links work and how they affect your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1224,7 +1224,7 @@ app.get("/en/lexical/rankbrain", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("rankbrain", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is Google's Rankbrain | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how Rankbrain works and how it affects your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1248,7 +1248,7 @@ app.get("/en/lexical/alt-attribute", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("altattribute", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Alt Attribute for SEO Images | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how alt attributs work and how it affects your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1272,7 +1272,7 @@ app.get("/en/lexical/amp-pages", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("amppages", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Accelerated Mobile Pages and SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how AMP Papes work and how it affects your SEO",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1296,7 +1296,7 @@ app.get("/en/lexical/canonical", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("canonical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Canonicals for SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how canonicals work and how it affects your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1320,7 +1320,7 @@ app.get("/en/lexical/google-keyword-tool", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("googlekwtool", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Google Keyword Planner for SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how the Google Keyword Tool works and how it affects your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1356,7 +1356,7 @@ app.get("/en/lexical/google-pagespeed", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("googlepagespeed", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "Google PageSpeed for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Google PageSpeed for SEO is a very important tool. Learn here how to use it.",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1368,7 +1368,7 @@ app.get("/en/lexical/hreflang", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("hreflang", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "hreflang for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how hreflang work and how they can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1392,7 +1392,7 @@ app.get("/en/lexical/long-tail", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("longtail", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is Long Tail | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand what is long-tail and how it can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1416,7 +1416,7 @@ app.get("/en/lexical/robots", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("robots", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is the Robots.txt file | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how Robots.txt works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1440,7 +1440,7 @@ app.get("/en/lexical/search-console", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("searchconsole", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is Google's Search Console | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how to use Google's Search Console and how it can help you to improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1464,7 +1464,7 @@ app.get("/en/lexical/search-volume", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("searchvolume", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is Search Volume and how to use it for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand Search Volume and how to use it to improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1488,7 +1488,7 @@ app.get("/en/lexical/sitemaps", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("sitemaps", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What are Sitemaps | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how Sitemaps work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1512,7 +1512,7 @@ app.get("/en/lexical/noindex", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("noindex", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is noindex and SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon. Understand how noindex works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1536,7 +1536,7 @@ app.get("/en/lexical/redirects", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("redirects", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is a redirect and how to use it for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how redirects work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1560,7 +1560,7 @@ app.get("/en/lexical/lighthouse", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("lighthouse", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is a Lighthouse and how to use it for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how Lighthouse work and how it can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1584,7 +1584,7 @@ app.get("/en/lexical/remove-url-tool", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("removeurltool", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is the Remove url Tool? | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how the Remove url Tool works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
@@ -1608,7 +1608,7 @@ app.get("/en/lexical/disavow-tool", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("disavowtool", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainENNoIndex",
         title: "What is the Disavow Tool and how to use it | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how the Disavow Tool works and how it can improve your SEO",
         canonical: "https://www.seoberlino.com/en/lexical",
