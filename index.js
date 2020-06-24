@@ -1190,7 +1190,7 @@ app.get("/de/lexical", (req, res) => {
         layout: "mainDENoIndex",
         title: "SEO Lexicon und SEO Jargon | seoberlino",
         description: "SEO Lexicon für SEO. Find out about SEO and all those words which can scare you.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical"
     });
 });
@@ -1203,7 +1203,7 @@ app.get("/en/lexical/nofollow", (req, res) => {
         layout: "main",
         title: "Nofollow Links and SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how NoFollow links work and how they affect your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/nofollow"
     });
 });
@@ -1215,7 +1215,7 @@ app.get("/de/lexical/nofollow", (req, res) => {
         layout: "mainDENoIndex",
         title: "Nofollow Links wie es funktioniert | seoberlino",
         description: "SEO Lexicon für SEO. SEO Lexical about SEO Jargon. Understand NoFollow Links and how they affect your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/nofollow"
     });
 });
@@ -1227,7 +1227,7 @@ app.get("/en/lexical/rankbrain", (req, res) => {
         layout: "main",
         title: "What is Google's Rankbrain | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how Rankbrain works and how it affects your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/rankbrain"
     });
 });
@@ -1239,7 +1239,7 @@ app.get("/de/lexical/rankbrain", (req, res) => {
         layout: "mainDENoIndex",
         title: "Was beudeutet Rankbrain | seoberlino",
         description: "SEO Lexicon für SEO. Was beudeutet Rankbrain und warum ist das für SEO wichtig?",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/rankbrain"
     });
 });
@@ -1251,7 +1251,7 @@ app.get("/en/lexical/alt-attribute", (req, res) => {
         layout: "main",
         title: "Alt Attribute for SEO Images | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how alt attributs work and how it affects your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/alt-attribute"
     });
 });
@@ -1263,7 +1263,7 @@ app.get("/de/lexical/alt-attribute", (req, res) => {
         layout: "mainDENoIndex",
         title: "Alt Attribute für SEO Bildoptimierung | seoberlino",
         description: "SEO Lexicon für SEO. Alt Attribute für Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/alt-attribute"
     });
 });
@@ -1287,7 +1287,7 @@ app.get("/de/lexical/amp-pages", (req, res) => {
         layout: "mainDENoIndex",
         title: "AMP (Accelerated Mobile Pages) für SEO | seoberlino",
         description: "SEO Lexicon für SEO. AMP (Accelerated Mobile Pages) für Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/amp-pages"
     });
 });
@@ -1299,7 +1299,7 @@ app.get("/en/lexical/canonical", (req, res) => {
         layout: "main",
         title: "Canonicals for SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how canonicals work and how it affects your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/canonical"
     });
 });
@@ -1311,7 +1311,7 @@ app.get("/de/lexical/canonical", (req, res) => {
         layout: "mainDENoIndex",
         title: "Canonicals für SEO | seoberlino",
         description: "SEO Lexicon für SEO. Canonicals für Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/canonical"
     });
 });
@@ -1323,7 +1323,7 @@ app.get("/en/lexical/google-keyword-tool", (req, res) => {
         layout: "main",
         title: "Google Keyword Planner for SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon for you to understand how the Google Keyword Tool works and how it affects your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/google-keyword-tool"
     });
 });
@@ -1335,7 +1335,7 @@ app.get("/de/lexical/google-keyword-tool", (req, res) => {
         layout: "mainDENoIndex",
         title: "Google Keyword Planner für SEO | seoberlino",
         description: "SEO Lexicon für SEO. Google Keyword Planner für Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/google-keyword-tool"
     });
 });
@@ -1347,7 +1347,7 @@ app.get("/de/lexical/google-pagespeed", (req, res) => {
         layout: "mainDENoIndex",
         title: "Google PageSpeed für Suchmaschinenoptimierung | seoberlino",
         description: "Google PageSpeed für Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/google-pagespeed"
     });
 });
@@ -1359,7 +1359,7 @@ app.get("/en/lexical/google-pagespeed", (req, res) => {
         layout: "main",
         title: "Google PageSpeed for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Google PageSpeed for SEO is a very important tool. Learn here how to use it.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/google-pagespeed"
     });
 });
@@ -1371,7 +1371,7 @@ app.get("/en/lexical/hreflang", (req, res) => {
         layout: "main",
         title: "hreflang for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how hreflang work and how they can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/hreflang"
     });
 });
@@ -1383,7 +1383,7 @@ app.get("/de/lexical/hreflang", (req, res) => {
         layout: "mainDENoIndex",
         title: "hreflang für SEO | seoberlino",
         description: "hreflang für Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/hreflang"
     });
 });
@@ -1395,7 +1395,7 @@ app.get("/en/lexical/long-tail", (req, res) => {
         layout: "main",
         title: "What is Long Tail | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand what is long-tail and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/long-tail"
     });
 });
@@ -1407,7 +1407,7 @@ app.get("/de/lexical/long-tail", (req, res) => {
         layout: "mainDENoIndex",
         title: "Was bedeutet Long Tail für SEO | seoberlino",
         description: "SEO Lexicon für SEO. Long tail und Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/long-tail"
     });
 });
@@ -1419,7 +1419,7 @@ app.get("/en/lexical/robots", (req, res) => {
         layout: "main",
         title: "What is the Robots.txt file | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how Robots.txt works and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/robots"
     });
 });
@@ -1431,7 +1431,7 @@ app.get("/de/lexical/robots", (req, res) => {
         layout: "mainDENoIndex",
         title: "Was bedeutet Robots.txt für SEO | seoberlino",
         description: "SEO Lexicon für SEO. Robots.txt und Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/robots"
     });
 });
@@ -1443,7 +1443,7 @@ app.get("/en/lexical/search-console", (req, res) => {
         layout: "main",
         title: "What is Google's Search Console | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how to use Google's Search Console and how it can help you to improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/search-console"
     });
 });
@@ -1455,7 +1455,7 @@ app.get("/de/lexical/search-console", (req, res) => {
         layout: "mainDENoIndex",
         title: "Wie funktioniert Search Console für SEO | seoberlino",
         description: "SEO Lexicon über SEO Jargon. Google's Search Console und Suchmaschinenoptimierung",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/search-console"
     });
 });
@@ -1467,7 +1467,7 @@ app.get("/en/lexical/search-volume", (req, res) => {
         layout: "main",
         title: "What is Search Volume and how to use it for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand Search Volume and how to use it to improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/search-volume"
     });
 });
@@ -1479,7 +1479,7 @@ app.get("/de/lexical/search-volume", (req, res) => {
         layout: "mainDENoIndex",
         title: "Was bedeutet Search Volume für SEO | seoberlino",
         description: "SEO Lexicon über SEO Jargon. Understand Search Volume and how to use it to improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/search-volume"
     });
 });
@@ -1491,7 +1491,7 @@ app.get("/en/lexical/sitemaps", (req, res) => {
         layout: "main",
         title: "What are Sitemaps | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how Sitemaps work and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/sitemaps"
     });
 });
@@ -1503,7 +1503,7 @@ app.get("/de/lexical/sitemaps", (req, res) => {
         layout: "mainDENoIndex",
         title: "Wie funktionieren Sitemaps für SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how Sitemaps work and how they can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/sitemaps"
     });
 });
@@ -1515,7 +1515,7 @@ app.get("/en/lexical/noindex", (req, res) => {
         layout: "main",
         title: "What is noindex and SEO | seoberlino",
         description: "SEO Lexicon about SEO Jargon. Understand how noindex works and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/noindex"
     });
 });
@@ -1527,7 +1527,7 @@ app.get("/de/lexical/noindex", (req, res) => {
         layout: "mainDENoIndex",
         title: "Wie funktionieren noindex für SEO | seoberlino",
         description: "SEO Lexicon über SEO Jargon. Verstehen Sie, wie noindex funktioniert und wie es Ihre SEO verbessern kann.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/noindex"
     });
 });
@@ -1539,7 +1539,7 @@ app.get("/en/lexical/redirects", (req, res) => {
         layout: "main",
         title: "What is a redirect and how to use it for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how redirects work and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/redirects"
     });
 });
@@ -1551,7 +1551,7 @@ app.get("/de/lexical/redirects", (req, res) => {
         layout: "mainDENoIndex",
         title: "Wie funktionieren redirects für SEO | seoberlino",
         description: "SEO Lexikalisch über SEO Jargon. Verstehen Sie, wie Redirects funktionieren und wie sie Ihre SEO verbessern können.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/redirects"
     });
 });
@@ -1563,7 +1563,7 @@ app.get("/en/lexical/lighthouse", (req, res) => {
         layout: "main",
         title: "What is a Lighthouse and how to use it for SEO | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how Lighthouse work and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/lighthouse"
     });
 });
@@ -1575,7 +1575,7 @@ app.get("/de/lexical/lighthouse", (req, res) => {
         layout: "mainDENoIndex",
         title: "Wie funktioniert Lighthouse für SEO | seoberlino",
         description: "SEO Lexicon über SEO Jargon. SEO Lexical about SEO Jargon. Understand how Lighthouse work and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/lighthouse"
     });
 });
@@ -1587,7 +1587,7 @@ app.get("/en/lexical/remove-url-tool", (req, res) => {
         layout: "main",
         title: "What is the Remove url Tool? | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how the Remove url Tool works and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/remove-url-tool"
     });
 });
@@ -1599,7 +1599,7 @@ app.get("/de/lexical/remove-url-tool", (req, res) => {
         layout: "mainDENoIndex",
         title: "Wie funktioniert Remove URL Tool| seoberlino",
         description: "SEO Lexicon über SEO Jargon. Understand how the Remove url Tool work and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/remove-url-tool"
     });
 });
@@ -1611,7 +1611,7 @@ app.get("/en/lexical/disavow-tool", (req, res) => {
         layout: "main",
         title: "What is the Disavow Tool and how to use it | seoberlino",
         description: "SEO Lexical about SEO Jargon. Understand how the Disavow Tool works and how it can improve your SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/lexical",
         alt: "https://www.seoberlino.com/de/lexical/disavow-tool"
     });
 });
@@ -1623,7 +1623,7 @@ app.get("/de/lexical/disavow-tool", (req, res) => {
         layout: "mainDENoIndex",
         title: "Disavow Tool und wie es funktioniert| seoberlino",
         description: "SEO Lexicon über SEO Jargon. Disavow Tool und Suchmaschinenoptimierung.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/de/lexical",
         alt: "https://www.seoberlino.com/en/lexical/disavow-tool"
     });
 });
