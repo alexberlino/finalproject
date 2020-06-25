@@ -149,7 +149,7 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Freelancer in Berlin: SEO Audits & Consulting | seoberlino",
+        title: "SEO Consultant in Berlin: SEO Audits & Consulting | seoberlino",
         layout: "main",
         description: "SEO Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-freelancer",
