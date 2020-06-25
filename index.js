@@ -77,8 +77,6 @@ if (process.env.NODE_ENV === "production") {
     });
 }
 
-
-
 var compression = require("compression");
 app.use(compression());
 
@@ -102,9 +100,6 @@ const cookieSessionMiddleware = cookieSession({
 
 app.use(cookieSessionMiddleware);
 
-
-// const spicedPg = require("spiced-pg");
-
 app.set("view engine", "handlebars");
 
 app.engine("handlebars", hb());
@@ -113,7 +108,6 @@ app.use(
         extended: false
     })
 );
-
 
 app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
@@ -163,10 +157,6 @@ app.get("/en/seo-freelancer", (req, res) => {
     });
 });
 
-
-
-
-
 app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog", {
@@ -190,7 +180,6 @@ app.get("/de/blog", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog"
     });
 });
-
 
 app.get("/en/seo", (req, res) => {
     i18n.setLocale(req, "en");
@@ -338,8 +327,6 @@ app.get("/en/casestudy/hellofresh", (req, res) => {
     });
 });
 
-
-
 app.get("/en/casestudy/hometogo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhometogo", {
@@ -351,9 +338,6 @@ app.get("/en/casestudy/hometogo", (req, res) => {
         alt: "https://www.seoberlino.com/en/casestudy/hometogo"
     });
 });
-
-//////ONPAGE PAGES
-
 
 app.get("/en/onpage", (req, res) => {
     i18n.setLocale(req, "en");
@@ -378,8 +362,6 @@ app.get("/de/onpage", (req, res) => {
         alt: "https://www.seoberlino.com/en/onpage"
     });
 });
-
-
 
 app.get("/en/research/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
@@ -429,9 +411,6 @@ app.get("/de/forschung/local-seo-de", (req, res) => {
     });
 });
 
-
-
-
 app.get("/en/technical", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("technical", {
@@ -479,9 +458,6 @@ app.get("/de/offpage", (req, res) => {
         alt: "https://www.seoberlino.com/en/offpage"
     });
 });
-
-
-
 
 app.get("/en/impressum", (req, res) => {
     i18n.setLocale(req, "en");
@@ -639,7 +615,6 @@ app.get("/de/agile-coach-berlin", (req, res) => {
     });
 });
 
-
 app.get("/de/contact", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("contact", {
@@ -700,6 +675,18 @@ app.get("/de/lexical", (req, res) => {
         description: "SEO Lexikon für SEO: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/lexical"
+    });
+});
+
+app.get("/sitemap.xml", (req, res) => {
+    res.render("sitemap");
+});
+
+app.get("/setcookiesession", (req, res) => {
+    req.session.checked = true;
+
+    res.json({
+        success: true
     });
 });
 
@@ -808,18 +795,6 @@ app.get("/en/article/how-to-get-those-first-links", (req, res) => {
     });
 });
 
-app.get("/sitemap.xml", (req, res) => {
-    res.render("sitemap");
-});
-
-app.get("/setcookiesession", (req, res) => {
-    req.session.checked = true;
-
-    res.json({
-        success: true
-    });
-});
-
 app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(request, response) {
     response.writeHead(301, {
         Location: "/en/article/seo-in-asia-korea-china-japan-2020",
@@ -827,6 +802,7 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(request, resp
     });
     response.end();
 });
+//////////////// Redirects////////////////
 
 app.get("/en/lexical/*", function(request, response) {
     response.writeHead(301, {
@@ -836,7 +812,6 @@ app.get("/en/lexical/*", function(request, response) {
     response.end();
 });
 
-
 app.get("/de/lexical/*", function(request, response) {
     response.writeHead(301, {
         Location: "/de/lexical",
@@ -844,7 +819,6 @@ app.get("/de/lexical/*", function(request, response) {
     });
     response.end();
 });
-
 
 app.get("/", function(request, response) {
     response.writeHead(301, {
@@ -909,7 +883,6 @@ app.get("/en/onpage/*", function(request, response) {
     response.end();
 });
 
-
 app.get("/de/offpage/*", function(request, response) {
     response.writeHead(301, {
         Location: "/de/offpage",
@@ -925,8 +898,6 @@ app.get("/en/offpage/*", function(request, response) {
     });
     response.end();
 });
-
-
 
 app.get("/de/technical/*", function(request, response) {
     response.writeHead(301, {
@@ -944,8 +915,6 @@ app.get("/en/technical/*", function(request, response) {
     response.end();
 });
 
-
-
 app.get("/en/seo-consultancy", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-freelancer",
@@ -961,25 +930,12 @@ app.get("/de/seo-beratung", function(request, response) {
     });
     response.end();
 });
-
-
+//////////////// Redirects////////////////
 
 var nodemailer = require('nodemailer');
 
 app.post('/email', function(req, res) {
 
-
-    // var recaptcha_url = "https://www.google.com/recaptcha/api/siteverify?";
-    // recaptcha_url += "secret=" + secrets.KEY + "&";
-    // recaptcha_url += "response=" + req.body["g-recaptcha-response"] + "&";
-    // recaptcha_url += "remoteip=" + req.connection.remoteAddress;
-    // axios.get(recaptcha_url, function(error, resp, body) {
-    //     body = JSON.parse(body);
-    //     if (body.success !== undefined && !body.success) {
-    //         return response.send({
-    //             "message": "Captcha validation failed"
-    //         });
-    //     }
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
                     <h3> Contact Details </h3>
@@ -990,7 +946,6 @@ app.post('/email', function(req, res) {
                     <h3>Message</h3>
                     <p>${req.body.message}</p>
                     `;
-
         let transporter = nodemailer.createTransport({
             host: 'smtp.mailgun.org',
             port: 465,
@@ -1000,8 +955,6 @@ app.post('/email', function(req, res) {
                 pass: secrets.EMAIL_PASS
             }
         });
-
-
         let mailOptions = {
             from: secrets.EMAIL_USER,
             to: secrets.MAIL_TO,
@@ -1023,23 +976,9 @@ app.post('/email', function(req, res) {
                 });
                 res.end();
             }
-
         }); //transporter
     });
-    // });
-
-
-
-
-
 });
-
-
-
-
-
-
-
 
 app.all("*", function(req, res) {
     res.writeHead(404);
@@ -1047,5 +986,3 @@ app.all("*", function(req, res) {
 });
 // listening
 app.listen(process.env.PORT || 8080, () => console.log("listening"));
-
-////////////////DO NOT TOUCH/////////////////////////
