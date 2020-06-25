@@ -691,7 +691,7 @@ app.get("/setcookiesession", (req, res) => {
 });
 
 ////blog pages/////////
-app.get("/en/blog/article/linkbuilding-in-2020", (req, res) => {
+app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog1", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -704,7 +704,7 @@ app.get("/en/blog/article/linkbuilding-in-2020", (req, res) => {
 
 app.get("/en/article/linkbuilding-in-2020", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/linkbuilding-in-2020",
+        Location: "/en/blog/linkbuilding-in-2020",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -712,7 +712,7 @@ app.get("/en/article/linkbuilding-in-2020", function(request, response) {
 
 
 
-app.get("/en/blog/article/voicesearch", (req, res) => {
+app.get("/en/blog/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogvoice", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -726,13 +726,13 @@ app.get("/en/blog/article/voicesearch", (req, res) => {
 
 app.get("/en/article/voicesearch", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/voicesearch",
+        Location: "/en/blog/voicesearch",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/article/clutch", (req, res) => {
+app.get("/en/blog/clutch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogclutch", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -745,13 +745,13 @@ app.get("/en/blog/article/clutch", (req, res) => {
 
 app.get("/en/article/clutch", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/clutch",
+        Location: "/en/blog/clutch",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/article/seo-in-asia-korea-china-japan-2020", (req, res) => {
+app.get("/en/blog/seo-in-asia-korea-china-japan-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogasia", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -764,13 +764,13 @@ app.get("/en/blog/article/seo-in-asia-korea-china-japan-2020", (req, res) => {
 
 app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/seo-in-asia-korea-china-japan-2020",
+        Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/article/beyond-mobile-first", (req, res) => {
+app.get("/en/blog/beyond-mobile-first", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog2", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -784,13 +784,13 @@ app.get("/en/blog/article/beyond-mobile-first", (req, res) => {
 
 app.get("/en/article/beyond-mobile-first", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/beyond-mobile-first",
+        Location: "/en/blog/beyond-mobile-first",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/article/voice-search-challenges", (req, res) => {
+app.get("/en/blog/voice-search-challenges", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog5", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -805,13 +805,13 @@ app.get("/en/blog/article/voice-search-challenges", (req, res) => {
 
 app.get("/en/article/voice-search-challenges", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/voice-search-challenges",
+        Location: "/en/blog/voice-search-challenges",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/article/why-you-need-implement-structured-data", (req, res) => {
+app.get("/en/blog/why-you-need-implement-structured-data", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog6", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -825,13 +825,13 @@ app.get("/en/blog/article/why-you-need-implement-structured-data", (req, res) =>
 
 app.get("/en/article/why-you-need-implement-structured-data", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/why-you-need-implement-structured-data",
+        Location: "/en/blog/why-you-need-implement-structured-data",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/article/link-building-to-brandbuilding", (req, res) => {
+app.get("/en/blog/link-building-to-brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog7", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -845,13 +845,13 @@ app.get("/en/blog/article/link-building-to-brandbuilding", (req, res) => {
 
 app.get("/en/article/link-building-to-brandbuilding", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/link-building-to-brandbuilding",
+        Location: "/en/blog/link-building-to-brandbuilding",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/article/how-to-get-those-first-links", (req, res) => {
+app.get("/en/blog/how-to-get-those-first-links", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog8", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -865,7 +865,7 @@ app.get("/en/blog/article/how-to-get-those-first-links", (req, res) => {
 
 app.get("/en/article/how-to-get-those-first-links", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/how-to-get-those-first-links",
+        Location: "/en/blog/how-to-get-those-first-links",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -873,7 +873,7 @@ app.get("/en/article/how-to-get-those-first-links", function(request, response) 
 
 app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/article/seo-in-asia-korea-china-japan-2020",
+        Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
         Expires: new Date().toGMTString()
     });
     response.end();
