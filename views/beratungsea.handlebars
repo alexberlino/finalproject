@@ -1,28 +1,68 @@
-<div class="content sea audit-en">
+<div class="content consultancy-en">
+    <!-- Intro Services Block-->
+    <section class="services-hero hero is-large-intro">
 
-    <!-- Intro Audit Block-->
-    <section class="audit-hero hero is-large-intro">
+
         <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <h1 class="title is-2 is-heavy boost-margin has-text-centered">Google Ads / Facebook Ads Consultant</h1>
+            <div class="container reduced has-text-centered">
+                <h1 class="title is-2 is-heavy boost-margin">Google, Instagram & Facebook Ads {{{__ "consultant"}}}</h1>
 
-                <div class="columns is-centered has-text-centered">
-                    <div class="column is-10">
-                        <h3 class="subtitle is-4">
-                            {{{__ "seaMP1"}}}{{{__ "seaMP11"}}}
-                        </h3>
+
+                <div class="columns is-centered">
+                    <div class="column is-6">
+                        <div class="contact-details">
+                            <div class="profile-photo"></div>
+                            <div class="details">
+                                <h3 class="subtitle is-5 reduced-margin">Alex Bieth, MBA</h3> <br>
+
+                                <h3 class="subtitle is-5 reduced-margin">T - <a itemprop="telephone" href="tel: +49 015787011932">015787011932</a><br>
+                                    <h3 class="subtitle is-5 reduced-top-margin">E - <a href="mailto:alex@seoberlino.com">alex@seoberlino.com</a>
+                            </div>
+
+
+
+
+                        </div>
+                        <br><br><br>
+                        <a class="button is-primed is-outlined is-black is-medium" href="/{{{__ "lang"}}}/contact">
+                            {{{__ "Experience"}}} </a>
                     </div>
-                    <br><br>
+
+                    <div class="column is-5-desktop is-offset-1">
+                        <div class="skill-card-1">
+                            <h3 class="title is-3 is-heavy reduced-margin">{{{__ "contactskills"}}}</h2>
+                                <p> SEO, Analytics, {{{__ "intro5"}}}, Scrum Certified, Search Engine Advertising (Google Ads).<br> Languages: Deutsch, English, Français, Castellano</p>
+                        </div>
+
+                        <div class="skill-card-2">
+                            <h3 class="title is-3 is-heavy reduced-margin">Programming</h2>
+                                <p>
+                                    React, Vue, Handlebars,
+                                    Javascript, JQuery, Node, Express, HTML, CSS, SQL, Postgres
+
+                                </p>
+                        </div>
+
+                    </div>
                 </div>
 
+                <br><br><br>
+                <div class="columns is-centered">
+                    {{{__ "seaMP1"}}}{{{__ "seaMP11"}}}
+
+
+                </div>
             </div>
-
-
-        </div>
-
     </section>
-
-
+    <!-- Recent Clients Block-->
+    <section class="clients-hero red-gradient hero is-medium">
+        <div class="hero-body remove-padding">
+            <div class="container reduced has-text-centered">
+                <h2 class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
+                {{>clients}}
+            </div>
+        </div>
+    </section>
 
 
 
@@ -71,6 +111,21 @@
                 </a>
 
             </div>
+        </div>
+    </section>
+
+    <section class="testimonials-hero off-white hero is-medium">
+        <div class="hero-body remove-padding">
+            <div class="container reduced has-text-centered">
+                <h2 class="title is-3 is-heavy boost-margin">{{{__ "testimonialsTitle"}}}</h2>
+                <div class="columns is-multiline has-text-left">
+                    {{>testimonials}}
+                </div>
+            </div>
+
+
+
+
         </div>
     </section>
     <section class="about-hero red-gradient hero is-medium">
