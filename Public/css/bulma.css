@@ -8866,7 +8866,9 @@ body.has-navbar-fixed-bottom, html.has-navbar-fixed-bottom {
 }
 
 .sidebar, .sidebar ul, .sidebar li {
-    padding-left: 0.7rem;
+    padding-left: 0.2rem;
+    max-width: 100% !important;
+    left: 10px !important
 }
 
 .hero.is-danger {
@@ -9300,7 +9302,7 @@ body.frozen {
 }
 
 .sidebar {
-    padding-left: 5rem;
+    padding-left: 4rem;
 }
 
 .sidebar ul {
@@ -9308,7 +9310,7 @@ body.frozen {
     list-style: none;
     position: sticky;
     top: 11%;
-    min-width: 140%;
+    min-width: 100%;
 }
 
 .sidebar ul li {
@@ -10760,6 +10762,7 @@ xmp {
 
     .sidebar ul {
         position: relative;
+        max-width: 100% !important
     }
 
     .navbar .navbar-brand img {
