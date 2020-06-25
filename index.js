@@ -641,6 +641,22 @@ app.get("/en/article/linkbuilding-in-2020", function(request, response) {
     response.end();
 });
 
+app.get("/en/seo-consultant", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-freelancer",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-consultant", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-freelancer",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 
 
 app.get("/en/blog/voicesearch", (req, res) => {
