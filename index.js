@@ -116,7 +116,7 @@ app.get("/de", (req, res) => {
         layout: "mainDEHP",
         title: "SEO Marketing Freelancer • Agile • Beratung | seoberlino",
         canonical: "https://www.seoberlino.com/de",
-        description: "SEO Experte Freelancer und Agile Coach. 10 Jahre Erfahrung. Kunden: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
+        description: "SEO Experte Freelancer und Agile Coach. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
     });
 });
@@ -138,7 +138,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Consultant - SEO Audits | seoberlino",
+        title: "SEO Freelancer Berlin - SEO Audits | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
