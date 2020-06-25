@@ -9308,7 +9308,7 @@ body.frozen {
     list-style: none;
     position: sticky;
     top: 11%;
-    overflow: scroll;
+    min-width: 140%;
 }
 
 .sidebar ul li {
