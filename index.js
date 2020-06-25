@@ -138,7 +138,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Freelancer - SEO Audits & Consulting | seoberlino",
+        title: "SEO Consultant - SEO Audits | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
@@ -495,29 +495,7 @@ app.get("/de/datenschutz", (req, res) => {
     });
 });
 
-app.get("/de/seo-consultant", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("audit", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "SEO Consultant für SEO Audits| seoberlino",
-        description: "Lassen Sie Ihre Website mit Full SEO Audit auditieren, das mit einer To-Do-Liste (Backlog) mit nach Priorität klassifizierten Problemen geliefert wird.",
-        canonical: "https://www.seoberlino.com/de/seo-consultant",
-        alt: "https://www.seoberlino.com/en/seo-consultant"
-    });
-});
 
-app.get("/en/seo-consultant", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("audit", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
-        description: "Get your site audited with Full SEO Audit that comes with a To-do list (Backlog) with issues classified by priority.",
-        title: "SEO Consultant for SEO Audits in Berlin | seoberlino",
-        canonical: "https://www.seoberlino.com/en/seo-consultant",
-        alt: "https://www.seoberlino.com/de/seo-consultant"
-    });
-});
 
 app.get("/de/sea", (req, res) => {
     i18n.setLocale(req, "de");
@@ -907,14 +885,14 @@ app.get("/", function(request, response) {
 
 app.get("/de/audit", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/seo-consultant",
+        Location: "/de/seo-freelancer",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 app.get("/en/audit", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/seo-consultant",
+        Location: "/en/seo-freelancer",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -951,6 +929,27 @@ app.get("/de/onpage/*", function(request, response) {
     });
     response.end();
 });
+
+
+app.get("/de/consultant", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-freelancer",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/consultant", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-freelancer",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
 
 app.get("/en/onpage/*", function(request, response) {
     response.writeHead(301, {
