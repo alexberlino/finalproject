@@ -489,11 +489,11 @@
     "auditintro-new": "The SEO Audit follows the following format - although it can be adapted depending on the client's requirements and priorities: Executive Summary, Keyword Research, Competitor Analysis, On-page & Technical SEO, Backlink Profile Analysis. We also include a backlog (online Google sheet format) which takes all the items of Audit and classifies them by priority, with a short description, a column for the status which will change as the fixes is implemented and a comment section for communication.",
     "noindexMP": "If you identify pages that are not to be indexed, you should use `noindex`",
     "for": "for",
-    "seoexpert": "SEO Freelancer",
+    "seoexpert": "SEO Consultant",
     "Availability": "Availability",
     "availText": "Fully Booked till August 2020",
     "since": "since",
-    "": "",
+    "freelancer": "Consultant",
     "boost31": "",
     "boost3": "",
     "experience": "experience"
