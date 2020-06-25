@@ -439,7 +439,7 @@ app.get("/en/technical", (req, res) => {
         layout: "main",
         title: "What is Technical SEO | SEO Berlin | seoberlino",
         description: "Technical SEO by a SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.comn/en/technical",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technical"
     });
 });
@@ -695,10 +695,10 @@ app.get("/de/lexical", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDENoIndex",
+        layout: "mainDEHP",
         title: "SEO Lexikon und SEO Jargon | seoberlino",
         description: "SEO Lexikon für SEO: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
-        canonical: "https://www.seoberlino.com/de/lexical",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/lexical"
     });
 });
