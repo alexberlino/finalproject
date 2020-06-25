@@ -142,7 +142,7 @@ app.get("/en", (req, res) => {
 app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratung", {
-        requrl: "https://www.seoberlino.com/de/seo-freelancer",
+        requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
         title: "SEO Freelancer - SEO Audits & Consulting | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
