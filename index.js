@@ -1091,10 +1091,10 @@ app.get("/en/scrum/pillars", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumpillars", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "mainENNoIndex",
         title: "Scrum's 3 Pillars | seoberlino",
         description: "Scrum 3 Pillars: Transparency, Inspection and Adaptation. Learn about Scrum and how to Implement Scrum it for your SEO Projects.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com/en/agile-coach-berlin"
     });
 });
 
@@ -1102,10 +1102,10 @@ app.get("/en/scrum/team", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumteam", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "mainENNoIndex",
         title: "About Scrum: Scrum Teams | seoberlino",
         description: "Learn about Scrum and how the Scrum Team is organised and its members: Product Owner, ScrumMaster and Dev Team.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/agile-coach-berlin"
     });
 });
 
@@ -1113,10 +1113,10 @@ app.get("/en/scrum/events", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumevents", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "mainENNoIndex",
         title: "About Scrum: Scrum Events | seoberlino",
         description: "Learn about Scrum and the Scrum Events: the Sprint, Sprint Planning, Daily Scrum, Sprint review and Backlog Refinement.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/agile-coach-berlin"
     });
 });
 
@@ -1125,10 +1125,10 @@ app.get("/en/scrum/artifacts", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("scrumartifacts", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "mainENNoIndex",
         title: "About Scrum: Scrum Artifacts | seoberlino",
         description: "Learn about Scrum and the Scrum Artifacts: the Product Backlog, The Sprint Backlog and the defintion of Done.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com/en/agile-coach-berlin"
     });
 });
 
