@@ -521,53 +521,6 @@ app.get("/en/sea", (req, res) => {
     });
 });
 
-app.get("/de/analytics", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("beratunganalytics", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "SEO Webanalyse Experte Berlin | seoberlino",
-        description: "SEO Analytics Services in Berlin, SEO Expert mit über 10 Jahren Erfahrung mit Unternehmen wie Montblanc, Spreadshirt und Ricoh.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/analytics"
-    });
-});
-
-app.get("/en/analytics", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("beratunganalytics", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "SEO Analytics Expert Berlin | seoberlino",
-        description: "SEO Analytics services in Berlin, SEO Expert with over 10 years experience with companies such as Montblanc, Spreadshirt and Ricoh.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/analytics"
-    });
-});
-
-app.get("/de/content", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("beratungcontent", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "Content Growth Hacking SEO Experte Berlin | seoberlino",
-        description: "Steigern Sie den Traffic durch gezielte Inhaltserstellung. SEO Growth Hacking durch Ihren SEO-Berater in Berlin, über 10 Jahre Erfahrung.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/content"
-    });
-});
-
-app.get("/en/content", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("beratungcontent", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "Content Growth Hacking Consultant Berlin | seoberlino",
-        description: "Boost traffic with targeted Content Creation. SEO Growth Hacking by your SEO Consultant in Berlin, over 10 years experience.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/content"
-    });
-});
 
 app.get("/en/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "en");
