@@ -846,7 +846,7 @@ app.get("/de/lexical/*", function(request, response) {
 
 app.get("/", function(request, response) {
     response.writeHead(301, {
-        Location: "/de",
+        Location: "/de/seo-freelancer",
         Expires: new Date().toGMTString()
     });
     response.end();
