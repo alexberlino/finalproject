@@ -210,7 +210,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "Profile and Contact - SEO Expert in Berlin | seoberlino",
+        title: "SEO Expert & Agile Coach in Berlin • Profile • Experience | seoberlino",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
@@ -527,8 +527,8 @@ app.get("/en/agile-coach-berlin", (req, res) => {
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Agile Coach / ScrumMaster in Berlin | seoberlino",
-        description: "Implement Scrum for your Projects. 10 Year-Experienced SEO Expert, certified ScrumMaster and experienced as Product owner.",
+        title: "Agile Coach / Scrum Master in Berlin | seoberlino",
+        description: "Implement Scrum for your Projects. 10 Year-Experienced SEO Expert, certified Scrum Master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/agile-coach-berlin"
     });
@@ -539,7 +539,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Agile Coach / ScrumMaster in Berlin | seoberlino",
+        title: "Agile Coach / Scrum Master in Berlin | seoberlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener SEO-Experte, zertifizierter Scrum-Master und erfahren als Product Owner.",
         canonical: "https://www.seoberlino.com/de/agile-coach-berlin",
         alt: "https://www.seoberlino.com/en/agile-coach-berlin"
@@ -551,7 +551,7 @@ app.get("/de/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Experte in Berlin | seoberlino ",
+        title: "SEO Experte & Agile Coach in Berlin | seoberlino ",
         description: "SEO Consultant Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
         alt: "https://www.seoberlino.com/en/contact"

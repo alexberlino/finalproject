@@ -113,12 +113,12 @@ table {
 // Clients
 .clients-hero {
   .logo-container {
-    .client-logo {height: 95px; padding: 0.5rem;}
+    .client-logo {height: 95px !important; padding: 0.5rem;}
     .dbs-music {position: relative; left:-20px;}
     .spiced {position: relative; left:-20px;}
     a {
-      .client-logo {
-        height: 95px;
+      .client-logo  {
+        height: 95px !important;
         padding: 0.5rem;
         &:hover {
           opacity: 0.7;
