@@ -149,7 +149,7 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Consultant in Berlin: SEO Audits & Consulting | seoberlino",
+        title: "SEO Consultant in Berlin • Audits & Consulting | seoberlino",
         layout: "main",
         description: "SEO Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-freelancer",
@@ -210,7 +210,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Expert & Agile Coach in Berlin • Profile • Experience | seoberlino",
+        title: "SEO Expert & Agile Coach in Berlin • Profile | seoberlino",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
@@ -641,6 +641,22 @@ app.get("/en/article/linkbuilding-in-2020", function(request, response) {
     response.end();
 });
 
+app.get("/en/analytics", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-freelancer#analytics",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/analytics", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-freelancer#analytics",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 app.get("/en/seo-consultant", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-freelancer",
@@ -684,7 +700,7 @@ app.get("/en/blog/clutch", (req, res) => {
     res.render("blogclutch", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEOBerlino Top SEO Services Company in Germany | seoberlino",
+        title: "Top SEO Services Company in Germany | seoberlino",
         description: "Clutch has selected seoberlino as one of the top SEO companies in Germany for 2019. Read the Press Release from Clutch.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
