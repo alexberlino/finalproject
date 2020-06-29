@@ -151,7 +151,7 @@ app.get("/en/seo-freelancer", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         title: "SEO Consultant in Berlin • Audits & Consulting | seoberlino",
         layout: "main",
-        description: "SEO Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        description: "SEO Consultant Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-freelancer",
         alt: "https://www.seoberlino.com/de/seo-freelancer"
     });
@@ -526,11 +526,10 @@ app.get("/en/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
+        layout: "mainNoAlt",
         title: "Agile Coach / Scrum Master in Berlin | seoberlino",
         description: "Implement Scrum for your Projects. 10 Year-Experienced SEO Expert, certified Scrum Master and experienced as Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/agile-coach-berlin"
     });
 });
 
@@ -538,11 +537,10 @@ app.get("/de/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
+        layout: "mainNoAlt",
         title: "Agile Coach / Scrum Master in Berlin | seoberlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener SEO-Experte, zertifizierter Scrum-Master und erfahren als Product Owner.",
-        canonical: "https://www.seoberlino.com/de/agile-coach-berlin",
-        alt: "https://www.seoberlino.com/en/agile-coach-berlin"
+        canonical: "https://www.seoberlino.com/en/agile-coach-berlin",
     });
 });
 
