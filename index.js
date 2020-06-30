@@ -114,9 +114,9 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Beratung • Online Marketing • Agile | seoberlino",
+        title: "SEO Beratung • SEO Marketing Experte • Agile | seoberlino",
         canonical: "https://www.seoberlino.com/de",
-        description: "SEO Beratung Freelancer und Agile Coach. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, Hello Fresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
+        description: "SEO Beratung Freelancer und Agile Coach. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
     });
 });
@@ -126,8 +126,8 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainHP",
-        title: "SEO Marketing Consultant in Berlin, Germany | seoberlino",
-        description: "SEO Consultant, 10 years experience €100m + multinationals:  Montblanc, Hello Fresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        title: "SEO Marketing Consultant Expert in Germany | seoberlino",
+        description: "SEO Consultant, 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de",
     });
@@ -138,7 +138,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Freelancer Berlin - SEO Audits | seoberlino",
+        title: "SEO Freelancer Consultant - SEO Audits und Beratung | seoberlino",
         description: "SEO & Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. 10 Jahre Erfahrung mit Montblanc, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
@@ -149,7 +149,7 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Consultant in Berlin • Audits & Consulting | seoberlino",
+        title: "SEO Consultant • Freelancer • Audits & Consulting | seoberlino",
         layout: "main",
         description: "SEO Consultant Freelancer in Berlin. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-freelancer",
@@ -321,7 +321,7 @@ app.get("/en/casestudy/hellofresh", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Berlin: HelloFresh SEO Case Study | seoberlino",
-        description: "Mini SEO Berlin Case Study about Berlin's Hello Fresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
+        description: "Mini SEO Berlin Case Study about Berlin's HelloFresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/casestudy/hellofresh"
     });
@@ -528,7 +528,7 @@ app.get("/en/agile-coach-berlin", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Agile Coach / Scrum Master in Berlin | seoberlino",
-        description: "Implement Scrum for your Projects. 10 Year-Experienced SEO Expert, certified Scrum Master and experienced as Product owner.",
+        description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master and experienced as both Scrum Master and Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
     });
 });
@@ -539,7 +539,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Agile Coach / Scrum Master in Berlin | seoberlino",
-        description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener SEO-Experte, zertifizierter Scrum-Master und erfahren als Product Owner.",
+        description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
         canonical: "https://www.seoberlino.com/en/agile-coach-berlin",
     });
 });
@@ -549,7 +549,7 @@ app.get("/de/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Experte & Agile Coach in Berlin | seoberlino ",
+        title: "SEO Experte Freelancer in Berlin | seoberlino ",
         description: "SEO Consultant Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
         alt: "https://www.seoberlino.com/en/contact"
