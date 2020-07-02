@@ -906,7 +906,7 @@ app.get("/en/scrum*", function(request, response) {
 });
 
 app.get("/de/onpage/*", function(request, response) {
-    response.writeHead(301, {
+    response.writeHead(302, {
         Location: "/de/onpage",
         Expires: new Date().toGMTString()
     });
@@ -935,7 +935,7 @@ app.get("/en/consultant", function(request, response) {
 
 
 app.get("/en/onpage/*", function(request, response) {
-    response.writeHead(301, {
+    response.writeHead(302, {
         Location: "/en/onpage",
         Expires: new Date().toGMTString()
     });
@@ -943,7 +943,7 @@ app.get("/en/onpage/*", function(request, response) {
 });
 
 app.get("/de/offpage/*", function(request, response) {
-    response.writeHead(301, {
+    response.writeHead(302, {
         Location: "/de/offpage",
         Expires: new Date().toGMTString()
     });
@@ -951,7 +951,7 @@ app.get("/de/offpage/*", function(request, response) {
 });
 
 app.get("/en/offpage/*", function(request, response) {
-    response.writeHead(301, {
+    response.writeHead(302, {
         Location: "/en/offpage",
         Expires: new Date().toGMTString()
     });
@@ -959,7 +959,7 @@ app.get("/en/offpage/*", function(request, response) {
 });
 
 app.get("/de/technical/*", function(request, response) {
-    response.writeHead(301, {
+    response.writeHead(302, {
         Location: "/de/technical",
         Expires: new Date().toGMTString()
     });
@@ -967,7 +967,7 @@ app.get("/de/technical/*", function(request, response) {
 });
 
 app.get("/en/technical/*", function(request, response) {
-    response.writeHead(301, {
+    response.writeHead(302, {
         Location: "/en/technical",
         Expires: new Date().toGMTString()
     });
