@@ -6,8 +6,7 @@
         <div class="hero-body remove-padding">
             <div class="container reduced has-text-centered">
                 <h1 class="title is-2 is-heavy boost-margin">{{{__ "servicesh1"}}}</h1>
-
-
+                <br><br>
                 <div class="columns is-centered">
                     <div class="column is-6">
                         <div class="contact-details">
@@ -21,29 +20,27 @@
                         </div>
                         <br><br>
                         <a class="button is-primed is-outlined is-black is-medium" href="/{{{__ "lang"}}}/contact">
-                            {{{__ "Experience"}}} </a><br><br>
+                            {{{__ "profile"}}} </a><br><br>
                     </div>
 
                     <br><br>
                     <div class="column is-5-desktop is-offset-1">
-                        <div class="skill-card-1">
-                            <h3 class="title is-3 is-heavy reduced-margin">{{{__ "contactskills"}}}</h2>
-                                <p> SEO, Analytics, {{{__ "intro5"}}}, Scrum Certified, Search Engine Advertising (Google Ads).<br> Languages: Deutsch, English, Français, Castellano</p>
-                        </div>
+                        <p class="title is-4"><a href="#services">SEO {{{__ "servicesHP"}}}</a></p><br>
+                        <p class="title is-4"><a href="#clients">{{{__ "currentformerclients"}}}</a></p><br>
+                        <p class="title is-4"><a href="#testimonials">{{{__ "testimonialsTitle"}}}</a></p><br>
 
-                        <div class="skill-card-2">
-                            <h3 class="title is-3 is-heavy reduced-margin">Programming</h2>
-                                <p>
-                                    React, Vue, Handlebars,
-                                    Javascript, JQuery, Node, Express, HTML, CSS, SQL, Postgres
+                        <p class="title is-4"><a href="#audit">Audits</a></p><br>
 
-                                </p>
-                        </div>
+                        <p class="title is-4"><a href="#analytics">Analytics {{{__ "for"}}} Analytics</a></p><br>
+                        <p class="title is-4"><a href="#growthhacking">Growth Hacking</a></p>
+
 
                     </div>
                 </div>
 
-                <br><br><br>
+                <br><br><br><br><br><br>
+                <h2 id="services" class="title is-3 is-heavy boost-margin">SEO {{{__ "servicesHP"}}}</h2>
+                <br>
                 <div class="columns is-centered">
                     <div class="list-block column is-8-mobile is-3-tablet is-4-desktop">
                         <img alt="SEO Audit" class="glyph" src="/images/glyphs/seo-audit-glyph.svg">
@@ -83,7 +80,7 @@
     <section class="clients-hero red-gradient hero is-medium">
         <div class="hero-body remove-padding">
             <div class="container reduced has-text-centered">
-                <h2 class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
+                <h2 id="clients" class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
                 {{>clients}}
             </div>
         </div>
@@ -93,7 +90,7 @@
     <section class="testimonials-hero off-white hero is-medium">
         <div class="hero-body remove-padding">
             <div class="container reduced has-text-centered">
-                <h2 class="title is-3 is-heavy boost-margin">{{{__ "testimonialsTitle"}}}</h2>
+                <h2 id="testimonials" class="title is-3 is-heavy boost-margin">{{{__ "testimonialsTitle"}}}</h2>
                 <div class="columns is-multiline has-text-left">
                     {{>testimonials}}
                 </div>
@@ -112,7 +109,7 @@
     <section class="audit-hero hero is-large-intro">
         <div class="hero-body remove-padding">
             <div class="container reduced">
-                <h2 id="audit" class="title is-3 is-heavy boost-margin has-text-centered">SEO Consultant {{{__ "for"}}} SEO Audits</h2>
+                <h2 id="audit" class="title is-3 is-heavy boost-margin has-text-centered">SEO Audits</h2>
                 <div class="column is-12-mobile is-10-tablet is-12-desktop">
                     <p class="subtitle is-4">{{{__ "auditintro-new"}}}
                     </p>
@@ -153,7 +150,7 @@
 
 
             <div class="container reduced margin-boost">
-                <h2 class="title is-3 is-heavy boost-margin has-text-centered">Full Audit (3/4 {{{__ "days"}}})</h2>
+                <h3 class="title is-4 is-heavy boost-margin has-text-centered">Full Audit (3/4 {{{__ "days"}}})</h3>
 
                 <div class="columns is-centered has-text-centered is-multiline pill-list">
                     <div class="column is-4">
@@ -201,10 +198,10 @@
 
                 </div>
 
-            </div>
+            </div><br><br>
 
             <div class="container reduced">
-                <h2 class="title is-3 is-heavy boost-margin has-text-centered">{{{__ "also"}}}</h2>
+                <h3 class="title is-4 is-heavy boost-margin has-text-centered">{{{__ "also"}}}</h3>
 
                 <div class="columns is-centered has-text-centered is-multiline pill-list">
                     <div class="column is-auto">
@@ -234,22 +231,7 @@
         </div>
     </section>
 
-    <!-- About Block-->
-    <section class="about-hero red-gradient hero is-medium">
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <div class="columns is-centered">
-                    <div class="column is-12-mobile is-10-tablet is-12-desktop">
-                        <h2 class="title is-3 is-heavy boost-margin has-text-centered">About</h2>
 
-                        <h3 class="subtitle is-6 is-heavy">{{{__ "descriptionHP"}}}</h3>
-                        <p class="subtitle is-6">{{{__ "auditintro"}}}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
 
     <!-- Success Block-->
     <section class="success-hero off-white hero is-medium">

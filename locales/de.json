@@ -83,7 +83,7 @@
     "cookie5": "Lesen",
     "testimonialsTitle": "Kundenreferenzen",
     "servicesHP": "Leistungen",
-    "contacth1": "SEO Experte in Berlin.",
+    "contacth1": "SEO Experte in Berlin",
     "analytics1": "Google Analytics Installation",
     "analytics2": "Google Analytics Untersuchung",
     "analytics3": "Google Analytics Optimierung",
@@ -192,7 +192,7 @@
     "descriptionHP": " in Berlin: Audit, Onpage, Offpage, Technisches SEO, Wettbewerbsanalyse, Webanalyse, Brand Building",
     "getintouch_title": "SEO Berater in Berlin  Kontakt  SEO Berlin",
     "servicestitle": "SEO Beratung und Leistungen  SEO Berlin",
-    "servicesh1": "SEO Freelancer in Berlin",
+    "servicesh1": "SEO Freelancer mit über 10 Jahren Erfahrung",
     "bloglatest": "Neueste Beiträge",
     "services": "Beratung",
     "onpageSEO1": "Wichtiger erster Schritt: Bei der Keyword-Recherche wird ermittelt, wie Ihre Zielnutzer nach Ihrem Produkt oder Ihrer Dienstleistung suchen.",
@@ -500,5 +500,7 @@
     "seoexpert": "SEO Freelancer",
     "": "",
     "lang ": "lang ",
-    "experience": "experience"
+    "experience": "experience",
+    "references": "references",
+    "profile": "Profil"
 }
