@@ -114,7 +114,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "Engagierter und kostengünstiger als eine SEO-Agentur| seoberlino",
+        title: "Engagierter als eine SEO-Agentur | seoberlino SEO Consultant",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Beratung Freelancer und Agile Coach. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en",
