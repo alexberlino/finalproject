@@ -549,7 +549,7 @@ app.get("/de/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Experte Freelancer in Berlin | seoberlino ",
+        title: "SEO Freelancer in Berlin | Kontakt | seoberlino ",
         description: "SEO Consultant Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
         alt: "https://www.seoberlino.com/en/contact"
