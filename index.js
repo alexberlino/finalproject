@@ -181,29 +181,6 @@ app.get("/de/blog", (req, res) => {
     });
 });
 
-app.get("/en/seo", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seo", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "How to become an SEO Expert | seoberlino",
-        description: "Learn about SEO and become an expert: Onpage, Offpage, Technical SEO",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/seo"
-    });
-});
-
-app.get("/de/seo", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seo", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "Optimierung für Suchmaschinen | seoberlino",
-        description: "SEO Definition, Optimierung und Analyse. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/seo"
-    });
-});
 
 app.get("/en/contact", (req, res) => {
     i18n.setLocale(req, "en");
