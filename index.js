@@ -217,33 +217,8 @@ app.get("/en/contact", (req, res) => {
     });
 });
 
-app.get("/en/seo-berlin", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("casestudy", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
-        title: "SEO Berlin: Start-ups and SEO in Berlin | seoberlino",
-        description: "SEO Berlin Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/seo-berlin"
 
-    });
-});
-
-app.get("/de/seo-berlin", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("casestudy", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
-        title: "SEO Berlin: Start-ups and SEO in Berlin | seoberlino",
-        description: "SEO Berlin Start-up Case Studies: traffic, brand dependance, main keywords, technical performance.",
-        canonical: "https://www.seoberlino.com/en/seo-berlin",
-        alt: "https://www.seoberlino.com/en/seo-berlin"
-
-    });
-});
-
-app.get("/en/casestudy/fromatob", (req, res) => {
+app.get("/en/blog/case-study-fromatob", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyfromatob", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -251,11 +226,11 @@ app.get("/en/casestudy/fromatob", (req, res) => {
         title: "SEO Berlin: fromAtoB SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's fromAtoB: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy/fromatob"
+        alt: "https://www.seoberlino.com/en/blog/fromatob"
     });
 });
 
-app.get("/en/casestudy/zalando", (req, res) => {
+app.get("/en/blog/case-study-zalando", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyzalando", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -263,11 +238,11 @@ app.get("/en/casestudy/zalando", (req, res) => {
         title: "SEO Berlin: Zalando SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Zalando: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy/zalando"
+        alt: "https://www.seoberlino.com/en/blog/zalando"
     });
 });
 
-app.get("/en/casestudy/wooga", (req, res) => {
+app.get("/en/blog/case-study-wooga", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudywooga", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -275,11 +250,11 @@ app.get("/en/casestudy/wooga", (req, res) => {
         title: "SEO Berlin: Wooga SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Wooga: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy/wooga"
+        alt: "https://www.seoberlino.com/en/blog/wooga"
     });
 });
 
-app.get("/en/casestudy/juniqe", (req, res) => {
+app.get("/en/blog/case-study-juniqe", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyjuniqe", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -287,11 +262,11 @@ app.get("/en/casestudy/juniqe", (req, res) => {
         title: "SEO Berlin: Juniqe SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Juniqe: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy/juniqe"
+        alt: "https://www.seoberlino.com/en/blog/juniqe"
     });
 });
 
-app.get("/en/casestudy/modomoto", (req, res) => {
+app.get("/en/blog/case-study-modomoto", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudymodomoto", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -299,11 +274,11 @@ app.get("/en/casestudy/modomoto", (req, res) => {
         title: "Modomoto: SEO Berlin Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Modomoto: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy/modomoto"
+        alt: "https://www.seoberlino.com/en/blog/modomoto"
     });
 });
 
-app.get("/en/casestudy/n26", (req, res) => {
+app.get("/en/blog/case-study-n26", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyn26", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -311,11 +286,11 @@ app.get("/en/casestudy/n26", (req, res) => {
         title: "SEO Berlin: N26 SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's N26: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy/n26"
+        alt: "https://www.seoberlino.com/en/blog/n26"
     });
 });
 
-app.get("/en/casestudy/hellofresh", (req, res) => {
+app.get("/en/blog/case-study-hellofresh", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhellofresh", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -323,11 +298,11 @@ app.get("/en/casestudy/hellofresh", (req, res) => {
         title: "SEO Berlin: HelloFresh SEO Case Study | seoberlino",
         description: "Mini SEO Berlin Case Study about Berlin's HelloFresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy/hellofresh"
+        alt: "https://www.seoberlino.com/en/blog/hellofresh"
     });
 });
 
-app.get("/en/casestudy/hometogo", (req, res) => {
+app.get("/en/blog/hometogo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhometogo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -335,7 +310,7 @@ app.get("/en/casestudy/hometogo", (req, res) => {
         title: "SEO Berlin: HomeToGo SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's HomeToGo: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/casestudy/hometogo"
+        alt: "https://www.seoberlino.com/en/blog/hometogo"
     });
 });
 
@@ -363,7 +338,7 @@ app.get("/de/onpage", (req, res) => {
     });
 });
 
-app.get("/en/research/competitor-analysis", (req, res) => {
+app.get("/en/blog/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("competitor", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -371,23 +346,23 @@ app.get("/en/research/competitor-analysis", (req, res) => {
         title: "Competitor Analysis for SEO | seoberlino",
         description: "SEO Competitor Analysis is important to gather information from the industry leaders: keywords, site structure, backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/forschung/mitwettbewerber"
+        alt: "https://www.seoberlino.com/de/blog/mitwettbewerber"
     });
 });
 
-app.get("/de/forschung/mitwettbewerber", (req, res) => {
+app.get("/de/blog/mitwettbewerber", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("competitor", {
-        requrl: "https://www.seoberlino.com/en/research/competitor-analysis",
+        requrl: "https://www.seoberlino.com/en/blog/competitor-analysis",
         layout: "mainDE",
         title: "SEO-Wettbewerbsanalyse | seoberlino",
         description: "Die SEO-Wettbewerberanalyse ist wichtig, um Informationen von den Branchenführern zu sammeln: Keywords, Seitenstruktur, Backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/research/competitor-analysis"
+        alt: "https://www.seoberlino.com/en/blog/competitor-analysis"
     });
 });
 
-app.get("/en/research/localseo", (req, res) => {
+app.get("/en/blog/localSEO", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("localseo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -395,19 +370,19 @@ app.get("/en/research/localseo", (req, res) => {
         title: "How to deal with Local SEO | seoberlino",
         description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/forschung/local-seo-de"
+        alt: "https://www.seoberlino.com/de/blog/localSEO"
     });
 });
 
-app.get("/de/forschung/local-seo-de", (req, res) => {
+app.get("/de/blog/localSEO", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("localseo", {
-        requrl: "https://www.seoberlino.com/en/research/localseo",
+        requrl: "https://www.seoberlino.com/en/blog/localSEO",
         layout: "mainDE",
         title: "Local SEO Optimierung | seoberlino",
         description: "Insbesondere für lokale Unternehmen ist es von größter Bedeutung, Ihre SEO-Gesamtstrategie auf lokale SEO auszurichten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/research/localseo"
+        alt: "https://www.seoberlino.com/en/blog/localSEO"
     });
 });
 
@@ -583,7 +558,7 @@ app.get("/de/success", (req, res) => {
 });
 ///LEXICON PAGES
 
-app.get("/en/lexical", (req, res) => {
+app.get("/en/blog/seo-glossary", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -591,11 +566,11 @@ app.get("/en/lexical", (req, res) => {
         title: "SEO Lexicon: About SEO Jargon | seoberlino",
         description: "SEO Lexicon for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/lexical"
+        alt: "https://www.seoberlino.com/de/blog/seo-glossary"
     });
 });
 
-app.get("/de/lexical", (req, res) => {
+app.get("/de/blog/seo-glossary", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -603,7 +578,7 @@ app.get("/de/lexical", (req, res) => {
         title: "SEO Lexikon und SEO Jargon | seoberlino",
         description: "SEO Lexikon für SEO: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/lexical"
+        alt: "https://www.seoberlino.com/en/blog/seo-glossary"
     });
 });
 
@@ -638,6 +613,32 @@ app.get("/en/article/linkbuilding-in-2020", function(request, response) {
     });
     response.end();
 });
+
+
+app.get("/en/casestudy/*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/blog",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/research/*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/blog",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/forschung/*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/blog",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 
 app.get("/en/analytics", function(request, response) {
     response.writeHead(301, {
@@ -842,17 +843,17 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(request, resp
 
 //////////////// Redirects////////////////
 
-app.get("/en/lexical/*", function(request, response) {
+app.get("/en/lexical*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/lexical",
+        Location: "/en/blog/seo-glossary",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/de/lexical/*", function(request, response) {
+app.get("/de/lexical*", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/lexical",
+        Location: "/de/blog/seo-glossary",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -883,7 +884,7 @@ app.get("/en/audit", function(request, response) {
 
 app.get("/en/casestudy", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/seo-berlin",
+        Location: "/en/blog",
         Expires: new Date().toGMTString()
     });
     response.end();
