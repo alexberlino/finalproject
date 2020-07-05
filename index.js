@@ -279,7 +279,7 @@ app.get("/en/blog/case-study-hellofresh", (req, res) => {
     });
 });
 
-app.get("/en/blog/hometogo", (req, res) => {
+app.get("/en/blog/case-study-hometogo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhometogo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
