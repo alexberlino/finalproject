@@ -540,8 +540,8 @@ app.get("/en/blog/seo-glossary", (req, res) => {
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Lexicon: About SEO Jargon | seoberlino",
-        description: "SEO Lexicon for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        title: "SEO Glossary: About SEO Jargon | seoberlino",
+        description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/blog/seo-glossary"
     });
