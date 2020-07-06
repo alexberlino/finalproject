@@ -9374,7 +9374,9 @@ table.client-compare {
 
 .clients-hero .logo-container .client-logo {
     height: 80px;
-    padding: .5rem
+    padding: .5rem;
+    vertical-align: middle;
+    position: inline-block
 }
 
 .clients-hero .logo-container .dbs-music {
@@ -9389,7 +9391,9 @@ table.client-compare {
 
 .clients-hero .logo-container a .client-logo {
     height: 80px;
-    padding: .5rem
+    padding: .5rem;
+    vertical-align: middle;
+    position: inline-block
 }
 
 .clients-hero .logo-container a .client-logo:hover {

@@ -392,7 +392,7 @@ app.get("/en/offpage", (req, res) => {
     res.render("offpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Backlinks and Offpage SEO | seoberlino",
+        title: "Backlink Analysis and Offpage SEO | seoberlino",
         description: "Backlinks and Offpage SEO represent a key part of SEO and include in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/offpage"

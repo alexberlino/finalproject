@@ -1,8 +1,8 @@
 @mixin menu-slide {
   -webkit-animation-name: menu_slide; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 400ms; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 40ms; /* Safari 4.0 - 8.0 */
   animation-name: menu_slide;
-  animation-duration: 400ms;
+  animation-duration: 40ms;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(.17,.67,.38,.98);
   animation-iteration-count: 1;
@@ -28,7 +28,7 @@
   -webkit-animation-name: item_rise; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 300ms; /* Safari 4.0 - 8.0 */
   animation-name: item_rise;
-  animation-duration: 250ms;
+  animation-duration: 50ms;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(.17,.67,.38,.98);
   animation-iteration-count: 1;
@@ -39,7 +39,7 @@
   -webkit-animation-name: item_rise; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 200ms; /* Safari 4.0 - 8.0 */
   animation-name: item_rise;
-  animation-duration: 250ms;
+  animation-duration: 50ms;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(.17,.67,.38,.98);
   animation-iteration-count: 1;

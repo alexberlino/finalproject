@@ -3409,7 +3409,7 @@ a.box:active {
 
 .progress:indeterminate {
     -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
+    animation-duration: 0.5s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-name: moveIndeterminate;
