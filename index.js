@@ -203,7 +203,7 @@ app.get("/en/blog/case-study-fromatob", (req, res) => {
         title: "SEO Berlin: fromAtoB SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's fromAtoB: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/fromatob"
+        alt: "https://www.seoberlino.com" + req.originalUrl "
     });
 });
 
@@ -215,7 +215,7 @@ app.get("/en/blog/case-study-zalando", (req, res) => {
         title: "SEO Berlin: Zalando SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Zalando: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/zalando"
+        alt: "https://www.seoberlino.com" + req.originalUrl "
     });
 });
 
@@ -227,7 +227,7 @@ app.get("/en/blog/case-study-wooga", (req, res) => {
         title: "SEO Berlin: Wooga SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Wooga: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/wooga"
+        alt: "https://www.seoberlino.com" + req.originalUrl "
     });
 });
 
@@ -239,7 +239,7 @@ app.get("/en/blog/case-study-juniqe", (req, res) => {
         title: "SEO Berlin: Juniqe SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Juniqe: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/juniqe"
+        alt: "https://www.seoberlino.com" + req.originalUrl "
     });
 });
 
@@ -251,7 +251,7 @@ app.get("/en/blog/case-study-modomoto", (req, res) => {
         title: "Modomoto: SEO Berlin Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Modomoto: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/modomoto"
+        alt: "https://www.seoberlino.com" + req.originalUrl "
     });
 });
 
@@ -263,7 +263,7 @@ app.get("/en/blog/case-study-n26", (req, res) => {
         title: "SEO Berlin: N26 SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's N26: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/n26"
+        alt: "https://www.seoberlino.com" + req.originalUrl "
     });
 });
 
@@ -275,7 +275,7 @@ app.get("/en/blog/case-study-hellofresh", (req, res) => {
         title: "SEO Berlin: HelloFresh SEO Case Study | seoberlino",
         description: "Mini SEO Berlin Case Study about Berlin's HelloFresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/hellofresh"
+        alt: "https://www.seoberlino.com" + req.originalUrl "
     });
 });
 
@@ -287,7 +287,7 @@ app.get("/en/blog/case-study-hometogo", (req, res) => {
         title: "SEO Berlin: HomeToGo SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's HomeToGo: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/hometogo"
+        alt: "https://www.seoberlino.com" + req.originalUrl "
     });
 });
 
