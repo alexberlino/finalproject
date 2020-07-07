@@ -3,32 +3,32 @@
     <section class="services-hero hero is-large-intro">
 
 
-        <div class="hero-body remove-padding">
+        <div class="hero-body">
             <div class="container reduced has-text-centered">
                 <div class="columns is-centered">
                     <div class="column is-6">
                         <div class="contact-details">
                             <div class="profile-photo"></div>
                             <h1 class="title is-2 is-heavy boost-margin">{{{__ "servicesh1"}}}</h1>
+                            <div class="columns is-centered column is-12-mobile is-11-tablet is-12-desktop post">
+                                <p>{{{__ "introseoberatung"}}}</p>
 
+                            </div>
                         </div>
-                        <br><br>
-
                     </div>
-
-
-
-
-
-
                 </div>
-
+            </div>
+        </div>
+        <div class="off-white">
+            <div class="container reduced has-text-centered">
+                <br><br>
                 <h2 id="services" class="title is-3 is-heavy boost-margin">{{{__ "servicesHP"}}}</h2>
-                <br>
-                <div class="columns is-centered">
+
+                <div class="columns is-centered off-white">
+                    <br>
                     <div class="list-block column is-8-mobile is-3-tablet is-4-desktop">
                         <img alt="SEO Audit" class="glyph" src="/images/glyphs/seo-audit-glyph.svg">
-                        <h2 class="title is-4 is-black is-heavy"><a href="#audit">SEO Audit</a></h2>
+                        <h3 class="title is-4 is-black is-heavy"><a href="#audit">SEO Audit</a></h3>
                         <p>{{{__ "intro9"}}}</p>
                         <p><a href="/{{{__ "lang"}}}/onpage#keywords">{{{__ "hey4"}}}</a></p>
                         <p><a href="/{{{__ "lang"}}}/onpage">{{{__ "hey3"}}}</a></p>
@@ -39,7 +39,7 @@
 
                     <div class="list-block column is-8-mobile is-3-tablet is-4-desktop">
                         <img alt="content SEO" class="glyph" src="/images/glyphs/hacking-glyph.svg">
-                        <h2 class="title is-4 is-black is-heavy"><a href="#content-marketing">Content Marketing</a></h2>
+                        <h3 class="title is-4 is-black is-heavy"><a href="#content-marketing">Content Marketing</a></h3>
                         <p>{{{__ "growthhacking"}}}</p>
                         <p><a href="/{{{__ "lang"}}}/onpage#keywords">{{{__ "hey4"}}}</a></p>
                         <p>Objective based on current performance and priority</p>
@@ -49,377 +49,379 @@
 
                     <div class="list-block column is-8-mobile is-3-tablet is-4-desktop">
                         <img alt="SEO Analytics" class="glyph" src="/images/glyphs/analytics-glyph.svg">
-                        <h2 class="title is-4 is-black is-heavy"><a href="#analytics">Analytics</a></h2>
+                        <h3 class="title is-4 is-black is-heavy"><a href="#analytics">Analytics</a></h3>
                         <p>{{{__ "analytics1"}}}</p>
                         <p>{{{__ "analytics2"}}}</p>
                         <p>{{{__ "analytics3"}}}</p>
                         <p>{{{__ "analytics4"}}}</p>
                         <p>{{{__ "analytics5"}}}</p>
                     </div>
-
-                </div>
-            </div>
-    </section>
-    <!-- Recent Clients Block-->
-    <section class="clients-hero red-gradient hero is-medium">
-        <div class="hero-body remove-padding">
-            <div class="container reduced has-text-centered">
-                <h2 id="clients" class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
-                {{>clients}}
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Block-->
-    <section class="testimonials-hero off-white hero is-medium">
-        <div class="hero-body remove-padding">
-            <div class="container reduced has-text-centered">
-                <h2 id="testimonials" class="title is-3 is-heavy boost-margin">{{{__ "testimonialsTitle"}}}</h2>
-                <div class="columns is-multiline has-text-left">
-                    {{>testimonials}}
-                </div>
-            </div>
-
-
-
-
-        </div>
-    </section>
-
-
-    <!-- Reports Block-->
-
-
-    <section class="audit-hero hero is-large-intro">
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <h2 id="audit" class="title is-3 is-heavy boost-margin has-text-centered">SEO Audits</h2>
-                <div class="column is-12-mobile is-10-tablet is-12-desktop">
-                    <p class="subtitle is-4">{{{__ "auditintro-new"}}}
-                    </p>
-                </div>
-                <br><br>
-
-                <div class=" columns is-centered">
-
-                    <div class="column is-6 vertical-aligner">
-                        <p>{{{__ "auditfocus"}}} (in English or in German)</p>
-                    </div>
-                    <div class="column is-6">
-                        <figure class="image is-outlined">
-                            <img alt="SEO Audit" src="/images/PDFAudit.png">
-                        </figure>
-                    </div>
-
-
-                </div>
-
-                <div class="columns is-centered">
-
-
-                    <div class="column is-6 vertical-aligner">
-                        <p>{{{__ "auditfocusList"}}}</p>
-                    </div>
-                    <div class="column is-6">
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="backlog" src="/images/diagrams/new-backlog.png">
-                        </figure>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <!-- Full Audit Block -->
-    <section class="audit-hero off-white hero is-medium">
-        <div class="hero-body remove-padding">
-
-
-            <div class="container reduced margin-boost">
-                <h3 class="title is-4 is-heavy boost-margin has-text-centered">Full Audit (3/4 {{{__ "days"}}})</h3>
-
-                <div class="columns is-centered has-text-centered is-multiline pill-list">
-                    <div class="column is-4">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">{{{__ "execsumm"}}} & Backlog</h4>
-                        </div>
-                    </div>
-
-                    <div class="column is-4">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">{{{__ "onpageHP1"}}}</h4>
-                        </div>
-                    </div>
-
-                    <div class="column is-4">
-                        <div class="pill">
-                            <span>
-                                <h4 class="subtitle is-6 is-heavy">Onpage:</h4>
-                                <p>Content, {{{__ "onpageHP3"}}}, {{{__ "onpageHP7"}}}, Metas, {{{__ "onpageHP10"}}}, etc</p>
-                            </span></div>
-                    </div>
-
-                    <div class="column is-4">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Backlink Audit</h4>
-                        </div>
-
-                    </div>
-
-                    <div class="column is-4">
-                        <div class="pill">
-                            <span>
-                                <h4 class="subtitle is-6 is-heavy">{{{__ "hey5"}}}:</h4>
-                                <p>{{{__ "technicalHP1"}}} & {{{__ "technicalHP4"}}} &
-                                    {{{__ "technicalHP5"}}} & {{{__ "technicalHP2"}}}</p>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="column is-4">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy"><a href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "competitorURL"}}}">{{{__ "analyticsHP3U"}}}</a></h4>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div><br><br>
-
-            <div class="container reduced">
-                <h3 class="title is-4 is-heavy boost-margin has-text-centered">{{{__ "also"}}}</h3>
-
-                <div class="columns is-centered has-text-centered is-multiline pill-list">
-                    <div class="column is-auto">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Local SEO</h4>
-                        </div>
-                    </div>
-
-                    <div class="column is-auto">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy"><a href="/{{{__ "lang"}}}/sea">SEA</a></h4>
-                        </div>
-                    </div>
-
-
-                    <div class="column is-auto">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Brand building</h4>
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Success Block-->
-    <section class="success-hero off-white hero is-medium">
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <div class="columns is-centered">
-                    <div class="column is-10-tablet is-12-desktop">
-                        {{>results}}
-                    </div>
-                </div>
+                </div><br><br>
             </div>
         </div>
 
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <h2 id="analytics" class="title is-3 is-heavy boost-margin has-text-centered">SEO Analytics</h2>
+</div>
+</section>
+<!-- Recent Clients Block-->
+<section class="clients-hero red-gradient hero is-medium">
+    <div class="hero-body remove-padding">
+        <div class="container reduced has-text-centered">
+            <h2 id="clients" class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
+            {{>clients}}
+        </div>
+    </div>
+</section>
 
-                <div class="columns is-centered has-text-centered">
-                    <div class="column is-10">
-                        <h3 class="subtitle is-4">
-                            {{{__ "researchHP2"}}}
-                        </h3>
-                    </div>
-
-                </div>
-
+<!-- Testimonials Block-->
+<section class="testimonials-hero off-white hero is-medium">
+    <div class="hero-body remove-padding">
+        <div class="container reduced has-text-centered">
+            <h2 id="testimonials" class="title is-3 is-heavy boost-margin">{{{__ "testimonialsTitle"}}}</h2>
+            <div class="columns is-multiline has-text-left">
+                {{>testimonials}}
             </div>
         </div>
 
 
-        <div class="hero-body remove-padding">
 
 
-            <div class="container reduced has-text-centered boost-margin">
+    </div>
+</section>
 
-                <div class="columns is-centered has-text-centered is-multiline pill-list">
-                    <div class="column is-4">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Set-up & Views Creations (Master, All Data)</h4>
-                        </div>
+
+<!-- Reports Block-->
+
+
+<section class="audit-hero hero is-large-intro">
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <h2 id="audit" class="title is-3 is-heavy boost-margin has-text-centered">SEO Audits</h2>
+            <div class="column is-12-mobile is-10-tablet is-12-desktop">
+                <p class="subtitle is-4">{{{__ "auditintro-new"}}}
+                </p>
+            </div>
+            <br><br>
+
+            <div class=" columns is-centered">
+
+                <div class="column is-6 vertical-aligner">
+                    <p>{{{__ "auditfocus"}}} (in English or in German)</p>
+                </div>
+                <div class="column is-6">
+                    <figure class="image is-outlined">
+                        <img alt="SEO Audit" src="/images/PDFAudit.png">
+                    </figure>
+                </div>
+
+
+            </div>
+
+            <div class="columns is-centered">
+
+
+                <div class="column is-6 vertical-aligner">
+                    <p>{{{__ "auditfocusList"}}}</p>
+                </div>
+                <div class="column is-6">
+                    <figure class="image is-fullwidth is-outlined">
+                        <img alt="backlog" src="/images/diagrams/new-backlog.png">
+                    </figure>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Full Audit Block -->
+<section class="audit-hero off-white hero is-medium">
+    <div class="hero-body remove-padding">
+
+
+        <div class="container reduced margin-boost">
+            <h3 class="title is-4 is-heavy boost-margin has-text-centered">Full Audit (3/4 {{{__ "days"}}})</h3>
+
+            <div class="columns is-centered has-text-centered is-multiline pill-list">
+                <div class="column is-4">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">{{{__ "execsumm"}}} & Backlog</h4>
                     </div>
+                </div>
 
-                    <div class="column is-4">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Filters & UTM, Custom Channels</h4>
-                        </div>
+                <div class="column is-4">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">{{{__ "onpageHP1"}}}</h4>
                     </div>
+                </div>
 
-                    <div class="column is-4">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Reports & Dashboards</p>
-                        </div>
+                <div class="column is-4">
+                    <div class="pill">
+                        <span>
+                            <h4 class="subtitle is-6 is-heavy">Onpage:</h4>
+                            <p>Content, {{{__ "onpageHP3"}}}, {{{__ "onpageHP7"}}}, Metas, {{{__ "onpageHP10"}}}, etc</p>
+                        </span></div>
+                </div>
+
+                <div class="column is-4">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Backlink Audit</h4>
                     </div>
 
                 </div>
 
-                <a class="button is-large is-primed is-medium boost-margin-top" href="/{{{__ "lang"}}}/contact">
-                    {{{__ "about"}}}
-                </a>
-
-            </div>
-        </div>
-
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <div class="columns is-centered is-multiline">
-
-                    <div class="column is-12-mobile is-7-tablet is-7-desktop post">
-
-                        <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "analyticsMPT1"}}} </h2>
-                        <p>{{{__ "analyticsMP1"}}}</p>
-                        <h2 class="title is-4 is-heavy">Google Analytics</h2>
-                        <p>{{{__ "analyticsMP2"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "analyticsMPT3"}}}</h2>
-                        <p>{{{__ "analyticsMP3"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "analyticsMPT4"}}}</h2>
-                        <p>{{{__ "analyticsMP4"}}}</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <div class="columns is-centered">
-                    <div class="column is-10 comments after-post">
-
-                        <h2 class="title is-4 is-heavy">{{{__ "relevanttools"}}}</h2>
-
-                        <span class="blue-dot-list">
-                            <ul>
-                                <li>Google Analytics </li>
-                                <li>Google Search Console</li>
-                                <li>Site Catalyst / Omniture</li>
-                                <li>GA Guide</li>
-                                <li><a href="/AccessAnalyticsandSearchConsole.pdf">PDF how to give access to Analytics & Search Console</a></li>
-                            </ul>
+                <div class="column is-4">
+                    <div class="pill">
+                        <span>
+                            <h4 class="subtitle is-6 is-heavy">{{{__ "hey5"}}}:</h4>
+                            <p>{{{__ "technicalHP1"}}} & {{{__ "technicalHP4"}}} &
+                                {{{__ "technicalHP5"}}} & {{{__ "technicalHP2"}}}</p>
                         </span>
                     </div>
                 </div>
+
+                <div class="column is-4">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy"><a href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "competitorURL"}}}">{{{__ "analyticsHP3U"}}}</a></h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div><br><br>
+
+        <div class="container reduced">
+            <h3 class="title is-4 is-heavy boost-margin has-text-centered">{{{__ "also"}}}</h3>
+
+            <div class="columns is-centered has-text-centered is-multiline pill-list">
+                <div class="column is-auto">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Local SEO</h4>
+                    </div>
+                </div>
+
+                <div class="column is-auto">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy"><a href="/{{{__ "lang"}}}/sea">SEA</a></h4>
+                    </div>
+                </div>
+
+
+                <div class="column is-auto">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Brand building</h4>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Success Block-->
+<section class="success-hero off-white hero is-medium">
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <div class="columns is-centered">
+                <div class="column is-10-tablet is-12-desktop">
+                    {{>results}}
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <h2 id="content-marketing" class="title is-3 is-heavy boost-margin has-text-centered">Content Marketing</h2>
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <h2 id="analytics" class="title is-3 is-heavy boost-margin has-text-centered">SEO Analytics</h2>
 
-                <div class="columns is-centered has-text-centered">
-                    <div class="column is-10">
-                        <p class="subtitle is-4">
-                            {{{__ "contentMP1"}}}
-                        </p>
-                    </div>
-
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-10">
+                    <h3 class="subtitle is-4">
+                        {{{__ "researchHP2"}}}
+                    </h3>
                 </div>
 
             </div>
 
         </div>
-    </section>
+    </div>
 
 
+    <div class="hero-body remove-padding">
 
 
-    <!-- Audit Block-->
-    <section class="audit-hero off-white hero is-medium">
-        <div class="hero-body remove-padding">
+        <div class="container reduced has-text-centered boost-margin">
 
-            <div class="container reduced has-text-centered boost-margin">
-
-
-                <div class="columns is-centered has-text-centered is-multiline pill-list">
-                    <div class="column is-3">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Keyword Research</h4>
-                        </div>
+            <div class="columns is-centered has-text-centered is-multiline pill-list">
+                <div class="column is-4">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Set-up & Views Creations (Master, All Data)</h4>
                     </div>
-
-                    <div class="column is-3">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Analysis current traffic</h4>
-                        </div>
-                    </div>
-
-                    <div class="column is-3">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Analysis existing content</p>
-                        </div>
-                    </div>
-
-                    <div class="column is-3">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Prioritization list content creation</h4>
-                        </div>
-                    </div>
-
-                    <div class="column is-3">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy"> <a href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "competitorURL"}}}">{{{__ "analyticsHP3U"}}}</a></h4>
-                        </div>
-                    </div>
-
-                    <div class="column is-3">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Content Copywriting</h4>
-                        </div>
-                    </div>
-
-                    <div class="column is-3">
-                        <div class="pill">
-                            <h4 class="subtitle is-6 is-heavy">Follow up with reports and analysis</a></h4>
-                        </div>
-                    </div>
-
                 </div>
 
-                <a class="button is-large is-primed is-medium boost-margin-top" href="/{{{__ "lang"}}}/contact">
-                    {{{__ "about"}}}
-                </a>
+                <div class="column is-4">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Filters & UTM, Custom Channels</h4>
+                    </div>
+                </div>
 
+                <div class="column is-4">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Reports & Dashboards</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="button is-large is-primed is-medium boost-margin-top" href="/{{{__ "lang"}}}/contact">
+                {{{__ "about"}}}
+            </a>
+
+        </div>
+    </div>
+
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <div class="columns is-centered is-multiline">
+
+                <div class="column is-12-mobile is-7-tablet is-7-desktop post">
+
+                    <h3 class="title is-4 is-heavy reduced-top-margin">{{{__ "analyticsMPT1"}}} </h3>
+                    <p>{{{__ "analyticsMP1"}}}</p>
+                    <h3 class="title is-4 is-heavy">Google Analytics</h3>
+                    <p>{{{__ "analyticsMP2"}}}</p>
+
+                    <h3 class="title is-4 is-heavy">{{{__ "analyticsMPT3"}}}</h3>
+                    <p>{{{__ "analyticsMP3"}}}</p>
+
+                    <h3 class="title is-4 is-heavy">{{{__ "analyticsMPT4"}}}</h3>
+                    <p>{{{__ "analyticsMP4"}}}</p>
+
+                </div>
             </div>
         </div>
-    </section>
-    <section class="success-hero hero is-medium">
-        <div class="columns is-centered">
-            <div class="column is-6"><br><br>
-                <h2 class="title is-3 is-black is-heavy is-centered">Get in touch</h2>
+    </div>
 
-                <div class="contact-details">
-                    <div class="profile-photo"></div>
-                    <div class="details">
-                        {{!-- <h3 class="subtitle is-5 reduced-margin">T - <a itemprop="telephone" href="tel: +49 015787011932">015787011932</a><br> --}}
-                        <h3 class="subtitle is-5 reduced-top-margin">E - <a href="mailto:alex@seoberlino.com">alex@seoberlino.com</a>
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <div class="columns is-centered">
+                <div class="column is-10 comments after-post">
+
+                    <h3 class="title is-4 is-heavy">{{{__ "relevanttools"}}}</h3>
+
+                    <span class="blue-dot-list">
+                        <ul>
+                            <li>Google Analytics </li>
+                            <li>Google Search Console</li>
+                            <li>Site Catalyst / Omniture</li>
+                            <li>GA Guide</li>
+                            <li><a href="/AccessAnalyticsandSearchConsole.pdf">PDF how to give access to Analytics & Search Console</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <h2 id="content-marketing" class="title is-3 is-heavy boost-margin has-text-centered">Content Marketing</h2>
+
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-10">
+                    <p class="subtitle is-4">
+                        {{{__ "contentMP1"}}}
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- Audit Block-->
+<section class="audit-hero off-white hero is-medium">
+    <div class="hero-body remove-padding">
+
+        <div class="container reduced has-text-centered boost-margin">
+
+
+            <div class="columns is-centered has-text-centered is-multiline pill-list">
+                <div class="column is-3">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Keyword Research</h4>
                     </div>
                 </div>
 
-                <div class="contact-page-form">
-                    {{>formcontact}}
+                <div class="column is-3">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Analysis current traffic</h4>
+                    </div>
+                </div>
+
+                <div class="column is-3">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Analysis existing content</p>
+                    </div>
+                </div>
+
+                <div class="column is-3">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Prioritization list content creation</h4>
+                    </div>
+                </div>
+
+                <div class="column is-3">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy"> <a href="/{{{__ "lang"}}}/{{{__ "research"}}}/{{{__ "competitorURL"}}}">{{{__ "analyticsHP3U"}}}</a></h4>
+                    </div>
+                </div>
+
+                <div class="column is-3">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Content Copywriting</h4>
+                    </div>
+                </div>
+
+                <div class="column is-3">
+                    <div class="pill">
+                        <h4 class="subtitle is-6 is-heavy">Follow up with reports and analysis</a></h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="button is-large is-primed is-medium boost-margin-top" href="/{{{__ "lang"}}}/contact">
+                {{{__ "about"}}}
+            </a>
+
+        </div>
+    </div>
+</section>
+<section class="success-hero hero is-medium">
+    <div class="columns is-centered">
+        <div class="column is-6"><br><br>
+            <h3 class="title is-3 is-black is-heavy is-centered">Get in touch</h3>
+
+            <div class="contact-details">
+                <div class="profile-photo"></div>
+                <div class="details">
+                    {{!-- <h3 class="subtitle is-5 reduced-margin">T - <a itemprop="telephone" href="tel: +49 015787011932">015787011932</a><br> --}}
+                    <h3 class="subtitle is-5 reduced-top-margin">E - <a href="mailto:alex@seoberlino.com">alex@seoberlino.com</a>
                 </div>
             </div>
-        </div><br><br><br><br>
 
-    </section>
+            <div class="contact-page-form">
+                {{>formcontact}}
+            </div>
+        </div>
+    </div><br><br><br><br>
+
+</section>
 </div>
