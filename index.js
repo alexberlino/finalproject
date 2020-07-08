@@ -591,10 +591,61 @@ app.get("/en/article/linkbuilding-in-2020", function(request, response) {
     response.end();
 });
 
+app.get("/en/seo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/blog",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/technical/indexation", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/technical#indexation",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/offpage/backlinkanalysis", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/offpage#backlinksanalysis",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/offpage/backlinkanalysis", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/offpage#backlinksanalysis",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/onpage/sprachsuche", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/onpage#voicesearch",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 
 
 
+
+
+
+
+
+app.get("/de/seo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/blog",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 
 
@@ -605,9 +656,6 @@ app.get("/en/casestudy/zalando", function(request, response) {
     });
     response.end();
 });
-
-
-
 
 
 app.get("/en/casestudy/n26", function(request, response) {
