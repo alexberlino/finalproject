@@ -163,7 +163,7 @@ app.get("/en/blog", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Blog - Search Engine Optimization Blog | seoberlino",
-        description: "SEO Berlin Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog",
         alt: "https://www.seoberlino.com/de/blog"
     });
@@ -175,7 +175,7 @@ app.get("/de/blog", (req, res) => {
         requrl: "https://www.seoberlino.com/en/blog",
         layout: "mainNoAltNoIndex",
         title: "Suchmaschinenoptimierung Blog | seoberlino",
-        description: "SEO Blog von SEO Berlin, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
+        description: "SEO Blog von seoberlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com/en/blog",
         alt: "https://www.seoberlino.com/en/blog"
     });
@@ -248,7 +248,7 @@ app.get("/en/blog/case-study-modomoto", (req, res) => {
     res.render("casestudymodomoto", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Modomoto: SEO Berlin Case Study | seoberlino",
+        title: "Modomoto: SEO Case Study | seoberlino",
         description: "Mini SEO Case Study about Berlin's Modomoto: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -273,7 +273,7 @@ app.get("/en/blog/case-study-hellofresh", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "HelloFresh SEO Case Study | seoberlino",
-        description: "Mini SEO Berlin Case Study about Berlin's HelloFresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
+        description: "Mini SEO Case Study about Berlin's HelloFresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -296,7 +296,7 @@ app.get("/en/onpage", (req, res) => {
     res.render("onpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Onpage Optimization SEO | seoberlino",
+        title: "Onpage SEO: Keyword Research, Duplicate Content, Metas... | seoberlino",
         description: "Onpage Optimization refers to any SEO action taken on the website: content and and code of the page.",
         canonical: "https://www.seoberlino.com/en/onpage",
         alt: "https://www.seoberlino.com/de/onpage"
@@ -308,7 +308,7 @@ app.get("/de/onpage", (req, res) => {
     res.render("onpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Onpage Optimierung SEO | seoberlino",
+        title: "Onpage SEO: Keyword Recherche, Duplicate Content, Metas... | seoberlino",
         description: "Onpage Optimization bezieht sich auf alle SEO-Maßnahmen auf der Website, die direkt durchgeführt werden können.",
         canonical: "https://www.seoberlino.com/de/onpage",
         alt: "https://www.seoberlino.com/en/onpage"
@@ -368,7 +368,7 @@ app.get("/en/technical", (req, res) => {
     res.render("technical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "What is Technical SEO | SEO Berlin | seoberlino",
+        title: "Indexation, https and Technical SEO | seoberlino",
         description: "Technical SEO by a SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/technical"
@@ -380,7 +380,7 @@ app.get("/de/technical", (req, res) => {
     res.render("technical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Technical SEO | Technisches SEO | seoberlino",
+        title: "Indexierung, redirects https und Technical SEO | seoberlino",
         description: "Technical SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/technical"
@@ -417,7 +417,7 @@ app.get("/en/impressum", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAltNoIndex",
         title: "Impressum | seoberlino",
-        description: "SEO Berlin Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "SEOBerlino Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/impressum",
         alt: "https://www.seoberlino.com/de/impressum"
     });
@@ -441,7 +441,7 @@ app.get("/de/datenschutz", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAltNoIndex",
         title: "Datenschutz | seoberlino",
-        description: "SEO Berlin, Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren .",
+        description: "seoberlino Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren .",
         canonical: "https://www.seoberlino.com/de/datenschutz",
         alt: "https://www.seoberlino.com/de/datenschutz"
     });
@@ -540,7 +540,7 @@ app.get("/en/blog/seo-glossary", (req, res) => {
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Glossary: About SEO Jargon | seoberlino",
+        title: "SEO Glossary: Keyword Planner, Insights, Canonicals | seoberlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/blog/seo-glossary"
@@ -552,7 +552,7 @@ app.get("/de/blog/seo-glossary", (req, res) => {
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Lexikon und SEO Jargon | seoberlino",
+        title: "SEO Glossary: Keyword Planner, Insights, Canonicals | seoberlino",
         description: "SEO Lexikon für SEO: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/blog/seo-glossary"
@@ -761,7 +761,7 @@ app.get("/en/blog/beyond-mobile-first", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Beyond Mobile First | SEO Berlin | seoberlino",
+        title: "SEO Beyond Mobile First | seoberlino",
         description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -842,7 +842,7 @@ app.get("/en/blog/how-to-get-those-first-links", (req, res) => {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "How to get those first links | SEO Berlin | seoberlino",
+        title: "How to get those first links | seoberlino",
         description: "Read this article about SEO and Backlinking and how to get your first backlinks in a simple way: clients, sponsoring, specialised websites, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
