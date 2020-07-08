@@ -574,7 +574,7 @@ app.get("/setcookiesession", (req, res) => {
 ////blog pages/////////
 app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("blog1", {
+    res.render("bloglinksgettingitright", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Link Building in 2020 | | seoberlino",
@@ -805,7 +805,7 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(request, resp
 
 app.get("/en/blog/beyond-mobile-first", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("blog2", {
+    res.render("blogmobile-first", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -846,7 +846,7 @@ app.get("/en/article/voice-search-challenges", function(request, response) {
 
 app.get("/en/blog/why-you-need-implement-structured-data", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("blog6", {
+    res.render("blogstructureddata", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -866,7 +866,7 @@ app.get("/en/article/why-you-need-implement-structured-data", function(request, 
 
 app.get("/en/blog/link-building-to-brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("blog7", {
+    res.render("blogbrandbuilding", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -886,12 +886,25 @@ app.get("/en/article/link-building-to-brandbuilding", function(request, response
 
 app.get("/en/blog/how-to-get-those-first-links", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("blog8", {
+    res.render("blogfirstlinks", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         title: "How to get those first links | seoberlino",
         description: "Read this article about SEO and Backlinking and how to get your first backlinks in a simple way: clients, sponsoring, specialised websites, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
+
+
+app.get("/en/blog/site-migration-seo-checklist", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogsitemigration", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "Site migration SEO Checklist | seoberlino",
+        description: "Read this article about site migration and what to do before you start migration.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
