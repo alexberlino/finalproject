@@ -577,7 +577,7 @@ app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
     res.render("bloglinksgettingitright", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Link Building in 2020 | | seoberlino",
+        title: "Link Building in 2020 | seoberlino",
         description: "Link Building in one of the most difficult but important aspects of SEO. Read these tips to start your Backlinking tasks.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -750,11 +750,23 @@ app.get("/en/blog/voicesearch", (req, res) => {
     res.render("blogvoice", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Voice Search and how it challenges SEO | | seoberlino",
+        title: "Voice Search and how it challenges SEO |seoberlino ",
         description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
+
+app.get("/en/blog/google-keyword-planner-guide", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogkeywordplanner", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "Google Keyword Planner Tool Guide | seoberlino",
+        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
+
 
 
 app.get("/en/article/voicesearch", function(request, response) {

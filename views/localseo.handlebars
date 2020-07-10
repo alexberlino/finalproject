@@ -22,10 +22,8 @@
                         <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "localMPT1"}}}</h2>
                         <p>{{{__ "localMP1"}}}</p>
 
-                        <figure class="image is-outlined is-fullwidth">
-                            <img class="serviceImage" src="/mybusiness.jpg" alt="My Business, Local SEO" />
-                        </figure>
-
+                        <img width=50% src="/mybusiness.jpg" alt="My Business, Local SEO" />
+                        <br><br>
                         <h2 class="title is-4 is-heavy">{{{__ "localMPT2"}}}</h2>
 
                         <p>{{{__ "localMP2"}}}</p>
@@ -59,3 +57,38 @@
         </div>
     </section>
 </div>
+
+
+<section class="comments-hero hero is-medium off-white">
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <div class="columns is-centered">
+                <div class="column is-10 comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                        /*
+
+                        */
+
+                        var disqus_config = function() {
+                            this.page.url = `https://www.seoberlino.com/en/blog/localSEO`; // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = "localseo"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+
+
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                            var d = document,
+                                s = d.createElement('script');
+                            s.src = 'https://www-seoberlino-com.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

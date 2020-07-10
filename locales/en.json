@@ -455,7 +455,7 @@
     "altattributeMP": "alt attribute help Search Engines to understand the image they are crawling. \n<br><br> Alt stands for 'alternate'. It often called 'alt tag' but it is in fact an 'attribute'. \n<br><br> It is important to use alt attributes to describe your images to be in line with good SEO practices. Other image related optimization items are size & load time and image file name.",
     "canonicalsMP": "canonicals tell Search Engines which is the master page version to avoid duplicate content being indexed. \n<br><br>",
     "amppagesMP": "AMP stands for 'Accelerated Mobile Pages'. Developed by Google it indends to reduce load time and improve user experience.",
-    "googleKWToolMP": "The Keyword Planner Tool is included in Google Ads' Tools and helps do Keyword Research. One of the most important information it gives for each keyword is ",
+    "googleKWToolMP": "The Keyword Planner Tool is included in Google Ads' Tools. One of the most important information it gives for each keyword is ",
     "hreflangMP": "When you have various versions for different languages (and/or territories), you want to avoid Google flagging your content as duplicate and you want to make sure the right content is shown for the visitor",
     "longtailMP": "\n<a href=/en/blog/seo-glossary#longtail>Long tail</a> when talking about Keywords regroups all the keywords which bring a big amount of the traffic but each have very little \n<a href=/en/blog/seo-glossary#searchvolume>Search Volume</a>. They are difficult to target as there is very little search but still the total represents a big part of the business revenu potential.",
     "robotsMP": "The Robots file (robots.txt) controls what crawlers can access or not.",

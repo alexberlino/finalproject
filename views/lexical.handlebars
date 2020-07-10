@@ -55,29 +55,12 @@
                         <br><br><br>
 
 
-
-
-                        <h2 id="kwplanner" class="title is-3 is-black is-heavy">Google Keyword Planner</h2>
-                        <h2 class="title is-heavy is-4 reduced-top-margin">{{{__ "definition"}}}</h2>
-                        <p>{{{__ "googleKWToolMP"}}} <a class="underline" href="/{{{__ "lang"}}}/blog/seo-glossary#searchvolume">Search Volume</a></p>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="google keyword planner" src="/keywordplanner.png" />
-                        </figure>
-
-                        <br><br><br>
-
-
-
-
                         <h2 id="searchvolume" class="title is-3 is-black is-heavy">Search Volume</h2>
                         <h2 class="title is-heavy is-4 reduced-top-margin">{{{__ "definition"}}}</h2>
                         <p>{{{__ "searchvolumeMP"}}}</p>
 
 
                         <br><br><br>
-
-
-
 
                         <h2 id="longtail" class="title is-3 is-black is-heavy">Long-tail</h2>
 
@@ -488,11 +471,7 @@ User-agent: Googlebot
                                 <a href="#searchvolume">
                                     Search Volume </a>
                             </li>
-                            <li>
-                                <a href="#kwplanner">
-                                    Google Keyword Planner
-                                </a>
-                            </li>
+
 
                             <li>
                                 <a href="#googlepagespeed">
@@ -582,7 +561,40 @@ User-agent: Googlebot
 
 
 
+                </div>{{>articlesCTA}}
+            </div>
+    </section>
+    <section class="comments-hero hero is-medium off-white">
+        <div class="hero-body remove-padding">
+            <div class="container reduced">
+                <div class="columns is-centered">
+                    <div class="column is-10 comments">
+                        <div id="disqus_thread"></div>
+                        <script>
+                            /**
+                             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                            /*
+
+                            */
+
+                            var disqus_config = function() {
+                                this.page.url = `https://www.seoberlino.com/en/blog/seo-glossary`; // Replace PAGE_URL with your page's canonical URL variable
+                                this.page.identifier = "seoglossary"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            };
+
+
+                            (function() { // DON'T EDIT BELOW THIS LINE
+                                var d = document,
+                                    s = d.createElement('script');
+                                s.src = 'https://www-seoberlino-com.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
 </div>
