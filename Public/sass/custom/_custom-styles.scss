@@ -1,4 +1,5 @@
 // General {
+
 body {
   &.frozen {
     height: 100vh;
@@ -382,6 +383,8 @@ footer.page-end {
   padding-bottom: 2.5rem;
   margin-bottom: 2.5rem;
 }
+
+
 .contact-page-form {
   .form-title, .form-message {display: none;}
 }
