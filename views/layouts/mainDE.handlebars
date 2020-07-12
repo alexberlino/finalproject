@@ -30,6 +30,8 @@
     <link rel="alternate" hreflang="de" href="{{canonical}}" />
     <link rel="alternate" hreflang="en" href="{{alt}}" />
     <link rel="alternate" hreflang="x-default" href="{{requrl}}" />
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+
     <meta property="og:title" content="{{title}}" />
     <meta property="og:url" content="{{canonical}}" />
     <meta property="og:locale" content="de_DE" />
@@ -47,6 +49,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/wal3lcu.css">
     <meta name="google-site-verification" content="oF1-hfVAGySaz7pJ1kWDPQa2u_ZwhTFk54__ovCcI5A" />
     <script data-cookie-notice='{ "learnMoreLinkEnabled": true, "learnMoreLinkHref": "/de/datenschutz" }' src="https://unpkg.com/cookie-notice@^1/dist/cookie.notice.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -59,8 +62,20 @@
     <div class="ruler-1-left"></div>
     <div class="ruler-1-right"></div>
     {{>nav}}{{{body}}}{{>footer}}
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1500,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+    </script>
 </body>
 <script src="/js/scrollreveal.min.js"></script>
 <script src="/js/general-min.js"></script>
+
+
 
 </html>

@@ -560,7 +560,9 @@ app.get("/de/blog/seo-glossary", (req, res) => {
 });
 
 app.get("/sitemap.xml", (req, res) => {
-    res.render("sitemap");
+    res.render("sitemap", {
+
+    });
 });
 
 app.get("/setcookiesession", (req, res) => {

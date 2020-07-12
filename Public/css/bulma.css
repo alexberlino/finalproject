@@ -868,7 +868,7 @@ a.has-text-light:focus, a.has-text-light:hover {
 }
 
 .has-background-light {
-    background-color: #f5f5f5 !important
+    background-color: #f5f5f5 !important;
 }
 
 .has-text-dark {
