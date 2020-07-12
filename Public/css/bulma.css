@@ -9289,6 +9289,13 @@ body.frozen {
     padding: 1rem .55rem
 }
 
+.boxcolor {
+    background-color: #d93a5f;
+    color: #fff;
+    border: 1;
+    padding: 1rem .55rem
+}
+
 .navbar .navbar-item .language-button:hover {
     background-color: #61c4f8
 }
