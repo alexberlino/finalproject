@@ -9297,16 +9297,14 @@ body.frozen {
 }
 
 .boxcolor2 {
-    background-color: #F2F2F2;
-    color: black;
-    border: 1px grey dotted;
+    background-color: white;
+    border: 1px lightgrey dotted;
     padding: 1.5rem .45rem
 }
 
 .boxcolor3 {
     background-color: white;
-    color: black;
-    border: 1px #F4F2F2 dotted;
+    border: 1px lightgrey dotted;
     padding: 1.5rem .45rem
 }
 
