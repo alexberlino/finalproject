@@ -9293,7 +9293,8 @@ body.frozen {
     background-color: #d93a5f;
     color: #fff;
     border: 1;
-    padding: 1rem .55rem
+    padding: 1rem .55rem;
+    border-radius: 15px
 }
 
 .boxcolor2 {
@@ -9305,7 +9306,7 @@ body.frozen {
 .boxcolor3 {
     background-color: white;
     border: 1px lightgrey dotted;
-    padding: 1.5rem .45rem
+    padding: 1rem .45rem
 }
 
 .navbar .navbar-item .language-button:hover {
