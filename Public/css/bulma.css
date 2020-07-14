@@ -9297,6 +9297,13 @@ body.frozen {
     border-radius: 15px
 }
 
+.boxcolorheader {
+    background-color: #d93a5f;
+    color: #fff;
+    border: 1;
+    padding: 3rem .75rem;
+}
+
 .boxcolor2 {
     background-color: white;
     border: 1px lightgrey dotted;
@@ -9350,6 +9357,13 @@ body.frozen {
 
 .sidebar ul li a:hover {
     color: #61c4f8
+}
+
+.sidebarblog ul {
+    margin-left: 50px;
+    list-style: none;
+    position: relative;
+    top: 20%;
 }
 
 .sidebarblog a {
