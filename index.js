@@ -6,21 +6,23 @@ const {
 const express = require("express");
 const axios = require("axios");
 const app = express();
-const fetch = require('node-fetch');
+const fetch = require("node-fetch");
 const {
     stringify
-} = require('querystring');
+} = require("querystring");
 var i18n = require("i18n");
 
 var hbs = require("hbs");
 var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var http = require("http");
-var etag = require('etag');
+var etag = require("etag");
 
-app.use(bodyParser.urlencoded({
-    extended: false
-}));
+app.use(
+    bodyParser.urlencoded({
+        extended: false
+    })
+);
 app.use(bodyParser.json());
 
 app.engine(
@@ -52,14 +54,14 @@ i18n.configure({
 });
 app.use(i18n.init);
 
-
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
-
         if (req.headers["x-forwarded-proto"] == "https") {
-
-            if (req.headers.host.slice(0, 3) != 'www') {
-                return res.redirect(301, 'https://www.seoberlino.com' + req.url);
+            if (req.headers.host.slice(0, 3) != "www") {
+                return res.redirect(
+                    301,
+                    "https://www.seoberlino.com" + req.url
+                );
             }
         }
 
@@ -68,12 +70,9 @@ if (process.env.NODE_ENV === "production") {
                 301,
                 ["https://www.seoberlino.com", req.url].join("")
             );
-
         } else {
-
             next();
         }
-
     });
 }
 
@@ -117,7 +116,7 @@ app.get("/de", (req, res) => {
         title: "SEO-Agentur Berlin | SEO Consulancy Freelance | seoberlino",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
-        alt: "https://www.seoberlino.com/en",
+        alt: "https://www.seoberlino.com/en"
     });
 });
 
@@ -129,7 +128,7 @@ app.get("/en", (req, res) => {
         title: "SEO Company in Germany | SEO Freelance Consultancy | seoberlino",
         description: "SEO Company in Berlin, SEO Consultancy with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
-        alt: "https://www.seoberlino.com/de",
+        alt: "https://www.seoberlino.com/de"
     });
 });
 
@@ -169,7 +168,6 @@ app.get("/en/blog", (req, res) => {
     });
 });
 
-
 app.get("/en/blog/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogbacklinks", {
@@ -177,6 +175,18 @@ app.get("/en/blog/backlinks", (req, res) => {
         layout: "mainNoAlt",
         title: "Backlinks & Offpage SEO | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        canonical: "https://www.seoberlino.com/en/blog/backlinks",
+        alt: "https://www.seoberlino.com/en/blog/backlinks"
+    });
+});
+
+app.get("/de/blog/backlinks", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogbacklinks", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "Backlinks & Offpage SEO | SEO Blog  | seoberlino",
+        description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
         canonical: "https://www.seoberlino.com/en/blog/backlinks",
         alt: "https://www.seoberlino.com/en/blog/backlinks"
     });
@@ -193,7 +203,6 @@ app.get("/en/blog/seo-case-studies", (req, res) => {
         alt: "https://www.seoberlino.com/de/blog/seo-case-studies"
     });
 });
-
 
 app.get("/en/blog/onpage-seo", (req, res) => {
     i18n.setLocale(req, "en");
@@ -219,7 +228,6 @@ app.get("/en/blog/technical-seo", (req, res) => {
     });
 });
 
-
 app.get("/de/blog", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blog", {
@@ -232,7 +240,6 @@ app.get("/de/blog", (req, res) => {
     });
 });
 
-
 app.get("/en/contact", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("contact", {
@@ -244,7 +251,6 @@ app.get("/en/contact", (req, res) => {
         alt: "https://www.seoberlino.com/de/contact"
     });
 });
-
 
 app.get("/en/blog/case-study-fromatob", (req, res) => {
     i18n.setLocale(req, "en");
@@ -342,29 +348,7 @@ app.get("/en/blog/case-study-hometogo", (req, res) => {
     });
 });
 
-app.get("/en/onpage", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("onpage", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "Onpage SEO: Keyword Research, Duplicate Content, Metas... | seoberlino",
-        description: "Onpage Optimization refers to any SEO action taken on the website: content and and code of the page.",
-        canonical: "https://www.seoberlino.com/en/onpage",
-        alt: "https://www.seoberlino.com/de/onpage"
-    });
-});
 
-app.get("/de/onpage", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("onpage", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "Onpage SEO: Keyword Recherche, Duplicate Content, Metas... | seoberlino",
-        description: "Onpage Optimization bezieht sich auf alle SEO-Maßnahmen auf der Website, die direkt durchgeführt werden können.",
-        canonical: "https://www.seoberlino.com/de/onpage",
-        alt: "https://www.seoberlino.com/en/onpage"
-    });
-});
 
 app.get("/en/blog/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
@@ -414,31 +398,11 @@ app.get("/de/blog/localSEO", (req, res) => {
     });
 });
 
-app.get("/en/technical", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("technical", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "Indexation, https and Technical SEO | seoberlino",
-        description: "Technical SEO by a SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA. MBA, Scrum qualified and web development trained.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/technical"
-    });
-});
 
-app.get("/de/technical", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("technical", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "Indexierung, redirects https und Technical SEO | seoberlino",
-        description: "Technical SEO bezeichnet Optimierungen von Webseiten und Servern die Spidern helfen das Crawling und Indexieren Ihrer Seite effektiver zu gestalten.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/technical"
-    });
-});
 
-app.get("/en/offpage", (req, res) => {
+
+
+app.get("/en/blog/backlink-analysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("offpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -446,11 +410,11 @@ app.get("/en/offpage", (req, res) => {
         title: "Backlink Analysis and Offpage SEO | seoberlino",
         description: "Backlinks and Offpage SEO represent a key part of SEO and include in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/offpage"
+        alt: "https://www.seoberlino.com/de/blog/backlink-analysis"
     });
 });
 
-app.get("/de/offpage", (req, res) => {
+app.get("/de/blog/backlink-analysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("offpage", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -458,7 +422,7 @@ app.get("/de/offpage", (req, res) => {
         title: "Backlinks & Offpage SEO | seoberlino",
         description: "Backlinks sind ein wichtiger Bestandteil von SEO und umfassen insbesondere Link Building und Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/offpage"
+        alt: "https://www.seoberlino.com/en/blog/backlink-analysis"
     });
 });
 
@@ -498,8 +462,6 @@ app.get("/de/datenschutz", (req, res) => {
     });
 });
 
-
-
 app.get("/de/sea", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratungsea", {
@@ -524,7 +486,6 @@ app.get("/en/sea", (req, res) => {
     });
 });
 
-
 app.get("/en/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungscrum", {
@@ -532,7 +493,7 @@ app.get("/en/agile-coach-berlin", (req, res) => {
         layout: "mainNoAlt",
         title: "Agile Coach / Scrum Master in Berlin | seoberlino",
         description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master and experienced as both Scrum Master and Product owner.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
 
@@ -543,7 +504,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
         layout: "mainNoAlt",
         title: "Agile Coach / Scrum Master in Berlin | seoberlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
-        canonical: "https://www.seoberlino.com/en/agile-coach-berlin",
+        canonical: "https://www.seoberlino.com/en/agile-coach-berlin"
     });
 });
 
@@ -564,26 +525,26 @@ app.get("/error", (req, res) => {
     res.render("error", {
         layout: "mainHPNoIndex",
         title: "Error",
-        description: "This page should not be indexed so please ignore it.",
+        description: "This page should not be indexed so please ignore it."
     });
 });
 
-app.get("/en/success", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("success", {
-        layout: "mainHPNoIndex",
-        title: "Success, thank you for your message!",
-        description: "Thank you for your message.",
-    });
-});
-app.get("/de/success", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("success", {
-        layout: "mainHPNoIndex",
-        title: "Danke für Ihre Nachricht!",
-        description: "Danke für Ihre Nachricht",
-    });
-});
+// app.get("/en/success", (req, res) => {
+//     i18n.setLocale(req, "en");
+//     res.render("success", {
+//         layout: "mainHPNoIndex",
+//         title: "Success, thank you for your message!",
+//         description: "Thank you for your message."
+//     });
+// });
+// app.get("/de/success", (req, res) => {
+//     i18n.setLocale(req, "de");
+//     res.render("success", {
+//         layout: "mainHPNoIndex",
+//         title: "Danke für Ihre Nachricht!",
+//         description: "Danke für Ihre Nachricht"
+//     });
+// });
 ///LEXICON PAGES
 
 app.get("/en/blog/seo-glossary", (req, res) => {
@@ -611,9 +572,7 @@ app.get("/de/blog/seo-glossary", (req, res) => {
 });
 
 app.get("/sitemap.xml", (req, res) => {
-    res.render("sitemap", {
-
-    });
+    res.render("sitemap", {});
 });
 
 app.get("/setcookiesession", (req, res) => {
@@ -654,7 +613,7 @@ app.get("/en/seo", function(request, response) {
 
 app.get("/en/technical/indexation", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/technical#indexation",
+        Location: "/en/blog/technical-seo#indexation",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -662,7 +621,7 @@ app.get("/en/technical/indexation", function(request, response) {
 
 app.get("/en/offpage/backlinkanalysis", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/offpage#backlinksanalysis",
+        Location: "/en/blog/backlinks#backlinksanalysis",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -670,7 +629,7 @@ app.get("/en/offpage/backlinkanalysis", function(request, response) {
 
 app.get("/de/offpage/backlinkanalysis", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/offpage#backlinksanalysis",
+        Location: "/de/blog/backlinks#backlinksanalysis",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -678,19 +637,11 @@ app.get("/de/offpage/backlinkanalysis", function(request, response) {
 
 app.get("/de/onpage/sprachsuche", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/onpage#voicesearch",
+        Location: "/de/blog/onpage-seo#voicesearch",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
-
-
-
-
-
-
-
-
 
 app.get("/de/seo", function(request, response) {
     response.writeHead(301, {
@@ -700,8 +651,6 @@ app.get("/de/seo", function(request, response) {
     response.end();
 });
 
-
-
 app.get("/en/casestudy/zalando", function(request, response) {
     response.writeHead(301, {
         Location: "/en/blog/case-study-zalando",
@@ -709,7 +658,6 @@ app.get("/en/casestudy/zalando", function(request, response) {
     });
     response.end();
 });
-
 
 app.get("/en/casestudy/n26", function(request, response) {
     response.writeHead(301, {
@@ -735,17 +683,13 @@ app.get("/en/casestudy/hellofresh", function(request, response) {
     response.end();
 });
 
-
-
 app.get("/en/casestudy/*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog",
+        Location: "/en/blog/seo-case-studies",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
-
-
 
 app.get("/en/research/*", function(request, response) {
     response.writeHead(301, {
@@ -762,7 +706,6 @@ app.get("/de/forschung/*", function(request, response) {
     });
     response.end();
 });
-
 
 app.get("/en/analytics", function(request, response) {
     response.writeHead(301, {
@@ -796,8 +739,6 @@ app.get("/de/seo-consultant", function(request, response) {
     response.end();
 });
 
-
-
 app.get("/en/blog/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogvoice", {
@@ -819,8 +760,6 @@ app.get("/en/blog/google-keyword-planner-guide", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
-
-
 
 app.get("/en/article/voicesearch", function(request, response) {
     response.writeHead(301, {
@@ -860,7 +799,10 @@ app.get("/en/blog/seo-in-asia-korea-china-japan-2020", (req, res) => {
     });
 });
 
-app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(request, response) {
+app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(
+    request,
+    response
+) {
     response.writeHead(301, {
         Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
         Expires: new Date().toGMTString()
@@ -900,7 +842,6 @@ app.get("/en/blog/voice-search-challenges", (req, res) => {
     });
 });
 
-
 app.get("/en/article/voice-search-challenges", function(request, response) {
     response.writeHead(301, {
         Location: "/en/blog/voice-search-challenges",
@@ -921,7 +862,10 @@ app.get("/en/blog/why-you-need-implement-structured-data", (req, res) => {
     });
 });
 
-app.get("/en/article/why-you-need-implement-structured-data", function(request, response) {
+app.get("/en/article/why-you-need-implement-structured-data", function(
+    request,
+    response
+) {
     response.writeHead(301, {
         Location: "/en/blog/why-you-need-implement-structured-data",
         Expires: new Date().toGMTString()
@@ -941,7 +885,10 @@ app.get("/en/blog/link-building-to-brandbuilding", (req, res) => {
     });
 });
 
-app.get("/en/article/link-building-to-brandbuilding", function(request, response) {
+app.get("/en/article/link-building-to-brandbuilding", function(
+    request,
+    response
+) {
     response.writeHead(301, {
         Location: "/en/blog/link-building-to-brandbuilding",
         Expires: new Date().toGMTString()
@@ -961,7 +908,6 @@ app.get("/en/blog/how-to-get-those-first-links", (req, res) => {
     });
 });
 
-
 app.get("/en/blog/site-migration-seo-checklist", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogsitemigration", {
@@ -974,7 +920,10 @@ app.get("/en/blog/site-migration-seo-checklist", (req, res) => {
     });
 });
 
-app.get("/en/article/how-to-get-those-first-links", function(request, response) {
+app.get("/en/article/how-to-get-those-first-links", function(
+    request,
+    response
+) {
     response.writeHead(301, {
         Location: "/en/blog/how-to-get-those-first-links",
         Expires: new Date().toGMTString()
@@ -982,7 +931,10 @@ app.get("/en/article/how-to-get-those-first-links", function(request, response) 
     response.end();
 });
 
-app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(request, response) {
+app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(
+    request,
+    response
+) {
     response.writeHead(301, {
         Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
         Expires: new Date().toGMTString()
@@ -1033,7 +985,7 @@ app.get("/en/audit", function(request, response) {
 
 app.get("/en/casestudy", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog",
+        Location: "/en/blog/seo-case-studies",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1055,13 +1007,6 @@ app.get("/en/scrum*", function(request, response) {
     response.end();
 });
 
-app.get("/de/onpage/*", function(request, response) {
-    response.writeHead(302, {
-        Location: "/de/onpage",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
 
 app.get("/de/consultant", function(request, response) {
@@ -1072,7 +1017,6 @@ app.get("/de/consultant", function(request, response) {
     response.end();
 });
 
-
 app.get("/en/consultant", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-freelancer",
@@ -1081,44 +1025,48 @@ app.get("/en/consultant", function(request, response) {
     response.end();
 });
 
-
-
-
-app.get("/en/onpage/*", function(request, response) {
+app.get("/en/onpage*", function(request, response) {
     response.writeHead(302, {
-        Location: "/en/onpage",
+        Location: "/en/blog/onpage-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage*", function(request, response) {
+    response.writeHead(302, {
+        Location: "/de/blog/onpage-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/de/offpage/*", function(request, response) {
+app.get("/de/offpage*", function(request, response) {
     response.writeHead(302, {
-        Location: "/de/offpage",
+        Location: "/de/blog/backlinks",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/offpage/*", function(request, response) {
+app.get("/en/offpage*", function(request, response) {
     response.writeHead(302, {
-        Location: "/en/offpage",
+        Location: "/en/blog/backlinks",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/de/technical/*", function(request, response) {
+app.get("/de/technical*", function(request, response) {
     response.writeHead(302, {
-        Location: "/de/technical",
+        Location: "/de/blog/technical-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/technical/*", function(request, response) {
+app.get("/en/technical*", function(request, response) {
     response.writeHead(302, {
-        Location: "/en/technical",
+        Location: "/en/blog/technical-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1141,10 +1089,9 @@ app.get("/de/seo-beratung", function(request, response) {
 });
 //////////////// Redirects////////////////
 
-var nodemailer = require('nodemailer');
+var nodemailer = require("nodemailer");
 
-app.post('/email', function(req, res) {
-
+app.post("/email", function(req, res) {
     nodemailer.createTestAccount((error, account) => {
         const htmlEmail = `
                     <h3> Contact Details </h3>
@@ -1156,7 +1103,7 @@ app.post('/email', function(req, res) {
                     <p>${req.body.message}</p>
                     `;
         let transporter = nodemailer.createTransport({
-            host: 'smtp.mailgun.org',
+            host: "smtp.mailgun.org",
             port: 465,
             secure: true,
             auth: {
