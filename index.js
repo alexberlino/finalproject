@@ -222,7 +222,7 @@ app.get("/de/blog/backlinks", (req, res) => {
 app.get("/de/blog/keyword-research", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogKW", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/blog/keyword-research",
         layout: "mainDE",
         title: "Keyword Recherche | SEO Blog  | seoberlino",
         description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
@@ -235,12 +235,12 @@ app.get("/de/blog/keyword-research", (req, res) => {
 app.get("/en/blog/keyword-research", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogKW", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/blog/keyword-research",
         layout: "main",
         title: "Keyword Research | SEO Blog  | seoberlino",
         description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
         canonical: "https://www.seoberlino.com/en/blog/keyword-research",
-        alt: "https://www.seoberlino.com/en/blog/keyword-research"
+        alt: "https://www.seoberlino.com/de/blog/keyword-research"
     });
 });
 
