@@ -861,10 +861,7 @@ app.get("/en/blog/seo-in-asia-korea-china-japan-2020", (req, res) => {
     });
 });
 
-app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(
-    request,
-    response
-) {
+app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(request, response) {
     response.writeHead(301, {
         Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
         Expires: new Date().toGMTString()
