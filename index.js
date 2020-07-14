@@ -217,6 +217,33 @@ app.get("/de/blog/backlinks", (req, res) => {
     });
 });
 
+
+
+app.get("/de/blog/keyword-research", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogKW", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainDE",
+        title: "Keyword Recherche | SEO Blog  | seoberlino",
+        description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
+        canonical: "https://www.seoberlino.com/de/blog/keyword-research",
+        alt: "https://www.seoberlino.com/en/blog/keyword-researchs"
+    });
+});
+
+
+app.get("/en/blog/keyword-research", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogKW", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Keyword Research | SEO Blog  | seoberlino",
+        description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
+        canonical: "https://www.seoberlino.com/en/blog/keyword-research",
+        alt: "https://www.seoberlino.com/en/blog/keyword-research"
+    });
+});
+
 app.get("/en/blog/seo-case-studies", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogcasestudies", {
@@ -1067,64 +1094,19 @@ app.get("/de/consultant", function(request, response) {
     response.end();
 });
 
-app.get("/en/consultant", function(request, response) {
+
+
+app.get("/de/onpage/keyword-recherche", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/seo-freelancer",
+        Location: "/de/blog/keyword-research",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/onpage*", function(request, response) {
-    response.writeHead(302, {
-        Location: "/en/blog/onpage-seo",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-app.get("/de/onpage*", function(request, response) {
-    response.writeHead(302, {
-        Location: "/de/blog/onpage-seo",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/offpage*", function(request, response) {
-    response.writeHead(302, {
-        Location: "/de/blog/backlinks",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/offpage*", function(request, response) {
-    response.writeHead(302, {
-        Location: "/en/blog/backlinks",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/technical*", function(request, response) {
-    response.writeHead(302, {
-        Location: "/de/blog/technical-seo",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/technical*", function(request, response) {
-    response.writeHead(302, {
-        Location: "/en/blog/technical-seo",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/seo-consultancy", function(request, response) {
+app.get("/en/onpage/keyword-research", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/seo-freelancer",
+        Location: "/en/blog/keyword-research",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1185,6 +1167,54 @@ app.post("/email", function(req, res) {
         }); //transporter
     });
 });
+
+app.get("/en/onpage*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/blog/onpage-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+app.get("/de/onpage*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/blog/onpage-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/offpage*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/blog/backlinks",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/offpage*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/blog/backlinks",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/technical*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/blog/technical-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/technical*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/blog/technical-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 
 app.all("*", function(req, res) {
     res.writeHead(404);
