@@ -132,12 +132,37 @@ app.get("/en", (req, res) => {
     });
 });
 
+
+app.get("/en/jobs", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("jobs", {
+        requrl: "https://www.seoberlino.com/en/jobs",
+        layout: "main",
+        title: "SEO Jobs in Berlin | seoberlino",
+        description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        canonical: "https://www.seoberlino.com/en",
+        alt: "https://www.seoberlino.com/de/jobs"
+    });
+});
+
+app.get("/de/jobs", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("jobs", {
+        requrl: "https://www.seoberlino.com/en/jobs",
+        layout: "mainDE",
+        title: "SEO Consultants und Outreach Specialists | SEO Jobs in Berlin | seoberlino",
+        description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        canonical: "https://www.seoberlino.com/de",
+        alt: "https://www.seoberlino.com/en/jobs"
+    });
+});
+
 app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Freelancer Consultant in Berlin, SEO Beratung | seoberlino",
+        title: "SEO Consultants and Outreach Specialists | SEO Jobs in Berlin | seoberlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
