@@ -140,7 +140,7 @@ app.get("/en/jobs", (req, res) => {
         layout: "main",
         title: "SEO Jobs in Berlin | seoberlino",
         description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "https://www.seoberlino.com/en",
+        canonical: "https://www.seoberlino.com/en/jobs",
         alt: "https://www.seoberlino.com/de/jobs"
     });
 });
@@ -152,7 +152,7 @@ app.get("/de/jobs", (req, res) => {
         layout: "mainDE",
         title: "SEO Consultants und Outreach Specialists | SEO Jobs in Berlin | seoberlino",
         description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "https://www.seoberlino.com/de",
+        canonical: "https://www.seoberlino.com/de/jobs",
         alt: "https://www.seoberlino.com/en/jobs"
     });
 });
@@ -227,7 +227,7 @@ app.get("/de/blog/keyword-research", (req, res) => {
         title: "Keyword Recherche | SEO Blog  | seoberlino",
         description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
         canonical: "https://www.seoberlino.com/de/blog/keyword-research",
-        alt: "https://www.seoberlino.com/en/blog/keyword-researchs"
+        alt: "https://www.seoberlino.com/en/blog/keyword-research"
     });
 });
 
@@ -271,7 +271,7 @@ app.get("/de/blog/seo-case-studies", (req, res) => {
 app.get("/en/blog/onpage-seo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogonpage", {
-        requrl: "https://www.seoberlino.com/" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/blog/onpage-seo",
         layout: "main",
         title: "Onpage SEO | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
@@ -283,7 +283,7 @@ app.get("/en/blog/onpage-seo", (req, res) => {
 app.get("/de/blog/onpage-seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogonpage", {
-        requrl: "https://www.seoberlino.com/" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/blog/onpage-seo",
         layout: "mainDE",
         title: "Onpage SEO | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
@@ -295,7 +295,7 @@ app.get("/de/blog/onpage-seo", (req, res) => {
 app.get("/en/blog/technical-seo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtechnical", {
-        requrl: "https://www.seoberlino.com/" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/blog/technical-seo",
         layout: "main",
         title: "Technical SEO | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
@@ -308,7 +308,7 @@ app.get("/en/blog/technical-seo", (req, res) => {
 app.get("/de/blog/technical-seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtechnical", {
-        requrl: "https://www.seoberlino.com/" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/blog/technical-seo",
         layout: "mainDE",
         title: "Technisches SEO | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
