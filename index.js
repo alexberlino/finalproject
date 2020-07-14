@@ -172,11 +172,11 @@ app.get("/en/blog/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogbacklinks", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "main",
         title: "Backlinks & Offpage SEO | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog/backlinks",
-        alt: "https://www.seoberlino.com/en/blog/backlinks"
+        alt: "https://www.seoberlino.com/de/blog/backlinks"
     });
 });
 
@@ -184,10 +184,10 @@ app.get("/de/blog/backlinks", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogbacklinks", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "mainDE",
         title: "Backlinks & Offpage SEO | SEO Blog  | seoberlino",
         description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/backlinks",
+        canonical: "https://www.seoberlino.com/de/blog/backlinks",
         alt: "https://www.seoberlino.com/en/blog/backlinks"
     });
 });
@@ -212,7 +212,7 @@ app.get("/de/blog/seo-case-studies", (req, res) => {
         title: "SEO Case Studies | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog/seo-case-studies",
-        alt: "https://www.seoberlino.com/de/blog/seo-case-studies"
+        alt: "https://www.seoberlino.com/en/blog/seo-case-studies"
     });
 });
 
@@ -220,11 +220,11 @@ app.get("/en/blog/onpage-seo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogonpage", {
         requrl: "https://www.seoberlino.com/" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "main",
         title: "Onpage SEO | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog/onpage-seo",
-        alt: "https://www.seoberlino.com/en/blog/onpage-seo"
+        alt: "https://www.seoberlino.com/de/blog/onpage-seo"
     });
 });
 
@@ -232,7 +232,7 @@ app.get("/de/blog/onpage-seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogonpage", {
         requrl: "https://www.seoberlino.com/" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "mainDE",
         title: "Onpage SEO | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/blog/onpage-seo",
@@ -244,11 +244,11 @@ app.get("/en/blog/technical-seo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtechnical", {
         requrl: "https://www.seoberlino.com/" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "main",
         title: "Technical SEO | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog/technical-seo",
-        alt: "https://www.seoberlino.com/en/blog/technical-seo"
+        alt: "https://www.seoberlino.com/de/blog/technical-seo"
     });
 });
 
@@ -257,19 +257,19 @@ app.get("/de/blog/technical-seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtechnical", {
         requrl: "https://www.seoberlino.com/" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "mainDE",
         title: "Technisches SEO | SEO Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/technical-seo",
+        canonical: "https://www.seoberlino.com/de/blog/technical-seo",
         alt: "https://www.seoberlino.com/en/blog/technical-seo"
     });
 });
 
 app.get("/de/blog", (req, res) => {
-    i18n.setLocale(req, "de");
+    i18n.setLocale(req, "en");
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en/blog",
-        layout: "mainNoAltNoIndex",
+        layout: "mainNoAlt",
         title: "Suchmaschinenoptimierung Blog | seoberlino",
         description: "SEO Blog von seoberlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com/en/blog",
