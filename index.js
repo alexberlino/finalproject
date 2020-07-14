@@ -163,7 +163,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
         title: "SEO Freelancer Consultant | SEO Beratung | seoberlino",
-        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum Implementierung. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
     });
