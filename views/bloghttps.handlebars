@@ -11,74 +11,60 @@
                         </nav>
 
                         <div class="boxcolor" data-aos="fade-in"><br>
-                            <h1 class="title is-1 is-heavy is-white has-text-centered">Why you need to implement Structured Data</h1><br>
+                            <h1 class="title is-1 is-heavy is-white has-text-centered"></h1><br>
                         </div>
                         <br>
                         <span class="subtitle is-6 is-black"><a href="/{{{__ "lang"}}}/contact">By Alex Bieth</a></span><br>
-                        <span class="subtitle is-6 is-black"><img src="/clock.png" alt="date icon" /> 25 August 2019</span>
+                        <span class="subtitle is-6 is-black"><img src="/clock.png" alt="date icon" /> </span>
+
                         <br>
                     </div>
                     <div class="column is-12-mobile is-10-tablet is-9-desktop post content">
-                        <span class="is-heavy subtitle is-6">Google, Bing, Yandex and Yahoo agreed on a standardised format: schema.org for providing information about a page and to classify its content. using Structured Data will enable you to
-                            improve the way your pages are
-                            displayed.</span><br><br>
+
+                        {{!-- https start --}}
+                        <h2 id="https" class="title is-1 is-heavy reduced-top-margin">{{{__ "technicalHP7"}}}</h2>
+
+                        <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "securityMPT1"}}}</h2>
+                        <p>{{{__ "securityMP1"}}}</p>
+
+                        <img src="/icons/notsecure.png" alt="not secure message" width="100px" height="32px" />
+
+                        <h2 class="title is-4 is-heavy">{{{__ "securityMPT2"}}}</h2>
+                        <p>{{{__ "securityMP2"}}}</p>
+
+                        <p>{{{__ "securityMP3"}}}</p>
+
+                        <h2 class="title is-4 is-heavy">{{{__ ""}}}</h2>
+                        <h2 class="title is-4 is-heavy">{{{__ "securityMPT4"}}}</h2>
+                        <p>{{{__ "securityMP4"}}}</p>
 
 
 
 
-                        <h2 class="title is-4 is-black is-heavy">What are Structured Data for</h2>
-
-                        You can use Structured Data to provide additional information about creative work, events, organisation, a person, a place or a product. <br>Here is a list of the most common used of Structured Data:<br><br>
-                        * Organization information<br>
-                        * Local business Markup<br>
-                        * Product and Offer<br>
-                        * Breadcrumb<br>
-                        * Ratings<br>
-                        * Site navigation<br><br>
-
-
-                        The recommended format is JSON-LD but you can also use Microdata an RDFa, not microformats.<br><br>
 
 
 
-                        <h2 class="title is-4 is-black is-heavy">Tips</h2>
-                        * Make sure the content you are promoting is your content or your users'<br>
-                        * Don't mark hidden, misleading or irrelevant content<br>
-                        * Don't mix up Structured Data with Open Graph, which is used by Facebook. Although a type of markup, it is not as detailed.<br>
-                        * Implementing Structured Data doesn't guaranty it will be shown as you wish on the SERPs..<br>
-                        * When displayed correctly and with visibility, they will boost your CTR<br><br>
 
-
-                        Rankings: There is no proof that using Structured Data currently improves your rankings. However, this will certainly change with mobile first, voice search and how Google's indexation is heading to closer dependance on API,
-                        XML and JSON-LD feeds.
-                        <br><br><br> <br>
                         <div> Tags:
-
-                            <a href="/{{{__ "lang"}}}/blog/seo-case-studies" class="tag green"> onpage seo</a>
-
-                        </div><br>
-                        <br> <br><br>
+                            <a href="/{{{__ "lang"}}}/blog/technical-seo" class="tag red"> technical</a>
+                        </div><br><br><br>
                         <div class="fb-like sidebar columns is-centered" data-href="https://www.seoberlino.com/en" data-width=250 data-layout="standard" data-action="like" data-size="large" data-share="true"></div><br><br>
-
-
-                        <br><br> <br>
-
+                        <br><br>
                     </div>
                     <div class="column is-centered is-10-mobile is-7-tablet is-3-desktop sidebar sidebarblog">
 
-
-                        {{>sideonpage}}
+                        {{>sidebartech}}
 
 
 
                         <br><br>
 
                     </div><br>
+
                 </div>
                 {{>articlesCTA}}
             </div>
     </section>
-
     <section class="comments-hero hero is-medium off-white">
         <div class="hero-body remove-padding">
             <div class="container reduced">
@@ -94,8 +80,8 @@
                             */
 
                             var disqus_config = function() {
-                                this.page.url = `https://www.seoberlino.com/{{{__ "lang"}}}/blogwhy-you-need-implement-structured-data`; // Replace PAGE_URL with your page's canonical URL variable
-                                this.page.identifier = "structureddata"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                                this.page.url = `https://www.seoberlino.com/{{{__ "lang"}}}/blogsite-migration-seo-checklist`; // Replace PAGE_URL with your page's canonical URL variable
+                                this.page.identifier = "sitemigration"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                             };
 
 
@@ -112,3 +98,5 @@
             </div>
         </div>
     </section>
+
+    </div>
