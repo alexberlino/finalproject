@@ -9360,13 +9360,33 @@ body.frozen {
 }
 
 .sidebarblog ul {
-    margin-left: 50px;
     list-style: none;
     position: relative;
-    top: 20%;
+    top: 10%;
+    overflow-x: hidden;
+    background-color: #ECECEC;
+    padding: 10px
+}
+
+.sidebartags ul {
+    list-style: none;
+    position: relative;
+    top: 10%;
+    overflow-x: hidden;
+}
+
+.sidebarblog li {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+    border: 1px darkgrey dotted;
 }
 
 .sidebarblog a {
+    color: black !important;
+    font-weight: normal !important;
+}
+
+.sidebartags a {
     color: black !important;
     font-weight: normal !important;
 }
