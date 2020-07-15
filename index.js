@@ -333,9 +333,9 @@ app.get("/de/blog/mobile", (req, res) => {
 
 
 
-app.get("/en/blog/java", (req, res) => {
+app.get("/en/blog/javascript", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("blogmobile", {
+    res.render("blogjava", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Javascript and SEO  | SEO Blog  | seoberlino",
@@ -346,7 +346,7 @@ app.get("/en/blog/java", (req, res) => {
 });
 
 
-app.get("/de/blog/java", (req, res) => {
+app.get("/de/blog/javascript", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogjava", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -359,7 +359,7 @@ app.get("/de/blog/java", (req, res) => {
 });
 
 
-app.get("//en/blog/blogpagespeed", (req, res) => {
+app.get("/en/blog/pagespeed", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogpagespeed", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -383,12 +383,6 @@ app.get("/de/blog/pagespeed", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/pagespeed"
     });
 });
-
-
-
-
-
-
 
 
 app.get("/en/blog/images", (req, res) => {
@@ -442,13 +436,6 @@ app.get("/de/blog/content", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/content"
     });
 });
-
-
-
-
-
-
-
 
 
 app.get("/en/blog/backlinks", (req, res) => {
@@ -520,12 +507,12 @@ app.get("/de/blog/indexation", (req, res) => {
 });
 
 
-app.get("/en/indexation", (req, res) => {
+app.get("/en/blog/indexation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogindexation", {
         requrl: "https://www.seoberlino.com/en/indexation",
         layout: "main",
-        title: "indexation | SEO Blog  | seoberlino",
+        title: "Indexation | SEO Blog  | seoberlino",
         description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
         canonical: "https://www.seoberlino.com/en/indexation",
         alt: "https://www.seoberlino.com/de/blog/indexation"
@@ -1001,7 +988,7 @@ app.get("/en/technical/indexation", function(request, response) {
 
 app.get("/en/offpage/backlinkanalysis", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/backlinks#backlinksanalysis",
+        Location: "/en/blog/backlink-analysis",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1009,7 +996,7 @@ app.get("/en/offpage/backlinkanalysis", function(request, response) {
 
 app.get("/de/offpage/backlinkanalysis", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/blog/backlinks#backlinksanalysis",
+        Location: "/de/blog/backlink-analysis",
         Expires: new Date().toGMTString()
     });
     response.end();

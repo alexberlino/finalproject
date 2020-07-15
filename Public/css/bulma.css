@@ -9319,7 +9319,7 @@ a:hover {
 }
 
 .yellow {
-    background-color: #ffdc6a;
+    background-color: #ffae42;
 }
 
 .green {
@@ -9327,11 +9327,15 @@ a:hover {
 }
 
 .red {
-    background-color: #DC143C;
+    background-color: #8B0000;
 }
 
 .blue2 {
     background-color: #3a4660;
+}
+
+.grey {
+    background-color: darkgrey
 }
 
 .boxcolorheader {
