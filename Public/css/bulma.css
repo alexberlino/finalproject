@@ -9294,7 +9294,7 @@ body.frozen {
     color: #fff;
     border: 1;
     padding: 1rem .55rem;
-    border-radius: 15px
+    border-radius: 5px
 }
 
 .boxcolorheader {
@@ -9378,8 +9378,14 @@ body.frozen {
 .sidebarblog li {
     padding-left: 1px !important;
     padding-right: 1px !important;
+}
+
+.sidebarblog img {
+    min-height: 110px;
     border: 1px darkgrey dotted;
 }
+
+.sidebarblog figcaption {}
 
 .sidebarblog a {
     color: black !important;

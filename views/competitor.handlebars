@@ -1,48 +1,81 @@
-<div class="content single-post has-sidebar offpage-en">
-
-
-    <!-- Blog Article Body -->
-    <section class="blogpost-hero hero is-medium">
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <div class="columns is-centered is-multiline">
-                    <div class="column is-12-mobile is-12-tablet is-10-desktop">
-
-
-                        <div class="boxcolor" data-aos="fade-in"><br>
-                            <h1 class="title is-1 is-heavy is-white has-text-centered">{{{__ "bestpractMPH1"}}}</h1><br>
-                        </div>
-                        <br>
-                        <nav class="breadcrumb" aria-label="breadcrumbs">
-                            <ul>
-                                <li><a href="/{{{__ "lang"}}}/seo-freelancer">{{{__ "seoexpert"}}}</a></li>
-                                <li><a href="/{{{__ "lang"}}}/blog">Blog</a></li>
-                            </ul>
-                        </nav><br><span class=" subtitle is-6 is-black"><a href="/{{{__ "lang"}}}/contact">By Alex Bieth</a></span><br>
-                        <span class="subtitle is-6 is-black"><img src="/clock.png" alt="date icon" /> 12 March 2020</span>
-                        <br>
+<section class="blogpost-hero hero is-medium">
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <div class="columns is-centered is-multiline">
+                <div class="column is-12-mobile is-10-tablet is-12-desktop">
+                    <nav class="breadcrumb" aria-label="breadcrumbs">
+                        <ul>
+                            <li><a href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}"> {{{__ "services"}}} </a></li>
+                            <li><a href="/{{{__ "lang"}}}/blog">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <div class="boxcolor" data-aos="fade-in"><br>
+                        <h1 class="title is-1 is-heavy is-white has-text-centered">{{{__ "bestpractMPH1"}}}</h1><br>
                     </div>
-                    <div class="column is-12-mobile is-7-tablet is-10-desktop post">
-                        <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "bestpractMPT1"}}}</h2>
-                        <p>{{{__ "bestpractMP1"}}}</p>
-                        <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT2"}}}</h2>
-                        <p>{{{__ "bestpractMP2"}}}</p>
-                        <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT3"}}}</h2>
-                        <p>{{{__ "bestpractMP3"}}}</p>
-                        <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT4"}}}</h2>
-                        <p>{{{__ "bestpractMP4"}}}</p>
-                        <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT5"}}}</h2>
-                        <p>{{{__ "bestpractMP5"}}}</p>
-                        <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT6"}}}</h2>
-                        <p>{{{__ "bestpractMP6"}}}</p>
-                        <br><br>
-                        <div class="fb-like sidebar columns is-centered" data-href="https://www.seoberlino.com/en" data-width=250 data-layout="standard" data-action="like" data-size="large" data-share="true"></div><br><br>
+                    <br>
+                    <br><span class=" subtitle is-6 is-black"><a href="/{{{__ "lang"}}}/contact">By Alex Bieth</a></span><br>
+                    <span class="subtitle is-6 is-black"><img src="/clock.png" alt="date icon" /> 12 March 2020</span>
+                    <br>
+                </div>
+                <div class="column is-12-mobile is-7-tablet is-9-desktop post content">
+                    <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "bestpractMPT1"}}}</h2>
+                    <p>{{{__ "bestpractMP1"}}}</p>
+                    <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT2"}}}</h2>
+                    <p>{{{__ "bestpractMP2"}}}</p>
+                    <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT3"}}}</h2>
+                    <p>{{{__ "bestpractMP3"}}}</p>
+                    <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT4"}}}</h2>
+                    <p>{{{__ "bestpractMP4"}}}</p>
+                    <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT5"}}}</h2>
+                    <p>{{{__ "bestpractMP5"}}}</p>
+                    <h2 class="title is-4 is-heavy">{{{__ "bestpractMPT6"}}}</h2>
+                    <p>{{{__ "bestpractMP6"}}}</p>
+                    <br><br>
+                    <div class="fb-like sidebar columns is-centered" data-href="https://www.seoberlino.com/en" data-width=250 data-layout="standard" data-action="like" data-size="large" data-share="true"></div><br><br>
 
-                    </div>
-                    {{>articlesCTA}}
-                </div><br><br><br><br>
+                </div>
+                <div class="column is-centered is-10-mobile is-5-tablet is-3-desktop sidebar sidebarblog">
+                    {{>sideonpage}}
+
+
+                    <br><br>
+
+                </div><br>
 
             </div>
+            {{>articlesCTA}}
         </div>
-    </section>
-</div>
+</section>
+<section class="comments-hero hero is-medium off-white">
+    <div class="hero-body remove-padding">
+        <div class="container reduced">
+            <div class="columns is-centered">
+                <div class="column is-10 comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                        /*
+
+                        */
+
+                        var disqus_config = function() {
+                            this.page.url = `/{{{__ "lang"}}}/blog/{{{__ "competitorURL"}}}">{{{__ "competitoranalysis"}}}`; // Replace PAGE_URL with your page's canonical URL variable
+                            this.page.identifier = "competitoranalysis"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+
+
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                            var d = document,
+                                s = d.createElement('script');
+                            s.src = 'https://www-seoberlino-com.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

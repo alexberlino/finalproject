@@ -493,7 +493,7 @@ app.get("/de/blog/localSEO", (req, res) => {
 
 app.get("/en/blog/backlink-analysis", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("offpage", {
+    res.render("blogbacklinkanalysis", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Backlink Analysis and Offpage SEO | seoberlino",
@@ -505,7 +505,7 @@ app.get("/en/blog/backlink-analysis", (req, res) => {
 
 app.get("/de/blog/backlink-analysis", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("offpage", {
+    res.render("blogbacklinkanalysis", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Backlinks & Offpage SEO | seoberlino",

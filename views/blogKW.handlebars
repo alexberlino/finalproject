@@ -1,4 +1,3 @@
-<div class="content blog-post single-post blog-en">
     <section class="blogpost-hero hero is-medium">
         <div class="hero-body remove-padding">
             <div class="container reduced">
@@ -19,7 +18,7 @@
                         <span class="subtitle is-6 is-black"><img src="/clock.png" alt="date icon" /> 25 November 2019</span>
                         <br><br><br>
                     </div>
-                    <div class="column is-12-mobile is-10-tablet is-9-desktop post">
+                    <div class="column is-12-mobile is-10-tablet is-9-desktop post content">
 
                         <figure class="image is-fullwidth is-outlined">
                             <img alt="{{{__ "keywordresearch"}}}" src="/auditmainpic/content.jpg" />
@@ -72,8 +71,9 @@
                         </span>
                     </div>
 
-                    <div class="column is-centered is-8-mobile is-3-tablet is-3-desktop sidebar sidebarblog">
-                        {{>sidebartech}}
+                    <div class="column is-centered is-10-mobile is-7-tablet is-3-desktop sidebar sidebarblog">
+
+                        {{>sideonpage}}
 
 
 
@@ -85,39 +85,39 @@
                 {{>articlesCTA}}
             </div>
     </section>
-</div>
+    </div>
 
 
-<section class="comments-hero hero is-medium off-white">
-    <div class="hero-body remove-padding">
-        <div class="container reduced">
-            <div class="columns is-centered">
-                <div class="column is-10 comments">
-                    <div id="disqus_thread"></div>
-                    <script>
-                        /**
-                         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                        /*
+    <section class="comments-hero hero is-medium off-white">
+        <div class="hero-body remove-padding">
+            <div class="container reduced">
+                <div class="columns is-centered">
+                    <div class="column is-10 comments">
+                        <div id="disqus_thread"></div>
+                        <script>
+                            /**
+                             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                            /*
 
-                        */
+                            */
 
-                        var disqus_config = function() {
-                            this.page.url = `https://www.seoberlino.com/{{{__ "lang"}}}/blog/keyword-research`; // Replace PAGE_URL with your page's canonical URL variable
-                            this.page.identifier = "KWResearch"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                        };
+                            var disqus_config = function() {
+                                this.page.url = `https://www.seoberlino.com/{{{__ "lang"}}}/blog/keyword-research`; // Replace PAGE_URL with your page's canonical URL variable
+                                this.page.identifier = "KWResearch"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            };
 
 
-                        (function() { // DON'T EDIT BELOW THIS LINE
-                            var d = document,
-                                s = d.createElement('script');
-                            s.src = 'https://www-seoberlino-com.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
+                            (function() { // DON'T EDIT BELOW THIS LINE
+                                var d = document,
+                                    s = d.createElement('script');
+                                s.src = 'https://www-seoberlino-com.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
