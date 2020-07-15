@@ -9319,15 +9319,19 @@ a:hover {
 }
 
 .yellow {
-    background-color: goldenrod;
+    background-color: #ffdc6a;
 }
 
 .green {
-    background-color: seagreen;
+    background-color: #1dbab4;
 }
 
 .red {
-    background-color: #df2d4f;
+    background-color: #DC143C;
+}
+
+.blue2 {
+    background-color: #3a4660;
 }
 
 .boxcolorheader {

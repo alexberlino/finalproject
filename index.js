@@ -193,6 +193,39 @@ app.get("/en/blog", (req, res) => {
     });
 });
 
+
+app.get("/en/blog/metas", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogmeta", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Metas and Titles for SEO  | SEO Blog  | seoberlino",
+        description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        canonical: "https://www.seoberlino.com/en/blog/metas",
+        alt: "https://www.seoberlino.com/en/blog/metas"
+    });
+});
+
+
+app.get("/de/blog/metas", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogmeta", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainDE",
+        title: "Metas & Titles für SEO | SEO Blog  | seoberlino",
+        description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        canonical: "https://www.seoberlino.com/de/blog/metas",
+        alt: "https://www.seoberlino.com/en/blog/metas"
+    });
+});
+
+
+
+
+
+
+
+
 app.get("/en/blog/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogbacklinks", {
