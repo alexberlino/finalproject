@@ -185,7 +185,7 @@ app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "main",
         title: "SEO Blog - Search Engine Optimization Blog | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog",
@@ -321,10 +321,10 @@ app.get("/de/blog", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en/blog",
-        layout: "mainNoAlt",
+        layout: "mainDE",
         title: "Suchmaschinenoptimierung Blog | seoberlino",
         description: "SEO Blog von seoberlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
-        canonical: "https://www.seoberlino.com/en/blog",
+        canonical: "https://www.seoberlino.com/de/blog",
         alt: "https://www.seoberlino.com/en/blog"
     });
 });
@@ -1039,7 +1039,7 @@ app.get("/de/lexical*", function(request, response) {
 
 app.get("/", function(request, response) {
     response.writeHead(301, {
-        Location: "/de",
+        Location: "/de/seo-freelancer",
         Expires: new Date().toGMTString()
     });
     response.end();

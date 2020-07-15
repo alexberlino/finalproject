@@ -9297,6 +9297,39 @@ body.frozen {
     border-radius: 5px
 }
 
+.main {
+    margin: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.tag {
+    margin: 0 2px;
+    padding: 4px 10px;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.yellow {
+    background-color: goldenrod;
+}
+
+.green {
+    background-color: seagreen;
+}
+
+.red {
+    background-color: #df2d4f;
+}
+
 .boxcolorheader {
     background-color: #d93a5f;
     color: #fff;
