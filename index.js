@@ -514,7 +514,7 @@ app.get("/en/blog/indexation", (req, res) => {
         layout: "main",
         title: "Indexation | SEO Blog  | seoberlino",
         description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/en/indexation",
+        canonical: "https://www.seoberlino.com/en/blog/indexation",
         alt: "https://www.seoberlino.com/de/blog/indexation"
     });
 });
