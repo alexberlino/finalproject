@@ -575,6 +575,13 @@ table th {
     text-align: right !important
 }
 
+.post2 {
+    max-height: 440px;
+    overflow: hidden;
+    margin-bottom: 90px;
+    margin-left: 50px;
+}
+
 @media screen and (max-width:768px) {
     .has-text-centered-mobile {
         text-align: center !important
@@ -584,6 +591,8 @@ table th {
         width: 77% !important;
         height: 77% !important;
         margin-left: 10% !important;
+        max-height: 440px;
+        overflow: hidden;
     }
 }
 
@@ -9628,7 +9637,10 @@ footer.page-end .clutch {
 }
 
 .archive .post {
-    padding: 2rem
+    padding: 2rem;
+    max-height: 500px;
+    overflow: hidden;
+    padding-bottom: 50px;
 }
 
 .archive .post .title {
