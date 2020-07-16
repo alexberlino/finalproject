@@ -9345,6 +9345,13 @@ a:hover {
     padding: 3rem .75rem;
 }
 
+.boxcolor1 {
+    background-color: #fcf8ee;
+    border: 1px lightgrey dotted;
+    padding: 1.5rem .45rem;
+    color: black
+}
+
 .boxcolor2 {
     background-color: white;
     border: 1px lightgrey dotted;

@@ -4062,6 +4062,10 @@ a.tag:hover {
     border-color: #fff
 }
 
+.is-red h2 {
+    color: red
+}
+
 .is-white.input:active, .is-white.input:focus, .is-white.is-active.input, .is-white.is-active.textarea, .is-white.is-focused.input, .is-white.is-focused.textarea, .is-white.textarea:active, .is-white.textarea:focus {
     box-shadow: 0 0 0 .125em rgba(255, 255, 255, .25)
 }
