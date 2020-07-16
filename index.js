@@ -1317,7 +1317,7 @@ app.get("/de/lexical*", function(request, response) {
 
 app.get("/", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/seo-freelancer",
+        Location: "/en",
         Expires: new Date().toGMTString()
     });
     response.end();
