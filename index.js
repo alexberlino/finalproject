@@ -596,7 +596,7 @@ app.get("/de/blog/technical-seo", (req, res) => {
 });
 
 app.get("/de/blog", (req, res) => {
-    i18n.setLocale(req, "en");
+    i18n.setLocale(req, "de");
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en/blog",
         layout: "mainDE",
