@@ -340,8 +340,8 @@ app.get("/en/blog/javascript", (req, res) => {
         layout: "main",
         title: "Javascript and SEO  | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/java",
-        alt: "https://www.seoberlino.com/de/blog/java"
+        canonical: "https://www.seoberlino.com/en/blog/javascript",
+        alt: "https://www.seoberlino.com/de/blog/javascript"
     });
 });
 
@@ -353,8 +353,8 @@ app.get("/de/blog/javascript", (req, res) => {
         layout: "mainDE",
         title: "Javascript und SEO | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/java",
-        alt: "https://www.seoberlino.com/en/blog/java"
+        canonical: "https://www.seoberlino.com/de/blog/javascript",
+        alt: "https://www.seoberlino.com/en/blog/javascript"
     });
 });
 
@@ -497,12 +497,12 @@ app.get("/en/blog/keyword-research", (req, res) => {
 app.get("/de/blog/indexation", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogindexation", {
-        requrl: "https://www.seoberlino.com/en/indexation",
+        requrl: "https://www.seoberlino.com/en/blog/indexation",
         layout: "mainDE",
-        title: "indexation | SEO Blog  | seoberlino",
+        title: "Indexierung | SEO Blog  | seoberlino",
         description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/indexationh",
-        alt: "https://www.seoberlino.com/en/indexation"
+        canonical: "https://www.seoberlino.com/de/blog/indexation",
+        alt: "https://www.seoberlino.com/en/blog/indexation"
     });
 });
 
@@ -510,7 +510,7 @@ app.get("/de/blog/indexation", (req, res) => {
 app.get("/en/blog/indexation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogindexation", {
-        requrl: "https://www.seoberlino.com/en/indexation",
+        requrl: "https://www.seoberlino.com/en/blog/indexation",
         layout: "main",
         title: "Indexation | SEO Blog  | seoberlino",
         description: "seoberlino Blog, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
