@@ -1,49 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- <url><loc>https://www.seoberlino.com/en</loc></url>
- <url><loc>https://www.seoberlino.com/de</loc> </url>
-<url><loc>https://www.seoberlino.com/en/sea</loc></url>
-<url><loc>https://www.seoberlino.com/de/sea</loc></url>
-<url><loc>https://www.seoberlino.com/en/contact</loc></url>
-<url><loc>https://www.seoberlino.com/de/contact</loc></url>
-<url><loc>https://www.seoberlino.com/en/jobs</loc></url>
-<url><loc>https://www.seoberlino.com/de/jobs</loc></url>
-<url><loc>https://www.seoberlino.com/en/seo-freelancer</loc></url>
-<url><loc>https://www.seoberlino.com/de/seo-freelancer</loc></url>
-<url><loc>https://www.seoberlino.com/en/agile-coach-berlin</loc></url>
-<url><loc>https://www.seoberlino.com/de/blog/seo-glossary</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/seo-glossary</loc></url>
-<url><loc>https://www.seoberlino.com/de/blog/keyword-research</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/keyword-research</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/case-study-zalando</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/case-study-hellofresh</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/case-study-fromatob</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/case-study-hometogo</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/case-study-n26</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/case-study-modomoto</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/case-study-juniqe</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/case-study-wooga</loc></url>
-<url><loc>https://www.seoberlino.com/de/blog/mitwettbewerber</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/competitor-analysis</loc></url>
-<url><loc>https://www.seoberlino.com/en/blog/</loc></url>
-<url><loc>https://www.seoberlino.com/en/blog/voicesearch</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/backlinks</loc></url>
-<url><loc>https://www.seoberlino.com/de/blog/backlinks</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/seo-case-studies</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/onpage-seo</loc></url>
-<url><loc>https://www.seoberlino.com/de/blog/onpage-seo</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/technical-seo</loc></url>
-<url><loc>https://www.seoberlino.com/de/blog/technical-seo</loc></url>
-<url><loc>https://www.seoberlino.com/en/blog/linkbuilding-in-2020</loc>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/beyond-mobile-first</loc>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/how-to-get-those-first-links</loc>
-<url><loc>https://www.seoberlino.com/en/blog/clutch</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/backlink-analysis</loc></url>
-<url><loc>https://www.seoberlino.com/de/blog/backlink-analysis</loc></url>
-<url><loc>https://www.seoberlino.com/{{{__ "lang"}}}/blog/localSEO</loc></url>
-<url><loc>https://www.seoberlino.com/de/blog/localSEO</loc></url>
-<url><loc>https://www.seoberlino.com/en/blog/link-building-to-brandbuilding</loc>
-<url><loc>https://www.seoberlino.com/en/blog/seo-in-asia-korea-china-japan-2020</loc>
-<url><loc>https://www.seoberlino.com/en/blog/why-you-need-implement-structured-data</loc></url>
-<url><loc>https://www.seoberlino.com/en/blog/site-migration-seo-checklist</loc></url>
+<url><loc>https://www.seoberlino.com/de/seo-freelancer
+    </loc></url><url><loc>https://www.seoberlino.com/de
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/technical-seo
+    </loc></url><url><loc>https://www.seoberlino.com/de/sea
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/backlinks
+    </loc></url><url><loc>https://www.seoberlino.com/de/jobs
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/onpage-seo
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/backlink-analysis
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/mitwettbewerber
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/keyword-research
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/localSEO
+    </loc></url><url><loc>https://www.seoberlino.com/en/seo-freelancer
+    </loc></url><url><loc>https://www.seoberlino.com/en
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/seo-glossary
+    </loc></url><url><loc>https://www.seoberlino.com/de/contact
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/mobile
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/link-building-to-brandbuilding
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/crawl
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/crawl
+    </loc></url><url><loc>https://www.seoberlino.com/en/contact
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/pagespeed
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/beyond-mobile-first
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/why-you-need-implement-structured-data
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/localSEO
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/seo-in-asia-korea-china-japan-2020
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/case-study-fromatob
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/indexation
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/javascript
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/backlinks
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/case-study-modomoto
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/mobile
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/onpage-seo
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/voicesearch
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/backlink-analysis
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/content
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/case-study-hellofresh
+    </loc></url><url><loc>https://www.seoberlino.com/en/sea
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/linkbuilding-in-2020
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/technical-seo
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/case-study-n26
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/https
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/images
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/metas
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/https
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/seo-case-studies
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/metas
+    </loc></url><url><loc>https://www.seoberlino.com/en/agile-coach-berlin
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/case-study-wooga
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/site-migration-seo-checklist
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/seo-glossary
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/case-study-juniqe
+    </loc></url><url><loc>https://www.seoberlino.com/en/jobs
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/images
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/how-to-get-those-first-links
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/international
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/case-study-zalando
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/competitor-analysis
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/keyword-research
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/pagespeed
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/case-study-hometogo
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/clutch
+    </loc></url><url><loc>https://www.seoberlino.com/en/blog/content
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/international
+    </loc></url><url><loc>https://www.seoberlino.com/de/blog/javascript
+</url></loc>
 </urlset>
