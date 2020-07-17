@@ -1315,6 +1315,13 @@ a.has-text-danger:focus, a.has-text-danger:hover {
     }
 }
 
+@media screen and (max-width: 1024px)and (orientation:landscape) {
+    .archive {
+        max-width: 90% !important;
+        height: auto !important;
+    }
+}
+
 .is-inline-flex {
     display: inline-flex !important
 }
@@ -9321,11 +9328,11 @@ body.frozen {
 }
 
 .h1HP {
-    font-size: 45px
+    font-size: 38px !important;
 }
 
 .h2HP {
-    font-size: 30px
+    font-size: 22px !important
 }
 
 .tag {
@@ -10831,27 +10838,27 @@ xmp {
     }
 
     .subtitle.is-1, .title.is-1 {
-        font-size: 1.8rem !important
+        font-size: 1.9rem !important
     }
 
     .subtitle.is-2, .title.is-2 {
-        font-size: 1.6rem !important
+        font-size: 1.7rem !important
     }
 
     .subtitle.is-3, .title.is-3 {
-        font-size: 1.4rem !important
+        font-size: 1.5rem !important
     }
 
     .subtitle.is-4, .title.is-4 {
-        font-size: 1.2rem !important
+        font-size: 1.3rem !important
     }
 
     .subtitle.is-5, .title.is-5 {
-        font-size: 1.1rem !important
+        font-size: 1.2rem !important
     }
 
     .subtitle.is-6, .title.is-6 {
-        font-size: 1rem !important
+        font-size: 1.2rem !important
     }
 
     .subtitle.boost-margin, .title.boost-margin {
@@ -10991,35 +10998,35 @@ xmp {
     }
 
     .subtitle, .title {
-        margin-bottom: 1rem !important
+        margin-bottom: 1.1rem !important
     }
 
     .subtitle.is-1, .title.is-1 {
-        font-size: 1.65rem !important
+        font-size: 1.85rem !important
     }
 
     .subtitle.is-2, .title.is-2 {
-        font-size: 1.45rem !important
+        font-size: 1.65rem !important
     }
 
     .subtitle.is-3, .title.is-3 {
-        font-size: 1.35rem !important
+        font-size: 1.55rem !important
     }
 
     .subtitle.is-4, .title.is-4 {
-        font-size: 1.15rem !important
+        font-size: 1.35rem !important
     }
 
     .subtitle.is-5, .title.is-5 {
-        font-size: .9rem !important
+        font-size: 1.1rem !important
     }
 
     .subtitle.is-6, .title.is-6 {
-        font-size: .85rem !important
+        font-size: 1.05rem !important
     }
 
     .subtitle.boost-margin, .title.boost-margin {
-        margin-bottom: 1.65rem !important
+        margin-bottom: 1.5rem !important
     }
 
     table {
