@@ -1179,10 +1179,9 @@ app.get("/en/blog/beyond-mobile-first", (req, res) => {
     res.render("blogmobile-first", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         title: "SEO Beyond Mobile First | seoberlino",
         description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com/en/blog/beyond-mobile-first"
     });
 });
 

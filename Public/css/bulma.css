@@ -1308,6 +1308,13 @@ a.has-text-danger:focus, a.has-text-danger:hover {
     }
 }
 
+@media screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+    .archive {
+        max-width: 400px !important;
+        height: auto !important;
+    }
+}
+
 .is-inline-flex {
     display: inline-flex !important
 }
@@ -9313,6 +9320,14 @@ body.frozen {
     font-family: sans-serif;
 }
 
+.h1HP {
+    font-size: 45px
+}
+
+.h2HP {
+    font-size: 30px
+}
+
 .tag {
     margin: 0 3px;
     padding: 6px 10px;
@@ -10901,6 +10916,14 @@ xmp {
 @media screen and (max-width:768px) {
     .navbar {
         padding: 0 .45rem
+    }
+
+    .h1HP {
+        font-size: 30px !important
+    }
+
+    .h2HP {
+        font-size: 20px !important
     }
 
     .sidebar ul {
