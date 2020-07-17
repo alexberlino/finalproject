@@ -9355,8 +9355,8 @@ body.frozen {
 
 a:hover.tag {
     text-decoration: underline;
-    background-color: white;
-    color: black;
+    background-color: #3a4660;
+    color: white;
     border: 1px grey solid;
     text-decoration: none !important
 }
@@ -9378,7 +9378,8 @@ a:hover.tag {
 }
 
 .grey {
-    background-color: darkgrey
+    background-color: white;
+    color: #3a4660
 }
 
 .boxcolorheader {
