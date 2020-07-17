@@ -193,10 +193,6 @@ app.get("/en/blog", (req, res) => {
     });
 });
 
-
-
-
-
 app.get("/en/blog/metas", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogmeta", {
@@ -276,8 +272,6 @@ app.get("/de/blog/https", (req, res) => {
 });
 
 
-
-
 app.get("/en/blog/international", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("bloginternational", {
@@ -309,7 +303,7 @@ app.get("/en/blog/mobile", (req, res) => {
     res.render("blogmobile", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "mobile SEO  | SEO Blog  | seoberlino",
+        title: "Importance of a Mobile Friendly Website  | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog/mobile",
         alt: "https://www.seoberlino.com/de/blog/mobile"
@@ -322,15 +316,12 @@ app.get("/de/blog/mobile", (req, res) => {
     res.render("blogmobile", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Mobile für SEO | SEO Blog  | seoberlino",
+        title: " Mobile-Friendly Website | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/blog/mobile",
         alt: "https://www.seoberlino.com/en/blog/mobile"
     });
 });
-
-
-
 
 
 app.get("/en/blog/javascript", (req, res) => {
@@ -364,7 +355,7 @@ app.get("/en/blog/pagespeed", (req, res) => {
     res.render("blogpagespeed", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Javascript and SEO  | SEO Blog  | seoberlino",
+        title: "Page Speed and SEO  | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog/pagespeed",
         alt: "https://www.seoberlino.com/de/blog/pagespeed"
@@ -377,7 +368,7 @@ app.get("/de/blog/pagespeed", (req, res) => {
     res.render("blogpagespeed", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Javascript und SEO | SEO Blog  | seoberlino",
+        title: "Pagespeed und SEO | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/blog/pagespeed",
         alt: "https://www.seoberlino.com/en/blog/pagespeed"
@@ -430,7 +421,7 @@ app.get("/de/blog/content", (req, res) => {
     res.render("blogcontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Content, Landing Pages für SEO | SEO Blog  | seoberlino",
+        title: "Unhalt und Landing Pages | SEO Blog  | seoberlino",
         description: "seoberlino Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/blog/content",
         alt: "https://www.seoberlino.com/en/blog/content"
@@ -488,10 +479,6 @@ app.get("/en/blog/keyword-research", (req, res) => {
         alt: "https://www.seoberlino.com/de/blog/keyword-research"
     });
 });
-
-
-
-
 
 
 app.get("/de/blog/indexation", (req, res) => {
@@ -950,7 +937,7 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
-////blog pages/////////
+
 app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("bloglinksgettingitright", {
@@ -962,149 +949,6 @@ app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
     });
 });
 
-app.get("/en/article/linkbuilding-in-2020", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog/linkbuilding-in-2020",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/seo", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/technical/indexation", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog/indexation",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/offpage/backlinkanalysis", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog/backlink-analysis",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/offpage/backlinkanalysis", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/blog/backlink-analysis",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/onpage/sprachsuche", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/blog/onpage-seo#voicesearch",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/seo", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/blog",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/casestudy/zalando", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog/case-study-zalando",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/casestudy/n26", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog/case-study-n26",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/casestudy/hometogo", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog/case-study-hometogo",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/casestudy/hellofresh", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog/case-study-hellofresh",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/casestudy/*", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog/seo-case-studies",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/research/*", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/forschung/*", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/blog",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/analytics", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/seo-freelancer#analytics",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/analytics", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/seo-freelancer#analytics",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/seo-consultant", function(request, response) {
-    response.writeHead(301, {
-        Location: "/en/seo-freelancer",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/de/seo-consultant", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/seo-freelancer",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
 app.get("/en/blog/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
