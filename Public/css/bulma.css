@@ -9303,7 +9303,8 @@ body.frozen {
     color: #fff;
     border: 1;
     padding: 1rem .55rem;
-    border-radius: 5px
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, .1) !important
 }
 
 .main {
@@ -9321,6 +9322,7 @@ body.frozen {
     text-decoration: bold;
     text-transform: uppercase;
     border: 1px white solid;
+    box-shadow: 5px 5px 12px 0 rgba(0, 0, 0, .1) !important
 }
 
 @media screen and (max-width:800px) {
@@ -9638,9 +9640,11 @@ footer.page-end .clutch {
 
 .archive .post {
     padding: 2rem;
-    max-height: 500px;
+    max-height: 550px;
     overflow: hidden;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+    border: 1px dotted lightgrey;
 }
 
 .archive .post .title {
