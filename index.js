@@ -132,7 +132,6 @@ app.get("/en", (req, res) => {
     });
 });
 
-
 app.get("/en/jobs", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("jobs", {
@@ -205,7 +204,6 @@ app.get("/en/blog/metas", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/metas", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogmeta", {
@@ -217,7 +215,6 @@ app.get("/de/blog/metas", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/metas"
     });
 });
-
 
 app.get("/en/blog/crawl", (req, res) => {
     i18n.setLocale(req, "en");
@@ -231,7 +228,6 @@ app.get("/en/blog/crawl", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/crawl", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogcrawl", {
@@ -243,8 +239,6 @@ app.get("/de/blog/crawl", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/crawl"
     });
 });
-
-
 
 app.get("/en/blog/https", (req, res) => {
     i18n.setLocale(req, "en");
@@ -258,7 +252,6 @@ app.get("/en/blog/https", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/https", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("bloghttps", {
@@ -270,7 +263,6 @@ app.get("/de/blog/https", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/https"
     });
 });
-
 
 app.get("/en/blog/international", (req, res) => {
     i18n.setLocale(req, "en");
@@ -284,7 +276,6 @@ app.get("/en/blog/international", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/international", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("bloginternational", {
@@ -296,7 +287,6 @@ app.get("/de/blog/international", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/international"
     });
 });
-
 
 app.get("/en/blog/mobile", (req, res) => {
     i18n.setLocale(req, "en");
@@ -310,7 +300,6 @@ app.get("/en/blog/mobile", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/mobile", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogmobile", {
@@ -322,7 +311,6 @@ app.get("/de/blog/mobile", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/mobile"
     });
 });
-
 
 app.get("/en/blog/javascript", (req, res) => {
     i18n.setLocale(req, "en");
@@ -336,7 +324,6 @@ app.get("/en/blog/javascript", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/javascript", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogjava", {
@@ -348,7 +335,6 @@ app.get("/de/blog/javascript", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/javascript"
     });
 });
-
 
 app.get("/en/blog/pagespeed", (req, res) => {
     i18n.setLocale(req, "en");
@@ -362,7 +348,6 @@ app.get("/en/blog/pagespeed", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/pagespeed", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogpagespeed", {
@@ -374,7 +359,6 @@ app.get("/de/blog/pagespeed", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/pagespeed"
     });
 });
-
 
 app.get("/en/blog/images", (req, res) => {
     i18n.setLocale(req, "en");
@@ -388,7 +372,6 @@ app.get("/en/blog/images", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/images", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogimages", {
@@ -400,8 +383,6 @@ app.get("/de/blog/images", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/images"
     });
 });
-
-
 
 app.get("/en/blog/content", (req, res) => {
     i18n.setLocale(req, "en");
@@ -415,7 +396,6 @@ app.get("/en/blog/content", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/content", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogcontent", {
@@ -427,7 +407,6 @@ app.get("/de/blog/content", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/content"
     });
 });
-
 
 app.get("/en/blog/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
@@ -453,8 +432,6 @@ app.get("/de/blog/backlinks", (req, res) => {
     });
 });
 
-
-
 app.get("/de/blog/keyword-research", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogKW", {
@@ -466,7 +443,6 @@ app.get("/de/blog/keyword-research", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/keyword-research"
     });
 });
-
 
 app.get("/en/blog/keyword-research", (req, res) => {
     i18n.setLocale(req, "en");
@@ -480,7 +456,6 @@ app.get("/en/blog/keyword-research", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/indexation", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogindexation", {
@@ -493,7 +468,6 @@ app.get("/de/blog/indexation", (req, res) => {
     });
 });
 
-
 app.get("/en/blog/indexation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogindexation", {
@@ -505,9 +479,6 @@ app.get("/en/blog/indexation", (req, res) => {
         alt: "https://www.seoberlino.com/de/blog/indexation"
     });
 });
-
-
-
 
 app.get("/en/blog/seo-case-studies", (req, res) => {
     i18n.setLocale(req, "en");
@@ -569,7 +540,6 @@ app.get("/en/blog/technical-seo", (req, res) => {
     });
 });
 
-
 app.get("/de/blog/technical-seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtechnical", {
@@ -599,7 +569,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Expert in Berlin • Profile | seoberlino",
+        title: "SEO Expert • SEO Consultant in Berlin | seoberlino",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
@@ -702,8 +672,6 @@ app.get("/en/blog/case-study-hometogo", (req, res) => {
     });
 });
 
-
-
 app.get("/en/blog/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("competitor", {
@@ -751,10 +719,6 @@ app.get("/de/blog/localSEO", (req, res) => {
         alt: "https://www.seoberlino.com/en/blog/localSEO"
     });
 });
-
-
-
-
 
 app.get("/en/blog/backlink-analysis", (req, res) => {
     i18n.setLocale(req, "en");
@@ -867,8 +831,8 @@ app.get("/de/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Experte in Berlin | Kontakt | seoberlino ",
-        description: "SEO Consultant Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
+        title: "SEO Experte • SEO Consultant in Berlin | seoberlino ",
+        description: "SEO Consultant & Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
         alt: "https://www.seoberlino.com/en/contact"
     });
@@ -918,8 +882,8 @@ app.get("/de/blog/seo-glossary", (req, res) => {
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDEHP",
-        title: "SEO Glossary: Keyword Planner, Insights, Canonicals | seoberlino",
-        description: "SEO Lexikon für SEO: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        title: "Top 10 Suchmaschinenoptimierung Begriffe | seoberlino",
+        description: "Top 10 Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/blog/seo-glossary"
     });
@@ -937,7 +901,6 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
-
 app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("bloglinksgettingitright", {
@@ -948,7 +911,6 @@ app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
-
 
 app.get("/en/blog/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
@@ -972,15 +934,16 @@ app.get("/en/blog/google-keyword-planner-guide", (req, res) => {
     });
 });
 
-
-app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(request, response) {
+app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(
+    request,
+    response
+) {
     response.writeHead(301, {
         Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
-
 
 app.get("/en/article/voicesearch", function(request, response) {
     response.writeHead(301, {
@@ -1020,7 +983,10 @@ app.get("/en/blog/seo-in-asia-korea-china-japan-2020", (req, res) => {
     });
 });
 
-app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(request, response) {
+app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(
+    request,
+    response
+) {
     response.writeHead(301, {
         Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
         Expires: new Date().toGMTString()
@@ -1148,8 +1114,6 @@ app.get("/en/article/how-to-get-those-first-links", function(
     response.end();
 });
 
-
-
 //////////////// Redirects////////////////
 
 app.get("/en/lexical*", function(request, response) {
@@ -1215,8 +1179,6 @@ app.get("/en/scrum*", function(request, response) {
     response.end();
 });
 
-
-
 app.get("/de/consultant", function(request, response) {
     response.writeHead(301, {
         Location: "/de/seo-freelancer",
@@ -1224,8 +1186,6 @@ app.get("/de/consultant", function(request, response) {
     });
     response.end();
 });
-
-
 
 app.get("/de/onpage/keyword-recherche", function(request, response) {
     response.writeHead(301, {
@@ -1345,7 +1305,6 @@ app.get("/en/technical*", function(request, response) {
     });
     response.end();
 });
-
 
 app.all("*", function(req, res) {
     res.writeHead(404);
