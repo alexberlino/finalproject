@@ -184,7 +184,7 @@ app.get("/en/seo-freelancer", (req, res) => {
 app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog", {
-        requrl: "https://www.seoberlino.com/en" + req.soriginalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/blog",
         layout: "main",
         title: "SEO Berlin - Search Engine Optimization Blog | seoberlino",
         description: "SEO Berlin Blog, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
