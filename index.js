@@ -847,23 +847,22 @@ app.get("/error", (req, res) => {
     });
 });
 
-// app.get("/en/success", (req, res) => {
-//     i18n.setLocale(req, "en");
-//     res.render("success", {
-//         layout: "mainHPNoIndex",
-//         title: "Success, thank you for your message!",
-//         description: "Thank you for your message."
-//     });
-// });
-// app.get("/de/success", (req, res) => {
-//     i18n.setLocale(req, "de");
-//     res.render("success", {
-//         layout: "mainHPNoIndex",
-//         title: "Danke für Ihre Nachricht!",
-//         description: "Danke für Ihre Nachricht"
-//     });
-// });
-///LEXICON PAGES
+app.get("/en/success", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("success", {
+        layout: "mainHPNoIndex",
+        title: "Success, thank you for your message!",
+        description: "Thank you for your message."
+    });
+});
+app.get("/de/success", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("success", {
+        layout: "mainHPNoIndex",
+        title: "Danke für Ihre Nachricht!",
+        description: "Danke für Ihre Nachricht"
+    });
+});
 
 app.get("/en/blog/seo-glossary", (req, res) => {
     i18n.setLocale(req, "en");
