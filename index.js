@@ -677,7 +677,7 @@ app.get("/en/blog/competitor-analysis", (req, res) => {
     res.render("competitor", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Competitor Analysis | SEO Berlin | seoberlino",
+        title: "Competitor Analysis | SEO Berlin Blog | seoberlino",
         description: "SEO Competitor Analysis is important to gather information from the industry leaders: keywords, site structure, backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/blog/mitwettbewerber"
@@ -689,7 +689,7 @@ app.get("/de/blog/mitwettbewerber", (req, res) => {
     res.render("competitor", {
         requrl: "https://www.seoberlino.com/en/blog/competitor-analysis",
         layout: "mainDE",
-        title: "SEO-Wettbewerbsanalyse | SEO Berlin | seoberlino",
+        title: "SEO-Wettbewerbsanalyse | SEO Berlin Blog | seoberlino",
         description: "Die SEO-Wettbewerberanalyse ist wichtig, um Informationen von den Branchenführern zu sammeln: Keywords, Seitenstruktur, Backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/blog/competitor-analysis"
@@ -701,7 +701,7 @@ app.get("/en/blog/localSEO", (req, res) => {
     res.render("localseo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "How to deal with Local SEO | SEO Berlin | seoberlino",
+        title: "How to deal with Local SEO | SEO Berlin Blog | seoberlino",
         description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/blog/localSEO"
@@ -749,7 +749,7 @@ app.get("/en/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAltNoIndex",
-        title: "Impressum | SEO Berlin | seoberlino",
+        title: "Impressum | SEO Berlin Blog | seoberlino",
         description: "SEOBerlino Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/impressum",
         alt: "https://www.seoberlino.com/de/impressum"
@@ -761,7 +761,7 @@ app.get("/de/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAltNoIndex",
-        title: "Impressum | SEO Berlin | seoberlino",
+        title: "Impressum | SEO Berlin Blog | seoberlino",
         description: "SEO Spezialist in Berlin. Impressum für SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com/de/impressum",
         alt: "https://www.seoberlino.com/en/impressum"
@@ -998,7 +998,7 @@ app.get("/en/blog/beyond-mobile-first", (req, res) => {
     res.render("blogmobile-first", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO Beyond Mobile First | SEO Berlin | seoberlino",
+        title: "SEO Beyond Mobile First | SEO Berlin Blog | seoberlino",
         description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop.",
         canonical: "https://www.seoberlino.com/en/blog/beyond-mobile-first"
     });
