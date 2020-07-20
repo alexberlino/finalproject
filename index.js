@@ -1220,6 +1220,10 @@ app.post("/email", function(req, res) {
                     <ul>
                         <li>Name: ${req.body.name}</li>
                         <li>Email: ${req.body.email}</li>
+                        <li>Website: ${req.body.website}</li>
+                        <li>Beratung: ${req.body.beratung}</li>
+                        <li>Consultancy: ${req.body.budget}</li>
+
                     </ul>
                     <h3>Message</h3>
                     <p>${req.body.message}</p>

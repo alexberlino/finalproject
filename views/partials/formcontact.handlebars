@@ -14,11 +14,56 @@
                 </div>
             </div>
         </div>
+
+
         <div class="field message">
             <div class="control">
-                <textarea class="textarea" name="message" id="field" placeholder="{{{__ "message"}}}" rows="6"></textarea>
+                <input class="input" type="url" name="website" id="field" placeholder="https://" required>
             </div>
         </div>
+
+
+
+
+        <div class="field message">
+            <input class="input" list="beratung" name="beratung" placeholder="Select {{{__ "consultancy"}}}" required>
+
+            <div class="control">
+                <datalist id="beratung">
+
+                    <option value="One time SEO Audit">
+                    <option value="SEO Audit and Monthly Follow-up">
+                    <option value="Backlink Campaign">
+                    <option value="SEA">
+                    <option value="Scrum">
+                    <option value="Other Service(s)">
+                </datalist>
+            </div>
+        </div>
+
+        <div class="field message">
+            <input class="input" list="budget" name="budget" placeholder="Select Budget" required>
+
+            <div class="control">
+                <datalist id="budget">
+                    <option value="€2k+ monthly">
+                    <option value="One time €2k+ ">
+                    <option value="€1-2k monthly">
+                    <option value="One time €1-2k ">
+                    <option value="€1k monthly">
+                    <option value="One time under €1k">
+                </datalist>
+            </div>
+        </div>
+
+
+        <div class="field message">
+            <div class="control">
+                <textarea class="textarea" name="message" id="field" placeholder="Description of Requirements" rows="6" required></textarea>
+            </div>
+        </div>
+
+
 
         <div class="field send">
             <div class="control">
