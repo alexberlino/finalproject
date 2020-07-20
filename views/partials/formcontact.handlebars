@@ -4,11 +4,15 @@
         <div class="inline">
 
             <div class="field fullname">
+                <label class="label">Full name</label>
+
                 <div class="control">
                     <input class="input" type="text" name="name" id="field" placeholder="{{{__ "fullname"}}}" required>
                 </div>
             </div>
             <div class="field email">
+                <label class="label">Email Address</label>
+
                 <div class="control">
                     <input class="input" type="email" name="email" id="field" placeholder="Email" required>
                 </div>
@@ -17,6 +21,8 @@
 
 
         <div class="field message">
+            <label class="label">Website</label>
+
             <div class="control">
                 <input class="input" type="url" name="website" id="field" placeholder="https://" required>
             </div>
@@ -26,6 +32,8 @@
 
 
         <div class="field message">
+            <label class="label">Type of Service</label>
+
             <input class="input" list="beratung" name="beratung" placeholder="Select {{{__ "consultancy"}}}" required>
 
             <div class="control">
@@ -42,6 +50,8 @@
         </div>
 
         <div class="field message">
+            <label class="label">Budget Range</label>
+
             <input class="input" list="budget" name="budget" placeholder="Select Budget" required>
 
             <div class="control">
@@ -58,9 +68,11 @@
 
 
         <div class="field message">
-            <div class="control">
-                <textarea class="textarea" name="message" id="field" placeholder="Description of Requirements" rows="6" required></textarea>
-            </div>
+            <label class="label">Description of requirements
+
+                <div class="control">
+                    <textarea class="textarea" name="message" id="field" placeholder="Message" rows="6" required></textarea>
+                </div>
         </div>
 
 
