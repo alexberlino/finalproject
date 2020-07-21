@@ -2710,6 +2710,17 @@ a.box:active {
     color: #ffdd57
 }
 
+label {
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+::placeholder {
+    color: darkgrey !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+}
+
 .button.is-warning.is-outlined.is-focused, .button.is-warning.is-outlined.is-hovered, .button.is-warning.is-outlined:focus, .button.is-warning.is-outlined:hover {
     background-color: #ace6ff;
     border-color: #ace6ff;
