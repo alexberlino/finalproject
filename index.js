@@ -158,7 +158,7 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "Experienced SEO Freelancer in Germany | seoberlino",
+        title: "Experienced Freelance SEO Consultant in Germany | seoberlino",
         layout: "main",
         description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-freelancer",
@@ -170,7 +170,7 @@ app.get("/en/seo-freelancer", (req, res) => {
 
 app.get("/de/seo-beratung", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("beratung", {
+    res.render("seoberatung", {
         requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
         title: "SEO Beratung • SEO Berater | seoberlino",
@@ -1248,13 +1248,13 @@ app.get("/de/seo-beratung", function(request, response) {
 var nodemailer = require("nodemailer");
 
 app.post("/email", function(req, res) {
+    if (req.body.budget !== "€2k+ monthly" || "One time €2k+ " || "€1-2k monthly" || "One time €1-2k " || "€1k monthly" || "One time under €1k") {
+        res.writeHead(301, {
+            Location: "/error"
+        });
+        res.end();
+    }
     nodemailer.createTestAccount((error, account) => {
-        if (req.body.budget !== "€2k+ monthly" || req.body.budget !== "One time €2k+ " || req.body.budget !== "€1-2k monthly" || req.body.budget !== "One time €1-2k " || req.body.budget !== "€1k monthly" || req.body.budget !== "One time under €1k") {
-            res.writeHead(301, {
-                Location: "/error"
-            });
-            res.end();
-        }
 
 
         const htmlEmail = `
@@ -1299,8 +1299,10 @@ app.post("/email", function(req, res) {
                     Location: "/en/success"
                 });
                 res.end();
+
             }
-        }); //transporter
+        });
+        //transporter
     });
 });
 
