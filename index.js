@@ -117,7 +117,7 @@ var englishHP = function(req, res) {
         title: "SEO Company in Germany • SEO Consultant | seoberlino",
         description: "SEO Company in Berlin, SEO Consultancy with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
-        alt: "https://www.seoberlino.com"
+        alt: "https://www.seoberlino.com/de"
     });
 };
 
