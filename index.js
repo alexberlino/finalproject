@@ -108,25 +108,30 @@ app.use(
     })
 );
 
+
+var englishHP = function(req, res) {
+    i18n.setLocale(req, "en");
+    res.render("home", {
+        requrl: "https://www.seoberlino.com/en",
+        layout: "mainHP",
+        title: "SEO Company in Germany • SEO Consultant | seoberlino",
+        description: "SEO Company in Berlin, SEO Consultancy with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        canonical: "https://www.seoberlino.com/en",
+        alt: "https://www.seoberlino.com"
+    });
+};
+
+
+app.get("/", englishHP)
+
+app.get("/en", englishHP)
+
 app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Freelancer & Experte | SEO Agentur Berlin | seoberlino",
-        canonical: "https://www.seoberlino.com",
-        description: "Kleine SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
-        alt: "https://www.seoberlino.com/en"
-    });
-});
-
-
-app.get("/", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("home", {
-        requrl: "https://www.seoberlino.com/en",
-        layout: "mainDEHP",
-        title: "SEO Freelancer & Experte | SEO Agentur Berlin | seoberlino",
+        title: "SEO Agentur Berlin  & SEO Freelancer | seoberlino",
         canonical: "https://www.seoberlino.com",
         description: "Kleine SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en"
@@ -135,24 +140,14 @@ app.get("/", (req, res) => {
 
 
 
-app.get("/en", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("home", {
-        requrl: "https://www.seoberlino.com/en",
-        layout: "mainHP",
-        title: "SEO Consultant • SEO Company in Germany | seoberlino",
-        description: "SEO Company in Berlin, SEO Consultancy with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "https://www.seoberlino.com/en",
-        alt: "https://www.seoberlino.com"
-    });
-});
+
 
 app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Freelancer • SEO Consultant in Berlin | seoberlino",
+        title: "SEO Freelancer • SEO in Berlin | seoberlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-freelancer"
@@ -170,6 +165,34 @@ app.get("/en/seo-freelancer", (req, res) => {
         alt: "https://www.seoberlino.com/de/seo-freelancer"
     });
 });
+
+
+
+app.get("/de/seo-beratung", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("beratung", {
+        requrl: "https://www.seoberlino.com/en/seo-freelancer",
+        layout: "mainDE",
+        title: "SEO Beratung • SEO Berater | seoberlino",
+        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com/de/seo-freelancer",
+        alt: "https://www.seoberlino.com/en/seo-freelancer"
+    });
+});
+
+// app.get("/en/", (req, res) => {
+//     i18n.setLocale(req, "en");
+//     res.render("beratung", {
+//         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+//         title: "Experienced SEO Freelancer in Germany | seoberlino",
+//         layout: "main",
+//         description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+//         canonical: "https://www.seoberlino.com/en/seo-freelancer",
+//         alt: "https://www.seoberlino.com/de/seo-freelancer"
+//     });
+// });
+
+
 app.get("/en/jobs", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("jobs", {
@@ -580,6 +603,18 @@ app.get("/de/blog", (req, res) => {
     });
 });
 
+app.get("/de/contact", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("contact", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainDE",
+        title: "SEO Consultant • SEO Experte in Berlin | seoberlino ",
+        description: "SEO Consultant in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
+        canonical: "https://www.seoberlino.com/de/contact",
+        alt: "https://www.seoberlino.com/en/contact"
+    });
+});
+
 app.get("/en/contact", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("contact", {
@@ -842,17 +877,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
     });
 });
 
-app.get("/de/contact", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("contact", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainDE",
-        title: "SEO Experte • SEO Consultant in Berlin | seoberlino ",
-        description: "SEO Consultant & Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
-        canonical: "https://www.seoberlino.com/de/contact",
-        alt: "https://www.seoberlino.com/en/contact"
-    });
-});
+
 
 app.get("/error", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1224,6 +1249,14 @@ var nodemailer = require("nodemailer");
 
 app.post("/email", function(req, res) {
     nodemailer.createTestAccount((error, account) => {
+        if (req.body.budget !== "€2k+ monthly" || req.body.budget !== "One time €2k+ " || req.body.budget !== "€1-2k monthly" || req.body.budget !== "One time €1-2k " || req.body.budget !== "€1k monthly" || req.body.budget !== "One time under €1k") {
+            res.writeHead(301, {
+                Location: "/error"
+            });
+            res.end();
+        }
+
+
         const htmlEmail = `
                     <h3> Contact Details </h3>
                     <ul>
