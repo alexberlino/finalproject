@@ -1248,12 +1248,12 @@ app.get("/de/seo-beratung", function(request, response) {
 var nodemailer = require("nodemailer");
 
 app.post("/email", function(req, res) {
-    if (req.body.budget !== "€2k+ monthly" || "One time €2k+ " || "€1-2k monthly" || "One time €1-2k " || "€1k monthly" || "One time under €1k") {
-        res.writeHead(301, {
-            Location: "/error"
-        });
-        res.end();
-    }
+    // if (req.body.budget !== "€2k+ monthly" || "One time €2k+ " || "€1-2k monthly" || "One time €1-2k " || "€1k monthly" || "One time under €1k") {
+    //     res.writeHead(301, {
+    //         Location: "/error"
+    //     });
+    //     res.end();
+    // }
     nodemailer.createTestAccount((error, account) => {
 
 
