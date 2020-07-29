@@ -237,7 +237,7 @@ app.get("/en/blog", (req, res) => {
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en/blog",
         layout: "main",
-        title: "SEO Berlin - Search Engine Optimization Blog | seoberlino",
+        title: "SEO Website Optimisation - SEO Blog | seoberlino",
         description: "Website Optimisation, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/blog",
         alt: "https://www.seoberlino.com/de/blog"
@@ -609,7 +609,7 @@ app.get("/de/blog", (req, res) => {
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en/blog",
         layout: "mainDE",
-        title: "Suchmaschinenoptimierung Berlin | SEO Blog | seoberlino",
+        title: "Website Suchmaschinenoptimierung Berlin | SEO Blog | seoberlino",
         description: "SEO Blog von seoberlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com/de/blog",
         alt: "https://www.seoberlino.com/en/blog"
