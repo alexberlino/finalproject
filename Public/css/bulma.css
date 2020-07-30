@@ -9745,13 +9745,6 @@ table.client-compare {
     position: inline-block
 }
 
-.clients-hero .logo-container .client-logo2 {
-    height: 120px;
-    padding: .2rem;
-    vertical-align: top;
-    position: inline-block
-}
-
 .clients-hero .logo-container .dbs-music {
     position: relative;
     left: -20px
@@ -9764,13 +9757,6 @@ table.client-compare {
 
 .clients-hero .logo-container a .client-logo {
     height: 80px;
-    padding: .5rem;
-    vertical-align: middle;
-    position: inline-block
-}
-
-.clients-hero .logo-container a .client-logo2 {
-    height: 120px;
     padding: .5rem;
     vertical-align: middle;
     position: inline-block
@@ -11359,12 +11345,6 @@ xmp {
         padding: .5rem
     }
 
-    .clients-hero .logo-container .client-logo2 {
-        max-height: 85px !important;
-        width: 110px !important;
-        padding: .5rem
-    }
-
     .about-hero h3, .about-hero p, .audit-hero h3, .audit-hero p, .cases-hero h3, .cases-hero p, .casestudy-hero h3, .casestudy-hero p, .consultancy-hero h3, .consultancy-hero p, .reports-hero h3, .reports-hero p, .seo-hero h3, .seo-hero p, .success-hero h3, .success-hero p {
         text-align: justify
     }
@@ -11520,6 +11500,11 @@ h2::before {
     pointer-events: none;
 }
 
-.hellofresh {
-    heigh: 40%
+.mindandmatter {
+    max-height: 70px !important;
+    padding-top: 35px !important
+}
+
+.spartoo, .talknow, .lalaluxe {
+    height: 100px !important
 }

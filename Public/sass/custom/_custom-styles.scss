@@ -118,20 +118,21 @@ table {
     position: inline-block}
     .dbs-music {position: relative; left:-20px;}
     .spiced {position: relative; left:-20px;}
-    a {
-      .client-logo  {
-        height: 60px !important;
-        padding: 0.5rem;
-        vertical-align: middle;
-        position: inline-block;
-        &:hover {
-          opacity: 0.7;
-        }
-      }
-      &:hover {
-        opacity: 0.7;
-      }
-    }
+    
+    // a {
+    //   .client-logo  {
+    //     height: 60px !important;
+    //     padding: 0.5rem;
+    //     vertical-align: middle;
+    //     position: inline-block;
+    //     &:hover {
+    //       opacity: 0.7;
+    //     }
+    //   }
+    //   &:hover {
+    //     opacity: 0.7;
+    //   }
+    // }
   }
 }
 
