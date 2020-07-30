@@ -23,14 +23,17 @@
             </div>
         </div>
     </section>
-    <section class="clients-hero boxcolor hero is-medium">
-        <div class="hero-body remove-padding">
-            <div class="container reduced has-text-centered">
-                <h2 class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
-                {{>clients}}
+
+    <a class="white" href="/{{{__ "lang"}}}/references">
+        <section class="clients-hero boxcolor hero is-medium">
+            <div class="hero-body remove-padding">
+                <div class="container reduced has-text-centered">
+                    <h2 class="title is-3 is-white is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
+                    {{>clientssmall}}
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </a>
 
 
 
@@ -39,7 +42,7 @@
         <div class="container">
             <div class="columns is-centered intro-columns">
                 <div class="column is-11-mobile is-11-desktop has-text-centered">
-                    <h3 class="is-heavy boost-margin h1HP has-text-centered"> {{{__ "whatisSEOTitle"}}}</h3>
+                    <h3 class="is-heavy boost-margin h1HP has-text-centered"> {{{__ "whatisSEOTitle"}}} und "{{{__ "exblog"}}}"</h3>
                     <span class="subtitle is-6">{{{__ "whatisSEO"}}} </span>
                     <br>
                 </div>
@@ -49,8 +52,7 @@
     </div>
     <!-- Services Block-->
     <section class="container hero-body is-centered has-text-centered" style="overflow-x: hidden"> <br><br>
-        <h2 class="title is-heavy boost-margin has-text-centered is-black h1HP"><a class="is-black" href="/en/blog">{{{__ "exblog"}}}</a></h2>
-        <br><br>
+
         <div class="columns is-multiline content archive">
 
             {{>blogback}}{{>blogonpage}}{{>blogtech}}

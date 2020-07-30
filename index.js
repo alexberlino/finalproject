@@ -231,6 +231,30 @@ app.get("/de/jobs", (req, res) => {
 });
 
 
+app.get("/en/references", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("references", {
+        requrl: "https://www.seoberlino.com/en/references",
+        layout: "main",
+        title: "Clients References, SEO Consultant Berlin | seoberlino",
+        description: "SEO Consulant in Berlin • SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        canonical: "https://www.seoberlino.com/en/references",
+        alt: "https://www.seoberlino.com/de/references"
+    });
+});
+
+app.get("/de/references", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("references", {
+        requrl: "https://www.seoberlino.com/en/references",
+        layout: "mainDE",
+        title: "Clients References, SEO Consultant Berlin | seoberlino",
+        description: "SEO Consulant in Berlin • SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        canonical: "https://www.seoberlino.com/de/references",
+        alt: "https://www.seoberlino.com/en/references"
+    });
+});
+
 
 app.get("/en/blog", (req, res) => {
     i18n.setLocale(req, "en");
