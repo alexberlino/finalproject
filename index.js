@@ -1060,16 +1060,6 @@ app.get("/en/blog/seo-in-asia-korea-china-japan-2020", (req, res) => {
     });
 });
 
-app.get("/en/article/seo-in-asia-korea-china-japan-2020", function(
-    request,
-    response
-) {
-    response.writeHead(301, {
-        Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
 app.get("/en/blog/beyond-mobile-first", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1122,16 +1112,7 @@ app.get("/en/blog/why-you-need-implement-structured-data", (req, res) => {
     });
 });
 
-app.get("/en/article/why-you-need-implement-structured-data", function(
-    request,
-    response
-) {
-    response.writeHead(301, {
-        Location: "/en/blog/why-you-need-implement-structured-data",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+
 
 app.get("/en/blog/link-building-to-brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1145,16 +1126,7 @@ app.get("/en/blog/link-building-to-brandbuilding", (req, res) => {
     });
 });
 
-app.get("/en/article/link-building-to-brandbuilding", function(
-    request,
-    response
-) {
-    response.writeHead(301, {
-        Location: "/en/blog/link-building-to-brandbuilding",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+
 
 app.get("/en/blog/how-to-get-those-first-links", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1180,16 +1152,7 @@ app.get("/en/blog/site-migration-seo-checklist", (req, res) => {
     });
 });
 
-app.get("/en/article/how-to-get-those-first-links", function(
-    request,
-    response
-) {
-    response.writeHead(301, {
-        Location: "/en/blog/how-to-get-those-first-links",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
+
 
 //////////////// Redirects////////////////
 
