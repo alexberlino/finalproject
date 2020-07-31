@@ -381,6 +381,12 @@ pre code {
     .is-size-7-mobile {
         font-size: .75rem !important
     }
+
+    body {
+        font-size: 1.2em;
+        font-weight: 400;
+        line-height: 1.65
+    }
 }
 
 @media screen and (min-width:769px), print {
