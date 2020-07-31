@@ -9,12 +9,12 @@
 	],
 "creatorBuild": "31491",
 "files": {
-	"/AccessAnalyticsandSearchConsole.pdf": {
+	"/images/AccessAnalyticsandSearchConsole.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/AccessAnalyticsandSearchConsole.pdf",
+		"oAP": "/images/AccessAnalyticsandSearchConsole.pdf",
 		"oF": 0
 		},
 	"/advertising.jpg": {
@@ -158,298 +158,298 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/auditmainpic/analysis.jpg": {
+	"/seo-images/analysis.jpg": {
 		"ft": 16384,
 		"iS": 92682,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/analysis.jpg",
+		"oAP": "/seo-images/analysis.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/analytics.jpg": {
+	"/seo-images/analytics.jpg": {
 		"ft": 16384,
 		"iS": 131101,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/analytics.jpg",
+		"oAP": "/seo-images/analytics.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/berlin.jpg": {
+	"/seo-images/berlin.jpg": {
 		"ft": 16384,
 		"iS": 163534,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/berlin.jpg",
+		"oAP": "/seo-images/berlin.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/brandbuilding.jpg": {
+	"/seo-images/brandbuilding.jpg": {
 		"ft": 16384,
 		"iS": 117560,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/brandbuilding.jpg",
+		"oAP": "/seo-images/brandbuilding.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/competitor.jpg": {
+	"/seo-images/competitor.jpg": {
 		"ft": 16384,
 		"iS": 119734,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/competitor.jpg",
+		"oAP": "/seo-images/competitor.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/content.jpg": {
+	"/seo-images/content.jpg": {
 		"ft": 16384,
 		"iS": 128695,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/content.jpg",
+		"oAP": "/seo-images/content.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/crawl.jpg": {
+	"/seo-images/crawl.jpg": {
 		"ft": 16384,
 		"iS": 115247,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/crawl.jpg",
+		"oAP": "/seo-images/crawl.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/duplicate.jpg": {
+	"/seo-images/duplicate.jpg": {
 		"ft": 16384,
 		"iS": 123744,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/duplicate.jpg",
+		"oAP": "/seo-images/duplicate.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/images.jpg": {
+	"/seo-images/images.jpg": {
 		"ft": 16384,
 		"iS": 103089,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/images.jpg",
+		"oAP": "/seo-images/images.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/indexation.jpg": {
+	"/seo-images/indexation.jpg": {
 		"ft": 16384,
 		"iS": 135016,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/indexation.jpg",
+		"oAP": "/seo-images/indexation.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/internal.jpg": {
+	"/seo-images/internal.jpg": {
 		"ft": 16384,
 		"iS": 88559,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/internal.jpg",
+		"oAP": "/seo-images/internal.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/international.jpg": {
+	"/seo-images/international.jpg": {
 		"ft": 16384,
 		"iS": 86367,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/international.jpg",
+		"oAP": "/seo-images/international.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/java.jpg": {
+	"/seo-images/java.jpg": {
 		"ft": 16384,
 		"iS": 127261,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/java.jpg",
+		"oAP": "/seo-images/java.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/keyword.jpg": {
+	"/seo-images/keyword.jpg": {
 		"ft": 16384,
 		"iS": 127527,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/keyword.jpg",
+		"oAP": "/seo-images/keyword.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/landing.jpg": {
+	"/seo-images/landing.jpg": {
 		"ft": 16384,
 		"iS": 130672,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/landing.jpg",
+		"oAP": "/seo-images/landing.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/linkmain.jpg": {
+	"/seo-images/linkmain.jpg": {
 		"ft": 16384,
 		"iS": 94220,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/linkmain.jpg",
+		"oAP": "/seo-images/linkmain.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/local.jpg": {
+	"/seo-images/local.jpg": {
 		"ft": 16384,
 		"iS": 77163,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/local.jpg",
+		"oAP": "/seo-images/local.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/mobilefriendly.jpg": {
+	"/seo-images/mobilefriendly.jpg": {
 		"ft": 16384,
 		"iS": 138385,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/mobilefriendly.jpg",
+		"oAP": "/seo-images/mobilefriendly.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/offpage.jpg": {
+	"/seo-images/offpage.jpg": {
 		"ft": 16384,
 		"iS": 116424,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/offpage.jpg",
+		"oAP": "/seo-images/offpage.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/onpage.jpg": {
+	"/seo-images/onpage.jpg": {
 		"ft": 16384,
 		"iS": 136511,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/onpage.jpg",
+		"oAP": "/seo-images/onpage.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/pagespeed.jpg": {
+	"/seo-images/pagespeed.jpg": {
 		"ft": 16384,
 		"iS": 141245,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/pagespeed.jpg",
+		"oAP": "/seo-images/pagespeed.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/security.jpg": {
+	"/seo-images/security.jpg": {
 		"ft": 16384,
 		"iS": 92057,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/security.jpg",
+		"oAP": "/seo-images/security.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/seonews.jpg": {
+	"/seo-images/seonews.jpg": {
 		"ft": 16384,
 		"iS": 126859,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/seonews.jpg",
+		"oAP": "/seo-images/seonews.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/structured.jpg": {
+	"/seo-images/structured.jpg": {
 		"ft": 16384,
 		"iS": 132002,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/structured.jpg",
+		"oAP": "/seo-images/structured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/tag.jpg": {
+	"/seo-images/tag.jpg": {
 		"ft": 16384,
 		"iS": 69493,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/tag.jpg",
+		"oAP": "/seo-images/tag.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/technical.jpg": {
+	"/seo-images/technical.jpg": {
 		"ft": 16384,
 		"iS": 96897,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/technical.jpg",
+		"oAP": "/seo-images/technical.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/auditmainpic/voice.jpg": {
+	"/seo-images/voice.jpg": {
 		"ft": 16384,
 		"iS": 131342,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/auditmainpic/voice.jpg",
+		"oAP": "/seo-images/voice.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -515,12 +515,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/blog2.jpg": {
+	"/seo-images/blog2.jpg": {
 		"ft": 16384,
 		"iS": 14036,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/blog2.jpg",
+		"oAP": "/seo-images/blog2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1720,11 +1720,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/logo5.png": {
+	"/images/logo5.png": {
 		"ft": 32768,
 		"iS": 45571,
 		"oA": 0,
-		"oAP": "/logo5.png",
+		"oAP": "/images/logo5.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -2139,11 +2139,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/redlight.png": {
+	"/icons/redlight.png": {
 		"ft": 32768,
 		"iS": 1270,
 		"oA": 0,
-		"oAP": "/redlight.png",
+		"oAP": "/icons/redlight.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
