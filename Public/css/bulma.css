@@ -6626,3 +6626,13 @@ h2::before {
 .absortech {
     padding-top: 16px !important
 }
+
+@media screen and (max-width:768px) {
+    .talknow {
+        max-width: 80px
+    }
+
+    .mindandmatter {
+        max-width: 120px
+    }
+}
