@@ -132,7 +132,7 @@ app.get("/de", (req, res) => {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
         title: "SEO Optimierung | SEO Kleine Agentur Berlin | seoberlino",
-        canonical: "https://www.seoberlino.com",
+        canonical: "https://www.seoberlino.com/de",
         description: "Kleine SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
         alt: "https://www.seoberlino.com/en"
     });
@@ -185,7 +185,7 @@ app.get("/en/blog/berlin", (req, res) => {
     res.render("blogberlin", {
         requrl: "https://www.seoberlino.com/en/blog/berlin",
         layout: "mainNoAlt",
-        title: "Berlin, the place to be for SEO and the rest | seoberlino",
+        title: "SEO in Berlin, the place to be | seoberlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/en/blog/berlin"
     });
@@ -621,7 +621,7 @@ app.get("/de/blog/technical-seo", (req, res) => {
     res.render("blogtechnical", {
         requrl: "https://www.seoberlino.com/en/blog/technical-seo",
         layout: "mainDE",
-        title: "Technisches SEO | Website optimization",
+        title: "Technical SEO |SEO Optimierung | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/blog/technical-seo",
         alt: "https://www.seoberlino.com/en/blog/technical-seo"
