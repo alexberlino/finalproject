@@ -50,30 +50,7 @@ body {
   }
 }
 
-// Sidebar
-.sidebar {
-  padding-left: 5rem;
-  ul {
-    margin: 0;
-    list-style: none;
-    li {
-      display: block;
-      padding: 0.35rem 0;
-      a {
-        color: $lightish-blue;
-        font-size:1rem;
-        font-weight: 700;
-        &.active {
-          color: $grey-blue !important;
-        }
-        &:hover {
-          color: $blue;
-        }
-      }
-    }
-  }
 
-}
 .mobile-nav {display: none;}
 
 // Glyphs
@@ -118,7 +95,7 @@ table {
     position: inline-block}
     .dbs-music {position: relative; left:-20px;}
     .spiced {position: relative; left:-20px;}
-    
+
     // a {
     //   .client-logo  {
     //     height: 60px !important;
@@ -412,3 +389,5 @@ pre {
     }
   }
 }
+
+// Sidebar

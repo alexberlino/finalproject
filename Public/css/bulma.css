@@ -6646,3 +6646,23 @@ h2::before {
         max-width: 120px
     }
 }
+
+.sidebar {
+    padding-left: 3rem !important;
+}
+
+.sidebar ul {
+    margin: 2px;
+    list-style: none !important;
+}
+
+.sidebar li {
+    display: block;
+    padding: 1rem 0.3rem !important;
+}
+
+.sidebar li a {
+    color: black !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+}
