@@ -3862,12 +3862,12 @@
 		"oAP": "/views/layouts/mainNoAlt.handlebars",
 		"oF": 0
 		},
-	"/views/blog/seo-glossary.handlebars": {
+	"/views/{{{__ "blogurl"}}}/seo-glossary.handlebars": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/views/blog/seo-glossary.handlebars",
+		"oAP": "/views/{{{__ "blogurl"}}}/seo-glossary.handlebars",
 		"oF": 0
 		},
 	"/views/lighthouse.handlebars": {

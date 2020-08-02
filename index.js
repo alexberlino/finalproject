@@ -180,25 +180,25 @@ app.get("/de/seo-beratung", (req, res) => {
     });
 });
 
-app.get("/en/blog/berlin", (req, res) => {
+app.get("/en/website-ranking/berlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogberlin", {
-        requrl: "https://www.seoberlino.com/en/blog/berlin",
+        requrl: "https://www.seoberlino.com/en/website-ranking/berlin",
         layout: "mainNoAlt",
         title: "SEO in Berlin, the place to be | seoberlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/en/blog/berlin"
+        canonical: "https://www.seoberlino.com/en/website-ranking/berlin"
     });
 });
 
-app.get("/en/blog/timeinberlin", (req, res) => {
+app.get("/en/website-ranking/timeinberlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("berlinblog/bloglivetimeberlin", {
-        requrl: "https://www.seoberlino.com/en/blog/berlin",
+        requrl: "https://www.seoberlino.com/en/website-ranking/berlin",
         layout: "mainNoAlt",
         title: "What time is it in Berlin ? | seoberlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/en/blog/berlin"
+        canonical: "https://www.seoberlino.com/en/website-ranking/berlin"
     });
 });
 
@@ -256,387 +256,387 @@ app.get("/de/references", (req, res) => {
 });
 
 
-app.get("/en/blog", (req, res) => {
+app.get("/en/website-ranking", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog", {
-        requrl: "https://www.seoberlino.com/en/blog",
+        requrl: "https://www.seoberlino.com/en/website-ranking",
         layout: "main",
         title: "SEO Website optimization - SEO Blog | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog",
-        alt: "https://www.seoberlino.com/de/blog"
+        canonical: "https://www.seoberlino.com/en/website-ranking",
+        alt: "https://www.seoberlino.com/en/website-ranking"
     });
 });
 
-app.get("/en/blog/metas", (req, res) => {
+app.get("/en/website-ranking/metas", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogmeta", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Metas and Titles for SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/metas",
-        alt: "https://www.seoberlino.com/de/blog/metas"
+        canonical: "https://www.seoberlino.com/en/website-ranking/metas",
+        alt: "https://www.seoberlino.com/en/website-ranking/metas"
     });
 });
 
-app.get("/de/blog/metas", (req, res) => {
+app.get("/de/seo-optimierung/metas", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogmeta", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Metas & Titles für SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/metas",
-        alt: "https://www.seoberlino.com/en/blog/metas"
+        canonical: "https://www.seoberlino.com/en/website-ranking/metas",
+        alt: "https://www.seoberlino.com/en/website-ranking/metas"
     });
 });
 
-app.get("/en/blog/crawl", (req, res) => {
+app.get("/en/website-ranking/crawl", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogcrawl", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Crawling SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/crawl",
-        alt: "https://www.seoberlino.com/de/blog/crawl"
+        canonical: "https://www.seoberlino.com/en/website-ranking/crawl",
+        alt: "https://www.seoberlino.com/en/website-ranking/crawl"
     });
 });
 
-app.get("/de/blog/crawl", (req, res) => {
+app.get("/de/seo-optimierung/crawl", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogcrawl", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Crawl für SEO | Website optimization",
         description: "Website optimieren, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/crawl",
-        alt: "https://www.seoberlino.com/en/blog/crawl"
+        canonical: "https://www.seoberlino.com/en/website-ranking/crawl",
+        alt: "https://www.seoberlino.com/en/website-ranking/crawl"
     });
 });
 
-app.get("/en/blog/https", (req, res) => {
+app.get("/en/website-ranking/https", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("bloghttps", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "https SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/https",
-        alt: "https://www.seoberlino.com/de/blog/https"
+        canonical: "https://www.seoberlino.com/en/website-ranking/https",
+        alt: "https://www.seoberlino.com/en/website-ranking/https"
     });
 });
 
-app.get("/de/blog/https", (req, res) => {
+app.get("/de/seo-optimierung/https", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("bloghttps", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "https für SEO | Website optimization",
         description: "Website optimieren, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/https",
-        alt: "https://www.seoberlino.com/en/blog/https"
+        canonical: "https://www.seoberlino.com/en/website-ranking/https",
+        alt: "https://www.seoberlino.com/en/website-ranking/https"
     });
 });
 
-app.get("/en/blog/international", (req, res) => {
+app.get("/en/website-ranking/international", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("bloginternational", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Internationalisation SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/international",
-        alt: "https://www.seoberlino.com/de/blog/international"
+        canonical: "https://www.seoberlino.com/en/website-ranking/international",
+        alt: "https://www.seoberlino.com/en/website-ranking/international"
     });
 });
 
-app.get("/de/blog/international", (req, res) => {
+app.get("/de/seo-optimierung/international", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("bloginternational", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Internationalisierung für SEO | Website optimization",
         description: "Website optimieren, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/international",
-        alt: "https://www.seoberlino.com/en/blog/international"
+        canonical: "https://www.seoberlino.com/en/website-ranking/international",
+        alt: "https://www.seoberlino.com/en/website-ranking/international"
     });
 });
 
-app.get("/en/blog/mobile", (req, res) => {
+app.get("/en/website-ranking/mobile", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogmobile", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Importance of a Mobile Friendly Website  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/mobile",
-        alt: "https://www.seoberlino.com/de/blog/mobile"
+        canonical: "https://www.seoberlino.com/en/website-ranking/mobile",
+        alt: "https://www.seoberlino.com/en/website-ranking/mobile"
     });
 });
 
-app.get("/de/blog/mobile", (req, res) => {
+app.get("/de/seo-optimierung/mobile", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogmobile", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: " Mobile-Friendly Website | Website optimization",
         description: "Website optimieren, SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/mobile",
-        alt: "https://www.seoberlino.com/en/blog/mobile"
+        canonical: "https://www.seoberlino.com/en/website-ranking/mobile",
+        alt: "https://www.seoberlino.com/en/website-ranking/mobile"
     });
 });
 
-app.get("/en/blog/javascript", (req, res) => {
+app.get("/en/website-ranking/javascript", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogjava", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Javascript and SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/javascript",
-        alt: "https://www.seoberlino.com/de/blog/javascript"
+        canonical: "https://www.seoberlino.com/en/website-ranking/javascript",
+        alt: "https://www.seoberlino.com/en/website-ranking/javascript"
     });
 });
 
-app.get("/de/blog/javascript", (req, res) => {
+app.get("/de/seo-optimierung/javascript", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogjava", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Javascript und SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/javascript",
-        alt: "https://www.seoberlino.com/en/blog/javascript"
+        canonical: "https://www.seoberlino.com/en/website-ranking/javascript",
+        alt: "https://www.seoberlino.com/en/website-ranking/javascript"
     });
 });
 
-app.get("/en/blog/pagespeed", (req, res) => {
+app.get("/en/website-ranking/pagespeed", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogpagespeed", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Page Speed and SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/pagespeed",
-        alt: "https://www.seoberlino.com/de/blog/pagespeed"
+        canonical: "https://www.seoberlino.com/en/website-ranking/pagespeed",
+        alt: "https://www.seoberlino.com/en/website-ranking/pagespeed"
     });
 });
 
-app.get("/de/blog/pagespeed", (req, res) => {
+app.get("/de/seo-optimierung/pagespeed", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogpagespeed", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Pagespeed und SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/pagespeed",
-        alt: "https://www.seoberlino.com/en/blog/pagespeed"
+        canonical: "https://www.seoberlino.com/en/website-ranking/pagespeed",
+        alt: "https://www.seoberlino.com/en/website-ranking/pagespeed"
     });
 });
 
-app.get("/en/blog/images", (req, res) => {
+app.get("/en/website-ranking/images", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogimages", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Image Optimization for SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/images",
-        alt: "https://www.seoberlino.com/de/blog/images"
+        canonical: "https://www.seoberlino.com/en/website-ranking/images",
+        alt: "https://www.seoberlino.com/en/website-ranking/images"
     });
 });
 
-app.get("/de/blog/images", (req, res) => {
+app.get("/de/seo-optimierung/images", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogimages", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Bildoptimierung für SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/images",
-        alt: "https://www.seoberlino.com/en/blog/images"
+        canonical: "https://www.seoberlino.com/en/website-ranking/images",
+        alt: "https://www.seoberlino.com/en/website-ranking/images"
     });
 });
 
-app.get("/en/blog/content", (req, res) => {
+app.get("/en/website-ranking/content", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogcontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Content, Duplicate Content & Landing pages | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/content",
-        alt: "https://www.seoberlino.com/de/blog/content"
+        canonical: "https://www.seoberlino.com/en/website-ranking/content",
+        alt: "https://www.seoberlino.com/en/website-ranking/content"
     });
 });
 
-app.get("/de/blog/content", (req, res) => {
+app.get("/de/seo-optimierung/content", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogcontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Unhalt und Landing Pages | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/content",
-        alt: "https://www.seoberlino.com/en/blog/content"
+        canonical: "https://www.seoberlino.com/en/website-ranking/content",
+        alt: "https://www.seoberlino.com/en/website-ranking/content"
     });
 });
 
-app.get("/en/blog/backlinks", (req, res) => {
+app.get("/en/website-ranking/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogbacklinks", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
         title: "Backlinks & Offpage SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/backlinks",
-        alt: "https://www.seoberlino.com/de/blog/backlinks"
+        canonical: "https://www.seoberlino.com/en/website-ranking/backlinks",
+        alt: "https://www.seoberlino.com/en/website-ranking/backlinks"
     });
 });
 
-app.get("/de/blog/backlinks", (req, res) => {
+app.get("/de/seo-optimierung/backlinks", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogbacklinks", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "Backlinks & Offpage SEO | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/backlinks",
-        alt: "https://www.seoberlino.com/en/blog/backlinks"
+        canonical: "https://www.seoberlino.com/en/website-ranking/backlinks",
+        alt: "https://www.seoberlino.com/en/website-ranking/backlinks"
     });
 });
 
-app.get("/de/blog/keyword-research", (req, res) => {
+app.get("/de/seo-optimierung/keyword-research", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogKW", {
-        requrl: "https://www.seoberlino.com/en/blog/keyword-research",
+        requrl: "https://www.seoberlino.com/en/website-ranking/keyword-research",
         layout: "mainDE",
         title: "Keyword Recherche | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/keyword-research",
-        alt: "https://www.seoberlino.com/en/blog/keyword-research"
+        canonical: "https://www.seoberlino.com/en/website-ranking/keyword-research",
+        alt: "https://www.seoberlino.com/en/website-ranking/keyword-research"
     });
 });
 
-app.get("/en/blog/keyword-research", (req, res) => {
+app.get("/en/website-ranking/keyword-research", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogKW", {
-        requrl: "https://www.seoberlino.com/en/blog/keyword-research",
+        requrl: "https://www.seoberlino.com/en/website-ranking/keyword-research",
         layout: "main",
         title: "Keyword Research | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/keyword-research",
-        alt: "https://www.seoberlino.com/de/blog/keyword-research"
+        canonical: "https://www.seoberlino.com/en/website-ranking/keyword-research",
+        alt: "https://www.seoberlino.com/en/website-ranking/keyword-research"
     });
 });
 
-app.get("/de/blog/indexation", (req, res) => {
+app.get("/de/seo-optimierung/indexation", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogindexation", {
-        requrl: "https://www.seoberlino.com/en/blog/indexation",
+        requrl: "https://www.seoberlino.com/en/website-ranking/indexation",
         layout: "mainDE",
         title: "Indexierung | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/indexation",
-        alt: "https://www.seoberlino.com/en/blog/indexation"
+        canonical: "https://www.seoberlino.com/en/website-ranking/indexation",
+        alt: "https://www.seoberlino.com/en/website-ranking/indexation"
     });
 });
 
-app.get("/en/blog/indexation", (req, res) => {
+app.get("/en/website-ranking/indexation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogindexation", {
-        requrl: "https://www.seoberlino.com/en/blog/indexation",
+        requrl: "https://www.seoberlino.com/en/website-ranking/indexation",
         layout: "main",
         title: "Indexation | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/indexation",
-        alt: "https://www.seoberlino.com/de/blog/indexation"
+        canonical: "https://www.seoberlino.com/en/website-ranking/indexation",
+        alt: "https://www.seoberlino.com/en/website-ranking/indexation"
     });
 });
 
-app.get("/en/blog/seo-case-studies", (req, res) => {
+app.get("/de/seo-optimierung/seo-case-studies", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogcasestudies", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Case Studies | SEO Blog | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/seo-case-studies",
-        alt: "https://www.seoberlino.com/de/blog/seo-case-studies"
+        canonical: "https://www.seoberlino.com/en/website-ranking/seo-case-studies",
+        alt: "https://www.seoberlino.com/en/website-ranking/seo-case-studies"
     });
 });
 
-app.get("/de/blog/seo-case-studies", (req, res) => {
+app.get("/en/website-ranking/seo-case-studies", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogcasestudies", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Case Studies | SEO Blog | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/seo-case-studies",
-        alt: "https://www.seoberlino.com/en/blog/seo-case-studies"
+        canonical: "https://www.seoberlino.com/en/website-ranking/seo-case-studies",
+        alt: "https://www.seoberlino.com/en/website-ranking/seo-case-studies"
     });
 });
 
-app.get("/en/blog/onpage-seo", (req, res) => {
+app.get("/en/website-ranking/onpage-seo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogonpage", {
-        requrl: "https://www.seoberlino.com/en/blog/onpage-seo",
+        requrl: "https://www.seoberlino.com/en/website-ranking/onpage-seo",
         layout: "main",
         title: "Onpage SEO | Website optimization | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/onpage-seo",
-        alt: "https://www.seoberlino.com/de/blog/onpage-seo"
+        canonical: "https://www.seoberlino.com/en/website-ranking/onpage-seo",
+        alt: "https://www.seoberlino.com/en/website-ranking/onpage-seo"
     });
 });
 
-app.get("/de/blog/onpage-seo", (req, res) => {
+app.get("/de/seo-optimierung/onpage-seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogonpage", {
-        requrl: "https://www.seoberlino.com/en/blog/onpage-seo",
+        requrl: "https://www.seoberlino.com/en/website-ranking/onpage-seo",
         layout: "mainDE",
         title: "Onpage SEO | Website optimization | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/onpage-seo",
-        alt: "https://www.seoberlino.com/en/blog/onpage-seo"
+        canonical: "https://www.seoberlino.com/en/website-ranking/onpage-seo",
+        alt: "https://www.seoberlino.com/en/website-ranking/onpage-seo"
     });
 });
 
-app.get("/en/blog/technical-seo", (req, res) => {
+app.get("/en/website-ranking/technical-seo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtechnical", {
-        requrl: "https://www.seoberlino.com/en/blog/technical-seo",
+        requrl: "https://www.seoberlino.com/en/website-ranking/technical-seo",
         layout: "main",
         title: "Technical SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/blog/technical-seo",
-        alt: "https://www.seoberlino.com/de/blog/technical-seo"
+        canonical: "https://www.seoberlino.com/en/website-ranking/technical-seo",
+        alt: "https://www.seoberlino.com/en/website-ranking/technical-seo"
     });
 });
 
-app.get("/de/blog/technical-seo", (req, res) => {
+app.get("/de/seo-optimierung/technical-seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtechnical", {
-        requrl: "https://www.seoberlino.com/en/blog/technical-seo",
+        requrl: "https://www.seoberlino.com/en/website-ranking/technical-seo",
         layout: "mainDE",
         title: "Technical SEO |SEO Optimierung | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/de/blog/technical-seo",
-        alt: "https://www.seoberlino.com/en/blog/technical-seo"
+        canonical: "https://www.seoberlino.com/en/website-ranking/technical-seo",
+        alt: "https://www.seoberlino.com/en/website-ranking/technical-seo"
     });
 });
 
-app.get("/de/blog", (req, res) => {
+app.get("/de/seo-optimierung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blog", {
-        requrl: "https://www.seoberlino.com/en/blog",
+        requrl: "https://www.seoberlino.com/en/website-ranking",
         layout: "mainDE",
         title: "SEO Optimierung für Suchmaschinen | seoberlino",
         description: "Optimierung für Suchmaschinen, SEO Optimierung, SEO Experte in Berlin. SEO und Webanalyse Blog.",
-        canonical: "https://www.seoberlino.com/de/blog",
-        alt: "https://www.seoberlino.com/en/blog"
+        canonical: "https://www.seoberlino.com/en/website-ranking",
+        alt: "https://www.seoberlino.com/en/website-ranking"
     });
 });
 
@@ -664,7 +664,7 @@ app.get("/en/contact", (req, res) => {
     });
 });
 
-app.get("/en/blog/case-study-fromatob", (req, res) => {
+app.get("/en/website-ranking/case-study-fromatob", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyfromatob", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -676,7 +676,7 @@ app.get("/en/blog/case-study-fromatob", (req, res) => {
     });
 });
 
-app.get("/en/blog/case-study-zalando", (req, res) => {
+app.get("/en/website-ranking/case-study-zalando", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyzalando", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -688,7 +688,7 @@ app.get("/en/blog/case-study-zalando", (req, res) => {
     });
 });
 
-app.get("/en/blog/case-study-wooga", (req, res) => {
+app.get("/en/website-ranking/case-study-wooga", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudywooga", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -700,7 +700,7 @@ app.get("/en/blog/case-study-wooga", (req, res) => {
     });
 });
 
-app.get("/en/blog/case-study-juniqe", (req, res) => {
+app.get("/en/website-ranking/case-study-juniqe", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyjuniqe", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -712,7 +712,7 @@ app.get("/en/blog/case-study-juniqe", (req, res) => {
     });
 });
 
-app.get("/en/blog/case-study-modomoto", (req, res) => {
+app.get("/en/website-ranking/case-study-modomoto", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudymodomoto", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -724,7 +724,7 @@ app.get("/en/blog/case-study-modomoto", (req, res) => {
     });
 });
 
-app.get("/en/blog/case-study-n26", (req, res) => {
+app.get("/en/website-ranking/case-study-n26", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyn26", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -736,7 +736,7 @@ app.get("/en/blog/case-study-n26", (req, res) => {
     });
 });
 
-app.get("/en/blog/case-study-hellofresh", (req, res) => {
+app.get("/en/website-ranking/case-study-hellofresh", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhellofresh", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -748,7 +748,7 @@ app.get("/en/blog/case-study-hellofresh", (req, res) => {
     });
 });
 
-app.get("/en/blog/case-study-hometogo", (req, res) => {
+app.get("/en/website-ranking/case-study-hometogo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("casestudyhometogo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -760,7 +760,7 @@ app.get("/en/blog/case-study-hometogo", (req, res) => {
     });
 });
 
-app.get("/en/blog/competitor-analysis", (req, res) => {
+app.get("/en/website-ranking/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("competitor", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -768,23 +768,23 @@ app.get("/en/blog/competitor-analysis", (req, res) => {
         title: "Competitor Analysis | Website optimization | seoberlino",
         description: "SEO Competitor Analysis is important to gather information from the industry leaders: keywords, site structure, backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/blog/mitwettbewerber"
+        alt: "https://www.seoberlino.com/en/website-ranking/mitwettbewerber"
     });
 });
 
-app.get("/de/blog/mitwettbewerber", (req, res) => {
+app.get("/de/seo-optimierung/mitwettbewerber", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("competitor", {
-        requrl: "https://www.seoberlino.com/en/blog/competitor-analysis",
+        requrl: "https://www.seoberlino.com/en/website-ranking/competitor-analysis",
         layout: "mainDE",
         title: "SEO-Wettbewerbsanalyse | Website optimization | seoberlino",
         description: "Die SEO-Wettbewerberanalyse ist wichtig, um Informationen von den Branchenführern zu sammeln: Keywords, Seitenstruktur, Backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/competitor-analysis"
+        alt: "https://www.seoberlino.com/en/website-ranking/competitor-analysis"
     });
 });
 
-app.get("/en/blog/localSEO", (req, res) => {
+app.get("/en/website-ranking/localSEO", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("localseo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -792,23 +792,23 @@ app.get("/en/blog/localSEO", (req, res) => {
         title: "How to deal with Local SEO | Website optimization | seoberlino",
         description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/blog/localSEO"
+        alt: "https://www.seoberlino.com/en/website-ranking/localSEO"
     });
 });
 
-app.get("/de/blog/localSEO", (req, res) => {
+app.get("/de/seo-optimierung/localSEO", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("localseo", {
-        requrl: "https://www.seoberlino.com/en/blog/localSEO",
+        requrl: "https://www.seoberlino.com/en/website-ranking/localSEO",
         layout: "mainDE",
         title: "Local SEO Optimierung | SEO Berlin | seoberlino",
         description: "Insbesondere für lokale Unternehmen ist es von größter Bedeutung, Ihre SEO-Gesamtstrategie auf lokale SEO auszurichten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/localSEO"
+        alt: "https://www.seoberlino.com/en/website-ranking/localSEO"
     });
 });
 
-app.get("/en/blog/backlink-analysis", (req, res) => {
+app.get("/en/website-ranking/backlink-analysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogbacklinkanalysis", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -816,11 +816,11 @@ app.get("/en/blog/backlink-analysis", (req, res) => {
         title: "Backlink Analysis and Offpage SEO | seoberlino",
         description: "Backlinks and Offpage SEO represent a key part of SEO and include in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/blog/backlink-analysis"
+        alt: "https://www.seoberlino.com/en/website-ranking/backlink-analysis"
     });
 });
 
-app.get("/de/blog/backlink-analysis", (req, res) => {
+app.get("/de/seo-optimierung/backlink-analysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogbacklinkanalysis", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -828,7 +828,7 @@ app.get("/de/blog/backlink-analysis", (req, res) => {
         title: "Backlinks & Offpage SEO | SEO Berlin | seoberlino",
         description: "Backlinks sind ein wichtiger Bestandteil von SEO und umfassen insbesondere Link Building und Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/backlink-analysis"
+        alt: "https://www.seoberlino.com/en/website-ranking/backlink-analysis"
     });
 });
 
@@ -942,7 +942,7 @@ app.get("/de/success", (req, res) => {
     });
 });
 
-app.get("/en/blog/seo-glossary", (req, res) => {
+app.get("/en/website-ranking/seo-glossary", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -950,11 +950,11 @@ app.get("/en/blog/seo-glossary", (req, res) => {
         title: "SEO Glossary: Keyword Planner, Insights, Canonicals | seoberlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/blog/seo-glossary"
+        alt: "https://www.seoberlino.com/en/website-ranking/seo-glossary"
     });
 });
 
-app.get("/de/blog/seo-glossary", (req, res) => {
+app.get("/de/seo-optimierung/seo-glossary", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("lexical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -962,7 +962,7 @@ app.get("/de/blog/seo-glossary", (req, res) => {
         title: "Top 10 Suchmaschinenoptimierung Begriffe | seoberlino",
         description: "Top 10 Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/blog/seo-glossary"
+        alt: "https://www.seoberlino.com/en/website-ranking/seo-glossary"
     });
 });
 
@@ -978,7 +978,7 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
-app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
+app.get("/en/website-ranking/linkbuilding-in-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("bloglinksgettingitright", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -989,7 +989,7 @@ app.get("/en/blog/linkbuilding-in-2020", (req, res) => {
     });
 });
 
-app.get("/en/blog/voicesearch", (req, res) => {
+app.get("/en/website-ranking/voicesearch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogvoice", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1000,7 +1000,7 @@ app.get("/en/blog/voicesearch", (req, res) => {
     });
 });
 
-app.get("/en/blog/google-keyword-planner-guide", (req, res) => {
+app.get("/en/website-ranking/google-keyword-planner-guide", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogkeywordplanner", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1016,7 +1016,7 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(
     response
 ) {
     response.writeHead(301, {
-        Location: "/en/blog/seo-in-asia-korea-china-japan-2020",
+        Location: "/en/website-ranking/seo-in-asia-korea-china-japan-2020",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1024,13 +1024,13 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(
 
 app.get("/en/article/voicesearch", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/voicesearch",
+        Location: "/en/website-ranking/voicesearch",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/clutch", (req, res) => {
+app.get("/en/website-ranking/clutch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogclutch", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1043,13 +1043,13 @@ app.get("/en/blog/clutch", (req, res) => {
 
 app.get("/en/article/clutch", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/clutch",
+        Location: "/en/website-ranking/clutch",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/seo-in-asia-korea-china-japan-2020", (req, res) => {
+app.get("/en/website-ranking/seo-in-asia-korea-china-japan-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogasia", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1061,26 +1061,26 @@ app.get("/en/blog/seo-in-asia-korea-china-japan-2020", (req, res) => {
 });
 
 
-app.get("/en/blog/beyond-mobile-first", (req, res) => {
+app.get("/en/website-ranking/beyond-mobile-first", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogmobile-first", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Beyond Mobile First | Website optimization | seoberlino",
         description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop.",
-        canonical: "https://www.seoberlino.com/en/blog/beyond-mobile-first"
+        canonical: "https://www.seoberlino.com/en/website-ranking/beyond-mobile-first"
     });
 });
 
 app.get("/en/article/beyond-mobile-first", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/beyond-mobile-first",
+        Location: "/en/website-ranking/beyond-mobile-first",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/voice-search-challenges", (req, res) => {
+app.get("/en/website-ranking/voice-search-challenges", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blog5", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1094,13 +1094,13 @@ app.get("/en/blog/voice-search-challenges", (req, res) => {
 
 app.get("/en/article/voice-search-challenges", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/voice-search-challenges",
+        Location: "/en/website-ranking/voice-search-challenges",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
-app.get("/en/blog/why-you-need-implement-structured-data", (req, res) => {
+app.get("/en/website-ranking/why-you-need-implement-structured-data", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogstructureddata", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1114,7 +1114,7 @@ app.get("/en/blog/why-you-need-implement-structured-data", (req, res) => {
 
 
 
-app.get("/en/blog/link-building-to-brandbuilding", (req, res) => {
+app.get("/en/website-ranking/link-building-to-brandbuilding", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogbrandbuilding", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1128,7 +1128,7 @@ app.get("/en/blog/link-building-to-brandbuilding", (req, res) => {
 
 
 
-app.get("/en/blog/how-to-get-those-first-links", (req, res) => {
+app.get("/en/website-ranking/how-to-get-those-first-links", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogfirstlinks", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1140,7 +1140,7 @@ app.get("/en/blog/how-to-get-those-first-links", (req, res) => {
     });
 });
 
-app.get("/en/blog/site-migration-seo-checklist", (req, res) => {
+app.get("/en/website-ranking/site-migration-seo-checklist", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogsitemigration", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1158,7 +1158,7 @@ app.get("/en/blog/site-migration-seo-checklist", (req, res) => {
 
 app.get("/en/lexical*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/seo-glossary",
+        Location: "/en/website-ranking/seo-glossary",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1166,7 +1166,7 @@ app.get("/en/lexical*", function(request, response) {
 
 app.get("/de/lexical*", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/blog/seo-glossary",
+        Location: "/en/website-ranking/seo-glossary",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1190,7 +1190,7 @@ app.get("/en/audit", function(request, response) {
 
 app.get("/en/casestudy", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/seo-case-studies",
+        Location: "/en/website-ranking/seo-case-studies",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1222,7 +1222,7 @@ app.get("/de/consultant", function(request, response) {
 
 app.get("/de/onpage/keyword-recherche", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/blog/keyword-research",
+        Location: "/en/website-ranking/keyword-research",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1230,7 +1230,7 @@ app.get("/de/onpage/keyword-recherche", function(request, response) {
 
 app.get("/en/onpage/keyword-research", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/keyword-research",
+        Location: "/en/website-ranking/keyword-research",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1308,22 +1308,67 @@ app.post("/email", function(req, res) {
 
 app.get("/en/onpage*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/onpage-seo",
+        Location: "/en/website-ranking/onpage-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 app.get("/de/onpage*", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/blog/onpage-seo",
+        Location: "/en/website-ranking/onpage-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 
+app.get("/de/blog/backlinks", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-optimierung/backlinks",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/blog/backlink-analysis", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-optimierung/backlink-analysis",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/blog/seo-glossary", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-optimierung/seo-glossary",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/blog/technical-seo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-optimierung/technical-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/blog/onpage-seo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-optimierung/onpage-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+
 app.get("/de/offpage*", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/blog/backlinks",
+        Location: "/en/website-ranking/backlinks",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1331,7 +1376,7 @@ app.get("/de/offpage*", function(request, response) {
 
 app.get("/en/offpage*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/backlinks",
+        Location: "/en/website-ranking/backlinks",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1339,7 +1384,7 @@ app.get("/en/offpage*", function(request, response) {
 
 app.get("/de/technical*", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/blog/technical-seo",
+        Location: "/en/website-ranking/technical-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1347,7 +1392,7 @@ app.get("/de/technical*", function(request, response) {
 
 app.get("/en/technical*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/blog/technical-seo",
+        Location: "/en/website-ranking/technical-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
