@@ -633,8 +633,8 @@ app.get("/de/blog", (req, res) => {
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en/blog",
         layout: "mainDE",
-        title: "SEO Optimierung | SEO Berlin Blog | seoberlino",
-        description: "SEO Blog von seoberlino, SEO Experte in Berlin. SEO Berater, Experte in Webanalyse, SEA und SEO.",
+        title: "SEO Optimierung für Suchmaschinen | seoberlino",
+        description: "Optimierung für Suchmaschinen, SEO Optimierung, SEO Experte in Berlin. SEO und Webanalyse Blog.",
         canonical: "https://www.seoberlino.com/de/blog",
         alt: "https://www.seoberlino.com/en/blog"
     });
@@ -645,7 +645,7 @@ app.get("/de/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Consultant • SEO Experte in Berlin | seoberlino ",
+        title: "SEO Experte in Berlin | seoberlino ",
         description: "SEO Consultant in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
         alt: "https://www.seoberlino.com/en/contact"
@@ -657,7 +657,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainHP",
-        title: "SEO Expert • SEO Consultant in Berlin | seoberlino",
+        title: "SEO Expert • SEO Con und Berater in Berlin | seoberlino",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
