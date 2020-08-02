@@ -538,7 +538,7 @@ app.get("/de/seo-optimierung/seo-case-studies", (req, res) => {
         layout: "mainNoAlt",
         title: "SEO Case Studies | SEO Blog | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/seo-optimierung/seo-case-studies"
+        canonical: "https://www.seoberlino.com/en/website-ranking/seo-case-studies"
     });
 });
 
