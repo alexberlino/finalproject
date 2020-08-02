@@ -168,17 +168,17 @@ app.get("/en/seo-freelancer", (req, res) => {
 
 
 
-app.get("/de/seo-beratung", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung", {
-        requrl: "https://www.seoberlino.com/en/seo-freelancer",
-        layout: "mainDE",
-        title: "SEO Beratung • SEO Berater | seoberlino",
-        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/de/seo-freelancer",
-        alt: "https://www.seoberlino.com/en/seo-freelancer"
-    });
-});
+// app.get("/de/seo-beratung", (req, res) => {
+//     i18n.setLocale(req, "de");
+//     res.render("seoberatung", {
+//         requrl: "https://www.seoberlino.com/en/seo-freelancer",
+//         layout: "mainDE",
+//         title: "SEO Beratung • SEO Berater | seoberlino",
+//         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+//         canonical: "https://www.seoberlino.com/de/seo-beratung",
+//         alt: "https://www.seoberlino.com/en/seo"
+//     });
+// });
 
 app.get("/en/website-ranking/berlin", (req, res) => {
     i18n.setLocale(req, "en");
@@ -191,16 +191,7 @@ app.get("/en/website-ranking/berlin", (req, res) => {
     });
 });
 
-app.get("/en/website-ranking/timeinberlin", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("berlinblog/bloglivetimeberlin", {
-        requrl: "https://www.seoberlino.com/en/website-ranking/berlin",
-        layout: "mainNoAlt",
-        title: "What time is it in Berlin ? | seoberlino",
-        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/berlin"
-    });
-});
+
 
 
 
@@ -264,7 +255,7 @@ app.get("/en/website-ranking", (req, res) => {
         title: "SEO Website optimization - SEO Blog | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking",
-        alt: "https://www.seoberlino.com/en/website-ranking"
+        alt: "https://www.seoberlino.com/de/seo-optimierung"
     });
 });
 
@@ -276,7 +267,7 @@ app.get("/en/website-ranking/metas", (req, res) => {
         title: "Metas and Titles for SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/metas",
-        alt: "https://www.seoberlino.com/en/website-ranking/metas"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/metas"
     });
 });
 
@@ -287,7 +278,7 @@ app.get("/de/seo-optimierung/metas", (req, res) => {
         layout: "mainDE",
         title: "Metas & Titles für SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/metas",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/metas",
         alt: "https://www.seoberlino.com/en/website-ranking/metas"
     });
 });
@@ -300,7 +291,7 @@ app.get("/en/website-ranking/crawl", (req, res) => {
         title: "Crawling SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/crawl",
-        alt: "https://www.seoberlino.com/en/website-ranking/crawl"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/crawl"
     });
 });
 
@@ -311,7 +302,7 @@ app.get("/de/seo-optimierung/crawl", (req, res) => {
         layout: "mainDE",
         title: "Crawl für SEO | Website optimization",
         description: "Website optimieren, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/crawl",
+        canonical: "https://www.seoberlino.com/de/seo-optimierungcrawl",
         alt: "https://www.seoberlino.com/en/website-ranking/crawl"
     });
 });
@@ -324,7 +315,7 @@ app.get("/en/website-ranking/https", (req, res) => {
         title: "https SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/https",
-        alt: "https://www.seoberlino.com/en/website-ranking/https"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/https"
     });
 });
 
@@ -335,7 +326,7 @@ app.get("/de/seo-optimierung/https", (req, res) => {
         layout: "mainDE",
         title: "https für SEO | Website optimization",
         description: "Website optimieren, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/https",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/https",
         alt: "https://www.seoberlino.com/en/website-ranking/https"
     });
 });
@@ -348,7 +339,7 @@ app.get("/en/website-ranking/international", (req, res) => {
         title: "Internationalisation SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/international",
-        alt: "https://www.seoberlino.com/en/website-ranking/international"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/international"
     });
 });
 
@@ -359,7 +350,7 @@ app.get("/de/seo-optimierung/international", (req, res) => {
         layout: "mainDE",
         title: "Internationalisierung für SEO | Website optimization",
         description: "Website optimieren, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/international",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/international",
         alt: "https://www.seoberlino.com/en/website-ranking/international"
     });
 });
@@ -372,7 +363,7 @@ app.get("/en/website-ranking/mobile", (req, res) => {
         title: "Importance of a Mobile Friendly Website  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/mobile",
-        alt: "https://www.seoberlino.com/en/website-ranking/mobile"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/mobile"
     });
 });
 
@@ -383,7 +374,7 @@ app.get("/de/seo-optimierung/mobile", (req, res) => {
         layout: "mainDE",
         title: " Mobile-Friendly Website | Website optimization",
         description: "Website optimieren, SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/mobile",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/mobile",
         alt: "https://www.seoberlino.com/en/website-ranking/mobile"
     });
 });
@@ -396,7 +387,7 @@ app.get("/en/website-ranking/javascript", (req, res) => {
         title: "Javascript and SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/javascript",
-        alt: "https://www.seoberlino.com/en/website-ranking/javascript"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/javascript"
     });
 });
 
@@ -407,7 +398,7 @@ app.get("/de/seo-optimierung/javascript", (req, res) => {
         layout: "mainDE",
         title: "Javascript und SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/javascript",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/javascript",
         alt: "https://www.seoberlino.com/en/website-ranking/javascript"
     });
 });
@@ -420,7 +411,7 @@ app.get("/en/website-ranking/pagespeed", (req, res) => {
         title: "Page Speed and SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/pagespeed",
-        alt: "https://www.seoberlino.com/en/website-ranking/pagespeed"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/pagespeed"
     });
 });
 
@@ -431,7 +422,7 @@ app.get("/de/seo-optimierung/pagespeed", (req, res) => {
         layout: "mainDE",
         title: "Pagespeed und SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/pagespeed",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/pagespeed",
         alt: "https://www.seoberlino.com/en/website-ranking/pagespeed"
     });
 });
@@ -444,7 +435,7 @@ app.get("/en/website-ranking/images", (req, res) => {
         title: "Image Optimization for SEO  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/images",
-        alt: "https://www.seoberlino.com/en/website-ranking/images"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/images"
     });
 });
 
@@ -455,7 +446,7 @@ app.get("/de/seo-optimierung/images", (req, res) => {
         layout: "mainDE",
         title: "Bildoptimierung für SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/images",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/images",
         alt: "https://www.seoberlino.com/en/website-ranking/images"
     });
 });
@@ -468,7 +459,7 @@ app.get("/en/website-ranking/content", (req, res) => {
         title: "Content, Duplicate Content & Landing pages | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/content",
-        alt: "https://www.seoberlino.com/en/website-ranking/content"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/content"
     });
 });
 
@@ -479,7 +470,7 @@ app.get("/de/seo-optimierung/content", (req, res) => {
         layout: "mainDE",
         title: "Unhalt und Landing Pages | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/content",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/content",
         alt: "https://www.seoberlino.com/en/website-ranking/content"
     });
 });
@@ -492,7 +483,7 @@ app.get("/en/website-ranking/backlinks", (req, res) => {
         title: "Backlinks & Offpage SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/backlinks",
-        alt: "https://www.seoberlino.com/en/website-ranking/backlinks"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/backlinks"
     });
 });
 
@@ -503,7 +494,7 @@ app.get("/de/seo-optimierung/backlinks", (req, res) => {
         layout: "mainDE",
         title: "Backlinks & Offpage SEO | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/backlinks",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/backlinks",
         alt: "https://www.seoberlino.com/en/website-ranking/backlinks"
     });
 });
@@ -515,7 +506,7 @@ app.get("/de/seo-optimierung/keyword-research", (req, res) => {
         layout: "mainDE",
         title: "Keyword Recherche | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/keyword-research",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/keyword-research",
         alt: "https://www.seoberlino.com/en/website-ranking/keyword-research"
     });
 });
@@ -528,7 +519,7 @@ app.get("/en/website-ranking/keyword-research", (req, res) => {
         title: "Keyword Research | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/keyword-research",
-        alt: "https://www.seoberlino.com/en/website-ranking/keyword-research"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/keyword-research"
     });
 });
 
@@ -539,7 +530,7 @@ app.get("/de/seo-optimierung/indexation", (req, res) => {
         layout: "mainDE",
         title: "Indexierung | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/indexation",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/indexation",
         alt: "https://www.seoberlino.com/en/website-ranking/indexation"
     });
 });
@@ -552,7 +543,7 @@ app.get("/en/website-ranking/indexation", (req, res) => {
         title: "Indexation | Website optimization",
         description: "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/indexation",
-        alt: "https://www.seoberlino.com/en/website-ranking/indexation"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/indexation"
     });
 });
 
@@ -563,7 +554,7 @@ app.get("/de/seo-optimierung/seo-case-studies", (req, res) => {
         layout: "mainNoAlt",
         title: "SEO Case Studies | SEO Blog | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/seo-case-studies",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/seo-case-studies",
         alt: "https://www.seoberlino.com/en/website-ranking/seo-case-studies"
     });
 });
@@ -576,7 +567,7 @@ app.get("/en/website-ranking/seo-case-studies", (req, res) => {
         title: "SEO Case Studies | SEO Blog | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/seo-case-studies",
-        alt: "https://www.seoberlino.com/en/website-ranking/seo-case-studies"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/seo-case-studies"
     });
 });
 
@@ -588,7 +579,7 @@ app.get("/en/website-ranking/onpage-seo", (req, res) => {
         title: "Onpage SEO | Website optimization | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/onpage-seo",
-        alt: "https://www.seoberlino.com/en/website-ranking/onpage-seo"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/onpage-seo"
     });
 });
 
@@ -599,7 +590,7 @@ app.get("/de/seo-optimierung/onpage-seo", (req, res) => {
         layout: "mainDE",
         title: "Onpage SEO | Website optimization | seoberlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/onpage-seo",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/onpage-seo",
         alt: "https://www.seoberlino.com/en/website-ranking/onpage-seo"
     });
 });
@@ -612,7 +603,7 @@ app.get("/en/website-ranking/technical-seo", (req, res) => {
         title: "Technical SEO | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/website-ranking/technical-seo",
-        alt: "https://www.seoberlino.com/en/website-ranking/technical-seo"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/technical-seo"
     });
 });
 
@@ -623,7 +614,7 @@ app.get("/de/seo-optimierung/technical-seo", (req, res) => {
         layout: "mainDE",
         title: "Technical SEO |SEO Optimierung | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "https://www.seoberlino.com/en/website-ranking/technical-seo",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/technical-seo",
         alt: "https://www.seoberlino.com/en/website-ranking/technical-seo"
     });
 });
@@ -635,7 +626,7 @@ app.get("/de/seo-optimierung", (req, res) => {
         layout: "mainDE",
         title: "SEO Optimierung für Suchmaschinen | seoberlino",
         description: "Optimierung für Suchmaschinen, SEO Optimierung, SEO Experte in Berlin. SEO und Webanalyse Blog.",
-        canonical: "https://www.seoberlino.com/en/website-ranking",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung",
         alt: "https://www.seoberlino.com/en/website-ranking"
     });
 });
@@ -768,7 +759,7 @@ app.get("/en/website-ranking/competitor-analysis", (req, res) => {
         title: "Competitor Analysis | Website optimization | seoberlino",
         description: "SEO Competitor Analysis is important to gather information from the industry leaders: keywords, site structure, backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/website-ranking/mitwettbewerber"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/mitwettbewerber"
     });
 });
 
@@ -792,7 +783,7 @@ app.get("/en/website-ranking/localSEO", (req, res) => {
         title: "How to deal with Local SEO | Website optimization | seoberlino",
         description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/website-ranking/localSEO"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/localSEO"
     });
 });
 
@@ -816,7 +807,7 @@ app.get("/en/website-ranking/backlink-analysis", (req, res) => {
         title: "Backlink Analysis and Offpage SEO | seoberlino",
         description: "Backlinks and Offpage SEO represent a key part of SEO and include in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/website-ranking/backlink-analysis"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/backlink-analysis"
     });
 });
 
@@ -950,7 +941,7 @@ app.get("/en/website-ranking/seo-glossary", (req, res) => {
         title: "SEO Glossary: Keyword Planner, Insights, Canonicals | seoberlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/website-ranking/seo-glossary"
+        alt: "https://www.seoberlino.com/de/seo-optimierung/seo-glossary"
     });
 });
 
@@ -1315,7 +1306,7 @@ app.get("/en/onpage*", function(request, response) {
 });
 app.get("/de/onpage*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/website-ranking/onpage-seo",
+        Location: "/de/seo-optimierung/onpage-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1368,7 +1359,7 @@ app.get("/de/blog/onpage-seo", function(request, response) {
 
 app.get("/de/offpage*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/website-ranking/backlinks",
+        Location: "/de/seo-optimierung/backlinks",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1384,7 +1375,7 @@ app.get("/en/offpage*", function(request, response) {
 
 app.get("/de/technical*", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/website-ranking/technical-seo",
+        Location: "/de/seo-optimierung/technical-seo",
         Expires: new Date().toGMTString()
     });
     response.end();
