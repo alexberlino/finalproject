@@ -10,8 +10,8 @@
                     <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/technical-seo" class="tag grey" data-aos="fade-in" data-aos-once="true"> technical</a>
                     <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/onpage-seo" class="tag grey" data-aos="fade-in" data-aos-once="true">onpage</a>
                     <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/seo-case-studies" class="tag grey" data-aos="fade-in" data-aos-once="true"> study</a>
-                    <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/backlinks" class="tag grey" data-aos="fade-in" data-aos-once="true"> backlinks</a><br> <br>
-                    <br>
+                    <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/backlinks" class="tag grey" data-aos="fade-in" data-aos-once="true"> backlinks</a>
+                    <br><br>
                     <nav class="breadcrumb" aria-label="breadcrumbs">
                         <ul>
                             <li><a href="/{{{__ "lang"}}}/seo-freelancer">{{{__ "seoexpert"}}}</a></li>
@@ -19,26 +19,17 @@
                             <li><a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/technical-seo">Technical</a></li>
 
                         </ul>
-                    </nav><br>
-                    <br><br>
+                    </nav>
+
                     <span class=" subtitle is-6 is-black"><a href="/{{{__ "lang"}}}/contact">By Alex Bieth</a></span>
                     <span class="subtitle is-6 is-black"><img src="/icons/clock.png" alt="date icon" /> 10 April 2020</span>
                     <br>
                 </div>
-                <br><br><br>
+                <br>
 
                 <div class="columns is-centered is-multiline">
                     <div class="column is-12-mobile is-12-tablet is-8-desktop">
-                        <h2 id="alt" class="title is-3 is-black is-heavy">Alt Attibutes</h2>
 
-                        <h2 class=" title is-4 is-heavy reduced-top-margin">{{{__ "definition"}}}</h2>
-                        <p>{{{__ "altattributeMP"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "example"}}}</h2>
-
-                        <pre>
-&lt;img src="/image.jpg" alt="your-alt-attribute-here"/> </pre>
-                        <br><br><br>
                         <h2 id="canonicals" class="title is-3 is-black is-heavy">Canonicals</h2>
 
 
@@ -224,111 +215,7 @@ app.get("/de/folder/page", function(request, response) {
 
 
 
-                        <h2 id="hreflang" class="title is-3 is-black is-heavy">hreflang</h2>
-                        <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "definition"}}}</h2>
-                        <p>
-                            {{{__ "hreflangMP"}}}
-                        </p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "example"}}}</h2>
-                        <pre>
-&lt;link rel="alternate" hreflang="en" href="https://www.mysite.com/en" />
-&lt;link rel="alternate" hreflang="de" href="https://www.mysite.com/de" />
-                </pre>
-
-
-                        <br><br><br>
-
-
-
-                        <h2 id="lighthouse" class="title is-3 is-black is-heavy">Lighthouse</h2>
-
-                        <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "definition"}}}</h2>
-                        <p>
-                            {{{__ "lighthouseMP"}}}
-                        </p>
-                        <span class="blue-dot-list">
-                            <ul>
-                                <li>Chrome > New Incognito Window</li>
-                                <li>Google Chrome Dev Tools > Audits</li>
-                            </ul>
-                        </span>
-
-                        <figure class="image is-fullwidth is-outlined">
-                            <img class="searchconsole" alt="Lighthouse" src="/seo-images/lighthouse1.png" />
-                        </figure>
-
-                        <h2 class="title is-4 is-heavy">Run audits</h2>
-
-                        <figure class="image is-fullwidth is-outlined">
-                            <img class="searchconsole" alt="Lighthouse" src="/seo-images/lighthouse2.png" />
-                        </figure>
-
-                        <h2 class="title is-4 is-heavy">Results</h2>
-
-                        <figure class="image is-fullwidth is-outlined">
-                            <img class="searchconsole" alt="Lighthouse" src="/seo-images/lighthouse3.png" />
-                        </figure>
-
-                        <br><br><br>
-
-
-                        {{!--
-                        <h2 id="googlesearchconsole" class="title is-3 is-black is-heavy">Google's Search Console</h2>
-                        <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "definition"}}}</h2>
-                        <p>{{{__ "searchconsoleMP"}}}
-                        </p>
-
-
-                        <br><br><br> --}}
-
-
-
-
-
-                        <h2 id="googlepagespeed" class="title is-3 is-black is-heavy">PageSpeed Insights</h2>
-
-                        <figure class="image is-fullwidth is-outlined">
-                            <a target="_blank" href="{{{__ "pagespeedlink"}}}">
-                                <img alt="page speed" class="searchconsole" src="/seo-images/Pagespeed.png" />
-                            </a>
-                        </figure>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "definition"}}}</h2>
-                        <p>{{{__ "googlePageSpeedMP"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">Mobile / Desktop Score</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="page speed" src="/seo-images/pagespeedscore.png" />
-                        </figure>
-                        <p>{{{__ "googlePageSpeedScore"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "LabData"}}}</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="page speed SEO" src="/seo-images/pageSpeedLab.png" />
-                        </figure>
-                        <p>{{{__ "googlePageSpeedLab"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "Opportunities"}}}</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="SEO page speed" src="/seo-images/pagespeedOpp.png" />
-                        </figure>
-                        <p>{{{__ "googlePageSpeedOpp"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "Diagnostics"}}}</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="page speed Diag" src="/seo-images/pagespeedDiag.png" />
-                        </figure>
-
-                        <p>{{{__ "googlePageSpeedDiag"}}}</p>
-
-                        <br><br><br>
-
-
                         <h2 class="title is-4 is-black is-heavy">{{{__ "technicalHP1"}}}</h2>
-
-
-
 
                         <h2 id="noindex" class="title is-3 is-black is-heavy">noindex</h2>
                         <p>
@@ -348,9 +235,6 @@ app.get("/de/folder/page", function(request, response) {
 
                         <br><br><br>
 
-
-
-
                         <h2 id="sitemaps" class="title is-3 is-black is-heavy">Sitemaps</h2>
                         <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "definition"}}}</h2>
                         <p>
@@ -358,7 +242,8 @@ app.get("/de/folder/page", function(request, response) {
                         </p>
                         <h2 class="title is-4 is-heavy">{{{__ "example"}}} </h2>
 
-                        <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+                        <pre>
+    &lt;?xml version="1.0" encoding="UTF-8"?>
     &lt;urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     &lt;url>
     &lt;loc>https://www.mysite.com/en &lt;/loc>
@@ -420,7 +305,6 @@ User-agent: Googlebot
                         <h2 class="title is-4 is-black is-heavy">Backlinks</h2>
 
 
-
                         <h2 id="removeurltool" class="title is-3 is-black is-heavy">Remove URL Tool</h2>
 
                         <h2 class=" title is-4 is-heavy reduced-top-margin">{{{__ "definition"}}}</h2>
@@ -436,7 +320,6 @@ User-agent: Googlebot
                         <br><br><br>
 
 
-
                         <h2 id="nofollow" class="title is-3 is-black is-heavy">nofollow</h2>
 
                         <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "definition"}}}</h2>
@@ -446,8 +329,6 @@ User-agent: Googlebot
                         <h2 class="title is-4 is-heavy">{{{__ "example"}}}</h2>
                         <pre>
 &lt;a href="http://www.example.com/" rel="nofollow">example&lt;/a></pre>
-
-
 
 
                         <br><br><br>
@@ -464,25 +345,7 @@ User-agent: Googlebot
                             {{{__ "disavowMP"}}}
                         </p>
 
-                        <br><br><br>
-
-                        {{!-- <h2 id="brandbuilding" class="title is-3 is-heavy">Brandbuilding</h2>
-                        <figure class="image is-fullwidth is-outlined">
-                            <img alt="brandbuilding" src="/seo-images/brandbuilding.jpg" />
-                        </figure>
-                        <p>{{{__ "brandbuildingMP1"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "brandbuildingMPT2"}}}</h2>
-                        <p>{{{__ "brandbuildingMP2"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">Influencers</h2>
-                        <p>{{{__ "brandbuildingMP3"}}}</p>
-
-                        <h2 class="title is-4 is-heavy">{{{__ "brandbuildingMPT4"}}}</h2>
-                        <p>{{{__ "brandbuildingMP4"}}}</p> --}}
-
-
-
+                        <br>
 
 
                     </div>
@@ -495,29 +358,11 @@ User-agent: Googlebot
                                     Search Volume </a>
                             </li>
 
-
-                            <li>
-                                <a href="#googlepagespeed">
-                                    PageSpeed Insights </a>
-                            </li>
-
-                            <li>
-                                <a href="#lighthouse">
-                                    Lighthouse </a>
-                            </li>
-
-
-                            {{!-- <li>
-                                <a href="#googlesearchconsole">
-                                    Search Console </a>
-                            </li> --}}
-
                             <li>
                                 <a href="#removeurltool">
                                     Remove URL Tool
                                 </a>
                             </li>
-
 
                             <li>
                                 <a href="#disavowtool">
@@ -536,12 +381,6 @@ User-agent: Googlebot
                             </li>
 
                             <li>
-                                <a href="#alt">
-                                    Alt Altributes
-                                </a>
-                            </li>
-
-                            <li>
                                 <a href="#longtail">
                                     Long Tail </a>
                             </li>
@@ -551,24 +390,15 @@ User-agent: Googlebot
                                     Redirects </a>
                             </li>
 
-                            <li>
-                                <a href="#hreflang">
-                                    hreflang </a>
-                            </li>
-
 
                             <li>
                                 <a href="#noindex">
                                     noindex</a> & <a href="#nofollow">nofollow </a>
-
-
                             </li>
 
                             <li>
                                 <a href="#robotstxt">
                                     Robots.txt</a> &
-
-
 
                                 <a href="#sitemaps">
                                     Sitemaps</a>
@@ -578,20 +408,11 @@ User-agent: Googlebot
                                     AMP </a>
                             </li>
 
-                            {{!-- <li>
-                                <a href="#brandbuilding">
-                                    Brandbuilding </a>
-                            </li> --}}
-
-
                         </ul>
                     </div><br><br>
 
-
-
                 </div><br><br>
                 <br><br>
-
 
                 <br><br><br><br>
                 {{>articlesCTA}}
