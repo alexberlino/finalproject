@@ -109,7 +109,7 @@ var englishHP = function(req, res) {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainHP",
-        title: "SEO Company Germany • SEO Services Agency | seoberlino",
+        title: "SEO Company Germany • SEO Freelance Services | seoberlino",
         description: "SEO Company for SEO Consultancy, with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de"
@@ -135,23 +135,23 @@ app.get("/de", (req, res) => {
 app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratung", {
-        requrl: "https://www.seoberlino.com/en/seo-freelancer",
+        requrl: "https://www.seoberlino.com/en/seo-consultant",
         layout: "mainDE",
         title: "SEO Freelancer • SEO Beratung & Consulting | seoberlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
-        alt: "https://www.seoberlino.com/en/seo-freelancer"
+        alt: "https://www.seoberlino.com/en/seo-consultant"
     });
 });
 
-app.get("/en/seo-freelancer", (req, res) => {
+app.get("/en/seo-consultant", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "Experienced Freelance SEO Consultant in Germany | seoberlino",
+        title: "Experienced SEO Consultant in Germany | seoberlino",
         layout: "main",
-        description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en/seo-freelancer",
+        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        canonical: "https://www.seoberlino.com/en/seo-consultant",
         alt: "https://www.seoberlino.com/de/seo-freelancer"
     });
 });
@@ -161,7 +161,7 @@ app.get("/en/seo-freelancer", (req, res) => {
 // app.get("/de/seo-beratung", (req, res) => {
 //     i18n.setLocale(req, "de");
 //     res.render("seoberatung", {
-//         requrl: "https://www.seoberlino.com/en/seo-freelancer",
+//         requrl: "https://www.seoberlino.com/en/seo-consultant",
 //         layout: "mainDE",
 //         title: "SEO Beratung • SEO Berater | seoberlino",
 //         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -1161,7 +1161,7 @@ app.get("/de/audit", function(request, response) {
 });
 app.get("/en/audit", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/seo-freelancer",
+        Location: "/en/seo-consultant",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1230,6 +1230,15 @@ app.get("/en/article/voice-search-challenges", function(request, response) {
 app.get("/de/consultant", function(request, response) {
     response.writeHead(301, {
         Location: "/de/seo-freelancer",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/seo-freelancer", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-consultant",
         Expires: new Date().toGMTString()
     });
     response.end();
