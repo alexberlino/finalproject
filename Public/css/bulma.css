@@ -4836,10 +4836,6 @@ body.has-navbar-fixed-bottom, html.has-navbar-fixed-bottom {
     margin-top: 3rem !important
 }
 
-.header-body, .hero-body {
-    visibility: hidden
-}
-
 .blue-dot-list ul {
     list-style: none;
     margin-left: 20px;
