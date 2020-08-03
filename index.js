@@ -157,6 +157,31 @@ app.get("/en/seo-consultant", (req, res) => {
 });
 
 
+app.get("/de/google-ranking-verbessern", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("googleranking", {
+        requrl: "https://www.seoberlino.com/en/google-ranking",
+        layout: "mainDE",
+        title: "Google Ranking verbessern  • SEO Beratung & Consulting | seoberlino",
+        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com/de/google-ranking-verbessern",
+        alt: "https://www.seoberlino.com/en/google-ranking"
+    });
+});
+
+app.get("/en/google-ranking", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("googleranking", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "How to improve your Google Rankings • SEO Consultancy in Germany | seoberlino",
+        layout: "main",
+        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        canonical: "https://www.seoberlino.com/en/seo-ranking",
+        alt: "https://www.seoberlino.com/de/google-ranking-verbessern"
+    });
+});
+
+
 
 // app.get("/de/seo-beratung", (req, res) => {
 //     i18n.setLocale(req, "de");
