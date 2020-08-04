@@ -182,6 +182,31 @@ app.get("/en/google-ranking", (req, res) => {
 });
 
 
+app.get("/en/seo-tools", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("seotools", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "SEO Tools for an SEO Check • SEO Consultancy in Germany | seoberlino",
+        layout: "main",
+        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        canonical: "https://www.seoberlino.com/en/seo-tools",
+        alt: "https://www.seoberlino.com/de/seo-tools"
+    });
+});
+
+app.get("/de/seo-tools", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("seotools", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "SEO Tools für SEO Check • SEO Consultancy in Germany | seoberlino",
+        layout: "main",
+        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        canonical: "https://www.seoberlino.com/en/seo-tools",
+        alt: "https://www.seoberlino.com/en/seo-tools"
+    });
+});
+
+
 
 app.get("/de/seo-beratung", (req, res) => {
     i18n.setLocale(req, "de");
