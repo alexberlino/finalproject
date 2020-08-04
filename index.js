@@ -183,17 +183,16 @@ app.get("/en/google-ranking", (req, res) => {
 
 
 
-// app.get("/de/seo-beratung", (req, res) => {
-//     i18n.setLocale(req, "de");
-//     res.render("seoberatung", {
-//         requrl: "https://www.seoberlino.com/en/seo-consultant",
-//         layout: "mainDE",
-//         title: "SEO Beratung • SEO Berater | seoberlino",
-//         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-//         canonical: "https://www.seoberlino.com/de/seo-beratung",
-//         alt: "https://www.seoberlino.com/en/seo"
-//     });
-// });
+app.get("/de/seo-beratung", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("seoberatung", {
+        requrl: "https://www.seoberlino.com/en/seo-consultant",
+        layout: "mainNoAltDE",
+        title: "SEO Beratung • SEO Berater | seoberlino",
+        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com/de/seo-beratung",
+    });
+});
 
 app.get("/en/seo-services/berlin", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1285,13 +1284,6 @@ app.get("/en/onpage/keyword-research", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-beratung", function(request, response) {
-    response.writeHead(301, {
-        Location: "/de/seo-freelancer",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
 app.get("/en/onpage*", function(request, response) {
     response.writeHead(301, {
