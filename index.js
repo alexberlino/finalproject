@@ -1177,6 +1177,27 @@ app.get("/en/article/beyond-mobile-first", function(request, response) {
     });
     response.end();
 });
+
+
+
+app.get("/en/seo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/seo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-optimierung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
 app.get("/en/article/clutch", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-services/clutch",
@@ -1203,7 +1224,7 @@ app.get("/de/lexical*", function(request, response) {
 
 app.get("/de/audit", function(request, response) {
     response.writeHead(301, {
-        Location: "/de/seo-freelancer",
+        Location: "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
