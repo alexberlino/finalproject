@@ -1283,7 +1283,7 @@ app.get("/en/article/voicesearch", function(request, response) {
 
 app.get("/", function(request, response) {
     response.writeHead(301, {
-        Location: "/en",
+        Location: "/de",
         Expires: new Date().toGMTString()
     });
     response.end();
