@@ -1213,6 +1213,24 @@ app.get("/en/lexical*", function(request, response) {
     response.end();
 });
 
+
+app.get("/de/blog", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-optimierung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/blog", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
 app.get("/de/lexical*", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-services/seo-glossary",
