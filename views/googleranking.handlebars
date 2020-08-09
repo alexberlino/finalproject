@@ -50,64 +50,133 @@
 
                 <br>
 
-                <h2 id="structureddata" class="title is-2 is-heavy reduced-top-margin">{{{__ "onpageHP8"}}}</h2>
+                <h2 class="title is-2 is-heavy reduced-top-margin">On-page SEO</h2>
 
+                <h2 class="title is-4 is-heavy">{{{__ "contentMPT1"}}}</h2>
+                <p>{{{__ "contentMP1"}}}</p>
 
-                <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "structuredMPT1"}}}</h2>
-                <p>{{{__ "structuredMP1"}}}</p>
-                <h2 class="title is-4 is-heavy">{{{__ "structuredMPT2"}}}</h2>
-                <p>{{{__ "structuredMP2"}}}</p>
-                <h2 class="title is-4 is-heavy">{{{__ "structuredMPT3"}}}</h2>
-                <p>{{{__ "structuredMP3"}}}</p>
+                <h2 class="title is-4 is-heavy">{{{__ "contentMPT2"}}}</h2>
+                <p>{{{__ "contentMP2"}}}</p>
 
-                <pre>&lt;script type="application/ld+json">
-        {
-        "@context": "http://schema.org",
-        "@type": "Organization",
-        "url": "yoursite.com",
-        "contactPoint": [{
-        "@type": "ContactPoint",
-        "telephone": "youphonenumber",
-        "contactType": "customer support"
-        }]
-        }
-        &lt;/script>
+                <h2 class="title is-4 is-heavy">{{{__ "contentMPT3"}}}</h2>
+                <p>{{{__ "contentMP3"}}}</p>
 
-        &lt;script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Books",
-        "item": "https://example.com"
-        }, {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Authors",
-        "item": "https://example.com/2"
-        }, {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Ann Leckie",
-        "item": "https://example.com/3"
-        }, {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Ancillary Justice",
-        "item": "https://example.com/4"
-        }]
-        }
-        &lt;/script></pre>
-
-                <p><a target="_blank" href="https://schema.org/">Schema.org all references</a></p>
-                <p><a target="_blank" href="https://www.google.com/webmasters/markup-helper/u/0/?hl=en">Markup Helper</a></p>
-                <p><a target="_blank" href="https://search.google.com/structured-data/testing-tool/u/0/?hl=en">Tester</a></p>
+                <h2 class=" title is-4 is-heavy reduced-top-margin">{{{__ "definition"}}}</h2>
+                <p>{{{__ "altattributeMP"}}}</p>
 
 
 
+
+                <p>{{{__ "imagesMP1"}}}</p>
+                <pre>&lt;img src="/image.jpg" alt="yourimagealthere" title="furtherinfohere" /></pre>
+
+                <p>{{{__ "imagesMP2"}}}</p>
+                <p>Alt Attribute {{{__ "imagesMP3"}}}</p>
+
+
+                <h2 class="title is-3 is-heavy">Image title</h2>
+                <p>{{{__ "imagesMP4"}}}</p>
+                <h2 class="title is-3 is-heavy">{{{__ "imagesMPT5"}}}</h2>
+                <p>{{{__ "imagesMP5"}}}</p>
+
+                <h2 class="title is-3 is-heavy">Keywords</h2>
+
+                    <p>{{{__ "keywordMP1"}}}</p>
+                    <p>{{{__ "keywordMP2"}}}</p>
+                    <p>{{{__ "keywordMP3"}}}</p>
+                <br>
+
+                <figure class="image is-fullwidth is-outlined">
+                    <img alt="metas" src="/seo-images/tag.jpg" />
+                </figure>
+                <h2 class="title is-3 is-heavy reduced-top-margin">Title</h2>
+
+                <pre>&lt;title&gt;My Unique Title&lt;/title>
+            </pre>
+
+
+
+
+                <p>{{{__ "metasMP1"}}}</p>
+                <h2 class="title is-4 is-heavy">Description</h2>
+                <pre>&lt;meta name="description" content="my unique description" />
+            </pre>
+
+                <p>{{{__ "metasMP2"}}}</p>
+
+                <h2 class="title is-3 is-heavy">Headings</h2>
+
+                <pre>
+&lt;h1&gt;my unique h1: page main topic&lt;/h1&gt;
+&lt;h2&gt;Title part 1&lt;/h2&gt;
+&lt;h3&gt;Subtitle 1&lt;/h3&gt;
+&lt;h3&gt;Subtitle 2&lt;/h3&gt;
+
+&lt;h2&gt;Title part 2&lt;/h2&gt;
+
+
+&lt;h2&gt;Title part 3&lt;/h2&gt;
+&lt;h3&gt;Subtitle 1&lt;/h3&gt;
+&lt;h3&gt;Subtitle 2&lt;/h3&gt;
+&lt;h3&gt;Subtitle 3&lt;/h3&gt;
+            </pre>
+
+                <p>{{{__ "metasMP3"}}}</p><br>
+
+                <h2 class="title is-3 is-heavy">Social Media: OpenGraph & Twitter Card</h2>
+                <pre>
+&lt;meta property="og:title" content="mytitle" />
+&lt;meta property="og:url" content="myurl" />
+&lt;meta property="og:description" content="mydescription" />
+&lt;meta property="og:locale" content="countrycode" />
+&lt;meta property="og:site_name" content="name" />
+&lt;meta name="twitter:card" content="summary" />
+&lt;meta name="twitter:site" content="@name" />
+&lt;meta name="twitter:title" content="mytitle" />
+&lt;meta name="twitter:description" content="mydescription" />
+&lt;meta name="twitter:image" content="/logo.jpg" />
+                </pre>
+
+                <h2 class="title is-3 is-heavy">Viewport</h2>
+                <pre>&lt;meta name="viewport" content="width=device-width, initial-scale=1" />
+                    </pre>
+                <br>
+                <h2 class="title is-3 is-heavy">{{{__ "metasMPT4"}}}</h2>
+                <p>{{{__ "metasMP4"}}}</p> <br><br> <br>
                 <br><br>
+
+
+
+                <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "voiceMPT1"}}}</h2>
+                <p>{{{__ "voiceMP1"}}}</p>
+                <h2 class="title is-4 is-heavy">{{{__ "voiceMPT2"}}}</h2>
+                <p>{{{__ "voiceMP2"}}}</p>
+                <h2 class="title is-4 is-heavy">{{{__ "voiceMPT3"}}}</h2>
+                <p>{{{__ "voiceMP3"}}}</p>
+                <h2 class="title is-4 is-heavy">{{{__ "voiceMPT4"}}}</h2>
+                <p><a class="blue" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/seo-glossary#searchvolume">Search Volume</a>{{{__ "voiceMP4"}}}</p>
+                <h2 class="title is-4 is-heavy">Featured Snippets</h2>
+                <p>{{{__ "voiceMP5"}}}</p>
+                <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "localMPT1"}}}</h2>
+                <p>{{{__ "localMP1"}}}</p>
+
+                <img width=50% src="/seo-images/mybusiness.jpg" alt="My Business, Local SEO" />
+                <br><br>
+                <h2 class="title is-4 is-heavy">{{{__ "localMPT2"}}}</h2>
+
+                <p>{{{__ "localMP2"}}}</p>
+
+                <h2 class="title is-4 is-heavy">{{{__ "localMPT3"}}}</h2>
+                <p>{{{__ "localMP3"}}}</p>
+
+                <h2 class="title is-4 is-heavy">{{{__ "localMPT4"}}}</h2>
+                <p>{{{__ "localMP4"}}}</p>
+
+                <h2 class="title is-4 is-heavy">{{{__ "relevanttools"}}} </h2>
+                <p><a href="https://www.google.com/business/" target="_blank">Google's MyBusiness</a></p>
+                <br><br>
+                
+
                 <div class="column is-12-mobile is-8-tablet is-12-desktop">
                     <h2> Technical SEO</h2>
 
