@@ -1255,7 +1255,7 @@ app.get("/en/audit", function(request, response) {
     response.end();
 });
 
-app.get("/en/casestudy", function(request, response) {
+app.get("/en/casestudy*", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-services/seo-case-studies",
         Expires: new Date().toGMTString()
