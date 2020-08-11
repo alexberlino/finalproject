@@ -176,7 +176,7 @@ app.get("/en/google-ranking", (req, res) => {
         title: "How to improve your Google Rankings • SEO Consultancy in Germany | seoberlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en/seo-ranking",
+        canonical: "https://www.seoberlino.com/en/google-ranking",
         alt: "https://www.seoberlino.com/de/google-ranking-verbessern"
     });
 });
@@ -201,7 +201,7 @@ app.get("/de/seo-tools", (req, res) => {
         title: "SEO Tools für SEO Check • SEO Consultancy in Germany | seoberlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en/seo-tools",
+        canonical: "https://www.seoberlino.com/de/seo-tools",
         alt: "https://www.seoberlino.com/en/seo-tools"
     });
 });
