@@ -567,7 +567,7 @@ app.get("/de/seo-optimierung/keyword-research", (req, res) => {
     res.render("blogonpage/blogKW", {
         requrl: "https://www.seoberlino.com/en/seo-services/keyword-research",
         layout: "mainDE",
-        title: "Keyword Recherche | SEO Optimierung | SEO Berlino",
+        title: "Keyword Recherche | Keywords finden | SEO Berlino",
         description:
             "Website optimization, über SEO. SEO Berater in Berlin. 10 Jahre Erfahrung: SEO, Analytics und SEA.",
         canonical:
@@ -868,7 +868,7 @@ app.get("/en/seo-services/localSEO", (req, res) => {
     res.render("blogonpage/localseo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Local SEO | SEO Services | seoberlino",
+        title: "Google MyBusiness | seoberlino",
         description:
             "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -881,7 +881,7 @@ app.get("/de/seo-optimierung/localSEO", (req, res) => {
     res.render("blogonpage/localseo", {
         requrl: "https://www.seoberlino.com/en/seo-services/localSEO",
         layout: "mainDE",
-        title: "Local SEO Optimierung | seoberlino",
+        title: "Local SEO | Google MyBusiness | seoberlino",
         description:
             "Insbesondere für lokale Unternehmen ist es von größter Bedeutung, Ihre SEO-Gesamtstrategie auf lokale SEO auszurichten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1056,6 +1056,189 @@ app.get("/de/seo-optimierung/canonical", (req, res) => {
     });
 });
 
+app.get("/en/seo-services/404", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/404", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "404 | seoberlino",
+        description:
+            "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/404"
+    });
+});
+
+app.get("/de/seo-optimierung/404", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/404", {
+        requrl: "https://www.seoberlino.com/en/seo-services/404",
+        layout: "mainDE",
+        title: "404 | seoberlino",
+        description:
+            "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/404"
+    });
+});
+
+app.get("/en/seo-services/crawler", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/crawler", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "404 | seoberlino",
+        description:
+            "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/crawler"
+    });
+});
+
+app.get("/de/seo-optimierung/crawler", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/crawler", {
+        requrl: "https://www.seoberlino.com/en/seo-services/crawler",
+        layout: "mainDE",
+        title: "404 | seoberlino",
+        description:
+            "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/crawler"
+    });
+});
+
+app.get("/en/seo-services/googleanalytics", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/googleanalytics", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Google Analytics  | seoberlino",
+        description:
+            "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/googleanalytics"
+    });
+});
+
+app.get("/de/seo-optimierung/googleanalytics", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/googleanalytics", {
+        requrl: "https://www.seoberlino.com/en/seo-services/googleanalytics",
+        layout: "mainDE",
+        title: "Google Analytics einrichten | seoberlino",
+        description:
+            "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/googleanalytics"
+    });
+});
+
+app.get("/en/seo-services/googlesearchconsole", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/googlesearchconsole", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Search Console | seoberlino",
+        description:
+            "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/googlesearchconsole"
+    });
+});
+
+app.get("/de/seo-optimierung/googlesearchconsole", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/googlesearchconsole", {
+        requrl:
+            "https://www.seoberlino.com/en/seo-services/googlesearchconsole",
+        layout: "mainDE",
+        title: "Search Console einrichten | seoberlino",
+        description:
+            "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/googlesearchconsole"
+    });
+});
+
+app.get("/en/seo-services/seoaudit", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/seoaudit", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "SEO Audit | seoberlino",
+        description:
+            "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/seoaudit"
+    });
+});
+
+app.get("/de/seo-optimierung/seoaudit", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/seoaudit", {
+        requrl: "https://www.seoberlino.com/en/seo-services/seoaudit",
+        layout: "mainDE",
+        title: "SEO Audit| seoberlino",
+        description:
+            "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/seoaudit"
+    });
+});
+
+app.get("/en/seo-services/seobudget", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/seobudget", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "SEO Budget | seoberlino",
+        description:
+            "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/seobudget"
+    });
+});
+
+app.get("/de/seo-optimierung/seobudget", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/seobudget", {
+        requrl: "https://www.seoberlino.com/en/seo-services/seobudget",
+        layout: "mainDE",
+        title: "SEO  Budget| seoberlino",
+        description:
+            "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/seobudget"
+    });
+});
+
+app.get("/en/seo-services/seospecialist", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/seospecialist", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "SEO Specialist | seoberlino",
+        description:
+            "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/seospecialist"
+    });
+});
+
+app.get("/de/seo-optimierung/seospecialist", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/seospecialist", {
+        requrl: "https://www.seoberlino.com/en/seo-services/seospecialist",
+        layout: "mainDE",
+        title: "SEO Spezialist| seoberlino",
+        description:
+            "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/seospecialist"
+    });
+});
+
 app.get("/en/seo-services/disavowtool", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/disavow", {
@@ -1098,7 +1281,7 @@ app.get("/en/seo-services/longtail", (req, res) => {
 app.get("/de/seo-optimierung/longtail", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtech/longtail", {
-        requrl: "https://www.seoberlino.com/en/seo-services/disavowtool",
+        requrl: "https://www.seoberlino.com/en/seo-services/longtail",
         layout: "mainDE",
         title: "Long Tail Keywords | seoberlino",
         description:
@@ -1124,7 +1307,7 @@ app.get("/en/seo-services/searchvolume", (req, res) => {
 app.get("/de/seo-optimierung/searchvolume", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtech/searchvolume", {
-        requrl: "https://www.seoberlino.com/en/seo-services/disavowtool",
+        requrl: "https://www.seoberlino.com/en/seo-services/searchvolume",
         layout: "mainDE",
         title: "Keyword Search Volume | seoberlino",
         description:
@@ -1321,7 +1504,7 @@ app.get("/en/seo-services/sitemaps", (req, res) => {
     res.render("blogtech/sitemaps", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Sitemaps | seoberlino",
+        title: "xml Sitemap | seoberlino",
         description:
             "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1334,7 +1517,7 @@ app.get("/de/seo-optimierung/sitemaps", (req, res) => {
     res.render("blogtech/sitemaps", {
         requrl: "https://www.seoberlino.com/en/seo-services/sitemaps",
         layout: "mainDE",
-        title: "Sitemaps | seoberlino",
+        title: "xml Sitemap | seoberlino",
         description:
             "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1365,6 +1548,32 @@ app.get("/de/seo-optimierung/amp", (req, res) => {
             "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/amp"
+    });
+});
+
+app.get("/en/seo-services/searchengines", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/suchmaschinen", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Search Engines | seoberlino",
+        description:
+            "Search Enginles, Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/searchengines"
+    });
+});
+
+app.get("/de/seo-optimierung/searchengines", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/suchmaschinen", {
+        requrl: "https://www.seoberlino.com/en/seo-services/amp",
+        layout: "mainDE",
+        title: "Suchmaschinen | seoberlino",
+        description:
+            "Suchmaschinen, Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/searchengines"
     });
 });
 
