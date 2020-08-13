@@ -19,9 +19,9 @@
                             <li><a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/technical-seo">Technical</a></li>
 
                         </ul>
-                    </nav><br>
+                    </nav>
                 </div>
-                <br>
+
 
                 <div class="columns is-multiline">
                     <div class="column is-12-mobile is-12-tablet is-8-desktop">
@@ -30,16 +30,26 @@
 
 
 
-                        <br>
+                        <br><br>
                         <img src="/seo-images/404.png"/>
 <br><br>
-<img src="/seo-images/404_1.png"/>
+
+{{{__ "404MP2"}}}<br><br>
+<img src="/seo-images/404_1.png"/><br><br>
+
+
+{{{__ "404MP3"}}}<br><br><pre>
+
+app.all("*", function(req, res) {
+    res.status(404).render("error");
+});
+</pre><br>
+
                     </div>
 
                 {{>lexical}}<br><br>{{>articlesCTA}}
 
                 </div>
-                <br><br><br>
 
             </div>
 
