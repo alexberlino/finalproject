@@ -63,6 +63,12 @@ if (process.env.NODE_ENV === "production") {
                 301,
                 ["https://www.seoberlino.com", req.url].join("")
             );
+        }
+        if (req.headers.host.slice(0, 3) != "www") {
+            return res.redirect(
+                301,
+                ["https://www.seoberlino.com", req.url].join("")
+            );
         } else {
             next();
         }
@@ -134,7 +140,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/en/seo-consultant",
         layout: "mainDE",
-        title: "SEO Freelancer • SEO Consultant | seoberlino",
+        title: "SEO Freelancer • Suchmaschinenoptimierung | seoberlino",
         description:
             "SEO Freelancer und Analytics Consultant: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
