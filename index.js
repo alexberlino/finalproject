@@ -214,12 +214,24 @@ app.get("/de/seo-tools", (req, res) => {
 app.get("/de/seo-beratung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung", {
-        requrl: "https://www.seoberlino.com/en/seo-consultant",
-        layout: "mainNoAltDE",
+        requrl: "https://www.seoberlino.com/de/seo-beratung",
+        layout: "mainDE",
         title: "SEO Beratung Berlin | seoberlino",
         description:
             "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-beratung"
+    });
+});
+
+app.get("/en/seo-consultancy", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("seoberatung", {
+        requrl: "https://www.seoberlino.com/de/seo-beratung",
+        layout: "main",
+        title: "SEO Consultancy Berlin | seoberlino",
+        description:
+            "SEO Freelancer and Analytics Expert: SEO, Analytics, SEA and Scrum. Clients: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com/en/seo-consultancy"
     });
 });
 
@@ -868,7 +880,7 @@ app.get("/en/seo-services/localSEO", (req, res) => {
     res.render("blogonpage/localseo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Google MyBusiness | seoberlino",
+        title: "Local SEO and Google MyBusiness | seoberlino",
         description:
             "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -881,7 +893,7 @@ app.get("/de/seo-optimierung/localSEO", (req, res) => {
     res.render("blogonpage/localseo", {
         requrl: "https://www.seoberlino.com/en/seo-services/localSEO",
         layout: "mainDE",
-        title: "Local SEO | Google MyBusiness | seoberlino",
+        title: "Local SEO und Google MyBusiness | seoberlino",
         description:
             "Insbesondere für lokale Unternehmen ist es von größter Bedeutung, Ihre SEO-Gesamtstrategie auf lokale SEO auszurichten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1384,7 +1396,7 @@ app.get("/en/seo-services/rankbrain", (req, res) => {
 
 app.get("/de/seo-optimierung/rankbrain", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("blogtech/removeurl", {
+    res.render("blogtech/rankbrain", {
         requrl: "https://www.seoberlino.com/en/seo-services/rankbrain",
         layout: "mainDE",
         title: "Rank Brain | seoberlino",
