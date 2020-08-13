@@ -1073,7 +1073,7 @@ app.get("/en/seo-services/404", (req, res) => {
     res.render("blogtech/404", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "404 | seoberlino",
+        title: "404 - Page Not Found | seoberlino",
         description:
             "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -2039,8 +2039,7 @@ app.get("/en/technical*", function(request, response) {
 });
 
 app.all("*", function(req, res) {
-    res.writeHead(404);
-    res.end();
+    res.status(404).render("error");
 });
 // listening
 app.listen(process.env.PORT || 8080, () => console.log("listening"));
