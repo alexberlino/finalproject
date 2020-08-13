@@ -386,6 +386,7 @@
     "mobileMP5": " Was die Leistung angeht ist es wichtig, dass Ihre Mobile Website schnell lädt und im korrekten Format angezeigt wird. Sie können dafür das PageSpeed Developer Tool von Google nutzen.",
     "speedMPT1": "So machen Sie Ihre Seite schneller",
     "speedMP1": "Nutzen Sie schnelle Host-Dienste, einen schnellen DNS (“Domain Name System”) Provider",
+    "redirects": "Weiterleitungen",
     "speedMP2": "Minimieren Sie HTTP-Anfragen – halten Sie den Gebrauch von Scripts und Plugins auf einem Minimum, nutzen Sie nur ein CSS Stylesheet (den Code, der dem Browser mitteilt wie Ihre Seite dargestellt werden soll) anstelle von mehreren CSS Stylesheets oder Inline CSS.",
     "speedMP3": "Stellen Sie sicher, dass Ihre Bilddateien so klein wie möglich sind (natürlich ohne verpixelt zu sein).",
     "speedMP4": "Komprimieren Sie Ihre Webseiten (dies können Sie mit dem Werkzeug GZIP tun), verringern Sie den Code Ihrer Seite indem Sie unnötige Leerzeichen, Zeilenumbrüche oder Einzüge aus Ihrem HTML, Ihrem CSS und Ihrem Javascript entfernen. (Für Hilfestellung dabei lesen Sie Googles Minify Resources)",

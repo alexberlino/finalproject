@@ -127,7 +127,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Agentur Berlin • SEO Optimierung| seoberlino",
+        title: "SEO Agentur Berlin • SEO Optimierung | seoberlino",
         canonical: "https://www.seoberlino.com/de",
         description:
             "Kleine SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
@@ -222,7 +222,7 @@ app.get("/de/seo-beratung", (req, res) => {
     res.render("seoberatung", {
         requrl: "https://www.seoberlino.com/de/seo-beratung",
         layout: "mainDE",
-        title: "SEO Beratung Berlin | seoberlino",
+        title: "SEO Beratung | SEO Berater in Berlin | seoberlino",
         description:
             "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-beratung",
@@ -1094,7 +1094,7 @@ app.get("/de/seo-optimierung/404", (req, res) => {
     res.render("blogtech/404", {
         requrl: "https://www.seoberlino.com/en/seo-services/404",
         layout: "mainDE",
-        title: "404 | seoberlino",
+        title: "Fehler 404 Not Found | seoberlino",
         description:
             "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1433,7 +1433,7 @@ app.get("/de/seo-optimierung/redirects", (req, res) => {
     res.render("blogtech/redirect", {
         requrl: "https://www.seoberlino.com/en/seo-services/redirects",
         layout: "mainDE",
-        title: "301 und 302 Redirects | seoberlino",
+        title: "301 und 302 Weiterleitungen | seoberlino",
         description:
             "Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
