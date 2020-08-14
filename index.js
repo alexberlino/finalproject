@@ -49,18 +49,23 @@ app.use(i18n.init);
 
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
+        if (host.match(/^www\..*/i)) {
+            next();
+        } else {
+            res.redirect(301, "https://www." + host + req.url);
+        }
+    });
+}
+
+if (process.env.NODE_ENV === "production") {
+    app.use(function(req, res, next) {
         if (req.headers["x-forwarded-proto"] !== "https") {
             return res.redirect(
                 301,
                 ["https://www.seoberlino.com", req.url].join("")
             );
-            break;
-        }
-
-        if (host.match(/^www\..*/i)) {
-            next();
         } else {
-            res.redirect(301, "https://www." + host + req.url);
+            next();
         }
     });
 }
