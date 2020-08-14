@@ -4,7 +4,7 @@
 <metadata></metadata>
 <defs>
 <font id="bariolregular" horiz-adv-x="1060" >
-<font-face units-per-em="2048" ascent="1612" descent="-436" />
+<font-face font-display="swap"; units-per-em="2048" ascent="1612" descent="-436" />
 <missing-glyph horiz-adv-x="487" />
 <glyph unicode="&#x2e;&#x2e;&#x2e;" horiz-adv-x="1439" d="M68 80q0 98 96 98t96 -98q0 -96 -96 -96t-96 96zM623 80q0 98 96 98t96 -98q0 -96 -96 -96t-96 96zM1180 80q0 98 96 98t96 -98q0 -96 -96 -96t-96 96z" />
 <glyph unicode="ff" horiz-adv-x="1138" d="M43 868q0 26 17.5 44t43.5 18h70v121q0 71 20.5 133t62 111.5t111 78.5t160.5 29q26 0 44 -18t18 -44t-18 -43.5t-44 -17.5q-115 0 -169 -61.5t-54 -167.5v-121h416v121q0 71 20.5 133t62 111.5t111 78.5t160.5 29q26 0 44 -18t18 -44t-18 -43.5t-44 -17.5 q-115 0 -169 -61.5t-54 -167.5v-121h186q26 0 44 -18t18 -44t-18 -43.5t-44 -17.5h-186v-758q0 -28 -19 -46.5t-47 -18.5t-46.5 18.5t-18.5 46.5v758h-416v-758q0 -28 -18.5 -46.5t-46.5 -18.5t-47 18.5t-19 46.5v758h-70q-26 0 -43.5 17.5t-17.5 43.5z" />
@@ -6081,4 +6081,4 @@
 <hkern g1="y,yacute,ydieresis,ycircumflex,ygrave" 	g2="period,ellipsis" 	k="184" />
 <hkern g1="y,yacute,ydieresis,ycircumflex,ygrave" 	g2="g,gcircumflex,gbreve,gdotaccent,gcommaaccent" 	k="51" />
 </font>
-</defs></svg> 
+</defs></svg>

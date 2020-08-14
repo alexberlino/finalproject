@@ -6662,3 +6662,7 @@ h2::before {
     font-size: 1rem !important;
     font-weight: 700 !important
 }
+@font-face {
+
+  font-display: swap;
+}
