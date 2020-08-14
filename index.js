@@ -55,14 +55,18 @@ if (process.env.NODE_ENV === "production") {
                 301,
                 ["https://www.seoberlino.com", req.url].join("")
             );
-        }  if (req.headers.host.slice(0, 4) != 'www.') { {
+        }
+        if (req.headers.host.slice(0, 4) != 'www.')  {
 
             return res.redirect(
                 301,
-                ["https://www.seoberlino.com", req.url].join("")    }
-}
+                ["https://www.seoberlino.com", req.url].join("")
+            }
+
             else {
             next();
+            }
+        else {next();
         }
     });
 }
