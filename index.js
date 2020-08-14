@@ -47,19 +47,35 @@ i18n.configure({
 });
 app.use(i18n.init);
 
-// if (process.env.NODE_ENV === "production") {
-//     app.use(function(req, res, next) {
-//         if (host.match(/^www\..*/i)) {
-//             next();
-//         } else {
-//             res.redirect(301, "https://www." + host + req.url);
-//         }
-//     });
-// }
+if (process.env.NODE_ENV === "production") {
+    app.all(/.*/, function(req, res, next) {
+        var host = req.header("host");
+        if (host.match(/^www\..*/i)) {
+            next();
+        } else {
+            res.redirect(301, "https://www." + host);
+        }
+    });
+}
 
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
+        if (req.headers["x-forwarded-proto"] == "https") {
+            if (req.headers.host.slice(0, 3) != "www") {
+                return res.redirect(
+                    301,
+                    "https://www.seoberlino.com" + req.url
+                );
+            }
+        }
+
         if (req.headers["x-forwarded-proto"] !== "https") {
+            return res.redirect(
+                301,
+                ["https://www.seoberlino.com", req.url].join("")
+            );
+        }
+        if (req.headers.host.slice(0, 3) != "www") {
             return res.redirect(
                 301,
                 ["https://www.seoberlino.com", req.url].join("")
