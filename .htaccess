@@ -12,3 +12,10 @@
     ExpiresByType application/x-icon "access plus 1 year"
 </IfModule>
 # END EXPIRES
+
+
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.seoberlino.com%{REQUEST_URI} [L,NE,R=301]
