@@ -11,6 +11,8 @@ var bodyParser = require("body-parser");
 var http = require("http");
 var etag = require("etag");
 
+var force = require("express-force-domain");
+
 app.use(
     bodyParser.urlencoded({
         extended: false
@@ -46,12 +48,8 @@ i18n.configure({
     }
 });
 app.use(i18n.init);
-
 if (process.env.NODE_ENV === "production") {
-    app.all(
-        "*",
-        require("./express-force-domain")("https://www.seoberlino.com")
-    );
+    app.use(force("https://www.seoberlino.com"));
 }
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
