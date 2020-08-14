@@ -60,22 +60,7 @@ if (process.env.NODE_ENV === "production") {
 
 if (process.env.NODE_ENV === "production") {
     app.use(function(req, res, next) {
-        if (req.headers["x-forwarded-proto"] == "https") {
-            if (req.headers.host.slice(0, 3) != "www") {
-                return res.redirect(
-                    301,
-                    "https://www.seoberlino.com" + req.url
-                );
-            }
-        }
-
         if (req.headers["x-forwarded-proto"] !== "https") {
-            return res.redirect(
-                301,
-                ["https://www.seoberlino.com", req.url].join("")
-            );
-        }
-        if (req.headers.host.slice(0, 3) != "www") {
             return res.redirect(
                 301,
                 ["https://www.seoberlino.com", req.url].join("")
