@@ -48,21 +48,21 @@ i18n.configure({
     }
 });
 
-const imagemin = require("imagemin");
-const imageminJpegtran = require("imagemin-jpegtran");
-const imageminPngquant = require("imagemin-pngquant");
-
-(async () => {
-    const files = await imagemin(["images/*.{jpg,png}"], {
-        destination: "build/images",
-        plugins: [
-            imageminJpegtran(),
-            imageminPngquant({
-                quality: [0.6, 0.8]
-            })
-        ]
-    });
-})();
+// const imagemin = require("imagemin");
+// const imageminJpegtran = require("imagemin-jpegtran");
+// const imageminPngquant = require("imagemin-pngquant");
+//
+// (async () => {
+//     const files = await imagemin(["images/*.{jpg,png}"], {
+//         destination: "build/images",
+//         plugins: [
+//             imageminJpegtran(),
+//             imageminPngquant({
+//                 quality: [0.6, 0.8]
+//             })
+//         ]
+//     });
+// })();
 
 app.use(i18n.init);
 if (process.env.NODE_ENV === "production") {
