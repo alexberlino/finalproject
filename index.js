@@ -1695,6 +1695,15 @@ app.get("/en/article/beyond-mobile-first", function(request, response) {
     response.end();
 });
 
+app.get("/de/blog/keyword-research", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-optimierung/keyword-research",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
 app.get("/en/seo", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-services",
