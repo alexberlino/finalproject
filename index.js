@@ -48,21 +48,21 @@ i18n.configure({
     }
 });
 
-// const imagemin = require("imagemin");
-// const imageminJpegtran = require("imagemin-jpegtran");
-// const imageminPngquant = require("imagemin-pngquant");
-//
-// (async () => {
-//     const files = await imagemin(["images/*.{jpg,png}"], {
-//         destination: "build/images",
-//         plugins: [
-//             imageminJpegtran(),
-//             imageminPngquant({
-//                 quality: [0.6, 0.8]
-//             })
-//         ]
-//     });
-// })();
+const imagemin = require("imagemin");
+const imageminJpegtran = require("imagemin-jpegtran");
+const imageminPngquant = require("imagemin-pngquant");
+
+(async () => {
+    const files = await imagemin(["/public/images/*.{jpg,png}"], {
+        destination: "/public/images/build",
+        plugins: [
+            imageminJpegtran(),
+            imageminPngquant({
+                quality: [0.6, 0.8]
+            })
+        ]
+    });
+})();
 
 app.use(i18n.init);
 if (process.env.NODE_ENV === "production") {
@@ -737,7 +737,7 @@ app.get("/de/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "SEO Experte in Berlin | seoberlino ",
+        title: "SEO Berlino Kontakt ",
         description:
             "SEO Consultant in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
@@ -749,12 +749,38 @@ app.get("/en/contact", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainHP",
-        title: "SEO Expert • SEO Services in Berlin | seoberlino",
+        layout: "main",
+        title: "SEO Consultant in Berlin • Get in Touch | seoberlino",
         description:
             "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
+    });
+});
+
+app.get("/de/seo-experte", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("expert", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainDE",
+        title: "SEO Experte in Berlin | SEO Berlino ",
+        description:
+            "SEO Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
+        canonical: "https://www.seoberlino.com/de/experte",
+        alt: "https://www.seoberlino.com/en/expert"
+    });
+});
+
+app.get("/en/seo-expert", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("expert", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "SEO Expert in Berlin | SEO Berlino ",
+        description:
+            "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/experte"
     });
 });
 
