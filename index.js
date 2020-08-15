@@ -50,35 +50,35 @@ i18n.configure({
 app.use(express.static("./Public"));
 
 
-const imagemin = require('imagemin');
-
-
-const imageminMozjpeg = require('imagemin-mozjpeg');
-
-(async () => {
-    await imagemin(['public/images/*.jpg', 'public/images/seo-images/*.jpg', 'public/images/clients/*.jpg'], {
-        destination: 'build/images',
-        plugins: [
-            imageminMozjpeg()
-        ]
-    });
-
-    console.log('Images optimized');
-})();
-
-const imageminPngquant = require('imagemin-pngquant');
-
-
-(async () => {
-    await imagemin(['public/images/*.png', 'public/images/seo-images/*.png', 'public/images/clients/*.png'], {
-        destination: 'build/images',
-        plugins: [
-            imageminPngquant()
-        ]
-    });
-
-    console.log('Images optimized');
-})();
+// const imagemin = require('imagemin');
+//
+//
+// const imageminMozjpeg = require('imagemin-mozjpeg');
+//
+// (async () => {
+//     await imagemin(['public/images/*.jpg', 'public/images/seo-images/*.jpg', 'public/images/clients/*.jpg'], {
+//         destination: 'build/images',
+//         plugins: [
+//             imageminMozjpeg()
+//         ]
+//     });
+//
+//     console.log('Images optimized');
+// })();
+//
+// const imageminPngquant = require('imagemin-pngquant');
+//
+//
+// (async () => {
+//     await imagemin(['public/images/*.png', 'public/images/seo-images/*.png', 'public/images/clients/*.png'], {
+//         destination: 'build/images',
+//         plugins: [
+//             imageminPngquant()
+//         ]
+//     });
+//
+//     console.log('Images optimized');
+// })();
 
 app.use(i18n.init);
 if (process.env.NODE_ENV === "production") {
