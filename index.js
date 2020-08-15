@@ -50,21 +50,24 @@ i18n.configure({
     }
 });
 
-// const imagemin = require("imagemin");
-// const imageminJpegtran = require("imagemin-jpegtran");
-// const imageminPngquant = require("imagemin-pngquant");
-//
-// (async () => {
-//     const files = await imagemin(["/public/images/*.{jpg,png}"], {
-//         destination: "/public/images/build",
-//         plugins: [
-//             imageminJpegtran(),
-//             imageminPngquant({
-//                 quality: [0.6, 0.8]
-//             })
-//         ]
-//     });
-// })();
+app.use(express.static("./Public"));
+
+
+const imagemin = require("imagemin");
+const imageminJpegtran = require("imagemin-jpegtran");
+const imageminPngquant = require("imagemin-pngquant");
+
+(async () => {
+    const files = await imagemin(["/Public/images/*.{jpg,png}"], {
+        destination: "/Public/images/build",
+        plugins: [
+            imageminJpegtran(),
+            imageminPngquant({
+                quality: [0.6, 0.8]
+            })
+        ]
+    });
+})();
 
 app.use(i18n.init);
 if (process.env.NODE_ENV === "production") {
@@ -86,7 +89,6 @@ if (process.env.NODE_ENV === "production") {
 var compression = require("compression");
 app.use(compression());
 
-app.use(express.static("./Public"));
 
 let secrets;
 if (process.env.NODE_ENV == "production") {
