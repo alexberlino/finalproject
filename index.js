@@ -53,7 +53,7 @@ const imageminJpegtran = require("imagemin-jpegtran");
 const imageminPngquant = require("imagemin-pngquant");
 
 (async () => {
-    const files = await imagemin(["images/*.{jpg,png}"], {
+    const files = await imagemin(["public/*.{jpg,png}"], {
         destination: "build/images",
         plugins: [
             imageminJpegtran(),
@@ -62,9 +62,6 @@ const imageminPngquant = require("imagemin-pngquant");
             })
         ]
     });
-
-    console.log(files);
-    //=> [{data: <Buffer 89 50 4e …>, destinationPath: 'build/images/foo.jpg'}, …]
 })();
 
 app.use(i18n.init);
