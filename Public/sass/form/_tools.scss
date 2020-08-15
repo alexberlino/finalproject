@@ -60,7 +60,7 @@ $help-size: $size-small !default;
 
       &:not(:first-child):not(:last-child) {
         .button,
-        .input,
+        .input2,
         .select select {
           border-radius: 0;
         }
@@ -68,7 +68,7 @@ $help-size: $size-small !default;
 
       &:first-child:not(:only-child) {
         .button,
-        .input,
+        .input2,
         .select select {
           border-bottom-right-radius: 0;
           border-top-right-radius: 0;
@@ -77,7 +77,7 @@ $help-size: $size-small !default;
 
       &:last-child:not(:only-child) {
         .button,
-        .input,
+        .input2,
         .select select {
           border-bottom-left-radius: 0;
           border-top-left-radius: 0;
@@ -85,7 +85,7 @@ $help-size: $size-small !default;
       }
 
       .button,
-      .input,
+      .input2,
       .select select {
         &:not([disabled]) {
           &:hover,
@@ -258,7 +258,7 @@ $help-size: $size-small !default;
   // Modifiers
   &.has-icons-left,
   &.has-icons-right {
-    .input,
+    .input2,
     .select {
       &:focus {
         & ~ .icon {
@@ -291,7 +291,7 @@ $help-size: $size-small !default;
   }
 
   &.has-icons-left {
-    .input,
+    .input2,
     .select select {
       padding-left: $input-height;
     }
@@ -302,7 +302,7 @@ $help-size: $size-small !default;
   }
 
   &.has-icons-right {
-    .input,
+    .input2,
     .select select {
       padding-right: $input-height;
     }
