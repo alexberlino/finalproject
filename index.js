@@ -1,7 +1,5 @@
 const express = require("express");
-const axios = require("axios");
 const app = express();
-const fetch = require("node-fetch");
 const {
     stringify
 } = require("querystring");
@@ -11,7 +9,6 @@ var hbs = require("hbs");
 var hb = require("express-handlebars");
 var bodyParser = require("body-parser");
 var http = require("http");
-var etag = require("etag");
 
 var force = require("express-force-domain");
 
@@ -53,21 +50,35 @@ i18n.configure({
 app.use(express.static("./Public"));
 
 
-// const imagemin = require("imagemin");
-// const imageminJpegtran = require("imagemin-jpegtran");
-// const imageminPngquant = require("imagemin-pngquant");
-//
-// (async () => {
-//     const files = await imagemin(["/Public/images/*.{jpg,png}"], {
-//         destination: "/Public/images/build",
-//         plugins: [
-//             imageminJpegtran(),
-//             imageminPngquant({
-//                 quality: [0.6, 0.8]
-//             })
-//         ]
-//     });
-// })();
+const imagemin = require('imagemin');
+
+
+const imageminMozjpeg = require('imagemin-mozjpeg');
+
+(async () => {
+    await imagemin(['public/images/*.jpg', 'public/images/seo-images/*.jpg', 'public/images/clients/*.jpg'], {
+        destination: 'build/images',
+        plugins: [
+            imageminMozjpeg()
+        ]
+    });
+
+    console.log('Images optimized');
+})();
+
+const imageminPngquant = require('imagemin-pngquant');
+
+
+(async () => {
+    await imagemin(['public/images/*.png', 'public/images/seo-images/*.png', 'public/images/clients/*.png'], {
+        destination: 'build/images',
+        plugins: [
+            imageminPngquant()
+        ]
+    });
+
+    console.log('Images optimized');
+})();
 
 app.use(i18n.init);
 if (process.env.NODE_ENV === "production") {
