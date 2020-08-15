@@ -4960,10 +4960,12 @@ a:hover.tag {
 }
 
 .boxcolor1 {
-    background-color: #fcf8ee;
-    border: 1px #d3d3d3 dotted;
-    padding: 1.5rem .45rem;
-    color: #000
+    background-color: white;
+    color: #D93A5F !important;
+    border: 1;
+    padding: 1rem .55rem;
+    border-radius: 5px;
+    box-shadow: 7px 7px 8px 0 rgba(0, 0, 0, .1) !important
 }
 
 .boxcolor2 {
@@ -6662,7 +6664,7 @@ h2::before {
     font-size: 1rem !important;
     font-weight: 700 !important
 }
-@font-face {
 
-  font-display: swap;
+@font-face {
+    font-display: swap;
 }
