@@ -1774,6 +1774,68 @@ app.get("/en/audit", function(request, response) {
     response.end();
 });
 
+
+app.get("/en/casestudy/n26", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services/case-study-n26",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/casestudy/zalando", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services/case-study-zalando",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/casestudy/hellofresh", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services/case-study-hellofresh",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/casestudy/hometogo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services/case-study-hometogo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/blog/case-study-hellofresh", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services/case-study-hellofresh",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/blog/case-study-zalando", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services/case-study-zalando",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/blog/case-study-hometogo", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services/case-study-hometogo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+
+
 app.get("/en/casestudy*", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-services/seo-case-studies",
@@ -1939,6 +2001,22 @@ app.get("/en/offpage*", function(request, response) {
 app.get("/de/technical*", function(request, response) {
     response.writeHead(301, {
         Location: "/de/seo-optimierung/technical-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/blog*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/analytics*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/en/seo-services",
         Expires: new Date().toGMTString()
     });
     response.end();
