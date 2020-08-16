@@ -1,0 +1,136 @@
+    <section class="blogpost-hero hero is-medium">
+        <div class="hero-body remove-padding">
+            <div class="container reduced">
+                <div class="columns is-centered is-multiline">
+                    <div class="column is-12-mobile is-10-tablet is-12-desktop">
+
+
+                        <div class="boxcolor" data-aos="fade-in"><br>
+                            <h1 class="h1HP is-heavy is-white has-text-centered" data-aos="fade-up-top">{{{__ "onpageHP8"}}}</h1><br>
+                        </div><br>
+                        <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/technical-seo" class="tag grey" data-aos="fade-in" data-aos-once="true"> technical</a>
+                        <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/onpage-seo" class="tag blue2" data-aos="fade-in" data-aos-once="true">onpage</a>
+                        <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/seo-case-studies" class="tag grey" data-aos="fade-in" data-aos-once="true"> study</a>
+                        <a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/backlinks" class="tag grey" data-aos="fade-in" data-aos-once="true"> backlinks</a><br> <br>
+
+                        <nav class="breadcrumb" aria-label="breadcrumbs">
+                            <ul>
+                                <li><a href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}"> {{{__ "services"}}} </a></li>
+                                <li><a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}">SEO</a></li>
+                                <li><a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/onpage-seo">Onpage SEO</a></li>
+                            </ul>
+                        </nav> <br><br>
+                    </div>
+                    <div class="column is-12-mobile is-10-tablet is-9-desktop post content">
+
+
+
+
+                        <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "structuredMPT1"}}}</h2>
+                        <p>{{{__ "structuredMP1"}}}</p>
+                        <h2 class="title is-4 is-heavy">{{{__ "structuredMPT2"}}}</h2>
+                        <p>{{{__ "structuredMP2"}}}</p>
+                        <h2 class="title is-4 is-heavy">{{{__ "structuredMPT3"}}}</h2>
+                        <p>{{{__ "structuredMP3"}}}</p>
+
+                        <pre>
+&lt;script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Organization",
+"url": "yoursite.com",
+"contactPoint": [{
+"@type": "ContactPoint",
+"telephone": "youphonenumber",
+"contactType": "customer support"
+}]
+}
+&lt;/s
+&lt;script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [{
+"@type": "ListItem",
+"position": 1,
+"name": "Books",
+"item": "https://example.com"
+}, {
+"@type": "ListItem",
+"position": 2,
+"name": "Authors",
+"item": "https://example.com/2"
+}, {
+"@type": "ListItem",
+"position": 3,
+"name": "Ann Leckie",
+"item": "https://example.com/3"
+}, {
+"@type": "ListItem",
+"position": 4,
+"name": "Ancillary Justice",
+"item": "https://example.com/4"
+}]
+}
+&lt;/script></pre>
+
+                        <p><a target="_blank" href="https://schema.org/">Schema.org all references</a></p>
+                        <p><a target="_blank" href="https://www.google.com/webmasters/markup-helper/u/0/?hl=en">Markup Helper</a></p>
+                        <p><a target="_blank" href="https://search.google.com/structured-data/testing-tool/u/0/?hl=en">Tester</a></p>
+
+
+
+                        <br><br>
+                    </div>
+
+
+                    <div class="column is-centered is-10-mobile is-4-tablet is-3-desktop sidebar sidebarblog">
+
+                        {{>sideonpage}}
+
+
+
+                        <br><br>
+
+                    </div><br>
+
+                </div>
+                {{>articlesCTA}}
+            </div>
+    </section>
+    </div>
+
+
+    <section class="comments-hero hero is-medium off-white">
+        <div class="hero-body remove-padding">
+            <div class="container reduced">
+                <div class="columns is-centered">
+                    <div class="column is-10 comments">
+                        <div id="disqus_thread"></div>
+                        <script>
+                            /**
+                             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                            /*
+
+                            */
+
+                            var disqus_config = function() {
+                                this.page.url = `https://www.seoberlino.com/{{{__ "lang"}}}/{{{__ "blogurl"}}}/{{{__ "voicesearchurl"}}}`; // Replace PAGE_URL with your page's canonical URL variable
+                                this.page.identifier = "Voice Search"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            };
+
+
+                            (function() { // DON'T EDIT BELOW THIS LINE
+                                var d = document,
+                                    s = d.createElement('script');
+                                s.src = 'https://www-seoberlino-com.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

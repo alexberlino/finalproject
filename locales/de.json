@@ -56,6 +56,7 @@
   "internallinkingURL": "interne-verlinkung",
   "metasURL": "metas-tags-de",
   "contentURL": "inhalt",
+  "readmorevoice": "",
   "imagesURL": "bildoptimierung",
   "structuredURL": "structured-data-de",
   "voicesearchURL": "sprachsuche",
@@ -344,7 +345,7 @@
   "bestpractMPT2": "Warum eine Wettbewerbsanalyse?",
   "bestpractMP2": "Wenn Sie die Konkurrenz ignorieren, wird es sehr schwer werden Ihr Onlinegeschäft zu verbessern. Dies gilt ebenso für das \n<a href=/de/seo-optimierung>Suchmaschinenoptimierung</a>. Zu wissen, wie Ihre Konkurrenten arbeiten und was sie anbieten hilft Ihnen vieles herauszufinden: \n<a href=/de/seo-optimierung/keyword-research>Keywords</a>, die Ihnen eventuell bislang entgangen sind, Möglichkeiten für \n<a href=/de/seo-optimierung/backlinks>Backlinks</a> und Benchmarks. Dabei geht es natürlich nicht ums Kopieren, das hat auf lange Sicht selten Erfolg, sondern darum zu wissen was die Anderen machen, Ihre eigenen Stärken und Schwächen zu erkennen und so Ihren Kunden größeren Nutzen bieten.",
   "bestpractMPT3": "Was sind Ihre Inhalte und wie ist Ihre Website aufgebaut?",
-  "bestpractMP3": "Wie ist die Website aufgebaut und strukturiert? Dazu gehören auch Hauptnavigationselemente und die interne Linkstrategie. Was beinhalten ihre Sitemaps?",
+  "bestpractMP3": "Wie ist die Website aufgebaut und strukturiert? Dazu gehören auch Hauptnavigationselemente und die \n<a href=/de/seo-optimierung/interne-verlinkung>internal linking</a>trategie. Was beinhalten ihre Sitemaps?",
   "bestpractMPT4": "Wie kommen Sie an Backlinks?",
   "bestpractMP4": "Analysieren Sie Ihr Backlink Profil, erkennen Sie Ihr eigenes Standing und entwickeln Sie einen Plan zur fortlaufenden Verbesserung.",
   "bestpractMPT5": "Kopieren kann gefährlich sein",
@@ -385,7 +386,7 @@
   "internalMPT1": "Verstehen, wie das Crawling Ihrer Website durch den Google Bot funktioniert",
   "internalMP1": "Interne Verlinkungen sind der Kern des Onpage SEO, insbesondere bei großen Webseiten. Einige Gründe dafür sind \n<a href=/de/seo-optimierung/redirects>Weiterleitung</a> von Link Juice und Priorisierung von Schlüsselseiten oder Seitenabschnitten. Beim Crawling verfolgt Google mit Hilfe des Google Bots Links – interne wie externe. Dieser Bot kommt auf die Startseite einer Website, beginnt die Seite zu berechnen und folgt dem erstbesten Link. Indem Google Links folgt, kann das Verhältnis von einzelnen Seiten, Posts und anderen Inhalten herausgearbeitet werden. Auf diese Weise erkennt Google welche Seiten Ihrer Website ähnliche Themen behandeln.",
   "internalMPT2": "Alles beginnt mit der Startseite",
-  "internalMP2": "Nehmen Sie unter Berücksichtigung der geschäftlichen Prioritäten Überprüfung und Audit Ihrer derzeitigen Einstellungen vor: interne Links, Navigation, Unternavigation, Breadcrumbs und Tags. Zusätzlich zur In-Bezug-Setzung der Inhalte teilt Google die Wertigkeit der Links (engl. Link Value) unter allen auf der Website befindlichen Links auf. Oft hat die Startseite den größten Link Value, weil sie die meisten \n<a href=/de/seo-optimierung/backlinks>Backlinks</a> hat. Dieser Link Value wird dann unter allen auf der Startseite befindlichen Links aufgeteilt. Der Link Value der an die folgende Seite weitergegeben wird, wird wiederum unter den Links auf dieser Seite verteilt und so weiter. Dieses Verfahren erklärt, warum der neuste Post auf Ihrem Blog deutlich mehr Link Value bekommt, wenn Sie ihn von der Startseite verlinken und nicht nur von der entsprechenden Kategorie. Zudem wird Google neue Einträge schneller finden, wenn sie direkt von der Homepage aus verlinkt sind.",
+  "internalMP2": "Nehmen Sie unter Berücksichtigung der geschäftlichen Prioritäten Überprüfung und Audit Ihrer derzeitigen Einstellungen vor: \n<a href=/de/seo-optimierung/interne-verlinkung>internal linking</a>, Navigation, Unternavigation, Breadcrumbs und Tags. Zusätzlich zur In-Bezug-Setzung der Inhalte teilt Google die Wertigkeit der Links (engl. Link Value) unter allen auf der Website befindlichen Links auf. Oft hat die Startseite den größten Link Value, weil sie die meisten \n<a href=/de/seo-optimierung/backlinks>Backlinks</a> hat. Dieser Link Value wird dann unter allen auf der Startseite befindlichen Links aufgeteilt. Der Link Value der an die folgende Seite weitergegeben wird, wird wiederum unter den Links auf dieser Seite verteilt und so weiter. Dieses Verfahren erklärt, warum der neuste Post auf Ihrem Blog deutlich mehr Link Value bekommt, wenn Sie ihn von der Startseite verlinken und nicht nur von der entsprechenden Kategorie. Zudem wird Google neue Einträge schneller finden, wenn sie direkt von der Homepage aus verlinkt sind.",
   "internalMPT3": "Breadcrumbs",
   "internalMP3": "Breadcrumbs wirken sich doppelt positiv aus: für Nutzer erleichtern Sie die Navigation und die Orientierung innerhalb der Seite; für das \n<a href=/de/seo-optimierung>SEO</a>kurbeln sie interne Verlinkungen und Sitemapping an.",
   "internalMPT4": "Die ideale Struktur: eine Pyramide",
@@ -482,7 +483,7 @@
   "structuredMPT3": "Beispiele",
   "structuredMP3": "Eine Liste viel genutzte Structured Data:  Information Organisation * Local business Markup * Produkt und Angebot * Breadcrumb * Ratings * Site-Navigation",
   "voiceMPT1": "Was ist Sprachsuche",
-  "voiceMP1": " Google Assistent und Alexa sind nur zwei der Geräte, die das Suchverhalten verändern. Statt Suchanfragen einzutippen, stellen Nutzer Ihre Fragen nun immer häufiger verbal. Sprachsteuerung und Voice Search verändern bereits heute das Onlinemarketing, denn sie haben an der Summe aller Suchanfragen einen wichtigen und wachsenden Anteil. Um auch in Zukunft gut aufgestellt zu sein ist es wichtig, dass jede Website die anstehenden Veränderungen fürs klassische \n<a href=/de/seo-optimierung>SEO</a>kennt.",
+  "voiceMP1": " Google Assistent und Alexa sind nur zwei der Geräte, die das Suchverhalten verändern. Statt Suchanfragen einzutippen, stellen Nutzer Ihre Fragen nun immer häufiger verbal. Sprachsteuerung und Voice Search verändern bereits heute das Onlinemarketing, denn sie haben an der Summe aller Suchanfragen einen wichtigen und wachsenden Anteil. Um auch in Zukunft gut aufgestellt zu sein ist es wichtig, dass jede Website die anstehenden Veränderungen fürs klassische \n<a href=/de/seo-optimierung>SEO</a> kennt.",
   "voiceMPT2": "Fragen",
   "voiceMP2": "Der größte Unterschied zu traditionellen Suchanfragen ist, dass Suchanfragen per Voice Search meist Fragen sind und dadurch oft mit den Fragewörtern wo, wie, was, wann etc. beginnen.",
   "voiceMPT3": "Längere Suchbegriffe",
@@ -560,5 +561,6 @@
   "linkexplorer": "",
   "404MP": "",
   "404MP2": "",
-  "404MP3": ""
+  "404MP3": "",
+  "voicesearchurl": "voicesearchurl"
 }

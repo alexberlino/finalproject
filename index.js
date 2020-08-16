@@ -173,6 +173,8 @@ app.get("/en/google-ranking", (req, res) => {
     });
 });
 
+
+
 app.get("/en/seo-tools", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seotools", {
@@ -483,6 +485,86 @@ app.get("/de/seo-optimierung/images", (req, res) => {
         alt: "https://www.seoberlino.com/en/seo-services/images"
     });
 });
+
+
+
+app.get("/en/seo-services/structured-data", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogonpage/blogstrcutureddataENDE", {
+        requrl: "https://www.seoberlino.com/en/seo-services/structured-data" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Structured Data for SEO | SEO Services | SEO Berlino",
+        description: "Structured Data and Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        canonical: "https://www.seoberlino.com/en/seo-services/structured-data",
+        alt: "https://www.seoberlino.com/de/seo-optimierung/structured-data"
+    });
+});
+
+app.get("/de/seo-optimierung/structured-data", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogonpage/blogstrcutureddataENDE", {
+        requrl: "https://www.seoberlino.com/en/seo-services/structured-data",
+        layout: "mainDE",
+        title: "Strukturierte Daten für SEO | SEO Berlino",
+        description: "Structured Data für SEO",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/structured-data",
+        alt: "https://www.seoberlino.com/en/seo-services/structured-data"
+    });
+});
+
+
+
+app.get("/en/seo-services/internal-linking", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogonpage/bloginternallinking", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Internal Linking and SEO | SEO Services | SEO Berlino",
+        description: "Internal Linking and Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        canonical: "https://www.seoberlino.com/en/seo-services/internal-linking",
+        alt: "https://www.seoberlino.com/de/seo-optimierung/interne-verlinkung"
+    });
+});
+
+app.get("/de/seo-optimierung/interne-verlinkung", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogonpage/bloginternallinking", {
+        requrl: "https://www.seoberlino.com/en/seo-services/interne-verlinkung",
+        layout: "mainDE",
+        title: "Interne Verlinking • SEO Optimierung | SEO Berlino",
+        description: "Interne Verlinking.",
+        canonical: "https://www.seoberlino.com/de/interne-verlinkung/images",
+        alt: "https://www.seoberlino.com/en/seo-services/internal-linking"
+    });
+});
+
+
+
+app.get("/en/seo-services/voice-search", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogonpage/blogvoiceDEEN", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Image Optimization for SEO | SEO Services | SEO Berlino",
+        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        canonical: "https://www.seoberlino.com/en/seo-services/voice-search",
+        alt: "https://www.seoberlino.com/de/seo-optimierung/sprachsuche"
+    });
+});
+
+app.get("/de/seo-optimierung/sprachsuche", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogonpage/blogvoiceDEEN", {
+        requrl: "https://www.seoberlino.com/en/seo-services/sprachsuche",
+        layout: "mainDE",
+        title: "Sprachsuche • SEO Optimierung | SEO Berlino",
+        description: "Sprachsuche und SEO.",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/sprachsuche",
+        alt: "https://www.seoberlino.com/en/seo-services/voice-search"
+    });
+});
+
+
 
 app.get("/en/seo-services/content", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1513,7 +1595,7 @@ app.get("/en/seo-services/linkbuilding-in-2020", (req, res) => {
     });
 });
 
-app.get("/en/seo-services/voicesearch", (req, res) => {
+app.get("/en/seo-services/voice-search-challenges", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogonpage/blogvoice", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
@@ -1857,7 +1939,7 @@ app.get("/en/article/seo-in-asia-korea-china-japan-2019", function(
 
 app.get("/en/article/voicesearch", function(request, response) {
     response.writeHead(301, {
-        Location: "/en/seo-services/voicesearch",
+        Location: "/en/seo-services/voice-search",
         Expires: new Date().toGMTString()
     });
     response.end();
