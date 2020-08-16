@@ -26,19 +26,20 @@
                 <div class="columns is-multiline">
                     <div class="column is-12-mobile is-12-tablet is-8-desktop">
 
-                    {{{__ "404MP"}}}
+                        {{{__ "404MP"}}}
 
 
 
                         <br><br>
-                        <img src="/images/seo-images/404.png"/>
-<br><br>
+                        <img alt="404" src="/images/seo-images/404.png" />
+                        <br><br>
 
-{{{__ "404MP2"}}}<br><br>
-<img src="/images/seo-images/404_1.png"/><br><br>
+                        {{{__ "404MP2"}}}<br><br>
+                        <img alt="404 Not Found" src="/images/seo-images/404_1.png" /><br><br>
 
 
-{{{__ "404MP3"}}}<br><br><pre>
+                        {{{__ "404MP3"}}}<br><br>
+                        <pre>
 
 app.all("*", function(req, res) {
     res.status(404).render("error");
@@ -47,7 +48,7 @@ app.all("*", function(req, res) {
 
                     </div>
 
-                {{>lexical}}<br><br>{{>articlesCTA}}
+                    {{>lexical}}<br><br>{{>articlesCTA}}
 
                 </div>
 
