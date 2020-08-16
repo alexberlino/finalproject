@@ -1,5 +1,8 @@
 // Navbar Toggle
 
+
+
+
 const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
 if ($navbarBurgers.length > 0) {
@@ -18,6 +21,7 @@ if ($navbarBurgers.length > 0) {
 }
 
 
+var language_string = '{{{__ "consultant"}}}'
 
 var minimized_elements = $('.minimize');
 var maxLines = 1;
@@ -33,8 +37,8 @@ minimized_elements.each(function() {
     } else return;
 
     $(this).html(
-        text_less + '<div></div><a href="#" class="more">more</a>' +
-        '<div style="display:none;"><br>' + text_more + ' <a href="#" class="less">hide</a></div>'
+        text_less + '<div></div><a href="#" class="more">....+....</a>' +
+        '<div style="display:none;"><br>' + text_more + ' <a href="#" class="less"><br>...-...</a></div>'
     );
 });
 
