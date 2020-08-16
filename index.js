@@ -583,7 +583,7 @@ app.get("/de/seo-optimierung/content", (req, res) => {
     res.render("blogonpage/blogcontent", {
         requrl: "https://www.seoberlino.com/en/seo-services/content",
         layout: "mainDE",
-        title: "Unhalt und Landing Pages | SEO Optimierung | SEO Berlino",
+        title: "Inhalt, Duplicate Content und Landing Pages | SEO Optimierung | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/seo-optimierung/content",
         alt: "https://www.seoberlino.com/en/seo-services/content"
@@ -1325,8 +1325,8 @@ app.get("/de/seo-optimierung/searchvolume", (req, res) => {
     res.render("blogtech/searchvolume", {
         requrl: "https://www.seoberlino.com/en/seo-services/searchvolume",
         layout: "mainDE",
-        title: "Keyword Search Volume | seoberlino",
-        description: "Search Volume. Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        title: "Keyword Suchvolumen  | seoberlino",
+        description: "Suchvolumen, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/searchvolume"
     });
