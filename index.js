@@ -531,7 +531,7 @@ app.get("/de/seo-optimierung/interne-verlinkung", (req, res) => {
     res.render("blogonpage/bloginternallinking", {
         requrl: "https://www.seoberlino.com/en/seo-services/internal-linking",
         layout: "mainDE",
-        title: "Interne Verlinking • SEO Optimierung | SEO Berlino",
+        title: "Interne Verlinkung • SEO Optimierung | SEO Berlino",
         description: "Interne Verlinking.",
         canonical: "https://www.seoberlino.com/de/seo-optimierung/interne-verlinkung",
         alt: "https://www.seoberlino.com/en/seo-services/internal-linking"
