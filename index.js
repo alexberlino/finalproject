@@ -491,7 +491,7 @@ app.get("/de/seo-optimierung/images", (req, res) => {
 app.get("/en/seo-services/structured-data", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogonpage/blogstrcutureddataENDE", {
-        requrl: "https://www.seoberlino.com/en/seo-services/structured-data" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/structured-data",
         layout: "main",
         title: "Structured Data for SEO | SEO Services | SEO Berlino",
         description: "Structured Data and Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
@@ -529,11 +529,11 @@ app.get("/en/seo-services/internal-linking", (req, res) => {
 app.get("/de/seo-optimierung/interne-verlinkung", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogonpage/bloginternallinking", {
-        requrl: "https://www.seoberlino.com/en/seo-services/interne-verlinkung",
+        requrl: "https://www.seoberlino.com/en/seo-services/internal-linking",
         layout: "mainDE",
         title: "Interne Verlinking • SEO Optimierung | SEO Berlino",
         description: "Interne Verlinking.",
-        canonical: "https://www.seoberlino.com/de/interne-verlinkung/images",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/interne-verlinkung",
         alt: "https://www.seoberlino.com/en/seo-services/internal-linking"
     });
 });
@@ -775,8 +775,8 @@ app.get("/de/seo-experte", (req, res) => {
         layout: "mainDE",
         title: "SEO Experte in Berlin | SEO Berlino ",
         description: "SEO Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
-        canonical: "https://www.seoberlino.com/de/experte",
-        alt: "https://www.seoberlino.com/en/expert"
+        canonical: "https://www.seoberlino.com/de/seo-experte",
+        alt: "https://www.seoberlino.com/en/seo-expert"
     });
 });
 
@@ -788,7 +788,7 @@ app.get("/en/seo-expert", (req, res) => {
         title: "SEO Expert in Berlin | SEO Berlino ",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/experte"
+        alt: "https://www.seoberlino.com/de/seo-experte"
     });
 });
 
