@@ -1024,10 +1024,11 @@ app.get("/en/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "main",
         title: "Agile Coach / Scrum Master in Berlin | seoberlino",
         description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master and experienced as both Scrum Master and Product owner.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/agile-coach-berlin"
     });
 });
 
@@ -1035,10 +1036,11 @@ app.get("/de/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
+        layout: "mainDE",
         title: "Agile Coach / Scrum Master in Berlin | seoberlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
-        canonical: "https://www.seoberlino.com/en/agile-coach-berlin"
+        canonical: "https://www.seoberlino.com/de/agile-coach-berlin",
+        alt: "https://www.seoberlino.com/en/agile-coach-berlin"
     });
 });
 
