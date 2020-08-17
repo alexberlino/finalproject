@@ -417,6 +417,7 @@
   "speedMPT5": "Negative SEO Impact for slow sites ",
   "speedMP5": "If your  pages are slow to load, Google will figure it out and will  categorize your website as poor user experience, therefore suffering  in terms of organic visibility. If you haven't done it yet, I  strongly advise you to use the PageSpeed Insights tool:",
   "speedMP6": "Please note that Lighthouse belongs to Google and their advice  is (a bit too) specific to Google Chrome, so for instance it  will advise you to use new image formats which may not be usable  and rendered on other browser such as Firefox or Safari.",
+  "httpsh1": "https and what is does for SEO",
   "securityMPT1": "What is HTTPS",
   "securityMP1": " Hyper Text Transfer Protocol Secure (HTTPS) is the secure version  of HTTP, the protocol over which data is sent between browser and  the connected website. The 'S' of HTTPS stands for 'Secure'. It  means all communications between browser and website are  encrypted.",
   "securityMPT2": "HTTPS is now the norm",
