@@ -17,6 +17,8 @@ const featurePolicy = require('feature-policy')
 
 app.use(helmet.frameguard());
 app.use(helmet.referrerPolicy());
+app.use(helmet.hidePoweredBy());
+app.use(helmet.noSniff());
 
 
 app.use(featurePolicy({
