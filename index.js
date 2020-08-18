@@ -15,8 +15,7 @@ const helmet = require('helmet')
 
 
 app.use(helmet.frameguard())
-
-
+app.use(helmet.referrerPolicy());
 
 const sts = require('strict-transport-security');
 
@@ -34,11 +33,9 @@ const localSTS = sts.getSTS({
 });
 
 // This will apply this policy to all requests
-app.use(globalSTS);
+// app.use(globalSTS);
+//
 
-app.get('/', (req, res) => {
-    res.send('Using global strict transport security policy!');
-});
 
 
 
@@ -49,10 +46,6 @@ app.use(
 );
 app.use(bodyParser.json());
 
-// app.use(function(req, res, next) {
-//     res.setHeader("Content-Security-Policy", "script-src 'self' https://apis.google.com");
-//     return next();
-// });
 
 app.engine(
     ".hbs",
