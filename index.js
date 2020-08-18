@@ -11,6 +11,36 @@ var bodyParser = require("body-parser");
 var http = require("http");
 
 var force = require("express-force-domain");
+const helmet = require('helmet')
+
+
+app.use(helmet.frameguard())
+
+
+
+const sts = require('strict-transport-security');
+
+
+const globalSTS = sts.getSTS({
+    'max-age': {
+        'days': 30
+    }
+});
+const localSTS = sts.getSTS({
+    'max-age': {
+        'days': 10
+    },
+    'includeSubDomains': true
+});
+
+// This will apply this policy to all requests
+app.use(globalSTS);
+
+app.get('/', (req, res) => {
+    res.send('Using global strict transport security policy!');
+});
+
+
 
 app.use(
     bodyParser.urlencoded({
@@ -18,6 +48,11 @@ app.use(
     })
 );
 app.use(bodyParser.json());
+
+// app.use(function(req, res, next) {
+//     res.setHeader("Content-Security-Policy", "script-src 'self' https://apis.google.com");
+//     return next();
+// });
 
 app.engine(
     ".hbs",
@@ -1762,6 +1797,17 @@ app.get("/en/article/beyond-mobile-first", function(request, response) {
     });
     response.end();
 });
+
+
+app.get("/n26imageissue.png", function(request, response) {
+    response.writeHead(301, {
+        Location: "images/seo-images/en/seo-services/beyond-mobile-first",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
 
 app.get("/en/website-ranking*", function(request, response) {
     response.writeHead(301, {
