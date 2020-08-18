@@ -12,29 +12,19 @@ var http = require("http");
 
 var force = require("express-force-domain");
 const helmet = require('helmet')
+const featurePolicy = require('feature-policy')
 
 
-app.use(helmet.frameguard())
-app.use(helmet.referrerPolicy());
+app.use(helmet.frameguard());
 
-const sts = require('strict-transport-security');
-
-
-const globalSTS = sts.getSTS({
-    'max-age': {
-        'days': 30
+app.use(featurePolicy({
+    features: {
+        fullscreen: ["'self'"],
+        syncXhr: ["'none'"]
     }
-});
-const localSTS = sts.getSTS({
-    'max-age': {
-        'days': 10
-    },
-    'includeSubDomains': true
-});
+}))
 
-// This will apply this policy to all requests
-// app.use(globalSTS);
-//
+
 
 
 
