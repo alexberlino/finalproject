@@ -3,11 +3,12 @@
 
     <head>
         <link rel="preload" href="https://use.typekit.net/wal3lcu.css" as="font" crossorigin>
-        <script>
+        <!-- Google Tag Manager -->
+        <script nonce="agfj943jn934mvxßßsdfdsfdg">
             (function(w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({
-                    'gtm.start': new Date().getTime(),
+                    ' gtm.start': new Date().getTime(),
                     event: 'gtm.js'
                 });
                 var f = d.getElementsByTagName(s)[0],
@@ -15,9 +16,18 @@
                     dl = l != 'dataLayer' ? '&l=' + l : '';
                 j.async = true;
                 j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                var n = d.querySelector('[nonce]');
+                n && j.setAttribute('nonce', n.nonce || n.getAttribute('nonce'));
                 f.parentNode.insertBefore(j, f);
             })(window, document, 'script', 'dataLayer', 'GTM-53H275L');
         </script>
+        <!-- End Google Tag Manager
+            -->
+
+
+
+
+
         <meta charSet="utf-8" />
         <title>{{title}}</title>
         <meta name="google-site-verification" content="0Kl38gjoAwe4tBAs3zXTeeWJCQbxQ4-JBMoNi_h1j2A" />
@@ -51,13 +61,7 @@
         <div class="ruler-1-right"></div>{{>nav}}{{{body}}}{{>footer}}
         <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
         <script>
-            AOS.init({
-                offset: 20,
-                duration: 200,
-                easing: 'ease',
-                delay: 100,
-                disable: 'mobile'
-            })
+
         </script>
         <script src="/js/general-min.js"></script>
 

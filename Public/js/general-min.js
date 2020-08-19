@@ -1,4 +1,11 @@
 // Navbar Toggle
+AOS.init({
+    offset: 20,
+    duration: 200,
+    easing: 'ease',
+    delay: 100,
+    disable: 'mobile'
+})
 
 const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
