@@ -173,7 +173,7 @@ app.get("/de", (req, res) => {
         layout: "mainDEHP",
         title: "SEO Agentur Berlin • SEO Optimierung | seoberlino",
         canonical: "https://www.seoberlino.com/de",
-        description: "Kleine SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, MSF, Red Cross, etc",
+        description: "Kleine SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, etc",
         alt: "https://www.seoberlino.com/en"
     });
 });
@@ -1006,7 +1006,7 @@ app.get("/de/seo-optimierung/backlink-analysis", (req, res) => {
     res.render("blogoffpage/blogbacklinkanalysis", {
         requrl: "https://www.seoberlino.com/en/seo-services/backlink-analysis",
         layout: "mainDE",
-        title: "Backlinks & Offpage SEO | SEO Optimierung | seoberlino",
+        title: "Backlinks Check Analyse & Offpage SEO | seoberlino",
         description: "Backlinks sind ein wichtiger Bestandteil von SEO und umfassen insbesondere Link Building und Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/backlink-analysis"
