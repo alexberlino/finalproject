@@ -157,7 +157,7 @@ var englishHP = function(req, res) {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainHP",
-        title: "SEO Company Germany • SEO Freelance Services | seoberlino",
+        title: "SEO Company Germany • SEO Freelance Services | SEO Berlino",
         description: "SEO Company for SEO Consultancy, with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "https://www.seoberlino.com/de"
@@ -171,7 +171,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Agentur Berlin • SEO Optimierung | seoberlino",
+        title: "SEO Agentur Berlin • SEO Optimierung | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
         description: "Kleine SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, etc",
         alt: "https://www.seoberlino.com/en"
@@ -183,7 +183,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/de/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Freelancer • Suchmaschinenoptimierung | seoberlino",
+        title: "SEO Freelancer • Suchmaschinenoptimierung | SEO Berlino",
         description: "SEO Freelancer und Analytics Consultant: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "https://www.seoberlino.com/en/seo-consultant"
@@ -194,7 +194,7 @@ app.get("/en/seo-consultant", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/de/seo-freelancer",
-        title: "Experienced SEO Consultant in Germany | seoberlino",
+        title: "Experienced SEO Consultant in Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-consultant",
@@ -207,7 +207,7 @@ app.get("/de/google-ranking-verbessern", (req, res) => {
     res.render("googleranking", {
         requrl: "https://www.seoberlino.com/en/google-ranking",
         layout: "mainDE",
-        title: "Google Ranking verbessern  • SEO Beratung & Consulting | seoberlino",
+        title: "Google Ranking verbessern  • SEO Beratung & Consulting | SEO Berlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/google-ranking-verbessern",
         alt: "https://www.seoberlino.com/en/google-ranking"
@@ -218,7 +218,7 @@ app.get("/en/google-ranking", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("googleranking", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "How to improve your Google Rankings • SEO Consultancy in Germany | seoberlino",
+        title: "How to improve your Google Rankings • SEO Consultancy in Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/google-ranking",
@@ -232,7 +232,7 @@ app.get("/en/seo-tools", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seotools", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Tools for an SEO Check • SEO Consultancy in Germany | seoberlino",
+        title: "SEO Tools for an SEO Check • SEO Consultancy in Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-tools",
@@ -244,7 +244,7 @@ app.get("/de/seo-tools", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seotools", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Tools für SEO Check • SEO Consultancy in Germany | seoberlino",
+        title: "SEO Tools für SEO Check • SEO Consultancy in Germany | SEO Berlino",
         layout: "mainDE",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-tools",
@@ -257,7 +257,7 @@ app.get("/de/seo-beratung", (req, res) => {
     res.render("seoberatung", {
         requrl: "https://www.seoberlino.com/de/seo-beratung",
         layout: "mainDE",
-        title: "SEO Beratung | SEO Berater in Berlin | seoberlino",
+        title: "SEO Beratung | SEO Berater in Berlin | SEO Berlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-beratung",
         alt: "https://www.seoberlino.com/en/seo-consultancy"
@@ -269,7 +269,7 @@ app.get("/en/seo-consultancy", (req, res) => {
     res.render("seoberatung", {
         requrl: "https://www.seoberlino.com/de/seo-beratung",
         layout: "main",
-        title: "SEO Consultancy Berlin | seoberlino",
+        title: "SEO Consultancy Berlin | SEO Berlino",
         description: "SEO Freelancer and Analytics Expert: SEO, Analytics, SEA and Scrum. Clients: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-consultancy",
         alt: "https://www.seoberlino.com/de/seo-beratung"
@@ -281,7 +281,7 @@ app.get("/en/seo-services/berlin", (req, res) => {
     res.render("blogcase/blogberlin", {
         requrl: "https://www.seoberlino.com/en/seo-services/berlin",
         layout: "mainNoAlt",
-        title: "SEO in Berlin, the place to be | seoberlino",
+        title: "SEO in Berlin, the place to be | SEO Berlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/en/seo-services/berlin"
     });
@@ -292,7 +292,7 @@ app.get("/en/jobs", (req, res) => {
     res.render("jobs", {
         requrl: "https://www.seoberlino.com/en/jobs",
         layout: "main",
-        title: "SEO Consultants Jobs in Berlin, Germany | seoberlino",
+        title: "SEO Consultants Jobs in Berlin, Germany | SEO Berlino",
         description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en/jobs",
         alt: "https://www.seoberlino.com/de/jobs"
@@ -304,7 +304,7 @@ app.get("/de/jobs", (req, res) => {
     res.render("jobs", {
         requrl: "https://www.seoberlino.com/en/jobs",
         layout: "mainDE",
-        title: "SEO Consultants Jobs in Berlin | seoberlino",
+        title: "SEO Consultants Jobs in Berlin | SEO Berlino",
         description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/de/jobs",
         alt: "https://www.seoberlino.com/en/jobs"
@@ -316,7 +316,7 @@ app.get("/en/references", (req, res) => {
     res.render("references", {
         requrl: "https://www.seoberlino.com/en/references",
         layout: "main",
-        title: "Clients References, SEO Consultant Berlin | seoberlino",
+        title: "Clients References, SEO Consultant Berlin | SEO Berlino",
         description: "SEO Consulant in Berlin • SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en/references",
         alt: "https://www.seoberlino.com/de/references"
@@ -328,7 +328,7 @@ app.get("/de/references", (req, res) => {
     res.render("references", {
         requrl: "https://www.seoberlino.com/en/references",
         layout: "mainDE",
-        title: "Clients References, SEO Freelancer Berlin | seoberlino",
+        title: "Clients References, SEO Freelancer Berlin | SEO Berlino",
         description: "SEO Consulant in Berlin • SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/de/references",
         alt: "https://www.seoberlino.com/en/references"
@@ -340,7 +340,7 @@ app.get("/en/seo-services", (req, res) => {
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en/seo-services",
         layout: "main",
-        title: "SEO Services – Search Engine Optimization | seoberlino",
+        title: "SEO Services – Search Engine Optimization | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/seo-services",
         alt: "https://www.seoberlino.com/de/seo-optimierung"
@@ -624,7 +624,7 @@ app.get("/en/seo-services/content", (req, res) => {
     res.render("blogonpage/blogcontent", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Content, Duplicate Content & Landing pages | seoberlino",
+        title: "Content, Duplicate Content & Landing pages | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/seo-services/content",
         alt: "https://www.seoberlino.com/de/seo-optimierung/content"
@@ -720,7 +720,7 @@ app.get("/de/seo-optimierung/seo-case-studies", (req, res) => {
     res.render("blogcase/blogcasestudies", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO Case Studies | SEO Optimierung | seoberlino",
+        title: "SEO Case Studies | SEO Optimierung | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/seo-services/seo-case-studies"
     });
@@ -731,7 +731,7 @@ app.get("/en/seo-services/seo-case-studies", (req, res) => {
     res.render("blogcase/blogcasestudies", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO Case Studies | SEO Services | seoberlino",
+        title: "SEO Case Studies | SEO Services | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/seo-services/seo-case-studies"
     });
@@ -742,7 +742,7 @@ app.get("/en/seo-services/onpage-seo", (req, res) => {
     res.render("blogonpage/blogonpage", {
         requrl: "https://www.seoberlino.com/en/seo-services/onpage-seo",
         layout: "main",
-        title: "Onpage SEO | SEO Services | seoberlino",
+        title: "Onpage SEO | SEO Services | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/seo-services/onpage-seo",
         alt: "https://www.seoberlino.com/de/seo-optimierung/onpage-seo"
@@ -754,7 +754,7 @@ app.get("/de/seo-optimierung/onpage-seo", (req, res) => {
     res.render("blogonpage/blogonpage", {
         requrl: "https://www.seoberlino.com/en/seo-services/onpage-seo",
         layout: "mainDE",
-        title: "Onpage SEO | SEO Optimierung | seoberlino",
+        title: "Onpage SEO | SEO Optimierung | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/seo-optimierung/onpage-seo",
         alt: "https://www.seoberlino.com/en/seo-services/onpage-seo"
@@ -790,7 +790,7 @@ app.get("/de/seo-optimierung", (req, res) => {
     res.render("blog", {
         requrl: "https://www.seoberlino.com/en/seo-services",
         layout: "mainDE",
-        title: "SEO Optimierung für Suchmaschinen | seoberlino",
+        title: "SEO Optimierung für Suchmaschinen | SEO Berlino",
         description: "Optimierung für Suchmaschinen, SEO Optimierung, SEO Experte in Berlin. SEO und Webanalyse Blog.",
         canonical: "https://www.seoberlino.com/de/seo-optimierung",
         alt: "https://www.seoberlino.com/en/seo-services"
@@ -814,7 +814,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Consultant in Berlin • Get in Touch | seoberlino",
+        title: "SEO Consultant in Berlin • Get in Touch | SEO Berlino",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/contact"
@@ -850,7 +850,7 @@ app.get("/en/seo-services/case-study-fromatob", (req, res) => {
     res.render("blogcase/casestudyfromatob", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "fromAtoB SEO Berlin Case Study | seoberlino",
+        title: "fromAtoB SEO Berlin Case Study | SEO Berlino",
         description: "Mini SEO Case Study about Berlin's fromAtoB: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -862,7 +862,7 @@ app.get("/en/seo-services/case-study-zalando", (req, res) => {
     res.render("blogcase/casestudyzalando", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Zalando SEO Berlin Case Study | seoberlino",
+        title: "Zalando SEO Berlin Case Study | SEO Berlino",
         description: "Mini SEO Case Study about Berlin's Zalando: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -874,7 +874,7 @@ app.get("/en/seo-services/case-study-wooga", (req, res) => {
     res.render("blogcase/casestudywooga", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Wooga SEO Berlin Case Study | seoberlino",
+        title: "Wooga SEO Berlin Case Study | SEO Berlino",
         description: "Mini SEO Case Study about Berlin's Wooga: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -886,7 +886,7 @@ app.get("/en/seo-services/case-study-juniqe", (req, res) => {
     res.render("blogcase/casestudyjuniqe", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Juniqe Berlin SEO Case Study | seoberlino",
+        title: "Juniqe Berlin SEO Case Study | SEO Berlino",
         description: "Mini SEO Case Study about Berlin's Juniqe: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -898,7 +898,7 @@ app.get("/en/seo-services/case-study-modomoto", (req, res) => {
     res.render("blogcase/casestudymodomoto", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Modomoto: SEO Berlin Case Study | seoberlino",
+        title: "Modomoto: SEO Berlin Case Study | SEO Berlino",
         description: "Mini SEO Case Study about Berlin's Modomoto: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -910,7 +910,7 @@ app.get("/en/seo-services/case-study-n26", (req, res) => {
     res.render("blogcase/casestudyn26", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "N26 SEO Berlin Case Study | seoberlino",
+        title: "N26 SEO Berlin Case Study | SEO Berlino",
         description: "Mini SEO Case Study about Berlin's N26: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -922,7 +922,7 @@ app.get("/en/seo-services/case-study-hellofresh", (req, res) => {
     res.render("blogcase/casestudyhellofresh", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "HelloFresh SEO Case Study | seoberlino",
+        title: "HelloFresh SEO Case Study | SEO Berlino",
         description: "Mini SEO Berlin Case Study about Berlin's HelloFresh: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -934,7 +934,7 @@ app.get("/en/seo-services/case-study-hometogo", (req, res) => {
     res.render("blogcase/casestudyhometogo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "HomeToGo SEO Berlin Case Study | seoberlino",
+        title: "HomeToGo SEO Berlin Case Study | SEO Berlino",
         description: "Mini SEO Case Study about Berlin's HomeToGo: Main keywords, Backlinks, Trend, Brand and other main SEO factors.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com" + req.originalUrl
@@ -946,7 +946,7 @@ app.get("/en/seo-services/competitor-analysis", (req, res) => {
     res.render("blogcase/competitor", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Competitor Analysis | SEO Services | seoberlino",
+        title: "Competitor Analysis | SEO Services | SEO Berlino",
         description: "SEO Competitor Analysis is important to gather information from the industry leaders: keywords, site structure, backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/mitwettbewerber"
@@ -958,7 +958,7 @@ app.get("/de/seo-optimierung/mitwettbewerber", (req, res) => {
     res.render("blogcase/competitor", {
         requrl: "https://www.seoberlino.com/en/seo-services/competitor-analysis",
         layout: "mainDE",
-        title: "Wettbewerbsanalyse | SEO Optimierung | seoberlino",
+        title: "Wettbewerbsanalyse | SEO Optimierung | SEO Berlino",
         description: "Die Wettbewerberanalyse ist wichtig, um Informationen von den Branchenführern zu sammeln: Keywords, Seitenstruktur, Backlinks, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/competitor-analysis"
@@ -970,7 +970,7 @@ app.get("/en/seo-services/localSEO", (req, res) => {
     res.render("blogonpage/localseo", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Local SEO and Google MyBusiness | seoberlino",
+        title: "Local SEO and Google MyBusiness | SEO Berlino",
         description: "Especially for local business, it is paramount to align your SEO  overall strategy to local SEO.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/localSEO"
@@ -982,7 +982,7 @@ app.get("/de/seo-optimierung/localSEO", (req, res) => {
     res.render("blogonpage/localseo", {
         requrl: "https://www.seoberlino.com/en/seo-services/localSEO",
         layout: "mainDE",
-        title: "Local SEO und Google MyBusiness | seoberlino",
+        title: "Local SEO und Google MyBusiness | SEO Berlino",
         description: "Insbesondere für lokale Unternehmen ist es von größter Bedeutung, Ihre SEO-Gesamtstrategie auf lokale SEO auszurichten.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/localSEO"
@@ -994,7 +994,7 @@ app.get("/en/seo-services/backlink-analysis", (req, res) => {
     res.render("blogoffpage/blogbacklinkanalysis", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Backlink Analysis and Offpage SEO | seoberlino",
+        title: "Backlink Analysis and Offpage SEO | SEO Berlino",
         description: "Backlinks and Offpage SEO represent a key part of SEO and include in particular Link Building and Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/backlink-analysis"
@@ -1006,7 +1006,7 @@ app.get("/de/seo-optimierung/backlink-analysis", (req, res) => {
     res.render("blogoffpage/blogbacklinkanalysis", {
         requrl: "https://www.seoberlino.com/en/seo-services/backlink-analysis",
         layout: "mainDE",
-        title: "Backlinks Check Analyse & Offpage SEO | seoberlino",
+        title: "Backlinks Check Analyse & Offpage SEO | SEO Berlino",
         description: "Backlinks sind ein wichtiger Bestandteil von SEO und umfassen insbesondere Link Building und Brand Building.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/backlink-analysis"
@@ -1018,8 +1018,8 @@ app.get("/en/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAltNoIndex",
-        title: "Impressum | seoberlino",
-        description: "SEOBerlino Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        title: "Impressum | SEO Berlino",
+        description: "SEO Berlino Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/de/impressum",
         alt: "https://www.seoberlino.com/de/impressum"
     });
@@ -1030,7 +1030,7 @@ app.get("/de/impressum", (req, res) => {
     res.render("impressum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAltNoIndex",
-        title: "Impressum | seoberlino",
+        title: "Impressum | SEO Berlino",
         description: "SEO Spezialist in Berlin. Impressum für SEO Berater, Experte in Webanalyse, SEA und SEO.",
         canonical: "https://www.seoberlino.com/de/impressum",
         alt: "https://www.seoberlino.com/en/impressum"
@@ -1042,8 +1042,8 @@ app.get("/de/datenschutz", (req, res) => {
     res.render("datenschutz", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAltNoIndex",
-        title: "Datenschutz | seoberlino",
-        description: "seoberlino Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren .",
+        title: "Datenschutz | SEO Berlino",
+        description: "SEO Berlino Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren .",
         canonical: "https://www.seoberlino.com/de/datenschutz",
         alt: "https://www.seoberlino.com/de/datenschutz"
     });
@@ -1054,7 +1054,7 @@ app.get("/de/sea", (req, res) => {
     res.render("beratungsea", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Online Marketing Freelancer | seoberlino",
+        title: "Online Marketing Freelancer | SEO Berlino",
         description: "SEA-Experte für SEA-Projekte: Google Ads, Facebook Ads, Instagram. Einrichtung, Test, Analyse und Optimierung.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/sea"
@@ -1066,7 +1066,7 @@ app.get("/en/sea", (req, res) => {
     res.render("beratungsea", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Online Marketing Consultant Berlin | seoberlino",
+        title: "Online Marketing Consultant Berlin | SEO Berlino",
         description: "SEA Expert for SEA Projects: Google Ads, Facebook Ads, Instagram. Set-up, Testing, Analytics and Optimization.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/sea"
@@ -1078,7 +1078,7 @@ app.get("/en/agile-coach-berlin", (req, res) => {
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Agile Coach / Scrum Master in Berlin | seoberlino",
+        title: "Agile Coach / Scrum Master in Berlin | SEO Berlino",
         description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master and experienced as both Scrum Master and Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/agile-coach-berlin"
@@ -1090,7 +1090,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
     res.render("beratungscrum", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Agile Coach / Scrum Master in Berlin | seoberlino",
+        title: "Agile Coach / Scrum Master in Berlin | SEO Berlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
         canonical: "https://www.seoberlino.com/de/agile-coach-berlin",
         alt: "https://www.seoberlino.com/en/agile-coach-berlin"
@@ -1128,7 +1128,7 @@ app.get("/en/seo-services/canonical", (req, res) => {
     res.render("blogtech/canonical", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Canonical Tag | seoberlino",
+        title: "Canonical Tag | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/canonical"
@@ -1140,7 +1140,7 @@ app.get("/de/seo-optimierung/canonical", (req, res) => {
     res.render("blogtech/canonical", {
         requrl: "https://www.seoberlino.com/en/seo-services/canonical",
         layout: "mainDE",
-        title: "Canonical Tag | seoberlino",
+        title: "Canonical Tag | SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/canonical"
@@ -1152,7 +1152,7 @@ app.get("/en/seo-services/404", (req, res) => {
     res.render("blogtech/404", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "404 - Page Not Found | seoberlino",
+        title: "404 - Page Not Found | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/404"
@@ -1164,7 +1164,7 @@ app.get("/de/seo-optimierung/404", (req, res) => {
     res.render("blogtech/404", {
         requrl: "https://www.seoberlino.com/en/seo-services/404",
         layout: "mainDE",
-        title: "Fehler 404 Not Found | seoberlino",
+        title: "Fehler 404 Not Found | SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/404"
@@ -1176,7 +1176,7 @@ app.get("/en/seo-services/crawler", (req, res) => {
     res.render("blogtech/crawler", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "404 | seoberlino",
+        title: "404 | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/crawler"
@@ -1188,7 +1188,7 @@ app.get("/de/seo-optimierung/crawler", (req, res) => {
     res.render("blogtech/crawler", {
         requrl: "https://www.seoberlino.com/en/seo-services/crawler",
         layout: "mainDE",
-        title: "404 | seoberlino",
+        title: "404 | SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/crawler"
@@ -1200,7 +1200,7 @@ app.get("/en/seo-services/googleanalytics", (req, res) => {
     res.render("blogtech/googleanalytics", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Google Analytics  | seoberlino",
+        title: "Google Analytics  | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/googleanalytics"
@@ -1212,7 +1212,7 @@ app.get("/de/seo-optimierung/googleanalytics", (req, res) => {
     res.render("blogtech/googleanalytics", {
         requrl: "https://www.seoberlino.com/en/seo-services/googleanalytics",
         layout: "mainDE",
-        title: "Google Analytics einrichten | seoberlino",
+        title: "Google Analytics einrichten | SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/googleanalytics"
@@ -1224,7 +1224,7 @@ app.get("/en/seo-services/googlesearchconsole", (req, res) => {
     res.render("blogtech/googlesearchconsole", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Search Console | seoberlino",
+        title: "Search Console | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/googlesearchconsole"
@@ -1236,7 +1236,7 @@ app.get("/de/seo-optimierung/googlesearchconsole", (req, res) => {
     res.render("blogtech/googlesearchconsole", {
         requrl: "https://www.seoberlino.com/en/seo-services/googlesearchconsole",
         layout: "mainDE",
-        title: "Search Console einrichten | seoberlino",
+        title: "Search Console einrichten | SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/googlesearchconsole"
@@ -1248,7 +1248,7 @@ app.get("/en/seo-services/seoaudit", (req, res) => {
     res.render("blogtech/seoaudit", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Audit | seoberlino",
+        title: "SEO Audit | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/seoaudit"
@@ -1260,7 +1260,7 @@ app.get("/de/seo-optimierung/seoaudit", (req, res) => {
     res.render("blogtech/seoaudit", {
         requrl: "https://www.seoberlino.com/en/seo-services/seoaudit",
         layout: "mainDE",
-        title: "SEO Audit| seoberlino",
+        title: "SEO Audit| SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/seoaudit"
@@ -1272,7 +1272,7 @@ app.get("/en/seo-services/seobudget", (req, res) => {
     res.render("blogtech/seobudget", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Budget | seoberlino",
+        title: "SEO Budget | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/seobudget"
@@ -1284,7 +1284,7 @@ app.get("/de/seo-optimierung/seobudget", (req, res) => {
     res.render("blogtech/seobudget", {
         requrl: "https://www.seoberlino.com/en/seo-services/seobudget",
         layout: "mainDE",
-        title: "SEO  Budget| seoberlino",
+        title: "SEO  Budget| SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/seobudget"
@@ -1296,7 +1296,7 @@ app.get("/en/seo-services/seospecialist", (req, res) => {
     res.render("blogtech/seospecialist", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Specialist | seoberlino",
+        title: "SEO Specialist | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/seospecialist"
@@ -1308,7 +1308,7 @@ app.get("/de/seo-optimierung/seospecialist", (req, res) => {
     res.render("blogtech/seospecialist", {
         requrl: "https://www.seoberlino.com/en/seo-services/seospecialist",
         layout: "mainDE",
-        title: "SEO Spezialist| seoberlino",
+        title: "SEO Spezialist| SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/seospecialist"
@@ -1320,7 +1320,7 @@ app.get("/en/seo-services/disavowtool", (req, res) => {
     res.render("blogtech/disavow", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Disavow Tool | seoberlino",
+        title: "Disavow Tool | SEO Berlino",
         description: "Disavow Tool. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/disavowtool"
@@ -1332,7 +1332,7 @@ app.get("/de/seo-optimierung/disavowtool", (req, res) => {
     res.render("blogtech/disavow", {
         requrl: "https://www.seoberlino.com/en/seo-services/disavowtool",
         layout: "mainDE",
-        title: "Disavow Tool | seoberlino",
+        title: "Disavow Tool | SEO Berlino",
         description: "Disavow Tool. Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/disavowtool"
@@ -1344,7 +1344,7 @@ app.get("/en/seo-services/longtail", (req, res) => {
     res.render("blogtech/longtail", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Long Tail Keywords | seoberlino",
+        title: "Long Tail Keywords | SEO Berlino",
         description: "Long Tail Keywords. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/longtail"
@@ -1356,7 +1356,7 @@ app.get("/de/seo-optimierung/longtail", (req, res) => {
     res.render("blogtech/longtail", {
         requrl: "https://www.seoberlino.com/en/seo-services/longtail",
         layout: "mainDE",
-        title: "Long Tail Keywords | seoberlino",
+        title: "Long Tail Keywords | SEO Berlino",
         description: "Long Tail Keywords. Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/longtail"
@@ -1368,7 +1368,7 @@ app.get("/en/seo-services/searchvolume", (req, res) => {
     res.render("blogtech/searchvolume", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Keyword Search Volume | seoberlino",
+        title: "Keyword Search Volume | SEO Berlino",
         description: "Search Volume. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/searchvolume"
@@ -1380,7 +1380,7 @@ app.get("/de/seo-optimierung/searchvolume", (req, res) => {
     res.render("blogtech/searchvolume", {
         requrl: "https://www.seoberlino.com/en/seo-services/searchvolume",
         layout: "mainDE",
-        title: "Keyword Suchvolumen  | seoberlino",
+        title: "Keyword Suchvolumen  | SEO Berlino",
         description: "Suchvolumen, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/searchvolume"
@@ -1392,7 +1392,7 @@ app.get("/en/seo-services/amp", (req, res) => {
     res.render("blogtech/amp", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "AMP | seoberlino",
+        title: "AMP | SEO Berlino",
         description: "AMP, Accelerated Mobile Pages, SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/amp"
@@ -1404,7 +1404,7 @@ app.get("/de/seo-optimierung/amp", (req, res) => {
     res.render("blogtech/amp", {
         requrl: "https://www.seoberlino.com/en/seo-services/amp",
         layout: "mainDE",
-        title: "AMP | seoberlino",
+        title: "AMP | SEO Berlino",
         description: "AMP (Accelerated Mobile Pages). Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/amp"
@@ -1416,7 +1416,7 @@ app.get("/en/seo-services/removeurl", (req, res) => {
     res.render("blogtech/removeurl", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Remove URL Tool | seoberlino",
+        title: "Remove URL Tool | SEO Berlino",
         description: "Remove URL Tool, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/removeurl"
@@ -1428,7 +1428,7 @@ app.get("/de/seo-optimierung/removeurl", (req, res) => {
     res.render("blogtech/removeurl", {
         requrl: "https://www.seoberlino.com/en/seo-services/removeurl",
         layout: "mainDE",
-        title: "Remove URL Tool  | seoberlino",
+        title: "Remove URL Tool  | SEO Berlino",
         description: "Remove URL Tool. Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/removeurl"
@@ -1440,7 +1440,7 @@ app.get("/en/seo-services/rankbrain", (req, res) => {
     res.render("blogtech/rankbrain", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Rank Brain| seoberlino",
+        title: "Rank Brain| SEO Berlino",
         description: "Rank Brain, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/rankbrain"
@@ -1452,7 +1452,7 @@ app.get("/de/seo-optimierung/rankbrain", (req, res) => {
     res.render("blogtech/rankbrain", {
         requrl: "https://www.seoberlino.com/en/seo-services/rankbrain",
         layout: "mainDE",
-        title: "Rank Brain | seoberlino",
+        title: "Rank Brain | SEO Berlino",
         description: "Rank Brain, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/rankbrain"
@@ -1464,7 +1464,7 @@ app.get("/en/seo-services/redirects", (req, res) => {
     res.render("blogtech/redirect", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "301 and 302 Redirects| seoberlino",
+        title: "301 and 302 Redirects| SEO Berlino",
         description: "Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/redirects"
@@ -1476,7 +1476,7 @@ app.get("/de/seo-optimierung/redirects", (req, res) => {
     res.render("blogtech/redirect", {
         requrl: "https://www.seoberlino.com/en/seo-services/redirects",
         layout: "mainDE",
-        title: "301 und 302 Weiterleitungen | seoberlino",
+        title: "301 und 302 Weiterleitungen | SEO Berlino",
         description: "Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/redirects"
@@ -1488,7 +1488,7 @@ app.get("/en/seo-services/noindex", (req, res) => {
     res.render("blogtech/noindex", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "noindex| seoberlino",
+        title: "noindex| SEO Berlino",
         description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/noindex"
@@ -1500,7 +1500,7 @@ app.get("/de/seo-optimierung/noindex", (req, res) => {
     res.render("blogtech/noindex", {
         requrl: "https://www.seoberlino.com/en/seo-services/noindex",
         layout: "mainDE",
-        title: "noindex | seoberlino",
+        title: "noindex | SEO Berlino",
         description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/noindex"
@@ -1512,7 +1512,7 @@ app.get("/en/seo-services/nofollow", (req, res) => {
     res.render("blogtech/nofollow", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "nofollow | seoberlino",
+        title: "nofollow | SEO Berlino",
         description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/nofollow"
@@ -1524,7 +1524,7 @@ app.get("/de/seo-optimierung/nofollow", (req, res) => {
     res.render("blogtech/nofollow", {
         requrl: "https://www.seoberlino.com/en/seo-services/nofollow",
         layout: "mainDE",
-        title: "nofollow | seoberlino",
+        title: "nofollow | SEO Berlino",
         description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/nofollow"
@@ -1536,7 +1536,7 @@ app.get("/en/seo-services/robots", (req, res) => {
     res.render("blogtech/robots", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Robots.txt | seoberlino",
+        title: "Robots.txt | SEO Berlino",
         description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/robots"
@@ -1548,7 +1548,7 @@ app.get("/de/seo-optimierung/robots", (req, res) => {
     res.render("blogtech/robots", {
         requrl: "https://www.seoberlino.com/en/seo-services/robots",
         layout: "mainDE",
-        title: "Robots.txt | seoberlino",
+        title: "Robots.txt | SEO Berlino",
         description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/robots"
@@ -1560,7 +1560,7 @@ app.get("/en/seo-services/sitemaps", (req, res) => {
     res.render("blogtech/sitemaps", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "xml Sitemap | seoberlino",
+        title: "xml Sitemap | SEO Berlino",
         description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/sitemaps"
@@ -1572,7 +1572,7 @@ app.get("/de/seo-optimierung/sitemaps", (req, res) => {
     res.render("blogtech/sitemaps", {
         requrl: "https://www.seoberlino.com/en/seo-services/sitemaps",
         layout: "mainDE",
-        title: "xml Sitemap | seoberlino",
+        title: "xml Sitemap | SEO Berlino",
         description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/sitemaps"
@@ -1584,7 +1584,7 @@ app.get("/en/seo-services/amp", (req, res) => {
     res.render("blogtech/amp", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "AMP (Accelerated Mobile Pages) | seoberlino",
+        title: "AMP (Accelerated Mobile Pages) | SEO Berlino",
         description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/sitemaps"
@@ -1596,7 +1596,7 @@ app.get("/de/seo-optimierung/amp", (req, res) => {
     res.render("blogtech/amp", {
         requrl: "https://www.seoberlino.com/en/seo-services/amp",
         layout: "mainDE",
-        title: "AMP (Accelerated Mobile Pages) | seoberlino",
+        title: "AMP (Accelerated Mobile Pages) | SEO Berlino",
         description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/amp"
@@ -1608,7 +1608,7 @@ app.get("/en/seo-services/searchengines", (req, res) => {
     res.render("blogtech/suchmaschinen", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Search Engines | seoberlino",
+        title: "Search Engines | SEO Berlino",
         description: "Search Enginles, Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/searchengines"
@@ -1620,7 +1620,7 @@ app.get("/de/seo-optimierung/searchengines", (req, res) => {
     res.render("blogtech/suchmaschinen", {
         requrl: "https://www.seoberlino.com/en/seo-services/amp",
         layout: "mainDE",
-        title: "Suchmaschinen | seoberlino",
+        title: "Suchmaschinen | SEO Berlino",
         description: "Suchmaschinen, Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/en/seo-services/searchengines"
@@ -1644,7 +1644,7 @@ app.get("/en/seo-services/linkbuilding-in-2020", (req, res) => {
     res.render("blogoffpage/bloglinksgettingitright", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Link Building in 2020 | seoberlino",
+        title: "Link Building in 2020 | SEO Berlino",
         description: "Link Building in one of the most difficult but important aspects of SEO. Read these tips to start your Backlinking tasks.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1655,7 +1655,7 @@ app.get("/en/seo-services/voice-search-challenges", (req, res) => {
     res.render("blogonpage/blogvoice", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Voice Search and how it challenges SEO | seoberlino ",
+        title: "Voice Search and how it challenges SEO | SEO Berlino ",
         description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1666,7 +1666,7 @@ app.get("/en/seo-services/google-keyword-planner-guide", (req, res) => {
     res.render("blogonpage/blogkeywordplanner", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Google Keyword Planner Tool Guide | seoberlino",
+        title: "Google Keyword Planner Tool Guide | SEO Berlino",
         description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1677,8 +1677,8 @@ app.get("/en/seo-services/clutch", (req, res) => {
     res.render("blogcase/blogclutch", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Top SEO Company in Germany 2019 | seoberlino",
-        description: "Clutch has selected seoberlino as one of the top SEO companies in Germany for 2019. Read the Press Release from Clutch.",
+        title: "Top SEO Company in Germany 2019 | SEO Berlino",
+        description: "Clutch has selected SEO Berlino as one of the top SEO companies in Germany for 2019. Read the Press Release from Clutch.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
 });
@@ -1688,7 +1688,7 @@ app.get("/en/seo-services/seo-in-asia-korea-china-japan-2020", (req, res) => {
     res.render("blogcase/blogasia", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO in Asia: China, Japan and Korea | seoberlino",
+        title: "SEO in Asia: China, Japan and Korea | SEO Berlino",
         description: "Blog article about SEO in Asia and Search Engines in Asia. How to approach SEO for the Asian market.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1699,7 +1699,7 @@ app.get("/en/seo-services/beyond-mobile-first", (req, res) => {
     res.render("blogtech/blogmobile-first", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "SEO Beyond Mobile First | SEO Blog | seoberlino",
+        title: "SEO Beyond Mobile First | SEO Blog | SEO Berlino",
         description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop.",
         canonical: "https://www.seoberlino.com/en/seo-services/beyond-mobile-first"
     });
@@ -1712,7 +1712,7 @@ app.get(
         res.render("blogtech/blogstructureddata", {
             requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
             layout: "mainNoAlt",
-            title: "Structured Data SEO | seoberlino",
+            title: "Structured Data SEO | SEO Berlino",
             description: "SEO Blog article about Structured Data and why you need to implement them to improve your SEO.  Everything you need to know about Strucutured Data. ",
             canonical: "https://www.seoberlino.com" + req.originalUrl
         });
@@ -1724,7 +1724,7 @@ app.get("/en/seo-services/link-building-to-brandbuilding", (req, res) => {
     res.render("blogoffpage/blogbrandbuilding", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Link Building to Brand Building | seoberlino",
+        title: "Link Building to Brand Building | SEO Berlino",
         description: "Link Bulding is now very connected to PR and how to spread visibility online. Read about how you need to adapt your PR online strategy.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1735,7 +1735,7 @@ app.get("/en/seo-services/how-to-get-those-first-links", (req, res) => {
     res.render("blogoffpage/blogfirstlinks", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "How to get those first backlinks | seoberlino",
+        title: "How to get those first backlinks | SEO Berlino",
         description: "Read this article about SEO and Back linking and how to get your first backlinks in a simple way: clients, sponsoring, specialised websites, etc.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
@@ -1746,7 +1746,7 @@ app.get("/en/seo-services/site-migration-seo-checklist", (req, res) => {
     res.render("blogtech/blogsitemigration", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Site migration SEO Checklist | seoberlino",
+        title: "Site migration SEO Checklist | SEO Berlino",
         description: "Read this article about site migration and what to do before you start migration.",
         canonical: "https://www.seoberlino.com" + req.originalUrl
     });
