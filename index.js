@@ -596,9 +596,9 @@ app.get("/de/seo-optimierung/interne-verlinkung", (req, res) => {
 app.get("/en/seo-services/voice-search", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogonpage/blogvoiceDEEN", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/voice-search",
         layout: "main",
-        title: "Image Optimization for SEO | SEO Services | SEO Berlino",
+        title: "Voice Search for SEO | SEO Services | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: "https://www.seoberlino.com/en/seo-services/voice-search",
         alt: "https://www.seoberlino.com/de/seo-optimierung/sprachsuche"
@@ -608,7 +608,7 @@ app.get("/en/seo-services/voice-search", (req, res) => {
 app.get("/de/seo-optimierung/sprachsuche", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogonpage/blogvoiceDEEN", {
-        requrl: "https://www.seoberlino.com/en/seo-services/sprachsuche",
+        requrl: "https://www.seoberlino.com/en/seo-services/voice-search",
         layout: "mainDE",
         title: "Sprachsuche • SEO Optimierung | SEO Berlino",
         description: "Sprachsuche und SEO.",
@@ -1661,16 +1661,7 @@ app.get("/en/seo-services/voice-search-challenges", (req, res) => {
     });
 });
 
-app.get("/en/seo-services/google-keyword-planner-guide", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("blogonpage/blogkeywordplanner", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
-        title: "Google Keyword Planner Tool Guide | SEO Berlino",
-        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl
-    });
-});
+
 
 app.get("/en/seo-services/clutch", (req, res) => {
     i18n.setLocale(req, "en");
