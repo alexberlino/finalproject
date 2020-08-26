@@ -1,92 +1,63 @@
-    <form id="subscribeForm" class="colophone-form" role="form" method="post" action="/email">
-
-        <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
-        <div class="inline">
-
-            <div class="field fullname">
-                <label class="label">Full name</label>
-
-                <div class="control">
-                    <input class="input2" type="text" name="name" id="field" placeholder="{{{__ "fullname"}}}" required>
-                </div>
-            </div>
-            <div class="field email">
-                <label class="label">Email Address</label>
-
-                <div class="control">
-                    <input class="input2" type="email" name="email" id="field" placeholder="Email" required>
-                </div>
+<form id="subscribeForm" class="colophone-form" role="form" method="post" action="/email">
+    <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
+    <div class="inline">
+        <div class="field fullname">
+            <label>Full name</label>
+            <div class="control">
+                <input class="input2" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
             </div>
         </div>
-
-
-        <div class="field message">
-            <label class="label">Website</label>
+        <div class="field email">
+            <label>Email Address</label>
 
             <div class="control">
-                <input class="input2" type="url" name="website" id="field" placeholder="https://" required>
+                <input class="input2" type="email" name="email" placeholder="Email" required>
             </div>
         </div>
-
-
-
-
-        <div class="field message">
-            <label class="label">Type of Service</label>
-
-            <input class="input2" list="beratung" name="beratung" placeholder="Select {{{__ "consultancy"}}}" required>
-
-            <div class="control">
-                <datalist id="beratung">
-
-                    <option value="One time SEO Check Audit">
-                    <option value="SEO Check Audit and Monthly Follow-up">
-                    <option value="Backlink Campaign">
-                    <option value="SEA">
-                    <option value="Scrum">
-                    <option value="Other Service(s)">
-                </datalist>
-            </div>
+    </div>
+    <div class="field message">
+        <label>Website</label>
+        <div class="control">
+            <input class="input2" type="url" name="website" placeholder="https://" required>
         </div>
-
-        <div class="field message">
-            <label class="label">Budget Range</label>
-
-            <input class="input2" list="budget" name="budget" placeholder="Select Budget" required>
-
-            <div class="control">
-                <datalist id="budget">
-                    <option value="€2k+ monthly">
-                    <option value="One time €2k+ ">
-                    <option value="€1-2k monthly">
-                    <option value="One time €1-2k ">
-                    <option value="€1k monthly">
-                    <option value="One time under €1k">
-                </datalist>
-            </div>
+    </div>
+    <div class="field message">
+        <label>Type of Service</label>
+        <input class="input2" list="beratung" name="beratung" placeholder="Select {{{__ "consultancy"}}}" required>
+        <div class="control">
+            <datalist id="beratung">
+                <option value="One time SEO Check Audit">
+                <option value="SEO Check Audit and Monthly Follow-up">
+                <option value="Backlink Campaign">
+                <option value="SEA">
+                <option value="Scrum">
+                <option value="Other Service(s)">
+            </datalist>
         </div>
-
-
-        <div class="field message">
-            <label class="label">Description of requirements
-
-                <div class="control">
-                    <textarea class="textarea" name="message" id="field" placeholder="Message" rows="6" required></textarea>
-                </div>
+    </div>
+    <div class="field message">
+        <label>Budget Range</label>
+        <input class="input2" list="budget" name="budget" placeholder="Select Budget" required>
+        <div class="control">
+            <datalist id="budget">
+                <option value="€2k+ monthly">
+                <option value="One time €2k+ ">
+                <option value="€1-2k monthly">
+                <option value="One time €1-2k ">
+                <option value="€1k monthly">
+                <option value="One time under €1k">
+            </datalist>
         </div>
-
-
-
-        <div class="field send">
-            <div class="control">
-                <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
-            </div>
-
-
-            <div class="g-recaptcha" data-sitekey="6LdNpt4UAAAAANBjleSMhbO2DazWd3Y-_JIPrA6d"></div>
-
-            <div class="g-recaptcha" data-sitekey="6LdzfN4UAAAAAOUzn0MPCPRsYV-aq4K4YDDKcvBG"></div>
-
-
+    </div>
+    <div class="field message">
+        <label>Description of requirements</label>
+        <div class="control">
+            <textarea class="textarea" name="message" placeholder="Message" rows="6" required></textarea>
         </div>
-    </form>
+    </div>
+    <div class="field send">
+        <div class="control">
+            <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
+        </div>
+    </div>
+</form>
