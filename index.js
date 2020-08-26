@@ -22,11 +22,7 @@ app.use(function(req, res, next) {
 });
 
 
-app.use(function(req, res, next) {
 
-    res.setHeader("Content-Security-Policy", 'script-src agfj943jn934mvxßßsdfdsfdg');
-    return next();
-});
 
 
 
