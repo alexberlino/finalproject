@@ -16,10 +16,10 @@ const featurePolicy = require('feature-policy')
 const sts = require('strict-transport-security');
 
 
-app.use(function(req, res, next) {
-    res.setHeader("Content-Security-Policy", "script-src 'self' https://apis.google.com *.typekit.net unpkg.com *.jquery.com *.provenexpert.com *.google-analytics.com");
-    return next();
-});
+// app.use(function(req, res, next) {
+//     res.setHeader("Content-Security-Policy", "script-src 'self' https://apis.google.com *.typekit.net unpkg.com *.jquery.com *.provenexpert.com *.google-analytics.com");
+//     return next();
+// });
 
 
 
