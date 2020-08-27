@@ -198,6 +198,34 @@ app.get("/en/seo-consultant", (req, res) => {
     });
 });
 
+
+
+app.get("/de/seo-pricing", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("pricing", {
+        requrl: "https://www.seoberlino.com/de/seo-preise",
+        layout: "mainDE",
+        title: "SEO Freelancer • Suchmaschinenoptimierung | SEO Berlino",
+        description: "SEO Freelancer und Analytics Consultant: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com/de/seo-freelancer",
+        alt: "https://www.seoberlino.com/en/seo-consultant"
+    });
+});
+
+app.get("/en/seo-pricing", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("pricing", {
+        requrl: "https://www.seoberlino.com/de/seo-pricing",
+        title: "Experienced SEO Consultant in Germany | SEO Berlino",
+        layout: "main",
+        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        canonical: "https://www.seoberlino.com/en/seo-consultant",
+        alt: "https://www.seoberlino.com/de/seo-freelancer"
+    });
+});
+
+
+
 app.get("/de/google-ranking-verbessern", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("googleranking", {
