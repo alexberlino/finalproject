@@ -8,11 +8,13 @@
 }
 
 .greybg {
-    background-color: lightgrey !important
+    background-color: #CDCDCD !important;
+    padding: 70px !important;
 }
 
 .yellowbg {
-    background-color: orange !important
+    background-color: #FF8811 !important;
+    padding: 70px !important;
 }
 
 .resp-sharing-button__icon, .resp-sharing-button__link {
