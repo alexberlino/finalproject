@@ -11,6 +11,10 @@
     display: inline-block
 }
 
+.greybg {
+    background-color: lightgrey !important
+}
+
 .resp-sharing-button__link {
     text-decoration: none;
     color: #fff;
