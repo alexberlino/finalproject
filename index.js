@@ -1832,6 +1832,15 @@ app.get("/en/article/beyond-mobile-first", function(request, response) {
 });
 
 
+app.get("/AccessAnalyticsandSearchConsole.pdf", function(request, response) {
+    response.writeHead(301, {
+        Location: "/images/AccessAnalyticsandSearchConsole.pdf",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
 app.get("/n26imageissue.png", function(request, response) {
     response.writeHead(301, {
         Location: "images/seo-images/en/seo-services/beyond-mobile-first",
