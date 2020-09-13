@@ -167,7 +167,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Agentur Berlin • SEO Freelance Beratung | SEO Berlino",
+        title: "SEO Agentur Berlin • SEO Freelancer Beratung | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
         description: "SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, etc",
         alt: "https://www.seoberlino.com/en"
@@ -850,7 +850,7 @@ app.get("/de/seo-experte", (req, res) => {
     res.render("expert", {
         requrl: "https://www.seoberlino.com/en/seo-expert",
         layout: "mainDE",
-        title: "SEO Experte • SEO Consultant in Berlin | SEO Berlino ",
+        title: "SEO Experte in Berlin | SEO Berlino ",
         description: "SEO Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/seo-experte",
         alt: "https://www.seoberlino.com/en/seo-expert"
