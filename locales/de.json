@@ -568,7 +568,5 @@
   "404MP2": "Um solche Seiten zu vermeiden:",
   "404MP3": "Sie müssten eine Catch-all-Seite für noch nicht abgedeckte Seiten rendern. Zum Beispiel in Node.js",
   "voicesearchurl": "voicesearchurl",
-  "structured-data": "structured-data",
-  "seaMP11": "",
-  "testimonialsTitle": ""
+  "structured-data": "structured-data"
 }
