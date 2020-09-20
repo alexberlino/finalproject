@@ -1831,6 +1831,14 @@ app.get("/en/article/beyond-mobile-first", function(request, response) {
     response.end();
 });
 
+app.get("/de/on-page*", function(request, response) {
+    response.writeHead(301, {
+        Location: "/de/seo-optimierung/onpage-seo",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 
 app.get("/AccessAnalyticsandSearchConsole.pdf", function(request, response) {
     response.writeHead(301, {

@@ -748,7 +748,7 @@
 		"oAP": "/Public/css/bulma.css.map",
 		"oF": 0
 		},
-	"/Public/css/bulma.min.css": {
+	"/Public/css/bulma.min.css" media="print" onload="this.media='all'">: {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
