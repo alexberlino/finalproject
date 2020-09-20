@@ -21,40 +21,49 @@
             <input class="input2" type="url" name="website" placeholder="https://" required>
         </div>
     </div>
-    <div class="field message">
-        <label>Type of Service</label>
-        <input class="input2" list="beratung" name="beratung" placeholder="Select {{{__ "consultancy"}}}" required>
-        <div class="control">
-            <datalist id="beratung">
-                <option value="One time SEO Check Audit">
-                <option value="SEO Check Audit and Monthly Follow-up">
-                <option value="Backlink Campaign">
-                <option value="SEA">
-                <option value="Scrum">
-                <option value="Other Service(s)">
-            </datalist>
-        </div>
-    </div>
-    <div class="field message">
-        <label>Budget Range</label>
-        <input class="input2" list="budget" name="budget" placeholder="Select Budget" required>
-        <div class="control">
-            <datalist id="budget">
-                <option value="€2k+ monthly">
-                <option value="One time €2k+ ">
-                <option value="€1-2k monthly">
-                <option value="One time €1-2k ">
-                <option value="€1k monthly">
-                <option value="One time under €1k">
-            </datalist>
-        </div>
-    </div>
+
     <div class="field message">
         <label>Description of requirements</label>
         <div class="control">
             <textarea class="textarea" name="message" placeholder="Message" rows="6" required></textarea>
         </div>
     </div>
+    <div class="field message">
+        <label>Type of Service</label>
+
+        <div name="beratung">
+            <select name="beratung" id="beratung" required>
+                <option value="" disabled selected>Select Service</option>
+
+                <option value="One time SEO Check Audit">One time SEO Audit</option>
+                <option value="SEO Check Audit and Monthly Follow-up">SEO Audit and Monthly Follow-up</option>
+                <option value="Backlink Campaign">Backlink Campaign</option>
+                <option value="SEA">SEA</option>
+                <option value="Scrum">Scrum</option>
+                <option value="Other Service(s)">Other Service(s)</option>
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="field message">
+        <label>Budget Range</label>
+
+        <div name="budget">
+
+            <select id="budget" name="budget" required>
+                <option value="" disabled selected hidden>Select Budget</option>
+                <option value="One time under €1k">One time under €1k</option>
+                <option value="€One time €1-2k">One time €1-2k</option>
+                <option value="One time €2k+ ">One time €2k+</option>
+                <option value="Monthly under €1k">Monthly under €1k</option>
+                <option value="€1-2k monthly">€1-2k monthly</option>
+                <option value="€2k+ monthly">2k+ monthly</option>
+            </select>
+        </div>
+    </div>
+
     <div class="field send">
         <div class="control">
             <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
