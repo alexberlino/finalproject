@@ -3,8 +3,6 @@
             <div class="container reduced">
                 <div class="columns is-centered is-multiline">
                     <div class="column is-12-mobile is-10-tablet is-12-desktop">
-
-
                         <div class="boxcolor" data-aos="fade-in"><br>
                             <h1 class="h1HP is-heavy is-white has-text-centered" data-aos="fade-up-top">{{{__ "onpageHP3"}}}</h1><br>
                         </div><br>
@@ -22,8 +20,6 @@
                         </nav> <br><br>
                     </div>
                     <div class="column is-12-mobile is-10-tablet is-9-desktop post content">
-
-
                         <h2 class="title is-4 is-heavy reduced-top-margin">{{{__ "internalMPT1"}}}</h2>
                         <p>{{{__ "internalMP1"}}}</p>
                         <h2 class="title is-4 is-heavy">{{{__ "internalMPT2"}}}</h2>
@@ -35,55 +31,10 @@
                         <h2 class="title is-4 is-heavy">{{{__ "internalMPT3"}}}</h2>
                         <p>{{{__ "internalMP3"}}}</p><br><br><br>
                     </div>
-
-
                     <div class="column is-centered is-10-mobile is-4-tablet is-3-desktop sidebar sidebarblog">
-
-                        {{>sideonpage}}
-
-
-
-                        <br><br>
-
+                        {{>sideonpage}}<br><br>
                     </div><br>
-
                 </div>
                 {{>articlesCTA}}
             </div>
-    </section>
-    </div>
-
-
-    <section class="comments-hero hero is-medium off-white">
-        <div class="hero-body remove-padding">
-            <div class="container reduced">
-                <div class="columns is-centered">
-                    <div class="column is-10 comments">
-                        <div id="disqus_thread"></div>
-                        <script>
-                            /**
-                             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                            /*
-
-                            */
-
-                            var disqus_config = function() {
-                                this.page.url = `https://www.seoberlino.com/{{{__ "lang"}}}/{{{__ "blogurl"}}}/{{{__ "voicesearchurl"}}}`; // Replace PAGE_URL with your page's canonical URL variable
-                                this.page.identifier = "Voice Search"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                            };
-
-
-                            (function() { // DON'T EDIT BELOW THIS LINE
-                                var d = document,
-                                    s = d.createElement('script');
-                                s.src = 'https://www-seoberlino-com.disqus.com/embed.js';
-                                s.setAttribute('data-timestamp', +new Date());
-                                (d.head || d.body).appendChild(s);
-                            })();
-                        </script>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
