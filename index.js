@@ -850,7 +850,7 @@ app.get("/de/seo-experte", (req, res) => {
     res.render("expert", {
         requrl: "https://www.seoberlino.com/en/seo-expert",
         layout: "mainDE",
-        title: "SEO Experte in Berlin | SEO Berlino ",
+        title: "SEO Experte in Berlin | SEO Consultant | SEO Berlino ",
         description: "SEO Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/seo-experte",
         alt: "https://www.seoberlino.com/en/seo-expert"
