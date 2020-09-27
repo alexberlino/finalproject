@@ -167,9 +167,9 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Agentur Berlin • SEO Beratung Freelancer | SEO Berlino",
+        title: "SEO Agentur Berlin • SEO Beratung | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
-        description: "SEO Agentur Berlin - Freelancer SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, etc",
+        description: "SEO Agentur Berlin - Freelance SEO. 10 Jahre Erfahrung Suchmaschinenoptimierung Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH, etc",
         alt: "https://www.seoberlino.com/en"
     });
 });
@@ -247,6 +247,32 @@ app.get("/en/google-ranking", (req, res) => {
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
         canonical: "https://www.seoberlino.com/en/google-ranking",
         alt: "https://www.seoberlino.com/de/google-ranking-verbessern"
+    });
+});
+
+
+
+app.get("/de/produktbeschreibung", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogonpage/product-description", {
+        requrl: "https://www.seoberlino.com/en/google-ranking",
+        layout: "mainDE",
+        title: "Produktbeschreibung | SEO Berlino",
+        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com/de/produktbeschreibung",
+        alt: "https://www.seoberlino.com/en/product-description"
+    });
+});
+
+app.get("/en/product-description", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogonpage/product-description", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        title: "Product Description| SEO Berlino",
+        layout: "main",
+        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        canonical: "https://www.seoberlino.com/en/product-description",
+        alt: "https://www.seoberlino.com/de/produktbeschreibung"
     });
 });
 
