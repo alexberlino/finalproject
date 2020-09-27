@@ -2,13 +2,13 @@
     <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
     <div class="inline">
         <div class="field fullname">
-            <label>Full name</label>
+            <label>{{{__ "fullname"}}}</label>
             <div class="control">
                 <input class="input2" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
             </div>
         </div>
         <div class="field email">
-            <label>Email Address</label>
+            <label>{{{__ "emailaddress"}}}</label>
 
             <div class="control">
                 <input class="input2" type="email" name="email" placeholder="Email" required>
@@ -16,31 +16,30 @@
         </div>
     </div>
     <div class="field message">
-        <label>Website</label>
+        <label>{{{__ "website"}}}</label>
         <div class="control">
             <input class="input2" type="url" name="website" placeholder="https://" required>
         </div>
     </div>
 
     <div class="field message">
-        <label>Description of requirements</label>
+        <label>{{{__ "descriptionreq"}}}</label>
         <div class="control">
             <textarea class="textarea" name="message" placeholder="Message" rows="6" required></textarea>
         </div>
     </div>
     <div class="field message">
-        <label>Type of Service</label>
+        <label>{{{__ "typeservice"}}}</label>
 
         <div name="beratung">
-            <select name="beratung" id="beratung" required>
-                <option value="" disabled selected hidden>Select Service</option>
+            <select name="beratung" id="beratung" class="input2" required>
+                <option value="" disabled selected hidden>{{{__ "typeservice"}}}</option>
 
-                <option value="One time SEO Check Audit">One time SEO Audit</option>
-                <option value="SEO Check Audit and Monthly Follow-up">SEO Audit and Monthly Follow-up</option>
-                <option value="Backlink Campaign">Backlink Campaign</option>
+                <option value="One time SEO Check Audit">{{{__ "onetime"}}} SEO Audit</option>
+                <option value="SEO Check Audit and Monthly Follow-up">SEO Audit & Monthly Follow-up</option>
+                <option value="Backlink Campaign">Backlinks</option>
                 <option value="SEA">SEA</option>
                 <option value="Scrum">Scrum</option>
-                <option value="Other Service(s)">Other Service(s)</option>
             </select>
         </div>
     </div>
@@ -48,18 +47,18 @@
 
 
     <div class="field message">
-        <label>Budget Range</label>
+        <label>{{{__ "budgetrange"}}}</label>
 
         <div name="budget">
 
-            <select id="budget" name="budget" required>
-                <option value="" disabled selected hidden>Select Budget</option>
-                <option value="One time under €1k">One time under €1k</option>
-                <option value="€One time €1-2k">One time €1-2k</option>
-                <option value="One time €2k+ ">One time €2k+</option>
-                <option value="Monthly under €1k">Monthly under €1k</option>
-                <option value="€1-2k monthly">€1-2k monthly</option>
-                <option value="€2k+ monthly">2k+ monthly</option>
+            <select id="budget" name="budget" class="input2" required>
+                <option value="" disabled selected hidden>Budget</option>
+                <option value="One time under €1k">{{{__ "onetime"}}} {{{__ "under"}}} €1k</option>
+                <option value="€One time €1-2k">{{{__ "onetime"}}} €1-2k</option>
+                <option value="One time €2k+ ">{{{__ "onetime"}}} €2k+</option>
+                <option value="Monthly under €1k">{{{__ "monthly"}}} {{{__ "under"}}} €1k</option>
+                <option value="€1-2k monthly">€1-2k {{{__ "monthly"}}}</option>
+                <option value="€2k+ monthly">2k+ {{{__ "monthly"}}}</option>
             </select>
         </div>
     </div>
