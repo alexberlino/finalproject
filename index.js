@@ -182,18 +182,18 @@ app.get("/de/seo-freelancer", (req, res) => {
         title: "SEO Freelancer • Suchmaschinenoptimierung | SEO Berlino",
         description: "SEO Freelancer und Analytics Consultant: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-freelancer",
-        alt: "https://www.seoberlino.com/en/seo-consultant"
+        alt: "https://www.seoberlino.com/en/seo-freelancer"
     });
 });
 
-app.get("/en/seo-consultant", (req, res) => {
+app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("beratung", {
         requrl: "https://www.seoberlino.com/de/seo-freelancer",
-        title: "Experienced SEO Consultant in Germany | SEO Berlino",
+        title: "Experienced SEO Freelancer in Germany | SEO Berlino",
         layout: "main",
-        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en/seo-consultant",
+        description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        canonical: "https://www.seoberlino.com/en/seo-freelancer",
         alt: "https://www.seoberlino.com/de/seo-freelancer"
     });
 });
@@ -310,18 +310,18 @@ app.get("/de/seo-beratung", (req, res) => {
         title: "SEO Beratung | SEO Berater in Berlin | SEO Berlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-beratung",
-        alt: "https://www.seoberlino.com/en/seo-consultancy"
+        alt: "https://www.seoberlino.com/en/seo-consultant"
     });
 });
 
-app.get("/en/seo-consultancy", (req, res) => {
+app.get("/en/seo-consultant", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung", {
         requrl: "https://www.seoberlino.com/de/seo-beratung",
         layout: "main",
-        title: "SEO Consultancy Berlin | SEO Berlino",
+        title: "SEO Consultant in Berlin | SEO Berlino",
         description: "SEO Freelancer and Analytics Expert: SEO, Analytics, SEA and Scrum. Clients: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/en/seo-consultancy",
+        canonical: "https://www.seoberlino.com/en/seo-consultant",
         alt: "https://www.seoberlino.com/de/seo-beratung"
     });
 });
@@ -2104,7 +2104,7 @@ app.get("/de/consultant", function(request, response) {
     response.end();
 });
 
-app.get("/en/seo-freelancer", function(request, response) {
+app.get("/en/seo-consultancy", function(request, response) {
     response.writeHead(301, {
         Location: "/en/seo-consultant",
         Expires: new Date().toGMTString()
