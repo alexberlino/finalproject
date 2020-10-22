@@ -192,7 +192,7 @@ app.get("/en/seo-freelancer", (req, res) => {
         requrl: "https://www.seoberlino.com/de/seo-freelancer",
         title: "Experienced SEO Freelancer in Germany | SEO Berlino",
         layout: "main",
-        description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: "https://www.seoberlino.com/en/seo-freelancer",
         alt: "https://www.seoberlino.com/de/seo-freelancer"
     });
@@ -203,12 +203,12 @@ app.get("/en/seo-freelancer", (req, res) => {
 app.get("/de/seo-pricing", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("pricing", {
-        requrl: "https://www.seoberlino.com/de/seo-preise",
+        requrl: "https://www.seoberlino.com/de/seo-pricing",
         layout: "mainDE",
         title: "SEO Budget • Suchmaschinenoptimierung bei SEO Berlino",
         description: "SEO Freelancer und Analytics Consultant: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/de/seo-freelancer",
-        alt: "https://www.seoberlino.com/en/seo-consultant"
+        canonical: "https://www.seoberlino.com/de/seo-pricing",
+        alt: "https://www.seoberlino.com/en/seo-pricing"
     });
 });
 
@@ -219,8 +219,8 @@ app.get("/en/seo-pricing", (req, res) => {
         title: "SEO Cost and Budget • SEO Consultant in Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en/seo-consultant",
-        alt: "https://www.seoberlino.com/de/seo-freelancer"
+        canonical: "https://www.seoberlino.com/en/seo-pricing",
+        alt: "https://www.seoberlino.com/de/seo-pricing"
     });
 });
 
