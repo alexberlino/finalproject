@@ -167,7 +167,7 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: "https://www.seoberlino.com/en",
         layout: "mainDEHP",
-        title: "SEO Freelance Beratung • Agentur Berlin | SEO Berlino",
+        title: "SEO Beratung und Agentur Berlin | SEO Berlino",
         canonical: "https://www.seoberlino.com/de",
         description: "Freelance SEO Berater mit 10 Jahre Erfahrung, Suchmaschinenoptimierung Agentur in Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: "https://www.seoberlino.com/en"
