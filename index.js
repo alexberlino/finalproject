@@ -1376,6 +1376,55 @@ app.get("/en/seo-services/disavowtool", (req, res) => {
     });
 });
 
+app.get("/en/seo-services/serp", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/serp", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "What does SERP stand for| SEO Berlino",
+        description: "SERP. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/serp"
+    });
+});
+
+app.get("/en/seo-services/googleupdate", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogtech/googleupdate", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Google updates what it means to you| SEO Berlino",
+        description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-optimierung/googleupdate"
+    });
+});
+
+
+app.get("/de/seo-optimierung/googleupdate", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/googleupdate", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "Google updates what it means to you| SEO Berlino",
+        description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/de/seo-services/googleupdate"
+    });
+});
+
+app.get("/de/seo-services/serp", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/serp", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "What does SERP stand for| SEO Berlino",
+        description: "SERP. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/serp"
+    });
+});
+
 app.get("/de/seo-optimierung/disavowtool", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtech/disavow", {
