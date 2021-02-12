@@ -1393,7 +1393,7 @@ app.get("/en/seo-services/googleupdate", (req, res) => {
     res.render("blogtech/googleupdate", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Google updates what it means to you| SEO Berlino",
+        title: "Experience Google Update, what it means to you | SEO Berlino",
         description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "https://www.seoberlino.com/de/seo-optimierung/googleupdate"
@@ -1406,10 +1406,10 @@ app.get("/de/seo-optimierung/googleupdate", (req, res) => {
     res.render("blogtech/googleupdate", {
         requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Google updates what it means to you| SEO Berlino",
+        title: "Google updates | SEO Berlino",
         description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/de/seo-services/googleupdate"
+        alt: "https://www.seoberlino.com/en/seo-services/googleupdate"
     });
 });
 

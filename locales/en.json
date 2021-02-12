@@ -516,6 +516,7 @@
   "definition": "Description",
   "whatSERP": "What does \"SERP\" mean?",
   "whatCanonical": "How do Canonicals work?",
+  "googleupdate": "Google has been warning webmasters about the new update which will focus on better experience especially page speed. Fixing page speed issues such as images, JavaScript & CSS, preloading have never been so important.",
   "whatPageSpeed": "Why is Page Speed to important?",
   "nofollowMP": "nofollow is a value that can be assigned to the rel attribute of an HTML element a (link) to instruct search engines that the hyperlink should not affect the ranking of the link target in the index of the search engine.",
   "altattributeMP": "alt attribute help Search Engines to understand the image they are crawling. \n<br><br> Alt stands for 'alternate'. It often called 'alt tag' but it is in fact an 'attribute'. \n<br><br> It is important to use alt attributes to describe your images to be in line with good SEO practices. Other image related optimization items are size & load time and image file name.",

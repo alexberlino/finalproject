@@ -434,6 +434,7 @@
   "securityMPT2": "HTTPS ist jetzt der Normalfall.",
   "securityMP2": " Ursprünglich wurde HTTPS genutzt, um hoch vertrauliche Transaktionen wie Online Banking oder Bestellformulare für Onlineshopping abzusichern. Mittlerweile ist es jedoch zur Norm geworden. ",
   "SEOResources": "Über SEO",
+  "googleupdate": "Google hat Webmaster vor dem neuen Update gewarnt, das sich auf eine bessere Erfahrung, insbesondere die Seitengeschwindigkeit, konzentriert. Die Behebung von Problemen mit der Seitengeschwindigkeit, wie z. B. Bilder, JavaScript & CSS, Vorladen, war noch nie so wichtig.",
   "securityMP3": "Mag die Nutzung von HTTPS in der Vergangenheit einen Wettbewerbsvorteil für “early adopters” bedeutet haben, so sind diese Zeiten definitiv vorbei. Wenn Sie den Wechsel noch nicht vollzogen haben, sollte dieser auf Ihrer Prioritätenliste ganz weit oben stehen. Seit Sommer 2018 zeigt Chrome eine “nicht sicher”-Warnung an. Sie können daher davon ausgehen, dass ohne HTTPS nicht nur Ihre Position im Ranking leidet, sondern auch die Absprungrate (engl. Bounce Rate) in die Höhe schnellt.",
   "securityMPT4": "Migration",
   "securityMP4": "Planen Sie Ihren Umzug (engl. Site Migration) sorgfältig und legen Sie auch fest, welche Seiten weitergeleitet werden sollen (dies sollten die wichtigsten sein) und welche nicht. Timing ist hier wichtig, um mögliche Risiken zu vermeiden: vollziehen Sie diesen Wechsel daher auf keinen Fall unmittelbar vor Ihrer Hauptsaison.",
