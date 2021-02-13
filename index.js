@@ -1379,7 +1379,7 @@ app.get("/en/seo-services/disavowtool", (req, res) => {
 app.get("/en/seo-services/serp", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/serp", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/serp",
         layout: "main",
         title: "What does SERP stand for| SEO Berlino",
         description: "SERP. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
@@ -1391,7 +1391,7 @@ app.get("/en/seo-services/serp", (req, res) => {
 app.get("/de/seo-optimierung/serp", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtech/serp", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/serp",
         layout: "main",
         title: "What does SERP stand for| SEO Berlino",
         description: "SERP. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
@@ -1403,7 +1403,7 @@ app.get("/de/seo-optimierung/serp", (req, res) => {
 app.get("/en/seo-services/googleupdate", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/googleupdate", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/googleupdate",
         layout: "main",
         title: "Experience Google Update, what it means to you | SEO Berlino",
         description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
@@ -1416,7 +1416,7 @@ app.get("/en/seo-services/googleupdate", (req, res) => {
 app.get("/de/seo-optimierung/googleupdate", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("blogtech/googleupdate", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/googleupdate",
         layout: "main",
         title: "Google updates | SEO Berlino",
         description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
