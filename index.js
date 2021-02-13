@@ -1388,6 +1388,18 @@ app.get("/en/seo-services/serp", (req, res) => {
     });
 });
 
+app.get("/de/seo-optimierung/serp", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/serp", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "main",
+        title: "What does SERP stand for| SEO Berlino",
+        description: "SERP. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
+        alt: "https://www.seoberlino.com/en/seo-services/serp"
+    });
+});
+
 app.get("/en/seo-services/googleupdate", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/googleupdate", {
@@ -1413,17 +1425,7 @@ app.get("/de/seo-optimierung/googleupdate", (req, res) => {
     });
 });
 
-app.get("/de/seo-services/serp", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("blogtech/serp", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "What does SERP stand for| SEO Berlino",
-        description: "SERP. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "https://www.seoberlino.com/en/seo-services/serp"
-    });
-});
+
 
 app.get("/de/seo-optimierung/disavowtool", (req, res) => {
     i18n.setLocale(req, "de");
@@ -2287,8 +2289,23 @@ app.get("/de/blog*", function(request, response) {
     response.end();
 });
 
+app.get("/en/seo-services/voice-search-challenges", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogonpage/blogvoice", {
+        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "Voice Search and how it challenges SEO | SEO Berlino ",
+        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
+        canonical: "https://www.seoberlino.com" + req.originalUrl
+    });
+});
+
+
 app.all("*", function(req, res) {
-    res.status(404).render("error");
+    res.status(404).render("error", {
+        title: "Error 404 - Page Not Found"
+    });
+
 });
 // listening
 app.listen(process.env.PORT || 8080, () => console.log("listening"));
