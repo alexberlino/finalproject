@@ -1,4 +1,6 @@
-<!-- <form id="subscribeForm" class="colophone-form" method="post" action="/email">
+<form id="subscribeForm" class="colophone-form" method="post" action="/email">
+
+
     <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
     <div class="inline">
         <div class="field fullname">
@@ -28,6 +30,9 @@
             <textarea class="textarea" name="message" placeholder="Message" rows="6" required></textarea>
         </div>
     </div>
+
+
+
     <div class="field message">
         <label>{{{__ "typeservice"}}}</label>
 
@@ -41,6 +46,13 @@
                 <option value="SEA">SEA</option>
                 <option value="Scrum">Scrum</option>
             </select>
+        </div>
+    </div>
+
+    <div id="address" class="field message" style="display: none">
+        <label>"control"</label>
+        <div class="address">
+            <textarea class="textarea" name="address" rows="6"></textarea>
         </div>
     </div>
 
@@ -68,4 +80,6 @@
             <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
         </div>
     </div>
-</form> -->
+
+
+</form>

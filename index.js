@@ -1846,14 +1846,14 @@ app.get("/en/seo-services/site-migration-seo-checklist", (req, res) => {
 var nodemailer = require("nodemailer");
 
 app.post("/email", function(req, res) {
-    // if (req.body.budget !== "€2k+ monthly" || "One time €2k+ " || "€1-2k monthly" || "One time €1-2k " || "€1k monthly" || "One time under €1k") {
-    //     res.writeHead(301, {
-    //         Location: "/error"
-    //     });
-    //     res.end();
-    // }
-    nodemailer.createTestAccount((error, account) => {
-        const htmlEmail = `
+
+    if (req.body.address
+        .length != 0) {
+        res.end();
+    } else {
+
+        nodemailer.createTestAccount((error, account) => {
+            const htmlEmail = `
                     <h3> Contact Details </h3>
                     <ul>
                         <li>Name: ${req.body.name}</li>
@@ -1865,38 +1865,40 @@ app.post("/email", function(req, res) {
                     <h3>Message</h3>
                     <p>${req.body.message}</p>
                     `;
-        let transporter = nodemailer.createTransport({
-            host: "smtp.mailgun.org",
-            port: 465,
-            secure: true,
-            auth: {
-                user: secrets.EMAIL_USER,
-                pass: secrets.EMAIL_PASS
-            }
+            let transporter = nodemailer.createTransport({
+                host: "smtp.mailgun.org",
+                port: 465,
+                secure: true,
+                auth: {
+                    user: secrets.EMAIL_USER,
+                    pass: secrets.EMAIL_PASS
+                }
+            });
+            let mailOptions = {
+                from: secrets.EMAIL_USER,
+                to: secrets.MAIL_TO,
+                subject: "New Message from your website",
+                text: req.body.message,
+                html: htmlEmail
+            }; //closemailoptions
+            transporter.sendMail(mailOptions, (error, info) => {
+                if (error) {
+                    console.log("error sending mail", error);
+                    res.writeHead(301, {
+                        Location: "/error"
+                    });
+                    res.end();
+                } else {
+                    res.writeHead(301, {
+                        Location: "/en/success"
+                    });
+                    res.end();
+                }
+            });
         });
-        let mailOptions = {
-            from: secrets.EMAIL_USER,
-            to: secrets.MAIL_TO,
-            subject: "New Message from your website",
-            text: req.body.message,
-            html: htmlEmail
-        }; //closemailoptions
-        transporter.sendMail(mailOptions, (error, info) => {
-            if (error) {
-                console.log("error sending mail", error);
-                res.writeHead(301, {
-                    Location: "/error"
-                });
-                res.end();
-            } else {
-                res.writeHead(301, {
-                    Location: "/en/success"
-                });
-                res.end();
-            }
-        });
-    });
+    }
 });
+
 
 //////////////// Redirects////////////////
 app.get("/en/article/beyond-mobile-first", function(request, response) {
