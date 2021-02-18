@@ -166,7 +166,7 @@ app.get("/de", (req, res) => {
 app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seofreelancer", {
-        requrl: "https://www.seoberlino.com/de/seo-freelancer",
+        requrl: "https://www.seoberlino.com/en/seo-freelancer",
         layout: "mainDE",
         title: "SEO Freelancer Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -178,7 +178,7 @@ app.get("/de/seo-freelancer", (req, res) => {
 app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seofreelancer", {
-        requrl: "https://www.seoberlino.com/de/seo-freelancer",
+        requrl: "https://www.seoberlino.com/en/seo-freelancer",
         title: "Experienced SEO Freelancer in Berlin, Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -191,7 +191,7 @@ app.get("/en/seo-freelancer", (req, res) => {
 app.get("/de/seo-audit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seoaudit", {
-        requrl: "https://www.seoberlino.com/de/seo-audit",
+        requrl: "https://www.seoberlino.com/en/seo-audit",
         layout: "mainDE",
         title: "SEO Audits in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -203,7 +203,7 @@ app.get("/de/seo-audit", (req, res) => {
 app.get("/en/seo-audit", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoaudit", {
-        requrl: "https://www.seoberlino.com/de/seo-audit",
+        requrl: "https://www.seoberlino.com/en/seo-audit",
         title: "SEO Audits in Berlin, Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -216,7 +216,7 @@ app.get("/en/seo-audit", (req, res) => {
 app.get("/en/seo-check", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seocheck", {
-        requrl: "https://www.seoberlino.com/de/seo-audit",
+        requrl: "https://www.seoberlino.com/en/seo-check",
         title: "SEO Check Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -231,7 +231,7 @@ app.get("/en/seo-check", (req, res) => {
 app.get("/de/seo-check", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seocheck", {
-        requrl: "https://www.seoberlino.com/de/seo-check",
+        requrl: "https://www.seoberlino.com/en/seo-check",
         layout: "mainDE",
         title: "SEO Checks in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -245,7 +245,7 @@ app.get("/de/seo-check", (req, res) => {
 app.get("/en/seo-onpage", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoonpage", {
-        requrl: "https://www.seoberlino.com/de/seo-onpage",
+        requrl: "https://www.seoberlino.com/en/seo-onpage",
         title: "SEO Onpage Services Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -260,7 +260,7 @@ app.get("/en/seo-onpage", (req, res) => {
 app.get("/de/seo-onpage", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seoonpage", {
-        requrl: "https://www.seoberlino.com/de/seo-onpage",
+        requrl: "https://www.seoberlino.com/en/seo-onpage",
         layout: "mainDE",
         title: "SEO Onpage Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -275,7 +275,7 @@ app.get("/de/seo-onpage", (req, res) => {
 app.get("/en/seo-page-speed", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seopagespeed", {
-        requrl: "https://www.seoberlino.com/de/seo-page-speed",
+        requrl: "https://www.seoberlino.com/en/seo-page-speed",
         title: "SEO Page Speed Improvements | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -290,7 +290,7 @@ app.get("/en/seo-page-speed", (req, res) => {
 app.get("/de/seo-page-speed", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seopagespeed", {
-        requrl: "https://www.seoberlino.com/de/seo-page-speed",
+        requrl: "https://www.seoberlino.com/en/seo-page-speed",
         layout: "mainDE",
         title: "SEO Page Speed Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -304,7 +304,7 @@ app.get("/de/seo-page-speed", (req, res) => {
 app.get("/en/seo-indexation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoindexation", {
-        requrl: "https://www.seoberlino.com/de/seo-onpage",
+        requrl: "https://www.seoberlino.com/en/seo-indexation",
         title: "SEO Indexation Services Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -319,7 +319,7 @@ app.get("/en/seo-indexation", (req, res) => {
 app.get("/de/seo-indexation", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seoindexation", {
-        requrl: "https://www.seoberlino.com/de/seo-indexation",
+        requrl: "https://www.seoberlino.com/en/seo-indexation",
         layout: "mainDE",
         title: "SEO Onpage Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -333,7 +333,7 @@ app.get("/de/seo-indexation", (req, res) => {
 app.get("/en/local-seo", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seolocal", {
-        requrl: "https://www.seoberlino.com/de/local-seo",
+        requrl: "https://www.seoberlino.com/en/local-seo",
         title: "Local SEO Services Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -351,7 +351,7 @@ app.get("/en/local-seo", (req, res) => {
 app.get("/de/local-seo", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seolocal", {
-        requrl: "https://www.seoberlino.com/de/local-seo",
+        requrl: "https://www.seoberlino.com/en/local-seo",
         layout: "mainDE",
         title: "Local SEO Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -366,7 +366,7 @@ app.get("/de/local-seo", (req, res) => {
 app.get("/en/seo-wordpress", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seowordpress", {
-        requrl: "https://www.seoberlino.com/de/seo-wordpress",
+        requrl: "https://www.seoberlino.com/en/seo-wordpress",
         title: "SEO Services for Wordpress and Wix Users | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -380,7 +380,7 @@ app.get("/en/seo-wordpress", (req, res) => {
 app.get("/de/seo-wordpress", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seowordpress", {
-        requrl: "https://www.seoberlino.com/de/seo-wordpress",
+        requrl: "https://www.seoberlino.com/en/seo-wordpress",
         layout: "mainDE",
         title: "SEO Beratung für Wordpress in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -394,7 +394,7 @@ app.get("/de/seo-wordpress", (req, res) => {
 app.get("/en/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seobacklinks", {
-        requrl: "https://www.seoberlino.com/de/backlinks",
+        requrl: "https://www.seoberlino.com/en/backlinks",
         title: "Backlinks Analysis and Strategie| SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -408,7 +408,7 @@ app.get("/en/backlinks", (req, res) => {
 app.get("/de/backlinks", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seobacklinks", {
-        requrl: "https://www.seoberlino.com/de/backlinks",
+        requrl: "https://www.seoberlino.com/en/backlinks",
         layout: "mainDE",
         title: "Backlinks Analyse und Strategie | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -422,7 +422,7 @@ app.get("/de/backlinks", (req, res) => {
 app.get("/en/keyword-research", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/keywordresearch", {
-        requrl: "https://www.seoberlino.com/de/keyword-research",
+        requrl: "https://www.seoberlino.com/en/keyword-research",
         title: "Keyword Research • Keyword Mapping | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -436,7 +436,7 @@ app.get("/en/keyword-research", (req, res) => {
 app.get("/de/keyword-research", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/keywordresearch", {
-        requrl: "https://www.seoberlino.com/de/keyword-research",
+        requrl: "https://www.seoberlino.com/en/keyword-research",
         layout: "mainDE",
         title: "Keyword Recherche • Keyword Mapping | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -449,7 +449,7 @@ app.get("/de/keyword-research", (req, res) => {
 app.get("/en/seo-relaunch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/relaunch", {
-        requrl: "https://www.seoberlino.com/de/seo-relaunch",
+        requrl: "https://www.seoberlino.com/en/seo-relaunch",
         title: "SEO Support for Site Relaunch | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -463,7 +463,7 @@ app.get("/en/seo-relaunch", (req, res) => {
 app.get("/de/seo-relaunch", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/relaunch", {
-        requrl: "https://www.seoberlino.com/de/seo-relaunch",
+        requrl: "https://www.seoberlino.com/en/seo-relaunch",
         layout: "mainDE",
         title: "SEO Beratung für Site Relaunch in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -472,18 +472,10 @@ app.get("/de/seo-relaunch", (req, res) => {
     });
 });
 
-
-
-
-
-
-
-
-
 app.get("/en/seo-copywriting", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("otherberatung/copywriting", {
-        requrl: "https://www.seoberlino.com/de/seo-copywriting",
+        requrl: "https://www.seoberlino.com/en/seo-copywriting",
         title: "Content Marketing Copywriting  Services | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -492,12 +484,10 @@ app.get("/en/seo-copywriting", (req, res) => {
     });
 });
 
-
-
 app.get("/de/seo-copywriting", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("otherberatung/copywriting", {
-        requrl: "https://www.seoberlino.com/de/seo-copywriting",
+        requrl: "https://www.seoberlino.com/en/seo-copywriting",
         title: "Content Marketing - Copywriting Beratung | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -506,11 +496,10 @@ app.get("/de/seo-copywriting", (req, res) => {
     });
 });
 
-
 app.get("/en/reporting-analytics", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("otherberatung/seoreporting", {
-        requrl: "https://www.seoberlino.com/de/reporting-analytics",
+        requrl: "https://www.seoberlino.com/en/reporting-analytics",
         title: "Google Analytics and Reporting  Services | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -519,28 +508,22 @@ app.get("/en/reporting-analytics", (req, res) => {
     });
 });
 
-
-
 app.get("/de/reporting-analytics", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("otherberatung/seoreporting", {
-        requrl: "https://www.seoberlino.com/de/seo-analytics",
+        requrl: "https://www.seoberlino.com/en/seo-analytics",
         layout: "mainDE",
         title: "Reporting and Google Analytics Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-analytics",
-        alt: "https://www.seoberlino.com/en/seo-analytics"
+        alt: "https://www.seoberlino.com/en/reporting-analytics"
     });
 });
 
-
-
-
-
 app.get("/en/smm", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("otherberatung/smmberatung", {
-        requrl: "https://www.seoberlino.com/de/smm",
+    res.render("otherberatung/de/smmberatung", {
+        requrl: "https://www.seoberlino.com/en/smm",
         title: "Social Media Marketing Services | SEO Berlino",
         layout: "main",
         description: "Social Media Services   Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -550,11 +533,10 @@ app.get("/en/smm", (req, res) => {
 });
 
 
-
 app.get("/de/smm", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("otherberatung/smmberatung", {
-        requrl: "https://www.seoberlino.com/smm",
+    res.render("otherberatung/de/smmberatung", {
+        requrl: "https://www.seoberlino.com/en/smm",
         layout: "mainDE",
         title: "Social Media Marketing Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -566,21 +548,19 @@ app.get("/de/smm", (req, res) => {
 app.get("/en/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("otherberatung/competitor", {
-        requrl: "https://www.seoberlino.com/de/competitor-analysis",
+        requrl: "https://www.seoberlino.com/en/competitor-analysis",
         title: "Competitor Analysis for Online Marketing | SEO Berlino",
         layout: "main",
-        description: "Social Media Services   Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Social Media Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: "https://www.seoberlino.com/en/competitor-analysis",
         alt: "https://www.seoberlino.com/de/competitor-analysis"
     });
 });
 
-
-
 app.get("/de/competitor-analysis", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("otherberatung/competitor", {
-        requrl: "https://www.seoberlino.com/competitor-analysis",
+        requrl: "https://www.seoberlino.com/en/competitor-analysis",
         layout: "mainDE",
         title: "Wettbewerberanalyse Online Marketing | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -592,7 +572,7 @@ app.get("/de/competitor-analysis", (req, res) => {
 app.get("/de/seo-pricing", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("pricing", {
-        requrl: "https://www.seoberlino.com/de/seo-pricing",
+        requrl: "https://www.seoberlino.com/en/seo-pricing",
         layout: "mainDE",
         title: "SEO Budget • Suchmaschinenoptimierung bei SEO Berlino",
         description: "SEO Freelancer und Analytics Consultant: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -604,7 +584,7 @@ app.get("/de/seo-pricing", (req, res) => {
 app.get("/en/seo-pricing", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("pricing", {
-        requrl: "https://www.seoberlino.com/de/seo-pricing",
+        requrl: "https://www.seoberlino.com/en/seo-pricing",
         title: "SEO Cost and Budget • SEO Consultant in Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
@@ -612,8 +592,6 @@ app.get("/en/seo-pricing", (req, res) => {
         alt: "https://www.seoberlino.com/de/seo-pricing"
     });
 });
-
-
 
 app.get("/de/google-ranking-verbessern", (req, res) => {
     i18n.setLocale(req, "de");
@@ -639,70 +617,10 @@ app.get("/en/google-ranking", (req, res) => {
     });
 });
 
-
-
-app.get("/de/produktbeschreibung", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("blogonpage/product-description", {
-        requrl: "https://www.seoberlino.com/en/google-ranking",
-        layout: "mainDE",
-        title: "Produktbeschreibung | SEO Berlino",
-        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/de/produktbeschreibung",
-        alt: "https://www.seoberlino.com/en/product-description"
-    });
-});
-
-app.get("/en/product-description", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("blogonpage/product-description", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "Product Description| SEO Berlino",
-        layout: "main",
-        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en/product-description",
-        alt: "https://www.seoberlino.com/de/produktbeschreibung"
-    });
-});
-
-
-
-app.get("/en/seo-tools", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seotools", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Tools for an SEO Check | SEO Berlino",
-        layout: "main",
-        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en/seo-tools",
-        alt: "https://www.seoberlino.com/de/seo-tools"
-    });
-});
-
-app.get("/de/seo-tools", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seotools", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
-        title: "SEO Tools für SEO Check | SEO Berlino",
-        layout: "mainDE",
-        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/de/seo-tools",
-        alt: "https://www.seoberlino.com/en/seo-tools"
-    });
-});
-
-
-
-
-
-
-
-
-
 app.get("/en/seo-consultancy", function(req, res) {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoberatung", {
-        requrl: "https://www.seoberlino.com/de/seo-beratung",
+        requrl: "https://www.seoberlino.com/en/seo-beratung",
         title: "SEO Consultancy in Berlin Germany | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -712,11 +630,10 @@ app.get("/en/seo-consultancy", function(req, res) {
 });
 
 
-
 app.get("/de/seo-beratung", function(req, res) {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seoberatung", {
-        requrl: "https://www.seoberlino.com/de/seo-beratung",
+        requrl: "https://www.seoberlino.com/en/seo-beratung",
         layout: "mainDE",
         title: "SEO Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
@@ -824,7 +741,7 @@ app.get("/de/seo-optimierung/metas", function(request, response) {
 app.get("/en/seo-services/https", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/bloghttps", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/https",
         layout: "main",
         title: "What https means for SEO | SEO Services | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
@@ -850,7 +767,7 @@ app.get("/de/seo-optimierung/https", (req, res) => {
 app.get("/en/seo-services/mobile", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/blogmobile", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/mobile",
         layout: "main",
         title: "Importance of a Mobile Friendly Website  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
@@ -874,7 +791,7 @@ app.get("/de/seo-optimierung/mobile", (req, res) => {
 app.get("/en/seo-services/javascript", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/blogjava", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/javascript",
         layout: "main",
         title: "How Javascript affects SEO | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
@@ -1001,7 +918,7 @@ app.get("/de/seo-optimierung/structured-data", (req, res) => {
 app.get("/en/seo-services/internal-linking", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogonpage/bloginternallinking", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-services/internal-linking",
         layout: "main",
         title: "What is Internal Linking and why it is important | SEO Berlino",
         description: "Internal Linking and Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
@@ -1064,14 +981,6 @@ app.get("/de/seo-optimierung/content", function(request, response) {
     response.end();
 });
 
-
-
-
-
-
-
-
-
 app.get("/de/seo-optimierung/keyword-research", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/keyword-research",
@@ -1091,7 +1000,6 @@ app.get("/en/seo-services/keyword-research", function(request, response) {
 });
 
 
-
 app.get("/de/seo-optimierung/indexation", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/seo-indexation",
@@ -1108,7 +1016,6 @@ app.get("/en/seo-services/indexation", function(request, response) {
     });
     response.end();
 });
-
 
 
 app.get("/de/seo-optimierung/seo-case-studies", (req, res) => {
@@ -1134,7 +1041,6 @@ app.get("/en/seo-services/seo-case-studies", (req, res) => {
 });
 
 
-
 app.get("/en/seo-services/onpage-seo", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/seo-onpage",
@@ -1142,8 +1048,6 @@ app.get("/en/seo-services/onpage-seo", function(request, response) {
     });
     response.end();
 });
-
-
 
 
 app.get("/de/seo-optimierung/onpage-seo", function(request, response) {
@@ -1229,7 +1133,7 @@ app.get("/de/seo-experte", (req, res) => {
 app.get("/en/seo-expert", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("expert", {
-        requrl: "https://www.seoberlino.com/en" + req.originalUrl.substring(3),
+        requrl: "https://www.seoberlino.com/en/seo-expert"
         layout: "main",
         title: "SEO Expert in Berlin | SEO Berlino ",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
@@ -1383,9 +1287,6 @@ app.get("/en/seo-services/backlink*", function(request, response) {
 });
 
 
-
-
-
 app.get("/de/seo-optimierung/backlink*", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/backlinks",
@@ -1393,7 +1294,6 @@ app.get("/de/seo-optimierung/backlink*", function(request, response) {
     });
     response.end();
 });
-
 
 
 app.get("/en/impressum", (req, res) => {
