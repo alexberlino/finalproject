@@ -2182,10 +2182,9 @@ var nodemailer = require("nodemailer");
 app.post("/email", function(req, res) {
 
     if (req.body.address
-        .length != 0) {
+        .length = 0) {
 
-        break
-    } else {
+
 
         nodemailer.createTestAccount((error, account) => {
             const htmlEmail = `
