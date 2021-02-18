@@ -1,34 +1,61 @@
 <nav class="navbar is-fixed-top" aria-label="main navigation">
     <div class="container">
-
         <div class="navbar-brand">
             <a class="navbar-item" href="/{{{__ "lang"}}}">
                 <img alt="{{{__ "logoNav"}}}" src="/images/logo5.png" width="240" height="28" />
             </a>
-
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
-
         <div id="navbar-mainmenu" class="navbar-menu">
             <div class="navbar-end">
 
+                <div class="navbar-item has-dropdown is-hoverable level-1">
+                    <span data-target="navMenu" class="dropdown-arrow"></span>
 
-                <div class="navbar-item is-hoverable level-1">
+                    <div class="navbar-item is-black"><a class="is-black" href=" /{{{__ "lang"}}}/{{{__ "seoberatungurl"}}}">{{{__ "servicesh1"}}}</a></div>
 
-                    <a class="navbar-item" href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}">{{{__ "servicesh1"}}}</a>
+                    <div class="navbar-dropdown seo">
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-audit">SEO Audits</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-check">SEO Checks</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/keyword-research">{{{__ "keywordresearch"}}}</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-onpage">SEO OnPage</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-indexation">SEO Indexation</a>
+
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-page-speed">PageSpeed {{{__ "improvements"}}}</a>
+
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/local-seo">Local SEO</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-wordpress">SEO {{{__ "for"}}} Wordpress and Wix</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/backlinks">Backlinks Strategie</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-relaunch">Relaunch & International SEO</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-freelancer">Freelance SEO Ad-hoc</a>
+
+                    </div>
+                </div>
 
 
+                <div class="navbar-item has-dropdown is-hoverable level-1">
+                    <span data-target="navMenu" class="dropdown-arrow"></span>
 
+                    <span class="navbar-item">{{{__ "onlinemarketingservices"}}}</span>
+
+                    <div class="navbar-dropdown seo">
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/reporting-analytics">Analytics {{{__ "and"}}} Reporting</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/seo-copywriting">Copywriting {{{__ "and"}}} Translation</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/competitor-analysis"> {{{__ "competitoranalysis"}}}</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/sea">Google Ads</a>
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/smm">Social Media Marketing</a>
+
+                        <a class="navbar-item" href="/{{{__ "lang"}}}/agile-coach-berlin">Agile Coach</a>
+                    </div>
                 </div>
 
 
                 <div class="navbar-item is-hoverable level-1">
                     <span class="navbar-link"><a class="navbar-item" href="/{{{__ "lang"}}}/references">{{{__ "testimonialsTitle"}}}</a></span>
-
 
                 </div>
 
@@ -36,18 +63,8 @@
                 <div class="navbar-item has-dropdown is-hoverable level-1">
                     <span data-target="navMenu" class="dropdown-arrow"></span>
 
-                    <span class="navbar-item"><a class="navbar-item" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}">{{{__ "exblog"}}}</a></span>
-
-                    <div class="navbar-dropdown seo">
-                        <a class="navbar-item" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/technical-seo">Technical SEO</a>
-                        <a class="navbar-item" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/onpage-seo">Onpage</a>
-                        <a class="navbar-item" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/backlinks">Backlinks</a>
-                        <a class="navbar-item" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/seo-case-studies">Case Studies</a>
-
-                    </div>
+                    <span class="navbar-item"><a class="navbar-item" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}">SEO Resources</a></span>
                 </div>
-
-
                 <div class="navbar-item">
                     <div class="buttons">
                         <a class="button is-normal is-primary is-outlined" href="/{{{__ "lang"}}}/contact">
@@ -55,7 +72,6 @@
                         </a>
                     </div>
                 </div>
-
                 <div class="navbar-item">
                     <div class="buttons languageBtn2">
                         <a class="button is-secondary language-button languageBtnEN" href="{{alt}}">
@@ -64,45 +80,21 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </nav>
 
 <nav class="mobile-nav" id="navMenu">
     <div class="mobile-menu has-text-right">
-
-
         <div class="navbar-item level-1">
-
-            <a class="navbar-link" href="/{{{__ "lang"}}}/{{{__ "seo-freelancer"}}}">{{{__ "servicesh1"}}}</a>
-
+            <a class="navbar-link" href="/{{{__ "lang"}}}/{{{__ "seoberatungurl"}}}">{{{__ "servicesh1"}}}</a>
         </div>
-
-
-
-
-        <div class="navbar-item has-dropdown is-hoverable level-1">
-            <span data-target="navMenu" class="dropdown-arrow"></span>
-            <span class="navbar-link level-1">SEO</span>
-            <div class="navbar-dropdown seo">
-                <a class="navbar-item level-2" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/technical-seo">Technical SEO</a>
-                <a class="navbar-item level-2" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/onpage-seo">Onpage</a>
-                <a class="navbar-item level-2" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/backlinks">Backlinks</a>
-                <a class="navbar-item level-2" href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}/seo-case-studies">Case Studies</a>
-
-            </div>
+        <div class="navbar-item is-hoverable level-1">
+            <span class="navbar-link level-1 is-black"><a href="/{{{__ "lang"}}}/{{{__ "blogurl"}}}">SEO Resources</a></span>
         </div>
-
-
-
         <div class="navbar-item level-1">
             <a class="navbar-link" href="/{{{__ "lang"}}}/references">{{{__ "testimonialsTitle"}}}</a>
-
-
         </div>
-
-
         <div class="navbar-item level-1">
             <a class="navbar-link" href="/{{{__ "lang"}}}/contact"> {{{__ "getintouch"}}}
             </a>

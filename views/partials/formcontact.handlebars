@@ -1,85 +1,107 @@
-<form id="subscribeForm" class="colophone-form" method="post" action="/email">
+<section class="success-hero hero is-medium">
+    <div class="columns is-centered">
+        <div class="column is-6"><br><br>
+            <span class="title is-1 is-black is-heavy is-centered">{{{__ "getintouch2"}}}</span><br><br>
 
 
-    <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
-    <div class="inline">
-        <div class="field fullname">
-            <label>{{{__ "fullname"}}}</label>
-            <div class="control">
-                <input class="input2" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
-            </div>
-        </div>
-        <div class="field email">
-            <label>{{{__ "emailaddress"}}}</label>
+            <div class="contact-page-form">
+                <div class="contact-details">
+                    <div class="profile-photo"></div>
+                    <div class="details">
+                        <span class="subtitle is-3 reduced-top-margin"><a href="/{{{__ "lang"}}}/{{{__ "seoexperturl"}}}">Alex Bieth</a></span><br>
+                        <span> {{{__ "owner"}}}</span><br>
+                        <span class="subtitle is-5 reduced-top-margin">SEO & Analytics Senior Consultant<br></span><br>
 
-            <div class="control">
-                <input class="input2" type="email" name="email" placeholder="Email" required>
-            </div>
-        </div>
-    </div>
-    <div class="field message">
-        <label>{{{__ "website"}}}</label>
-        <div class="control">
-            <input class="input2" type="url" name="website" placeholder="https://" required>
-        </div>
-    </div>
+                        <span class="subtitle is-5 reduced-top-margin">E - <a href="mailto:alex@seoberlino.com">alex@seoberlino.com</a></span>
+                    </div>
+                </div>
 
-    <div class="field message">
-        <label>{{{__ "descriptionreq"}}}</label>
-        <div class="control">
-            <textarea class="textarea" name="message" placeholder="Message" rows="6" required></textarea>
-        </div>
-    </div>
+                <form id="subscribeForm" class="colophone-form" method="post" action="/email">
 
 
+                    <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
+                    <div class="inline">
+                        <div class="field fullname">
+                            <label>{{{__ "fullname"}}}</label>
+                            <div class="control">
+                                <input class="input2" type="text" name="name" placeholder="{{{__ "fullname"}}}" required>
+                            </div>
+                        </div>
+                        <div class="field email">
+                            <label>{{{__ "emailaddress"}}}</label>
 
-    <div class="field message">
-        <label>{{{__ "typeservice"}}}</label>
+                            <div class="control">
+                                <input class="input2" type="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field message">
+                        <label>{{{__ "website"}}}</label>
+                        <div class="control">
+                            <input class="input2" type="url" name="website" placeholder="https://" required>
+                        </div>
+                    </div>
 
-        <div name="beratung">
-            <select name="beratung" id="beratung" class="input2" required>
-                <option value="" disabled selected hidden>{{{__ "typeservice"}}}</option>
-
-                <option value="One time SEO Check Audit">{{{__ "onetime"}}} SEO Audit</option>
-                <option value="SEO Check Audit and Monthly Follow-up">SEO Audit & Monthly Follow-up</option>
-                <option value="Backlink Campaign">Backlinks</option>
-                <option value="SEA">SEA</option>
-                <option value="Scrum">Scrum</option>
-            </select>
-        </div>
-    </div>
-
-    <div id="address" class="field message" style="display: none">
-        <label>"control"</label>
-        <div class="address">
-            <textarea class="textarea" name="address" rows="6"></textarea>
-        </div>
-    </div>
+                    <div class="field message">
+                        <label>{{{__ "descriptionreq"}}}</label>
+                        <div class="control">
+                            <textarea class="textarea" name="message" placeholder="Message" rows="6" required></textarea>
+                        </div>
+                    </div>
 
 
 
-    <div class="field message">
-        <label>{{{__ "budgetrange"}}}</label>
+                    <div class="field message">
+                        <label>{{{__ "typeservice"}}}</label>
 
-        <div name="budget">
+                        <div name="beratung">
+                            <select name="beratung" id="beratung" class="input2" required>
+                                <option value="" disabled selected hidden>{{{__ "typeservice"}}}</option>
 
-            <select id="budget" name="budget" class="input2" required>
-                <option value="" disabled selected hidden>Budget</option>
-                <option value="One time under €1k">{{{__ "onetime"}}} {{{__ "under"}}} €1k</option>
-                <option value="€One time €1-2k">{{{__ "onetime"}}} €1-2k</option>
-                <option value="One time €2k+ ">{{{__ "onetime"}}} €2k+</option>
-                <option value="Monthly under €1k">{{{__ "monthly"}}} {{{__ "under"}}} €1k</option>
-                <option value="€1-2k monthly">€1-2k {{{__ "monthly"}}}</option>
-                <option value="€2k+ monthly">2k+ {{{__ "monthly"}}}</option>
-            </select>
-        </div>
-    </div>
+                                <option value="One time SEO Check Audit">{{{__ "onetime"}}} SEO Audit</option>
+                                <option value="SEO Check Audit and Monthly Follow-up">SEO Audit & Monthly Follow-up</option>
+                                <option value="Backlink Campaign">Backlinks</option>
+                                <option value="SEA">SEA</option>
+                                <option value="Scrum">Scrum</option>
+                            </select>
+                        </div>
+                    </div>
 
-    <div class="field send">
-        <div class="control">
-            <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
-        </div>
-    </div>
+                    <div id="address" class="field message" style="display: none">
+                        <label>"control"</label>
+                        <div class="address">
+                            <textarea class="textarea" name="address" rows="6"></textarea>
+                        </div>
+                    </div>
 
 
-</form>
+
+                    <div class="field message">
+                        <label>{{{__ "budgetrange"}}}</label>
+
+                        <div name="budget">
+
+                            <select id="budget" name="budget" class="input2" required>
+                                <option value="" disabled selected hidden>Budget</option>
+                                <option value="One time under €1k">{{{__ "onetime"}}} {{{__ "under"}}} €1k</option>
+                                <option value="€One time €1-2k">{{{__ "onetime"}}} €1-2k</option>
+                                <option value="One time €2k+ ">{{{__ "onetime"}}} €2k+</option>
+                                <option value="Monthly under €1k">{{{__ "monthly"}}} {{{__ "under"}}} €1k</option>
+                                <option value="€1-2k monthly">€1-2k {{{__ "monthly"}}}</option>
+                                <option value="€2k+ monthly">2k+ {{{__ "monthly"}}}</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="field send">
+                        <div class="control">
+                            <button class="button is-link is-medium" type="submit" id="submit" name="submit">{{{__ "sendMessage"}}}</button>
+                        </div>
+                    </div>
+
+
+                </form><br><br><br><br>
+            </div>{{>socsharfreelancer}}
+        </div><br>
+    </div><br><br><br><br><br>
+</section>

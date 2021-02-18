@@ -1,4 +1,24 @@
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
+.is-black a {
+    color: black !important
+}
+
+.is-black a:hover {
+    color: #024073 !important
+}
+
+.justify {
+    text-align: justify !important
+}
+
+.boxcolor3.is-black a {
+    color: black !important;
+}
+
+.boxcolor3.is-black a:hover {
+    color: #024073 !important
+}
+
 .breadcrumb, .button, write comments {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -3271,7 +3291,8 @@ body.has-navbar-fixed-bottom, html.has-navbar-fixed-bottom {
     height: 3.25rem;
     position: relative;
     width: 3.25rem;
-    margin-left: auto
+    margin-left: auto;
+    margin-top: 20px;
 }
 
 .navbar-burger span {
@@ -3305,7 +3326,7 @@ body.has-navbar-fixed-bottom, html.has-navbar-fixed-bottom {
 }
 
 .navbar-burger.is-active span:nth-child(1) {
-    transform: translateY(9px) rotate(45deg);
+    transform: translateY(-10px) rotate(48deg);
     background-color: #d93a5f
 }
 
@@ -3314,7 +3335,7 @@ body.has-navbar-fixed-bottom, html.has-navbar-fixed-bottom {
 }
 
 .navbar-burger.is-active span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
+    transform: translateY(7px) rotate(-50deg);
     background-color: #d93a5f
 }
 
