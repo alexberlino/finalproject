@@ -472,7 +472,7 @@ app.get("/de/seo-relaunch", (req, res) => {
 app.get("/en/seo-copywriting", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("otherberatung/copywriting", {
-        requrl: "/de/seo-copywriting",
+        requrl: "/en/seo-copywriting",
         title: "Content Marketing Copywriting  Services | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -486,9 +486,9 @@ app.get("/en/seo-copywriting", (req, res) => {
 app.get("/de/seo-copywriting", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("otherberatung/copywriting", {
-        requrl: "/de/seo-copywriting",
+        requrl: "/en/seo-copywriting",
         title: "Content Marketing - Copywriting Beratung | SEO Berlino",
-        layout: "main",
+        layout: "mainDE",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: "https://www.seoberlino.com/de/seo-copywriting",
         alt: "/en/seo-copywriting"
@@ -499,7 +499,7 @@ app.get("/de/seo-copywriting", (req, res) => {
 app.get("/en/reporting-analytics", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("otherberatung/seoreporting", {
-        requrl: "/de/reporting-analytics",
+        requrl: "/en/reporting-analytics",
         title: "Google Analytics and Reporting  Services | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -524,7 +524,7 @@ app.get("/de/reporting-analytics", (req, res) => {
 app.get("/en/smm", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("otherberatung/smmberatung", {
-        requrl: "/de/smm",
+        requrl: "/en/smm",
         title: "Social Media Marketing Services | SEO Berlino",
         layout: "main",
         description: "Social Media Services   Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
@@ -536,11 +536,11 @@ app.get("/en/smm", (req, res) => {
 app.get("/de/smm", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("otherberatung/smmberatung", {
-        requrl: "/de/smm",
+        requrl: "/en/smm",
         layout: "mainDE",
         title: "Social Media Marketing Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/de/smm",
+        canonical: "https://www.seoberlino.com/en/smm",
         alt: "/en/smm"
     });
 });
@@ -1393,7 +1393,7 @@ app.get("/en/sea", (req, res) => {
 app.get("/en/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("otherberatung/beratungscrum", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/agile-coach-berlin",
         layout: "main",
         title: "Agile Coach Freelancer in Berlin | SEO Berlino",
         description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master and experienced as both Scrum Master and Product owner.",
@@ -1405,7 +1405,7 @@ app.get("/en/agile-coach-berlin", (req, res) => {
 app.get("/de/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("otherberatung/beratungscrum", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/agile-coach-berlin",
         layout: "mainDE",
         title: "Agile Coach / Scrum Master in Berlin | SEO Berlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
@@ -1443,7 +1443,7 @@ app.get("/de/success", (req, res) => {
 app.get("/en/seo-services/canonical", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/canonical", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/seo-services/canonical",
         layout: "main",
         title: "What is Canonical Tag and how to use it | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
@@ -1467,7 +1467,7 @@ app.get("/de/seo-optimierung/canonical", (req, res) => {
 app.get("/en/seo-services/404", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/404", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/seo-services/404",
         layout: "main",
         title: "What does 404 - Page Not Found mean| SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
@@ -1515,7 +1515,7 @@ app.get("/de/seo-optimierung/crawler", (req, res) => {
 app.get("/en/seo-services/googleanalytics", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/googleanalytics", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/seo-services/googleanalytics",
         layout: "main",
         title: "Google Analytics  | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
@@ -1539,7 +1539,7 @@ app.get("/de/seo-optimierung/googleanalytics", (req, res) => {
 app.get("/en/seo-services/googlesearchconsole", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/googlesearchconsole", {
-        requrl: "/en" + req.originalUrl.substring(3),
+        requrl: "/en/seo-services/googlesearchconsole",
         layout: "main",
         title: "Search Console | SEO Berlino",
         description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
@@ -1560,29 +1560,6 @@ app.get("/de/seo-optimierung/googlesearchconsole", (req, res) => {
     });
 });
 
-app.get("/en/seo-services/seoaudit", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("blogtech/seoaudit", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        layout: "main",
-        title: "SEO Audit | SEO Berlino",
-        description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/de/seo-optimierung/seoaudit"
-    });
-});
-
-app.get("/de/seo-optimierung/seoaudit", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("blogtech/seoaudit", {
-        requrl: "/en/seo-services/seoaudit",
-        layout: "mainDE",
-        title: "SEO Audit| SEO Berlino",
-        description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
-        canonical: "https://www.seoberlino.com" + req.originalUrl,
-        alt: "/en/seo-services/seoaudit"
-    });
-});
 
 app.get("/en/seo-services/seobudget", (req, res) => {
     i18n.setLocale(req, "en");
@@ -2028,8 +2005,6 @@ app.get("/en/seo-services/voice-search-challenges", (req, res) => {
     });
 });
 
-
-
 app.get("/en/seo-services/clutch", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogcase/blogclutch", {
@@ -2176,6 +2151,25 @@ app.get("/en/article/beyond-mobile-first", function(request, response) {
     });
     response.end();
 });
+
+
+
+app.get("/en/seo-services/seoaudit", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/en/seoaudit",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-optimierung/seoaudit", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/seoaudit",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 
 app.get("/de/on-page*", function(request, response) {
     response.writeHead(301, {
