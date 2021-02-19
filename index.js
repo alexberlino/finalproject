@@ -747,8 +747,6 @@ app.get("/en/seo-services", (req, res) => {
     });
 });
 
-
-
 app.get("/en/seo-services/metas", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/seo-onpage",
@@ -756,8 +754,6 @@ app.get("/en/seo-services/metas", function(request, response) {
     });
     response.end();
 });
-
-
 
 app.get("/de/seo-optimierung/metas", function(request, response) {
     response.writeHead(301, {
@@ -844,8 +840,6 @@ app.get("/de/seo-optimierung/javascript", (req, res) => {
     });
 });
 
-
-
 app.get("/en/seo-services/pagespeed", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/seo-page-speed",
@@ -853,7 +847,6 @@ app.get("/en/seo-services/pagespeed", function(request, response) {
     });
     response.end();
 });
-
 
 app.get("/en/seo-services/international", function(request, response) {
     response.writeHead(301, {
