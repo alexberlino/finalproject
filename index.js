@@ -144,7 +144,7 @@ var englishHP = function(req, res) {
         layout: "mainHP",
         title: "SEO Agency Germany • SEO Freelance Services | SEO Berlino",
         description: "SEO Agency - SEO Consultancy, with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "/en",
+        canonical: "https://www.seoberlino.com/en",
         alt: "/de"
     });
 };
@@ -157,7 +157,7 @@ app.get("/de", (req, res) => {
         requrl: "/en",
         layout: "mainDEHP",
         title: "SEO Beratung | SEO Agentur Berlin | SEO Berlino",
-        canonical: "/de",
+        canonical: "https://www.seoberlino.com/de",
         description: "Freelance SEO Berater mit 10 Jahre Erfahrung, Suchmaschinenoptimierung Agentur in Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: "/en"
     });
@@ -170,7 +170,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         layout: "mainDE",
         title: "SEO Freelancer Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-freelancer",
+        canonical: "https://www.seoberlino.com/de/seo-freelancer",
         alt: "/en/seo-freelancer"
     });
 });
@@ -182,7 +182,7 @@ app.get("/en/seo-freelancer", (req, res) => {
         title: "Experienced SEO Freelancer in Berlin, Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-freelancer",
+        canonical: "https://www.seoberlino.com/en/seo-freelancer",
         alt: "/de/seo-freelancer"
     });
 });
@@ -195,7 +195,7 @@ app.get("/de/seo-audit", (req, res) => {
         layout: "mainDE",
         title: "SEO Audits in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-audit",
+        canonical: "https://www.seoberlino.com/de/seo-audit",
         alt: "/en/seo-audit"
     });
 });
@@ -207,7 +207,7 @@ app.get("/en/seo-audit", (req, res) => {
         title: "SEO Audits in Berlin, Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-audit",
+        canonical: "https://www.seoberlino.com/en/seo-audit",
         alt: "/de/seo-audit"
     });
 });
@@ -220,7 +220,7 @@ app.get("/en/seo-check", (req, res) => {
         title: "SEO Check Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-check",
+        canonical: "https://www.seoberlino.com/en/seo-check",
         alt: "/de/seo-check"
     });
 });
@@ -235,7 +235,7 @@ app.get("/de/seo-check", (req, res) => {
         layout: "mainDE",
         title: "SEO Checks in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-check",
+        canonical: "https://www.seoberlino.com/de/seo-check",
         alt: "/en/seo-check"
     });
 });
@@ -249,7 +249,7 @@ app.get("/en/seo-onpage", (req, res) => {
         title: "SEO Onpage Services Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-onpage",
+        canonical: "https://www.seoberlino.com/en/seo-onpage",
         alt: "/de/seo-onpage"
     });
 });
@@ -264,7 +264,7 @@ app.get("/de/seo-onpage", (req, res) => {
         layout: "mainDE",
         title: "SEO Onpage Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-onpage",
+        canonical: "https://www.seoberlino.com/de/seo-onpage",
         alt: "/en/seo-onpage"
     });
 });
@@ -279,7 +279,7 @@ app.get("/en/seo-page-speed", (req, res) => {
         title: "SEO Page Speed Improvements | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-page-speed",
+        canonical: "https://www.seoberlino.com/en/seo-page-speed",
         alt: "/de/seo-page-speed"
     });
 });
@@ -291,7 +291,7 @@ app.get("/de/seo-page-speed", (req, res) => {
         layout: "mainDE",
         title: "SEO Page Speed Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-page-speed",
+        canonical: "https://www.seoberlino.com/de/seo-page-speed",
         alt: "/en/seo-page-speed"
     });
 });
@@ -305,7 +305,7 @@ app.get("/en/seo-indexation", (req, res) => {
         title: "SEO Indexation Services Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-indexation",
+        canonical: "https://www.seoberlino.com/en/seo-indexation",
         alt: "/de/seo-indexation"
     });
 });
@@ -320,7 +320,7 @@ app.get("/de/seo-indexation", (req, res) => {
         layout: "mainDE",
         title: "SEO Onpage Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-indexation",
+        canonical: "https://www.seoberlino.com/de/seo-indexation",
         alt: "/en/seo-indexation"
     });
 });
@@ -334,7 +334,7 @@ app.get("/en/local-seo", (req, res) => {
         title: "Local SEO Services Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/local-seo",
+        canonical: "https://www.seoberlino.com/en/local-seo",
         alt: "/de/local-seo"
     });
 });
@@ -352,7 +352,7 @@ app.get("/de/local-seo", (req, res) => {
         layout: "mainDE",
         title: "Local SEO Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/local-seo",
+        canonical: "https://www.seoberlino.com/de/local-seo",
         alt: "/en/local-seo"
     });
 });
@@ -367,7 +367,7 @@ app.get("/en/seo-wordpress", (req, res) => {
         title: "SEO Services for Wordpress and Wix Users | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-wordpress",
+        canonical: "https://www.seoberlino.com/en/seo-wordpress",
         alt: "/de/seo-wordpress"
     });
 });
@@ -381,7 +381,7 @@ app.get("/de/seo-wordpress", (req, res) => {
         layout: "mainDE",
         title: "SEO Beratung für Wordpress in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-wordpress",
+        canonical: "https://www.seoberlino.com/de/seo-wordpress",
         alt: "/en/seo-wordpress"
     });
 });
@@ -395,7 +395,7 @@ app.get("/en/backlinks", (req, res) => {
         title: "Backlinks Analysis and Strategie| SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/backlinks",
+        canonical: "https://www.seoberlino.com/en/backlinks",
         alt: "/de/backlinks"
     });
 });
@@ -409,7 +409,7 @@ app.get("/de/backlinks", (req, res) => {
         layout: "mainDE",
         title: "Backlinks Analyse und Strategie | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/backlinks",
+        canonical: "https://www.seoberlino.com/de/backlinks",
         alt: "/en/backlinks"
     });
 });
@@ -423,7 +423,7 @@ app.get("/en/keyword-research", (req, res) => {
         title: "Keyword Research • Keyword Mapping | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/keyword-research",
+        canonical: "https://www.seoberlino.com/en/keyword-research",
         alt: "/de/keyword-research"
     });
 });
@@ -437,7 +437,7 @@ app.get("/de/keyword-research", (req, res) => {
         layout: "mainDE",
         title: "Keyword Recherche • Keyword Mapping | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/keyword-research",
+        canonical: "https://www.seoberlino.com/de/keyword-research",
         alt: "/en/keyword-research"
     });
 });
@@ -450,7 +450,7 @@ app.get("/en/seo-relaunch", (req, res) => {
         title: "SEO Support for Site Relaunch | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-relaunch",
+        canonical: "https://www.seoberlino.com/en/seo-relaunch",
         alt: "/de/seo-relaunch"
     });
 });
@@ -464,7 +464,7 @@ app.get("/de/seo-relaunch", (req, res) => {
         layout: "mainDE",
         title: "SEO Beratung für Site Relaunch in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-relaunch",
+        canonical: "https://www.seoberlino.com/de/seo-relaunch",
         alt: "/en/seo-relaunch"
     });
 });
@@ -476,7 +476,7 @@ app.get("/en/seo-copywriting", (req, res) => {
         title: "Content Marketing Copywriting  Services | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-copywriting",
+        canonical: "https://www.seoberlino.com/en/seo-copywriting",
         alt: "/de/seo-copywriting"
     });
 });
@@ -490,7 +490,7 @@ app.get("/de/seo-copywriting", (req, res) => {
         title: "Content Marketing - Copywriting Beratung | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/de/seo-copywriting",
+        canonical: "https://www.seoberlino.com/de/seo-copywriting",
         alt: "/en/seo-copywriting"
     });
 });
@@ -503,7 +503,7 @@ app.get("/en/reporting-analytics", (req, res) => {
         title: "Google Analytics and Reporting  Services | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/reporting-analytics",
+        canonical: "https://www.seoberlino.com/en/reporting-analytics",
         alt: "/de/reporting-analytics"
     });
 });
@@ -515,7 +515,7 @@ app.get("/de/reporting-analytics", (req, res) => {
         layout: "mainDE",
         title: "Reporting and Google Analytics Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/reporting-analytics",
+        canonical: "https://www.seoberlino.com/de/reporting-analytics",
         alt: "/en/reporting-analytics"
     });
 });
@@ -528,7 +528,7 @@ app.get("/en/smm", (req, res) => {
         title: "Social Media Marketing Services | SEO Berlino",
         layout: "main",
         description: "Social Media Services   Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/smm",
+        canonical: "https://www.seoberlino.com/en/smm",
         alt: "/de/smm"
     });
 });
@@ -540,7 +540,7 @@ app.get("/de/smm", (req, res) => {
         layout: "mainDE",
         title: "Social Media Marketing Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/smm",
+        canonical: "https://www.seoberlino.com/de/smm",
         alt: "/en/smm"
     });
 });
@@ -552,7 +552,7 @@ app.get("/en/competitor-analysis", (req, res) => {
         title: "Competitor Analysis for Online Marketing | SEO Berlino",
         layout: "main",
         description: "Social Media Services   Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/competitor-analysis",
+        canonical: "https://www.seoberlino.com/en/competitor-analysis",
         alt: "/de/competitor-analysis"
     });
 });
@@ -566,7 +566,7 @@ app.get("/de/competitor-analysis", (req, res) => {
         layout: "mainDE",
         title: "Wettbewerberanalyse Online Marketing | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/competitor-analysis",
+        canonical: "https://www.seoberlino.com/de/competitor-analysis",
         alt: "/en/competitor-analysis"
     });
 });
@@ -578,7 +578,7 @@ app.get("/de/seo-pricing", (req, res) => {
         layout: "mainDE",
         title: "SEO Budget • Suchmaschinenoptimierung bei SEO Berlino",
         description: "SEO Freelancer und Analytics Consultant: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-pricing",
+        canonical: "https://www.seoberlino.com/de/seo-pricing",
         alt: "/en/seo-pricing"
     });
 });
@@ -590,7 +590,7 @@ app.get("/en/seo-pricing", (req, res) => {
         title: "SEO Cost and Budget • SEO Consultant in Germany | SEO Berlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "/en/seo-pricing",
+        canonical: "https://www.seoberlino.com/en/seo-pricing",
         alt: "/de/seo-pricing"
     });
 });
@@ -604,7 +604,7 @@ app.get("/de/google-ranking-verbessern", (req, res) => {
         layout: "mainDE",
         title: "Verbesserung Ihrer Google-Rankings | SEO Berlino | SEO Berlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/google-ranking-verbessern",
+        canonical: "https://www.seoberlino.com/de/google-ranking-verbessern",
         alt: "/en/google-ranking"
     });
 });
@@ -616,7 +616,7 @@ app.get("/en/google-ranking", (req, res) => {
         title: "How to improve your Google Rankings | SEO Berlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "/en/google-ranking",
+        canonical: "https://www.seoberlino.com/en/google-ranking",
         alt: "/de/google-ranking-verbessern"
     });
 });
@@ -630,7 +630,7 @@ app.get("/de/produktbeschreibung", (req, res) => {
         layout: "mainDE",
         title: "Produktbeschreibung | SEO Berlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/produktbeschreibung",
+        canonical: "https://www.seoberlino.com/de/produktbeschreibung",
         alt: "/en/product-description"
     });
 });
@@ -642,7 +642,7 @@ app.get("/en/product-description", (req, res) => {
         title: "Product Description| SEO Berlino",
         layout: "main",
         description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "/en/product-description",
+        canonical: "https://www.seoberlino.com/en/product-description",
         alt: "/de/produktbeschreibung"
     });
 });
@@ -656,7 +656,7 @@ app.get("/en/seo-consultancy", function(req, res) {
         title: "SEO Consultancy in Berlin Germany | SEO Berlino",
         layout: "main",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: "/en/seo-consultancy",
+        canonical: "https://www.seoberlino.com/en/seo-consultancy",
         alt: "/de/seo-beratung"
     });
 });
@@ -669,7 +669,7 @@ app.get("/de/seo-beratung", function(req, res) {
         layout: "mainDE",
         title: "SEO Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/de/seo-beratung",
+        canonical: "https://www.seoberlino.com/de/seo-beratung",
         alt: "/en/seo-consultancy"
     });
 });
@@ -683,7 +683,7 @@ app.get("/en/seo-services/berlin", (req, res) => {
         layout: "mainNoAlt",
         title: "SEO in Berlin, the place to be | SEO Berlino",
         description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/en/seo-services/berlin"
+        canonical: "https://www.seoberlino.com/en/seo-services/berlin"
     });
 });
 
@@ -694,7 +694,7 @@ app.get("/en/jobs", (req, res) => {
         layout: "main",
         title: "SEO Consultants Jobs in Berlin, Germany | SEO Berlino",
         description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "/en/jobs",
+        canonical: "https://www.seoberlino.com/en/jobs",
         alt: "/de/jobs"
     });
 });
@@ -706,7 +706,7 @@ app.get("/de/jobs", (req, res) => {
         layout: "mainDE",
         title: "SEO Consultants Jobs in Berlin | SEO Berlino",
         description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "/de/jobs",
+        canonical: "https://www.seoberlino.com/de/jobs",
         alt: "/en/jobs"
     });
 });
@@ -718,7 +718,7 @@ app.get("/en/references", (req, res) => {
         layout: "main",
         title: "Clients References, SEO Consultant Berlin | SEO Berlino",
         description: "SEO Consulant in Berlin • SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "/en/references",
+        canonical: "https://www.seoberlino.com/en/references",
         alt: "/de/references"
     });
 });
@@ -730,7 +730,7 @@ app.get("/de/references", (req, res) => {
         layout: "mainDE",
         title: "Kundenbewertungen, SEO Berater Berlin | SEO Berlino",
         description: "SEO Consulant in Berlin • SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "/de/references",
+        canonical: "https://www.seoberlino.com/de/references",
         alt: "/en/references"
     });
 });
@@ -742,7 +742,7 @@ app.get("/en/seo-services", (req, res) => {
         layout: "main",
         title: "SEO Services – Search Engine Optimization | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services",
+        canonical: "https://www.seoberlino.com/en/seo-services",
         alt: "/de/seo-optimierung"
     });
 });
@@ -773,7 +773,7 @@ app.get("/en/seo-services/https", (req, res) => {
         layout: "main",
         title: "What https means for SEO | SEO Services | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/https",
+        canonical: "https://www.seoberlino.com/en/seo-services/https",
         alt: "/de/seo-optimierung/https"
     });
 });
@@ -785,7 +785,7 @@ app.get("/de/seo-optimierung/https", (req, res) => {
         layout: "mainDE",
         title: "Was macht https für SEO? | Von http zu https | SEO Berlino",
         description: "Website optimieren, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/de/seo-optimierung/https",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/https",
         alt: "/en/seo-services/https"
     });
 });
@@ -799,7 +799,7 @@ app.get("/en/seo-services/mobile", (req, res) => {
         layout: "main",
         title: "Importance of a Mobile Friendly Website  | Website optimization",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/mobile",
+        canonical: "https://www.seoberlino.com/en/seo-services/mobile",
         alt: "/de/seo-optimierung/mobile"
     });
 });
@@ -811,7 +811,7 @@ app.get("/de/seo-optimierung/mobile", (req, res) => {
         layout: "mainDE",
         title: " Mobile-Friendly Website | SEO Optimierung | SEO Berlino",
         description: "Website optimieren, SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/de/seo-optimierung/mobile",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/mobile",
         alt: "/en/seo-services/mobile"
     });
 });
@@ -823,7 +823,7 @@ app.get("/en/seo-services/javascript", (req, res) => {
         layout: "main",
         title: "How Javascript affects SEO | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/javascript",
+        canonical: "https://www.seoberlino.com/en/seo-services/javascript",
         alt: "/de/seo-optimierung/javascript"
     });
 });
@@ -835,7 +835,7 @@ app.get("/de/seo-optimierung/javascript", (req, res) => {
         layout: "mainDE",
         title: "Wie Javascript SEO beeinflusst | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/de/seo-optimierung/javascript",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/javascript",
         alt: "/en/seo-services/javascript"
     });
 });
@@ -915,7 +915,7 @@ app.get("/en/seo-services/structured-data", (req, res) => {
         layout: "main",
         title: "Structured Data for SEO | SEO Services | SEO Berlino",
         description: "Structured Data and Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/structured-data",
+        canonical: "https://www.seoberlino.com/en/seo-services/structured-data",
         alt: "/de/seo-optimierung/structured-data"
     });
 });
@@ -927,7 +927,7 @@ app.get("/de/seo-optimierung/structured-data", (req, res) => {
         layout: "mainDE",
         title: "Strukturierte Daten für SEO | SEO Berlino",
         description: "Structured Data für SEO",
-        canonical: "/de/seo-optimierung/structured-data",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/structured-data",
         alt: "/en/seo-services/structured-data"
     });
 });
@@ -939,7 +939,7 @@ app.get("/en/seo-services/internal-linking", (req, res) => {
         layout: "main",
         title: "What is Internal Linking and why it is important | SEO Berlino",
         description: "Internal Linking and Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/internal-linking",
+        canonical: "https://www.seoberlino.com/en/seo-services/internal-linking",
         alt: "/de/seo-optimierung/interne-verlinkung"
     });
 });
@@ -951,7 +951,7 @@ app.get("/de/seo-optimierung/interne-verlinkung", (req, res) => {
         layout: "mainDE",
         title: "Bedeutung von Interner Verlinkung | SEO Berlino",
         description: "Interne Verlinking.",
-        canonical: "/de/seo-optimierung/interne-verlinkung",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/interne-verlinkung",
         alt: "/en/seo-services/internal-linking"
     });
 });
@@ -965,7 +965,7 @@ app.get("/en/seo-services/voice-search", (req, res) => {
         layout: "main",
         title: "What is Voice Search for SEO | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/voice-search",
+        canonical: "https://www.seoberlino.com/en/seo-services/voice-search",
         alt: "/de/seo-optimierung/sprachsuche"
     });
 });
@@ -977,7 +977,7 @@ app.get("/de/seo-optimierung/sprachsuche", (req, res) => {
         layout: "mainDE",
         title: "Was ist Sprachsuche? | SEO Berlino",
         description: "Sprachsuche und SEO.",
-        canonical: "/de/seo-optimierung/sprachsuche",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/sprachsuche",
         alt: "/en/seo-services/voice-search"
     });
 });
@@ -1052,7 +1052,7 @@ app.get("/de/seo-optimierung/seo-case-studies", (req, res) => {
         layout: "mainNoAlt",
         title: "SEO Case Studies | SEO Optimierung | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/seo-case-studies"
+        canonical: "https://www.seoberlino.com/en/seo-services/seo-case-studies"
     });
 });
 
@@ -1063,7 +1063,7 @@ app.get("/en/seo-services/seo-case-studies", (req, res) => {
         layout: "mainNoAlt",
         title: "SEO Case Studies | SEO Services | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/seo-case-studies"
+        canonical: "https://www.seoberlino.com/en/seo-services/seo-case-studies"
     });
 });
 
@@ -1095,7 +1095,7 @@ app.get("/en/seo-services/technical-seo", (req, res) => {
         layout: "main",
         title: "What is Technical SEO? | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/en/seo-services/technical-seo",
+        canonical: "https://www.seoberlino.com/en/seo-services/technical-seo",
         alt: "/de/seo-optimierung/technical-seo"
     });
 });
@@ -1107,7 +1107,7 @@ app.get("/de/seo-optimierung/technical-seo", (req, res) => {
         layout: "mainDE",
         title: "Was ist Technical SEO (Technisches SEO) ? | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/de/seo-optimierung/technical-seo",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung/technical-seo",
         alt: "/en/seo-services/technical-seo"
     });
 });
@@ -1119,7 +1119,7 @@ app.get("/de/seo-optimierung", (req, res) => {
         layout: "mainDE",
         title: "Was ist SEO 'Optimierung' - Optimierung für Suchmaschinen | SEO Berlino",
         description: "Optimierung für Suchmaschinen, SEO Optimierung, SEO Experte in Berlin. SEO und Webanalyse Blog.",
-        canonical: "/de/seo-optimierung",
+        canonical: "https://www.seoberlino.com/de/seo-optimierung",
         alt: "/en/seo-services"
     });
 });
@@ -1131,7 +1131,7 @@ app.get("/de/contact", (req, res) => {
         layout: "mainDE",
         title: "SEO Berlino Kontakt | SEO Berater in Berlin",
         description: "SEO Consultant in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
-        canonical: "/de/contact",
+        canonical: "https://www.seoberlino.com/de/contact",
         alt: "/en/contact"
     });
 });
@@ -1155,7 +1155,7 @@ app.get("/de/seo-experte", (req, res) => {
         layout: "mainDE",
         title: "SEO Experte • Beratung in Berlin | SEO Berlino",
         description: "SEO Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
-        canonical: "/de/seo-experte",
+        canonical: "https://www.seoberlino.com/de/seo-experte",
         alt: "/en/seo-expert"
     });
 });
@@ -1337,7 +1337,7 @@ app.get("/en/impressum", (req, res) => {
         layout: "mainNoAltNoIndex",
         title: "Impressum | SEO Berlino",
         description: "SEO Berlino Impressum. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
-        canonical: "/de/impressum",
+        canonical: "https://www.seoberlino.com/de/impressum",
         alt: "/de/impressum"
     });
 });
@@ -1349,7 +1349,7 @@ app.get("/de/impressum", (req, res) => {
         layout: "mainNoAltNoIndex",
         title: "Impressum | SEO Berlino",
         description: "SEO Spezialist in Berlin. Impressum für SEO Berater, Experte in Webanalyse, SEA und SEO.",
-        canonical: "/de/impressum",
+        canonical: "https://www.seoberlino.com/de/impressum",
         alt: "/en/impressum"
     });
 });
@@ -1361,7 +1361,7 @@ app.get("/de/datenschutz", (req, res) => {
         layout: "mainNoAltNoIndex",
         title: "Datenschutz | SEO Berlino",
         description: "SEO Berlino Datenschuzt. Audits können im Umfang je nach Bedarf und Reife der Webseite variieren .",
-        canonical: "/de/datenschutz",
+        canonical: "https://www.seoberlino.com/de/datenschutz",
         alt: "/de/datenschutz"
     });
 });
@@ -1409,7 +1409,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
         layout: "mainDE",
         title: "Agile Coach / Scrum Master in Berlin | SEO Berlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
-        canonical: "/en/agile-coach-berlin",
+        canonical: "https://www.seoberlino.com/en/agile-coach-berlin",
         alt: "/en/agile-coach-berlin"
     });
 });
@@ -2059,7 +2059,7 @@ app.get("/en/seo-services/beyond-mobile-first", (req, res) => {
         layout: "mainNoAlt",
         title: "SEO Beyond Mobile First | SEO Blog | SEO Berlino",
         description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop.",
-        canonical: "/en/seo-services/beyond-mobile-first"
+        canonical: "https://www.seoberlino.com/en/seo-services/beyond-mobile-first"
     });
 });
 
