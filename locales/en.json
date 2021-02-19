@@ -21,7 +21,6 @@
   "seoAgentur": "SEO Berlino specialises in the search engine optimization of your internet presence. We help you to be ranked at the top of the search results on Google. With our help, you can increase your visitor and customer numbers, image and therefore your sales. With our first-class know-how and the most modern technologies, we, as a successful SEO agency, promote your internet presence. We are experts in search engine optimization and improve your ranking on Google through the implementation of targeted SEO measures.\n<br><br>You will receive an individual complete SEO package from us. With our help you not only increase your visitor and customer numbers, but also your visibility on the internet. Both ultimately lead to increasing sales. Would you also like to be found on the Internet faster in the future? - Then contact us! Our SEO agency is happy to support your website with professional SEO marketing to increase your success.",
   "whyneedSEO": "Why do you need SEO",
   "needSEO": "94% of Germans use a search engine for Internet research. So you should be present with your website in search engines so that users will notice you. Good rankings are crucial: Studies have shown that over 80% of Internet users only look at the first 3 organic results on Google. and more than 95% of Google users only pay attention to the first 10 positions. Search engine optimization is the most efficient and cheapest way to get new customers on the Internet.\n<br><br>We at SEO Berlino position selected search terms at the top of search services such as Google. With the help of our service, potential customers are much more likely to notice you and you will generate more sales. With new customers on the Internet, your company will grow in a stable, sustainable and controlled manner. With the help of our service, you will come first on Google. and stay there in the long term. With our measures in the area of search engine optimization you will get more visitors, more customers and consequently more sales. In short: more customers and more sales! The term SEO refers to a technical process that helps you to achieve a sustainable improvement in search results.",
-  "SEOServicesHP": "",
   "404MP": "A 404 Error - Page not found shows when the page requested does not exist. 404 pages are usually quite straightforward but some companies show a creative 404 error page. The most important is to let the user and Google know about it while helping the user to find his way fast. For example here for Zalando:  ",
   "404MP2": "In order to avoid such pages:",
   "404MP3": "You would need to render a catch-all page for pages not yet covered. For example in Node.js:",
@@ -256,7 +255,7 @@
   "technicalHP5U": "Mobile Friendly",
   "technicalHP6U": "Javascript",
   "technicalHP7U": "Https",
-  "HPAudit": "We offer full Audits that cover all aspects of SEO and will help you set a raodmap for SEO Growth; a backlog is included with the audit.",
+  "HPAudit": "We offer full Audits that cover all aspects of SEO and will help you set a roadmap for SEO Growth; a backlog is included with the audit.",
   "HPKW": "If you are not targeting the right \n<a href=/en/seo-services/keyword-research>keywords</a>, or missing out on the most important ones, you will struggle to get the best traffic for your site.",
   "HPOnpageTech": "On-page SEO Check refers to meta & image optimization, keyword mapping, and content analysis. A Keyword Research is needed beforehand.",
   "HPLinkBuilding": "Quality backlinks are for Google votes of confidence from one website to another. The more (quality) backlinks you get, the more your website is seen as popular, and the best your website will be rated.",
@@ -608,5 +607,6 @@
   "voicesearchurl": "voicesearchurl",
   "contactL": "contactL",
   "***": "***",
-  "keywordresearchKeyword": "keywordresearchKeyword"
+  "keywordresearchKeyword": "keywordresearchKeyword",
+  "SEOServicesHP": "SEOServicesHP"
 }
