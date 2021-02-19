@@ -540,7 +540,7 @@ app.get("/de/smm", (req, res) => {
         layout: "mainDE",
         title: "Social Media Marketing Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "/en/smm",
+        canonical: "/de/smm",
         alt: "/en/smm"
     });
 });
@@ -1397,7 +1397,7 @@ app.get("/en/agile-coach-berlin", (req, res) => {
         layout: "main",
         title: "Agile Coach Freelancer in Berlin | SEO Berlino",
         description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master and experienced as both Scrum Master and Product owner.",
-        canonical: "en/agile-coach-berlin,
+        canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/agile-coach-berlin"
     });
 });
@@ -1409,7 +1409,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
         layout: "mainDE",
         title: "Agile Coach / Scrum Master in Berlin | SEO Berlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
-        canonical: "/en/agile-coach-berlin",
+        canonical: "/de/agile-coach-berlin",
         alt: "/en/agile-coach-berlin"
     });
 });
