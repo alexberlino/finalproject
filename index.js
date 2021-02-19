@@ -675,6 +675,30 @@ app.get("/de/seo-beratung", function(req, res) {
 });
 
 
+app.get("/en/online-marketing", function(req, res) {
+    i18n.setLocale(req, "en");
+    res.render("otherberatung/onlinemarketing", {
+        requrl: "/en/online-marketing",
+        title: "Online Marketing Consultancy Berlin | SEO Berlino",
+        layout: "main",
+        description: "Online Marketing Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        canonical: "https://www.seoberlino.com/en/online-marketing",
+        alt: "/de/online-marketing"
+    });
+});
+
+
+app.get("/de/online-marketing", function(req, res) {
+    i18n.setLocale(req, "de");
+    res.render("otherberatung/onlinemarketing", {
+        requrl: "/en/online-marketing",
+        layout: "mainDE",
+        title: "Online Marketing Beratung in Berlin | SEO Berlino",
+        description: "Online Marketing und Analytics Berater: SEA, SMM, Analytics und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        canonical: "https://www.seoberlino.com/de/online-marketing",
+        alt: "/en/online-marketing"
+    });
+});
 
 app.get("/en/seo-services/berlin", (req, res) => {
     i18n.setLocale(req, "en");
