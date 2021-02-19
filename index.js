@@ -1409,7 +1409,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
         layout: "mainDE",
         title: "Agile Coach / Scrum Master in Berlin | SEO Berlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
-        canonical: "/de/agile-coach-berlin",
+        canonical: "/en/agile-coach-berlin",
         alt: "/en/agile-coach-berlin"
     });
 });
