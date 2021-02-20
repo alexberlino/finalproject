@@ -513,7 +513,7 @@ app.get("/de/reporting-analytics", (req, res) => {
     res.render("otherberatung/seoreporting", {
         requrl: "/en/reporting-analytics",
         layout: "mainDE",
-        title: "Reporting and Google Analytics Beratung in Berlin | SEO Berlino",
+        title: "Reporting und Google Analytics Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/reporting-analytics",
         alt: "/en/reporting-analytics"
