@@ -270,7 +270,9 @@
 	"servicesh1": "SEO Beratung",
 	"onlinemarketingservices": "Online Marketing",
 	"bloglatest": "Neueste Beiträge",
+	"CheckAnalyse": "SEO Check / Analyse",
 	"services": "Beratung",
+	"ReviewMontblanc": "Die Zusammenarbeit mit Alex war vom ersten Tag an reibungslos. Er ist nicht nur ein toller Mensch, sondern auch ein hochqualifizierter SEO-Profi, der die spezifischen Bedürfnisse des Unternehmens versteht. Wir haben zusammen an vielen verschiedenen Projekten gearbeitet (Meta-Tag-Optimierung, interne Verlinkung, Website-Architektur, etc.) und seine Vorschläge waren immer auf den Punkt. All sein Feedback wurde umgehend umgesetzt, was zu einer beeindruckenden Steigerung der Traffic-Qualität (CTR, Bounce Rate, Conversion Rate) führte. Alex ist sehr effektiv und ergebnisorientiert und ich kann ihn für alles, was mit SEO zu tun hat, empfehlen.",
 	"onpageSEO1": "Wichtiger erster Schritt: Bei der \n<a href=/de/seo-optimierung/keyword-research>Keyword-Recherche</a> wird ermittelt, wie Ihre Zielnutzer nach Ihrem Produkt oder Ihrer Dienstleistung suchen.",
 	"onpageSEO2": "Dies muss vor Beginn der Arbeit auf der Seite geschehen. Competitor Analysis hilft, die Recherche zu erweitern und sicherzustellen, dass kein \n<a href=/de/seo-optimierung/keyword-research>wichtiges Keyword</a> ausgelassen wird. Obwohl Google seit Hummingbird eher semantisch vorgegangen ist, um den Inhalt der Website zu bewerten, und sich auf die Sprachsuche und Entitäten konzentriert hat, ist die Kenntnis Ihrer wichtigen Keywords bei der Strukturierung von Inhalten und Metadaten immer noch wichtig. Alex Bieth wird dann eine Überprüfung Ihrer Website vornehmen, um den Inhalt für jede wichtige Zielseite, Website-Struktur, Metadaten und Bilder zu überprüfen. Weitere wichtige Überprüfungen betreffen die strukturierte Datenimplementierung und andere technische Aspekte.",
 	"offpage_main": "Backlinks gelten bei Google als Vertrauensbeweis zwischen verschiedenen Websites. Je mehr (Qualitäts-) Backlinks Sie erhalten, desto häufiger erscheint Ihre Website in den Suchergebnissen. Bereits seit über 20 Jahren sind Backlinks elementar für den SEO-Erfolg und bestimmen noch immer das Ansehen (Reputation) und die Beliebtheit Ihrer Marke im Internet. Allerdings funktionieren \n<a href=/de/seo-optimierung/backlinks>Backlinks</a> inzwischen ganz anders als vor 20 Jahren. Heutzutage kommt es vor allem auf Qualität und Relevanz der Rückverweise an. Es ist daher entscheidend zu verstehen, an welchem Punkt Sie aktuell sind und dann Ihre Backlink-Maßnahmen zu planen, auszuführen und zu steuern.",
@@ -602,6 +604,5 @@
 	"keywordresearchKeyword": "keywordresearchKeyword",
 	"SEOServicesHP": "SEOServicesHP",
 	"linkexplorer": "linkexplorer",
-	"translation": "translation",
 	"": ""
 }

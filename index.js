@@ -142,7 +142,7 @@ var englishHP = function(req, res) {
     res.render("home", {
         requrl: "/en",
         layout: "mainHP",
-        title: "SEO Agency Germany • SEO Freelance Services | SEO Berlino",
+        title: "SEO Agency in Germany • SEO Consultancy | SEO Berlino",
         description: "SEO Agency - SEO Consultancy, with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: "https://www.seoberlino.com/en",
         alt: "/de"
@@ -233,7 +233,7 @@ app.get("/de/seo-check", (req, res) => {
     res.render("seoberatung/seocheck", {
         requrl: "/de/seo-check",
         layout: "mainDE",
-        title: "SEO Checks in Berlin | SEO Berlino",
+        title: "SEO Check & SEO Analyse in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/de/seo-check",
         alt: "/en/seo-check"
@@ -526,7 +526,7 @@ app.get("/en/smm", (req, res) => {
     res.render("otherberatung/smmberatung", {
         requrl: "/en/smm",
         title: "Social Media Marketing Services | SEO Berlino",
-        layout: "main",
+        layout: "mainNoAlt",
         description: "Social Media Services   Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: "https://www.seoberlino.com/en/smm",
         alt: "/de/smm"
@@ -537,7 +537,7 @@ app.get("/de/smm", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("otherberatung/smmberatung", {
         requrl: "/en/smm",
-        layout: "mainDE",
+        layout: "mainNoAltDE",
         title: "Social Media Marketing Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: "https://www.seoberlino.com/en/smm",
@@ -1418,7 +1418,7 @@ app.get("/en/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("otherberatung/beratungscrum", {
         requrl: "/en/agile-coach-berlin",
-        layout: "main",
+        layout: "mainNoAlt",
         title: "Agile Coach Freelancer in Berlin | SEO Berlino",
         description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master and experienced as both Scrum Master and Product owner.",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
@@ -1430,7 +1430,7 @@ app.get("/de/agile-coach-berlin", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("otherberatung/beratungscrum", {
         requrl: "/en/agile-coach-berlin",
-        layout: "mainDE",
+        layout: "mainNoAltDE",
         title: "Agile Coach / Scrum Master in Berlin | SEO Berlino",
         description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
         canonical: "https://www.seoberlino.com/en/agile-coach-berlin",
