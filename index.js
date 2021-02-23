@@ -949,7 +949,7 @@ app.get("/de/seo-optimierung", (req, res) => {
         requrl: "/en/seo-services",
         layout: "mainDE",
         title: "Was ist SEO 'Optimierung' - Optimierung für Suchmaschinen | SEO Berlino",
-        description: "Optimierung für Suchmaschinen, SEO Optimierung, SEO Experte in Berlin. SEO und Webanalyse Blog.",
+        description: "Optimierung für Suchmaschinen, SEO Optimierung, SEO Betreuung in Berlin. SEO und Webanalyse Blog.",
         canonical: "https://www.seoberlino.com/de/seo-optimierung",
         alt: "/en/seo-services"
     });
@@ -961,7 +961,7 @@ app.get("/de/contact", (req, res) => {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
         title: "SEO Berlino Kontakt | SEO Berater in Berlin",
-        description: "SEO Consultant in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
+        description: "SEO Berater in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/contact",
         alt: "/en/contact"
     });
@@ -984,8 +984,8 @@ app.get("/de/seo-experte", (req, res) => {
     res.render("expert", {
         requrl: "/en/seo-expert",
         layout: "mainDE",
-        title: "SEO Experte • Beratung in Berlin | SEO Berlino",
-        description: "SEO Experte in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
+        title: "SEO Berater und Experte • Consultant in Berlin | SEO Berlino",
+        description: "SEO Berater in Berlin, 10 Jahre Erfahrung, Experte SEO und Webanalyse. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/seo-experte",
         alt: "/en/seo-expert"
     });
@@ -1888,7 +1888,7 @@ app.get("/en/seo-services/site-migration-seo-checklist", (req, res) => {
 
 var nodemailer = require("nodemailer");
 
-app.post("/email", function(req, res) {
+app.post("/en/email", function(req, res) {
 
     if (req.body.address
         .length != 0) {
@@ -1942,6 +1942,63 @@ app.post("/email", function(req, res) {
         });
     }
 });
+
+
+app.post("/de/email", function(req, res) {
+
+    if (req.body.address
+        .length != 0) {
+
+        console.log("failed");
+    } else {
+
+        nodemailer.createTestAccount((error, account) => {
+            const htmlEmail = `
+                    <h3> Contact Details </h3>
+                    <ul>
+                        <li>Name: ${req.body.name}</li>
+                        <li>Email: ${req.body.email}</li>
+                        <li>Website: ${req.body.website}</li>
+                        <li>Beratung: ${req.body.beratung}</li>
+                        <li>Consultancy: ${req.body.budget}</li>
+                    </ul>
+                    <h3>Message</h3>
+                    <p>${req.body.message}</p>
+                    `;
+            let transporter = nodemailer.createTransport({
+                host: "smtp.mailgun.org",
+                port: 465,
+                secure: true,
+                auth: {
+                    user: secrets.EMAIL_USER,
+                    pass: secrets.EMAIL_PASS
+                }
+            });
+            let mailOptions = {
+                from: secrets.EMAIL_USER,
+                to: secrets.MAIL_TO,
+                subject: "New Message from your website",
+                text: req.body.message,
+                html: htmlEmail
+            }; //closemailoptions
+            transporter.sendMail(mailOptions, (error, info) => {
+                if (error) {
+                    console.log("error sending mail", error);
+                    res.writeHead(301, {
+                        Location: "https://www.seoberlino.com/error"
+                    });
+                    res.end();
+                } else {
+                    res.writeHead(301, {
+                        Location: "https://www.seoberlino.com/de/success"
+                    });
+                    res.end();
+                }
+            });
+        });
+    }
+});
+
 
 //////////////// Redirects////////////////
 app.get("/en/article/beyond-mobile-first", function(request, response) {
@@ -2043,7 +2100,7 @@ app.get("/de/seo-optimierung/seoaudit", function(request, response) {
 
 app.get("/de/on-page*", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seo-optimierung/onpage-seo",
+        Location: "https://www.seoberlino.com/de/seo-onpage",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2090,14 +2147,14 @@ app.get("/de/lexical*", function(request, response) {
 
 app.get("/de/audit", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de",
+        Location: "https://www.seoberlino.com/de/seo-audit",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 app.get("/en/audit", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seo-freelancer",
+        Location: "https://www.seoberlino.com/en/seo-audit",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2227,17 +2284,10 @@ app.get("/de/consultant", function(request, response) {
     response.end();
 });
 
-app.get("/en/seo-consultancy", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seo-freelancer",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
 app.get("/de/onpage/keyword-recherche", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seo-services/keyword-research",
+        Location: "https://www.seoberlino.com/en/keyword-research",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2245,7 +2295,7 @@ app.get("/de/onpage/keyword-recherche", function(request, response) {
 
 app.get("/en/onpage/keyword-research", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seo-services/keyword-research",
+        Location: "https://www.seoberlino.com/en/keyword-research",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2285,7 +2335,7 @@ app.get("/de/blog/technical-seo", function(request, response) {
 
 app.get("/de/blog/onpage-seo", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seo-optimierung/onpage-seo",
+        Location: "https://www.seoberlino.com/de/seo-onpage",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2293,7 +2343,7 @@ app.get("/de/blog/onpage-seo", function(request, response) {
 
 app.get("/de/offpage*", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seo-optimierung/backlinks",
+        Location: "https://www.seoberlino.com/de/backlinks",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2301,7 +2351,7 @@ app.get("/de/offpage*", function(request, response) {
 
 app.get("/en/offpage*", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seo-services/backlinks",
+        Location: "https://www.seoberlino.com/en/backlinks",
         Expires: new Date().toGMTString()
     });
     response.end();
