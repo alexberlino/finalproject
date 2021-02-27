@@ -596,33 +596,6 @@ app.get("/en/google-ranking", (req, res) => {
 });
 
 
-
-app.get("/de/produktbeschreibung", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("blogonpage/product-description", {
-        requrl: "/en/google-ranking",
-        layout: "mainDE",
-        title: "Produktbeschreibung | SEO Berlino",
-        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: "https://www.seoberlino.com/de/produktbeschreibung",
-        alt: "/en/product-description"
-    });
-});
-
-app.get("/en/product-description", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("blogonpage/product-description", {
-        requrl: "/en" + req.originalUrl.substring(3),
-        title: "Product Description| SEO Berlino",
-        layout: "main",
-        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: "https://www.seoberlino.com/en/product-description",
-        alt: "/de/produktbeschreibung"
-    });
-});
-
-
-
 app.get("/en/seo-consultancy", function(req, res) {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoberatung", {
@@ -972,7 +945,7 @@ app.get("/en/contact", (req, res) => {
     res.render("contact", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "Get in Touch | SEO Consultant in Berlin | SEO Berlino",
+        title: "SEO Consultant in Berlin | Get in Touch | SEO Berlino",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/contact"
@@ -1948,8 +1921,7 @@ app.post("/de/email", function(req, res) {
 
     if (req.body.address
         .length != 0) {
-
-        console.log("failed");
+        res.end();
     } else {
 
         nodemailer.createTestAccount((error, account) => {
@@ -2084,7 +2056,7 @@ app.get("/de/seo-optimierung/onpage-seo", function(request, response) {
 
 app.get("/en/seo-services/seoaudit", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en/seoaudit",
+        Location: "https://www.seoberlino.com/en/seo-audit",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2092,7 +2064,7 @@ app.get("/en/seo-services/seoaudit", function(request, response) {
 
 app.get("/de/seo-optimierung/seoaudit", function(request, response) {
     response.writeHead(301, {
-        Location: "https://www.seoberlino.com/de/seoaudit",
+        Location: "https://www.seoberlino.com/de/seo-audit",
         Expires: new Date().toGMTString()
     });
     response.end();
