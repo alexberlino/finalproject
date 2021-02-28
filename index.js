@@ -957,7 +957,7 @@ app.get("/de/seo-experte", (req, res) => {
     res.render("expert", {
         requrl: "/en/seo-expert",
         layout: "mainDE",
-        title: "SEO Berater und Experte • Consultant in Berlin | SEO Berlino",
+        title: "SEO Berater und Experte | SEO Berlino",
         description: "SEO Berater in Berlin, 10 Jahre Erfahrung, Experte SEO und Webanalyse. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: "https://www.seoberlino.com/de/seo-experte",
         alt: "/en/seo-expert"
@@ -969,7 +969,7 @@ app.get("/en/seo-expert", (req, res) => {
     res.render("expert", {
         requrl: "/en" + req.originalUrl.substring(3),
         layout: "main",
-        title: "SEO Expert in Berlin | SEO Berlino ",
+        title: "SEO Consultant • SEO Expert in Berlin | SEO Berlino ",
         description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
         canonical: "https://www.seoberlino.com" + req.originalUrl,
         alt: "/de/seo-experte"
