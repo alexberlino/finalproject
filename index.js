@@ -138,6 +138,13 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
+app.get("/en/", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/en",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 app.get("/de", (req, res) => {
     i18n.setLocale(req, "de");
@@ -724,6 +731,8 @@ app.get("/en/seo-services/metas", function(request, response) {
     });
     response.end();
 });
+
+
 
 app.get("/en/seo-services/https", (req, res) => {
     i18n.setLocale(req, "en");
