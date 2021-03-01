@@ -138,12 +138,16 @@ app.get("/setcookiesession", (req, res) => {
     });
 });
 
-app.get("/en/", function(request, response) {
-    response.writeHead(301, {
-        Location: "https://www.seoberlino.com/en",
-        Expires: new Date().toGMTString()
+app.get("/en", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("home", {
+        requrl: "https://www.seoberlino.com/en",
+        layout: "mainHP",
+        title: "SEO Agency in Germany • SEO Consultancy | SEO Berlino",
+        description: "SEO Agency - SEO Consultancy, with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        canonical: "https://www.seoberlino.com/en",
+        alt: "https://www.seoberlino.com/de"
     });
-    response.end();
 });
 
 app.get("/de", (req, res) => {
@@ -170,17 +174,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     });
 });
 
-app.get("/en", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("home", {
-        requrl: "https://www.seoberlino.com/en",
-        layout: "mainHP",
-        title: "SEO Agency in Germany • SEO Consultancy | SEO Berlino",
-        description: "SEO Agency - SEO Consultancy, with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
-        canonical: "https://www.seoberlino.com/en",
-        alt: "https://www.seoberlino.com/de"
-    });
-});
+
 
 app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
