@@ -2016,7 +2016,7 @@ app.get("/de/seo-optimierung/metas", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-optimierung/keyword-research", function(request, response) {
+app.get("/de/keyword-research", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/keyword-research",
         Expires: new Date().toGMTString()
@@ -2356,7 +2356,7 @@ app.get("/en/technical*", function(request, response) {
     response.end();
 });
 
-app.get("/en/seo-services/competitor-analysis", function(request, response) {
+app.get("/en/competitor-analysis", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/competitor-analysis",
         Expires: new Date().toGMTString()
@@ -2364,7 +2364,7 @@ app.get("/en/seo-services/competitor-analysis", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-optimierung/mitwettbewerber", function(request, response) {
+app.get("/de/competitor-analysis", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/competitor-analysis",
         Expires: new Date().toGMTString()
@@ -2455,7 +2455,7 @@ app.get("/de/seo-optimierung/crawl", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-optimierung/pagespeed", function(request, response) {
+app.get("/de/seo-page-speed", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/seo-page-speed",
         Expires: new Date().toGMTString()
