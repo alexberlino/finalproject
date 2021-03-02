@@ -2423,6 +2423,14 @@ app.get("/en/seo-services/pagespeed", function(request, response) {
     response.end();
 });
 
+app.get("/en/seo-optimierung/pagespeed", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/seo-page-speed",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
 app.get("/en/seo-relaunch", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/seo-relaunch",
