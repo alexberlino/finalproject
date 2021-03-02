@@ -2016,7 +2016,7 @@ app.get("/de/seo-optimierung/metas", function(request, response) {
     response.end();
 });
 
-app.get("/de/keyword-research", function(request, response) {
+app.get("/de/seo-optimierung/keyword-research", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/keyword-research",
         Expires: new Date().toGMTString()
@@ -2455,6 +2455,25 @@ app.get("/en/seo-services/crawl", function(request, response) {
     response.end();
 });
 
+app.get("/en/seo-services/international", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/en/seo-relaunch",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/seo-consultant", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/en/seo-expert",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
 app.get("/de/seo-optimierung/crawl", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/seo-indexation",
@@ -2462,6 +2481,24 @@ app.get("/de/seo-optimierung/crawl", function(request, response) {
     });
     response.end();
 });
+
+app.get("/de/seo-optimierung/international", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/seo-relaunch",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-optimierung/mitwettbewerber", function(request, response) {
+    response.writeHead(301, {
+        Location: "https://www.seoberlino.com/de/competitor-analysis",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
 
 app.get("/de/seo-page-speed", function(request, response) {
     response.writeHead(301, {
