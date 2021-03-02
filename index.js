@@ -2423,7 +2423,7 @@ app.get("/en/seo-services/pagespeed", function(request, response) {
     response.end();
 });
 
-app.get("/en/seo-services/international", function(request, response) {
+app.get("/en/seo-relaunch", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/en/seo-relaunch",
         Expires: new Date().toGMTString()
@@ -2431,7 +2431,7 @@ app.get("/en/seo-services/international", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-optimierung/international", function(request, response) {
+app.get("/de/seo-relaunch", function(request, response) {
     response.writeHead(301, {
         Location: "https://www.seoberlino.com/de/seo-relaunch",
         Expires: new Date().toGMTString()
