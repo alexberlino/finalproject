@@ -1,4 +1,4 @@
-<section class="blogpost-hero hero is-medium">
+<div class="blogpost-hero hero is-medium">
     <div class="hero-body remove-padding">
         <div class="container reduced">
             <div class="columns is-centered is-multiline">
@@ -13,35 +13,36 @@
 
             {{>seoservices}}
             {{>contactquote}}
-            {{>otherservices}}
+
+            <div class="column is-12-mobile is-10-tablet is-12-desktop post content">
+                <h2 class="has-text-centered">{{{__ "whatisSEOTitle"}}}</h2>
+                {{{__ "whatisSEO"}}}
 
 
+                <br><br>
+
+                {{>results}}
+            </div>
         </div>
+
+
+
+        <section class="clients-hero hero is-medium">
+            <div class="hero-body remove-padding">
+                <div class="container reduced has-text-centered">
+                    <h2 id="clients" class="title h1HP is-red is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
+
+
+                    <hr>{{>clients}}
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-hero hero is-medium">
+            <div class="hero-body remove-padding">
+                <div class="container reduced has-text-centered">
+                    <div class="columns is-multiline has-text-left">{{>testimonials}}</div>
+                </div>
+            </div>
+        </section>
     </div>
-</section>
-
-
-
-
-{{>results}}
-
-
-
-
-<section class="clients-hero hero is-medium">
-    <div class="hero-body remove-padding">
-        <div class="container reduced has-text-centered">
-            <h2 id="clients" class="title h1HP is-red is-heavy boost-margin">{{{__ "currentformerclients"}}}</h2>
-
-
-            <hr>{{>clients}}
-        </div>
-    </div>
-</section>
-<section class="testimonials-hero hero is-medium">
-    <div class="hero-body remove-padding">
-        <div class="container reduced has-text-centered">
-            <div class="columns is-multiline has-text-left">{{>testimonials}}</div>
-        </div>
-    </div>
-</section>
+</div>
