@@ -1,10 +1,15 @@
 /*! bulma.io v0.7.5 | MIT License | github.com/jgthms/bulma */
 .is-black a {
-    color: black !important
+    color: #024073 !important
 }
 
 .is-black a:hover {
     color: #024073 !important
+}
+
+.image {
+    height: auto;
+    length: auto
 }
 
 .justify {

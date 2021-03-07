@@ -2363,7 +2363,7 @@ app.get("/en/technical*", function(request, response) {
     response.end();
 });
 
-app.get("/en/competitor-analysis", function(request, response) {
+app.get("/en//seo-services/competitor-analysis", function(request, response) {
     response.writeHead(301, {
         Location: localhost + "/en/competitor-analysis",
         Expires: new Date().toGMTString()
@@ -2371,7 +2371,7 @@ app.get("/en/competitor-analysis", function(request, response) {
     response.end();
 });
 
-app.get("/de/competitor-analysis", function(request, response) {
+app.get("/de/seo-optimierung/competitor-analysis", function(request, response) {
     response.writeHead(301, {
         Location: localhost + "/de/competitor-analysis",
         Expires: new Date().toGMTString()
