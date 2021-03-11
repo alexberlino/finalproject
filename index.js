@@ -162,19 +162,19 @@ app.get("/de", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainDEHP-min",
-        title: "SEO Beratung | Kleine SEO Agentur in Berlin | SEO Berlino",
+        title: "SEO Beratung & Analyse in Berlin | SEO Berlino",
         canonical: localhost + "/de",
-        description: "SEO Beratung in Berlin mit SEO Berlino, Kleine SEO Agentur • SEO Berater mit 10 Jahre Erfahrung, Suchmaschinenoptimierung Agentur in Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
+        description: "SEO Beratung in Berlin mit SEO Berlino, Kleine SEO Firma • SEO Berater mit 10 Jahre Erfahrung, Suchmaschinenoptimierung Agentur in Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
     });
 });
 
 app.get("/de/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "de");
-    res.render("seoberatung/seofreelancer", {
+    res.render("seoberatung/seofreelancer-min", {
         requrl: localhost + "/de/seo-freelancer",
         layout: "mainDE-min",
-        title: "SEO Freelancer Berlin | SEO Berlino",
+        title: "SEO Freelancer: Erfahrung und Organisation | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: localhost + "/de/seo-freelancer",
         alt: localhost + "/en/seo-freelancer"
@@ -185,7 +185,7 @@ app.get("/de/seo-freelancer", (req, res) => {
 
 app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
-    res.render("seoberatung/seofreelancer", {
+    res.render("seoberatung/seofreelancer-min", {
         requrl: localhost + "/de/seo-freelancer",
         title: "Experienced SEO Freelancer in Berlin, Germany | SEO Berlino",
         layout: "main-min",
@@ -260,7 +260,7 @@ app.get("/de/seo-onpage", (req, res) => {
     res.render("seoberatung/seoonpage", {
         requrl: localhost + "/de/seo-onpage",
         layout: "mainDE-min",
-        title: "SEO Onpage Beratung in Berlin | SEO Berlino",
+        title: "SEO On-page • Beratung in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: localhost + "/de/seo-onpage",
         alt: localhost + "/en/seo-onpage"
@@ -354,8 +354,6 @@ app.get("/en/seo-wordpress", (req, res) => {
     });
 });
 
-
-
 app.get("/de/seo-wordpress", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seowordpress", {
@@ -368,8 +366,6 @@ app.get("/de/seo-wordpress", (req, res) => {
     });
 });
 
-
-
 app.get("/en/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seobacklinks", {
@@ -381,8 +377,6 @@ app.get("/en/backlinks", (req, res) => {
         alt: localhost + "/de/backlinks"
     });
 });
-
-
 
 app.get("/de/backlinks", (req, res) => {
     i18n.setLocale(req, "de");
@@ -606,7 +600,7 @@ app.get("/en/google-ranking", (req, res) => {
 
 app.get("/en/seo-consultancy", function(req, res) {
     i18n.setLocale(req, "en");
-    res.render("seoberatung/seoberatung", {
+    res.render("seoberatung/seoberatung-min", {
         requrl: localhost + "/de/seo-beratung",
         title: "SEO Consultancy in Berlin Germany | SEO Berlino",
         layout: "main-min",
@@ -619,7 +613,7 @@ app.get("/en/seo-consultancy", function(req, res) {
 
 app.get("/de/seo-beratung", function(req, res) {
     i18n.setLocale(req, "de");
-    res.render("seoberatung/seoberatung", {
+    res.render("seoberatung/seoberatung-min", {
         requrl: localhost + "/de/seo-beratung",
         layout: "mainDE-min",
         title: "SEO Beratung in Berlin | SEO Berlino",
