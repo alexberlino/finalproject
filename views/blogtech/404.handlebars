@@ -14,7 +14,15 @@
                 <div class="columns is-multiline">
                     <div class="column is-12-mobile is-12-tablet is-8-desktop">
 
+
+                        <h2 class="title is-3"> {{{__ "definition"}}}</h2>
                         {{{__ "404MP"}}}
+
+
+
+                        <br><br>
+
+                        {{{__ "404MP1"}}}
 
 
 
@@ -23,7 +31,8 @@
                         <br><br>
 
                         {{{__ "404MP2"}}}<br><br>
-                        <img alt="404 Not Found" src="/images/seo-images/404_1.png" /><br><br>
+                        <img alt="404 Not Found" src="/images/seo-images/404_1.png" /><br><br><br>
+
 
 
                         {{{__ "404MP3"}}}<br><br>
@@ -33,6 +42,12 @@ app.all("*", function(req, res) {
     res.status(404).render("error");
 });
 </pre><br>
+                        <h2 class="title is-3">{{{__ "404T4"}}}</h2>
+                        {{{__ "404MP4"}}}<br><br><br>
+                        <h2 class="title is-3">{{{__ "404T5"}}}</h2>
+
+
+                        {{{__ "404MP5"}}}<br><br>
 
                     </div>
 
