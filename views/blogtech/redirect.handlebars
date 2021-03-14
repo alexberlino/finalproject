@@ -25,13 +25,42 @@ app.get("/de/folder/page", function(request, response) {
 </pre><br><br>
                         <pre>
 app.get("/de/folder/page", function(request, response) {
-response.writeHead(302, {
-Location: "https://newtargetpage.com",
-Expires: new Date().toGMTString()
-});
-response.end();
+    response.writeHead(302, {
+        Location: "https://newtargetpage.com",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
 });
     </pre><br>
+
+                        <p>{{{__ "redirectsMP2"}}}</p><br>
+
+
+
+                        <pre>
+
+Redirect /old-path/new.html /newpath/new.html
+
+####All site to new site:
+Redirect 301 / https://newdomain.com/
+
+#####Removing www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.example.com
+RewriteRule (.*) https://example.com/$1 [R=301,L]
+
+</pre><br><br><br>
+
+                        <h2 class="title is-heavy is-4 reduced-top-margin"> {{{__ "redirectsT3"}}}</h2>
+                        {{{__ "redirectsMP3"}}}<br><br><br>
+
+                        <h2 class="title is-heavy is-4 reduced-top-margin"> {{{__ "redirectsT4"}}}</h2>
+                        {{{__ "redirectsMP4"}}}<br><br><br>
+
+                        <h2 class="title is-heavy is-4 reduced-top-margin"> {{{__ "redirectsT5"}}}</h2>
+                        {{{__ "redirectsMP5"}}}<br><br><br>
+
+
                     </div>{{>lexical}}<br><br>{{>articlesCTA}}
                 </div><br><br><br>
             </div>
