@@ -1230,7 +1230,7 @@ app.get("/de/seo-optimierung/canonical", (req, res) => {
     res.render("blogtech/canonical", {
         requrl: localhost + "/en/seo-services/canonical",
         layout: "mainDE-min",
-        title: "Was ist Canonical Tag und warum ist es wichtig? | SEO Berlino",
+        title: "Was ist ein Canonical Tag und warum ist es wichtig? | SEO Berlino",
         description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/canonical"
