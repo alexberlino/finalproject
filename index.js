@@ -782,7 +782,7 @@ app.get("/en/seo-services/javascript", (req, res) => {
     res.render("blogtech/blogjava", {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
-        title: "How Javascript affects SEO | SEO Berlino",
+        title: "What is Dynamic Rendering and how it affects SEO | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: localhost + "/en/seo-services/javascript",
         alt: localhost + "/de/seo-optimierung/javascript"
@@ -794,7 +794,7 @@ app.get("/de/seo-optimierung/javascript", (req, res) => {
     res.render("blogtech/blogjava", {
         requrl: localhost + "/en/seo-services/javascript",
         layout: "mainDE-min",
-        title: "Wie Javascript SEO beeinflusst | SEO Berlino",
+        title: "Dynamic Rendreing • Wie Javascript SEO beeinflusst | SEO Berlino",
         description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
         canonical: localhost + "/de/seo-optimierung/javascript",
         alt: localhost + "/en/seo-services/javascript"
@@ -1351,7 +1351,7 @@ app.get("/en/seo-services/googleupdate", (req, res) => {
     res.render("blogtech/googleupdate", {
         requrl: localhost + "/en/seo-services/googleupdate",
         layout: "main-min",
-        title: "Experience Google Update, what it means to you | SEO Berlino",
+        title: "SEO Google Updates, what it means to you | SEO Berlino",
         description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/googleupdate"
@@ -1363,7 +1363,7 @@ app.get("/de/seo-optimierung/googleupdate", (req, res) => {
     res.render("blogtech/googleupdate", {
         requrl: localhost + "/en/seo-services/googleupdate",
         layout: "mainDE-min",
-        title: "Google updates | SEO Berlino",
+        title: "Google SEO Updates | SEO Berlino",
         description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/googleupdate"
