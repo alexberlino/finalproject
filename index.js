@@ -1569,7 +1569,7 @@ app.get("/en/seo-services/nofollow", (req, res) => {
     res.render("blogtech/nofollow", {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
-        title: "What is nofollow and how does it work | SEO Berlino",
+        title: "What is a nofollow link and how does it work | SEO Berlino",
         description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/nofollow"
@@ -1581,7 +1581,7 @@ app.get("/de/seo-optimierung/nofollow", (req, res) => {
     res.render("blogtech/nofollow", {
         requrl: localhost + "/en/seo-services/nofollow",
         layout: "mainDE-min",
-        title: "Was ist nofollow und wie funktioniert es? | SEO Berlino",
+        title: "Was ist ein nofollow link und wie funktioniert es? | SEO Berlino",
         description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/nofollow"
