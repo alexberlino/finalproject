@@ -162,7 +162,7 @@ app.get("/de", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainDEHP-min",
-        title: "SEO Agentur Berlin • SEO Beratung Berlin | SEO Berlino",
+        title: "SEO Beratung • SEO Agentur | SEO Berlino",
         canonical: localhost + "/de",
         description: "SEO Beratung in Berlin mit SEO Berlino, Kleine SEO Firma • SEO Berater mit 10 Jahre Erfahrung, Suchmaschinenoptimierung Agentur in Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
@@ -187,9 +187,9 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seofreelancer-min", {
         requrl: localhost + "/de/seo-freelancer",
-        title: "Experienced SEO Freelancer in Berlin, Germany | SEO Berlino",
+        title: "Experienced SEO Consultant in Germany | SEO Berlino",
         layout: "main-min",
-        description: "SEO Freelancer in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO Consultant in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/seo-freelancer",
         alt: localhost + "/de/seo-freelancer"
     });
@@ -295,9 +295,9 @@ app.get("/en/seo-indexation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoindexation", {
         requrl: localhost + "/de/seo-indexation",
-        title: "SEO Indexation Services Berlin | SEO Berlino",
+        title: "SEO Indexation Services  | SEO Berlino",
         layout: "main-min",
-        description: "SEO Indexation Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO Indexation Services, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/seo-indexation",
         alt: localhost + "/de/seo-indexation"
     });
@@ -308,7 +308,7 @@ app.get("/de/seo-indexation", (req, res) => {
     res.render("seoberatung/seoindexation", {
         requrl: localhost + "/de/seo-indexation",
         layout: "mainDE-min",
-        title: "SEO Indexierung Beratung in Berlin | SEO Berlino",
+        title: "SEO Indexierung Beratung | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: localhost + "/de/seo-indexation",
         alt: localhost + "/en/seo-indexation"
