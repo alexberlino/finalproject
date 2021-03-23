@@ -1722,6 +1722,17 @@ app.get("/en/seo-services/clutch", (req, res) => {
     });
 });
 
+app.get("/en/seo-services/clutch_2021", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("blogcase/blogclutch2", {
+        requrl: localhost + "/en" + req.originalUrl.substring(3),
+        layout: "mainNoAlt",
+        title: "Top SEO Company in Germany 2021 | SEO Berlino",
+        description: "Clutch has selected SEO Berlino as one of the top SEO companies in Germany for 2021. Read the Press Release from Clutch.",
+        canonical: localhost + "" + req.originalUrl
+    });
+});
+
 app.get("/en/seo-services/seo-in-asia-korea-china-japan-2020", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogcase/blogasia", {
