@@ -961,7 +961,7 @@ app.get("/de/seo-experte", (req, res) => {
     res.render("expert", {
         requrl: localhost + "/en/seo-expert",
         layout: "mainDE-min",
-        title: "SEO Berater und Experte | SEO Berlino",
+        title: "SEO Berater und Experte Berlin | SEO Berlino",
         description: "SEO Berater in Berlin, 10 Jahre Erfahrung, Experte SEO und Webanalyse. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: localhost + "/de/seo-experte",
         alt: localhost + "/en/seo-expert"
