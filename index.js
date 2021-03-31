@@ -174,7 +174,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("seoberatung/seofreelancer-min", {
         requrl: localhost + "/de/seo-freelancer",
         layout: "mainDE-min",
-        title: "SEO Freelancer • Strategie mit Erfahrung | SEO Berlino",
+        title: "SEO Freelancer in Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: localhost + "/de/seo-freelancer",
         alt: localhost + "/en/seo-freelancer"
