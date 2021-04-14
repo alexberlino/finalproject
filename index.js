@@ -150,7 +150,7 @@ app.get("/en", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainHP-min",
-        title: "SEO Agency in Germany • SEO Freelance | SEO Berlino",
+        title: "SEO Agency Germany • SEO Freelance Consultancy | SEO Berlino",
         description: "SEO Agency with over 10 years experience: €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en",
         alt: localhost + "/de",
