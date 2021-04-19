@@ -150,7 +150,7 @@ app.get("/en", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainHP-min",
-        title: "SEO Agency Germany • SEO Freelance Consultancy | SEO Berlino",
+        title: "SEO Agency Germany • SEO Freelance Consulting | SEO Berlino",
         description: "SEO Agency with over 10 years experience: €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en",
         alt: localhost + "/de",
@@ -602,7 +602,7 @@ app.get("/en/seo-consultancy", function(req, res) {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoberatung-min", {
         requrl: localhost + "/de/seo-beratung",
-        title: "SEO Consultancy in Berlin Germany | SEO Berlino",
+        title: "SEO Consulting in Berlin Germany | SEO Berlino",
         layout: "main-min",
         description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/seo-consultancy",
@@ -628,7 +628,7 @@ app.get("/en/online-marketing", function(req, res) {
     i18n.setLocale(req, "en");
     res.render("otherberatung/onlinemarketing", {
         requrl: localhost + "/en/online-marketing",
-        title: "Online Marketing Consultancy Berlin | SEO Berlino",
+        title: "Online Marketing Consulting Berlin | SEO Berlino",
         layout: "main-min",
         description: "Online Marketing Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/online-marketing",
@@ -665,7 +665,7 @@ app.get("/en/jobs", (req, res) => {
         requrl: localhost + "/en/jobs",
         layout: "main-min",
         title: "SEO Consultants Jobs in Berlin, Germany | SEO Berlino",
-        description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        description: "SEO Jobs in Berlin for a SEO Consulting Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en/jobs",
         alt: localhost + "/de/jobs"
     });
@@ -677,7 +677,7 @@ app.get("/de/jobs", (req, res) => {
         requrl: localhost + "/en/jobs",
         layout: "mainDE-min",
         title: "SEO Consultants Jobs in Berlin | SEO Berlino",
-        description: "SEO Jobs in Berlin for a SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        description: "SEO Jobs in Berlin for a SEO Consulting Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/de/jobs",
         alt: localhost + "/en/jobs"
     });
@@ -689,7 +689,7 @@ app.get("/en/references", (req, res) => {
         requrl: localhost + "/en/references",
         layout: "main-min",
         title: "SEO Agency Berlin Clients References | SEO Berlino",
-        description: "SEO Consultant in Berlin • SEO Consultancy Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        description: "SEO Consultant in Berlin • SEO Consulting Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en/references",
         alt: localhost + "/de/references"
     });
@@ -1820,7 +1820,7 @@ app.post("/en/email", function(req, res) {
                         <li>Email: ${req.body.email}</li>
                         <li>Website: ${req.body.website}</li>
                         <li>Beratung: ${req.body.beratung}</li>
-                        <li>Consultancy: ${req.body.budget}</li>
+                        <li>Consulting: ${req.body.budget}</li>
                     </ul>
                     <h3>Message</h3>
                     <p>${req.body.message}</p>
@@ -1875,7 +1875,7 @@ app.post("/de/email", function(req, res) {
                         <li>Email: ${req.body.email}</li>
                         <li>Website: ${req.body.website}</li>
                         <li>Beratung: ${req.body.beratung}</li>
-                        <li>Consultancy: ${req.body.budget}</li>
+                        <li>Consulting: ${req.body.budget}</li>
                     </ul>
                     <h3>Message</h3>
                     <p>${req.body.message}</p>
