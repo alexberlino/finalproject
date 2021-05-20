@@ -150,8 +150,8 @@ app.get("/en", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainHP-min",
-        title: "SEO Agency Germany • SEO Freelance Consulting | SEO Berlino",
-        description: "SEO Agency with over 10 years experience: €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        title: "SEO Agency Germany • SEO Freelance Consultancy | SEO Berlino",
+        description: "SEO Agency with over 10 years experience: €100m + multinationals. Clients such as Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en",
         alt: localhost + "/de",
     });
@@ -164,7 +164,7 @@ app.get("/de", (req, res) => {
         layout: "mainDEHP-min",
         title: "SEO Berlin Freelance Beratung • SEO Agentur | SEO Berlino",
         canonical: localhost + "/de",
-        description: "SEO Beratung in Berlin mit SEO Berlino, Kleine SEO Firma • SEO Berater mit 10 Jahre Erfahrung, Suchmaschinenoptimierung Agentur in Berlin. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
+        description: "SEO Beratung in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
     });
 });
@@ -175,7 +175,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         requrl: localhost + "/de/seo-freelancer",
         layout: "mainDE-min",
         title: "SEO Freelancer in Berlin | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO Beratung in Berlin, erfahren in internationaler SEO. Audits durch einen SEO Berater mit über 10 Jahren Erfahrung. Kunden: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/de/seo-freelancer",
         alt: localhost + "/en/seo-freelancer"
     });
@@ -201,7 +201,7 @@ app.get("/de/seo-audit", (req, res) => {
         requrl: localhost + "/de/seo-audit",
         layout: "mainDE-min",
         title: "SEO Audits in Berlin | SEO Berlino",
-        description: "SEO Audit - Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO Audits in Berlin, von erfahrenen SEO Beratern. Regionale und internationale SEO-Erfahrung, hunderte von Kunden, darunter z.B. Montblanc, HelloFresh, Ricoh.",
         canonical: localhost + "/de/seo-audit",
         alt: localhost + "/en/seo-audit"
     });
@@ -213,7 +213,7 @@ app.get("/en/seo-audit", (req, res) => {
         requrl: localhost + "/de/seo-audit",
         title: "SEO Audits in Berlin, Germany | SEO Berlino",
         layout: "main-min",
-        description: "SEO Audits in Berlin, by experienced SEO Consultants experienced in international SEO with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO Audits in Berlin, by experienced SEO Consultants. Local and international SEO experience, hundreds of clients including Montblanc, HelloFresh, Ricoh and many others.",
         canonical: localhost + "/en/seo-audit",
         alt: localhost + "/de/seo-audit"
     });
@@ -225,7 +225,7 @@ app.get("/en/seo-check", (req, res) => {
         requrl: localhost + "/de/seo-check",
         title: "SEO Check Berlin | SEO Berlino",
         layout: "main-min",
-        description: "SEO Check in Berlin, by an experienced SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO Checks in Berlin, by experienced SEO Consultants. Local and international SEO experience, hundreds of clients including Montblanc, HelloFresh, Ricoh and many others.",
         canonical: localhost + "/en/seo-check",
         alt: localhost + "/de/seo-check"
     });
@@ -237,7 +237,7 @@ app.get("/de/seo-check", (req, res) => {
         requrl: localhost + "/de/seo-check",
         layout: "mainDE-min",
         title: "SEO Check & SEO Analyse in Berlin | SEO Berlino",
-        description: "SEO Check - SEO & Analytics Beratung. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO Checks in Berlin, von erfahrenen SEO Beratern. Lokale und internationale SEO Erfahrung, hunderte Kunden wie Montblanc, HelloFresh, Ricoh und viele andere.",
         canonical: localhost + "/de/seo-check",
         alt: localhost + "/en/seo-check"
     });
@@ -249,7 +249,7 @@ app.get("/en/seo-onpage", (req, res) => {
         requrl: localhost + "/de/seo-onpage",
         title: "SEO Onpage Services Berlin | SEO Berlino",
         layout: "main-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO Berlino offers Onpage SEO Services: Keyword Research and Mapping, Audit, content analysis and marketing, and much more. Get in touch to organise a call.",
         canonical: localhost + "/en/seo-onpage",
         alt: localhost + "/de/seo-onpage"
     });
@@ -261,7 +261,7 @@ app.get("/de/seo-onpage", (req, res) => {
         requrl: localhost + "/de/seo-onpage",
         layout: "mainDE-min",
         title: "SEO On-page • Beratung in Berlin | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SSEO Berlino bietet OnPage SEO Optimierung: Keyword Research und Mapping, Audit, Content Analyse und Marketing und vieles mehr. Kontaktieren Sie uns!",
         canonical: localhost + "/de/seo-onpage",
         alt: localhost + "/en/seo-onpage"
     });
@@ -273,7 +273,7 @@ app.get("/en/seo-page-speed", (req, res) => {
         requrl: localhost + "/de/seo-page-speed",
         title: "SEO Page Speed (Insights) Improvements | SEO Berlino",
         layout: "main-min",
-        description: "SEO Page Speed Insights Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO support to guide into a better page speed to improve your SEO visibility and performance. In 2021, page speed has never been so important.",
         canonical: localhost + "/en/seo-page-speed",
         alt: localhost + "/de/seo-page-speed"
     });
@@ -285,7 +285,7 @@ app.get("/de/seo-page-speed", (req, res) => {
         requrl: localhost + "/de/seo-page-speed",
         layout: "mainDE-min",
         title: "SEO Page Speed (Insights) Beratung | SEO Berlino",
-        description: "SEO und Analytics Berater- SEO. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO-Unterstützung, um eine bessere Seitengeschwindigkeit zu erzielen und Ihre SEO-Sichtbarkeit und Leistung zu verbessern. Nie war dies wichtiger als in 2021!",
         canonical: localhost + "/de/seo-page-speed",
         alt: localhost + "/en/seo-page-speed"
     });
@@ -297,7 +297,7 @@ app.get("/en/seo-indexation", (req, res) => {
         requrl: localhost + "/de/seo-indexation",
         title: "SEO Indexation Services  | SEO Berlino",
         layout: "main-min",
-        description: "SEO Indexation Services, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Efficient Indexation is key in order to get on well with Google's spiders. SEO Berlino offers SEO support to optimize your indexation and crawlability. Get in touch!",
         canonical: localhost + "/en/seo-indexation",
         alt: localhost + "/de/seo-indexation"
     });
@@ -309,7 +309,7 @@ app.get("/de/seo-indexation", (req, res) => {
         requrl: localhost + "/de/seo-indexation",
         layout: "mainDE-min",
         title: "SEO Indexierung Beratung | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "Im Umgang mit Google ist effiziente Indexierung essentiell. Wir bieten SEO-Unterstützung zur Optimierung Ihrer Indexierung und Crawlability. Sprechen Sie uns an!",
         canonical: localhost + "/de/seo-indexation",
         alt: localhost + "/en/seo-indexation"
     });
@@ -321,7 +321,7 @@ app.get("/en/local-seo", (req, res) => {
         requrl: localhost + "/de/local-seo",
         title: "Local SEO: Google MyBusiness & Schema| SEO Berlino",
         layout: "main-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Local SEO Services, onpage optimization, local backlinks and Google My Business. International SEO Agency in Berlin. Current and former clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/local-seo",
         alt: localhost + "/de/local-seo"
     });
@@ -333,7 +333,7 @@ app.get("/de/local-seo", (req, res) => {
         requrl: localhost + "/de/local-seo",
         layout: "mainDE-min",
         title: "Local SEO - Google My Business & Schema | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "Local SEO Services, Onpage Optimierung, lokale Backlinks und Google My Business. Internationale SEO Agentur in Berlin. Kunden: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/de/local-seo",
         alt: localhost + "/en/local-seo"
     });
@@ -348,7 +348,7 @@ app.get("/en/seo-wordpress", (req, res) => {
         requrl: localhost + "/de/seo-wordpress",
         title: "SEO Services for Wordpress and Wix Users | SEO Berlino",
         layout: "main-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO Support for Wordpress, Wix & Shopify clients in Berlin. Experienced SEO Experts to help you grow your SEO traffic. Get in touch now to arrange a call.",
         canonical: localhost + "/en/seo-wordpress",
         alt: localhost + "/de/seo-wordpress"
     });
@@ -360,7 +360,7 @@ app.get("/de/seo-wordpress", (req, res) => {
         requrl: localhost + "/de/seo-wordpress",
         layout: "mainDE-min",
         title: "SEO Beratung für Wordpress in Berlin | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO Support für Wordpress, Wix & Shopify Kunden in Berlin. Erfahrene SEO-Experten, die Ihnen helfen, Ihren SEO-Traffic zu steigern. Kontaktieren Sie uns jetzt!",
         canonical: localhost + "/de/seo-wordpress",
         alt: localhost + "/en/seo-wordpress"
     });
@@ -372,7 +372,7 @@ app.get("/en/backlinks", (req, res) => {
         requrl: localhost + "/de/backlinks",
         title: "Backlinks Analysis and Strategie| SEO Berlino",
         layout: "main-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO Offpage Services in Berlin. Backlink profile and industry-specific analysis, linkbuilding strategy. Get in touch now for more details or to arrange a call.",
         canonical: localhost + "/en/backlinks",
         alt: localhost + "/de/backlinks"
     });
@@ -384,7 +384,7 @@ app.get("/de/backlinks", (req, res) => {
         requrl: localhost + "/de/backlinks",
         layout: "mainDE-min",
         title: "Backlinks Analyse und Strategie | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO Offpage Dienstleistungen in Berlin. Backlink-Profil, branchenspezifische Analyse, Linkbuilding-Strategie. Kontaktieren Sie uns jetzt für weitere Details.",
         canonical: localhost + "/de/backlinks",
         alt: localhost + "/en/backlinks"
     });
@@ -398,7 +398,7 @@ app.get("/en/keyword-research", (req, res) => {
         requrl: localhost + "/de/keyword-research",
         title: "Keyword Research • Keyword Mapping | SEO Berlino",
         layout: "main-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Keyword Research and Keyword Mapping SEO Services. Experienced international SEO Agency in Berlin. Get in touch for a call. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/keyword-research",
         alt: localhost + "/de/keyword-research"
     });
@@ -412,7 +412,7 @@ app.get("/de/keyword-research", (req, res) => {
         requrl: localhost + "/de/keyword-research",
         layout: "mainDE-min",
         title: "Keyword Recherche • Keyword Mapping | SEO Berlino",
-        description: "Keyword Recherche - Keywords finden. SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "Keyword Research und Keyword Mapping. Erfahrene internationale SEO Agentur in Berlin. Vereinbaren Sie einen Beratungstermin. Kunden: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/de/keyword-research",
         alt: localhost + "/en/keyword-research"
     });
@@ -425,7 +425,7 @@ app.get("/en/seo-relaunch", (req, res) => {
         requrl: localhost + "/de/seo-relaunch",
         title: "SEO Support for Site Relaunch | SEO Berlino",
         layout: "main-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "A site relaunch comes with many important challenges. If you don't prepare it carefully you could lose a lot of your SEO strength. SEO Agency in Berlin to support you.",
         canonical: localhost + "/en/seo-relaunch",
         alt: localhost + "/de/seo-relaunch"
     });
@@ -439,7 +439,7 @@ app.get("/de/seo-relaunch", (req, res) => {
         requrl: localhost + "/de/seo-relaunch",
         layout: "mainDE-min",
         title: "SEO Beratung für Site Relaunch in Berlin | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "Ein Relaunch einer Website sollte sorgfältig vorbereitet sein, damit Sie nicht an Ihrer SEO-Stärke verliert. Unsere SEO-Agentur in Berlin unterstützt Sie dabei!",
         canonical: localhost + "/de/seo-relaunch",
         alt: localhost + "/en/seo-relaunch"
     });
@@ -451,7 +451,7 @@ app.get("/en/seo-copywriting", (req, res) => {
         requrl: localhost + "/en/seo-copywriting",
         title: "Content Marketing Copywriting Services | SEO Berlino",
         layout: "main-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Copywriting, Translation and Content Marketing services in Berlin, we also offer customised competitor analysis, keyword research to boost your onpage optimization.",
         canonical: localhost + "/en/seo-copywriting",
         alt: localhost + "/de/seo-copywriting"
     });
@@ -465,7 +465,7 @@ app.get("/de/seo-copywriting", (req, res) => {
         requrl: localhost + "/en/seo-copywriting",
         title: "Content Marketing - Copywriting Beratung | SEO Berlino",
         layout: "mainDE-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Copywriting, Übersetzung und Content Marketing Dienstleistungen in Berlin. Onpage-Optimierung durch maßgeschneiderte Konkurrenzanalysen und Keyword-Recherchen.",
         canonical: localhost + "/de/seo-copywriting",
         alt: localhost + "/en/seo-copywriting"
     });
@@ -478,7 +478,7 @@ app.get("/en/reporting-analytics", (req, res) => {
         requrl: localhost + "/en/reporting-analytics",
         title: "Google Analytics and Reporting Services | SEO Berlino",
         layout: "main-min",
-        description: "Google Analyics, Google Tag Manager, Data Studio for SEO Reporting. Support by expert SEO & Analytics Consultants with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Google Analytics, Google Tag Manager, Data Studio for Online Marketing Reporting. Analytics Expert Consultants with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/reporting-analytics",
         alt: localhost + "/de/reporting-analytics"
     });
@@ -503,7 +503,7 @@ app.get("/en/smm", (req, res) => {
         requrl: localhost + "/en/smm",
         title: "Social Media Marketing Services | SEO Berlino",
         layout: "mainNoAlt",
-        description: "Social Media Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Social Media Services in Berlin: Instagram and Facebook ads by SMM expert. Get in touch to organise a call. Current and former clients: BNSH, Montblanc, Ricoh, etc",
         canonical: localhost + "/en/smm",
         alt: localhost + "/de/smm"
     });
@@ -515,7 +515,7 @@ app.get("/de/smm", (req, res) => {
         requrl: localhost + "/en/smm",
         layout: "mainNoAltDE",
         title: "Social Media Marketing Beratung in Berlin | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "Social Media Services in Berlin: Instagram and Facebook ads by SMM expert. Get in touch to organise a call. Current and former clients: BNSH, Montblanc, Ricoh, etc",
         canonical: localhost + "/en/smm",
         alt: localhost + "/en/smm"
     });
@@ -527,7 +527,7 @@ app.get("/en/competitor-analysis", (req, res) => {
         requrl: localhost + "/de/competitor-analysis",
         title: "Competitor Analysis for Online Marketing | SEO Berlino",
         layout: "main-min",
-        description: "Competitor Analysis for SEO and Online Marketing. Experienced in international dital consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Competitor Analysis for SEO to know how your competitors get organic traffic and backlinks. Competitor analysis helps you to set benchmarks and objectives.",
         canonical: localhost + "/en/competitor-analysis",
         alt: localhost + "/de/competitor-analysis"
     });
@@ -541,7 +541,7 @@ app.get("/de/competitor-analysis", (req, res) => {
         requrl: localhost + "/de/competitor-analysis",
         layout: "mainDE-min",
         title: "Wettbewerberanalyse Online Marketing | SEO Berlino",
-        description: "Wettbewerberanalyse für SEO und Online Marketing. Analytics Berater mit über 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "Eine SEO-Mitbewerberanalyse zeigt Ihnen, wie Ihre Mitbewerber organischen Traffic und Backlinks erhalten. Sie dient dazu, Benchmarks und Ziele zu setzen.",
         canonical: localhost + "/de/competitor-analysis",
         alt: localhost + "/en/competitor-analysis"
     });
@@ -579,7 +579,7 @@ app.get("/de/google-ranking-verbessern", (req, res) => {
         requrl: localhost + "/en/google-ranking",
         layout: "mainDE-min",
         title: "Verbesserung Ihrer Google-Rankings | SEO Berlino",
-        description: "SEO Freelancer und Analytics Experte: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "Verbessern Sie Ihre SEO-Rankings mit der Unterstützung eines erfahrenen SEO-Beraters - Audits oder ad-hoc. Aktuelle und ehemalige Kunden: Montblanc, Ricoh.",
         canonical: localhost + "/de/google-ranking-verbessern",
         alt: localhost + "/en/google-ranking"
     });
@@ -591,7 +591,7 @@ app.get("/en/google-ranking", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         title: "How to improve your Google Rankings | SEO Berlino",
         layout: "main-min",
-        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
+        description: "Improve your SEO Rankings with the support of an experienced and successful SEO Consultant - Audits or ad-hoc. Some current and former clients: Montblanc, Ricoh.",
         canonical: localhost + "/en/google-ranking",
         alt: localhost + "/de/google-ranking-verbessern"
     });
@@ -602,9 +602,9 @@ app.get("/en/seo-consultancy", function(req, res) {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoberatung-min", {
         requrl: localhost + "/de/seo-beratung",
-        title: "SEO Consulting in Berlin Germany | SEO Berlino",
+        title: "SEO Consultancy in Berlin Germany | SEO Berlino",
         layout: "main-min",
-        description: "SEO Onpage Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "SEO Consultancy in Berlin: onpage and offpage SEO as well as Technical SEO. Over 10 years experience with multinationals but also local businesses. Get in touch to arrange a call.",
         canonical: localhost + "/en/seo-consultancy",
         alt: localhost + "/de/seo-beratung"
     });
@@ -617,7 +617,7 @@ app.get("/de/seo-beratung", function(req, res) {
         requrl: localhost + "/de/seo-beratung",
         layout: "mainDE-min",
         title: "SEO Beratung in Berlin | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO-Beratung in Berlin: Onpage- und Offpage-SEO sowie Technical SEO. Über 10 Jahre Erfahrung. Vereinbaren Sie jetzt ein Beratungsgespräch.",
         canonical: localhost + "/de/seo-beratung",
         alt: localhost + "/en/seo-consultancy"
     });
@@ -628,9 +628,9 @@ app.get("/en/online-marketing", function(req, res) {
     i18n.setLocale(req, "en");
     res.render("otherberatung/onlinemarketing", {
         requrl: localhost + "/en/online-marketing",
-        title: "Online Marketing Consulting Berlin | SEO Berlino",
+        title: "Online Marketing Consultancy Berlin | SEO Berlino",
         layout: "main-min",
-        description: "Online Marketing Services Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
+        description: "Online Marketing Agentur in Berlin: SEO, Suchmaschinenwerbung (SEA) und Social Media Marketing. Kunden: Montblanc, Spreadshirt, HelloFresh, Ricoh etc.",
         canonical: localhost + "/en/online-marketing",
         alt: localhost + "/de/online-marketing"
     });
@@ -665,7 +665,7 @@ app.get("/en/jobs", (req, res) => {
         requrl: localhost + "/en/jobs",
         layout: "main-min",
         title: "SEO Consultants Jobs in Berlin, Germany | SEO Berlino",
-        description: "SEO Jobs in Berlin for a SEO Consulting Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        description: "SEO Jobs in Berlin for a SEO Consulting Company. Although these are remote roles, applicants need to be Berlin based and have an excellent level of German.",
         canonical: localhost + "/en/jobs",
         alt: localhost + "/de/jobs"
     });
@@ -677,7 +677,7 @@ app.get("/de/jobs", (req, res) => {
         requrl: localhost + "/en/jobs",
         layout: "mainDE-min",
         title: "SEO Consultants Jobs in Berlin | SEO Berlino",
-        description: "SEO Jobs in Berlin for a SEO Consulting Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        description: "SEO Jobs in Berlin für ein SEO Consulting Unternehmen. Remote-Jobs - Bewerber müssen aber in Berlin leben und über sehr gute Deutschkenntnisse verfügen.",
         canonical: localhost + "/de/jobs",
         alt: localhost + "/en/jobs"
     });
@@ -689,7 +689,7 @@ app.get("/en/references", (req, res) => {
         requrl: localhost + "/en/references",
         layout: "main-min",
         title: "SEO Agency Berlin Clients References | SEO Berlino",
-        description: "SEO Consultant in Berlin • SEO Consulting Company with over 10 years experience €100m + multinationals:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        description: "References SEO Consulting Company with over 10 years experience €100m + multinationals: Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en/references",
         alt: localhost + "/de/references"
     });
@@ -701,7 +701,7 @@ app.get("/de/references", (req, res) => {
         requrl: localhost + "/en/references",
         layout: "mainDE-min",
         title: "SEO Agentur Berlin Kundenbewertungen | SEO Berlino",
-        description: "10 Jahre erfahrener SEO Consulant in Berlin • €100m + Kunden:  Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        description: "SEO Consulting Company mit über 10 Jahren Erfahrung. €100m + multinationale Unternehmen: Montblanc, HelloFresh, Spreadshirt, Spartoo, BSH, MSF, Rotes Kreuz, etc",
         canonical: localhost + "/de/references",
         alt: localhost + "/en/references"
     });
@@ -713,19 +713,12 @@ app.get("/en/seo-services", (req, res) => {
         requrl: localhost + "/en/seo-services",
         layout: "main-min",
         title: "SEO Services – Search Engine Optimization | SEO Berlino",
-        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "SEO Blog and SEO Resources provided by SEO Berlino: about SEO news and SEO Lexicon to help you understand some SEO basics such as canonicals and hreflang.",
         canonical: localhost + "/en/seo-services",
         alt: localhost + "/de/seo-optimierung"
     });
 });
 
-app.get("/en/seo-services/metas", function(request, response) {
-    response.writeHead(301, {
-        Location: localhost + "/en/seo-onpage",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
 
 
 
@@ -747,7 +740,7 @@ app.get("/de/seo-optimierung/https", (req, res) => {
         requrl: localhost + "/en/seo-services/https",
         layout: "mainDE-min",
         title: "Was macht https für SEO? | Von http zu https | SEO Berlino",
-        description: "Website optimieren, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP, the protocol over which data is sent between browser and the connected website.",
         canonical: localhost + "/de/seo-optimierung/https",
         alt: localhost + "/en/seo-services/https"
     });
@@ -771,7 +764,7 @@ app.get("/de/seo-optimierung/mobile", (req, res) => {
         requrl: localhost + "/en/seo-services/mobile",
         layout: "mainDE-min",
         title: " Mobile-Friendly Website | SEO Optimierung | SEO Berlino",
-        description: "Website optimieren, SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "Your site must be mobile friendly. Google now uses the mobile version for indexation so called mobile first.",
         canonical: localhost + "/de/seo-optimierung/mobile",
         alt: localhost + "/en/seo-services/mobile"
     });
@@ -783,7 +776,7 @@ app.get("/en/seo-services/javascript", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is Dynamic Rendering and how it affects SEO | SEO Berlino",
-        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "For JavaScript apps such as React, Angular or View, search engines such as Google still struggle to properly crawl and index all pages.",
         canonical: localhost + "/en/seo-services/javascript",
         alt: localhost + "/de/seo-optimierung/javascript"
     });
@@ -795,7 +788,7 @@ app.get("/de/seo-optimierung/javascript", (req, res) => {
         requrl: localhost + "/en/seo-services/javascript",
         layout: "mainDE-min",
         title: "Dynamic Rendreing • Wie Javascript SEO beeinflusst | SEO Berlino",
-        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "Bei JavaScript-Apps wie React, Angular oder View haben Suchmaschinen wie Google immer noch Schwierigkeiten, alle Seiten richtig zu crawlen und zu indizieren.",
         canonical: localhost + "/de/seo-optimierung/javascript",
         alt: localhost + "/en/seo-services/javascript"
     });
@@ -808,7 +801,7 @@ app.get("/en/seo-services/structured-data", (req, res) => {
         requrl: localhost + "/en/seo-services/structured-data",
         layout: "main-min",
         title: "Structured Data for SEO | SEO Services | SEO Berlino",
-        description: "Structured Data and Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "Google, Bing and co agreed on a standardised format: schema.org for providing information about a page and to classify its content. Use it to improve the way your pages are displayed.",
         canonical: localhost + "/en/seo-services/structured-data",
         alt: localhost + "/de/seo-optimierung/structured-data"
     });
@@ -820,7 +813,7 @@ app.get("/de/seo-optimierung/structured-data", (req, res) => {
         requrl: localhost + "/en/seo-services/structured-data",
         layout: "mainDE-min",
         title: "Strukturierte Daten für SEO | SEO Berlino",
-        description: "Structured Data für SEO",
+        description: "Google, Bing und Co nutzen zur Angabe von Informationen und zur Klassifizierung des Seiteninhalts schema.org. Verbessern Sie die Darstellung Ihrer Seiten.",
         canonical: localhost + "/de/seo-optimierung/structured-data",
         alt: localhost + "/en/seo-services/structured-data"
     });
@@ -832,7 +825,7 @@ app.get("/en/seo-services/internal-linking", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is Internal Linking and why it is important | SEO Berlino",
-        description: "Internal Linking and Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "Internal Linking is core for on-page SEO, especially for big websites. Link juice redistribution, prioritization of key pages or site sections to name a few reasons.",
         canonical: localhost + "/en/seo-services/internal-linking",
         alt: localhost + "/de/seo-optimierung/interne-verlinkung"
     });
@@ -844,7 +837,7 @@ app.get("/de/seo-optimierung/interne-verlinkung", (req, res) => {
         requrl: localhost + "/en/seo-services/internal-linking",
         layout: "mainDE-min",
         title: "Bedeutung von Interner Verlinkung | SEO Berlino",
-        description: "Interne Verlinking.",
+        description: "Interne Verlinkung ist zentral für OnPage SEO, speziell für große Websites. Z.B. Link Juice Redistribution, Priorisierung von Schlüsselseiten oder Site-Abschnitten.",
         canonical: localhost + "/de/seo-optimierung/interne-verlinkung",
         alt: localhost + "/en/seo-services/internal-linking"
     });
@@ -856,7 +849,7 @@ app.get("/en/seo-services/voice-search", (req, res) => {
         requrl: localhost + "/en/seo-services/voice-search",
         layout: "main-min",
         title: "What is Voice Search for SEO | SEO Berlino",
-        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "Voice search has disrupted Search Engine Optimization with longer search terms different than typed in queries. Learn more about how you should adapt to those searches.",
         canonical: localhost + "/en/seo-services/voice-search",
         alt: localhost + "/de/seo-optimierung/sprachsuche"
     });
@@ -868,7 +861,7 @@ app.get("/de/seo-optimierung/sprachsuche", (req, res) => {
         requrl: localhost + "/en/seo-services/voice-search",
         layout: "mainDE-min",
         title: "Was ist Sprachsuche? | SEO Berlino",
-        description: "Sprachsuche und SEO.",
+        description: "Sprachsuche hat Suchmaschinenoptimierung mit längeren Suchbegriffen, die sich von den eingetippten Anfragen unterscheiden, durcheinander gebracht.",
         canonical: localhost + "/de/seo-optimierung/sprachsuche",
         alt: localhost + "/en/seo-services/voice-search"
     });
@@ -880,7 +873,7 @@ app.get("/de/seo-optimierung/seo-case-studies", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Case Studies | SEO Optimierung | SEO Berlino",
-        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "SEO Case studies of various Berlin startups and other successful local companies: HelloFresh, N26, Zalando and more. Which Keywords bring most of their traffic and more.",
         canonical: localhost + "/en/seo-services/seo-case-studies"
     });
 });
@@ -891,7 +884,7 @@ app.get("/en/seo-services/seo-case-studies", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Case Studies | SEO Services | SEO Berlino",
-        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "SEO Case studies of various Berlin startups and other successful local companies: HelloFresh, N26, Zalando and more. Which Keywords bring most of their traffic and more.",
         canonical: localhost + "/en/seo-services/seo-case-studies"
     });
 });
@@ -902,7 +895,7 @@ app.get("/en/seo-services/technical-seo", (req, res) => {
         requrl: localhost + "/en/seo-services/technical-seo",
         layout: "main-min",
         title: "What is Technical SEO? | SEO Berlino",
-        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "Technical SEO Services: Indexation, crawling, performance & code, canonicals etc. Get in touch with us to organise a call and discuss your needs.",
         canonical: localhost + "/en/seo-services/technical-seo",
         alt: localhost + "/de/seo-optimierung/technical-seo"
     });
@@ -914,7 +907,7 @@ app.get("/de/seo-optimierung/technical-seo", (req, res) => {
         requrl: localhost + "/en/seo-services/technical-seo",
         layout: "mainDE-min",
         title: "Was ist Technical SEO (Technisches SEO) ? | SEO Berlino",
-        description: "Website optimization, about SEO and its most important challenges. SEO Consultant in Berlin. Close to 10 years experience in SEO, Analytics and SEA.",
+        description: "Technische SEO Dienstleistungen: Indexierung, Crawling, Performance & Code, Canonicals etc. Vereinbaren Sie einen individuellen Beratungstermin mit uns!",
         canonical: localhost + "/de/seo-optimierung/technical-seo",
         alt: localhost + "/en/seo-services/technical-seo"
     });
@@ -926,7 +919,7 @@ app.get("/de/seo-optimierung", (req, res) => {
         requrl: localhost + "/en/seo-services",
         layout: "mainDE-min",
         title: "Was ist SEO 'Optimierung' - Optimierung für Suchmaschinen | SEO Berlino",
-        description: "Optimierung für Suchmaschinen, SEO Optimierung, SEO Betreuung in Berlin. SEO und Webanalyse Blog.",
+        description: "SEO-Blog und SEO-Ressourcen von SEO Berlino: über SEO-Nachrichten und SEO-Lexikon, damit Sie ein paar SEO-Grundlagen wie canonicals und hreflang verstehen.",
         canonical: localhost + "/de/seo-optimierung",
         alt: localhost + "/en/seo-services"
     });
@@ -938,7 +931,7 @@ app.get("/de/contact", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainDE-min",
         title: "SEO Berlino Kontakt | SEO Berater in Berlin",
-        description: "SEO Berater in Berlin, 10 Jahre Erfahrung | Kontaktieren Sie uns jetzt für weitere Details.",
+        description: "Vereinbaren Sie einen Anruf um Ihre Anforderungen zu besprechen. Über 11 Jahre Erfahrung. Aktuelle und ehemalige Kunden: Montblanc, Spreadshirt und HelloFresh.",
         canonical: localhost + "/de/contact",
         alt: localhost + "/en/contact"
     });
@@ -950,7 +943,7 @@ app.get("/en/contact", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "SEO Consultant in Berlin | Get in Touch | SEO Berlino",
-        description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
+        description: "Get in touch with SEO Berlino to arrange a call and discuss your needs. Over 11 years experience. Current and former clients: Montblanc, Spreadshirt and HelloFresh.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/contact"
     });
@@ -962,7 +955,7 @@ app.get("/de/seo-experte", (req, res) => {
         requrl: localhost + "/en/seo-expert",
         layout: "mainDE-min",
         title: "SEO Berater und Experte Berlin | SEO Berlino",
-        description: "SEO Berater in Berlin, 10 Jahre Erfahrung, Experte SEO und Webanalyse. Kontaktieren Sie uns jetzt für weitere Details.",
+        description: "SEO-Experte in Berlin, über 10 Jahre Erfahrung in SEO und Analytics. Erfahrung mit multinationalen, sowie kleineren lokalen Unternehmen. Kontaktieren Sie uns!",
         canonical: localhost + "/de/seo-experte",
         alt: localhost + "/en/seo-expert"
     });
@@ -974,7 +967,7 @@ app.get("/en/seo-expert", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "SEO Consultant • SEO Expert in Berlin | SEO Berlino ",
-        description: "Get in touch to get a quote.  SEO expert with over 10 years experience: Montblanc, Spreadshirt, Ricoh, BSH, MSF, Red Cross, KeepTool, etc",
+        description: "SEO expert in Berlin, over 10 years experience in SEO and Analytics. Experience with multinationals as well as smaller local businesses. Get in touch to arrange a call.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-experte"
     });
@@ -1119,7 +1112,7 @@ app.get("/de/sea", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainDE-min",
         title: "Online Marketing Beratung Freelancer | SEO Berlino",
-        description: "SEA-Experte für SEA-Projekte: Google Ads, Facebook Ads, Instagram. Einrichtung, Test, Analyse und Optimierung.",
+        description: "SEA-Experte für Suchmaschinen-Werbeprojekte: Google Ads, Facebook Ads, Instagram. Setup, Testing, Analytics und Optimierung. Kunden: Montblanc, BSH, etc",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/sea"
     });
@@ -1131,7 +1124,7 @@ app.get("/en/sea", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "Online Marketing Consultant Berlin | SEO Berlino",
-        description: "SEA Expert for SEA Projects: Google Ads, Facebook Ads, Instagram. Set-up, Testing, Analytics and Optimization.",
+        description: "SEA Expert for Search Engine Advertising Projects: Google Ads, Facebook Ads, Instagram. Set-up, Testing, Analytics and Optimization. Clients: Montblanc, BSH, etc",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/sea"
     });
@@ -1143,8 +1136,8 @@ app.get("/en/agile-coach-berlin", (req, res) => {
         requrl: localhost + "/en/agile-coach-berlin",
         layout: "mainNoAlt",
         title: "Agile Coach Freelancer in Berlin | SEO Berlino",
-        description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master and experienced as both Scrum Master and Product owner.",
-        canonical: localhost + "" + req.originalUrl,
+        description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master as both Scrum Master and Product owner.",
+        canonical: localhost + "/en/agile-coach-berlin",
         alt: localhost + "/de/agile-coach-berlin"
     });
 });
@@ -1155,37 +1148,12 @@ app.get("/de/agile-coach-berlin", (req, res) => {
         requrl: localhost + "/en/agile-coach-berlin",
         layout: "mainNoAltDE",
         title: "Agile Coach / Scrum Master in Berlin | SEO Berlino",
-        description: "Implementieren Sie Scrum für Ihre Projekte. 10 Jahre erfahrener Scrum-Master und Product Owner.",
+        description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master as both Scrum Master and Product owner.",
         canonical: localhost + "/en/agile-coach-berlin",
         alt: localhost + "/en/agile-coach-berlin"
     });
 });
 
-app.get("/error", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("error", {
-        layout: "mainHPNoIndex",
-        title: "Error",
-        description: "This page should not be indexed so please ignore it."
-    });
-});
-
-app.get("/en/success", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("success", {
-        layout: "mainHPNoIndex",
-        title: "Success, thank you for your message!",
-        description: "Thank you for your message."
-    });
-});
-app.get("/de/success", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("success", {
-        layout: "mainHPNoIndex",
-        title: "Danke für Ihre Nachricht!",
-        description: "Danke für Ihre Nachricht"
-    });
-});
 
 app.get("/en/seo-services/canonical", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1193,9 +1161,21 @@ app.get("/en/seo-services/canonical", (req, res) => {
         requrl: localhost + "/en/seo-services/canonical",
         layout: "main-min",
         title: "What is Canonical Tag and how to use it | SEO Berlino",
-        description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "If you have to publish different versions of very similar pages (for instance products in different colours) canonicals can solve the duplication indexation issues.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/canonical"
+    });
+});
+
+app.get("/de/seo-optimierung/canonical", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/canonical", {
+        requrl: localhost + "/en/seo-services/canonical",
+        layout: "mainDE-min",
+        title: "Was ist ein Canonical Tag und warum ist es wichtig? | SEO Berlino",
+        description: "Wenn Sie verschiedene Versionen ähnlicher Seiten veröffentlichen (z.B. Produkte in mehreren Farben), können Canonicals Probleme der doppelten Indexierung lösen.",
+        canonical: localhost + "" + req.originalUrl,
+        alt: localhost + "/en/seo-services/canonical"
     });
 });
 
@@ -1205,7 +1185,7 @@ app.get("/en/seo-services/hreflang", (req, res) => {
         requrl: localhost + "/en/seo-services/hreflang",
         layout: "main-min",
         title: "What is Hreflang and how to use it | SEO Berlino",
-        description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "If you have a multi-language site, especially if you have the pages in the same language but for different countries (US vs UK), you need to use hreflang.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/hreflang"
     });
@@ -1217,7 +1197,7 @@ app.get("/de/seo-optimierung/hreflang", (req, res) => {
         requrl: localhost + "/en/seo-services/hreflang",
         layout: "mainDE-min",
         title: "Was ist Hreflang und warum ist es wichtig? | SEO Berlino",
-        description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Bei einer mehrsprachigen Website, insbesondere bei Seiten in der gleichen Sprache für verschiedene Länder (USA vs. UK) haben, müssen Sie hreflang verwenden.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/hreflang"
     });
@@ -1225,17 +1205,7 @@ app.get("/de/seo-optimierung/hreflang", (req, res) => {
 
 
 
-app.get("/de/seo-optimierung/canonical", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("blogtech/canonical", {
-        requrl: localhost + "/en/seo-services/canonical",
-        layout: "mainDE-min",
-        title: "Was ist ein Canonical Tag und warum ist es wichtig? | SEO Berlino",
-        description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
-        canonical: localhost + "" + req.originalUrl,
-        alt: localhost + "/en/seo-services/canonical"
-    });
-});
+
 
 app.get("/en/seo-services/404", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1243,7 +1213,7 @@ app.get("/en/seo-services/404", (req, res) => {
         requrl: localhost + "/en/seo-services/404",
         layout: "main-min",
         title: "What does 404 - Page Not Found mean| SEO Berlino",
-        description: "SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "A 404 Error - Page not found shows when the page requested does not exist.It is a client-side error : the server receives a request, but cannot carry it out.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/404"
     });
@@ -1255,7 +1225,7 @@ app.get("/de/seo-optimierung/404", (req, res) => {
         requrl: localhost + "/en/seo-services/404",
         layout: "mainDE-min",
         title: "Was bedeutet 'Fehler 404 - Not Found'? | SEO Berlino",
-        description: "Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "A 404 Fehler - Seite nicht gefunden zeigt, wenn die gewünschte Seite nicht exist. Es ist ein clientseitige Fehler: der Server eine Anfrage erhält, kann es aber nicht durchführen.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/404"
     });
@@ -1316,9 +1286,21 @@ app.get("/en/seo-services/disavowtool", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "Disavow Tool | SEO Berlino",
-        description: "Disavow Tool. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Use the Disavow Tool when you want to tell Google that you do not want a link / links to be taken into account. A complete guide on the Disavow Tool.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/disavowtool"
+    });
+});
+
+app.get("/de/seo-optimierung/disavowtool", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("blogtech/disavow", {
+        requrl: localhost + "/en/seo-services/disavowtool",
+        layout: "mainDE-min",
+        title: "Was ist das Disavow Tool? | SEO Berlino",
+        description: "Verwenden Sie das Disavow-Tool, um Google mitzuteilen, dass ein Link / Links nicht berücksichtigt werden soll. Eine vollständige Anleitung zum Disavow-Tool.",
+        canonical: localhost + "" + req.originalUrl,
+        alt: localhost + "/en/seo-services/disavowtool"
     });
 });
 
@@ -1328,7 +1310,7 @@ app.get("/en/seo-services/serp", (req, res) => {
         requrl: localhost + "/en/seo-services/serp",
         layout: "main-min",
         title: "What does SERP stand for| SEO Berlino",
-        description: "SERP. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "SERP is the abbreviation for Search Engine Result Pages. The search results of a search query (by searching for a keyword) are listed in the SERPs of search engines.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/serp"
     });
@@ -1340,7 +1322,7 @@ app.get("/de/seo-optimierung/serp", (req, res) => {
         requrl: localhost + "/en/seo-services/serp",
         layout: "mainDE-min",
         title: "What does SERP stand for| SEO Berlino",
-        description: "SERP. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "In den SERPs (Search Engine Result Pages) von Suchmaschinen werden die Suchergebnisse einer Suchanfrage (bei der Suche nach einem Keyword) aufgelistet.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/serp"
     });
@@ -1352,7 +1334,7 @@ app.get("/en/seo-services/googleupdate", (req, res) => {
         requrl: localhost + "/en/seo-services/googleupdate",
         layout: "main-min",
         title: "SEO Google Updates, what it means to you | SEO Berlino",
-        description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Learn about the latest Google Updates. Google has been warning webmasters about the new update which will focus on better experience especially page speed.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/googleupdate"
     });
@@ -1364,7 +1346,7 @@ app.get("/de/seo-optimierung/googleupdate", (req, res) => {
         requrl: localhost + "/en/seo-services/googleupdate",
         layout: "mainDE-min",
         title: "Google SEO Updates | SEO Berlino",
-        description: "Google updates. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Infos zu den neuesten Google Updates. Google warnte Webmaster vor neuem Update, in Bezug auf eine bessere Erfahrung, insbesondere die Seitengeschwindigkeit.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/googleupdate"
     });
@@ -1372,17 +1354,7 @@ app.get("/de/seo-optimierung/googleupdate", (req, res) => {
 
 
 
-app.get("/de/seo-optimierung/disavowtool", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("blogtech/disavow", {
-        requrl: localhost + "/en/seo-services/disavowtool",
-        layout: "mainDE-min",
-        title: "Was ist das Disavow Tool? | SEO Berlino",
-        description: "Disavow Tool. Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
-        canonical: localhost + "" + req.originalUrl,
-        alt: localhost + "/en/seo-services/disavowtool"
-    });
-});
+
 
 app.get("/en/seo-services/longtail", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1390,7 +1362,7 @@ app.get("/en/seo-services/longtail", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What are Long Tail Keywords | SEO Berlino",
-        description: "Long Tail Keywords. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Long tail when talking about Keywords regroups all the keywords which bring a big amount of the traffic but each have very little Search Volume.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/longtail"
     });
@@ -1402,7 +1374,7 @@ app.get("/de/seo-optimierung/longtail", (req, res) => {
         requrl: localhost + "/en/seo-services/longtail",
         layout: "mainDE-min",
         title: "Was sind Long Tail Keywords? | SEO Berlino",
-        description: "Long Tail Keywords. Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Long Tail, wenn es um Keywords geht, gruppiert alle Keywords, die einen großen Teil des Traffics bringen, aber jeweils sehr wenig Suchvolumen haben.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/longtail"
     });
@@ -1414,7 +1386,7 @@ app.get("/en/seo-services/searchvolume", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is Keyword Search Volume and why it is important | SEO Berlino",
-        description: "Search Volume. SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Search Volume is a metric to understand demand for a given Keyword. A high search volume is not always the most important; other metrics need to be taken into account.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/searchvolume"
     });
@@ -1427,7 +1399,7 @@ app.get("/en/seo-services/voice-search-challenges", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Voice Search and how it challenges SEO | SEO Berlino ",
-        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
+        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about challenges with Voice Search Optimization.",
         canonical: localhost + "" + req.originalUrl
     });
 });
@@ -1438,35 +1410,13 @@ app.get("/de/seo-optimierung/searchvolume", (req, res) => {
         requrl: localhost + "/en/seo-services/searchvolume",
         layout: "mainDE-min",
         title: "Was sind Keyword Suchvolumen  | SEO Berlino",
-        description: "Suchvolumen, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Das Suchvolumen ist eine Metrik, die die Nachfrage nach einem bestimmten Keyword anzeigt. Zusätzlich müssen aber auch andere Metriken berücksichtigt werden.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/searchvolume"
     });
 });
 
-app.get("/en/seo-services/amp", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("blogtech/amp", {
-        requrl: localhost + "/en" + req.originalUrl.substring(3),
-        layout: "main-min",
-        title: "What is AMP (Accelerated Mobile Pages) and how do they work | SEO Berlino",
-        description: "AMP, Accelerated Mobile Pages, SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
-        canonical: localhost + "" + req.originalUrl,
-        alt: localhost + "/de/seo-optimierung/amp"
-    });
-});
 
-app.get("/de/seo-optimierung/amp", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("blogtech/amp", {
-        requrl: localhost + "/en/seo-services/amp",
-        layout: "mainDE-min",
-        title: "Was sind AMP (Accelerated Mobile Pages)? | SEO Berlino",
-        description: "AMP (Accelerated Mobile Pages). Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
-        canonical: localhost + "" + req.originalUrl,
-        alt: localhost + "/en/seo-services/amp"
-    });
-});
 
 app.get("/en/seo-services/removeurl", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1474,7 +1424,7 @@ app.get("/en/seo-services/removeurl", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is the Remove URL Tool and how does it work | SEO Berlino",
-        description: "Remove URL Tool, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "On top of using noindex, you can ask Google to temporarily deindex pages. This feature helps to quickly remove a page or multiple pages from the index.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/removeurl"
     });
@@ -1486,7 +1436,7 @@ app.get("/de/seo-optimierung/removeurl", (req, res) => {
         requrl: localhost + "/en/seo-services/removeurl",
         layout: "mainDE-min",
         title: "Was ist der Remove URL Tool  | SEO Berlino",
-        description: "Remove URL Tool. Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Sie können Google bitten, Seiten vorübergehend zu deindexieren. Diese Funktion hilft dabei, eine oder mehrere Seiten schnell aus dem Index zu entfernen.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/removeurl"
     });
@@ -1498,7 +1448,7 @@ app.get("/en/seo-services/rankbrain", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is Rank Brain and how does it work | SEO Berlino",
-        description: "Rank Brain, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Rankbrain is a Google algorithm used to understand search queries and sort search results using machine learning. ",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/rankbrain"
     });
@@ -1510,7 +1460,7 @@ app.get("/de/seo-optimierung/rankbrain", (req, res) => {
         requrl: localhost + "/en/seo-services/rankbrain",
         layout: "mainDE-min",
         title: "Was ist Rank Brain und wie funktioniert | SEO Berlino",
-        description: "Rank Brain, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Rankbrain ist ein Google-Algorithmus, der dazu dient, Suchanfragen zu verstehen und Suchergebnisse mithilfe von maschinellem Lernen zu sortieren.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/rankbrain"
     });
@@ -1522,7 +1472,7 @@ app.get("/en/seo-services/redirects", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What are 301 and 302 Redirects and what is the difference | SEO Berlino",
-        description: "Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Correctly redirecting pages is important in SEO. The two main redirect status codes are 301 and 302: respectively permanent and temporary redirects.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/redirects"
     });
@@ -1534,7 +1484,7 @@ app.get("/de/seo-optimierung/redirects", (req, res) => {
         requrl: localhost + "/en/seo-services/redirects",
         layout: "mainDE-min",
         title: "Was sind 301 und 302 Redirects (Weiterleitungen) | SEO Berlino",
-        description: "Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Die korrekte Weiterleitung von Seiten ist wichtig für SEO. Die beiden wichtigsten Umleitungsstatuscodes sind 301 und 302: permanente bzw. temporäre Umleitungen.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/redirects"
     });
@@ -1546,7 +1496,7 @@ app.get("/en/seo-services/noindex", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is noindex and how does it work | SEO Berlino",
-        description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "If you identify pages that are not to be indexed, you should use `noindex`. This tells Search engine to exclude them from their index.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/noindex"
     });
@@ -1558,7 +1508,7 @@ app.get("/de/seo-optimierung/noindex", (req, res) => {
         requrl: localhost + "/en/seo-services/noindex",
         layout: "mainDE-min",
         title: "Was ist noindex und wie funktioniert | SEO Berlino",
-        description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Wenn Sie Seiten identifizieren, die nicht indiziert werden sollen, sollten Sie `noindex` verwenden. Dies weist die Suchmaschine an, sie aus ihrem Index zu nehmen.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/noindex"
     });
@@ -1570,7 +1520,7 @@ app.get("/en/seo-services/nofollow", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is a nofollow link and how does it work | SEO Berlino",
-        description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Nofollow is a value that can be assigned to a link to instruct search engines that it should not affect the ranking of the link target of the search engine’s index.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/nofollow"
     });
@@ -1582,7 +1532,7 @@ app.get("/de/seo-optimierung/nofollow", (req, res) => {
         requrl: localhost + "/en/seo-services/nofollow",
         layout: "mainDE-min",
         title: "Was ist ein nofollow link und wie funktioniert es? | SEO Berlino",
-        description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Nofollow ist ein dem Link zuweisbarer Wert, der Suchmaschinen anweist, dass er das Ranking des Linkziels im Index der Suchmaschine nicht beeinflussen soll.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/nofollow"
     });
@@ -1594,7 +1544,7 @@ app.get("/en/seo-services/robots", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is Robots.txt and how does it work | SEO Berlino",
-        description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "The Robots file (robots.txt) controls what crawlers can access or not.You can for instance disallow access login pages which you do not want Search engines to crawl,",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/robots"
     });
@@ -1606,7 +1556,7 @@ app.get("/de/seo-optimierung/robots", (req, res) => {
         requrl: localhost + "/en/seo-services/robots",
         layout: "mainDE-min",
         title: "Was ist Robots.txt und wie funktioniert | SEO Berlino",
-        description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Die Robots-Datei (robots.txt) steuert den Zugriff von Crawlern, wie z.B. den Zugriff auf Login-Seiten, die von Suchmaschinen nicht gecrawlt werden sollen.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/robots"
     });
@@ -1618,7 +1568,7 @@ app.get("/en/seo-services/sitemaps", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
         title: "What is an xml Sitemap and how does it work | SEO Berlino",
-        description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        description: "Sitemaps are used to help Google understand which pages should be crawled. Learn about Sitemaps and how they can improve your site's crawlability.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/de/seo-optimierung/sitemaps"
     });
@@ -1630,21 +1580,23 @@ app.get("/de/seo-optimierung/sitemaps", (req, res) => {
         requrl: localhost + "/en/seo-services/sitemaps",
         layout: "mainDE-min",
         title: "Was ist ein xml Sitemap und wie funktioniert | SEO Berlino",
-        description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        description: "Durch Sitemaps versteht Google, welche Seiten gecrawlt werden sollen. Erfahren Sie mehr über Sitemaps und wie sie die Crawlability Ihrer Website verbessern.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/sitemaps"
     });
 });
+
+
 
 app.get("/en/seo-services/amp", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("blogtech/amp", {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "main-min",
-        title: "What are AMP (Accelerated Mobile Pages) | SEO Berlino",
-        description: "Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
+        title: "What is AMP (Accelerated Mobile Pages) and how do they work | SEO Berlino",
+        description: "AMP stands for 'Accelerated Mobile Pages'. Developed by Google it intends to reduce load time and improve user experience. Learn more about AMP and how to implement them.",
         canonical: localhost + "" + req.originalUrl,
-        alt: localhost + "/de/seo-optimierung/sitemaps"
+        alt: localhost + "/de/seo-optimierung/amp"
     });
 });
 
@@ -1653,36 +1605,14 @@ app.get("/de/seo-optimierung/amp", (req, res) => {
     res.render("blogtech/amp", {
         requrl: localhost + "/en/seo-services/amp",
         layout: "mainDE-min",
-        title: "Was sind AMP (Accelerated Mobile Pages) | SEO Berlino",
-        description: "Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
+        title: "Was sind AMP (Accelerated Mobile Pages)? | SEO Berlino",
+        description: "Von Google entwickelte AMP (Accelerated Mobile Pages) sollen durch verkürzte Ladezeit das Nutzererlebnis verbessern. Über AMP und wie man sie implementiert.",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/seo-services/amp"
     });
 });
 
-app.get("/en/seo-services/searchengines", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("blogtech/suchmaschinen", {
-        requrl: localhost + "/en" + req.originalUrl.substring(3),
-        layout: "main-min",
-        title: "Search Engines | SEO Berlino",
-        description: "Search Enginles, Noindex, Redirects, Accelerated Mobile Pages: SEO Glossary for SEO. Learn about SEO Jargon and what some terms mean: Canonicals, hreflangs, noindex, nofollow, etc. ",
-        canonical: localhost + "" + req.originalUrl,
-        alt: localhost + "/de/seo-optimierung/searchengines"
-    });
-});
 
-app.get("/de/seo-optimierung/searchengines", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("blogtech/suchmaschinen", {
-        requrl: localhost + "/en/seo-services/amp",
-        layout: "mainDE-min",
-        title: "Suchmaschinen | SEO Berlino",
-        description: "Suchmaschinen, Noindex, Redirects, Canonical und andere Suchmaschinenoptimierung Begriffe. SEO Glossar: canonicals, noindex, nofollow, search console, Google Keyword Finder, etc.",
-        canonical: localhost + "" + req.originalUrl,
-        alt: localhost + "/en/seo-services/searchengines"
-    });
-});
 
 app.get("/sitemap.xml", (req, res) => {
     res.render("sitemap", {});
@@ -1700,16 +1630,7 @@ app.get("/en/seo-services/linkbuilding-in-2020", (req, res) => {
     });
 });
 
-app.get("/en/seo-services/voice-search-challenges", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("blogonpage/blogvoice", {
-        requrl: localhost + "/en" + req.originalUrl.substring(3),
-        layout: "mainNoAlt",
-        title: "Voice Search and how it challenges SEO | SEO Berlino ",
-        description: "Once you are ready for mobile first, the next step is to prepare your website for Voice Search. Everything you need to know about Voice Search.",
-        canonical: localhost + "" + req.originalUrl
-    });
-});
+
 
 app.get("/en/seo-services/clutch", (req, res) => {
     i18n.setLocale(req, "en");
@@ -1739,7 +1660,7 @@ app.get("/en/seo-services/seo-in-asia-korea-china-japan-2020", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO in Asia: China, Japan and Korea | SEO Berlino",
-        description: "Blog article about SEO in Asia and Search Engines in Asia. How to approach SEO for the Asian market.",
+        description: "Article about SEO and Search Engines in Asia. How to approach SEO for the Asian market. SEO Berlino is an SEO Agency located in Berlin.",
         canonical: localhost + "" + req.originalUrl
     });
 });
@@ -1750,7 +1671,7 @@ app.get("/en/seo-services/beyond-mobile-first", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO Beyond Mobile First | SEO Blog | SEO Berlino",
-        description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop.",
+        description: "More people now surf the net on mobile than on Desktop and Google now uses mobile indexation as the norm ahead of Desktop. Learn more about Mobile first and how it impacts SEO.",
         canonical: localhost + "/en/seo-services/beyond-mobile-first"
     });
 });
@@ -1763,7 +1684,7 @@ app.get(
             requrl: localhost + "/en" + req.originalUrl.substring(3),
             layout: "mainNoAlt",
             title: "Structured Data SEO | SEO Berlino",
-            description: "SEO Blog article about Structured Data and why you need to implement them to improve your SEO.  Everything you need to know about Strucutured Data. ",
+            description: "SEO Blog article about Structured Data and why you need to implement them to improve your SEO. Everything you need to know about Structured Data.",
             canonical: localhost + "" + req.originalUrl
         });
     }
@@ -1786,7 +1707,7 @@ app.get("/en/seo-services/how-to-get-those-first-links", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "How to get those first backlinks | SEO Berlino",
-        description: "Read this article about SEO and Back linking and how to get your first backlinks in a simple way: clients, sponsoring, specialised websites, etc.",
+        description: "Read this article about SEO and Link building and how to get your first backlinks in a simple way: clients, sponsoring, specialised websites, etc.",
         canonical: localhost + "" + req.originalUrl
     });
 });
@@ -1797,7 +1718,7 @@ app.get("/en/seo-services/site-migration-seo-checklist", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "Site migration SEO Checklist | SEO Berlino",
-        description: "Read this article about site migration and what to do before you start migration.",
+        description: "Site migration can be very risky for your SEO traffic if you do not follow a checklist: from redirects to creation of new sitemaps, reporting and controlling.",
         canonical: localhost + "" + req.originalUrl
     });
 });
@@ -1820,7 +1741,7 @@ app.post("/en/email", function(req, res) {
                         <li>Email: ${req.body.email}</li>
                         <li>Website: ${req.body.website}</li>
                         <li>Beratung: ${req.body.beratung}</li>
-                        <li>Consulting: ${req.body.budget}</li>
+                        <li>Consultancy: ${req.body.budget}</li>
                     </ul>
                     <h3>Message</h3>
                     <p>${req.body.message}</p>
@@ -1875,7 +1796,7 @@ app.post("/de/email", function(req, res) {
                         <li>Email: ${req.body.email}</li>
                         <li>Website: ${req.body.website}</li>
                         <li>Beratung: ${req.body.beratung}</li>
-                        <li>Consulting: ${req.body.budget}</li>
+                        <li>Consultancy: ${req.body.budget}</li>
                     </ul>
                     <h3>Message</h3>
                     <p>${req.body.message}</p>
@@ -1915,7 +1836,44 @@ app.post("/de/email", function(req, res) {
 });
 
 
+app.get("/error", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("error", {
+        layout: "mainHPNoIndex",
+        title: "Error",
+        description: "This page should not be indexed so please ignore it."
+    });
+});
+
+app.get("/en/success", (req, res) => {
+    i18n.setLocale(req, "en");
+    res.render("success", {
+        layout: "mainHPNoIndex",
+        title: "Success, thank you for your message!",
+        description: "Thank you for your message."
+    });
+});
+app.get("/de/success", (req, res) => {
+    i18n.setLocale(req, "de");
+    res.render("success", {
+        layout: "mainHPNoIndex",
+        title: "Danke für Ihre Nachricht!",
+        description: "Danke für Ihre Nachricht"
+    });
+});
+
+
 //////////////// Redirects////////////////
+
+app.get("/en/seo-services/metas", function(request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/en/seo-onpage",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
 app.get("/en/article/beyond-mobile-first", function(request, response) {
     response.writeHead(301, {
         Location: localhost + "/en/seo-services/beyond-mobile-first",

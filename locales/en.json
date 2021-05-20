@@ -602,7 +602,7 @@
   "searchconsoleMP": "Google's Search Console is an essential tool you need to use to gather information and data for SEO  ",
   "searchvolumeMP": "Search Volume is a metric to understand demand for a given Keyword. It is an estimate of monthly searches for a term. The higher the metric the more visits you can expect when ranking high in SERPs for a given Keyword. However, that keyword may also very likely be more competitive. Tools such as Ahrefs give you an indicator of how competitive the keyword is. On the other side of the spectrum, if you target Keywords with no search volume, you are less likely to get visitors to your site.",
   "sitemapsMP": "Sitemaps are used to help Google understand which pages should be crawled. Google and other Search Engines do not guaranty that all URLs in the Sitemap(s) will be indexed but creating and submiting your Sitemap(s) is highly recommended.   ",
-  "disavowMP": "Use this tool when you want to tell Google that you do not want a link / links not to be taken into account.",
+  "disavowMP": "Use this tool when you want to tell Google that you do not want a link / links be taken into account in your backlink profile.. disavowing the link(s).",
   "disavowh1": "Disavow Links",
   "disavowsrc": "/disavowtool.png",
   "lighthouseMP": "Lighthouse is a great tool to chek Performance. Pageload time is key in SEO and has a massive impact on rankings.",
