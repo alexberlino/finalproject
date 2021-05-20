@@ -162,7 +162,7 @@ app.get("/de", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainDEHP-min",
-        title: "SEO Berlin Freelance Beratung • SEO Agentur | SEO Berlino",
+        title: "SEO Berlin: Freelance Beratung | SEO Berlino Agentur",
         canonical: localhost + "/de",
         description: "SEO Beratung in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
@@ -174,7 +174,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("seoberatung/seofreelancer-min", {
         requrl: localhost + "/de/seo-freelancer",
         layout: "mainDE-min",
-        title: "SEO Freelancer in Berlin | SEO Berlino",
+        title: "SEO Freelancer Berlin • SEO Berater  | SEO Berlino",
         description: "SEO Beratung in Berlin, erfahren in internationaler SEO. Audits durch einen SEO Berater mit über 10 Jahren Erfahrung. Kunden: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/de/seo-freelancer",
         alt: localhost + "/en/seo-freelancer"
@@ -187,7 +187,7 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seofreelancer-min", {
         requrl: localhost + "/de/seo-freelancer",
-        title: "Experienced SEO Consultant in Germany | SEO Berlino",
+        title: "SEO Consultant Freelancer in Berlin | SEO Berlino",
         layout: "main-min",
         description: "SEO Consultant in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/seo-freelancer",
@@ -247,7 +247,7 @@ app.get("/en/seo-onpage", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoonpage", {
         requrl: localhost + "/de/seo-onpage",
-        title: "SEO Onpage Services Berlin | SEO Berlino",
+        title: "SEO On-page Services Berlin | SEO Berlino",
         layout: "main-min",
         description: "SEO Berlino offers Onpage SEO Services: Keyword Research and Mapping, Audit, content analysis and marketing, and much more. Get in touch to organise a call.",
         canonical: localhost + "/en/seo-onpage",
@@ -370,7 +370,7 @@ app.get("/en/backlinks", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seobacklinks", {
         requrl: localhost + "/de/backlinks",
-        title: "Backlinks Analysis and Strategie| SEO Berlino",
+        title: "Backlinks Analysis and Strategie | SEO Berlino",
         layout: "main-min",
         description: "SEO Offpage Services in Berlin. Backlink profile and industry-specific analysis, linkbuilding strategy. Get in touch now for more details or to arrange a call.",
         canonical: localhost + "/en/backlinks",
@@ -411,7 +411,7 @@ app.get("/de/keyword-research", (req, res) => {
     res.render("seoberatung/keywordresearch", {
         requrl: localhost + "/de/keyword-research",
         layout: "mainDE-min",
-        title: "Keyword Recherche • Keyword Mapping | SEO Berlino",
+        title: "Keyword Recherche Berlin • Keyword Mapping | SEO Berlino",
         description: "Keyword Research und Keyword Mapping. Erfahrene internationale SEO Agentur in Berlin. Vereinbaren Sie einen Beratungstermin. Kunden: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/de/keyword-research",
         alt: localhost + "/en/keyword-research"
@@ -540,7 +540,7 @@ app.get("/de/competitor-analysis", (req, res) => {
     res.render("otherberatung/competitor", {
         requrl: localhost + "/de/competitor-analysis",
         layout: "mainDE-min",
-        title: "Wettbewerberanalyse Online Marketing | SEO Berlino",
+        title: "Wettbewerberanalyse SEO  & Online Marketing | SEO Berlino",
         description: "Eine SEO-Mitbewerberanalyse zeigt Ihnen, wie Ihre Mitbewerber organischen Traffic und Backlinks erhalten. Sie dient dazu, Benchmarks und Ziele zu setzen.",
         canonical: localhost + "/de/competitor-analysis",
         alt: localhost + "/en/competitor-analysis"
