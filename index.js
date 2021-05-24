@@ -162,7 +162,7 @@ app.get("/de", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainDEHP-min",
-        title: "SEO Berlin: Freelance Beratung | SEO Berlino Agentur",
+        title: "SEO Freelance Beratung Berlin | SEO Berlino",
         canonical: localhost + "/de",
         description: "SEO Beratung in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
