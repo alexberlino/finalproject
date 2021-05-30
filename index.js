@@ -1728,15 +1728,17 @@ var nodemailer = require("nodemailer");
 app.post("/en/email", function(req, res) {
 
     if (req.body.address
-        .length != 0) {
+        .length != 0) | (req.body.name = "Richardnet") {
+
+        res.writeHead(301, {
+            Location: localhost + "/en/success"
+        });
+        res.end();
 
         console.log("failed");
     }
 
-    if (req.body.name = "Richardnet") {
-
-        console.log("failed");
-    } else {
+    else {
 
         nodemailer.createTestAccount((error, account) => {
             const htmlEmail = `
@@ -1789,10 +1791,12 @@ app.post("/en/email", function(req, res) {
 app.post("/de/email", function(req, res) {
 
     if (req.body.address
-        .length != 0) {
-        res.end();
-    }
-    if (req.body.name = "Richardnet") {
+        .length != 0) | (req.body.name = "Richardnet") {
+
+        res.writeHead(301, {
+            Location: localhost + "/en/success"
+        });
+
 
         console.log("failed");
     } else {
