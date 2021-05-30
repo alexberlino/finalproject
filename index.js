@@ -150,8 +150,8 @@ app.get("/en", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainHP-min",
-        title: "SEO Agency Germany • SEO Freelance Consultancy | SEO Berlino",
-        description: "SEO Agency with over 10 years experience: €100m + multinationals. Clients such as Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        title: "SEO Consultant Germany • SEO Agency | SEO Berlino",
+        description: "SEO Consultant in Berlin with over 10 years experience: €100m + multinationals. Clients such as Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en",
         alt: localhost + "/de",
     });
@@ -162,24 +162,14 @@ app.get("/de", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainDEHP-min",
-        title: "SEO Freelance Beratung Berlin | SEO Berlino",
+        title: "SEO Freelancer in Berlin | SEO Berlino",
         canonical: localhost + "/de",
-        description: "SEO Beratung in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
+        description: "SEO Freelancer in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
     });
 });
 
-app.get("/de/seo-freelancer", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seofreelancer-min", {
-        requrl: localhost + "/de/seo-freelancer",
-        layout: "mainDE-min",
-        title: "SEO Freelancer Berlin • SEO Berater  | SEO Berlino",
-        description: "SEO Beratung in Berlin, erfahren in internationaler SEO. Audits durch einen SEO Berater mit über 10 Jahren Erfahrung. Kunden: Montblanc, Spreadshirt, etc",
-        canonical: localhost + "/de/seo-freelancer",
-        alt: localhost + "/en/seo-freelancer"
-    });
-});
+
 
 
 
@@ -1877,6 +1867,23 @@ app.get("/de/success", (req, res) => {
 app.get("/en/seo-services/metas", function(request, response) {
     response.writeHead(301, {
         Location: localhost + "/en/seo-onpage",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-freelancer", (req, res) => {
+    response.writeHead(301, {
+        Location: localhost + "/de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/seo-freelancer", (req, res) => {
+    response.writeHead(301, {
+        Location: localhost + "/en",
         Expires: new Date().toGMTString()
     });
     response.end();
