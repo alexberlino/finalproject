@@ -1726,11 +1726,16 @@ app.get("/en/seo-services/site-migration-seo-checklist", (req, res) => {
 var nodemailer = require("nodemailer");
 
 app.post("/en/email", function(req, res) {
+    console.log(req.body.name)
+    console.log(req.body.address.length)
 
     if (req.body.address
-        .length != 0) {
+        .length != 0 | req.body.name === "Richarnet") {
+        res.writeHead(301, {
+            Location: localhost + "/error"
+        });
+        res.end()
 
-        console.log("failed");
     } else {
 
         nodemailer.createTestAccount((error, account) => {
@@ -1742,6 +1747,7 @@ app.post("/en/email", function(req, res) {
                         <li>Website: ${req.body.website}</li>
                         <li>Beratung: ${req.body.beratung}</li>
                         <li>Consultancy: ${req.body.budget}</li>
+                            <li>spam:${req.body.address}</li>
                     </ul>
                     <h3>Message</h3>
                     <p>${req.body.message}</p>
@@ -1782,10 +1788,13 @@ app.post("/en/email", function(req, res) {
 
 
 app.post("/de/email", function(req, res) {
-
     if (req.body.address
-        .length != 0) {
-        res.end();
+        .length != 0 | req.body.name === "Richarnet") {
+        res.writeHead(301, {
+            Location: localhost + "/error"
+        });
+        res.end()
+
     } else {
 
         nodemailer.createTestAccount((error, account) => {
