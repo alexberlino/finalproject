@@ -1733,12 +1733,11 @@ app.post("/en/email", function(req, res) {
         res.writeHead(301, {
             Location: localhost + "/en/success"
         });
-        res.end();
 
-        console.log("failed");
-    }
 
-    else {
+
+    } else {
+
 
         nodemailer.createTestAccount((error, account) => {
             const htmlEmail = `
@@ -1798,7 +1797,7 @@ app.post("/de/email", function(req, res) {
         });
 
 
-        console.log("failed");
+
     } else {
 
         nodemailer.createTestAccount((error, account) => {
