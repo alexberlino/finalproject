@@ -1731,6 +1731,11 @@ app.post("/en/email", function(req, res) {
         .length != 0) {
 
         console.log("failed");
+    }
+
+    if (req.body.name = "Richardnet") {
+
+        console.log("failed");
     } else {
 
         nodemailer.createTestAccount((error, account) => {
@@ -1786,6 +1791,10 @@ app.post("/de/email", function(req, res) {
     if (req.body.address
         .length != 0) {
         res.end();
+    }
+    if (req.body.name = "Richardnet") {
+
+        console.log("failed");
     } else {
 
         nodemailer.createTestAccount((error, account) => {
