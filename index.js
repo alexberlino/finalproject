@@ -171,20 +171,6 @@ app.get("/de", (req, res) => {
 
 
 
-
-
-app.get("/en/seo-freelancer", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seofreelancer-min", {
-        requrl: localhost + "/de/seo-freelancer",
-        title: "SEO Consultant Freelancer in Berlin | SEO Berlino",
-        layout: "main-min",
-        description: "SEO Consultant in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: localhost + "/en/seo-freelancer",
-        alt: localhost + "/de/seo-freelancer"
-    });
-});
-
 app.get("/de/seo-audit", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("seoberatung/seoaudit", {
@@ -1873,7 +1859,7 @@ app.get("/en/seo-services/metas", function(request, response) {
 });
 
 app.get("/de/seo-freelancer", (req, res) => {
-    response.writeHead(301, {
+    res.writeHead(301, {
         Location: localhost + "/de",
         Expires: new Date().toGMTString()
     });
@@ -1882,7 +1868,7 @@ app.get("/de/seo-freelancer", (req, res) => {
 
 
 app.get("/en/seo-freelancer", (req, res) => {
-    response.writeHead(301, {
+    res.writeHead(301, {
         Location: localhost + "/en",
         Expires: new Date().toGMTString()
     });
@@ -2167,7 +2153,7 @@ app.get("/en/article/voice-search-challenges", function(request, response) {
 
 app.get("/de/consultant", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-freelancer",
+        Location: localhost + "/de",
         Expires: new Date().toGMTString()
     });
     response.end();
