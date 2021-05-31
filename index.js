@@ -151,7 +151,7 @@ app.get("/en", (req, res) => {
         requrl: localhost + "/en",
         layout: "mainHP-min",
         title: "SEO Consultant Germany • SEO Agency | SEO Berlino",
-        description: "SEO Consultant in Berlin with over 10 years experience: €100m + multinationals. Clients such as Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        description: "SEO Consultant in Berlin SEO Agency with over 12 years experience: €100m + multinationals. Clients such as Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en",
         alt: localhost + "/de",
     });
@@ -162,7 +162,7 @@ app.get("/de", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainDEHP-min",
-        title: "SEO Freelancer in Berlin | SEO Berlino",
+        title: "SEO Freelancer in Berlin | SEO Agentur SEO Berlino",
         canonical: localhost + "/de",
         description: "SEO Freelancer in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
