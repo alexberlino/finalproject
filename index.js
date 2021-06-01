@@ -1863,7 +1863,7 @@ app.get("/de/seo-freelancer", (req, res) => {
         Location: localhost + "/de",
         Expires: new Date().toGMTString()
     });
-    response.end();
+    res.end();
 });
 
 
@@ -1872,7 +1872,7 @@ app.get("/en/seo-freelancer", (req, res) => {
         Location: localhost + "/en",
         Expires: new Date().toGMTString()
     });
-    response.end();
+    res.end();
 });
 
 
