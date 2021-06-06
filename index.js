@@ -1858,22 +1858,6 @@ app.get("/en/seo-services/metas", function(request, response) {
     response.end();
 });
 
-app.get("/de/seo-freelancer", (req, res) => {
-    res.writeHead(301, {
-        Location: localhost + "/de",
-        Expires: new Date().toGMTString()
-    });
-    res.end();
-});
-
-
-app.get("/en/seo-freelancer", (req, res) => {
-    res.writeHead(301, {
-        Location: localhost + "/en",
-        Expires: new Date().toGMTString()
-    });
-    res.end();
-});
 
 
 app.get("/en/article/beyond-mobile-first", function(request, response) {
