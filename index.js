@@ -1895,23 +1895,6 @@ app.get("/de/seo-freelancer", function(request, response) {
 
 
 
-app.get("/de/seo-pricing", function(request, response) {
-    response.writeHead(301, {
-        Location: localhost + "/de",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-app.get("/en/seo-pricing", function(request, response) {
-    response.writeHead(301, {
-        Location: localhost + "/",
-        Expires: new Date().toGMTString()
-    });
-    response.end();
-});
-
-
 
 app.get("/en/article/beyond-mobile-first", function(request, response) {
     response.writeHead(301, {
