@@ -1893,6 +1893,8 @@ app.get("/de/seo-freelancer", function(request, response) {
     response.end();
 });
 
+
+
 app.get("/de/seo-pricing", function(request, response) {
     response.writeHead(301, {
         Location: localhost + "/de",
@@ -1908,8 +1910,6 @@ app.get("/en/seo-pricing", function(request, response) {
     });
     response.end();
 });
-
-
 
 
 
