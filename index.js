@@ -550,30 +550,6 @@ app.get("/de/competitor-analysis", (req, res) => {
     });
 });
 
-app.get("/de/seo-pricing", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("pricing", {
-        requrl: localhost + "/de/seo-pricing",
-        layout: "mainDE-min",
-        title: "SEO Budget • Suchmaschinenoptimierung bei SEO Berlino",
-        description: "SEO Freelancer und Analytics Consultant: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: localhost + "/de/seo-pricing",
-        alt: localhost + "/en/seo-pricing"
-    });
-});
-
-app.get("/en/seo-pricing", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("pricing", {
-        requrl: localhost + "/de/seo-pricing",
-        title: "SEO Cost and Budget • SEO Consultant in Germany | SEO Berlino",
-        layout: "main-min",
-        description: "SEO Freelance Consultant in Berlin, experienced in international SEO. Audits by Expert SEO Consultant with 10 years experience. Clients: Montblanc, Spreadshirt, Ricoh, HelloFresh, etc.",
-        canonical: localhost + "/en/seo-pricing",
-        alt: localhost + "/de/seo-pricing"
-    });
-});
-
 
 
 app.get("/de/google-ranking-verbessern", (req, res) => {
@@ -1893,6 +1869,23 @@ app.get("/de/seo-freelancer", function(request, response) {
     response.end();
 });
 
+
+
+app.get("/de/seo-pricing", function(request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/seo-pricing", function(request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 
 
