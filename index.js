@@ -150,8 +150,8 @@ app.get("/en", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainHP-min",
-        title: "SEO Agency in Germany • SEO Consultant | SEO Berlino",
-        description: "SEO Consultant in Berlin SEO Agency with over 12 years experience: €100m + multinationals. Clients such as Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
+        title: "SEO Consultant in Germany | SEO Freelance | SEO Berlino",
+        description: "SEO Consultant in Berlin SEO Agency with over 12 years experience: €100m + multinationals. Clients: Montblanc, HelloFresh, Spreadshirt, Gropius Bau, Ricoh, Bosch & Siemens, etc",
         canonical: localhost + "/en",
         alt: localhost + "/de",
     });
@@ -162,9 +162,9 @@ app.get("/de", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainDEHP-min",
-        title: "SEO Berlin Freelance Beratung | SEO Agentur Berlin",
+        title: "SEO Freelancer Berlin • SEO Beratung | SEO Berlino",
         canonical: localhost + "/de",
-        description: "SEO Freelance Bertatung in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
+        description: "SEO Freelancer, SEO Beratung in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
     });
 });
@@ -1884,6 +1884,32 @@ app.get("/en/seo-services/metas", function(request, response) {
     });
     response.end();
 });
+
+app.get("/de/seo-freelancer", function(request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-pricing", function(request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/seo-pricing", function(request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
 
 
 
