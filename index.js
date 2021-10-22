@@ -2385,6 +2385,13 @@ app.get("/en/seo-consultant", function(request, response) {
     response.end();
 });
 
+app.get("/de/seo-consultant", function(request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
 
 
 app.get("/de/seo-optimierung/crawl", function(request, response) {
