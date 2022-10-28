@@ -2150,7 +2150,7 @@ app.get("/en/article/voicesearch", function(request, response) {
 
 app.get("/", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de",
+        Location: localhost + "/en",
         Expires: new Date().toGMTString()
     });
     response.end();

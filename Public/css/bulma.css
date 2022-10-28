@@ -273,7 +273,7 @@ iframe {
 
 html {
     background-color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     min-width: 300px;
@@ -303,7 +303,7 @@ code, pre {
 
 body {
     color: #4a4a4a;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400;
     line-height: 1.5
 }
@@ -441,7 +441,7 @@ pre code {
     }
 
     body {
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: 400;
         line-height: 1.65
     }
