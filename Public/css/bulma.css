@@ -5065,7 +5065,7 @@ a:hover.tag {
 }
 
 .clients-hero .logo-container .client-logo {
-    height: 80px;
+    max-height: 80px;
     padding: .5rem;
     vertical-align: middle;
     position: inline-block
@@ -5082,7 +5082,7 @@ a:hover.tag {
 }
 
 .clients-hero .logo-container a .client-logo {
-    height: 80px;
+    max-height: 80px;
     padding: .5rem;
     vertical-align: middle;
     position: inline-block
@@ -6373,7 +6373,7 @@ footer.page-end .clutch {
     }
 
     .clients-hero .logo-container .client-logo {
-        height: 75px !important;
+        max-height: 75px !important;
         padding: .5rem
     }
 }
@@ -6564,7 +6564,7 @@ footer.page-end .clutch {
 
     .clients-hero .logo-container .client-logo {
         max-height: 75px !important;
-        width: 120px !important;
+        max-width: 120px !important;
         padding: .5rem
     }
 
@@ -6684,6 +6684,10 @@ h2::before {
 
 .lalaluxe, .spartoo, .talknow {
     height: 100px !important
+}
+
+.monospace {
+    height: 60px !important
 }
 
 .absortech {
