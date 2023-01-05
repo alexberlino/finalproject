@@ -1696,7 +1696,7 @@ app.get("/en/seo-services/site-migration-seo-checklist", (req, res) => {
     res.render("blogtech/blogsitemigration", {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
-        title: "Site migration SEO Checklist | SEO Berlino",
+        title: "The SEO Website Migration Checklist for 2023 | SEO Berlino",
         description: "Site migration can be very risky for your SEO traffic if you do not follow a checklist: from redirects to creation of new sitemaps, reporting and controlling.",
         canonical: localhost + "" + req.originalUrl
     });
