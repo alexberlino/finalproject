@@ -150,8 +150,8 @@ app.get("/en", (req, res) => {
     res.render("home-min", {
         requrl: localhost + "/en",
         layout: "mainHP-min",
-        title: "SEO Agency in Berlin • SEO Consultant Germany| SEO Berlino",
-        description: "SEO Consultant in Berlin SEO Agency with over 12 years experience: €100m + multinationals. Clients: Montblanc, HelloFresh, Spreadshirt, Gropius Bau, Ricoh, Bosch & Siemens, etc",
+        title: "SEO Consultant in Berlin, Germany| SEO Berlino",
+        description: "SEO Consultant in Berlin with over 12 years experience: €100m + multinationals. Clients: Montblanc, HelloFresh, Spreadshirt, Gropius Bau, Ricoh, Bosch & Siemens, etc",
         canonical: localhost + "/en",
         alt: localhost + "/de",
     });
@@ -324,7 +324,7 @@ app.get("/en/local-seo", (req, res) => {
         requrl: localhost + "/de/local-seo",
         title: "Local SEO: Google MyBusiness & Schema| SEO Berlino",
         layout: "main-min",
-        description: "Local SEO Services, onpage optimization, local backlinks and Google My Business. International SEO Agency in Berlin. Current and former clients: Montblanc, Spreadshirt, etc",
+        description: "Local SEO Services, onpage optimization, local backlinks and Google My Business. International SEO Consultant in Berlin. Current and former clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/local-seo",
         alt: localhost + "/de/local-seo"
     });
@@ -401,7 +401,7 @@ app.get("/en/keyword-research", (req, res) => {
         requrl: localhost + "/de/keyword-research",
         title: "Keyword Research • Keyword Mapping | SEO Berlino",
         layout: "main-min",
-        description: "Keyword Research and Keyword Mapping SEO Services. Experienced international SEO Agency in Berlin. Get in touch for a call. Clients: Montblanc, Spreadshirt, etc",
+        description: "Keyword Research and Keyword Mapping SEO Services. Experienced international SEO Consultant in Berlin. Get in touch for a call. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/keyword-research",
         alt: localhost + "/de/keyword-research"
     });
@@ -428,7 +428,7 @@ app.get("/en/seo-relaunch", (req, res) => {
         requrl: localhost + "/de/seo-relaunch",
         title: "SEO Support for Site Relaunch | SEO Berlino",
         layout: "main-min",
-        description: "A site relaunch comes with many important challenges. If you don't prepare it carefully you could lose a lot of your SEO strength. SEO Agency in Berlin to support you.",
+        description: "A site relaunch comes with many important challenges. If you don't prepare it carefully you could lose a lot of your SEO strength. SEO Consultant in Berlin to support you.",
         canonical: localhost + "/en/seo-relaunch",
         alt: localhost + "/de/seo-relaunch"
     });
@@ -667,7 +667,7 @@ app.get("/en/references", (req, res) => {
     res.render("references", {
         requrl: localhost + "/en/references",
         layout: "main-min",
-        title: "SEO Agency Berlin Clients References | SEO Berlino",
+        title: "SEO Consultant Berlin Clients References | SEO Berlino",
         description: "References SEO Consulting Company with over 10 years experience €100m + multinationals: Montblanc, HelloFresh, Spreadshirt, Spartoo, Ricoh, BSH, MSF, Red Cross, etc",
         canonical: localhost + "/en/references",
         alt: localhost + "/de/references"
@@ -1639,7 +1639,7 @@ app.get("/en/seo-services/seo-in-asia-korea-china-japan-2020", (req, res) => {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainNoAlt",
         title: "SEO in Asia: China, Japan and Korea | SEO Berlino",
-        description: "Article about SEO and Search Engines in Asia. How to approach SEO for the Asian market. SEO Berlino is an SEO Agency located in Berlin.",
+        description: "Article about SEO and Search Engines in Asia. How to approach SEO for the Asian market. SEO Berlino is an SEO Consultant located in Berlin.",
         canonical: localhost + "" + req.originalUrl
     });
 });
