@@ -150,8 +150,8 @@ app.get("/en", (req, res) => {
     res.render("home", {
         requrl: localhost + "/en",
         layout: "mainHP",
-        title: "SEO Consultant in Berlin, Germany| SEO Berlino",
-        description: "SEO Consultant in Berlin with over 12 years experience: €100m + multinationals. Clients: Montblanc, HelloFresh, Spreadshirt, Gropius Bau, Ricoh, Bosch & Siemens, etc",
+        title: "SEO Agency - Consultant in Berlin, Germany| SEO Berlino",
+        description: "SEO Agency, SEO Consultants in Berlin with over 12 years experience: €100m + multinationals. Clients: Montblanc, HelloFresh, Spreadshirt, Gropius Bau, Ricoh, Bosch & Siemens, etc",
         canonical: localhost + "/en",
         alt: localhost + "/de",
     });
@@ -162,9 +162,9 @@ app.get("/de", (req, res) => {
     res.render("home", {
         requrl: localhost + "/en",
         layout: "mainDEHP",
-        title: "SEO Freelancer Berlin • SEO Beratung | SEO Berlino",
+        title: "SEO Beratung Freelance Agentur Berlin | SEO Berlino",
         canonical: localhost + "/de",
-        description: "SEO Freelancer, SEO Beratung in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
+        description: "SEO Agentur Freelance Beratung in Berlin, Kleine SEO Agentur in Berlin • SEO Berater mit 10 Jahre Erfahrung. Kunden: Montblanc, HelloFresh, Ricoh, Spreadshirt, Spartoo, BSH etc",
         alt: localhost + "/en",
     });
 });
@@ -175,7 +175,7 @@ app.get("/de/seo-freelancer", (req, res) => {
     res.render("seoberatung/seofreelancer", {
         requrl: localhost + "/de/seo-freelancer",
         layout: "mainDE",
-        title: "SEO Freelancer in Berlin | SEO Berlino",
+        title: "SEO Freelancer Berlin | SEO Berlino",
         description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: localhost + "/de/seo-freelancer",
         alt: localhost + "/en/seo-freelancer"
@@ -188,7 +188,7 @@ app.get("/en/seo-freelancer", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seofreelancer", {
         requrl: localhost + "/de/seo-freelancer",
-        title: "Experienced SEO Consultant in Germany | SEO Berlino",
+        title: "SEO Consultant in Germany | SEO Berlino",
         layout: "main",
         description: "SEO Consultant in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
         canonical: localhost + "/en/seo-freelancer",
@@ -250,7 +250,7 @@ app.get("/en/seo-onpage", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoonpage", {
         requrl: localhost + "/de/seo-onpage",
-        title: "SEO On-page Services Berlin | SEO Berlino",
+        title: "SEO On-page Berlin | SEO Berlino",
         layout: "main",
         description: "SEO Berlino offers Onpage SEO Services: Keyword Research and Mapping, Audit, content analysis and marketing, and much more. Get in touch to organise a call.",
         canonical: localhost + "/en/seo-onpage",
@@ -263,7 +263,7 @@ app.get("/de/seo-onpage", (req, res) => {
     res.render("seoberatung/seoonpage", {
         requrl: localhost + "/de/seo-onpage",
         layout: "mainDE",
-        title: "SEO On-page • Beratung in Berlin | SEO Berlino",
+        title: "SEO On-page | SEO Berlino",
         description: "SSEO Berlino bietet OnPage SEO Optimierung: Keyword Research und Mapping, Audit, Content Analyse und Marketing und vieles mehr. Kontaktieren Sie uns!",
         canonical: localhost + "/de/seo-onpage",
         alt: localhost + "/en/seo-onpage"
@@ -287,7 +287,7 @@ app.get("/de/seo-page-speed", (req, res) => {
     res.render("seoberatung/seopagespeed", {
         requrl: localhost + "/de/seo-page-speed",
         layout: "mainDE",
-        title: "SEO Page Speed (Insights) Beratung | SEO Berlino",
+        title: "SEO Page Speed (Insights) | SEO Berlino",
         description: "SEO-Unterstützung, um eine bessere Seitengeschwindigkeit zu erzielen und Ihre SEO-Sichtbarkeit und Leistung zu verbessern. Nie war dies wichtiger als in 2021!",
         canonical: localhost + "/de/seo-page-speed",
         alt: localhost + "/en/seo-page-speed"
@@ -298,7 +298,7 @@ app.get("/en/seo-indexation", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("seoberatung/seoindexation", {
         requrl: localhost + "/de/seo-indexation",
-        title: "SEO Indexation Services  | SEO Berlino",
+        title: "SEO Indexation | SEO Berlino",
         layout: "main",
         description: "Efficient Indexation is key in order to get on well with Google's spiders. SEO Berlino offers SEO support to optimize your indexation and crawlability. Get in touch!",
         canonical: localhost + "/en/seo-indexation",
@@ -311,7 +311,7 @@ app.get("/de/seo-indexation", (req, res) => {
     res.render("seoberatung/seoindexation", {
         requrl: localhost + "/de/seo-indexation",
         layout: "mainDE",
-        title: "SEO Indexierung Beratung | SEO Berlino",
+        title: "SEO Indexierung | SEO Berlino",
         description: "Im Umgang mit Google ist effiziente Indexierung essentiell. Wir bieten SEO-Unterstützung zur Optimierung Ihrer Indexierung und Crawlability. Sprechen Sie uns an!",
         canonical: localhost + "/de/seo-indexation",
         alt: localhost + "/en/seo-indexation"
