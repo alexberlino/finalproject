@@ -5085,7 +5085,8 @@ a:hover.tag {
     max-height: 80px;
     padding: .5rem;
     vertical-align: middle;
-    position: inline-block
+    position: inline-block;
+    text-align: center"
 }
 
 .clients-hero .logo-container a .client-logo:hover {
