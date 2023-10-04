@@ -170,388 +170,6 @@ app.get("/de", (req, res) => {
 });
 
 
-app.get("/de/seo-freelancer", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seofreelancer", {
-        requrl: localhost + "/de/seo-freelancer",
-        layout: "mainDE",
-        title: "SEO Freelancer Berlin | SEO Berlino",
-        description: "SEO Freelance Berater und Analytics Berater: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: localhost + "/de/seo-freelancer",
-        alt: localhost + "/en/seo-freelancer"
-    });
-});
-
-
-
-app.get("/en/seo-freelancer", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seofreelancer", {
-        requrl: localhost + "/de/seo-freelancer",
-        title: "SEO Consultant in Germany | SEO Berlino",
-        layout: "main",
-        description: "SEO Consultant in Berlin, experienced in international SEO. Audits by an SEO Consultant with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: localhost + "/en/seo-freelancer",
-        alt: localhost + "/de/seo-freelancer"
-    });
-});
-
-
-
-app.get("/de/seo-audit", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seoaudit", {
-        requrl: localhost + "/de/seo-audit",
-        layout: "mainDE",
-        title: "SEO Audits in Berlin | SEO Berlino",
-        description: "SEO Audits in Berlin, von erfahrenen SEO Beratern. Regionale und internationale SEO-Erfahrung, hunderte von Kunden, darunter z.B. Montblanc, HelloFresh, Ricoh.",
-        canonical: localhost + "/de/seo-audit",
-        alt: localhost + "/en/seo-audit"
-    });
-});
-
-app.get("/en/seo-audit", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seoaudit", {
-        requrl: localhost + "/de/seo-audit",
-        title: "SEO Audits in Berlin, Germany | SEO Berlino",
-        layout: "main",
-        description: "SEO Audits in Berlin, by experienced SEO Consultants. Local and international SEO experience, hundreds of clients including Montblanc, HelloFresh, Ricoh and many others.",
-        canonical: localhost + "/en/seo-audit",
-        alt: localhost + "/de/seo-audit"
-    });
-});
-
-app.get("/en/seo-check", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seocheck", {
-        requrl: localhost + "/de/seo-check",
-        title: "SEO Check Berlin | SEO Berlino",
-        layout: "main",
-        description: "SEO Checks in Berlin, by experienced SEO Consultants. Local and international SEO experience, hundreds of clients including Montblanc, HelloFresh, Ricoh and many others.",
-        canonical: localhost + "/en/seo-check",
-        alt: localhost + "/de/seo-check"
-    });
-});
-
-app.get("/de/seo-check", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seocheck", {
-        requrl: localhost + "/de/seo-check",
-        layout: "mainDE",
-        title: "SEO Check & SEO Analyse in Berlin | SEO Berlino",
-        description: "SEO Checks in Berlin, von erfahrenen SEO Beratern. Lokale und internationale SEO Erfahrung, hunderte Kunden wie Montblanc, HelloFresh, Ricoh und viele andere.",
-        canonical: localhost + "/de/seo-check",
-        alt: localhost + "/en/seo-check"
-    });
-});
-
-app.get("/en/seo-onpage", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seoonpage", {
-        requrl: localhost + "/de/seo-onpage",
-        title: "SEO On-page Berlin | SEO Berlino",
-        layout: "main",
-        description: "SEO Berlino offers Onpage SEO Services: Keyword Research and Mapping, Audit, content analysis and marketing, and much more. Get in touch to organise a call.",
-        canonical: localhost + "/en/seo-onpage",
-        alt: localhost + "/de/seo-onpage"
-    });
-});
-
-app.get("/de/seo-onpage", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seoonpage", {
-        requrl: localhost + "/de/seo-onpage",
-        layout: "mainDE",
-        title: "SEO On-page | SEO Berlino",
-        description: "SSEO Berlino bietet OnPage SEO Optimierung: Keyword Research und Mapping, Audit, Content Analyse und Marketing und vieles mehr. Kontaktieren Sie uns!",
-        canonical: localhost + "/de/seo-onpage",
-        alt: localhost + "/en/seo-onpage"
-    });
-});
-
-app.get("/en/seo-page-speed", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seopagespeed", {
-        requrl: localhost + "/de/seo-page-speed",
-        title: "SEO Page Speed (Insights) Improvements | SEO Berlino",
-        layout: "main",
-        description: "SEO support to guide into a better page speed to improve your SEO visibility and performance. In 2021, page speed has never been so important.",
-        canonical: localhost + "/en/seo-page-speed",
-        alt: localhost + "/de/seo-page-speed"
-    });
-});
-
-app.get("/de/seo-page-speed", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seopagespeed", {
-        requrl: localhost + "/de/seo-page-speed",
-        layout: "mainDE",
-        title: "SEO Page Speed (Insights) | SEO Berlino",
-        description: "SEO-Unterstützung, um eine bessere Seitengeschwindigkeit zu erzielen und Ihre SEO-Sichtbarkeit und Leistung zu verbessern. Nie war dies wichtiger als in 2021!",
-        canonical: localhost + "/de/seo-page-speed",
-        alt: localhost + "/en/seo-page-speed"
-    });
-});
-
-app.get("/en/seo-indexation", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seoindexation", {
-        requrl: localhost + "/de/seo-indexation",
-        title: "SEO Indexation | SEO Berlino",
-        layout: "main",
-        description: "Efficient Indexation is key in order to get on well with Google's spiders. SEO Berlino offers SEO support to optimize your indexation and crawlability. Get in touch!",
-        canonical: localhost + "/en/seo-indexation",
-        alt: localhost + "/de/seo-indexation"
-    });
-});
-
-app.get("/de/seo-indexation", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seoindexation", {
-        requrl: localhost + "/de/seo-indexation",
-        layout: "mainDE",
-        title: "SEO Indexierung | SEO Berlino",
-        description: "Im Umgang mit Google ist effiziente Indexierung essentiell. Wir bieten SEO-Unterstützung zur Optimierung Ihrer Indexierung und Crawlability. Sprechen Sie uns an!",
-        canonical: localhost + "/de/seo-indexation",
-        alt: localhost + "/en/seo-indexation"
-    });
-});
-
-app.get("/en/local-seo", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seolocal", {
-        requrl: localhost + "/de/local-seo",
-        title: "Local SEO: Google MyBusiness & Schema| SEO Berlino",
-        layout: "main",
-        description: "Local SEO Services, onpage optimization, local backlinks and Google My Business. International SEO Consultant in Berlin. Current and former clients: Montblanc, Spreadshirt, etc",
-        canonical: localhost + "/en/local-seo",
-        alt: localhost + "/de/local-seo"
-    });
-});
-
-app.get("/de/local-seo", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seolocal", {
-        requrl: localhost + "/de/local-seo",
-        layout: "mainDE",
-        title: "Local SEO - Google My Business & Schema | SEO Berlino",
-        description: "Local SEO Services, Onpage Optimierung, lokale Backlinks und Google My Business. Internationale SEO Agentur in Berlin. Kunden: Montblanc, Spreadshirt, etc",
-        canonical: localhost + "/de/local-seo",
-        alt: localhost + "/en/local-seo"
-    });
-});
-
-
-
-
-app.get("/en/seo-wordpress", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seowordpress", {
-        requrl: localhost + "/de/seo-wordpress",
-        title: "SEO Services for Wordpress and Wix Users | SEO Berlino",
-        layout: "main",
-        description: "SEO Support for Wordpress, Wix & Shopify clients in Berlin. Experienced SEO Experts to help you grow your SEO traffic. Get in touch now to arrange a call.",
-        canonical: localhost + "/en/seo-wordpress",
-        alt: localhost + "/de/seo-wordpress"
-    });
-});
-
-app.get("/de/seo-wordpress", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seowordpress", {
-        requrl: localhost + "/de/seo-wordpress",
-        layout: "mainDE",
-        title: "SEO Beratung für Wordpress in Berlin | SEO Berlino",
-        description: "SEO Support für Wordpress, Wix & Shopify Kunden in Berlin. Erfahrene SEO-Experten, die Ihnen helfen, Ihren SEO-Traffic zu steigern. Kontaktieren Sie uns jetzt!",
-        canonical: localhost + "/de/seo-wordpress",
-        alt: localhost + "/en/seo-wordpress"
-    });
-});
-
-app.get("/en/backlinks", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/seobacklinks", {
-        requrl: localhost + "/de/backlinks",
-        title: "Backlinks Analysis and Strategie | SEO Berlino",
-        layout: "main",
-        description: "SEO Offpage Services in Berlin. Backlink profile and industry-specific analysis, linkbuilding strategy. Get in touch now for more details or to arrange a call.",
-        canonical: localhost + "/en/backlinks",
-        alt: localhost + "/de/backlinks"
-    });
-});
-
-app.get("/de/backlinks", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/seobacklinks", {
-        requrl: localhost + "/de/backlinks",
-        layout: "mainDE",
-        title: "Backlinks Analyse und Strategie | SEO Berlino",
-        description: "SEO Offpage Dienstleistungen in Berlin. Backlink-Profil, branchenspezifische Analyse, Linkbuilding-Strategie. Kontaktieren Sie uns jetzt für weitere Details.",
-        canonical: localhost + "/de/backlinks",
-        alt: localhost + "/en/backlinks"
-    });
-});
-
-
-
-app.get("/en/keyword-research", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/keywordresearch", {
-        requrl: localhost + "/de/keyword-research",
-        title: "Keyword Research • Keyword Mapping | SEO Berlino",
-        layout: "main",
-        description: "Keyword Research and Keyword Mapping SEO Services. Experienced international SEO Consultant in Berlin. Get in touch for a call. Clients: Montblanc, Spreadshirt, etc",
-        canonical: localhost + "/en/keyword-research",
-        alt: localhost + "/de/keyword-research"
-    });
-});
-
-
-
-app.get("/de/keyword-research", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/keywordresearch", {
-        requrl: localhost + "/de/keyword-research",
-        layout: "mainDE",
-        title: "Keyword Recherche Berlin • Keyword Mapping | SEO Berlino",
-        description: "Keyword Research und Keyword Mapping. Erfahrene internationale SEO Agentur in Berlin. Vereinbaren Sie einen Beratungstermin. Kunden: Montblanc, Spreadshirt, etc",
-        canonical: localhost + "/de/keyword-research",
-        alt: localhost + "/en/keyword-research"
-    });
-});
-
-
-app.get("/en/seo-relaunch", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("seoberatung/relaunch", {
-        requrl: localhost + "/de/seo-relaunch",
-        title: "SEO Support for Site Relaunch | SEO Berlino",
-        layout: "main",
-        description: "A site relaunch comes with many important challenges. If you don't prepare it carefully you could lose a lot of your SEO strength. SEO Consultant in Berlin to support you.",
-        canonical: localhost + "/en/seo-relaunch",
-        alt: localhost + "/de/seo-relaunch"
-    });
-});
-
-
-
-app.get("/de/seo-relaunch", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("seoberatung/relaunch", {
-        requrl: localhost + "/de/seo-relaunch",
-        layout: "mainDE",
-        title: "SEO Beratung für Site Relaunch in Berlin | SEO Berlino",
-        description: "Ein Relaunch einer Website sollte sorgfältig vorbereitet sein, damit Sie nicht an Ihrer SEO-Stärke verliert. Unsere SEO-Agentur in Berlin unterstützt Sie dabei!",
-        canonical: localhost + "/de/seo-relaunch",
-        alt: localhost + "/en/seo-relaunch"
-    });
-});
-
-app.get("/en/seo-copywriting", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("otherberatung/copywriting", {
-        requrl: localhost + "/en/seo-copywriting",
-        title: "Content Marketing Copywriting Services | SEO Berlino",
-        layout: "main",
-        description: "Copywriting, Translation and Content Marketing services in Berlin, we also offer customised competitor analysis, keyword research to boost your onpage optimization.",
-        canonical: localhost + "/en/seo-copywriting",
-        alt: localhost + "/de/seo-copywriting"
-    });
-});
-
-
-
-app.get("/de/seo-copywriting", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("otherberatung/copywriting", {
-        requrl: localhost + "/en/seo-copywriting",
-        title: "Content Marketing - Copywriting Beratung | SEO Berlino",
-        layout: "mainDE",
-        description: "Copywriting, Übersetzung und Content Marketing Dienstleistungen in Berlin. Onpage-Optimierung durch maßgeschneiderte Konkurrenzanalysen und Keyword-Recherchen.",
-        canonical: localhost + "/de/seo-copywriting",
-        alt: localhost + "/en/seo-copywriting"
-    });
-});
-
-
-app.get("/en/reporting-analytics", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("otherberatung/seoreporting", {
-        requrl: localhost + "/en/reporting-analytics",
-        title: "Google Analytics and Reporting Services | SEO Berlino",
-        layout: "main",
-        description: "Google Analytics, Google Tag Manager, Data Studio for Online Marketing Reporting. Analytics Expert Consultants with over 10 years experience. Clients: Montblanc, Spreadshirt, etc",
-        canonical: localhost + "/en/reporting-analytics",
-        alt: localhost + "/de/reporting-analytics"
-    });
-});
-
-app.get("/de/reporting-analytics", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("otherberatung/seoreporting", {
-        requrl: localhost + "/en/reporting-analytics",
-        layout: "mainDE",
-        title: "Reporting und Google Analytics Beratung in Berlin | SEO Berlino",
-        description: "Google Analyics, Google Tag Manager, Data Studio für SEO Reporting. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
-        canonical: localhost + "/de/reporting-analytics",
-        alt: localhost + "/en/reporting-analytics"
-    });
-});
-
-
-app.get("/en/smm", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("otherberatung/smmberatung", {
-        requrl: localhost + "/en/smm",
-        title: "Social Media Marketing Services | SEO Berlino",
-        layout: "mainNoAlt",
-        description: "Social Media Services in Berlin: Instagram and Facebook ads by SMM expert. Get in touch to organise a call. Current and former clients: BNSH, Montblanc, Ricoh, etc",
-        canonical: localhost + "/en/smm",
-        alt: localhost + "/de/smm"
-    });
-});
-
-app.get("/de/smm", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("otherberatung/smmberatung", {
-        requrl: localhost + "/en/smm",
-        layout: "mainNoAltDE",
-        title: "Social Media Marketing Beratung in Berlin | SEO Berlino",
-        description: "Social Media Services in Berlin: Instagram and Facebook ads by SMM expert. Get in touch to organise a call. Current and former clients: BNSH, Montblanc, Ricoh, etc",
-        canonical: localhost + "/en/smm",
-        alt: localhost + "/en/smm"
-    });
-});
-
-app.get("/en/competitor-analysis", (req, res) => {
-    i18n.setLocale(req, "en");
-    res.render("otherberatung/competitor", {
-        requrl: localhost + "/de/competitor-analysis",
-        title: "Competitor Analysis for Online Marketing | SEO Berlino",
-        layout: "main",
-        description: "Competitor Analysis for SEO to know how your competitors get organic traffic and backlinks. Competitor analysis helps you to set benchmarks and objectives.",
-        canonical: localhost + "/en/competitor-analysis",
-        alt: localhost + "/de/competitor-analysis"
-    });
-});
-
-
-
-app.get("/de/competitor-analysis", (req, res) => {
-    i18n.setLocale(req, "de");
-    res.render("otherberatung/competitor", {
-        requrl: localhost + "/de/competitor-analysis",
-        layout: "mainDE",
-        title: "Wettbewerberanalyse SEO  & Online Marketing | SEO Berlino",
-        description: "Eine SEO-Mitbewerberanalyse zeigt Ihnen, wie Ihre Mitbewerber organischen Traffic und Backlinks erhalten. Sie dient dazu, Benchmarks und Ziele zu setzen.",
-        canonical: localhost + "/de/competitor-analysis",
-        alt: localhost + "/en/competitor-analysis"
-    });
-});
-
-
-
 app.get("/de/google-ranking-verbessern", (req, res) => {
     i18n.setLocale(req, "de");
     res.render("googleranking", {
@@ -601,6 +219,8 @@ app.get("/de/seo-beratung", function(req, res) {
         alt: localhost + "/en/seo-consultancy"
     });
 });
+
+
 
 
 app.get("/en/online-marketing", function(req, res) {
@@ -1824,6 +1444,7 @@ app.post("/de/email", function(req, res) {
 });
 
 
+
 app.get("/error", (req, res) => {
     i18n.setLocale(req, "en");
     res.render("error", {
@@ -1852,6 +1473,271 @@ app.get("/de/success", (req, res) => {
 
 
 //////////////// Redirects////////////////
+app.get("/de/seo-freelancer", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-audit", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-check", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-page-speed", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/local-seo", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/seo-onpage", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/seo-indexation", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-wordpress", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/backlinks", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/keyword-research", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-relaunch", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/seo-beratung",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/de/reporting-analytics", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/online-marketing",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/smm", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/online-marketing",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/de/competitor-analysis", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/online-marketing",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/de/seo-copywriting", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "/de/online-marketing",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+
+app.get("/en/seo-freelancer", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/seo-audit", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/keyword-research", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/en/backlinks", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/local-seo", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/seo-wordpress", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/en/seo-indexation", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/en/seo-page-speed", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/en/seo-onpage", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
+app.get("/en/seo-check", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/seo-relaunch", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/seo-consultancy",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/seo-copywriting", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/sonline-marketing",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+app.get("/en/smm", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/sonline-marketing",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/competitor-analysis", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/sonline-marketing",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+app.get("/en/reporting-analytics", function (request, response) {
+    response.writeHead(301, {
+        Location: localhost + "en/sonline-marketing",
+        Expires: new Date().toGMTString()
+    });
+    response.end();
+});
+
+
+
 
 app.get("/en/seo-services/metas", function(request, response) {
     response.writeHead(301, {
