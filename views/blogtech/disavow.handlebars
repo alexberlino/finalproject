@@ -23,7 +23,51 @@
                             </a>
                         </figure>
                         <p>
-                            {{{__ "disavowMP"}}}
+                            {{{__ "disavowMP"}}} <br><br><br>
+
+
+                            The Google Disavow Tool is a tool provided by Google to help website owners and webmasters disavow or disassociate
+                            low-quality or spammy backlinks from their website's link profile. Backlinks are incoming links from other websites to
+                            your site, and they can influence your site's search engine rankings. Low-quality or spammy backlinks can potentially
+                            harm your site's SEO and reputation.<br><br><br>
+                            
+                            Here's how the Google Disavow Tool works:<br><br>
+                            
+                            Identify Unwanted Backlinks: Before using the Disavow Tool, you should identify the backlinks you want to disavow. This
+                            often involves conducting a backlink audit using tools like Google Search Console, third-party SEO tools, or manually
+                            reviewing your link profile.<br><br><br>
+                            
+                            Create a Text File: To disavow specific backlinks, you need to create a plain text file (usually a .txt file) containing
+                            a list of the URLs or domains you want to disavow. You can disavow at either the domain level or specific URL level.
+                            Each line in the text file should contain one URL or domain to disavow.
+                            <br><br><br>
+                            Format the Disavow File: The format of the disavow file is critical. You must use the "domain:" or "page:" directive to
+                            indicate whether you want to disavow a specific URL or an entire domain. For example:
+                            <br><br><br>
+                            makefile
+                            Copy code
+                            # Remove a specific URL<br>
+                            page:https://www.example.com/unwanted-page.html<br>
+                            <br><br><br>
+                            # Remove an entire domain
+                            domain:example-spammy-site.com
+                            Access Google Disavow Tool: Go to the Google Disavow Tool, which is a part of Google Search Console. You need to log in
+                            with the Google account associated with the website you want to disavow links for.
+                            <br><br><br>
+                            Select Your Website: Choose the website for which you want to disavow backlinks. If your website is not already verified
+                            in Google Search Console, you'll need to verify it.
+                            <br><br><br>
+                            Upload the Disavow File: Upload the text file you created in step 2 to the Disavow Tool.
+                            <br><br><br>
+                            Review and Submit: Google will display the list of URLs and domains you want to disavow for your review. Double-check
+                            the list to ensure you are only disavowing the intended links. Once you are sure, submit the disavow file.
+                            <br><br><br>
+                            Monitor Progress: After submission, Google will process the disavow file, but it may take some time for the changes to
+                            reflect in your site's link profile and search rankings. Keep an eye on your website's performance and rankings.
+                            <br><br><br>
+                            It's important to use the Google Disavow Tool with caution and only disavow backlinks that are genuinely harmful or
+                            spammy. Disavowing high-quality or relevant backlinks can potentially harm your SEO. Additionally, it's recommended to
+                            try to remove unwanted backlinks manually by reaching out to site owners before resorting to the Disavow Tool.
                         </p>
 
                         <br>
