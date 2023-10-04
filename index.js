@@ -1603,7 +1603,7 @@ app.get("/de/seo-copywriting", function (request, response) {
 
 app.get("/en/seo-freelancer", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1611,7 +1611,7 @@ app.get("/en/seo-freelancer", function (request, response) {
 
 app.get("/en/seo-audit", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1619,7 +1619,7 @@ app.get("/en/seo-audit", function (request, response) {
 
 app.get("/en/keyword-research", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1629,7 +1629,7 @@ app.get("/en/keyword-research", function (request, response) {
 
 app.get("/en/backlinks", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1638,7 +1638,7 @@ app.get("/en/backlinks", function (request, response) {
 
 app.get("/en/local-seo", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1647,7 +1647,7 @@ app.get("/en/local-seo", function (request, response) {
 
 app.get("/en/seo-wordpress", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1657,7 +1657,7 @@ app.get("/en/seo-wordpress", function (request, response) {
 
 app.get("/en/seo-indexation", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1667,7 +1667,7 @@ app.get("/en/seo-indexation", function (request, response) {
 
 app.get("/en/seo-page-speed", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1677,7 +1677,7 @@ app.get("/en/seo-page-speed", function (request, response) {
 
 app.get("/en/seo-onpage", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1687,7 +1687,7 @@ app.get("/en/seo-onpage", function (request, response) {
 
 app.get("/en/seo-check", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1695,7 +1695,7 @@ app.get("/en/seo-check", function (request, response) {
 
 app.get("/en/seo-relaunch", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/seo-consultancy",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1704,7 +1704,7 @@ app.get("/en/seo-relaunch", function (request, response) {
 
 app.get("/en/seo-copywriting", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/sonline-marketing",
+        Location: localhost + "/en/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1712,7 +1712,7 @@ app.get("/en/seo-copywriting", function (request, response) {
 
 app.get("/en/smm", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/sonline-marketing",
+        Location: localhost + "7en/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1721,7 +1721,7 @@ app.get("/en/smm", function (request, response) {
 
 app.get("/en/competitor-analysis", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/sonline-marketing",
+        Location: localhost + "env-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1730,7 +1730,7 @@ app.get("/en/competitor-analysis", function (request, response) {
 
 app.get("/en/reporting-analytics", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/sonline-marketing",
+        Location: localhost + "en/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1767,7 +1767,7 @@ app.get("/de/seo-pricing", function(request, response) {
 
 app.get("/en/seo-pricing", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/",
+        Location: localhost + "/en",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1785,7 +1785,7 @@ app.get("/en/article/beyond-mobile-first", function(request, response) {
 
 app.get("/en/seo-services/onpage-seo", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-onpage",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1793,7 +1793,7 @@ app.get("/en/seo-services/onpage-seo", function(request, response) {
 
 app.get("/en/seo-services/content", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-copywriting",
+        Location: localhost + "/en/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1801,7 +1801,7 @@ app.get("/en/seo-services/content", function(request, response) {
 
 app.get("/de/seo-optimierung/content", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-copywriting",
+        Location: localhost + "/de/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1809,7 +1809,7 @@ app.get("/de/seo-optimierung/content", function(request, response) {
 
 app.get("/de/seo-optimierung/metas", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-onpage",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1817,7 +1817,7 @@ app.get("/de/seo-optimierung/metas", function(request, response) {
 
 app.get("/de/seo-optimierung/keyword-research", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/keyword-research",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1825,7 +1825,7 @@ app.get("/de/seo-optimierung/keyword-research", function(request, response) {
 
 app.get("/en/seo-services/keyword-research", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/keyword-research",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1833,7 +1833,7 @@ app.get("/en/seo-services/keyword-research", function(request, response) {
 
 app.get("/de/seo-optimierung/indexation", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-indexation",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1842,7 +1842,7 @@ app.get("/de/seo-optimierung/indexation", function(request, response) {
 
 app.get("/en/seo-services/indexation", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-indexation",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1850,7 +1850,7 @@ app.get("/en/seo-services/indexation", function(request, response) {
 
 app.get("/de/seo-optimierung/onpage-seo", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-onpage",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1858,7 +1858,7 @@ app.get("/de/seo-optimierung/onpage-seo", function(request, response) {
 
 app.get("/en/seo-services/seoaudit", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-audit",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1866,7 +1866,7 @@ app.get("/en/seo-services/seoaudit", function(request, response) {
 
 app.get("/de/seo-optimierung/seoaudit", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-audit",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1874,7 +1874,7 @@ app.get("/de/seo-optimierung/seoaudit", function(request, response) {
 
 app.get("/de/on-page*", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-onpage",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1921,14 +1921,14 @@ app.get("/de/lexical*", function(request, response) {
 
 app.get("/de/audit", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-audit",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 app.get("/en/audit", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-audit",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2061,7 +2061,7 @@ app.get("/de/consultant", function(request, response) {
 
 app.get("/de/onpage/keyword-recherche", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/keyword-research",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2069,7 +2069,7 @@ app.get("/de/onpage/keyword-recherche", function(request, response) {
 
 app.get("/en/onpage/keyword-research", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/keyword-research",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2077,14 +2077,14 @@ app.get("/en/onpage/keyword-research", function(request, response) {
 
 app.get("/en/onpage*", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-onpage",
+        Location: localhost + "/en/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
 });
 app.get("/de/onpage*", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-onpage",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2109,7 +2109,7 @@ app.get("/de/blog/technical-seo", function(request, response) {
 
 app.get("/de/blog/onpage-seo", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-onpage",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2117,7 +2117,7 @@ app.get("/de/blog/onpage-seo", function(request, response) {
 
 app.get("/de/offpage*", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/backlinks",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2125,7 +2125,7 @@ app.get("/de/offpage*", function(request, response) {
 
 app.get("/en/offpage*", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/backlinks",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2157,7 +2157,7 @@ app.get("/en/technical*", function(request, response) {
 
 app.get("/en/seo-services/competitor-analysis", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/competitor-analysis",
+        Location: localhost + "/en/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2165,7 +2165,7 @@ app.get("/en/seo-services/competitor-analysis", function(request, response) {
 
 app.get("/de/seo-optimierung/competitor-analysis", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/competitor-analysis",
+        Location: localhost + "/de/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2173,7 +2173,7 @@ app.get("/de/seo-optimierung/competitor-analysis", function(request, response) {
 
 app.get("/en/seo-services/localSEO", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/local-seo",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2181,7 +2181,7 @@ app.get("/en/seo-services/localSEO", function(request, response) {
 
 app.get("/de/seo-optimierung/localSEO", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/local-seo",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2190,7 +2190,7 @@ app.get("/de/seo-optimierung/localSEO", function(request, response) {
 
 app.get("/en/seo-services/backlink*", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/backlinks",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2199,7 +2199,7 @@ app.get("/en/seo-services/backlink*", function(request, response) {
 
 app.get("/de/seo-optimierung/backlink*", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/backlinks",
+        Location: localhost + "/de/seo-beatung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2216,7 +2216,7 @@ app.get("/de/blog*", function(request, response) {
 
 app.get("/en/seo-services/pagespeed", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-page-speed",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2224,7 +2224,7 @@ app.get("/en/seo-services/pagespeed", function(request, response) {
 
 app.get("/en/seo-optimierung/pagespeed", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-page-speed",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2232,7 +2232,7 @@ app.get("/en/seo-optimierung/pagespeed", function(request, response) {
 
 app.get("/en/seo-relaunch", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-relaunch",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2240,7 +2240,7 @@ app.get("/en/seo-relaunch", function(request, response) {
 
 app.get("/de/seo-relaunch", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-relaunch",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2248,7 +2248,7 @@ app.get("/de/seo-relaunch", function(request, response) {
 
 app.get("/en/seo-services/crawl", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-indexation",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2256,7 +2256,7 @@ app.get("/en/seo-services/crawl", function(request, response) {
 
 app.get("/en/seo-services/international", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-relaunch",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2265,7 +2265,7 @@ app.get("/en/seo-services/international", function(request, response) {
 
 app.get("/en/seo-consultant", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-expert",
+        Location: localhost + "/en/seo-consultancy",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2282,7 +2282,7 @@ app.get("/de/seo-consultant", function(request, response) {
 
 app.get("/de/seo-optimierung/crawl", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-indexation",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2290,7 +2290,7 @@ app.get("/de/seo-optimierung/crawl", function(request, response) {
 
 app.get("/de/seo-optimierung/international", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-relaunch",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2298,7 +2298,7 @@ app.get("/de/seo-optimierung/international", function(request, response) {
 
 app.get("/de/seo-optimierung/mitwettbewerber", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/competitor-analysis",
+        Location: localhost + "/de/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2308,7 +2308,7 @@ app.get("/de/seo-optimierung/mitwettbewerber", function(request, response) {
 
 app.get("/de/seo-page-speed", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-page-speed",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2316,7 +2316,7 @@ app.get("/de/seo-page-speed", function(request, response) {
 
 app.get("/en/seo-services/images", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/en/seo-onpage",
+        Location: localhost + "/en/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -2324,7 +2324,7 @@ app.get("/en/seo-services/images", function(request, response) {
 
 app.get("/de/seo-optimierung/images", function(request, response) {
     response.writeHead(301, {
-        Location: localhost + "/de/seo-onpage",
+        Location: localhost + "/de/seo-beratung",
         Expires: new Date().toGMTString()
     });
     response.end();
