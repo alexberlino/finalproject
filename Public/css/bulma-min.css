@@ -5718,19 +5718,22 @@ a:hover.tag {
     vertical-align: middle;
     position: inline-block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto
+    margin-left: auto !important;
+    margin-right: auto !important
 
 }
 
 .clients-hero .logo-container a .client-logo:hover {
-    opacity: .7;
-    text-align: center
+    opacity: .7
 }
 
 .clients-hero .logo-container a:hover {
-    opacity: .7;
-    text-align: center;
+    opacity: .7
+}
+
+.clients-hero .logo-container {
+    margin-left: auto !important;
+    margin-right: auto !important
 }
 
 .testimonials-hero .column {
