@@ -35,13 +35,13 @@
     "hbs": "^4.2.0",
     "helmet": "^4.6.0",
     "http": "0.0.0",
-    "http2": "^3.3.7",
     "i18n": "^0.8.6",
     "lodash": "^4.17.21",
     "nodemailer": "^6.9.5",
     "querystring": "^0.2.1",
     "redis": "^4.6.10",
     "spiced-pg": "^1.0.4",
-    "strict-transport-security": "^0.2.2"
+    "strict-transport-security": "^0.2.2",
+    "string-width": "^6.1.0"
   }
 }
