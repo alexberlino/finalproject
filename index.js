@@ -1349,10 +1349,57 @@ app.get("/en/seo-services/site-migration-seo-checklist", (req, res) => {
 
 import nodemailer from "nodemailer";
 
-app.post("/en/email", function(req, res) {
-    console.log(req.body.name)
-    console.log(req.body.address.length)
 
+
+
+// /**
+//  * This snippet has been automatically generated and should be regarded as a code template only.
+//  * It will require modifications to work.
+//  * It may require correct/in-range values for request initialization.
+//  * TODO(developer): Uncomment these variables before running the sample.
+//  */
+// /**
+//  *  Required. The name of the project that contains the keys that will be
+//  *  listed, in the format "projects/{project}".
+//  */
+// const parent = 'abc123'
+// /**
+//  *  Optional. The maximum number of keys to return. Default is 10. Max limit is
+//  *  1000.
+//  */
+// const pageSize = 1234
+// /**
+//  *  Optional. The next_page_token value returned from a previous.
+//  *  ListKeysRequest, if any.
+//  */
+// const pageToken = 'abc123'
+
+// // Imports the Recaptchaenterprise library
+// import { RecaptchaEnterpriseServiceClient }  from '@google-cloud/recaptcha-enterprise';
+//     // eslint-disable-next-line node/no-missing-require
+
+
+// // Instantiates a client
+// const recaptchaenterpriseClient = new RecaptchaEnterpriseServiceClient();
+
+// async function callListKeys() {
+//     // Construct request
+//     const request = {
+//         parent,
+//     };
+
+//     // Run request
+//     const iterable = await recaptchaenterpriseClient.listKeysAsync(request);
+//     for await (const response of iterable) {
+//         console.log(response);
+//     }
+// }
+
+// callListKeys();
+
+
+
+app.post("/en/email", function (req, res) {
     if (req.body.address
         .length != 0 | req.body.name === "Richarnet") {
         res.writeHead(301, {
@@ -1362,7 +1409,7 @@ app.post("/en/email", function(req, res) {
 
     } else {
 
-        nodemailer.createTestAccount((error, account) => {
+
             const htmlEmail = `
                     <h3> Contact Details </h3>
                     <ul>
@@ -1406,7 +1453,7 @@ app.post("/en/email", function(req, res) {
                     res.end();
                 }
             });
-        });
+        
     }
 });
 
@@ -1421,7 +1468,7 @@ app.post("/de/email", function(req, res) {
 
     } else {
 
-        nodemailer.createTestAccount((error, account) => {
+
             const htmlEmail = `
                     <h3> Contact Details </h3>
                     <ul>
@@ -1464,7 +1511,7 @@ app.post("/de/email", function(req, res) {
                     res.end();
                 }
             });
-        });
+        
     }
 });
 
@@ -1737,7 +1784,7 @@ app.get("/en/seo-copywriting", function (request, response) {
 
 app.get("/en/smm", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "7en/online-marketing",
+        Location: localhost + "/en/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1746,7 +1793,7 @@ app.get("/en/smm", function (request, response) {
 
 app.get("/en/competitor-analysis", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "env-marketing",
+        Location: localhost + "/en/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();
@@ -1755,7 +1802,7 @@ app.get("/en/competitor-analysis", function (request, response) {
 
 app.get("/en/reporting-analytics", function (request, response) {
     response.writeHead(301, {
-        Location: localhost + "en/online-marketing",
+        Location: localhost + "/en/online-marketing",
         Expires: new Date().toGMTString()
     });
     response.end();

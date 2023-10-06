@@ -15,9 +15,9 @@
                                 class="black" href="/{{{__ " lang"}}}/{{{__ "seoexperturl" }}}">{{{__
                                 "consultant"}}}</a><br></span><br>
 
-                        <span class=" subtitle is-5 reduced-top-margin">E - <a
+                        <span class=" subtitle is-5 reduced-top-margin">Send an email:   - <a
                                 href="mailto:alex@seoberlino.com">alex@seoberlino.com</a></span><br>
-                        <span class=" subtitle is-5 reduced-top-margin">Let's meet -<a
+                        <span class=" subtitle is-5 reduced-top-margin">Let's meet :  <a
                                 href="https://calendly.com/seo-berlino/30min">Set up a 30 mn Call free of charge</a><br>
                         </span>
                     </div>
@@ -25,7 +25,6 @@
 
             
                 <form id="subscribeForm" class="colophone-form" method="post" action="/{{{__ "lang"}}}/email">
-
 
                     <h2 class="title is-5 is-heavy no-margins form-title">{{{__ "getintouch"}}}</h2><br>
                     <div class="inline">
@@ -112,3 +111,32 @@
         </div><br>
     </div><br><br><br><br><br>
 </section>
+
+{{!-- <script>const btn = document.querySelector("button");
+const recaptchaScore = document.querySelector("#score-render");
+
+function createToken(e){
+e.preventDefault();
+grecaptcha.enterprise.ready(async function() {
+//---- step : 1 generating token with help of site key (you can make site key public)
+const token = await grecaptcha.enterprise.execute(
+"6Lf2-1ceAAAAAKFggSYLN1GWxB69n45zr5EXvI5i",
+{
+action: "LOGIN",
+}
+);
+let options = {
+method: "POST",
+headers: {
+"Content-Type": "application/json",
+},
+body: JSON.stringify({ token, action: "LOGIN" })
+};
+//---- step : 2 sending generated token to backend
+
+let res = await fetch("https://recaptcha.learning-cloud.co.in/interpret", options);
+let resJson = await res.json();
+recaptchaScore.innerText = `The recaptcha score is ${resJson.score}`;
+});
+}
+btn.addEventListener("click", createToken);</script> --}}
