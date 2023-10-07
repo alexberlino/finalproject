@@ -253,7 +253,7 @@ app.get("/en/seo-services/berlin", (req, res) => {
         requrl: localhost + "/en/seo-services/berlin",
         layout: "mainNoAlt",
         title: "SEO in Berlin, the place to be | SEO Berlino",
-        description: "SEO and Analytics Expert: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
+        description: "SEO Freelancer and Analytics Expert: SEO, Analytics, SEA und Scrum. Kunden: Montblanc, HelloFresh, Spreadshirt, Ricoh, etc.",
         canonical: localhost + "/en/seo-services/berlin"
     });
 });
@@ -710,7 +710,7 @@ app.get("/de/sea", (req, res) => {
     res.render("otherberatung/beratungsea", {
         requrl: localhost + "/en" + req.originalUrl.substring(3),
         layout: "mainDE",
-        title: "Online Marketing Beratung | SEO Berlino",
+        title: "Online Marketing Beratung Freelancer | SEO Berlino",
         description: "SEA-Experte für Suchmaschinen-Werbeprojekte: Google Ads, Facebook Ads, Instagram. Setup, Testing, Analytics und Optimierung. Kunden: Montblanc, BSH, etc",
         canonical: localhost + "" + req.originalUrl,
         alt: localhost + "/en/sea"
@@ -734,7 +734,7 @@ app.get("/en/agile-coach-berlin", (req, res) => {
     res.render("otherberatung/beratungscrum", {
         requrl: localhost + "/en/agile-coach-berlin",
         layout: "mainNoAlt",
-        title: "Agile Coach in Berlin | SEO Berlino",
+        title: "Agile Coach Freelancer in Berlin | SEO Berlino",
         description: "Experienced Agile Coach for Agile implementation. Agile experience at HelloFresh and Spreadshirt. Scrum Certified Scrum Master as both Scrum Master and Product owner.",
         canonical: localhost + "/en/agile-coach-berlin",
         alt: localhost + "/de/agile-coach-berlin"
