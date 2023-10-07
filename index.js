@@ -1,62 +1,20 @@
-import express from 'express';
+const express = require("express");
 const app = express();
-const path = import('path');
+const {
+    stringify
+} = require("querystring");
+var i18n = require("i18n");
 
-var hbs = import("hbs");
+var hbs = require("hbs");
+var hb = require("express-handlebars");
+var bodyParser = require("body-parser");
+var http = require("http");
 
-import { engine } from 'express-handlebars';
+var force = require("express-force-domain");
+const helmet = require('helmet')
+const featurePolicy = require('feature-policy')
+const sts = require('strict-transport-security');
 
-app.engine('handlebars', engine());
-app.set('view engine', 'handlebars');
-app.set('views', './views');
-
-
-import compression from "compression";
-
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-import { join } from 'path';
-
-const __filename = fileURLToPath(import.meta.url);
-
-const __dirname = dirname(__filename);
-
-
-app.set('view engine', '.hbs');
-app.set('views', join(__dirname, 'views'));
-
-// now that handlebars is configured,
-// configure all our routes on this app objectnp 
-
-
-//import ('./app/index')(app);
-
-
-
-
-import http from "http";
-import force from "express-force-domain";
-import helmet from 'helmet';
-import featurePolicy  from 'feature-policy';
-import sts from 'strict-transport-security'
-
-
-
-
-
-const globalSTS = sts.getSTS({
-    'max-age': {
-     'days': 30
-   }
- });
-const localSTS = sts.getSTS({
-   'max-age': {
-  'days': 10
-     },
-    'includeSubDomains': true
- });
-
-// This will apply this policy to all requests
 
 app.use(helmet.frameguard());
 app.use(helmet.referrerPolicy());
@@ -64,29 +22,51 @@ app.use(helmet.hidePoweredBy());
 app.use(helmet.noSniff());
 
 
+const globalSTS = sts.getSTS({
+    'max-age': {
+        'days': 30
+    }
+});
+const localSTS = sts.getSTS({
+    'max-age': {
+        'days': 10
+    },
+    'includeSubDomains': true
+});
+
+// This will apply this policy to all requests
 app.use(globalSTS);
 
 app.use(featurePolicy({
-     features: {
+    features: {
         fullscreen: ["'self'"],
-         syncXhr: ["'none'"]
-     }
+        syncXhr: ["'none'"]
+    }
 }))
 
-import BodyParser from 'body-parser';
-
 app.use(
-    BodyParser.urlencoded({
-       extended: false
- })
+    bodyParser.urlencoded({
+        extended: false
+    })
 );
+app.use(bodyParser.json());
 
-app.use(BodyParser.json());
-const {
-    stringify
-} = import("querystring");
-import i18n from 'i18n';
 
+app.engine(
+    ".hbs",
+    hb({
+        extname: ".hbs",
+        defaultLayout: "main",
+        helpers: {
+            __: function() {
+                return i18n.__.apply(this, arguments);
+            },
+            __n: function() {
+                return i18n.__n.apply(this, arguments);
+            }
+        }
+    })
+);
 app.set("view engine", ".hbs");
 i18n.configure({
     locales: ["en", "de"],
@@ -119,17 +99,15 @@ if (process.env.NODE_ENV === "production") {
     });
 }
 
-
+var compression = require("compression");
 app.use(compression());
-
-import secret from "./secrets.json" assert {type:'json'}
 
 
 let secrets;
 if (process.env.NODE_ENV == "production") {
     secrets = process.env;
 } else {
-    secrets = secret;
+    secrets = require("./secrets.json");
 }
 
 let localhost;
@@ -139,13 +117,9 @@ if (process.env.NODE_ENV == "production") {
     localhost = "";
 }
 
-
-import cookieSession from "cookie-session";
-import cookieParser from 'cookie-parser';
-
-
-app.use(cookieParser());
-app.use(BodyParser.json());
+const cookieSession = require("cookie-session");
+app.use(require("cookie-parser")());
+app.use(require("body-parser").json());
 
 const cookieSessionMiddleware = cookieSession({
     secret: secrets.COOKIE_PASS,
@@ -156,8 +130,9 @@ app.use(cookieSessionMiddleware);
 
 app.set("view engine", "handlebars");
 
+app.engine("handlebars", hb());
 app.use(
-    BodyParser.urlencoded({
+    require("body-parser").urlencoded({
         extended: false
     })
 );
@@ -165,9 +140,9 @@ app.use(
 app.get("/setcookiesession", (req, res) => {
     req.session.checked = true;
 
-   res.json({
-      success: true
-   });
+    res.json({
+        success: true
+    });
 });
 
 app.get("/en", (req, res) => {
@@ -1347,7 +1322,7 @@ app.get("/en/seo-services/site-migration-seo-checklist", (req, res) => {
     });
 });
 
-import nodemailer from "nodemailer";
+var nodemailer = require("nodemailer");
 
 
 
@@ -2409,4 +2384,4 @@ app.all("*", function(req, res) {
 
 });
 // listening
-app.listen(process.env.PORT || 8080, () => console.log("listening"))
+app.listen(process.env.PORT || 8080, () => console.log("listening"));
